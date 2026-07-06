@@ -1,0 +1,199 @@
+{
+  "id": "t3-3",
+  "slug": "salud",
+  "name": "Salud",
+  "pillar": "p3",
+  "doc_section": "3.3",
+  "groups": [
+    {
+      "title": "Prevención y promoción de la salud",
+      "proposals": [
+        {
+          "id": "t3-3.P01",
+          "text": "Creación de centros de salud materno-infantiles rurales, como parte del avance hacia la salud universal, y fortalecimiento de la atención preventiva mediante la Dirección General de Prevención en Salud, ampliando su alcance en vacunación, chequeos obligatorios y educación sanitaria."
+        },
+        {
+          "id": "t3-3.P02",
+          "text": "Lanzamiento de un Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil, en el marco de la salud universal desde la primera infancia, articulado con campañas de “Bebés que Nacen Fuertes”."
+        },
+        {
+          "id": "t3-3.P03",
+          "text": "Reactivación y fortalecimiento del modelo CLAS (Comunidades Locales de Administración de Salud), asegurando financiamiento sostenible, mecanismos de control social moderno, profesionalización en la gestión y contratos de incentivos basados en resultados."
+        },
+        {
+          "id": "t3-3.P04",
+          "text": "Implementación de un Padrón Nominal de gestantes y niños menores de 3 años para seguimiento en tiempo real, interoperable con RENIEC y el SIS."
+        },
+        {
+          "id": "t3-3.P05",
+          "text": "Aseguramiento de la entrega oportuna de un paquete priorizado de prestaciones, garantizando el acceso efectivo a la salud universal y al desarrollo infantil temprano."
+        },
+        {
+          "id": "t3-3.P06",
+          "text": "Promoción de la alimentación saludable mediante campañas educativas en el canal del Estado y en instituciones educativas, regulando la publicidad de alimentos procesados."
+        },
+        {
+          "id": "t3-3.P07",
+          "text": "Orientación del gasto público hacia infraestructura sanitaria básica, nutrición infantil y vacunación universal, con articulación entre MINSA, MIDIS y gobiernos locales."
+        },
+        {
+          "id": "t3-3.P08",
+          "text": "Establecimiento de un plan de vacunación gratuito para adultos mayores de 60 años, y chequeos médicos obligatorios cada dos años para personas de 16 a 60 años, enfocados en detección temprana."
+        },
+        {
+          "id": "t3-3.P09",
+          "text": "Creación del Sistema Nacional de Cuidados como política de Estado, para atender integralmente a adultos mayores, personas con discapacidad, niños y personas en situación de dependencia, articulando a los sectores Salud, Mujer, Desarrollo e Inclusión Social, Trabajo, Educación y gobiernos subnacionales"
+        },
+        {
+          "id": "t3-3.P10",
+          "text": "Implementación de Centros Públicos, para adultos mayores y personas con discapacidad, con servicios de alimentación, salud preventiva, rehabilitación, recreación y acompañamiento psicosocial."
+        },
+        {
+          "id": "t3-3.P11",
+          "text": "Incorporación de la preparación frente a futuras pandemias como eje transversal del sistema nacional de salud."
+        },
+        {
+          "id": "t3-3.P12",
+          "text": "Fortalecimiento de la Red Nacional de Centros de Salud Mental Comunitarios, ampliando su cobertura en el país, priorizando zonas rurales, amazónicas y urbano-marginales."
+        },
+        {
+          "id": "t3-3.P13",
+          "text": "Desarrollo de una plataforma digital de atención psicológica y orientación emocional con atención 24/7, integrada a la Línea 113 Salud Mental."
+        },
+        {
+          "id": "t3-3.P14",
+          "text": "Ejecución de campañas permanentes de salud masiva, gratuitas o de bajo costo, priorizando las zonas más vulnerables y de alta presencia de animales en calle, en coordinación con gobiernos regionales, municipalidades, colegios profesionales y organizaciones animalistas, como eje central de control poblacional y salud pública."
+        },
+        {
+          "id": "t3-3.P15",
+          "text": "Implementación del Carnet Nacional del Adulto Mayor en el acceso a salud, otorgando descuentos obligatorios en medicamentos y consultas médicas en establecimientos públicos y privados, priorizando tratamientos para enfermedades crónicas, con el fin de reducir el gasto de bolsillo y asegurar continuidad en la atención del adulto mayor."
+        }
+      ]
+    },
+    {
+      "title": "Atención de segunda línea",
+      "proposals": [
+        {
+          "id": "t3-3.P16",
+          "text": "Despliegue de un sistema de telemedicina nacional para ampliar la cobertura de consultas y diagnósticos, especialmente en zonas rurales y de difícil acceso."
+        },
+        {
+          "id": "t3-3.P17",
+          "text": "Implementación del otorgamiento de citas prontas en ambientes cómodos y adecuados, como medida prioritaria, garantizando trato digno al paciente."
+        },
+        {
+          "id": "t3-3.P18",
+          "text": "Organización de equipos de profesionales itinerantes para reforzar la atención a pacientes dados de alta o que no han recibido atención oportuna, incorporando seguimiento digital y visitas domiciliarias."
+        },
+        {
+          "id": "t3-3.P19",
+          "text": "Implementación del Programa Nacional de Atención Domiciliaria de Cuidados, priorizando hogares en pobreza, pobreza extrema y zonas rurales, con equipos multidisciplinarios de salud, rehabilitación y apoyo psicosocial."
+        },
+        {
+          "id": "t3-3.P20",
+          "text": "Dotación a postas médicas y hospitales de infraestructura, equipamiento y materiales adecuados, priorizando la atención de enfermedades crónicas, geriátricas y de salud mental."
+        },
+        {
+          "id": "t3-3.P21",
+          "text": "Implementación de una red interconectada y referenciada de centros de atención primaria, que permita derivar pacientes a los hospitales según protocolos estandarizados, evitando la saturación hospitalaria y garantizando que la orientación, el triaje y la información brindada se adapten a los diversos idiomas y contextos culturales de cada zona, para asegurar un acceso efectivo y comprensible a los servicios de salud."
+        }
+      ]
+    },
+    {
+      "title": "Atención compleja",
+      "proposals": [
+        {
+          "id": "t3-3.P22",
+          "text": "Incremento de camas hospitalarias y construcción de nuevos establecimientos según densidad poblacional: hospitales tipo I para atención básica, hospitales tipo II equipados con especialidades, y un hospital tipo III por macroregión para atención compleja."
+        },
+        {
+          "id": "t3-3.P23",
+          "text": "Ejecución de proyectos para el fortalecimiento del Hospital Nacional Sergio E. Bernales, Hospital Nacional Hipólito Unanue, Hospital de Chinchero, Hospital de Alta Complejidad de Piura, Establecimientos de Salud Huari y Huaripampa."
+        },
+        {
+          "id": "t3-3.P24",
+          "text": "Modernización y actualización del Fondo Nacional para Enfermedades de Alto Costo (FINSAL), que defina capas de atención y garantice cobertura integral sin riesgo de endeudamiento familiar. Además, de actualizar el listado de enfermades que son cubiertas por el FINSAL (tipos de cáncer no cubiertos por el SIS)"
+        },
+        {
+          "id": "t3-3.P25",
+          "text": "Implementación del Programa Nacional de Medicamentos con Descuento Preferencial, garantizando acceso permanente a tratamientos para enfermedades crónicas mediante farmacias públicas y privadas, con regulación de precios y estándares de calidad"
+        }
+      ]
+    },
+    {
+      "title": "Fortalecimiento institucional",
+      "proposals": [
+        {
+          "id": "t3-3.P26",
+          "text": "Fortalecimiento del rol rector del MINSA con funciones claras: conducción sectorial, regulación, aseguramiento, modulación del financiamiento y armonización de la provisión."
+        },
+        {
+          "id": "t3-3.P27",
+          "text": "Separación de las funciones de financiamiento y prestación de servicios tanto en el sector público como en EsSalud, para evitar conflictos de interés."
+        },
+        {
+          "id": "t3-3.P28",
+          "text": "Impulso de convenios de tarifas entre instituciones públicas y privadas, permitiendo que el usuario elija libremente dónde atenderse sin afectar la cobertura financiera."
+        },
+        {
+          "id": "t3-3.P29",
+          "text": "Ampliación de la cobertura del aseguramiento público mediante un sistema único de afiliación con base en criterios socioeconómicos y territoriales."
+        },
+        {
+          "id": "t3-3.P30",
+          "text": "Modernización del modelo de gestión CLAS, asegurando reglas claras para la firma de convenios, mecanismos de rendición de cuentas digital, metas de desempeño vinculadas a resultados en Atención Primaria de la Salud, fortalecimiento de la participación comunitaria, ampliación de los CLAS en zonas rurales y amazónicas, y articulación con gobiernos locales para mejorar la gobernanza territorial en salud."
+        },
+        {
+          "id": "t3-3.P31",
+          "text": "Aseguramiento de la cobertura del SIS para los jóvenes beneficiarios del régimen de empleo y emprendimiento, asegurando acceso a la salud y protección social durante su etapa de inserción laboral o desarrollo empresarial."
+        },
+        {
+          "id": "t3-3.P32",
+          "text": "Implementación de la interoperabilidad total de historias clínicas electrónicas, homologadas con el número de DNI, permitiendo trazabilidad y atención continua en cualquier establecimiento del país."
+        },
+        {
+          "id": "t3-3.P33",
+          "text": "Desarrollo de un Sistema Nacional de Información Nominal en Salud Infantil y Materna, interoperable con RENIEC, SIS y EsSalud, con alertas tempranas para riesgos de anemia y desnutrición."
+        },
+        {
+          "id": "t3-3.P34",
+          "text": "Introducción de algoritmos de detección de brotes epidemiológicos y sistemas predictivos para anticipar emergencias sanitarias y pandemias."
+        },
+        {
+          "id": "t3-3.P35",
+          "text": "Autorización del ingreso de medicamentos registrados en países de alta vigilancia sanitaria, reduciendo tiempos de acceso y garantizando estándares internacionales de calidad."
+        },
+        {
+          "id": "t3-3.P36",
+          "text": "Fomento de la producción nacional de genéricos esenciales y la negociación conjunta de precios a nivel estatal para abaratar costos de tratamiento."
+        },
+        {
+          "id": "t3-3.P37",
+          "text": "Aseguramiento de la implementación de la Ley Nacional del Cáncer, con presupuesto, metas anuales de cobertura y supervisión permanente, asegurando atención gratuita, oportuna e integral en el país priorizando a las poblaciones más vulnerables y de menores recursos."
+        },
+        {
+          "id": "t3-3.P38",
+          "text": "Creación del Banco Nacional de Cuidadores Certificados, articulado al sistema de salud, para asegurar disponibilidad de cuidadores formales capacitados y supervisados."
+        },
+        {
+          "id": "t3-3.P39",
+          "text": "Reconocimiento del trabajo de cuidado como actividad económica complementaria al sistema de salud, incorporando a cuidadores a procesos de capacitación técnica, certificación de competencias y acceso a servicios de salud."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-3.C01",
+      "text": "Lanzamiento del Sistema Nacional de Telemedicina para Zonas Rurales y Amazónicas."
+    },
+    {
+      "id": "t3-3.C02",
+      "text": "Implementación del sistema de Citas Prontas en hospitales nacionales y regionales priorizados, reduciendo los tiempos de espera con mecanismos digitales y priorización de pacientes crónicos."
+    },
+    {
+      "id": "t3-3.C03",
+      "text": "Inicio con la implementación de una red nacional de Centros de Salud Materno-Infantiles Rurales, fortaleciendo la atención preventiva, la vacunación y la educación sanitaria en comunidades altoandinas y amazónicas."
+    }
+  ]
+}

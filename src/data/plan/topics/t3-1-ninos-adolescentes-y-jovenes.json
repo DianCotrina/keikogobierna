@@ -1,0 +1,291 @@
+{
+  "id": "t3-1",
+  "slug": "ninos-adolescentes-y-jovenes",
+  "name": "Niños, adolescentes y jóvenes",
+  "pillar": "p3",
+  "doc_section": "3.1",
+  "groups": [
+    {
+      "title": "UNICEF",
+      "proposals": [
+        {
+          "id": "t3-1.P01",
+          "text": "Garantía para que las vacunas y el equipamiento necesario para mantener la cadena de frío lleguen a todo el país. Además, implementar estrategias de cambio de comportamiento con participación comunitaria para mejorar la aceptación y cobertura de las vacunas."
+        },
+        {
+          "id": "t3-1.P02",
+          "text": "Inserción en el Programa Presupuestal orientado a Resultados de Desarrollo Infantil Temprano (PPoR DIT), el tamizaje para la identificación de retrasos en el desarrollo, así como su tratamiento respectivo."
+        },
+        {
+          "id": "t3-1.P03",
+          "text": "Establecimiento de una asignación presupuestal específica para la implementación del Reglamento de la Ley de Acceso Universal al Agua Potable (LAU), Ley N.º 32065, enfocada en la elaboración de una línea de base actualizada sobre la brecha de acceso a servicios de agua y saneamiento, priorizando regiones vulnerables, comunidades indígenas y familias con niños y adolescentes en situación de riesgo."
+        },
+        {
+          "id": "t3-1.P04",
+          "text": "Fortalecimiento de la implementación del Plan Multisectorial de Lucha contra la Anemia Materno Infantil mediante la asignación presupuestal específica para la provisión oportuna de suplementos y medicamentos. Así como, el fortalecimiento de la suplementación preventiva y terapéutica en gestantes y niños de 6 a 35 meses, además del monitoreo mensual de cobertura y adherencia en coordinación con gobiernos regionales y locales."
+        },
+        {
+          "id": "t3-1.P05",
+          "text": "Aseguramiento del cumplimiento permanente de la Ley de Promoción de Alimentación Saludable en Niñas, Niños y Adolescentes (Ley N° 30021) que impulsa la incorporación de octógonos en fórmulas y alimentos infantiles, y la recuperación de la práctica de la lactancia materna exclusiva y continuada."
+        },
+        {
+          "id": "t3-1.P06",
+          "text": "Fortalecer de las intervenciones vinculadas al apego seguro y regulación de emociones y comportamientos desde el sector salud, en el marco del PPoR DIT, priorizando las visitas domiciliarias como espacio clave para promover el desarrollo infantil temprano."
+        },
+        {
+          "id": "t3-1.P07",
+          "text": "Ampliación de la cobertura del Plan de Salud Mental en Instituciones Educativas, priorizando aquellas ubicadas en zonas rurales, urbano-marginales y de alta vulnerabilidad psicosocial de las regiones con mayor prevalencia de riesgos o problemas de salud mental."
+        },
+        {
+          "id": "t3-1.P08",
+          "text": "Lanzamiento del programa presupuestal multisectorial para el desarrollo integral de los adolescentes con el objetivo de prevenir el embarazo y VIH, así como fortalecer las habilidades socioemocionales."
+        },
+        {
+          "id": "t3-1.P09",
+          "text": "Implementación de un sistema nacional autónomo de vigilancia activa de niveles de plomo en sangre y suelos, priorizando zonas con minería y presencia de cerámica tradicional."
+        },
+        {
+          "id": "t3-1.P10",
+          "text": "Promoción de la Alianza Libre de Plomo, como plataforma nacional para articular esfuerzos de detección, prevención y eliminación de la exposición infantil al plomo."
+        },
+        {
+          "id": "t3-1.P11",
+          "text": "Asignación de presupuesto para ampliar la cobertura de Servicios de Apoyo Educativo (SAE) a nivel nacional de manera que lleguen a todas las DRE y UGEL, y que permitan atender las necesidades de todas los niños y adolescentes, en particular de quienes tienen alguna condición de discapacidad u otras necesidades."
+        },
+        {
+          "id": "t3-1.P12",
+          "text": "Asignación de presupuesto para ampliar la implementación de estrategias nacionales para la recuperación de aprendizajes, incluyendo formación en servicio y acompañamiento pedagógico a los directivos y docentes, materiales educativos, guías y la mejora de los sistemas de información a nivel regional y local para un mejor seguimiento a cargo de las Unidades de Gestión Educativa Local (UGEL) y las Direcciones Regionales de Educación (DRE)."
+        },
+        {
+          "id": "t3-1.P13",
+          "text": "Promulgación de una normativa que promueva la educación acelerada y modalidades de educación flexible para enfrentar los problemas de extra-edad y ampliar la cobertura en regiones y comunidades aisladas con un enfoque multicultural y de inclusividad."
+        },
+        {
+          "id": "t3-1.P14",
+          "text": "Consolidación de la Transferencia a la Alta Secundaria (TAS) dentro del Programa JUNTOS y fortalecerla complementándola con un servicio de acompañamiento educativo para prevenir que los estudiantes beneficiarios deserten del sistema educativo y culminen la educación secundaria satisfactoriamente."
+        },
+        {
+          "id": "t3-1.P15",
+          "text": "Diseño e implementación de estrategias para dinamizar la educación técnica y ocupacional, especialmente en áreas STEM (Ciencias, Tecnología, Ingeniería y Matemáticas), incluyendo un dialogo con el sector privado para la identificación de ocupaciones y oportunidades futuras de empleo a nivel subnacional para los adolescentes."
+        },
+        {
+          "id": "t3-1.P16",
+          "text": "Ampliación de la formación en servicio y acompañamiento pedagógico a docentes y directivos en competencias y uso de las herramientas digitales, así como el uso crítico y ético de herramientas de Inteligencia Artificial (IA) para la mejora educativa."
+        },
+        {
+          "id": "t3-1.P17",
+          "text": "Desarrollo de nuevos programas curriculares de ocupaciones técnicas en áreas digitales y tecnológicas para brindar a los adolescentes mejores oportunidades de inserción laboral o continuidad educativa en el futuro."
+        },
+        {
+          "id": "t3-1.P18",
+          "text": "Identificación de oportunidades para el uso de los mecanismos de Obras por Impuestos (OXI) en la mejora de la infraestructura y mobiliario escolar, incluyendo aulas de innovación, mejora de baños y acceso al agua potable y saneamiento en los locales escolares."
+        },
+        {
+          "id": "t3-1.P19",
+          "text": "Integración como beneficiarios del Programa CONTIGO, a todos los niños y adolescentes con discapacidad en situación de pobreza o pobreza extrema. Así como, la elaboración de un protocolo de acompañamiento a las familias beneficiarias con el fin de que mejoren sus capacidades de cuidado y autocuidado."
+        },
+        {
+          "id": "t3-1.P20",
+          "text": "Agilización de la implementación gradual del nuevo esquema de transferencias monetarias condicionadas del Programa JUNTOS, así como el incremento de su cobertura, tomando en cuenta la evidencia generada sobre su efectividad para fortalecer el capital humano y reducir la pobreza."
+        },
+        {
+          "id": "t3-1.P21",
+          "text": "Diseño e implementación de un programa de prevención y reducción del trabajo infantil, tal como el fortalecimiento de la resiliencia climática de los servicios sociales (salud, nutrición, educación y cuidado temprano con enfoque climático) e infraestructura crítica para así proteger mejor a los niños, adolescentes y jóvenes."
+        },
+        {
+          "id": "t3-1.P22",
+          "text": "Asignación presupuestal para la prevención y protección de los niños y adolescentes, en particular frente a la violencia, y mejorar la calidad del gasto de acuerdo con los estándares internacionales en materia de derechos de la niñez y adolescencia."
+        },
+        {
+          "id": "t3-1.P23",
+          "text": "Establecimiento de un servicio de protección especializado para los niños y adolescentes con una mirada integral que aborde los problemas de violencia, desprotección familiar y otros asuntos de protección a través de la gestión de casos."
+        },
+        {
+          "id": "t3-1.P24",
+          "text": "Fortalecimiento de las familias mediante la promoción de una crianza positiva con foco en la prevención de violencia contra los niños y adolescentes, incluida la violencia sexual; y que pueda liderar acciones para la generación de cambios sociales y de comportamiento."
+        },
+        {
+          "id": "t3-1.P25",
+          "text": "Establecimiento un sistema de protección y justicia especializado para la atención de niñas y adolescentes mujeres víctimas y sobrevivientes de violencia sexual."
+        },
+        {
+          "id": "t3-1.P26",
+          "text": "Fortalecimiento de la implementación de la Política Nacional del Adolescente en Riesgo y en Conflicto con la Ley Penal al 2030, que establece lineamientos para la prevención de la criminalidad adolescente, la mejora de la justicia penal juvenil y el fortalecimiento de la reinserción social."
+        },
+        {
+          "id": "t3-1.P27",
+          "text": "Aseguramiento de espacios públicos seguros para la infancia y oportuna atención a la niñez víctima de actos delictivos, tal como el acceso seguro y permanente a las escuelas, a través de un trabajo articulado con las entidades involucradas para la prevención del delito."
+        },
+        {
+          "id": "t3-1.P28",
+          "text": "Promover que los gobiernos subnacionales incorporen el enfoque de niñez y adolescencia en los planes de contingencia y respuesta a fin de garantizar el acceso a servicios básicos (educación, salud, protección) durante una emergencia."
+        },
+        {
+          "id": "t3-1.P29",
+          "text": "Actualización de los sistemas nacionales de información (SINPAD, SIGRID, ENAGERD) para incorporar indicadores de afectación y respuesta dirigidos a la niñez y adolescencia, permitiendo una atención oportuna y basada en evidencia."
+        },
+        {
+          "id": "t3-1.P30",
+          "text": "Incorporación de la educación ambiental y fortalecer su implementación a través de la actualización de materiales educativos contextualizados por territorio (zona amazónica, andina y costera) con un eje de niñez."
+        },
+        {
+          "id": "t3-1.P31",
+          "text": "Capacitación a los docentes en educación ambiental, integrando metodologías participativas y experiencias de aprendizaje de acuerdo con cada territorio (ríos, bosques, agricultura, biodiversidad), priorizando a las UGEL de zonas vulnerables al cambio climático."
+        },
+        {
+          "id": "t3-1.P32",
+          "text": "Articulación de los diversos espacios de participación de niños y adolescentes con programas de capacitación ambiental."
+        }
+      ]
+    },
+    {
+      "title": "Empleo, Emprendimiento y Desarrollo Económico Joven",
+      "proposals": [
+        {
+          "id": "t3-1.P33",
+          "text": "Lanzamiento de un programa de “Empleo Joven con Futuro” para reducir el ingreso de jóvenes a economías ilegales."
+        },
+        {
+          "id": "t3-1.P34",
+          "text": "Establecimiento de un Observatorio Integrado de Educación y Empleo, con recomendaciones vinculantes que articule la oferta formativa con las demandas del mercado laboral, asegurando pertinencia y empleabilidad juvenil."
+        },
+        {
+          "id": "t3-1.P35",
+          "text": "Repotenciar el Programa Nacional de Empleo “Jóvenes Productivos” y la plataforma CAPACÍTA-T, ampliando su cobertura y alianzas con el sector privado para ofrecer capacitación certificada y oportunidades efectivas de inserción laboral juvenil."
+        },
+        {
+          "id": "t3-1.P36",
+          "text": "Creación del programa “Capital Semilla Joven” para otorgar un capital semilla destinado a egresados y titulados que deseen emprender un negocio, bajo la modalidad de fondos con o sin retorno, previa presentación y supervisión de un proyecto viable. Este capital semilla podrá ser variable según el tipo de emprendimiento, priorizando sectores productivos con potencial de generación de empleo formal."
+        },
+        {
+          "id": "t3-1.P37",
+          "text": "Implementación del Programa Nacional de Primer Empleo Turístico Joven."
+        },
+        {
+          "id": "t3-1.P38",
+          "text": "Creación de incentivos para el emprendimiento juvenil y reducir la migración, propiciando que los jóvenes encuentren oportunidades reales de desarrollo económico en el país y en su región."
+        },
+        {
+          "id": "t3-1.P39",
+          "text": "Fomento de emprendimiento juveniles desde escuelas y universidades."
+        },
+        {
+          "id": "t3-1.P40",
+          "text": "Promoción del Empleo Juvenil Formal: Establecer un régimen especial de aseguramiento en salud para trabajadores jóvenes de 18 a 23 años contratados por MYPE, mediante el cual los jóvenes empleados en microempresas sean afiliados al Seguro Integral de Salud (SIS), con cobertura total financiada por el Estado, mientras que en el caso de las pequeñas empresas el Estado asuma el 50 % del aporte a EsSalud, durante los primeros cinco años de contratación, con el objetivo de reducir el costo laboral, promover la formalización y garantizar el acceso efectivo a la protección en salud de la empresa."
+        },
+        {
+          "id": "t3-1.P41",
+          "text": "Formalización del Emprendimiento Juvenil: Implementar un paquete de formalización de costo cero para emprendimientos juveniles, que exonere tasas registrales y notariales, simplifique y haga gratuitas las licencias municipales de bajo riesgo e integre en un solo trámite."
+        }
+      ]
+    },
+    {
+      "title": "Educación, Talento y Oportunidades para Jóvenes",
+      "proposals": [
+        {
+          "id": "t3-1.P42",
+          "text": "Impulso del deporte formativo en la educación superior, consolidando ligas universitarias y técnicas conectadas con el sistema de alto rendimiento y programas de becas deportivas enfocada en los jóvenes."
+        },
+        {
+          "id": "t3-1.P43",
+          "text": "Creación de un sistema articulado de becas nacionales e internacionales para el desarrollo del talento deportivo juvenil, vinculando el deporte escolar y universitario con Beca 18 y programas regionales, e integrando convenios con Beca Máster y universidades extranjeras que incluyan formación, competencias y empleabilidad."
+        },
+        {
+          "id": "t3-1.P44",
+          "text": "Promoción de la masificación del deporte como política pública de integración social, priorizando barrios vulnerables, comunidades rurales y pueblos amazónicos, donde el deporte funcione como motor de integración y prevención de la violencia en los jóvenes."
+        },
+        {
+          "id": "t3-1.P45",
+          "text": "Ampliación y fortalecimiento de las becas existentes para jóvenes deportistas, y crear nuevas becas específicas para jóvenes artistas y madres jóvenes en educación técnica y universitaria, reconociendo y apoyando su esfuerzo por completar una formación profesional de calidad."
+        },
+        {
+          "id": "t3-1.P46",
+          "text": "Creación de la “Beca Retoma tus Estudios”, dirigida a jóvenes que, por las pérdidas económicas ocasionadas por la pandemia, dejaron o no pudieron iniciar estudios técnicos o universitarios y aún no han podido reinsertarse al sistema educativo, cubriendo los principales costos de su formación."
+        },
+        {
+          "id": "t3-1.P47",
+          "text": "Implementación de créditos educativos con garantía estatal, a largo plazo y con tasas preferenciales, para ampliar las oportunidades de acceso a educación técnica y universitaria de calidad (pregrado y posgrado)."
+        },
+        {
+          "id": "t3-1.P48",
+          "text": "Ampliación del Programa Nacional de Becas (PRONABEC), incrementando significativamente el número de becas para estudios universitarios y técnicos, priorizando a jóvenes de escasos recursos y regiones con menor acceso a la educación superior."
+        },
+        {
+          "id": "t3-1.P49",
+          "text": "Promoción de la internacionalización de las universidades públicas, impulsando convenios de doble titulación, movilidad estudiantil y programas de investigación aplicada."
+        },
+        {
+          "id": "t3-1.P50",
+          "text": "Implementaremos “Alerta Estudiante”, sistema nacional de alerta temprana y evaluación de la calidad de la educación superior universitaria y técnica. Integrará datos académicos y socioeconómicos para identificar con anticipación a los jóvenes en riesgo de deserción y activar rutas de acompañamiento académico, psicológico y económico. Al mismo tiempo, medirá la calidad de los programas mediante indicadores de deserción, titulación oportuna, empleabilidad y satisfacción estudiantil, generando información pública y comparable que impulse la mejora continua. Este sistema será gestionado por el Estado, a través del MINEDU y una unidad especializada que articulará con SUNEDU y PRONABEC, sobre la base de reportes obligatorios de universidades e institutos."
+        }
+      ]
+    },
+    {
+      "title": "Bienestar, Participación y Desarrollo Integral de la Juventud",
+      "proposals": [
+        {
+          "id": "t3-1.P51",
+          "text": "Creación de “Centros de Oportunidades y Orientación Local para Jóvenes (COOL)” encargados de brindar servicios de acompañamiento emocional, orientación psicológica, actividades educativas y oportunidades de desarrollo comunitario dirigido a adolescentes y jóvenes en situación de riesgo, a fin de reducir la delincuencia juvenil, la deserción educativa y los problemas de salud mental en el país."
+        },
+        {
+          "id": "t3-1.P52",
+          "text": "Dotación de un Seguro Oncológico para aquellos jóvenes que se encuentran realizando servicio militar o civil o cursen estudios técnicos o universitarios."
+        },
+        {
+          "id": "t3-1.P53",
+          "text": "Reformulación a la Secretaría Nacional de Juventudes (SENAJU) por la “Secretaría Perú Joven”, que dejará de ser un órgano de asesoría para convertirse en un órgano de decisión y articulación de la política juvenil del Poder Ejecutivo, adscrito a la Presidencia de la República, con participación con voz en el Consejo de Ministros y titular preferentemente joven, encargado de coordinar consejos juveniles regionales y locales y de establecer mecanismos permanentes de consulta en educación, empleo y seguridad, para que la voz de la juventud tenga peso real en las decisiones de gobierno."
+        },
+        {
+          "id": "t3-1.P54",
+          "text": "Implementación del programa “Trabajo Joven 2030”, creando una línea específica para jóvenes con discapacidad dentro de los programas de inserción laboral, con metas anuales de colocación, capacitación adaptada e incentivos para que empresas y MYPES contraten formalmente a jóvenes con discapacidad."
+        },
+        {
+          "id": "t3-1.P55",
+          "text": "Puesta en marcha el programa “Red de Apoyos para la Vida Independiente Joven”, instalando servicios de apoyo para jóvenes con discapacidad en al menos una institución pública por región (orientación vocacional accesible, tecnología asistiva, intérpretes y apoyo psicológico), con la meta de duplicar al 2030 el número de jóvenes con discapacidad que culminan educación técnica o universitaria."
+        },
+        {
+          "id": "t3-1.P56",
+          "text": "Fortalecimiento de los Centros de Salud Mental Comunitaria a través de la creación de módulos juveniles (15–29 años) en horario posterior al colegio, incorporando Escuelas de Familias de la Adolescencia con ciclos de talleres para padres y designar un psicólogo enlace por territorio para coordinar derivaciones y seguimiento con colegios y UGEL."
+        },
+        {
+          "id": "t3-1.P57",
+          "text": "Implementación de una “Línea Joven Contigo 24/7”, implementar una línea telefónica y plataforma de chat/WhatsApp exclusiva para jóvenes, 24/7, atendida por psicólogos, con protocolos claros para crisis y derivación directa a CSMC, emergencias y colegios."
+        },
+        {
+          "id": "t3-1.P58",
+          "text": "Creación de la “Beca Vocación que Sana”, crear una beca especial en PRONABEC para carreras y especialidades en salud mental, que se condona a cambio de 1 a 2 años de servicio en Centro de Salud Mental Comunitaria, servicios escolares y unidades de salud mental juvenil en regiones con mayor déficit de profesionales."
+        },
+        {
+          "id": "t3-1.P59",
+          "text": "Fortalecimiento del Sistema Nacional de Voluntariado (SINAVOL) y asegurar que el servicio voluntario sea efectivamente reconocido por universidades, institutos y programas de becas, mediante una plataforma única de registro y seguimiento."
+        },
+        {
+          "id": "t3-1.P60",
+          "text": "Creación del Programa Nacional de Voluntariado Corporativo, alineado al SINAVOL, que articule las capacidades profesionales de las empresas y sus trabajadores con las necesidades de las poblaciones vulnerables, incorporando incentivos específicos, un registro nacional de voluntariado corporativo y un sistema de reconocimiento público a las empresas que participen activamente."
+        },
+        {
+          "id": "t3-1.P61",
+          "text": "Implementación del programa nacional “Amigos con Huella – Sistema Nacional de Tenencia Responsable de Mascotas”, integrando los registros municipales y la identificación con microchip en una sola base de datos estatal, donde cada mascota tenga un código único, historial de vacunación, esterilización y datos de su responsable, además de un sistema de alerta para su búsqueda y recuperación en caso de pérdida."
+        },
+        {
+          "id": "t3-1.P62",
+          "text": "Consolidación de una “Red Nacional Juvenil de Albergues y Rescatistas”, reconociéndolos como aliados del Estado mediante convenios, apoyo técnico y fondos concursables para campañas de rescate, rehabilitación, adopción responsable y educación ciudadana, bajo estándares mínimos de bienestar animal y transparencia en el uso de recursos."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-1.C01",
+      "text": "Lanzamiento de “Centros de Oportunidades y Orientación Local para Jóvenes (COOL)” en distritos prioritarios."
+    },
+    {
+      "id": "t3-1.C02",
+      "text": "Implementación de la “Línea Joven Contigo 24/7” para la atención y orientación psicológica para jóvenes."
+    },
+    {
+      "id": "t3-1.C03",
+      "text": "Publicación de la “Beca Retoma tus Estudios” con la primera promoción de beneficiario."
+    }
+  ]
+}

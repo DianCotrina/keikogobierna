@@ -1,0 +1,106 @@
+{
+  "id": "t2-2",
+  "slug": "mineria",
+  "name": "Minería",
+  "pillar": "p2",
+  "doc_section": "2.2",
+  "groups": [
+    {
+      "title": "Infraestructura y competitividad minera",
+      "proposals": [
+        {
+          "id": "t2-2.P01",
+          "text": "Impulso de APP y Obras por Impuestos para infraestructura en áreas vinculadas a proyectos mineros."
+        },
+        {
+          "id": "t2-2.P02",
+          "text": "Ejecución del Plan Nacional de Servicios e Infraestructura Logística de Transporte al 2032, priorizando corredores viales y ferroviarios para conectar proyectos mineros altoandinos con puertos y mercados."
+        },
+        {
+          "id": "t2-2.P03",
+          "text": "Ampliación de la red de transmisión eléctrica moderna en regiones mineras estratégicas."
+        },
+        {
+          "id": "t2-2.P04",
+          "text": "Promoción de la instalación de plantas de fundición y procesamiento para dar valor agregado."
+        },
+        {
+          "id": "t2-2.P05",
+          "text": "Impulso de la participación de proveedores locales y MYPEs en la cadena minera, con incentivos tributarios y no tributarios a empresas que contraten servicios regionales."
+        }
+      ]
+    },
+    {
+      "title": "Modernización, innovación e integración productiva",
+      "proposals": [
+        {
+          "id": "t2-2.P06",
+          "text": "Modernización de la Ley General de Minería para evitar la especulación mediante plazos obligatorios de exploración y producción, establecer un fast track para proyectos estratégicos, crear incentivos tributarios a la reinversión y un régimen diferenciado para la minería artesanal y de pequeña escala con apoyo técnico y acceso al crédito formal."
+        },
+        {
+          "id": "t2-2.P07",
+          "text": "Creación de un Fondo Nacional de Innovación Minera para la minería artesanal y de pequeña escala, con incentivos tributarios para tecnologías de automatización, trazabilidad y reducción de impactos ambientales."
+        },
+        {
+          "id": "t2-2.P08",
+          "text": "Creación de un Fondo de Garantías Estatales para la Minería Artesanal y de Pequeña Escala, destinado a respaldar operaciones de crédito y facilitar el acceso al financiamiento formal, reduciendo el riesgo para las entidades financieras y promoviendo inversión productiva responsable."
+        },
+        {
+          "id": "t2-2.P09",
+          "text": "Establecimiento de alianzas con CITE Mineros y universidades para transferencia tecnológica en MAPE, mediana y gran minería."
+        },
+        {
+          "id": "t2-2.P10",
+          "text": "Financiamiento de la implementación de monitoreo ambiental en tiempo real en operaciones de pequeña y mediana minería."
+        },
+        {
+          "id": "t2-2.P11",
+          "text": "Culminación de la implementación nacional del SIPMMA (Sistema Interoperable para la Pequeña Minería y Minería Artesanal) para trazabilidad de insumos y minerales."
+        },
+        {
+          "id": "t2-2.P12",
+          "text": "Digitalización de todos los trámites mineros a través de una Ventanilla Única Minera Electrónica con Inteligencia Artificial que sea interoperable con SUNAT, ANA y gobiernos regionales."
+        },
+        {
+          "id": "t2-2.P13",
+          "text": "Difusión del potencial minero sostenible del Perú en foros internacionales, como estrategia de atracción de inversión responsable."
+        }
+      ]
+    },
+    {
+      "title": "Sostenibilidad, orden y desarrollo territorial",
+      "proposals": [
+        {
+          "id": "t2-2.P14",
+          "text": "Establecimiento de comandos mixtos PNP - FF.AA. - Fiscalía - SUNAT en zonas críticas para enfrentar minería ilegal y crimen organizado."
+        },
+        {
+          "id": "t2-2.P15",
+          "text": "Exigencia de la remediación de pasivos ambientales, priorizando cuencas altoandinas y zonas críticas."
+        },
+        {
+          "id": "t2-2.P16",
+          "text": "Mejoramiento de los estándares de seguridad ocupacional, con metas para reducir accidentes fatales."
+        },
+        {
+          "id": "t2-2.P17",
+          "text": "Implementación del Canon para el Pueblo: hasta el 40% del canon directamente redistribuido a la población de la zona de extracción, con control comunitario."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-2.C01",
+      "text": "Aprobación de un paquete de APP y Obras por Impuestos para obras viales, ferroviarias y eléctricas que conecten corredores mineros estratégicos."
+    },
+    {
+      "id": "t2-2.C02",
+      "text": "Publicación del Plan Nacional de Remediación de Pasivos Ambientales, priorizando cuencas altoandinas con riesgo social o ecológico."
+    },
+    {
+      "id": "t2-2.C03",
+      "text": "Creación de comandos mixtos PNP–FF.AA.–Fiscalía–SUNAT para control de minería ilegal y crimen organizado en zonas críticas."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "t3-7",
+  "slug": "pensiones",
+  "name": "Pensiones",
+  "pillar": "p3",
+  "doc_section": "3.7",
+  "groups": [
+    {
+      "title": "Ampliación de la Cobertura y Acceso Universal",
+      "proposals": [
+        {
+          "id": "t3-7.P01",
+          "text": "Implementación de la preinscripción automática a Pensión 65 de la población potencial con 64 años, enlazada con RENIEC, SISFOH y EsSalud."
+        },
+        {
+          "id": "t3-7.P02",
+          "text": "Despliegue de brigadas móviles de afiliación en zonas rurales, amazónicas y fronterizas, para asegurar el registro efectivo de beneficiarios."
+        },
+        {
+          "id": "t3-7.P03",
+          "text": "Creación de un “cazador de elegibles digital”, que identifique automáticamente adultos mayores y personas con discapacidad sin beneficio social."
+        },
+        {
+          "id": "t3-7.P04",
+          "text": "Simplificación de requisitos que permite la inscripción sin partida de nacimiento mediante actas testimoniales y validación biométrica."
+        },
+        {
+          "id": "t3-7.P05",
+          "text": "Aseguramiento del acceso preferente en comunidades nativas y zonas altoandinas mediante convenios con gobiernos locales y regionales."
+        },
+        {
+          "id": "t3-7.P06",
+          "text": "Implementación de una pensión universal como piso mínimo de protección para todos los adultos mayores, especialmente para quienes desarrollaron su vida laboral en la informalidad y no accedieron a un sistema previsional contributivo."
+        }
+      ]
+    },
+    {
+      "title": "Incremento de los Montos de Pensión y Transferencias",
+      "proposals": [
+        {
+          "id": "t3-7.P07",
+          "text": "Pensión 65: aumento de S/ 350 a S/ 700 bimestrales, priorizando a los adultos mayores en pobreza extrema."
+        },
+        {
+          "id": "t3-7.P08",
+          "text": "Programa Contigo: aumento de S/ 300 a S/ 600 mensuales, con posibilidad de complemento adicional por dependencia total."
+        },
+        {
+          "id": "t3-7.P09",
+          "text": "Programa Juntos: aumento de S/ 200 a S/ 400 bimestrales, fortaleciendo la seguridad económica de los hogares con niños en pobreza extrema."
+        },
+        {
+          "id": "t3-7.P10",
+          "text": "Oficina de Normalización Previsional - ONP: - Pensión mínima: aumento de S/ 600 a S/ 800 mensuales. - Pensión proporcional (10–15 años de aportes): aumento de S/ 300 a S/ 400 mensuales. - Pensión proporcional (15–20 años): aumento de S/ 400 a S/ 550 mensuales. - Pensión máxima: aumento de S/ 893 a S/ 1 100 mensuales. - Establecimiento de una regla de indexación anual (inflación + ⅓ del crecimiento del PBI per cápita) para mantener el poder adquisitivo de los beneficiarios. - Diseño de un complemento solidario para pensiones bajas de la ONP y un bono adicional rural/amazónico para Pensión 65 y Contigo."
+        }
+      ]
+    },
+    {
+      "title": "Integración Digital, Gestión Simplificada y Financiamiento Sostenible",
+      "proposals": [
+        {
+          "id": "t3-7.P11",
+          "text": "Instalación de billeteras interoperables y agentes del Banco de la Nación, a fin de que todos los pagos sean digitales."
+        },
+        {
+          "id": "t3-7.P12",
+          "text": "Implementación de una ventanilla única digital y territorial para Pensión 65, Contigo y Juntos, con interoperabilidad entre sistemas del MIDIS, MEF y ONP."
+        },
+        {
+          "id": "t3-7.P13",
+          "text": "Reducción del tiempo de afiliación y pago a menos de 30 días, con trámite 100 % en línea."
+        },
+        {
+          "id": "t3-7.P14",
+          "text": "Publicación de tableros digitales de transparencia sobre cobertura, tiempos de atención y satisfacción del usuario."
+        },
+        {
+          "id": "t3-7.P15",
+          "text": "Pensión 65: - Ampliación de cobertura al 95 % de adultos mayores en pobreza extrema. - Incorporación de un bono adicional por dependencia severa para quienes no reciben Contigo. - Integración del paquete “Vejez Protegida”, que combine salud preventiva, nutrición y atención prioritaria en centros de salud."
+        },
+        {
+          "id": "t3-7.P16",
+          "text": "Programa Contigo: - Implementación de la certificación móvil y exprés de discapacidad severa en todo el país. - Creación de un bono para cuidadores principales y ampliar la entrega de ayudas técnicas (sillas, bastones, audífonos). - Unificación con Pensión 65 bajo una puerta única de elegibilidad para simplificar el acceso."
+        },
+        {
+          "id": "t3-7.P17",
+          "text": "Programa Juntos:"
+        },
+        {
+          "id": "t3-7.P18",
+          "text": "Incorporación de un componente previsional con micro-aportes voluntarios y co- aporte estatal para madres titulares y jóvenes."
+        },
+        {
+          "id": "t3-7.P19",
+          "text": "Otorgamiento de un bono de transición a hogares con adultos mayores sin Pensión 65 o personas con discapacidad sin Contigo."
+        },
+        {
+          "id": "t3-7.P20",
+          "text": "Alineación del incremento de S/ 200 a S/ 400 bimestrales a metas de salud y educación infantil verificables."
+        },
+        {
+          "id": "t3-7.P21",
+          "text": "Promoción de mecanismos simples, flexibles y digitales de ahorro previsional voluntario para trabajadores independientes, con aportes de bajo monto y complementos estatales que incentiven la afiliación y la permanencia."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-7.C01",
+      "text": "Puesta en marcha del Sistema de Preinscripción Automática a Pensión 65"
+    },
+    {
+      "id": "t3-7.C02",
+      "text": "Despliegue nacional de Brigadas Móviles de Afiliación priorizadas en zonas rurales y amazónicas"
+    },
+    {
+      "id": "t3-7.C03",
+      "text": "Instalación de Agentes del Banco de la Nación y puntos de cobro digitales en distritos prioritarios"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "t3-6",
+  "slug": "agua-y-saneamiento",
+  "name": "Agua y saneamiento",
+  "pillar": "p3",
+  "doc_section": "3.6",
+  "groups": [
+    {
+      "title": "Cobertura, infraestructura y tratamiento de agua",
+      "proposals": [
+        {
+          "id": "t3-6.P01",
+          "text": "Reducción de la brecha de cobertura de agua potable continua y alcantarillado, con énfasis en áreas rurales y amazónicas."
+        },
+        {
+          "id": "t3-6.P02",
+          "text": "Implementación de un Plan Nacional de Cierre de Brechas Hídricas."
+        },
+        {
+          "id": "t3-6.P03",
+          "text": "Construcción, rehabilitación y ampliación de Plantas de Tratamiento de Agua Potable (PTAP) y Plantas de Tratamiento de Aguas Residuales (PTAR), con prioridad en zonas de baja cobertura."
+        },
+        {
+          "id": "t3-6.P04",
+          "text": "Implementación de los PTAR Tacna, Trujillo, Cusco, Arequipa, Huancayo, Cajamarca, Tarapoto y Chincha: plantas de tratamiento de aguas residuales que mejorarán el saneamiento urbano y reducirán la contaminación."
+        },
+        {
+          "id": "t3-6.P05",
+          "text": "Reactivación de obras paralizadas con más del 50% de avance, bajo convenios de cofinanciamiento con gobiernos locales y privados."
+        },
+        {
+          "id": "t3-6.P06",
+          "text": "Escalamiento de soluciones innovadoras como plantas modulares portátiles, captación de agua de lluvia y sistemas de desalinización, priorizando zonas rurales altoandinas y costeras."
+        },
+        {
+          "id": "t3-6.P07",
+          "text": "Implementación del “Programa Nacional de Agua que Cuida la Vida”: distribución con 500 cisternas y plantas móviles de potabilización para 2 millones de personas en situación crítica; así como para el cambio de redes para reducir pérdidas de agua."
+        },
+        {
+          "id": "t3-6.P08",
+          "text": "Instalación de reservas estratégicas de agua potable en regiones expuestas a sequías o huaicos, vinculadas a planes de contingencia hídrica regionales."
+        }
+      ]
+    },
+    {
+      "title": "Gestión institucional, eficiencia y sostenibilidad",
+      "proposals": [
+        {
+          "id": "t3-6.P09",
+          "text": "Aseguramiento de la prestación como servicio público esencial, con supervisión del Estado y participación de Juntas Administradoras de Servicios de Saneamiento (JASS) fortalecidas técnica y financieramente."
+        },
+        {
+          "id": "t3-6.P10",
+          "text": "Reforma y mejora del modelo de gestión de EPS: planes de sostenibilidad financiera, profesionalización de cuadros técnicos y reducción de pérdidas operativas."
+        },
+        {
+          "id": "t3-6.P11",
+          "text": "Establecimiento de un Sistema Nacional de Asistencia Técnica y Supervisión articulado por OTASS y SUNASS, con indicadores públicos de desempeño."
+        },
+        {
+          "id": "t3-6.P12",
+          "text": "Implementación de sistemas de monitoreo digital en tiempo real para EPS y SEDAPAL, con sensores de calidad del agua, control de fugas y alertas tempranas."
+        },
+        {
+          "id": "t3-6.P13",
+          "text": "Fomento de Asociaciones Público-Privadas (APP) y Obras por Impuestos (OxI) para financiar proyectos estratégicos de agua y saneamiento."
+        },
+        {
+          "id": "t3-6.P14",
+          "text": "Establecimiento de un Fondo Nacional de Garantías que permita viabilizar proyectos en regiones de baja rentabilidad."
+        },
+        {
+          "id": "t3-6.P15",
+          "text": "Promoción de la participación de cooperativas y microfinancieras rurales en pequeños proyectos de agua y saneamiento comunitario."
+        },
+        {
+          "id": "t3-6.P16",
+          "text": "Creación de mecanismos de control ciudadano en cada región (comités de usuarios) para la vigilancia del servicio y las inversiones."
+        }
+      ]
+    },
+    {
+      "title": "Innovación, reúso y cultura del agua",
+      "proposals": [
+        {
+          "id": "t3-6.P17",
+          "text": "Incorporación de tecnologías de reúso de aguas residuales tratadas para riego agrícola y uso industrial."
+        },
+        {
+          "id": "t3-6.P18",
+          "text": "Desarrollo de un “Programa Nacional de Agua que Cuida la Vida” que prioriza las zonas rurales, con kits de purificación doméstica, cloración simplificada y energías renovables para bombeo."
+        },
+        {
+          "id": "t3-6.P19",
+          "text": "Implementación de plantas de Residuos sólidos en Arequipa, Ucayali y Tacna: proyectos ambientales para un manejo sostenible de desechos."
+        },
+        {
+          "id": "t3-6.P20",
+          "text": "Ejecución de campañas masivas de educación sanitaria y cultura del agua, integradas a escuelas y comunidades rurales."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-6.C01",
+      "text": "Puesta en marcha el “Programa Nacional de Agua que Cuida la Vida”, dirigido a garantizar el acceso inmediato a agua potable segura para poblaciones rurales, altoandinas y periurbanas en situación crítica."
+    },
+    {
+      "id": "t3-6.C02",
+      "text": "Reactivación de obras de agua y saneamiento con más del 50% de avance, priorizando proyectos en regiones con mayor déficit de acceso."
+    },
+    {
+      "id": "t3-6.C03",
+      "text": "Inicio del Sistema Nacional de Monitoreo Digital del Agua, con sensores en tiempo real para controlar la calidad, detectar fugas y emitir alertas tempranas en las principales EPS y en SEDAPAL."
+    }
+  ]
+}

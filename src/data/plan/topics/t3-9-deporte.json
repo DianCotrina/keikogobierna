@@ -1,0 +1,86 @@
+{
+  "id": "t3-9",
+  "slug": "deporte",
+  "name": "Deporte",
+  "pillar": "p3",
+  "doc_section": "3.9",
+  "groups": [
+    {
+      "title": "Educación, formación y talento deportivo",
+      "proposals": [
+        {
+          "id": "t3-9.P01",
+          "text": "Implementación de un Plan de Estimulación Temprana (0-6 años) que incorpore psicomotricidad, nutrición y juegos motores en la educación inicial, fortaleciendo el desarrollo físico y cognitivo desde la primera infancia."
+        },
+        {
+          "id": "t3-9.P02",
+          "text": "Establecimiento de educación física obligatoria y fortalecida en primaria y secundaria, ampliando las horas semanales, garantizando infraestructura deportiva adecuada y capacitando entrenadores y docentes especializados en formación integral y salud preventiva."
+        },
+        {
+          "id": "t3-9.P03",
+          "text": "Creación de un Sistema Nacional de Competencias Deportivas Escolares, Regionales y Nacionales, articulado con los gobiernos locales y el Instituto Peruano del Deporte (IPD), para promover la práctica continua, la detección de talentos y el espíritu competitivo sano."
+        },
+        {
+          "id": "t3-9.P04",
+          "text": "Impulso del deporte formativo en la educación superior, consolidando ligas universitarias y técnicas conectadas con el sistema de alto rendimiento y programas de becas deportivas enfocada en los jóvenes."
+        },
+        {
+          "id": "t3-9.P05",
+          "text": "Creación de un sistema articulado de becas nacionales e internacionales para el desarrollo del talento deportivo juvenil, vinculando el deporte escolar y universitario con Beca 18 y programas regionales, e integrando convenios con Beca Máster y universidades extranjeras que incluyan formación, competencias y empleabilidad."
+        }
+      ]
+    },
+    {
+      "title": "Deporte, integración y salud preventiva",
+      "proposals": [
+        {
+          "id": "t3-9.P06",
+          "text": "Promoción de la masificación del deporte como política pública de integración social, priorizando barrios vulnerables, comunidades rurales y pueblos amazónicos, donde el deporte funcione como motor de integración y prevención de la violencia en los jóvenes."
+        },
+        {
+          "id": "t3-9.P07",
+          "text": "Ejecución de programas nacionales de infraestructura deportiva comunitaria, orientados a la recuperación y gestión integral de parques, canchas, polideportivos, estadios comunales y playas, articulados a un sistema nacional de deporte comunitario bajo lineamientos nacionales."
+        },
+        {
+          "id": "t3-9.P08",
+          "text": "Conversión de cada espacio público en un centro de actividad física, convivencia e integración, articulando el orden ciudadano con la cultura deportiva."
+        },
+        {
+          "id": "t3-9.P09",
+          "text": "Consolidar el deporte como política de salud preventiva, mediante un sistema nacional de masificación deportiva que reduzca el gasto en enfermedades crónicas y fomente hábitos saludables desde la escuela."
+        }
+      ]
+    },
+    {
+      "title": "Economía deportiva e institucionalidad",
+      "proposals": [
+        {
+          "id": "t3-9.P10",
+          "text": "Reconocimiento del deporte como motor económico nacional, promoviendo la industria deportiva (infraestructura, turismo deportivo, sponsor, ropa, clínicas, medios) y fomentando inversión privada y alianzas público-privadas en el sector."
+        },
+        {
+          "id": "t3-9.P11",
+          "text": "Creación de la Entidad Autónoma de Formación del Capital Humano (EA/FCH) como órgano articulador de las políticas deportivas nacionales, integrando los esfuerzos de los ministerios de Educación, Salud, Trabajo, Producción y Cultura con gobiernos regionales y locales."
+        },
+        {
+          "id": "t3-9.P12",
+          "text": "Promoción para que el deporte sea parte de una estrategia integral de formación ciudadana, salud preventiva y desarrollo económico, con planificación, continuidad y resultados sostenibles en la formación del capital humano."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-9.C01",
+      "text": "Reacondicionamiento de 500 canchas y parques deportivos en coordinación con municipios y el sector privado, incorporando iluminación, orden y gestión vecinal."
+    },
+    {
+      "id": "t3-9.C02",
+      "text": "Lanzamiento de la campaña nacional “Perú en Movimiento: Vive Saludable” para promover alimentación balanceada y actividad física diaria, reduciendo el sobrepeso y la obesidad en la población."
+    },
+    {
+      "id": "t3-9.C03",
+      "text": "Puesta en marcha el Sistema Nacional de Becas Deportivas, fortaleciendo la Beca Deporte Escolar junto a PRONABEC y el IPD, para impulsar la formación y el alto rendimiento de jóvenes talentos."
+    }
+  ]
+}

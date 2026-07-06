@@ -1,0 +1,150 @@
+{
+  "id": "t3-5",
+  "slug": "vivienda",
+  "name": "Vivienda",
+  "pillar": "p3",
+  "doc_section": "3.5",
+  "groups": [
+    {
+      "title": "Planificación urbana sostenible e inteligente",
+      "proposals": [
+        {
+          "id": "t3-5.P01",
+          "text": "Construcción de 1.25 millones de viviendas y departamentos nuevos a nivel nacional, a través de mecanismos de inversión pública, privada y asociaciones público-privadas, priorizando zonas urbanas y periurbanas con acceso a servicios básicos, transporte e internet, para reducir en más del 50% el déficit habitacional."
+        },
+        {
+          "id": "t3-5.P02",
+          "text": "Establecimiento de planes urbanos integrales obligatorios en todas las ciudades y provincias, priorizando zonas de expansión con criterios de sostenibilidad, acceso a servicios básicos y reducción de riesgos ante desastres."
+        },
+        {
+          "id": "t3-5.P03",
+          "text": "Implementación de un Sistema Nacional de Información Catastral y Urbana, interoperable con COFOPRI, SUNARP y municipalidades, complementado con un Catastro Urbano Unificado y un Visor Nacional de Vivienda, que permita transparencia, predictibilidad jurídica y mejor gestión del suelo."
+        },
+        {
+          "id": "t3-5.P04",
+          "text": "Incorporación de infraestructura verde y soluciones basadas en la naturaleza en la planificación urbana, para mejorar resiliencia frente a lluvias intensas y sequías."
+        },
+        {
+          "id": "t3-5.P05",
+          "text": "Desarrollo de Ciudades Inteligentes en terrenos estatales, con servicios completos: agua, desagüe, electricidad, transporte e internet, promoviendo la densificación urbana y la vivienda multifamiliar."
+        },
+        {
+          "id": "t3-5.P06",
+          "text": "Creación de un Sistema Nacional de Información Habitacional que permita monitorear en tiempo real el déficit habitacional cuantitativo y cualitativo, la calidad de las viviendas y los avances de los programas sociales."
+        },
+        {
+          "id": "t3-5.P07",
+          "text": "Impulso de programas de renovación urbana en barrios tradicionales (solares, callejones y corralones), incorporando servicios comunales y espacios públicos seguros."
+        },
+        {
+          "id": "t3-5.P08",
+          "text": "Desarrollo de polos urbanos en regiones con potencial productivo, articulando vivienda, empleo, servicios y conectividad territorial."
+        }
+      ]
+    },
+    {
+      "title": "Vivienda digna y acceso equitativo",
+      "proposals": [
+        {
+          "id": "t3-5.P09",
+          "text": "Ampliación de programas como Techo Propio, MiVivienda y Vivienda Rural, con apoyo diferenciado para sierra y selva."
+        },
+        {
+          "id": "t3-5.P10",
+          "text": "Fortalecimiento del Bono de Alquiler y Compra de Vivienda para Jóvenes, y promoción de incentivos para el desarrollo del mercado formal de alquiler, especialmente dirigido a jóvenes y trabajadores en etapa de independencia."
+        },
+        {
+          "id": "t3-5.P11",
+          "text": "Modernización del Fondo Hipotecario Verde con tasas menores al 4% para familias de bajos ingresos, ligado a viviendas ecoeficientes."
+        },
+        {
+          "id": "t3-5.P12",
+          "text": "Implementación de un Programa Nacional de Viviendas Seguras, con reforzamiento estructural para reducir el riesgo de colapso en zonas sísmicas y de inundación."
+        },
+        {
+          "id": "t3-5.P13",
+          "text": "Reubicación de familias en zonas de alto riesgo no mitigable, priorizando proyectos integrales con servicios básicos garantizados."
+        },
+        {
+          "id": "t3-5.P14",
+          "text": "Implementación de casas térmicas y cobertizos contra el frío en comunidades altoandinas, usando tecnologías sostenibles y materiales locales."
+        },
+        {
+          "id": "t3-5.P15",
+          "text": "Aplicación de tarifas sociales reducidas en agua y electricidad, así como promociones en servicios de telecomunicaciones, para adultos mayores en situación de vulnerabilidad, priorizando complejos habitacionales, programas de vivienda social y zonas urbanas con alta concentración de población adulta mayor, a fin de garantizar permanencia, habitabilidad y acceso a servicios esenciales."
+        },
+        {
+          "id": "t3-5.P16",
+          "text": "Creación de un Fondo de Garantía para Techo Propio, orientado a impulsar el acceso al crédito hipotecario y ampliar la participación del sistema financiero, incluyendo mecanismos alternativos como la titulización de hipotecas para vivienda social."
+        },
+        {
+          "id": "t3-5.P17",
+          "text": "Restablecimiento del Quinto Rango del Nuevo Crédito MiVivienda, para atender segmentos medios hoy excluidos del financiamiento formal."
+        },
+        {
+          "id": "t3-5.P18",
+          "text": "Canalización de recursos del canon para el financiamiento de Vivienda de Interés Social (VIS), con énfasis en zonas rurales y territorios con brechas habitacionales persistentes."
+        }
+      ]
+    },
+    {
+      "title": "Formalización y control territorial",
+      "proposals": [
+        {
+          "id": "t3-5.P19",
+          "text": "Implementación del programa “Mi Título, Mi Hogar Seguro”, para garantizar el derecho a la propiedad mediante la titulación masiva y digital de viviendas urbanas, con ventanilla única de formalización, uso de inteligencia artificial, subsidios para construcción segura y asistencia técnica en coordinación con gobiernos locales y colegios profesionales."
+        },
+        {
+          "id": "t3-5.P20",
+          "text": "Reestructuración y fortalecimiento de COFOPRI como una institución ágil y moderna, orientada a asegurar el derecho a la propiedad a través de procedimientos digitales que permitan el otorgamiento masivo de títulos debidamente inscritos en SUNARP."
+        },
+        {
+          "id": "t3-5.P21",
+          "text": "Creación de una Agencia Nacional de Gestión de Suelo, encargada de habilitar terrenos estatales y comunales con agua, desagüe y electrificación antes de transferirlos a proyectos habitacionales."
+        },
+        {
+          "id": "t3-5.P22",
+          "text": "Establecimiento de un Sistema Nacional de Prevención y Combate del Tráfico de Terrenos, articulado con SUNARP, gobiernos locales y una policía especializada, con georreferenciación, alertas tempranas y sanciones inmediatas."
+        },
+        {
+          "id": "t3-5.P23",
+          "text": "Mayor seguridad jurídica en el suelo y en la ejecución de obras, garantizando predictibilidad normativa y estabilidad para familias, inversionistas y operadores urbanos."
+        },
+        {
+          "id": "t3-5.P24",
+          "text": "Impulso de Operadores Privados de Suelo, bajo regulación estatal, para acelerar la habilitación urbana y el cierre de brechas habitacionales."
+        },
+        {
+          "id": "t3-5.P25",
+          "text": "Uso estratégico de predios del Estado para habilitarlos como suelo urbano destinado a vivienda social, mediante saneamiento legal y cambio de zonificación."
+        },
+        {
+          "id": "t3-5.P26",
+          "text": "Construcción de complejos habitacionales integrales con servicios básicos, áreas verdes, equipamiento urbano y acceso al transporte, priorizando a familias de bajos ingresos."
+        },
+        {
+          "id": "t3-5.P27",
+          "text": "Creación del Instituto de Desarrollo y Planificación Territorial (INDEPLAN) como órgano técnico de planificación urbana y territorial de alcance nacional."
+        },
+        {
+          "id": "t3-5.P28",
+          "text": "Uso intensivo de mecanismos como Proyectos en Activos, Obras por Impuestos (OxI) y Asociaciones Público-Privadas (APP) como complemento para el cierre de la brecha habitacional."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-5.C01",
+      "text": "Lanzamiento del programa “Mi Título, Mi Hogar Seguro”, a través de la puesta en marcha de la Ventanilla Única de Formalización con inteligencia artificial para simplificar los trámites y reducir los tiempos de titulación."
+    },
+    {
+      "id": "t3-5.C02",
+      "text": "Reactivación del programa Techo Propio con un bono reforzado, que aumentará hasta en 50% la ayuda estatal para familias de bajos ingresos."
+    },
+    {
+      "id": "t3-5.C03",
+      "text": "Inicio de la designación de terrenos estratégicos y la firma de memorandos de entendimiento con aliados internacionales para el desarrollo de las primeras Ciudades Inteligentes."
+    }
+  ]
+}

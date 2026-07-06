@@ -1,0 +1,81 @@
+{
+  "id": "t1-2",
+  "slug": "lucha-contra-la-corrupcion",
+  "name": "Lucha contra la corrupción",
+  "pillar": "p1",
+  "doc_section": "1.2",
+  "groups": [
+    {
+      "title": "Control, Prevención y Fortalecimiento Institucional",
+      "proposals": [
+        {
+          "id": "t1-2.P01",
+          "text": "Ampliación del control concurrente real a todas las fases de ejecución presupuestal, protegiendo al funcionario honesto y previniendo la parálisis por temor a sanciones futuras."
+        },
+        {
+          "id": "t1-2.P02",
+          "text": "Fortalecimiento de las capacidades técnicas y presupuestales de la Contraloría, incluyendo el uso de inteligencia artificial (IA) para identificar patrones anómalos en contrataciones públicas y alertas automáticas sobre sobrecostos o riesgos de colusión."
+        },
+        {
+          "id": "t1-2.P03",
+          "text": "Consolidación de un sistema único de declaraciones juradas de bienes, rentas e intereses administrado por la Contraloría, interoperable con la SUNAT y la UIF, permitiendo detección temprana de irregularidades."
+        },
+        {
+          "id": "t1-2.P04",
+          "text": "Incorporación de herramientas de compliance digital obligatorio para los funcionarios, con monitoreo automatizado de conflictos de interés."
+        },
+        {
+          "id": "t1-2.P05",
+          "text": "Aseguramiento de la independencia de la Procuraduría Pública, garantizando su actuación sin interferencia política."
+        },
+        {
+          "id": "t1-2.P06",
+          "text": "Prohibición de la contratación estatal con empresas sancionadas por corrupción, cerrando definitivamente la puerta a reincidencias."
+        },
+        {
+          "id": "t1-2.P07",
+          "text": "Aplicación de un Shock Anticorrupción Digital, integrando medidas preventivas, sancionadoras y de transparencia radical en una sola estrategia nacional."
+        }
+      ]
+    },
+    {
+      "title": "Transparencia y Vigilancia Ciudadana",
+      "proposals": [
+        {
+          "id": "t1-2.P08",
+          "text": "Fortalecimiento de la Autoridad Nacional de Transparencia y Acceso a la Información, con competencias para supervisar la transparencia activa en los tres niveles de gobierno."
+        },
+        {
+          "id": "t1-2.P09",
+          "text": "Implementación de un sistema de transparencia total de las compras públicas, donde el 100% de licitaciones, contratos y adendas se publiquen en tiempo real, accesibles a ciudadanos y medios."
+        },
+        {
+          "id": "t1-2.P10",
+          "text": "Creación de una plataforma de auditoría ciudadana amigable y en tiempo real, que permita a los ciudadanos monitorear obras públicas mediante aplicaciones móviles con geolocalización y registro fotográfico certificado."
+        },
+        {
+          "id": "t1-2.P11",
+          "text": "Publicación de manera inmediata todas las consultorías y asesorías contratadas por el Estado."
+        },
+        {
+          "id": "t1-2.P12",
+          "text": "Creación del Observatorio Ciudadano de Compras Públicas, para que la sociedad civil y los medios supervisen adquisiciones en tiempo real."
+        },
+        {
+          "id": "t1-2.P13",
+          "text": "Inicio de la transición hacia una criptomoneda estatal para transacciones públicas, asegurando trazabilidad total de los pagos gubernamentales."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t1-2.C01",
+      "text": "Lanzamiento del Shock Anticorrupción Digital en el Estado, mediante la puesta en marcha de un piloto de inteligencia artificial en contrataciones públicas para detectar sobrecostos y riesgos de colusión en los principales proyectos de inversión; así como la incorporación de herramientas de compliance digital para los altos funcionarios."
+    },
+    {
+      "id": "t1-2.C02",
+      "text": "Implementación del sistema de transparencia total de compras públicas, publicando el 100% de licitaciones, contratos y adendas en tiempo real."
+    }
+  ]
+}
