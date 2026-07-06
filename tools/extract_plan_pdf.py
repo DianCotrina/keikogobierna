@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PDF = ROOT / "docs" / "Plan-de-Gobierno-Reforzado_V2.pdf"
 OUT_DIR = ROOT / "src" / "data" / "plan"
 TOPICS_DIR = OUT_DIR / "topics"
+GOALS_FILE = OUT_DIR / "goals" / "goals-2031.json"
 
 EXPECTED = {  # doc_section -> expected proposal count (Global Constraints)
     "1.1": 43, "1.2": 13, "1.3": 15, "1.4": 17, "2.1": 43, "2.2": 17, "2.3": 23,
@@ -238,8 +239,30 @@ def parse(pages: list[str]) -> dict:
     return topics
 
 
+def load_goal_counts() -> dict[str, int]:
+    """Read curated goals-2031.json (Task 2, hand-curated from the PDF's
+    metas tables) and count goals per topic id.
+
+    The metas tables are column-mangled by `pdftotext -layout` and are not
+    machine-parseable (see Global Constraints), so this extractor cannot
+    derive goal counts from the PDF text itself. If the curated file is
+    absent (e.g. before Task 2 has run), every topic's count is 0 -- the
+    same placeholder Task 1 always wrote. If present, re-running this
+    extractor must not clobber Task 2's curation work, so counts are read
+    back from that file instead of being reset to 0.
+    """
+    if not GOALS_FILE.exists():
+        return {}
+    data = json.loads(GOALS_FILE.read_text(encoding="utf-8"))
+    counts: dict[str, int] = {}
+    for goal in data.get("goals", []):
+        counts[goal["topic"]] = counts.get(goal["topic"], 0) + 1
+    return counts
+
+
 def build_output(topics: dict) -> tuple[dict, dict]:
     """Return (index_dict, {doc_section: topic_file_dict})."""
+    goal_counts = load_goal_counts()
     index = {
         "plan": {
             "name": "Perú con Orden",
@@ -273,7 +296,8 @@ def build_output(topics: dict) -> tuple[dict, dict]:
 
         index["topics"].append({
             "id": tid, "slug": slug, "name": name, "pillar": pillar, "doc_section": doc_section,
-            "proposals": proposal_count, "first_100_days": len(cien_out), "goals": 0,
+            "proposals": proposal_count, "first_100_days": len(cien_out),
+            "goals": goal_counts.get(tid, 0),
         })
 
         topic_files[doc_section] = {
