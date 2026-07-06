@@ -209,6 +209,13 @@ def parse(pages: list[str]) -> dict:
         # Plain content line: group-title candidate, continuation, or stray.
         if current_topic is not None and mode == "proposals" and boundary:
             candidate = line.strip()
+            # Some group titles are wrapped in quotes in the document (e.g. the
+            # seven program names in section 3.8.2: “Agua que Cuida la Vida”).
+            # The quotes are typography, not content: strip a matching
+            # surrounding pair so the first-letter-uppercase check sees the
+            # actual title text, and store the title unquoted.
+            if len(candidate) >= 2 and candidate[0] in "“\"" and candidate[-1] in "”\"":
+                candidate = candidate[1:-1].strip()
             if (candidate and len(candidate) < 90
                     and not candidate.endswith(".")
                     and not candidate.endswith(",")
