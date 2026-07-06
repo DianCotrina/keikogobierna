@@ -6,7 +6,7 @@
   "doc_section": "3.8",
   "groups": [
     {
-      "title": null,
+      "title": "Agua que Cuida la Vida",
       "proposals": [
         {
           "id": "t3-8.P01",
@@ -23,7 +23,12 @@
         {
           "id": "t3-8.P04",
           "text": "Integración de la planificación hídrica con las estrategias de salud pública y prevención climática."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Mi Título, Mi Hogar Seguro",
+      "proposals": [
         {
           "id": "t3-8.P05",
           "text": "Promoción de la titulación masiva y regularización simplificada para familias en zonas urbanas y periurbanas, con procesos digitales y georreferenciados."
@@ -39,7 +44,12 @@
         {
           "id": "t3-8.P08",
           "text": "Fomento de alianzas con gobiernos locales y colegios de ingenieros para asistencia técnica gratuita."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Bebés que Nacen Fuertes",
+      "proposals": [
         {
           "id": "t3-8.P09",
           "text": "Implementación del Paquete 1,000 días (gestante-niño 0-24 meses) con suplementación y fortificación (hierro, ácido fólico), control prenatal reforzado y visitas domiciliarias."
@@ -55,7 +65,12 @@
         {
           "id": "t3-8.P12",
           "text": "Monitoreo de resultados mediante indicadores de reducción de anemia y desarrollo infantil temprano."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Desayuno para Aprender y Crecer",
+      "proposals": [
         {
           "id": "t3-8.P13",
           "text": "Reformulación del programa alimentario escolar con un menú basado en proteínas de alta calidad (lácteos, huevos, pescado), frutas y verduras locales, y alimentos fortificados."
@@ -71,15 +86,30 @@
         {
           "id": "t3-8.P16",
           "text": "Integración de la educación alimentaria en la currícula escolar para fomentar hábitos saludables desde la infancia."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Capital Semilla Joven",
+      "proposals": [
         {
           "id": "t3-8.P17",
           "text": "Creación del programa “Capital Semilla Joven” para otorgar un capital semilla destinado a egresados y titulados que deseen emprender un negocio, bajo la modalidad de fondos con o sin retorno, previa presentación y supervisión de un proyecto viable. Este capital semilla podrá ser variable según el tipo de emprendimiento, priorizando sectores productivos con potencial de generación de empleo formal."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Empleo Joven con Futuro",
+      "proposals": [
         {
           "id": "t3-8.P18",
           "text": "Lanzamiento de Programa “Empleo Joven con Futuro” para reducir el ingreso de jóvenes a economías ilegales."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Sistema de Crédito para Mujeres Emprendedoras",
+      "proposals": [
         {
           "id": "t3-8.P19",
           "text": "Implementación de un “Sistema de Crédito para Mujeres Emprendedoras”, con asistencia técnica y programas de incubación."
