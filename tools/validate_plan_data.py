@@ -63,6 +63,8 @@ def validate_legacy() -> tuple[int, int]:
         fail("resumen.avance_general must be 0..100")
 
     for i, item in enumerate(data["destacados"] + data["actualizaciones"]):
+        if not isinstance(item, dict):
+            fail(f"plan.json: destacados/actualizaciones[{i}] entry must be an object")
         if "status" not in item:
             fail(f"missing status at destacados/actualizaciones[{i}]")
         if item["status"] not in VALID_STATUSES:
@@ -72,6 +74,8 @@ def validate_legacy() -> tuple[int, int]:
 
     seen_ids = set()
     for i, eje in enumerate(data["ejes"]):
+        if not isinstance(eje, dict):
+            fail(f"plan.json: ejes[{i}] entry must be an object")
         for key in ("id", "nombre", "compromisos", "avance"):
             if key not in eje:
                 fail(f"missing eje.{key} at ejes[{i}]")
@@ -95,6 +99,8 @@ def validate_index() -> dict:
 
     pillar_ids = set()
     for i, pillar in enumerate(data["pillars"]):
+        if not isinstance(pillar, dict):
+            fail(f"index.json: pillars[{i}] entry must be an object")
         for key in ("id", "name"):
             if key not in pillar:
                 fail(f"index.json: pillars[{i}] missing {key}")
@@ -110,6 +116,8 @@ def validate_index() -> dict:
     seen_slugs = set()
     index_by_id = {}
     for i, topic in enumerate(topics):
+        if not isinstance(topic, dict):
+            fail(f"index.json: topics[{i}] entry must be an object")
         for key in ("id", "slug", "name", "pillar", "doc_section", "proposals", "first_100_days", "goals"):
             if key not in topic:
                 fail(f"index.json: topics[{i}] missing {key}")
@@ -125,7 +133,7 @@ def validate_index() -> dict:
         if topic["pillar"] not in pillar_ids:
             fail(f"index.json: topic '{tid}' references unknown pillar '{topic['pillar']}'")
         for count_key in ("proposals", "first_100_days", "goals"):
-            if not isinstance(topic[count_key], int) or topic[count_key] < 0:
+            if not isinstance(topic[count_key], int) or isinstance(topic[count_key], bool) or topic[count_key] < 0:
                 fail(f"index.json: topic '{tid}' {count_key} must be a non-negative int")
         index_by_id[tid] = topic
 
@@ -159,6 +167,8 @@ def validate_topics(index_by_id: dict) -> tuple[int, int, set]:
 
         ordinal = 0
         for gi, group in enumerate(groups):
+            if not isinstance(group, dict):
+                fail(f"{path.name}: groups[{gi}] entry must be an object")
             if "title" not in group:
                 fail(f"{path.name}: groups[{gi}] missing 'title'")
             if group["title"] is not None and not isinstance(group["title"], str):
@@ -166,6 +176,8 @@ def validate_topics(index_by_id: dict) -> tuple[int, int, set]:
             if "proposals" not in group or not isinstance(group["proposals"], list):
                 fail(f"{path.name}: groups[{gi}].proposals must be a list")
             for pi, prop in enumerate(group["proposals"]):
+                if not isinstance(prop, dict):
+                    fail(f"{path.name}: groups[{gi}].proposals[{pi}] entry must be an object")
                 if "id" not in prop or "text" not in prop:
                     fail(f"{path.name}: groups[{gi}].proposals[{pi}] missing id/text")
                 ordinal += 1
@@ -186,6 +198,8 @@ def validate_topics(index_by_id: dict) -> tuple[int, int, set]:
         if not isinstance(first_100_days, list):
             fail(f"{path.name}: first_100_days must be a list")
         for ci, action in enumerate(first_100_days):
+            if not isinstance(action, dict):
+                fail(f"{path.name}: first_100_days[{ci}] entry must be an object")
             if "id" not in action or "text" not in action:
                 fail(f"{path.name}: first_100_days[{ci}] missing id/text")
             expected_id = f"{tid}.C{ci + 1:02d}"
@@ -215,6 +229,8 @@ def validate_goals(index_by_id: dict) -> tuple[int, set]:
     per_topic_count: dict = {}
 
     for i, goal in enumerate(goals):
+        if not isinstance(goal, dict):
+            fail(f"goals-2031.json: goals[{i}] entry must be an object")
         for key in ("id", "topic", "text", "indicator"):
             if key not in goal:
                 fail(f"goals-2031.json: goals[{i}] missing {key}")
@@ -269,6 +285,8 @@ def validate_tracking(known_ids: set) -> None:
             fail(f"tracking.json: items['{item_id}'].evidence must be a list")
 
     for i, entry in enumerate(data["log"]):
+        if not isinstance(entry, dict):
+            fail(f"tracking.json: log[{i}] entry must be an object")
         for key in ("date", "item", "status", "text"):
             if key not in entry:
                 fail(f"tracking.json: log[{i}] missing {key}")
@@ -292,9 +310,9 @@ def main() -> None:
     validate_tracking(known_ids)
 
     print(
-        f"OK: {DATA_PATH.name} valid — {legacy_total} compromisos, {legacy_ejes} ejes; "
-        f"plan/ tree valid — {len(index_by_id)} topics, {total_proposals} propuestas, "
-        f"{total_c} first_100_days, {total_goals} goals; tracking.json valid"
+        f"OK: {DATA_PATH.name} valid — {legacy_total} items, {legacy_ejes} areas (legacy); "
+        f"plan/ tree valid — {len(index_by_id)} topics, {total_proposals} proposals, "
+        f"{total_c} first-100-days actions, {total_goals} goals; tracking.json valid"
     )
 
 
