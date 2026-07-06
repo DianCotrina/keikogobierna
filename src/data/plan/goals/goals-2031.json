@@ -1,0 +1,459 @@
+{
+  "goals": [
+    {
+      "id": "t1-1.M01",
+      "topic": "t1-1",
+      "table_topic": "Prevención del delito.",
+      "text": "Reducir en 20% la tasa nacional de homicidios mediante patrullaje integrado, prevención juvenil y recuperación de espacios públicos.",
+      "indicator": "Tasa nacional de homicidios por cada 100,000 habitantes (INEI–MININTER)."
+    },
+    {
+      "id": "t1-1.M02",
+      "topic": "t1-1",
+      "table_topic": "Combate y control del crimen organizado.",
+      "text": "Implementar un Centro Nacional de Comando y Videovigilancia (C5i) en las 24 regiones del país.",
+      "indicator": "Número de regiones con C5i operativo e interconectado al sistema nacional."
+    },
+    {
+      "id": "t1-1.M03",
+      "topic": "t1-1",
+      "table_topic": "Procesamiento y sistema judicial-penitenciario.",
+      "text": "Reducir la impunidad del 90% al 50%, mediante unidades de flagrancia e interoperabilidad entre Policía, Fiscalía y Poder Judicial.",
+      "indicator": "Porcentaje de delitos procesados con sentencia firme en menos de 6 meses."
+    },
+    {
+      "id": "t1-2.M01",
+      "topic": "t1-2",
+      "table_topic": "Lucha contra la corrupción.",
+      "text": "Reducir en 30% las pérdidas anuales por corrupción e inconducta funcional, mediante transparencia digital, control preventivo y supervisión automatizada.",
+      "indicator": "Pérdidas anuales por corrupción e inconducta funcional (Contraloría)."
+    },
+    {
+      "id": "t1-3.M01",
+      "topic": "t1-3",
+      "table_topic": "Estabilidad económica.",
+      "text": "Reducir el déficit fiscal a 1% del PBI, manteniendo la disciplina macroeconómica, la independencia del BCRP y la previsibilidad regulatoria.",
+      "indicator": "Déficit fiscal anual como porcentaje del PBI."
+    },
+    {
+      "id": "t1-3.M02",
+      "topic": "t1-3",
+      "table_topic": "Simplificación administrativa y shock desregulatorio.",
+      "text": "Digitalizar al menos el 80% de los trámites empresariales mediante la Ventanilla Única Digital Nacional con IA e interoperabilidad efectiva; así como atraer entre 5,000 y 7,000 millones de dólares adicionales en inversiones privadas anuales, generando más de 500,000 nuevos empleos anuales formales, y 3 millones durante todo el periodo del gobierno.",
+      "indicator": "Porcentaje de trámites empresariales digitalizados; monto anual de inversión privada adicional atraída."
+    },
+    {
+      "id": "t1-4.M01",
+      "topic": "t1-4",
+      "table_topic": "Modernización de la gestión pública.",
+      "text": "Lograr que el 100% de entidades del Gobierno Nacional y al menos el 70% de gobiernos subnacionales operen con sistemas digitales interoperables y gestión por desempeño.",
+      "indicator": "Porcentaje de entidades públicas integradas al sistema digital nacional interoperable."
+    },
+    {
+      "id": "t1-4.M02",
+      "topic": "t1-4",
+      "table_topic": "Reforma del sistema de justicia.",
+      "text": "Alcanzar cobertura nacional del Expediente Judicial Electrónico (EJE) y reducir en 30% los tiempos procesales promedio.",
+      "indicator": "Porcentaje de expedientes judiciales gestionados a través del EJE."
+    },
+    {
+      "id": "t2-1.M01",
+      "topic": "t2-1",
+      "table_topic": "Formalización, simplificación y fortalecimiento institucional.",
+      "text": "Lograr que el 60% de las MYPE operen en la formalidad, con trámites digitales y menores costos de formalización.",
+      "indicator": "Porcentaje de MYPE formalizadas."
+    },
+    {
+      "id": "t2-1.M02",
+      "topic": "t2-1",
+      "table_topic": "Financiamiento, crédito y apoyo al emprendimiento.",
+      "text": "Asegurar que al menos el 40% de las MYPE formales accedan a crédito productivo, mediante programas de garantías, capital semilla y líneas especiales para mujeres y jóvenes.",
+      "indicator": "Porcentaje de MYPE formales con acceso a crédito."
+    },
+    {
+      "id": "t2-1.M03",
+      "topic": "t2-1",
+      "table_topic": "Productividad, digitalización y competitividad regional.",
+      "text": "Incrementar en 25% la productividad promedio de las MYPE mediante adopción digital, capacitación gerencial y clústeres productivos.",
+      "indicator": "Porcentaje de MYPE que adoptan herramientas digitales o comercio electrónico."
+    },
+    {
+      "id": "t2-2.M01",
+      "topic": "t2-2",
+      "table_topic": "Infraestructura y competitividad minera.",
+      "text": "Conectar al menos el 80% de los principales proyectos mineros a corredores logísticos pavimentados, ferroviarios o portuarios, reduciendo costos logísticos y mejorando la competitividad.",
+      "indicator": "Porcentaje de proyectos mineros conectados a corredores logísticos pavimentados."
+    },
+    {
+      "id": "t2-2.M02",
+      "topic": "t2-2",
+      "table_topic": "Modernización, innovación e integración productiva.",
+      "text": "Integrar al 100% de los operadores MAPE activos al SIPMMA, garantizando trazabilidad técnica, ambiental y comercial.",
+      "indicator": "Porcentaje de operaciones MAPE registradas e interoperables en el SIPMMA."
+    },
+    {
+      "id": "t2-2.M03",
+      "topic": "t2-2",
+      "table_topic": "Sostenibilidad, orden y desarrollo territorial.",
+      "text": "Reducir en 40% los accidentes fatales y erradicar al menos el 50% de la minería ilegal en zonas críticas, priorizando seguridad, fiscalización y remediación ambiental.",
+      "indicator": "Porcentaje de operaciones ilegales erradicadas en zonas críticas."
+    },
+    {
+      "id": "t2-3.M01",
+      "topic": "t2-3",
+      "table_topic": "Transición energética limpia y sostenible.",
+      "text": "Aumentar al 20% la participación de energías renovables no convencionales (solar, eólica, geotérmica, biomasa e hidrógeno verde) en la matriz eléctrica nacional.",
+      "indicator": "Participación (%) de energías renovables no convencionales en la matriz eléctrica."
+    },
+    {
+      "id": "t2-3.M02",
+      "topic": "t2-3",
+      "table_topic": "Infraestructura eléctrica, integración y competitividad energética.",
+      "text": "Alcanzar el 100% de cobertura eléctrica nacional, priorizando zonas rurales y amazónicas, junto con la ejecución de proyectos de transmisión.",
+      "indicator": "Cobertura eléctrica nacional."
+    },
+    {
+      "id": "t2-3.M03",
+      "topic": "t2-3",
+      "table_topic": "Hidrocarburos y seguridad energética.",
+      "text": "Reducir la dependencia de derivados importados del 75% al 50%, fortaleciendo la producción local y las reservas estratégicas.",
+      "indicator": "Porcentaje de diésel y derivados importados sobre el consumo nacional."
+    },
+    {
+      "id": "t2-4.M01",
+      "topic": "t2-4",
+      "table_topic": "Agua, riego y sostenibilidad hídrica.",
+      "text": "Incrementar la superficie agrícola con riego tecnificado del 34% al 60%, priorizando cuencas altoandinas y zonas de mayor vulnerabilidad climática.",
+      "indicator": "Superficie agrícola con riego tecnificado."
+    },
+    {
+      "id": "t2-4.M02",
+      "topic": "t2-4",
+      "table_topic": "Productividad, innovación y financiamiento agrario.",
+      "text": "Aumentar en 30% la productividad agrícola nacional, impulsando asistencia técnica, financiamiento, mecanización e infraestructura productiva.",
+      "indicator": "Índice de productividad agrícola nacional."
+    },
+    {
+      "id": "t2-4.M03",
+      "topic": "t2-4",
+      "table_topic": "Agricultura familiar y ordenamiento territorial.",
+      "text": "Integrar al 50% de pequeños productores en cadenas de valor formales, promoviendo cooperativas, seguros climáticos y bioeconomía rural.",
+      "indicator": "Porcentaje de productores agrícolas insertos en cadenas formales o exportadoras."
+    },
+    {
+      "id": "t2-5.M01",
+      "topic": "t2-5",
+      "table_topic": "Infraestructura y modernización productiva.",
+      "text": "Modernizar al menos el 100% de los Desembarcaderos Pesqueros Artesanales (DPA) con cadena de frío, infraestructura sanitaria y trazabilidad digital.",
+      "indicator": "Porcentaje de DPA modernizados con infraestructura sanitaria y cadena de frío."
+    },
+    {
+      "id": "t2-5.M02",
+      "topic": "t2-5",
+      "table_topic": "Acuicultura sostenible y competitiva.",
+      "text": "Duplicar la producción acuícola nacional, garantizando formalización sanitaria y mejores cadenas de frío comunitarias.",
+      "indicator": "Producción total acuícola nacional."
+    },
+    {
+      "id": "t2-5.M03",
+      "topic": "t2-5",
+      "table_topic": "Gobernanza, formalización y bienestar pesquero.",
+      "text": "Formalizar al 100% de embarcaciones artesanales y ampliar la protección social a pescadores a través del Seguro Pesquero Nacional.",
+      "indicator": "Número de embarcaciones artesanales formalizadas."
+    },
+    {
+      "id": "t2-6.M01",
+      "topic": "t2-6",
+      "table_topic": "Conectividad vial y logística nacional.",
+      "text": "Pavimentar el 100% de los caminos rurales críticos e integrar los corredores logísticos productivos con puertos, aeropuertos y mercados regionales.",
+      "indicator": "Porcentaje de caminos rurales críticos rehabilitados o pavimentados."
+    },
+    {
+      "id": "t2-6.M02",
+      "topic": "t2-6",
+      "table_topic": "Modernización ferroviaria, portuaria y aeroportuaria",
+      "text": "Poner operativos 4 metros de Lima y 3 regionales (Arequipa, Trujillo y Piura), modernizar 70% de puertos estratégicos y modernizar 17 aeropuertos concesionados a nivel nacional.",
+      "indicator": "Kilómetros de red ferroviaria operativa; número de aeropuertos regionales modernizados."
+    },
+    {
+      "id": "t2-6.M03",
+      "topic": "t2-6",
+      "table_topic": "Conectividad digital universal.",
+      "text": "Alcanzar 90% de cobertura de internet en todos los distritos, con uso efectivo de la Red Dorsal y servicios públicos completamente integrados.",
+      "indicator": "Porcentaje de distritos con cobertura de internet."
+    },
+    {
+      "id": "t2-7.M01",
+      "topic": "t2-7",
+      "table_topic": "Turismo competitivo, sostenible y descentralizado.",
+      "text": "Aumentar a 6 millones los turistas internacionales y descentralizar la oferta turística hacia nuevos destinos regionales priorizados.",
+      "indicator": "Número total de turistas internacionales que ingresan al país."
+    },
+    {
+      "id": "t2-7.M02",
+      "topic": "t2-7",
+      "table_topic": "Infraestructura, conectividad y capital humano para el turismo.",
+      "text": "Modernizar al menos el 70% de los aeropuertos turísticos regionales y capacitar 50,000 trabajadores turísticos certificados en sostenibilidad, idiomas y gestión de servicios.",
+      "indicator": "Número de aeropuertos turísticos regionales modernizados."
+    },
+    {
+      "id": "t2-7.M03",
+      "topic": "t2-7",
+      "table_topic": "Machu Picchu y circuitos turísticos del sur.",
+      "text": "Incrementar en 30% la capacidad de visita sostenible a Machu Picchu y Choquequirao.",
+      "indicator": "Capacidad diaria autorizada de visitantes (número) en Machu Picchu y Choquequirao."
+    },
+    {
+      "id": "t2-8.M01",
+      "topic": "t2-8",
+      "table_topic": "Industrialización regional y manufactura moderna.",
+      "text": "Implementar al menos 6 parques industriales modernos y 3 Zonas Económicas Especiales (ZEE) con estándares de industria 4.0.",
+      "indicator": "Número de parques industriales modernos implementados."
+    },
+    {
+      "id": "t2-8.M02",
+      "topic": "t2-8",
+      "table_topic": "Comercio exterior competitivo e infraestructura logística.",
+      "text": "Reducir en 50% los tiempos de exportación mediante plataformas logísticas, digitalización aduanera y VUCE 2.0 interoperable.",
+      "indicator": "Tiempo promedio de exportación."
+    },
+    {
+      "id": "t2-8.M03",
+      "topic": "t2-8",
+      "table_topic": "Internacionalización y valor agregado sostenible.",
+      "text": "Incrementar al 10% la participación de MYPE exportadoras, impulsando marcas colectivas y certificaciones sostenibles.",
+      "indicator": "Porcentaje de MYPEs exportadoras."
+    },
+    {
+      "id": "t2-9.M01",
+      "topic": "t2-9",
+      "table_topic": "Economía circular y gestión moderna de residuos.",
+      "text": "Alcanzar una tasa nacional de valorización del 40% y eliminar los botaderos a cielo abierto en las capitales provinciales del país.",
+      "indicator": "Porcentaje de residuos municipales valorizados."
+    },
+    {
+      "id": "t2-9.M02",
+      "topic": "t2-9",
+      "table_topic": "Amazonía, biodiversidad y lucha contra la deforestación",
+      "text": "Reducir en 50% la deforestación ilegal en la Amazonía, priorizando titulación comunal, vigilancia forestal y proyectos productivos sostenibles.",
+      "indicator": "Tasa de deforestación anual."
+    },
+    {
+      "id": "t2-9.M03",
+      "topic": "t2-9",
+      "table_topic": "Acción climática, monitoreo ambiental y finanzas verdes.",
+      "text": "Implementar plataformas de monitoreo ambiental en tiempo real en el 70% de las regiones, impulsando gestión climática y finanzas verdes.",
+      "indicator": "Porcentaje de regiones con plataforma digital de monitoreo ambiental activo."
+    },
+    {
+      "id": "t3-1.M01",
+      "topic": "t3-1",
+      "table_topic": "Empleo, Emprendimiento y Desarrollo Económico Joven",
+      "text": "Incrementar en 40% la inserción de jóvenes en empleos formales de calidad.",
+      "indicator": "Tasa de Inserción Laboral Juvenil en Empleo Formal de Calidad."
+    },
+    {
+      "id": "t3-1.M02",
+      "topic": "t3-1",
+      "table_topic": "Educación, Talento y Oportunidades para Jóvenes",
+      "text": "Reducir en 20% la deserción en la educación superior técnica y universitaria.",
+      "indicator": "Tasa de Deserción en la Educación Superior Técnica y Universitaria."
+    },
+    {
+      "id": "t3-1.M03",
+      "topic": "t3-1",
+      "table_topic": "Bienestar, Participación y Desarrollo Integral de la Juventud",
+      "text": "Incrementar en 20% el acceso de jóvenes a servicios de salud mental y apoyo emocional.",
+      "indicator": "Tasa de Acceso Juvenil a Servicios de Salud Mental y Apoyo Emocional."
+    },
+    {
+      "id": "t3-2.M01",
+      "topic": "t3-2",
+      "table_topic": "Educación básica de calidad e infraestructura resiliente.",
+      "text": "Reducir en 50% la brecha de infraestructura educativa y garantizar servicios básicos y conectividad funcional en todos los colegios priorizados.",
+      "indicator": "Brecha de infraestructura educativa."
+    },
+    {
+      "id": "t3-2.M02",
+      "topic": "t3-2",
+      "table_topic": "Educación técnica y articulación productiva.",
+      "text": "Alcanzar una tasa de inserción laboral del 50% de egresados técnicos en menos de un año, mediante modernización de institutos y vinculación productiva.",
+      "indicator": "Tasa de inserción laboral de egresados técnicos."
+    },
+    {
+      "id": "t3-2.M03",
+      "topic": "t3-2",
+      "table_topic": "Educación superior, innovación e internacionalización.",
+      "text": "Duplicar el acceso a becas y créditos educativos con garantía estatal, fortaleciendo la calidad e investigación universitaria.",
+      "indicator": "Número de becas y créditos educativos otorgados."
+    },
+    {
+      "id": "t3-3.M01",
+      "topic": "t3-3",
+      "table_topic": "Prevención y salud infantil prioritaria.",
+      "text": "Reducir la anemia infantil al 20% mediante cobertura universal de vacunación, chequeos preventivos y servicios materno-infantiles reforzados.",
+      "indicator": "Tasa de anemia en menores de 3 años."
+    },
+    {
+      "id": "t3-3.M02",
+      "topic": "t3-3",
+      "table_topic": "Atención primaria moderna y tiempos de espera reducidos.",
+      "text": "Garantizar telemedicina operativa en el 100% de centros del primer nivel y reducir en 30% los tiempos de espera hospitalaria.",
+      "indicator": "Porcentaje de centros del primer nivel con servicio de telemedicina activo."
+    },
+    {
+      "id": "t3-3.M03",
+      "topic": "t3-3",
+      "table_topic": "Sistema de salud interoperable y con historias clínicas electrónicas",
+      "text": "Integrar el 80% del sistema de salud (MINSA, EsSalud y Sanidades) a una historia clínica electrónica ligada al DNI.",
+      "indicator": "Porcentaje de interoperabilidad entre MINSA, EsSalud y Sanidades."
+    },
+    {
+      "id": "t3-4.M01",
+      "topic": "t3-4",
+      "table_topic": "Nutrición, educación y hábitos saludables.",
+      "text": "Reducir la anemia infantil al 20% y fortalecer hábitos saludables en escolares y familias vulnerables.",
+      "indicator": "Tasa de anemia en menores de 3 años."
+    },
+    {
+      "id": "t3-4.M02",
+      "topic": "t3-4",
+      "table_topic": "Producción local y acceso a alimentos.",
+      "text": "Lograr que el 50% de los alimentos de programas sociales provenga de productores locales, impulsando compras públicas locales y reducción de pérdidas poscosecha.",
+      "indicator": "Porcentaje de compras públicas de alimentos provenientes de productores locales."
+    },
+    {
+      "id": "t3-4.M03",
+      "topic": "t3-4",
+      "table_topic": "Gobernanza, monitoreo y resiliencia alimentaria.",
+      "text": "Implementar un sistema nacional de alertas y reservas alimentarias estratégicas, garantizando respuesta rápida ante emergencias climáticas y de abastecimiento.",
+      "indicator": "Número de reservas alimentarias estratégicas operativas."
+    },
+    {
+      "id": "t3-5.M01",
+      "topic": "t3-5",
+      "table_topic": "Planificación urbana sostenible e inteligente.",
+      "text": "Reducir en 30% el déficit habitacional nacional, priorizando ciudades provinciales con planes urbanos integrales y catastro interoperable.",
+      "indicator": "Porcentaje de reducción del déficit habitacional."
+    },
+    {
+      "id": "t3-5.M02",
+      "topic": "t3-5",
+      "table_topic": "Vivienda digna y acceso equitativo.",
+      "text": "Garantizar vivienda adecuada para 1.25 millones de peruanos vulnerables, mediante programas habitacionales y reubicación de familias en zonas de riesgo.",
+      "indicator": "Número de beneficiarios de programas Techo Propio, MiVivienda y Vivienda Rural."
+    },
+    {
+      "id": "t3-5.M03",
+      "topic": "t3-5",
+      "table_topic": "Formalización y control territorial.",
+      "text": "Emitir 1 millón de títulos de propiedad digitales, fortaleciendo COFOPRI e integrando catastros municipales con SUNARP.",
+      "indicator": "Número de títulos de propiedad emitidos digitalmente."
+    },
+    {
+      "id": "t3-6.M01",
+      "topic": "t3-6",
+      "table_topic": "Cobertura, infraestructura y tratamiento de agua.",
+      "text": "Alcanzar 100% de cobertura nacional de agua potable y alcantarillado, priorizando zonas rurales y periurbanas.",
+      "indicator": "Cobertura nacional de agua potable y alcantarillado."
+    },
+    {
+      "id": "t3-6.M02",
+      "topic": "t3-6",
+      "table_topic": "Gestión institucional, eficiencia y sostenibilidad",
+      "text": "Lograr que el 60% de las EPS operen con sostenibilidad financiera y con monitoreo digital en tiempo real.",
+      "indicator": "Porcentaje de EPS con sostenibilidad financiera certificada."
+    },
+    {
+      "id": "t3-6.M03",
+      "topic": "t3-6",
+      "table_topic": "Innovación, reúso y cultura del agua.",
+      "text": "Reutilizar al menos el 55% de aguas residuales tratadas para riego agrícola e industrial.",
+      "indicator": "Porcentaje de aguas residuales reutilizadas."
+    },
+    {
+      "id": "t3-7.M01",
+      "topic": "t3-7",
+      "table_topic": "Universalización de la Afiliación a los Programas Sociales.",
+      "text": "Afiliar al menos al 95% de la población objetivo a Pensión 65, Contigo y Juntos al 2031.",
+      "indicator": "Porcentaje de potenciales beneficiarios afiliados efectivamente."
+    },
+    {
+      "id": "t3-7.M02",
+      "topic": "t3-7",
+      "table_topic": "Incremento y Actualización Sostenible de las Transferencias Sociales.",
+      "text": "Incrementar en 100% los montos de las principales transferencias sociales y garantizar su actualización anual al 2031.",
+      "indicator": "Variación porcentual anual del monto promedio de transferencias entregadas."
+    },
+    {
+      "id": "t3-7.M03",
+      "topic": "t3-7",
+      "table_topic": "Transformación Digital Integral de la Gestión Social.",
+      "text": "Alcanzar la digitalización total de trámites y pagos, logrando que el 100% de beneficiarios cobre de forma digital al 2031.",
+      "indicator": "Porcentaje de pagos y trámites realizados de manera digital."
+    },
+    {
+      "id": "t3-8.M01",
+      "topic": "t3-8",
+      "table_topic": "Servicios esenciales para familias seguras y saludables.",
+      "text": "Garantizar agua continua y segura en todas las capitales regionales y reducir la anemia infantil al 20%, mediante intervención integral de agua, nutrición y primera infancia.",
+      "indicator": "Porcentaje de capitales regionales con continuidad 24 h/día; tasa de anemia infantil en menores de 3 años."
+    },
+    {
+      "id": "t3-8.M02",
+      "topic": "t3-8",
+      "table_topic": "Vivienda digna y formalización urbana acelerada",
+      "text": "Emitir 1 millón de títulos de propiedad digitales y otorgar 30,000 subsidios de reforzamiento estructural en zonas de riesgo sísmico.",
+      "indicator": "Número de títulos de propiedad emitidos."
+    },
+    {
+      "id": "t3-8.M03",
+      "topic": "t3-8",
+      "table_topic": "Empleo y emprendimiento juvenil y femenino.",
+      "text": "Otorgar 150,000 capitales semilla y créditos productivos a jóvenes y mujeres emprendedoras, impulsando empleabilidad y formalización.",
+      "indicator": "Número de beneficiarios del programa \"Capital Semilla Joven\" y créditos para mujeres emprendedoras."
+    },
+    {
+      "id": "t3-9.M01",
+      "topic": "t3-9",
+      "table_topic": "Educación, formación y talento deportivo.",
+      "text": "Lograr que el 70% de instituciones educativas cuenten con educación física reforzada e infraestructura deportiva funcional.",
+      "indicator": "Porcentaje de instituciones educativas con educación física obligatoria y ampliada."
+    },
+    {
+      "id": "t3-9.M02",
+      "topic": "t3-9",
+      "table_topic": "Deporte, integración y salud preventiva.",
+      "text": "Alcanzar que el 60% de la población realice actividad física regular, mediante infraestructura comunitaria y programas barriales.",
+      "indicator": "Porcentaje de población que realiza actividad física semanal."
+    },
+    {
+      "id": "t3-9.M03",
+      "topic": "t3-9",
+      "table_topic": "Economía deportiva e institucionalidad.",
+      "text": "Generar 150,000 empleos directos e indirectos en la industria deportiva, impulsando inversión privada e instituciones deportivas modernas.",
+      "indicator": "Número de empleos directos e indirectos en la industria deportiva."
+    },
+    {
+      "id": "t3-10.M01",
+      "topic": "t3-10",
+      "table_topic": "Modernización consular y Estado presente en el exterior",
+      "text": "Modernizar el 100% de los consulados en países con alta concentración de PEX, implementando la Ventanilla Única Consular Digital, estándares de atención y servicios interoperables.",
+      "indicator": "Porcentaje de consulados digitalizados con alta concentración de PEX."
+    },
+    {
+      "id": "t3-10.M02",
+      "topic": "t3-10",
+      "table_topic": "Emprendimiento, inversión y retorno productivo",
+      "text": "Duplicar la inversión productiva canalizada desde el exterior y facilitar la inserción laboral y empresarial de retornantes mediante programas de coinversión y homologación de títulos.",
+      "indicator": "Monto anual de inversión PEX canalizada."
+    },
+    {
+      "id": "t3-10.M03",
+      "topic": "t3-10",
+      "table_topic": "Educación, identidad y segunda generación",
+      "text": "Consolidar una red internacional de educación y cultura peruana que cubra al menos el 60% de comunidades PEX con programas formativos y culturales permanentes.",
+      "indicator": "Número de programas culturales activos."
+    }
+  ]
+}
