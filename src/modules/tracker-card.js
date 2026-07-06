@@ -20,16 +20,16 @@ export function renderTrackerCard(el, data) {
         </svg>
       </div>
       <div class="mt-6 grid grid-cols-4 gap-2 font-mono text-center">
-        <div><p class="text-xl font-semibold text-verde">${esc(resumen.estados.cumplida)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Cumplidos</p></div>
-        <div><p class="text-xl font-semibold text-ambar">${esc(resumen.estados.en_progreso)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">En progreso</p></div>
-        <div><p class="text-xl font-semibold text-plomo">${esc(resumen.estados.sin_avance)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Sin avance</p></div>
-        <div><p class="text-xl font-semibold text-rojo">${esc(resumen.estados.incumplida)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Incumplidos</p></div>
+        <div><p class="text-xl font-semibold text-verde">${esc(resumen.statuses.fulfilled)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Cumplidos</p></div>
+        <div><p class="text-xl font-semibold text-ambar">${esc(resumen.statuses.in_progress)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">En progreso</p></div>
+        <div><p class="text-xl font-semibold text-plomo">${esc(resumen.statuses.no_progress)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Sin avance</p></div>
+        <div><p class="text-xl font-semibold text-rojo">${esc(resumen.statuses.unfulfilled)}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Incumplidos</p></div>
       </div>
       <ul class="mt-6 space-y-3 border-t border-dashed border-tinta/20 pt-5">
         ${destacados.map((d) => `
         <li class="flex items-start justify-between gap-3">
           <p class="text-sm leading-snug">${esc(d.texto)}</p>
-          ${stamp(d.estado)}
+          ${stamp(d.status)}
         </li>`).join('')}
       </ul>
       <p class="mt-5 font-mono text-[0.6rem] text-tintafina leading-relaxed">Fuentes: ${meta.fuentes.map(esc).join(' · ')}</p>
