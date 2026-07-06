@@ -12,12 +12,14 @@ async function boot() {
   renderTrackerCard(document.getElementById('tracker-card'), data);
   renderEjes(document.getElementById('ejes-grid'), data);
   renderRegistro(document.getElementById('registro-list'), data);
-
-  initReveal();
-  initDonate();
 }
 
-boot().catch((err) => {
-  console.error(err);
-  // Static shell still shows headline/copy; dynamic sections stay empty.
-});
+boot()
+  .catch((err) => {
+    console.error(err);
+    // Dynamic sections stay empty; static sections still reveal below.
+  })
+  .finally(() => {
+    initReveal();
+    initDonate();
+  });

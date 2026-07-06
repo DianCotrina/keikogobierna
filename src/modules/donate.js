@@ -6,7 +6,11 @@ export function initDonate() {
     if (navigator.share) {
       try { await navigator.share(data); } catch {}
     } else {
-      await navigator.clipboard.writeText(location.href);
+      try {
+        await navigator.clipboard.writeText(location.href);
+      } catch {
+        return;
+      }
       const toast = document.getElementById('share-toast');
       toast.classList.remove('opacity-0');
       setTimeout(() => toast.classList.add('opacity-0'), 1800);

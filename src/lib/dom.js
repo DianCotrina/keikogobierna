@@ -15,6 +15,6 @@ export const ESTADOS = {
 };
 
 export function stamp(estado) {
-  const { label, color } = ESTADOS[estado];
+  const { label, color } = ESTADOS[estado] ?? { label: String(estado), color: 'plomo' };
   return `<span class="stamp text-${color} shrink-0">${esc(label)}</span>`;
 }
