@@ -103,7 +103,8 @@ Stay pragmatic. Stay reliable. Keep learning.
 
 ## Output Defaults
 
-- Single `index.html` file, all styles inline, unless user says otherwise
+- Landing page follows the module architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): static shell in `index.html`, data in `src/data/plan.json`, renderers in `src/modules/`. One-off mockups/sketches may still be single files.
+- Data edits go in `src/data/plan.json`; run `python3 tools/validate_plan_data.py` afterwards.
 - Tailwind CSS via CDN: `<script src="https://cdn.tailwindcss.com"></script>`
 - Placeholder images: `https://placehold.co/WIDTHxHEIGHT`
 - Mobile-first responsive
