@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Validate src/data/plan.json: schema, estado ids, and count consistency."""
+"""Validate src/data/plan.json: schema, status ids, and count consistency."""
 import json
 import sys
 from pathlib import Path
 
-VALID_ESTADOS = {"cumplida", "en_progreso", "sin_avance", "incumplida"}
+VALID_STATUSES = {"fulfilled", "in_progress", "no_progress", "unfulfilled"}
 DATA_PATH = Path(__file__).resolve().parent.parent / "src" / "data" / "plan.json"
 
 
@@ -33,25 +33,25 @@ def main() -> None:
             fail(f"meta.fuentes[{i}] must be a non-empty string")
 
     resumen = data["resumen"]
-    for key in ("avance_general", "total", "estados"):
+    for key in ("avance_general", "total", "statuses"):
         if key not in resumen:
             fail(f"missing resumen.{key}")
-    if not isinstance(resumen["estados"], dict):
-        fail("resumen.estados must be a dict")
+    if not isinstance(resumen["statuses"], dict):
+        fail("resumen.statuses must be a dict")
 
-    estados = resumen["estados"]
-    if set(estados) != VALID_ESTADOS:
-        fail(f"resumen.estados keys must be exactly {sorted(VALID_ESTADOS)}")
-    if sum(estados.values()) != resumen["total"]:
-        fail(f"estado counts {sum(estados.values())} != total {resumen['total']}")
+    statuses = resumen["statuses"]
+    if set(statuses) != VALID_STATUSES:
+        fail(f"resumen.statuses keys must be exactly {sorted(VALID_STATUSES)}")
+    if sum(statuses.values()) != resumen["total"]:
+        fail(f"status counts {sum(statuses.values())} != total {resumen['total']}")
     if not 0 <= resumen["avance_general"] <= 100:
         fail("resumen.avance_general must be 0..100")
 
     for i, item in enumerate(data["destacados"] + data["actualizaciones"]):
-        if "estado" not in item:
-            fail(f"missing estado at destacados/actualizaciones[{i}]")
-        if item["estado"] not in VALID_ESTADOS:
-            fail(f"invalid estado '{item['estado']}' at destacados/actualizaciones[{i}]")
+        if "status" not in item:
+            fail(f"missing status at destacados/actualizaciones[{i}]")
+        if item["status"] not in VALID_STATUSES:
+            fail(f"invalid status '{item['status']}' at destacados/actualizaciones[{i}]")
         if "texto" not in item or not isinstance(item["texto"], str) or not item["texto"].strip():
             fail(f"empty texto at destacados/actualizaciones[{i}]")
 

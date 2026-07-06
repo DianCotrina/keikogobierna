@@ -8,12 +8,12 @@
   "resumen": {
     "avance_general": 27,
     "total": 87,
-    "estados": { "cumplida": 12, "en_progreso": 34, "sin_avance": 28, "incumplida": 13 }
+    "statuses": { "fulfilled": 12, "in_progress": 34, "no_progress": 28, "unfulfilled": 13 }
   },
   "destacados": [
-    { "texto": "Hospitales bicentenario en 10 regiones priorizadas", "estado": "en_progreso" },
-    { "texto": "Devolución del 100 % de aportes FONAVI", "estado": "cumplida" },
-    { "texto": "50 000 nuevos policías en el primer año", "estado": "sin_avance" }
+    { "texto": "Hospitales bicentenario en 10 regiones priorizadas", "status": "in_progress" },
+    { "texto": "Devolución del 100 % de aportes FONAVI", "status": "fulfilled" },
+    { "texto": "50 000 nuevos policías en el primer año", "status": "no_progress" }
   ],
   "ejes": [
     { "id": "economia", "nombre": "Economía y empleo", "compromisos": 18, "avance": 33 },
@@ -24,8 +24,8 @@
     { "id": "anticorrupcion", "nombre": "Lucha anticorrupción", "compromisos": 12, "avance": 17 }
   ],
   "actualizaciones": [
-    { "fecha": "2026-07-04", "fecha_texto": "04 jul 2026", "texto": "Ley de devolución de aportes FONAVI publicada en El Peruano.", "estado": "cumplida" },
-    { "fecha": "2026-06-28", "fecha_texto": "28 jun 2026", "texto": "Licitación de 3 hospitales bicentenario adjudicada en Cusco, Piura y Loreto.", "estado": "en_progreso" },
-    { "fecha": "2026-06-19", "fecha_texto": "19 jun 2026", "texto": "Sin partida presupuestal para los 50 000 nuevos policías anunciados.", "estado": "sin_avance" }
+    { "fecha": "2026-07-04", "fecha_texto": "04 jul 2026", "texto": "Ley de devolución de aportes FONAVI publicada en El Peruano.", "status": "fulfilled" },
+    { "fecha": "2026-06-28", "fecha_texto": "28 jun 2026", "texto": "Licitación de 3 hospitales bicentenario adjudicada en Cusco, Piura y Loreto.", "status": "in_progress" },
+    { "fecha": "2026-06-19", "fecha_texto": "19 jun 2026", "texto": "Sin partida presupuestal para los 50 000 nuevos policías anunciados.", "status": "no_progress" }
   ]
 }

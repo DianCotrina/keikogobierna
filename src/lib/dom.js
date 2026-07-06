@@ -7,14 +7,14 @@ export function esc(value) {
     .replaceAll("'", '&#39;');
 }
 
-export const ESTADOS = {
-  cumplida:    { label: 'Cumplida',    color: 'verde' },
-  en_progreso: { label: 'En progreso', color: 'ambar' },
-  sin_avance:  { label: 'Sin avance',  color: 'plomo' },
-  incumplida:  { label: 'Incumplida',  color: 'rojo' },
+export const STATUSES = {
+  fulfilled:   { label: 'Cumplida',    color: 'verde' },
+  in_progress: { label: 'En progreso', color: 'ambar' },
+  no_progress: { label: 'Sin avance',  color: 'plomo' },
+  unfulfilled: { label: 'Incumplida',  color: 'rojo' },
 };
 
-export function stamp(estado) {
-  const { label, color } = ESTADOS[estado] ?? { label: String(estado), color: 'plomo' };
+export function stamp(status) {
+  const { label, color } = STATUSES[status] ?? { label: String(status), color: 'plomo' };
   return `<span class="stamp text-${color} shrink-0">${esc(label)}</span>`;
 }
