@@ -1,0 +1,142 @@
+{
+  "id": "t2-5",
+  "slug": "pesca-y-acuicultura",
+  "name": "Pesca y acuicultura",
+  "pillar": "p2",
+  "doc_section": "2.5",
+  "groups": [
+    {
+      "title": "Infraestructura y modernización productiva",
+      "proposals": [
+        {
+          "id": "t2-5.P01",
+          "text": "Modernización integralmente los Desembarcaderos Pesqueros Artesanales (DPA), incorporando cadenas de frío, servicios sanitarios, tratamiento de residuos y accesos logísticos eficientes."
+        },
+        {
+          "id": "t2-5.P02",
+          "text": "Implementación de un Programa Nacional de Renovación y Modernización de la Flota Pesquera Artesanal, priorizando embarcaciones más seguras, eficientes y menos contaminantes, mediante cofinanciamiento público, leasing social y asociatividad."
+        },
+        {
+          "id": "t2-5.P03",
+          "text": "Implementación de un Plan Nacional de Infraestructura Acuícola, que incluya centros de acopio, laboratorios de sanidad acuícola, plantas de procesamiento y caminos rurales en zonas altoandinas y amazónicas."
+        },
+        {
+          "id": "t2-5.P04",
+          "text": "Reactivación y fortalecimiento de astilleros artesanales regionales, orientados al diseño y mantenimiento de embarcaciones adaptadas a las condiciones locales y a la generación de empleo local."
+        },
+        {
+          "id": "t2-5.P05",
+          "text": "Establecimiento de convenios de APP y Obras por Impuestos para acelerar la modernización de la infraestructura pesquera artesanal y acuícola."
+        },
+        {
+          "id": "t2-5.P06",
+          "text": "Creación de un Fondo Nacional de Innovación Pesquera y Acuícola, con incentivos tributarios y líneas de crédito para modernizar equipamiento, trazabilidad y procesamiento."
+        },
+        {
+          "id": "t2-5.P07",
+          "text": "Implementación de un Programa de recambio tecnológico de motores pesqueros, reduciendo costos operativos, consumo de combustible y emisiones contaminantes."
+        },
+        {
+          "id": "t2-5.P08",
+          "text": "Fomento de la transformación de la anchoveta y otras especies hacia consumo humano directo, mediante el desarrollo de conservas, filetes, congelados y deshidratados con estándares internacionales."
+        },
+        {
+          "id": "t2-5.P09",
+          "text": "Establecimiento de alianzas con universidades, CITE pesqueros y centros tecnológicos para la transferencia de tecnologías de postcosecha, procesamiento y monitoreo ambiental."
+        }
+      ]
+    },
+    {
+      "title": "Acuicultura sostenible y competitiva",
+      "proposals": [
+        {
+          "id": "t2-5.P10",
+          "text": "Impulso de la acuicultura sostenible (marina y continental) con programas de asistencia técnica, financiamiento y certificación sanitaria para exportación."
+        },
+        {
+          "id": "t2-5.P11",
+          "text": "Promoción al Perú como potencia latinoamericana en acuicultura, aprovechando su extenso mar, ríos, lagos y biodiversidad, mediante la organización y fortalecimiento de gremios de pescadores artesanales orientados a la producción sostenible y al mercado internacional."
+        },
+        {
+          "id": "t2-5.P12",
+          "text": "Creación de reservas marinas productivas y zonas exclusivas para pesca artesanal y acuicultura de pequeña escala, bajo esquemas de cogestión y sostenibilidad ambiental."
+        },
+        {
+          "id": "t2-5.P13",
+          "text": "Incorporación de productores locales en los programas de abastecimiento y comedores populares, asegurando proteína de origen pesquero en la dieta nacional."
+        },
+        {
+          "id": "t2-5.P14",
+          "text": "Promoción de cadenas de frío comunitarias para garantizar el acceso de la población a pescado fresco y nutritivo."
+        },
+        {
+          "id": "t2-5.P15",
+          "text": "Establecimiento de un Sistema Nacional de Información Pesquera que registre capturas, trazabilidad, exportaciones y formalización, interoperable con SUNAT y SANIPES."
+        },
+        {
+          "id": "t2-5.P16",
+          "text": "Fortalecimiento de la Ley General de Acuicultura y Pesca, incorporando incentivos a la formalización y producción nacional, optimizando la Ventanilla Única mediante inteligencia artificial y fortaleciendo las capacidades técnicas y de gestión de los GORE como ejecutores de AREL y AMYPE."
+        }
+      ]
+    },
+    {
+      "title": "Gobernanza, formalización y bienestar pesquero",
+      "proposals": [
+        {
+          "id": "t2-5.P17",
+          "text": "Implementación del Programa Formalízate Pez: formalización de embarcaciones artesanales con acceso a titularidad, créditos, seguros, tecnología y capacitación continua."
+        },
+        {
+          "id": "t2-5.P18",
+          "text": "Creación del fondo PESCA SOLIDARIA, financiado por el Estado, la industria pesquera y cooperación internacional, para apoyar a pescadores en épocas de crisis climáticas o sanitarias."
+        },
+        {
+          "id": "t2-5.P19",
+          "text": "Establecimiento de un mecanismo automático de compensación económica durante vedas, articulado al fondo PESCA SOLIDARIA, con transferencias directas a pescadores formales y en proceso de formalización."
+        },
+        {
+          "id": "t2-5.P20",
+          "text": "Incorporación de pescadores artesanales en programas de seguridad social, seguros laborales y acceso a pensiones."
+        },
+        {
+          "id": "t2-5.P21",
+          "text": "Diseño de un Seguro Pesquero Nacional contra pérdidas por fenómenos climáticos como El Niño, financiado parcialmente por el Estado y con reaseguro internacional."
+        },
+        {
+          "id": "t2-5.P22",
+          "text": "Implementación de sistemas obligatorios y gratuitos de geolocalización, comunicación y botón de pánico en la flota artesanal, integrados a un centro nacional de monitoreo para emergencias marítimas."
+        },
+        {
+          "id": "t2-5.P23",
+          "text": "Reactivación del Ministerio de Pesca, devolviéndole rango ministerial para liderar la política nacional pesquera y acuícola."
+        },
+        {
+          "id": "t2-5.P24",
+          "text": "Creación de un Consejo Nacional de Pesca y Acuicultura, con participación del Estado, gremios pesqueros, comunidades costeras y academia, para concertar políticas y evitar la sobreexplotación."
+        },
+        {
+          "id": "t2-5.P25",
+          "text": "Actualización de la normativa de pesca artesanal y de menor escala, definiendo criterios técnicos, zonas de operación y fortaleciendo la supervisión para una regulación justa y moderna acorde a la realidad del sector."
+        },
+        {
+          "id": "t2-5.P26",
+          "text": "Promoción de la reconversión productiva y laboral vinculada al sector marítimo- pesquero, mediante formación técnica especializada, certificaciones y desarrollo de servicios complementarios."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-5.C01",
+      "text": "Inicio del Seguro Pesquero Nacional con participación de gremios del sector."
+    },
+    {
+      "id": "t2-5.C02",
+      "text": "Creación del Fondo Nacional de Innovación Pesquera y Acuícola, para cofinanciar equipamiento, trazabilidad y procesamiento en pequeñas plantas pesqueras."
+    },
+    {
+      "id": "t2-5.C03",
+      "text": "Formalización de 20,000 embarcaciones artesanales en coordinación con FONDEPES y SUNARP."
+    }
+  ]
+}

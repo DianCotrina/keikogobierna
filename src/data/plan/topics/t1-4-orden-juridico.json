@@ -1,0 +1,97 @@
+{
+  "id": "t1-4",
+  "slug": "orden-juridico",
+  "name": "Orden jurídico",
+  "pillar": "p1",
+  "doc_section": "1.4",
+  "groups": [
+    {
+      "title": "Modernización de la gestión pública",
+      "proposals": [
+        {
+          "id": "t1-4.P01",
+          "text": "Modernización del sistema meritocrático liderado por SERVIR, destacando la importancia de los recursos humanos como motor de cumplimiento institucional."
+        },
+        {
+          "id": "t1-4.P02",
+          "text": "Creación de un Sistema de Formación para la Gestión Pública, acreditado por universidades y supervisado por SERVIR, junto con la aplicación del Código del Servicio Público, para certificar competencias, mejorar el desempeño y construir un Estado ágil y orientado a resultados."
+        },
+        {
+          "id": "t1-4.P03",
+          "text": "Fortalecimiento de la transparencia y el control ciudadano mediante la publicación total de la información estatal, el cumplimiento estricto de la Ley de Transparencia, la apertura de datos unificados y el fortalecimiento de la Contraloría con facultades sancionadoras y sistemas modernos de fiscalización."
+        },
+        {
+          "id": "t1-4.P04",
+          "text": "Impulso de la innovación pública en todas las entidades del Estado mediante laboratorios regionales, el uso de inteligencia artificial, datos y tecnologías de información, y el fortalecimiento del INEI, bajo los principios de la Carta Iberoamericana de Innovación, para diseñar políticas más efectivas y basadas en evidencia."
+        },
+        {
+          "id": "t1-4.P05",
+          "text": "Articulación de la planificación con la asignación presupuestaria, garantizando que las prioridades nacionales, sectoriales y territoriales se reflejen de manera coherente en los recursos asignados."
+        },
+        {
+          "id": "t1-4.P06",
+          "text": "Creación del Programa Asiste Regional, que articule a la Presidencia del Consejo de Ministros, la Oficina de Ejecución de Contrataciones del Estado y la Dirección General de Abastecimiento para brindar asistencia técnica directa a gobiernos regionales y locales en la ejecución de proyectos de inversión pública de baja y mediana complejidad."
+        },
+        {
+          "id": "t1-4.P07",
+          "text": "Implementación del Programa Reactivación, bajo la conducción del Ministerio de Economía y Finanzas, para identificar, evaluar y reactivar obras públicas paralizadas a nivel nacional, articulando acciones con la Contraloría y los gobiernos subnacionales."
+        },
+        {
+          "id": "t1-4.P08",
+          "text": "Creación de la Defensoría del Funcionario Público, liderado por la Presidencia del Consejo de Ministros, para brindar defensa legal y administrativa a los funcionarios públicos que adopten decisiones técnicas necesarias para viabilizar proyectos de inversión."
+        },
+        {
+          "id": "t1-4.P09",
+          "text": "Incremento del Plan de Incentivos a la Mejora de la Gestión Municipal, alineándolo al cumplimiento de políticas públicas. Fortalecimiento e incremento del Plan de Incentivos a la Mejora de la Gestión Municipal, alineando sus metas y criterios de evaluación al cumplimiento de políticas públicas."
+        }
+      ]
+    },
+    {
+      "title": "Reforma del Sistema de Justicia",
+      "proposals": [
+        {
+          "id": "t1-4.P10",
+          "text": "Reforma integral del sistema de justicia, acompañada por sus propios actores, tal como el Poder Judicial, Ministerio Público, Junta Nacional de Justicia, Tribunal Constitucional, Policía Nacional del Perú, INPE, Ministerio de Justicia y Derechos Humanos, entre otros, con el fin de garantizar independencia judicial, celeridad procesal, predictibilidad de las decisiones, lucha efectiva contra la impunidad y la corrupción, y la recuperación de la confianza ciudadana en el Estado de derecho."
+        },
+        {
+          "id": "t1-4.P11",
+          "text": "Implementación de la interoperabilidad digital entre las entidades del sistema de justicia e incorporar inteligencia artificial para el análisis predictivo de casos, la asignación eficiente de expedientes y la reducción de tiempos procesales."
+        },
+        {
+          "id": "t1-4.P12",
+          "text": "Instauración de la obligatoriedad del Expediente Judicial Electrónico (EJE) para la gestión documental y notificaciones judiciales."
+        },
+        {
+          "id": "t1-4.P13",
+          "text": "Implementación del proceso judicial monitor para resolver con rapidez y simplicidad las deudas dinerarias y reclamaciones menores, permitiendo decisiones expeditivas sin necesidad de un juicio ordinario."
+        },
+        {
+          "id": "t1-4.P14",
+          "text": "Incremento continuo del número de abogados de oficio especializados en víctimas, priorizando distritos con mayor incidencia delictiva, a fin de garantizar que las víctimas de delitos cuenten con asesoría y representación legal gratuita, oportuna y especializada."
+        },
+        {
+          "id": "t1-4.P15",
+          "text": "Creación de la “Carrera Nacional de Defensa de Oficio”, con ingreso meritocrático a nivel nacional, etapas claras de ascenso, escuela de formación inicial y capacitación continua, topes de carga procesal que garanticen calidad, plan de nivelación continua de remuneraciones frente a otros operadores de justicia e incentivos (becas, prácticas, pasantías y bonificaciones por servicio en zonas de alta demanda), de modo que la defensa de oficio sea una opción profesional prestigiosa, estable y atractiva en todo el país."
+        },
+        {
+          "id": "t1-4.P16",
+          "text": "Implementación del “Programa Nacional de Voluntariado Corporativo Jurídico”, coordinado con la Defensa Pública y la Procuraduría General del Estado, que movilice a las áreas legales de las empresas para apoyar, ante el déficit de abogados de oficio, en orientación legal temprana, elaboración de escritos simples y jornadas periódicas de asesoría a población vulnerable, bajo un registro específico, con mecanismos de articulación y un sistema de incentivos y reconocimiento público a las empresas participantes."
+        },
+        {
+          "id": "t1-4.P17",
+          "text": "Creación del “Registro Nacional contra el Maltrato Animal”, interconectado con el sistema “Amigos con Huella”, para que toda condena firme por crueldad, abandono o maltrato quede registrada y, mientras dure la sanción, impida que el responsable pueda adoptar o registrar nuevas mascotas, facilitando además que fiscalías y jueces identifiquen reincidencias y apliquen sanciones efectivas."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t1-4.C01",
+      "text": "Inicio del Programa “Asiste Regional”, desplegando equipos de asistencia técnica del MEF y PCM en regiones para destrabar obras y fortalecer capacidades locales."
+    },
+    {
+      "id": "t1-4.C02",
+      "text": "Establecimiento de la obligatoriedad del Expediente Judicial Electrónico (EJE) en todos los distritos judiciales del país, con prioridad en Lima, La Libertad, Arequipa y Piura."
+    }
+  ]
+}

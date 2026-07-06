@@ -1,0 +1,214 @@
+{
+  "id": "t1-1",
+  "slug": "orden-ciudadano",
+  "name": "Orden ciudadano",
+  "pillar": "p1",
+  "doc_section": "1.1",
+  "groups": [
+    {
+      "title": "Prevención del delito",
+      "proposals": [
+        {
+          "id": "t1-1.P01",
+          "text": "Lanzamiento del “Programa Nacional de Prevención Temprana” liderado desde Presidencia de la República, a fin de brindar programas deportivos, culturales y artísticos para niños y adolescentes con factores de riesgos en zonas de alta vulnerabilidad juvenil, con acompañamiento de tutoría, becas, formación técnica y orientación psicosocial."
+        },
+        {
+          "id": "t1-1.P02",
+          "text": "Instalación del Consejo Presidencial de Prevención del Delito y Convivencia Ciudadana, presidido por Presidencia de la República, que sesione en regiones priorizadas para escuchar directamente a madres, jóvenes y autoridades locales."
+        },
+        {
+          "id": "t1-1.P03",
+          "text": "Promoción de escuelas deportivas como herramientas de prevención y reintegración social de adolescentes en riesgo, en alianza entre la PNP, gobiernos regionales y locales y juntas vecinales."
+        },
+        {
+          "id": "t1-1.P04",
+          "text": "Lanzamiento de un programa de “Empleo Joven con Futuro” para reducir el ingreso de jóvenes a economías ilegales."
+        },
+        {
+          "id": "t1-1.P05",
+          "text": "Implementación de servicios integrales de prevención contra violencia escolar, reclutamiento juvenil por pandillas y violencia contra la mujer, tal como las Brigadas de Autoprotección Escolar (BAPES)."
+        },
+        {
+          "id": "t1-1.P06",
+          "text": "Recuperación de espacios públicos mediante acciones integradas de iluminación, videovigilancia, patrullaje y actividades comunitarias que fortalezcan el orden y la convivencia ciudadana."
+        },
+        {
+          "id": "t1-1.P07",
+          "text": "Refuerzo del patrullaje en zonas críticas mediante la reorientación del 24x24, priorizando presencia policial efectiva en provincias y fronteras, mediante análisis geoespacial del delito."
+        },
+        {
+          "id": "t1-1.P08",
+          "text": "Incremento del patrullaje motorizado y aéreo (drones) con tecnología GPS y cámaras de reconocimiento facial para mejorar la capacidad de respuesta en tiempo real."
+        },
+        {
+          "id": "t1-1.P09",
+          "text": "Implementación de la Plataforma “Perú con Orden”, un sistema de información en tiempo real que integre denuncias, zonas de riesgo, mapas de calor delictivo y alertas comunitarias."
+        },
+        {
+          "id": "t1-1.P10",
+          "text": "Modernización integral del equipamiento policial, incorporando tecnología de vigilancia predictiva, drones, cámaras corporales y sistemas de geolocalización."
+        },
+        {
+          "id": "t1-1.P11",
+          "text": "Construcción y modernización de comisarías seguras y sostenibles, priorizando regiones con infraestructura precaria."
+        },
+        {
+          "id": "t1-1.P12",
+          "text": "Ejecución del Plan Estratégico de Desarrollo de Capacidades de la Policía Nacional del Perú (Mariano Santos Mateos), elaborado con el apoyo de la Embajada Británica, asegurando su implementación efectiva mediante financiamiento público sostenido y la cooperación de misiones técnicas internacionales."
+        },
+        {
+          "id": "t1-1.P13",
+          "text": "Profesionalización en dos líneas: Seguridad y Orden Interno e Investigación Criminal, con formación universitaria y convenios internacionales."
+        },
+        {
+          "id": "t1-1.P14",
+          "text": "Fortalecimiento de las escuelas policiales a macro-regionales de alta calidad."
+        },
+        {
+          "id": "t1-1.P15",
+          "text": "Ampliación y fortalecimiento del proceso de convocatoria policial para identificar, formar y seleccionar a jóvenes con vocación de servicio, disciplina e integridad, asegurando el ingreso de futuros policías con valores éticos y compromiso ciudadano."
+        },
+        {
+          "id": "t1-1.P16",
+          "text": "Implementación de tecnología preventiva mediante un “Botón de Pánico” que permitirá activar alertas inmediatas a la Policía y servicios de emergencia desde sus teléfonos celulares, facilitando la atención rápida ante situaciones de riesgo, violencia o amenazas."
+        }
+      ]
+    },
+    {
+      "title": "Combate y control",
+      "proposals": [
+        {
+          "id": "t1-1.P17",
+          "text": "Implementación rápida de Centros de Comando y Videovigilancia (C5i) interconectados a nivel nacional, con mapas del delito en tiempo real e inteligencia artificial para el análisis predictivo y la coordinación de emergencias, así con patrulleros y cámaras orientadas a reducir la inseguridad y recuperar los espacios tomados por el crimen."
+        },
+        {
+          "id": "t1-1.P18",
+          "text": "Implementación de un Plan de Emergencia para combatir la inseguridad ciudadana a través de la delegación de facultades legislativas por 60 días, complementadas con Decretos de Urgencia en materia económica y financiera."
+        },
+        {
+          "id": "t1-1.P19",
+          "text": "Establecimiento de un Comando Unificado Permanente contra la Inseguridad y el Crimen Organizado, integrado por Presidente de la República, la Presidencia de Consejo de Ministros (PCM), Ministros del Interior, Defensa y Justicia, Jefe del INPE, FF.AA., PNP y organismos de inteligencia"
+        },
+        {
+          "id": "t1-1.P20",
+          "text": "Control de cadenas de valor criminales con interdicción de insumos, rutas y puntos de comercio, a fin de combatir la minería ilegal, narcotráfico, trata de personas y extorsión."
+        },
+        {
+          "id": "t1-1.P21",
+          "text": "Modernización y fortalecimiento de SUCAMEC y DREMs para la fiscalización del desvío de explosivos y armas."
+        },
+        {
+          "id": "t1-1.P22",
+          "text": "Culminación de la implementación nacional del SIPMMA (Sistema Interoperable para la Pequeña Minería y Minería Artesanal) para trazabilidad de insumos y minerales."
+        },
+        {
+          "id": "t1-1.P23",
+          "text": "Establecimiento de comandos mixtos integrados por la PNP, FF.AA., Fiscalía y SUNAT, en zonas críticas para enfrentar la minería ilegal y el crimen organizado."
+        },
+        {
+          "id": "t1-1.P24",
+          "text": "Fortalecimiento del control y la gestión de las fronteras mediante la integración de tecnología, cooperación interinstitucional y desarrollo socioeconómico en zonas fronterizas."
+        },
+        {
+          "id": "t1-1.P25",
+          "text": "Creación de Unidades de Inteligencia contra la Extorsión de las Micro y Pequeñas Empresas (MYPEs)."
+        }
+      ]
+    },
+    {
+      "title": "Procesamiento",
+      "proposals": [
+        {
+          "id": "t1-1.P26",
+          "text": "Creación de nuevas Unidades de Flagrancia Express y fortalecimiento de las 28 unidades existentes, para garantizar una articulación efectiva entre la Policía, el Ministerio Público y el Poder Judicial, asegurando procesos inmediatos y sentencias rápidas contra el delito."
+        },
+        {
+          "id": "t1-1.P27",
+          "text": "Ampliación del sistema de flagrancia para delitos complejos (extorsión, sicariato y cobro de cupos)."
+        },
+        {
+          "id": "t1-1.P28",
+          "text": "Reforma integral del sistema de justicia, acompañada por sus propios actores, tal como el Poder Judicial, Ministerio Público, Junta Nacional de Justicia, Tribunal Constitucional, Policía Nacional del Perú, INPE, Ministerio de Justicia y Derechos Humanos, entre otros, con el fin de garantizar independencia judicial, celeridad procesal, predictibilidad de las decisiones, lucha efectiva contra la impunidad y la corrupción, y la recuperación de la confianza ciudadana en el Estado de derecho."
+        },
+        {
+          "id": "t1-1.P29",
+          "text": "Creación de un Sistema Nacional Integrado de Información Criminal, con interoperabilidad entre Policía, Fiscalía, Poder Judicial y gobiernos locales."
+        },
+        {
+          "id": "t1-1.P30",
+          "text": "Creación de una Comisión de Alto Nivel para la Reforma Judicial."
+        },
+        {
+          "id": "t1-1.P31",
+          "text": "Simplificación del Código Procesal Penal, implementación del expediente electrónico penal y fortalecimiento de las Fiscalías Especializadas contra el Crimen Organizado (FECOR) y creación de nuevas FECOR en zonas de mayor incidencia criminal."
+        },
+        {
+          "id": "t1-1.P32",
+          "text": "Construcción de cuatro (4) mega penales de máxima seguridad, cuatro (4) penales estándar modulares (1,000 internos) y un (1) penal especializado para jóvenes infractores, bajo administración temporal y exclusiva de las Fuerzas Armadas."
+        },
+        {
+          "id": "t1-1.P33",
+          "text": "Expansión de pabellones en penales existentes con separación por tipo de delito."
+        },
+        {
+          "id": "t1-1.P34",
+          "text": "Implementación de Cárceles productivas mediante el mecanismo de Asociaciones Público-Privadas (APP), con programas de reinserción laboral para delitos menores."
+        },
+        {
+          "id": "t1-1.P35",
+          "text": "Implementar un sistema integral de bloqueo de señales móviles en todos los establecimientos penitenciarios del país, garantizando su funcionamiento permanente a fin de prevenir el uso de celulares para la comisión de delitos desde las cárceles."
+        },
+        {
+          "id": "t1-1.P36",
+          "text": "Desarrollo de servicios integrales de apoyo a víctimas, especialmente mujeres y menores afectados por violencia."
+        },
+        {
+          "id": "t1-1.P37",
+          "text": "Implementación del Programa Nacional de Trabajo Comunitario Penitenciario “Manos que Reparan”, mediante el cual internos de baja y mediana peligrosidad realizan, bajo supervisión del INPE y en coordinación con gobiernos regionales y municipales, labores de mantenimiento de colegios, recuperación de áreas verdes, limpieza de riberas y mejoramiento de espacios públicos, con cómputo especial para redención de pena y aplicación directa a la reparación civil."
+        },
+        {
+          "id": "t1-1.P38",
+          "text": "Implementación de un régimen de trabajo penitenciario, que vincule la participación en actividades productivas al otorgamiento de incentivos, tal como el acceso a condiciones de la alimentación."
+        },
+        {
+          "id": "t1-1.P39",
+          "text": "Creación de un incentivo de trabajo con enfoque familiar destinando una parte de los ingresos generados por talleres productivos y programas de trabajo comunitario, complementada con recursos públicos, a un “Fondo de Apoyo Educativo para hijas e hijos de personas privadas de libertad”, que otorgue becas parciales o totales para estudios escolares, técnicos y universitarios, articulado con los programas de becas nacionales y regionales."
+        },
+        {
+          "id": "t1-1.P40",
+          "text": "Impulso de la visibilización y comercialización del trabajo productivo de las personas que cumplen condena, permitiéndoles así generar ingresos propios y acumular un capital inicial que facilite su reinserción laboral y emprendimiento al recuperar su libertad."
+        },
+        {
+          "id": "t1-1.P41",
+          "text": "Promoción para que cada municipalidad, en coordinación con el INPE, apruebe anualmente un plan de servicio comunitario penitenciario con metas verificables (número de colegios intervenidos, áreas verdes recuperadas y espacios públicos mejorados), garantizando recursos básicos para herramientas, seguridad y transporte de los internos que participen en estas actividades."
+        },
+        {
+          "id": "t1-1.P42",
+          "text": "Orientación continua de parte de los talleres productivos penitenciarios a la elaboración de bienes y servicios para el sistema público, tales como mobiliario escolar, módulos básicos para salud, señalización y uniformes, utilizando mecanismos especiales de contratación estatal y asegurando que los internos obtengan certificaciones técnicas formales por las competencias laborales adquiridas."
+        },
+        {
+          "id": "t1-1.P43",
+          "text": "Incremento continuo del número de abogados de oficio especializados en víctimas, priorizando distritos con mayor incidencia delictiva, a fin de garantizar que las víctimas de delitos cuenten con asesoría y representación legal gratuita, oportuna y especializada."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t1-1.C01",
+      "text": "Inicio de operaciones del C5i en Lima y Callao con expansión a ciudades críticas."
+    },
+    {
+      "id": "t1-1.C02",
+      "text": "Fortalecimiento de las Unidades de Flagrancia Express en Lima, Piura y Trujillo."
+    },
+    {
+      "id": "t1-1.C03",
+      "text": "Intervención militar y policial en Tumbes para control fronterizo y reducción de crimen organizado."
+    },
+    {
+      "id": "t1-1.C04",
+      "text": "Emisión de Decretos de Urgencia para financiar 1,000 patrulleros inteligentes, 10,000 cámaras interconectadas y modernización de 200 comisarías."
+    }
+  ]
+}

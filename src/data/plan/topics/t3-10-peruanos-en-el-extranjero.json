@@ -1,0 +1,205 @@
+{
+  "id": "t3-10",
+  "slug": "peruanos-en-el-extranjero",
+  "name": "Peruanos en el extranjero (PEX)",
+  "pillar": "p3",
+  "doc_section": "3.10",
+  "groups": [
+    {
+      "title": "Orden institucional y Estado presente en el exterior",
+      "proposals": [
+        {
+          "id": "t3-10.P01",
+          "text": "Modernización integral de los consulados peruanos, estableciendo estándares mínimos obligatorios de atención, tiempos máximos de respuesta, metas de desempeño y evaluación pública anual. Se priorizará la inversión en consulados ubicados en países con mayor concentración de peruanos (Estados Unidos, España, Chile, Argentina, Italia), garantizando infraestructura adecuada, personal suficiente y servicios digitales. Asimismo, se promoverá el acceso a servicios consulares de calidad para todos los peruanos, independientemente de su país de residencia."
+        },
+        {
+          "id": "t3-10.P02",
+          "text": "Creación de la Junta de Participación Ciudadana de los Peruanos en el Exterior (PEX), en reemplazo de los actuales Consejos de Consulta, como un espacio moderno y representativo que fortalezca la voz de los peruanos fuera del país, impulse su participación cívica, cultural y electoral, y mejore la articulación con los consulados y el Estado."
+        },
+        {
+          "id": "t3-10.P03",
+          "text": "Los legisladores que representen a los PEX estarán sujetos a procedimientos de rendición de cuentas, con informes periódicos, reuniones regulares con las comunidades y un portal digital de transparencia que permita evaluar el desempeño de sus representantes. De esta manera el Estado garantizará que la supervisión y el acompañamiento institucional sean tangibles y efectivos."
+        },
+        {
+          "id": "t3-10.P04",
+          "text": "Implementación de la Ventanilla Única Consular Digital, interoperable con RENIEC, JNE, ONPE, SUNARP, MININTER, SUNEDU, SBS y demás entidades del Estado, para que los peruanos en el exterior puedan realizar de manera remota, segura y con trazabilidad sus principales trámites ante el Estado peruano, reduciendo costos, tiempos y desplazamientos. Esta plataforma permitirá gestionar el DNI y pasaporte, registros civiles (nacimientos, matrimonios, divorcios y defunciones), trámites registrales como poderes, mandatos, sucesiones y constitución de personas jurídicas, poderes notariales electrónicos y certificaciones digitales, emisión de certificados oficiales, trámites electorales, gestiones previsionales y de seguridad social, convalidación y reconocimiento de grados y títulos, así como el reconocimiento de experiencia laboral en el exterior, acceso a programas de retorno, empleo, emprendimiento e inversión, así como una mesa de partes digital consular con seguimiento en línea, bajo principios de interoperabilidad, simplicidad administrativa, seguridad digital y protección de datos personales."
+        },
+        {
+          "id": "t3-10.P05",
+          "text": "Capacitación permanente y especialización del servicio consular en atención a migrantes, derechos humanos, gestión de crisis, protección social y servicios digitales."
+        }
+      ]
+    },
+    {
+      "title": "Protección social y defensa de derechos",
+      "proposals": [
+        {
+          "id": "t3-10.P06",
+          "text": "Creación del Programa de Protección Integral al Peruano Migrante, que consolide la asistencia legal gratuita, la orientación laboral y social y la protección consular especializada, mediante módulos en los consulados de mayor demanda, protocolos de atención inmediata y de emergencia, y articulación efectiva con autoridades del país receptor, para prevenir y atender casos de explotación laboral, violencia, trata de personas, discriminación, vulneración de derechos fundamentales, crisis humanitarias, desastres naturales, conflictos armados, deportaciones masivas u otras contingencias, garantizando una respuesta oportuna, acompañamiento jurídico continuo y coordinación interinstitucional."
+        },
+        {
+          "id": "t3-10.P07",
+          "text": "Suscripción y ampliación de convenios internacionales de seguridad social, que permitan a los peruanos residentes en el exterior recibir pensiones y beneficios previsionales peruanos en el país donde residen, así como reconocer y totalizar aportes realizados en distintos países, garantizando continuidad de derechos y seguridad económica en la vejez."
+        }
+      ]
+    },
+    {
+      "title": "Participación cívica y política",
+      "proposals": [
+        {
+          "id": "t3-10.P08",
+          "text": "Instalación de espacios permanentes de información y orientación cívica en los consulados, que faciliten el acceso al voto, a los servicios del Estado y a los beneficios disponibles para los peruanos en el exterior."
+        },
+        {
+          "id": "t3-10.P09",
+          "text": "Creación de mecanismos formales, periódicos y descentralizados de consulta, adscritos a la Cancillería, para recoger aportes y propuestas de los peruanos en el exterior sobre políticas públicas que los afecten directamente, con obligación de respuesta institucional y seguimiento."
+        },
+        {
+          "id": "t3-10.P10",
+          "text": "Otorgamiento de facilidades para la obtención de la nacionalidad peruana para hijos de peruanos nacidos en el extranjero, garantizando el derecho a la identidad, la ciudadanía plena y el vínculo permanente con el país, sin trámites engorrosos ni barreras administrativas."
+        },
+        {
+          "id": "t3-10.P11",
+          "text": "Impulso a la organización, representación y fortalecimiento de asociaciones de peruanos en el exterior como canales legítimos de participación ciudadana."
+        },
+        {
+          "id": "t3-10.P12",
+          "text": "Promoción de la implementación progresiva del voto electrónico, mediante experiencias piloto en consulados ubicados en países con mayor concentración de peruanos (Estados Unidos, España, Chile, Argentina e Italia), garantizando la legalidad del proceso, la seguridad tecnológica, la confianza ciudadana y la transparencia electoral, a través de sistemas auditables y mecanismos de supervisión a cargo de los organismos electorales competentes, con el fin de facilitar el ejercicio del derecho al sufragio de los peruanos en el exterior y avanzar en la modernización del sistema democrático."
+        }
+      ]
+    },
+    {
+      "title": "Emprendimiento, inversión y retorno productivo",
+      "proposals": [
+        {
+          "id": "t3-10.P13",
+          "text": "Firma de convenios bilaterales y multilaterales para la homologación y reconocimiento de títulos profesionales y técnicos obtenidos en el Perú en el extranjero, facilitando la inserción laboral de los peruanos migrantes y reduciendo la informalidad y la subutilización del capital humano."
+        },
+        {
+          "id": "t3-10.P14",
+          "text": "Implementación del Programa “Invierte desde el Exterior”, orientado tanto a peruanos residentes en el extranjero como a peruanos en el Perú que deseen asociarse con PEX, brindando asesoría especializada, información clara, acompañamiento técnico y trámites simplificados para canalizar inversión productiva, coinversión y joint ventures hacia regiones, sectores estratégicos, innovación, turismo, agroindustria, economía digital y economía social."
+        },
+        {
+          "id": "t3-10.P15",
+          "text": "Creación de un Fondo de Cofinanciamiento para Emprendimientos de Retorno y Coinversión PEX–Perú, que combine recursos públicos, privados y cooperación internacional, dirigido a peruanos que retornan al país y a proyectos asociativos entre peruanos del exterior y residentes en el Perú, priorizando iniciativas productivas, tecnológicas, culturales y de impacto social con potencial de generación de empleo formal."
+        },
+        {
+          "id": "t3-10.P16",
+          "text": "Implementación de mecanismos voluntarios, seguros y transparentes para canalizar remesas hacia ahorro e inversión productiva, promoviendo instrumentos financieros con educación financiera y acompañamiento técnico."
+        },
+        {
+          "id": "t3-10.P17",
+          "text": "Agilización del reconocimiento y convalidación de grados y títulos obtenidos en el extranjero en el Perú, estableciendo plazos máximos y procedimientos simplificados ante SUNEDU."
+        },
+        {
+          "id": "t3-10.P18",
+          "text": "Creación de una Bolsa Nacional de Empleo para Peruanos Retornantes, articulada con el MTPE y el sector privado, que visibilice perfiles con experiencia internacional y promueva su contratación."
+        },
+        {
+          "id": "t3-10.P19",
+          "text": "Implementación de un programa integral de inserción laboral para retornantes, que incluya orientación laboral, certificación de competencias, homologación de experiencia internacional, pasantías cortas y vinculación directa con empresas nacionales."
+        },
+        {
+          "id": "t3-10.P20",
+          "text": "Actualización del Reglamento de equipaje inafecto al pago de tributos para adecuarlo a la realidad de los Peruanos en el Exterior (PEX), ampliando los márgenes para artículos personales y regalos, y garantizando un trato digno y respetuoso en los puntos de control, que reconozca el aporte de cada visita y fortalezca el vínculo con el país, reafirmando que el peruano que retorna es parte viva de la Nación."
+        }
+      ]
+    },
+    {
+      "title": "Educación, identidad y segunda generación",
+      "proposals": [
+        {
+          "id": "t3-10.P21",
+          "text": "Desarrollo de programas de educación cultural, histórica y lingüística peruana en el exterior, dirigidos prioritariamente a niñas, niños, adolescentes y jóvenes de origen peruano."
+        },
+        {
+          "id": "t3-10.P22",
+          "text": "Fortalecimiento de redes culturales, académicas, científicas y profesionales peruanas en el exterior, promoviendo mentorías, cooperación y transferencia de conocimientos hacia el Perú."
+        },
+        {
+          "id": "t3-10.P23",
+          "text": "Uso activo de los consulados como centros de difusión cultural, dando visibilidad a eventos artísticos, gastronómicos y culturales peruanos en coordinación con comunidades locales y mediante una articulación estratégica con PROMPERÚ y MINCETUR, para fortalecer la identidad cultural y proyecta la imagen del Perú en el exterior."
+        },
+        {
+          "id": "t3-10.P24",
+          "text": "Reconocimiento anual a peruanos y peruanas destacados en el mundo, en ciencia, emprendimiento, cultura, deporte, educación y acción social, como referentes positivos de la peruanidad en el mundo."
+        },
+        {
+          "id": "t3-10.P25",
+          "text": "Promoción de becas en carreras técnicas virtuales para los Peruanos en el Exterior (PEX), que les permitan acceder a formación, capacitación y actualización laboral desde cualquier lugar del mundo, reduciendo barreras económicas y migratorias, fortaleciendo su empleabilidad y promoviendo la inclusión educativa, productiva y social de los peruanos fuera del país."
+        }
+      ]
+    },
+    {
+      "title": "Política Exterior",
+      "proposals": [
+        {
+          "id": "t3-10.P26",
+          "text": "Política exterior soberana y pragmática, basada exclusivamente en el interés nacional y el crecimiento económico del Perú."
+        },
+        {
+          "id": "t3-10.P27",
+          "text": "Relación estratégica equilibrada con Estados Unidos y China, priorizando comercio, inversión, transferencia tecnológica y generación de empleo en el país."
+        },
+        {
+          "id": "t3-10.P28",
+          "text": "No alineamiento automático con ninguna potencia; decisiones internacionales guiadas por beneficios concretos para el Perú."
+        },
+        {
+          "id": "t3-10.P29",
+          "text": "Fortalecimiento y profundización de tratados comerciales existentes y apertura de nuevos mercados en Asia-Pacífico, Unión Europea y América Latina."
+        },
+        {
+          "id": "t3-10.P30",
+          "text": "Impulso decidido a la diplomacia económica para atraer inversión en minería sostenible, agroindustria, infraestructura, energía, economía digital y manufactura con valor agregado."
+        },
+        {
+          "id": "t3-10.P31",
+          "text": "Promoción del Perú como hub logístico del Pacífico sudamericano, articulando puertos, corredores bioceánicos y zonas económicas estratégicas."
+        },
+        {
+          "id": "t3-10.P32",
+          "text": "Diversificación de mercados de exportación para reducir dependencia excesiva de uno o dos socios comerciales."
+        },
+        {
+          "id": "t3-10.P33",
+          "text": "Defensa activa de la seguridad jurídica, estabilidad macroeconómica y respeto a la Constitución en todos los acuerdos internacionales."
+        },
+        {
+          "id": "t3-10.P34",
+          "text": "Impulso a acuerdos de cooperación en innovación, ciencia, tecnología y educación superior con economías desarrolladas."
+        },
+        {
+          "id": "t3-10.P35",
+          "text": "Fortalecimiento de la integración regional a través de la Alianza del Pacífico y mecanismos de cooperación sudamericana con enfoque productivo."
+        },
+        {
+          "id": "t3-10.P36",
+          "text": "Estrategia de atracción de cadenas globales de valor y relocalización industrial (nearshoring y friendshoring)."
+        },
+        {
+          "id": "t3-10.P37",
+          "text": "Coordinación permanente entre Cancillería, MEF, MINCETUR y sector privado para alinear política exterior con prioridades económicas nacionales."
+        },
+        {
+          "id": "t3-10.P38",
+          "text": "Defensa firme de la democracia, el Estado de derecho y los derechos humanos como principios rectores de la acción internacional del Perú."
+        },
+        {
+          "id": "t3-10.P39",
+          "text": "Política activa de protección de recursos estratégicos y promoción de inversiones responsables y sostenibles."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-10.C01",
+      "text": "Implementación de la Ventanilla Única Consular Digital para los peruanos en el exterior a fin de reducir de colas, costos y tiempos."
+    },
+    {
+      "id": "t3-10.C02",
+      "text": "Publicación del Reglamento actualizado de Equipaje Inafecto al Pago de Tributos, considerando la realidad de los peruanos en el exterior."
+    }
+  ]
+}

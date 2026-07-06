@@ -1,0 +1,328 @@
+#!/usr/bin/env python3
+"""Extract plan content from the official PDF into src/data/plan/.
+
+Reads docs/Plan-de-Gobierno-Reforzado_V2.pdf via `pdftotext -layout`, parses the
+23 topics (proposals + first-100-days actions), and writes:
+  - src/data/plan/index.json
+  - src/data/plan/topics/t{pillar}-{n}-{slug}.json  (x23)
+
+Re-run any time the source PDF changes; output is deterministic (same input ->
+byte-identical output).
+"""
+import json
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+PDF = ROOT / "docs" / "Plan-de-Gobierno-Reforzado_V2.pdf"
+OUT_DIR = ROOT / "src" / "data" / "plan"
+TOPICS_DIR = OUT_DIR / "topics"
+
+EXPECTED = {  # doc_section -> expected proposal count (Global Constraints)
+    "1.1": 43, "1.2": 13, "1.3": 15, "1.4": 17, "2.1": 43, "2.2": 17, "2.3": 23,
+    "2.4": 34, "2.5": 26, "2.6": 41, "2.7": 38, "2.8": 16, "2.9": 15, "3.1": 62,
+    "3.2": 42, "3.3": 39, "3.4": 12, "3.5": 28, "3.6": 20, "3.7": 21, "3.8": 19,
+    "3.9": 12, "3.10": 39,
+}
+EXPECTED_CIEN_OVERRIDES = {"1.1": 4, "1.2": 2, "1.3": 3, "1.4": 2, "3.10": 2}
+EXPECTED_CIEN = {doc_section: EXPECTED_CIEN_OVERRIDES.get(doc_section, 3) for doc_section in EXPECTED}
+
+TOPIC_ORDER = list(EXPECTED.keys())
+
+# Document order matches Global Constraints slug list exactly.
+SLUGS = {
+    "1.1": "orden-ciudadano", "1.2": "lucha-contra-la-corrupcion", "1.3": "orden-economico",
+    "1.4": "orden-juridico", "2.1": "emprendedores-mype", "2.2": "mineria",
+    "2.3": "energia-e-hidrocarburos", "2.4": "agricultura", "2.5": "pesca-y-acuicultura",
+    "2.6": "transportes-y-comunicaciones", "2.7": "turismo",
+    "2.8": "industria-y-comercio-exterior", "2.9": "desarrollo-sostenible-o-ambiente",
+    "3.1": "ninos-adolescentes-y-jovenes", "3.2": "educacion", "3.3": "salud",
+    "3.4": "seguridad-alimentaria", "3.5": "vivienda", "3.6": "agua-y-saneamiento",
+    "3.7": "pensiones", "3.8": "programas-sociales", "3.9": "deporte",
+    "3.10": "peruanos-en-el-extranjero",
+}
+
+# Name casing per Global Constraints rule ("LUCHA CONTRA LA CORRUPCIÓN" ->
+# "Lucha contra la corrupción" etc.); hardcoded verbatim to avoid heuristic
+# drift on acronyms/parentheticals (e.g. "(MYPE)", the 3.10 renaming rule).
+NAMES = {
+    "1.1": "Orden ciudadano",
+    "1.2": "Lucha contra la corrupción",
+    "1.3": "Orden económico",
+    "1.4": "Orden jurídico",
+    "2.1": "Emprendedores (MYPE)",
+    "2.2": "Minería",
+    "2.3": "Energía e hidrocarburos",
+    "2.4": "Agricultura",
+    "2.5": "Pesca y acuicultura",
+    "2.6": "Transportes y comunicaciones",
+    "2.7": "Turismo",
+    "2.8": "Industria y comercio exterior",
+    "2.9": "Desarrollo sostenible o ambiente",
+    "3.1": "Niños, adolescentes y jóvenes",
+    "3.2": "Educación",
+    "3.3": "Salud",
+    "3.4": "Seguridad alimentaria",
+    "3.5": "Vivienda",
+    "3.6": "Agua y saneamiento",
+    "3.7": "Pensiones",
+    "3.8": "Programas sociales",
+    "3.9": "Deporte",
+    "3.10": "Peruanos en el extranjero (PEX)",
+}
+
+PILLAR_NAMES = {"p1": "Orden", "p2": "Económico", "p3": "Social"}
+
+HEADING = re.compile(r"^\s*(\d\.\d{1,2})\.\s+([A-ZÁÉÍÓÚÑ][^\n]*)$")
+SUB = re.compile(r"^\s*(\d)\.(\d{1,2})\.(\d)\.?\s")
+BULLET = re.compile(r"^\s*•\s*(.*)$")
+PAGENUM = re.compile(r"^\s*\d{1,3}\s*$")
+
+
+def get_text() -> list[str]:
+    out = subprocess.run(["pdftotext", "-layout", str(PDF), "-"],
+                          capture_output=True, text=True, check=True).stdout
+    return out.split("\f")[13:133]  # body pages only
+
+
+def pillar_of(doc_section: str) -> str:
+    return f"p{doc_section.split('.')[0]}"
+
+
+def topic_id(doc_section: str) -> str:
+    pillar, n = doc_section.split(".")
+    return f"t{pillar}-{n}"
+
+
+def flatten_lines(pages: list[str]) -> list[str]:
+    """Concatenate all pages into one line stream, dropping each page's
+    trailing footer (blank lines + page number) before the seam.
+
+    A proposal can wrap across a page break with nothing but blank lines
+    and a footer page-number between the last visible line and its
+    continuation on the next page. If that footer noise were kept, a
+    genuine mid-sentence continuation and a real paragraph break would look
+    identical (blank line immediately before the next content line) and the
+    group-title heuristic below could not tell them apart. Stripping the
+    footer before the pages are joined removes that false separator, so the
+    only blank lines left in the stream are real paragraph breaks.
+    """
+    lines: list[str] = []
+    for page in pages:
+        page_lines = page.split("\n")
+        while page_lines and (not page_lines[-1].strip() or PAGENUM.match(page_lines[-1])):
+            page_lines.pop()
+        lines.extend(page_lines)
+    return lines
+
+
+def parse(pages: list[str]) -> dict:
+    """Walk the flattened line stream once, tracking topic/subsection state."""
+    topics: dict[str, dict] = {}
+    current_topic = None
+    mode = None  # None | 'diagnostico' | 'proposals' | 'cien' | 'metas'
+    active_group = None
+    pending_title = None
+    boundary = True  # True right after a blank line / section transition
+    current_item: list[str] | None = None
+    current_item_target: list | None = None
+
+    def finalize_item():
+        nonlocal current_item, current_item_target
+        if current_item is not None and current_item_target is not None:
+            text = re.sub(r"\s+", " ", " ".join(current_item)).strip()
+            if text:
+                current_item_target.append(text)
+        current_item = None
+        current_item_target = None
+
+    for raw_line in flatten_lines(pages):
+        line = raw_line.rstrip()
+
+        if PAGENUM.match(line):
+            continue  # stray page-number line (footer already stripped at seams)
+
+        if not line.strip():
+            # A real paragraph break: closes whatever proposal was open and
+            # marks the next content line as a group-title candidate.
+            finalize_item()
+            boundary = True
+            continue
+
+        if "....." in line:
+            continue  # TOC leader artifact guard (defensive; not present in body)
+
+        if re.match(r"^\s*Fuente:", line):
+            continue  # citation line (relevant only inside ignored diagnostico)
+
+        m = HEADING.match(line)
+        if m and m.group(1) in EXPECTED:
+            finalize_item()
+            current_topic = m.group(1)
+            topics.setdefault(current_topic, {"groups": [], "cien": []})
+            mode = None
+            active_group = None
+            pending_title = None
+            boundary = True
+            continue
+
+        m = SUB.match(line)
+        if m and current_topic is not None:
+            finalize_item()
+            sub_num = m.group(3)
+            # 3.6.2 typo inside topic 3.7: keep CURRENT topic regardless of the
+            # heading's own topic prefix; only the subsection digit counts.
+            if sub_num == "2":
+                mode = "proposals"
+                active_group = None
+                pending_title = None
+            elif sub_num == "3":
+                mode = "cien"
+            elif sub_num == "1":
+                mode = "diagnostico"
+            elif sub_num == "4":
+                mode = "metas"
+            else:
+                mode = None
+            boundary = True
+            continue
+
+        mb = BULLET.match(line)
+        if mb and current_topic is not None and mode in ("proposals", "cien"):
+            finalize_item()
+            text0 = mb.group(1).strip()
+            if mode == "proposals":
+                if active_group is None:
+                    active_group = {"title": pending_title, "proposals": []}
+                    topics[current_topic]["groups"].append(active_group)
+                    pending_title = None
+                current_item = [text0]
+                current_item_target = active_group["proposals"]
+            else:
+                current_item = [text0]
+                current_item_target = topics[current_topic]["cien"]
+            boundary = False
+            continue
+
+        # Plain content line: group-title candidate, continuation, or stray.
+        if current_topic is not None and mode == "proposals" and boundary:
+            candidate = line.strip()
+            if (candidate and len(candidate) < 90
+                    and not candidate.endswith(".")
+                    and not candidate.endswith(",")
+                    and candidate[0].isupper()):
+                pending_title = candidate
+                active_group = None
+                continue
+            # else: stray non-title line right after a paragraph break
+            # (e.g. leading text before the first group); ignore.
+            continue
+
+        if current_topic is not None and mode in ("proposals", "cien") and current_item is not None:
+            current_item.append(line.strip())
+            continue
+
+        # else: outside proposals/cien (diagnostico/metas/none), or a stray
+        # line with no open item to continue; ignore.
+
+    finalize_item()
+    return topics
+
+
+def build_output(topics: dict) -> tuple[dict, dict]:
+    """Return (index_dict, {doc_section: topic_file_dict})."""
+    index = {
+        "plan": {
+            "name": "Perú con Orden",
+            "period": "2026–2031",
+            "party": "Fuerza Popular",
+            "source_pdf": "docs/Plan-de-Gobierno-Reforzado_V2.pdf",
+        },
+        "pillars": [{"id": pid, "name": name} for pid, name in PILLAR_NAMES.items()],
+        "topics": [],
+    }
+    topic_files = {}
+
+    for doc_section in TOPIC_ORDER:
+        topic = topics.get(doc_section, {"groups": [], "cien": []})
+        tid = topic_id(doc_section)
+        slug = SLUGS[doc_section]
+        name = NAMES[doc_section]
+        pillar = pillar_of(doc_section)
+
+        groups_out = []
+        proposal_count = 0
+        for group in topic["groups"]:
+            props_out = []
+            for text in group["proposals"]:
+                proposal_count += 1
+                props_out.append({"id": f"{tid}.P{proposal_count:02d}", "text": text})
+            groups_out.append({"title": group["title"], "proposals": props_out})
+
+        cien_out = [{"id": f"{tid}.C{i:02d}", "text": text}
+                    for i, text in enumerate(topic["cien"], start=1)]
+
+        index["topics"].append({
+            "id": tid, "slug": slug, "name": name, "pillar": pillar, "doc_section": doc_section,
+            "proposals": proposal_count, "first_100_days": len(cien_out), "goals": 0,
+        })
+
+        topic_files[doc_section] = {
+            "id": tid, "slug": slug, "name": name, "pillar": pillar, "doc_section": doc_section,
+            "groups": groups_out, "first_100_days": cien_out,
+        }
+
+    return index, topic_files
+
+
+def write_json(path: Path, data: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def main() -> int:
+    pages = get_text()
+    topics = parse(pages)
+    index, topic_files = build_output(topics)
+
+    write_json(OUT_DIR / "index.json", index)
+    for doc_section in TOPIC_ORDER:
+        tid = topic_id(doc_section)
+        slug = SLUGS[doc_section]
+        write_json(TOPICS_DIR / f"{tid}-{slug}.json", topic_files[doc_section])
+
+    # Self-check: proposal + first_100_days counts must match verified ground truth.
+    ok = True
+    print(f"{'topic':<6} {'proposals':>10} {'expected':>8}  {'100days':>7} {'expected':>8}")
+    total_prop = total_prop_exp = total_cien = total_cien_exp = 0
+    for doc_section in TOPIC_ORDER:
+        entry = topic_files[doc_section]
+        got_prop = sum(len(g["proposals"]) for g in entry["groups"])
+        got_cien = len(entry["first_100_days"])
+        exp_prop = EXPECTED[doc_section]
+        exp_cien = EXPECTED_CIEN[doc_section]
+        mark = "OK" if (got_prop == exp_prop and got_cien == exp_cien) else "MISMATCH"
+        if mark == "MISMATCH":
+            ok = False
+        print(f"{doc_section:<6} {got_prop:>10} {exp_prop:>8}  {got_cien:>7} {exp_cien:>8}  {mark}")
+        total_prop += got_prop
+        total_prop_exp += exp_prop
+        total_cien += got_cien
+        total_cien_exp += exp_cien
+
+    print(f"\nTOTAL proposals:    {total_prop} (expected {total_prop_exp})")
+    print(f"TOTAL 100 days:     {total_cien} (expected {total_cien_exp})")
+    print(f"TOTAL topics:       {len(TOPIC_ORDER)} (expected 23)")
+
+    if not ok or total_prop != 635 or total_cien != 67 or len(TOPIC_ORDER) != 23:
+        print("\nFAIL: counts do not match expected ground truth.")
+        return 1
+
+    print("\nOK: all counts match.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

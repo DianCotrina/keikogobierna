@@ -1,0 +1,212 @@
+{
+  "id": "t2-6",
+  "slug": "transportes-y-comunicaciones",
+  "name": "Transportes y comunicaciones",
+  "pillar": "p2",
+  "doc_section": "2.6",
+  "groups": [
+    {
+      "title": "Carreteras y Caminos Rurales",
+      "proposals": [
+        {
+          "id": "t2-6.P01",
+          "text": "Ejecución de los grandes proyectos viales prioritarios, priorizando la finalización de las siguientes carreteras: − Nueva Carretera Central − Oyón–Ambo − Canta–La Viuda–Unish − Puerto Ocopa–Atalaya − Longitudinal de la Sierra Tramo 4 − Autopista del Sol − Red Vial N° 4"
+        },
+        {
+          "id": "t2-6.P02",
+          "text": "Implementación de un Programa Nacional para Rehabilitar y Mantener el 100% de los Caminos Rurales Críticos, con enfoque territorial y contratos por desempeño."
+        },
+        {
+          "id": "t2-6.P03",
+          "text": "Incremento en tres veces la inversión en caminos rurales mediante cofinanciamiento con gobiernos regionales y locales, priorizando zonas agrícolas, mineras y turísticas."
+        },
+        {
+          "id": "t2-6.P04",
+          "text": "Creación de un Fondo de Rehabilitación Vial Rural que financie mantenimiento preventivo y obras de integración productiva."
+        },
+        {
+          "id": "t2-6.P05",
+          "text": "Integración de los caminos rurales a los Corredores Logísticos de Integración (CLI) y corredores agroexportadores que conecten la producción con los puertos, aeropuertos y mercados internacionales"
+        }
+      ]
+    },
+    {
+      "title": "Ferrocarriles",
+      "proposals": [
+        {
+          "id": "t2-6.P06",
+          "text": "Culminación de la Línea 2 del Metro de Lima y Callao."
+        },
+        {
+          "id": "t2-6.P07",
+          "text": "Ejecución de la Línea 3, 4, 5 y 6, expandiendo el sistema de transporte masivo urbano para mejorar la movilidad metropolitana."
+        },
+        {
+          "id": "t2-6.P08",
+          "text": "Ejecución de líneas de metro en Piura, Trujillo y Arequipa, orientados al transporte de carga y pasajeros, y articulados con zonas industiales y turísticas."
+        },
+        {
+          "id": "t2-6.P09",
+          "text": "Promoción de la construcción del Tren Bioceánico Perú–Brasil, clave para la integración sudamericana, así como corredores ferroviarios de carga minera y agrícola que conecten con los puertos de Chancay, Callao, Pisco, Salaverry e Ilo."
+        },
+        {
+          "id": "t2-6.P10",
+          "text": "Ejecución de las líneas de ferrocarril de cercanía Lima-Ica y Lima-Barranca."
+        }
+      ]
+    },
+    {
+      "title": "Puertos",
+      "proposals": [
+        {
+          "id": "t2-6.P11",
+          "text": "Consolidación del Megapuerto de Chancay como plataforma logística del Pacífico Sur."
+        },
+        {
+          "id": "t2-6.P12",
+          "text": "Ampliación y fortalecimiento del puerto del Terminal Portuario del Callao."
+        },
+        {
+          "id": "t2-6.P13",
+          "text": "Modernización de los puertos de Salaverry, Ilo, Pisco y Yurimaguas, incorporando tecnología de gestión portuaria y zonas logísticas adyacentes para carga minera, agroindustrial y contenedores."
+        },
+        {
+          "id": "t2-6.P14",
+          "text": "Desarrollo del Clúster Logístico Chancay–Callao-Pisco, con zonas económicas especiales, parques industriales y servicios logísticos de valor agregado."
+        },
+        {
+          "id": "t2-6.P15",
+          "text": "Impulso del cabotaje nacional. Aeroportuaria"
+        },
+        {
+          "id": "t2-6.P16",
+          "text": "Culminación de los accesos al nuevo Aeropuerto Internacional Jorge Chávez."
+        },
+        {
+          "id": "t2-6.P17",
+          "text": "Puesta en marcha el Aeropuerto Internacional de Chinchero – Cusco, como eje turístico y exportador del sur andino."
+        },
+        {
+          "id": "t2-6.P18",
+          "text": "Inicio de la construcción de nuevos aeropuertos regionales estratégicos en: − Oxapampa − Chimbote − Moquegua − Puno − Huancavelica − Huancayo"
+        },
+        {
+          "id": "t2-6.P19",
+          "text": "Construcción del nuevo Aeropuerto de Tingo María, orientado a impulsar el turismo amazónico, la conectividad regional y la exportación agrícola."
+        },
+        {
+          "id": "t2-6.P20",
+          "text": "Puesta en operatividad plena del Aeropuerto de Andahuaylas, garantizando estándares de seguridad, equipamiento de navegación aérea y operaciones comerciales regulares."
+        },
+        {
+          "id": "t2-6.P21",
+          "text": "Modernización de los 17 aeropuertos concesionados a nivel nacional, priorizando inversiones en seguridad aérea, tecnología de navegación y capacidad operativa. Específicamente, se modernizarán los siguientes aeropuertos: − Aeropuerto Capitán FAP Pedro Canga Rodríguez (Tumbes) − Aeropuerto Capitán FAP Victor Montes Arias (Talara) − Aeropuerto Capitán FAP Guillermo Concha Iberico (Piura) − Aeropuerto Mayor General FAP Armando Revoredo Iglesias (Cajamarca) − Aeropuerto Capitán FAP José A. Quiñones González (Chiclayo) − Aeropuerto de Chachapoyas (Chachapoyas) − Aeropuerto Cadete FAP Guillermo del Castillo Paredes (Tarapoto) − Aeropuerto Capitán FAP Carlos Martínez de Pinillos (Trujillo) − Aeropuerto Comandante FAP Germán Arias Graziani (Huaraz) − Aeropuerto Coronel FAP Francisco Secada Vignetta (Iquitos) − Aeropuerto Capitán FAP David Abenzur Rengifo (Pucallpa) − Aeropuerto Capitán FAP Renán Elías Olivera (Pisco) − Aeropuerto Alférez Alfredo Rodríguez Ballón (Arequipa) − Aeropuerto Coronel FAP Alfredo Mendívil Duarte (Ayacucho) − Aeropuerto Inca Manco Capac (Juliaca) − Aeropuerto Padre Aldamiz (Puerto Maldonado) − Aeropuerto Coronel FAP Carlos Ciriani Santa Rosa (Tacna)"
+        },
+        {
+          "id": "t2-6.P22",
+          "text": "Operatividad comercial completa del Aeropuerto de Pisco, habilitándolo plenamente para recibir vuelos comerciales regulares y convertirlo en un hub alterno para la macroregión sur."
+        },
+        {
+          "id": "t2-6.P23",
+          "text": "Reforzamiento de los aeropuertos de Piura, Chiclayo, Iquitos y Trujillo, dotándolos de infraestructura internacional, ampliación de pistas, mejora de terminales y certificaciones ICAO, con el fin de habilitar vuelos internacionales directos y diversificar puntos de ingreso al país."
+        },
+        {
+          "id": "t2-6.P24",
+          "text": "Promoción de vuelos regionales directos mediante incentivos tributarios y reducción de tasas aeroportuarias."
+        },
+        {
+          "id": "t2-6.P25",
+          "text": "Desarrollo de nodos logísticos aeroportuarios conectados a los corredores logísticos nacionales para carga perecible, farmacéutica y minera."
+        },
+        {
+          "id": "t2-6.P26",
+          "text": "Centralización de las aprobaciones de los proyectos aeroportuarios concesionados en el MTC, OSITRAN o ProInversión."
+        }
+      ]
+    },
+    {
+      "title": "Conectividad Digital",
+      "proposals": [
+        {
+          "id": "t2-6.P27",
+          "text": "Rediseño de la gestión de la Red Dorsal Nacional de Fibra Óptica mediante concesión supervisada, garantizando uso efectivo."
+        },
+        {
+          "id": "t2-6.P28",
+          "text": "Implementación de un Plan de Cobertura Universal de Internet Satelital y Móvil, especialmente para comunidades amazónicas y altoandinas."
+        },
+        {
+          "id": "t2-6.P29",
+          "text": "Integración de sistemas de información en los corredores logísticos para reducir tiempos, costos y fletes vacíos"
+        },
+        {
+          "id": "t2-6.P30",
+          "text": "Implementación de proyectos regionales de conectividad en cada región del país, garantizando el acceso universal a internet y el cierre de la brecha digital en zonas rurales."
+        },
+        {
+          "id": "t2-6.P31",
+          "text": "Implementación de la Red de Comunicaciones Nanay – Putumayo y Satélite de Comunicaciones Menores: conectividad para comunidades amazónicas."
+        }
+      ]
+    },
+    {
+      "title": "Transporte sostenible, seguro e integrado",
+      "proposals": [
+        {
+          "id": "t2-6.P32",
+          "text": "Desarrollo de corredores logísticos verdes con estándares de descarbonización, resiliencia climática y eficiencia energética"
+        },
+        {
+          "id": "t2-6.P33",
+          "text": "Promoción del uso de flotas bajas en emisiones (camiones eléctricos y a GNL) con beneficios tributarios temporales."
+        },
+        {
+          "id": "t2-6.P34",
+          "text": "Incorporación de sistemas inteligentes de gestión logística y trazabilidad digital, incluyendo IA para gestión de almacenes y fronteras."
+        },
+        {
+          "id": "t2-6.P35",
+          "text": "Implementación del Programa Nacional de Seguridad Vial con la meta de reducir la siniestralidad en 30% al 2030."
+        },
+        {
+          "id": "t2-6.P36",
+          "text": "Formalización del transporte interprovincial mediante control satelital y apoyo condicionado a la formalización."
+        },
+        {
+          "id": "t2-6.P37",
+          "text": "Uso del Carnet Nacional del Adulto Mayor para facilitar la movilidad, estableciendo descuentos obligatorios a nivel nacional en transporte terrestre, acuático, ferroviario y aéreo nacional, promoviendo la integración social, la conectividad territorial y el acceso equitativo a servicios y actividades económicas."
+        },
+        {
+          "id": "t2-6.P38",
+          "text": "Fortalecimiento de la integración amazónica, con hidrovías, carreteras y trenes de Paita– Manaos y Acre–Pucallpa-Lima."
+        },
+        {
+          "id": "t2-6.P39",
+          "text": "Reforzamiento del Corredor Costero Andino como eje de integración productiva y energética."
+        },
+        {
+          "id": "t2-6.P40",
+          "text": "Fortalecimiento de la gobernanza participativa en los corredores logísticos, con comités binacionales en zonas de frontera."
+        },
+        {
+          "id": "t2-6.P41",
+          "text": "Implementación de un sistema de ventanilla única multimodal (VUM) con Inteligencia Artificial que sea interoperable para transporte terrestre, portuario y aduanero."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-6.C01",
+      "text": "Creación del “Fondo de Emergencia Vial Rural”, para financiar obras de drenaje, bacheo y mantenimiento preventivo."
+    },
+    {
+      "id": "t2-6.C02",
+      "text": "Lanzamiento del Programa Nacional de Seguridad Vial, con operativos simultáneos en puntos críticos del país (carreteras interprovinciales y zonas urbanas)."
+    },
+    {
+      "id": "t2-6.C03",
+      "text": "Inicio de la ejecución de un corredor logístico piloto verde en la Costa Central (Callao– Chancay–Sierra Central)."
+    }
+  ]
+}

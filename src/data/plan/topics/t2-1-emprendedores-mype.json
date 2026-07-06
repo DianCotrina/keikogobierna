@@ -1,0 +1,210 @@
+{
+  "id": "t2-1",
+  "slug": "emprendedores-mype",
+  "name": "Emprendedores (MYPE)",
+  "pillar": "p2",
+  "doc_section": "2.1",
+  "groups": [
+    {
+      "title": "Formalización, simplificación y fortalecimiento institucional",
+      "proposals": [
+        {
+          "id": "t2-1.P01",
+          "text": "Creación de PROMPYME con rango viceministerial adscrito a la PCM, unificando programas de apoyo (ProInnóvate, Procompite y otros), capacitación, consultoría y supervisión de los CITEs e incorporando un área de inteligencia de mercados y estadística MYPE para la toma de decisiones basada en datos y evidencia; así como la reorientación de la Comisión para la Promoción de Exportaciones."
+        },
+        {
+          "id": "t2-1.P02",
+          "text": "Implementación de la política de “Licencia 0 para MYPEs”, eliminando costos y trámites innecesarios (inscripción registral, licencias municipales, defensa civil, registros de marca o nombre), mediante una ventanilla única electrónica nacional con Inteligencia Artificial que interopere con SUNAT, SUNARP, Indecopi y municipalidades (eliminación de licencia previa para riesgo bajo y medio)."
+        },
+        {
+          "id": "t2-1.P03",
+          "text": "Estandarización de la inspección a través de la implementación de un “Manual Nacional de Inspección” que reduce discrecionalidad del inspector."
+        },
+        {
+          "id": "t2-1.P04",
+          "text": "Apertura inmediata con RUC y Declaración Jurada de seguridad y zonificación."
+        },
+        {
+          "id": "t2-1.P05",
+          "text": "Ejecución del Plan Nacional de Promoción y Formalización para la Competitividad y Desarrollo de la Micro y Pequeña Empresa como política de Estado."
+        },
+        {
+          "id": "t2-1.P06",
+          "text": "Activación del REMYPE con campañas masivas de inscripción digital y móvil, priorizando a emprendedores jóvenes y mujeres."
+        },
+        {
+          "id": "t2-1.P07",
+          "text": "Prohibición de la doble sanción de cierre y multa, corregir normas de decomisos y recargos excesivos de SUNAT y municipalidades."
+        },
+        {
+          "id": "t2-1.P08",
+          "text": "Creación de incentivos específicos para la formalización de unidades de negocio, incluyendo beneficios tributarios temporales, reducción de costos iniciales de formalización y acceso preferente a crédito y programas de capacitación."
+        },
+        {
+          "id": "t2-1.P09",
+          "text": "Impulso de una Ley de Comercio Ambulatorio que reconozca esta actividad como una forma legítima de trabajo y autoempleo, establezca derechos y deberes claros, regule el uso del espacio público y defina rutas de formalización progresiva y concertada, en coordinación con los gobiernos locales y las organizaciones de comerciantes."
+        },
+        {
+          "id": "t2-1.P10",
+          "text": "Formalización construida junto a los comerciantes ambulantes a través de un modelo de formalización construido de la mano con los comerciantes ambulantes, basado en el diálogo permanente, planes de transición gradual, asistencia técnica y acompañamiento productivo, priorizando la protección de los ingresos y la estabilidad económica de las familias."
+        },
+        {
+          "id": "t2-1.P11",
+          "text": "Creación de una Comisión de Alto Nivel para el Autoempleo y la Formalización Inclusiva adscrita a la Presidencia del Consejo de Ministros, con participación de los sectores clave y los gobiernos locales, encargada de liderar una política nacional multisectorial de formalización, protección social y mejora de la productividad del autoempleo urbano."
+        },
+        {
+          "id": "t2-1.P12",
+          "text": "Acotamiento de la represión municipal, prohibiendo decomisos y desalojos arbitrarios, estableciendo protocolos claros en el marco del debido proceso y garantizando que el ordenamiento urbano no se realice a costa de los medios de subsistencia."
+        },
+        {
+          "id": "t2-1.P13",
+          "text": "Impulso del ordenamiento del espacio público mediante planificación urbana inclusiva, creando nuevos polos comerciales y recuperando espacios subutilizados para actividades económicas formales, evitando la congestión y mejorando las condiciones de trabajo."
+        }
+      ]
+    },
+    {
+      "title": "Financiamiento, crédito y apoyo al emprendimiento",
+      "proposals": [
+        {
+          "id": "t2-1.P14",
+          "text": "Implementación del Programa de Crédito: apoyo a negocios afectados por crisis con préstamos (Fondo para el Crecimiento MYPE)."
+        },
+        {
+          "id": "t2-1.P15",
+          "text": "Implementación de un “Sistema de Crédito para Mujeres Emprendedoras”, con asistencia técnica y programas de incubación."
+        },
+        {
+          "id": "t2-1.P16",
+          "text": "Creación del programa “Capital Semilla Joven” para otorgar un capital semilla destinado a egresados y titulados que deseen emprender un negocio, bajo la modalidad de fondos con o sin retorno, previa presentación y supervisión de un proyecto viable. Este capital semilla podrá ser variable según el tipo de emprendimiento, priorizando sectores productivos con potencial de generación de empleo formal."
+        },
+        {
+          "id": "t2-1.P17",
+          "text": "Creación de un Fondo de Garantías para Talleres y Mercados, orientado a mejorar infraestructura y cumplir exigencias sanitarias y ambientales."
+        },
+        {
+          "id": "t2-1.P18",
+          "text": "Exoneración del Impuesto a la Renta por tres años a los jóvenes emprendedores inscritos en el RUC, ya sea como negocio unipersonal o sociedad entre jóvenes, para estimular la creación de micro y pequeñas empresas lideradas por jóvenes."
+        },
+        {
+          "id": "t2-1.P19",
+          "text": "Creación de incentivos para el emprendimiento juvenil y reducir la migración, propiciando que los jóvenes encuentren oportunidades reales de desarrollo económico en el país y en su región."
+        },
+        {
+          "id": "t2-1.P20",
+          "text": "Otorgamiento de un crédito tributario del 50% del monto pagado a practicantes preprofesionales y profesionales, con el propósito de fomentar la contratación de jóvenes y promover su experiencia laboral temprana."
+        },
+        {
+          "id": "t2-1.P21",
+          "text": "Creación del Servicio Nacional de Defensa Jurídica del Emprendedor, que ofrecerá orientación y acompañamiento legal gratuito a jóvenes emprendedores y MYPES para prevenir sanciones arbitrarias, resolver trámites y defender sus derechos frente a procedimientos administrativos."
+        },
+        {
+          "id": "t2-1.P22",
+          "text": "Promoción y fortalecimiento de Compras MyPerú como una política de Estado permanente, estableciendo un presupuesto anual mínimo de S/ 1,000 millones para garantizar compras sostenidas a la pequeña y microempresa, fortalecer la industria local, generar empleo y asegurar un mercado estable que impulse la producción y la formalización en todo el país."
+        },
+        {
+          "id": "t2-1.P23",
+          "text": "Creación de un Fondo de Instalación en Mercados Mundiales, destinado a financiar y acompañar la internacionalización de las MYPE mediante la participación en ferias globales, misiones comerciales, apertura de canales internacionales y fortalecimiento de capacidades exportadoras, impulsando su competitividad y acceso sostenido a nuevos mercados."
+        },
+        {
+          "id": "t2-1.P24",
+          "text": "Implementación de un Programa Nacional de Factoring MYPE, que permita a las micro y pequeñas empresas convertir sus facturas, órdenes de compra y cuentas por cobrar en liquidez inmediata, mediante alianzas con entidades financieras, fintech y empresas factoring, con tasas preferenciales, garantía parcial del Estado y priorización de proveedores del Estado, reduciendo la dependencia del crédito tradicional y fortaleciendo su capital de trabajo."
+        },
+        {
+          "id": "t2-1.P25",
+          "text": "Creación de incentivos tributarios a empresas que contraten adultos mayores, en labores compatibles con su condición física y experiencia, promoviendo la transferencia de conocimientos, el empleo intergeneracional y el aprovechamiento del capital humano senior en las MYPE."
+        },
+        {
+          "id": "t2-1.P26",
+          "text": "Promoción de la modernización de todos los mercados de abastos, así como de las galerías comerciales y stands, priorizando a comerciantes ambulantes organizados, bajo esquemas de alquiler social, financiamiento accesible y gestión compartida con las municipalidades."
+        },
+        {
+          "id": "t2-1.P27",
+          "text": "Ampliación del acceso al microcrédito y capital de trabajo para comerciantes ambulantes y formales mediante garantías estatales, tasas preferenciales y asistencia técnica para la mejora de locales, herramientas, vehículos y procesos productivos."
+        }
+      ]
+    },
+    {
+      "title": "Productividad, digitalización y competitividad regional",
+      "proposals": [
+        {
+          "id": "t2-1.P28",
+          "text": "Promoción de conglomerados productivos y clústeres regionales en sectores estratégicos (textil, calzado, metalmecánica, agroindustria y turismo)."
+        },
+        {
+          "id": "t2-1.P29",
+          "text": "Incorporación de INACAL a la estrategia MYPE para asegurar la implantación de sistemas de calidad y certificación internacional."
+        },
+        {
+          "id": "t2-1.P30",
+          "text": "Apoyo a los emprendedores para su acceso a compras de los programas sociales a nivel nacional."
+        },
+        {
+          "id": "t2-1.P31",
+          "text": "Modernización y aceleración de la ejecución de Parques Industriales Tecnológicos regionales, asegurando servicios logísticos, sanitarios y digitales."
+        },
+        {
+          "id": "t2-1.P32",
+          "text": "Creación de espacios de coworking productivo y digital para MYPEs en provincias, con acceso compartido a maquinaria, internet de alta velocidad y asesoría técnica."
+        },
+        {
+          "id": "t2-1.P33",
+          "text": "Desarrollo de un Plan Nacional de Logística MYPE, que incluya centros de distribución, almacenes con cadena de frío y acceso a transporte formalizado."
+        },
+        {
+          "id": "t2-1.P34",
+          "text": "Implementación del programa MYPE Digital para que el 70% de micro y pequeñas empresas tenga acceso a plataformas de comercio electrónico y pagos digitales al 2030."
+        },
+        {
+          "id": "t2-1.P35",
+          "text": "Creación de un Portal Nacional de Herramientas Gerenciales gratuito para MYPEs formales, capacitando a 500,000 empresas al año en gestión, digitalización, inteligencia artificial, finanzas y marketing."
+        },
+        {
+          "id": "t2-1.P36",
+          "text": "Promoción de programas de incubadoras y aceleradoras regionales en alianza con universidades y gremios privados."
+        },
+        {
+          "id": "t2-1.P37",
+          "text": "Fomento de emprendimiento juveniles desde escuelas y universidades."
+        },
+        {
+          "id": "t2-1.P38",
+          "text": "Implementación de Escuelas de Administración de Mercados de Abastos para capacitar la gestión de dirigentes y comerciantes en administración, finanzas, logística, inocuidad y digitalización, mejorando la eficiencia, formalización y calidad del servicio al ciudadano."
+        },
+        {
+          "id": "t2-1.P39",
+          "text": "Implementación de un sistema de protección social para trabajadores autoempleados y del hogar que garantice acceso a salud, cobertura básica frente a riesgos, articulación con programas sociales y reconocimiento de las particularidades del trabajo independiente."
+        },
+        {
+          "id": "t2-1.P40",
+          "text": "Implementación de un sistema de seguridad social integral para los comerciantes de mercados de abastos, que garantice acceso a salud, protección frente a riesgos laborales y mecanismos de ahorro previsional adaptados al trabajo independiente, mediante esquemas contributivos flexibles y subsidios focalizados."
+        },
+        {
+          "id": "t2-1.P41",
+          "text": "Adecuación de los servicios y horarios de atención en salud a las jornadas reales del trabajo independiente, incorporando salud ocupacional preventiva, salud mental y mecanismos de supervisión de la calidad de la atención en la red pública."
+        },
+        {
+          "id": "t2-1.P42",
+          "text": "Desarrollo de una red de guarderías públicas y comunitarias, especialmente en mercados, galerías y zonas comerciales, articulada a un Sistema Nacional de Cuidados que facilite la conciliación entre trabajo y familia, con énfasis en mujeres trabajadoras."
+        },
+        {
+          "id": "t2-1.P43",
+          "text": "Promover la incorporación progresiva de soluciones digitales en los kioscos de periódicos, manteniendo su actividad tradicional de venta de prensa y productos asociados, e incorporando de manera complementaria espacios de publicidad digital que permitan diversificar y aumentar sus ingresos, fortaleciendo su integración a la economía digital."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-1.C01",
+      "text": "Lanzamiento de la estrategia de “Licencia 0” para MYPEs, con piloto en 5 regiones priorizadas."
+    },
+    {
+      "id": "t2-1.C02",
+      "text": "Reactivación de Parques Industriales Tecnológicos paralizados, con gestión público- privada."
+    },
+    {
+      "id": "t2-1.C03",
+      "text": "Lanzamiento del Programa de Crédito, en coordinación con COFIDE y Banca de Desarrollo, para otorgar préstamos a MYPEs afectadas por crisis."
+    }
+  ]
+}

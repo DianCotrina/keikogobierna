@@ -1,0 +1,206 @@
+{
+  "id": "t3-2",
+  "slug": "educacion",
+  "name": "Educación",
+  "pillar": "p3",
+  "doc_section": "3.2",
+  "groups": [
+    {
+      "title": "Educación Básica Regular",
+      "proposals": [
+        {
+          "id": "t3-2.P01",
+          "text": "Reforzamiento integral de la currícula de la Educación Básica Regular para fortalecer la formación en educación cívica y ciudadana, promoviendo el respeto por la familia, la identidad nacional, la ética pública, los valores cívico-patrióticos, el liderazgo juvenil y la cultura democrática."
+        },
+        {
+          "id": "t3-2.P02",
+          "text": "Incorporación de laboratorios de innovación y aulas digitales en colegios públicos, especialmente en zonas rurales y amazónicas."
+        },
+        {
+          "id": "t3-2.P03",
+          "text": "Aseguramiento del cumplimiento de la resolución del Tribunal Constitucional que reconoce el pago de la deuda social pendiente a los docentes."
+        },
+        {
+          "id": "t3-2.P04",
+          "text": "Implementación de un programa nacional de desarrollo profesional docente en habilidades digitales, inteligencia artificial, competencias socioemocionales y pedagógicas, incorporando formación en enseñanza en idiomas nativos o lengua materna, con especial énfasis en maestros rurales y de comunidades indígenas."
+        },
+        {
+          "id": "t3-2.P05",
+          "text": "Creación de redes de aprendizaje docente y centros de formación continua, incorporando alianzas con universidades y el sector privado."
+        },
+        {
+          "id": "t3-2.P06",
+          "text": "Construcción de 3,000 colegios durante el periodo de gestión."
+        },
+        {
+          "id": "t3-2.P07",
+          "text": "Ejecución del Programa Nacional “Escuelas Seguras” para intervenir, en el próximo quinquenio, los colegios públicos que presenten daños en más del 50% de su infraestructura, combinando reconstrucción total y rehabilitación integral, con prioridad en las regiones rurales de sierra y selva, y en las zonas urbanas con mayor matrícula y riesgo."
+        },
+        {
+          "id": "t3-2.P08",
+          "text": "Lanzamiento de un Programa Nacional de Infraestructura Educativa Resiliente, con financiamiento mixto, para garantizar condiciones seguras y sostenibles frente a riesgos climáticos y sísmicos."
+        },
+        {
+          "id": "t3-2.P09",
+          "text": "Incorporación de plataformas tecnológicas interoperables para la gestión escolar (matrícula, asistencia, desempeño, recursos financieros)."
+        },
+        {
+          "id": "t3-2.P10",
+          "text": "Implementación de proyectos de conectividad integral (fibra óptica, radioenlaces e internet satelital) para el 100% de escuelas rurales."
+        },
+        {
+          "id": "t3-2.P11",
+          "text": "Adquisición de 6 millones de laptops o tablets con conexión a internet para niños en edad escolar."
+        },
+        {
+          "id": "t3-2.P12",
+          "text": "Construcción del PEIP Escuelas Bicentenario: renovación integral de infraestructura educativa en 9 regiones."
+        },
+        {
+          "id": "t3-2.P13",
+          "text": "Construcción de Colegios de Alto Rendimiento (COAR) y colegios de educación básica regular en distintas regiones."
+        },
+        {
+          "id": "t3-2.P14",
+          "text": "Diseño de un Plan de Integración Educativa para Poblaciones Vulnerables (pueblos indígenas, afrodescendientes y personas con discapacidad), asegurando materiales accesibles, docentes bilingües e infraestructura adaptada."
+        },
+        {
+          "id": "t3-2.P15",
+          "text": "Reducción de la brecha entre hombres y mujeres en matemáticas y ciencias con programas de mentoría y becas específicas para niñas y jóvenes en STEM."
+        },
+        {
+          "id": "t3-2.P16",
+          "text": "Ampliación del acceso a educación inicial en comunidades rurales, con énfasis en nutrición y estimulación temprana."
+        },
+        {
+          "id": "t3-2.P17",
+          "text": "Fortalecimiento de las competencias del siglo XXI (digitales, socioemocionales, pensamiento crítico, sostenibilidad) mediante currículos innovadores y proyectos interdisciplinarios."
+        },
+        {
+          "id": "t3-2.P18",
+          "text": "Reformulación de la enseñanza de ciencias de la computación en primaria y secundaria, integrando la programación e inteligencia artificial."
+        },
+        {
+          "id": "t3-2.P19",
+          "text": "Fortalecimiento y ampliación de los programas nacionales de deporte escolar, en coordinación con el IPD, gobiernos regionales y federaciones deportivas, promoviendo ligas escolares y regionales permanentes, y garantizando infraestructura y equipamiento deportivo básico en todas las instituciones educativas públicas."
+        },
+        {
+          "id": "t3-2.P20",
+          "text": "Actualización de la Política Nacional “Inglés, Puertas al Mundo”, ampliando su alcance al 2031 con la meta de que todos los estudiantes de secundaria pública logren una certificación básica (A2)."
+        },
+        {
+          "id": "t3-2.P21",
+          "text": "Expansión del uso de plataformas digitales bilingües y alianzas con el sector privado y embajadas (EE. UU., Reino Unido, Canadá), garantizando el acceso equitativo a herramientas, materiales y programas de formación docente en inglés en todas las regiones del país."
+        },
+        {
+          "id": "t3-2.P22",
+          "text": "Implementación del programa “Desayuno para Aprender y Crecer”, reformulando la alimentación escolar con menús ricos en proteínas de alta calidad, promoviendo las compras directas a productores locales certificados e integrando la educación nutricional en la currícula escolar para fomentar hábitos saludables desde la infancia."
+        },
+        {
+          "id": "t3-2.P23",
+          "text": "Dotación de uniformes a estudiantes de inicial, primaria y secundaria en zonas de pobreza y pobreza extrema, priorizando producción nacional textil mediante compras descentralizadas."
+        },
+        {
+          "id": "t3-2.P24",
+          "text": "Implementación del programa “Familia y Colegio Protegen” para crear un sistema nacional de alerta temprana en los colegios que detecte riesgo de violencia sexual, abandono escolar, bulling y embarazo adolescente en niñas, obligando la coordinación inmediata entre escuela, fiscalía, comisarías de familia y centros de salud, con sanciones por omisión y campañas preventivas dirigidas a padres y varones jóvenes."
+        },
+        {
+          "id": "t3-2.P25",
+          "text": "Puesta en marcha “Rumbo Técnico Joven”, incorporando desde 3º a 5º de secundaria módulos técnico-productivos para que los estudiantes egresen con secundaria completa y una certificación técnica corta en oficios o competencias digitales de alta demanda, financiada mediante becas en CETPRO e institutos autorizados."
+        },
+        {
+          "id": "t3-2.P26",
+          "text": "Implementación del programa nacional “Aula de Habilidades para la Vida”, que desde 5º y 6º de primaria hasta 5º de secundaria aprovecha las áreas curriculares ya existentes de Personal Social en primaria y Desarrollo Personal, Ciudadanía y Cívica en secundaria, así como las horas de Tutoría y Orientación Educativa del Currículo Nacional, para reorganizar sus contenidos y, con docentes capacitados, trabajar de forma práctica las habilidades blandas, el manejo emocional, el trabajo en equipo y el emprendimiento básico mediante proyectos y dinámicas adaptadas a cada edad."
+        },
+        {
+          "id": "t3-2.P27",
+          "text": "Desarrollo del programa “Cole Seguro, Líderes que Acompañan”, reforzar la hora de tutoría con un currículo nacional de convivencia y habilidades socioemocionales (empatía, sociabilidad y manejo de conflicto), con guías listas para docentes y evaluación anual simple, incluyendo una 2da etapa con brigadas de líderes estudiantiles formados para escucha y derivación, en coordinación con el Centro de Salud Mental Comunitaria de la zona."
+        },
+        {
+          "id": "t3-2.P28",
+          "text": "Implementación del programa nacional “Alianza por la Lectura Escolar”, que sobre la base de los esfuerzos ya existentes en lectura y bibliotecas garantice que cada colegio público cuente con una biblioteca física básica, equipada y renovada con apoyo del sector privado (editoriales, librerías y empresas que donen libros y mobiliario bajo esquemas transparentes de responsabilidad social), priorizando literatura infantil y juvenil, ciencia e historia del Perú."
+        },
+        {
+          "id": "t3-2.P29",
+          "text": "Creación de la Red Escolar Digital de Lectura “Perú Lee”, que disponga que todas las tabletas y laptops entregadas por el Estado incluyan un paquete único y obligatorio de libros y recursos digitales escolares, precargados y accesibles sin internet, seleccionado por el MINEDU y la Biblioteca Nacional, e integrado a las horas de lectura y comprensión lectora dentro del horario escolar desde primaria."
+        },
+        {
+          "id": "t3-2.P30",
+          "text": "Incorporación en la currícula escolar de contenidos de educación en bienestar animal y tenencia responsable, junto con campañas permanentes de adopción y contra el abandono animal, articuladas entre el sector Educación, los gobiernos locales y las organizaciones animalistas, e incluyendo actividades de reciclaje, brigadas estudiantiles ambientales, promoción de áreas verdes y la enseñanza del valor del vínculo con la tierra desde las tradiciones y costumbres, para formar desde la infancia una cultura de respeto a la vida animal y al entorno."
+        },
+        {
+          "id": "t3-2.P31",
+          "text": "Fortalecer la participación de niños y adolescentes en consultas públicas mediante el impulso a municipios escolares, juntas estudiantiles, asambleas de adolescentes, encuentros culturales y plataformas digitales que aseguren espacios para promover su intervención en la toma de decisiones."
+        }
+      ]
+    },
+    {
+      "title": "Educación Superior Técnica",
+      "proposals": [
+        {
+          "id": "t3-2.P32",
+          "text": "Promoción de la formación técnico-productiva articulada al sector productivo, con currículos modernos, infraestructura adecuada y rápida inserción laboral."
+        },
+        {
+          "id": "t3-2.P33",
+          "text": "Establecimiento de un Observatorio Integrado de Educación y Empleo, con recomendaciones vinculantes que articule la oferta formativa con las demandas del mercado laboral, asegurando pertinencia y empleabilidad juvenil."
+        },
+        {
+          "id": "t3-2.P34",
+          "text": "Promoción de recursos tecnológicos y pedagógicos especializados a docentes de secundaria técnico-productiva y superior tecnológica."
+        },
+        {
+          "id": "t3-2.P35",
+          "text": "Promoción de la economía naranja, las industrias culturales, y la investigación y defensa del patrimonio cultural. Promoviendo su profesionalización a través de Escuelas Técnicas de formación."
+        },
+        {
+          "id": "t3-2.P36",
+          "text": "Promoción del incremento de la educación financiera para sectores con menores recursos como herramienta de empoderamiento económico y social."
+        }
+      ]
+    },
+    {
+      "title": "Educación Superior Universitaria",
+      "proposals": [
+        {
+          "id": "t3-2.P37",
+          "text": "Implementación de créditos educativos con garantía estatal, a largo plazo y con tasas preferenciales, para ampliar las oportunidades de acceso a educación técnica y universitaria de calidad."
+        },
+        {
+          "id": "t3-2.P38",
+          "text": "Ampliación del Programa Nacional de Becas (PRONABEC), incrementando significativamente el número de becas para estudios universitarios y técnicos, priorizando a jóvenes de escasos recursos y regiones con menor acceso a la educación superior."
+        },
+        {
+          "id": "t3-2.P39",
+          "text": "Promoción de la internacionalización de las universidades públicas, impulsando convenios de doble titulación, movilidad estudiantil y programas de investigación aplicada."
+        },
+        {
+          "id": "t3-2.P40",
+          "text": "Dotación de infraestructura moderna a las universidades públicas, incluyendo laboratorios y bibliotecas digitales integradas."
+        },
+        {
+          "id": "t3-2.P41",
+          "text": "Creación de redes universitarias regionales interconectadas, que permitan a las universidades compartir infraestructura, bibliotecas digitales, docentes y programas académicos conjuntos, con el fin de ampliar el acceso a educación superior de calidad y reducir las brechas entre regiones."
+        },
+        {
+          "id": "t3-2.P42",
+          "text": "Implementación de un Sistema Nacional de Información Educativa Integrada (SNIEI) que articule, en tiempo real, datos de todos los niveles educativos —desde inicial hasta posgrado— para identificar alertas tempranas y orientar decisiones basadas en evidencia. Este sistema unificará información sobre asistencia, aprendizajes, infraestructura, nutrición, conectividad, gestión docente y riesgos escolares, permitiendo detectar a tiempo casos de abandono, violencia, brechas pedagógicas, fallas de infraestructura y necesidades de soporte socioemocional."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-2.C01",
+      "text": "Reforzamiento de la formación cívica y ética en las escuelas, actualizando la currícula nacional para que desde las aulas se promueva el respeto, los valores, la identidad peruana y la convivencia democrática."
+    },
+    {
+      "id": "t3-2.C02",
+      "text": "Lanzamiento del Programa Nacional de Formación Docente en alianza con universidades públicas y privadas."
+    },
+    {
+      "id": "t3-2.C03",
+      "text": "Suscripción de alianzas internacionales con líderes tecnológicos del mundo para llevar contenidos digitales, plataformas educativas y soporte técnico de primer nivel a las escuelas públicas."
+    }
+  ]
+}
