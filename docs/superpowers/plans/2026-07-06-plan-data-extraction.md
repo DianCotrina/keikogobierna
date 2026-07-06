@@ -13,8 +13,9 @@
 - Source of truth: `docs/Plan-de-Gobierno-Reforzado_V2.pdf`. Text extraction command: `pdftotext -layout docs/Plan-de-Gobierno-Reforzado_V2.pdf <out>`. The extracted text has 145 form-feed-separated pages; body content is pages 14–133 (0-indexed 13–132).
 - All user-facing strings (nombres, propuestas, metas) in Spanish exactly as the document says; code identifiers/comments/commits in English.
 - Python 3 stdlib only; no npm packages; no new JS in this plan.
-- Stable ID scheme (never changes once assigned): temas `t{pilar}-{n}` (e.g. `t1-1`), propuestas `{tema}.P{nn}` (e.g. `t1-1.P07`, ordinal within tema, zero-padded 2 digits), acciones 100 días `{tema}.C{nn}`, metas `{tema}.M{nn}`.
-- Estado vocabulary unchanged: `cumplida | en_progreso | sin_avance | incumplida`.
+- JSON keys, folder names, file names, and enum values are code identifiers → English (per CLAUDE.md Language Policy). Content values (names, texts, slugs) stay Spanish exactly as the document says.
+- Stable ID scheme (never changes once assigned): topics `t{pillar}-{n}` (e.g. `t1-1`), proposals `{topic}.P{nn}` (e.g. `t1-1.P07`, ordinal within topic, zero-padded 2 digits), first-100-days actions `{topic}.C{nn}`, goals `{topic}.M{nn}`.
+- Status vocabulary (English, canonical): `fulfilled | in_progress | no_progress | unfulfilled`. The legacy site code/data is being renamed to this same vocabulary in a separate commit before Task 1 lands; Spanish appears only in UI labels (dom.js STATUSES map).
 - Expected totals (verified against the PDF by prior analysis — the extractor must reproduce them): 3 pilares, 23 temas, 635 propuestas, 67 acciones de 100 días. Per-tema propuesta counts: t1-1:43 t1-2:13 t1-3:15 t1-4:17 t2-1:43 t2-2:17 t2-3:23 t2-4:34 t2-5:26 t2-6:41 t2-7:38 t2-8:16 t2-9:15 t3-1:62 t3-2:42 t3-3:39 t3-4:12 t3-5:28 t3-6:20 t3-7:21 t3-8:19 t3-9:12 t3-10:39.
 - Known document quirks the parser must handle: tema 3.7 contains a typo'd subsection heading `3.6.2. Nuestras propuestas` (belongs to 3.7); bullets are `•` and continuation lines are indented without bullet; sub-group headers inside "Nuestras propuestas" are non-bulleted title lines (e.g. "Simplificación administrativa"); metas tables are column-mangled by `-layout` and are NOT reliably machine-parseable — they are curated by hand (Task 3), not parsed.
 - Stage only files each task touches; never `git add -A`. Commit messages end with: Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
@@ -24,15 +25,15 @@
 
 ```
 tools/
-├── extract_plan_pdf.py        # WAT tool: PDF text → index.json + 23 tema JSONs (propuestas + 100 días)
-└── validate_plan_data.py      # extended: validates plan/ tree + seguimiento cross-refs (keeps old plan.json checks)
+├── extract_plan_pdf.py        # WAT tool: PDF text → index.json + 23 topic JSONs (proposals + first 100 days)
+└── validate_plan_data.py      # extended: validates plan/ tree + tracking cross-refs (keeps old plan.json checks)
 src/data/plan/
-├── index.json                 # registry: pilares + temas (id, slug, nombre, pilar, counts)
-├── temas/
-│   └── t1-1-orden-ciudadano.json   # ×23
-└── metas/
-    └── metas-2031.json        # curated metas al 2031 (all temas, one file)
-src/data/seguimiento.json      # tracking state, seeded sin_avance
+├── index.json                 # registry: pillars + topics (id, slug, name, pillar, counts)
+├── topics/
+│   └── t1-1-orden-ciudadano.json   # ×23 (file names use the Spanish slugs)
+└── goals/
+    └── goals-2031.json        # curated metas al 2031 (all topics, one file)
+src/data/tracking.json         # tracking state, seeded no_progress
 docs/superpowers/plans/…       # this plan
 ```
 
@@ -41,41 +42,41 @@ docs/superpowers/plans/…       # this plan
 `src/data/plan/index.json`:
 ```json
 {
-  "plan": { "nombre": "Perú con Orden", "periodo": "2026–2031", "partido": "Fuerza Popular", "fuente_pdf": "docs/Plan-de-Gobierno-Reforzado_V2.pdf" },
-  "pilares": [ { "id": "p1", "nombre": "Orden" }, { "id": "p2", "nombre": "Económico" }, { "id": "p3", "nombre": "Social" } ],
-  "temas": [ { "id": "t1-1", "slug": "orden-ciudadano", "nombre": "Orden ciudadano", "pilar": "p1", "num_doc": "1.1", "propuestas": 43, "cien_dias": 4, "metas": 0 } ]
+  "plan": { "name": "Perú con Orden", "period": "2026–2031", "party": "Fuerza Popular", "source_pdf": "docs/Plan-de-Gobierno-Reforzado_V2.pdf" },
+  "pillars": [ { "id": "p1", "name": "Orden" }, { "id": "p2", "name": "Económico" }, { "id": "p3", "name": "Social" } ],
+  "topics": [ { "id": "t1-1", "slug": "orden-ciudadano", "name": "Orden ciudadano", "pillar": "p1", "doc_section": "1.1", "proposals": 43, "first_100_days": 4, "goals": 0 } ]
 }
 ```
-(`metas` counts filled by Task 3; Task 1 writes 0.)
+(`goals` counts filled by Task 2; Task 1 writes 0.)
 
-`src/data/plan/temas/t1-1-orden-ciudadano.json`:
+`src/data/plan/topics/t1-1-orden-ciudadano.json`:
 ```json
 {
-  "id": "t1-1", "slug": "orden-ciudadano", "nombre": "Orden ciudadano", "pilar": "p1", "num_doc": "1.1",
-  "grupos": [ { "titulo": "Control, Prevención y Fortalecimiento Institucional", "propuestas": [ { "id": "t1-1.P01", "texto": "…" } ] } ],
-  "primeros_100_dias": [ { "id": "t1-1.C01", "texto": "…" } ]
+  "id": "t1-1", "slug": "orden-ciudadano", "name": "Orden ciudadano", "pillar": "p1", "doc_section": "1.1",
+  "groups": [ { "title": "Control, Prevención y Fortalecimiento Institucional", "proposals": [ { "id": "t1-1.P01", "text": "…" } ] } ],
+  "first_100_days": [ { "id": "t1-1.C01", "text": "…" } ]
 }
 ```
-(`grupos[].titulo` may be `null` for a leading ungrouped run of bullets. Propuesta ordinals are global within the tema across grupos, in document order.)
+(`groups[].title` may be `null` for a leading ungrouped run of bullets; title content stays Spanish as in the document. Proposal ordinals are global within the topic across groups, in document order.)
 
-`src/data/plan/metas/metas-2031.json`:
+`src/data/plan/goals/goals-2031.json`:
 ```json
-{ "metas": [ { "id": "t1-1.M01", "tema": "t1-1", "texto": "Implementar un Centro Nacional de Comando y Videovigilancia (C5i) en las 24 regiones del país.", "indicador": "Número de regiones con C5i operativo e interconectado", "tema_tabla": "Combate y control del crimen organizado." } ] }
+{ "goals": [ { "id": "t1-1.M01", "topic": "t1-1", "text": "Implementar un Centro Nacional de Comando y Videovigilancia (C5i) en las 24 regiones del país.", "indicator": "Número de regiones con C5i operativo e interconectado", "table_topic": "Combate y control del crimen organizado." } ] }
 ```
 
-`src/data/seguimiento.json`:
+`src/data/tracking.json`:
 ```json
 {
-  "actualizado": "2026-07-06",
-  "items": { "t1-1.M01": { "estado": "sin_avance", "evidencias": [] } },
-  "registro": []
+  "updated": "2026-07-06",
+  "items": { "t1-1.M01": { "status": "no_progress", "evidence": [] } },
+  "log": []
 }
 ```
-(`items` seeded ONLY for metas — the headline layer. Propuestas get added here lazily when their estado first changes; absent id ⇒ `sin_avance` by default. `registro` entries: `{ "fecha": "YYYY-MM-DD", "item": "t1-1.M01", "estado": "en_progreso", "texto": "…", "fuente_url": "…" }`.)
+(`items` seeded ONLY for goals — the headline layer. Proposals get added here lazily when their status first changes; absent id ⇒ `no_progress` by default. `log` entries: `{ "date": "YYYY-MM-DD", "item": "t1-1.M01", "status": "in_progress", "text": "…", "source_url": "…" }` — `text` is user-facing Spanish.)
 
 Slugs: lowercase ASCII (strip accents), hyphens: orden-ciudadano, lucha-contra-la-corrupcion, orden-economico, orden-juridico, emprendedores-mype, mineria, energia-e-hidrocarburos, agricultura, pesca-y-acuicultura, transportes-y-comunicaciones, turismo, industria-y-comercio-exterior, desarrollo-sostenible-o-ambiente, ninos-adolescentes-y-jovenes, educacion, salud, seguridad-alimentaria, vivienda, agua-y-saneamiento, pensiones, programas-sociales, deporte, peruanos-en-el-extranjero.
 
-Nombre casing: convert the document's ALL-CAPS heading to sentence case with proper accents kept (e.g. "LUCHA CONTRA LA CORRUPCIÓN" → "Lucha contra la corrupción"; "EMPRENDEDORES (MYPE)" → "Emprendedores (MYPE)"; "PERUANOS EN EL EXTRANJERO – PEX Y POLÍTICA" → "Peruanos en el extranjero (PEX)").
+Name casing: convert the document's ALL-CAPS heading to sentence case with proper accents kept (e.g. "LUCHA CONTRA LA CORRUPCIÓN" → "Lucha contra la corrupción"; "EMPRENDEDORES (MYPE)" → "Emprendedores (MYPE)"; "PERUANOS EN EL EXTRANJERO – PEX Y POLÍTICA" → "Peruanos en el extranjero (PEX)").
 
 ---
 
@@ -83,11 +84,11 @@ Nombre casing: convert the document's ALL-CAPS heading to sentence case with pro
 
 **Files:**
 - Create: `tools/extract_plan_pdf.py`
-- Create (generated): `src/data/plan/index.json`, `src/data/plan/temas/*.json` (23 files)
+- Create (generated): `src/data/plan/index.json`, `src/data/plan/topics/*.json` (23 files)
 
 **Interfaces:**
-- Produces: the index.json and tema-file contracts above.
-- CLI: `python3 tools/extract_plan_pdf.py` (re)generates all output files deterministically; prints a per-tema count table and totals; exits 1 if totals ≠ expected constants.
+- Produces: the index.json and topic-file contracts above (English keys — see Data contracts).
+- CLI: `python3 tools/extract_plan_pdf.py` (re)generates all output files deterministically; prints a per-topic count table and totals; exits 1 if totals ≠ expected constants.
 
 Parsing skeleton (proven against the actual text; use as the starting point, iterate as needed):
 
@@ -133,58 +134,58 @@ Parser requirements beyond the skeleton (implement inside the tool):
 - [ ] **Step 5: Commit**
 
 ```bash
-git add tools/extract_plan_pdf.py src/data/plan/index.json src/data/plan/temas
-git commit -m "feat: extract real plan data (23 temas, 635 propuestas) from official PDF"
+git add tools/extract_plan_pdf.py src/data/plan/index.json src/data/plan/topics
+git commit -m "feat: extract real plan data (23 topics, 635 proposals) from official PDF"
 ```
 
 ---
 
-### Task 2: Curate metas al 2031 — `src/data/plan/metas/metas-2031.json`
+### Task 2: Curate metas al 2031 — `src/data/plan/goals/goals-2031.json`
 
 **Files:**
-- Create: `src/data/plan/metas/metas-2031.json`
-- Modify: `src/data/plan/index.json` (fill per-tema `metas` counts — rerunning the extractor must NOT overwrite them: extractor reads existing metas file if present to fill counts; add that to the tool if not already handled)
+- Create: `src/data/plan/goals/goals-2031.json`
+- Modify: `src/data/plan/index.json` (fill per-topic `goals` counts — rerunning the extractor must NOT overwrite them: extractor reads existing goals file if present to fill counts; add that to the tool if not already handled)
 
 **Interfaces:**
-- Produces: the metas-2031.json contract above. Every tema has ≥1 meta. IDs `t{p}-{n}.M{nn}` in table order.
+- Produces: the goals-2031.json contract above (English keys, Spanish content). Every topic has ≥1 goal. IDs `t{p}-{n}.M{nn}` in table order.
 
 The metas tables (subsection X.Y.4 of each tema) are column-mangled in the text extraction and CANNOT be machine-parsed reliably. Curate them by reading the PDF pages directly (Read tool with `pages`, the table pages per tema are: 1.1→p20-21, 1.2→p23, 1.3→p26, 1.4→p29-30, 2.1→p38, 2.2→p42-43, 2.3→p48, 2.4→p54, 2.5→p59-60, 2.6→p66, 2.7→p70-71, 2.8→p73-74, 2.9→p78, 3.1→p86-87, 3.2→p95, 3.3→p101, 3.4→p105-106, 3.5→p111, 3.6→p115-116, 3.7→p118-119, 3.8→p121-122, 3.9→p125-126, 3.10→p132-133 — these are text-page indexes; the PDF page numbers match the extracted page sequence).
 
-- [ ] **Step 1: For each of the 23 temas, read its metas table from the PDF and transcribe rows** into metas-2031.json — each row: `tema_tabla` (the TEMA column label), `texto` (META AL 2031 column, full sentence), `indicador` (INDICADOR column). Expect 2–4 rows per tema, ~55–70 total.
-- [ ] **Step 2: Update index.json metas counts** (and extractor if needed per Interfaces note)
-- [ ] **Step 3: Sanity check** — `python3 -c "import json;d=json.load(open('src/data/plan/metas/metas-2031.json'));print(len(d['metas']),'metas');import collections;print(collections.Counter(m['tema'] for m in d['metas']))"` — every tema present, no tema with 0
+- [ ] **Step 1: For each of the 23 topics, read its metas table from the PDF and transcribe rows** into goals-2031.json — each row: `table_topic` (the TEMA column label), `text` (META AL 2031 column, full sentence), `indicator` (INDICADOR column). All three values are Spanish content, verbatim from the document. Expect 2–4 rows per topic, ~55–70 total.
+- [ ] **Step 2: Update index.json goals counts** (and extractor if needed per Interfaces note)
+- [ ] **Step 3: Sanity check** — `python3 -c "import json;d=json.load(open('src/data/plan/goals/goals-2031.json'));print(len(d['goals']),'goals');import collections;print(collections.Counter(g['topic'] for g in d['goals']))"` — every topic present, none with 0
 - [ ] **Step 4: Commit**
 
 ```bash
-git add src/data/plan/metas/metas-2031.json src/data/plan/index.json tools/extract_plan_pdf.py
-git commit -m "feat: curate metas al 2031 with indicators for all 23 temas"
+git add src/data/plan/goals/goals-2031.json src/data/plan/index.json tools/extract_plan_pdf.py
+git commit -m "feat: curate metas al 2031 goals with indicators for all 23 topics"
 ```
 
 ---
 
-### Task 3: Seguimiento layer + validator extension
+### Task 3: Tracking layer + validator extension
 
 **Files:**
-- Create: `src/data/seguimiento.json` (seeded: every meta id, `estado: "sin_avance"`, empty evidencias; `registro: []`; `actualizado` = today)
+- Create: `src/data/tracking.json` (seeded: every goal id, `status: "no_progress"`, empty evidence; `log: []`; `updated` = today)
 - Modify: `tools/validate_plan_data.py`
 
 **Interfaces:**
-- Validator validates BOTH the legacy `src/data/plan.json` (existing checks unchanged — landing still uses it until Plan 2) AND the new tree:
-  - index.json: 3 pilares, 23 temas, every tema's `pilar` exists, slugs unique, counts match the actual tema files and metas file
-  - every tema file: ids well-formed and prefixed by the tema id, ordinals contiguous from 01, texto non-empty, grupo structure valid
-  - metas file: ids well-formed, every `tema` exists, ≥1 meta per tema
-  - seguimiento.json: every `items` key and every `registro[].item` references an existing propuesta/meta/cien-días id; estados in the canonical set; `registro[].fecha` matches `YYYY-MM-DD`
-  - Output stays `FAIL: <msg>` / final `OK:` summary line (now also reporting temas/propuestas/metas counts)
+- Validator validates BOTH the legacy `src/data/plan.json` (existing checks, using the English status vocabulary after the rename commit — landing still uses it until Plan 2) AND the new tree:
+  - index.json: 3 pillars, 23 topics, every topic's `pillar` exists, slugs unique, counts match the actual topic files and goals file
+  - every topic file: ids well-formed and prefixed by the topic id, ordinals contiguous from 01, text non-empty, group structure valid
+  - goals file: ids well-formed, every `topic` exists, ≥1 goal per topic
+  - tracking.json: every `items` key and every `log[].item` references an existing proposal/goal/100-days id; statuses in the canonical set; `log[].date` matches `YYYY-MM-DD`
+  - Output stays `FAIL: <msg>` / final `OK:` summary line (now also reporting topics/proposals/goals counts)
 
-- [ ] **Step 1: Generate seguimiento.json** (small script inline or by hand from metas file — deterministic order: metas file order)
+- [ ] **Step 1: Generate tracking.json** (small script inline or by hand from goals file — deterministic order: goals file order)
 - [ ] **Step 2: Extend the validator** per Interfaces; keep stdlib-only; clean FAILs, no tracebacks (follow the existing guard style)
 - [ ] **Step 3: Run** — `python3 tools/validate_plan_data.py` → OK line reporting legacy + new tree stats
-- [ ] **Step 4: Negative tests** — temporarily (a) point a seguimiento item at id `t9-9.M99` → clean FAIL; (b) break a tema file ordinal → clean FAIL; restore both, OK again
+- [ ] **Step 4: Negative tests** — temporarily (a) point a tracking item at id `t9-9.M99` → clean FAIL; (b) break a topic file ordinal → clean FAIL; restore both, OK again
 - [ ] **Step 5: Commit**
 
 ```bash
-git add src/data/seguimiento.json tools/validate_plan_data.py
-git commit -m "feat: add seguimiento layer and extend validator to full plan tree"
+git add src/data/tracking.json tools/validate_plan_data.py
+git commit -m "feat: add tracking layer and extend validator to full plan tree"
 ```
 
 ---
@@ -192,10 +193,10 @@ git commit -m "feat: add seguimiento layer and extend validator to full plan tre
 ### Task 4: Documentation
 
 **Files:**
-- Modify: `docs/ARCHITECTURE.md` (add "Plan data" section: the tree, ID scheme, two-layer tracking rule — headline % from metas only —, extraction/curation workflow, "immutable content vs living seguimiento" rule)
-- Modify: `CLAUDE.md` (Output Defaults: data edits now distinguish `seguimiento.json` (living, edit freely + validate) from `src/data/plan/` (regenerate via tool / curated, don't hand-edit propuestas))
+- Modify: `docs/ARCHITECTURE.md` (add "Plan data" section: the tree, ID scheme, two-layer tracking rule — headline % from goals/metas only —, extraction/curation workflow, "immutable content vs living tracking" rule, and the naming rule: identifiers English / content Spanish)
+- Modify: `CLAUDE.md` (Output Defaults: data edits now distinguish `tracking.json` (living, edit freely + validate) from `src/data/plan/` (regenerate via tool / curated, don't hand-edit proposals))
 
-- [ ] **Step 1: Update both docs** (writer decides exact wording; must state the ID scheme and the metas-only headline rule verbatim)
+- [ ] **Step 1: Update both docs** (writer decides exact wording; must state the ID scheme and the goals-only headline rule verbatim)
 - [ ] **Step 2: Commit**
 
 ```bash
