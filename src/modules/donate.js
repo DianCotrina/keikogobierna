@@ -1,0 +1,15 @@
+export function initDonate() {
+  const btn = document.getElementById('share-btn');
+  if (!btn) return;
+  btn.addEventListener('click', async () => {
+    const data = { title: document.title, url: location.href };
+    if (navigator.share) {
+      try { await navigator.share(data); } catch {}
+    } else {
+      await navigator.clipboard.writeText(location.href);
+      const toast = document.getElementById('share-toast');
+      toast.classList.remove('opacity-0');
+      setTimeout(() => toast.classList.add('opacity-0'), 1800);
+    }
+  });
+}
