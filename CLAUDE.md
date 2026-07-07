@@ -6,6 +6,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `keikogobierna` is a website to track and follow the current government plan of Keiko (Peruvian politics). See [README.md](README.md).
 
+## Commands
+
+- `npm install` — install dependencies
+- `npm run dev` — Astro dev server at http://localhost:3000
+- `npm run build` — static build to `dist/`
+- `npm run preview` — serve the `dist/` build locally
+- `npm test` — run the data-layer test suite (`node --test tests/**/*.test.mjs`)
+- `npm run validate` — validate `src/data/plan/` + `tracking.json` (`python3 tools/validate_plan_data.py`)
+- Single test: `node --test tests/plan.test.mjs`
+
 ## Language Policy
 
 - **Development conversation is in English**: chat with the user, code comments, commit messages, workflow docs, and variable/function names.
@@ -103,7 +113,7 @@ Stay pragmatic. Stay reliable. Keep learning.
 
 ## Output Defaults
 
-- Landing page follows the module architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): static shell in `index.html`, data in `src/data/plan.json`, renderers in `src/modules/`. One-off mockups/sketches may still be single files.
+- Pages and components follow the Astro architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): `.astro` layouts in `src/layouts/`, `.astro` components in `src/components/`, `.astro` pages in `src/pages/`. One-off mockups/sketches may still be single files.
 - **Data edits:**
   - `src/data/tracking.json`: Living state. Edit freely (log progress with date/status/evidence), then run `python3 tools/validate_plan_data.py`.
   - `src/data/plan/` (topics, index, goals): Curated or auto-extracted from PDF. Do not hand-edit proposals or first-100-days actions in `topics/*.json` — regenerate via `tools/extract_plan_pdf.py` if the PDF changes. Goals (`src/data/plan/goals/goals-2031.json`) are hand-curated; run the validator after any goal edit.
@@ -120,6 +130,6 @@ Stay pragmatic. Stay reliable. Keep learning.
 ## Local Server
 
 - **Always serve on localhost** — never screenshot a `file:///` URL.
-- Start the dev server: `node serve.mjs` (serves the project root at `http://localhost:3000`)
-- `serve.mjs` lives in the project root. Start it in the background before taking any screenshots.
+- Start the dev server: `npm run dev` (Astro dev server at `http://localhost:3000`)
+- Start it in the background before taking any screenshots.
 - If the server is already running, do not start a second instance.

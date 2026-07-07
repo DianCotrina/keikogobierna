@@ -1,27 +1,40 @@
 # Architecture
 
-Module-based landing page. No build step, no framework: native ES modules + Tailwind CDN, served by `node serve.mjs` at http://localhost:3000.
+Astro static site (SSG, `output: "static"`): 24 pages (1 landing + 23 topic pages) built ahead of time from JSON data, no client framework, Tailwind v4 via the Vite plugin.
+
+## Commands
+
+| Command | Effect |
+|---|---|
+| `npm install` | Install dependencies |
+| `npm run dev` | Dev server with HMR at http://localhost:3000 |
+| `npm run build` | Static build to `dist/` |
+| `npm run preview` | Serve the `dist/` build locally |
+| `npm test` | Run `node --test tests/**/*.test.mjs` (data-layer unit tests) |
+| `npm run validate` | Run `python3 tools/validate_plan_data.py` (plan tree + tracking integrity) |
 
 ## Module map
 
 | Path | Responsibility |
 |---|---|
-| `index.html` | Static shell: head, Tailwind config, custom CSS, static copy (header, hero text, metodología, alertas, footer), mount points |
-| `src/main.js` | Entry point: fetches `plan.json`, calls renderers, inits behaviors |
-| `src/lib/dom.js` | `esc()`, `ESTADOS` map, `stamp()` chip template |
-| `src/modules/tracker-card.js` | Hero "expediente" card (`#tracker-card`) |
-| `src/modules/topics.js` | Policy-area grid (`#topics-grid`) |
-| `src/modules/updates.js` | Últimas actualizaciones list (`#updates-list`) |
-| `src/modules/reveal.js` | Scroll-reveal behavior for `.reveal` elements |
-| `src/modules/donate.js` | Donate pill share button |
-| `src/data/plan.json` | Single source of truth for all tracker data (sample data for now) |
-| `tools/validate_plan_data.py` | WAT tool: validates plan.json before publishing |
+| `astro.config.mjs` | Static output, dev/preview port 3000, `@tailwindcss/vite` plugin |
+| `src/lib/plan.mjs` | Build-time data access + aggregates (pure functions, read JSON via `fs.readFileSync`): `loadPlan`, `loadTopics`, `loadGoals`, `loadTracking`, `statusOf`, `goalStats`, `topicSummaries`, `updatesLog` |
+| `src/lib/statuses.mjs` | `STATUSES` map (fulfilled/in_progress/no_progress/unfulfilled → Spanish label + color) and `statusMeta()` helper |
+| `src/layouts/Base.astro` | `<head>` (title/description/OG, lang `es-PE`, Google Fonts, `global.css`), header, footer, donate widget, reveal `<script>` |
+| `src/components/Stamp.astro` | Rubber-stamp status chip |
+| `src/components/PenProgress.astro` | Pen-stroke progress bar (dynamic width) |
+| `src/components/TrackerCard.astro` | Hero "expediente" card (real aggregates) |
+| `src/components/TopicCard.astro` | One topic card in the landing grid |
+| `src/components/GoalRow.astro` | Goal + indicator + stamp row (topic pages) |
+| `src/components/Donate.astro` | Donate pill + share button (with its client script) |
+| `src/pages/index.astro` | Landing page |
+| `src/pages/temas/[slug].astro` | 23 static topic pages via `getStaticPaths()` |
+| `src/styles/global.css` | Tailwind v4 `@theme` tokens + ported custom CSS (grain, stamps, pen, reveal, buttons) |
+| `tools/validate_plan_data.py` | WAT tool: validates the `plan/` tree + `tracking.json` |
 
-## Data contract
+## Data flow (build-time)
 
-`plan.json`: `meta` (dates, period, sources) · `summary` (overall_progress, total, statuses counts — counts must sum to total) · `highlights` (hero card promise rows) · `topics` (id, name, commitments, progress) · `updates` (date, text, status).
-
-Estados: `cumplida`→verde · `en_progreso`→ambar · `sin_avance`→plomo · `incumplida`→rojo. Add new estados in `src/lib/dom.js` (ESTADOS) and `tools/validate_plan_data.py` (VALID_ESTADOS) together.
+There is no client-side fetch and no runtime data loading. Pages import `src/lib/plan.mjs`, which reads the static JSON files under `src/data/` synchronously at build time (`loadPlan`, `loadTopics`, `loadGoals`, `loadTracking`). `src/pages/index.astro` calls `topicSummaries()` and `goalStats()` to render the hero tracker card and the 23-topic grid. `src/pages/temas/[slug].astro` uses `getStaticPaths()` to enumerate the 23 topics from `loadPlan()`, then renders each topic's proposals, first-100-days actions, and goals (with per-topic `goalStats()`) into its own static page. `astro build` executes this once per page and emits plain HTML — nothing runs in the browser except the reveal `IntersectionObserver` script and the donate widget's small client script.
 
 ## Plan data
 
@@ -61,7 +74,7 @@ src/data/tracking.json      # Living state: goal status + progress log
 
 ## Rules
 
-- New page sections = new module in `src/modules/` exporting `render<Name>(el, data)` or `init<Name>()`, wired in `main.js`.
-- All tracker content changes happen in `plan.json`, never in module markup.
-- Run `python3 tools/validate_plan_data.py` after every `plan.json` edit.
-- When SEO/prerendering becomes a requirement, migrate shell+modules to a static builder (e.g., Astro); the data contract and module boundaries are designed to survive that move.
+- New page sections = new `.astro` component in `src/components/`, composed into `src/pages/index.astro` or `src/layouts/Base.astro`.
+- All tracker content changes happen in `src/data/` (the `plan/` tree and `tracking.json`), never in component markup.
+- Run `npm run validate` (`python3 tools/validate_plan_data.py`) after every data edit under `src/data/`.
+- Status colors/labels live in `src/lib/statuses.mjs` (`STATUSES`); add new statuses there and in `tools/validate_plan_data.py` (`VALID_STATUSES`) together.
