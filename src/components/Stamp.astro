@@ -1,0 +1,12 @@
+---
+import { statusMeta } from '../lib/statuses.mjs';
+
+interface Props {
+  status: string;
+}
+
+const { status } = Astro.props;
+const { label, color } = statusMeta(status);
+---
+
+<span class={`stamp text-${color} shrink-0`}>{label}</span>
