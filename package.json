@@ -1,0 +1,33 @@
+{
+  "name": "keikogobierna",
+  "version": "1.0.0",
+  "description": "Keiko es la siguiente gobernante del perú y esta pagina será para seguir su plan de gobierno actual",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --test tests/",
+    "validate": "python3 tools/validate_plan_data.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianCotrina/keikogobierna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DianCotrina/keikogobierna/issues"
+  },
+  "homepage": "https://github.com/DianCotrina/keikogobierna#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "astro": "^5.18.2",
+    "tailwindcss": "^4.3.2"
+  }
+}
