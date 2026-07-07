@@ -104,7 +104,9 @@ Stay pragmatic. Stay reliable. Keep learning.
 ## Output Defaults
 
 - Landing page follows the module architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): static shell in `index.html`, data in `src/data/plan.json`, renderers in `src/modules/`. One-off mockups/sketches may still be single files.
-- Data edits go in `src/data/plan.json`; run `python3 tools/validate_plan_data.py` afterwards.
+- **Data edits:**
+  - `src/data/tracking.json`: Living state. Edit freely (log progress with date/status/evidence), then run `python3 tools/validate_plan_data.py`.
+  - `src/data/plan/` (topics, index, goals): Curated or auto-extracted from PDF. Do not hand-edit proposals or first-100-days actions in `topics/*.json` — regenerate via `tools/extract_plan_pdf.py` if the PDF changes. Goals (`src/data/plan/goals/goals-2031.json`) are hand-curated; run the validator after any goal edit.
 - Tailwind CSS via CDN: `<script src="https://cdn.tailwindcss.com"></script>`
 - Placeholder images: `https://placehold.co/WIDTHxHEIGHT`
 - Mobile-first responsive
