@@ -6,7 +6,7 @@
       "anchor_starts_with": "Programa Juntos:",
       "merge_count": 4,
       "join_with": "; ",
-      "note": "Source PDF uses nested bullets inconsistently; the 3 items after the label are sub-items."
+      "note": "Source PDF uses nested bullets inconsistently; the 3 items after the label are sub-items. Matching semantics: anchor_starts_with only matches a proposal whose ENTIRE text equals the anchor (bare label) — a partial-prefix anchor yields a zero-match hard error by design, because prefix matching would be ambiguous here (another t3-7 proposal also starts with this label)."
     },
     {
       "type": "split_trailing_group_header",
