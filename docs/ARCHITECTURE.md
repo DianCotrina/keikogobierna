@@ -18,7 +18,7 @@ Astro static site (SSG, `output: "static"`): 24 pages (1 landing + 23 topic page
 | Path | Responsibility |
 |---|---|
 | `astro.config.mjs` | Static output, dev/preview port 3000, `@tailwindcss/vite` plugin |
-| `src/lib/plan.mjs` | Build-time data access + aggregates (pure functions, read JSON via `fs.readFileSync`): `loadPlan`, `loadTopics`, `loadGoals`, `loadTracking`, `statusOf`, `goalStats`, `topicSummaries`, `updatesLog` |
+| `src/lib/plan.mjs` | Build-time data access + aggregates (pure functions, read JSON via static ESM imports — `fs` reads break under the bundler, see the comment in the file): `loadPlan`, `loadTopics`, `loadGoals`, `loadTracking`, `statusOf`, `goalStats`, `topicSummaries`, `updatesLog` |
 | `src/lib/statuses.mjs` | `STATUSES` map (fulfilled/in_progress/no_progress/unfulfilled → Spanish label + color) and `statusMeta()` helper |
 | `src/layouts/Base.astro` | `<head>` (title/description/OG, lang `es-PE`, Google Fonts, `global.css`), header, footer, donate widget, reveal `<script>` |
 | `src/components/Stamp.astro` | Rubber-stamp status chip |

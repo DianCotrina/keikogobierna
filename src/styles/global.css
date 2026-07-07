@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Stamp.astro builds text-{color} classes dynamically, invisible to the scanner. */
+@source inline("text-verde text-ambar text-plomo text-rojo");
+
 @theme {
   --color-papel: #F5F3EE;
   --color-carton: #ECE9E1;
