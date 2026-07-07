@@ -117,7 +117,7 @@ Stay pragmatic. Stay reliable. Keep learning.
 - **Data edits:**
   - `src/data/tracking.json`: Living state. Edit freely (log progress with date/status/evidence), then run `python3 tools/validate_plan_data.py`.
   - `src/data/plan/` (topics, index, goals): Curated or auto-extracted from PDF. Do not hand-edit proposals or first-100-days actions in `topics/*.json` — regenerate via `tools/extract_plan_pdf.py` if the PDF changes. Goals (`src/data/plan/goals/goals-2031.json`) are hand-curated; run the validator after any goal edit.
-- Tailwind CSS via CDN: `<script src="https://cdn.tailwindcss.com"></script>`
+- Tailwind CSS v4 via `@tailwindcss/vite`; design tokens live in the `@theme` block of [src/styles/global.css](src/styles/global.css)
 - Placeholder images: `https://placehold.co/WIDTHxHEIGHT`
 - Mobile-first responsive
 
