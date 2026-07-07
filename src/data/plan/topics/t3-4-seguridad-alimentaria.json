@@ -1,0 +1,86 @@
+{
+  "id": "t3-4",
+  "slug": "seguridad-alimentaria",
+  "name": "Seguridad alimentaria",
+  "pillar": "p3",
+  "doc_section": "3.4",
+  "groups": [
+    {
+      "title": "Nutrición, educación y hábitos saludables",
+      "proposals": [
+        {
+          "id": "t3-4.P01",
+          "text": "Incremento de la cobertura nacional de los programas alimentarios (Cuna Más, Vaso de Leche, Programa de Complementación Alimentaria y Comedores Populares), priorizando zonas rurales, altoandinas y amazónicas con mayores índices de pobreza y desnutrición."
+        },
+        {
+          "id": "t3-4.P02",
+          "text": "Mejora de la calidad nutricional y sanitaria de las raciones alimentarias de los programas existentes, incorporando alimentos locales ricos en proteínas, hierro y vitaminas, con menús adaptados por edad, región y cultura alimentaria."
+        },
+        {
+          "id": "t3-4.P03",
+          "text": "Fortalecimiento del programa Haku Wiñay para mejorar la seguridad alimentaria rural, ampliando su cobertura, promoviendo la producción diversificada de alimentos nutritivos, la educación nutricional y la comercialización local de excedentes para asegurar una dieta saludable en las familias rurales."
+        },
+        {
+          "id": "t3-4.P04",
+          "text": "Promoción de la Política Nacional de Educación Nutricional, orientada a reducir el consumo de ultraprocesados y fortalecer dietas saludables."
+        },
+        {
+          "id": "t3-4.P05",
+          "text": "Implementación de tarjetas alimentarias con apoyo directo y ajustable a variaciones de precios, priorizando a hogares en pobreza y pobreza extrema."
+        },
+        {
+          "id": "t3-4.P06",
+          "text": "Lanzamiento de la campaña nacional “Perú en Movimiento: Vive Saludable” para promover alimentación balanceada y actividad física diaria, reduciendo el sobrepeso y la obesidad en la población."
+        }
+      ]
+    },
+    {
+      "title": "Producción local y acceso a alimentos",
+      "proposals": [
+        {
+          "id": "t3-4.P07",
+          "text": "Integración de programas sociales (Vaso de Leche, comedores populares) con compras directas a productores locales, evitando intermediarios."
+        },
+        {
+          "id": "t3-4.P08",
+          "text": "Creación de plataformas digitales de comercialización directa, conectando agricultores familiares con consumidores urbanos y programas sociales."
+        },
+        {
+          "id": "t3-4.P09",
+          "text": "Desarrollo de un Catastro Alimentario Nacional, identificando capacidades productivas y vulnerabilidades por región."
+        }
+      ]
+    },
+    {
+      "title": "Gobernanza y monitoreo",
+      "proposals": [
+        {
+          "id": "t3-4.P10",
+          "text": "Formación de un Comité Permanente de Crisis Alimentaria, articulado con MIDAGRI, INEI, MIDIS, INIA, PRODUCE y MEF, con capacidad de activar apoyo."
+        },
+        {
+          "id": "t3-4.P11",
+          "text": "Implementación de un Sistema de Alertas Nutricionales y de Precios, en coordinación con INEI y MIDAGRI, que ajuste apoyo en tiempo real según la inflación de alimentos."
+        },
+        {
+          "id": "t3-4.P12",
+          "text": "Impulso de alianzas con universidades e institutos para investigación en biotecnología, alimentos funcionales y cadenas de valor basadas en la biodiversidad peruana."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-4.C01",
+      "text": "Ampliación de la cobertura efectiva de los programas alimentarios, incorporando 500,000 nuevos beneficiarios de zonas rurales, altoandinas y amazónicas con mayores índices de pobreza y desnutrición infantil."
+    },
+    {
+      "id": "t3-4.C02",
+      "text": "Implementación del Sistema de Alertas Nutricionales y de Precios, monitoreando semanalmente el costo de la canasta básica y la situación nutricional infantil."
+    },
+    {
+      "id": "t3-4.C03",
+      "text": "Ejecución de compras directas a productores locales y asociaciones rurales en 10 regiones priorizadas, eliminando intermediarios."
+    }
+  ]
+}

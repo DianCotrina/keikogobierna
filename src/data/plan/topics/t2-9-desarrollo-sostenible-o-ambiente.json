@@ -1,0 +1,93 @@
+{
+  "id": "t2-9",
+  "slug": "desarrollo-sostenible-o-ambiente",
+  "name": "Desarrollo sostenible o ambiente",
+  "pillar": "p2",
+  "doc_section": "2.9",
+  "groups": [
+    {
+      "title": "Economía circular y gestión moderna de residuos",
+      "proposals": [
+        {
+          "id": "t2-9.P01",
+          "text": "Establecimiento de un Plan Nacional de Gestión de Residuos con economía circular, priorizando rellenos sanitarios regionales y eliminando botaderos a cielo abierto."
+        },
+        {
+          "id": "t2-9.P02",
+          "text": "Implementación de un sistema de reciclaje, integrando a recicladores formalizados con incentivos tributarios para empresas que compren material reciclado."
+        },
+        {
+          "id": "t2-9.P03",
+          "text": "Creación de plantas de tratamiento y valorización energética de residuos sólidos urbanos mediante APP, priorizando ciudades con más de 200,000 habitantes."
+        },
+        {
+          "id": "t2-9.P04",
+          "text": "Creación de un Régimen de Incentivos Tributarios para Empresas Verdes, que permita deducir hasta el 50% de la inversión en procesos de reciclaje, eficiencia energética y certificaciones ambientales."
+        },
+        {
+          "id": "t2-9.P05",
+          "text": "Establecemiento de un programa de reconversión verde para MYPEs, facilitando acceso a tecnologías limpias mediante CITEs y créditos blandos."
+        }
+      ]
+    },
+    {
+      "title": "Amazonía, biodiversidad y lucha contra la deforestación",
+      "proposals": [
+        {
+          "id": "t2-9.P06",
+          "text": "Implementación de un Programa Nacional de Cero Deforestación Ilegal, con drones y monitoreo satelital en la Amazonía."
+        },
+        {
+          "id": "t2-9.P07",
+          "text": "Establecimiento de un Fondo Verde Amazónico financiado con cooperación internacional y aportes privados, destinado a proyectos productivos alternativos sostenibles."
+        },
+        {
+          "id": "t2-9.P08",
+          "text": "Endurecimiento de sanciones contra tala ilegal y tráfico de especies, con penas efectivas y decomiso inmediato de bienes e insumos."
+        },
+        {
+          "id": "t2-9.P09",
+          "text": "Desarrollo de proyectos de silvicultura comunitaria con titulación segura para comunidades amazónicas."
+        },
+        {
+          "id": "t2-9.P10",
+          "text": "Impulso de normativa para proteger la biodiversidad, asi como la creación de Brigadas de Protección del medioambiente conformadas por líderes locales, jóvenes y adolescentes, Policía y otras autoridades. Acción climática, monitoreo ambiental y finanzas verdes"
+        },
+        {
+          "id": "t2-9.P11",
+          "text": "Modernización del Sistema Nacional de Monitoreo Ambiental con estaciones en tiempo real para medir calidad de aire, agua y emisiones en todas las regiones, integradas a una plataforma digital abierta."
+        },
+        {
+          "id": "t2-9.P12",
+          "text": "Creación de un Registro Nacional de Pasivos Ambientales actualizado y público, con metas de remediación por sectores."
+        },
+        {
+          "id": "t2-9.P13",
+          "text": "Elaboración de Planes Regionales de Adaptación Climática con obras de infraestructura verde (humedales, qochas, bosques urbanos y reforestación)."
+        },
+        {
+          "id": "t2-9.P14",
+          "text": "Impulso de la participación del Perú en mercados internacionales de bonos verdes y de carbono, generando nuevas fuentes de financiamiento."
+        },
+        {
+          "id": "t2-9.P15",
+          "text": "Promoción de la marca “Perú Sostenible” para productos con certificación de bajo impacto ambiental y trazabilidad garantizada."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-9.C01",
+      "text": "Implementación del Fondo Verde Amazónico, con recursos iniciales de cooperación internacional y aportes privados para financiar proyectos sostenibles alternativos (reforestación, agroforestería, bioeconomía)."
+    },
+    {
+      "id": "t2-9.C02",
+      "text": "Creación del Registro Nacional de Pasivos Ambientales, con información pública y georreferenciada para priorizar remediaciones."
+    },
+    {
+      "id": "t2-9.C03",
+      "text": "Ejecución de operativos conjuntos MINAM–PNP–SUNAT en puntos críticos de tráfico de madera y fauna (Ucayali, Madre de Dios y Loreto)."
+    }
+  ]
+}

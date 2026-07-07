@@ -1,0 +1,134 @@
+{
+  "id": "t3-8",
+  "slug": "programas-sociales",
+  "name": "Programas sociales",
+  "pillar": "p3",
+  "doc_section": "3.8",
+  "groups": [
+    {
+      "title": "Agua que Cuida la Vida",
+      "proposals": [
+        {
+          "id": "t3-8.P01",
+          "text": "Aseguramiento de la continuidad mínima de 24 horas/día en capitales regionales y ≥18 horas en provincias hacia el 2028."
+        },
+        {
+          "id": "t3-8.P02",
+          "text": "Implementación de planes de sectorización, macromedición y reducción de pérdidas en las EPS y juntas administradoras rurales."
+        },
+        {
+          "id": "t3-8.P03",
+          "text": "Priorización de inversiones en rehabilitación de redes, micromedición doméstica y gestión digital del agua."
+        },
+        {
+          "id": "t3-8.P04",
+          "text": "Integración de la planificación hídrica con las estrategias de salud pública y prevención climática."
+        }
+      ]
+    },
+    {
+      "title": "Mi Título, Mi Hogar Seguro",
+      "proposals": [
+        {
+          "id": "t3-8.P05",
+          "text": "Promoción de la titulación masiva y regularización simplificada para familias en zonas urbanas y periurbanas, con procesos digitales y georreferenciados."
+        },
+        {
+          "id": "t3-8.P06",
+          "text": "Implementación del Programa “Mi Título, Mi Hogar Seguro”, subsidio para reforzamiento estructural y ampliaciones seguras, con bonos por reducción de riesgo."
+        },
+        {
+          "id": "t3-8.P07",
+          "text": "Integración de catastros, registros y licencias en una ventanilla única digital con inteligencia artificial para la formalización urbana."
+        },
+        {
+          "id": "t3-8.P08",
+          "text": "Fomento de alianzas con gobiernos locales y colegios de ingenieros para asistencia técnica gratuita."
+        }
+      ]
+    },
+    {
+      "title": "Bebés que Nacen Fuertes",
+      "proposals": [
+        {
+          "id": "t3-8.P09",
+          "text": "Implementación del Paquete 1,000 días (gestante-niño 0-24 meses) con suplementación y fortificación (hierro, ácido fólico), control prenatal reforzado y visitas domiciliarias."
+        },
+        {
+          "id": "t3-8.P10",
+          "text": "Realización de pruebas de hemoglobina trimestrales en zonas priorizadas y seguimiento mediante historia clínica electrónica (HCE)."
+        },
+        {
+          "id": "t3-8.P11",
+          "text": "Articulación del programa con los centros de salud y comités locales de nutrición, garantizando cobertura efectiva y una priorización territorial adecuada."
+        },
+        {
+          "id": "t3-8.P12",
+          "text": "Monitoreo de resultados mediante indicadores de reducción de anemia y desarrollo infantil temprano."
+        }
+      ]
+    },
+    {
+      "title": "Desayuno para Aprender y Crecer",
+      "proposals": [
+        {
+          "id": "t3-8.P13",
+          "text": "Reformulación del programa alimentario escolar con un menú basado en proteínas de alta calidad (lácteos, huevos, pescado), frutas y verduras locales, y alimentos fortificados."
+        },
+        {
+          "id": "t3-8.P14",
+          "text": "Compra de manera directa a productores locales certificados, priorizando asociaciones agrarias y cooperativas familiares."
+        },
+        {
+          "id": "t3-8.P15",
+          "text": "Establecimiento de un sistema independiente de control de calidad y trazabilidad alimentaria."
+        },
+        {
+          "id": "t3-8.P16",
+          "text": "Integración de la educación alimentaria en la currícula escolar para fomentar hábitos saludables desde la infancia."
+        }
+      ]
+    },
+    {
+      "title": "Capital Semilla Joven",
+      "proposals": [
+        {
+          "id": "t3-8.P17",
+          "text": "Creación del programa “Capital Semilla Joven” para otorgar un capital semilla destinado a egresados y titulados que deseen emprender un negocio, bajo la modalidad de fondos con o sin retorno, previa presentación y supervisión de un proyecto viable. Este capital semilla podrá ser variable según el tipo de emprendimiento, priorizando sectores productivos con potencial de generación de empleo formal."
+        }
+      ]
+    },
+    {
+      "title": "Empleo Joven con Futuro",
+      "proposals": [
+        {
+          "id": "t3-8.P18",
+          "text": "Lanzamiento de Programa “Empleo Joven con Futuro” para reducir el ingreso de jóvenes a economías ilegales."
+        }
+      ]
+    },
+    {
+      "title": "Sistema de Crédito para Mujeres Emprendedoras",
+      "proposals": [
+        {
+          "id": "t3-8.P19",
+          "text": "Implementación de un “Sistema de Crédito para Mujeres Emprendedoras”, con asistencia técnica y programas de incubación."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t3-8.C01",
+      "text": "Lanzamiento del programa “Bebés que Nacen Fuertes”, implementando el Paquete 1,000 días con suplementación nutricional, controles prenatales reforzados y visitas domiciliarias."
+    },
+    {
+      "id": "t3-8.C02",
+      "text": "Inicio del programa “Desayuno para Aprender y Crecer”, con menús más nutritivos, compras directas a productores locales y control de calidad."
+    },
+    {
+      "id": "t3-8.C03",
+      "text": "Puesta en marcha del programa “Empleo Joven con Futuro” para generar oportunidades laborales y evitar que jóvenes ingresen a economías ilegales."
+    }
+  ]
+}

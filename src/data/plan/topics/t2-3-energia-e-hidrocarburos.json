@@ -1,0 +1,130 @@
+{
+  "id": "t2-3",
+  "slug": "energia-e-hidrocarburos",
+  "name": "Energía e hidrocarburos",
+  "pillar": "p2",
+  "doc_section": "2.3",
+  "groups": [
+    {
+      "title": "Transición energética limpia y sostenible",
+      "proposals": [
+        {
+          "id": "t2-3.P01",
+          "text": "Impulso del desarrollo de energías renovables no convencionales (solar, eólica, geotérmica y biomasa) como parte fundamental de la matriz energética nacional."
+        },
+        {
+          "id": "t2-3.P02",
+          "text": "Expansión de la electrificación rural con energías renovables, enfocado en la selva y zonas aisladas donde la cobertura efectiva apenas supera el 82%."
+        },
+        {
+          "id": "t2-3.P03",
+          "text": "Incentivo de la inversión privada en proyectos de energía hidroeléctrica limpia, con énfasis en la sostenibilidad ambiental y el respeto a comunidades locales."
+        },
+        {
+          "id": "t2-3.P04",
+          "text": "Impulso de una agenda de acciones concretas para el desarrollo del hidrógeno verde, promoviendo inversiones sostenibles y posicionando al Perú como líder regional en la transición energética."
+        },
+        {
+          "id": "t2-3.P05",
+          "text": "Promoción de proyectos de generación de energía descentralizados con gas natural, en regiones sin acceso a electricidad."
+        },
+        {
+          "id": "t2-3.P06",
+          "text": "Desarrollo de convenios con universidades y centros de investigación para el impulso de innovación tecnológica nacional en energías limpias."
+        }
+      ]
+    },
+    {
+      "title": "Infraestructura eléctrica, integración y competitividad energética",
+      "proposals": [
+        {
+          "id": "t2-3.P07",
+          "text": "Aceleración de la ejecución de los USD 3,000 millones pendientes en transmisión eléctrica, priorizando proyectos estratégicos en el sur y oriente del país."
+        },
+        {
+          "id": "t2-3.P08",
+          "text": "Fortalecimiento de la red nacional eléctrica, garantizando igualdad de condiciones y cobertura en todas las regiones."
+        },
+        {
+          "id": "t2-3.P09",
+          "text": "Incorporación de APP en empresas de distribución eléctrica regionales para modernizar redes y reducir pérdidas técnicas."
+        },
+        {
+          "id": "t2-3.P10",
+          "text": "Reducción de la brecha de hogares sin electricidad para 2030, con programas de electrificación masiva y soluciones autónomas (paneles solares, mini centrales hidroeléctricas)."
+        },
+        {
+          "id": "t2-3.P11",
+          "text": "Implementación de un programa de tarifas sociales y apoyo para pueblos rurales y aislados."
+        },
+        {
+          "id": "t2-3.P12",
+          "text": "Creación de un Fondo de Compensación Energética para comunidades en áreas de proyectos hidroeléctricos o de energías renovables, asegurando desarrollo local."
+        },
+        {
+          "id": "t2-3.P13",
+          "text": "Establecimiento de un mecanismo fast track para la aprobación de grandes proyectos energéticos estratégicos, reduciendo la tramitología excesiva."
+        }
+      ]
+    },
+    {
+      "title": "Hidrocarburos y Seguridad Energética",
+      "proposals": [
+        {
+          "id": "t2-3.P14",
+          "text": "Optimización de la operación de Petroperú: la empresa estatal se concentrará exclusivamente en las actividades de refinamiento y distribución, garantizando sostenibilidad financiera, eficiencia operativa y transparencia en la Refinería de Talara."
+        },
+        {
+          "id": "t2-3.P15",
+          "text": "Gestión de la venta de activos no estratégicos de Petroperú para reducir pasivos, mejorar su flujo de caja y redireccionar recursos en las operaciones de mayor rentabilidad y valor público."
+        },
+        {
+          "id": "t2-3.P16",
+          "text": "Disposición de la división y administración técnica del Oleoducto Norperuano, separándolo de la estructura operativa de Petroperú. El oleoducto será gestionado por un operador especializado bajo un esquema de administración de activos que asegure mantenimiento, seguridad ambiental y continuidad logística."
+        },
+        {
+          "id": "t2-3.P17",
+          "text": "Fomento de la exploración y explotación de los recursos energéticos, impulsando nuevos lotes en la selva y la costa norte, con reglas estables que promuevan inversión privada y mayor oferta nacional."
+        },
+        {
+          "id": "t2-3.P18",
+          "text": "Creación del Polo Energético del Norte, orientado a convertir a la macro región norte del país en un eje estratégico de generación, procesamiento y distribución de energía, mediante el desarrollo de infraestructura energética, líneas de transmisión y clusters industriales, con el objetivo de asegurar energía competitiva, atraer inversión privada, generar empleo formal y fortalecer la seguridad energética y el desarrollo descentralizado del país"
+        },
+        {
+          "id": "t2-3.P19",
+          "text": "Reducción de la brecha energética promoviendo infraestructura de almacenamiento, distribución y acceso a precios competitivos para hogares y regiones no conectadas a la red de gas natural."
+        },
+        {
+          "id": "t2-3.P20",
+          "text": "Implementación de un régimen de explotación basado en la vida económica del recurso, priorizando la rentabilidad técnica y la sostenibilidad productiva antes que los plazos administrativos de concesión."
+        },
+        {
+          "id": "t2-3.P21",
+          "text": "Promoción del Gasoducto Sur Andino, integrándolo con proyectos de electrificación, petroquímica y desarrollo industrial del sur, generando polos de inversión energética."
+        },
+        {
+          "id": "t2-3.P22",
+          "text": "Fortalecimiento del control y fiscalización contra el contrabando de combustibles, que representa cerca del 15% del mercado, mediante sistemas de trazabilidad digital y coordinación con la SUNAT y la Policía Nacional."
+        },
+        {
+          "id": "t2-3.P23",
+          "text": "Creación de reservas estratégicas de combustibles y gas natural para garantizar la seguridad energética nacional ante crisis internacionales, conflictos geopolíticos o desastres naturales."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-3.C01",
+      "text": "Aprobación y lanzamiento oficial de la Agenda Nacional del Hidrógeno Verde, elaborada con el MINEM, MINAM y la cooperación internacional."
+    },
+    {
+      "id": "t2-3.C02",
+      "text": "Lanzamiento de la convocatoria nacional para proyectos piloto de energía solar y eólica, priorizando Arequipa, Moquegua, Ica, Piura y Cajamarca."
+    },
+    {
+      "id": "t2-3.C03",
+      "text": "Puesta en marcha del Sistema Nacional de Trazabilidad de Combustibles, interoperable con SUNAT y la Policía para reducir el contrabando."
+    }
+  ]
+}

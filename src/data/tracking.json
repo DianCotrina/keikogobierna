@@ -1,0 +1,266 @@
+{
+  "updated": "2026-07-06",
+  "items": {
+    "t1-1.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t1-1.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t1-1.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t1-2.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t1-3.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t1-3.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t1-4.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t1-4.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-1.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-1.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-1.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-2.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-2.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-2.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-3.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-3.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-3.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-4.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-4.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-4.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-5.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-5.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-5.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-6.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-6.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-6.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-7.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-7.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-7.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-8.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-8.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-8.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-9.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-9.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t2-9.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-1.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-1.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-1.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-2.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-2.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-2.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-3.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-3.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-3.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-4.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-4.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-4.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-5.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-5.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-5.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-6.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-6.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-6.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-7.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-7.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-7.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-8.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-8.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-8.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-9.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-9.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-9.M03": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-10.M01": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-10.M02": {
+      "status": "no_progress",
+      "evidence": []
+    },
+    "t3-10.M03": {
+      "status": "no_progress",
+      "evidence": []
+    }
+  },
+  "log": []
+}

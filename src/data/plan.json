@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "updated": "2026-07-06",
+    "updated_text": "Act. 06 jul 2026",
+    "period": "2026–2031",
+    "sources": ["El Peruano", "MEF", "INEI", "Congreso de la República"]
+  },
+  "summary": {
+    "overall_progress": 27,
+    "total": 87,
+    "statuses": { "fulfilled": 12, "in_progress": 34, "no_progress": 28, "unfulfilled": 13 }
+  },
+  "highlights": [
+    { "text": "Hospitales bicentenario en 10 regiones priorizadas", "status": "in_progress" },
+    { "text": "Devolución del 100 % de aportes FONAVI", "status": "fulfilled" },
+    { "text": "50 000 nuevos policías en el primer año", "status": "no_progress" }
+  ],
+  "topics": [
+    { "id": "economia", "name": "Economía y empleo", "commitments": 18, "progress": 33 },
+    { "id": "seguridad", "name": "Seguridad ciudadana", "commitments": 15, "progress": 13 },
+    { "id": "salud", "name": "Salud pública", "commitments": 14, "progress": 29 },
+    { "id": "educacion", "name": "Educación", "commitments": 12, "progress": 25 },
+    { "id": "agro", "name": "Agro y riego", "commitments": 16, "progress": 38 },
+    { "id": "anticorrupcion", "name": "Lucha anticorrupción", "commitments": 12, "progress": 17 }
+  ],
+  "updates": [
+    { "date": "2026-07-04", "date_text": "04 jul 2026", "text": "Ley de devolución de aportes FONAVI publicada en El Peruano.", "status": "fulfilled" },
+    { "date": "2026-06-28", "date_text": "28 jun 2026", "text": "Licitación de 3 hospitales bicentenario adjudicada en Cusco, Piura y Loreto.", "status": "in_progress" },
+    { "date": "2026-06-19", "date_text": "19 jun 2026", "text": "Sin partida presupuestal para los 50 000 nuevos policías anunciados.", "status": "no_progress" }
+  ]
+}

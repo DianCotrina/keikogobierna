@@ -1,0 +1,190 @@
+{
+  "id": "t2-7",
+  "slug": "turismo",
+  "name": "Turismo",
+  "pillar": "p2",
+  "doc_section": "2.7",
+  "groups": [
+    {
+      "title": "Machu Picchu y Circuitos Turísticos del Sur",
+      "proposals": [
+        {
+          "id": "t2-7.P01",
+          "text": "Ampliación y ordenamiento de la zona de visita con nuevos circuitos, un moderno centro de visitantes y caminos incas complementarios, diversificando la experiencia sin afectar la sostenibilidad del santuario."
+        },
+        {
+          "id": "t2-7.P02",
+          "text": "Implementación de un circuito mecanizado que conecte a Machu Picchu con la Amazonía, duplicando la capacidad de visitantes y ofreciendo una experiencia única de entrada y salida, sin afectar áreas de alta sensibilidad ambiental o arqueológica."
+        },
+        {
+          "id": "t2-7.P03",
+          "text": "Modernización de los mecanismos de acceso y gestión de visitantes a Machu Picchu, orientada a garantizar mayor aforo ordenado, seguridad, sostenibilidad ambiental y una mejor experiencia turística, mediante infraestructura y soluciones de transporte modernas y eficientes."
+        },
+        {
+          "id": "t2-7.P04",
+          "text": "Fortalecimiento de la Unidad Ejecutiva COPESCO: Acelerar los proyectos de inversión turística mediante APP y Obras por Impuestos, priorizando corredores como Machu Picchu y el Valle Sagrado, con enfoque en sostenibilidad, empleo local y articulación territorial."
+        },
+        {
+          "id": "t2-7.P05",
+          "text": "Puesta en valor turístico sostenible de Choquequirao, mediante soluciones de accesibilidad de bajo impacto y gestión ordenada de visitantes, que permitan ampliar su aprovechamiento turístico de manera gradual y controlada, fortaleciendo la oferta cultural del sur andino."
+        }
+      ]
+    },
+    {
+      "title": "Turismo competitivo, sostenible y descentralizado",
+      "proposals": [
+        {
+          "id": "t2-7.P06",
+          "text": "Implementación del Sistema Integral de Información para la Gestión del Turismo (SIIGTUR) y fortalecer los Observatorios Turísticos Nacional y Regional, garantizando planificación basada en evidencia."
+        },
+        {
+          "id": "t2-7.P07",
+          "text": "Involucramiento del Consejo Consultivo de Turismo (sector privado) y a los gobiernos regionales y locales en la ejecución del PENTUR, PERTUR y PDTL, asegurando metas conjuntas, presupuesto garantizado y seguimiento técnico."
+        },
+        {
+          "id": "t2-7.P08",
+          "text": "Desarrollo de Zonas Especiales de Desarrollo Turístico, priorizando destinos como Caral, Chachapoyas, Kuélap, la Red de Caminos del Inca y las playas del norte."
+        },
+        {
+          "id": "t2-7.P09",
+          "text": "Fomento de nuevas modalidades turísticas: literario, religioso, deportivo, gastronómico y de reuniones, integrando el turismo cultural y de naturaleza."
+        },
+        {
+          "id": "t2-7.P10",
+          "text": "Promoción del turismo comunitario con protagonismo de comunidades nativas y campesinas, garantizando la conservación de identidad cultural y biodiversidad."
+        },
+        {
+          "id": "t2-7.P11",
+          "text": "Fomento de la gastronomía peruana como ancla internacional, consolidando rutas gastronómicas y ferias regionales."
+        },
+        {
+          "id": "t2-7.P12",
+          "text": "Inversión en infraestructura básica en atractivos turísticos: señalización, centros de interpretación, servicios higiénicos y paraderos turísticos."
+        },
+        {
+          "id": "t2-7.P13",
+          "text": "Desarrollo de corredores turísticos integrados (norte, centro, sur y Amazonía), articulando cultura, naturaleza y gastronomía."
+        },
+        {
+          "id": "t2-7.P14",
+          "text": "Inversión en infraestructura y servicios de nivel internacional en Tumbes y Piura, consolidando las playas del norte como nuevo polo turístico."
+        },
+        {
+          "id": "t2-7.P15",
+          "text": "Implementación de infraestructura fluvial y marítima en la amazonía y el norte, impulsando cruceros y turismo costero."
+        },
+        {
+          "id": "t2-7.P16",
+          "text": "Implementación de programas de turismo social, recreación y envejecimiento activo, orientados a adultos mayores, promoviendo el bienestar físico y mental, la integración social y el turismo interno en temporadas de baja demanda."
+        },
+        {
+          "id": "t2-7.P17",
+          "text": "Establecimiento de descuentos mínimos obligatorios del 50% en transporte terrestre, acuático y ferroviario, y del 30% en transporte aéreo nacional para adultos mayores, con el objetivo de facilitar la movilidad, promover la integración social y dinamizar el turismo interno, especialmente en corredores turísticos priorizados y temporadas de menor demanda."
+        },
+        {
+          "id": "t2-7.P18",
+          "text": "Promoción del Perú como destino de clase mundial destacando Machu Picchu, la Amazonía y la gastronomía peruana; fortalecer las Oficinas Comerciales en el Exterior (OCEX) y PROMPERÚ."
+        },
+        {
+          "id": "t2-7.P19",
+          "text": "Ampliación de campañas digitales con plataformas inteligentes e influencers globales, enfocadas en Asia, Europa y Norteamérica."
+        },
+        {
+          "id": "t2-7.P20",
+          "text": "Aseguramiento de asistencia técnica multilateral (CAF, BID, Banco Mundial) para corredores priorizados como Machu Picchu, Choquequirao y las playas del norte."
+        },
+        {
+          "id": "t2-7.P21",
+          "text": "Implementación del Fondo de Promoción Turística a fin de garantizar recursos sostenidos y transparentes para campañas internacionales en mercados estratégicos."
+        },
+        {
+          "id": "t2-7.P22",
+          "text": "Creación del Carnet Nacional del Adulto Mayor para el turismo y la recreación, como instrumento de identificación que otorgue descuentos obligatorios a nivel nacional en turismo interno, espectáculos culturales, recreación y servicios turísticos, con el objetivo de promover el envejecimiento activo, dinamizar el turismo interno y reducir la estacionalidad en destinos priorizados."
+        }
+      ]
+    },
+    {
+      "title": "Infraestructura, conectividad y capital humano para el turismo",
+      "proposals": [
+        {
+          "id": "t2-7.P23",
+          "text": "Implementación de un Plan Nacional de Orden Turístico, integrando a la Policía de Turismo, Defensa Civil, municipalidades y operadores privados."
+        },
+        {
+          "id": "t2-7.P24",
+          "text": "Conversión del Centro de Convenciones de Lima en un hub regional para eventos internacionales, con al menos 12 megaeventos anuales de más de 8 mil asistentes, posicionando al Perú como sede global de congresos y ferias."
+        },
+        {
+          "id": "t2-7.P25",
+          "text": "Construcción de un megaespacio moderno para el Nuevo Recinto Ferial en Lima con ferias y exposiciones internacionales, dinamizando la economía y fortaleciendo el turismo de negocios y cultura."
+        },
+        {
+          "id": "t2-7.P26",
+          "text": "Culminación de la museografía del Museo Nacional de Arqueología con un estándar mundial y lanzamiento de una campaña internacional que atraiga visitantes y prolongue su estadía en Lima."
+        },
+        {
+          "id": "t2-7.P27",
+          "text": "Aseguramiento de la ampliación del aeropuerto esté acompañada de accesos rápidos (puente y by-pass hacia Av. Santa Rosa) y programas de incentivos para nuevas aerolíneas que amplíen destinos y reduzcan tarifas."
+        },
+        {
+          "id": "t2-7.P28",
+          "text": "Puesta en operación del aeropuerto de Chinchero con accesos modernos hacia Cusco; redefinir el uso del Velasco Astete para vuelos complementarios; ampliar aeropuertos en Jaén, Jauja, Chachapoyas y Kuélap, conectando la Amazonía, la selva central y el norte turístico."
+        },
+        {
+          "id": "t2-7.P29",
+          "text": "Apertura de rutas directas entre regiones (ej. Guayaquil–Piura, Cusco–Chiclayo, Arequipa–Iquitos)."
+        },
+        {
+          "id": "t2-7.P30",
+          "text": "Mejoramiento de la vía del Valle Sagrado y concluir la ruta Tacna–La Paz con control fronterizo moderno."
+        },
+        {
+          "id": "t2-7.P31",
+          "text": "Implementación de la Política de “Cielos Abiertos” y “Quinta Libertad del Aire” para atraer más aerolíneas internacionales y reducir costos de pasajes."
+        },
+        {
+          "id": "t2-7.P32",
+          "text": "Creación del Fondo Empresarial de Desarrollo Turístico (FEDETUR), en fideicomiso con COFIDE, para financiar proyectos de MYPEs y pymes turísticas."
+        },
+        {
+          "id": "t2-7.P33",
+          "text": "Establecimiento de incentivos tributarios (depreciación acelerada y recuperación anticipada del IGV) para inversión turística."
+        },
+        {
+          "id": "t2-7.P34",
+          "text": "Implementación del Programa Nacional de Primer Empleo Turístico Joven."
+        },
+        {
+          "id": "t2-7.P35",
+          "text": "Capacitación y certificación de 100,000 trabajadores turísticos en competencias digitales, inglés, atención al cliente, sostenibilidad y gestión de servicios."
+        },
+        {
+          "id": "t2-7.P36",
+          "text": "Impulso de la formalización del sector, simplificando inscripción en el RUC, licencias municipales y beneficios tributarios."
+        },
+        {
+          "id": "t2-7.P37",
+          "text": "Desarrollo de sistemas de alerta temprana, patrullaje especializado y asistencia médica en destinos clave."
+        },
+        {
+          "id": "t2-7.P38",
+          "text": "Otorgamiento de un Sello de Calidad Turística Segura, certificando servicios con estándares de bioseguridad y sostenibilidad."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-7.C01",
+      "text": "Implementación del Fondo Empresarial de Desarrollo Turístico (FEDETUR) para financiar proyectos turísticos de MYPEs y PYMEs ."
+    },
+    {
+      "id": "t2-7.C02",
+      "text": "Lanzamiento de la campaña internacional “Vuelve al Perú” en EE. UU., Europa y Latinoamérica, destacando Machu Picchu, playas del norte, Amazonía y gastronomía peruana."
+    },
+    {
+      "id": "t2-7.C03",
+      "text": "Implementación del Plan Nacional de Orden Turístico, integrando PNP de Turismo, Defensa Civil y gobiernos locales en 20 destinos prioritarios."
+    }
+  ]
+}

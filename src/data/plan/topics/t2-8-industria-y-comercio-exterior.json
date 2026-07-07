@@ -1,0 +1,102 @@
+{
+  "id": "t2-8",
+  "slug": "industria-y-comercio-exterior",
+  "name": "Industria y comercio exterior",
+  "pillar": "p2",
+  "doc_section": "2.8",
+  "groups": [
+    {
+      "title": "Industrialización regional y manufactura moderna",
+      "proposals": [
+        {
+          "id": "t2-8.P01",
+          "text": "Desarrollo de un Plan Nacional de Parques Industriales Modernos, priorizando 10 polos productivos en regiones estratégicas."
+        },
+        {
+          "id": "t2-8.P02",
+          "text": "Implementación de Zonas Económicas Especiales (ZEE) con beneficios tributarios temporales, orientadas a manufactura de alto valor agregado (textiles técnicos, metalmecánica, farmacéutica, agroindustria)."
+        },
+        {
+          "id": "t2-8.P03",
+          "text": "Fomento de la industria 4.0: automatización, digitalización y procesos sostenibles, con asistencia del sistema CITE y universidades."
+        },
+        {
+          "id": "t2-8.P04",
+          "text": "Creación del Fondo Nacional de Innovación Exportadora, con prioridad para agroindustria, biotecnología, confecciones técnicas y metalmecánica."
+        },
+        {
+          "id": "t2-8.P05",
+          "text": "Actualización de los topes a los beneficios tributarios para I+D+i (Investigación, Desarrollo e Innovación), incentivando a medianas y grandes industrias a invertir."
+        },
+        {
+          "id": "t2-8.P06",
+          "text": "Implementación de una Ventanilla Única Industrial (VUI) digital e interoperable con inteligencia artificial para licencias, autorizaciones sanitarias, ambientales y de seguridad, reduciendo tiempos y costos para impulsar la inversión industrial."
+        },
+        {
+          "id": "t2-8.P07",
+          "text": "Implementación de un programa de garantías estatales parciales para inversión en maquinaria y reconversión tecnológica, enfocado en las MYPEs y medianas empresas manufactureras, para facilitar el acceso a financiamiento y modernizar procesos productivos."
+        },
+        {
+          "id": "t2-8.P08",
+          "text": "Lanzamiento del Catálogo Único de Productos Industriales Peruanos para adquisiciones del Estado y grandes empresas privadas, promoviendo la compra de bienes manufacturados nacionales certificados y fortaleciendo la producción local."
+        }
+      ]
+    },
+    {
+      "title": "Comercio exterior competitivo e infraestructura logística",
+      "proposals": [
+        {
+          "id": "t2-8.P09",
+          "text": "Implementación de la Ventanilla Única de Comercio Exterior 2.0 (VUCE 2.0) con Inteligencia Artificial e interoperable con SUNAT, Aduanas, MTC y PROMPERÚ, para reducir tiempos de exportación."
+        },
+        {
+          "id": "t2-8.P10",
+          "text": "Establecimiento de plataformas logísticas aduaneras regionales."
+        },
+        {
+          "id": "t2-8.P11",
+          "text": "Ampliación de la cobertura de las Oficinas Comerciales en el Exterior (OCEX) para promover exportaciones y atracción de inversiones."
+        },
+        {
+          "id": "t2-8.P12",
+          "text": "Establecemiento de un Sistema de Priorización de Productos Estratégicos, alineado con PROMPERÚ y sector privado, para impulsar quinua, maca, cacao, café, textiles sostenibles, bioproductos amazónicos, software peruano, etc."
+        }
+      ]
+    },
+    {
+      "title": "Internacionalización y valor agregado sostenible",
+      "proposals": [
+        {
+          "id": "t2-8.P13",
+          "text": "Implementación de la estrategia de marcas paraguas y marcas colectivas regionales para productos de alto valor, con acompañamiento técnico y promoción internacional."
+        },
+        {
+          "id": "t2-8.P14",
+          "text": "Integración de las MYPEs rurales y urbanas en cadenas exportadoras, mediante financiamiento blando y asistencia técnica."
+        },
+        {
+          "id": "t2-8.P15",
+          "text": "Promoción de cooperativas y consorcios exportadores con apoyo técnico de PROMPERÚ y garantías de COFIDE."
+        },
+        {
+          "id": "t2-8.P16",
+          "text": "Impulso de programas de comercio justo y sostenible para productores de café, cacao, quinua, cañihua, otros productos amazónicos y andinos, conectándolos a mercados premium."
+        }
+      ]
+    }
+  ],
+  "first_100_days": [
+    {
+      "id": "t2-8.C01",
+      "text": "Aprobación del Plan Nacional de Parques Industriales Modernos, priorizando 10 polos regionales."
+    },
+    {
+      "id": "t2-8.C02",
+      "text": "Lanzamiento del Fondo Nacional de Innovación Exportadora (FONIEX), iniciando su primera convocatoria para proyectos piloto en agroindustria, biotecnología, confecciones técnicas y metalmecánica."
+    },
+    {
+      "id": "t2-8.C03",
+      "text": "Publicación del “Catálogo Único de Productos Industriales Peruanos”, vinculado a compras estatales y de grandes empresas privadas"
+    }
+  ]
+}
