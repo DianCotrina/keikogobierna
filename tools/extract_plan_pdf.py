@@ -20,13 +20,19 @@ PDF = ROOT / "docs" / "Plan-de-Gobierno-Reforzado_V2.pdf"
 OUT_DIR = ROOT / "src" / "data" / "plan"
 TOPICS_DIR = OUT_DIR / "topics"
 GOALS_FILE = OUT_DIR / "goals" / "goals-2031.json"
+OVERRIDES_FILE = OUT_DIR / "overrides.json"
 
-EXPECTED = {  # doc_section -> expected proposal count (Global Constraints)
+EXPECTED = {  # doc_section -> expected proposal count (Global Constraints), RAW extraction
     "1.1": 43, "1.2": 13, "1.3": 15, "1.4": 17, "2.1": 43, "2.2": 17, "2.3": 23,
     "2.4": 34, "2.5": 26, "2.6": 41, "2.7": 38, "2.8": 16, "2.9": 15, "3.1": 62,
     "3.2": 42, "3.3": 39, "3.4": 12, "3.5": 28, "3.6": 20, "3.7": 21, "3.8": 19,
     "3.9": 12, "3.10": 39,
 }
+# POST-override (curated) expected proposal counts. Identical to EXPECTED except
+# 3.7, where the curation-overrides mechanism merges 4 raw proposals (the bare
+# "Programa Juntos:" label + its 3 mis-parsed sub-item fragments) into 1,
+# dropping the topic's count from 21 to 18 (see src/data/plan/overrides.json).
+EXPECTED_CURATED = {**EXPECTED, "3.7": 18}
 EXPECTED_CIEN_OVERRIDES = {"1.1": 4, "1.2": 2, "1.3": 3, "1.4": 2, "3.10": 2}
 EXPECTED_CIEN = {doc_section: EXPECTED_CIEN_OVERRIDES.get(doc_section, 3) for doc_section in EXPECTED}
 
@@ -239,6 +245,139 @@ def parse(pages: list[str]) -> dict:
     return topics
 
 
+def load_overrides() -> list[dict]:
+    """Read the hand-written curation rules (committed, English identifiers).
+
+    See src/data/plan/overrides.json for the contract and Plan B's shared
+    context for the exact rule semantics.
+    """
+    data = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
+    return data["rules"]
+
+
+def _override_fail(message: str) -> None:
+    print(f"FAIL: override error: {message}", file=sys.stderr)
+    sys.exit(1)
+
+
+def _apply_merge_bullets(topics: dict, rule: dict) -> None:
+    """Merge `merge_count` consecutive raw proposals (an anchor label + its
+    following mis-parsed sub-item fragments) into a single proposal, in place,
+    at the anchor's original position.
+    """
+    topic = rule["topic"]
+    anchor = rule["anchor_starts_with"]
+    merge_count = rule["merge_count"]
+    join_with = rule["join_with"]
+
+    groups = topics.get(topic, {}).get("groups", [])
+    flat = [(g_idx, p_idx, text)
+            for g_idx, g in enumerate(groups)
+            for p_idx, text in enumerate(g["proposals"])]
+
+    # A "bare label" match: the proposal text starts with the anchor AND
+    # nothing meaningful follows it (i.e. the whole proposal IS the label).
+    # A plain substring/prefix test is not enough here: this same topic also
+    # has a fully-formed, unrelated proposal that happens to start with the
+    # identical label text (e.g. "Programa Juntos: aumento de S/ 200 a S/
+    # 400 ..."), which is a complete proposal, not a mis-split label -- it
+    # must NOT match.
+    matches = [i for i, (_, _, text) in enumerate(flat)
+               if text.startswith(anchor) and text[len(anchor):].strip() == ""]
+    if len(matches) != 1:
+        _override_fail(f"merge_bullets topic {topic}: anchor {anchor!r} (bare-label match) "
+                        f"matched {len(matches)} proposals (expected exactly 1).")
+
+    start = matches[0]
+    if start + merge_count > len(flat):
+        _override_fail(f"merge_bullets topic {topic}: only {len(flat) - start} "
+                        f"proposals available after anchor {anchor!r}, need {merge_count}.")
+
+    window = flat[start:start + merge_count]
+    g_indices = {g_idx for g_idx, _, _ in window}
+    if len(g_indices) != 1:
+        _override_fail(f"merge_bullets topic {topic}: anchor window spans multiple "
+                        f"groups; not supported.")
+
+    g_idx = next(iter(g_indices))
+    p_indices = sorted(p_idx for _, p_idx, _ in window)
+    if p_indices != list(range(p_indices[0], p_indices[0] + merge_count)):
+        _override_fail(f"merge_bullets topic {topic}: matched proposals are not "
+                        f"contiguous within their group.")
+
+    fragments = [text for _, _, text in window]
+    label, *following = fragments
+    if following:
+        stripped = [f[:-1] if f.endswith(".") else f for f in following[:-1]]
+        stripped.append(following[-1])
+        joined = join_with.join(stripped)
+        merged_text = f"{label} {joined}" if label.endswith(":") else f"{label}{join_with}{joined}"
+    else:
+        merged_text = label
+
+    g = groups[g_idx]
+    start_p = p_indices[0]
+    g["proposals"] = g["proposals"][:start_p] + [merged_text] + g["proposals"][start_p + merge_count:]
+
+
+def _apply_split_trailing_group_header(topics: dict, rule: dict) -> None:
+    """Split a proposal whose text has a section header glued onto its end
+    (missing blank line in the PDF text layer) into: the truncated proposal,
+    plus a new group (titled `header`) that absorbs the rest of the original
+    group's subsequent proposals.
+    """
+    topic = rule["topic"]
+    suffix = rule["proposal_ends_with"]
+    header = rule["header"]
+
+    groups = topics.get(topic, {}).get("groups", [])
+    matches = [(g_idx, p_idx)
+               for g_idx, g in enumerate(groups)
+               for p_idx, text in enumerate(g["proposals"])
+               if text.endswith(suffix)]
+
+    if len(matches) != 1:
+        _override_fail(f"split_trailing_group_header topic {topic}: suffix "
+                        f"{suffix!r} matched {len(matches)} proposals (expected exactly 1).")
+
+    g_idx, p_idx = matches[0]
+    g = groups[g_idx]
+    text = g["proposals"][p_idx]
+    glued = f" {header}"
+    if not text.endswith(glued):
+        _override_fail(f"split_trailing_group_header topic {topic}: matched proposal "
+                        f"does not end with {glued!r}.")
+
+    truncated = text[:-len(glued)]
+    if not truncated.endswith("."):
+        _override_fail(f"split_trailing_group_header topic {topic}: truncated text "
+                        f"does not end with a period: {truncated!r}")
+
+    moved = g["proposals"][p_idx + 1:]
+    g["proposals"] = g["proposals"][:p_idx] + [truncated]
+    groups.insert(g_idx + 1, {"title": header, "proposals": moved})
+
+
+_OVERRIDE_HANDLERS = {
+    "merge_bullets": _apply_merge_bullets,
+    "split_trailing_group_header": _apply_split_trailing_group_header,
+}
+
+
+def apply_overrides(topics: dict, rules: list[dict]) -> None:
+    """Apply curation rules in file order, after the raw gate and before ID
+    assignment (so ordinals come out compact). Mutates `topics` in place.
+    Unknown rule types, or rules matching zero/multiple times, are hard
+    errors -- silent no-ops are forbidden.
+    """
+    for rule in rules:
+        rtype = rule.get("type")
+        handler = _OVERRIDE_HANDLERS.get(rtype)
+        if handler is None:
+            _override_fail(f"unknown rule type {rtype!r}")
+        handler(topics, rule)
+
+
 def load_goal_counts() -> dict[str, int]:
     """Read curated goals-2031.json (Task 2, hand-curated from the PDF's
     metas tables) and count goals per topic id.
@@ -313,26 +452,18 @@ def write_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def main() -> int:
-    pages = get_text()
-    topics = parse(pages)
-    index, topic_files = build_output(topics)
-
-    write_json(OUT_DIR / "index.json", index)
-    for doc_section in TOPIC_ORDER:
-        tid = topic_id(doc_section)
-        slug = SLUGS[doc_section]
-        write_json(TOPICS_DIR / f"{tid}-{slug}.json", topic_files[doc_section])
-
-    # Self-check: proposal + first_100_days counts must match verified ground truth.
+def _check_gate(label: str, get_counts, expected_prop: dict, expected_total_prop: int) -> bool:
+    """Print a proposal/100-days count table against an expected table and
+    return whether every row (plus totals) matches. `get_counts(doc_section)`
+    returns (proposal_count, cien_count) for that topic.
+    """
     ok = True
+    print(f"\n{label} gate")
     print(f"{'topic':<6} {'proposals':>10} {'expected':>8}  {'100days':>7} {'expected':>8}")
     total_prop = total_prop_exp = total_cien = total_cien_exp = 0
     for doc_section in TOPIC_ORDER:
-        entry = topic_files[doc_section]
-        got_prop = sum(len(g["proposals"]) for g in entry["groups"])
-        got_cien = len(entry["first_100_days"])
-        exp_prop = EXPECTED[doc_section]
+        got_prop, got_cien = get_counts(doc_section)
+        exp_prop = expected_prop[doc_section]
         exp_cien = EXPECTED_CIEN[doc_section]
         mark = "OK" if (got_prop == exp_prop and got_cien == exp_cien) else "MISMATCH"
         if mark == "MISMATCH":
@@ -343,15 +474,55 @@ def main() -> int:
         total_cien += got_cien
         total_cien_exp += exp_cien
 
-    print(f"\nTOTAL proposals:    {total_prop} (expected {total_prop_exp})")
-    print(f"TOTAL 100 days:     {total_cien} (expected {total_cien_exp})")
-    print(f"TOTAL topics:       {len(TOPIC_ORDER)} (expected 23)")
+    print(f"\nTOTAL proposals ({label.lower()}): {total_prop} (expected {total_prop_exp})")
+    print(f"TOTAL 100 days:              {total_cien} (expected {total_cien_exp})")
+    if label == "RAW":
+        print(f"TOTAL topics:                {len(TOPIC_ORDER)} (expected 23)")
+        ok = ok and len(TOPIC_ORDER) == 23
 
-    if not ok or total_prop != 635 or total_cien != 67 or len(TOPIC_ORDER) != 23:
-        print("\nFAIL: counts do not match expected ground truth.")
+    if not ok or total_prop != expected_total_prop or total_cien != 67:
+        print(f"\nFAIL: {label} counts do not match expected ground truth.")
+        return False
+
+    print(f"\nOK: {label} counts match.")
+    return True
+
+
+def main() -> int:
+    pages = get_text()
+    topics = parse(pages)
+
+    def raw_counts(doc_section: str) -> tuple[int, int]:
+        topic = topics.get(doc_section, {"groups": [], "cien": []})
+        prop = sum(len(g["proposals"]) for g in topic["groups"])
+        return prop, len(topic["cien"])
+
+    if not _check_gate("RAW", raw_counts, EXPECTED, 635):
         return 1
 
-    print("\nOK: all counts match.")
+    rules = load_overrides()
+    apply_overrides(topics, rules)
+
+    index, topic_files = build_output(topics)
+
+    def curated_counts(doc_section: str) -> tuple[int, int]:
+        entry = topic_files[doc_section]
+        prop = sum(len(g["proposals"]) for g in entry["groups"])
+        return prop, len(entry["first_100_days"])
+
+    # Curated gate runs BEFORE any file is written: a bad override (or a
+    # tampered rule) must never clobber the last-known-good output on disk
+    # with mismatched data, even though it exits 1.
+    if not _check_gate("CURATED", curated_counts, EXPECTED_CURATED, 632):
+        return 1
+
+    write_json(OUT_DIR / "index.json", index)
+    for doc_section in TOPIC_ORDER:
+        tid = topic_id(doc_section)
+        slug = SLUGS[doc_section]
+        write_json(TOPICS_DIR / f"{tid}-{slug}.json", topic_files[doc_section])
+
+    print("\nOK: all counts match (raw + curated).")
     return 0
 
 
