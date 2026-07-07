@@ -34,58 +34,58 @@ def load_json(path: Path):
 def validate_legacy() -> tuple[int, int]:
     data = load_json(DATA_PATH)
 
-    for key in ("meta", "resumen", "destacados", "ejes", "actualizaciones"):
+    for key in ("meta", "summary", "highlights", "topics", "updates"):
         if key not in data:
             fail(f"missing top-level key: {key}")
 
     meta = data["meta"]
-    if "actualizado_texto" not in meta or not isinstance(meta["actualizado_texto"], str):
-        fail("meta.actualizado_texto must be a string")
-    if "fuentes" not in meta or not isinstance(meta["fuentes"], list) or not meta["fuentes"]:
-        fail("meta.fuentes must be a non-empty list")
-    for i, fuente in enumerate(meta["fuentes"]):
-        if not isinstance(fuente, str) or not fuente.strip():
-            fail(f"meta.fuentes[{i}] must be a non-empty string")
+    if "updated_text" not in meta or not isinstance(meta["updated_text"], str):
+        fail("meta.updated_text must be a string")
+    if "sources" not in meta or not isinstance(meta["sources"], list) or not meta["sources"]:
+        fail("meta.sources must be a non-empty list")
+    for i, source in enumerate(meta["sources"]):
+        if not isinstance(source, str) or not source.strip():
+            fail(f"meta.sources[{i}] must be a non-empty string")
 
-    resumen = data["resumen"]
-    for key in ("avance_general", "total", "statuses"):
-        if key not in resumen:
-            fail(f"missing resumen.{key}")
-    if not isinstance(resumen["statuses"], dict):
-        fail("resumen.statuses must be a dict")
+    summary = data["summary"]
+    for key in ("overall_progress", "total", "statuses"):
+        if key not in summary:
+            fail(f"missing summary.{key}")
+    if not isinstance(summary["statuses"], dict):
+        fail("summary.statuses must be a dict")
 
-    statuses = resumen["statuses"]
+    statuses = summary["statuses"]
     if set(statuses) != VALID_STATUSES:
-        fail(f"resumen.statuses keys must be exactly {sorted(VALID_STATUSES)}")
-    if sum(statuses.values()) != resumen["total"]:
-        fail(f"status counts {sum(statuses.values())} != total {resumen['total']}")
-    if not 0 <= resumen["avance_general"] <= 100:
-        fail("resumen.avance_general must be 0..100")
+        fail(f"summary.statuses keys must be exactly {sorted(VALID_STATUSES)}")
+    if sum(statuses.values()) != summary["total"]:
+        fail(f"status counts {sum(statuses.values())} != total {summary['total']}")
+    if not 0 <= summary["overall_progress"] <= 100:
+        fail("summary.overall_progress must be 0..100")
 
-    for i, item in enumerate(data["destacados"] + data["actualizaciones"]):
+    for i, item in enumerate(data["highlights"] + data["updates"]):
         if not isinstance(item, dict):
-            fail(f"plan.json: destacados/actualizaciones[{i}] entry must be an object")
+            fail(f"plan.json: highlights/updates[{i}] entry must be an object")
         if "status" not in item:
-            fail(f"missing status at destacados/actualizaciones[{i}]")
+            fail(f"missing status at highlights/updates[{i}]")
         if item["status"] not in VALID_STATUSES:
-            fail(f"invalid status '{item['status']}' at destacados/actualizaciones[{i}]")
-        if "texto" not in item or not isinstance(item["texto"], str) or not item["texto"].strip():
-            fail(f"empty texto at destacados/actualizaciones[{i}]")
+            fail(f"invalid status '{item['status']}' at highlights/updates[{i}]")
+        if "text" not in item or not isinstance(item["text"], str) or not item["text"].strip():
+            fail(f"empty text at highlights/updates[{i}]")
 
     seen_ids = set()
-    for i, eje in enumerate(data["ejes"]):
-        if not isinstance(eje, dict):
-            fail(f"plan.json: ejes[{i}] entry must be an object")
-        for key in ("id", "nombre", "compromisos", "avance"):
-            if key not in eje:
-                fail(f"missing eje.{key} at ejes[{i}]")
-        if eje["id"] in seen_ids:
-            fail(f"duplicate eje id: {eje['id']}")
-        seen_ids.add(eje["id"])
-        if not 0 <= eje["avance"] <= 100:
-            fail(f"eje '{eje['id']}' avance must be 0..100")
+    for i, topic in enumerate(data["topics"]):
+        if not isinstance(topic, dict):
+            fail(f"plan.json: topics[{i}] entry must be an object")
+        for key in ("id", "name", "commitments", "progress"):
+            if key not in topic:
+                fail(f"missing topic.{key} at topics[{i}]")
+        if topic["id"] in seen_ids:
+            fail(f"duplicate topic id: {topic['id']}")
+        seen_ids.add(topic["id"])
+        if not 0 <= topic["progress"] <= 100:
+            fail(f"topic '{topic['id']}' progress must be 0..100")
 
-    return resumen["total"], len(data["ejes"])
+    return summary["total"], len(data["topics"])
 
 
 def validate_index() -> dict:
@@ -301,7 +301,7 @@ def validate_tracking(known_ids: set) -> None:
 
 
 def main() -> None:
-    legacy_total, legacy_ejes = validate_legacy()
+    legacy_total, legacy_topics = validate_legacy()
 
     index_by_id = validate_index()
     total_proposals, total_c, proposal_and_c_ids = validate_topics(index_by_id)
@@ -310,7 +310,7 @@ def main() -> None:
     validate_tracking(known_ids)
 
     print(
-        f"OK: {DATA_PATH.name} valid — {legacy_total} items, {legacy_ejes} areas (legacy); "
+        f"OK: {DATA_PATH.name} valid — {legacy_total} items, {legacy_topics} areas (legacy); "
         f"plan/ tree valid — {len(index_by_id)} topics, {total_proposals} proposals, "
         f"{total_c} first-100-days actions, {total_goals} goals; tracking.json valid"
     )
