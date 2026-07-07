@@ -1,0 +1,19 @@
+---
+import Stamp from './Stamp.astro';
+
+interface Props {
+  text: string;
+  indicator: string;
+  status: string;
+}
+
+const { text, indicator, status } = Astro.props;
+---
+
+<li class="flex items-start justify-between gap-4 py-5">
+  <div class="flex-1">
+    <p class="font-serif text-base sm:text-lg leading-[1.7]">{text}</p>
+    <p class="mt-2 font-mono text-xs text-tintasuave">Indicador: {indicator}</p>
+  </div>
+  <Stamp status={status} />
+</li>

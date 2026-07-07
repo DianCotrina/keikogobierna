@@ -1,27 +1,50 @@
-import { readFileSync, readdirSync } from 'node:fs';
 import planIndex from '../data/plan/index.json' with { type: 'json' };
 import goalsFile from '../data/plan/goals/goals-2031.json' with { type: 'json' };
 import trackingData from '../data/tracking.json' with { type: 'json' };
 
-const dataUrl = (relativePath) => new URL(`../data/${relativePath}`, import.meta.url);
+import topicT11 from '../data/plan/topics/t1-1-orden-ciudadano.json' with { type: 'json' };
+import topicT12 from '../data/plan/topics/t1-2-lucha-contra-la-corrupcion.json' with { type: 'json' };
+import topicT13 from '../data/plan/topics/t1-3-orden-economico.json' with { type: 'json' };
+import topicT14 from '../data/plan/topics/t1-4-orden-juridico.json' with { type: 'json' };
+import topicT21 from '../data/plan/topics/t2-1-emprendedores-mype.json' with { type: 'json' };
+import topicT22 from '../data/plan/topics/t2-2-mineria.json' with { type: 'json' };
+import topicT23 from '../data/plan/topics/t2-3-energia-e-hidrocarburos.json' with { type: 'json' };
+import topicT24 from '../data/plan/topics/t2-4-agricultura.json' with { type: 'json' };
+import topicT25 from '../data/plan/topics/t2-5-pesca-y-acuicultura.json' with { type: 'json' };
+import topicT26 from '../data/plan/topics/t2-6-transportes-y-comunicaciones.json' with { type: 'json' };
+import topicT27 from '../data/plan/topics/t2-7-turismo.json' with { type: 'json' };
+import topicT28 from '../data/plan/topics/t2-8-industria-y-comercio-exterior.json' with { type: 'json' };
+import topicT29 from '../data/plan/topics/t2-9-desarrollo-sostenible-o-ambiente.json' with { type: 'json' };
+import topicT31 from '../data/plan/topics/t3-1-ninos-adolescentes-y-jovenes.json' with { type: 'json' };
+import topicT32 from '../data/plan/topics/t3-2-educacion.json' with { type: 'json' };
+import topicT33 from '../data/plan/topics/t3-3-salud.json' with { type: 'json' };
+import topicT34 from '../data/plan/topics/t3-4-seguridad-alimentaria.json' with { type: 'json' };
+import topicT35 from '../data/plan/topics/t3-5-vivienda.json' with { type: 'json' };
+import topicT36 from '../data/plan/topics/t3-6-agua-y-saneamiento.json' with { type: 'json' };
+import topicT37 from '../data/plan/topics/t3-7-pensiones.json' with { type: 'json' };
+import topicT38 from '../data/plan/topics/t3-8-programas-sociales.json' with { type: 'json' };
+import topicT39 from '../data/plan/topics/t3-9-deporte.json' with { type: 'json' };
+import topicT310 from '../data/plan/topics/t3-10-peruanos-en-el-extranjero.json' with { type: 'json' };
 
-// loadPlan/loadGoals/loadTracking use static JSON imports (not fs.readFileSync) so
-// Vite/Rollup can trace and inline them correctly during Astro's static build — a
-// runtime `readFileSync(new URL(..., import.meta.url))` breaks once the bundler
-// relocates this module into a build chunk, since the sibling data files never
-// travel with it. loadTopics() below still reads the topics/ directory listing at
-// runtime; it is unused by any build-time page yet, kept as-is pending that need.
+// loadPlan/loadTopics/loadGoals/loadTracking all use static JSON imports (not
+// fs.readFileSync) so Vite/Rollup can trace and inline them correctly during
+// Astro's static build — a runtime `readFileSync(new URL(..., import.meta.url))`
+// breaks once the bundler relocates this module into a build chunk, since the
+// sibling data files never travel with it. Topic files are listed explicitly
+// (rather than a directory read) for the same reason.
+const TOPIC_FILES = [
+  topicT11, topicT12, topicT13, topicT14,
+  topicT21, topicT22, topicT23, topicT24, topicT25, topicT26, topicT27, topicT28, topicT29,
+  topicT31, topicT32, topicT33, topicT34, topicT35, topicT36, topicT37, topicT38, topicT39, topicT310,
+];
+
 export function loadPlan() {
   return planIndex;
 }
 
 export function loadTopics() {
-  const topicsDirUrl = dataUrl('plan/topics/');
-  const files = readdirSync(topicsDirUrl).filter((name) => name.endsWith('.json'));
   const topics = new Map();
-  for (const file of files) {
-    const raw = readFileSync(new URL(file, topicsDirUrl), 'utf8');
-    const topic = JSON.parse(raw);
+  for (const topic of TOPIC_FILES) {
     topics.set(topic.id, topic);
   }
   return topics;
