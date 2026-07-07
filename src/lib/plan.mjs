@@ -1,14 +1,18 @@
 import { readFileSync, readdirSync } from 'node:fs';
+import planIndex from '../data/plan/index.json' with { type: 'json' };
+import goalsFile from '../data/plan/goals/goals-2031.json' with { type: 'json' };
+import trackingData from '../data/tracking.json' with { type: 'json' };
 
 const dataUrl = (relativePath) => new URL(`../data/${relativePath}`, import.meta.url);
 
-function readJson(relativePath) {
-  const raw = readFileSync(dataUrl(relativePath), 'utf8');
-  return JSON.parse(raw);
-}
-
+// loadPlan/loadGoals/loadTracking use static JSON imports (not fs.readFileSync) so
+// Vite/Rollup can trace and inline them correctly during Astro's static build — a
+// runtime `readFileSync(new URL(..., import.meta.url))` breaks once the bundler
+// relocates this module into a build chunk, since the sibling data files never
+// travel with it. loadTopics() below still reads the topics/ directory listing at
+// runtime; it is unused by any build-time page yet, kept as-is pending that need.
 export function loadPlan() {
-  return readJson('plan/index.json');
+  return planIndex;
 }
 
 export function loadTopics() {
@@ -24,11 +28,11 @@ export function loadTopics() {
 }
 
 export function loadGoals() {
-  return readJson('plan/goals/goals-2031.json').goals;
+  return goalsFile.goals;
 }
 
 export function loadTracking() {
-  return readJson('tracking.json');
+  return trackingData;
 }
 
 export function statusOf(id, tracking) {

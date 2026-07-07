@@ -1,10 +1,172 @@
 ---
 import Base from '../layouts/Base.astro';
+import TrackerCard from '../components/TrackerCard.astro';
+import TopicCard from '../components/TopicCard.astro';
+import { loadPlan, loadGoals, loadTracking, goalStats, topicSummaries, statusOf } from '../lib/plan.mjs';
+
+const plan = loadPlan();
+const goals = loadGoals();
+const tracking = loadTracking();
+
+const overallStats = goalStats(goals, tracking);
+const totalProposals = plan.topics.reduce((sum, topic) => sum + topic.proposals, 0);
+const summaries = topicSummaries(plan, goals, tracking);
+
+const highlightIds = ['t1-1.M01', 't2-1.M01', 't3-1.M01'];
+const highlights = highlightIds
+  .map((id) => goals.find((goal) => goal.id === id))
+  .filter((goal) => Boolean(goal))
+  .map((goal) => ({ id: goal.id, text: goal.text, status: statusOf(goal.id, tracking) }));
+
+const MONTH_NAMES = [
+  'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+  'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
+];
+const [updYear, updMonth, updDay] = tracking.updated.split('-').map(Number);
+const updatedText = `Actualizado el ${updDay} de ${MONTH_NAMES[updMonth - 1]} de ${updYear}`;
+const sourcesLine = `Fuente: Plan de Gobierno oficial ${plan.plan.period}`;
+
+const pillarGroups = plan.pillars.map((pillar) => ({
+  pillar,
+  topics: summaries.filter((topic) => topic.pillar === pillar.id),
+}));
 ---
 
 <Base
   title="keikogobierna — Seguimiento del plan de gobierno"
   description="Seguimiento ciudadano e independiente del plan de gobierno 2026–2031: cada compromiso, su avance y sus fuentes, verificado punto por punto."
 >
-  <h1 class="font-display text-tinta">keikogobierna</h1>
+  <main>
+    <!-- Hero -->
+    <section class="mx-auto max-w-6xl px-5 sm:px-8 pt-14 pb-16 sm:pt-20 sm:pb-24 grid lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center">
+      <div>
+        <p class="hero-in d1 font-mono text-xs sm:text-sm text-tintasuave uppercase tracking-[0.18em]">Seguimiento independiente · Plan de gobierno <span class="whitespace-nowrap">2026–2031</span></p>
+        <h1 class="hero-in d2 font-display text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-[4.2rem] mt-5" style="letter-spacing:-0.03em">
+          Lo prometido<br>
+          <span class="relative inline-block">es deuda.
+            <svg class="pen-stroke absolute left-0 -bottom-2 w-full" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
+              <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </h1>
+        <p class="hero-in d3 mt-7 text-lg sm:text-xl leading-[1.7] text-tintasuave max-w-xl">
+          Registramos cada compromiso del plan de gobierno, contrastamos su avance con fuentes públicas y lo marcamos con tinta: cumplido, en progreso o sin avance. Punto por punto, con evidencia.
+        </p>
+        <div class="hero-in d4 mt-9 flex flex-wrap gap-4">
+          <a href="#tablero" class="btn-primary font-sans font-semibold bg-tinta text-papel px-6 py-3 rounded shadow-card">Ver el tablero</a>
+          <a href="#metodologia" class="btn-ghost font-sans font-semibold border-[1.5px] border-tinta/25 px-6 py-3 rounded">Cómo verificamos</a>
+        </div>
+      </div>
+
+      <!-- Signature tracker card -->
+      <div id="tablero" class="hero-in d4">
+        <TrackerCard
+          stats={overallStats}
+          totalProposals={totalProposals}
+          highlights={highlights}
+          sourcesLine={sourcesLine}
+          updatedText={updatedText}
+        />
+      </div>
+    </section>
+
+    <!-- Temas del plan -->
+    <section id="temas" class="border-t border-tinta/10 bg-white/40">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
+        <div class="reveal max-w-2xl">
+          <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Temas del plan</p>
+          <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">El plan, tema por tema</h2>
+          <p class="mt-4 text-lg leading-[1.7] text-tintasuave">Cada tema agrupa los compromisos tal como figuran en el documento oficial. El avance se calcula solo con evidencia verificable.</p>
+        </div>
+
+        {pillarGroups.map(({ pillar, topics }, index) => (
+          <div class:list={['mt-14 sm:mt-16', { 'mt-10 sm:mt-12': index === 0 }]}>
+            <div class="reveal flex flex-wrap items-end justify-between gap-x-4 gap-y-1 border-b border-tinta/10 pb-3">
+              <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Pilar {index + 1} · {pillar.name.toUpperCase()}</p>
+              <p class="font-mono text-xs text-tintafina">{topics.length} temas</p>
+            </div>
+            <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {topics.map((topic) => (
+                <TopicCard
+                  name={topic.name}
+                  slug={topic.slug}
+                  proposals={topic.proposals}
+                  progressPct={topic.progressPct}
+                />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Metodología -->
+    <section id="metodologia" class="border-t border-tinta/10">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24 grid lg:grid-cols-[0.9fr_1.1fr] gap-12">
+        <div class="reveal">
+          <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Metodología</p>
+          <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">Con evidencia, no con opiniones</h2>
+          <p class="mt-4 text-lg leading-[1.7] text-tintasuave">Ningún estado se asigna sin una fuente pública enlazada. Si la evidencia cambia, el estado cambia — y queda registrado el historial.</p>
+        </div>
+        <ol class="space-y-6">
+          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+            <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">01</span>
+            <div>
+              <h3 class="font-sans font-bold">Extraemos cada compromiso</h3>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Tomamos el plan de gobierno oficial inscrito ante el JNE y lo descomponemos en compromisos medibles, con cita textual y número de página.</p>
+            </div>
+          </li>
+          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+            <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">02</span>
+            <div>
+              <h3 class="font-sans font-bold">Contrastamos con fuentes públicas</h3>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Normas en El Peruano, ejecución presupuestal del MEF, estadísticas del INEI y actas del Congreso. Todo enlazado y descargable.</p>
+            </div>
+          </li>
+          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+            <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">03</span>
+            <div>
+              <h3 class="font-sans font-bold">Asignamos un estado con evidencia</h3>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Cumplida, en progreso, sin avance o incumplida. Cada cambio de estado registra fecha, evidencia y quién lo revisó.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Actualizaciones -->
+    <section id="actualizaciones" class="border-t border-tinta/10 bg-white/40">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
+        <div class="reveal">
+          <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Registro</p>
+          <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">Últimas actualizaciones</h2>
+        </div>
+
+        <ul class="mt-10 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card">
+          <li class="reveal flex items-center gap-6 p-6">
+            <p class="flex-1 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas. El seguimiento comienza con el gobierno en funciones.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA alertas -->
+    <section id="alertas" class="border-t border-tinta/10">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
+        <div class="reveal bg-tinta text-papel rounded-lg shadow-lift p-8 sm:p-12 lg:p-14 relative overflow-hidden">
+          <div class="absolute inset-0 opacity-20" style="background: radial-gradient(600px 300px at 90% 0%, rgba(200,16,46,0.5), transparent 60%), radial-gradient(500px 400px at 0% 100%, rgba(255,255,255,0.15), transparent 60%);" aria-hidden="true"></div>
+          <div class="relative max-w-2xl">
+            <h2 class="font-display text-3xl sm:text-4xl" style="letter-spacing:-0.03em">Sigue cada promesa</h2>
+            <p class="mt-4 text-lg leading-[1.7] text-papel/80">Recibe una alerta cuando un compromiso cambie de estado. Sin ruido, sin opinión: solo el registro.</p>
+            <form class="mt-8 flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault()">
+              <label for="email" class="sr-only">Correo electrónico</label>
+              <input id="email" type="email" required placeholder="tu@correo.com" class="font-sans flex-1 rounded px-4 py-3 bg-papel text-tinta placeholder:text-tintafina border-0">
+              <button type="submit" class="btn-primary font-sans font-semibold bg-rojo text-papel px-6 py-3 rounded shadow-card">Recibir alertas</button>
+            </form>
+            <p class="mt-4 font-mono text-[0.65rem] text-papel/60">Solo usamos tu correo para las alertas. Nada más.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </Base>
