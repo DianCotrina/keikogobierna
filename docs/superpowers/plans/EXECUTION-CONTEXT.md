@@ -45,6 +45,7 @@ Execute plans with the superpowers subagent-driven-development skill. Its helper
 3. `og:image`/`og:url` absent; alertas form has no backend; footer "Fuentes"/"Contacto" are `href="#"` (deploy plan fixes all).
 4. `goalStats` zero-goal branch and multi-entry `updatesLog` sorting untested (tracking plan adds fixture tests).
 5. Goal `t2-6.M02` preserves the document's own typo "4 metros de Lima" — intentional, do not "fix".
+6. PDF line-break hyphenation artifacts survive in proposal texts dataset-wide (e.g. `t3-7.P17` "co- aporte") — cosmetic; a future extractor pass should rejoin `-\n` breaks. Also: `_apply_merge_bullets`'s non-colon label branch is untested/latently inconsistent (uses join_with instead of a space).
 
 ## Plan sequencing
 
