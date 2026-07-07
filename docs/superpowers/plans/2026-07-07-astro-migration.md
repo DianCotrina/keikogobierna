@@ -6,7 +6,7 @@
 
 **Architecture:** Astro 5 static output (no adapter, no SSR). All data is read at build time from the existing tree (`src/data/plan/**`, `src/data/tracking.json`) by a plain-JS data library (`src/lib/plan.mjs`, unit-tested with `node --test`). The established "tinta" design system (black-ink newspaper on paper, pen strokes, rubber stamps, Peru-red accents) is ported verbatim into global CSS + components — this is a re-platform, not a redesign; the landing's only content change is real data (3 pillars / 23 topics / 65 goals instead of 6 sample ejes). Client JS stays tiny: scroll-reveal and the donate/share widget.
 
-**Tech Stack:** Astro ^5, Tailwind CSS v4 via `@tailwindcss/vite`, Node ≥ 20, `node --test` for the data lib. Deployment intentionally out of scope (decided later) — everything must work with `npm run build` + `npm run preview` locally.
+**Tech Stack:** Astro latest stable (^7 as of 2026-07; originally drafted as ^5 — superseded for the npm-audit high-severity advisory fixed in 7.0.6), Tailwind CSS v4 via `@tailwindcss/vite`, Node ≥ 20, `node --test` for the data lib. Deployment intentionally out of scope (decided later) — everything must work with `npm run build` + `npm run preview` locally.
 
 ## Global Constraints
 
