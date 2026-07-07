@@ -4,7 +4,7 @@
 
 **Goal:** Extract the real "Perú con Orden 2026–2031" government plan (3 pilares, 23 temas, 635 propuestas, 67 acciones de 100 días, ~60 metas al 2031) from the official PDF into versioned, validated JSON with stable IDs, plus a seguimiento (tracking) layer — the data foundation both the current site and the upcoming Astro migration consume.
 
-**Architecture:** Immutable plan content (what the document says) lives in `src/data/plan/` — extracted by a repeatable WAT tool, never hand-edited after curation. Living tracking state (estado/evidencia per item) lives in `src/data/seguimiento.json`, keyed by stable IDs. Two-layer tracking: all 635 propuestas are listed and trackable, but headline progress % is computed only from metas al 2031. The existing landing page and `src/data/plan.json` stay untouched (Plan 2 — Astro migration — replaces them).
+**Architecture:** Immutable plan content (what the document says) lives in `src/data/plan/` — extracted by a repeatable WAT tool, never hand-edited after curation. Living tracking state (status/evidence per item) lives in `src/data/tracking.json`, keyed by stable IDs. Two-layer tracking: all 635 propuestas are listed and trackable, but headline progress % is computed only from metas al 2031. The existing landing page and `src/data/plan.json` stay untouched (Plan 2 — Astro migration — replaces them).
 
 **Tech Stack:** Python 3 stdlib only (tools), `pdftotext` (poppler, already installed at /opt/homebrew/bin/pdftotext), JSON.
 
