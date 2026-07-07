@@ -1,0 +1,70 @@
+---
+import Stamp from './Stamp.astro';
+import PenProgress from './PenProgress.astro';
+
+interface Highlight {
+  id: string;
+  text: string;
+  status: string;
+}
+
+interface Stats {
+  total: number;
+  byStatus: {
+    fulfilled: number;
+    in_progress: number;
+    no_progress: number;
+    unfulfilled: number;
+  };
+  progressPct: number;
+}
+
+interface Props {
+  stats: Stats;
+  totalProposals: number;
+  highlights: Highlight[];
+  sourcesLine: string;
+  updatedText: string;
+}
+
+const { stats, totalProposals, highlights, sourcesLine, updatedText } = Astro.props;
+---
+
+<div class="bg-white/85 backdrop-blur rounded-lg shadow-lift border border-tinta/10 p-6 sm:p-7">
+  <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-dashed border-tinta/20 pb-4">
+    <p class="font-mono text-[0.65rem] sm:text-xs font-semibold uppercase tracking-[0.14em] text-tintasuave">Expediente · Avance general</p>
+    <p class="font-mono text-[0.65rem] sm:text-xs text-tintafina whitespace-nowrap">{updatedText}</p>
+  </div>
+  <div class="mt-5 flex flex-wrap items-end justify-between gap-x-4 gap-y-1">
+    <p class="font-display text-5xl sm:text-6xl" style="letter-spacing:-0.03em">{stats.progressPct}<span class="text-3xl">%</span></p>
+    <p class="font-mono text-xs text-tintasuave mb-1.5">{stats.total} metas al 2031 · {totalProposals} propuestas rastreadas</p>
+  </div>
+  <PenProgress pct={stats.progressPct} label={`Avance general: ${stats.progressPct} por ciento`} />
+  <div class="mt-6 grid grid-cols-4 gap-2 font-mono text-center">
+    <div>
+      <p class="text-xl font-semibold text-verde">{stats.byStatus.fulfilled}</p>
+      <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Cumplidas</p>
+    </div>
+    <div>
+      <p class="text-xl font-semibold text-ambar">{stats.byStatus.in_progress}</p>
+      <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">En progreso</p>
+    </div>
+    <div>
+      <p class="text-xl font-semibold text-plomo">{stats.byStatus.no_progress}</p>
+      <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Sin avance</p>
+    </div>
+    <div>
+      <p class="text-xl font-semibold text-rojo">{stats.byStatus.unfulfilled}</p>
+      <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Incumplidas</p>
+    </div>
+  </div>
+  <ul class="mt-6 space-y-3 border-t border-dashed border-tinta/20 pt-5">
+    {highlights.map((h) => (
+      <li class="flex items-start justify-between gap-3">
+        <p class="text-sm leading-snug">{h.text}</p>
+        <Stamp status={h.status} />
+      </li>
+    ))}
+  </ul>
+  <p class="mt-5 font-mono text-[0.6rem] text-tintafina leading-relaxed">{sourcesLine}</p>
+</div>
