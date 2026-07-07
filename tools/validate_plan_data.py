@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate src/data/plan.json (legacy) and the src/data/plan/ tree + tracking.json."""
+"""Validate the src/data/plan/ tree + tracking.json."""
 import json
 import re
 import sys
@@ -8,7 +8,6 @@ from pathlib import Path
 VALID_STATUSES = {"fulfilled", "in_progress", "no_progress", "unfulfilled"}
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = ROOT / "src" / "data" / "plan.json"
 PLAN_DIR = ROOT / "src" / "data" / "plan"
 INDEX_PATH = PLAN_DIR / "index.json"
 TOPICS_DIR = PLAN_DIR / "topics"
@@ -29,63 +28,6 @@ def load_json(path: Path):
         return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as e:
         fail(f"cannot read/parse {path}: {e}")
-
-
-def validate_legacy() -> tuple[int, int]:
-    data = load_json(DATA_PATH)
-
-    for key in ("meta", "summary", "highlights", "topics", "updates"):
-        if key not in data:
-            fail(f"missing top-level key: {key}")
-
-    meta = data["meta"]
-    if "updated_text" not in meta or not isinstance(meta["updated_text"], str):
-        fail("meta.updated_text must be a string")
-    if "sources" not in meta or not isinstance(meta["sources"], list) or not meta["sources"]:
-        fail("meta.sources must be a non-empty list")
-    for i, source in enumerate(meta["sources"]):
-        if not isinstance(source, str) or not source.strip():
-            fail(f"meta.sources[{i}] must be a non-empty string")
-
-    summary = data["summary"]
-    for key in ("overall_progress", "total", "statuses"):
-        if key not in summary:
-            fail(f"missing summary.{key}")
-    if not isinstance(summary["statuses"], dict):
-        fail("summary.statuses must be a dict")
-
-    statuses = summary["statuses"]
-    if set(statuses) != VALID_STATUSES:
-        fail(f"summary.statuses keys must be exactly {sorted(VALID_STATUSES)}")
-    if sum(statuses.values()) != summary["total"]:
-        fail(f"status counts {sum(statuses.values())} != total {summary['total']}")
-    if not 0 <= summary["overall_progress"] <= 100:
-        fail("summary.overall_progress must be 0..100")
-
-    for i, item in enumerate(data["highlights"] + data["updates"]):
-        if not isinstance(item, dict):
-            fail(f"plan.json: highlights/updates[{i}] entry must be an object")
-        if "status" not in item:
-            fail(f"missing status at highlights/updates[{i}]")
-        if item["status"] not in VALID_STATUSES:
-            fail(f"invalid status '{item['status']}' at highlights/updates[{i}]")
-        if "text" not in item or not isinstance(item["text"], str) or not item["text"].strip():
-            fail(f"empty text at highlights/updates[{i}]")
-
-    seen_ids = set()
-    for i, topic in enumerate(data["topics"]):
-        if not isinstance(topic, dict):
-            fail(f"plan.json: topics[{i}] entry must be an object")
-        for key in ("id", "name", "commitments", "progress"):
-            if key not in topic:
-                fail(f"missing topic.{key} at topics[{i}]")
-        if topic["id"] in seen_ids:
-            fail(f"duplicate topic id: {topic['id']}")
-        seen_ids.add(topic["id"])
-        if not 0 <= topic["progress"] <= 100:
-            fail(f"topic '{topic['id']}' progress must be 0..100")
-
-    return summary["total"], len(data["topics"])
 
 
 def validate_index() -> dict:
@@ -301,8 +243,6 @@ def validate_tracking(known_ids: set) -> None:
 
 
 def main() -> None:
-    legacy_total, legacy_topics = validate_legacy()
-
     index_by_id = validate_index()
     total_proposals, total_c, proposal_and_c_ids = validate_topics(index_by_id)
     total_goals, goal_ids = validate_goals(index_by_id)
@@ -310,8 +250,7 @@ def main() -> None:
     validate_tracking(known_ids)
 
     print(
-        f"OK: {DATA_PATH.name} valid — {legacy_total} items, {legacy_topics} areas (legacy); "
-        f"plan/ tree valid — {len(index_by_id)} topics, {total_proposals} proposals, "
+        f"OK: plan/ tree valid — {len(index_by_id)} topics, {total_proposals} proposals, "
         f"{total_c} first-100-days actions, {total_goals} goals; tracking.json valid"
     )
 
