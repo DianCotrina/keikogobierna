@@ -43,7 +43,7 @@ The plan data layer is immutable (derived from the PDF) except for the tracking 
 **Tree structure:**
 ```
 src/data/plan/
-├── index.json              # Registry: pillars (3) + topics (23 topics, 635 proposals, 67 first-100-days actions, 65 goals)
+├── index.json              # Registry: pillars (3) + topics (23 topics, 632 proposals, 67 first-100-days actions, 65 goals)
 ├── topics/
 │   └── t1-1-orden-ciudadano.json    # ×23 (file names use Spanish slugs)
 └── goals/
@@ -67,9 +67,10 @@ src/data/tracking.json      # Living state: goal status + progress log
 - All user-facing content (plan names, proposal text, goal text, Spanish slugs): exactly as the PDF states.
 
 **Extraction and curation:**
-- **Proposals + first-100-days actions:** Auto-extracted from PDF by `tools/extract_plan_pdf.py` (deterministic, never overwrites goals).
+- **Proposals + first-100-days actions:** Auto-extracted from PDF by `tools/extract_plan_pdf.py` (deterministic, never overwrites goals); extraction rules are applied post-extraction via `src/data/plan/overrides.json`.
 - **Goals (metas al 2031):** Curated by hand in `src/data/plan/goals/goals-2031.json`; the PDF tables are not machine-parseable, so goals are never auto-regenerated.
 - **Tracking state:** Lives in `src/data/tracking.json`; edit freely (log your progress), then validate.
+- **Proposal IDs are frozen** as of the data-curation commit; `tracking.json` may reference proposal IDs, and renumbering is no longer permitted.
 - **After any data edit:** Run `python3 tools/validate_plan_data.py` to verify tree structure, IDs, counts, and cross-references.
 
 ## Rules

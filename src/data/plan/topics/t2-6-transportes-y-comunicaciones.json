@@ -76,8 +76,13 @@
         },
         {
           "id": "t2-6.P15",
-          "text": "Impulso del cabotaje nacional. Aeroportuaria"
-        },
+          "text": "Impulso del cabotaje nacional."
+        }
+      ]
+    },
+    {
+      "title": "Aeroportuaria",
+      "proposals": [
         {
           "id": "t2-6.P16",
           "text": "Culminación de los accesos al nuevo Aeropuerto Internacional Jorge Chávez."

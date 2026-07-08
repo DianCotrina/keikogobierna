@@ -10,7 +10,7 @@ Read this BEFORE executing any plan in this directory. It encodes the convention
 
 - **Language policy:** code identifiers, JSON keys, file/folder names, enum values, comments, commits → English. Everything a visitor reads (page copy, titles, meta descriptions, labels, URL paths/slugs/anchors like `/temas/...`, `#tablero`) → Spanish (Peru). If unsure whether a string is user-facing, it is.
 - **Status vocabulary:** `fulfilled | in_progress | no_progress | unfulfilled`. Spanish labels (Cumplida / En progreso / Sin avance / Incumplida) exist ONLY in `src/lib/statuses.mjs`. Colors: verde / ambar / plomo / rojo.
-- **Stable IDs:** topics `t{pillar}-{n}`; proposals `{topic}.P{nn}`; first-100-days `{topic}.C{nn}`; goals `{topic}.M{nn}`. IDs referenced by `src/data/tracking.json` may NEVER change. (Exception, defined in the curation plan: proposal renumbering is allowed only while no proposal id appears in tracking.)
+- **Stable IDs:** topics `t{pillar}-{n}`; proposals `{topic}.P{nn}`; first-100-days `{topic}.C{nn}`; goals `{topic}.M{nn}`. IDs referenced by `src/data/tracking.json` may NEVER change. (ID-exception window: CLOSED as of `data-curation` branch; proposal IDs are now frozen.)
 - **Two-layer tracking rule:** progress percentages count ONLY goals (metas al 2031). Proposals are listed and individually trackable but never enter a %.
 - **Honest data:** never fabricate progress, dates, or events. Empty states say so in Spanish. Source-document typos are preserved verbatim in extracted text.
 - **Data tree is guarded:** after ANY edit under `src/data/`, run `npm run validate` (wraps `tools/validate_plan_data.py`). `src/data/plan/topics/*` is generated — change the extractor (`tools/extract_plan_pdf.py`), never hand-edit. `src/data/plan/goals/goals-2031.json` is hand-curated. `src/data/tracking.json` is the living layer.
@@ -40,11 +40,12 @@ Execute plans with the superpowers subagent-driven-development skill. Its helper
 
 ## Current deferred-items registry (source of truth for "known issues")
 
-1. `t3-7.P17` stub proposal + `t2-6.P15` glued "Aeroportuaria" header — source-PDF artifacts (curation plan fixes these).
-2. Validator doesn't enforce goals `indicator`/`table_topic` non-emptiness (curation plan).
+1. ✓ `t3-7.P17` stub proposal + `t2-6.P15` glued "Aeroportuaria" header — source-PDF artifacts (FIXED: branch `data-curation`).
+2. ✓ Validator doesn't enforce goals `indicator`/`table_topic` non-emptiness (FIXED: branch `data-curation`).
 3. `og:image`/`og:url` absent; alertas form has no backend; footer "Fuentes"/"Contacto" are `href="#"` (deploy plan fixes all).
 4. `goalStats` zero-goal branch and multi-entry `updatesLog` sorting untested (tracking plan adds fixture tests).
 5. Goal `t2-6.M02` preserves the document's own typo "4 metros de Lima" — intentional, do not "fix".
+6. PDF line-break hyphenation artifacts survive in proposal texts dataset-wide (e.g. `t3-7.P17` "co- aporte") — cosmetic; a future extractor pass should rejoin `-\n` breaks. Also: `_apply_merge_bullets`'s non-colon label branch is untested/latently inconsistent (uses join_with instead of a space).
 
 ## Plan sequencing
 

@@ -173,7 +173,7 @@ def validate_goals(index_by_id: dict) -> tuple[int, set]:
     for i, goal in enumerate(goals):
         if not isinstance(goal, dict):
             fail(f"goals-2031.json: goals[{i}] entry must be an object")
-        for key in ("id", "topic", "text", "indicator"):
+        for key in ("id", "topic", "text", "indicator", "table_topic"):
             if key not in goal:
                 fail(f"goals-2031.json: goals[{i}] missing {key}")
         gid = goal["id"]
@@ -189,6 +189,10 @@ def validate_goals(index_by_id: dict) -> tuple[int, set]:
         all_goal_ids.add(gid)
         if not isinstance(goal["text"], str) or not goal["text"].strip():
             fail(f"goals-2031.json: goal '{gid}' has empty text")
+        if not isinstance(goal["indicator"], str) or not goal["indicator"].strip():
+            fail(f"goals-2031.json: goal '{gid}' has empty indicator")
+        if not isinstance(goal["table_topic"], str) or not goal["table_topic"].strip():
+            fail(f"goals-2031.json: goal '{gid}' has empty table_topic")
         per_topic_count[goal["topic"]] = per_topic_count.get(goal["topic"], 0) + 1
 
     for tid in index_by_id:
