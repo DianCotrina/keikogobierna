@@ -1,0 +1,114 @@
+---
+import Base from '../layouts/Base.astro';
+import Stamp from '../components/Stamp.astro';
+import {
+  loadPlan,
+  loadTopics,
+  loadTracking,
+  firstHundredDays,
+  firstHundredDaysStats,
+} from '../lib/plan.mjs';
+
+const plan = loadPlan();
+const topics = loadTopics();
+const tracking = loadTracking();
+
+const groups = firstHundredDays(plan, topics, tracking);
+const stats = firstHundredDaysStats(topics, tracking);
+const started = stats.total - stats.byStatus.no_progress;
+const startedPct = stats.total > 0 ? Math.round((100 * started) / stats.total) : 0;
+
+const title = 'Primeros 100 días — keikogobierna';
+const description = `Los ${stats.total} compromisos que el plan de gobierno 2026–2031 promete cumplir en sus primeros 100 días, con seguimiento por área.`;
+---
+
+<Base title={title} description={description} activeNav="100dias">
+  <main>
+    <!-- Masthead -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-12 sm:pt-14 text-center">
+      <a href="/" class="nav-link font-mono text-xs text-tintasuave inline-flex items-center gap-2">← Volver al tablero</a>
+      <p class="mt-8 font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Plan de gobierno · El arranque</p>
+      <h1 class="mt-4 font-display" style="letter-spacing:-0.03em">
+        <span class="block text-xl sm:text-2xl text-tintasuave">Los primeros</span>
+        <span class="relative inline-block text-[4.5rem] leading-[0.95] sm:text-[7rem] mt-1">100 días
+          <svg class="pen-stroke absolute left-0 -bottom-1 w-full h-4" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
+            <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+        </span>
+      </h1>
+      <p class="mt-8 text-lg leading-[1.7] text-tintasuave max-w-xl mx-auto">
+        Los compromisos que el plan promete cumplir apenas asuma el gobierno. Son la primera prueba de intención — y el primer tramo que este seguimiento vigila. El registro comienza cuando el gobierno entre en funciones.
+      </p>
+    </section>
+
+    <!-- Tally -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 pb-4">
+      <div class="bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+        <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-dashed border-tinta/20 pb-4">
+          <p class="font-mono text-[0.65rem] sm:text-xs font-semibold uppercase tracking-[0.14em] text-tintasuave">Expediente · Arranque del gobierno</p>
+          <p class="font-mono text-[0.65rem] sm:text-xs text-tintafina">{stats.total} compromisos</p>
+        </div>
+        <div class="mt-5 flex flex-wrap items-end justify-between gap-x-4 gap-y-1">
+          <p class="font-display text-4xl sm:text-5xl" style="letter-spacing:-0.03em">{started}<span class="text-2xl text-tintasuave"> de {stats.total}</span></p>
+          <p class="font-mono text-xs text-tintasuave mb-1.5">compromisos iniciados</p>
+        </div>
+        <div class="mt-3 h-1.5 rounded-full bg-tinta/10 overflow-hidden" role="img" aria-label={`${started} de ${stats.total} compromisos iniciados`}>
+          <div class="h-full rounded-full bg-tinta" style={`width:${startedPct}%`}></div>
+        </div>
+        <div class="mt-6 grid grid-cols-4 gap-2 font-mono text-center">
+          <div><p class="text-xl font-semibold text-verde">{stats.byStatus.fulfilled}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Cumplidas</p></div>
+          <div><p class="text-xl font-semibold text-ambar">{stats.byStatus.in_progress}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">En progreso</p></div>
+          <div><p class="text-xl font-semibold text-plomo">{stats.byStatus.no_progress}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Sin avance</p></div>
+          <div><p class="text-xl font-semibold text-rojo">{stats.byStatus.unfulfilled}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Incumplidas</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- By pillar → topic -->
+    {groups.map((pillar) => {
+      const pillarCount = pillar.topics.reduce((sum, topic) => sum + topic.actions.length, 0);
+      return (
+        <section class="border-t border-tinta/10 first-of-type:border-t-0">
+          <div class="mx-auto max-w-4xl px-5 sm:px-8 py-12 sm:py-14">
+            <div class="reveal flex flex-wrap items-end justify-between gap-x-4 gap-y-1 border-b border-tinta/10 pb-3">
+              <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Pilar {pillar.index} · {pillar.name.toUpperCase()}</p>
+              <p class="font-mono text-xs text-tintafina">{pillarCount} acciones</p>
+            </div>
+
+            <div class="mt-8 space-y-9">
+              {pillar.topics.map((topic) => (
+                <div class="reveal">
+                  <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-0.5">
+                    <h2 class="font-sans font-bold text-lg">
+                      <a href={`/temas/${topic.slug}/`} class="nav-link">{topic.name}</a>
+                    </h2>
+                    <span class="font-mono text-xs text-tintafina">Tema {topic.doc_section} · {topic.actions.length} acciones</span>
+                  </div>
+                  <ul class="mt-3 bg-white rounded-lg border border-tinta/10 shadow-card divide-y divide-tinta/10">
+                    {topic.actions.map((action) => (
+                      <li class="flex items-start gap-3.5 p-4 sm:px-5">
+                        {action.status === 'no_progress'
+                          ? <span aria-hidden="true" class="mt-0.5 h-4 w-4 rounded-sm border-[1.5px] border-tinta/40 shrink-0"></span>
+                          : <span class="shrink-0"><Stamp status={action.status} /></span>}
+                        <span class="font-mono text-[0.7rem] font-semibold text-tintafina shrink-0 mt-0.5 min-w-[2.2rem]">{action.id.split('.')[1]}</span>
+                        <p class="flex-1 text-sm leading-[1.65]">{action.text}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      );
+    })}
+
+    <!-- Closing -->
+    <section class="border-t border-tinta/10 bg-white/40">
+      <div class="mx-auto max-w-4xl px-5 sm:px-8 py-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+        <p class="text-base leading-[1.7] text-tintasuave max-w-md">Pasados los primeros 100 días, cada compromiso mantiene su seguimiento dentro de su tema.</p>
+        <a href="/#temas" class="btn-ghost font-sans font-semibold border-[1.5px] border-tinta/25 px-6 py-3 rounded whitespace-nowrap">Ver todos los temas →</a>
+      </div>
+    </section>
+  </main>
+</Base>

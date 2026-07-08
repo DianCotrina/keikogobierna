@@ -98,3 +98,43 @@ export function updatesLog(tracking) {
   const log = tracking.log ?? [];
   return [...log].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
+
+// First-100-days actions (the `.C` items) grouped by pillar then topic, in plan order.
+export function firstHundredDays(plan, topics, tracking) {
+  return plan.pillars.map((pillar, index) => ({
+    id: pillar.id,
+    name: pillar.name,
+    index: index + 1,
+    topics: plan.topics
+      .filter((topic) => topic.pillar === pillar.id)
+      .map((topic) => {
+        const file = topics.get(topic.id);
+        return {
+          id: topic.id,
+          slug: topic.slug,
+          name: topic.name,
+          doc_section: file.doc_section,
+          actions: file.first_100_days.map((action) => ({
+            id: action.id,
+            text: action.text,
+            status: statusOf(action.id, tracking),
+          })),
+        };
+      })
+      .filter((topic) => topic.actions.length > 0),
+  }));
+}
+
+// Tally of every first-100-days action by status (a launch-window metric,
+// distinct from the goal-only headline progress).
+export function firstHundredDaysStats(topics, tracking) {
+  const byStatus = { fulfilled: 0, in_progress: 0, no_progress: 0, unfulfilled: 0 };
+  let total = 0;
+  for (const file of topics.values()) {
+    for (const action of file.first_100_days) {
+      total += 1;
+      byStatus[statusOf(action.id, tracking)] += 1;
+    }
+  }
+  return { total, byStatus };
+}
