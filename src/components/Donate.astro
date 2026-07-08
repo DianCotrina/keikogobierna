@@ -1,4 +1,8 @@
 ---
+import yapeQr from '../../assets/yape_donate_qr.jpeg';
+import paypalQr from '../../assets/pp_donate_qr.png';
+
+const PAYPAL_URL = 'https://www.paypal.com/donate/?hosted_button_id=MH32XPFFVPANS';
 ---
 
 <!-- Donate widget -->
@@ -8,16 +12,16 @@
       <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
     </svg>
     <span class="font-sans font-bold text-sm whitespace-nowrap">Apóyame con un</span>
-    <a href="#" aria-label="Donar por Yape" title="Yape" class="donate-icon relative block w-9 h-9 rounded-[10px] shadow-chip" style="background: radial-gradient(130% 130% at 25% 15%, #9B30AD, #6A1B7A 75%);">
+    <button type="button" data-open="yape" aria-label="Donar por Yape" title="Yape" class="donate-icon relative block w-9 h-9 rounded-[10px] shadow-chip cursor-pointer border-0 p-0" style="background: radial-gradient(130% 130% at 25% 15%, #9B30AD, #6A1B7A 75%);">
       <span class="absolute inset-0 flex items-center justify-center font-sans italic font-bold text-white text-[13px]" style="letter-spacing:-0.02em; transform: rotate(-6deg);">yape</span>
       <span class="absolute -top-1.5 -left-1.5 w-4 h-4 rounded-full bg-[#3DDBD9] text-tinta text-[7.5px] font-sans font-bold flex items-center justify-center" style="border-bottom-right-radius:2px;">S/</span>
-    </a>
-    <a href="#" aria-label="Donar por PayPal" title="PayPal" class="donate-icon w-9 h-9 flex items-center justify-center rounded-[10px]">
+    </button>
+    <button type="button" data-open="paypal" aria-label="Donar por PayPal" title="PayPal" class="donate-icon w-9 h-9 flex items-center justify-center rounded-[10px] cursor-pointer border-0 bg-transparent p-0">
       <svg viewBox="0 0 26 30" class="w-6 h-7" aria-hidden="true">
         <text x="1" y="22" font-family="Archivo, sans-serif" font-weight="800" font-style="italic" font-size="24" fill="#003087">P</text>
         <text x="8" y="26" font-family="Archivo, sans-serif" font-weight="800" font-style="italic" font-size="24" fill="#009CDE" opacity="0.92">P</text>
       </svg>
-    </a>
+    </button>
   </div>
   <button id="share-btn" type="button" aria-label="Compartir esta página" title="Compartir" class="btn-ghost w-11 h-11 rounded-full bg-white/95 backdrop-blur border border-tinta/15 shadow-card flex items-center justify-center">
     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
@@ -28,24 +32,210 @@
   <span id="share-toast" class="pointer-events-none absolute -top-9 right-0 font-mono text-[0.65rem] bg-tinta text-papel px-2.5 py-1 rounded opacity-0 transition-opacity duration-300">Enlace copiado</span>
 </div>
 
+<!-- Yape donation dialog -->
+<dialog id="donate-yape" class="donate-dialog" aria-labelledby="donate-yape-title">
+  <div class="donate-card">
+    <button type="button" data-close aria-label="Cerrar" class="donate-close">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <p class="donate-eyebrow">Apóyame · Yape</p>
+    <h2 id="donate-yape-title" class="donate-title">Dona con Yape</h2>
+    <p class="donate-note">Escanea el código con la app de Yape para enviar tu aporte.</p>
+    <div class="donate-frame donate-frame--card">
+      <img src={yapeQr.src} width={yapeQr.width} height={yapeQr.height} alt="Código QR de Yape para donar, a nombre de Diego" class="donate-yape-img" loading="lazy" decoding="async" />
+    </div>
+    <span class="stamp text-verde donate-stamp" aria-hidden="true">Gracias</span>
+  </div>
+</dialog>
+
+<!-- PayPal donation dialog -->
+<dialog id="donate-paypal" class="donate-dialog" aria-labelledby="donate-paypal-title">
+  <div class="donate-card">
+    <button type="button" data-close aria-label="Cerrar" class="donate-close">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <p class="donate-eyebrow">Apóyame · PayPal</p>
+    <h2 id="donate-paypal-title" class="donate-title">Dona con PayPal</h2>
+    <p class="donate-note">Escanea el código o usa el botón para donar por PayPal.</p>
+    <div class="donate-frame donate-frame--dashed">
+      <img src={paypalQr.src} width={paypalQr.width} height={paypalQr.height} alt="Código QR de PayPal para donar" class="donate-paypal-img" loading="lazy" decoding="async" />
+    </div>
+    <a href={PAYPAL_URL} target="_blank" rel="noopener noreferrer" class="btn-primary donate-link">Dona usando PayPal →</a>
+    <span class="stamp text-verde donate-stamp" aria-hidden="true">Gracias</span>
+  </div>
+</dialog>
+
+<style>
+  .donate-dialog {
+    margin: auto; /* restore centering that Tailwind Preflight's universal margin:0 removes */
+    border: 0;
+    padding: 0;
+    background: transparent;
+    width: min(92vw, 22rem);
+    max-height: 92vh;
+    color: #141417;
+    overflow-y: auto;
+  }
+  .donate-dialog::backdrop {
+    background: rgba(20, 20, 23, 0.5);
+  }
+
+  .donate-card {
+    position: relative;
+    background: #fff;
+    border: 1px solid rgba(20, 20, 23, 0.1);
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 4px rgba(20,20,23,0.08), 0 16px 40px rgba(20,20,23,0.14), 0 40px 80px -40px rgba(20,20,23,0.28);
+    padding: 1.75rem 1.5rem 1.5rem;
+    text-align: center;
+  }
+
+  .donate-close {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: transparent;
+    color: #46464D;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s var(--ease-spring);
+  }
+  .donate-close:hover { background: rgba(20, 20, 23, 0.06); }
+  .donate-close:active { transform: scale(0.94); }
+
+  .donate-eyebrow {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #46464D;
+  }
+  .donate-title {
+    font-family: 'Archivo Black', Archivo, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-top: 0.4rem;
+  }
+  .donate-note {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #46464D;
+    margin: 0.6rem auto 0;
+    max-width: 17rem;
+  }
+
+  .donate-frame {
+    margin: 1.15rem auto 0;
+    border-top: 1px dashed rgba(20, 20, 23, 0.2);
+    padding-top: 1.15rem;
+  }
+  .donate-yape-img {
+    display: block;
+    width: 100%;
+    max-width: 15rem;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 0 rgba(20,20,23,0.1);
+  }
+  .donate-frame--dashed .donate-paypal-img {
+    display: block;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 0 auto;
+    padding: 0.9rem;
+    background: #fff;
+    border: 1.5px dashed rgba(20, 20, 23, 0.25);
+    border-radius: 0.5rem;
+    image-rendering: pixelated;
+  }
+
+  .donate-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.15rem;
+    padding: 0.7rem 1.4rem;
+    background: #141417;
+    color: #F5F3EE;
+    border-radius: 0.5rem;
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: 0 1px 2px rgba(20,20,23,0.06), 0 8px 24px rgba(20,20,23,0.1), 0 32px 64px -32px rgba(20,20,23,0.22);
+  }
+
+  .donate-stamp {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    transform: rotate(-8deg);
+    pointer-events: none;
+  }
+
+  .donate-dialog[open] { animation: donate-in 0.28s var(--ease-spring); }
+  .donate-dialog[open]::backdrop { animation: donate-backdrop-in 0.28s ease; }
+  @keyframes donate-in {
+    from { opacity: 0; transform: translateY(8px) scale(0.97); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes donate-backdrop-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .donate-dialog[open], .donate-dialog[open]::backdrop { animation: none; }
+    .donate-close { transition: none; }
+  }
+</style>
+
 <script>
   function initDonate() {
     const btn = document.getElementById('share-btn');
-    if (!btn) return;
-    btn.addEventListener('click', async () => {
-      const data = { title: document.title, url: location.href };
-      if (navigator.share) {
-        try { await navigator.share(data); } catch {}
-      } else {
-        try {
-          await navigator.clipboard.writeText(location.href);
-        } catch {
-          return;
+    if (btn) {
+      btn.addEventListener('click', async () => {
+        const data = { title: document.title, url: location.href };
+        if (navigator.share) {
+          try { await navigator.share(data); } catch {}
+        } else {
+          try {
+            await navigator.clipboard.writeText(location.href);
+          } catch {
+            return;
+          }
+          const toast = document.getElementById('share-toast');
+          toast?.classList.remove('opacity-0');
+          setTimeout(() => toast?.classList.add('opacity-0'), 1800);
         }
-        const toast = document.getElementById('share-toast');
-        toast?.classList.remove('opacity-0');
-        setTimeout(() => toast?.classList.add('opacity-0'), 1800);
-      }
+      });
+    }
+
+    document.querySelectorAll<HTMLButtonElement>('[data-open]').forEach((opener) => {
+      const id = opener.getAttribute('data-open');
+      const dialog = document.getElementById(`donate-${id}`) as HTMLDialogElement | null;
+      if (!dialog) return;
+      opener.addEventListener('click', () => dialog.showModal());
+    });
+
+    document.querySelectorAll<HTMLDialogElement>('dialog.donate-dialog').forEach((dialog) => {
+      dialog.querySelector('[data-close]')?.addEventListener('click', () => dialog.close());
+      dialog.addEventListener('click', (event) => {
+        if (event.target === dialog) dialog.close();
+      });
     });
   }
 
