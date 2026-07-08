@@ -35,37 +35,47 @@ const PAYPAL_URL = 'https://www.paypal.com/donate/?hosted_button_id=MH32XPFFVPAN
 <!-- Yape donation dialog -->
 <dialog id="donate-yape" class="donate-dialog" aria-labelledby="donate-yape-title">
   <div class="donate-card">
-    <button type="button" data-close aria-label="Cerrar" class="donate-close">
-      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-        <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
-      </svg>
-    </button>
-    <p class="donate-eyebrow">Apóyame · Yape</p>
-    <h2 id="donate-yape-title" class="donate-title">Dona con Yape</h2>
-    <p class="donate-note">Escanea el código con la app de Yape para enviar tu aporte.</p>
-    <div class="donate-frame donate-frame--card">
-      <img src={yapeQr.src} width={yapeQr.width} height={yapeQr.height} alt="Código QR de Yape para donar, a nombre de Diego" class="donate-yape-img" loading="lazy" decoding="async" />
+    <div class="ticket">
+      <div class="ticket-top">
+        <button type="button" data-close aria-label="Cerrar" class="donate-close">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <span class="stamp text-verde ticket-stamp" aria-hidden="true">Gracias</span>
+        <p class="donate-eyebrow">Apóyame · Yape</p>
+        <h2 id="donate-yape-title" class="donate-title">Dona con Yape</h2>
+        <p class="donate-note">Escanea el código con la app de Yape para enviar tu aporte.</p>
+      </div>
+      <div class="ticket-bottom ticket-bottom--yape">
+        <img src={yapeQr.src} width={yapeQr.width} height={yapeQr.height} alt="Código QR de Yape para donar, a nombre de Diego" class="yape-img" loading="lazy" decoding="async" />
+      </div>
     </div>
-    <span class="stamp text-verde donate-stamp" aria-hidden="true">Gracias</span>
   </div>
 </dialog>
 
 <!-- PayPal donation dialog -->
 <dialog id="donate-paypal" class="donate-dialog" aria-labelledby="donate-paypal-title">
   <div class="donate-card">
-    <button type="button" data-close aria-label="Cerrar" class="donate-close">
-      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-        <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
-      </svg>
-    </button>
-    <p class="donate-eyebrow">Apóyame · PayPal</p>
-    <h2 id="donate-paypal-title" class="donate-title">Dona con PayPal</h2>
-    <p class="donate-note">Escanea el código o usa el botón para donar por PayPal.</p>
-    <div class="donate-frame donate-frame--dashed">
-      <img src={paypalQr.src} width={paypalQr.width} height={paypalQr.height} alt="Código QR de PayPal para donar" class="donate-paypal-img" loading="lazy" decoding="async" />
+    <div class="ticket">
+      <div class="ticket-top">
+        <button type="button" data-close aria-label="Cerrar" class="donate-close">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <span class="stamp text-verde ticket-stamp" aria-hidden="true">Gracias</span>
+        <p class="donate-eyebrow">Apóyame · PayPal</p>
+        <h2 id="donate-paypal-title" class="donate-title">Dona con PayPal</h2>
+        <p class="donate-note">Escanea el código o usa el botón para donar por PayPal.</p>
+      </div>
+      <div class="ticket-bottom ticket-bottom--paypal">
+        <div class="qr-chip">
+          <img src={paypalQr.src} width={paypalQr.width} height={paypalQr.height} alt="Código QR de PayPal para donar" class="paypal-img" loading="lazy" decoding="async" />
+        </div>
+        <a href={PAYPAL_URL} target="_blank" rel="noopener noreferrer" class="paypal-btn">Dona usando PayPal →</a>
+      </div>
     </div>
-    <a href={PAYPAL_URL} target="_blank" rel="noopener noreferrer" class="btn-primary donate-link">Dona usando PayPal →</a>
-    <span class="stamp text-verde donate-stamp" aria-hidden="true">Gracias</span>
   </div>
 </dialog>
 
@@ -75,29 +85,63 @@ const PAYPAL_URL = 'https://www.paypal.com/donate/?hosted_button_id=MH32XPFFVPAN
     border: 0;
     padding: 0;
     background: transparent;
-    width: min(92vw, 22rem);
+    width: min(92vw, 21rem);
     max-height: 92vh;
     color: #141417;
-    overflow-y: auto;
+    overflow: visible;
   }
   .donate-dialog::backdrop {
-    background: rgba(20, 20, 23, 0.5);
+    background: rgba(20, 20, 23, 0.55);
   }
 
+  /* Outer wrapper carries the drop shadow and rounds the corners. */
   .donate-card {
     position: relative;
-    background: #fff;
-    border: 1px solid rgba(20, 20, 23, 0.1);
-    border-radius: 0.75rem;
-    box-shadow: 0 2px 4px rgba(20,20,23,0.08), 0 16px 40px rgba(20,20,23,0.14), 0 40px 80px -40px rgba(20,20,23,0.28);
-    padding: 1.75rem 1.5rem 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(20,20,23,0.1), 0 18px 44px rgba(20,20,23,0.2), 0 44px 88px -40px rgba(20,20,23,0.4);
+  }
+
+  /* The ticket: two panels split by a punched perforation seam. */
+  .ticket {
+    --seam: 150px;
+    -webkit-mask:
+      radial-gradient(circle 10px at left var(--seam), #0000 10px, #000 0) left / 50.5% 100% no-repeat,
+      radial-gradient(circle 10px at right var(--seam), #0000 10px, #000 0) right / 50.5% 100% no-repeat;
+    mask:
+      radial-gradient(circle 10px at left var(--seam), #0000 10px, #000 0) left / 50.5% 100% no-repeat,
+      radial-gradient(circle 10px at right var(--seam), #0000 10px, #000 0) right / 50.5% 100% no-repeat;
+  }
+
+  .ticket-top {
+    position: relative;
+    box-sizing: border-box;
+    height: var(--seam, 150px);
+    background: #F5F3EE;
+    padding: 1.7rem 1.5rem 1rem;
     text-align: center;
+  }
+
+  .ticket-bottom {
+    position: relative;
+    text-align: center;
+    border-top: 2px dashed rgba(20, 20, 23, 0.18);
+  }
+  .ticket-bottom--paypal {
+    background: linear-gradient(158deg, #0079C1 0%, #002E7A 100%);
+    border-top-color: rgba(255, 255, 255, 0.3);
+    padding: 1.5rem 1.5rem 1.7rem;
+  }
+  .ticket-bottom--yape {
+    background: linear-gradient(158deg, #9B30AD 0%, #5A1568 100%);
+    border-top-color: rgba(255, 255, 255, 0.25);
+    padding: 1.35rem 1.35rem 1.5rem;
   }
 
   .donate-close {
     position: absolute;
-    top: 0.6rem;
-    right: 0.6rem;
+    top: 0.55rem;
+    right: 0.55rem;
     width: 2.25rem;
     height: 2.25rem;
     display: flex;
@@ -109,6 +153,7 @@ const PAYPAL_URL = 'https://www.paypal.com/donate/?hosted_button_id=MH32XPFFVPAN
     border-radius: 9999px;
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s var(--ease-spring);
+    z-index: 2;
   }
   .donate-close:hover { background: rgba(20, 20, 23, 0.06); }
   .donate-close:active { transform: scale(0.94); }
@@ -123,68 +168,70 @@ const PAYPAL_URL = 'https://www.paypal.com/donate/?hosted_button_id=MH32XPFFVPAN
   }
   .donate-title {
     font-family: 'Archivo Black', Archivo, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.55rem;
     line-height: 1.1;
     letter-spacing: -0.03em;
-    margin-top: 0.4rem;
+    margin-top: 0.35rem;
   }
   .donate-note {
     font-family: 'Source Serif 4', Georgia, serif;
-    font-size: 0.9rem;
-    line-height: 1.6;
+    font-size: 0.88rem;
+    line-height: 1.55;
     color: #46464D;
-    margin: 0.6rem auto 0;
-    max-width: 17rem;
+    margin: 0.5rem auto 0;
+    max-width: 16rem;
   }
 
-  .donate-frame {
-    margin: 1.15rem auto 0;
-    border-top: 1px dashed rgba(20, 20, 23, 0.2);
-    padding-top: 1.15rem;
+  .ticket-stamp {
+    position: absolute;
+    top: 0.9rem;
+    left: 0.9rem;
+    transform: rotate(-8deg);
+    pointer-events: none;
+    z-index: 2;
   }
-  .donate-yape-img {
+
+  /* Yape: the official payment card sits on the purple stub. */
+  .yape-img {
     display: block;
     width: 100%;
-    max-width: 15rem;
+    max-width: 13.5rem;
     height: auto;
     margin: 0 auto;
-    border-radius: 0.75rem;
-    box-shadow: 0 1px 0 rgba(20,20,23,0.1);
-  }
-  .donate-frame--dashed .donate-paypal-img {
-    display: block;
-    width: 12.5rem;
-    height: 12.5rem;
-    margin: 0 auto;
-    padding: 0.9rem;
-    background: #fff;
-    border: 1.5px dashed rgba(20, 20, 23, 0.25);
-    border-radius: 0.5rem;
-    image-rendering: pixelated;
+    border-radius: 0.6rem;
   }
 
-  .donate-link {
+  /* PayPal: bare QR in a white chip + a light action button on the blue stub. */
+  .qr-chip {
+    width: fit-content;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 6px 18px rgba(0, 24, 60, 0.35);
+  }
+  .paypal-img {
+    display: block;
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+  .paypal-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-top: 1.15rem;
     padding: 0.7rem 1.4rem;
-    background: #141417;
-    color: #F5F3EE;
+    background: #fff;
+    color: #003087;
     border-radius: 0.5rem;
     font-family: Archivo, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.95rem;
-    box-shadow: 0 1px 2px rgba(20,20,23,0.06), 0 8px 24px rgba(20,20,23,0.1), 0 32px 64px -32px rgba(20,20,23,0.22);
+    box-shadow: 0 6px 18px rgba(0, 24, 60, 0.3);
+    transition: transform 0.25s var(--ease-spring), box-shadow 0.25s var(--ease-spring);
   }
-
-  .donate-stamp {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    transform: rotate(-8deg);
-    pointer-events: none;
-  }
+  .paypal-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(0, 24, 60, 0.4); }
+  .paypal-btn:active { transform: translateY(0) scale(0.98); }
 
   .donate-dialog[open] { animation: donate-in 0.28s var(--ease-spring); }
   .donate-dialog[open]::backdrop { animation: donate-backdrop-in 0.28s ease; }
@@ -200,6 +247,7 @@ const PAYPAL_URL = 'https://www.paypal.com/donate/?hosted_button_id=MH32XPFFVPAN
   @media (prefers-reduced-motion: reduce) {
     .donate-dialog[open], .donate-dialog[open]::backdrop { animation: none; }
     .donate-close { transition: none; }
+    .paypal-btn { transition: none; }
   }
 </style>
 
