@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Stamp from '../../components/Stamp.astro';
 import PenProgress from '../../components/PenProgress.astro';
+import ProposalRow from '../../components/ProposalRow.astro';
 import GoalRow from '../../components/GoalRow.astro';
 import {
   loadPlan,
@@ -102,16 +102,14 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
             <div class="reveal">
               <h3 class="font-sans font-bold text-lg border-b border-tinta/10 pb-2.5">{group.title ?? 'Generales'}</h3>
               <ul class="mt-1 divide-y divide-tinta/10">
-                {group.proposals.map((proposal) => {
-                  const status = tracking.items?.[proposal.id]?.status;
-                  return (
-                    <li class="flex items-start gap-4 py-3.5">
-                      <span class="font-mono text-xs font-semibold text-tintafina shrink-0 mt-0.5 min-w-[2.4rem]">{proposal.id.split('.')[1]}</span>
-                      <p class="flex-1 text-sm leading-[1.7]">{proposal.text}</p>
-                      {status && <Stamp status={status} />}
-                    </li>
-                  );
-                })}
+                {group.proposals.map((proposal) => (
+                  <ProposalRow
+                    id={proposal.id}
+                    text={proposal.text}
+                    status={tracking.items?.[proposal.id]?.status}
+                    evidence={tracking.items?.[proposal.id]?.evidence}
+                  />
+                ))}
               </ul>
             </div>
           ))}
