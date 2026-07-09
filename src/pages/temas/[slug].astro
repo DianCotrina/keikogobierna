@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PenProgress from '../../components/PenProgress.astro';
+import PlanIndex from '../../components/PlanIndex.astro';
 import ProposalRow from '../../components/ProposalRow.astro';
 import GoalRow from '../../components/GoalRow.astro';
 import {
@@ -56,6 +57,17 @@ const topicFile = topics.get(topic.id);
 const topicGoals = goals.filter((goal) => goal.topic === topic.id);
 const pillarIndex = Number(topic.pillar.slice(1));
 
+const indexEntries = [
+  { href: '#metas', label: 'Metas al 2031', count: topicGoals.length },
+  {
+    href: '#propuestas',
+    label: 'Propuestas',
+    count: topic.proposals,
+    children: topicFile.groups.map((group, i) => ({ href: `#grupo-${i + 1}`, label: group.title ?? 'Generales' })),
+  },
+  { href: '#cien-dias', label: 'Primeros 100 días', count: topicFile.first_100_days.length },
+];
+
 const title = `${topic.name} — keikogobierna`;
 const description = `Seguimiento del tema ${topic.name} del plan de gobierno 2026–2031: ${topic.goals} metas, ${topic.proposals} propuestas verificables.`;
 ---
@@ -76,10 +88,13 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
         <PenProgress pct={topic.progressPct} label={`Avance del tema: ${topic.progressPct} por ciento`} />
         <p class="mt-3 font-mono text-xs text-tintasuave">{topic.progressPct}% de avance · {topic.goals} metas al 2031</p>
       </div>
+      <div class="mt-10 max-w-md">
+        <PlanIndex entries={indexEntries} />
+      </div>
     </section>
 
     <!-- Metas al 2031 -->
-    <section class="border-t border-tinta/10 bg-white/40">
+    <section id="metas" class="border-t border-tinta/10 bg-white/40 scroll-mt-6">
       <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
         <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Expediente</p>
         <h2 class="font-display text-2xl sm:text-3xl mt-3" style="letter-spacing:-0.03em">Metas al 2031</h2>
@@ -92,14 +107,14 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
     </section>
 
     <!-- Propuestas -->
-    <section class="border-t border-tinta/10">
+    <section id="propuestas" class="border-t border-tinta/10 scroll-mt-6">
       <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
         <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Registro completo</p>
         <h2 class="font-display text-2xl sm:text-3xl mt-3" style="letter-spacing:-0.03em">Propuestas ({topic.proposals})</h2>
 
         <div class="mt-10 space-y-10">
-          {topicFile.groups.map((group) => (
-            <div class="reveal">
+          {topicFile.groups.map((group, groupIndex) => (
+            <div id={`grupo-${groupIndex + 1}`} class="reveal scroll-mt-6">
               <h3 class="font-sans font-bold text-lg border-b border-tinta/10 pb-2.5">{group.title ?? 'Generales'}</h3>
               <ul class="mt-1 divide-y divide-tinta/10">
                 {group.proposals.map((proposal) => (
@@ -118,7 +133,7 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
     </section>
 
     <!-- Primeros 100 días -->
-    <section class="border-t border-tinta/10 bg-white/40">
+    <section id="cien-dias" class="border-t border-tinta/10 bg-white/40 scroll-mt-6">
       <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
         <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Plan inmediato</p>
         <h2 class="font-display text-2xl sm:text-3xl mt-3" style="letter-spacing:-0.03em">Primeros 100 días</h2>
