@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import PlanIndex from '../components/PlanIndex.astro';
 import Stamp from '../components/Stamp.astro';
 import {
   loadPlan,
@@ -17,6 +18,13 @@ const groups = firstHundredDays(plan, topics, tracking);
 const stats = firstHundredDaysStats(topics, tracking);
 const started = stats.total - stats.byStatus.no_progress;
 const startedPct = stats.total > 0 ? Math.round((100 * started) / stats.total) : 0;
+
+const indexEntries = groups.map((pillar) => ({
+  href: `#pilar-${pillar.index}`,
+  label: pillar.name,
+  count: pillar.topics.reduce((sum, topic) => sum + topic.actions.length, 0),
+  children: pillar.topics.map((topic) => ({ href: `#dias-${topic.slug}`, label: topic.name })),
+}));
 
 const title = 'Primeros 100 días — keikogobierna';
 const description = `Los ${stats.total} compromisos que el plan de gobierno 2026–2031 promete cumplir en sus primeros 100 días, con seguimiento por área.`;
@@ -64,11 +72,16 @@ const description = `Los ${stats.total} compromisos que el plan de gobierno 2026
       </div>
     </section>
 
+    <!-- Índice -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-6 pb-2">
+      <PlanIndex entries={indexEntries} />
+    </section>
+
     <!-- By pillar → topic -->
     {groups.map((pillar) => {
       const pillarCount = pillar.topics.reduce((sum, topic) => sum + topic.actions.length, 0);
       return (
-        <section class="border-t border-tinta/10 first-of-type:border-t-0">
+        <section id={`pilar-${pillar.index}`} class="border-t border-tinta/10 first-of-type:border-t-0 scroll-mt-6">
           <div class="mx-auto max-w-4xl px-5 sm:px-8 py-12 sm:py-14">
             <div class="reveal flex flex-wrap items-end justify-between gap-x-4 gap-y-1 border-b border-tinta/10 pb-3">
               <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Pilar {pillar.index} · {pillar.name.toUpperCase()}</p>
@@ -77,7 +90,7 @@ const description = `Los ${stats.total} compromisos que el plan de gobierno 2026
 
             <div class="mt-8 space-y-9">
               {pillar.topics.map((topic) => (
-                <div class="reveal">
+                <div id={`dias-${topic.slug}`} class="reveal scroll-mt-6">
                   <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-0.5">
                     <h2 class="font-sans font-bold text-lg">
                       <a href={`/temas/${topic.slug}/`} class="nav-link">{topic.name}</a>
