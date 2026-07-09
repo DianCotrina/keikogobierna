@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import IndexRail from '../../components/IndexRail/IndexRail.astro';
 import PenProgress from '../../components/PenProgress.astro';
 import PlanIndex from '../../components/PlanIndex.astro';
 import ProposalRow from '../../components/ProposalRow.astro';
@@ -159,5 +160,7 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
           : <span></span>}
       </div>
     </nav>
+
+    <IndexRail entries={indexEntries} />
   </main>
 </Base>

@@ -1,0 +1,235 @@
+/* IndexRail — floating índice companion. Imported globally from IndexRail.astro.
+   All selectors are namespaced (.index-rail*, .rail-*). */
+
+/* ---- Shared tree ---- */
+
+.rail-eyebrow {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8E8E96;
+}
+
+.rail-tree {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+}
+
+.rail-children {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+}
+
+.rail-link {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  padding: 0.28rem 0 0.28rem 0.6rem;
+  border-left: 2px solid transparent;
+  font-family: Archivo, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #46464D;
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.rail-link--child {
+  font-size: 0.74rem;
+  font-weight: 400;
+  color: #8E8E96;
+}
+.rail-link:hover { color: #141417; }
+.rail-link:focus-visible {
+  outline: 2px solid rgba(31, 122, 77, 0.6);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.rail-link:active { color: #141417; }
+.rail-link.is-current {
+  color: #1F7A4D;
+  border-left-color: #1F7A4D;
+  font-weight: 600;
+}
+
+.rail-num {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #C8102E;
+  flex-shrink: 0;
+}
+
+/* ---- Desktop margin rail (≥1280px) ---- */
+
+.index-rail {
+  position: fixed;
+  top: 5.5rem;
+  left: max(1rem, calc((100vw - 56rem) / 2 - 14rem));
+  width: 12rem;
+  max-height: calc(100vh - 7.5rem);
+  overflow-y: auto;
+  z-index: 30;
+  opacity: 0;
+  transform: translateX(-8px);
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.3s var(--ease-spring),
+    transform 0.3s var(--ease-spring),
+    visibility 0s linear 0.3s;
+}
+.index-rail.is-active {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  pointer-events: auto;
+  transition:
+    opacity 0.3s var(--ease-spring),
+    transform 0.3s var(--ease-spring),
+    visibility 0s;
+}
+
+@media (max-width: 1279px) {
+  .index-rail { display: none; }
+}
+
+/* ---- Mobile chip (<1280px) ---- */
+
+.index-rail-chip {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(20, 20, 23, 0.15);
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  font-family: Archivo, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #141417;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(20, 20, 23, 0.08), 0 10px 24px -8px rgba(20, 20, 23, 0.25);
+  opacity: 0;
+  transform: translateY(8px);
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.3s var(--ease-spring),
+    transform 0.3s var(--ease-spring),
+    visibility 0s linear 0.3s;
+}
+.index-rail-chip.is-active {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  pointer-events: auto;
+  transition:
+    opacity 0.3s var(--ease-spring),
+    transform 0.3s var(--ease-spring),
+    visibility 0s;
+}
+.index-rail-chip:hover { background: #fff; }
+.index-rail-chip:focus-visible {
+  outline: 2px solid rgba(31, 122, 77, 0.6);
+  outline-offset: 2px;
+}
+.index-rail-chip:active { transform: scale(0.96); }
+
+.rail-chip-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .index-rail-chip { display: none; }
+}
+
+/* ---- Mobile slide-in dialog ---- */
+
+.index-rail-dialog {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  height: 100dvh;
+  max-height: 100dvh;
+  width: min(82vw, 20rem);
+  max-width: 82vw;
+}
+.index-rail-dialog::backdrop {
+  background: rgba(20, 20, 23, 0.55);
+}
+
+.rail-panel {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
+  background: #F5F3EE;
+  padding: 1.25rem 1.4rem 2rem;
+  box-shadow: 12px 0 40px rgba(20, 20, 23, 0.25);
+}
+
+.rail-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px dashed rgba(20, 20, 23, 0.2);
+  padding-bottom: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.rail-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 0;
+  border-radius: 9999px;
+  background: transparent;
+  color: #46464D;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s var(--ease-spring);
+}
+.rail-close:hover { background: rgba(20, 20, 23, 0.06); }
+.rail-close:focus-visible {
+  outline: 2px solid rgba(31, 122, 77, 0.6);
+  outline-offset: 2px;
+}
+.rail-close:active { transform: scale(0.94); }
+
+.rail-close-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.index-rail-dialog[open] { animation: rail-in 0.28s var(--ease-spring); }
+.index-rail-dialog[open]::backdrop { animation: rail-backdrop-in 0.28s ease; }
+@keyframes rail-in {
+  from { transform: translateX(-100%); }
+  to { transform: none; }
+}
+@keyframes rail-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .index-rail,
+  .index-rail-chip,
+  .rail-link,
+  .rail-close { transition: none; }
+  .index-rail-dialog[open],
+  .index-rail-dialog[open]::backdrop { animation: none; }
+}

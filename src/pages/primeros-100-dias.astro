@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import IndexRail from '../components/IndexRail/IndexRail.astro';
 import PlanIndex from '../components/PlanIndex.astro';
 import Stamp from '../components/Stamp.astro';
 import {
@@ -123,5 +124,7 @@ const description = `Los ${stats.total} compromisos que el plan de gobierno 2026
         <a href="/#temas" class="btn-ghost font-sans font-semibold border-[1.5px] border-tinta/25 px-6 py-3 rounded whitespace-nowrap">Ver todos los temas →</a>
       </div>
     </section>
+
+    <IndexRail entries={indexEntries} />
   </main>
 </Base>
