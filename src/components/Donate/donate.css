@@ -1,0 +1,172 @@
+/* Donate widget dialogs — imported globally from Donate.astro.
+   All selectors are namespaced (.donate-*, .ticket-*, .yape-*, .paypal-*, .qr-chip). */
+
+.donate-dialog {
+  margin: auto; /* restore centering that Tailwind Preflight's universal margin:0 removes */
+  border: 0;
+  padding: 0;
+  background: transparent;
+  width: min(92vw, 21rem);
+  max-height: 92vh;
+  color: #141417;
+  overflow: visible;
+}
+.donate-dialog::backdrop {
+  background: rgba(20, 20, 23, 0.55);
+}
+
+/* Outer wrapper carries the drop shadow and rounds the corners. */
+.donate-card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(20,20,23,0.1), 0 18px 44px rgba(20,20,23,0.2), 0 44px 88px -40px rgba(20,20,23,0.4);
+}
+
+/* The ticket: two panels split by a punched perforation seam. */
+.ticket {
+  --seam: 150px;
+  -webkit-mask:
+    radial-gradient(circle 10px at left var(--seam), #0000 10px, #000 0) left / 50.5% 100% no-repeat,
+    radial-gradient(circle 10px at right var(--seam), #0000 10px, #000 0) right / 50.5% 100% no-repeat;
+  mask:
+    radial-gradient(circle 10px at left var(--seam), #0000 10px, #000 0) left / 50.5% 100% no-repeat,
+    radial-gradient(circle 10px at right var(--seam), #0000 10px, #000 0) right / 50.5% 100% no-repeat;
+}
+
+.ticket-top {
+  position: relative;
+  box-sizing: border-box;
+  height: var(--seam, 150px);
+  background: #F5F3EE;
+  padding: 1.7rem 1.5rem 1rem;
+  text-align: center;
+}
+
+.ticket-bottom {
+  position: relative;
+  text-align: center;
+  border-top: 2px dashed rgba(20, 20, 23, 0.18);
+}
+.ticket-bottom--paypal {
+  background: linear-gradient(158deg, #0079C1 0%, #002E7A 100%);
+  border-top-color: rgba(255, 255, 255, 0.3);
+  padding: 1.5rem 1.5rem 1.7rem;
+}
+.ticket-bottom--yape {
+  background: linear-gradient(158deg, #9B30AD 0%, #5A1568 100%);
+  border-top-color: rgba(255, 255, 255, 0.25);
+  padding: 1.35rem 1.35rem 1.5rem;
+}
+
+.donate-close {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.55rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  color: #46464D;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s var(--ease-spring);
+  z-index: 2;
+}
+.donate-close:hover { background: rgba(20, 20, 23, 0.06); }
+.donate-close:active { transform: scale(0.94); }
+
+.donate-eyebrow {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #46464D;
+}
+.donate-title {
+  font-family: 'Archivo Black', Archivo, sans-serif;
+  font-size: 1.55rem;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-top: 0.35rem;
+}
+.donate-note {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #46464D;
+  margin: 0.5rem auto 0;
+  max-width: 16rem;
+}
+
+.ticket-stamp {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Yape: the official payment card sits on the purple stub. */
+.yape-img {
+  display: block;
+  width: 100%;
+  max-width: 13.5rem;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.6rem;
+}
+
+/* PayPal: bare QR in a white chip + a light action button on the blue stub. */
+.qr-chip {
+  width: fit-content;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 6px 18px rgba(0, 24, 60, 0.35);
+}
+.paypal-img {
+  display: block;
+  width: 10.5rem;
+  height: 10.5rem;
+}
+.paypal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.15rem;
+  padding: 0.7rem 1.4rem;
+  background: #fff;
+  color: #003087;
+  border-radius: 0.5rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: 0 6px 18px rgba(0, 24, 60, 0.3);
+  transition: transform 0.25s var(--ease-spring), box-shadow 0.25s var(--ease-spring);
+}
+.paypal-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(0, 24, 60, 0.4); }
+.paypal-btn:active { transform: translateY(0) scale(0.98); }
+
+.donate-dialog[open] { animation: donate-in 0.28s var(--ease-spring); }
+.donate-dialog[open]::backdrop { animation: donate-backdrop-in 0.28s ease; }
+@keyframes donate-in {
+  from { opacity: 0; transform: translateY(8px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes donate-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .donate-dialog[open], .donate-dialog[open]::backdrop { animation: none; }
+  .donate-close { transition: none; }
+  .paypal-btn { transition: none; }
+}

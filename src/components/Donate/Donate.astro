@@ -1,0 +1,83 @@
+---
+import yapeQr from '../../../assets/yape_donate_qr.jpeg';
+import paypalQr from '../../../assets/pp_donate_qr.png';
+import './donate.css';
+
+const PAYPAL_URL = 'https://www.paypal.com/donate/?hosted_button_id=MH32XPFFVPANS';
+---
+
+<!-- Donate widget -->
+<div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex items-center gap-2">
+  <div class="flex items-center gap-2.5 bg-white/95 backdrop-blur border border-tinta/15 rounded-full pl-4 pr-1.5 py-1.5 shadow-lift">
+    <svg class="w-4 h-4 shrink-0 text-[#742384]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+    </svg>
+    <span class="font-sans font-bold text-sm whitespace-nowrap">Apóyame con un</span>
+    <button type="button" data-open="yape" aria-label="Donar por Yape" title="Yape" class="donate-icon relative block w-9 h-9 rounded-[10px] shadow-chip cursor-pointer border-0 p-0" style="background: radial-gradient(130% 130% at 25% 15%, #9B30AD, #6A1B7A 75%);">
+      <span class="absolute inset-0 flex items-center justify-center font-sans italic font-bold text-white text-[13px]" style="letter-spacing:-0.02em; transform: rotate(-6deg);">yape</span>
+      <span class="absolute -top-1.5 -left-1.5 w-4 h-4 rounded-full bg-[#3DDBD9] text-tinta text-[7.5px] font-sans font-bold flex items-center justify-center" style="border-bottom-right-radius:2px;">S/</span>
+    </button>
+    <button type="button" data-open="paypal" aria-label="Donar por PayPal" title="PayPal" class="donate-icon w-9 h-9 flex items-center justify-center rounded-[10px] cursor-pointer border-0 bg-transparent p-0">
+      <svg viewBox="0 0 26 30" class="w-6 h-7" aria-hidden="true">
+        <text x="1" y="22" font-family="Archivo, sans-serif" font-weight="800" font-style="italic" font-size="24" fill="#003087">P</text>
+        <text x="8" y="26" font-family="Archivo, sans-serif" font-weight="800" font-style="italic" font-size="24" fill="#009CDE" opacity="0.92">P</text>
+      </svg>
+    </button>
+  </div>
+  <button id="share-btn" type="button" aria-label="Compartir esta página" title="Compartir" class="btn-ghost w-11 h-11 rounded-full bg-white/95 backdrop-blur border border-tinta/15 shadow-card flex items-center justify-center">
+    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+      <circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/>
+      <path d="M8.3 10.7l7.4-4.3M8.3 13.3l7.4 4.3"/>
+    </svg>
+  </button>
+  <span id="share-toast" class="pointer-events-none absolute -top-9 right-0 font-mono text-[0.65rem] bg-tinta text-papel px-2.5 py-1 rounded opacity-0 transition-opacity duration-300">Enlace copiado</span>
+</div>
+
+<!-- Yape donation dialog -->
+<dialog id="donate-yape" class="donate-dialog" aria-labelledby="donate-yape-title">
+  <div class="donate-card">
+    <div class="ticket">
+      <div class="ticket-top">
+        <button type="button" data-close aria-label="Cerrar" class="donate-close">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <span class="stamp text-verde ticket-stamp" aria-hidden="true">Gracias</span>
+        <p class="donate-eyebrow">Apóyame · Yape</p>
+        <h2 id="donate-yape-title" class="donate-title">Dona con Yape</h2>
+        <p class="donate-note">Escanea el código con la app de Yape para enviar tu aporte.</p>
+      </div>
+      <div class="ticket-bottom ticket-bottom--yape">
+        <img src={yapeQr.src} width={yapeQr.width} height={yapeQr.height} alt="Código QR de Yape para donar, a nombre de Diego" class="yape-img" loading="lazy" decoding="async" />
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<!-- PayPal donation dialog -->
+<dialog id="donate-paypal" class="donate-dialog" aria-labelledby="donate-paypal-title">
+  <div class="donate-card">
+    <div class="ticket">
+      <div class="ticket-top">
+        <button type="button" data-close aria-label="Cerrar" class="donate-close">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <span class="stamp text-verde ticket-stamp" aria-hidden="true">Gracias</span>
+        <p class="donate-eyebrow">Apóyame · PayPal</p>
+        <h2 id="donate-paypal-title" class="donate-title">Dona con PayPal</h2>
+        <p class="donate-note">Escanea el código o usa el botón para donar por PayPal.</p>
+      </div>
+      <div class="ticket-bottom ticket-bottom--paypal">
+        <div class="qr-chip">
+          <img src={paypalQr.src} width={paypalQr.width} height={paypalQr.height} alt="Código QR de PayPal para donar" class="paypal-img" loading="lazy" decoding="async" />
+        </div>
+        <a href={PAYPAL_URL} target="_blank" rel="noopener noreferrer" class="paypal-btn">Dona usando PayPal →</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script src="./donate.ts"></script>
