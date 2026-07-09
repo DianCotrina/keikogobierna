@@ -9,6 +9,7 @@ import {
   goalStats,
   topicSummaries,
   updatesLog,
+  fulfilledItems,
 } from '../src/lib/plan.mjs';
 import { STATUSES, statusMeta } from '../src/lib/statuses.mjs';
 
@@ -92,6 +93,35 @@ describe('updatesLog', () => {
   test('returns empty array for current tracking data', () => {
     const tracking = loadTracking();
     assert.deepEqual(updatesLog(tracking), []);
+  });
+});
+
+describe('fulfilledItems', () => {
+  test('real tracking data: empty registry, 3 pillars at 0', () => {
+    const result = fulfilledItems(loadPlan(), loadTopics(), loadTracking());
+    assert.equal(result.total, 0);
+    assert.deepEqual(result.items, []);
+    assert.deepEqual(result.byPillar.map((p) => p.count), [0, 0, 0]);
+    assert.equal(result.byPillar[0].name, 'Orden');
+  });
+
+  test('synthetic tracking: includes fulfilled proposals and actions, excludes goals and non-fulfilled', () => {
+    const tracking = {
+      items: {
+        't1-1.P01': { status: 'fulfilled', evidence: [{ date: '2026-09-01', source: 'El Peruano', url: 'https://elperuano.pe/ds-044' }] },
+        't2-1.C01': { status: 'fulfilled', evidence: [{ date: '2026-08-15', source: 'MEF' }] },
+        't1-1.M01': { status: 'fulfilled', evidence: [{ date: '2026-08-15', source: 'INEI' }] },
+        't1-1.P02': { status: 'in_progress', evidence: [] },
+      },
+    };
+    const result = fulfilledItems(loadPlan(), loadTopics(), tracking);
+    assert.equal(result.total, 2);
+    assert.deepEqual(result.items.map((item) => item.id), ['t1-1.P01', 't2-1.C01']);
+    assert.deepEqual(result.byPillar.map((p) => p.count), [1, 1, 0]);
+    assert.equal(result.items[0].topicName, 'Orden ciudadano');
+    assert.equal(result.items[0].topicSlug, 'orden-ciudadano');
+    assert.equal(result.items[0].pillarName, 'Orden');
+    assert.equal(result.items[0].evidence[0].url, 'https://elperuano.pe/ds-044');
   });
 });
 

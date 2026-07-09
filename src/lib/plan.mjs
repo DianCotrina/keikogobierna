@@ -138,3 +138,38 @@ export function firstHundredDaysStats(topics, tracking) {
   }
   return { total, byStatus };
 }
+
+// Certified (fulfilled) proposals and 100-days actions with their evidence,
+// in plan order, for the registro de cumplidas. Goals (.M items) never appear
+// here — they are covered by the headline goal stats.
+export function fulfilledItems(plan, topics, tracking) {
+  const items = [];
+  for (const pillar of plan.pillars) {
+    for (const topicMeta of plan.topics.filter((t) => t.pillar === pillar.id)) {
+      const file = topics.get(topicMeta.id);
+      const entries = [
+        ...file.groups.flatMap((group) => group.proposals),
+        ...file.first_100_days,
+      ];
+      for (const entry of entries) {
+        const tracked = tracking.items?.[entry.id];
+        if (tracked?.status !== 'fulfilled') continue;
+        items.push({
+          id: entry.id,
+          text: entry.text,
+          topicName: topicMeta.name,
+          topicSlug: topicMeta.slug,
+          pillarId: pillar.id,
+          pillarName: pillar.name,
+          evidence: tracked.evidence ?? [],
+        });
+      }
+    }
+  }
+  const byPillar = plan.pillars.map((pillar) => ({
+    id: pillar.id,
+    name: pillar.name,
+    count: items.filter((item) => item.pillarId === pillar.id).length,
+  }));
+  return { total: items.length, byPillar, items };
+}
