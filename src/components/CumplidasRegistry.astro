@@ -1,0 +1,75 @@
+---
+// Self-contained: no assumptions about the hosting page, so it can graduate
+// to a dedicated /cumplidas/ page unchanged.
+import { formatDateEs } from '../lib/format.mjs';
+
+interface Evidence {
+  date: string;
+  source: string;
+  url?: string;
+  note?: string;
+}
+
+interface FulfilledItem {
+  id: string;
+  text: string;
+  topicName: string;
+  topicSlug: string;
+  pillarName: string;
+  evidence: Evidence[];
+}
+
+interface PillarCount {
+  id: string;
+  name: string;
+  count: number;
+}
+
+interface Props {
+  total: number;
+  byPillar: PillarCount[];
+  items: FulfilledItem[];
+}
+
+const { total, byPillar, items } = Astro.props;
+
+const latestDate = (evidence: Evidence[]) =>
+  evidence.map((entry) => entry.date).sort().at(-1);
+---
+
+<div class="bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+  <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-dashed border-tinta/20 pb-4">
+    <p class="font-mono text-[0.65rem] sm:text-xs font-semibold uppercase tracking-[0.14em] text-tintasuave">Registro · Cumplidas</p>
+    <p class="font-mono text-[0.65rem] sm:text-xs text-tintafina">{total} {total === 1 ? 'certificada' : 'certificadas'}</p>
+  </div>
+
+  <div class="mt-5 grid grid-cols-3 gap-2 font-mono text-center">
+    {byPillar.map((pillar) => (
+      <div>
+        <p class:list={['text-xl font-semibold', pillar.count > 0 ? 'text-verde' : 'text-tintafina']}>{pillar.count}</p>
+        <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">{pillar.name}</p>
+      </div>
+    ))}
+  </div>
+
+  {total === 0 ? (
+    <p class="mt-6 border-t border-tinta/10 pt-5 font-mono text-sm text-tintasuave leading-[1.7]">
+      El registro está abierto. Cuando una propuesta se certifique como cumplida, aparecerá aquí con su evidencia.
+    </p>
+  ) : (
+    <ul class="mt-6 border-t border-tinta/10 divide-y divide-tinta/10">
+      {items.map((item) => (
+        <li class="py-3.5 flex items-start gap-3.5">
+          <span aria-hidden="true" class="font-mono text-sm font-semibold text-verde mt-0.5">✓</span>
+          <div class="flex-1">
+            <p class="text-sm leading-[1.7]">{item.text}</p>
+            <p class="mt-1 font-mono text-[0.65rem] text-tintafina">
+              <a href={`/temas/${item.topicSlug}/`} class="nav-link">{item.topicName}</a>
+              {latestDate(item.evidence) && <> · certificada el {formatDateEs(latestDate(item.evidence)!)}</>}
+            </p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  )}
+</div>

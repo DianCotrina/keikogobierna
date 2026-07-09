@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import TrackerCard from '../components/TrackerCard.astro';
 import TopicCard from '../components/TopicCard.astro';
-import { loadPlan, loadGoals, loadTracking, goalStats, topicSummaries, statusOf } from '../lib/plan.mjs';
+import CumplidasRegistry from '../components/CumplidasRegistry.astro';
+import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, topicSummaries, statusOf, fulfilledItems } from '../lib/plan.mjs';
 import { formatDateEs } from '../lib/format.mjs';
 
 const plan = loadPlan();
@@ -26,6 +27,8 @@ const pillarGroups = plan.pillars.map((pillar) => ({
   pillar,
   topics: summaries.filter((topic) => topic.pillar === pillar.id),
 }));
+
+const cumplidas = fulfilledItems(plan, loadTopics(), tracking);
 ---
 
 <Base
@@ -110,6 +113,20 @@ const pillarGroups = plan.pillars.map((pillar) => ({
             <span class="font-sans font-semibold text-papel border-[1.5px] border-papel/40 rounded px-6 py-3 whitespace-nowrap shrink-0 transition-colors group-hover:bg-papel group-hover:text-tinta">Ver la lista →</span>
           </div>
         </a>
+      </div>
+    </section>
+
+    <!-- Registro de cumplidas -->
+    <section id="cumplidas" class="border-t border-tinta/10 bg-white/40 scroll-mt-6">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-14 sm:py-20 grid lg:grid-cols-[0.9fr_1.1fr] gap-10 items-start">
+        <div class="reveal">
+          <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Lo entregado</p>
+          <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">Registro de cumplidas</h2>
+          <p class="mt-4 text-lg leading-[1.7] text-tintasuave">Cada propuesta certificada como cumplida, con la evidencia que lo respalda. Sin evidencia no hay certificación.</p>
+        </div>
+        <div class="reveal">
+          <CumplidasRegistry total={cumplidas.total} byPillar={cumplidas.byPillar} items={cumplidas.items} />
+        </div>
       </div>
     </section>
 
