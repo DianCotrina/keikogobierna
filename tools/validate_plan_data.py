@@ -207,6 +207,26 @@ def validate_goals(index_by_id: dict) -> tuple[int, set]:
     return len(goals), all_goal_ids
 
 
+def validate_evidence_entry(item_id: str, i: int, entry) -> None:
+    where = f"tracking.json: items['{item_id}'].evidence[{i}]"
+    if not isinstance(entry, dict):
+        fail(f"{where} must be an object")
+    for key in ("date", "source"):
+        if key not in entry:
+            fail(f"{where} missing {key}")
+    if not isinstance(entry["date"], str) or not DATE_RE.match(entry["date"]):
+        fail(f"{where}.date must be YYYY-MM-DD, got '{entry.get('date')}'")
+    if not isinstance(entry["source"], str) or not entry["source"].strip():
+        fail(f"{where}.source must be a non-empty string")
+    if "url" in entry and (not isinstance(entry["url"], str) or not entry["url"].startswith("http")):
+        fail(f"{where}.url must be a string starting with http")
+    if "note" in entry and (not isinstance(entry["note"], str) or not entry["note"].strip()):
+        fail(f"{where}.note must be a non-empty string when present")
+    unknown = set(entry) - {"date", "source", "url", "note"}
+    if unknown:
+        fail(f"{where} has unknown keys: {sorted(unknown)}")
+
+
 def validate_tracking(known_ids: set) -> None:
     data = load_json(TRACKING_PATH)
 
@@ -229,6 +249,10 @@ def validate_tracking(known_ids: set) -> None:
             fail(f"tracking.json: items['{item_id}'] has invalid status '{item['status']}'")
         if "evidence" not in item or not isinstance(item["evidence"], list):
             fail(f"tracking.json: items['{item_id}'].evidence must be a list")
+        for i, entry in enumerate(item["evidence"]):
+            validate_evidence_entry(item_id, i, entry)
+        if item["status"] == "fulfilled" and not item["evidence"]:
+            fail(f"tracking.json: items['{item_id}'] is fulfilled but has no evidence — no certification without proof")
 
     for i, entry in enumerate(data["log"]):
         if not isinstance(entry, dict):
