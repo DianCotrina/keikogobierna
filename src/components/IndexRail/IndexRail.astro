@@ -1,0 +1,88 @@
+---
+import './index-rail.css';
+
+interface IndexChild {
+  href: string;
+  label: string;
+}
+
+interface IndexEntry {
+  href: string;
+  label: string;
+  count?: number;
+  children?: IndexChild[];
+}
+
+interface Props {
+  entries: IndexEntry[];
+}
+
+const { entries } = Astro.props;
+---
+
+{/* Desktop margin rail */}
+<nav id="index-rail" class="index-rail" aria-label="Índice flotante">
+  <p class="rail-eyebrow">Índice</p>
+  <ol class="rail-tree">
+    {entries.map((entry, index) => (
+      <li>
+        <a href={entry.href} data-target={entry.href.slice(1)} class="rail-link">
+          <span class="rail-num">{String(index + 1).padStart(2, '0')}</span>
+          <span>{entry.label}</span>
+        </a>
+        {entry.children && entry.children.length > 0 && (
+          <ul class="rail-children">
+            {entry.children.map((child) => (
+              <li>
+                <a href={child.href} data-target={child.href.slice(1)} class="rail-link rail-link--child">{child.label}</a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+{/* Mobile floating chip */}
+<button id="index-rail-chip" type="button" class="index-rail-chip" aria-expanded="false" aria-controls="index-rail-dialog">
+  <svg class="rail-chip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+    <path d="M4 6h16M4 12h10M4 18h13" stroke-linecap="round"/>
+  </svg>
+  Índice
+</button>
+
+{/* Mobile slide-in panel */}
+<dialog id="index-rail-dialog" class="index-rail-dialog" aria-labelledby="index-rail-title">
+  <div class="rail-panel">
+    <div class="rail-panel-head">
+      <p id="index-rail-title" class="rail-eyebrow">Índice · Expediente</p>
+      <button type="button" data-close aria-label="Cerrar" class="rail-close">
+        <svg class="rail-close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <ol class="rail-tree">
+      {entries.map((entry, index) => (
+        <li>
+          <a href={entry.href} data-target={entry.href.slice(1)} class="rail-link">
+            <span class="rail-num">{String(index + 1).padStart(2, '0')}</span>
+            <span>{entry.label}</span>
+          </a>
+          {entry.children && entry.children.length > 0 && (
+            <ul class="rail-children">
+              {entry.children.map((child) => (
+                <li>
+                  <a href={child.href} data-target={child.href.slice(1)} class="rail-link rail-link--child">{child.label}</a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))}
+    </ol>
+  </div>
+</dialog>
+
+<script src="./index-rail.ts"></script>
