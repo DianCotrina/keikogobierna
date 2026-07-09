@@ -1,6 +1,6 @@
 # Architecture
 
-Astro static site (SSG, `output: "static"`): 24 pages (1 landing + 23 topic pages) built ahead of time from JSON data, no client framework, Tailwind v4 via the Vite plugin.
+Astro static site (SSG, `output: "static"`): 25 pages (1 landing + 23 topic pages + a first-100-days page) built ahead of time from JSON data, no client framework, Tailwind v4 via the Vite plugin.
 
 ## Commands
 
@@ -18,7 +18,7 @@ Astro static site (SSG, `output: "static"`): 24 pages (1 landing + 23 topic page
 | Path | Responsibility |
 |---|---|
 | `astro.config.mjs` | Static output, dev/preview port 3000, `@tailwindcss/vite` plugin |
-| `src/lib/plan.mjs` | Build-time data access + aggregates (pure functions, read JSON via static ESM imports — `fs` reads break under the bundler, see the comment in the file): `loadPlan`, `loadTopics`, `loadGoals`, `loadTracking`, `statusOf`, `goalStats`, `topicSummaries`, `updatesLog` |
+| `src/lib/plan.mjs` | Build-time data access + aggregates (pure functions, read JSON via static ESM imports — `fs` reads break under the bundler, see the comment in the file): `loadPlan`, `loadTopics`, `loadGoals`, `loadTracking`, `statusOf`, `goalStats`, `topicSummaries`, `updatesLog`, `firstHundredDays`, `firstHundredDaysStats` |
 | `src/lib/statuses.mjs` | `STATUSES` map (fulfilled/in_progress/no_progress/unfulfilled → Spanish label + color) and `statusMeta()` helper |
 | `src/layouts/Base.astro` | `<head>` (title/description/OG, lang `es-PE`, Google Fonts, `global.css`), header, footer, donate widget, reveal `<script>` |
 | `src/components/Stamp.astro` | Rubber-stamp status chip |
@@ -29,6 +29,7 @@ Astro static site (SSG, `output: "static"`): 24 pages (1 landing + 23 topic page
 | `src/components/Donate.astro` | Donate pill + share button (with its client script) |
 | `src/pages/index.astro` | Landing page |
 | `src/pages/temas/[slug].astro` | 23 static topic pages via `getStaticPaths()` |
+| `src/pages/primeros-100-dias.astro` | Dedicated page: all 67 first-100-days actions grouped by pillar → topic, with a launch-window tally |
 | `src/styles/global.css` | Tailwind v4 `@theme` tokens + ported custom CSS (grain, stamps, pen, reveal, buttons) |
 | `tools/validate_plan_data.py` | WAT tool: validates the `plan/` tree + `tracking.json` |
 
