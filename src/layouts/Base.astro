@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Donate from '../components/Donate/Donate.astro';
+import pkg from '../../package.json';
 
 interface Props {
   title: string;
@@ -69,6 +70,9 @@ const navLinks = [
         <div>
           <p class="font-display text-base lowercase">keiko<span class="text-rojo">gobierna</span></p>
           <p class="mt-2 font-mono text-[0.65rem] text-tintasuave leading-relaxed max-w-md">Proyecto ciudadano independiente. No está afiliado al gobierno ni a ningún partido político.<br>Datos extraídos del plan de gobierno oficial. El seguimiento se actualiza con evidencia pública.</p>
+          <p class="mt-2">
+            <a href="https://github.com/DianCotrina/keikogobierna/releases" target="_blank" rel="noopener noreferrer" class="nav-link font-mono text-[0.65rem] text-tintafina" title="Historial de versiones">v{pkg.version}</a>
+          </p>
         </div>
         <nav class="flex gap-6 font-sans text-sm font-medium" aria-label="Enlaces del pie de página">
           <a href="/#metodologia" class="nav-link">Metodología</a>
