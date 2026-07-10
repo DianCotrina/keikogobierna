@@ -19,7 +19,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Git Workflow
 
 - **One branch per feature.** Start each feature on a fresh branch off the latest `main`. Don't continue new features on a branch whose PR already merged.
-- **Branch names are typed**: `<type>/<short-kebab-name>`, where type is one of `feat/`, `fix/`, `chore/`, `docs/` — mirroring the conventional-commit type of the work (e.g. `feat/index-rail`, `fix/rail-footer-overlap`, `docs/branch-naming`, `chore/update-deps`).
+- **Branch names are typed**: `<type>/<short-kebab-name>`, where type is any valid conventional-commit type — most commonly `feat/`, `fix/`, `docs/`, `refactor/`, `chore/`, `test/`, `ci/` (e.g. `feat/index-rail`, `fix/rail-footer-overlap`, `refactor/donate-module`, `ci/deploy-workflow`). Match the type to the dominant commit type of the work; only `feat` and `fix` (or a `!` breaking change) move the version.
 - **Merges are always rebase-and-merge.** Never create merge commits: locally, rebase the branch onto main and fast-forward; on GitHub PRs, use the "Rebase and merge" button — not "Create a merge commit" or "Squash and merge".
 - **Keep active branches up to date.** While a feature branch is in flight, regularly run `git pull --rebase origin main` on it — at minimum before pushing and before opening or updating a PR. Resolve conflicts during the rebase; never back-merge main into the branch.
 - After rebasing an already-pushed branch, push with `--force-with-lease` (never plain `--force`).
