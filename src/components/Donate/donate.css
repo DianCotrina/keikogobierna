@@ -53,10 +53,13 @@
   border-top-color: rgba(255, 255, 255, 0.3);
   padding: 1.5rem 1.5rem 1.7rem;
 }
+/* The official Yape QR export carries its own purple field (#742284) and
+   branding, so it fills the stub edge-to-edge; the matching background only
+   shows if the max-height guard letterboxes it on short screens. */
 .ticket-bottom--yape {
-  background: linear-gradient(158deg, #9B30AD 0%, #5A1568 100%);
+  background: #742284;
   border-top-color: rgba(255, 255, 255, 0.25);
-  padding: 1.35rem 1.35rem 1.5rem;
+  padding: 0;
 }
 
 .donate-close {
@@ -112,14 +115,13 @@
   z-index: 2;
 }
 
-/* Yape: the official payment card sits on the purple stub. */
 .yape-img {
   display: block;
   width: 100%;
-  max-width: 13.5rem;
   height: auto;
+  max-height: 60vh;
+  object-fit: contain;
   margin: 0 auto;
-  border-radius: 0.6rem;
 }
 
 /* PayPal: bare QR in a white chip + a light action button on the blue stub. */
