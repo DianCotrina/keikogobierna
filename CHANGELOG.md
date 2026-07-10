@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/DianCotrina/keikogobierna/compare/v1.0.0...v1.1.0) (2026-07-10)
+
+
+### Features
+
+* link Plan inmediato section to the 100 días page ([12bfd03](https://github.com/DianCotrina/keikogobierna/commit/12bfd03441149a00ea93c9a6b63c378841f54b8c))
+
 ## 1.0.0 (2026-07-10)
 
 
