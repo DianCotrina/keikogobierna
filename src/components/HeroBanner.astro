@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+import palace from '../../assets/palace_peru.jpg';
+---
+
+{/* Decorative backdrop: the Palacio de Gobierno printed into the papel like an
+    engraving. Overlays keep the headline column and page edges clean. */}
+<div aria-hidden="true" class="absolute inset-0 pointer-events-none select-none">
+  <Image
+    src={palace}
+    alt=""
+    widths={[768, 1280, 1920]}
+    sizes="100vw"
+    class="h-full w-full object-cover opacity-[0.14] sm:opacity-[0.22] mix-blend-multiply"
+    style="filter: grayscale(1) brightness(1.35) contrast(1.25); object-position: center 42%;"
+    loading="eager"
+  />
+  <div class="absolute inset-0 bg-gradient-to-r from-papel via-papel/70 to-papel/20"></div>
+  <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-papel to-transparent"></div>
+</div>
