@@ -16,6 +16,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run validate` — validate `src/data/plan/` + `tracking.json` (`python3 tools/validate_plan_data.py`)
 - Single test: `node --test tests/plan.test.mjs`
 
+## Git Workflow
+
+- **Merges are always rebase-and-merge.** Never create merge commits: locally, rebase the branch onto main and fast-forward; on GitHub PRs, use the "Rebase and merge" button — not "Create a merge commit" or "Squash and merge".
+- **Keep active branches up to date.** While a feature branch is in flight, regularly run `git pull --rebase origin main` on it — at minimum before pushing and before opening or updating a PR. Resolve conflicts during the rebase; never back-merge main into the branch.
+- After rebasing an already-pushed branch, push with `--force-with-lease` (never plain `--force`).
+
 ## Language Policy
 
 - **Development conversation is in English**: chat with the user, code comments, commit messages, workflow docs, and variable/function names.
