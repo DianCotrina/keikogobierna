@@ -1,0 +1,20 @@
+name: evidence-watcher
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # daily ~07:00 Lima
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Discover candidate evidence
+        run: python3 tools/evidence_watcher.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
