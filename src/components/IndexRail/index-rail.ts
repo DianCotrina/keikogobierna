@@ -2,18 +2,34 @@ function initIndexRail() {
   const rail = document.getElementById('index-rail');
   const chip = document.getElementById('index-rail-chip');
   const dialog = document.getElementById('index-rail-dialog') as HTMLDialogElement | null;
-  const sentinel = document.getElementById('indice');
+  const sentinel = document.getElementById('rail-sentinel');
   if (!rail || !chip || !dialog || !sentinel) return;
 
-  // Active once the inline índice has been scrolled past (its bottom is above
-  // the viewport); inactive at page top or while the índice is still visible.
-  const visibility = new IntersectionObserver(([entry]) => {
-    const active = !entry.isIntersecting && entry.boundingClientRect.bottom < 0;
+  // Active once the sentinel (masthead/tally block) has been scrolled past —
+  // but never while the footer is on screen, where the fixed rail would
+  // overlap full-width footer content.
+  let pastSentinel = false;
+  let footerVisible = false;
+
+  const applyVisibility = () => {
+    const active = pastSentinel && !footerVisible;
     rail.classList.toggle('is-active', active);
     chip.classList.toggle('is-active', active);
     if (!active && dialog.open) dialog.close();
-  });
-  visibility.observe(sentinel);
+  };
+
+  new IntersectionObserver(([entry]) => {
+    pastSentinel = !entry.isIntersecting && entry.boundingClientRect.bottom < 0;
+    applyVisibility();
+  }).observe(sentinel);
+
+  const footer = document.querySelector('footer');
+  if (footer) {
+    new IntersectionObserver(([entry]) => {
+      footerVisible = entry.isIntersecting;
+      applyVisibility();
+    }).observe(footer);
+  }
 
   // Scrollspy: a section is "current" while it intersects the top ~35% of the
   // viewport; when several do, the one furthest down the document wins. A
