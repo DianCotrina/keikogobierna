@@ -32,7 +32,7 @@ const navLinks = [
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Archivo+Black&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Archivo+Black&family=Pirata+One&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <noscript>
@@ -48,7 +48,7 @@ const navLinks = [
     <!-- Header -->
     <header class="border-b border-tinta/10">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 flex items-center justify-between py-4">
-        <a href="/" class="font-display text-lg tracking-tight lowercase">keiko<span class="text-rojo">gobierna</span></a>
+        <a href="/" class="font-blackletter text-2xl lowercase">keiko<span class="text-rojo">gobierna</span></a>
         <nav class="hidden md:flex items-center gap-8 font-sans text-sm font-medium" aria-label="Navegación principal">
           {navLinks.map((link) => (
             <a href={link.href} class="nav-link" aria-current={activeNav === link.key ? 'page' : undefined}>{link.label}</a>
@@ -63,7 +63,7 @@ const navLinks = [
     <footer class="border-t border-tinta/10">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
         <div>
-          <p class="font-display text-base lowercase">keiko<span class="text-rojo">gobierna</span></p>
+          <p class="font-blackletter text-xl lowercase">keiko<span class="text-rojo">gobierna</span></p>
           <p class="mt-2 font-mono text-[0.65rem] text-tintasuave leading-relaxed max-w-md">Proyecto ciudadano independiente. No está afiliado al gobierno ni a ningún partido político.<br>Datos extraídos del plan de gobierno oficial. El seguimiento se actualiza con evidencia pública.</p>
         </div>
         <nav class="flex gap-6 font-sans text-sm font-medium" aria-label="Enlaces del pie de página">
