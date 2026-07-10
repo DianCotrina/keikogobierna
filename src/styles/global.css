@@ -15,7 +15,6 @@
   --color-plomo: #6B6F7B;
 
   --font-display: "Archivo Black", Archivo, sans-serif;
-  --font-blackletter: "Pirata One", "Archivo Black", serif;
   --font-sans: Archivo, sans-serif;
   --font-serif: "Source Serif 4", Georgia, serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
@@ -113,6 +112,28 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   transition: right 0.3s var(--ease-spring);
 }
 .nav-link:hover::after { right: 0; }
+
+/* The 100 días nav item is the only page link in the header nav — it gets a
+   chip treatment: generous hit area, rojo accent, fills solid on hover/focus
+   and while on the page (aria-current). */
+.nav-chip {
+  border: 1.5px solid rgba(200, 16, 46, 0.45);
+  color: #C8102E;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.35rem 0.9rem;
+  margin: -0.35rem 0;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.25s var(--ease-spring);
+}
+.nav-chip:hover,
+.nav-chip:focus-visible,
+.nav-chip[aria-current='page'] {
+  background: #C8102E;
+  border-color: #C8102E;
+  color: #F5F3EE;
+}
+.nav-chip:hover { transform: translateY(-1px); }
+.nav-chip:active { transform: scale(0.97); }
 .card-hover:hover { transform: translateY(-4px); box-shadow: 0 2px 4px rgba(20,20,23,0.08), 0 16px 40px rgba(20,20,23,0.14), 0 40px 80px -40px rgba(20,20,23,0.28); }
 .donate-icon:hover { transform: translateY(-2px) scale(1.06); }
 .donate-icon:active { transform: scale(0.96); }
