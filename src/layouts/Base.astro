@@ -66,10 +66,10 @@ const navLinks = [
     <slot />
 
     <footer class="border-t border-tinta/10">
-      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-10 flex flex-col sm:flex-row items-start justify-between gap-10">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-10">
+        <div class="flex flex-col sm:flex-row items-start justify-between gap-10">
         <div class="max-w-md">
           <p class="font-display text-base lowercase">keiko<span class="text-rojo">gobierna</span></p>
-          <p class="mt-2 font-mono text-[0.65rem] text-tintasuave leading-relaxed">Proyecto ciudadano independiente. No está afiliado al gobierno ni a ningún partido político.<br>Datos extraídos del plan de gobierno oficial. El seguimiento se actualiza con evidencia pública.</p>
           <a href="https://www.linkedin.com/in/diancotrina/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn de Diego Cotrina" class="mt-4 inline-flex items-center justify-center w-8 h-8 rounded border-[1.5px] border-tinta/25 text-tintasuave hover:text-tinta hover:border-tinta/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-verde/60">
             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
@@ -100,6 +100,14 @@ const navLinks = [
             </ul>
           </div>
         </nav>
+        </div>
+
+        <p class="mt-10 border-t border-dashed border-tinta/20 pt-6 font-mono text-[0.65rem] text-tintasuave leading-relaxed">Proyecto ciudadano independiente. No está afiliado al gobierno ni a ningún partido político. Datos extraídos del plan de gobierno oficial. El seguimiento se actualiza con evidencia pública.</p>
+
+        <blockquote class="mt-8 text-center">
+          <p class="font-serif italic text-sm leading-[1.7] text-tintasuave max-w-2xl mx-auto">«No es lo que ignoras lo que te mete en problemas, sino lo que crees saber con certeza y que, en realidad, no es cierto.»</p>
+          <cite class="mt-2 block font-mono text-[0.65rem] not-italic text-tintafina">— Mark Twain</cite>
+        </blockquote>
       </div>
     </footer>
 
