@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+
+const title = 'Privacidad — keikogobierna';
+const description = 'Política de privacidad: este sitio no usa cookies, rastreadores ni analítica. Qué datos se recogen y para qué.';
+---
+
+<Base title={title} description={description}>
+  <main>
+    <!-- Masthead -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-10 sm:pt-14">
+      <a href="/" class="nav-link font-mono text-xs text-tintasuave inline-flex items-center gap-2">← Volver al tablero</a>
+      <p class="mt-7 font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Expediente · Datos del visitante</p>
+      <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
+        Privacidad
+        <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+      </h1>
+      <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">La misma regla que aplicamos al gobierno nos la aplicamos a nosotros: sin letra chica.</p>
+    </section>
+
+    <section class="border-t border-tinta/10 bg-white/40">
+      <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16 space-y-6">
+        <div class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+          <h2 class="font-sans font-bold text-lg">Sin cookies ni rastreadores</h2>
+          <p class="mt-2 text-sm leading-[1.7] text-tintasuave">Este sitio es completamente estático. No usa cookies, no incluye rastreadores, no ejecuta analítica y no crea perfiles de visitantes. Puedes leerlo entero sin dejar ningún dato.</p>
+        </div>
+
+        <div class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+          <h2 class="font-sans font-bold text-lg">Alertas por correo</h2>
+          <p class="mt-2 text-sm leading-[1.7] text-tintasuave">Cuando el formulario de alertas esté activo, guardará únicamente tu dirección de correo y la usará solo para avisarte cuando un compromiso cambie de estado. No se comparte con nadie y podrás pedir su eliminación en cualquier momento escribiendo al contacto de abajo.</p>
+        </div>
+
+        <div class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+          <h2 class="font-sans font-bold text-lg">Contacto</h2>
+          <p class="mt-2 text-sm leading-[1.7] text-tintasuave">Para preguntas sobre esta política o sobre los datos del sitio: <a href="mailto:dian.cs183@gmail.com" class="nav-link font-medium">dian.cs183@gmail.com</a></p>
+        </div>
+
+        <p class="font-mono text-xs text-tintafina">Última actualización: 10 de julio de 2026</p>
+      </div>
+    </section>
+  </main>
+</Base>
