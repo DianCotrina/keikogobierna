@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import TrackerCard from '../components/TrackerCard.astro';
 import TopicCard from '../components/TopicCard.astro';
 import CumplidasRegistry from '../components/CumplidasRegistry.astro';
+import HeroBanner from '../components/HeroBanner.astro';
 import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, topicSummaries, statusOf, fulfilledItems } from '../lib/plan.mjs';
 import { formatDateEs } from '../lib/format.mjs';
 
@@ -37,7 +38,9 @@ const cumplidas = fulfilledItems(plan, loadTopics(), tracking);
 >
   <main>
     <!-- Hero -->
-    <section class="mx-auto max-w-6xl px-5 sm:px-8 pt-14 pb-16 sm:pt-20 sm:pb-24 grid lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center">
+    <section class="relative overflow-hidden">
+      <HeroBanner />
+      <div class="relative mx-auto max-w-6xl px-5 sm:px-8 pt-14 pb-16 sm:pt-20 sm:pb-24 grid lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center">
       <div>
         <p class="hero-in d1 font-mono text-xs sm:text-sm text-tintasuave uppercase tracking-[0.18em]">Seguimiento independiente · Plan de gobierno <span class="whitespace-nowrap">2026–2031</span></p>
         <h1 class="hero-in d2 font-display text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-[4.2rem] mt-5" style="letter-spacing:-0.03em">
@@ -66,6 +69,7 @@ const cumplidas = fulfilledItems(plan, loadTopics(), tracking);
           sourcesLine={sourcesLine}
           updatedText={updatedText}
         />
+      </div>
       </div>
     </section>
 
