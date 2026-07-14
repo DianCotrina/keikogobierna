@@ -1,0 +1,57 @@
+{
+  "data": {
+    "results": {
+      "totalHits": 483,
+      "start": 0,
+      "hasNext": true,
+      "paginatedBy": 3,
+      "hits": [
+        {
+          "clasificacion1": "Juzgados de Paz Letrados",
+          "clasificacion2": "Edictos Judiciales",
+          "fechaPublicacion": "20260710",
+          "nombreDispositivo": "",
+          "op": "2532965-1",
+          "paginas": "1",
+          "rubro": "42",
+          "sector": "114",
+          "sumilla": "",
+          "tipoDispositivo": "Juzgados de Paz Letrados",
+          "tipoPublicacion": "BO",
+          "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6WW-OttjaZK9zcVoeA1HDP/*/2532965_1.pdf/PDF",
+          "urlPortada": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/thumbnail/6WW-OttjaZK9zcVoeA1HDP/*/2532965_1_thumb.jpg/JPG"
+        },
+        {
+          "clasificacion1": "Ordenanzas",
+          "clasificacion2": "",
+          "fechaPublicacion": "20260710",
+          "nombreDispositivo": "N° 682-2026-MDB",
+          "op": "2533913-1",
+          "paginas": "5",
+          "rubro": "825",
+          "sector": "1344",
+          "sumilla": "Ordenanza Municipal que aprueba el beneficio tributario denominado “Barranquinos con Cero Deudas Tributarias y No Tributarias en el 2026”",
+          "tipoDispositivo": "Ordenanzas",
+          "tipoPublicacion": "NL",
+          "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EqfAMcwFqB6BGuUah80PD0/*/2533913-1.pdf/PDF",
+          "urlPortada": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/thumbnail/EqfAMcwFqB6BGuUah80PD0/*/2533913-1_thumb.jpg/JPG"
+        },
+        {
+          "clasificacion1": "Ordenanzas",
+          "clasificacion2": "",
+          "fechaPublicacion": "20260710",
+          "nombreDispositivo": "N° 295-2026-MDMM",
+          "op": "2530665-1",
+          "paginas": "2",
+          "rubro": "825",
+          "sector": "1360",
+          "sumilla": "Aprueban condonación del pago de tasas de emisión mecanizada y arbitrios municipales, a favor de diversos predios ocupados por la Policía Nacional del Perú, ubicados en el distrito de Magdalena del Mar",
+          "tipoDispositivo": "Ordenanzas",
+          "tipoPublicacion": "NL",
+          "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EeczRFjaKjhB6NXmzcWjQx/*/2530665-1.pdf/PDF",
+          "urlPortada": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/thumbnail/EeczRFjaKjhB6NXmzcWjQx/*/2530665-1_thumb.jpg/JPG"
+        }
+      ]
+    }
+  }
+}
