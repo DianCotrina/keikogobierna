@@ -1,0 +1,51 @@
+name: elperuano-reader
+
+on:
+  schedule:
+    - cron: '0 13 * * *' # daily ~08:00 Lima, after publication
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: write # push the normas archive branch
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pypdf anthropic
+      - name: Read El Peruano and file candidate issues
+        run: python3 tools/elperuano_reader.py --archive-dir "$RUNNER_TEMP/normas"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }} # judge activates only if this secret exists
+      - name: Push the day's records to the normas-archive branch
+        run: |
+          set -e
+          shopt -s nullglob
+          files=("$RUNNER_TEMP"/normas/*.jsonl)
+          [ ${#files[@]} -gt 0 ] || { echo "no archive files; skipping"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          tmp=$(mktemp -d)
+          if git fetch origin normas-archive 2>/dev/null; then
+            git worktree add "$tmp" origin/normas-archive
+          else
+            git worktree add --detach "$tmp"
+            git -C "$tmp" checkout --orphan normas-archive
+            git -C "$tmp" rm -rf . >/dev/null 2>&1 || true
+          fi
+          mkdir -p "$tmp/normas"
+          cp "$RUNNER_TEMP"/normas/*.jsonl "$tmp/normas/"
+          git -C "$tmp" add normas/
+          if git -C "$tmp" diff --cached --quiet; then
+            echo "no archive changes"
+          else
+            git -C "$tmp" commit -m "chore: archive normas $(date -u +%F)"
+            git -C "$tmp" push origin HEAD:normas-archive
+          fi

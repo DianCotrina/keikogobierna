@@ -276,7 +276,17 @@ _Generado por el lector de El Peruano. Este issue no cambia ningún estado._"""
 
 # ---- Orchestration ------------------------------------------------------------
 
-def run(target: date, dry_run: bool) -> int:
+def write_archive(archive_dir: str, iso_date: str, records: list[dict]) -> None:
+    path = Path(archive_dir)
+    path.mkdir(parents=True, exist_ok=True)
+    out = path / f"{iso_date}.jsonl"
+    with out.open("w", encoding="utf-8") as fh:
+        for record in records:
+            fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+    print(f"Archived {len(records)} records to {out}")
+
+
+def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
     yyyymmdd = target.strftime("%Y%m%d")
     iso_date = target.isoformat()
     keywords = json.loads(KEYWORDS_PATH.read_text())
@@ -288,6 +298,8 @@ def run(target: date, dry_run: bool) -> int:
         return 1
 
     records = fetch_normas(yyyymmdd)
+    if archive_dir:
+        write_archive(archive_dir, iso_date, records)
     matched = [(r, rel) for r in records if (rel := match_record(r, keywords))]
     print(f"{iso_date}: {len(records)} normas, {len(matched)} matched")
 
@@ -327,7 +339,8 @@ def run(target: date, dry_run: bool) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--date", help="YYYY-MM-DD (default: today, UTC)")
-    parser.add_argument("--dry-run", action="store_true", help="print records/matches without writing")
+    parser.add_argument("--dry-run", action="store_true", help="print records/matches without writing issues")
+    parser.add_argument("--archive-dir", help="write the day's records as <dir>/<date>.jsonl")
     args = parser.parse_args()
 
     if args.date:
@@ -335,7 +348,7 @@ def main() -> int:
     else:
         target = datetime.now(timezone.utc).date()
 
-    return run(target, args.dry_run)
+    return run(target, args.dry_run, args.archive_dir)
 
 
 if __name__ == "__main__":
