@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -59,6 +60,12 @@ def gh_request(method: str, path: str, token: str, payload=None):
 def dedup_token(prefix: str, key: str) -> str:
     """Stable title token, e.g. dedup_token('np', 'LEY 31234|2026-07-10') -> 'np-<sha1[:10]>'."""
     return f"{prefix}-" + hashlib.sha1(key.encode()).hexdigest()[:10]
+
+
+def normalize(text: str) -> str:
+    """Lowercase + strip accents (NFKD) — shared matching normalizer."""
+    text = unicodedata.normalize("NFKD", text.lower())
+    return "".join(c for c in text if not unicodedata.combining(c))
 
 
 def issue_exists(token_str: str, repo: str, gh_token: str) -> bool:
