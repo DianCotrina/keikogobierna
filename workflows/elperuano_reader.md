@@ -4,30 +4,30 @@
 
 Read the day's normas published in *El Peruano* (the primary source) and surface any that touch a tracked commitment as GitHub issues for editorial review. The reader never changes a status: `src/data/tracking.json` is only updated by a human through the PR flow.
 
-This complements the [Evidence Watcher](evidence_watcher.md): El Peruano is the primary-source, high-precision stream; Google News is the broad-recall context stream. Both feed the same `evidencia-candidata` queue and share `tools/watcher_keywords.json`.
+This complements the [Evidence Watcher](evidence_watcher.md): El Peruano is the primary-source, high-precision stream; Google News is the broad-recall context stream. Both feed the same `evidencia-candidata` queue and share `tools/scrapers/watcher_keywords.json`.
 
 ## How it works
 
 1. `.github/workflows/elperuano-reader.yml` runs daily (13:00 UTC ≈ 08:00 Lima) or on manual dispatch.
-2. `tools/elperuano_reader.py` runs four stages:
+2. `tools/scrapers/elperuano_reader.py` runs four stages:
    - **Fetch** — GraphQL POST to `https://busquedas.elperuano.pe/api/graphql` (`getGenericPublication`), paginated over the day. Returns structured records `{tipo, numero, sector, sumilla, url_pdf, …}`.
-   - **Keyword prefilter** — each norma's `numero + tipo + sumilla` is matched against the queries in `tools/watcher_keywords.json` (accent/case-insensitive; ≥2 significant terms). A day with zero matches ends at zero cost.
+   - **Keyword prefilter** — each norma's `numero + tipo + sumilla` is matched against the queries in `tools/scrapers/watcher_keywords.json` (accent/case-insensitive; ≥2 significant terms). A day with zero matches ends at zero cost.
    - **Claude judge (optional)** — only if `ANTHROPIC_API_KEY` is set. For each matched norma it fetches the per-norma PDF, extracts the text (`pypdf`), and asks Claude (`claude-opus-4-8`, structured output) which commitments the norma implements/advances/mentions, with a ready-to-paste evidence draft. Without the key, issues are keyword-only.
    - **Issues + archive** — one `evidencia-candidata` issue per surviving candidate (stateless `[np-<sha1>]` dedup token in the title, cap 10/run); the day's full record set is appended to `normas/<date>.jsonl` on the `normas-archive` branch (a growing structured corpus for future analysis — not read by anything yet).
 
 ## Inputs / config
 
-- `tools/watcher_keywords.json` — shared with the news watcher. Tune queries and `related` ids here.
-- `tools/elperuano_reader.py` → `SKIP_TIPOS` — norma types to drop outright (empty by default; add municipal/local types if local noise appears).
+- `tools/scrapers/watcher_keywords.json` — shared with the news watcher. Tune queries and `related` ids here.
+- `tools/scrapers/elperuano_reader.py` → `SKIP_TIPOS` — norma types to drop outright (empty by default; add municipal/local types if local noise appears).
 - Repo secret `ANTHROPIC_API_KEY` — enables the judge (~$1–3/month at current Opus pricing). Absent ⇒ keyword-only, still useful.
 
 ## Local testing
 
 ```bash
-python3 tools/elperuano_reader.py --dry-run                 # today, print records/matches, no writes
-python3 tools/elperuano_reader.py --date 2026-07-10 --dry-run
-ANTHROPIC_API_KEY=... python3 tools/elperuano_reader.py --date 2026-07-10 --dry-run   # exercises the judge
-python3 -m unittest discover -s tools -p "test_*.py"        # deterministic-stage unit tests
+python3 tools/scrapers/elperuano_reader.py --dry-run                 # today, print records/matches, no writes
+python3 tools/scrapers/elperuano_reader.py --date 2026-07-10 --dry-run
+ANTHROPIC_API_KEY=... python3 tools/scrapers/elperuano_reader.py --date 2026-07-10 --dry-run   # exercises the judge
+python3 -m unittest discover -s tools/tests -p "test_*.py"        # deterministic-stage unit tests
 ```
 
 ## Reviewing a candidate issue

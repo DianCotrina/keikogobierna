@@ -7,19 +7,19 @@ Surface candidate evidence that a tracked commitment may have advanced, as GitHu
 ## How it works
 
 1. `.github/workflows/evidence-watcher.yml` runs daily (12:00 UTC ≈ 07:00 Lima) or on manual dispatch.
-2. `tools/evidence_watcher.py` reads `tools/watcher_keywords.json` — an array of `{ "query", "related": [item ids] }`.
+2. `tools/scrapers/evidence_watcher.py` reads `tools/scrapers/watcher_keywords.json` — an array of `{ "query", "related": [item ids] }`.
 3. For each query it fetches Google News RSS scoped to Peru (`hl=es-419&gl=PE`), keeps entries from the last 7 days, and files one issue per new candidate (label `evidencia-candidata`), capped at 5 per run.
 4. Dedup is stateless: each link gets a `[ev-<sha1 prefix>]` token in the issue title; the tool searches existing issues for the token before creating.
 
 ## Inputs
 
-- `tools/watcher_keywords.json` — tune the watcher here. Add queries for commitments entering the news cycle; remove noisy ones. Keep `related` ids accurate (they land in the issue body).
+- `tools/scrapers/watcher_keywords.json` — tune the watcher here. Add queries for commitments entering the news cycle; remove noisy ones. Keep `related` ids accurate (they land in the issue body).
 - Env: `GITHUB_TOKEN` (issues: write), `GITHUB_REPOSITORY`.
 
 ## Local testing
 
 ```bash
-python3 tools/evidence_watcher.py --dry-run   # prints candidates, no GitHub calls
+python3 tools/scrapers/evidence_watcher.py --dry-run   # prints candidates, no GitHub calls
 ```
 
 ## Reviewing a candidate issue

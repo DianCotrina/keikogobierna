@@ -19,7 +19,7 @@ jobs:
           python-version: '3.12'
       - run: pip install pypdf anthropic
       - name: Read El Peruano and file candidate issues
-        run: python3 tools/elperuano_reader.py --archive-dir "$RUNNER_TEMP/normas"
+        run: python3 tools/scrapers/elperuano_reader.py --archive-dir "$RUNNER_TEMP/normas"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

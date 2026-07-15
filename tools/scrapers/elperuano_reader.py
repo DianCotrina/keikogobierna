@@ -12,9 +12,9 @@ per-norma records (tipo, numero, sector, sumilla, urlPDF). This is an unofficial
 interface — if it changes, the run fails loudly and we fix the tool.
 
 Usage:
-  python3 tools/elperuano_reader.py --dry-run            # today, print records/matches, no writes
-  python3 tools/elperuano_reader.py --date 2026-07-10 --dry-run
-  GITHUB_TOKEN=... GITHUB_REPOSITORY=owner/repo python3 tools/elperuano_reader.py
+  python3 tools/scrapers/elperuano_reader.py --dry-run   # today, print records/matches, no writes
+  python3 tools/scrapers/elperuano_reader.py --date 2026-07-10 --dry-run
+  GITHUB_TOKEN=... GITHUB_REPOSITORY=owner/repo python3 tools/scrapers/elperuano_reader.py
   # add ANTHROPIC_API_KEY to enable the Claude judge (evidence drafts in each issue)
 """
 
@@ -37,8 +37,8 @@ from watcher_common import (
     normalize,
 )
 
-ROOT = Path(__file__).resolve().parent.parent
-KEYWORDS_PATH = ROOT / "tools" / "watcher_keywords.json"
+ROOT = Path(__file__).resolve().parent.parent.parent
+KEYWORDS_PATH = Path(__file__).resolve().parent / "watcher_keywords.json"
 TOPICS_DIR = ROOT / "src" / "data" / "plan" / "topics"
 
 GRAPHQL_URL = "https://busquedas.elperuano.pe/api/graphql"

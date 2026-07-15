@@ -7,7 +7,7 @@ from pathlib import Path
 
 VALID_STATUSES = {"fulfilled", "in_progress", "no_progress", "unfulfilled"}
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 PLAN_DIR = ROOT / "src" / "data" / "plan"
 INDEX_PATH = PLAN_DIR / "index.json"
 TOPICS_DIR = PLAN_DIR / "topics"

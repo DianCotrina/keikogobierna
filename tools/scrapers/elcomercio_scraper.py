@@ -11,8 +11,8 @@ Copyright: only title, link, description snippet, author and date are stored —
 never content:encoded (the full article body belongs to El Comercio).
 
 Usage:
-  python3 tools/elcomercio_scraper.py --dry-run           # print matches, no writes
-  python3 tools/elcomercio_scraper.py --data-dir <dir>    # merge into <dir>/*.json
+  python3 tools/scrapers/elcomercio_scraper.py --dry-run           # print matches, no writes
+  python3 tools/scrapers/elcomercio_scraper.py --data-dir <dir>    # merge into <dir>/*.json
 """
 
 from __future__ import annotations

@@ -5,7 +5,7 @@ import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
 import elperuano_reader as er  # noqa: E402
 from watcher_common import dedup_token  # noqa: E402
