@@ -1,0 +1,20 @@
+/* Ultimitas module — skeleton pulse + card entrance. Imported in frontmatter,
+   so these rules are global: every selector stays .ultimitas- prefixed. */
+.ultimitas-skeleton { animation: ultimitas-pulse 1.4s ease-in-out infinite; }
+@keyframes ultimitas-pulse {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+.ultimitas-card { animation: ultimitas-in 0.5s var(--ease-spring) backwards; }
+.ultimitas-card:nth-child(2) { animation-delay: 0.06s; }
+.ultimitas-card:nth-child(3) { animation-delay: 0.12s; }
+.ultimitas-card:nth-child(4) { animation-delay: 0.18s; }
+@keyframes ultimitas-in {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ultimitas-skeleton, .ultimitas-card { animation: none; }
+}
