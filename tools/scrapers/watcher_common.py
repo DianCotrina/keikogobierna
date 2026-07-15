@@ -1,4 +1,4 @@
-"""Shared helpers for the discovery tools (evidence_watcher, elperuano_reader, elcomercio_scraper).
+"""Shared helpers for the discovery tools (evidence_watcher, elperuano_scraper, elcomercio_scraper).
 
 HTTP, RSS-item parsing and GitHub plumbing common to every discovery source;
 each tool keeps only its own filtering and output (issues vs data branch).

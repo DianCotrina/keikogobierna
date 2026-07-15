@@ -3,7 +3,7 @@
 ## Objective
 
 Keep the public `/ultimitas` page fed with El Comercio's coverage of Keiko Fujimori /
-Fuerza Popular. Unlike the evidence watcher and the El Peruano reader (which file
+Fuerza Popular. Unlike the evidence watcher and the El Peruano scraper (which file
 review issues), this pipeline publishes directly to a data branch — it is a news
 listing, not evidence; it never touches `tracking.json` or `main`.
 
