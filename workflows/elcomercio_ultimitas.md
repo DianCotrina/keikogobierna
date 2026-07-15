@@ -46,7 +46,10 @@ python3 -m unittest discover -s tools/tests -p "test_*.py"       # offline unit 
 - The general feed is ~1.5 MB; both feeds parse in memory fine.
 - Live feed `pubDate` values arrive in UTC (+0000) even though the site is Lima-based —
   day bucketing always converts to `America/Lima` before grouping.
-- The branch push uses a `git worktree` on the orphan `ultimitas-data` branch so it
-  never touches `main` (protected by the `protect-main` ruleset).
+- The branch push goes through `tools/ci/publish_data_branch.sh` (shared with the
+  El Peruano archive): a `git worktree` on the orphan `ultimitas-data` branch that
+  never touches `main` (protected by the `protect-main` ruleset) and only commits
+  when the data actually changed — the scraper itself also exits early on a
+  no-news run, so quiet runs produce no commits at all.
 - A scraper failure can never break the site: the page serves the last committed
   `today.json`, and its error state links to El Comercio.

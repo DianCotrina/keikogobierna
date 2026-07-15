@@ -42,4 +42,4 @@ python3 -m unittest discover -s tools/tests -p "test_*.py"        # deterministi
 - `urlPDF` values point at a media proxy (`/api/media/...`); occasionally a norma has no downloadable PDF — the judge falls back to the sumilla and says so.
 - 483 normas on a sample day (2026-07-10), most municipal; the keyword filter is what keeps the queue relevant, so keyword quality matters more than any type allowlist.
 - Issues created by `GITHUB_TOKEN` don't trigger other workflows (GitHub policy) — irrelevant here.
-- The archive push uses a `git worktree` on an orphan `normas-archive` branch so it never touches `main` (which is protected by the `protect-main` ruleset).
+- The archive push goes through `tools/ci/publish_data_branch.sh` (shared with the ultimitas scraper): a `git worktree` on the orphan `normas-archive` branch, so it never touches `main` (which is protected by the `protect-main` ruleset).
