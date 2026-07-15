@@ -1,7 +1,7 @@
 # "Las ultimitas" — El Comercio scraper + today's-news page
 
 **Date:** 2026-07-15
-**Status:** Design approved in conversation (Diego, 2026-07-15); spec review pending
+**Status:** Design + spec approved (Diego, 2026-07-15); implemented in this branch
 
 ## Problem
 
