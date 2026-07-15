@@ -15,7 +15,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 PDF = ROOT / "docs" / "Plan-de-Gobierno-Reforzado_V2.pdf"
 OUT_DIR = ROOT / "src" / "data" / "plan"
 TOPICS_DIR = OUT_DIR / "topics"

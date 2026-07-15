@@ -11,7 +11,7 @@ listing, not evidence; it never touches `tracking.json` or `main`.
 
 1. `.github/workflows/ultimitas-scraper.yml` runs 4×/day (Lima 00:00/06:00/12:00/18:00)
    or on manual dispatch.
-2. `tools/elcomercio_scraper.py` fetches the Arc XP RSS feeds in `FEEDS` (política +
+2. `tools/scrapers/elcomercio_scraper.py` fetches the Arc XP RSS feeds in `FEEDS` (política +
    general), keeps items whose title+description match `KEYWORDS` (accent/case-
    insensitive), and merges them into the `ultimitas-data` branch via a git worktree:
    - `ultimitas.json` — full accumulated history, deduped by canonical URL (tracking
@@ -25,7 +25,7 @@ listing, not evidence; it never touches `tracking.json` or `main`.
 
 ## Tuning
 
-- `KEYWORDS` / `FEEDS` in `tools/elcomercio_scraper.py`. Alberto/Kenji Fujimori
+- `KEYWORDS` / `FEEDS` in `tools/scrapers/elcomercio_scraper.py`. Alberto/Kenji Fujimori
   false positives are accepted at launch; tighten keywords if they annoy.
 - Copyright rule: only title, link, description snippet, author, date. Never store
   or render `content:encoded` (full article body) or hotlink their images.
@@ -33,9 +33,9 @@ listing, not evidence; it never touches `tracking.json` or `main`.
 ## Local testing
 
 ```bash
-python3 tools/elcomercio_scraper.py --dry-run              # live feeds, print matches
-python3 tools/elcomercio_scraper.py --data-dir /tmp/ult    # write both JSON files
-python3 -m unittest discover -s tools -p "test_*.py"       # offline unit tests
+python3 tools/scrapers/elcomercio_scraper.py --dry-run              # live feeds, print matches
+python3 tools/scrapers/elcomercio_scraper.py --data-dir /tmp/ult    # write both JSON files
+python3 -m unittest discover -s tools/tests -p "test_*.py"       # offline unit tests
 ```
 
 ## Known constraints / lessons

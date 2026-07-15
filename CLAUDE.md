@@ -13,7 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run build` — static build to `dist/`
 - `npm run preview` — serve the `dist/` build locally
 - `npm test` — run the data-layer test suite (`node --test tests/**/*.test.mjs`)
-- `npm run validate` — validate `src/data/plan/` + `tracking.json` (`python3 tools/validate_plan_data.py`)
+- `npm run validate` — validate `src/data/plan/` + `tracking.json` (`python3 tools/plan/validate_plan_data.py`)
 - Single test: `node --test tests/plan.test.mjs`
 
 ## Git Workflow
@@ -125,8 +125,8 @@ Stay pragmatic. Stay reliable. Keep learning.
 
 - Pages and components follow the Astro architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): `.astro` layouts in `src/layouts/`, `.astro` components in `src/components/`, `.astro` pages in `src/pages/`. One-off mockups/sketches may still be single files.
 - **Data edits:**
-  - `src/data/tracking.json`: Living state. Edit freely (log progress with date/status/evidence), then run `python3 tools/validate_plan_data.py`.
-  - `src/data/plan/` (topics, index, goals): Curated or auto-extracted from PDF. Do not hand-edit proposals or first-100-days actions in `topics/*.json` — regenerate via `tools/extract_plan_pdf.py` if the PDF changes. Goals (`src/data/plan/goals/goals-2031.json`) are hand-curated; run the validator after any goal edit.
+  - `src/data/tracking.json`: Living state. Edit freely (log progress with date/status/evidence), then run `python3 tools/plan/validate_plan_data.py`.
+  - `src/data/plan/` (topics, index, goals): Curated or auto-extracted from PDF. Do not hand-edit proposals or first-100-days actions in `topics/*.json` — regenerate via `tools/plan/extract_plan_pdf.py` if the PDF changes. Goals (`src/data/plan/goals/goals-2031.json`) are hand-curated; run the validator after any goal edit.
 - Tailwind CSS v4 via `@tailwindcss/vite`; design tokens live in the `@theme` block of [src/styles/global.css](src/styles/global.css)
 - Placeholder images: `https://placehold.co/WIDTHxHEIGHT`
 - Mobile-first responsive

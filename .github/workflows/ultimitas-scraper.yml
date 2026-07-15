@@ -29,7 +29,7 @@ jobs:
             git -C "$tmp" checkout --orphan ultimitas-data
             git -C "$tmp" rm -rf . >/dev/null 2>&1 || true
           fi
-          python3 tools/elcomercio_scraper.py --data-dir "$tmp"
+          python3 tools/scrapers/elcomercio_scraper.py --data-dir "$tmp"
           git -C "$tmp" add -A
           if git -C "$tmp" diff --cached --quiet; then
             echo "no news changes"

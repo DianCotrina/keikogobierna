@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Discover candidate evidence for tracked commitments and file GitHub issues.
 
-Fetches Google News RSS (Peru-scoped) for each query in tools/watcher_keywords.json,
+Fetches Google News RSS (Peru-scoped) for each query in tools/scrapers/watcher_keywords.json,
 keeps recent entries, and opens one issue per new candidate for human review.
 The watcher only suggests: statuses in tracking.json change exclusively through
 the PR flow. Stdlib only. See workflows/evidence_watcher.md.
 
 Usage:
-  python3 tools/evidence_watcher.py --dry-run   # print candidates, no GitHub calls
-  GITHUB_TOKEN=... GITHUB_REPOSITORY=owner/repo python3 tools/evidence_watcher.py
+  python3 tools/scrapers/evidence_watcher.py --dry-run   # print candidates, no GitHub calls
+  GITHUB_TOKEN=... GITHUB_REPOSITORY=owner/repo python3 tools/scrapers/evidence_watcher.py
 """
 
 import argparse
@@ -29,8 +29,7 @@ from watcher_common import (
     issue_exists,
 )
 
-ROOT = Path(__file__).resolve().parent.parent
-KEYWORDS_PATH = ROOT / "tools" / "watcher_keywords.json"
+KEYWORDS_PATH = Path(__file__).resolve().parent / "watcher_keywords.json"
 RSS_URL = "https://news.google.com/rss/search?q={query}&hl=es-419&gl=PE&ceid=PE:es-419"
 MAX_NEW_ISSUES = 5
 MAX_AGE_DAYS = 7
