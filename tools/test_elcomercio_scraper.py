@@ -41,5 +41,19 @@ class ParseFeedTest(unittest.TestCase):
         self.assertEqual(items[4]["summary"], "")
 
 
+class MatchTest(unittest.TestCase):
+    def test_fixture_matches_title_and_description(self):
+        items = ec.parse_feed(FIXTURE)
+        matched = [i for i in items if ec.item_matches(i)]
+        self.assertEqual(len(matched), 4)  # items 1, 2, 4 (dup), 5 — not the Vásquez one
+
+    def test_case_and_accent_insensitive(self):
+        self.assertTrue(ec.item_matches({"title": "El FUJIMORISMO en el Congreso", "summary": ""}))
+        self.assertTrue(ec.item_matches({"title": "Análisis", "summary": "La postura de Fuerza Popular"}))
+
+    def test_unrelated_item_does_not_match(self):
+        self.assertFalse(ec.item_matches({"title": "Temblor en Lima esta madrugada", "summary": "IGP reportó 4.5"}))
+
+
 if __name__ == "__main__":
     unittest.main()
