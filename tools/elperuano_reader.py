@@ -24,11 +24,18 @@ import argparse
 import json
 import os
 import sys
-import unicodedata
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from watcher_common import create_issue, dedup_token, ensure_label, http_get, http_post_json, issue_exists
+from watcher_common import (
+    create_issue,
+    dedup_token,
+    ensure_label,
+    http_get,
+    http_post_json,
+    issue_exists,
+    normalize,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 KEYWORDS_PATH = ROOT / "tools" / "watcher_keywords.json"
@@ -95,11 +102,6 @@ def fetch_normas(yyyymmdd: str) -> list[dict]:
 
 
 # ---- Stage 2: keyword prefilter ----------------------------------------------
-
-def normalize(text: str) -> str:
-    text = unicodedata.normalize("NFKD", text.lower())
-    return "".join(c for c in text if not unicodedata.combining(c))
-
 
 def significant_terms(query: str) -> list[str]:
     return [t for t in normalize(query).split() if len(t) > 3 and t not in STOPWORDS]
