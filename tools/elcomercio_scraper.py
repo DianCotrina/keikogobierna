@@ -74,3 +74,82 @@ def parse_feed(raw: bytes) -> list[dict]:
 def item_matches(item: dict) -> bool:
     haystack = normalize(f"{item['title']} {item['summary']}")
     return any(keyword in haystack for keyword in KEYWORDS)
+
+
+# ---- Stage 3: merge + today selection -------------------------------------------
+
+def merge_history(existing: list[dict], new: list[dict], captured_iso: str) -> list[dict]:
+    by_url = {a["url"]: a for a in existing}
+    for item in new:
+        if item["url"] not in by_url:
+            by_url[item["url"]] = {**item, "captured": captured_iso}
+    return sorted(by_url.values(), key=lambda a: datetime.fromisoformat(a["published"]), reverse=True)
+
+
+def lima_day(published_iso: str) -> str:
+    return datetime.fromisoformat(published_iso).astimezone(LIMA).date().isoformat()
+
+
+def select_today(articles: list[dict]) -> tuple[str, list[dict]]:
+    """Latest Lima-calendar day that has articles — today when there is news today."""
+    if not articles:
+        return "", []
+    latest = max(lima_day(a["published"]) for a in articles)
+    return latest, [a for a in articles if lima_day(a["published"]) == latest]
+
+
+# ---- Orchestration ---------------------------------------------------------------
+
+def run(data_dir: str | None, dry_run: bool) -> int:
+    items: list[dict] = []
+    failed = 0
+    for feed in FEEDS:
+        try:
+            items.extend(parse_feed(http_get(feed, headers={"User-Agent": BROWSER_UA})))
+        except Exception as err:  # one bad feed never kills the run
+            print(f"WARN: feed failed: {feed}: {err}", file=sys.stderr)
+            failed += 1
+    if failed == len(FEEDS):
+        print("ERROR: every feed failed", file=sys.stderr)
+        return 1
+
+    matched = [i for i in items if item_matches(i)]
+    print(f"{len(items)} items fetched, {len(matched)} matched")
+
+    if dry_run:
+        for item in matched:
+            print(f"[{item['published']}] {item['title'][:90]}")
+        print("Dry run complete.")
+        return 0
+
+    data = Path(data_dir)
+    data.mkdir(parents=True, exist_ok=True)
+    history_path = data / "ultimitas.json"
+    existing = json.loads(history_path.read_text())["articles"] if history_path.exists() else []
+    now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    articles = merge_history(existing, matched, now_iso)
+    day, day_articles = select_today(articles)
+
+    history_path.write_text(json.dumps(
+        {"generated": now_iso, "source": SOURCE, "count": len(articles), "articles": articles},
+        ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    (data / "today.json").write_text(json.dumps(
+        {"generated": now_iso, "source": SOURCE, "date": day, "articles": day_articles},
+        ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"History: {len(articles)} articles. today.json: {day} with {len(day_articles)} article(s).")
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--dry-run", action="store_true", help="print matches without writing files")
+    parser.add_argument("--data-dir", help="directory holding ultimitas.json + today.json")
+    args = parser.parse_args()
+    if not args.dry_run and not args.data_dir:
+        parser.error("--data-dir is required unless --dry-run")
+    return run(args.data_dir, args.dry_run)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
