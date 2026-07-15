@@ -67,3 +67,10 @@ def parse_feed(raw: bytes) -> list[dict]:
             "published": published.isoformat(),
         })
     return out
+
+
+# ---- Stage 2: keyword filter ----------------------------------------------------
+
+def item_matches(item: dict) -> bool:
+    haystack = normalize(f"{item['title']} {item['summary']}")
+    return any(keyword in haystack for keyword in KEYWORDS)
