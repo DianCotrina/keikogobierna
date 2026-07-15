@@ -1,3 +1,5 @@
+import { formatDateEs } from '../../lib/format.mjs';
+
 const DATA_URL = 'https://raw.githubusercontent.com/DianCotrina/keikogobierna/ultimitas-data/today.json';
 
 interface Article {
@@ -6,20 +8,13 @@ interface Article {
   summary: string;
   author: string;
   published: string;
-  captured: string;
 }
 
 const LIMA = 'America/Lima';
-const dayFmt = new Intl.DateTimeFormat('es-PE', { day: 'numeric', month: 'long', year: 'numeric', timeZone: LIMA });
 const timeFmt = new Intl.DateTimeFormat('es-PE', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: LIMA });
 
 function limaToday(): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: LIMA }).format(new Date());
-}
-
-function formatDay(isoDay: string): string {
-  // Anchor at Lima noon so the calendar date never shifts across the UTC boundary.
-  return dayFmt.format(new Date(`${isoDay}T12:00:00-05:00`));
 }
 
 // Third-party text: build every node with textContent — never innerHTML.
@@ -72,7 +67,7 @@ async function load(): Promise<void> {
       throw new Error('empty payload');
     }
     const suffix = data.date === limaToday() ? '' : ' · último día con noticias';
-    dateEl.textContent = `Ultimitas del ${formatDay(data.date)}${suffix}`;
+    dateEl.textContent = `Ultimitas del ${formatDateEs(data.date)}${suffix}`;
     list.replaceChildren(...data.articles.map(card));
   } catch (err) {
     console.error('ultimitas:', err);
