@@ -2,8 +2,9 @@
 """Read the day's El Peruano normas (primary source) and file candidate-evidence issues.
 
 Discovery, not certification: every matched norma becomes a GitHub issue for human
-review; statuses in tracking.json change only through the PR flow. Four stages —
-fetch (GraphQL) -> keyword prefilter -> optional Claude judge -> issues + archive.
+review; statuses in tracking.json change only through the PR flow. Three stages —
+fetch (GraphQL) -> keyword prefilter -> issues (with a text excerpt) + archive.
+No AI anywhere: reviewing a candidate is a human job, by design.
 See workflows/elperuano_scraper.md.
 
 Reconnaissance (2026-07-12, extended 2026-07-15): busquedas.elperuano.pe exposes
@@ -17,7 +18,6 @@ Usage:
   python3 tools/scrapers/elperuano_scraper.py --dry-run   # today, print records/matches, no writes
   python3 tools/scrapers/elperuano_scraper.py --date 2026-07-10 --dry-run
   GITHUB_TOKEN=... GITHUB_REPOSITORY=owner/repo python3 tools/scrapers/elperuano_scraper.py
-  # add ANTHROPIC_API_KEY to enable the Claude judge (evidence drafts in each issue)
 """
 
 from __future__ import annotations
@@ -42,9 +42,7 @@ from watcher_common import (
     normalize,
 )
 
-ROOT = Path(__file__).resolve().parent.parent.parent
 KEYWORDS_PATH = Path(__file__).resolve().parent / "watcher_keywords.json"
-TOPICS_DIR = ROOT / "src" / "data" / "plan" / "topics"
 
 GRAPHQL_URL = "https://busquedas.elperuano.pe/api/graphql"
 GRAPHQL_QUERY = """query Generic($fechaIni: String, $fechaFin: String, $paginatedBy: Int, $start: Int) {
@@ -56,7 +54,7 @@ GRAPHQL_QUERY = """query Generic($fechaIni: String, $fechaFin: String, $paginate
 VISOR_HTML_URL = "https://busquedas.elperuano.pe/api/visor_html/{op}"
 PAGE_SIZE = 100
 MAX_NEW_ISSUES = 10
-MODEL = "claude-opus-4-8"
+EXCERPT_CHARS = 1200  # norma-text excerpt embedded in each issue for review
 
 # Tunable noise gate: norma types to skip outright (municipal/local acts rarely
 # touch national commitments). Empty by default — the keyword filter is the real
@@ -128,20 +126,7 @@ def match_record(record: dict, keywords: list[dict]) -> list[str]:
     return sorted(set(related))
 
 
-# ---- Stage 3: Claude judge (optional) ----------------------------------------
-
-def load_commitments() -> dict[str, str]:
-    """id -> full text, across all topic files (proposals + first-100-days actions)."""
-    out: dict[str, str] = {}
-    for path in sorted(TOPICS_DIR.glob("*.json")):
-        topic = json.loads(path.read_text())
-        for group in topic.get("groups", []):
-            for prop in group.get("proposals", []):
-                out[prop["id"]] = prop["text"]
-        for action in topic.get("first_100_days", []):
-            out[action["id"]] = action["text"]
-    return out
-
+# ---- Stage 3: norma text (for the issue excerpt) ------------------------------
 
 def html_to_text(raw: bytes) -> str:
     """Plain text from an /api/visor_html rendition (stdlib only).
@@ -171,7 +156,7 @@ def norma_text(record: dict) -> str:
     if not record["url_pdf"]:
         return record["sumilla"]
     try:
-        from pypdf import PdfReader  # judge-stage-only dependency
+        from pypdf import PdfReader  # only needed when a norma lacks an HTML rendition
         from io import BytesIO
         raw = http_get(record["url_pdf"])
         reader = PdfReader(BytesIO(raw))
@@ -182,117 +167,40 @@ def norma_text(record: dict) -> str:
         return record["sumilla"]
 
 
-JUDGE_SCHEMA = {
-    "type": "json_schema",
-    "schema": {
-        "type": "object",
-        "properties": {
-            "evaluations": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "commitment_id": {"type": "string"},
-                        "relation": {"type": "string", "enum": ["implements", "advances", "mentions", "unrelated"]},
-                        "confidence": {"type": "number"},
-                        "rationale": {"type": "string"},
-                        "evidence_note": {"type": "string"},
-                    },
-                    "required": ["commitment_id", "relation", "confidence", "rationale", "evidence_note"],
-                    "additionalProperties": False,
-                },
-            }
-        },
-        "required": ["evaluations"],
-        "additionalProperties": False,
-    },
-}
-
-
-def judge(record: dict, related: list[str], commitments: dict[str, str]) -> list[dict] | None:
-    """Ask Claude which commitments this norma affects. None => judge unavailable/failed."""
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        return None
-
-    listed = "\n".join(f"- {cid}: {commitments.get(cid, '(texto no encontrado)')}" for cid in related)
-    prompt = f"""Eres analista de seguimiento del plan de gobierno peruano. Evalúa si esta norma
-publicada en El Peruano guarda relación con alguno de los compromisos listados.
-
-NORMA
-Tipo: {record['tipo']}
-Número: {record['numero']}
-Sector: {record['sector']}
-Sumilla: {record['sumilla']}
-Texto:
-{norma_text(record)}
-
-COMPROMISOS A EVALUAR
-{listed}
-
-Para cada compromiso, indica la relación: "implements" (la norma lo cumple total o
-sustancialmente), "advances" (avanza pero no lo completa), "mentions" (lo toca
-tangencialmente) o "unrelated". Da una confianza de 0 a 1, una justificación breve, y
-una nota de evidencia lista para citar (qué prueba y por qué). Responde solo el JSON."""
-
-    try:
-        client = Anthropic()
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=8000,
-            thinking={"type": "adaptive"},
-            output_config={"format": JUDGE_SCHEMA},
-            messages=[{"role": "user", "content": prompt}],
-        )
-        if resp.stop_reason == "refusal":
-            print(f"WARN: judge refused for {record['numero']}", file=sys.stderr)
-            return None
-        text = "".join(b.text for b in resp.content if b.type == "text")
-        evaluations = json.loads(text).get("evaluations", [])
-        return [e for e in evaluations if e.get("relation") != "unrelated"]
-    except Exception as err:  # noqa: BLE001 - fall back to a keyword-only issue
-        print(f"WARN: judge failed for {record['numero']}: {err}", file=sys.stderr)
-        return None
-
-
 # ---- Stage 4: issue body ------------------------------------------------------
 
-def issue_body(record: dict, related: list[str], verdicts: list[dict] | None, iso_date: str) -> str:
+def issue_body(record: dict, related: list[str], iso_date: str, excerpt: str) -> str:
     related_lines = "\n".join(f"- `{cid}`" for cid in related) or "- (sin ids asociados)"
-    header = f"""**Norma:** {record['tipo']} {record['numero']}
+    evidence = {
+        "date": iso_date,
+        "source": f"El Peruano — {record['tipo']} {record['numero']}".strip(),
+        "url": record["url_pdf"] or "https://busquedas.elperuano.pe/",
+        "note": "",
+    }
+
+    excerpt_section = ""
+    if excerpt and excerpt != record["sumilla"]:
+        excerpt_section = f"""
+
+<details>
+<summary>Texto de la norma (extracto)</summary>
+
+> {excerpt}
+
+</details>"""
+
+    return f"""**Norma:** {record['tipo']} {record['numero']}
 **Sector:** {record['sector']}
 **Publicado:** {iso_date} · [El Peruano]({record['url_pdf'] or 'https://busquedas.elperuano.pe/'})
 **Sumilla:** {record['sumilla'] or '(sin sumilla)'}
 
 **Compromisos posiblemente relacionados:**
-{related_lines}
-"""
+{related_lines}{excerpt_section}
 
-    if verdicts:
-        blocks = []
-        for v in verdicts:
-            cid = v["commitment_id"]
-            evidence = {
-                "date": iso_date,
-                "source": f"El Peruano — {record['tipo']} {record['numero']}".strip(),
-                "url": record["url_pdf"] or "https://busquedas.elperuano.pe/",
-                "note": v.get("evidence_note", ""),
-            }
-            blocks.append(
-                f"""### `{cid}` — {v['relation']} (confianza {v.get('confidence', '?')})
-{v.get('rationale', '')}
-
-Evidencia lista para pegar en `src/data/tracking.json` (bajo `items["{cid}"].evidence`):
+Evidencia lista para completar en `src/data/tracking.json` (falta la `note`):
 ```json
 {json.dumps(evidence, ensure_ascii=False, indent=2)}
-```"""
-            )
-        judge_section = "\n\n---\n\n**Análisis (Claude):**\n\n" + "\n\n".join(blocks)
-    else:
-        judge_section = "\n\n_Sin análisis automático — revisar manualmente contra los compromisos listados._"
-
-    checklist = """
+```
 
 ---
 
@@ -301,9 +209,7 @@ Evidencia lista para pegar en `src/data/tracking.json` (bajo `items["{cid}"].evi
 - [ ] Actualizar `src/data/tracking.json` (estado + evidencia + log) vía PR
 - [ ] Cerrar este issue enlazando el PR o explicando el descarte
 
-_Generado por el lector de El Peruano. Este issue no cambia ningún estado._"""
-
-    return header + judge_section + checklist
+_Generado por el scraper de El Peruano. Este issue no cambia ningún estado._"""
 
 
 # ---- Orchestration ------------------------------------------------------------
@@ -339,19 +245,15 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
         print("No matches; nothing to file.")
         return 0
 
-    judge_enabled = bool(os.environ.get("ANTHROPIC_API_KEY"))
-    commitments = load_commitments() if judge_enabled else {}
     if not dry_run:
         ensure_label(repo, gh_token)
 
     created = 0
     for record, related in matched:
         token_str = dedup_token("np", f"{record['tipo']}|{record['numero']}|{iso_date}")
-        verdicts = judge(record, related, commitments) if judge_enabled else None
 
         if dry_run:
-            tag = f"judge={len(verdicts)}" if verdicts is not None else "keyword-only"
-            print(f"[{token_str}] {record['tipo']} {record['numero']} ({tag}) — {record['sumilla'][:70]}")
+            print(f"[{token_str}] {record['tipo']} {record['numero']} — {record['sumilla'][:70]}")
             continue
 
         if created >= MAX_NEW_ISSUES:
@@ -359,8 +261,9 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
             break
         if issue_exists(token_str, repo, gh_token):
             continue
+        excerpt = " ".join(norma_text(record).split())[:EXCERPT_CHARS]
         title = f"Norma candidata: {record['tipo']} {record['numero']} [{token_str}]"[:250]
-        issue = create_issue(repo, gh_token, title, issue_body(record, related, verdicts, iso_date))
+        issue = create_issue(repo, gh_token, title, issue_body(record, related, iso_date, excerpt))
         created += 1
         print(f"Created issue #{issue['number']}: {record['tipo']} {record['numero']}")
 
