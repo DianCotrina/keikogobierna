@@ -1,0 +1,39 @@
+name: ultimitas-scraper
+
+on:
+  schedule:
+    - cron: '0 5,11,17,23 * * *' # Lima 00:00 / 06:00 / 12:00 / 18:00 — a today's-news page needs intraday runs
+  workflow_dispatch:
+
+permissions:
+  contents: write # push the ultimitas-data branch
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scrape El Comercio and update the ultimitas-data branch
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          tmp=$(mktemp -d)
+          if git fetch origin ultimitas-data 2>/dev/null; then
+            git worktree add "$tmp" origin/ultimitas-data
+          else
+            git worktree add --detach "$tmp"
+            git -C "$tmp" checkout --orphan ultimitas-data
+            git -C "$tmp" rm -rf . >/dev/null 2>&1 || true
+          fi
+          python3 tools/elcomercio_scraper.py --data-dir "$tmp"
+          git -C "$tmp" add -A
+          if git -C "$tmp" diff --cached --quiet; then
+            echo "no news changes"
+          else
+            git -C "$tmp" commit -m "chore: ultimitas $(date -u +'%F %H:%MZ')"
+            git -C "$tmp" push origin HEAD:ultimitas-data
+          fi
