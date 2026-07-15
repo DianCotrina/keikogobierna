@@ -21,13 +21,11 @@ import argparse
 import json
 import sys
 import urllib.parse
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from watcher_common import http_get, normalize
+from watcher_common import http_get, normalize, parse_rss_items
 
 SOURCE = "El Comercio"
 FEEDS = [
@@ -37,7 +35,6 @@ FEEDS = [
 BROWSER_UA = "Mozilla/5.0 (compatible; keikogobierna-ultimitas; +https://github.com/DianCotrina/keikogobierna)"
 KEYWORDS = ["keiko fujimori", "keiko", "fuerza popular", "fujimorismo"]
 LIMA = ZoneInfo("America/Lima")
-NS = {"dc": "http://purl.org/dc/elements/1.1/"}
 
 
 # ---- Stage 1: fetch + parse ----------------------------------------------------
@@ -49,24 +46,13 @@ def canonical_url(url: str) -> str:
 
 
 def parse_feed(raw: bytes) -> list[dict]:
-    out: list[dict] = []
-    for item in ET.fromstring(raw).iter("item"):
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        try:
-            published = parsedate_to_datetime(item.findtext("pubDate") or "")
-        except (TypeError, ValueError):
-            continue
-        if not title or not link:
-            continue
-        out.append({
-            "title": title,
-            "url": canonical_url(link),
-            "summary": (item.findtext("description") or "").strip(),
-            "author": (item.findtext("dc:creator", default="", namespaces=NS) or "").strip(),
-            "published": published.isoformat(),
-        })
-    return out
+    return [{
+        "title": rec["title"],
+        "url": canonical_url(rec["link"]),
+        "summary": rec["summary"],
+        "author": rec["author"],
+        "published": rec["published"].isoformat(),
+    } for rec in parse_rss_items(raw)]
 
 
 # ---- Stage 2: keyword filter ----------------------------------------------------
@@ -94,8 +80,9 @@ def select_today(articles: list[dict]) -> tuple[str, list[dict]]:
     """Latest Lima-calendar day that has articles — today when there is news today."""
     if not articles:
         return "", []
-    latest = max(lima_day(a["published"]) for a in articles)
-    return latest, [a for a in articles if lima_day(a["published"]) == latest]
+    days = [(lima_day(a["published"]), a) for a in articles]
+    latest = max(day for day, _ in days)
+    return latest, [a for day, a in days if day == latest]
 
 
 # ---- Orchestration ---------------------------------------------------------------
@@ -113,8 +100,11 @@ def run(data_dir: str | None, dry_run: bool) -> int:
         print("ERROR: every feed failed", file=sys.stderr)
         return 1
 
-    matched = [i for i in items if item_matches(i)]
-    print(f"{len(items)} items fetched, {len(matched)} matched")
+    unique: dict[str, dict] = {}
+    for item in items:
+        unique.setdefault(item["url"], item)
+    matched = [i for i in unique.values() if item_matches(i)]
+    print(f"{len(items)} items fetched ({len(unique)} unique), {len(matched)} matched")
 
     if dry_run:
         for item in matched:
@@ -129,10 +119,13 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     articles = merge_history(existing, matched, now_iso)
+    if articles == existing and (data / "today.json").exists():
+        print("No new articles; data unchanged.")
+        return 0
     day, day_articles = select_today(articles)
 
     history_path.write_text(json.dumps(
-        {"generated": now_iso, "source": SOURCE, "count": len(articles), "articles": articles},
+        {"generated": now_iso, "source": SOURCE, "articles": articles},
         ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (data / "today.json").write_text(json.dumps(
         {"generated": now_iso, "source": SOURCE, "date": day, "articles": day_articles},

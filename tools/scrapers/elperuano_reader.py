@@ -28,6 +28,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from watcher_common import (
+    DEFAULT_REPO,
     create_issue,
     dedup_token,
     ensure_label,
@@ -293,7 +294,7 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
     iso_date = target.isoformat()
     keywords = json.loads(KEYWORDS_PATH.read_text())
 
-    repo = os.environ.get("GITHUB_REPOSITORY", "DianCotrina/keikogobierna")
+    repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
     gh_token = os.environ.get("GITHUB_TOKEN", "")
     if not dry_run and not gh_token:
         print("ERROR: GITHUB_TOKEN required unless --dry-run", file=sys.stderr)

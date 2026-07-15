@@ -1,8 +1,7 @@
-"""Shared helpers for the evidence discovery tools (evidence_watcher, elperuano_reader).
+"""Shared helpers for the discovery tools (evidence_watcher, elperuano_reader, elcomercio_scraper).
 
-HTTP + GitHub-issue plumbing common to every discovery source. Both tools file
-'evidencia-candidata' issues for human review with a stateless dedup token in
-the title; the discovery half (RSS vs GraphQL) differs, this half does not.
+HTTP, RSS-item parsing and GitHub plumbing common to every discovery source;
+each tool keeps only its own filtering and output (issues vs data branch).
 Stdlib only.
 """
 
@@ -14,8 +13,12 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 
 API = "https://api.github.com"
+DEFAULT_REPO = "DianCotrina/keikogobierna"
+RSS_NS = {"dc": "http://purl.org/dc/elements/1.1/"}
 LABEL = "evidencia-candidata"
 LABEL_COLOR = "1F7A4D"
 TIMEOUT = 20
@@ -66,6 +69,32 @@ def normalize(text: str) -> str:
     """Lowercase + strip accents (NFKD) — shared matching normalizer."""
     text = unicodedata.normalize("NFKD", text.lower())
     return "".join(c for c in text if not unicodedata.combining(c))
+
+
+def parse_rss_items(raw: bytes) -> list[dict]:
+    """RSS bytes -> [{title, link, summary, author, published(datetime)}].
+
+    Items missing a title, link or parseable pubDate are skipped. Callers keep
+    their own filtering (keywords, age cutoff) and output mapping.
+    """
+    out: list[dict] = []
+    for item in ET.fromstring(raw).iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        try:
+            published = parsedate_to_datetime(item.findtext("pubDate") or "")
+        except (TypeError, ValueError):
+            continue
+        if not title or not link:
+            continue
+        out.append({
+            "title": title,
+            "link": link,
+            "summary": (item.findtext("description") or "").strip(),
+            "author": (item.findtext("dc:creator", default="", namespaces=RSS_NS) or "").strip(),
+            "published": published,
+        })
+    return out
 
 
 def issue_exists(token_str: str, repo: str, gh_token: str) -> bool:

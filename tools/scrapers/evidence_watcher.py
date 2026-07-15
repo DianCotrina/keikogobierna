@@ -16,17 +16,17 @@ import json
 import os
 import sys
 import urllib.parse
-import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 from watcher_common import (
+    DEFAULT_REPO,
     create_issue,
     dedup_token,
     ensure_label,
     http_get,
     issue_exists,
+    parse_rss_items,
 )
 
 KEYWORDS_PATH = Path(__file__).resolve().parent / "watcher_keywords.json"
@@ -37,22 +37,12 @@ MAX_AGE_DAYS = 7
 
 def fetch_candidates(query: str):
     url = RSS_URL.format(query=urllib.parse.quote(query))
-    root = ET.fromstring(http_get(url))
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
-    out = []
-    for item in root.iter("item"):
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        pub_raw = item.findtext("pubDate") or ""
-        if not title or not link:
-            continue
-        try:
-            published = parsedate_to_datetime(pub_raw)
-        except (TypeError, ValueError):
-            continue
-        if published >= cutoff:
-            out.append({"title": title, "link": link, "published": published})
-    return out
+    return [
+        {"title": rec["title"], "link": rec["link"], "published": rec["published"]}
+        for rec in parse_rss_items(http_get(url))
+        if rec["published"] >= cutoff
+    ]
 
 
 def issue_body(cand: dict, query: str, related: list) -> str:
@@ -81,7 +71,7 @@ def main() -> int:
     args = parser.parse_args()
 
     keywords = json.loads(KEYWORDS_PATH.read_text())
-    repo = os.environ.get("GITHUB_REPOSITORY", "DianCotrina/keikogobierna")
+    repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
     gh_token = os.environ.get("GITHUB_TOKEN", "")
     if not args.dry_run and not gh_token:
         print("ERROR: GITHUB_TOKEN required unless --dry-run", file=sys.stderr)

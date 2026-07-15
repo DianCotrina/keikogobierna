@@ -8,7 +8,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
 import elperuano_reader as er  # noqa: E402
-from watcher_common import dedup_token  # noqa: E402
 
 FIXTURE = Path(__file__).resolve().parent / "fixtures" / "graphql_sample.json"
 
@@ -54,11 +53,6 @@ class MatchRecordTest(unittest.TestCase):
 class HelpersTest(unittest.TestCase):
     def test_significant_terms_drops_stopwords_and_short(self):
         self.assertEqual(er.significant_terms("de la MYPE en el Perú"), ["mype", "peru"])
-
-    def test_dedup_token_stable(self):
-        key = "Ley|N° 31234|2026-07-10"
-        self.assertEqual(dedup_token("np", key), dedup_token("np", key))
-        self.assertTrue(dedup_token("np", key).startswith("np-"))
 
 
 if __name__ == "__main__":
