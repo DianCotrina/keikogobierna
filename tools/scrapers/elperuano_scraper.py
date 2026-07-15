@@ -6,10 +6,12 @@ review; statuses in tracking.json change only through the PR flow. Four stages �
 fetch (GraphQL) -> keyword prefilter -> optional Claude judge -> issues + archive.
 See workflows/elperuano_scraper.md.
 
-Reconnaissance (2026-07-12): busquedas.elperuano.pe exposes an unauthenticated
-GraphQL API at /api/graphql. Query getGenericPublication returns structured
-per-norma records (tipo, numero, sector, sumilla, urlPDF). This is an unofficial
-interface — if it changes, the run fails loudly and we fix the tool.
+Reconnaissance (2026-07-12, extended 2026-07-15): busquedas.elperuano.pe exposes
+an unauthenticated GraphQL API at /api/graphql. Query getGenericPublication
+returns structured per-norma records (tipo, numero, sector, sumilla, urlPDF, op),
+and /api/visor_html/<op> serves the norma's full text as clean single-norma HTML
+(~13KB vs ~400KB for the page-scoped PDF). Both are unofficial interfaces — if
+they change, the run fails loudly and we fix the tool.
 
 Usage:
   python3 tools/scrapers/elperuano_scraper.py --dry-run   # today, print records/matches, no writes
@@ -21,8 +23,10 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
+import re
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -46,9 +50,10 @@ GRAPHQL_URL = "https://busquedas.elperuano.pe/api/graphql"
 GRAPHQL_QUERY = """query Generic($fechaIni: String, $fechaFin: String, $paginatedBy: Int, $start: Int) {
   results: getGenericPublication(fechaIni: $fechaIni, fechaFin: $fechaFin, paginatedBy: $paginatedBy, start: $start) {
     totalHits start hasNext paginatedBy
-    hits { fechaPublicacion nombreDispositivo tipoDispositivo sector rubro sumilla urlPDF urlPortada }
+    hits { fechaPublicacion nombreDispositivo tipoDispositivo sector rubro sumilla urlPDF urlPortada op }
   }
 }"""
+VISOR_HTML_URL = "https://busquedas.elperuano.pe/api/visor_html/{op}"
 PAGE_SIZE = 100
 MAX_NEW_ISSUES = 10
 MODEL = "claude-opus-4-8"
@@ -75,6 +80,7 @@ def map_hit(hit: dict) -> dict:
         "sumilla": (hit.get("sumilla") or "").strip(),
         "url_pdf": (hit.get("urlPDF") or "").strip(),
         "fecha": (hit.get("fechaPublicacion") or "").strip(),
+        "op": (hit.get("op") or "").strip(),
     }
 
 
@@ -137,8 +143,31 @@ def load_commitments() -> dict[str, str]:
     return out
 
 
+def html_to_text(raw: bytes) -> str:
+    """Plain text from an /api/visor_html rendition (stdlib only).
+
+    The <head> goes too: the visor's <title> carries an unrelated norma's name.
+    """
+    text = re.sub(r"<head\b.*?</head>", " ", raw.decode("utf-8", "replace"), flags=re.S | re.I)
+    text = re.sub(r"<(script|style)\b.*?</\1>", " ", text, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return re.sub(r"\s+", " ", html.unescape(text)).strip()
+
+
 def norma_text(record: dict) -> str:
-    """Full norma text from its PDF; falls back to the sumilla when extraction fails."""
+    """Full norma text: HTML rendition first, then the page PDF, then the sumilla.
+
+    The visor_html rendition is single-norma and ~30x lighter than the PDF, which
+    is page-scoped (bleeds into neighboring normas) and needs pypdf. Not every
+    norma has an HTML rendition, hence the chain.
+    """
+    if record.get("op"):
+        try:
+            text = html_to_text(http_get(VISOR_HTML_URL.format(op=record["op"])))
+            if len(text) > len(record["sumilla"]):
+                return text[:15000]
+        except Exception as err:  # noqa: BLE001 - fall through to the PDF
+            print(f"WARN: visor_html failed for {record['numero']}: {err}", file=sys.stderr)
     if not record["url_pdf"]:
         return record["sumilla"]
     try:

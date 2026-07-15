@@ -19,8 +19,9 @@ class ParseResultsTest(unittest.TestCase):
         self.assertEqual(len(records), len(payload["data"]["results"]["hits"]))
         self.assertTrue(has_next)  # fixture captured with paginatedBy < totalHits
         first = records[0]
-        self.assertEqual(set(first), {"tipo", "numero", "sector", "rubro", "sumilla", "url_pdf", "fecha"})
+        self.assertEqual(set(first), {"tipo", "numero", "sector", "rubro", "sumilla", "url_pdf", "fecha", "op"})
         self.assertTrue(all(isinstance(v, str) for v in first.values()))
+        self.assertRegex(first["op"], r"^\d+-\d+$")  # visor_html/dispositivo id
 
     def test_empty_payload_is_safe(self):
         records, has_next = er.parse_results({})
@@ -53,6 +54,22 @@ class MatchRecordTest(unittest.TestCase):
 class HelpersTest(unittest.TestCase):
     def test_significant_terms_drops_stopwords_and_short(self):
         self.assertEqual(er.significant_terms("de la MYPE en el Perú"), ["mype", "peru"])
+
+
+class HtmlToTextTest(unittest.TestCase):
+    """Against the captured real /api/visor_html rendition of R. Leg. N° 32726."""
+
+    VISOR_FIXTURE = Path(__file__).resolve().parent / "fixtures" / "visor_html_2535114-1.html"
+
+    def test_extracts_full_single_norma_body(self):
+        text = er.html_to_text(self.VISOR_FIXTURE.read_bytes())
+        self.assertIn("Southern Vanguard", text)   # body, not just metadata
+        self.assertIn("Artículo 1", text)
+        self.assertIn("32726", text)
+        self.assertNotIn("32727", text)            # no bleed into the neighboring norma
+        self.assertNotIn("Texto Integrado del Reglamento", text)  # <head> title noise stripped
+        self.assertNotIn("<", text)                # tags stripped
+        self.assertGreater(len(text), 3000)
 
 
 if __name__ == "__main__":
