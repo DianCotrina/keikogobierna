@@ -80,9 +80,11 @@ class MatcherTest(unittest.TestCase):
 
 
 class RealIndexTest(unittest.TestCase):
-    def test_loads_committed_index(self):
+    def test_committed_index_matches_a_distinctive_phrase(self):
         mt = m.load_matcher()  # the real committed index + overlay
-        self.assertTrue(all(cid.count(".") == 1 for cid in mt.match("unidades de flagrancia")) or True)
+        ids = mt.match("Autorizan la creación de unidades de flagrancia")
+        self.assertTrue(ids, "a distinctive plan bigram should match at least one commitment")
+        self.assertTrue(all(cid.count(".") == 1 for cid in ids))  # well-formed commitment ids
 
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
-from watcher_common import significant_tokens
+from watcher_common import bigrams_of, significant_tokens
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 PLAN = ROOT / "src" / "data" / "plan"
@@ -31,38 +31,30 @@ INDEX_PATH = Path(__file__).resolve().parent / "commitment_index.json"
 DF_MAX_BIGRAM = 12
 
 
-def load_temas() -> dict[str, str]:
+def load_plan() -> tuple[dict[str, str], dict[str, str]]:
+    """One pass over the plan → (commitments id→text, temas id→slug).
+
+    Commitments span proposals, first-100-days actions and goals; the tema of a
+    commitment is derivable from its id prefix, so only the id→text map is kept.
+    """
+    commitments: dict[str, str] = {}
     temas: dict[str, str] = {}
     for path in sorted((PLAN / "topics").glob("*.json")):
         topic = json.loads(path.read_text())
         temas[topic["id"]] = topic["slug"]
-    return temas
-
-
-def load_commitments() -> dict[str, dict]:
-    """id -> {text, tema}, across proposals, first-100-days actions and goals."""
-    out: dict[str, dict] = {}
-    for path in sorted((PLAN / "topics").glob("*.json")):
-        topic = json.loads(path.read_text())
         for group in topic.get("groups", []):
             for prop in group.get("proposals", []):
-                out[prop["id"]] = {"text": prop["text"], "tema": topic["id"]}
+                commitments[prop["id"]] = prop["text"]
         for action in topic.get("first_100_days", []):
-            out[action["id"]] = {"text": action["text"], "tema": topic["id"]}
+            commitments[action["id"]] = action["text"]
     goals = json.loads((PLAN / "goals" / "goals-2031.json").read_text())
     for goal in goals["goals"]:
-        out[goal["id"]] = {"text": goal["text"], "tema": goal["topic"]}
-    return out
+        commitments[goal["id"]] = goal["text"]
+    return commitments, temas
 
 
-def _bigrams(text: str) -> set[str]:
-    """Adjacent bigrams over the filtered token list of one commitment."""
-    toks = significant_tokens(text)
-    return {f"{a} {b}" for a, b in zip(toks, toks[1:])}
-
-
-def build_index(commitments: dict[str, dict], temas: dict[str, str]) -> dict:
-    per = {cid: _bigrams(v["text"]) for cid, v in commitments.items()}
+def build_index(commitments: dict[str, str], temas: dict[str, str]) -> dict:
+    per = {cid: bigrams_of(significant_tokens(text)) for cid, text in commitments.items()}
     df: Counter = Counter()
     for bis in per.values():
         df.update(bis)  # document frequency: commitments containing each bigram
@@ -89,7 +81,7 @@ def main() -> int:
     ap.add_argument("--report", action="store_true", help="list commitments with zero phrases")
     args = ap.parse_args()
 
-    index = build_index(load_commitments(), load_temas())
+    index = build_index(*load_plan())
 
     if args.report:
         empty = [c for c, v in index["commitments"].items() if not v["phrases"]]
