@@ -11,14 +11,13 @@ import build_commitment_index as b  # noqa: E402
 
 
 class BuildIndexTest(unittest.TestCase):
-    # "programa"/"nacional" appear in 4 commitments (DF=4 > df_max_unigram=3) -> generic.
     COMMITMENTS = {
-        "t1-1.C02": {"text": "Creación de unidades de flagrancia express", "tema": "t1-1"},
-        "t1-1.C04": {"text": "Compra de patrulleros con cámaras inteligentes", "tema": "t1-1"},
-        "t2-1.P01": {"text": "Programa nacional de fortalecimiento", "tema": "t2-1"},
-        "t2-2.P01": {"text": "Programa nacional de vivienda", "tema": "t2-2"},
-        "t2-3.P01": {"text": "Programa nacional de empleo", "tema": "t2-3"},
-        "t2-4.P01": {"text": "Programa nacional de salud", "tema": "t2-4"},
+        "t1-1.C02": "Creación de unidades de flagrancia express",
+        "t1-1.C04": "Compra de patrulleros con cámaras inteligentes",
+        "t2-1.P01": "Programa nacional de fortalecimiento",
+        "t2-2.P01": "Programa nacional de vivienda",
+        "t2-3.P01": "Programa nacional de empleo",
+        "t2-4.P01": "Programa nacional de salud",
     }
     TEMAS = {"t1-1": "orden-ciudadano", "t2-1": "a", "t2-2": "b", "t2-3": "c", "t2-4": "d"}
 
@@ -35,7 +34,7 @@ class BuildIndexTest(unittest.TestCase):
         self.assertEqual(set(idx["params"]), {"df_max_bigram"})
 
     def test_committed_index_is_in_sync_with_plan(self):
-        fresh = b.build_index(b.load_commitments(), b.load_temas())
+        fresh = b.build_index(*b.load_plan())
         committed = json.loads((Path(b.__file__).resolve().parent / "commitment_index.json").read_text())
         self.assertEqual(committed["commitments"], fresh["commitments"])
         self.assertEqual(committed["temas"], fresh["temas"])

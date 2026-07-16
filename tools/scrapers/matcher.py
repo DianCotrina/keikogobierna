@@ -26,8 +26,8 @@ class Matcher:
     def match(self, text: str) -> list[str]:
         present = phrases_of(significant_tokens(text, extra_stop=self._suppress))
         ids: set[str] = set()
-        for phrase in present:
-            ids |= self._phrase_to_ids.get(phrase, set())
+        for phrase in present & self._phrase_to_ids.keys():
+            ids |= self._phrase_to_ids[phrase]
         return sorted(ids)
 
     def tema_slug(self, commitment_id: str) -> str:

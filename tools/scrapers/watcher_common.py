@@ -89,11 +89,14 @@ def significant_tokens(text: str, extra_stop: frozenset = frozenset()) -> list[s
             and t not in STOPWORDS and t not in extra_stop]
 
 
+def bigrams_of(tokens: list[str]) -> set[str]:
+    """Adjacent bigrams (space-joined) over a filtered token list."""
+    return {f"{a} {b}" for a, b in zip(tokens, tokens[1:])}
+
+
 def phrases_of(tokens: list[str]) -> set[str]:
     """Unigrams plus adjacent bigrams over a filtered token list."""
-    out = set(tokens)
-    out.update(f"{a} {b}" for a, b in zip(tokens, tokens[1:]))
-    return out
+    return set(tokens) | bigrams_of(tokens)
 
 
 def parse_rss_items(raw: bytes) -> list[dict]:
