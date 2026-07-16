@@ -1,5 +1,14 @@
 {
   "boost": { "t1-1.C01": ["c5i"] },
   "suppress_terms": ["comuniquese", "registrese", "publiquese", "cumplase"],
+  "suppress_phrases": [
+    "direccion general", "autoridad nacional", "mediante cual", "servicios publicos",
+    "servicios basicos", "gobiernos locales", "gobiernos regionales", "sector publico",
+    "contrataciones publicas", "contrataciones estado", "interes nacional", "poder judicial",
+    "expediente judicial", "judicial electronico", "implementacion expediente", "mesa partes",
+    "cooperacion internacional", "ministerio economia", "policia nacional", "lima callao",
+    "consejo ministros", "presidencia consejo", "sociedad civil", "consejo nacional",
+    "control institucional", "organo control", "inversion privada", "innovacion tecnologica"
+  ],
   "mute_commitments": []
 }
