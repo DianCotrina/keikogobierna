@@ -7,7 +7,7 @@
 
 The El Peruano scraper matches each norma against **8 hand-written queries** in `tools/scrapers/watcher_keywords.json`. That covers a sliver of the plan and needs manual upkeep. Diego wants the scrapers to "search anything related to the proposals we already have listed" — match against the **764 commitments the plan already contains** (632 proposals + 67 first-100-days actions + 65 goals), automatically.
 
-This matcher is the **foundation** for two later, source-specific specs (MEF adapter; Congreso adapter). Build order approved: matcher first (with El Peruano as its first consumer), then MEF, then Congreso — each its own spec/plan.
+**El Peruano is the evidence engine.** Every ley, decreto and resolución becomes legally effective by publication there, across all sectors (economía, política, interior, …), so it is the primary and near-complete record of commitment fulfillment. Earlier candidate sources were dropped: **MEF** is redundant (its normas are already in El Peruano, filterable by institution/sector), and **Congreso control-político** is legislative oversight — process, not plan fulfillment — so it is off-target. Additional scrapers are **gap-driven**: only if El Peruano coverage proves to systematically miss something do we fill it manually first, then build a targeted scraper. This matcher is therefore the whole of the evidence-matching work, not the first of three; the "shared matcher, thin source adapters" shape is kept so a future gap-driven source can plug in without reworking the matcher.
 
 Hard constraints carried from the rest of the system: **no AI** (the Claude judge was removed 2026-07-15 — deterministic only), stdlib-only tools, and the scraper never changes `tracking.json`; it only files `evidencia-candidata` issues for human review.
 
@@ -61,7 +61,7 @@ Small, curated, where the existing 8 keyword queries' knowledge migrates:
 load_index(path=..., overlay=...) -> Matcher      # builds phrase -> ids map once
 Matcher.match(text: str) -> list[str]             # sorted, unique commitment ids
 ```
-`match` normalizes the input, then a commitment matches when the text contains **≥1 of its `phrases`**. Because every phrase already had to clear the distinctiveness cutoff to be in the index, a single hit is a high-precision signal — no counting or thresholds at match time. Bigrams carry most matches; only rare single words qualify as solo phrases. Returns the related commitment ids. This is the single place matching logic lives; every source adapter (El Peruano now; MEF, Congreso later) calls it.
+`match` normalizes the input, then a commitment matches when the text contains **≥1 of its `phrases`**. Because every phrase already had to clear the distinctiveness cutoff to be in the index, a single hit is a high-precision signal — no counting or thresholds at match time. Bigrams carry most matches; only rare single words qualify as solo phrases. Returns the related commitment ids. This is the single place matching logic lives; every source adapter (El Peruano now; any future gap-driven source) calls it.
 
 ### Component 4 — El Peruano migration
 
@@ -70,7 +70,15 @@ Matcher.match(text: str) -> list[str]             # sorted, unique commitment id
 - Replace the local `match_record(record, keywords)` and `significant_terms` with `matcher.match(f"{numero} {tipo} {sumilla}")`; delete the now-unused `STOPWORDS` copy (moved to `watcher_common`).
 - Everything downstream is unchanged: the matched commitment ids flow into the same `issue_body`, dedup token, excerpt, archive.
 
-**Scope boundary — the news watcher keeps `watcher_keywords.json`.** `evidence_watcher.py` is a *search* source: it sends query strings to Google News RSS, it does not match a document stream. That's a fundamentally different mechanism, so it keeps its curated queries. The matcher is only for document-stream sources (El Peruano, and the coming MEF/Congreso adapters). This split is stated in the SOP.
+**Scope boundary — the news watcher keeps `watcher_keywords.json`.** `evidence_watcher.py` is a *search* source: it sends query strings to Google News RSS, it does not match a document stream. That's a fundamentally different mechanism, so it keeps its curated queries. The matcher is only for document-stream sources (El Peruano now; any future gap-driven adapter). This split is stated in the SOP.
+
+### Component 5 — tema as an output facet (not a separate watcher)
+
+Every commitment id encodes its tema (`t1-1.C02` → topic `t1-1`, *orden ciudadano*), so the matcher's output is already tema-tagged for free. Rather than per-tema watchers (which would duplicate the fetch — the expensive part — 23×), tema is a **facet of the one shared output**:
+- Each `evidencia-candidata` issue gets a `tema:<slug>` label per matched commitment (slug from the topic file's `slug`), so "the orden ciudadano queue" is one GitHub filter and temas can be routed to different reviewers. Labels are ensured like the existing `evidencia-candidata` label.
+- The overlay's `mute`/`boost` may key on a tema id (`t1-1`) as well as a commitment id, so a noisy tema can be quieted without editing every commitment.
+
+Sources (fetch adapters) and temas (output slices) are orthogonal: one source feeds all temas; a tema draws from all sources. A tema would only justify its own fetch if it needed a *different source* — and even then the matcher and queue stay shared.
 
 ## Testing (real data, per Diego's preference)
 
@@ -84,10 +92,11 @@ Matcher.match(text: str) -> list[str]             # sorted, unique commitment id
 - A commitment over-matches → add it to `mute_commitments` or tighten `DF_MAX`.
 - A real match missed → add a `boost` phrase, or accept it (news watcher/manual catch it) — precision is the chosen bias.
 
-## Out of scope (own specs)
+## Out of scope
 
-- **MEF adapter** (gob.pe HTML listing; note: MEF normas already appear in El Peruano — value is cleaner titles + institution scoping).
-- **Congreso adapter(s)** (control-político; mociones + pedidos are `api.congreso.gob.pe` apps needing endpoint discovery; three sections are static pages).
+- **MEF scraper — dropped.** Its normas are already in El Peruano (filterable by institution/sector); a gob.pe scraper would add cleaner presentation, no new evidence.
+- **Congreso control-político — dropped.** Legislative oversight is process, not plan fulfillment; El Peruano carries the enacted outcome. If in-progress legislative signal is ever wanted, the target would be *proyectos de ley* (bills), decided as a future gap-driven source — not part of this work.
+- **Gap-driven additions later.** A new source is built only when El Peruano is shown to systematically miss real evidence; gaps are filled manually first.
 - The news watcher's search-query mechanism (unchanged here).
 - Any automatic `tracking.json` change (never).
 
@@ -95,7 +104,8 @@ Matcher.match(text: str) -> list[str]             # sorted, unique commitment id
 
 - Matching source: the 764 existing plan commitments, not hand-written queries ("search anything related to the proposals we already have listed").
 - Approach: distinctive-phrase index (document-frequency weighting) over naive overlap or a 764-entry hand file.
-- Architecture: one shared matcher; sources are thin adapters; El Peruano migrates onto it first.
-- Build order: matcher (+ El Peruano) → MEF → Congreso, each its own spec.
+- Architecture: one shared matcher; sources are thin adapters; El Peruano is the first (and, for now, only) consumer.
+- Scope: **El Peruano only.** MEF dropped (redundant with El Peruano); Congreso control-político dropped (oversight, off-target). Further sources are gap-driven — manual fill first, targeted scraper only when a real coverage gap is proven.
+- Tema is an output facet (issue labels + overlay keys), not a separate watcher — sources and temas are orthogonal.
 - Precision over recall: short high-confidence daily queue; misses are acceptable.
 - Output unchanged: `evidencia-candidata` issues for human review; statuses change only via PR.
