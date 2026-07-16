@@ -71,6 +71,25 @@ def normalize(text: str) -> str:
     return "".join(c for c in text if not unicodedata.combining(c))
 
 
+STOPWORDS = {
+    "de", "la", "el", "en", "y", "para", "con", "los", "las", "del", "por",
+    "un", "una", "que", "a", "su", "se", "al", "o", "e", "sus", "es",
+}
+
+
+def significant_tokens(text: str, extra_stop: frozenset = frozenset()) -> list[str]:
+    """Normalized tokens minus stopwords and tokens <= 3 chars."""
+    return [t for t in normalize(text).split()
+            if len(t) > 3 and t not in STOPWORDS and t not in extra_stop]
+
+
+def phrases_of(tokens: list[str]) -> set[str]:
+    """Unigrams plus adjacent bigrams over a filtered token list."""
+    out = set(tokens)
+    out.update(f"{a} {b}" for a, b in zip(tokens, tokens[1:]))
+    return out
+
+
 def parse_rss_items(raw: bytes) -> list[dict]:
     """RSS bytes -> [{title, link, summary, author, published(datetime)}].
 
