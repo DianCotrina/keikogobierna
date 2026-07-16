@@ -128,22 +128,23 @@ def issue_exists(token_str: str, repo: str, gh_token: str) -> bool:
     return result.get("total_count", 0) > 0
 
 
-def ensure_label(repo: str, gh_token: str) -> None:
+def ensure_label(repo: str, gh_token: str, name: str = LABEL, color: str = LABEL_COLOR,
+                 description: str = "Evidencia candidata detectada por un watcher; requiere revisión editorial") -> None:
     try:
-        gh_request("GET", f"/repos/{repo}/labels/{LABEL}", gh_token)
+        gh_request("GET", f"/repos/{repo}/labels/{name}", gh_token)
     except urllib.error.HTTPError as err:
         if err.code != 404:
             raise
         gh_request("POST", f"/repos/{repo}/labels", gh_token, {
-            "name": LABEL,
-            "color": LABEL_COLOR,
-            "description": "Evidencia candidata detectada por un watcher; requiere revisión editorial",
+            "name": name,
+            "color": color,
+            "description": description,
         })
 
 
-def create_issue(repo: str, gh_token: str, title: str, body: str) -> dict:
+def create_issue(repo: str, gh_token: str, title: str, body: str, labels: list | None = None) -> dict:
     return gh_request("POST", f"/repos/{repo}/issues", gh_token, {
         "title": title,
         "body": body,
-        "labels": [LABEL],
+        "labels": labels or [LABEL],
     })
