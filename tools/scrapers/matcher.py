@@ -43,6 +43,7 @@ def load_matcher(index_path: Path = INDEX_PATH, overlay_path: Path = OVERLAY_PAT
     index = json.loads(Path(index_path).read_text())
     overlay = json.loads(Path(overlay_path).read_text()) if Path(overlay_path).exists() else {}
     suppress = frozenset(overlay.get("suppress_terms", []))
+    suppress_phrases = set(overlay.get("suppress_phrases", []))  # generic gov phrases to ignore
     muted = set(overlay.get("mute_commitments", []))
 
     phrase_to_ids: dict[str, set[str]] = {}
@@ -50,12 +51,16 @@ def load_matcher(index_path: Path = INDEX_PATH, overlay_path: Path = OVERLAY_PAT
         if _muted(cid, muted):
             continue
         for phrase in entry["phrases"]:
+            if phrase in suppress_phrases:
+                continue
             phrase_to_ids.setdefault(phrase, set()).add(cid)
-    # boost: hand-curated phrases run through the same tokenizer as the corpus
+    # boost: hand-curated phrases (incl. distinctive single words) run through the
+    # same tokenizer as the corpus — the only route by which a unigram can match
     for cid, raw_phrases in overlay.get("boost", {}).items():
         if _muted(cid, muted):
             continue
         for raw in raw_phrases:
             for phrase in phrases_of(significant_tokens(raw, extra_stop=suppress)):
-                phrase_to_ids.setdefault(phrase, set()).add(cid)
+                if phrase not in suppress_phrases:
+                    phrase_to_ids.setdefault(phrase, set()).add(cid)
     return Matcher(phrase_to_ids, index.get("temas", {}), suppress)

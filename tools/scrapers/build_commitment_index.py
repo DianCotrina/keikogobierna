@@ -25,7 +25,9 @@ from watcher_common import significant_tokens
 ROOT = Path(__file__).resolve().parent.parent.parent
 PLAN = ROOT / "src" / "data" / "plan"
 INDEX_PATH = Path(__file__).resolve().parent / "commitment_index.json"
-DF_MAX_UNIGRAM = 3
+# Phrases are distinctive BIGRAMS only. Single words are too ambiguous against
+# ~600 daily normas even when rare in the plan ("fiscal", "horario" are plan-rare
+# but norma-common), so unigram matching is left to hand-curated overlay boosts.
 DF_MAX_BIGRAM = 12
 
 
@@ -53,31 +55,25 @@ def load_commitments() -> dict[str, dict]:
     return out
 
 
-def _candidate_phrases(text: str) -> tuple[set[str], set[str]]:
-    """(unigrams, adjacent bigrams) for one commitment."""
+def _bigrams(text: str) -> set[str]:
+    """Adjacent bigrams over the filtered token list of one commitment."""
     toks = significant_tokens(text)
-    unis = set(toks)
-    bis = {f"{a} {b}" for a, b in zip(toks, toks[1:])}
-    return unis, bis
+    return {f"{a} {b}" for a, b in zip(toks, toks[1:])}
 
 
 def build_index(commitments: dict[str, dict], temas: dict[str, str]) -> dict:
-    per = {cid: _candidate_phrases(v["text"]) for cid, v in commitments.items()}
+    per = {cid: _bigrams(v["text"]) for cid, v in commitments.items()}
     df: Counter = Counter()
-    for unis, bis in per.values():
-        df.update(unis | bis)  # document frequency: commitments containing each phrase
+    for bis in per.values():
+        df.update(bis)  # document frequency: commitments containing each bigram
 
     out_commitments: dict[str, dict] = {}
-    for cid, (unis, bis) in per.items():
-        phrases = sorted(
-            {u for u in unis if df[u] <= DF_MAX_UNIGRAM}
-            | {bg for bg in bis if df[bg] <= DF_MAX_BIGRAM}
-        )
-        out_commitments[cid] = {"phrases": phrases}
+    for cid, bis in per.items():
+        out_commitments[cid] = {"phrases": sorted(bg for bg in bis if df[bg] <= DF_MAX_BIGRAM)}
 
     return {
         "generated": date.today().isoformat(),
-        "params": {"df_max_unigram": DF_MAX_UNIGRAM, "df_max_bigram": DF_MAX_BIGRAM},
+        "params": {"df_max_bigram": DF_MAX_BIGRAM},
         "temas": dict(sorted(temas.items())),
         "commitments": dict(sorted(out_commitments.items())),
     }

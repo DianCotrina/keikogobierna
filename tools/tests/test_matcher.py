@@ -13,14 +13,15 @@ import matcher as m  # noqa: E402
 INDEX = {
     "temas": {"t1-1": "orden-ciudadano", "t3-10": "peruanos-exterior"},
     "commitments": {
-        "t1-1.C02": {"phrases": ["flagrancia", "unidades flagrancia"]},
-        "t3-10.C01": {"phrases": ["ventanilla consular", "consular"]},
-        "t1-1.C99": {"phrases": ["publiquese"]},
+        "t1-1.C02": {"phrases": ["unidades flagrancia"]},
+        "t3-10.C01": {"phrases": ["ventanilla consular"]},
+        "t2-1.P01": {"phrases": ["poder judicial"]},
     },
 }
 OVERLAY = {
     "boost": {"t1-1.C01": ["c5i"]},
     "suppress_terms": ["publiquese"],
+    "suppress_phrases": ["poder judicial"],
     "mute_commitments": ["t3-10.C01"],
 }
 
@@ -41,11 +42,20 @@ class MatcherTest(unittest.TestCase):
 
     def test_accent_and_case_insensitive(self):
         with tempfile.TemporaryDirectory() as tmp:
-            self.assertEqual(self._matcher(tmp).match("Sobre FLAGRANCIA policial"), ["t1-1.C02"])
+            self.assertEqual(self._matcher(tmp).match("Nuevas UNIDADES de FLAGRANCIA"), ["t1-1.C02"])
+
+    def test_lone_unigram_does_not_match(self):
+        # "flagrancia" alone (no adjacent "unidades") is not a bigram -> no match
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(self._matcher(tmp).match("Regimen de flagrancia policial"), [])
 
     def test_boost_adds_phrase(self):
         with tempfile.TemporaryDirectory() as tmp:
             self.assertEqual(self._matcher(tmp).match("Sistema C5i nacional"), ["t1-1.C01"])
+
+    def test_suppress_phrase_ignores_generic_bigram(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(self._matcher(tmp).match("Designan jefe del poder judicial"), [])
 
     def test_mute_commitment_removes_it(self):
         with tempfile.TemporaryDirectory() as tmp:
