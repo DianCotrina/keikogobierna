@@ -43,6 +43,10 @@ class TokenizeTest(unittest.TestCase):
     def test_bigram_survives_dropped_stopword(self):
         self.assertIn("unidades flagrancia", phrases_of(significant_tokens("unidades de flagrancia")))
 
+    def test_keeps_short_acronyms_with_a_digit(self):
+        # "c5i" is 3 chars but distinctive; "ley" (no digit, 3 chars) is dropped
+        self.assertEqual(significant_tokens("Sistema C5i para la ley"), ["sistema", "c5i"])
+
 
 if __name__ == "__main__":
     unittest.main()
