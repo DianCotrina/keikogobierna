@@ -32,6 +32,8 @@
  "commitments": {
   "t1-1.C01": {
    "phrases": [
+    "c5i",
+    "c5i lima",
     "callao",
     "callao expansion",
     "ciudades criticas.",
@@ -39,7 +41,7 @@
     "expansion ciudades",
     "inicio operaciones",
     "lima callao",
-    "operaciones lima"
+    "operaciones c5i"
    ]
   },
   "t1-1.C02": {
@@ -79,6 +81,8 @@
     "1,000 patrulleros",
     "10,000",
     "10,000 camaras",
+    "200",
+    "200 comisarias.",
     "camaras interconectadas",
     "comisarias.",
     "decretos",
@@ -90,7 +94,7 @@
     "inteligentes, 10,000",
     "interconectadas",
     "interconectadas modernizacion",
-    "modernizacion comisarias.",
+    "modernizacion 200",
     "patrulleros",
     "patrulleros inteligentes,",
     "urgencia",
@@ -99,6 +103,7 @@
   },
   "t1-1.M01": {
    "phrases": [
+    "20% tasa",
     "espacios publicos.",
     "homicidios",
     "homicidios mediante",
@@ -111,7 +116,7 @@
     "prevencion juvenil",
     "publicos.",
     "recuperacion espacios",
-    "reducir tasa",
+    "reducir 20%",
     "tasa",
     "tasa nacional"
    ]
@@ -119,7 +124,9 @@
   "t1-1.M02": {
    "phrases": [
     "(c5i)",
-    "(c5i) regiones",
+    "(c5i) 24",
+    "24",
+    "24 regiones",
     "centro nacional",
     "comando",
     "comando videovigilancia",
@@ -134,12 +141,14 @@
    "phrases": [
     "50%,",
     "50%, mediante",
+    "90%",
+    "90% 50%,",
     "entre policia,",
     "fiscalia",
     "fiscalia poder",
     "flagrancia interoperabilidad",
     "impunidad",
-    "impunidad 50%,",
+    "impunidad 90%",
     "interoperabilidad entre",
     "judicial.",
     "mediante unidades",
@@ -611,6 +620,8 @@
   },
   "t1-1.P18": {
    "phrases": [
+    "60",
+    "60 dias,",
     "ciudadana traves",
     "combatir",
     "combatir inseguridad",
@@ -632,7 +643,7 @@
     "inseguridad",
     "inseguridad ciudadana",
     "legislativas",
-    "legislativas dias,",
+    "legislativas 60",
     "materia",
     "materia economica",
     "plan emergencia",
@@ -810,6 +821,8 @@
   },
   "t1-1.P26": {
    "phrases": [
+    "28",
+    "28 unidades",
     "articulacion efectiva",
     "asegurando procesos",
     "contra delito.",
@@ -821,7 +834,7 @@
     "express",
     "express fortalecimiento",
     "flagrancia express",
-    "fortalecimiento unidades",
+    "fortalecimiento 28",
     "garantizar articulacion",
     "inmediatos",
     "inmediatos sentencias",
@@ -991,15 +1004,19 @@
   },
   "t1-1.P32": {
    "phrases": [
+    "(1)",
+    "(1) penal",
     "(1,000",
     "(1,000 internos)",
+    "(4)",
+    "(4) mega",
+    "(4) penales",
     "administracion temporal",
     "armadas.",
     "bajo administracion",
     "construccion cuatro",
     "cuatro",
-    "cuatro mega",
-    "cuatro penales",
+    "cuatro (4)",
     "especializado jovenes",
     "estandar",
     "estandar modulares",
@@ -1010,7 +1027,7 @@
     "infractores,",
     "infractores, bajo",
     "internos)",
-    "internos) penal",
+    "internos) (1)",
     "jovenes infractores,",
     "maxima",
     "maxima seguridad,",
@@ -1473,6 +1490,7 @@
   },
   "t1-2.M01": {
    "phrases": [
+    "30% perdidas",
     "anuales corrupcion",
     "automatizada.",
     "control preventivo",
@@ -1487,7 +1505,7 @@
     "perdidas anuales",
     "preventivo",
     "preventivo supervision",
-    "reducir perdidas",
+    "reducir 30%",
     "supervision automatizada.",
     "transparencia digital,"
    ]
@@ -1808,13 +1826,15 @@
   },
   "t1-3.C02": {
    "phrases": [
+    "1%",
+    "1% 2031.",
     "2027-2030,",
     "2027-2030, estableciendo",
     "deficit fiscal",
     "estableciendo nueva",
     "fiscal",
     "fiscal hacia",
-    "hacia 2031.",
+    "hacia 1%",
     "macroeconomico",
     "macroeconomico multianual",
     "marco macroeconomico",
@@ -1868,13 +1888,15 @@
   },
   "t1-3.M01": {
    "phrases": [
+    "1%",
+    "1% pbi,",
     "bcrp",
     "bcrp previsibilidad",
     "deficit fiscal",
     "disciplina",
     "disciplina macroeconomica,",
     "fiscal",
-    "fiscal pbi,",
+    "fiscal 1%",
     "independencia bcrp",
     "macroeconomica,",
     "macroeconomica, independencia",
@@ -1890,12 +1912,14 @@
   },
   "t1-3.M02": {
    "phrases": [
+    "3 millones",
     "5,000",
     "5,000 7,000",
     "500,000",
     "500,000 nuevos",
     "7,000",
     "7,000 millones",
+    "80% tramites",
     "adicionales",
     "adicionales inversiones",
     "anuales formales,",
@@ -1916,13 +1940,13 @@
     "empresariales",
     "empresariales mediante",
     "entre 5,000",
-    "formales, millones",
+    "formales, 3",
     "generando 500,000",
     "gobierno.",
     "interoperabilidad efectiva;",
     "inversiones privadas",
     "mediante ventanilla",
-    "menos tramites",
+    "menos 80%",
     "millones dolares",
     "millones durante",
     "nacional interoperabilidad",
@@ -1948,9 +1972,11 @@
   },
   "t1-3.P02": {
    "phrases": [
+    "1%",
+    "1% 2031.",
     "deficit fiscal",
     "fiscal",
-    "fiscal 2031.",
+    "fiscal 1%",
     "sostenimiento",
     "sostenimiento deficit"
    ]
@@ -1973,6 +1999,7 @@
   },
   "t1-3.P05": {
    "phrases": [
+    "80% tramites",
     "agiles,",
     "agiles, interoperables",
     "algoritmica",
@@ -1999,7 +2026,7 @@
     "libres discrecionalidad",
     "linea menos",
     "mediante tramites",
-    "menos tramites",
+    "menos 80%",
     "nacional tercerizacion",
     "operadores privados",
     "permita realizar",
@@ -2247,11 +2274,13 @@
   },
   "t1-3.P11": {
    "phrases": [
+    "40",
+    "40 tiempo",
     "desregulatorio",
     "desregulatorio reducir",
     "fortalecimiento profundizacion",
     "inversion.",
-    "menos tiempo",
+    "menos 40",
     "proceso shock",
     "profundizacion",
     "profundizacion proceso",
@@ -2268,11 +2297,13 @@
   },
   "t1-3.P12": {
    "phrases": [
+    "500",
+    "500 procedimientos",
     "administrativos",
     "administrativos redundantes",
     "dispersas.",
     "eliminacion",
-    "eliminacion procedimientos",
+    "eliminacion 500",
     "normativas",
     "normativas dispersas.",
     "procedimientos administrativos",
@@ -2392,6 +2423,7 @@
   "t1-4.M01": {
    "phrases": [
     "100% entidades",
+    "70% gobiernos",
     "desempeno.",
     "digitales interoperables",
     "entidades gobierno",
@@ -2401,7 +2433,7 @@
     "gobiernos subnacionales",
     "interoperables gestion",
     "lograr 100%",
-    "menos gobiernos",
+    "menos 70%",
     "nacional menos",
     "operen",
     "operen sistemas",
@@ -2414,6 +2446,7 @@
    "phrases": [
     "(eje)",
     "(eje) reducir",
+    "30% tiempos",
     "alcanzar cobertura",
     "cobertura nacional",
     "electronico (eje)",
@@ -2423,7 +2456,7 @@
     "procesales",
     "procesales promedio.",
     "promedio.",
-    "reducir tiempos",
+    "reducir 30%",
     "tiempos procesales"
    ]
   },
@@ -3101,15 +3134,19 @@
   },
   "t2-1.C01": {
    "phrases": [
+    "0”",
+    "0” mypes,",
+    "5",
+    "5 regiones",
     "estrategia “licencia",
     "lanzamiento estrategia",
     "mypes,",
     "mypes, piloto",
-    "piloto regiones",
+    "piloto 5",
     "priorizadas.",
     "regiones priorizadas.",
     "“licencia",
-    "“licencia mypes,"
+    "“licencia 0”"
    ]
   },
   "t2-1.C02": {
@@ -3150,11 +3187,12 @@
   },
   "t2-1.M01": {
    "phrases": [
+    "60% mype",
     "costos formalizacion.",
     "digitales menores",
     "formalidad,",
     "formalidad, tramites",
-    "lograr mype",
+    "lograr 60%",
     "menores costos",
     "mype operen",
     "operen",
@@ -3164,6 +3202,7 @@
   },
   "t2-1.M02": {
    "phrases": [
+    "40% mype",
     "accedan",
     "accedan credito",
     "asegurar menos",
@@ -3175,7 +3214,7 @@
     "garantias, capital",
     "lineas especiales",
     "mediante programas",
-    "menos mype",
+    "menos 40%",
     "mujeres jovenes.",
     "mype formales",
     "productivo, mediante",
@@ -3185,6 +3224,8 @@
   },
   "t2-1.M03": {
    "phrases": [
+    "25%",
+    "25% productividad",
     "adopcion",
     "adopcion digital,",
     "capacitacion gerencial",
@@ -3193,7 +3234,7 @@
     "digital, capacitacion",
     "gerencial",
     "gerencial clusteres",
-    "incrementar productividad",
+    "incrementar 25%",
     "mediante adopcion",
     "mype mediante",
     "productividad promedio",
@@ -3261,6 +3302,8 @@
     "(eliminacion licencia",
     "(inscripcion",
     "(inscripcion registral,",
+    "0",
+    "0 mypes”,",
     "artificial interopere",
     "bajo medio).",
     "civil,",
@@ -3304,7 +3347,7 @@
     "tramites innecesarios",
     "unica electronica",
     "“licencia",
-    "“licencia mypes”,"
+    "“licencia 0"
    ]
   },
   "t2-1.P03": {
@@ -3788,6 +3831,7 @@
   },
   "t2-1.P20": {
    "phrases": [
+    "50% monto",
     "contratacion",
     "contratacion jovenes",
     "credito tributario",
@@ -3812,7 +3856,7 @@
     "proposito fomentar",
     "temprana.",
     "tributario",
-    "tributario monto"
+    "tributario 50%"
    ]
   },
   "t2-1.P21": {
@@ -4205,9 +4249,10 @@
   "t2-1.P34": {
    "phrases": [
     "2030.",
+    "70% micro",
     "acceso plataformas",
     "comercio electronico",
-    "digital micro",
+    "digital 70%",
     "digitales 2030.",
     "electronico pagos",
     "empresas tenga",
@@ -4538,6 +4583,7 @@
   },
   "t2-2.M01": {
    "phrases": [
+    "80% principales",
     "competitividad.",
     "conectar",
     "conectar menos",
@@ -4549,7 +4595,7 @@
     "logisticos pavimentados,",
     "mejorando",
     "mejorando competitividad.",
-    "menos principales",
+    "menos 80%",
     "mineros corredores",
     "pavimentados,",
     "pavimentados, ferroviarios",
@@ -4580,6 +4626,8 @@
   },
   "t2-2.M03": {
    "phrases": [
+    "40% accidentes",
+    "50% mineria",
     "accidentes",
     "accidentes fatales",
     "criticas,",
@@ -4591,10 +4639,10 @@
     "fiscalizacion",
     "fiscalizacion remediacion",
     "ilegal zonas",
-    "menos mineria",
+    "menos 50%",
     "mineria ilegal",
     "priorizando seguridad,",
-    "reducir accidentes",
+    "reducir 40%",
     "remediacion ambiental.",
     "seguridad, fiscalizacion",
     "zonas criticas,"
@@ -4923,6 +4971,7 @@
   },
   "t2-2.P17": {
    "phrases": [
+    "40% canon",
     "canon",
     "canon directamente",
     "canon pueblo:",
@@ -4932,7 +4981,7 @@
     "directamente redistribuido",
     "extraccion,",
     "extraccion, control",
-    "hasta canon",
+    "hasta 40%",
     "implementacion canon",
     "poblacion zona",
     "pueblo:",
@@ -5008,7 +5057,8 @@
    "phrases": [
     "(solar,",
     "(solar, eolica,",
-    "aumentar participacion",
+    "20% participacion",
+    "aumentar 20%",
     "biomasa",
     "biomasa hidrogeno",
     "convencionales",
@@ -5052,12 +5102,14 @@
    "phrases": [
     "50%,",
     "50%, fortaleciendo",
+    "75%",
+    "75% 50%,",
     "dependencia derivados",
     "derivados",
     "derivados importados",
     "fortaleciendo produccion",
     "importados",
-    "importados 50%,",
+    "importados 75%",
     "local reservas",
     "produccion local",
     "reducir dependencia",
@@ -5590,8 +5642,10 @@
   },
   "t2-3.P22": {
    "phrases": [
+    "15%",
+    "15% mercado,",
     "cerca",
-    "cerca mercado,",
+    "cerca 15%",
     "combustibles,",
     "combustibles, representa",
     "contra contrabando",
@@ -5641,13 +5695,15 @@
   },
   "t2-4.C01": {
    "phrases": [
+    "100",
+    "100 microproyectos",
     "agua, meta",
     "altoandinas.",
     "comunidades altoandinas.",
     "cosecha",
     "cosecha agua,",
     "ejecutar",
-    "ejecutar microproyectos",
+    "ejecutar 100",
     "impulso programa",
     "meta ejecutar",
     "microproyectos",
@@ -5667,6 +5723,7 @@
   },
   "t2-4.C02": {
    "phrases": [
+    "10 corredores",
     "acopio",
     "acopio productivo”,",
     "agroexportadores",
@@ -5676,7 +5733,7 @@
     "frio acopio",
     "lanzamiento “plan",
     "mercados regionales.",
-    "priorizando corredores",
+    "priorizando 10",
     "productivo”,",
     "productivo”, priorizando",
     "“plan",
@@ -5707,6 +5764,8 @@
   },
   "t2-4.M01": {
    "phrases": [
+    "34%",
+    "34% 60%,",
     "60%,",
     "60%, priorizando",
     "agricola riego",
@@ -5720,16 +5779,17 @@
     "superficie",
     "superficie agricola",
     "tecnificado",
-    "tecnificado 60%,",
+    "tecnificado 34%",
     "vulnerabilidad climatica.",
     "zonas mayor"
    ]
   },
   "t2-4.M02": {
    "phrases": [
+    "30% productividad",
     "agricola nacional,",
     "asistencia tecnica,",
-    "aumentar productividad",
+    "aumentar 30%",
     "financiamiento,",
     "financiamiento, mecanizacion",
     "impulsando asistencia",
@@ -5744,6 +5804,7 @@
   },
   "t2-4.M03": {
    "phrases": [
+    "50% pequenos",
     "bioeconomia",
     "bioeconomia rural.",
     "cadenas valor",
@@ -5751,7 +5812,7 @@
     "cooperativas,",
     "cooperativas, seguros",
     "formales, promoviendo",
-    "integrar pequenos",
+    "integrar 50%",
     "pequenos productores",
     "productores cadenas",
     "promoviendo cooperativas,",
@@ -7253,18 +7314,24 @@
    "phrases": [
     "(arequipa,",
     "(arequipa, trujillo",
+    "17",
+    "17 aeropuertos",
+    "3 regionales",
+    "4",
+    "4 metros",
+    "70% puertos",
     "aeropuertos concesionados",
     "concesionados",
     "concesionados nivel",
     "estrategicos modernizar",
-    "lima regionales",
+    "lima 3",
     "metros",
     "metros lima",
-    "modernizar aeropuertos",
-    "modernizar puertos",
+    "modernizar 17",
+    "modernizar 70%",
     "nivel nacional.",
     "operativos",
-    "operativos metros",
+    "operativos 4",
     "piura),",
     "piura), modernizar",
     "poner",
@@ -7277,7 +7344,9 @@
   },
   "t2-6.M03": {
    "phrases": [
-    "alcanzar cobertura",
+    "90%",
+    "90% cobertura",
+    "alcanzar 90%",
     "cobertura internet",
     "completamente",
     "completamente integrados.",
@@ -7295,6 +7364,8 @@
   },
   "t2-6.P01": {
    "phrases": [
+    "4",
+    "4 autopista",
     "autopista",
     "autopista vial",
     "canta–la",
@@ -7327,7 +7398,8 @@
     "siguientes",
     "siguientes carreteras:",
     "tramo",
-    "tramo autopista",
+    "tramo 4",
+    "vial 4",
     "viales",
     "viales prioritarios,",
     "viuda–unish",
@@ -7416,20 +7488,30 @@
   },
   "t2-6.P06": {
    "phrases": [
+    "2",
+    "2 metro",
     "callao.",
     "culminacion linea",
     "lima callao.",
-    "linea metro",
+    "linea 2",
     "metro",
     "metro lima"
    ]
   },
   "t2-6.P07": {
    "phrases": [
+    "3,",
+    "3, 4,",
+    "4,",
+    "4, 5",
+    "5",
+    "5 6,",
+    "6,",
+    "6, expandiendo",
     "ejecucion linea",
     "expandiendo",
     "expandiendo sistema",
-    "linea expandiendo",
+    "linea 3,",
     "masivo",
     "masivo urbano",
     "mejorar movilidad",
@@ -7729,6 +7811,8 @@
     "(trujillo) aeropuerto",
     "(tumbes)",
     "(tumbes) aeropuerto",
+    "17",
+    "17 aeropuertos",
     "abenzur",
     "abenzur rengifo",
     "aerea,",
@@ -7831,7 +7915,7 @@
     "mayor general",
     "mendivil",
     "mendivil duarte",
-    "modernizacion aeropuertos",
+    "modernizacion 17",
     "modernizaran",
     "modernizaran siguientes",
     "montes",
@@ -8145,12 +8229,13 @@
   "t2-6.P35": {
    "phrases": [
     "2030.",
+    "30% 2030.",
     "meta reducir",
     "nacional seguridad",
     "reducir siniestralidad",
     "seguridad vial",
     "siniestralidad",
-    "siniestralidad 2030.",
+    "siniestralidad 30%",
     "vial meta"
    ]
   },
@@ -8323,6 +8408,8 @@
   },
   "t2-7.C03": {
    "phrases": [
+    "20",
+    "20 destinos",
     "civil",
     "civil gobiernos",
     "defensa civil",
@@ -8330,7 +8417,7 @@
     "gobiernos locales",
     "implementacion plan",
     "integrando turismo,",
-    "locales destinos",
+    "locales 20",
     "nacional orden",
     "orden turistico,",
     "plan nacional",
@@ -8343,7 +8430,8 @@
   },
   "t2-7.M01": {
    "phrases": [
-    "aumentar millones",
+    "6 millones",
+    "aumentar 6",
     "descentralizar",
     "descentralizar oferta",
     "destinos regionales",
@@ -8363,6 +8451,7 @@
    "phrases": [
     "50,000",
     "50,000 trabajadores",
+    "70% aeropuertos",
     "aeropuertos turisticos",
     "capacitar",
     "capacitar 50,000",
@@ -8370,7 +8459,7 @@
     "gestion servicios.",
     "idiomas",
     "idiomas gestion",
-    "menos aeropuertos",
+    "menos 70%",
     "modernizar menos",
     "regionales capacitar",
     "servicios.",
@@ -8383,9 +8472,10 @@
   },
   "t2-7.M03": {
    "phrases": [
+    "30% capacidad",
     "capacidad visita",
     "choquequirao.",
-    "incrementar capacidad",
+    "incrementar 30%",
     "machu picchu",
     "picchu",
     "picchu choquequirao.",
@@ -8818,6 +8908,8 @@
   },
   "t2-7.P17": {
    "phrases": [
+    "30% transporte",
+    "50% transporte",
     "acuatico",
     "acuatico ferroviario,",
     "adultos mayores,",
@@ -8832,7 +8924,7 @@
     "establecimiento descuentos",
     "facilitar movilidad,",
     "ferroviario,",
-    "ferroviario, transporte",
+    "ferroviario, 30%",
     "integracion social",
     "interno,",
     "interno, especialmente",
@@ -8844,7 +8936,7 @@
     "movilidad, promover",
     "nacional adultos",
     "objetivo facilitar",
-    "obligatorios transporte",
+    "obligatorios 50%",
     "priorizados",
     "priorizados temporadas",
     "promover integracion",
@@ -9029,7 +9121,11 @@
   },
   "t2-7.P24": {
    "phrases": [
-    "anuales asistentes,",
+    "12",
+    "12 megaeventos",
+    "8",
+    "8 asistentes,",
+    "anuales 8",
     "asistentes,",
     "asistentes, posicionando",
     "centro convenciones",
@@ -9049,7 +9145,7 @@
     "lima regional",
     "megaeventos",
     "megaeventos anuales",
-    "menos megaeventos",
+    "menos 12",
     "peru como",
     "posicionando",
     "posicionando peru",
@@ -9372,6 +9468,7 @@
   },
   "t2-8.C01": {
    "phrases": [
+    "10 polos",
     "aprobacion plan",
     "industriales modernos,",
     "modernos,",
@@ -9380,7 +9477,7 @@
     "parques industriales",
     "plan nacional",
     "polos regionales.",
-    "priorizando polos"
+    "priorizando 10"
    ]
   },
   "t2-8.C02": {
@@ -9431,22 +9528,27 @@
    "phrases": [
     "(zee)",
     "(zee) estandares",
+    "3 zonas",
     "4.0.",
+    "6 parques",
     "economicas especiales",
     "especiales (zee)",
     "estandares industria",
     "implementar menos",
     "industria 4.0.",
     "industriales modernos",
-    "menos parques",
+    "menos 6",
     "modernos",
-    "modernos zonas",
+    "modernos 3",
     "parques industriales",
     "zonas economicas"
    ]
   },
   "t2-8.M02": {
    "phrases": [
+    "2.0",
+    "2.0 interoperable.",
+    "50% tiempos",
     "aduanera",
     "aduanera vuce",
     "digitalizacion aduanera",
@@ -9457,21 +9559,23 @@
     "logisticas, digitalizacion",
     "mediante plataformas",
     "plataformas logisticas,",
-    "reducir tiempos",
+    "reducir 50%",
     "tiempos exportacion",
     "vuce",
-    "vuce interoperable."
+    "vuce 2.0"
    ]
   },
   "t2-8.M03": {
    "phrases": [
+    "10%",
+    "10% participacion",
     "certificaciones sostenibles.",
     "colectivas",
     "colectivas certificaciones",
     "exportadoras,",
     "exportadoras, impulsando",
     "impulsando marcas",
-    "incrementar participacion",
+    "incrementar 10%",
     "marcas",
     "marcas colectivas",
     "mype exportadoras,",
@@ -9480,6 +9584,7 @@
   },
   "t2-8.P01": {
    "phrases": [
+    "10 polos",
     "desarrollo plan",
     "industriales modernos,",
     "modernos,",
@@ -9488,7 +9593,7 @@
     "parques industriales",
     "plan nacional",
     "polos productivos",
-    "priorizando polos",
+    "priorizando 10",
     "productivos regiones",
     "regiones estrategicas."
    ]
@@ -9672,6 +9777,8 @@
    "phrases": [
     "(vuce",
     "(vuce 2.0)",
+    "2.0",
+    "2.0 (vuce",
     "2.0)",
     "2.0) inteligencia",
     "aduanas,",
@@ -9679,7 +9786,7 @@
     "artificial interoperable",
     "comercio exterior",
     "exportacion.",
-    "exterior (vuce",
+    "exterior 2.0",
     "implementacion ventanilla",
     "interoperable sunat,",
     "promperu,",
@@ -9909,6 +10016,7 @@
   },
   "t2-9.M01": {
    "phrases": [
+    "40% eliminar",
     "abierto",
     "abierto capitales",
     "alcanzar tasa",
@@ -9924,11 +10032,12 @@
     "tasa",
     "tasa nacional",
     "valorizacion",
-    "valorizacion eliminar"
+    "valorizacion 40%"
    ]
   },
   "t2-9.M02": {
    "phrases": [
+    "50% deforestacion",
     "amazonia,",
     "amazonia, priorizando",
     "comunal,",
@@ -9941,13 +10050,14 @@
     "priorizando titulacion",
     "productivos sostenibles.",
     "proyectos productivos",
-    "reducir deforestacion",
+    "reducir 50%",
     "titulacion comunal,",
     "vigilancia forestal"
    ]
   },
   "t2-9.M03": {
    "phrases": [
+    "70% regiones,",
     "ambiental tiempo",
     "climatica finanzas",
     "finanzas",
@@ -9957,7 +10067,7 @@
     "impulsando gestion",
     "monitoreo ambiental",
     "plataformas monitoreo",
-    "real regiones,",
+    "real 70%",
     "regiones,",
     "regiones, impulsando",
     "tiempo real",
@@ -10032,6 +10142,7 @@
   },
   "t2-9.P04": {
    "phrases": [
+    "50% inversion",
     "ambientales.",
     "certificaciones ambientales.",
     "creacion regimen",
@@ -10040,7 +10151,7 @@
     "eficiencia energetica",
     "empresas verdes,",
     "energetica certificaciones",
-    "hasta inversion",
+    "hasta 50%",
     "incentivos tributarios",
     "inversion procesos",
     "permita deducir",
@@ -10332,20 +10443,22 @@
   },
   "t3-1.M01": {
    "phrases": [
+    "40% insercion",
     "empleos",
     "empleos formales",
     "formales calidad.",
-    "incrementar insercion",
+    "incrementar 40%",
     "insercion jovenes",
     "jovenes empleos"
    ]
   },
   "t3-1.M02": {
    "phrases": [
+    "20% desercion",
     "desercion",
     "desercion educacion",
     "educacion superior",
-    "reducir desercion",
+    "reducir 20%",
     "superior tecnica",
     "tecnica universitaria.",
     "universitaria."
@@ -10353,10 +10466,11 @@
   },
   "t3-1.M03": {
    "phrases": [
+    "20% acceso",
     "acceso jovenes",
     "apoyo emocional.",
     "emocional.",
-    "incrementar acceso",
+    "incrementar 20%",
     "jovenes servicios",
     "mental apoyo",
     "salud mental",
@@ -10468,6 +10582,9 @@
   },
   "t3-1.P04": {
    "phrases": [
+    "35",
+    "35 meses,",
+    "6 35",
     "ademas",
     "ademas monitoreo",
     "adherencia",
@@ -10502,7 +10619,7 @@
     "monitoreo mensual",
     "multisectorial",
     "multisectorial lucha",
-    "ninos meses,",
+    "ninos 6",
     "oportuna suplementos",
     "plan multisectorial",
     "presupuestal especifica",
@@ -11565,6 +11682,12 @@
    "phrases": [
     "(sis),",
     "(sis), cobertura",
+    "18",
+    "18 23",
+    "23",
+    "23 anos",
+    "50",
+    "50 aporte",
     "acceso efectivo",
     "afiliados",
     "afiliados seguro",
@@ -11574,7 +11697,7 @@
     "aporte essalud,",
     "aseguramiento salud",
     "asuma",
-    "asuma aporte",
+    "asuma 50",
     "caso",
     "caso pequenas",
     "cinco",
@@ -11608,7 +11731,7 @@
     "formalizacion garantizar",
     "garantizar acceso",
     "integral salud",
-    "jovenes anos",
+    "jovenes 18",
     "jovenes empleados",
     "juvenil formal:",
     "laboral, promover",
@@ -11707,9 +11830,11 @@
   },
   "t3-1.P43": {
    "phrases": [
+    "18",
+    "18 programas",
     "articulado becas",
+    "beca 18",
     "beca master",
-    "beca programas",
     "becas nacionales",
     "competencias empleabilidad.",
     "convenios beca",
@@ -12356,9 +12481,12 @@
   },
   "t3-1.P58": {
    "phrases": [
+    "1 2",
+    "2",
+    "2 anos",
     "anos servicio",
     "beca especial",
-    "cambio anos",
+    "cambio 1",
     "carreras",
     "carreras especialidades",
     "centro salud",
@@ -12653,6 +12781,7 @@
   },
   "t3-10.M03": {
    "phrases": [
+    "60% comunidades",
     "comunidades programas",
     "consolidar",
     "consolidar internacional",
@@ -12664,7 +12793,7 @@
     "formativos",
     "formativos culturales",
     "internacional educacion",
-    "menos comunidades",
+    "menos 60%",
     "permanentes.",
     "peruana cubra",
     "programas formativos"
@@ -14184,6 +14313,7 @@
   },
   "t3-2.M01": {
    "phrases": [
+    "50% brecha",
     "basicos conectividad",
     "brecha infraestructura",
     "colegios priorizados.",
@@ -14194,20 +14324,21 @@
     "garantizar servicios",
     "infraestructura educativa",
     "priorizados.",
-    "reducir brecha",
+    "reducir 50%",
     "servicios basicos",
     "todos colegios"
    ]
   },
   "t3-2.M02": {
    "phrases": [
+    "50% egresados",
     "alcanzar tasa",
     "ano,",
     "ano, mediante",
     "egresados tecnicos",
     "insercion laboral",
     "institutos vinculacion",
-    "laboral egresados",
+    "laboral 50%",
     "mediante modernizacion",
     "menos ano,",
     "modernizacion institutos",
@@ -14373,11 +14504,12 @@
   },
   "t3-2.P07": {
    "phrases": [
+    "50% infraestructura,",
     "colegios publicos",
     "combinando",
     "combinando reconstruccion",
     "danos",
-    "danos infraestructura,",
+    "danos 50%",
     "ejecucion programa",
     "infraestructura, combinando",
     "integral,",
@@ -14476,8 +14608,9 @@
   },
   "t3-2.P11": {
    "phrases": [
+    "6 millones",
     "adquisicion",
-    "adquisicion millones",
+    "adquisicion 6",
     "conexion",
     "conexion internet",
     "edad",
@@ -14494,10 +14627,12 @@
   },
   "t3-2.P12": {
    "phrases": [
+    "9",
+    "9 regiones.",
     "bicentenario:",
     "bicentenario: renovacion",
     "construccion peip",
-    "educativa regiones.",
+    "educativa 9",
     "escuelas bicentenario:",
     "infraestructura educativa",
     "integral infraestructura",
@@ -14867,6 +15002,10 @@
   },
   "t3-2.P25": {
    "phrases": [
+    "3o",
+    "3o 5o",
+    "5o",
+    "5o secundaria",
     "alta demanda,",
     "autorizados.",
     "becas cetpro",
@@ -14880,7 +15019,7 @@
     "corta oficios",
     "demanda,",
     "demanda, financiada",
-    "desde secundaria",
+    "desde 3o",
     "digitales alta",
     "egresen",
     "egresen secundaria",
@@ -14909,6 +15048,11 @@
   },
   "t3-2.P26": {
    "phrases": [
+    "5o",
+    "5o 6o",
+    "5o secundaria",
+    "6o",
+    "6o primaria",
     "adaptadas",
     "adaptadas cada",
     "aprovecha",
@@ -14932,7 +15076,7 @@
     "curriculo",
     "curriculo nacional,",
     "desarrollo personal,",
-    "desde primaria",
+    "desde 5o",
     "dinamicas",
     "dinamicas adaptadas",
     "docentes capacitados,",
@@ -14948,7 +15092,7 @@
     "forma practica",
     "habilidades blandas,",
     "habilidades vida”,",
-    "hasta secundaria",
+    "hasta 5o",
     "horas tutoria",
     "manejo",
     "manejo emocional,",
@@ -14986,6 +15130,8 @@
    "phrases": [
     "(empatia,",
     "(empatia, sociabilidad",
+    "2da",
+    "2da etapa",
     "acompanan”,",
     "acompanan”, reforzar",
     "anual simple,",
@@ -15016,7 +15162,7 @@
     "habilidades socioemocionales",
     "hora",
     "hora tutoria",
-    "incluyendo etapa",
+    "incluyendo 2da",
     "lideres",
     "lideres acompanan”,",
     "lideres estudiantiles",
@@ -15638,11 +15784,12 @@
   },
   "t3-3.M01": {
    "phrases": [
+    "20% mediante",
     "anemia infantil",
     "chequeos",
     "chequeos preventivos",
     "cobertura universal",
-    "infantil mediante",
+    "infantil 20%",
     "materno-infantiles",
     "materno-infantiles reforzados.",
     "mediante cobertura",
@@ -15659,6 +15806,7 @@
   "t3-3.M02": {
    "phrases": [
     "100% centros",
+    "30% tiempos",
     "centros primer",
     "espera",
     "espera hospitalaria.",
@@ -15668,7 +15816,7 @@
     "operativa",
     "operativa 100%",
     "primer nivel",
-    "reducir tiempos",
+    "reducir 30%",
     "telemedicina",
     "telemedicina operativa",
     "tiempos espera"
@@ -15678,6 +15826,7 @@
    "phrases": [
     "(minsa,",
     "(minsa, essalud",
+    "80% sistema",
     "clinica",
     "clinica electronica",
     "dni.",
@@ -15686,7 +15835,7 @@
     "essalud sanidades)",
     "historia",
     "historia clinica",
-    "integrar sistema",
+    "integrar 80%",
     "ligada",
     "ligada dni.",
     "salud (minsa,",
@@ -15791,12 +15940,13 @@
   },
   "t3-3.P04": {
    "phrases": [
+    "3 anos",
     "anos seguimiento",
     "gestantes",
     "gestantes ninos",
     "implementacion padron",
     "interoperable reniec",
-    "menores anos",
+    "menores 3",
     "ninos menores",
     "nominal",
     "nominal gestantes",
@@ -15881,6 +16031,10 @@
   },
   "t3-3.P08": {
    "phrases": [
+    "16",
+    "16 60",
+    "60",
+    "60 anos,",
     "adultos mayores",
     "anos personas",
     "anos,",
@@ -15895,11 +16049,11 @@
     "establecimiento plan",
     "gratuito",
     "gratuito adultos",
-    "mayores anos,",
+    "mayores 60",
     "medicos",
     "medicos obligatorios",
     "obligatorios cada",
-    "personas anos,",
+    "personas 16",
     "plan vacunacion",
     "temprana.",
     "vacunacion",
@@ -16004,6 +16158,8 @@
   },
   "t3-3.P13": {
    "phrases": [
+    "113",
+    "113 salud",
     "24/7,",
     "24/7, integrada",
     "atencion 24/7,",
@@ -16014,7 +16170,7 @@
     "emocional atencion",
     "integrada",
     "integrada linea",
-    "linea salud",
+    "linea 113",
     "mental.",
     "orientacion emocional",
     "plataforma digital",
@@ -16833,6 +16989,7 @@
   },
   "t3-4.C03": {
    "phrases": [
+    "10 regiones",
     "asociaciones rurales",
     "compras directas",
     "directas productores",
@@ -16844,18 +17001,19 @@
     "priorizadas, eliminando",
     "productores locales",
     "regiones priorizadas,",
-    "rurales regiones"
+    "rurales 10"
    ]
   },
   "t3-4.M01": {
    "phrases": [
+    "20% fortalecer",
     "anemia infantil",
     "escolares",
     "escolares familias",
     "familias vulnerables.",
     "fortalecer habitos",
     "habitos saludables",
-    "infantil fortalecer",
+    "infantil 20%",
     "reducir anemia",
     "saludables escolares",
     "vulnerables."
@@ -16863,12 +17021,13 @@
   },
   "t3-4.M02": {
    "phrases": [
+    "50% alimentos",
     "alimentos programas",
     "compras publicas",
     "impulsando compras",
     "locales reduccion",
     "locales, impulsando",
-    "lograr alimentos",
+    "lograr 50%",
     "perdidas poscosecha.",
     "poscosecha.",
     "productores locales,",
@@ -17237,6 +17396,7 @@
   },
   "t3-5.C02": {
    "phrases": [
+    "50% ayuda",
     "aumentara",
     "aumentara hasta",
     "ayuda",
@@ -17246,7 +17406,7 @@
     "bono reforzado,",
     "estatal familias",
     "familias bajos",
-    "hasta ayuda",
+    "hasta 50%",
     "ingresos.",
     "programa techo",
     "propio",
@@ -17284,6 +17444,7 @@
   },
   "t3-5.M01": {
    "phrases": [
+    "30% deficit",
     "catastro",
     "catastro interoperable.",
     "ciudades provinciales",
@@ -17297,7 +17458,7 @@
     "priorizando ciudades",
     "provinciales",
     "provinciales planes",
-    "reducir deficit",
+    "reducir 30%",
     "urbanos integrales"
    ]
   },
@@ -17324,13 +17485,14 @@
   },
   "t3-5.M03": {
    "phrases": [
+    "1 millon",
     "catastros",
     "catastros municipales",
     "cofopri",
     "cofopri integrando",
     "digitales, fortaleciendo",
     "emitir",
-    "emitir millon",
+    "emitir 1",
     "fortaleciendo cofopri",
     "integrando catastros",
     "millon",
@@ -17345,6 +17507,7 @@
    "phrases": [
     "1.25",
     "1.25 millones",
+    "50% deficit",
     "acceso servicios",
     "asociaciones publico-privadas,",
     "basicos,",
@@ -17369,7 +17532,7 @@
     "publica, privada",
     "publico-privadas,",
     "publico-privadas, priorizando",
-    "reducir deficit",
+    "reducir 50%",
     "servicios basicos,",
     "transporte internet,",
     "traves mecanismos",
@@ -17614,6 +17777,8 @@
   },
   "t3-5.P11": {
    "phrases": [
+    "4%",
+    "4% familias",
     "bajos",
     "bajos ingresos,",
     "ecoeficientes.",
@@ -17625,7 +17790,7 @@
     "ingresos, ligado",
     "ligado",
     "ligado viviendas",
-    "menores familias",
+    "menores 4%",
     "modernizacion fondo",
     "tasas menores",
     "verde tasas",
@@ -18108,6 +18273,7 @@
   },
   "t3-6.C02": {
    "phrases": [
+    "50% avance,",
     "acceso.",
     "agua saneamiento",
     "avance,",
@@ -18119,7 +18285,7 @@
     "proyectos regiones",
     "reactivacion obras",
     "regiones mayor",
-    "saneamiento avance,"
+    "saneamiento 50%"
    ]
   },
   "t3-6.C03": {
@@ -18167,9 +18333,10 @@
   },
   "t3-6.M02": {
    "phrases": [
+    "60% operen",
     "digital tiempo",
     "financiera monitoreo",
-    "lograr operen",
+    "lograr 60%",
     "monitoreo digital",
     "operen",
     "operen sostenibilidad",
@@ -18179,10 +18346,12 @@
   },
   "t3-6.M03": {
    "phrases": [
+    "55%",
+    "55% aguas",
     "agricola industrial.",
     "aguas residuales",
     "industrial.",
-    "menos aguas",
+    "menos 55%",
     "residuales tratadas",
     "reutilizar",
     "reutilizar menos",
@@ -18274,6 +18443,7 @@
   },
   "t3-6.P05": {
    "phrases": [
+    "50% avance,",
     "avance,",
     "avance, bajo",
     "bajo convenios",
@@ -18283,7 +18453,7 @@
     "locales privados.",
     "obras paralizadas",
     "paralizadas",
-    "paralizadas avance,",
+    "paralizadas 50%",
     "privados.",
     "reactivacion obras"
    ]
@@ -18318,6 +18488,10 @@
   },
   "t3-6.P07": {
    "phrases": [
+    "2",
+    "2 millones",
+    "500",
+    "500 cisternas",
     "agua cuida",
     "agua.",
     "cambio redes",
@@ -18328,7 +18502,7 @@
     "critica; como",
     "cuida",
     "cuida vida”:",
-    "distribucion cisternas",
+    "distribucion 500",
     "implementacion “programa",
     "millones personas",
     "moviles potabilizacion",
@@ -18337,7 +18511,7 @@
     "personas situacion",
     "plantas moviles",
     "potabilizacion",
-    "potabilizacion millones",
+    "potabilizacion 2",
     "redes reducir",
     "reducir perdidas",
     "situacion critica;",
@@ -18606,6 +18780,7 @@
     "automatica",
     "automatica pension",
     "marcha sistema",
+    "pension 65",
     "preinscripcion",
     "preinscripcion automatica",
     "puesta marcha",
@@ -18644,14 +18819,18 @@
   },
   "t3-7.M01": {
    "phrases": [
+    "65,",
+    "65, contigo",
+    "95%",
+    "95% poblacion",
     "afiliar",
     "afiliar menos",
     "contigo juntos",
     "juntos",
     "juntos 2031.",
-    "menos poblacion",
+    "menos 95%",
     "objetivo pension",
-    "pension contigo",
+    "pension 65,",
     "poblacion objetivo"
    ]
   },
@@ -18691,6 +18870,9 @@
   },
   "t3-7.P01": {
    "phrases": [
+    "64",
+    "64 anos,",
+    "65 poblacion",
     "anos,",
     "anos, enlazada",
     "automatica",
@@ -18699,9 +18881,9 @@
     "enlazada reniec,",
     "essalud.",
     "implementacion preinscripcion",
-    "pension poblacion",
+    "pension 65",
     "poblacion potencial",
-    "potencial anos,",
+    "potencial 64",
     "preinscripcion",
     "preinscripcion automatica",
     "reniec,",
@@ -18821,21 +19003,31 @@
   },
   "t3-7.P07": {
    "phrases": [
+    "350",
+    "350 700",
+    "65:",
+    "65: aumento",
+    "700",
+    "700 bimestrales,",
     "adultos mayores",
-    "aumento bimestrales,",
+    "aumento 350",
     "bimestrales,",
     "bimestrales, priorizando",
     "mayores pobreza",
-    "pension aumento",
+    "pension 65:",
     "pobreza extrema.",
     "priorizando adultos"
    ]
   },
   "t3-7.P08": {
    "phrases": [
+    "300",
+    "300 600",
+    "600",
+    "600 mensuales,",
     "adicional",
     "adicional dependencia",
-    "aumento mensuales,",
+    "aumento 300",
     "complemento",
     "complemento adicional",
     "contigo:",
@@ -18851,7 +19043,11 @@
   },
   "t3-7.P09": {
    "phrases": [
-    "aumento bimestrales,",
+    "200",
+    "200 400",
+    "400",
+    "400 bimestrales,",
+    "aumento 200",
     "bimestrales,",
     "bimestrales, fortaleciendo",
     "economica hogares",
@@ -18872,7 +19068,26 @@
     "(15–20",
     "(15–20 anos):",
     "(inflacion",
-    "(inflacion crecimiento",
+    "(inflacion 1⁄3",
+    "1 100",
+    "100",
+    "100 mensuales.",
+    "1⁄3",
+    "1⁄3 crecimiento",
+    "300",
+    "300 400",
+    "400",
+    "400 550",
+    "400 mensuales.",
+    "550",
+    "550 mensuales.",
+    "600",
+    "600 800",
+    "65 contigo.",
+    "800",
+    "800 mensuales.",
+    "893",
+    "893 1",
     "adicional",
     "adicional rural/amazonico",
     "adquisitivo",
@@ -18883,7 +19098,10 @@
     "anual (inflacion",
     "aportes):",
     "aportes): aumento",
-    "aumento mensuales.",
+    "aumento 300",
+    "aumento 400",
+    "aumento 600",
+    "aumento 893",
     "bajas",
     "bajas bono",
     "beneficiarios.",
@@ -18915,7 +19133,7 @@
     "oficina normalizacion",
     "onp:",
     "onp: pension",
-    "pension contigo.",
+    "pension 65",
     "pension maxima:",
     "pension minima:",
     "pension proporcional",
@@ -18953,6 +19171,8 @@
   },
   "t3-7.P12": {
    "phrases": [
+    "65,",
+    "65, contigo",
     "contigo juntos,",
     "digital territorial",
     "entre sistemas",
@@ -18963,7 +19183,7 @@
     "midis,",
     "midis, onp.",
     "onp.",
-    "pension contigo",
+    "pension 65,",
     "sistemas midis,",
     "territorial pension",
     "unica digital"
@@ -18971,16 +19191,20 @@
   },
   "t3-7.P13": {
    "phrases": [
+    "100",
+    "100 linea.",
+    "30",
+    "30 dias,",
     "afiliacion pago",
     "dias,",
     "dias, tramite",
     "linea.",
-    "menos dias,",
+    "menos 30",
     "pago menos",
     "reduccion tiempo",
     "tiempo afiliacion",
     "tramite",
-    "tramite linea."
+    "tramite 100"
    ]
   },
   "t3-7.P14": {
@@ -19002,6 +19226,10 @@
   },
   "t3-7.P15": {
    "phrases": [
+    "65:",
+    "65: ampliacion",
+    "95",
+    "95 adultos",
     "adicional",
     "adicional dependencia",
     "adultos mayores",
@@ -19009,7 +19237,7 @@
     "atencion prioritaria",
     "bono adicional",
     "centros salud.",
-    "cobertura adultos",
+    "cobertura 95",
     "combine",
     "combine salud",
     "contigo.",
@@ -19021,7 +19249,7 @@
     "mayores pobreza",
     "nutricion atencion",
     "paquete “vejez",
-    "pension ampliacion",
+    "pension 65:",
     "pobreza extrema.",
     "preventiva, nutricion",
     "prioritaria",
@@ -19043,6 +19271,7 @@
    "phrases": [
     "(sillas,",
     "(sillas, bastones,",
+    "65 bajo",
     "acceso.",
     "ampliar entrega",
     "audifonos).",
@@ -19070,7 +19299,7 @@
     "movil",
     "movil expres",
     "pais. creacion",
-    "pension bajo",
+    "pension 65",
     "principales ampliar",
     "programa contigo:",
     "puerta",
@@ -19088,6 +19317,11 @@
   },
   "t3-7.P17": {
    "phrases": [
+    "200",
+    "200 400",
+    "400",
+    "400 bimestrales",
+    "65 personas",
     "adultos mayores",
     "alineacion",
     "alineacion incremento",
@@ -19105,7 +19339,7 @@
     "estatal madres",
     "hogares adultos",
     "incorporacion componente",
-    "incremento bimestrales",
+    "incremento 200",
     "infantil verificables.",
     "jovenes;",
     "jovenes; otorgamiento",
@@ -19118,7 +19352,7 @@
     "micro-aportes",
     "micro-aportes voluntarios",
     "otorgamiento bono",
-    "pension personas",
+    "pension 65",
     "personas discapacidad",
     "previsional micro-aportes",
     "programa juntos:",
@@ -19255,11 +19489,12 @@
   },
   "t3-8.M02": {
    "phrases": [
+    "1 millon",
     "30,000",
     "30,000 subsidios",
     "digitales otorgar",
     "emitir",
-    "emitir millon",
+    "emitir 1",
     "estructural",
     "estructural zonas",
     "millon",
@@ -19295,6 +19530,8 @@
   "t3-8.P01": {
    "phrases": [
     "2028.",
+    "24",
+    "24 horas/dia",
     "aseguramiento continuidad",
     "capitales regionales",
     "continuidad minima",
@@ -19303,10 +19540,12 @@
     "horas/dia",
     "horas/dia capitales",
     "minima",
-    "minima horas/dia",
+    "minima 24",
     "provincias",
     "provincias hacia",
-    "regionales horas"
+    "regionales ≥18",
+    "≥18",
+    "≥18 horas"
    ]
   },
   "t3-8.P02": {
@@ -19663,6 +19902,8 @@
   },
   "t3-9.C01": {
    "phrases": [
+    "500",
+    "500 canchas",
     "canchas",
     "canchas parques",
     "coordinacion municipios",
@@ -19679,7 +19920,7 @@
     "privado,",
     "privado, incorporando",
     "reacondicionamiento",
-    "reacondicionamiento canchas",
+    "reacondicionamiento 500",
     "sector privado,",
     "vecinal."
    ]
@@ -19739,6 +19980,7 @@
   },
   "t3-9.M01": {
    "phrases": [
+    "70% instituciones",
     "cuenten",
     "cuenten educacion",
     "deportiva funcional.",
@@ -19748,15 +19990,16 @@
     "funcional.",
     "infraestructura deportiva",
     "instituciones educativas",
-    "lograr instituciones",
+    "lograr 70%",
     "reforzada",
     "reforzada infraestructura"
    ]
   },
   "t3-9.M02": {
    "phrases": [
+    "60% poblacion",
     "actividad fisica",
-    "alcanzar poblacion",
+    "alcanzar 60%",
     "barriales.",
     "comunitaria programas",
     "fisica regular,",
@@ -19921,9 +20164,11 @@
   },
   "t3-9.P05": {
    "phrases": [
+    "18",
+    "18 programas",
     "articulado becas",
+    "beca 18",
     "beca master",
-    "beca programas",
     "becas nacionales",
     "competencias empleabilidad.",
     "convenios beca",

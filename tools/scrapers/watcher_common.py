@@ -78,9 +78,15 @@ STOPWORDS = {
 
 
 def significant_tokens(text: str, extra_stop: frozenset = frozenset()) -> list[str]:
-    """Normalized tokens minus stopwords and tokens <= 3 chars."""
+    """Normalized tokens minus stopwords and short tokens.
+
+    Tokens <= 3 chars are dropped as noise, except ones containing a digit —
+    short acronyms like "c5i" are distinctive (generic numbers like "100" or a
+    year survive here but get dropped later by the index's document-frequency gate).
+    """
     return [t for t in normalize(text).split()
-            if len(t) > 3 and t not in STOPWORDS and t not in extra_stop]
+            if (len(t) > 3 or any(c.isdigit() for c in t))
+            and t not in STOPWORDS and t not in extra_stop]
 
 
 def phrases_of(tokens: list[str]) -> set[str]:

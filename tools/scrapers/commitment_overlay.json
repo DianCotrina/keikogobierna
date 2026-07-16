@@ -1,0 +1,5 @@
+{
+  "boost": { "t1-1.C01": ["c5i"] },
+  "suppress_terms": ["comuniquese", "registrese", "publiquese", "cumplase"],
+  "mute_commitments": []
+}
