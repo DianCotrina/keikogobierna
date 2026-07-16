@@ -4,21 +4,35 @@
 
 Read the day's normas published in *El Peruano* (the primary source) and surface any that touch a tracked commitment as GitHub issues for editorial review. The reader never changes a status: `src/data/tracking.json` is only updated by a human through the PR flow.
 
-This complements the [Evidence Watcher](evidence_watcher.md): El Peruano is the primary-source, high-precision stream; Google News is the broad-recall context stream. Both feed the same `evidencia-candidata` queue and share `tools/scrapers/watcher_keywords.json`.
+This complements the [Evidence Watcher](evidence_watcher.md): El Peruano is the primary-source, high-precision stream; Google News is the broad-recall context stream. Both feed the same `evidencia-candidata` queue. They match differently, though: the news watcher *searches* Google News with the hand-written queries in `watcher_keywords.json`; El Peruano *matches* each norma against the plan's own commitments via the shared `matcher.py` (below).
 
 ## How it works
 
 1. `.github/workflows/elperuano-scraper.yml` runs daily (13:00 UTC ≈ 08:00 Lima) or on manual dispatch.
 2. `tools/scrapers/elperuano_scraper.py` runs three stages:
    - **Fetch** — GraphQL POST to `https://busquedas.elperuano.pe/api/graphql` (`getGenericPublication`), paginated over the day. Returns structured records `{tipo, numero, sector, sumilla, url_pdf, op, …}`.
-   - **Keyword prefilter** — each norma's `numero + tipo + sumilla` is matched against the queries in `tools/scrapers/watcher_keywords.json` (accent/case-insensitive; ≥2 significant terms). A day with zero matches ends the run.
-   - **Issues + archive** — one `evidencia-candidata` issue per surviving candidate (stateless `[np-<sha1>]` dedup token in the title, cap 10/run). Each issue embeds a text excerpt of the norma plus a ready-to-complete evidence JSON block. Text source chain: `https://busquedas.elperuano.pe/api/visor_html/<op>` (clean single-norma HTML, ~13KB, stdlib-stripped) → per-norma PDF via `pypdf` (page-scoped, may include fragments of neighboring normas) → sumilla. The day's full record set is appended to `normas/<date>.jsonl` on the `normas-archive` branch (a growing structured corpus for future analysis — not read by anything yet).
+   - **Match against plan commitments** — each norma's `numero + tipo + sumilla` is matched by the shared `tools/scrapers/matcher.py` against `commitment_index.json`, a distinctive-**bigram** index built from all 764 plan commitments (see below). A norma matches a commitment when it contains one of that commitment's distinctive bigrams. A day with zero matches ends the run.
+   - **Issues + archive** — one `evidencia-candidata` issue per surviving candidate (stateless `[np-<sha1>]` dedup token in the title, cap 10/run), also labeled `tema:<slug>` per matched commitment so a tema's queue is one GitHub filter. Each issue embeds a text excerpt of the norma plus a ready-to-complete evidence JSON block. Text source chain: `https://busquedas.elperuano.pe/api/visor_html/<op>` (clean single-norma HTML, ~13KB, stdlib-stripped) → per-norma PDF via `pypdf` (page-scoped, may include fragments of neighboring normas) → sumilla. The day's full record set is appended to `normas/<date>.jsonl` on the `normas-archive` branch (a growing structured corpus for future analysis — not read by anything yet).
 
    There is **no AI stage** (a Claude judge existed briefly and was removed 2026-07-15 — decision: no API costs; deterministic scrapers + human review are enough).
 
+## The commitment matcher
+
+`matcher.py` is shared (the only place matching logic lives; any future source uses it). Its index is built from the plan, not hand-written:
+
+- `tools/scrapers/build_commitment_index.py` reads `src/data/plan/` (proposals + first-100-days + goals) and writes `commitment_index.json`: for each commitment, the **bigrams** (adjacent significant-word pairs) that are rare across the other commitments (`DF_MAX_BIGRAM`). Regenerate it whenever the plan changes: `python3 tools/scrapers/build_commitment_index.py`. CI runs `--check` to fail if the committed file drifts from the plan.
+- **Why bigrams only:** a single word rare in the plan ("fiscal", "horario") is still common in daily normas, so unigram matching floods the queue. Multiword phrases ("unidades flagrancia", "ventanilla consular") are the precise signal. Matching is on filtered-token subsequences, so `"unidades flagrancia"` still matches "unidades **de** flagrancia".
+- `tools/scrapers/commitment_overlay.json` is the hand-tune layer:
+  - `suppress_phrases` — generic government bigrams the plan-frequency can't catch (they appear once in the plan but constantly in normas: "poder judicial", "servicios publicos", "direccion general", …). This is the main precision knob; add offenders here.
+  - `boost` — extra phrases per commitment, including distinctive **single words** (e.g. `c5i`), the only route by which a unigram matches.
+  - `mute_commitments` — silence a noisy commitment id, or a whole tema id (`t1-1`).
+  - `suppress_terms` — extra global stopwords dropped during tokenization.
+- Precision reference: over 4 real days this yields ~5–13 matched normas/day out of 300–650 (favor precision; misses are acceptable and caught by the news watcher or manual review).
+
 ## Inputs / config
 
-- `tools/scrapers/watcher_keywords.json` — shared with the news watcher. Tune queries and `related` ids here.
+- `tools/scrapers/commitment_index.json` — generated from the plan; regenerate with `build_commitment_index.py` when the plan changes.
+- `tools/scrapers/commitment_overlay.json` — hand-tune: `suppress_phrases`, `boost`, `mute_commitments`, `suppress_terms` (see the matcher section).
 - `tools/scrapers/elperuano_scraper.py` → `SKIP_TIPOS` — norma types to drop outright (empty by default; add municipal/local types if local noise appears); `EXCERPT_CHARS` — issue excerpt length.
 
 ## Local testing
@@ -26,8 +40,14 @@ This complements the [Evidence Watcher](evidence_watcher.md): El Peruano is the 
 ```bash
 python3 tools/scrapers/elperuano_scraper.py --dry-run                 # today, print records/matches, no writes
 python3 tools/scrapers/elperuano_scraper.py --date 2026-07-10 --dry-run
+python3 tools/scrapers/build_commitment_index.py --report            # commitments with zero phrases
+python3 tools/scrapers/build_commitment_index.py --check             # fail if index drifts from the plan
 python3 -m unittest discover -s tools/tests -p "test_*.py"        # deterministic-stage unit tests
 ```
+
+## Tuning precision
+
+When the daily queue is noisy, inspect a day (`--dry-run`) and either add the offending generic bigram to `suppress_phrases`, or `mute` a commitment/tema in the overlay. When a real match is missed, add a `boost` phrase to that commitment. No index rebuild is needed for overlay edits; rebuild only when the plan text changes.
 
 ## Reviewing a candidate issue
 
@@ -40,6 +60,6 @@ python3 -m unittest discover -s tools/tests -p "test_*.py"        # deterministi
 - The GraphQL API is **unofficial** (reverse-engineered from the site, 2026-07-12; introspection is enabled — 19 root queries, e.g. `getNormaPorOp`, `getCuadernillos`). If the endpoint, query name (`getGenericPublication`), or field names change, the run fails loudly in Actions — fix the tool and record the change here. The daily-PDF sumario parser is the documented fallback.
 - **Document formats compared (2026-07-15):** the daily *cuadernillo* (booklet, ~150 pages/28MB) is the whole edition and would need fragile layout segmentation — not used. The per-norma PDF (`urlPDF`, ~400KB) is page-scoped and needs pypdf — fallback. `/api/visor_html/<op>` (~13KB) is the norma's clean single-norma HTML — primary text source. The site's "HTML" button is just a viewer page around that same endpoint (found via its `visor_id` iframe).
 - `urlPDF` values point at a media proxy (`/api/media/...`) that serves the PDF regardless of the requested extension; occasionally a norma has no downloadable PDF or HTML rendition — text extraction falls back down the chain and ultimately to the sumilla.
-- 483 normas on a sample day (2026-07-10), most municipal; the keyword filter is what keeps the queue relevant, so keyword quality matters more than any type allowlist.
+- 483 normas on a sample day (2026-07-10), most municipal; the matcher's bigram index + `suppress_phrases` stoplist are what keep the queue relevant.
 - Issues created by `GITHUB_TOKEN` don't trigger other workflows (GitHub policy) — irrelevant here.
 - The archive push goes through `tools/ci/publish_data_branch.sh` (shared with the ultimitas scraper): a `git worktree` on the orphan `normas-archive` branch, so it never touches `main` (which is protected by the `protect-main` ruleset).
