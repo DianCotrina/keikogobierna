@@ -31,18 +31,17 @@ import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+from matcher import load_matcher
 from watcher_common import (
     DEFAULT_REPO,
+    LABEL,
     create_issue,
     dedup_token,
     ensure_label,
     http_get,
     http_post_json,
     issue_exists,
-    normalize,
 )
-
-KEYWORDS_PATH = Path(__file__).resolve().parent / "watcher_keywords.json"
 
 GRAPHQL_URL = "https://busquedas.elperuano.pe/api/graphql"
 GRAPHQL_QUERY = """query Generic($fechaIni: String, $fechaFin: String, $paginatedBy: Int, $start: Int) {
@@ -57,14 +56,9 @@ MAX_NEW_ISSUES = 10
 EXCERPT_CHARS = 1200  # norma-text excerpt embedded in each issue for review
 
 # Tunable noise gate: norma types to skip outright (municipal/local acts rarely
-# touch national commitments). Empty by default — the keyword filter is the real
+# touch national commitments). Empty by default — the matcher is the real
 # relevance gate; add tipos here only if local noise shows up in the queue.
 SKIP_TIPOS: set[str] = set()
-
-STOPWORDS = {
-    "de", "la", "el", "en", "y", "para", "con", "los", "las", "del", "por",
-    "un", "una", "que", "a", "su", "se", "al", "o", "e", "sus", "es",
-}
 
 
 # ---- Stage 1: fetch (GraphQL) -------------------------------------------------
@@ -106,24 +100,9 @@ def fetch_normas(yyyymmdd: str) -> list[dict]:
     return [r for r in records if r["tipo"] not in SKIP_TIPOS]
 
 
-# ---- Stage 2: keyword prefilter ----------------------------------------------
-
-def significant_terms(query: str) -> list[str]:
-    return [t for t in normalize(query).split() if len(t) > 3 and t not in STOPWORDS]
-
-
-def match_record(record: dict, keywords: list[dict]) -> list[str]:
-    """Return the related commitment ids for every keyword entry this norma matches."""
-    haystack = normalize(f"{record['numero']} {record['tipo']} {record['sumilla']}")
-    related: list[str] = []
-    for entry in keywords:
-        terms = significant_terms(entry["query"])
-        if not terms:
-            continue
-        present = sum(1 for t in terms if t in haystack)
-        if present >= min(2, len(terms)):
-            related.extend(entry.get("related", []))
-    return sorted(set(related))
+# ---- Stage 2: match against plan commitments ---------------------------------
+# Matching lives in tools/scrapers/matcher.py (shared). A norma's numero + tipo +
+# sumilla is matched against the distinctive-phrase index built from the plan.
 
 
 # ---- Stage 3: norma text (for the issue excerpt) ------------------------------
@@ -227,7 +206,7 @@ def write_archive(archive_dir: str, iso_date: str, records: list[dict]) -> None:
 def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
     yyyymmdd = target.strftime("%Y%m%d")
     iso_date = target.isoformat()
-    keywords = json.loads(KEYWORDS_PATH.read_text())
+    matcher = load_matcher()
 
     repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
     gh_token = os.environ.get("GITHUB_TOKEN", "")
@@ -238,7 +217,10 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
     records = fetch_normas(yyyymmdd)
     if archive_dir:
         write_archive(archive_dir, iso_date, records)
-    matched = [(r, rel) for r in records if (rel := match_record(r, keywords))]
+    matched = [
+        (r, rel) for r in records
+        if (rel := matcher.match(f"{r['numero']} {r['tipo']} {r['sumilla']}"))
+    ]
     print(f"{iso_date}: {len(records)} normas, {len(matched)} matched")
 
     if not matched:
@@ -261,9 +243,14 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
             break
         if issue_exists(token_str, repo, gh_token):
             continue
+        tema_labels = sorted({f"tema:{s}" for cid in related if (s := matcher.tema_slug(cid))})
+        for tl in tema_labels:
+            ensure_label(repo, gh_token, name=tl, color="6B6F7B",
+                         description=f"Compromisos del tema «{tl.split(':', 1)[1]}»")
         excerpt = " ".join(norma_text(record).split())[:EXCERPT_CHARS]
         title = f"Norma candidata: {record['tipo']} {record['numero']} [{token_str}]"[:250]
-        issue = create_issue(repo, gh_token, title, issue_body(record, related, iso_date, excerpt))
+        issue = create_issue(repo, gh_token, title, issue_body(record, related, iso_date, excerpt),
+                             labels=[LABEL] + tema_labels)
         created += 1
         print(f"Created issue #{issue['number']}: {record['tipo']} {record['numero']}")
 

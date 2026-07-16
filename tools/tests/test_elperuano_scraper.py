@@ -29,31 +29,19 @@ class ParseResultsTest(unittest.TestCase):
         self.assertFalse(has_next)
 
 
-class MatchRecordTest(unittest.TestCase):
-    KEYWORDS = [
-        {"query": "patrulleros inteligentes cámaras comisarías", "related": ["t1-1.C04"]},
-        {"query": "MYPE formalización trámites digitales", "related": ["t2-1.C01"]},
-    ]
+class MatcherIntegrationTest(unittest.TestCase):
+    """The scraper matches norma text against the real committed commitment index."""
 
-    def test_matches_on_sumilla_terms(self):
-        rec = {
-            "numero": "N° 044-2026-IN", "tipo": "Decreto Supremo", "sumilla":
-            "Autorizan la adquisición de patrulleros inteligentes con cámaras para comisarías",
-        }
-        self.assertEqual(er.match_record(rec, self.KEYWORDS), ["t1-1.C04"])
+    def test_matched_ids_are_well_formed_commitments(self):
+        import matcher
+        ids = matcher.load_matcher().match("Autorizan la creación de unidades de flagrancia")
+        self.assertTrue(ids, "a distinctive plan phrase should match at least one commitment")
+        self.assertTrue(all(i.count(".") == 1 for i in ids))  # e.g. t1-1.C02
 
-    def test_no_match_returns_empty(self):
-        rec = {"numero": "N° 1", "tipo": "Ordenanza", "sumilla": "Aprueban horario de feria dominical"}
-        self.assertEqual(er.match_record(rec, self.KEYWORDS), [])
-
-    def test_accent_and_case_insensitive(self):
-        rec = {"numero": "X", "tipo": "Ley", "sumilla": "FORMALIZACION de la MYPE con tramites DIGITALES"}
-        self.assertEqual(er.match_record(rec, self.KEYWORDS), ["t2-1.C01"])
-
-
-class HelpersTest(unittest.TestCase):
-    def test_significant_terms_drops_stopwords_and_short(self):
-        self.assertEqual(er.significant_terms("de la MYPE en el Perú"), ["mype", "peru"])
+    def test_unrelated_norma_matches_nothing(self):
+        import matcher
+        self.assertEqual(
+            matcher.load_matcher().match("Designan fedatarios institucionales de la intendencia regional"), [])
 
 
 class HtmlToTextTest(unittest.TestCase):
