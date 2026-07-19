@@ -4,7 +4,8 @@ import TrackerCard from '../components/TrackerCard.astro';
 import TopicCard from '../components/TopicCard.astro';
 import CumplidasRegistry from '../components/CumplidasRegistry.astro';
 import HeroBanner from '../components/HeroBanner.astro';
-import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, topicSummaries, statusOf, fulfilledItems } from '../lib/plan.mjs';
+import Stamp from '../components/Stamp.astro';
+import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, topicSummaries, statusOf, fulfilledItems, updatesLog } from '../lib/plan.mjs';
 import { formatDateEs } from '../lib/format.mjs';
 
 const plan = loadPlan();
@@ -30,6 +31,13 @@ const pillarGroups = plan.pillars.map((pillar) => ({
 }));
 
 const cumplidas = fulfilledItems(plan, loadTopics(), tracking);
+
+// A log entry names a commitment (t1-1.M01); its topic is the id up to the dot.
+const topicById = new Map(plan.topics.map((topic) => [topic.id, topic]));
+const updates = updatesLog(tracking).map((entry) => {
+  const topic = topicById.get(entry.item.split('.')[0]);
+  return { ...entry, topicName: topic?.name, topicSlug: topic?.slug };
+});
 ---
 
 <Base
@@ -146,22 +154,41 @@ const cumplidas = fulfilledItems(plan, loadTopics(), tracking);
           <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
             <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">01</span>
             <div>
-              <h3 class="font-sans font-bold">Extraemos cada compromiso</h3>
-              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Tomamos el plan de gobierno oficial inscrito ante el JNE y lo descomponemos en compromisos medibles, con cita textual y número de página.</p>
+              <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                <h3 class="font-sans font-bold">Extraemos cada compromiso</h3>
+                <span class="font-mono text-[0.6rem] uppercase tracking-[0.14em] text-tintafina">Automático</span>
+              </div>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Del plan inscrito ante el JNE salen 764 compromisos: 632 propuestas, 67 acciones de los primeros 100 días y 65 metas al 2031. Cada uno conserva el texto tal como figura en el documento.</p>
             </div>
           </li>
           <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
             <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">02</span>
             <div>
-              <h3 class="font-sans font-bold">Contrastamos con fuentes públicas</h3>
-              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Normas en El Peruano, ejecución presupuestal del MEF, estadísticas del INEI y actas del Congreso. Todo enlazado y descargable.</p>
+              <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                <h3 class="font-sans font-bold">Rastreamos El Peruano cada día</h3>
+                <span class="font-mono text-[0.6rem] uppercase tracking-[0.14em] text-tintafina">Automático</span>
+              </div>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Un programa compara las normas del diario oficial con el texto de cada compromiso y anota las coincidencias para revisión. Sin inteligencia artificial: solo coincidencias de texto que cualquiera puede rehacer.</p>
             </div>
           </li>
           <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
             <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">03</span>
             <div>
-              <h3 class="font-sans font-bold">Asignamos un estado con evidencia</h3>
-              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Cumplida, en progreso, sin avance o incumplida. Cada cambio de estado registra fecha, evidencia y quién lo revisó.</p>
+              <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                <h3 class="font-sans font-bold">Una persona revisa y certifica</h3>
+                <span class="font-mono text-[0.6rem] uppercase tracking-[0.14em] text-rojo bg-rojo/10 px-2 py-0.5 rounded">Revisión humana</span>
+              </div>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Ninguna máquina asigna un estado. Una persona revisa cada coincidencia, la contrasta con otras fuentes oficiales —MEF, INEI, Congreso— cuando el compromiso lo exige, y recién ahí marca: cumplida, en progreso, sin avance o incumplida.</p>
+            </div>
+          </li>
+          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+            <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">04</span>
+            <div>
+              <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                <h3 class="font-sans font-bold">Queda por escrito y a la vista</h3>
+                <span class="font-mono text-[0.6rem] uppercase tracking-[0.14em] text-tintafina">Público</span>
+              </div>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Cada estado se publica con su fecha y su fuente enlazada. Los datos se descargan completos y el código que hace el seguimiento es público: el camino queda abierto a quien quiera auditarlo.</p>
             </div>
           </li>
         </ol>
@@ -177,9 +204,24 @@ const cumplidas = fulfilledItems(plan, loadTopics(), tracking);
         </div>
 
         <ul class="mt-10 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card">
-          <li class="reveal flex items-center gap-6 p-6">
-            <p class="flex-1 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas. El seguimiento comienza con el gobierno en funciones.</p>
-          </li>
+          {updates.length === 0 ? (
+            <li class="reveal flex items-center gap-6 p-6">
+              <p class="flex-1 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas. El seguimiento comienza con el gobierno en funciones.</p>
+            </li>
+          ) : updates.map((entry) => (
+            <li class="reveal p-6">
+              <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+                <Stamp status={entry.status} />
+                <time datetime={entry.date} class="font-mono text-xs text-tintafina">{formatDateEs(entry.date)}</time>
+              </div>
+              <p class="mt-2.5 text-sm leading-[1.7]">{entry.text}</p>
+              {entry.topicSlug && (
+                <p class="mt-1.5 font-mono text-[0.65rem] text-tintafina">
+                  <a href={`/temas/${entry.topicSlug}/`} class="nav-link">{entry.topicName}</a>
+                </p>
+              )}
+            </li>
+          ))}
         </ul>
       </div>
     </section>
