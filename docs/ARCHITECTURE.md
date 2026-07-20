@@ -20,7 +20,7 @@ flowchart TB
 
     subgraph P2["Plane 2 · News — runtime"]
         direction TB
-        EC["El Comercio RSS"] -->|"elcomercio_scraper.py<br/>4×/day"| UD["ultimitas-data branch<br/>today.json"]
+        EC["El Comercio + La República<br/>RSS"] -->|"ultimitas_scraper.py<br/>4×/day"| UD["ultimitas-data branch<br/>today.json"]
     end
 
     subgraph P1["Plane 1 · The plan — build time"]
@@ -117,7 +117,7 @@ Python, stdlib only (`pypdf` is the single exception — an El Peruano PDF fallb
 | Tool | Source | Cadence | Output |
 |---|---|---|---|
 | `elperuano_scraper.py` | El Peruano GraphQL (`/api/graphql`) + `/api/visor_html/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
-| `elcomercio_scraper.py` | El Comercio Arc XP RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
+| `ultimitas_scraper.py` | El Comercio Arc XP RSS + La República RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
 | `evidence_watcher.py` | Google News RSS, Peru-scoped, per query in `watcher_keywords.json` | daily 12:00 UTC | Issues |
 
 Both news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.

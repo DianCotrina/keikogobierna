@@ -16,4 +16,4 @@ jobs:
       - name: Scrape El Comercio and update the ultimitas-data branch
         run: |
           tools/ci/publish_data_branch.sh ultimitas-data "chore: ultimitas $(date -u +'%F %H:%MZ')" \
-            bash -c 'python3 tools/scrapers/elcomercio_scraper.py --data-dir "$DATA_DIR"'
+            bash -c 'python3 tools/scrapers/ultimitas_scraper.py --data-dir "$DATA_DIR"'
