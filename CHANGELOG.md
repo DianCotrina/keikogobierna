@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.3.0](https://github.com/DianCotrina/keikogobierna/compare/v2.2.0...v2.3.0) (2026-07-20)
+
+
+### Features
+
+* La República card in fuentes automáticas ([e06e585](https://github.com/DianCotrina/keikogobierna/commit/e06e5859374ad9f850eb0a85f4be1986b451e0d5))
+* La República joins the ultimitas scraper ([eb8f4da](https://github.com/DianCotrina/keikogobierna/commit/eb8f4da8dc5cd26042cc0c210f327c869c6aa0bb))
+* source chips and filters on the ultimitas page ([e033f20](https://github.com/DianCotrina/keikogobierna/commit/e033f203d9b8342099a1559cf91a4bb9c2e99226))
+* ultimitas scraper carries a source on every article ([f56aa18](https://github.com/DianCotrina/keikogobierna/commit/f56aa188c3719a198a7bb69e9cfa9d5688f405f3))
+
 ## [2.2.0](https://github.com/DianCotrina/keikogobierna/compare/v2.1.0...v2.2.0) (2026-07-20)
 
 
