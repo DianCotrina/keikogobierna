@@ -128,3 +128,13 @@ These cannot be done from the repo. Written as a checklist for launch:
 - **Production-only** deploys for launch; PR previews deferred.
 - **Custom domain**, registered in parallel; parameterize on it; `*.vercel.app` is the launch contingency.
 - `vercel.json` limited to **CORS/cache headers on `/api/*`**; flagged for review as optionally a fast-follow.
+
+## Outcome addendum (2026-07-19, post-launch)
+
+The Actions+CLI pipeline was built and merged as designed (PR #88), but during launch
+Diego connected Vercel's Git integration, which deployed the site successfully before
+the three `VERCEL_*` secrets were ever created. Decision (Diego): **keep the Git
+integration, remove `deploy.yml`** — one deploy path, zero secrets, PR previews included.
+The data-branch hazard the design solved by disabling the integration is solved instead
+with `git.deploymentEnabled: false` in `vercel.json`. The site launched 2026-07-19 at
+https://www.keikogobierna.com, nine days ahead of the deadline.
