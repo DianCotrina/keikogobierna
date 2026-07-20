@@ -1,5 +1,41 @@
 # Changelog
 
+## [2.0.0](https://github.com/DianCotrina/keikogobierna/compare/v1.1.0...v2.0.0) (2026-07-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* candidate issues no longer contain AI verdicts; the ANTHROPIC_API_KEY secret is ignored.
+
+### Features
+
+* add El Peruano reader (GraphQL primary-source evidence pipeline) ([dceeeb5](https://github.com/DianCotrina/keikogobierna/commit/dceeeb5ea1ddf3c5014bb1c4c64479306142bf54))
+* add Palacio de Gobierno banner to the Resumen hero ([0448108](https://github.com/DianCotrina/keikogobierna/commit/0448108ed22a4892017ecbad4e05c054fed31b18))
+* add Redes footer section with LinkedIn and GitHub ([b167509](https://github.com/DianCotrina/keikogobierna/commit/b16750912bb297fb71699d302486112308ec90fc))
+* bigram-only matching + generic-phrase stoplist for precision ([e71430c](https://github.com/DianCotrina/keikogobierna/commit/e71430ca14365271fc9661f5a5493e9879829dc3))
+* distinctive-phrase index builder from plan commitments ([6ad30b7](https://github.com/DianCotrina/keikogobierna/commit/6ad30b7af38b42639b9326f7c99c1d2fb9b09edb))
+* El Comercio RSS fetch and parse stage ([c0440d5](https://github.com/DianCotrina/keikogobierna/commit/c0440d59614ebdb558c4df11e93080eee5776d64))
+* El Peruano scraper matches plan commitments; tema-labeled issues ([b226cb7](https://github.com/DianCotrina/keikogobierna/commit/b226cb720ac5fe9cfab8b8f3a05e39f10d06ec0f))
+* footer contact/legal links and Fuentes + Privacidad pages ([32f2143](https://github.com/DianCotrina/keikogobierna/commit/32f2143d7ffada56e0d5e8ddde522864fbf8562d))
+* give Privacidad its own footer section ([ee93156](https://github.com/DianCotrina/keikogobierna/commit/ee93156c7b5f424ff01ba09445c84915fafc9260))
+* history merge, Lima today selection and scraper CLI ([a3a3173](https://github.com/DianCotrina/keikogobierna/commit/a3a3173d97464933a03dd97ceee102add5dda607))
+* keyword filter for Keiko/Fuerza Popular coverage ([5fb4564](https://github.com/DianCotrina/keikogobierna/commit/5fb45643288c966f296409f34e1bb87356b1baab))
+* Las ultimitas page fed from the ultimitas-data branch ([d0ce189](https://github.com/DianCotrina/keikogobierna/commit/d0ce1897359403f604cca918b1fbe73e7606dfec))
+* move disclaimer below footer columns, add Twain epigraph ([92fad06](https://github.com/DianCotrina/keikogobierna/commit/92fad0655e074bdfddfbdbbc22589460a85dab6b))
+* parameterize ensure_label/create_issue for extra labels ([12410af](https://github.com/DianCotrina/keikogobierna/commit/12410aff3cb018b38f3ef3c994d6c7da9c18ecc4))
+* publish plan and tracking as static JSON API endpoints ([c9f1da8](https://github.com/DianCotrina/keikogobierna/commit/c9f1da82f2f058718cd8fb5983c830f092e73938))
+* read norma text from El Peruano's HTML rendition ([c957252](https://github.com/DianCotrina/keikogobierna/commit/c9572527c434ff6c8e32efd912c5cbf235038d7d))
+* remove the Claude judge — deterministic pipeline only ([3a4c552](https://github.com/DianCotrina/keikogobierna/commit/3a4c552834630b16042cd48fe051a0b826fc3176))
+* shared commitment matcher with overlay and tema-level mute ([edd95cd](https://github.com/DianCotrina/keikogobierna/commit/edd95cdb46ab608aab426c0c7b04ae9c1fe23617))
+* shared tokenization primitives in watcher_common ([3ce5528](https://github.com/DianCotrina/keikogobierna/commit/3ce552874948b66746ea67283cf383309678aaeb))
+
+
+### Bug Fixes
+
+* adapt Yape dialog to the new official QR export ([9d09cf1](https://github.com/DianCotrina/keikogobierna/commit/9d09cf112ab80be7748d2a944ce09926c80fc69c))
+* make the landing page reflect the real pipeline ([07046a0](https://github.com/DianCotrina/keikogobierna/commit/07046a063c83b6609f51aaaa920a07aea3fe8915))
+* only link http(s) URLs from the ultimitas feed ([8b50730](https://github.com/DianCotrina/keikogobierna/commit/8b507304fe2a88465d8a53568009558c28d54259))
+
 ## [1.1.0](https://github.com/DianCotrina/keikogobierna/compare/v1.0.0...v1.1.0) (2026-07-10)
 
 
