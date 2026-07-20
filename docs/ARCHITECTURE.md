@@ -140,7 +140,7 @@ Known limit: distinctiveness is measured only against the plan, never against th
 
 Why branches: the site stays static and the data updates without a rebuild, at zero storage cost. The `protect-main` ruleset covers only the default branch, so an Action can push here freely. raw.githubusercontent.com is CORS-open on public repos, so the browser can read it directly.
 
-*If we ever migrate hosting:* the data branches are host-independent (they're just git), but a platform that builds every branch needs to be told not to — on Vercel, `git.deploymentEnabled: false`.
+The data branches are host-independent — they are just git, and the browser reads them from raw.githubusercontent.com no matter where the site is hosted. Vercel never builds them because the project's Git integration is disabled: the only thing that deploys is `deploy.yml`, and it only ever deploys `main`.
 
 ## CI and releases
 
@@ -148,7 +148,7 @@ Why branches: the site stays static and the data updates without a rebuild, at z
 
 `main` is protected by the `protect-main` ruleset: PRs required, `checks` must pass, linear history, no force pushes. Merges are always **rebase-and-merge**. release-please maintains a release PR from conventional commits (`feat:` → minor, `fix:` → patch, `feat!:` → major); merging it tags `vX.Y.Z` and updates `CHANGELOG.md`. Release PRs never trigger CI (Actions-token authored), so they need admin bypass to merge — the one sanctioned use of it.
 
-**Not yet wired: deployment.** The build is green and the pipelines run, but nothing publishes `dist/` to a host.
+`deploy.yml` publishes production on every push to `main` (and on manual dispatch): it installs the Vercel CLI, runs `vercel pull` and `vercel build --prod` (which runs `astro build`), then `vercel deploy --prebuilt --prod`. Vercel's own Git integration is off, so nothing deploys except through this workflow. A failed build leaves the previous production deployment live. See [workflows/deploy.md](../workflows/deploy.md).
 
 ## Rules
 
