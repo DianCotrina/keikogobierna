@@ -2,6 +2,7 @@
 
 import sys
 import unittest
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
@@ -100,6 +101,48 @@ class TodayTest(unittest.TestCase):
 
     def test_empty_history_is_safe(self):
         self.assertEqual(us.select_today([]), ("", []))
+
+
+LR_FIXTURE = (Path(__file__).resolve().parent / "fixtures" / "larepublica_rss_sample.xml").read_bytes()
+
+
+class LaRepublicaFeedTest(unittest.TestCase):
+    """Structural assertions against a captured slice of the real feed —
+    exact strings vary with the news cycle, the shape must not."""
+
+    def test_real_feed_slice_parses_with_all_fields(self):
+        items = us.parse_feed(LR_FIXTURE, "La República")
+        self.assertGreater(len(items), 0)
+        for item in items:
+            self.assertEqual(set(item), {"title", "url", "summary", "author", "published", "source"})
+            self.assertTrue(item["title"])
+            self.assertTrue(item["url"].startswith("https://larepublica.pe/"))
+            datetime.fromisoformat(item["published"])  # raises if unparseable
+            self.assertEqual(item["source"], "La República")
+
+    def test_larepublica_is_configured(self):
+        names = [s["name"] for s in us.SOURCES]
+        self.assertIn("La República", names)
+        self.assertIn("El Comercio", names)
+
+
+class SourceIsolationTest(unittest.TestCase):
+    def test_one_dead_source_does_not_kill_the_other(self):
+        real_http_get = us.http_get
+
+        def stub(url, headers=None):
+            if "larepublica" in url:
+                raise OSError("simulated outage")
+            return FIXTURE
+
+        us.http_get = stub
+        try:
+            items, failed = us.fetch_sources()
+        finally:
+            us.http_get = real_http_get
+        self.assertEqual(failed, ["La República"])
+        self.assertTrue(items)  # El Comercio still delivered
+        self.assertTrue(all(i["source"] == "El Comercio" for i in items))
 
 
 if __name__ == "__main__":
