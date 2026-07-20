@@ -17,6 +17,18 @@ function limaToday(): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: LIMA }).format(new Date());
 }
 
+// Third-party URLs: only http(s) may reach an href — the feed is external data,
+// and canonical_url() upstream preserves schemes like javascript:/data: as-is.
+function safeHttpUrl(raw: string): string {
+  try {
+    const url = new URL(raw);
+    if (url.protocol === 'https:' || url.protocol === 'http:') return url.href;
+  } catch {
+    // unparseable — fall through to ''
+  }
+  return '';
+}
+
 // Third-party text: build every node with textContent — never innerHTML.
 function card(article: Article): HTMLElement {
   const el = document.createElement('article');
@@ -39,16 +51,19 @@ function card(article: Article): HTMLElement {
     el.append(summary);
   }
 
-  const linkWrap = document.createElement('p');
-  linkWrap.className = 'mt-3';
-  const link = document.createElement('a');
-  link.href = article.url;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
-  link.className = 'nav-link font-sans text-sm font-medium';
-  link.textContent = 'Leer en El Comercio →';
-  linkWrap.append(link);
-  el.append(linkWrap);
+  const safeUrl = safeHttpUrl(article.url);
+  if (safeUrl) {
+    const linkWrap = document.createElement('p');
+    linkWrap.className = 'mt-3';
+    const link = document.createElement('a');
+    link.href = safeUrl;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.className = 'nav-link font-sans text-sm font-medium';
+    link.textContent = 'Leer en El Comercio →';
+    linkWrap.append(link);
+    el.append(linkWrap);
+  }
 
   return el;
 }
