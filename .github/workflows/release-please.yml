@@ -8,10 +8,32 @@ permissions:
   contents: write
   pull-requests: write
 
+env:
+  # Fine-grained PAT (this repo; Contents RW + Pull requests RW). PRs created with
+  # it trigger ci.yml like any human's PR — the Actions token's PRs never do — which
+  # is what lets the required `checks` pass and auto-merge complete. Falls back to
+  # the Actions token when the secret is absent (releases then need admin bypass).
+  RELEASE_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN || secrets.GITHUB_TOKEN }}
+  HAS_PAT: ${{ secrets.RELEASE_PLEASE_TOKEN != '' }}
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           release-type: node
+          token: ${{ env.RELEASE_TOKEN }}
+      # Hands-off releases: arm GitHub auto-merge (rebase, per the linear-history
+      # rule) on the release PR; it merges itself once `checks` passes. Merging is
+      # a push to main, which re-runs this workflow to tag vX.Y.Z and publish the
+      # GitHub Release, and Vercel's Git integration deploys the version bump.
+      - name: Arm auto-merge on the release PR
+        if: ${{ steps.release.outputs.pr && env.HAS_PAT == 'true' }}
+        env:
+          GH_TOKEN: ${{ env.RELEASE_TOKEN }}
+        run: |
+          gh pr merge "${{ fromJSON(steps.release.outputs.pr).number }}" \
+            --auto --rebase --repo "${{ github.repository }}" \
+            || echo "auto-merge already armed (or blocked) — see the PR checks"
