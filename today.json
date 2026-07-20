@@ -1,8 +1,47 @@
 {
- "generated": "2026-07-19T17:57:49+00:00",
- "source": "El Comercio",
+ "generated": "2026-07-20T05:10:00+00:00",
+ "sources": [
+  "El Comercio",
+  "La República"
+ ],
  "date": "2026-07-19",
  "articles": [
+  {
+   "title": "Vocero presidencial de Javier Milei no descarta ver a Keiko Fujimori como “aliada ideológica”",
+   "url": "https://larepublica.pe/politica/2026/07/19/vocero-presidencial-de-javier-milei-no-descarta-ver-a-keiko-fujimori-como-aliada-ideologica-hnews-1122957",
+   "summary": "Galarreta fue visto frente a la Casa Rosada junto a Santiago Caputo, asesor y estratega de Milei.",
+   "author": "Narda Saavedra",
+   "published": "2026-07-20T02:22:14+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
+   "title": "Fuerza Popular anuncia que sus diputados y senadores de Lima no percibirán asignación por gastos de instalación",
+   "url": "https://elcomercio.pe/politica/congreso/fuerza-popular-anuncia-que-sus-diputados-y-senadores-de-lima-no-percibiran-asignacion-por-gastos-de-instalacion-congreso-ultimas-noticia/",
+   "summary": "La bancada Fuerza Popular anunció que sus diputados y senadores electos por Lima y que residen en la capital, además de los congresistas reelectos, no percibirán asignación por gastos de instalación.",
+   "author": "Redacción EC",
+   "published": "2026-07-20T00:33:53+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
+   "title": "Milagros Samillán: “Queremos decirle a la señora Keiko Fujimori que sin justicia no puede haber reconciliación”",
+   "url": "https://larepublica.pe/cultural/2026/07/18/milagros-samillan-queremos-decirle-a-la-senora-keiko-fujimori-que-sin-justicia-no-puede-haber-reconciliacion-hnews-1401480",
+   "summary": "Los días 20 y 21 de julio se podrá ver de manera gratuita el premiado documental de Javier Corcuera y el lunes 27 habrá una función gratuita en los cines UVK de la plaza San Martín, a la que asistirán los familiares de las víctimas de las protestas 2022/2023.",
+   "author": "Gabriel Ruiz Ortega",
+   "published": "2026-07-19T22:23:50+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
+   "title": "¡Guarda con el “Fujisocialismo”!, por René Gastelumendi",
+   "url": "https://larepublica.pe/opinion/2026/07/19/guarda-con-el-fujisocialismo-por-rene-gastelumendi-hnews-1811023",
+   "summary": "\"La gran ironía histórica está consumada. Keiko Fujimori llega a Palacio con una economía asfixiada por la voracidad de su propia bancada\"",
+   "author": "René Gastelumendi",
+   "published": "2026-07-19T16:56:34+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
   {
    "title": "Contra el Escudo",
    "url": "https://elcomercio.pe/opinion/columnistas/contra-el-escudo-por-federico-salazar-noticia/",
@@ -18,6 +57,15 @@
    "author": "Redacción EC",
    "published": "2026-07-19T15:58:12+00:00",
    "captured": "2026-07-19T17:57:49+00:00"
+  },
+  {
+   "title": "Los últimos días de la oposición, por Rosa María Palacios",
+   "url": "https://larepublica.pe/opinion/2026/07/19/los-ultimos-dias-de-la-oposicion-por-rosa-maria-palacios-hnews-556871",
+   "summary": "\"Este Congreso, ya poco representativo de la gran mayoría de peruanos, será capturado también por el fujimorismo. Con esta oposición, tan necia y torpe para la negociación política, nunca la han tenido tan sencilla\"",
+   "author": "Rosa María Palacios",
+   "published": "2026-07-19T13:55:52+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
   },
   {
    "title": "Juan Castro Vargas: “Necesitamos un plan preventivo para no estar cada año o cada dos años trabajando a última hora”",

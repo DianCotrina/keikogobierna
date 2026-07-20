@@ -1,7 +1,46 @@
 {
- "generated": "2026-07-19T17:57:49+00:00",
- "source": "El Comercio",
+ "generated": "2026-07-20T05:10:00+00:00",
+ "sources": [
+  "El Comercio",
+  "La República"
+ ],
  "articles": [
+  {
+   "title": "Vocero presidencial de Javier Milei no descarta ver a Keiko Fujimori como “aliada ideológica”",
+   "url": "https://larepublica.pe/politica/2026/07/19/vocero-presidencial-de-javier-milei-no-descarta-ver-a-keiko-fujimori-como-aliada-ideologica-hnews-1122957",
+   "summary": "Galarreta fue visto frente a la Casa Rosada junto a Santiago Caputo, asesor y estratega de Milei.",
+   "author": "Narda Saavedra",
+   "published": "2026-07-20T02:22:14+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
+   "title": "Fuerza Popular anuncia que sus diputados y senadores de Lima no percibirán asignación por gastos de instalación",
+   "url": "https://elcomercio.pe/politica/congreso/fuerza-popular-anuncia-que-sus-diputados-y-senadores-de-lima-no-percibiran-asignacion-por-gastos-de-instalacion-congreso-ultimas-noticia/",
+   "summary": "La bancada Fuerza Popular anunció que sus diputados y senadores electos por Lima y que residen en la capital, además de los congresistas reelectos, no percibirán asignación por gastos de instalación.",
+   "author": "Redacción EC",
+   "published": "2026-07-20T00:33:53+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
+   "title": "Milagros Samillán: “Queremos decirle a la señora Keiko Fujimori que sin justicia no puede haber reconciliación”",
+   "url": "https://larepublica.pe/cultural/2026/07/18/milagros-samillan-queremos-decirle-a-la-senora-keiko-fujimori-que-sin-justicia-no-puede-haber-reconciliacion-hnews-1401480",
+   "summary": "Los días 20 y 21 de julio se podrá ver de manera gratuita el premiado documental de Javier Corcuera y el lunes 27 habrá una función gratuita en los cines UVK de la plaza San Martín, a la que asistirán los familiares de las víctimas de las protestas 2022/2023.",
+   "author": "Gabriel Ruiz Ortega",
+   "published": "2026-07-19T22:23:50+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
+   "title": "¡Guarda con el “Fujisocialismo”!, por René Gastelumendi",
+   "url": "https://larepublica.pe/opinion/2026/07/19/guarda-con-el-fujisocialismo-por-rene-gastelumendi-hnews-1811023",
+   "summary": "\"La gran ironía histórica está consumada. Keiko Fujimori llega a Palacio con una economía asfixiada por la voracidad de su propia bancada\"",
+   "author": "René Gastelumendi",
+   "published": "2026-07-19T16:56:34+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
   {
    "title": "Contra el Escudo",
    "url": "https://elcomercio.pe/opinion/columnistas/contra-el-escudo-por-federico-salazar-noticia/",
@@ -17,6 +56,15 @@
    "author": "Redacción EC",
    "published": "2026-07-19T15:58:12+00:00",
    "captured": "2026-07-19T17:57:49+00:00"
+  },
+  {
+   "title": "Los últimos días de la oposición, por Rosa María Palacios",
+   "url": "https://larepublica.pe/opinion/2026/07/19/los-ultimos-dias-de-la-oposicion-por-rosa-maria-palacios-hnews-556871",
+   "summary": "\"Este Congreso, ya poco representativo de la gran mayoría de peruanos, será capturado también por el fujimorismo. Con esta oposición, tan necia y torpe para la negociación política, nunca la han tenido tan sencilla\"",
+   "author": "Rosa María Palacios",
+   "published": "2026-07-19T13:55:52+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
   },
   {
    "title": "Juan Castro Vargas: “Necesitamos un plan preventivo para no estar cada año o cada dos años trabajando a última hora”",
@@ -43,6 +91,15 @@
    "captured": "2026-07-19T11:59:37+00:00"
   },
   {
+   "title": "Alfonso López Chau a Keiko Fujimori y Fuerza Popular: \"Sería un gran gesto ceder la Mesa Directiva\"",
+   "url": "https://larepublica.pe/politica/2026/07/18/alfonso-lopez-chau-a-keiko-fujimori-y-fuerza-popular-seria-un-gran-gesto-ceder-la-mesa-directiva-hnews-1146780",
+   "summary": "El electo senador y líder de Ahora Nación enfatizó en que es vital permitir un contrapeso al fujimorismo. El nuevo Congreso bicameral elegirá sus Mesas Directivas este 26 de julio.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-07-18T21:25:48+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
    "title": "Keiko Fujimori se reúne con excombatientes Defensores de la Democracia",
    "url": "https://elcomercio.pe/politica/keiko-fujimori-se-reune-con-excombatientes-defensores-de-la-democracia-ultimas-noticia/",
    "summary": "La presidenta electa, Keiko Fujimori, recibió a representantes de la Asociación Nacional de Defensores de la Democracia, quienes le expresaron su respaldo y plantearon el reconocimiento a excombatientes de la lucha contra el terrorismo. El encuentro se realizó como parte de su ronda de reuniones previas al inicio del nuevo Gobierno.",
@@ -51,12 +108,39 @@
    "captured": "2026-07-18T23:55:04+00:00"
   },
   {
+   "title": "Susel Paredes y su \"felicitación\" a Keiko Fujimori: \"Como es su primer trabajo, estoy segura que le pondrá mucho empeño\"",
+   "url": "https://larepublica.pe/politica/2026/07/18/susel-paredes-y-su-felicitacion-a-keiko-fujimori-como-es-su-primer-trabajo-estoy-segura-que-le-pondra-mucho-empeno-hnews-1461096",
+   "summary": "La candidata a la alcaldía de Lima por Ahora Nación ha mostrado críticas al fujimorismo.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-07-18T19:40:29+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
    "title": "Rafael López Aliaga tras reunirse con Keiko Fujimori: “Cuenta con mi gestión para poder hablar con las otras bancadas”",
    "url": "https://elcomercio.pe/politica/rafael-lopez-aliaga-tras-reunirse-con-keiko-fujimori-cuenta-con-mi-gestion-para-poder-hablar-con-las-otras-bancadas-ultimas-noticia/",
    "summary": "Rafael López Aliaga informó que ofreció a la presidenta electa, Keiko Fujimori, apoyo para promover proyectos de infraestructura, atraer inversión y construir consensos políticos. Además, señaló que mantiene reuniones con líderes de distintas fuerzas para impulsar acuerdos en el Congreso.",
    "author": "Redacción EC",
    "published": "2026-07-18T17:00:59+00:00",
    "captured": "2026-07-18T17:56:13+00:00"
+  },
+  {
+   "title": "Los reciclados de Keiko Fujimori que integran los equipos de transferencia del gobierno",
+   "url": "https://larepublica.pe/politica/2026/07/08/los-reciclados-de-keiko-fujimori-que-integran-los-equipos-de-transferencia-del-gobierno-hnews-624784",
+   "summary": "Más de diez integrantes de los equipos designados por Fuerza Popular para la transferencia de gobierno arrastran procesos judiciales, renuncias cuestionadas o denuncias por presunto favoritismo. La lista incluye a exfuncionarios de los gobiernos de Pedro Castillo, Dina Boluarte, Martín Vizcarra y hasta de Alan García.",
+   "author": "Ariadna Yaya",
+   "published": "2026-07-18T16:50:20+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
+  },
+  {
+   "title": "Rafael López Aliaga confirma conversaciones con líderes de otras bancadas: \"He tenido reuniones con casi todos\"",
+   "url": "https://larepublica.pe/politica/2026/07/18/rafael-lopez-aliaga-confirma-conversaciones-con-lideres-de-otras-bancadas-he-tenido-reuniones-con-casi-todos-hnews-1223694",
+   "summary": "El exalcalde de Lima tuvo comentarios sobre figuras como Jorge Nieto, Ricardo Belmont y Alfonso López Chau. Además, aseguró que en su reunión con Keiko Fujimori priorizaron temas como educación y seguridad ciudadana.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-07-18T15:05:13+00:00",
+   "source": "La República",
+   "captured": "2026-07-20T05:10:00+00:00"
   },
   {
    "title": "Keiko Fujimori se reúne con representantes del Banco Mundial en ronda de conversaciones antes de la toma de mando",
