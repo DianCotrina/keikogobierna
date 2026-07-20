@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/DianCotrina/keikogobierna/compare/v2.0.0...v2.1.0) (2026-07-20)
+
+
+### Features
+
+* group fuentes by automated pipelines vs human review ([5cfed67](https://github.com/DianCotrina/keikogobierna/commit/5cfed67042ea1e633e839da36b46879666199b3b))
+
 ## [2.0.0](https://github.com/DianCotrina/keikogobierna/compare/v1.1.0...v2.0.0) (2026-07-20)
 
 
