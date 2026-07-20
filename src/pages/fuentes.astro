@@ -1,39 +1,71 @@
 ---
 import Base from '../layouts/Base.astro';
 
-const sources = [
+// Grouped by role: what the pipelines read daily vs what a person consults when
+// certifying. Keep in sync with the methodology section on the landing page.
+const sections = [
   {
-    name: 'Plan de Gobierno «Perú con Orden» 2026–2031',
-    org: 'Fuerza Popular · inscrito ante el JNE',
-    verifies: 'El documento oficial del que provienen las 632 propuestas, 67 compromisos de los primeros 100 días y 65 metas al 2031 que este sitio rastrea.',
-    links: [
-      { label: 'Plataforma Electoral del JNE', url: 'https://plataformaelectoral.jne.gob.pe' },
-      { label: 'Copia de trabajo archivada (PDF)', url: 'https://github.com/DianCotrina/keikogobierna/blob/main/docs/Plan-de-Gobierno-Reforzado_V2.pdf' },
+    heading: 'El documento',
+    blurb: 'El origen de todo lo que este sitio rastrea.',
+    sources: [
+      {
+        name: 'Plan de Gobierno «Perú con Orden» 2026–2031',
+        org: 'Fuerza Popular · inscrito ante el JNE',
+        verifies: 'El documento oficial del que provienen las 632 propuestas, 67 compromisos de los primeros 100 días y 65 metas al 2031 que este sitio rastrea.',
+        links: [
+          { label: 'Plataforma Electoral del JNE', url: 'https://plataformaelectoral.jne.gob.pe' },
+          { label: 'Copia de trabajo archivada (PDF)', url: 'https://github.com/DianCotrina/keikogobierna/blob/main/docs/Plan-de-Gobierno-Reforzado_V2.pdf' },
+        ],
+      },
     ],
   },
   {
-    name: 'El Peruano — Normas Legales',
-    org: 'Diario oficial',
-    verifies: 'Decretos, leyes y normas publicadas que certifican el cumplimiento de una propuesta.',
-    links: [{ label: 'busquedas.elperuano.pe', url: 'https://busquedas.elperuano.pe' }],
+    heading: 'Fuentes automáticas',
+    blurb: 'Los rastreadores del sitio las leen todos los días y proponen coincidencias. Ninguna certifica nada por sí sola: toda coincidencia pasa por revisión humana.',
+    sources: [
+      {
+        name: 'El Peruano — Normas Legales',
+        org: 'Diario oficial',
+        verifies: 'Cada norma publicada se compara a diario contra los 764 compromisos del plan. Es la fuente primaria: decretos, leyes y resoluciones que certifican el cumplimiento de una propuesta.',
+        links: [{ label: 'busquedas.elperuano.pe', url: 'https://busquedas.elperuano.pe' }],
+      },
+      {
+        name: 'El Comercio — sección Política',
+        org: 'Prensa',
+        verifies: 'Cobertura periodística sobre Keiko Fujimori y Fuerza Popular; alimenta la página «Las ultimitas» varias veces al día con titulares y enlace a cada nota.',
+        links: [{ label: 'elcomercio.pe/politica', url: 'https://elcomercio.pe/politica/' }],
+      },
+      {
+        name: 'Prensa peruana — vía Google News',
+        org: 'Agregador de noticias',
+        verifies: 'Vigila la cobertura del resto de la prensa peruana — La República, RPP, Gestión y demás medios — en busca de avances sobre compromisos concretos.',
+        links: [{ label: 'news.google.com', url: 'https://news.google.com/home?hl=es-419&gl=PE&ceid=PE:es-419' }],
+      },
+    ],
   },
   {
-    name: 'MEF — Consulta Amigable',
-    org: 'Ministerio de Economía y Finanzas',
-    verifies: 'Ejecución presupuestal pública: si un compromiso tiene presupuesto asignado y ejecutado.',
-    links: [{ label: 'Consulta Amigable', url: 'https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx' }],
-  },
-  {
-    name: 'INEI',
-    org: 'Instituto Nacional de Estadística e Informática',
-    verifies: 'Estadísticas oficiales usadas como indicadores de las metas al 2031.',
-    links: [{ label: 'inei.gob.pe', url: 'https://www.inei.gob.pe' }],
-  },
-  {
-    name: 'Congreso de la República',
-    org: 'Portal oficial',
-    verifies: 'Proyectos de ley, dictámenes y actas vinculados a compromisos legislativos.',
-    links: [{ label: 'congreso.gob.pe', url: 'https://www.congreso.gob.pe' }],
+    heading: 'Contraste · revisión humana',
+    blurb: 'Ningún rastreador las consulta: una persona las usa para contrastar la evidencia antes de certificar un estado.',
+    sources: [
+      {
+        name: 'MEF — Consulta Amigable',
+        org: 'Ministerio de Economía y Finanzas',
+        verifies: 'Ejecución presupuestal pública: si un compromiso tiene presupuesto asignado y ejecutado.',
+        links: [{ label: 'Consulta Amigable', url: 'https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx' }],
+      },
+      {
+        name: 'INEI',
+        org: 'Instituto Nacional de Estadística e Informática',
+        verifies: 'Estadísticas oficiales usadas como indicadores de las metas al 2031.',
+        links: [{ label: 'inei.gob.pe', url: 'https://www.inei.gob.pe' }],
+      },
+      {
+        name: 'Congreso de la República',
+        org: 'Portal oficial',
+        verifies: 'Proyectos de ley, dictámenes y actas vinculados a compromisos legislativos.',
+        links: [{ label: 'congreso.gob.pe', url: 'https://www.congreso.gob.pe' }],
+      },
+    ],
   },
 ];
 
@@ -53,26 +85,34 @@ const description = 'Las fuentes oficiales del seguimiento: el plan de gobierno 
           <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
         </svg>
       </h1>
-      <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">Todo lo que este sitio afirma proviene de documentos públicos. Aquí está el plan original y las fuentes con las que contrastamos cada compromiso.</p>
+      <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">Todo lo que este sitio afirma proviene de documentos públicos. Aquí está el plan original, las fuentes que los rastreadores leen a diario y las que una persona consulta antes de certificar.</p>
     </section>
 
     <!-- Sources -->
     <section class="border-t border-tinta/10 bg-white/40">
       <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
-        <ul class="space-y-6">
-          {sources.map((source) => (
-            <li class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
-              <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">{source.org}</p>
-              <h2 class="font-sans font-bold text-lg mt-1.5">{source.name}</h2>
-              <p class="mt-2 text-sm leading-[1.7] text-tintasuave">{source.verifies}</p>
-              <p class="mt-3 flex flex-wrap gap-x-6 gap-y-1 font-sans text-sm font-medium">
-                {source.links.map((link) => (
-                  <a href={link.url} target="_blank" rel="noopener noreferrer" class="nav-link">{link.label} ↗</a>
-                ))}
-              </p>
-            </li>
-          ))}
-        </ul>
+        {sections.map((section, index) => (
+          <div class:list={[{ 'mt-12 sm:mt-14': index > 0 }]}>
+            <div class="reveal border-b border-tinta/10 pb-3">
+              <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">{section.heading}</h2>
+              <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">{section.blurb}</p>
+            </div>
+            <ul class="mt-6 space-y-6">
+              {section.sources.map((source) => (
+                <li class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+                  <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">{source.org}</p>
+                  <h3 class="font-sans font-bold text-lg mt-1.5">{source.name}</h3>
+                  <p class="mt-2 text-sm leading-[1.7] text-tintasuave">{source.verifies}</p>
+                  <p class="mt-3 flex flex-wrap gap-x-6 gap-y-1 font-sans text-sm font-medium">
+                    {source.links.map((link) => (
+                      <a href={link.url} target="_blank" rel="noopener noreferrer" class="nav-link">{link.label} ↗</a>
+                    ))}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
         <div class="reveal mt-10 bg-tinta text-papel rounded-lg shadow-lift p-6 sm:p-7">
           <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-papel/60">Datos abiertos</p>
           <h2 class="font-sans font-bold text-lg mt-1.5">Consume nuestros datos</h2>
