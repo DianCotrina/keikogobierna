@@ -226,23 +226,5 @@ const updates = updatesLog(tracking).map((entry) => {
       </div>
     </section>
 
-    <!-- CTA alertas -->
-    <section id="alertas" class="border-t border-tinta/10">
-      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
-        <div class="reveal bg-tinta text-papel rounded-lg shadow-lift p-8 sm:p-12 lg:p-14 relative overflow-hidden">
-          <div class="absolute inset-0 opacity-20" style="background: radial-gradient(600px 300px at 90% 0%, rgba(200,16,46,0.5), transparent 60%), radial-gradient(500px 400px at 0% 100%, rgba(255,255,255,0.15), transparent 60%);" aria-hidden="true"></div>
-          <div class="relative max-w-2xl">
-            <h2 class="font-display text-3xl sm:text-4xl" style="letter-spacing:-0.03em">Sigue cada promesa</h2>
-            <p class="mt-4 text-lg leading-[1.7] text-papel/80">Recibe una alerta cuando un compromiso cambie de estado. Sin ruido, sin opinión: solo el registro.</p>
-            <form class="mt-8 flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault()">
-              <label for="email" class="sr-only">Correo electrónico</label>
-              <input id="email" type="email" required placeholder="tu@correo.com" class="font-sans flex-1 rounded px-4 py-3 bg-papel text-tinta placeholder:text-tintafina border-0">
-              <button type="submit" class="btn-primary font-sans font-semibold bg-rojo text-papel px-6 py-3 rounded shadow-card">Recibir alertas</button>
-            </form>
-            <p class="mt-4 font-mono text-[0.65rem] text-papel/60">Solo usamos tu correo para las alertas. Nada más.</p>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 </Base>
