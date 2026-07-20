@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
-"""Scrape El Comercio's RSS for Keiko Fujimori / Fuerza Popular coverage.
+"""Scrape Peruvian press RSS for Keiko Fujimori / Fuerza Popular coverage.
 
-Feeds the public "Las ultimitas" page: matched headlines accumulate in
-ultimitas.json (full history) and today.json (latest Lima news day — the only
-file the page downloads). The tool is git-free: it reads/writes --data-dir and
-the Action owns the ultimitas-data branch. Stdlib only.
-See workflows/elcomercio_ultimitas.md.
+Feeds the public "Las ultimitas" page from the outlets in SOURCES (El Comercio,
+La República): matched headlines accumulate in ultimitas.json (full history) and
+today.json (latest Lima news day — the only file the page downloads), each
+article stamped with its source. One tool for all outlets: parallel scrapers
+would race on the ultimitas-data branch. Git-free: it reads/writes --data-dir
+and the Action owns the branch. Stdlib only.
+See workflows/ultimitas_scraper.md.
 
 Copyright: only title, link, description snippet, author and date are stored —
-never content:encoded (the full article body belongs to El Comercio).
+never full article bodies (they belong to each outlet).
 
 Usage:
-  python3 tools/scrapers/elcomercio_scraper.py --dry-run           # print matches, no writes
-  python3 tools/scrapers/elcomercio_scraper.py --data-dir <dir>    # merge into <dir>/*.json
+  python3 tools/scrapers/ultimitas_scraper.py --dry-run           # print matches, no writes
+  python3 tools/scrapers/ultimitas_scraper.py --data-dir <dir>    # merge into <dir>/*.json
 """
 
 from __future__ import annotations
@@ -27,10 +29,14 @@ from zoneinfo import ZoneInfo
 
 from watcher_common import http_get, normalize, parse_rss_items
 
-SOURCE = "El Comercio"
-FEEDS = [
-    "https://elcomercio.pe/arc/outboundfeeds/rss/category/politica/?outputType=xml",
-    "https://elcomercio.pe/arc/outboundfeeds/rss/?outputType=xml",
+SOURCES = [
+    {"name": "El Comercio", "feeds": [
+        "https://elcomercio.pe/arc/outboundfeeds/rss/category/politica/?outputType=xml",
+        "https://elcomercio.pe/arc/outboundfeeds/rss/?outputType=xml",
+    ]},
+    {"name": "La República", "feeds": [
+        "https://larepublica.pe/rss/politica.xml",
+    ]},
 ]
 BROWSER_UA = "Mozilla/5.0 (compatible; keikogobierna-ultimitas; +https://github.com/DianCotrina/keikogobierna)"
 KEYWORDS = ["keiko fujimori", "keiko", "fuerza popular", "fujimorismo"]
@@ -45,14 +51,37 @@ def canonical_url(url: str) -> str:
     return urllib.parse.urlunsplit((parts.scheme, parts.netloc, parts.path, "", ""))
 
 
-def parse_feed(raw: bytes) -> list[dict]:
+def parse_feed(raw: bytes, source: str) -> list[dict]:
     return [{
         "title": rec["title"],
         "url": canonical_url(rec["link"]),
         "summary": rec["summary"],
         "author": rec["author"],
         "published": rec["published"].isoformat(),
+        "source": source,
     } for rec in parse_rss_items(raw)]
+
+
+def fetch_sources() -> tuple[list[dict], list[str]]:
+    """Items across all SOURCES, plus the names of sources that failed entirely.
+
+    One outlet's outage must never silence the other: failures are per-feed,
+    and a source only counts as failed when none of its feeds delivered.
+    """
+    items: list[dict] = []
+    failed: list[str] = []
+    for source in SOURCES:
+        got_any = False
+        for feed in source["feeds"]:
+            try:
+                items.extend(parse_feed(http_get(feed, headers={"User-Agent": BROWSER_UA}), source["name"]))
+                got_any = True
+            except Exception as err:  # noqa: BLE001 — any feed error is survivable
+                print(f"WARN: feed failed: {feed}: {err}", file=sys.stderr)
+        if not got_any:
+            failed.append(source["name"])
+            print(f"WARN: source failed entirely: {source['name']}", file=sys.stderr)
+    return items, failed
 
 
 # ---- Stage 2: keyword filter ----------------------------------------------------
@@ -88,16 +117,9 @@ def select_today(articles: list[dict]) -> tuple[str, list[dict]]:
 # ---- Orchestration ---------------------------------------------------------------
 
 def run(data_dir: str | None, dry_run: bool) -> int:
-    items: list[dict] = []
-    failed = 0
-    for feed in FEEDS:
-        try:
-            items.extend(parse_feed(http_get(feed, headers={"User-Agent": BROWSER_UA})))
-        except Exception as err:  # one bad feed never kills the run
-            print(f"WARN: feed failed: {feed}: {err}", file=sys.stderr)
-            failed += 1
-    if failed == len(FEEDS):
-        print("ERROR: every feed failed", file=sys.stderr)
+    items, failed = fetch_sources()
+    if len(failed) == len(SOURCES):
+        print("ERROR: every source failed", file=sys.stderr)
         return 1
 
     unique: dict[str, dict] = {}
@@ -108,8 +130,9 @@ def run(data_dir: str | None, dry_run: bool) -> int:
 
     if dry_run:
         for item in matched:
-            print(f"[{item['published']}] {item['title'][:90]}")
-        print("Dry run complete.")
+            print(f"[{item['published']}] [{item['source']}] {item['title'][:80]}")
+        by_source = {s["name"]: sum(1 for i in matched if i["source"] == s["name"]) for s in SOURCES}
+        print(f"Per source: {by_source}. Dry run complete.")
         return 0
 
     data = Path(data_dir)
@@ -125,10 +148,10 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     day, day_articles = select_today(articles)
 
     history_path.write_text(json.dumps(
-        {"generated": now_iso, "source": SOURCE, "articles": articles},
+        {"generated": now_iso, "sources": [s["name"] for s in SOURCES], "articles": articles},
         ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (data / "today.json").write_text(json.dumps(
-        {"generated": now_iso, "source": SOURCE, "date": day, "articles": day_articles},
+        {"generated": now_iso, "sources": [s["name"] for s in SOURCES], "date": day, "articles": day_articles},
         ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"History: {len(articles)} articles. today.json: {day} with {len(day_articles)} article(s).")
     return 0
