@@ -147,3 +147,6 @@ vite.config.ts.timestamp-*
 
 # Astro
 .astro/
+
+# Vercel (vercel link/pull write project ids and .env.production.local here)
+.vercel/
