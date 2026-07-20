@@ -63,13 +63,13 @@ const updates = updatesLog(tracking).map((entry) => {
           Registramos cada compromiso del plan de gobierno, contrastamos su avance con fuentes públicas y lo marcamos con tinta: cumplido, en progreso o sin avance. Punto por punto, con evidencia.
         </p>
         <div class="hero-in d4 mt-9 flex flex-wrap gap-4">
-          <a href="#tablero" class="btn-primary font-sans font-semibold bg-tinta text-papel px-6 py-3 rounded shadow-card">Ver el tablero</a>
+          <a href="#resumen" class="btn-primary font-sans font-semibold bg-tinta text-papel px-6 py-3 rounded shadow-card">Ver el resumen</a>
           <a href="#metodologia" class="btn-ghost btn-outline">Cómo verificamos</a>
         </div>
       </div>
 
       <!-- Signature tracker card -->
-      <div id="tablero" class="hero-in d4">
+      <div id="resumen" class="hero-in d4">
         <TrackerCard
           stats={overallStats}
           totalProposals={totalProposals}
