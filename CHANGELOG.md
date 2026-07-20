@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.2.0](https://github.com/DianCotrina/keikogobierna/compare/v2.1.0...v2.2.0) (2026-07-20)
+
+
+### Features
+
+* methodology notes the assistive RAG under evaluation ([071b412](https://github.com/DianCotrina/keikogobierna/commit/071b4123508a17e80d0a6b462f742106a00faa75))
+
+
+### Bug Fixes
+
+* call the dashboard "resumen" everywhere ([b4b2701](https://github.com/DianCotrina/keikogobierna/commit/b4b2701e38589f56acc352e458e0fcfa1eca114a))
+* remove the dead alerts form and its header CTA ([f3aa3e0](https://github.com/DianCotrina/keikogobierna/commit/f3aa3e0c52319d4d9e388847864ce85b59c6e780))
+
 ## [2.1.0](https://github.com/DianCotrina/keikogobierna/compare/v2.0.0...v2.1.0) (2026-07-20)
 
 
