@@ -1,6 +1,8 @@
 import { formatDateEs } from '../../lib/format.mjs';
 
 const DATA_URL = 'https://raw.githubusercontent.com/DianCotrina/keikogobierna/ultimitas-data/today.json';
+// Records written before the source field existed are all El Comercio.
+const DEFAULT_SOURCE = 'El Comercio';
 
 interface Article {
   title: string;
@@ -8,6 +10,7 @@ interface Article {
   summary: string;
   author: string;
   published: string;
+  source?: string;
 }
 
 const LIMA = 'America/Lima';
@@ -31,13 +34,21 @@ function safeHttpUrl(raw: string): string {
 
 // Third-party text: build every node with textContent — never innerHTML.
 function card(article: Article): HTMLElement {
+  const source = article.source ?? DEFAULT_SOURCE;
   const el = document.createElement('article');
   el.className = 'ultimitas-card bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7';
+  el.dataset.source = source;
 
+  const head = document.createElement('div');
+  head.className = 'flex flex-wrap items-center justify-between gap-x-4 gap-y-1.5';
   const meta = document.createElement('p');
   meta.className = 'font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina';
-  meta.textContent = `${timeFmt.format(new Date(article.published))} · El Comercio${article.author ? ` · ${article.author}` : ''}`;
-  el.append(meta);
+  meta.textContent = `${timeFmt.format(new Date(article.published))}${article.author ? ` · ${article.author}` : ''}`;
+  const chip = document.createElement('span');
+  chip.className = 'ultimitas-source';
+  chip.textContent = source;
+  head.append(meta, chip);
+  el.append(head);
 
   const title = document.createElement('h2');
   title.className = 'font-sans font-bold text-lg mt-1.5 leading-snug';
@@ -60,7 +71,7 @@ function card(article: Article): HTMLElement {
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.className = 'nav-link font-sans text-sm font-medium';
-    link.textContent = 'Leer en El Comercio →';
+    link.textContent = `Leer en ${source} →`;
     linkWrap.append(link);
     el.append(linkWrap);
   }
@@ -68,11 +79,44 @@ function card(article: Article): HTMLElement {
   return el;
 }
 
+function applyFilter(list: HTMLElement, emptyEl: HTMLElement, filter: string): void {
+  let visible = 0;
+  for (const el of list.querySelectorAll<HTMLElement>('.ultimitas-card')) {
+    const show = filter === 'all' || el.dataset.source === filter;
+    el.hidden = !show;
+    if (show) visible += 1;
+  }
+  emptyEl.textContent = `Sin titulares de ${filter} este día.`;
+  emptyEl.classList.toggle('hidden', filter === 'all' || visible > 0);
+}
+
+function renderFilters(bar: HTMLElement, list: HTMLElement, emptyEl: HTMLElement, sources: string[]): void {
+  // Chips come from the data, not a hardcoded outlet list; skip on single-source days.
+  if (sources.length < 2) return;
+  const options = ['all', ...sources];
+  for (const option of options) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'ultimitas-filter';
+    btn.textContent = option === 'all' ? 'Todas' : option;
+    btn.setAttribute('aria-pressed', String(option === 'all'));
+    btn.addEventListener('click', () => {
+      for (const other of bar.querySelectorAll('button')) other.setAttribute('aria-pressed', 'false');
+      btn.setAttribute('aria-pressed', 'true');
+      applyFilter(list, emptyEl, option);
+    });
+    bar.append(btn);
+  }
+  bar.hidden = false;
+}
+
 async function load(): Promise<void> {
   const list = document.getElementById('ultimitas-list');
   const dateEl = document.getElementById('ultimitas-date');
   const errorEl = document.getElementById('ultimitas-error');
-  if (!list || !dateEl || !errorEl) return;
+  const filtersEl = document.getElementById('ultimitas-filters');
+  const filterEmptyEl = document.getElementById('ultimitas-filter-empty');
+  if (!list || !dateEl || !errorEl || !filtersEl || !filterEmptyEl) return;
 
   try {
     const resp = await fetch(DATA_URL, { cache: 'no-cache' });
@@ -84,6 +128,8 @@ async function load(): Promise<void> {
     const suffix = data.date === limaToday() ? '' : ' · último día con noticias';
     dateEl.textContent = `Ultimitas del ${formatDateEs(data.date)}${suffix}`;
     list.replaceChildren(...data.articles.map(card));
+    const sources = [...new Set(data.articles.map((a) => a.source ?? DEFAULT_SOURCE))];
+    renderFilters(filtersEl, list, filterEmptyEl, sources);
   } catch (err) {
     console.error('ultimitas:', err);
     dateEl.textContent = 'Ultimitas';

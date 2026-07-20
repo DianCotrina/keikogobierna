@@ -18,3 +18,32 @@
 @media (prefers-reduced-motion: reduce) {
   .ultimitas-skeleton, .ultimitas-card { animation: none; }
 }
+
+/* Source wordmark on each card + filter chips. Wordmarks by design — never logos. */
+.ultimitas-source {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-tintasuave);
+  border: 1.5px solid color-mix(in srgb, var(--color-tinta) 25%, transparent);
+  border-radius: 0.25rem;
+  padding: 0.15rem 0.5rem;
+  white-space: nowrap;
+}
+
+.ultimitas-filter {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-tintasuave);
+  border: 1.5px solid color-mix(in srgb, var(--color-tinta) 25%, transparent);
+  border-radius: 0.25rem;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+.ultimitas-filter:hover { color: var(--color-tinta); border-color: color-mix(in srgb, var(--color-tinta) 50%, transparent); }
+.ultimitas-filter:focus-visible { outline: 2px solid color-mix(in srgb, var(--color-verde) 60%, transparent); outline-offset: 2px; }
+.ultimitas-filter[aria-pressed="true"] { background: var(--color-tinta); border-color: var(--color-tinta); color: var(--color-papel); }
