@@ -1,82 +1,37 @@
 {
- "generated": "2026-07-25T07:18:27+00:00",
+ "generated": "2026-07-25T17:58:52+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-07-24",
+ "date": "2026-07-25",
  "articles": [
   {
-   "title": "Captan a Rosangella Barbarán haciendo \"gesto de asco\" durante juramentación de diputada de JP",
-   "url": "https://larepublica.pe/politica/2026/07/24/captan-a-rosangella-barbaran-sacando-la-lengua-durante-la-juramentacion-de-diputada-de-jp-hnews-1941336",
-   "summary": "Un video captado por cámaras de La República muestra a la diputada de Fuerza Popular reaccionando a la juramentación de Catherin Palomino de Juntos por el Perú.",
+   "title": "Fuerza Popular y Renovación Popular se unen para la Mesa Directiva: Miguel Torres y Muñante son los candidatos",
+   "url": "https://larepublica.pe/politica/2026/07/25/fuerza-popular-y-renovacion-popular-se-unen-para-la-mesa-directiva-miguel-torres-y-munante-son-los-candidatos-hnews-710400",
+   "summary": "La lista integra, además, a los senadores Nilza Chacón (Fuerza Popular) y Edgar Mancha (Renovación Popular). Una segunda lista, impulsada por bancadas de oposición, también quedó inscrita antes del cierre del plazo.",
    "author": "Ariadna Yaya",
-   "published": "2026-07-25T01:11:59+00:00",
+   "published": "2026-07-25T17:10:13+00:00",
    "source": "La República",
-   "captured": "2026-07-25T07:18:27+00:00"
+   "captured": "2026-07-25T17:58:52+00:00"
   },
   {
-   "title": "Martha Moyano sobre Absalón Vásquez: \"Él es fujimorista, [fue] mejor amigo del expresidente Fujimori\"",
-   "url": "https://larepublica.pe/politica/2026/07/24/martha-moyano-sobre-absalon-vasquez-el-es-fujimorista-fue-mejor-amigo-del-expresidente-fujimori-280392",
-   "summary": "Absalón Vásquez, senador por Renovación Popular, juró al cargo por la memoria de Alberto Fujimori. Además, señaló que no postuló por Fuerza Popular porque Rafael López Aliaga lo invitó antes a sumarse al partido celeste.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-07-24T23:45:51+00:00",
-   "source": "La República",
-   "captured": "2026-07-25T00:04:31+00:00"
-  },
-  {
-   "title": "Los quehaceres de Keiko, por Miguel Palomino",
-   "url": "https://larepublica.pe/opinion/2026/07/24/los-quehaceres-de-keiko-por-miguel-palomino-hnews-1450872",
-   "summary": "De cómo la presidenta electa puede asegurar que su mandato sea recordado como un éxito, según el reconocido economista.",
-   "author": "Miguel Palomino",
-   "published": "2026-07-24T20:29:58+00:00",
-   "source": "La República",
-   "captured": "2026-07-25T00:04:31+00:00"
-  },
-  {
-   "title": "Keiko Fujimori recibe a embajadores de países europeos en su local partidario",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-recibe-a-embajadores-de-paises-europeos-en-su-local-partidario-ultimas-noticia/",
-   "summary": "Keiko Fujimori sostuvo una reunión con embajadores de diversos países europeos en San Isidro, quienes la felicitarán por su victoria electoral y dialogarán sobre el fortalecimiento de las relaciones bilaterales. Tras el encuentro, se prevé un pronunciamiento ante la prensa y reuniones con autoridades del interior del país.",
+   "title": "Senado: Fuerza Popular y Renovación Popular presentar primera lista de candidatos a la Mesa Directiva liderada por Miguel Torres",
+   "url": "https://elcomercio.pe/politica/congreso/senado-fuerza-popular-y-renovacion-popular-presentar-primera-lista-de-candidatos-a-la-mesa-directiva-liderada-por-miguel-torres-ultimas-noticia/",
+   "summary": "Las bancadas de Fuerza Popular y Renovación Popular presentaron la mañana de este sábado 25 de julio la primera lista de candidatos para ocupar la Mesa Directiva del Senado para el primer año legislativo del Congreso bicameral, la cual está encabezada por Miguel Torres de Fuerza Popular.",
    "author": "Redacción EC",
-   "published": "2026-07-24T17:20:54+00:00",
+   "published": "2026-07-25T15:49:41+00:00",
    "source": "El Comercio",
-   "captured": "2026-07-24T18:18:38+00:00"
+   "captured": "2026-07-25T17:58:52+00:00"
   },
   {
-   "title": "PerúCheck: Fuerza Popular tendrá “menos de 15 días” para la transferencia de gestión, como afirmó Cecilia Chacón",
-   "url": "https://elcomercio.pe/politica/perucheck-fuerza-popular-tendra-menos-de-15-dias-para-la-transferencia-de-gestion-como-afirmo-cecilia-chacon-noticia/",
-   "summary": "La diputada electa dijo también que “lo normal” para una transferencia es al menos un mes. Registros oficiales del JNE demuestran que efectivamente es así: Keiko Fujimori tendrá menos tiempo que otros presidentes para transferir su gestión.",
-   "author": "Thalía Cadenas",
-   "published": "2026-07-24T14:08:28+00:00",
+   "title": "Congreso bicameral: el detrás de cámaras de las negociaciones para la presidencia del Senado y diputados",
+   "url": "https://elcomercio.pe/politica/congreso-bicameral-el-detras-de-camaras-de-las-negociaciones-para-la-presidencia-del-senado-y-diputados-noticia/",
+   "summary": "El fujimorismo pone todas sus fichas en la Cámara Alta. Mientras que la izquierda, junto al partido de Nieto, definen su lista para el control de Diputados.",
+   "author": "Martin Hidalgo",
+   "published": "2026-07-25T15:32:18+00:00",
    "source": "El Comercio",
-   "captured": "2026-07-24T18:18:38+00:00"
-  },
-  {
-   "title": "Keiko Fujimori dice que recibe un Estado “catastrófico”: ¿Cuáles son las medidas de contingencia que prepara?",
-   "url": "https://elcomercio.pe/politica/keiko-fujimori-dice-que-recibe-un-estado-catastrofico-cuales-son-las-medidas-de-contingencia-que-prepara-noticia/",
-   "summary": "",
-   "author": "Erik Rivera",
-   "published": "2026-07-24T11:30:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-07-24T12:19:50+00:00"
-  },
-  {
-   "title": "¿Qué medidas sobre la seguridad ciudadana y la prevención del FEN deben contener el mensaje a la Nación?",
-   "url": "https://elcomercio.pe/opinion/columnistas/que-medidas-sobre-la-seguridad-ciudadana-y-la-prevencion-del-fen-deben-contener-el-mensaje-a-la-nacion-noticia/",
-   "summary": "Este 28 de julio, Keiko Fujimori asumirá el mando de presidenta del Perú. Fujimori recibe un país golpeado por una de las peores crisis de inseguridad ciudadana, y en medio de una importante campaña de prevención ante un agresivo fenómeno de El Niño. ¿Qué puntos sobre estos ejes deben estar presentes en su mensaje a la nación? Nicolás Zevallos, del Instituto de Criminología, y Juan Manuel Arribas, presidente de Hombro a Hombro, comentan al respecto.",
-   "author": "Nicolás Zevallos Trigoso, Juan Manuel Arribas Berendsohn",
-   "published": "2026-07-24T10:33:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-07-24T12:19:50+00:00"
-  },
-  {
-   "title": "Transferencia con obstáculos",
-   "url": "https://elcomercio.pe/opinion/editorial/jose-balcazar-transferencia-con-obstaculos-noticia/",
-   "summary": "El gobierno de José Balcázar llega a sus últimos días arrastrando una mancha que resume su paso por Palacio: la desidia. El equipo de transferencia liderado por Marco Vinelli, que en dos semanas debía verificar las condiciones en que Fuerza Popular recibirá el Estado, halló medicamentos vencidos en el Minsa, kits escolares sin distribuir en el Minedu y una cadena de designaciones de último minuto que huelen más a reparto de cuotas que a gestión pública. Ninguno de estos hallazgos debería sorprender a quien haya seguido de cerca esta administración, pero su acumulación en las horas finales confirma que el desorden no fue un episodio aislado, sino el método de gobierno que la caracterizó.",
-   "author": "Editorial El Comercio",
-   "published": "2026-07-24T05:10:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-07-24T07:32:04+00:00"
+   "captured": "2026-07-25T17:58:52+00:00"
   }
  ]
 }
