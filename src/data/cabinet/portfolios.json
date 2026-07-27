@@ -1,0 +1,137 @@
+{
+  "portfolios": [
+    {
+      "id": "pcm",
+      "name": "Presidencia del Consejo de Ministros",
+      "short": "PCM",
+      "slug": "pcm",
+      "topics": []
+    },
+    {
+      "id": "m-relaciones-exteriores",
+      "name": "Ministerio de Relaciones Exteriores",
+      "short": "Relaciones Exteriores",
+      "slug": "relaciones-exteriores",
+      "topics": ["t3-10"]
+    },
+    {
+      "id": "m-defensa",
+      "name": "Ministerio de Defensa",
+      "short": "Defensa",
+      "slug": "defensa",
+      "topics": []
+    },
+    {
+      "id": "m-economia",
+      "name": "Ministerio de Economía y Finanzas",
+      "short": "Economía y Finanzas",
+      "slug": "economia-y-finanzas",
+      "topics": ["t1-3"]
+    },
+    {
+      "id": "m-interior",
+      "name": "Ministerio del Interior",
+      "short": "Interior",
+      "slug": "interior",
+      "topics": ["t1-1"]
+    },
+    {
+      "id": "m-justicia",
+      "name": "Ministerio de Justicia y Derechos Humanos",
+      "short": "Justicia y Derechos Humanos",
+      "slug": "justicia",
+      "topics": ["t1-2", "t1-4"]
+    },
+    {
+      "id": "m-educacion",
+      "name": "Ministerio de Educación",
+      "short": "Educación",
+      "slug": "educacion",
+      "topics": ["t3-2", "t3-9"]
+    },
+    {
+      "id": "m-salud",
+      "name": "Ministerio de Salud",
+      "short": "Salud",
+      "slug": "salud",
+      "topics": ["t3-3"]
+    },
+    {
+      "id": "m-agrario",
+      "name": "Ministerio de Desarrollo Agrario y Riego",
+      "short": "Desarrollo Agrario y Riego",
+      "slug": "desarrollo-agrario-y-riego",
+      "topics": ["t2-4"]
+    },
+    {
+      "id": "m-trabajo",
+      "name": "Ministerio de Trabajo y Promoción del Empleo",
+      "short": "Trabajo y Promoción del Empleo",
+      "slug": "trabajo",
+      "topics": ["t3-7"]
+    },
+    {
+      "id": "m-produccion",
+      "name": "Ministerio de la Producción",
+      "short": "Producción",
+      "slug": "produccion",
+      "topics": ["t2-1", "t2-5"]
+    },
+    {
+      "id": "m-comercio-exterior",
+      "name": "Ministerio de Comercio Exterior y Turismo",
+      "short": "Comercio Exterior y Turismo",
+      "slug": "comercio-exterior-y-turismo",
+      "topics": ["t2-7", "t2-8"]
+    },
+    {
+      "id": "m-energia-minas",
+      "name": "Ministerio de Energía y Minas",
+      "short": "Energía y Minas",
+      "slug": "energia-y-minas",
+      "topics": ["t2-2", "t2-3"]
+    },
+    {
+      "id": "m-transportes",
+      "name": "Ministerio de Transportes y Comunicaciones",
+      "short": "Transportes y Comunicaciones",
+      "slug": "transportes-y-comunicaciones",
+      "topics": ["t2-6"]
+    },
+    {
+      "id": "m-vivienda",
+      "name": "Ministerio de Vivienda, Construcción y Saneamiento",
+      "short": "Vivienda, Construcción y Saneamiento",
+      "slug": "vivienda",
+      "topics": ["t3-5", "t3-6"]
+    },
+    {
+      "id": "m-mujer",
+      "name": "Ministerio de la Mujer y Poblaciones Vulnerables",
+      "short": "Mujer y Poblaciones Vulnerables",
+      "slug": "mujer",
+      "topics": ["t3-1"]
+    },
+    {
+      "id": "m-ambiente",
+      "name": "Ministerio del Ambiente",
+      "short": "Ambiente",
+      "slug": "ambiente",
+      "topics": ["t2-9"]
+    },
+    {
+      "id": "m-cultura",
+      "name": "Ministerio de Cultura",
+      "short": "Cultura",
+      "slug": "cultura",
+      "topics": []
+    },
+    {
+      "id": "m-desarrollo-social",
+      "name": "Ministerio de Desarrollo e Inclusión Social",
+      "short": "Desarrollo e Inclusión Social",
+      "slug": "desarrollo-e-inclusion-social",
+      "topics": ["t3-4", "t3-8"]
+    }
+  ]
+}
