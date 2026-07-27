@@ -37,6 +37,12 @@ SOURCES = [
     {"name": "La República", "feeds": [
         "https://larepublica.pe/rss/politica.xml",
     ]},
+    {"name": "RPP", "feeds": [
+        "https://rpp.pe/feed",
+    ]},
+    {"name": "Gestión", "feeds": [
+        "https://gestion.pe/arc/outboundfeeds/rss/?outputType=xml",
+    ]},
 ]
 BROWSER_UA = "Mozilla/5.0 (compatible; keikogobierna-ultimitas; +https://github.com/DianCotrina/keikogobierna)"
 KEYWORDS = ["keiko fujimori", "keiko", "fuerza popular", "fujimorismo"]

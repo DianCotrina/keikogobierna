@@ -120,10 +120,15 @@ class LaRepublicaFeedTest(unittest.TestCase):
             datetime.fromisoformat(item["published"])  # raises if unparseable
             self.assertEqual(item["source"], "La República")
 
-    def test_larepublica_is_configured(self):
+    def test_every_outlet_is_configured(self):
         names = [s["name"] for s in us.SOURCES]
-        self.assertIn("La República", names)
-        self.assertIn("El Comercio", names)
+        for outlet in ("El Comercio", "La República", "RPP", "Gestión"):
+            self.assertIn(outlet, names)
+
+    def test_source_names_are_unique(self):
+        # The ultimitas page derives its filter chips from these names.
+        names = [s["name"] for s in us.SOURCES]
+        self.assertEqual(len(names), len(set(names)))
 
 
 class SourceIsolationTest(unittest.TestCase):
@@ -141,8 +146,8 @@ class SourceIsolationTest(unittest.TestCase):
         finally:
             us.http_get = real_http_get
         self.assertEqual(failed, ["La República"])
-        self.assertTrue(items)  # El Comercio still delivered
-        self.assertTrue(all(i["source"] == "El Comercio" for i in items))
+        self.assertTrue(items)  # the other outlets still delivered
+        self.assertNotIn("La República", {i["source"] for i in items})
 
 
 if __name__ == "__main__":

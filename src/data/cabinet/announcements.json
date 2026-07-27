@@ -28,6 +28,18 @@
           "kind": "press"
         }
       ]
+    },
+    {
+      "portfolio": "m-economia",
+      "person_name": "Elmer Cuba",
+      "announced": "2026-07-27",
+      "sources": [
+        {
+          "label": "RPP",
+          "url": "https://rpp.pe/economia/economia/keiko-fujimori-anuncia-a-elmer-cuba-como-ministro-de-economia-de-su-primer-gabinete-perfil-y-hoja-de-vida-noticia-1698966",
+          "kind": "press"
+        }
+      ]
     }
   ]
 }
