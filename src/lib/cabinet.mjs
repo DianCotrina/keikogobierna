@@ -64,6 +64,13 @@ export function tenureDays(tenure, today = new Date()) {
   return Math.max(0, Math.floor((end - start) / MS_PER_DAY));
 }
 
+/** Spanish label for a day count, shared so the card and the dossier agree. */
+export function daysLabel(days) {
+  if (days === null || days === undefined) return '';
+  if (days === 0) return 'Asume hoy';
+  return `${days} ${days === 1 ? 'día' : 'días'} en el cargo`;
+}
+
 /**
  * One row per portfolio, vacancies included — the roster is about the offices,
  * not only the people currently filling them.

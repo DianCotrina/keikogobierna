@@ -1,0 +1,35 @@
+---
+// Renders before any name on both gabinete pages. The wording matters as much
+// as the placement: a stage is a point in a process, not a verdict, and an
+// empty record is the limit of our search rather than a finding of innocence.
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<aside
+  class:list={[
+    'reveal border border-tinta/15 bg-carton/70 rounded-lg',
+    compact ? 'p-5' : 'p-6 sm:p-7',
+  ]}
+>
+  <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintasuave">
+    Presunción de inocencia
+  </p>
+  <p class="mt-2 text-sm leading-[1.7] text-tintasuave max-w-2xl">
+    Toda persona es inocente mientras no se declare judicialmente su responsabilidad.
+    Lo que aquí se publica es la <strong class="font-semibold text-tinta">etapa procesal</strong>
+    en la que se encuentra cada caso según fuentes públicas —una investigación no es una
+    condena, y una acusación tampoco lo es—. Cuando un proceso terminó en archivo o
+    absolución, así se indica y con el mismo peso.
+  </p>
+  {!compact && (
+    <p class="mt-3 text-sm leading-[1.7] text-tintasuave max-w-2xl">
+      «Sin registro público» significa que no hallamos procesos documentados, no que no
+      existan. Cada dato enlaza su fuente. Si encuentras un error, escríbenos y lo
+      corregimos.
+    </p>
+  )}
+</aside>

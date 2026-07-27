@@ -23,6 +23,16 @@ export const STAGES = {
 
 const CONVICTIONS = new Set(['sentencia_firme', 'sentencia_no_firme']);
 
+/**
+ * The live stages in order, rank 1 upward — the rungs a proceeding climbs.
+ * Rank-0 outcomes are deliberately absent: they end a case rather than
+ * advance it, and the UI shows them off the ladder for that reason.
+ */
+export const LADDER = Object.entries(STAGES)
+  .filter(([, meta]) => meta.rank > 0)
+  .sort((a, b) => a[1].rank - b[1].rank)
+  .map(([stage, meta]) => ({ stage, ...meta }));
+
 export function stageMeta(stage) {
   return STAGES[stage] ?? { label: String(stage), color: 'plomo', rank: 0 };
 }

@@ -1,0 +1,189 @@
+---
+import Base from '../../layouts/Base.astro';
+import PresuncionNotice from '../../components/PresuncionNotice.astro';
+import RecordBadge from '../../components/RecordBadge.astro';
+import JudicialEntry from '../../components/JudicialEntry.astro';
+import TenureTimeline from '../../components/TenureTimeline.astro';
+import {
+  loadPeople,
+  loadTenures,
+  portfolioById,
+  portfolioTopics,
+  tenureDays,
+  daysLabel,
+} from '../../lib/cabinet.mjs';
+import { stageMeta } from '../../lib/judicial.mjs';
+import { loadPlan, loadGoals, loadTracking, topicSummaries } from '../../lib/plan.mjs';
+
+export function getStaticPaths() {
+  return loadPeople().map((person) => ({ params: { slug: person.slug }, props: { person } }));
+}
+
+const { person } = Astro.props;
+
+const tenures = loadTenures()
+  .filter((t) => t.person === person.slug)
+  .sort((a, b) => b.start.localeCompare(a.start))
+  .map((tenure) => ({
+    tenure,
+    portfolio: portfolioById(tenure.portfolio) ?? null,
+    days: tenureDays(tenure),
+  }));
+
+const openTenure = tenures.find((row) => !row.tenure.end) ?? null;
+const currentPortfolio = openTenure?.portfolio ?? null;
+
+// The roster-meets-tracker payoff: what this person is actually accountable for.
+// plan.mjs and cabinet.mjs are untyped, so the shape is named here for the editor.
+interface TopicSummary {
+  id: string;
+  slug: string;
+  name: string;
+  progressPct: number;
+}
+
+const summaries: TopicSummary[] = topicSummaries(loadPlan(), loadGoals(), loadTracking());
+const ownedIds = new Set(
+  (currentPortfolio ? portfolioTopics(currentPortfolio.id) : []).map((t: { id: string }) => t.id),
+);
+const owned = summaries.filter((topic) => ownedIds.has(topic.id));
+
+// Most serious first, then most recent — the ordering the ladder implies.
+const entries = [...(person.judicial ?? [])].sort((a, b) => {
+  const rank = stageMeta(b.stage).rank - stageMeta(a.stage).rank;
+  return rank !== 0 ? rank : String(b.date).localeCompare(String(a.date));
+});
+
+const role = currentPortfolio
+  ? `Ministro de Estado · ${currentPortfolio.name}`
+  : 'Ex ministro de Estado';
+
+const title = `${person.name} — Gabinete — keikogobierna`;
+const description = `${person.name}: cargo, temas del plan a su cargo, paso por el gabinete y registro judicial documentado con fuentes públicas.`;
+---
+
+<Base title={title} description={description}>
+  <main>
+    <!-- Masthead -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-8 sm:pt-14">
+      <a href="/gabinete/" class="nav-link font-mono text-xs text-tintasuave inline-flex items-center gap-2">← Volver al gabinete</a>
+      <p class="mt-7 font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">{role}</p>
+      <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
+        {person.name}
+        <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+      </h1>
+
+      <div class="mt-6 flex flex-wrap items-start gap-x-8 gap-y-4">
+        <RecordBadge person={person} />
+        {openTenure && (
+          <p class="font-mono text-xs text-tintafina self-center">{daysLabel(openTenure.days)}</p>
+        )}
+      </div>
+
+      {person.profession && <p class="mt-6 text-sm text-tintasuave">{person.profession}</p>}
+      {person.bio && <p class="mt-2 text-lg leading-[1.7] text-tintasuave max-w-xl">{person.bio}</p>}
+
+      {person.sources?.length > 0 && (
+        <p class="mt-4 flex flex-wrap gap-x-6 gap-y-1 font-mono text-xs">
+          {person.sources.map((source) => (
+            <a href={source.url} target="_blank" rel="noopener noreferrer" class="nav-link">{source.label} ↗</a>
+          ))}
+        </p>
+      )}
+    </section>
+
+    <!-- Accountable for -->
+    {owned.length > 0 && (
+      <section class="border-t border-tinta/10 bg-white/40">
+        <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
+          <div class="reveal border-b border-tinta/10 pb-3">
+            <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Responsable de</h2>
+            <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
+              Los temas del plan de gobierno que corresponden a esta cartera, con su avance actual.
+            </p>
+          </div>
+          <ul class="mt-6 space-y-3">
+            {owned.map((topic) => (
+              <li class="reveal">
+                <a href={`/temas/${topic.slug}/`} class="card-hover block bg-white rounded-lg border border-tinta/10 shadow-chip px-5 py-4">
+                  <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+                    <span class="font-sans font-bold">{topic.name}</span>
+                    <span class="font-mono text-xs text-tintafina">{topic.progressPct} % de avance</span>
+                  </div>
+                  <div class="mt-3 h-1.5 rounded-full bg-tinta/10 overflow-hidden">
+                    <div class="h-full rounded-full bg-tinta" style={`width:${topic.progressPct}%`}></div>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+
+    <!-- Tenure -->
+    <section class="border-t border-tinta/10">
+      <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
+        <div class="reveal border-b border-tinta/10 pb-3">
+          <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Paso por el cargo</h2>
+          <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
+            Cada tramo enlaza la Resolución Suprema que lo certifica.
+          </p>
+        </div>
+        <div class="mt-6">
+          <TenureTimeline rows={tenures} />
+        </div>
+      </div>
+    </section>
+
+    <!-- Judicial record -->
+    <section class="border-t border-tinta/10 bg-white/40">
+      <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
+        <div class="reveal border-b border-tinta/10 pb-3">
+          <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Registro judicial</h2>
+          <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
+            Procesos documentados en fuentes públicas, ordenados por la etapa alcanzada.
+          </p>
+        </div>
+
+        <div class="mt-6">
+          <PresuncionNotice compact={true} />
+        </div>
+
+        {entries.length === 0 ? (
+          <div class="reveal mt-6 rounded-lg border border-dashed border-tinta/25 p-8 text-center">
+            <p class="font-sans font-bold text-lg">Sin registro público</p>
+            <p class="mt-2 text-sm leading-[1.7] text-tintasuave max-w-md mx-auto">
+              No hallamos procesos documentados en las fuentes que consultamos. Eso no
+              equivale a una declaración de inocencia ni descarta que existan.
+            </p>
+          </div>
+        ) : (
+          <div class="mt-6 space-y-5">
+            {entries.map((entry) => <JudicialEntry entry={entry} />)}
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- Right of reply -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 py-14">
+      <div class="reveal bg-tinta text-papel rounded-lg shadow-lift p-6 sm:p-7">
+        <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-papel/60">Derecho de réplica</p>
+        <h2 class="font-sans font-bold text-lg mt-1.5">¿Hay un error en esta ficha?</h2>
+        <p class="mt-2 text-sm leading-[1.7] text-papel/80 max-w-xl">
+          Si eres la persona aquí descrita, su representante, o tienes documentación que
+          corrige o actualiza cualquier dato —incluida una resolución posterior que archive
+          o revierta un proceso— escríbenos y la publicamos con la misma visibilidad.
+        </p>
+        <p class="mt-3 font-mono text-sm">
+          <a href="https://github.com/DianCotrina/keikogobierna/issues" target="_blank" rel="noopener noreferrer" class="nav-link">
+            Abrir una corrección ↗
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+</Base>

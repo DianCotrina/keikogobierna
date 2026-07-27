@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
-/* Stamp.astro builds text-{color} classes dynamically, invisible to the scanner. */
+/* Stamp.astro and RecordBadge.astro build text-{color} classes dynamically, and
+   JudicialEntry.astro builds bg-{color} for the stage rail — all invisible to
+   the scanner. */
 @source inline("text-verde text-ambar text-plomo text-rojo");
+@source inline("bg-verde bg-ambar bg-plomo bg-rojo");
 
 @theme {
   --color-papel: #F5F3EE;
