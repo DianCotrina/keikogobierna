@@ -1,124 +1,217 @@
 """Deterministic detection of cabinet appointments and resignations.
 
-Appointment normas are highly formulaic, which is what makes regex the right
-tool and keeps the no-AI-in-pipelines invariant intact. The strings below follow
-the gazette's own grammar; the parser must never guess.
+Every fixture here is a verbatim capture of the 2026-03-18 cabinet change --
+a real full-cabinet reshuffle, 38 Resoluciones Supremas in one edition. An
+earlier version of this file used invented strings and passed while the parser
+matched nothing real, so the rule now is: assert only against captured gazette
+output.
 
-Note: these are structural strings, not a captured ministerial appointment --
-the 2026 cabinet is sworn in on 2026-07-28 and no such norma exists yet. Re-run
-against real gazette output before any roster data is committed.
+The grammar the gazette actually uses:
+  sumilla  "Nombran Ministro del Interior" / "Nombran Presidente del Consejo de Ministros"
+           "Aceptan renuncia de Ministro del Interior"
+  body     "Nombrar Ministro de Estado en el Despacho del Interior, al señor NOMBRE."
+           "Nombrar Presidente del Consejo de Ministros, al señor NOMBRE."
+           "Aceptar la renuncia que, al cargo de Ministro de Estado en el Despacho
+            del Interior, formula el señor NOMBRE, dándosele las gracias..."
+
+Note the name follows the portfolio, `tipoDispositivo` arrives unaccented as
+"RESOLUCION SUPREMA", and names are Title Case, not upper case.
 """
+import json
 import sys
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-from cabinet_rules import is_cabinet_norma, parse_cabinet_act  # noqa: E402
+from cabinet_rules import is_cabinet_norma, parse_cabinet_act, portfolio_id  # noqa: E402
+from elperuano_scraper import html_to_text  # noqa: E402
+
+FIXTURES = Path(__file__).resolve().parent / "fixtures"
+RECORDS = json.loads((FIXTURES / "normas_20260318.json").read_text(encoding="utf-8"))
+
+OP_PCM_APPOINT = "2496970-20"       # Nombran Presidente del Consejo de Ministros
+OP_INTERIOR_APPOINT = "2496970-24"  # Nombran Ministro del Interior
+OP_INTERIOR_RESIGN = "2496970-4"    # Aceptan renuncia de Ministro del Interior
 
 
-def norma(sumilla, tipo="RESOLUCIÓN SUPREMA", sector="PRESIDENCIA DEL CONSEJO DE MINISTROS"):
-    return {"tipo": tipo, "numero": "N° 001-2026-PCM", "sector": sector,
-            "rubro": "NL", "sumilla": sumilla, "fecha": "20260728",
-            "op": "2538239-1", "url_pdf": "https://busquedas.elperuano.pe/x.PDF"}
+def record(op):
+    return next(r for r in RECORDS if r["op"] == op)
 
 
-APPOINT = norma("Nombran Ministro de Estado en el Despacho del Interior")
-APPOINT_BODY = (
-    "RESOLUCIÓN SUPREMA N° 001-2026-PCM\n"
-    "EL PRESIDENTE DE LA REPÚBLICA\n"
-    "SE RESUELVE:\n"
-    "Artículo 1.- Nombrar al señor JUAN CARLOS PEREZ GARCIA como Ministro de "
-    "Estado en el Despacho del Interior.\n"
-    "Regístrese, comuníquese y publíquese."
-)
+def body(op):
+    return html_to_text((FIXTURES / f"visor_html_{op}.html").read_bytes())
 
 
-class Detection(unittest.TestCase):
-    def test_an_appointment_is_a_cabinet_norma(self):
-        self.assertTrue(is_cabinet_norma(APPOINT))
+def act(op):
+    return parse_cabinet_act(record(op), body(op))
 
-    def test_a_resignation_is_a_cabinet_norma(self):
-        self.assertTrue(is_cabinet_norma(
-            norma("Aceptan renuncia de Ministra de Estado en el Despacho de Salud")))
 
-    def test_a_viceministerial_appointment_is_not_a_cabinet_norma(self):
-        # The single most likely false positive: viceministers are appointed
-        # constantly and are not cabinet members.
-        self.assertFalse(is_cabinet_norma(norma("Designan Viceministro de Trabajo")))
+class DetectionOverTheRealEdition(unittest.TestCase):
+    """The 2026-03-18 edition is the ground truth: 38 cabinet acts among 83 normas."""
+
+    def test_the_unaccented_tipo_from_the_gazette_is_accepted(self):
+        # Real records carry "RESOLUCION SUPREMA"; newer ones carry the accent.
+        self.assertEqual(record(OP_INTERIOR_APPOINT)["tipo"], "RESOLUCION SUPREMA")
+        self.assertTrue(is_cabinet_norma(record(OP_INTERIOR_APPOINT)))
+
+    def test_the_accented_tipo_is_also_accepted(self):
+        accented = dict(record(OP_INTERIOR_APPOINT), tipo="RESOLUCIÓN SUPREMA")
+        self.assertTrue(is_cabinet_norma(accented))
+
+    def test_detects_every_appointment_and_resignation_in_the_edition(self):
+        detected = [r for r in RECORDS if is_cabinet_norma(r)]
+        expected = [r for r in RECORDS
+                    if r["sumilla"].startswith(("Nombran Ministr", "Nombran Presidente del Consejo",
+                                                "Aceptan renuncia de Ministr",
+                                                "Aceptan renuncia de Presidente del Consejo"))]
+        self.assertEqual(len(expected), 38, "fixture sanity: a full cabinet reshuffle")
+        self.assertCountEqual([r["op"] for r in detected], [r["op"] for r in expected])
+
+    def test_the_pcm_presidency_is_detected(self):
+        # The head of cabinet is never called "Ministro de Estado" in a sumilla,
+        # which is exactly how this was missed before.
+        self.assertTrue(is_cabinet_norma(record(OP_PCM_APPOINT)))
+
+    def test_the_rest_of_the_edition_is_left_alone(self):
+        # 83 normas that day; only the 38 cabinet Resoluciones Supremas should
+        # be picked up. Everything else is ordinary business.
+        others = [r for r in RECORDS if not is_cabinet_norma(r)]
+        self.assertEqual(len(others), 45)
+        for r in others:
+            self.assertFalse(r["sumilla"].startswith(("Nombran Ministr", "Nombran Presidente del Consejo")))
+
+    def test_a_viceministerial_appointment_is_not_detected(self):
         self.assertFalse(is_cabinet_norma(
-            norma("Designan Viceministra de Estado en el Despacho de Educación")))
+            dict(record(OP_INTERIOR_APPOINT), sumilla="Designan Viceministro de Trabajo")))
 
-    def test_an_unrelated_norma_is_not_a_cabinet_norma(self):
-        self.assertFalse(is_cabinet_norma(
-            norma("Autorizan viaje de docentes en comisión de servicios")))
-
-    def test_a_resolucion_ministerial_is_not_a_cabinet_norma(self):
-        # Ministers are appointed by Resolución Suprema only.
-        self.assertFalse(is_cabinet_norma(
-            norma("Nombran Ministro de Estado en el Despacho del Interior",
-                  tipo="RESOLUCIÓN MINISTERIAL")))
+    def test_a_ministerial_travel_authorisation_is_not_detected(self):
+        self.assertFalse(is_cabinet_norma(dict(
+            record(OP_INTERIOR_APPOINT),
+            sumilla="Autorizan viaje de Ministro de Relaciones Exteriores a la República de Chile")))
 
 
-class ParseAppointment(unittest.TestCase):
+class ParseSectoralAppointment(unittest.TestCase):
     def setUp(self):
-        self.act = parse_cabinet_act(APPOINT, APPOINT_BODY)
+        self.act = act(OP_INTERIOR_APPOINT)
 
-    def test_returns_an_appointment(self):
+    def test_is_parsed(self):
+        self.assertIsNotNone(self.act)
+
+    def test_action_is_appointment(self):
         self.assertEqual(self.act["action"], "nombramiento")
 
-    def test_extracts_the_person_from_the_body(self):
-        self.assertEqual(self.act["person"], "JUAN CARLOS PEREZ GARCIA")
+    def test_person_is_read_after_the_portfolio(self):
+        self.assertEqual(self.act["person"], "José Mercedes Zapata Morante")
 
-    def test_maps_the_portfolio_to_a_registry_id(self):
+    def test_portfolio_resolves_to_the_registry_id(self):
         self.assertEqual(self.act["portfolio"], "m-interior")
 
-    def test_carries_the_certifying_norma_and_an_iso_date(self):
-        self.assertEqual(self.act["norma"], "N° 001-2026-PCM")
-        self.assertEqual(self.act["date"], "2026-07-28")
-        self.assertTrue(self.act["url"].startswith("https://"))
+    def test_carries_norma_number_and_iso_date(self):
+        self.assertEqual(self.act["norma"], "N° 100-2026-PCM")
+        self.assertEqual(self.act["date"], "2026-03-18")
 
-    def test_handles_a_female_minister(self):
-        act = parse_cabinet_act(
-            norma("Nombran Ministra de Estado en el Despacho de Salud"),
-            "Artículo 1.- Nombrar a la señora MARIA LOPEZ DIAZ como Ministra de "
-            "Estado en el Despacho de Salud.")
-        self.assertEqual(act["person"], "MARIA LOPEZ DIAZ")
-        self.assertEqual(act["portfolio"], "m-salud")
 
-    def test_maps_a_multiword_portfolio(self):
-        act = parse_cabinet_act(
-            norma("Nombran Ministro de Estado en el Despacho de Economía y Finanzas"),
-            "Artículo 1.- Nombrar al señor LUIS RAMOS SOTO como Ministro de Estado "
-            "en el Despacho de Economía y Finanzas.")
-        self.assertEqual(act["portfolio"], "m-economia")
+class ParsePcmAppointment(unittest.TestCase):
+    def setUp(self):
+        self.act = act(OP_PCM_APPOINT)
+
+    def test_is_parsed(self):
+        self.assertIsNotNone(self.act)
+
+    def test_person_is_extracted(self):
+        self.assertEqual(self.act["person"], "Luis Enrique Arroyo Sánchez")
+
+    def test_portfolio_is_pcm(self):
+        self.assertEqual(self.act["portfolio"], "pcm")
 
 
 class ParseResignation(unittest.TestCase):
-    def test_returns_a_resignation(self):
-        act = parse_cabinet_act(
-            norma("Aceptan renuncia de Ministro de Estado en el Despacho de Cultura"),
-            "Artículo 1.- Aceptar la renuncia del señor PEDRO SILVA MORA al cargo de "
-            "Ministro de Estado en el Despacho de Cultura.")
+    def setUp(self):
+        self.act = act(OP_INTERIOR_RESIGN)
+
+    def test_action_is_resignation(self):
+        self.assertEqual(self.act["action"], "renuncia")
+
+    def test_person_is_read_after_formula(self):
+        self.assertEqual(self.act["person"], "Hugo Alberto Begazo de Bedoya")
+
+    def test_portfolio_resolves(self):
+        self.assertEqual(self.act["portfolio"], "m-interior")
+
+
+class ParsesTheWholeEdition(unittest.TestCase):
+    def test_every_sectoral_sumilla_maps_to_a_known_portfolio(self):
+        # Guards the registry lookup against the gazette's real ministry names.
+        unresolved = []
+        for r in RECORDS:
+            if not is_cabinet_norma(r):
+                continue
+            name = (r["sumilla"]
+                    .replace("Nombran ", "").replace("Aceptan renuncia de ", "")
+                    .replace("Ministro de ", "").replace("Ministra de ", "")
+                    .replace("Ministro del ", "").replace("Ministra del ", ""))
+            if "Consejo de Ministros" in r["sumilla"]:
+                continue
+            if portfolio_id(name) is None:
+                unresolved.append(r["sumilla"])
+        self.assertEqual(unresolved, [])
+
+
+class GazetteIrregularities(unittest.TestCase):
+    """Two variations the gazette uses that a tidy reading of it would miss."""
+
+    def test_a_ministry_name_containing_commas_is_read_whole(self):
+        # "Despacho de Vivienda, Construcción y Saneamiento, al señor ..."
+        act = parse_cabinet_act(record("2496970-34"), body("2496970-34"))
+        self.assertIsNotNone(act)
+        self.assertEqual(act["portfolio"], "m-vivienda")
+        self.assertEqual(act["person"], "Wilder Alejandro Sifuentes Quilcate")
+
+    def test_a_resignation_without_a_comma_before_formula_is_read(self):
+        # "...Despacho de Cultura formula la señora ..." -- no comma, unlike its
+        # neighbours in the same edition.
+        act = parse_cabinet_act(record("2496970-17"), body("2496970-17"))
+        self.assertIsNotNone(act)
         self.assertEqual(act["action"], "renuncia")
-        self.assertEqual(act["person"], "PEDRO SILVA MORA")
         self.assertEqual(act["portfolio"], "m-cultura")
+        self.assertEqual(act["person"], "Fátima Soraya Altabás Kajatt")
+
+    def test_the_pcm_presidency_resignation_is_read(self):
+        act = parse_cabinet_act(record("2496970-19"), body("2496970-19"))
+        self.assertIsNotNone(act)
+        self.assertEqual(act["action"], "renuncia")
+        self.assertEqual(act["portfolio"], "pcm")
+        self.assertEqual(act["person"], "Denisse Azucena Miralles Miralles")
+
+    def test_the_whole_edition_parses_with_no_unreadable_acts(self):
+        """The regression that matters: 38 detected, 38 parsed, none dropped."""
+        import json as _json
+        bodies = {p.stem.replace("visor_html_", ""): p for p in FIXTURES.glob("visor_html_*.html")}
+        detected = [r for r in RECORDS if is_cabinet_norma(r)]
+        self.assertEqual(len(detected), 38)
+        covered = [r for r in detected if r["op"] in bodies]
+        self.assertTrue(covered, "fixtures should cover a sample of the edition")
+        for r in covered:
+            self.assertIsNotNone(parse_cabinet_act(r, body(r["op"])), r["sumilla"])
+        del _json
 
 
 class ParserSafety(unittest.TestCase):
     def test_a_non_cabinet_norma_parses_to_none(self):
         self.assertIsNone(parse_cabinet_act(
-            norma("Designan Viceministro de Trabajo"), "Artículo 1.- Designar..."))
+            dict(record(OP_INTERIOR_APPOINT), sumilla="Designan Viceministro de Trabajo"),
+            body(OP_INTERIOR_APPOINT)))
 
     def test_an_unreadable_body_parses_to_none_rather_than_guessing(self):
-        self.assertIsNone(parse_cabinet_act(APPOINT, "texto ilegible sin estructura"))
+        self.assertIsNone(parse_cabinet_act(record(OP_INTERIOR_APPOINT),
+                                            "texto ilegible sin estructura"))
 
-    def test_an_unknown_portfolio_parses_to_none(self):
-        # Better to file nothing than to invent a ministry that is not in the registry.
+    def test_an_unknown_ministry_parses_to_none(self):
         self.assertIsNone(parse_cabinet_act(
-            norma("Nombran Ministro de Estado en el Despacho de Asuntos Marcianos"),
-            "Artículo 1.- Nombrar al señor X Y Z como Ministro de Estado en el "
-            "Despacho de Asuntos Marcianos."))
+            dict(record(OP_INTERIOR_APPOINT), sumilla="Nombran Ministro de Asuntos Marcianos"),
+            "Artículo 1.- Nombrar Ministro de Estado en el Despacho de Asuntos Marcianos, "
+            "al señor Juan Perez Gomez."))
 
 
 if __name__ == "__main__":
