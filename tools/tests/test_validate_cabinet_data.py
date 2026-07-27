@@ -94,6 +94,18 @@ class JudicialRules(unittest.TestCase):
         errors = run(people=[person(judicial=[entry(stage="culpable")])])
         self.assertTrue(any("stage" in e for e in errors), errors)
 
+    def test_a_jne_draft_with_an_unset_stage_cannot_be_merged(self):
+        # jne_scraper emits entries with stage None on purpose: the declaration
+        # is self-reported and its fields contradict each other, so a person
+        # must classify each one. This is what stops a draft reaching the site.
+        errors = run(people=[person(judicial=[entry(stage=None)])])
+        self.assertTrue(any("stage" in e for e in errors), errors)
+
+    def test_a_missing_stage_key_also_fails(self):
+        draft = entry()
+        del draft["stage"]
+        self.assertTrue(run(people=[person(judicial=[draft])]))
+
     def test_duplicate_entry_ids_within_one_person_fail(self):
         errors = run(people=[person(judicial=[entry(), entry()])])
         self.assertTrue(any("duplicate" in e.lower() for e in errors), errors)
