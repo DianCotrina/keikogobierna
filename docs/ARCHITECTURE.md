@@ -19,7 +19,7 @@ flowchart TB
 
     subgraph P2["Plane 2 · News — runtime"]
         direction TB
-        EC["El Comercio + La República<br/>RSS"] -->|"ultimitas_scraper.py<br/>4×/day"| UD["ultimitas-data branch<br/>today.json"]
+        EC["El Comercio · La República<br/>RPP · Gestión — RSS"] -->|"ultimitas_scraper.py<br/>4×/day"| UD["ultimitas-data branch<br/>today.json"]
     end
 
     subgraph P1["Plane 1 · The plan — build time"]
@@ -143,9 +143,9 @@ Python, stdlib only. `tools/scrapers/watcher_common.py` holds what every source 
 | `elperuano_scraper.py` | El Peruano public search page (`/?fechaIni&fechaFin&tipoPublicacion&start`, editions NL/BO/PC) + `/dispositivo/<tipoPub>/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
 | `cabinet_scraper.py` | The same reader, filtered by `cabinet_rules.py` | on demand (backfill) | Issues labeled `cambio-de-gabinete` |
 | `cabinet_scraper.py --press` | The shared press feeds via `press_rules.py` | on demand | Proposed `announcements.json` block |
-| `ultimitas_scraper.py` | El Comercio Arc XP RSS + La República RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
+| `ultimitas_scraper.py` | El Comercio + La República + RPP + Gestión RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
 
-Both news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.
+The news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.
 
 The El Peruano interface is **unofficial**. If it changes shape, the run fails loudly and we fix the tool — that's the accepted trade for $0 access to the primary record. (El Peruano did exactly this on 2026-07-26, retiring its GraphQL API; the reader was repointed at the public search page on 07-31.)
 

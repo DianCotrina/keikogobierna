@@ -3,7 +3,7 @@
 ## Objective
 
 Keep the public `/ultimitas` page fed with press coverage of Keiko Fujimori /
-Fuerza Popular from the outlets in SOURCES (El Comercio, La República). Unlike the evidence watcher and the El Peruano scraper (which file
+Fuerza Popular from the outlets in SOURCES (El Comercio, La República, RPP, Gestión). Unlike the evidence watcher and the El Peruano scraper (which file
 review issues), this pipeline publishes directly to a data branch — it is a news
 listing, not evidence; it never touches `tracking.json` or `main`.
 
@@ -12,7 +12,8 @@ listing, not evidence; it never touches `tracking.json` or `main`.
 1. `.github/workflows/ultimitas-scraper.yml` runs 4×/day (Lima 00:00/06:00/12:00/18:00)
    or on manual dispatch.
 2. `tools/scrapers/ultimitas_scraper.py` fetches every feed of every source in `SOURCES`
-   (El Comercio: Arc XP política + general; La República: rss/politica.xml), keeps items
+   (El Comercio: Arc XP política + general; La República: rss/politica.xml; RPP: /feed;
+   Gestión: Arc XP general), keeps items
    whose title+description match `KEYWORDS` (accent/case-insensitive), stamps each article
    with its source, and merges them into the `ultimitas-data` branch via a git worktree:
    - `ultimitas.json` — full accumulated history, deduped by canonical URL (tracking
