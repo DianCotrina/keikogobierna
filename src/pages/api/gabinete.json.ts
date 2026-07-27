@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { loadPortfolios, loadPeople, loadTenures } from '../../lib/cabinet.mjs';
+import { loadPortfolios, loadPeople, loadTenures, loadAnnouncements } from '../../lib/cabinet.mjs';
 import pkg from '../../../package.json';
 
 // Static datos-abiertos endpoint: rendered once at build into dist/api/gabinete.json.
@@ -15,6 +15,9 @@ export const GET: APIRoute = () => {
     portfolios: loadPortfolios(),
     people: loadPeople(),
     tenures: loadTenures(),
+    // Provisional: announced in public, not yet appointed by norma. Superseded
+    // by a tenure on the same portfolio the moment one exists.
+    announcements: loadAnnouncements(),
   };
 
   return new Response(JSON.stringify(payload), {

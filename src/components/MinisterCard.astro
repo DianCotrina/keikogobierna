@@ -13,9 +13,14 @@ interface Props {
     judicial?: Array<{ stage: string }>;
   } | null;
   days: number | null;
+  announcement?: {
+    person_name: string;
+    announced: string;
+    sources: Array<{ label: string; url: string }>;
+  } | null;
 }
 
-const { portfolio, person, days } = Astro.props;
+const { portfolio, person, days, announcement = null } = Astro.props;
 const dayLabel = daysLabel(days);
 ---
 
@@ -36,6 +41,27 @@ const dayLabel = daysLabel(days);
       <RecordBadge person={person} />
     </div>
   </a>
+) : announcement ? (
+  <div class="reveal flex flex-col bg-white/70 rounded-lg border border-dashed border-ambar/50 p-6">
+    <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">
+      {portfolio.short}
+    </p>
+    <h3 class="font-sans font-bold text-lg mt-1.5 leading-snug">{announcement.person_name}</h3>
+    <p class="mt-1 font-mono text-xs text-ambar">Anunciado · aún sin nombrar</p>
+    <div class="mt-5 pt-4 border-t border-tinta/10">
+      <p class="text-sm leading-[1.7] text-tintasuave">
+        Anuncio público, pendiente de publicación en El Peruano. Todavía no hay Resolución
+        Suprema que lo nombre, así que no registramos ni su ficha ni su tiempo en el cargo.
+      </p>
+      <p class="mt-3 flex flex-wrap gap-x-5 gap-y-1 font-mono text-xs">
+        {announcement.sources.map((source) => (
+          <a href={source.url} target="_blank" rel="noopener noreferrer" class="nav-link">
+            {source.label} ↗
+          </a>
+        ))}
+      </p>
+    </div>
+  </div>
 ) : (
   <div class="reveal flex flex-col bg-white/50 rounded-lg border border-dashed border-tinta/20 p-6">
     <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">

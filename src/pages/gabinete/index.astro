@@ -4,15 +4,24 @@ import MinisterCard from '../../components/MinisterCard.astro';
 import PresuncionNotice from '../../components/PresuncionNotice.astro';
 import { currentCabinet, pastTenures, cabinetStats } from '../../lib/cabinet.mjs';
 
+// cabinet.mjs is untyped, so the row shapes are named here for the editor.
+interface PastRow {
+  person: { slug: string; name: string } | null;
+  portfolio: { short: string } | null;
+  tenure: { end: string | null };
+  days: number;
+}
+
 const cabinet = currentCabinet();
-const past = pastTenures();
+const past: PastRow[] = pastTenures();
 const stats = cabinetStats();
 
-const filled = cabinet.filter((row) => row.person);
+const filled = cabinet.filter((row) => row.person || row.announcement);
 
 const figures = [
   { value: String(stats.portfolios), label: 'carteras ministeriales' },
-  { value: String(stats.serving), label: 'con titular registrado' },
+  { value: String(stats.serving), label: 'con titular nombrado' },
+  { value: String(stats.announced), label: 'anunciados sin nombrar' },
   { value: String(stats.withActiveCases), label: 'con procesos activos' },
   { value: String(stats.changes), label: 'cambios de gabinete' },
 ];
@@ -49,7 +58,7 @@ const description =
     <!-- Figures -->
     <section class="border-t border-tinta/10 bg-white/40">
       <div class="mx-auto max-w-5xl px-5 sm:px-8 py-10">
-        <dl class="grid grid-cols-2 sm:grid-cols-4 gap-6">
+        <dl class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
           {figures.map((figure) => (
             <div class="reveal">
               <dt class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">{figure.label}</dt>
@@ -73,7 +82,7 @@ const description =
 
         {filled.length === 0 ? (
           <div class="reveal mt-8 rounded-lg border border-dashed border-tinta/25 p-8 sm:p-10 text-center">
-            <p class="font-sans font-bold text-lg">Aún no hay nombramientos publicados</p>
+            <p class="font-sans font-bold text-lg">Aún no hay nombramientos ni anuncios</p>
             <p class="mt-2 text-sm leading-[1.7] text-tintasuave max-w-md mx-auto">
               El gabinete se registra aquí en cuanto El Peruano publique las Resoluciones
               Supremas de nombramiento. No adelantamos nombres sin esa fuente.
@@ -83,7 +92,12 @@ const description =
 
         <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {cabinet.map((row) => (
-            <MinisterCard portfolio={row.portfolio} person={row.person} days={row.days} />
+            <MinisterCard
+              portfolio={row.portfolio}
+              person={row.person}
+              days={row.days}
+              announcement={row.announcement}
+            />
           ))}
         </div>
       </div>

@@ -23,6 +23,7 @@ import sys
 from datetime import date, timedelta
 
 from cabinet_rules import is_cabinet_norma, parse_cabinet_act
+from press_rules import announcements_from
 from singlefetch import MAX_PAGE_SIZE, fetch_page
 from watcher_common import DEFAULT_REPO, create_issue, dedup_token, ensure_label, issue_exists
 
@@ -107,6 +108,37 @@ def issue_body(act: dict, token: str) -> str:
     ])
 
 
+def announcement_block(announcements: list) -> str:
+    """The JSON a reviewer pastes into announcements.json."""
+    return json.dumps({"announcements": announcements}, ensure_ascii=False, indent=2)
+
+
+def run_press(dry_run: bool) -> int:
+    """Read the press feeds for a cabinet presented in public but not yet
+    appointed by norma. Always provisional: these feed the `anunciado` state and
+    are superseded the moment the Resolución Suprema publishes."""
+    from ultimitas_scraper import fetch_sources
+
+    articles, failed = fetch_sources()
+    if failed:
+        print(f"AVISO: fuentes caídas: {', '.join(failed)}")
+    announcements = announcements_from(articles)
+
+    print(f"prensa: {len(articles)} notas, {len(announcements)} anuncios de gabinete")
+    for item in sorted(announcements, key=lambda a: a["portfolio"]):
+        outlets = ", ".join(s["label"] for s in item["sources"])
+        print(f"  {item['person_name']:32s} -> {item['portfolio']:26s} ({outlets})")
+
+    if announcements:
+        print("\nBloque propuesto para src/data/cabinet/announcements.json:\n")
+        print(announcement_block(announcements))
+        print("\nRevisa cada anuncio contra su nota antes de abrir el PR. Cuando El Peruano "
+              "publique la Resolución Suprema, mueve la entrada a tenures.json y bórrala de aquí.")
+    if not dry_run:
+        print("\nNota: este modo no escribe datos ni crea issues; copia el bloque en un PR.")
+    return 0
+
+
 def run(start: date, end: date, dry_run: bool) -> int:
     repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
     gh_token = os.environ.get("GITHUB_TOKEN")
@@ -153,11 +185,19 @@ def run(start: date, end: date, dry_run: bool) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--from", dest="start", required=True, help="YYYY-MM-DD")
+    parser.add_argument("--from", dest="start", help="YYYY-MM-DD")
     parser.add_argument("--to", dest="end", help="YYYY-MM-DD (default: --from)")
+    parser.add_argument("--press", action="store_true",
+                        help="read announcements from the press feeds instead of the gazette")
     parser.add_argument("--dry-run", action="store_true",
-                        help="print proposed tenure blocks without creating issues")
+                        help="print proposed blocks without creating issues")
     args = parser.parse_args()
+
+    if args.press:
+        return run_press(args.dry_run)
+    if not args.start:
+        print("--from is required unless --press", file=sys.stderr)
+        return 2
 
     start = parse_date(args.start)
     end = parse_date(args.end) if args.end else start

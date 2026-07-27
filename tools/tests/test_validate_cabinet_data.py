@@ -46,11 +46,20 @@ def entry(**overrides):
     return base
 
 
-def run(portfolios=None, people=None, tenures=None):
+def announcement(**overrides):
+    base = {"portfolio": "m-salud", "person_name": "Luis Galarreta",
+            "announced": "2026-07-27",
+            "sources": [{"label": "El Comercio", "url": "https://elcomercio.pe/x", "kind": "press"}]}
+    base.update(overrides)
+    return base
+
+
+def run(portfolios=None, people=None, tenures=None, announcements=None):
     return validate(portfolios if portfolios is not None else PORTFOLIOS,
                     people if people is not None else [person()],
                     tenures if tenures is not None else [tenure()],
-                    TOPICS)
+                    TOPICS,
+                    announcements=announcements if announcements is not None else [])
 
 
 class ValidCase(unittest.TestCase):
@@ -151,6 +160,40 @@ class RegistryRules(unittest.TestCase):
 
     def test_duplicate_portfolio_ids_fail(self):
         self.assertTrue(run(portfolios=[PORTFOLIOS[0], PORTFOLIOS[0]]))
+
+
+class AnnouncementRules(unittest.TestCase):
+    """Provisional entries still carry a source -- the whole point is that a
+    reader can check the claim against the outlet that made it."""
+
+    def test_a_well_formed_announcement_passes(self):
+        self.assertEqual(run(announcements=[announcement()]), [])
+
+    def test_an_announcement_without_sources_fails(self):
+        errors = run(announcements=[announcement(sources=[])])
+        self.assertTrue(any("source" in e for e in errors), errors)
+
+    def test_an_announcement_source_must_be_press(self):
+        # A gazette-sourced entry belongs in tenures.json, not here.
+        errors = run(announcements=[announcement(
+            sources=[{"label": "El Peruano", "url": "https://x.pe", "kind": "primary"}])])
+        self.assertTrue(any("press" in e for e in errors), errors)
+
+    def test_an_unknown_portfolio_fails(self):
+        self.assertTrue(run(announcements=[announcement(portfolio="m-nope")]))
+
+    def test_a_missing_person_name_fails(self):
+        self.assertTrue(run(announcements=[announcement(person_name="")]))
+
+    def test_two_announcements_for_one_portfolio_fail(self):
+        errors = run(announcements=[announcement(), announcement()])
+        self.assertTrue(any("duplicate" in e.lower() for e in errors), errors)
+
+    def test_an_announcement_for_an_already_served_portfolio_fails(self):
+        # m-interior has an open tenure in the default fixture: the gazette has
+        # spoken, so the provisional entry must be removed rather than linger.
+        errors = run(announcements=[announcement(portfolio="m-interior")])
+        self.assertTrue(any("superseded" in e.lower() for e in errors), errors)
 
 
 class RealDataTest(unittest.TestCase):

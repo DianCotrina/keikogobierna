@@ -16,6 +16,7 @@
 import portfoliosFile from '../data/cabinet/portfolios.json' with { type: 'json' };
 import peopleFile from '../data/cabinet/people.json' with { type: 'json' };
 import tenuresFile from '../data/cabinet/tenures.json' with { type: 'json' };
+import announcementsFile from '../data/cabinet/announcements.json' with { type: 'json' };
 
 import { loadPlan } from './plan.mjs';
 import { activeEntries } from './judicial.mjs';
@@ -34,9 +35,22 @@ export function loadTenures() {
   return tenuresFile.tenures;
 }
 
+/**
+ * Cabinet members named in public but not yet appointed by norma.
+ *
+ * Provisional by construction: a proclamation is not a Resolución Suprema.
+ * Every consumer treats these as subordinate to `tenures` -- an announcement is
+ * only ever shown for a portfolio that has no open tenure, so the gazette
+ * silently supersedes it the moment the norma publishes.
+ */
+export function loadAnnouncements() {
+  return announcementsFile.announcements;
+}
+
 const dataset = (data) => ({
   people: data?.people ?? loadPeople(),
   tenures: data?.tenures ?? loadTenures(),
+  announcements: data?.announcements ?? loadAnnouncements(),
 });
 
 export function portfolioById(id) {
@@ -76,14 +90,19 @@ export function daysLabel(days) {
  * not only the people currently filling them.
  */
 export function currentCabinet(data, today = new Date()) {
-  const { people, tenures } = dataset(data);
+  const { people, tenures, announcements } = dataset(data);
   return loadPortfolios().map((portfolio) => {
     const tenure = tenures.find((t) => t.portfolio === portfolio.id && !t.end) ?? null;
     const person = tenure ? people.find((p) => p.slug === tenure.person) ?? null : null;
+    // An announcement only surfaces while the gazette is silent.
+    const announcement = tenure
+      ? null
+      : announcements.find((a) => a.portfolio === portfolio.id) ?? null;
     return {
       portfolio,
       person,
       tenure,
+      announcement,
       days: tenure ? tenureDays(tenure, today) : null,
     };
   });
@@ -104,8 +123,9 @@ export function pastTenures(data) {
 }
 
 export function cabinetStats(data, today = new Date()) {
-  const { people, tenures } = dataset(data);
+  const { people, tenures, announcements } = dataset(data);
   const serving = tenures.filter((t) => !t.end);
+  const servedPortfolios = new Set(serving.map((t) => t.portfolio));
   const servingSlugs = new Set(serving.map((t) => t.person));
 
   return {
@@ -116,6 +136,9 @@ export function cabinetStats(data, today = new Date()) {
     withActiveCases: people
       .filter((p) => servingSlugs.has(p.slug))
       .filter((p) => activeEntries(p).length > 0).length,
+    // Outstanding announcements only: once the norma lands the portfolio has a
+    // tenure and the announcement stops counting.
+    announced: announcements.filter((a) => !servedPortfolios.has(a.portfolio)).length,
     changes: tenures.filter((t) => t.end).length,
     daysSinceStart: serving.length
       ? Math.max(...serving.map((t) => tenureDays(t, today)))
