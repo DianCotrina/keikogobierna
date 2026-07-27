@@ -65,6 +65,24 @@ const sections = [
         verifies: 'Proyectos de ley, dictámenes y actas vinculados a compromisos legislativos.',
         links: [{ label: 'congreso.gob.pe', url: 'https://www.congreso.gob.pe' }],
       },
+      {
+        name: 'Poder Judicial — Consulta de Expedientes',
+        org: 'Poder Judicial',
+        verifies: 'Estado procesal de los casos citados en las fichas del gabinete: qué etapa alcanzó cada proceso y si una sentencia quedó firme. Ninguna entrada del registro judicial se publica sin una fuente como esta enlazada.',
+        links: [{ label: 'cej.pj.gob.pe', url: 'https://cej.pj.gob.pe/cej/forms/busquedaform.html' }],
+      },
+      {
+        name: 'Ministerio Público — Fiscalía de la Nación',
+        org: 'Ministerio Público',
+        verifies: 'Investigaciones preliminares y preparatorias, acusaciones fiscales y archivamientos que constan en las fichas del gabinete.',
+        links: [{ label: 'gob.pe/mpfn', url: 'https://www.gob.pe/mpfn' }],
+      },
+      {
+        name: 'JNE — Hojas de vida',
+        org: 'Jurado Nacional de Elecciones',
+        verifies: 'Declaraciones juradas de hoja de vida, donde cada candidato declara formalmente sus sentencias penales y civiles. Es la fuente primaria de la trayectoria y formación de cada ministro.',
+        links: [{ label: 'plataformaelectoral.jne.gob.pe', url: 'https://plataformaelectoral.jne.gob.pe' }],
+      },
     ],
   },
 ];
@@ -120,6 +138,7 @@ const description = 'Las fuentes oficiales del seguimiento: el plan de gobierno 
           <p class="mt-3 flex flex-wrap gap-x-6 gap-y-1 font-mono text-sm">
             <a href="/api/plan.json" class="nav-link">/api/plan.json</a>
             <a href="/api/tracking.json" class="nav-link">/api/tracking.json</a>
+            <a href="/api/gabinete.json" class="nav-link">/api/gabinete.json</a>
           </p>
         </div>
 

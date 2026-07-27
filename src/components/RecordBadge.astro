@@ -1,0 +1,21 @@
+---
+import { recordBadge } from '../lib/judicial.mjs';
+
+// The one-glance summary of a judicial record, stamped like the rest of the
+// expediente. Reuses the .stamp treatment because that is exactly what this is:
+// a case file marked with where it stands.
+interface Props {
+  person: { judicial?: Array<{ stage: string }> } | null;
+  detail?: boolean;
+}
+
+const { person, detail = true } = Astro.props;
+const badge = recordBadge(person ?? {});
+---
+
+<div class="flex flex-col gap-1.5 items-start">
+  <span class={`stamp text-${badge.color}`}>{badge.label}</span>
+  {detail && (
+    <span class="font-mono text-[0.7rem] text-tintafina leading-snug">{badge.detail}</span>
+  )}
+</div>

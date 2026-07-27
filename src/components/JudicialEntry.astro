@@ -1,0 +1,93 @@
+---
+import { LADDER, stageMeta } from '../lib/judicial.mjs';
+
+// A single documented proceeding.
+//
+// The rail is the point: a criminal process genuinely is a sequence, so showing
+// how far this case climbed carries real information — an investigation that
+// went nowhere reads differently from one that reached a verdict. Exculpatory
+// outcomes are rendered off the rail entirely, because they end a case rather
+// than advance it. That is the rank-0 rule made visible.
+interface Props {
+  entry: {
+    id: string;
+    case: string;
+    expediente?: string;
+    stage: string;
+    crime: string;
+    body?: string;
+    date: string;
+    summary: string;
+    sources: Array<{ label: string; url: string; kind?: string }>;
+  };
+}
+
+const { entry } = Astro.props;
+const meta = stageMeta(entry.stage);
+const resolved = meta.rank === 0;
+const dateEs = new Date(`${entry.date}T00:00:00Z`).toLocaleDateString('es-PE', {
+  day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
+});
+---
+
+<article id={entry.id} class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7 scroll-mt-24">
+  <div class="flex flex-wrap items-start justify-between gap-x-6 gap-y-3">
+    <div class="min-w-0">
+      <h3 class="font-sans font-bold text-lg leading-snug">{entry.case}</h3>
+      <p class="mt-1 text-sm text-tintasuave">
+        Delito imputado: <span class="text-tinta">{entry.crime}</span>
+      </p>
+    </div>
+    <span class={`stamp text-${meta.color} shrink-0`}>{meta.label}</span>
+  </div>
+
+  {resolved ? (
+    <p class="mt-5 font-mono text-[0.7rem] uppercase tracking-[0.12em] text-verde">
+      Proceso terminado · no constituye una acusación vigente
+    </p>
+  ) : (
+    <div class="mt-5">
+      <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">
+        Etapa alcanzada
+      </p>
+      <ol class="mt-2 flex items-end gap-1" aria-label={`Etapa alcanzada: ${meta.label}`}>
+        {LADDER.map((rung) => {
+          const reached = rung.rank <= meta.rank;
+          return (
+            <li
+              class:list={[
+                'flex-1 rounded-sm transition-transform',
+                reached ? `bg-${meta.color}` : 'bg-tinta/10',
+                reached ? 'h-3' : 'h-1.5',
+              ]}
+              title={rung.label}
+            />
+          );
+        })}
+      </ol>
+      <p class="mt-2 font-mono text-[0.7rem] text-tintafina">
+        {meta.rank} de {LADDER.length} etapas · {meta.label.toLowerCase()}
+      </p>
+    </div>
+  )}
+
+  <p class="mt-5 text-sm leading-[1.7] text-tintasuave">{entry.summary}</p>
+
+  <dl class="mt-4 grid gap-x-8 gap-y-1 sm:grid-cols-2 font-mono text-xs text-tintafina">
+    {entry.body && (
+      <div class="flex gap-2"><dt class="shrink-0">Órgano:</dt><dd class="text-tintasuave">{entry.body}</dd></div>
+    )}
+    <div class="flex gap-2"><dt class="shrink-0">Fecha:</dt><dd class="text-tintasuave">{dateEs}</dd></div>
+    {entry.expediente && (
+      <div class="flex gap-2 sm:col-span-2"><dt class="shrink-0">Expediente:</dt><dd class="text-tintasuave break-all">{entry.expediente}</dd></div>
+    )}
+  </dl>
+
+  <p class="mt-4 pt-4 border-t border-tinta/10 flex flex-wrap gap-x-6 gap-y-1 font-sans text-sm font-medium">
+    {entry.sources.map((source) => (
+      <a href={source.url} target="_blank" rel="noopener noreferrer" class="nav-link">
+        {source.label} ↗
+      </a>
+    ))}
+  </p>
+</article>

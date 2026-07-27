@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import MinisterCard from '../../components/MinisterCard.astro';
+import PresuncionNotice from '../../components/PresuncionNotice.astro';
+import { currentCabinet, pastTenures, cabinetStats } from '../../lib/cabinet.mjs';
+
+const cabinet = currentCabinet();
+const past = pastTenures();
+const stats = cabinetStats();
+
+const filled = cabinet.filter((row) => row.person);
+
+const figures = [
+  { value: String(stats.portfolios), label: 'carteras ministeriales' },
+  { value: String(stats.serving), label: 'con titular registrado' },
+  { value: String(stats.withActiveCases), label: 'con procesos activos' },
+  { value: String(stats.changes), label: 'cambios de gabinete' },
+];
+
+const title = 'Gabinete — keikogobierna';
+const description =
+  'Quién dirige cada ministerio, cuánto lleva en el cargo y qué registra la información pública sobre su situación judicial.';
+---
+
+<Base title={title} description={description}>
+  <main>
+    <!-- Masthead -->
+    <section class="mx-auto max-w-5xl px-5 sm:px-8 pt-10 pb-10 sm:pt-14">
+      <a href="/" class="nav-link font-mono text-xs text-tintasuave inline-flex items-center gap-2">← Volver al resumen</a>
+      <p class="mt-7 font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Expediente · Quién gobierna</p>
+      <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
+        Gabinete
+        <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+      </h1>
+      <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">
+        Un plan de gobierno lo ejecutan personas. Aquí está quién dirige cada ministerio,
+        cuánto lleva en el cargo y qué registra la información pública sobre su situación
+        judicial —con la fuente de cada dato a la vista.
+      </p>
+    </section>
+
+    <!-- The notice comes before any name, deliberately. -->
+    <section class="mx-auto max-w-5xl px-5 sm:px-8 pb-10">
+      <PresuncionNotice />
+    </section>
+
+    <!-- Figures -->
+    <section class="border-t border-tinta/10 bg-white/40">
+      <div class="mx-auto max-w-5xl px-5 sm:px-8 py-10">
+        <dl class="grid grid-cols-2 sm:grid-cols-4 gap-6">
+          {figures.map((figure) => (
+            <div class="reveal">
+              <dt class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">{figure.label}</dt>
+              <dd class="font-display text-3xl sm:text-4xl mt-1" style="letter-spacing:-0.03em">{figure.value}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </section>
+
+    <!-- Roster -->
+    <section class="border-t border-tinta/10">
+      <div class="mx-auto max-w-5xl px-5 sm:px-8 py-14 sm:py-16">
+        <div class="reveal border-b border-tinta/10 pb-3">
+          <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">El gabinete hoy</h2>
+          <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
+            Una tarjeta por cartera. Cada nombramiento proviene de la Resolución Suprema
+            publicada en El Peruano.
+          </p>
+        </div>
+
+        {filled.length === 0 ? (
+          <div class="reveal mt-8 rounded-lg border border-dashed border-tinta/25 p-8 sm:p-10 text-center">
+            <p class="font-sans font-bold text-lg">Aún no hay nombramientos publicados</p>
+            <p class="mt-2 text-sm leading-[1.7] text-tintasuave max-w-md mx-auto">
+              El gabinete se registra aquí en cuanto El Peruano publique las Resoluciones
+              Supremas de nombramiento. No adelantamos nombres sin esa fuente.
+            </p>
+          </div>
+        ) : null}
+
+        <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {cabinet.map((row) => (
+            <MinisterCard portfolio={row.portfolio} person={row.person} days={row.days} />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Former holders -->
+    {past.length > 0 && (
+      <section class="border-t border-tinta/10 bg-white/40">
+        <div class="mx-auto max-w-5xl px-5 sm:px-8 py-14 sm:py-16">
+          <div class="reveal border-b border-tinta/10 pb-3">
+            <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Pasaron por aquí</h2>
+            <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
+              Ministros que dejaron el cargo, y cuánto duraron en él.
+            </p>
+          </div>
+          <ul class="mt-6 space-y-3">
+            {past.map(({ person, portfolio, tenure, days }) => (
+              <li class="reveal flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 bg-white rounded-lg border border-tinta/10 shadow-chip px-5 py-4">
+                <div>
+                  <a href={`/gabinete/${person?.slug}/`} class="nav-link font-sans font-bold">{person?.name}</a>
+                  <span class="ml-2 text-sm text-tintasuave">{portfolio?.short}</span>
+                </div>
+                <p class="font-mono text-xs text-tintafina">
+                  {days} {days === 1 ? 'día' : 'días'} · salió el {tenure.end}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+
+    <section class="mx-auto max-w-5xl px-5 sm:px-8 pb-16">
+      <p class="font-mono text-xs text-tintasuave leading-relaxed max-w-xl">
+        Los nombramientos se leen de El Peruano. La situación judicial se documenta a mano,
+        con fuente enlazada en cada caso: sin fuente, el dato no se publica.
+      </p>
+    </section>
+  </main>
+</Base>

@@ -104,6 +104,25 @@ A topic id is recoverable from any commitment id by cutting at the `.` — the m
 
 **Naming rule:** JSON keys and identifiers in English (`proposals`, `status`, `in_progress`); all user-facing content (plan names, proposal text, Spanish slugs) exactly as the PDF states.
 
+## Cabinet data
+
+```
+src/data/cabinet/
+├── portfolios.json   # Registry: 19 carteras, each mapped to the plan topics it owns
+├── people.json       # Dossiers: bio + judicial record, one entry per person
+└── tenures.json      # Living state: who held what, when, and under which norma
+```
+
+Same registry / detail / living-state split as the plan data, and the same reason: a person can hold two portfolios across a term and a portfolio outlives its holders, so the dossier belongs to the person and the tenure is the edge between them. All 23 plan topics are assigned to exactly one accountable ministry — that mapping is what puts a name on a commitment's progress.
+
+People live in one file rather than one per person because `src/lib/cabinet.mjs` loads JSON through static ESM imports (`fs` breaks under the bundler) and static imports cannot enumerate a directory that grows with every cabinet change.
+
+**Provenance is split, deliberately.** Names, portfolios, dates and norma numbers are *derived from the gazette* — `cabinet_rules.py` parses the Resolución Suprema that appoints or relieves each minister. Bios and the entire `judicial[]` record are *hand-curated*: El Peruano publishes appointments, not criminal histories, and that data is never automated.
+
+`tools/cabinet/validate_cabinet_data.py` (wired into `npm run validate`) enforces the rules that matter: a judicial entry with no https source fails the build, tenures cannot overlap or reference unknown people, and every tenure needs its `appointment_norma`. Judicial dates may not be in the future; tenure dates may, since an appointment norma carries an effective date.
+
+`src/lib/judicial.mjs` holds the stage ladder. Exculpatory outcomes (`absuelto`, `archivado`, `prescrito`) carry **rank 0** and can never drive a minister's badge — otherwise the site would mark people for accusations that failed. `/gabinete/` renders that rule visually too: a rank-0 entry is shown off the stage rail entirely.
+
 **Editing:**
 - **Proposals + first-100-days:** never hand-edit — auto-extracted by `tools/plan/extract_plan_pdf.py` (deterministic, never overwrites goals); corrections go in `src/data/plan/overrides.json` and are applied post-extraction.
 - **Goals:** hand-curated in `goals-2031.json` (the PDF tables are not machine-parseable, so goals are never regenerated).
@@ -117,11 +136,13 @@ Python, stdlib only. `tools/scrapers/watcher_common.py` holds what every source 
 | Tool | Source | Cadence | Output |
 |---|---|---|---|
 | `elperuano_scraper.py` | El Peruano public search page (`/?fechaIni&fechaFin&tipoPublicacion&start`, editions NL/BO/PC) + `/dispositivo/<tipoPub>/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
+| `cabinet_scraper.py` | The same reader, filtered by `cabinet_rules.py` | on demand (backfill) | Issues labeled `cambio-de-gabinete` |
 | `ultimitas_scraper.py` | El Comercio Arc XP RSS + La República RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
 
 Both news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.
 
 The El Peruano interface is **unofficial**. If it changes shape, the run fails loudly and we fix the tool — that's the accepted trade for $0 access to the primary record. (El Peruano did exactly this on 2026-07-26, retiring its GraphQL API; the reader was repointed at the public search page on 07-31.)
+
 
 ### The matcher
 

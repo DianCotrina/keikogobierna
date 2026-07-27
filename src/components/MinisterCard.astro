@@ -1,0 +1,49 @@
+---
+import RecordBadge from './RecordBadge.astro';
+import { daysLabel } from '../lib/cabinet.mjs';
+
+// One card per portfolio — vacancies included, because the roster is about the
+// offices as much as the people currently filling them.
+interface Props {
+  portfolio: { id: string; name: string; short: string };
+  person: {
+    slug: string;
+    name: string;
+    profession?: string;
+    judicial?: Array<{ stage: string }>;
+  } | null;
+  days: number | null;
+}
+
+const { portfolio, person, days } = Astro.props;
+const dayLabel = daysLabel(days);
+---
+
+{person ? (
+  <a
+    href={`/gabinete/${person.slug}/`}
+    class="card-hover reveal flex flex-col bg-white rounded-lg border border-tinta/10 shadow-card p-6"
+  >
+    <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">
+      {portfolio.short}
+    </p>
+    <h3 class="font-sans font-bold text-lg mt-1.5 leading-snug">{person.name}</h3>
+    {person.profession && (
+      <p class="mt-1 text-sm text-tintasuave">{person.profession}</p>
+    )}
+    <p class="mt-1 font-mono text-xs text-tintafina">{dayLabel}</p>
+    <div class="mt-5 pt-4 border-t border-tinta/10">
+      <RecordBadge person={person} />
+    </div>
+  </a>
+) : (
+  <div class="reveal flex flex-col bg-white/50 rounded-lg border border-dashed border-tinta/20 p-6">
+    <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">
+      {portfolio.short}
+    </p>
+    <h3 class="font-sans font-bold text-lg mt-1.5 leading-snug text-tintafina">Sin titular</h3>
+    <p class="mt-1 font-mono text-xs text-tintafina">
+      No registramos un nombramiento vigente
+    </p>
+  </div>
+)}

@@ -1,0 +1,59 @@
+---
+// A person's passage through the cabinet. Each row links the Resolución Suprema
+// that certifies it — the roster's provenance is the gazette, and it should be
+// one click away from every claim.
+interface Props {
+  rows: Array<{
+    portfolio: { name: string } | null;
+    tenure: {
+      start: string;
+      end: string | null;
+      appointment_norma?: { numero: string; url: string } | null;
+      exit_norma?: { numero: string; url: string } | null;
+      exit_reason?: string | null;
+    };
+    days: number;
+  }>;
+}
+
+const { rows } = Astro.props;
+
+const fmt = (iso: string) =>
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString('es-PE', {
+    day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC',
+  });
+---
+
+<ol class="space-y-4">
+  {rows.map(({ portfolio, tenure, days }) => (
+    <li class="reveal relative pl-6 border-l-2 border-tinta/15">
+      <span
+        class:list={[
+          'absolute -left-[5px] top-1.5 w-2 h-2 rounded-full',
+          tenure.end ? 'bg-tinta/25' : 'bg-rojo',
+        ]}
+        aria-hidden="true"
+      />
+      <p class="font-sans font-bold">{portfolio?.name ?? 'Cartera desconocida'}</p>
+      <p class="mt-0.5 font-mono text-xs text-tintasuave">
+        {fmt(tenure.start)} — {tenure.end ? fmt(tenure.end) : 'en el cargo'}
+        <span class="text-tintafina"> · {days} {days === 1 ? 'día' : 'días'}</span>
+      </p>
+      {tenure.exit_reason && (
+        <p class="mt-1 text-sm text-tintasuave">Salida: {tenure.exit_reason}</p>
+      )}
+      <p class="mt-1.5 flex flex-wrap gap-x-5 gap-y-1 font-mono text-xs">
+        {tenure.appointment_norma?.url && (
+          <a href={tenure.appointment_norma.url} target="_blank" rel="noopener noreferrer" class="nav-link">
+            {tenure.appointment_norma.numero} ↗
+          </a>
+        )}
+        {tenure.exit_norma?.url && (
+          <a href={tenure.exit_norma.url} target="_blank" rel="noopener noreferrer" class="nav-link">
+            {tenure.exit_norma.numero} ↗
+          </a>
+        )}
+      </p>
+    </li>
+  ))}
+</ol>
