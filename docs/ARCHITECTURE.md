@@ -126,6 +126,17 @@ People live in one file rather than one per person because `src/lib/cabinet.mjs`
 
 Press detection is structural, not a blocklist: it requires an announcing verb, then a name, then a linking word, then an office. That shape rejects the headlines that surround a real announcement (ex-minister quotes, profile pieces, "Premier League") without any hand-maintained stoplist. Its ceiling is the source, not the rule — RSS carries headlines only, and only marquee appointments get their own headline, so it recovers the PCM and a portfolio or two rather than a full cabinet.
 
+**Hoja de vida (JNE).** Candidates file a sworn Declaración Jurada de Hoja de Vida — education, work history, party roles, and any criminal or civil sentences — and the JNE publishes it through an open API (`apiplataformaelectoral3.jne.gob.pe`, OpenAPI at `/swagger/v1/swagger.json`). `jne_scraper.py` drafts a `people.json` entry from it.
+
+Three constraints found the hard way, all recorded in `jne_client.py` and `jne_rules.py`:
+- The website's own name search (`POST /candidato/avanzada`) is captcha-gated. `ListaCandidatos` returns the whole roll without one, so that is what the client uses. Seven of the API's 118 endpoints need a captcha; none of the ones here do.
+- `GET /candidato/hoja-vida` returns 500 for every id, valid ones included. The hoja de vida is assembled from the per-section `hv-*` endpoints instead.
+- The platform is an Angular SPA with **no deep link** to a candidate — verified headless, every path and query form serves the empty shell. Entries therefore cite the open API URL, which resolves and returns the declaration itself.
+
+**No stage is ever assigned from a declaration.** The form is self-reported and inconsistent: one real record declares `delito TERRORISMO`, `fallo ABSUELTO` and `modalidad EFECTIVA` — an acquittal filed under the modality of an effective prison term, which any modality-keyed mapper would publish as a terrorism conviction. Another files `delito`, `fallo` and `órgano` all as the string `"0"` with the substance in a free-text comment. Drafts therefore carry `stage: null` plus the raw declaration under `_declaracion`, and the validator refuses to build while any stage is unset, so a draft cannot reach the site un-reviewed.
+
+Identity is a human decision too: the tool searches and drafts in two separate phases, because "Carlos Espá" matches a PARTIDO SICREO candidate who is not the Fuerza Popular minister. Searching lists every hit with its party; drafting needs an `idHojaVida` a person confirmed.
+
 `src/lib/judicial.mjs` holds the stage ladder. Exculpatory outcomes (`absuelto`, `archivado`, `prescrito`) carry **rank 0** and can never drive a minister's badge — otherwise the site would mark people for accusations that failed. `/gabinete/` renders that rule visually too: a rank-0 entry is shown off the stage rail entirely.
 
 **Editing:**
@@ -143,6 +154,7 @@ Python, stdlib only. `tools/scrapers/watcher_common.py` holds what every source 
 | `elperuano_scraper.py` | El Peruano public search page (`/?fechaIni&fechaFin&tipoPublicacion&start`, editions NL/BO/PC) + `/dispositivo/<tipoPub>/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
 | `cabinet_scraper.py` | The same reader, filtered by `cabinet_rules.py` | on demand (backfill) | Issues labeled `cambio-de-gabinete` |
 | `cabinet_scraper.py --press` | The shared press feeds via `press_rules.py` | on demand | Proposed `announcements.json` block |
+| `jne_scraper.py` | JNE Plataforma Electoral API, via `jne_rules.py` | on demand | Draft `people.json` entry for review |
 | `ultimitas_scraper.py` | El Comercio + La República + RPP + Gestión RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
 
 The news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.
