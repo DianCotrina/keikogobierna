@@ -65,6 +65,49 @@ class RealAnnouncements(unittest.TestCase):
         self.assertEqual(act["announced"], "2026-07-27")
 
 
+class HeadlinesWithTrailingQualifiers(unittest.TestCase):
+    """Headlines rarely end at the ministry name.
+
+    "...como ministro de Economía de su primer gabinete" must resolve to
+    m-economia; an office capture that swallows the trailing clause resolves to
+    nothing and the announcement is silently lost.
+    """
+
+    def test_a_trailing_clause_after_the_ministry_is_ignored(self):
+        act = parse_announcement(item(
+            "Keiko Fujimori anuncia a Elmer Cuba como ministro de Economía de su primer gabinete"))
+        self.assertIsNotNone(act)
+        self.assertEqual(act["person_name"], "Elmer Cuba")
+        self.assertEqual(act["portfolio"], "m-economia")
+
+    def test_the_colloquial_short_ministry_name_resolves(self):
+        # The press says "ministro de Economía"; the registry says
+        # "Ministerio de Economía y Finanzas".
+        act = parse_announcement(item(
+            "Keiko Fujimori anuncia a Elmer Cuba como ministro de Economía"))
+        self.assertEqual(act["portfolio"], "m-economia")
+
+    def test_another_trailing_clause_shape(self):
+        act = parse_announcement(item(
+            "Keiko Fujimori presenta a Juan Perez como ministro de Salud del nuevo gobierno"))
+        self.assertIsNotNone(act)
+        self.assertEqual(act["portfolio"], "m-salud")
+
+    def test_past_tense_reporting_is_read(self):
+        # Ledes commonly use the preterite: "anunció a X como ...".
+        act = parse_announcement(item(
+            "Keiko Fujimori anunció a Elmer Cuba como nuevo ministro de Economía y Finanzas"))
+        self.assertIsNotNone(act)
+        self.assertEqual(act["person_name"], "Elmer Cuba")
+        self.assertEqual(act["portfolio"], "m-economia")
+
+    def test_an_ambiguous_prefix_still_resolves_to_nothing(self):
+        # "Desarrollo" alone matches both Desarrollo Agrario and Desarrollo e
+        # Inclusión Social, so it must stay unresolved rather than pick one.
+        self.assertIsNone(parse_announcement(item(
+            "Keiko Fujimori presenta a Juan Perez como ministro de Desarrollo")))
+
+
 class NotAnnouncements(unittest.TestCase):
     """Every one of these appeared in the same feeds on the same day."""
 
