@@ -20,6 +20,7 @@ CABINET_DIR = ROOT / "src" / "data" / "cabinet"
 PORTFOLIOS_PATH = CABINET_DIR / "portfolios.json"
 PEOPLE_PATH = CABINET_DIR / "people.json"
 TENURES_PATH = CABINET_DIR / "tenures.json"
+ANNOUNCEMENTS_PATH = CABINET_DIR / "announcements.json"
 PLAN_INDEX_PATH = ROOT / "src" / "data" / "plan" / "index.json"
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -45,8 +46,9 @@ def load_all():
     portfolios = load_json(PORTFOLIOS_PATH)["portfolios"]
     people = load_json(PEOPLE_PATH)["people"]
     tenures = load_json(TENURES_PATH)["tenures"]
+    announcements = load_json(ANNOUNCEMENTS_PATH)["announcements"]
     topic_ids = {t["id"] for t in load_json(PLAN_INDEX_PATH)["topics"]}
-    return portfolios, people, tenures, topic_ids
+    return portfolios, people, tenures, topic_ids, announcements
 
 
 def _check_sources(sources, where: str, errors: list) -> None:
@@ -80,8 +82,9 @@ def _check_date(value, where: str, errors: list, today: str, allow_future: bool 
     return True
 
 
-def validate(portfolios, people, tenures, topic_ids, today=None) -> list:
+def validate(portfolios, people, tenures, topic_ids, announcements=None, today=None) -> list:
     today = today or date.today().isoformat()
+    announcements = announcements or []
     errors: list = []
 
     # ---- portfolios: a frozen registry -------------------------------------
@@ -164,19 +167,50 @@ def validate(portfolios, people, tenures, topic_ids, today=None) -> list:
                     f"tenures: portfolio '{portfolio_id}' has overlapping tenures "
                     f"({a.get('person')} and {b.get('person')})")
 
+    # ---- announcements: provisional, and always subordinate to the gazette --
+    open_portfolios = {t.get("portfolio") for t in tenures if t.get("end") is None}
+    seen_announced = set()
+    for i, item in enumerate(announcements):
+        where = f"announcements[{i}]"
+        portfolio_id = item.get("portfolio")
+
+        if portfolio_id in seen_announced:
+            errors.append(f"{where}: duplicate announcement for portfolio '{portfolio_id}'")
+        seen_announced.add(portfolio_id)
+
+        if portfolio_id not in seen_portfolios:
+            errors.append(f"{where}: portfolio '{portfolio_id}' is not a known portfolio")
+        if not item.get("person_name"):
+            errors.append(f"{where}: person_name is required")
+        _check_date(item.get("announced"), f"{where}.announced", errors, today)
+        _check_sources(item.get("sources"), where, errors)
+
+        # An announcement is a press report. Anything certified by the gazette
+        # belongs in tenures.json, where provenance is enforced properly.
+        for j, source in enumerate(item.get("sources") or []):
+            if (source or {}).get("kind") != "press":
+                errors.append(f"{where}: sources[{j}].kind must be press for an announcement")
+
+        # Once the norma publishes, the provisional entry must be removed rather
+        # than left to contradict the certified record.
+        if portfolio_id in open_portfolios:
+            errors.append(
+                f"{where}: portfolio '{portfolio_id}' already has an open tenure — "
+                f"the announcement is superseded and should be deleted")
+
     return errors
 
 
 def main() -> None:
-    portfolios, people, tenures, topic_ids = load_all()
-    errors = validate(portfolios, people, tenures, topic_ids)
+    portfolios, people, tenures, topic_ids, announcements = load_all()
+    errors = validate(portfolios, people, tenures, topic_ids, announcements)
     if errors:
         for error in errors:
             print(f"FAIL: {error}")
         sys.exit(1)
     serving = sum(1 for t in tenures if t.get("end") is None)
     print(f"OK: cabinet/ valid — {len(portfolios)} portfolios, {len(people)} people, "
-          f"{len(tenures)} tenures ({serving} serving)")
+          f"{len(tenures)} tenures ({serving} serving), {len(announcements)} anunciados")
 
 
 if __name__ == "__main__":

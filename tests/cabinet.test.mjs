@@ -92,3 +92,65 @@ test('cabinetStats on an empty roster reports zeroes rather than throwing', () =
   assert.equal(stats.changes, 0);
   assert.equal(stats.serving, 0);
 });
+
+// --- announcements: provisional, always subordinate to the gazette -----------
+
+const ANNOUNCEMENTS = [
+  {
+    portfolio: 'pcm',
+    person_name: 'Luis Galarreta',
+    announced: '2026-07-27',
+    sources: [{ label: 'El Comercio', url: 'https://elcomercio.pe/x', kind: 'press' }],
+  },
+  {
+    portfolio: 'm-interior',
+    person_name: 'Otra Persona',
+    announced: '2026-07-27',
+    sources: [{ label: 'La República', url: 'https://larepublica.pe/x', kind: 'press' }],
+  },
+];
+
+test('an announced portfolio with no tenure shows as announced, not as filled', () => {
+  const rows = currentCabinet({ people: [], tenures: [], announcements: ANNOUNCEMENTS });
+  const pcm = rows.find((r) => r.portfolio.id === 'pcm');
+  assert.equal(pcm.person, null);
+  assert.equal(pcm.announcement.person_name, 'Luis Galarreta');
+  assert.equal(pcm.days, null);
+});
+
+test('a gazette tenure supersedes the announcement for that portfolio', () => {
+  // m-interior is both announced and actually appointed; the norma wins and the
+  // provisional marking must disappear.
+  const rows = currentCabinet(
+    { people: PEOPLE, tenures: TENURES, announcements: ANNOUNCEMENTS },
+    new Date('2026-08-04T00:00:00Z'),
+  );
+  const interior = rows.find((r) => r.portfolio.id === 'm-interior');
+  assert.equal(interior.person.slug, 'ana-torres');
+  assert.equal(interior.announcement, null);
+});
+
+test('a portfolio that is neither appointed nor announced stays vacant', () => {
+  const rows = currentCabinet({ people: [], tenures: [], announcements: ANNOUNCEMENTS });
+  const defensa = rows.find((r) => r.portfolio.id === 'm-defensa');
+  assert.equal(defensa.person, null);
+  assert.equal(defensa.announcement, null);
+});
+
+test('announced ministers are counted separately from serving ones', () => {
+  const stats = cabinetStats(
+    { people: [], tenures: [], announcements: ANNOUNCEMENTS },
+    new Date('2026-07-27T00:00:00Z'),
+  );
+  assert.equal(stats.serving, 0);
+  assert.equal(stats.announced, 2);
+});
+
+test('an announcement already confirmed by a norma is not double-counted', () => {
+  const stats = cabinetStats(
+    { people: PEOPLE, tenures: TENURES, announcements: ANNOUNCEMENTS },
+    new Date('2026-08-04T00:00:00Z'),
+  );
+  // m-interior is served; only the pcm announcement is still outstanding.
+  assert.equal(stats.announced, 1);
+});

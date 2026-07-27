@@ -1,0 +1,33 @@
+{
+  "announcements": [
+    {
+      "portfolio": "pcm",
+      "person_name": "Luis Galarreta",
+      "announced": "2026-07-27",
+      "sources": [
+        {
+          "label": "El Comercio",
+          "url": "https://elcomercio.pe/politica/actualidad/keiko-fujimori-presenta-a-luis-galarreta-como-proximo-presidente-de-consejo-de-ministros-ultimas-noticia/",
+          "kind": "press"
+        },
+        {
+          "label": "La República",
+          "url": "https://larepublica.pe/politica/2026/07/27/keiko-fujimori-anuncia-que-luis-galarreta-sera-el-presidente-del-consejo-de-ministros-hnews-2557602",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-relaciones-exteriores",
+      "person_name": "Carlos Espá",
+      "announced": "2026-07-27",
+      "sources": [
+        {
+          "label": "El Comercio",
+          "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-presenta-a-carlos-espa-como-proximo-ministro-de-relaciones-exteriores-ultimas-noticia/",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
