@@ -23,15 +23,19 @@
   box-shadow: 0 2px 4px rgba(20,20,23,0.1), 0 18px 44px rgba(20,20,23,0.2), 0 44px 88px -40px rgba(20,20,23,0.4);
 }
 
-/* The ticket: two panels split by a punched perforation seam. */
+/* The ticket: two panels split by a perforated seam.
+ *
+ * The seam used to punch two notches out of the edges with a two-layer `mask`
+ * shorthand. On iOS Safari that made the entire dialog vanish — no text, no QR,
+ * just the card's shadow — because .donate-dialog and .donate-card are both
+ * transparent and every visible surface came from this element. A mask that
+ * resolves to anything less than full coverage takes all of it away.
+ *
+ * The notches were decoration; the donation flow is the site's only funding
+ * path. So the seam is now the dashed rule alone, which cannot hide anything.
+ * Do not reintroduce masking here — tests/donate.test.mjs enforces it. */
 .ticket {
   --seam: 150px;
-  -webkit-mask:
-    radial-gradient(circle 10px at left var(--seam), #0000 10px, #000 0) left / 50.5% 100% no-repeat,
-    radial-gradient(circle 10px at right var(--seam), #0000 10px, #000 0) right / 50.5% 100% no-repeat;
-  mask:
-    radial-gradient(circle 10px at left var(--seam), #0000 10px, #000 0) left / 50.5% 100% no-repeat,
-    radial-gradient(circle 10px at right var(--seam), #0000 10px, #000 0) right / 50.5% 100% no-repeat;
 }
 
 .ticket-top {
