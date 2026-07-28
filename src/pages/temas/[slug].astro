@@ -97,7 +97,7 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
         <h2 class="font-display text-2xl sm:text-3xl mt-3" style="letter-spacing:-0.03em">Metas al 2031</h2>
         <ul class="mt-8 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card px-6">
           {topicGoals.map((goal) => (
-            <GoalRow text={goal.text} indicator={goal.indicator} status={statusOf(goal.id, tracking)} />
+            <GoalRow id={goal.id} text={goal.text} indicator={goal.indicator} status={statusOf(goal.id, tracking)} />
           ))}
         </ul>
       </div>
@@ -136,7 +136,7 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
         <h2 class="font-display text-2xl sm:text-3xl mt-3" style="letter-spacing:-0.03em">Primeros 100 días</h2>
         <ul class="mt-8 bg-white rounded-lg border border-tinta/10 shadow-card divide-y divide-tinta/10">
           {topicFile.first_100_days.map((item) => (
-            <li class="flex items-start gap-3.5 p-5">
+            <li id={item.id} class="commitment scroll-mt-24 flex items-start gap-3.5 p-5">
               <span aria-hidden="true" class="mt-1 h-4 w-4 rounded-sm border-[1.5px] border-tinta/40 shrink-0"></span>
               <p class="text-sm leading-[1.7]">{item.text}</p>
             </li>
