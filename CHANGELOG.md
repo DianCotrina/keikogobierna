@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.5.0](https://github.com/DianCotrina/keikogobierna/compare/v2.4.0...v2.5.0) (2026-07-28)
+
+
+### Features
+
+* accent folding that keeps a map back to source offsets ([a29d7ee](https://github.com/DianCotrina/keikogobierna/commit/a29d7ee7628fc4bf772844f46080c6a7e37fdfca))
+* emit the search corpus at build time ([37387f3](https://github.com/DianCotrina/keikogobierna/commit/37387f38bf818d2688636b3ca120fdc74a0436b3))
+* flatten the plan into a searchable corpus ([f5504bc](https://github.com/DianCotrina/keikogobierna/commit/f5504bccd3475935a687061516cc850175012fe4))
+* give every commitment an anchor and an arrival highlight ([ab829fb](https://github.com/DianCotrina/keikogobierna/commit/ab829fb8270b45aa173a89e4155d386ab1d47a62))
+* strict multi-term matching grouped by tema ([a6a9375](https://github.com/DianCotrina/keikogobierna/commit/a6a937541d9e00f319dac608159883add3e102bf))
+* the buscador overlay, reachable from every page ([1427105](https://github.com/DianCotrina/keikogobierna/commit/1427105261af816c9d109777b25b1077ee3f4e77))
+
 ## [2.4.0](https://github.com/DianCotrina/keikogobierna/compare/v2.3.0...v2.4.0) (2026-07-21)
 
 
