@@ -1,6 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildCorpus, foldText, foldWithMap } from '../src/lib/search.mjs';
+import { buildCorpus, foldText, foldWithMap, prepare, searchCorpus } from '../src/lib/search.mjs';
 import { loadPlan, loadTopics, loadGoals } from '../src/lib/plan.mjs';
 
 // Built from the real committed plan, not a fixture: the guarantees that matter
@@ -88,5 +88,92 @@ describe('buildCorpus', () => {
     assert.equal(proposal.k, 'p');
     assert.equal(proposal.t, 'orden-ciudadano');
     assert.equal(proposal.g, 'Prevención del delito');
+  });
+});
+
+const prepared = prepare(corpus);
+const find = (q) => searchCorpus(prepared, q);
+
+describe('searchCorpus — idle', () => {
+  test('a query under two characters searches nothing', () => {
+    for (const q of ['', '  ', 'a']) {
+      const result = find(q);
+      assert.equal(result.mode, 'idle');
+      assert.equal(result.total, 0);
+      assert.deepEqual(result.groups, []);
+    }
+  });
+});
+
+describe('searchCorpus — strict', () => {
+  test('"beca" finds 19 commitments across 6 temas', () => {
+    // 16 propuestas, 2 acciones de 100 días and 1 meta. The meta only turns up
+    // because metas are in the corpus at all — scanning propuestas alone
+    // undercounts, which is the whole reason this number is asserted.
+    const result = find('beca');
+    assert.equal(result.mode, 'strict');
+    assert.equal(result.total, 19);
+    assert.equal(result.groups.length, 6);
+  });
+
+  test('"beca" reaches temas nobody would think to open', () => {
+    const slugs = find('beca').groups.map((g) => g.slug);
+    assert.ok(slugs.includes('orden-ciudadano'), slugs.join(','));
+    assert.ok(slugs.includes('orden-juridico'), slugs.join(','));
+  });
+
+  test('"beca 18" requires both words', () => {
+    const result = find('beca 18');
+    assert.equal(result.mode, 'strict');
+    assert.equal(result.total, 2);
+  });
+
+  test('accents are irrelevant', () => {
+    assert.deepEqual(
+      find('educación').groups.map((g) => g.slug),
+      find('educacion').groups.map((g) => g.slug),
+    );
+  });
+
+  test('a term matches inside a longer word', () => {
+    // "beca" must reach PRONABEC and "becas"; Spanish inflection makes
+    // prefix-only matching useless here.
+    assert.ok(find('beca').total > find('becas').total);
+  });
+
+  test('nothing at all is an empty strict result, not a widened one', () => {
+    const result = find('zzzzq');
+    assert.equal(result.mode, 'strict');
+    assert.equal(result.total, 0);
+  });
+});
+
+describe('searchCorpus — grouping and ranges', () => {
+  test('groups are ordered by hit count and capped at three items', () => {
+    const result = find('beca');
+    const counts = result.groups.map((g) => g.count);
+    assert.deepEqual(counts, [...counts].sort((a, b) => b - a));
+    for (const group of result.groups) {
+      assert.ok(group.items.length <= 3);
+      assert.ok(group.count >= group.items.length);
+      assert.ok(group.name.length > 0);
+    }
+  });
+
+  test('the cap can be lifted for one tema', () => {
+    const capped = find('beca').groups.find((g) => g.slug === 'ninos-adolescentes-y-jovenes');
+    const full = searchCorpus(prepared, 'beca', { limitPerGroup: Infinity })
+      .groups.find((g) => g.slug === 'ninos-adolescentes-y-jovenes');
+    assert.equal(capped.items.length, 3);
+    assert.equal(full.items.length, full.count);
+    assert.ok(full.count > 3);
+  });
+
+  test('ranges point at the matched text in the original string', () => {
+    const hit = find('educación').groups.flatMap((g) => g.items)
+      .find((r) => foldText(r.item.x).includes('educacion'));
+    assert.ok(hit, 'expected at least one hit containing the word');
+    const [start, end] = hit.ranges[0];
+    assert.equal(foldText(hit.item.x.slice(start, end)), 'educacion');
   });
 });
