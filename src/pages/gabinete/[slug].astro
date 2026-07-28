@@ -7,6 +7,7 @@ import TenureTimeline from '../../components/TenureTimeline.astro';
 import {
   loadPeople,
   loadTenures,
+  loadAnnouncements,
   portfolioById,
   portfolioTopics,
   tenureDays,
@@ -15,13 +16,52 @@ import {
 import { stageMeta } from '../../lib/judicial.mjs';
 import { loadPlan, loadGoals, loadTracking, topicSummaries } from '../../lib/plan.mjs';
 
-export function getStaticPaths() {
-  return loadPeople().map((person) => ({ params: { slug: person.slug }, props: { person } }));
+// The data files are JSON, so an empty people.json would otherwise make
+// TypeScript infer `never` for every field. Name the shapes instead.
+interface JudicialEntryData {
+  id: string;
+  case: string;
+  expediente?: string | null;
+  stage: string;
+  crime: string;
+  body?: string;
+  date: string;
+  summary: string;
+  sources: Array<{ label: string; url: string; kind?: string }>;
+}
+interface PersonData {
+  slug: string;
+  name: string;
+  profession?: string;
+  bio?: string;
+  sources?: Array<{ label: string; url: string; kind?: string }>;
+  judicial?: JudicialEntryData[];
+}
+interface TenureData {
+  person: string;
+  portfolio: string;
+  start: string;
+  end: string | null;
+  appointment_norma?: { numero: string; url: string } | null;
+  exit_norma?: { numero: string; url: string } | null;
+  exit_reason?: string | null;
+}
+interface AnnouncementData {
+  portfolio: string;
+  person_name: string;
+  person?: string;
+  announced: string;
+  sources: Array<{ label: string; url: string; kind?: string }>;
 }
 
-const { person } = Astro.props;
+export function getStaticPaths() {
+  return (loadPeople() as PersonData[])
+    .map((person) => ({ params: { slug: person.slug }, props: { person } }));
+}
 
-const tenures = loadTenures()
+const { person } = Astro.props as { person: PersonData };
+
+const tenures = (loadTenures() as TenureData[])
   .filter((t) => t.person === person.slug)
   .sort((a, b) => b.start.localeCompare(a.start))
   .map((tenure) => ({
@@ -31,7 +71,16 @@ const tenures = loadTenures()
   }));
 
 const openTenure = tenures.find((row) => !row.tenure.end) ?? null;
-const currentPortfolio = openTenure?.portfolio ?? null;
+
+// Someone can have a ficha before any tenure exists: announced in public,
+// awaiting the Resolución Suprema. Their page must say so rather than call
+// them a former minister.
+const announcement = openTenure
+  ? null
+  : (loadAnnouncements() as AnnouncementData[]).find((a) => a.person === person.slug) ?? null;
+const announcedPortfolio = announcement ? portfolioById(announcement.portfolio) ?? null : null;
+
+const currentPortfolio = openTenure?.portfolio ?? announcedPortfolio;
 
 // The roster-meets-tracker payoff: what this person is actually accountable for.
 // plan.mjs and cabinet.mjs are untyped, so the shape is named here for the editor.
@@ -54,9 +103,11 @@ const entries = [...(person.judicial ?? [])].sort((a, b) => {
   return rank !== 0 ? rank : String(b.date).localeCompare(String(a.date));
 });
 
-const role = currentPortfolio
-  ? `Ministro de Estado · ${currentPortfolio.name}`
-  : 'Ex ministro de Estado';
+const role = openTenure
+  ? `Ministro de Estado · ${openTenure.portfolio?.name}`
+  : announcedPortfolio
+    ? `Anunciado · ${announcedPortfolio.name}`
+    : 'Ex ministro de Estado';
 
 const title = `${person.name} — Gabinete — keikogobierna`;
 const description = `${person.name}: cargo, temas del plan a su cargo, paso por el gabinete y registro judicial documentado con fuentes públicas.`;
@@ -77,6 +128,11 @@ const description = `${person.name}: cargo, temas del plan a su cargo, paso por 
 
       <div class="mt-6 flex flex-wrap items-start gap-x-8 gap-y-4">
         <RecordBadge person={person} />
+        {announcement && (
+          <p class="font-mono text-xs text-ambar self-center">
+            Aún sin Resolución Suprema que lo nombre
+          </p>
+        )}
         {openTenure && (
           <p class="font-mono text-xs text-tintafina self-center">{daysLabel(openTenure.days)}</p>
         )}
@@ -87,7 +143,7 @@ const description = `${person.name}: cargo, temas del plan a su cargo, paso por 
 
       {person.sources?.length > 0 && (
         <p class="mt-4 flex flex-wrap gap-x-6 gap-y-1 font-mono text-xs">
-          {person.sources.map((source) => (
+          {person.sources.map((source: { label: string; url: string }) => (
             <a href={source.url} target="_blank" rel="noopener noreferrer" class="nav-link">{source.label} ↗</a>
           ))}
         </p>
@@ -133,7 +189,15 @@ const description = `${person.name}: cargo, temas del plan a su cargo, paso por 
           </p>
         </div>
         <div class="mt-6">
-          <TenureTimeline rows={tenures} />
+          {tenures.length === 0 ? (
+            <p class="reveal text-sm leading-[1.7] text-tintasuave max-w-xl">
+              Todavía no ha ocupado el cargo. Su nombramiento no aparece en El Peruano, así
+              que no contamos días en funciones ni le atribuimos responsabilidad sobre los
+              compromisos de la cartera.
+            </p>
+          ) : (
+            <TenureTimeline rows={tenures} />
+          )}
         </div>
       </div>
     </section>

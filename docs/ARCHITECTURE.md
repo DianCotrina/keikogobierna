@@ -135,6 +135,8 @@ Three constraints found the hard way, all recorded in `jne_client.py` and `jne_r
 
 **No stage is ever assigned from a declaration.** The form is self-reported and inconsistent: one real record declares `delito TERRORISMO`, `fallo ABSUELTO` and `modalidad EFECTIVA` — an acquittal filed under the modality of an effective prison term, which any modality-keyed mapper would publish as a terrorism conviction. Another files `delito`, `fallo` and `órgano` all as the string `"0"` with the substance in a free-text comment. Drafts therefore carry `stage: null` plus the raw declaration under `_declaracion`, and the validator refuses to build while any stage is unset, so a draft cannot reach the site un-reviewed.
 
+**Judicial records cannot be automated at all**, and `workflows/judicial_record.md` documents the manual path. Peru publishes no queryable criminal-record database — the Certificado de Antecedentes Penales is issued only to the person it concerns — and both official systems are closed to machines: Poder Judicial's CEJ sits behind Radware Bot Manager (and has no name search anyway), and the Ministerio Público returns 403 to non-browser clients. Neither is worked around. What automation exists is discovery only: JNE declarations drafted for review, and press coverage of roster people surfaced as prompts to go find the primary document.
+
 Identity is a human decision too: the tool searches and drafts in two separate phases, because "Carlos Espá" matches a PARTIDO SICREO candidate who is not the Fuerza Popular minister. Searching lists every hit with its party; drafting needs an `idHojaVida` a person confirmed.
 
 `src/lib/judicial.mjs` holds the stage ladder. Exculpatory outcomes (`absuelto`, `archivado`, `prescrito`) carry **rank 0** and can never drive a minister's badge — otherwise the site would mark people for accusations that failed. `/gabinete/` renders that rule visually too: a rank-0 entry is shown off the stage rail entirely.
@@ -155,6 +157,7 @@ Python, stdlib only. `tools/scrapers/watcher_common.py` holds what every source 
 | `cabinet_scraper.py` | The same reader, filtered by `cabinet_rules.py` | on demand (backfill) | Issues labeled `cambio-de-gabinete` |
 | `cabinet_scraper.py --press` | The shared press feeds via `press_rules.py` | on demand | Proposed `announcements.json` block |
 | `jne_scraper.py` | JNE Plataforma Electoral API, via `jne_rules.py` | on demand | Draft `people.json` entry for review |
+| `cabinet_scraper.py --press` (tail) | Same press feeds, `judicial_signals()` | on demand | Judicial coverage of roster people, for a human to chase |
 | `ultimitas_scraper.py` | El Comercio + La República + RPP + Gestión RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
 
 The news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.

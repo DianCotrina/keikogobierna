@@ -95,9 +95,15 @@ export function currentCabinet(data, today = new Date()) {
     const tenure = tenures.find((t) => t.portfolio === portfolio.id && !t.end) ?? null;
     const person = tenure ? people.find((p) => p.slug === tenure.person) ?? null : null;
     // An announcement only surfaces while the gazette is silent.
-    const announcement = tenure
+    const announced = tenure
       ? null
       : announcements.find((a) => a.portfolio === portfolio.id) ?? null;
+    // `person` on an announcement is set by hand once someone has confirmed the
+    // press-reported name is that ficha — a name match is not an identity
+    // match. Absent or unresolvable, the card shows the raw reported name only.
+    const announcement = announced
+      ? { ...announced, person: people.find((p) => p.slug === announced.person) ?? null }
+      : null;
     return {
       portfolio,
       person,

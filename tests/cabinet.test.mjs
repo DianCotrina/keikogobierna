@@ -110,6 +110,25 @@ const ANNOUNCEMENTS = [
   },
 ];
 
+test('an announcement can resolve to a full ficha once a person verifies it', () => {
+  const announcements = [{ ...ANNOUNCEMENTS[0], person: 'ana-torres' }];
+  const rows = currentCabinet({ people: PEOPLE, tenures: [], announcements });
+  const pcm = rows.find((r) => r.portfolio.id === 'pcm');
+  assert.equal(pcm.announcement.person.slug, 'ana-torres');
+  assert.equal(pcm.person, null, 'still not appointed');
+});
+
+test('an announcement without a verified person carries no ficha', () => {
+  const rows = currentCabinet({ people: PEOPLE, tenures: [], announcements: ANNOUNCEMENTS });
+  assert.equal(rows.find((r) => r.portfolio.id === 'pcm').announcement.person, null);
+});
+
+test('an announcement naming an unknown slug resolves to no ficha rather than throwing', () => {
+  const announcements = [{ ...ANNOUNCEMENTS[0], person: 'nobody-here' }];
+  const rows = currentCabinet({ people: PEOPLE, tenures: [], announcements });
+  assert.equal(rows.find((r) => r.portfolio.id === 'pcm').announcement.person, null);
+});
+
 test('an announced portfolio with no tenure shows as announced, not as filled', () => {
   const rows = currentCabinet({ people: [], tenures: [], announcements: ANNOUNCEMENTS });
   const pcm = rows.find((r) => r.portfolio.id === 'pcm');

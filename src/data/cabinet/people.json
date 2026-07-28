@@ -1,3 +1,18 @@
 {
-  "people": []
+  "people": [
+    {
+      "slug": "luis-fernando-galarreta-velarde",
+      "name": "Luis Fernando Galarreta Velarde",
+      "profession": "Bachiller en Derecho y Ciencia Política",
+      "bio": "Parlamentario Andino entre 2021 y 2025. Ocupó la Secretaría General Nacional (e) de Fuerza Popular en 2019 y la Secretaría General del partido entre 2020 y 2024. Todo lo anterior consta en su declaración jurada de hoja de vida ante el JNE.",
+      "sources": [
+        {
+          "label": "Hoja de vida JNE (datos abiertos)",
+          "url": "https://apiplataformaelectoral3.jne.gob.pe/api/v1/candidato/hv-sentenciapenal?IdHojaVida=246699",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    }
+  ]
 }
