@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/DianCotrina/keikogobierna/compare/v2.5.0...v2.5.1) (2026-07-28)
+
+
+### Bug Fixes
+
+* stop the donate widget covering the mobile screen ([e955b37](https://github.com/DianCotrina/keikogobierna/commit/e955b372c16b413aacd09623b437772fed9c84d9))
+
 ## [2.5.0](https://github.com/DianCotrina/keikogobierna/compare/v2.4.0...v2.5.0) (2026-07-28)
 
 
