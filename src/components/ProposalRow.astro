@@ -20,7 +20,10 @@ const { id, text, status, evidence = [] } = Astro.props;
 const certified = status === 'fulfilled';
 ---
 
-<li class:list={['flex items-start gap-4 py-3.5', certified && 'bg-verde/[0.05] -mx-3 px-3 rounded-md']}>
+<li
+  id={id}
+  class:list={['commitment scroll-mt-24 flex items-start gap-4 py-3.5', certified && 'bg-verde/[0.05] -mx-3 px-3 rounded-md']}
+>
   <span class="font-mono text-xs font-semibold text-tintafina shrink-0 mt-0.5 min-w-[2.4rem]">{id.split('.')[1]}</span>
   <div class="flex-1">
     <p class="text-sm leading-[1.7]">{text}</p>

@@ -154,3 +154,22 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .reveal { opacity: 1; transform: none; transition: none; }
   a, button, .card-hover { transition: none; }
 }
+
+/* A commitment arrived at from the buscador announces itself, then settles.
+   `:target` avoids escaping the dot in ids like #t3-2.P38, which an attribute
+   or id selector would need. */
+.commitment:target {
+  border-radius: 0.375rem;
+  animation: commitment-arrive 2.6s var(--ease-spring) forwards;
+}
+@keyframes commitment-arrive {
+  0%, 45% { background-color: rgba(163, 94, 0, 0.16); box-shadow: 0 0 0 8px rgba(163, 94, 0, 0.16); }
+  100%    { background-color: transparent;            box-shadow: 0 0 0 8px transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .commitment:target {
+    animation: none;
+    background-color: rgba(163, 94, 0, 0.12);
+    box-shadow: 0 0 0 8px rgba(163, 94, 0, 0.12);
+  }
+}
