@@ -40,3 +40,49 @@ export function foldWithMap(text) {
   map.push(source.length);
   return { folded, map };
 }
+
+/**
+ * Flatten the plan into one searchable array. Build time only.
+ *
+ * Keys are single letters because they repeat 764 times: across the whole
+ * corpus the short names are worth several KB on the wire.
+ *
+ *   i  id          k  kind: p propuesta, c 100 días, m meta
+ *   t  topic slug  g  group title (propuestas only)
+ *   x  the text shown to the reader
+ *   q  the text searched, present only when it differs from `x`
+ */
+export function buildCorpus(plan, topics, goals, version) {
+  const slugById = new Map(plan.topics.map((topic) => [topic.id, topic.slug]));
+  const items = [];
+
+  for (const topic of plan.topics) {
+    const file = topics.get(topic.id);
+    if (!file) continue;
+    for (const group of file.groups ?? []) {
+      for (const proposal of group.proposals ?? []) {
+        items.push({ i: proposal.id, k: 'p', t: topic.slug, g: group.title ?? '', x: proposal.text });
+      }
+    }
+    for (const action of file.first_100_days ?? []) {
+      items.push({ i: action.id, k: 'c', t: topic.slug, x: action.text });
+    }
+  }
+
+  for (const goal of goals) {
+    const slug = slugById.get(goal.topic);
+    if (!slug) continue;
+    // A meta's indicator is worth searching but not worth showing. It goes in
+    // `q`, which extends `x`, so offsets into the two agree for the whole of
+    // `x` and a match in the indicator simply renders no highlight.
+    const item = { i: goal.id, k: 'm', t: slug, x: goal.text };
+    if (goal.indicator) item.q = `${goal.text} ${goal.indicator}`;
+    items.push(item);
+  }
+
+  return {
+    version,
+    topics: plan.topics.map((topic) => ({ s: topic.slug, n: topic.name })),
+    items,
+  };
+}
