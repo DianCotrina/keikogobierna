@@ -10,13 +10,14 @@ The plan holds 764 commitments spread across 23 topic pages. A visitor who wants
 to know what the plan says about *Beca 18* has no way to ask. They must guess
 which tema owns the subject, open it, and read.
 
-Guessing fails. The word "beca" appears in **18 commitments across 6 topics**:
+Guessing fails. The word "beca" appears in **19 commitments across 6 topics** —
+16 propuestas, 2 acciones de los primeros 100 días and 1 meta al 2031:
 
 | Tema | Hits | Example |
 |---|---|---|
-| Niños, adolescentes y jóvenes | 6 | «Beca Retoma tus Estudios» |
-| Educación | 3 | Ampliación de PRONABEC |
-| Deporte | 4 | Beca Deporte Escolar, Beca 18 |
+| Niños, adolescentes y jóvenes | 8 | «Beca Retoma tus Estudios» |
+| Educación | 4 | Duplicar el acceso a becas (meta al 2031) |
+| Deporte | 3 | Beca Deporte Escolar, Beca 18 |
 | Orden ciudadano | 2 | becas en prevención temprana del delito |
 | Orden jurídico | 1 | Carrera Nacional de Defensa de Oficio |
 | Peruanos en el extranjero | 1 | becas técnicas virtuales |
@@ -222,7 +223,7 @@ data** rather than hand-made fixtures.
 
 | Case | Expectation |
 |---|---|
-| `beca` | 18 items across 6 topics; Orden ciudadano among them |
+| `beca` | 19 items across 6 topics; Orden ciudadano among them |
 | `beca 18` | 2 items, `mode: 'strict'` |
 | `beca dental` | non-empty, `mode: 'widened'` |
 | `educación` vs `educacion` | identical results |
