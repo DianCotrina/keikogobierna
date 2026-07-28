@@ -160,10 +160,13 @@ a:focus-visible, button:focus-visible, input:focus-visible {
    or id selector would need. */
 .commitment:target {
   border-radius: 0.375rem;
-  animation: commitment-arrive 2.6s var(--ease-spring) forwards;
+  animation: commitment-arrive 4.5s var(--ease-spring) forwards;
 }
+/* Held for the first half rather than fading immediately: `scroll-behavior:
+   smooth` means the visitor is still travelling down a long tema page while
+   this runs, and a mark that has faded before they arrive marks nothing. */
 @keyframes commitment-arrive {
-  0%, 45% { background-color: rgba(163, 94, 0, 0.16); box-shadow: 0 0 0 8px rgba(163, 94, 0, 0.16); }
+  0%, 50% { background-color: rgba(163, 94, 0, 0.16); box-shadow: 0 0 0 8px rgba(163, 94, 0, 0.16); }
   100%    { background-color: transparent;            box-shadow: 0 0 0 8px transparent; }
 }
 @media (prefers-reduced-motion: reduce) {
