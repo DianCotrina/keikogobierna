@@ -1,0 +1,63 @@
+---
+import pkg from '../../../package.json';
+import './search.css';
+
+// Trigger + overlay, rendered once in Base.astro so the buscador is reachable
+// from every page.
+//
+// The trigger starts hidden and the client script reveals it: nothing here
+// works without JavaScript, and a dead button is worse than no button.
+---
+
+<button
+  id="search-trigger"
+  type="button"
+  class="search-trigger"
+  aria-haspopup="dialog"
+  aria-expanded="false"
+  data-version={pkg.version}
+  hidden
+>
+  <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="h-4 w-4 shrink-0">
+    <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8" />
+    <path d="M12.8 12.8 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+  </svg>
+  <span>Buscar</span>
+  <kbd class="search-kbd" aria-hidden="true">/</kbd>
+</button>
+
+<div id="search-overlay" class="search-overlay" hidden>
+  <div class="search-backdrop" data-search-close aria-hidden="true"></div>
+
+  <div id="search-panel" class="search-panel" role="dialog" aria-modal="true" aria-labelledby="search-title">
+    <h2 id="search-title" class="sr-only">Buscar en el plan de gobierno</h2>
+
+    <div class="search-bar">
+      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="h-4 w-4 shrink-0 text-tintafina">
+        <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8" />
+        <path d="M12.8 12.8 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      </svg>
+      <input
+        id="search-input"
+        type="search"
+        class="search-input"
+        placeholder="Busca una palabra: beca, agua, corrupción…"
+        autocomplete="off"
+        autocorrect="off"
+        spellcheck="false"
+        aria-controls="search-results"
+        aria-describedby="search-status"
+      />
+      <button type="button" class="search-close" data-search-close aria-label="Cerrar la búsqueda">Esc</button>
+    </div>
+
+    <p id="search-status" class="search-status" role="status" aria-live="polite"></p>
+    <div id="search-results" class="search-results"></div>
+
+    <p class="search-foot">
+      Busca en las 632 propuestas, las 67 acciones de los primeros 100 días y las 65 metas al 2031.
+    </p>
+  </div>
+</div>
+
+<script src="./search.ts"></script>

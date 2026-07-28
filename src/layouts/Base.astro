@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Donate from '../components/Donate/Donate.astro';
+import Search from '../components/Search/Search.astro';
 import pkg from '../../package.json';
 
 interface Props {
@@ -60,6 +61,7 @@ const navLinks = [
             >{link.label}</a>
           ))}
         </nav>
+        <Search />
       </div>
     </header>
 
