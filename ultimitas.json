@@ -1,10 +1,550 @@
 {
- "generated": "2026-07-28T18:14:52+00:00",
+ "generated": "2026-07-28T23:58:05+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
  "articles": [
+  {
+   "title": "Ernesto Álvarez, expremier de José Jerí, juró como ministro de Justicia de Keiko Fujimori",
+   "url": "https://larepublica.pe/politica/2026/07/28/ernesto-alvarez-jura-como-ministro-de-justicia-hnews-1998052",
+   "summary": "El expremier de José Jerí, el abogado Ernesto Álvarez, juró como titular del Ministerio de Justicia y Derechos Humanos. La ceremonia de juramentación se realizó en Palacio de Gobierno. Sin embargo, Álvarez juró al cargo de manera remota.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-07-28T23:54:40+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori juró como presidenta: así reaccionó la prensa internacional",
+   "url": "https://elcomercio.pe/mundo/keiko-fujimori-juro-como-presidenta-asi-reacciono-la-prensa-internacional-noticia/",
+   "summary": "Los medios del extranjero destacaron el peso de la herencia política de Alberto Fujimori, el mensaje de mano dura en gestión de seguridad y el país fragmentado que gobernará la nueva presidenta del Perú, junto a otros desafíos.",
+   "author": "Guillermo Vera Ayala",
+   "published": "2026-07-28T23:52:14+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "María Magdalena Seminario jura como ministra de la Mujer y Poblaciones Vulnerables del Gobierno de Keiko Fujimori",
+   "url": "https://elcomercio.pe/lima/gabinete-ministerial-de-keiko-fujimori-maria-magdalena-seminario-jura-como-ministra-de-la-mujer-y-poblaciones-vulnerables-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "María Magdalena Seminario juró ante la presidenta Keiko Fujimori como titular del Ministerio de la Mujer y Poblaciones Vulnerables (MIMP) en el gabinete que lidera Luis Galarreta. La ceremonia se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:49:54+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Rafael Belaunde jura como ministro de Defensa del Gobierno de Keiko Fujimori",
+   "url": "https://elcomercio.pe/politica/gobierno/gabinete-ministerial-de-keiko-fujimori-rafael-belaunde-jura-como-ministro-de-defensa-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "La presidenta de la República, Keiko Fujimori, tomó juramento a Rafael Jorge Belaúnde Llosa como ministro de Defensa en el gabinete que lidera Luis Galarreta. La ceremonia se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:48:45+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Lista completa del Consejo de Ministros: ¿Quiénes son los ministros que integran el primer gabinete de keiko Fujimori?",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-quienes-son-los-ministros-que-integran-el-primer-gabinete-de-la-lideresa-de-fuerza-popular-hnews-2137576",
+   "summary": "Luis Galarreta preside el Consejo de Ministros. Dieciocho carteras completan el equipo que juramentó este 28 de julio en Palacio de Gobierno.",
+   "author": "Ariadna Yaya",
+   "published": "2026-07-28T23:43:52+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Rafael Belaunde es el nuevo ministro de Defensa en la gestión de Keiko Fujimori",
+   "url": "https://larepublica.pe/politica/2026/07/28/rafael-belaunde-es-el-nuevo-ministro-de-defensa-en-la-gestion-de-keiko-fujimori-hnews-1049188",
+   "summary": "El exministro de Energía y Minas asumirá la conducción del Ministerio de Defensa como parte del primer gabinete ministerial del nuevo periodo gubernamental.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-07-28T23:37:01+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "César Astudillo jura como nuevo ministro del Interior",
+   "url": "https://larepublica.pe/politica/2026/07/28/cesar-astudillo-jura-como-nuevo-ministro-del-interior-1065568",
+   "summary": "General EP (r) y senador electo de Fuerza Popular será titular del Ministerio del Interior. Astudillo fue ministro de Defensa del Perú durante el gobierno de Dina Boluarte, entre febrero de 2024 y octubre de 2025.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-07-28T23:36:25+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Elmer Cuba jura ante Keiko Fujimori como ministro de Economía y Finanzas",
+   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-toma-juramento-a-elmer-cuba-como-ministro-de-economia-y-finanzas-en-gabinete-que-lidera-luis-galarreta-pcm-mef-ultimas-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:35:54+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: Los cinco hitos de su primer mensaje a la Nación tras jurar como presidenta",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-jura-como-presidenta-de-la-republica-los-cinco-ejes-de-su-primer-mensaje-a-la-nacion-noticia/",
+   "summary": "Tras 15 años desde su primera postulación a Palacio de Gobierno, Keiko Fujimori  juró este martes como presidenta de la República en el Congreso, compuesto ahora por dos cámaras. La lideresa de Fuerza Popular ofreció un mensaje a la Nación de 45 minutos, que estuvo centrado en la seguridad ciudadana, las medidas de urgencia ante el fenómeno de El Niño y un llamado a la unidad a la oposición parlamentaria. Aquí los detalles:",
+   "author": "Sebastian Ortiz Martínez",
+   "published": "2026-07-28T23:34:32+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "José Chang es el nuevo ministro de Educación en el gobierno de Keiko Fujimori",
+   "url": "https://larepublica.pe/politica/2026/07/28/jose-chang-es-el-nuevo-ministro-de-educacion-en-el-gobierno-de-keiko-fujimori-hnews-1075368",
+   "summary": "José Antonio Chang, quien fue ministro de Educación durante el segundo gobierno de Alan García, regresa a la cartera educativa en la administración de Keiko Fujimori.",
+   "author": "Ariadna Yaya",
+   "published": "2026-07-28T23:25:36+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Juan Sheput, exministro de Alejandro Toledo y Manuel Merino, jura como ministro de Trabajo",
+   "url": "https://larepublica.pe/politica/2026/07/28/juan-sheput-exministro-de-ppk-toledo-y-merino-jura-como-ministro-de-trabajo-2738624",
+   "summary": "Juan Sheput fue designado por Keiko Fujimori para asumir la cartera de Trabajo y Promoción del Empleo. En el 2005 y 2020 ocupó el mismo ministerio.",
+   "author": "Carlos Villacorta",
+   "published": "2026-07-28T23:23:04+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Mensaje a la Nación de Keiko Fujimori excluyó temas de Derechos Humanos e Igualdad de Género",
+   "url": "https://larepublica.pe/politica/2026/07/28/mensaje-a-la-nacion-de-keiko-fujimori-excluyo-temas-de-derechos-humanos-e-igualdad-de-genero-hnews-2584540",
+   "summary": "El proceso que siguen las familias de las víctimas de las protestas sociales de 2022-2023 no fue mencionado en su discurso. Tampoco estrategias para disminuir la violencia contra la mujer.",
+   "author": "Narda Saavedra",
+   "published": "2026-07-28T23:22:02+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: estos son los principales anuncios económicos en su mensaje a la nación",
+   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-estos-son-los-principales-anuncios-economicos-en-su-mensaje-a-la-nacion-l-ultimas-noticia/",
+   "summary": "Keiko Fujimori juró este martes 28 de julio como presidenta del Perú en el Congreso. Durante su primer mensaje a la nación destacó las medidas de urgencia ante el fenómeno de El Niño, la seguridad ciudadana, el aumento del salario mínimo y Pensión 65.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:12:25+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Marco Antonio Vinelli jura ante Keiko Fujimori como ministro del Midagri",
+   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-toma-juramento-a-marco-antonio-vinelli-como-ministro-de-midagri-en-gabinete-que-lidera-luis-galarreta-pcm-ultimas-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:09:46+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Vladimiro Huaroc jura como ministro del Ambiente del Gabinete Galarreta",
+   "url": "https://elcomercio.pe/lima/gabinete-ministerial-de-keiko-fujimori-vladimiro-huaroc-jura-como-ministro-del-ambiente-del-gabinete-galarreta-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:09:44+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Fiestas Patrias 2026: las omisiones y la viablidad de los proyectos de transporte anunciados por la presidenta Keiko Fujimori",
+   "url": "https://elcomercio.pe/lima/sucesos/fiestas-patrias-2026-las-omisiones-y-la-viablidad-de-los-proyectos-de-transporte-anunciados-por-la-presidenta-keiko-fujimori-noticia/",
+   "summary": "",
+   "author": "",
+   "published": "2026-07-28T23:09:28+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Maritza Canales Martínez jura como ministra de Desarrollo e Inclusión Social",
+   "url": "https://elcomercio.pe/economia/gabinete-ministerial-de-keiko-fujimori-maritza-canales-ministra-de-desarrollo-e-inclusion-social-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:03:44+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Rogers Valencia Espinoza jura como ministro del Mincetur en Gobierno de Keiko Fujimori",
+   "url": "https://elcomercio.pe/economia/gabinete-ministerial-de-keiko-fujimori-rogers-valencia-espinoza-jura-como-ministro-del-mincetur-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "Keiko Fujimori tomó juramento a nuevos integrantes del gabinete de Luis Galarreta",
+   "author": "Redacción EC",
+   "published": "2026-07-28T23:03:27+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Nuevo ministro del Interior: quién es César Astudillo y cuál es su trayectoria | Keiko Fujimori",
+   "url": "https://elcomercio.pe/peru/nuevo-ministro-del-interior-quien-es-cesar-astudillo-y-cual-es-su-trayectoria-keiko-fujimori-noticia/",
+   "summary": "El general EP (r), exjefe del Comando Conjunto de las Fuerzas Armadas y senador electo por Fuerza Popular, asume el Ministerio del Interior en medio de la crisis de inseguridad. Conoce su trayectoria, propuestas y el proceso judicial que concluyó con un sobreseimiento.",
+   "author": "Abby Ardiles",
+   "published": "2026-07-28T23:01:50+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Alberto Beingolea jura como ministro de Cultura del Gobierno de Keiko Fujimori",
+   "url": "https://elcomercio.pe/lima/gabinete-ministerial-de-keiko-fujimori-alberto-beingolea-jura-como-ministro-de-cultura-del-gobierno-de-keiko-fujimori-luis-galarreta-ministros-noticia/",
+   "summary": "El acto de juramentación tuvo lugar este martes 28 de julio en Palacio de Gobierno, donde se realizó la ceremonia oficial",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:54:47+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Mensaje a la Nación: Keiko Fujimori anuncia plan para reducir a la mitad el desempleo juvenil y ampliar Beca 18",
+   "url": "https://elcomercio.pe/economia/peru/mensaje-a-la-nacion-keiko-fujimori-anuncia-plan-para-reducir-a-la-mitad-el-desempleo-juvenil-y-ampliar-beca-18-fiestas-patrias-28-de-julio-29-de-julio-noticia/",
+   "summary": "En su discurso por 28 de julio, la presidenta adelantó la creación de la política de Estado “Jóvenes con Futuro”, que fortalecerá los programas de empleo, emprendimiento y capacitación para jóvenes de entre 14 y 24 años.",
+   "author": "Fiorella Gil Mena",
+   "published": "2026-07-28T22:52:29+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Así reaccionó la prensa internacional a la toma de mando de la presidenta Keiko Fujimori | FOTOS",
+   "url": "https://elcomercio.pe/mundo/actualidad/keiko-fujimori-asi-reacciono-la-prensa-internacional-a-la-toma-de-mando-de-la-presidenta-del-peru-ultimas-noticia/",
+   "summary": "Keiko Fujimori juró este martes como presidenta de Perú para el quinquenio 2026-2031, acto con el que asume oficialmente el cargo para el que fue elegida en las recientes elecciones, en las que se impuso en la segunda vuelta por una ajustada diferencia de menos de 50.000 votos sobre Roberto Sánchez.",
+   "author": "Agencia EFE",
+   "published": "2026-07-28T22:51:54+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Discurso de Keiko Fujimori: análisis del Mensaje a la Nación 2026",
+   "url": "https://elcomercio.pe/politica/mensaje-nacion-2026-keiko-fujimori-analisis-especdis-narp-noticia/",
+   "summary": "Explora el primer Mensaje a la Nación de Keiko Fujimori con un especial interactivo y un buscador de contenido. Revisa el discurso completo, los principales anuncios, gráficos dinámicos, análisis editorial y la evaluación de su viabilidad.",
+   "author": "",
+   "published": "2026-07-28T22:49:39+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Luis Dyer asume el Ministerio de Salud en el gabinete encabezado por Luis Galarreta",
+   "url": "https://elcomercio.pe/lima/gabinete-ministerial-de-keiko-fujimori-luis-dyer-asume-el-ministerio-de-salud-en-el-gabinete-encabezado-por-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "Keiko Fujimori tomó juramento a nuevos integrantes del gabinete de Luis Galarreta",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:46:48+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "José Chang jura como ministro de Educación del Gabinete Galarreta",
+   "url": "https://elcomercio.pe/lima/gabinete-ministerial-de-keiko-fujimori-jose-chang-jura-como-ministro-de-educacion-del-gabinete-galarreta-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:45:49+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Rafael Rey Rey jura como ministro de Transportes y Comunicaciones del Gobierno de Keiko Fujimori",
+   "url": "https://elcomercio.pe/economia/gabinete-ministerial-de-keiko-fujimori-rafael-rey-rey-jura-como-ministro-de-transportes-y-comunicaciones-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:44:28+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Ernesto Álvarez jura como ministro de Justicia y Derechos Humanos del Gabinete Galarreta",
+   "url": "https://elcomercio.pe/politica/gobierno/gabinete-ministerial-de-keiko-fujimori-ernesto-alvarez-jura-como-ministro-de-justicia-y-derechos-humanos-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:31:32+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Luis Dyer es el nuevo ministro de Salud en el gobierno de Keiko Fujimori",
+   "url": "https://larepublica.pe/politica/2026/07/28/luis-dyer-es-el-nuevo-ministro-de-salud-en-el-gobierno-de-keiko-fujimori-hnews-808584",
+   "summary": "El empresario vinculado a la agroindustria y exjefe de personeros de Fuerza Popular asumió la cartera de Salud en el primer gabinete de la presidenta Keiko Fujimori.",
+   "author": "Ariadna Yaya",
+   "published": "2026-07-28T22:31:21+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Juan Sheput juró como ministro de Trabajo y Promoción del Empleo del Gobierno de Keiko Fujimori",
+   "url": "https://elcomercio.pe/economia/peru/juan-sheput-juro-como-ministro-de-trabajo-y-promocion-del-empleo-del-gobierno-de-keiko-fujimori-fiestas-patrias-28-de-julio-29-de-julio-ministros-de-estado-noticia/",
+   "summary": "Ingeniero industrial y excongresista vuelve a liderar la cartera laboral tras haber ocupado el mismo cargo en 2020. El nuevo ministro asume en un escenario marcado por la recuperación del empleo formal y el reto de reducir la informalidad.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:29:23+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "César Astudillo jura como ministro del Interior del Gobierno de Keiko Fujimori",
+   "url": "https://elcomercio.pe/politica/gobierno/gabinete-ministerial-de-keiko-fujimori-cesar-astudillo-jura-como-ministro-del-interior-luis-galarreta-ministros-ultimas-noticia/",
+   "summary": "Keiko Fujimori tomó juramento a nuevos integrantes del gabinete de Luis Galarreta",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:28:28+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori elevará sueldo mínimo, pero en campaña criticó propuesta similar de Roberto Sánchez",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-elevara-sueldo-minimo-pero-en-el-debate-critico-propuesta-similar-de-roberto-sanchez-hnews-2445492",
+   "summary": "Keiko Fujimori anunció un incremento de la remuneración mínima vital a 1.300 soles durante su discurso de toma de mando. La presidenta también propuso duplicar el bono de Pensión 65, de S/350 a S/700, para adultos mayores en situación de pobreza extrema.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-07-28T22:20:21+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Carlos Espá jura como ministro de Relaciones Exteriores del Gabinete Galarreta",
+   "url": "https://elcomercio.pe/politica/gobierno/carlos-espa-jura-como-ministro-de-relaciones-exteriores-del-gabinete-galarreta-ultimas-luis-galarreta-ministros-carlos-espa-noticia/",
+   "summary": "Keiko Fujimori | La ceremonia de juramentación se realizó este martes 28 de julio en Palacio de Gobierno.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T22:14:12+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Carlos Espá es oficializado como canciller del gobierno de Keiko Fujimori",
+   "url": "https://larepublica.pe/politica/2026/07/28/carlos-espa-es-oficializado-como-canciller-de-keiko-fujimori-hnews-1585276",
+   "summary": "El excandidato presidencial por el partido SiCreo será el primer ministro de Relaciones Exteriores del nuevo gobierno fujimorista. Espá no registra experiencia diplomática previa.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-07-28T22:13:39+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Luis Galarreta es oficializado como primer ministro del gobierno de Keiko Fujimori",
+   "url": "https://larepublica.pe/politica/2026/07/28/luis-galarreta-es-oficializado-como-primer-ministro-del-gobierno-de-keiko-fujimori-hnews-2149924",
+   "summary": "Reconocido como hombre de confianza de Fujimori, Galarreta forma parte de la plancha presidencial de Fuerza Popular. Su nombramiento ya se había anticipado.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-07-28T22:09:32+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Oposición muestra fotografías de los fallecidos en protestas sociales y se retira antes del mensaje de Keiko Fujimori",
+   "url": "https://larepublica.pe/politica/2026/07/28/oposicion-muestra-fotografias-de-los-fallecidos-en-protestas-sociales-y-se-retira-antes-del-mensaje-de-keiko-fujimori-hnews-423192",
+   "summary": "Tras juramentar al cargo de presidenta de la República, Keiko Fujimori fue invitada a dar su primer mensaje a la Nación. Oposición pidió justicia para las víctimas.",
+   "author": "Ariadna Yaya",
+   "published": "2026-07-28T22:07:53+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori tomará juramento a ministros hoy martes a las 5 de la tarde",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-tomara-juramento-a-ministros-hoy-martes-a-las-5-de-la-tarde-hnews-941976",
+   "summary": "Pese a que el programa inicial preveía el acto para las 4:30 p. m., la ceremonia se reprogramó para pasadas las 5 de la tarde. El evento se da tras confirmarse las designaciones de Elmer Cuba en Economía y Carlos Espá en Cancillería.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-07-28T22:02:51+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Seguridad bajo el gobierno de Keiko Fujimori: las medidas contra el crimen organizado y los vacíos de su primer mensaje",
+   "url": "https://elcomercio.pe/peru/seguridad-bajo-el-gobierno-de-keiko-fujimori-las-medidas-contra-el-crimen-organizado-y-los-vacios-de-su-primer-mensaje-noticia/",
+   "summary": "La presidenta inició el periodo 2026-2031 con anuncios en materia de seguridad ciudadana. Durante su primer Mensaje a la Nación ratificó medidas como el fortalecimiento de la Policía Nacional, el uso de las Fuerzas Armadas en estados de emergencia, la lucha contra la extorsión y el crimen organizado, así como la modernización tecnológica de las fuerzas del orden, propuestas que ya figuraban en su plan de gobierno.",
+   "author": "Abby Ardiles",
+   "published": "2026-07-28T21:46:16+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Presidentes de Chile, Paraguay y Bolivia expresaron la importancia del diálogo con Keiko Fujimori",
+   "url": "https://elcomercio.pe/politica/actualidad/fiestas-patrias-presidentes-de-chile-paraguay-y-bolivia-expresaron-la-importancia-del-dialogo-con-keiko-fujimori-toma-de-mando-28-de-julio-ultimas-noticia/",
+   "summary": "Los mandatarios de Chile, Paraguay y Bolivia respaldaron hoy el diálogo con la presidenta Keiko Fujimori. y resaltaron la disposición para consolidar una agenda bilateral común de seguridad y desarrollo económico para el periodo 2026-2031 durante la gestión de la mandataria y lideresa de Fuerza Popular.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T21:07:29+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori y Santiago Peña abordaron temas de seguridad regional, integración económica e inversiones",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-y-santiago-pena-abordaron-temas-de-seguridad-regional-integracion-economica-e-inversiones-ultimas-noticia/",
+   "summary": "",
+   "author": "Agencia EFE",
+   "published": "2026-07-28T21:05:25+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori a las bancadas de oposición: \"Pensemos en las próximas generaciones y no en las próximas elecciones\"",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-a-las-bancadas-de-oposicion-pensemos-en-las-proximas-generaciones-y-no-en-las-proximas-elecciones-hnews-462168",
+   "summary": "Luego de jurar al cargo en el Congreso, Keiko Fujimori hizo un llamado a los parlamentarios de la oposición para trabajar en conjunto frente a la inseguridad ciudadana y el fenómeno El Niño.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-07-28T21:04:44+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Gobierno de Venezuela felicita a Keiko Fujimori por su asunción a la Presidencia del Perú",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-gobierno-de-venezuela-felicita-a-la-mandataria-por-su-asuncion-a-la-presidencia-del-peru-fiestas-patrias-toma-de-mando-ultimas-noticia/",
+   "summary": "El Gobierno de Venezuela felicitó a la presidenta Keiko Fujimori por su toma de posesión y expresó su voluntad de fortalecer las relaciones bilaterales, días después de que ambos países anunciaran el restablecimiento progresivo de sus vínculos diplomáticos.",
+   "author": "Agencia EFE",
+   "published": "2026-07-28T20:53:38+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Presidentes y jefes de Gobierno asistieron a la asunción de mando de Keiko Fujimori | FOTOS",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-presidentes-y-jefes-de-gobierno-participaron-en-ceremonia-de-transmision-de-mando-fotos-ultimas-noticia/",
+   "summary": "",
+   "author": "Redacción EC",
+   "published": "2026-07-28T20:53:37+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: Estos son los principales anuncios de su primer Mensaje a la Nación por 28 de julio",
+   "url": "https://elcomercio.pe/politica/keiko-fujimori-los-principales-anuncios-de-su-primer-mensaje-a-la-nacion-por-28-de-julio-noticia/",
+   "summary": "La lideresa de Fuerza Popular asumió la Presidencia de la República este martes 28 de julio durante una sesión solemne del Congreso de la República.",
+   "author": "Thalía Cadenas",
+   "published": "2026-07-28T20:48:22+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: así fue el antes y después de su mensaje a la Nación | FOTOS",
+   "url": "https://elcomercio.pe/politica/keiko-fujimori-asi-fue-el-antes-y-despues-del-mensaje-a-la-nacion-toma-de-mando-fiestas-patrias-congreso-ultimas-noticia/",
+   "summary": "El mensaje a la Nación es uno de los momentos más esperados durante las celebraciones por 28 de julio. Keiko Fujimori abordó en su primer discurso, temas como la seguridad ciudadana, la reactivación económica y la respuesta ante eventuales fenómenos climáticos como El Niño.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T20:31:39+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Mensaje a la Nación: Keiko Fujimori anuncia que elevará el salario mínimo de S/1.130 a S/1.300",
+   "url": "https://elcomercio.pe/economia/peru/mensaje-a-la-nacion-keiko-fujimori-anuncia-que-elevara-el-salario-minimo-de-s1130-a-s1300-noticia/",
+   "summary": "",
+   "author": "Redacción EC",
+   "published": "2026-07-28T20:30:11+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: lee aquí el mensaje a la Nación de la presidenta ante el Congreso",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-lee-aqui-el-mensaje-a-la-nacion-de-la-presidenta-ante-el-congreso-fiestas-patrias-28-de-julio-ultimas-noticia/",
+   "summary": "Tras jurar al cargo para el periodo gubernamental 2026-2031, la presidenta Keiko Fujimori brindó un Mensaje a la Nación ante el Congreso con motivo de Fiestas Patrias, que duró aproximadamente 45 minutos.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T20:27:30+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: Nueva política en pensión 65 buscará garantizar atención oportuna en salud y acompañamiento",
+   "url": "https://elcomercio.pe/politica/keiko-fujimori-iniciaremos-duplicando-el-monto-de-pension-65-de-s-350-a-s-700-bimestrales-mensaje-a-la-nacion-toma-de-mando-ultimas-noticia-2/",
+   "summary": "La presidenta Keiko Fujimori anunció la creación de una política de protección integral para los adultos mayores, que contempla el aumento de Pensión 65 y la implementación progresiva de una pensión universal para la población en situación de pobreza.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T20:22:43+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: “Iniciaremos duplicando el monto de Pensión 65, de S/ 350 a S/ 700 bimestrales”",
+   "url": "https://elcomercio.pe/politica/keiko-fujimori-iniciaremos-duplicando-el-monto-de-pension-65-de-s-350-a-s-700-bimestrales-mensaje-a-la-nacion-toma-de-mando-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori anunció la creación de una política de protección integral para los adultos mayores, que contempla el aumento de Pensión 65 y la implementación progresiva de una pensión universal para la población en situación de pobreza.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T19:49:56+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori pidió una \"reconciliación nacional\", pero no habló de derechos humanos en su primer mensaje a la Nación",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-pidio-una-reconciliacion-nacional-pero-no-hablo-de-derechos-humanos-en-su-primer-mensaje-a-la-nacion-hnews-1120448",
+   "summary": "La mandataria prometió \"sanar las heridas de nuestro pueblo\" y ratificó su compromiso con la libertad de prensa, pero evitó por completo el término derechos humanos en un discurso de más de cuarenta minutos. Horas antes, congresistas de oposición mostraron fotografías de las víctimas de las protestas y abandonaron el hemiciclo.",
+   "author": "Ariadna Yaya",
+   "published": "2026-07-28T19:41:12+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Mensaje a la Nación: Keiko Fujimori promete ordenar las cuentas públicas y reactivar la economía con inversión y desregulación",
+   "url": "https://elcomercio.pe/economia/peru/mensaje-a-la-nacion-keiko-fujimori-promete-ordenar-las-cuentas-publicas-y-reactivar-la-economia-con-inversion-y-desregulacion-fiestas-patrias-28-de-julio-29-de-julio-noticia/",
+   "summary": "En su primer mensaje ante el Congreso, la presidenta afirmó que la sostenibilidad fiscal será el quinto objetivo de su gobierno. Anunció que ordenará las cuentas públicas, eliminará el gasto innecesario, impulsará la inversión y promoverá una desregulación para reducir las trabas burocráticas.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T19:29:08+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori reitera que solo se mantendrá en el poder durante cinco años: \"Ni un día más\"",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-reitera-que-solo-se-mantendra-en-el-poder-durante-cinco-anos-ni-un-dia-mas-hnews-2776312",
+   "summary": "La presidenta electa, Keiko Fujimori, llegó al Congreso de la República para su juramentación y su primer discurso a la Nación. La ceremonia estuvo marcada por la salida de varios congresistas de la oposición, quienes se retiraron en señal de protesta para demandar justicia por las víctimas durante las protestas.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-07-28T19:28:54+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori asegura que fortalecerá la política exterior del Perú con la Alianza del Pacífico y la Comunidad Andina",
+   "url": "https://elcomercio.pe/politica/actualidad/fiestas-patrias-keiko-fujimori-asegura-que-fortalecera-la-politica-exterior-del-peru-con-la-alianza-del-pacifico-y-la-comunidad-andina-mensaje-a-la-nacion-toma-de-mando-ultimas-noticia/",
+   "summary": "La presidenta del Perú, Keiko Fujimori, aseguró en su mensaje a la Nación que uno de los principales objetivos al asumir el cargo este 28 de julio y durante su mandato será afianzar la presencia del país a nivel internacional consolidando alianzas con otras naciones de la región.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T19:21:12+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Mensaje a la Nación: Keiko Fujimori anunció que duplicará Pensión 65 y aplicará progresivamente una pensión universal",
+   "url": "https://elcomercio.pe/economia/mensaje-a-la-nacion-keiko-fujimori-duplicara-el-monto-de-pension-65-y-plantea-avanzar-hacia-una-pension-universal-noticia/",
+   "summary": "En su primer mensaje a la Nación, la presidenta informó que el subsidio de Pensión 65 pasará de S/350 a S/700 bimestrales para los adultos mayores en situación de pobreza extrema. Además, anunció que su gobierno implementará de manera progresiva una pensión universal para los adultos mayores en situación de pobreza.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T19:20:07+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori ratifica “firme compromiso con el absoluto respeto” a independencia de poderes y a las libertades individuales y de expresión y prensa",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-asegura-que-respetara-la-independencia-de-poderes-libertad-de-expresion-y-de-prensa-mensaje-a-la-nacion-congreso-fiestas-patrias-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori aseguró en su mensaje a la Nación, luego de jurar al cargo, que en su gobierno respetará la independencia de poderes, la libertad de expresión y la de prensa como base del Estado de derecho en un país democrático.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T19:09:29+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori en su mensaje a la Nación: “Hago un llamado a las fuerzas políticas de oposición, tendamos puentes de diálogo”",
+   "url": "https://elcomercio.pe/politica/actualidad/fiestas-patrias-keiko-fujimori-en-su-mensaje-a-la-nacion-hago-un-llamado-a-las-fuerzas-politicas-de-oposicion-tendamos-puentes-de-dialogo-toma-de-mando-ultimas-noticia/",
+   "summary": "",
+   "author": "Redacción EC",
+   "published": "2026-07-28T19:07:27+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Gobierno de Keiko Fujimori anuncia la creación de la Autoridad Nacional Digital para simplificación de trámites",
+   "url": "https://elcomercio.pe/economia/peru/gobierno-de-keiko-fujimori-anuncia-la-creacion-de-la-autoridad-nacional-digital-para-simplificacion-de-tramites-fiestas-patrias-28-de-julio-29-de-julio-l-ultimas-noticia/",
+   "summary": "Durante su primer discurso por Fiestas Patrias, este 28 de julio, la presidenta Keiko Fujimori se refirió a la importancia de simplificar el funcionamiento del Estado, con el fin de incrementar su efectividad, eliminar colas y mejorar la calidad de los servicios.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T19:04:48+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori promete culminar la Línea 2 del Metro de Lima y  anuncia sistemas de metro para Arequipa, Piura y Trujillo",
+   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-promete-culminar-la-linea-2-del-metro-de-lima-y-sistemas-de-metro-en-arequipa-piura-y-trujillo-noticia/",
+   "summary": "Durante su primer discurso ante el Congreso de la República, este 28 de julio, la presidenta Keiko Fujimori aseguró que la mejora de la infraestructura social y productiva será el tercer pilar de su gobierno.",
+   "author": "Maritza Saenz",
+   "published": "2026-07-28T19:00:10+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori anuncia que Fuerzas Armadas asumirán el control de orden interno durante Estados de emergencia",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-anuncia-que-fuerzas-armadas-asumiran-el-control-de-orden-interno-durante-estados-de-emergencia-hnews-737660",
+   "summary": "La mandataria ofreció modernizar tecnológicamente a la Policía Nacional y prometió una ofensiva contra las mafias que financian la extorsión, el sicariato y la minería ilegal.",
+   "author": "Ariadna Yaya",
+   "published": "2026-07-28T18:59:01+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: “Recibimos un país marcado por el abandono, un Estado debilitado por la improvisación”",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-recibimos-un-pais-marcado-por-el-abandono-un-estado-debilitado-por-la-improvisacion-mensaje-a-la-nacion-congreso-fiestas-patrias-ultimas-noticia/",
+   "summary": "En su mensaje a la Nación tras jurar al cargo en el Congreso, la presidenta Keiko Fujimori afirmó que su gestión recibe “un país marcado por el abandono” y un “Estado debilitado por la improvisación” y sin objetivos nacionales.",
+   "author": "Redacción EC",
+   "published": "2026-07-28T18:58:08+00:00",
+   "source": "El Comercio",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
+  {
+   "title": "Keiko Fujimori reacciona con disgusto al retiro de la oposición durante su discurso de toma de mando",
+   "url": "https://larepublica.pe/politica/2026/07/28/keiko-fujimori-reacciona-con-disgusto-al-retiro-de-la-oposicion-durante-su-discurso-de-toma-de-mando-hnews-304584",
+   "summary": "Congresistas de bancadas opositoras al fujimorismo mostraron fotografías de fallecidos en protestas y se retiraron del hemiciclo antes de que la mandataria inicie su discurso.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-07-28T18:37:30+00:00",
+   "source": "La República",
+   "captured": "2026-07-28T23:58:05+00:00"
+  },
   {
    "title": "Keiko Fujimori dará su primer mensaje a la Nación EN VIVO: sigue el análisis del discurso de 28 de julio",
    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-en-vivo-mensaje-a-la-nacion-2026-hoy-online-en-directo-analisis-del-primer-discurso-de-la-presidenta-por-28-de-julio-desde-el-congreso-juramentacion-fuerza-popular-noticia/",
