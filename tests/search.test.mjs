@@ -177,3 +177,32 @@ describe('searchCorpus — grouping and ranges', () => {
     assert.equal(foldText(hit.item.x.slice(start, end)), 'educacion');
   });
 });
+
+describe('searchCorpus — widening', () => {
+  test('an impossible combination widens instead of returning nothing', () => {
+    const result = find('beca dental');
+    assert.equal(result.mode, 'widened');
+    assert.ok(result.total > 0);
+  });
+
+  test('every widened hit really matched something', () => {
+    for (const group of find('beca dental').groups) {
+      for (const { item, ranges } of group.items) {
+        assert.ok(ranges.length > 0, `${item.i} kept with no match`);
+      }
+    }
+  });
+
+  test('a single term never widens', () => {
+    assert.equal(find('beca').mode, 'strict');
+    assert.equal(find('zzzzq').mode, 'strict');
+  });
+
+  test('terms under two characters are ignored, not failed on', () => {
+    // "beca 1" must behave like "beca": the stray digit is dropped, not
+    // treated as an unmatchable term that forces widening.
+    const result = find('beca 1');
+    assert.equal(result.mode, 'strict');
+    assert.equal(result.total, 19);
+  });
+});
