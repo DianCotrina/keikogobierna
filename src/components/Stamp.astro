@@ -1,12 +1,18 @@
 ---
 import { statusMeta } from '../lib/statuses.mjs';
 
+// The one stamp treatment, shared by everything that marks a file with where it
+// stands. Pass a plan `status` and it resolves the label and colour itself;
+// pass `label`/`color` directly for the registries that carry their own scale
+// (judicial stages, record badges) so the markup lives in one place regardless.
 interface Props {
-  status: string;
+  status?: string;
+  label?: string;
+  color?: string;
 }
 
-const { status } = Astro.props;
-const { label, color } = statusMeta(status);
+const { status, label, color } = Astro.props;
+const meta = status ? statusMeta(status) : { label, color };
 ---
 
-<span class={`stamp text-${color} shrink-0`}>{label}</span>
+<span class={`stamp text-${meta.color} shrink-0`}>{meta.label}</span>

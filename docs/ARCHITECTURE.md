@@ -197,6 +197,7 @@ Vercel's **Git integration** deploys the site: every push to `main` becomes a pr
 - All tracker content changes happen in `src/data/`, never in component markup.
 - Run `npm run validate` after every data edit under `src/data/`.
 - Status colors/labels live in `src/lib/statuses.mjs` (`STATUSES`); add new statuses there and in `tools/plan/validate_plan_data.py` (`VALID_STATUSES`) together.
+- Judicial stages work the same way: `src/lib/judicial.mjs` (`STAGES`) and `tools/cabinet/validate_cabinet_data.py` (`VALID_STAGES`) change together, or the validator rejects a stage the site can render.
 - Search results deep-link to `/temas/<slug>/#<id>`; every commitment row carries its `id` and `class="commitment"`. Removing either breaks search silently — nothing errors, the link just lands at the top of the page.
 - Regenerate `commitment_index.json` after any plan change (CI enforces it).
 - Scrapers never write `tracking.json`. Discovery files issues; humans certify via PR.

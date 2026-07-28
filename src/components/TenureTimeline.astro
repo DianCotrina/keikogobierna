@@ -1,27 +1,19 @@
 ---
+import { formatDateEsShort, plural } from '../lib/format.mjs';
+import type { Portfolio, Tenure } from '../lib/cabinet-types';
+
 // A person's passage through the cabinet. Each row links the Resolución Suprema
 // that certifies it — the roster's provenance is the gazette, and it should be
 // one click away from every claim.
 interface Props {
   rows: Array<{
-    portfolio: { name: string } | null;
-    tenure: {
-      start: string;
-      end: string | null;
-      appointment_norma?: { numero: string; url: string } | null;
-      exit_norma?: { numero: string; url: string } | null;
-      exit_reason?: string | null;
-    };
+    portfolio: Portfolio | null;
+    tenure: Tenure;
     days: number;
   }>;
 }
 
 const { rows } = Astro.props;
-
-const fmt = (iso: string) =>
-  new Date(`${iso}T00:00:00Z`).toLocaleDateString('es-PE', {
-    day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC',
-  });
 ---
 
 <ol class="space-y-4">
@@ -36,8 +28,8 @@ const fmt = (iso: string) =>
       />
       <p class="font-sans font-bold">{portfolio?.name ?? 'Cartera desconocida'}</p>
       <p class="mt-0.5 font-mono text-xs text-tintasuave">
-        {fmt(tenure.start)} — {tenure.end ? fmt(tenure.end) : 'en el cargo'}
-        <span class="text-tintafina"> · {days} {days === 1 ? 'día' : 'días'}</span>
+        {formatDateEsShort(tenure.start)} — {tenure.end ? formatDateEsShort(tenure.end) : 'en el cargo'}
+        <span class="text-tintafina"> · {plural(days, 'día', 'días')}</span>
       </p>
       {tenure.exit_reason && (
         <p class="mt-1 text-sm text-tintasuave">Salida: {tenure.exit_reason}</p>

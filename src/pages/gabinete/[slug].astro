@@ -15,53 +15,16 @@ import {
 } from '../../lib/cabinet.mjs';
 import { stageMeta } from '../../lib/judicial.mjs';
 import { loadPlan, loadGoals, loadTracking, topicSummaries } from '../../lib/plan.mjs';
-
-// The data files are JSON, so an empty people.json would otherwise make
-// TypeScript infer `never` for every field. Name the shapes instead.
-interface JudicialEntryData {
-  id: string;
-  case: string;
-  expediente?: string | null;
-  stage: string;
-  crime: string;
-  body?: string;
-  date: string;
-  summary: string;
-  sources: Array<{ label: string; url: string; kind?: string }>;
-}
-interface PersonData {
-  slug: string;
-  name: string;
-  profession?: string;
-  bio?: string;
-  sources?: Array<{ label: string; url: string; kind?: string }>;
-  judicial?: JudicialEntryData[];
-}
-interface TenureData {
-  person: string;
-  portfolio: string;
-  start: string;
-  end: string | null;
-  appointment_norma?: { numero: string; url: string } | null;
-  exit_norma?: { numero: string; url: string } | null;
-  exit_reason?: string | null;
-}
-interface AnnouncementData {
-  portfolio: string;
-  person_name: string;
-  person?: string;
-  announced: string;
-  sources: Array<{ label: string; url: string; kind?: string }>;
-}
+import type { Announcement, Person, Source, Tenure } from '../../lib/cabinet-types';
 
 export function getStaticPaths() {
-  return (loadPeople() as PersonData[])
+  return (loadPeople() as Person[])
     .map((person) => ({ params: { slug: person.slug }, props: { person } }));
 }
 
-const { person } = Astro.props as { person: PersonData };
+const { person } = Astro.props as { person: Person };
 
-const tenures = (loadTenures() as TenureData[])
+const tenures = (loadTenures() as Tenure[])
   .filter((t) => t.person === person.slug)
   .sort((a, b) => b.start.localeCompare(a.start))
   .map((tenure) => ({
@@ -77,7 +40,7 @@ const openTenure = tenures.find((row) => !row.tenure.end) ?? null;
 // them a former minister.
 const announcement = openTenure
   ? null
-  : (loadAnnouncements() as AnnouncementData[]).find((a) => a.person === person.slug) ?? null;
+  : (loadAnnouncements() as Announcement[]).find((a) => a.person === person.slug) ?? null;
 const announcedPortfolio = announcement ? portfolioById(announcement.portfolio) ?? null : null;
 
 const currentPortfolio = openTenure?.portfolio ?? announcedPortfolio;
@@ -96,6 +59,8 @@ const ownedIds = new Set(
   (currentPortfolio ? portfolioTopics(currentPortfolio.id) : []).map((t: { id: string }) => t.id),
 );
 const owned = summaries.filter((topic) => ownedIds.has(topic.id));
+
+const sources = person.sources ?? [];
 
 // Most serious first, then most recent — the ordering the ladder implies.
 const entries = [...(person.judicial ?? [])].sort((a, b) => {
@@ -141,9 +106,9 @@ const description = `${person.name}: cargo, temas del plan a su cargo, paso por 
       {person.profession && <p class="mt-6 text-sm text-tintasuave">{person.profession}</p>}
       {person.bio && <p class="mt-2 text-lg leading-[1.7] text-tintasuave max-w-xl">{person.bio}</p>}
 
-      {person.sources?.length > 0 && (
+      {sources.length > 0 && (
         <p class="mt-4 flex flex-wrap gap-x-6 gap-y-1 font-mono text-xs">
-          {person.sources.map((source: { label: string; url: string }) => (
+          {sources.map((source: Source) => (
             <a href={source.url} target="_blank" rel="noopener noreferrer" class="nav-link">{source.label} ↗</a>
           ))}
         </p>

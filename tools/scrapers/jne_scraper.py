@@ -30,24 +30,10 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from pathlib import Path
 
+from cabinet_rules import roster_names
 from jne_client import fetch_hoja_vida, fetch_roster
 from jne_rules import draft_person, match_candidates
-
-ROOT = Path(__file__).resolve().parent.parent.parent
-CABINET_DIR = ROOT / "src" / "data" / "cabinet"
-
-
-def cabinet_names() -> list:
-    """Everyone currently on the roster: appointed ministers and announced ones."""
-    names = []
-    people = json.loads((CABINET_DIR / "people.json").read_text(encoding="utf-8"))["people"]
-    names += [p["name"] for p in people]
-    announcements = json.loads(
-        (CABINET_DIR / "announcements.json").read_text(encoding="utf-8"))["announcements"]
-    names += [a["person_name"] for a in announcements]
-    return sorted(set(names))
 
 
 def show_matches(name: str, roster: list) -> None:
@@ -127,7 +113,7 @@ def main() -> int:
 
     names = list(args.name or [])
     if args.cabinet:
-        names += cabinet_names()
+        names += roster_names()
     if not names and not args.ids:
         print("Indica --name, --cabinet o --id", file=sys.stderr)
         return 2

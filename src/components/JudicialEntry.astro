@@ -1,5 +1,8 @@
 ---
+import Stamp from './Stamp.astro';
 import { LADDER, stageMeta } from '../lib/judicial.mjs';
+import { formatDateEs } from '../lib/format.mjs';
+import type { JudicialEntry } from '../lib/cabinet-types';
 
 // A single documented proceeding.
 //
@@ -9,25 +12,13 @@ import { LADDER, stageMeta } from '../lib/judicial.mjs';
 // outcomes are rendered off the rail entirely, because they end a case rather
 // than advance it. That is the rank-0 rule made visible.
 interface Props {
-  entry: {
-    id: string;
-    case: string;
-    expediente?: string;
-    stage: string;
-    crime: string;
-    body?: string;
-    date: string;
-    summary: string;
-    sources: Array<{ label: string; url: string; kind?: string }>;
-  };
+  entry: JudicialEntry;
 }
 
 const { entry } = Astro.props;
 const meta = stageMeta(entry.stage);
 const resolved = meta.rank === 0;
-const dateEs = new Date(`${entry.date}T00:00:00Z`).toLocaleDateString('es-PE', {
-  day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
-});
+const dateEs = formatDateEs(entry.date);
 ---
 
 <article id={entry.id} class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7 scroll-mt-24">
@@ -38,7 +29,7 @@ const dateEs = new Date(`${entry.date}T00:00:00Z`).toLocaleDateString('es-PE', {
         Delito imputado: <span class="text-tinta">{entry.crime}</span>
       </p>
     </div>
-    <span class={`stamp text-${meta.color} shrink-0`}>{meta.label}</span>
+    <Stamp label={meta.label} color={meta.color} />
   </div>
 
   {resolved ? (

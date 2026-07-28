@@ -124,13 +124,15 @@ _JUDICIAL = re.compile(
     re.I)
 
 
-def _mentions(text_folded: str, name: str) -> bool:
-    """Whether a folded text names this person.
+def _mentions(words: set, name_tokens: list) -> bool:
+    """Whether a folded article names this person.
 
     Every token of the roster name must appear, so "Roberto Sánchez" is not
-    matched by a headline that merely says "Sánchez".
+    matched by a headline that merely says "Sánchez". Both sides arrive folded
+    and tokenised: the caller folds each article once and each roster name once,
+    rather than re-folding on every article-by-name comparison.
     """
-    return all(t in text_folded.split() for t in fold(name).split() if t)
+    return bool(name_tokens) and all(t in words for t in name_tokens)
 
 
 def judicial_signals(articles: list, roster_names: list) -> list:
@@ -144,11 +146,13 @@ def judicial_signals(articles: list, roster_names: list) -> list:
     hombres acusados de vender estampillas falsas" are judicial-shaped headlines
     about people this site does not track.
     """
+    folded = {name: fold(name).split() for name in roster_names}
+
     signals, seen = [], set()
     for article in articles:
         title = article.get("title") or ""
         summary = article.get("summary") or ""
-        haystack = fold(f"{title} {summary}")
+        words = set(fold(f"{title} {summary}").split())
 
         # Every judicial term present, not just the first: "Poder Judicial
         # archiva…" carries both the court and the outcome, and the reviewer
@@ -157,11 +161,11 @@ def judicial_signals(articles: list, roster_names: list) -> list:
         if not terms:
             continue
 
-        for name in roster_names:
-            if not _mentions(haystack, name):
+        for name, name_tokens in folded.items():
+            if not _mentions(words, name_tokens):
                 continue
             url = (article.get("url") or "").strip()
-            key = (fold(name), url)
+            key = (" ".join(name_tokens), url)
             if key in seen:
                 continue
             seen.add(key)

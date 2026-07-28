@@ -9,6 +9,8 @@
  *
  * Shape mirrors src/lib/statuses.mjs. Colors are @theme tokens.
  */
+import { plural } from './format.mjs';
+
 export const STAGES = {
   sentencia_firme: { label: 'Sentencia firme', color: 'rojo', rank: 6 },
   sentencia_no_firme: { label: 'Sentencia en apelación', color: 'rojo', rank: 5 },
@@ -43,8 +45,6 @@ const entriesOf = (person) => (person && Array.isArray(person.judicial)) ? perso
 export function activeEntries(person) {
   return entriesOf(person).filter((e) => stageMeta(e.stage).rank > 0);
 }
-
-const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 /**
  * A one-glance summary of a person's judicial record.
