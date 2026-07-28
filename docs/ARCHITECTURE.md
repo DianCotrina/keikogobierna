@@ -1,6 +1,6 @@
 # Architecture
 
-`keikogobierna` tracks the 2026–2031 government plan against what the government actually does. The site is an Astro static build (`output: "static"`, no client framework, Tailwind v4 via the Vite plugin): 28 HTML pages + 2 JSON endpoints, ~1.7 MB, built ahead of time from JSON in `src/data/`.
+`keikogobierna` tracks the 2026–2031 government plan against what the government actually does. The site is an Astro static build (`output: "static"`, no client framework, Tailwind v4 via the Vite plugin): 28 HTML pages + 3 JSON endpoints, ~2.0 MB, built ahead of time from JSON in `src/data/`.
 
 Everything else in the repo exists to answer one question — *did they do it?* — and to keep a human in the loop when answering it.
 
@@ -29,7 +29,7 @@ flowchart TB
         TRACK["src/data/tracking.json<br/>(living state)"]
         PLAN --> BUILD["astro build<br/>(src/lib/plan.mjs)"]
         TRACK --> BUILD
-        BUILD --> DIST["dist/ — 28 static pages<br/>+ /api/plan.json + /api/tracking.json"]
+        BUILD --> DIST["dist/ — 28 static pages<br/>+ /api/plan.json + /api/tracking.json<br/>+ /buscar.json (search corpus)"]
     end
 
     ISSUES ==>|"human review + PR"| TRACK
@@ -72,12 +72,13 @@ The amber node is the only step a machine does not perform.
 | `src/lib/plan.mjs` | Build-time data access + aggregates (pure functions; JSON via static ESM imports — `fs` reads break under the bundler, see the comment in the file): `loadPlan`, `loadTopics`, `loadGoals`, `loadTracking`, `statusOf`, `goalStats`, `topicSummaries`, `updatesLog`, `firstHundredDays`, `firstHundredDaysStats`, `fulfilledItems` |
 | `src/lib/statuses.mjs` | `STATUSES` map (fulfilled/in_progress/no_progress/unfulfilled → Spanish label + color) and `statusMeta()` |
 | `src/lib/format.mjs` | `formatDateEs()` — shared by build-time components and the Ultimitas client script |
+| `src/lib/search.mjs` | The buscador: `foldText`, `foldWithMap`, `buildCorpus`, `prepare`, `searchCorpus`. Pure, and **imports no JSON** — it ships to the browser, so a static data import would drag the whole plan into the client bundle |
 | `src/layouts/Base.astro` | `<head>` (title/description/OG, lang `es-PE`, fonts, `global.css`), header nav, footer, donate widget, reveal script |
 | `src/styles/global.css` | Tailwind v4 `@theme` tokens + custom CSS (grain, stamps, pen, reveal, buttons) |
 
-**Pages** — `index.astro` (landing: hero, tracker card, 23-topic grid, cumplidas registry), `temas/[slug].astro` (23 topic pages via `getStaticPaths()`), `primeros-100-dias.astro` (all 67 actions by pillar → topic, with a launch-window tally), `ultimitas.astro` (live news), `fuentes.astro`, `privacidad.astro`, and `api/plan.json.ts` + `api/tracking.json.ts` (datos-abiertos endpoints rendered once at build into `dist/api/`, stamped with the `package.json` version).
+**Pages** — `index.astro` (landing: hero, tracker card, 23-topic grid, cumplidas registry), `temas/[slug].astro` (23 topic pages via `getStaticPaths()`), `primeros-100-dias.astro` (all 67 actions by pillar → topic, with a launch-window tally), `ultimitas.astro` (live news), `fuentes.astro`, `privacidad.astro`, and `api/plan.json.ts` + `api/tracking.json.ts` (datos-abiertos endpoints rendered once at build into `dist/api/`, stamped with the `package.json` version). `buscar.json.ts` renders the search corpus to `dist/buscar.json` — 764 records, 54 KB gzipped, fetched by the overlay on first open. It sits at the root rather than under `/api/` on purpose: that path is the public datos-abiertos contract, and search must never drive changes to it.
 
-**Components** — flat `.astro` files for Tailwind-only pieces (`Stamp`, `PenProgress`, `TrackerCard`, `TopicCard`, `GoalRow`, `ProposalRow`, `HeroBanner`, `CumplidasRegistry`); folder modules for anything carrying its own CSS/JS (`Donate/`, `IndexRail/`, `Ultimitas/`). That split is the convention: a component that needs a stylesheet or a client script gets a folder.
+**Components** — flat `.astro` files for Tailwind-only pieces (`Stamp`, `PenProgress`, `TrackerCard`, `TopicCard`, `GoalRow`, `ProposalRow`, `HeroBanner`, `CumplidasRegistry`); folder modules for anything carrying its own CSS/JS (`Donate/`, `IndexRail/`, `Search/`, `Ultimitas/`). That split is the convention: a component that needs a stylesheet or a client script gets a folder.
 
 `Ultimitas/ultimitas.ts` is the only component that talks to the network. It renders every field through `textContent`, never `innerHTML` — the feed is third-party text.
 
@@ -156,5 +157,6 @@ Vercel's **Git integration** deploys the site: every push to `main` becomes a pr
 - All tracker content changes happen in `src/data/`, never in component markup.
 - Run `npm run validate` after every data edit under `src/data/`.
 - Status colors/labels live in `src/lib/statuses.mjs` (`STATUSES`); add new statuses there and in `tools/plan/validate_plan_data.py` (`VALID_STATUSES`) together.
+- Search results deep-link to `/temas/<slug>/#<id>`; every commitment row carries its `id` and `class="commitment"`. Removing either breaks search silently — nothing errors, the link just lands at the top of the page.
 - Regenerate `commitment_index.json` after any plan change (CI enforces it).
 - Scrapers never write `tracking.json`. Discovery files issues; humans certify via PR.
