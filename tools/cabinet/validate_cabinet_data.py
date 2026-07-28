@@ -182,6 +182,11 @@ def validate(portfolios, people, tenures, topic_ids, announcements=None, today=N
             errors.append(f"{where}: portfolio '{portfolio_id}' is not a known portfolio")
         if not item.get("person_name"):
             errors.append(f"{where}: person_name is required")
+        # Optional: set by hand once someone confirmed the reported name is
+        # that ficha. A name match is not an identity match.
+        linked = item.get("person")
+        if linked is not None and linked not in seen_people:
+            errors.append(f"{where}: person '{linked}' has no entry in people.json")
         _check_date(item.get("announced"), f"{where}.announced", errors, today)
         _check_sources(item.get("sources"), where, errors)
 

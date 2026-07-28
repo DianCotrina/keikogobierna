@@ -201,6 +201,13 @@ class AnnouncementRules(unittest.TestCase):
         errors = run(announcements=[announcement(), announcement()])
         self.assertTrue(any("duplicate" in e.lower() for e in errors), errors)
 
+    def test_an_announcement_may_name_a_verified_person(self):
+        self.assertEqual(run(announcements=[announcement(person="ana-torres")]), [])
+
+    def test_an_announcement_naming_an_unknown_person_fails(self):
+        errors = run(announcements=[announcement(person="ghost")])
+        self.assertTrue(any("ghost" in e for e in errors), errors)
+
     def test_an_announcement_for_an_already_served_portfolio_fails(self):
         # m-interior has an open tenure in the default fixture: the gazette has
         # spoken, so the provisional entry must be removed rather than linger.

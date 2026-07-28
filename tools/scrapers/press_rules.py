@@ -27,6 +27,17 @@ rot as coverage changes, while the structure holds.
 import re
 
 from cabinet_rules import PCM_ID, portfolio_id
+from watcher_common import normalize
+
+
+def fold(text: str) -> str:
+    """Lowercase, strip accents, and reduce punctuation to spaces.
+
+    Headlines attach punctuation to names — "Delia Espinoza: Poder Judicial
+    archiva…" — so a plain whitespace split would yield "espinoza:" and never
+    match the roster.
+    """
+    return " ".join(re.sub(r"[^0-9a-z]+", " ", normalize(text or "")).split())
 
 # A person: two to four capitalised words. Accented capitals included, since
 # Peruvian names carry them.
@@ -101,6 +112,68 @@ def parse_announcement(article: dict):
             "kind": "press",
         }],
     }
+
+
+# Judicial language, wide on purpose: this is a discovery signal a human checks,
+# so a false positive costs a glance while a miss costs a fact.
+_JUDICIAL = re.compile(
+    r"fiscal[ií]a|investigaci[óo]n|investigan|acusa\w*|imputa\w*|"
+    r"conden\w*|sentenci\w*|absuel\w*|archiv\w*|sobresee\w*|prescri\w*|"
+    r"juicio\s+oral|prisi[óo]n\s+preventiva|impedimento\s+de\s+salida|"
+    r"allanamiento|poder\s+judicial|ministerio\s+p[úu]blico",
+    re.I)
+
+
+def _mentions(text_folded: str, name: str) -> bool:
+    """Whether a folded text names this person.
+
+    Every token of the roster name must appear, so "Roberto Sánchez" is not
+    matched by a headline that merely says "Sánchez".
+    """
+    return all(t in text_folded.split() for t in fold(name).split() if t)
+
+
+def judicial_signals(articles: list, roster_names: list) -> list:
+    """Press items that mention a roster person alongside judicial language.
+
+    Discovery only. Returns no stage and writes nothing: press reports
+    allegations far more loosely than a court records them, so each signal is a
+    prompt to check a primary source, not a finding.
+
+    Scoped to the roster deliberately — "Putin acusa a Occidente" and "dos
+    hombres acusados de vender estampillas falsas" are judicial-shaped headlines
+    about people this site does not track.
+    """
+    signals, seen = [], set()
+    for article in articles:
+        title = article.get("title") or ""
+        summary = article.get("summary") or ""
+        haystack = fold(f"{title} {summary}")
+
+        # Every judicial term present, not just the first: "Poder Judicial
+        # archiva…" carries both the court and the outcome, and the reviewer
+        # wants to see the outcome.
+        terms = list(dict.fromkeys(m.group(0) for m in _JUDICIAL.finditer(f"{title} {summary}")))
+        if not terms:
+            continue
+
+        for name in roster_names:
+            if not _mentions(haystack, name):
+                continue
+            url = (article.get("url") or "").strip()
+            key = (fold(name), url)
+            if key in seen:
+                continue
+            seen.add(key)
+            signals.append({
+                "person_name": name,
+                "matched": " · ".join(terms),
+                "title": " ".join(title.split()),
+                "url": url,
+                "source": article.get("source") or "Prensa",
+                "published": (article.get("published") or "")[:10],
+            })
+    return signals
 
 
 def announcements_from(articles: list) -> list:
