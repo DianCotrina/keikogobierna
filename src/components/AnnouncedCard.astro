@@ -1,5 +1,6 @@
 ---
 import RecordBadge from './RecordBadge.astro';
+import type { Portfolio, ResolvedAnnouncement } from '../lib/cabinet-types';
 
 // A portfolio whose holder has been named in public but not yet appointed by
 // norma.
@@ -10,18 +11,8 @@ import RecordBadge from './RecordBadge.astro';
 // announcement is still a press claim and must remain checkable, but it is not
 // what a reader came to find out.
 interface Props {
-  portfolio: { id: string; name: string; short: string };
-  announcement: {
-    person_name: string;
-    announced: string;
-    sources: Array<{ label: string; url: string }>;
-    person: {
-      slug: string;
-      name: string;
-      profession?: string;
-      judicial?: Array<{ stage: string }>;
-    } | null;
-  };
+  portfolio: Portfolio;
+  announcement: ResolvedAnnouncement;
 }
 
 const { portfolio, announcement } = Astro.props;

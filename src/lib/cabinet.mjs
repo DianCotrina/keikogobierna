@@ -20,6 +20,7 @@ import announcementsFile from '../data/cabinet/announcements.json' with { type: 
 
 import { loadPlan } from './plan.mjs';
 import { activeEntries } from './judicial.mjs';
+import { plural } from './format.mjs';
 
 const MS_PER_DAY = 86_400_000;
 
@@ -57,10 +58,6 @@ export function portfolioById(id) {
   return loadPortfolios().find((p) => p.id === id);
 }
 
-export function personBySlug(slug, data) {
-  return dataset(data).people.find((p) => p.slug === slug);
-}
-
 /** The plan topics a ministry is accountable for, in plan order. */
 export function portfolioTopics(portfolioId) {
   const portfolio = portfolioById(portfolioId);
@@ -82,7 +79,7 @@ export function tenureDays(tenure, today = new Date()) {
 export function daysLabel(days) {
   if (days === null || days === undefined) return '';
   if (days === 0) return 'Asume hoy';
-  return `${days} ${days === 1 ? 'día' : 'días'} en el cargo`;
+  return `${plural(days, 'día', 'días')} en el cargo`;
 }
 
 /**

@@ -32,11 +32,13 @@ these return None; filing nothing is always better than inventing a name.
 """
 import json
 import re
-import unicodedata
 from pathlib import Path
 
+from watcher_common import normalize
+
 ROOT = Path(__file__).resolve().parent.parent.parent
-PORTFOLIOS_PATH = ROOT / "src" / "data" / "cabinet" / "portfolios.json"
+CABINET_DIR = ROOT / "src" / "data" / "cabinet"
+PORTFOLIOS_PATH = CABINET_DIR / "portfolios.json"
 
 PCM_ID = "pcm"
 
@@ -87,8 +89,7 @@ _BODY_RESIGN = re.compile(
 
 def _fold(text: str) -> str:
     """Lowercase and strip accents. The gazette is inconsistent about both."""
-    stripped = unicodedata.normalize("NFD", (text or "").lower())
-    return "".join(c for c in stripped if unicodedata.category(c) != "Mn").strip()
+    return normalize(text or "").strip()
 
 
 def _strip_article(key: str) -> str:
@@ -111,6 +112,20 @@ def _load_portfolio_lookup() -> dict:
 
 
 _PORTFOLIOS = _load_portfolio_lookup()
+
+
+def roster_names() -> list:
+    """Everyone the site already tracks: appointed ministers and announced ones.
+
+    Read fresh on each call rather than cached — the callers are one-shot CLI
+    runs, and a stale roster would silently narrow what they look for.
+    """
+    def read(filename: str, key: str, field: str) -> list:
+        data = json.loads((CABINET_DIR / filename).read_text(encoding="utf-8"))
+        return [row[field] for row in data[key]]
+
+    return sorted(set(read("people.json", "people", "name")
+                      + read("announcements.json", "announcements", "person_name")))
 
 
 def portfolio_id(name: str):

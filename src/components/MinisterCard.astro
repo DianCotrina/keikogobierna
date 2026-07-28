@@ -2,30 +2,17 @@
 import RecordBadge from './RecordBadge.astro';
 import AnnouncedCard from './AnnouncedCard.astro';
 import { daysLabel } from '../lib/cabinet.mjs';
+import type { Person, Portfolio, ResolvedAnnouncement } from '../lib/cabinet-types';
 
 // One card per portfolio — vacancies included, because the roster is about the
 // offices as much as the people currently filling them.
 interface Props {
-  portfolio: { id: string; name: string; short: string };
-  person: {
-    slug: string;
-    name: string;
-    profession?: string;
-    judicial?: Array<{ stage: string }>;
-  } | null;
+  portfolio: Portfolio;
+  person: Person | null;
   days: number | null;
-  announcement?: {
-    person_name: string;
-    announced: string;
-    sources: Array<{ label: string; url: string }>;
-    // Resolved by cabinet.mjs from the hand-verified `person` slug, or null.
-    person: {
-      slug: string;
-      name: string;
-      profession?: string;
-      judicial?: Array<{ stage: string }>;
-    } | null;
-  } | null;
+  // `announcement.person` is resolved by cabinet.mjs from the hand-verified
+  // slug, or null when nobody has confirmed which person the name refers to.
+  announcement?: ResolvedAnnouncement | null;
 }
 
 const { portfolio, person, days, announcement = null } = Astro.props;

@@ -21,15 +21,11 @@ import json
 import os
 import sys
 from datetime import date, timedelta
-from pathlib import Path
 
-from cabinet_rules import is_cabinet_norma, parse_cabinet_act
+from cabinet_rules import is_cabinet_norma, parse_cabinet_act, roster_names
 from press_rules import announcements_from, judicial_signals
 from singlefetch import MAX_PAGE_SIZE, fetch_page
 from watcher_common import DEFAULT_REPO, create_issue, dedup_token, ensure_label, issue_exists
-
-ROOT = Path(__file__).resolve().parent.parent.parent
-CABINET_DIR = ROOT / "src" / "data" / "cabinet"
 
 LABEL = "cambio-de-gabinete"
 LABEL_COLOR = "8250DF"
@@ -112,14 +108,6 @@ def issue_body(act: dict, token: str) -> str:
     ])
 
 
-def _roster_names() -> list:
-    """Everyone the site already tracks — appointed or announced."""
-    people = json.loads((CABINET_DIR / "people.json").read_text(encoding="utf-8"))["people"]
-    announcements = json.loads(
-        (CABINET_DIR / "announcements.json").read_text(encoding="utf-8"))["announcements"]
-    return sorted({p["name"] for p in people} | {a["person_name"] for a in announcements})
-
-
 def announcement_block(announcements: list) -> str:
     """The JSON a reviewer pastes into announcements.json."""
     return json.dumps({"announcements": announcements}, ensure_ascii=False, indent=2)
@@ -149,7 +137,7 @@ def run_press(dry_run: bool) -> int:
     # Judicial coverage of people already on the roster. Discovery only: the
     # press reports allegations far more loosely than a court records them, so
     # each hit is a prompt to check a primary source, never a finding.
-    roster = _roster_names()
+    roster = roster_names()
     signals = judicial_signals(articles, roster)
     print(f"\nseñales judiciales sobre el gabinete: {len(signals)} "
           f"(sobre {len(roster)} persona(s) en el padrón)")

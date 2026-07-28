@@ -26,7 +26,8 @@ That is the same human gate the norma -> tracking.json path already uses.
 Pure functions: no I/O. Transport lives in jne_client.py.
 """
 import re
-import unicodedata
+
+from watcher_common import normalize
 
 # The JNE platform is an Angular SPA whose hoja-de-vida view is reachable only
 # by navigating its (captcha-gated) search — verified headless: no path or query
@@ -59,9 +60,7 @@ def title_es(text: str) -> str:
 def fold(text: str) -> str:
     """Lowercase, strip accents, collapse whitespace. The rolls are inconsistent
     about accents and the press is inconsistent about everything."""
-    stripped = unicodedata.normalize("NFD", (text or "").lower())
-    bare = "".join(c for c in stripped if unicodedata.category(c) != "Mn")
-    return " ".join(bare.split())
+    return " ".join(normalize(text or "").split())
 
 
 def _full_name(candidate: dict) -> str:
