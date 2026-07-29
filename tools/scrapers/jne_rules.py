@@ -27,7 +27,7 @@ Pure functions: no I/O. Transport lives in jne_client.py.
 """
 import re
 
-from watcher_common import normalize
+from watcher_common import fold
 
 # The JNE platform is an Angular SPA whose hoja-de-vida view is reachable only
 # by navigating its (captcha-gated) search — verified headless: no path or query
@@ -55,12 +55,6 @@ def title_es(text: str) -> str:
         lowered = word.lower()
         out.append(lowered if i > 0 and lowered in _MINOR else lowered.capitalize())
     return " ".join(out)
-
-
-def fold(text: str) -> str:
-    """Lowercase, strip accents, collapse whitespace. The rolls are inconsistent
-    about accents and the press is inconsistent about everything."""
-    return " ".join(normalize(text or "").split())
 
 
 def _full_name(candidate: dict) -> str:
@@ -104,9 +98,17 @@ def _iso_date(value: str) -> str:
     return f"{year}-{int(month):02d}-{int(day):02d}"
 
 
-def _section(hoja_vida: dict, endpoint: str, key: str) -> list:
-    payload = (hoja_vida.get(endpoint) or {}).get(key)
-    return payload if isinstance(payload, list) else []
+def _section(hoja_vida: dict, *keys: str) -> list:
+    """Walk a path through the hoja de vida, returning [] for anything missing.
+
+    Sections nest to different depths — sentences sit one level down, academic
+    records two — and every field in this payload can be absent or null, so the
+    guard is the same at each step.
+    """
+    value = hoja_vida
+    for key in keys:
+        value = (value or {}).get(key)
+    return value if isinstance(value, list) else []
 
 
 def _summary(record: dict) -> str:
@@ -181,14 +183,12 @@ def profession_of(hoja_vida: dict) -> str:
     """
     academic = "formacionAcademica"
 
-    uni = ((hoja_vida.get("hv-formacaeduuni") or {}).get(academic) or {}).get("educacionUniversitaria")
-    for row in (uni if isinstance(uni, list) else []):
+    for row in _section(hoja_vida, "hv-formacaeduuni", academic, "educacionUniversitaria"):
         value = (row.get("carreraUni") or "").strip()
         if value:
             return value
 
-    posgrado = ((hoja_vida.get("hv-posgrado") or {}).get(academic) or {}).get("educacionPosgrado")
-    for row in (posgrado if isinstance(posgrado, list) else []):
+    for row in _section(hoja_vida, "hv-posgrado", academic, "educacionPosgrado"):
         if (row.get("concluidoPosgrado") or "").strip().upper() != "SI":
             continue
         value = (row.get("txEspecialidadPosgrado") or "").strip()

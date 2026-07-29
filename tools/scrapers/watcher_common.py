@@ -31,18 +31,6 @@ def http_get(url: str, headers: dict | None = None) -> bytes:
         return resp.read()
 
 
-def http_post_json(url: str, payload: dict, headers: dict | None = None) -> dict:
-    data = json.dumps(payload).encode()
-    req = urllib.request.Request(
-        url,
-        data=data,
-        method="POST",
-        headers={"User-Agent": USER_AGENT, "Content-Type": "application/json", **(headers or {})},
-    )
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-        return json.loads(resp.read() or "{}")
-
-
 def gh_request(method: str, path: str, token: str, payload=None):
     data = json.dumps(payload).encode() if payload is not None else None
     req = urllib.request.Request(
@@ -69,6 +57,16 @@ def normalize(text: str) -> str:
     """Lowercase + strip accents (NFKD) — shared matching normalizer."""
     text = unicodedata.normalize("NFKD", text.lower())
     return "".join(c for c in text if not unicodedata.combining(c))
+
+
+def fold(text: str) -> str:
+    """`normalize`, but None-safe and with whitespace collapsed.
+
+    Almost every caller wants this rather than bare `normalize`: sources are
+    inconsistent about accents and about spacing, and a missing field must fold
+    to "" rather than raise. Three modules had each re-derived it.
+    """
+    return " ".join(normalize(text or "").split())
 
 
 STOPWORDS = {

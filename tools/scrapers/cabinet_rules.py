@@ -34,7 +34,7 @@ import json
 import re
 from pathlib import Path
 
-from watcher_common import normalize
+from watcher_common import fold as _fold
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CABINET_DIR = ROOT / "src" / "data" / "cabinet"
@@ -44,7 +44,8 @@ PCM_ID = "pcm"
 
 # Viceministers are appointed constantly and are not cabinet members.
 _VICE = re.compile(r"\bvice\s?ministr[oa]\b", re.I)
-_PCM_HEAD = re.compile(r"presidente\s+del\s+consejo\s+de\s+ministros", re.I)
+# Public: press_rules matches the same office and must not keep its own copy.
+PCM_HEAD = re.compile(r"presidente\s+del\s+consejo\s+de\s+ministros", re.I)
 
 # Sumilla forms. Anchored at the start so "Autorizan viaje de Ministro de
 # Relaciones Exteriores" cannot be mistaken for an appointment.
@@ -87,11 +88,6 @@ _BODY_RESIGN = re.compile(
     re.I)
 
 
-def _fold(text: str) -> str:
-    """Lowercase and strip accents. The gazette is inconsistent about both."""
-    return normalize(text or "").strip()
-
-
 def _strip_article(key: str) -> str:
     for prefix in ("ministerio de la ", "ministerio de los ", "ministerio del ",
                    "ministerio de ", "ministerio ", "de la ", "del ", "de "):
@@ -113,6 +109,9 @@ def _load_portfolio_lookup() -> dict:
 
 _PORTFOLIOS = _load_portfolio_lookup()
 
+# The registry's own ids, so callers do not re-read portfolios.json to get them.
+PORTFOLIO_IDS = frozenset(_PORTFOLIOS.values())
+
 
 def roster_names() -> list:
     """Everyone the site already tracks: appointed ministers and announced ones.
@@ -132,7 +131,7 @@ def portfolio_id(name: str):
     """Resolve a gazette ministry name to a registry id, or None if unknown."""
     if not name:
         return None
-    if _PCM_HEAD.search(name):
+    if PCM_HEAD.search(name):
         return PCM_ID
     key = _strip_article(_fold(name))
     if key in _PORTFOLIOS:
@@ -157,7 +156,7 @@ def _cabinet_office(sumilla: str):
         match = pattern.match(text)
         if match:
             who = match.group("who").strip()
-            if _PCM_HEAD.match(who) or _IS_MINISTER.match(who):
+            if PCM_HEAD.match(who) or _IS_MINISTER.match(who):
                 return who
     return None
 
@@ -191,21 +190,18 @@ def parse_cabinet_act(record: dict, text: str):
     if _VICE.search(body):
         return None
 
-    action, person, pid = None, None, None
-
-    match = _BODY_APPOINT_SECTORAL.search(body)
-    if match:
+    # Flat rather than nested: the gazette keeps producing new phrasings, and
+    # each one used to cost another level of indentation.
+    if (match := _BODY_APPOINT_SECTORAL.search(body)):
         action, person = "nombramiento", match.group("person")
         pid = portfolio_id(match.group("portfolio"))
+    elif (match := _BODY_APPOINT_PCM.search(body)):
+        action, person, pid = "nombramiento", match.group("person"), PCM_ID
+    elif (match := _BODY_RESIGN.search(body)):
+        action, person = "renuncia", match.group("person")
+        pid = PCM_ID if match.group("pcm") else portfolio_id(match.group("portfolio"))
     else:
-        match = _BODY_APPOINT_PCM.search(body)
-        if match:
-            action, person, pid = "nombramiento", match.group("person"), PCM_ID
-        else:
-            match = _BODY_RESIGN.search(body)
-            if match:
-                action, person = "renuncia", match.group("person")
-                pid = PCM_ID if match.group("pcm") else portfolio_id(match.group("portfolio"))
+        return None
 
     person = _clean(person)
     if not action or not person or not pid:

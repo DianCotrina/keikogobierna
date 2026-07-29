@@ -32,13 +32,17 @@ EG2026 = 124
 ELECTION_TYPES = (1, 15, 3, 20, 21)
 
 # The hoja de vida is assembled from these; the aggregate endpoint is broken.
+#
+# Only the sections jne_rules actually reads. The JNE also serves
+# hv-sentenciaobliga, hv-expelaboral and hv-cargopartidario; those were fetched
+# and discarded, doubling the requests per candidate for data nothing consumed.
+# Work history and party posts are what a hand-written bio draws on, so if a
+# bio ever needs them, add them back here *and* surface them in draft_person —
+# fetching without surfacing helps nobody.
 HV_SECTIONS = (
     "hv-sentenciapenal",
-    "hv-sentenciaobliga",
-    "hv-expelaboral",
     "hv-formacaeduuni",
     "hv-posgrado",
-    "hv-cargopartidario",
 )
 
 

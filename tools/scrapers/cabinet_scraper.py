@@ -22,10 +22,12 @@ import os
 import sys
 from datetime import date, timedelta
 
-from cabinet_rules import CABINET_DIR, is_cabinet_norma, parse_cabinet_act, roster_names
+from cabinet_note_rules import parse_cabinet_note
+from cabinet_rules import PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, roster_names
 from press_rules import announcements_from, judicial_signals
 from singlefetch import MAX_PAGE_SIZE, fetch_page
-from watcher_common import DEFAULT_REPO, create_issue, dedup_token, ensure_label, issue_exists
+from watcher_common import (
+    DEFAULT_REPO, create_issue, dedup_token, ensure_label, http_get, issue_exists)
 
 LABEL = "cambio-de-gabinete"
 LABEL_COLOR = "8250DF"
@@ -57,10 +59,13 @@ def fetch_day(day: date) -> list[dict]:
 
 
 def norma_text(op: str) -> str:
-    """Full norma body. Imported lazily so a --dry-run listing costs no extra
-    requests when nothing matched."""
+    """Full norma body.
+
+    The import stays function-local for now because VISOR_HTML_URL and
+    html_to_text live inside another CLI script; the restructure moves them to
+    the El Peruano transport module and this becomes a normal top-level import.
+    """
     from elperuano_scraper import VISOR_HTML_URL, html_to_text
-    from watcher_common import http_get
     return html_to_text(http_get(VISOR_HTML_URL.format(op=op)))
 
 
@@ -122,17 +127,13 @@ def run_note(url: str, announced: str) -> int:
     a note is not a Resolución Suprema, so this feeds `anunciado` like any other
     press source and is superseded the moment the norma publishes.
     """
-    from cabinet_note_rules import parse_cabinet_note
-    from watcher_common import http_get
-
     entries = parse_cabinet_note(http_get(url).decode("utf-8", "replace"))
     if not entries:
         print(f"No se reconoció ningún cargo en {url}", file=sys.stderr)
         print("Revisa que la nota liste «Ministro de <cartera>: <nombre>».", file=sys.stderr)
         return 1
 
-    known = {p["id"] for p in json.loads(
-        (CABINET_DIR / "portfolios.json").read_text(encoding="utf-8"))["portfolios"]}
+    known = PORTFOLIO_IDS
 
     print(f"{len(entries)} carteras leídas de la nota ({len(known)} en el registro)")
     for entry in entries:

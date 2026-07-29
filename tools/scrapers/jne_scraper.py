@@ -55,8 +55,8 @@ def show_matches(name: str, roster: list) -> None:
         print(f"      idHojaVida={hit['idHojaVida']:<8} {full}  ·  {hit['txOrgPol']}")
 
 
-def draft_for_id(id_hoja_vida: int, roster: list) -> dict | None:
-    candidate = next((c for c in roster if c.get("idHojaVida") == id_hoja_vida), None)
+def draft_for_id(id_hoja_vida: int, by_id: dict) -> dict | None:
+    candidate = by_id.get(id_hoja_vida)
     if not candidate:
         print(f"  idHojaVida={id_hoja_vida}: no está en el padrón EG2026")
         return None
@@ -83,7 +83,8 @@ def run(names: list, ids: list) -> int:
     if not ids:
         return 0
 
-    drafts = [d for d in (draft_for_id(i, roster) for i in ids) if d]
+    by_id = {c.get("idHojaVida"): c for c in roster}
+    drafts = [d for i in ids if (d := draft_for_id(i, by_id))]
     if not drafts:
         print("\nNada que proponer.")
         return 0
