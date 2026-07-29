@@ -28,6 +28,9 @@ SOURCES = [
     {"name": "Gestión", "feeds": [
         "https://gestion.pe/arc/outboundfeeds/rss/?outputType=xml",
     ]},
+    {"name": "Infobae", "feeds": [
+        "https://www.infobae.com/arc/outboundfeeds/rss/category/peru/?outputType=xml",
+    ]},
 ]
 BROWSER_UA = "Mozilla/5.0 (compatible; keikogobierna-ultimitas; +https://github.com/DianCotrina/keikogobierna)"
 

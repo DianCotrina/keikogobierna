@@ -154,3 +154,26 @@ class SourceIsolationTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+INFOBAE_FIXTURE = (Path(__file__).resolve().parent / "fixtures" / "infobae_peru_20260728.xml").read_bytes()
+
+
+class InfobaeFeedTest(unittest.TestCase):
+    def test_infobae_is_configured(self):
+        self.assertIn("Infobae", [s["name"] for s in us.SOURCES])
+
+    def test_real_feed_slice_parses_with_all_fields(self):
+        items = us.parse_feed(INFOBAE_FIXTURE, "Infobae")
+        self.assertGreater(len(items), 50)
+        for item in items:
+            self.assertEqual(set(item), {"title", "url", "summary", "author", "published", "source"})
+            self.assertTrue(item["title"])
+            self.assertTrue(item["url"].startswith("https://"))
+            self.assertEqual(item["source"], "Infobae")
+
+    def test_summaries_carry_the_biographical_detail(self):
+        # The whole point: profession sits in the feed's own description, so no
+        # article body ever needs reading.
+        items = us.parse_feed(INFOBAE_FIXTURE, "Infobae")
+        self.assertTrue(any(len(i["summary"]) > 80 for i in items))
