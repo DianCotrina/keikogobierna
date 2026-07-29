@@ -1,0 +1,109 @@
+"""Match press items to the minister they profile.
+
+The JNE covers only ministers who stood for election. For everyone else the
+press is the only public account of who they are, and Infobae publishes a
+profile for nearly the whole cabinet — with the profession in the feed's own
+summary, so no article body is ever read.
+
+Discovery only. This proposes reading material; a person writes the ficha.
+
+Pure functions: no I/O, no network.
+"""
+from __future__ import annotations
+
+import re
+from datetime import datetime
+
+from .cabinet_rules import portfolio_id
+from .press_rules import fold
+
+# Headline shapes that mark a piece as a profile rather than a news item.
+_PROFILE = re.compile(
+    r"qui[ée]n\s+es|perfil|trayectoria|hoja\s+de\s+vida|conoce\s+a|"
+    r"qui[ée]nes\s+integran|este\s+es\s+su",
+    re.I)
+
+# A ministry named anywhere in the text, however the outlet writes it: in full,
+# by short name, or by one of the acronyms and synonyms portfolios.json carries.
+_MINISTRY = re.compile(
+    r"(?:ministr[oa]|ministerio|titular)\s+(?:de\s+la|del|de|en\s+el)?\s*"
+    r"([\wÁÉÍÓÚÑáéíóúñ.\- ]{3,60})"
+    r"|\b(MTC|MEF|Minem|Minsa|Minedu|Midagri|Mincetur|Produce|Mininter|Mindef|"
+    r"Minjus|Minjusdh|MTPE|Mimp|Minam|Mincul|Midis|RREE|PCM)\b"
+    r"|\b(canciller[ií]a|canciller|premier)\b",
+    re.I)
+
+
+def is_profile(title: str) -> bool:
+    """Whether a headline reads as a profile piece rather than plain news."""
+    return bool(_PROFILE.search(title or ""))
+
+
+def _carteras_named(text: str) -> set:
+    """Every registry id the text names, by any spelling the registry knows."""
+    found = set()
+    for match in _MINISTRY.finditer(text or ""):
+        for group in match.groups():
+            if not group:
+                continue
+            # A ministry phrase runs on — "ministro de Economía y Finanzas del
+            # gobierno de…" — so try the longest prefix first and shorten until
+            # the registry resolves one. Same technique press_rules uses.
+            words = group.split()
+            for length in range(len(words), 0, -1):
+                pid = portfolio_id(" ".join(words[:length]).strip(" ,.;:"))
+                if pid:
+                    found.add(pid)
+                    break
+    return found
+
+
+def _surnames(person_name: str) -> list:
+    """The surname tokens of a Peruvian full name — everything after the given
+    name. "Mara Seminario Marón" -> ["seminario", "maron"].
+    """
+    tokens = [t for t in fold(person_name).split() if len(t) > 2]
+    return tokens[1:] if len(tokens) > 1 else tokens
+
+
+def _epoch(published: str) -> float:
+    """Sortable timestamp; an unparseable date sorts last."""
+    try:
+        return datetime.fromisoformat(published).timestamp()
+    except (ValueError, TypeError):
+        return 0.0
+
+
+def profile_items(articles: list, roster: list) -> dict:
+    """Feed items about each minister, keyed by cartera, best first.
+
+    A match needs two keys: the item must name one of the person's surnames
+    *and* resolve to their cartera. Either alone is wrong in a way the live feed
+    demonstrates — "María Seminario" defeats name matching because the roster
+    says "Mara", and "Guardaespaldas del Rey de España" defeats surname matching
+    because the transport minister is Rafael Rey Rey.
+    """
+    by_portfolio: dict = {}
+
+    for article in articles:
+        title = article.get("title") or ""
+        summary = article.get("summary") or ""
+        blob = f"{title} {summary}"
+        carteras = _carteras_named(blob)
+        if not carteras:
+            continue
+        words = set(fold(blob).split())
+
+        for person in roster:
+            pid = person.get("portfolio")
+            if pid not in carteras:
+                continue
+            if not any(s in words for s in _surnames(person.get("person_name", ""))):
+                continue
+            by_portfolio.setdefault(pid, []).append(article)
+            break
+
+    for items in by_portfolio.values():
+        items.sort(key=lambda a: (not is_profile(a.get("title") or ""),
+                                  -_epoch(a.get("published") or "")))
+    return by_portfolio
