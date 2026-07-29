@@ -3,7 +3,7 @@
 ## Objective
 
 Keep the public `/ultimitas` page fed with press coverage of Keiko Fujimori /
-Fuerza Popular from the outlets in SOURCES (El Comercio, La República, RPP, Gestión). Unlike the evidence watcher and the El Peruano scraper (which file
+Fuerza Popular from the outlets in SOURCES (El Comercio, La República, RPP, Gestión e Infobae). Unlike the evidence watcher and the El Peruano scraper (which file
 review issues), this pipeline publishes directly to a data branch — it is a news
 listing, not evidence; it never touches `tracking.json` or `main`.
 
