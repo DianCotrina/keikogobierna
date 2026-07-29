@@ -26,16 +26,17 @@ rot as coverage changes, while the structure holds.
 """
 import re
 
-from cabinet_rules import PCM_ID, portfolio_id
+from cabinet_rules import PCM_HEAD, PCM_ID, portfolio_id
 from watcher_common import normalize
 
 
 def fold(text: str) -> str:
-    """Lowercase, strip accents, and reduce punctuation to spaces.
+    """`watcher_common.fold`, plus punctuation reduced to spaces.
 
     Headlines attach punctuation to names — "Delia Espinoza: Poder Judicial
     archiva…" — so a plain whitespace split would yield "espinoza:" and never
-    match the roster.
+    match the roster. That extra step is why this does not just call the
+    shared helper.
     """
     return " ".join(re.sub(r"[^0-9a-z]+", " ", normalize(text or "")).split())
 
@@ -55,9 +56,6 @@ _ANNOUNCEMENT = re.compile(
     r"\s+(?:como|ser[áa]|es)\s+(?:el\s+|la\s+)?(?:pr[óo]xim[oa]\s+|nuev[oa]\s+)?" + _OFFICE,
     re.I)
 
-_PCM_HEAD = re.compile(r"presidente\s+del\s+consejo\s+de\s+ministros", re.I)
-
-
 def _office_to_portfolio(office: str):
     """Resolve a headline's office phrase to a portfolio id.
 
@@ -68,7 +66,7 @@ def _office_to_portfolio(office: str):
     and an ambiguous prefix ("Desarrollo", which matches two carteras) resolves
     to nothing because portfolio_id() requires a unique hit.
     """
-    if _PCM_HEAD.search(office):
+    if PCM_HEAD.search(office):
         return PCM_ID
 
     phrase = re.sub(r"(?i)^ministr[oa]\s+d[ee]l?\s+", "", office).strip()
