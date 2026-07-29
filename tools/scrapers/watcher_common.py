@@ -1,4 +1,4 @@
-"""Shared helpers for the discovery tools (evidence_watcher, elperuano_scraper, ultimitas_scraper).
+"""Shared helpers for the discovery tools (elperuano_scraper, ultimitas_scraper).
 
 HTTP, RSS-item parsing and GitHub plumbing common to every discovery source;
 each tool keeps only its own filtering and output (issues vs data branch).

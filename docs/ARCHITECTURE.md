@@ -13,7 +13,6 @@ flowchart TB
     subgraph P3["Plane 3 · Discovery — asynchronous, human-gated"]
         direction TB
         EP["El Peruano<br/>GraphQL + visor_html"] -->|"elperuano_scraper.py<br/>daily"| MATCH{"matcher.py<br/>bigram index"}
-        GN["Google News RSS"] -->|"evidence_watcher.py<br/>daily"| ISSUES
         MATCH --> ISSUES["GitHub issues<br/>evidencia-candidata + tema:*"]
         MATCH --> ARCH["normas-archive branch"]
     end
@@ -119,11 +118,10 @@ Python, stdlib only (`pypdf` is the single exception — an El Peruano PDF fallb
 |---|---|---|---|
 | `elperuano_scraper.py` | El Peruano GraphQL (`/api/graphql`) + `/api/visor_html/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
 | `ultimitas_scraper.py` | El Comercio Arc XP RSS + La República RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
-| `evidence_watcher.py` | Google News RSS, Peru-scoped, per query in `watcher_keywords.json` | daily 12:00 UTC | Issues |
 
 Both news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.
 
-The El Peruano and Google News interfaces are **unofficial**. If either changes shape, the run fails loudly and we fix the tool — that's the accepted trade for $0 access to the primary record. The daily-PDF parser survives as a documented fallback.
+The El Peruano interface is **unofficial**. If it changes shape, the run fails loudly and we fix the tool — that's the accepted trade for $0 access to the primary record. The daily-PDF parser survives as a documented fallback.
 
 ### The matcher
 

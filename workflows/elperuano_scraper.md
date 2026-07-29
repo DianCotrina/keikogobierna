@@ -4,7 +4,7 @@
 
 Read the day's normas published in *El Peruano* (the primary source) and surface any that touch a tracked commitment as GitHub issues for editorial review. The reader never changes a status: `src/data/tracking.json` is only updated by a human through the PR flow.
 
-This complements the [Evidence Watcher](evidence_watcher.md): El Peruano is the primary-source, high-precision stream; Google News is the broad-recall context stream. Both feed the same `evidencia-candidata` queue. They match differently, though: the news watcher *searches* Google News with the hand-written queries in `watcher_keywords.json`; El Peruano *matches* each norma against the plan's own commitments via the shared `matcher.py` (below).
+El Peruano is the primary-source, high-precision stream feeding the `evidencia-candidata` queue: it *matches* each norma against the plan's own commitments via the shared `matcher.py` (below).
 
 ## How it works
 
