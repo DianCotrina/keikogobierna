@@ -98,11 +98,19 @@ def _strip_article(key: str) -> str:
 
 def _load_portfolio_lookup() -> dict:
     """Folded ministry name -> registry id, built from the committed registry so
-    the parser can never invent a cartera."""
+    the parser can never invent a cartera.
+
+    `aliases` carries what the press actually prints — "MTC", "Minem",
+    "canciller" — none of which appears in any ministry's own name. Keeping them
+    in the registry rather than in Python means the data stays the single
+    authority on what a cartera is called.
+    """
     data = json.loads(PORTFOLIOS_PATH.read_text(encoding="utf-8"))
     lookup = {}
     for portfolio in data["portfolios"]:
-        for name in (portfolio["name"], portfolio["short"], portfolio["slug"].replace("-", " ")):
+        names = [portfolio["name"], portfolio["short"], portfolio["slug"].replace("-", " ")]
+        names += portfolio.get("aliases", [])
+        for name in names:
             lookup[_strip_article(_fold(name))] = portfolio["id"]
     return lookup
 

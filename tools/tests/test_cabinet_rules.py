@@ -214,3 +214,39 @@ class ParserSafety(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PortfolioAliases(unittest.TestCase):
+    """Ministries are named in the press by acronym far more often than in
+    full — and "canciller" is never the ministry's name at all."""
+
+    def test_acronyms_resolve(self):
+        self.assertEqual(portfolio_id("MTC"), "m-transportes")
+        self.assertEqual(portfolio_id("Minem"), "m-energia-minas")
+        self.assertEqual(portfolio_id("Produce"), "m-produccion")
+        self.assertEqual(portfolio_id("Midagri"), "m-agrario")
+        self.assertEqual(portfolio_id("Minsa"), "m-salud")
+        self.assertEqual(portfolio_id("Mincetur"), "m-comercio-exterior")
+
+    def test_canciller_is_relaciones_exteriores(self):
+        self.assertEqual(portfolio_id("canciller"), "m-relaciones-exteriores")
+
+    def test_aliases_are_case_and_accent_insensitive(self):
+        self.assertEqual(portfolio_id("minem"), "m-energia-minas")
+        self.assertEqual(portfolio_id("MIDAGRI"), "m-agrario")
+
+    def test_every_alias_is_unique_across_portfolios(self):
+        # A shared alias would make portfolio_id ambiguous and silently return
+        # None, dropping a minister from the roster with no error.
+        import json
+        from tools.scrapers.common.cabinet_rules import PORTFOLIOS_PATH
+        seen = {}
+        for p in json.loads(PORTFOLIOS_PATH.read_text(encoding="utf-8"))["portfolios"]:
+            for alias in p.get("aliases", []):
+                self.assertNotIn(alias.lower(), seen,
+                                 f"{alias} claimed by {seen.get(alias.lower())} and {p['id']}")
+                seen[alias.lower()] = p["id"]
+
+    def test_existing_resolution_still_works(self):
+        self.assertEqual(portfolio_id("Ministerio de Educación"), "m-educacion")
+        self.assertEqual(portfolio_id("Desarrollo Agrario y Riego"), "m-agrario")

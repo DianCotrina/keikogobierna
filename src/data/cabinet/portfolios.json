@@ -5,133 +5,233 @@
       "name": "Presidencia del Consejo de Ministros",
       "short": "PCM",
       "slug": "pcm",
-      "topics": []
+      "topics": [],
+      "aliases": [
+        "PCM",
+        "Premier"
+      ]
     },
     {
       "id": "m-relaciones-exteriores",
       "name": "Ministerio de Relaciones Exteriores",
       "short": "Relaciones Exteriores",
       "slug": "relaciones-exteriores",
-      "topics": ["t3-10"]
+      "topics": [
+        "t3-10"
+      ],
+      "aliases": [
+        "RREE",
+        "Cancillería",
+        "Canciller"
+      ]
     },
     {
       "id": "m-defensa",
       "name": "Ministerio de Defensa",
       "short": "Defensa",
       "slug": "defensa",
-      "topics": []
+      "topics": [],
+      "aliases": [
+        "Mindef"
+      ]
     },
     {
       "id": "m-economia",
       "name": "Ministerio de Economía y Finanzas",
       "short": "Economía y Finanzas",
       "slug": "economia-y-finanzas",
-      "topics": ["t1-3"]
+      "topics": [
+        "t1-3"
+      ],
+      "aliases": [
+        "MEF"
+      ]
     },
     {
       "id": "m-interior",
       "name": "Ministerio del Interior",
       "short": "Interior",
       "slug": "interior",
-      "topics": ["t1-1"]
+      "topics": [
+        "t1-1"
+      ],
+      "aliases": [
+        "Mininter"
+      ]
     },
     {
       "id": "m-justicia",
       "name": "Ministerio de Justicia y Derechos Humanos",
       "short": "Justicia y Derechos Humanos",
       "slug": "justicia",
-      "topics": ["t1-2", "t1-4"]
+      "topics": [
+        "t1-2",
+        "t1-4"
+      ],
+      "aliases": [
+        "Minjus",
+        "Minjusdh"
+      ]
     },
     {
       "id": "m-educacion",
       "name": "Ministerio de Educación",
       "short": "Educación",
       "slug": "educacion",
-      "topics": ["t3-2", "t3-9"]
+      "topics": [
+        "t3-2",
+        "t3-9"
+      ],
+      "aliases": [
+        "Minedu"
+      ]
     },
     {
       "id": "m-salud",
       "name": "Ministerio de Salud",
       "short": "Salud",
       "slug": "salud",
-      "topics": ["t3-3"]
+      "topics": [
+        "t3-3"
+      ],
+      "aliases": [
+        "Minsa"
+      ]
     },
     {
       "id": "m-agrario",
       "name": "Ministerio de Desarrollo Agrario y Riego",
       "short": "Desarrollo Agrario y Riego",
       "slug": "desarrollo-agrario-y-riego",
-      "topics": ["t2-4"]
+      "topics": [
+        "t2-4"
+      ],
+      "aliases": [
+        "Midagri"
+      ]
     },
     {
       "id": "m-trabajo",
       "name": "Ministerio de Trabajo y Promoción del Empleo",
       "short": "Trabajo y Promoción del Empleo",
       "slug": "trabajo",
-      "topics": ["t3-7"]
+      "topics": [
+        "t3-7"
+      ],
+      "aliases": [
+        "MTPE"
+      ]
     },
     {
       "id": "m-produccion",
       "name": "Ministerio de la Producción",
       "short": "Producción",
       "slug": "produccion",
-      "topics": ["t2-1", "t2-5"]
+      "topics": [
+        "t2-1",
+        "t2-5"
+      ],
+      "aliases": [
+        "Produce"
+      ]
     },
     {
       "id": "m-comercio-exterior",
       "name": "Ministerio de Comercio Exterior y Turismo",
       "short": "Comercio Exterior y Turismo",
       "slug": "comercio-exterior-y-turismo",
-      "topics": ["t2-7", "t2-8"]
+      "topics": [
+        "t2-7",
+        "t2-8"
+      ],
+      "aliases": [
+        "Mincetur"
+      ]
     },
     {
       "id": "m-energia-minas",
       "name": "Ministerio de Energía y Minas",
       "short": "Energía y Minas",
       "slug": "energia-y-minas",
-      "topics": ["t2-2", "t2-3"]
+      "topics": [
+        "t2-2",
+        "t2-3"
+      ],
+      "aliases": [
+        "Minem"
+      ]
     },
     {
       "id": "m-transportes",
       "name": "Ministerio de Transportes y Comunicaciones",
       "short": "Transportes y Comunicaciones",
       "slug": "transportes-y-comunicaciones",
-      "topics": ["t2-6"]
+      "topics": [
+        "t2-6"
+      ],
+      "aliases": [
+        "MTC"
+      ]
     },
     {
       "id": "m-vivienda",
       "name": "Ministerio de Vivienda, Construcción y Saneamiento",
       "short": "Vivienda, Construcción y Saneamiento",
       "slug": "vivienda",
-      "topics": ["t3-5", "t3-6"]
+      "topics": [
+        "t3-5",
+        "t3-6"
+      ],
+      "aliases": [
+        "Vivienda"
+      ]
     },
     {
       "id": "m-mujer",
       "name": "Ministerio de la Mujer y Poblaciones Vulnerables",
       "short": "Mujer y Poblaciones Vulnerables",
       "slug": "mujer",
-      "topics": ["t3-1"]
+      "topics": [
+        "t3-1"
+      ],
+      "aliases": [
+        "Mimp"
+      ]
     },
     {
       "id": "m-ambiente",
       "name": "Ministerio del Ambiente",
       "short": "Ambiente",
       "slug": "ambiente",
-      "topics": ["t2-9"]
+      "topics": [
+        "t2-9"
+      ],
+      "aliases": [
+        "Minam"
+      ]
     },
     {
       "id": "m-cultura",
       "name": "Ministerio de Cultura",
       "short": "Cultura",
       "slug": "cultura",
-      "topics": []
+      "topics": [],
+      "aliases": [
+        "Mincul"
+      ]
     },
     {
       "id": "m-desarrollo-social",
       "name": "Ministerio de Desarrollo e Inclusión Social",
       "short": "Desarrollo e Inclusión Social",
       "slug": "desarrollo-e-inclusion-social",
-      "topics": ["t3-4", "t3-8"]
+      "topics": [
+        "t3-4",
+        "t3-8"
+      ],
+      "aliases": [
+        "Midis"
+      ]
     }
   ]
 }
