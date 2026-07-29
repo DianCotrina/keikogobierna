@@ -19,7 +19,7 @@ flowchart TB
 
     subgraph P2["Plane 2 · News — runtime"]
         direction TB
-        EC["El Comercio · La República<br/>RPP · Gestión — RSS"] -->|"ultimitas_scraper.py<br/>4×/day"| UD["ultimitas-data branch<br/>today.json"]
+        EC["El Comercio · La República · RPP<br/>Gestión · Infobae — RSS"] -->|"ultimitas_scraper.py<br/>4×/day"| UD["ultimitas-data branch<br/>today.json"]
     end
 
     subgraph P1["Plane 1 · The plan — build time"]
@@ -160,6 +160,7 @@ tools/scrapers/
     ├── elperuano_client transport for busquedas.elperuano.pe (turbo-stream + visor_html)
     ├── jne_client       transport for the JNE candidate API
     ├── press_feeds      the outlet list and feed parsing, shared by every press consumer
+    ├── infobae_rules    matches press items to the minister they profile
     ├── matcher          norma ↔ commitment matching
     └── *_rules          deterministic parsing: cabinet, cabinet_note, press, jne
 Rules modules are pure — no I/O, no network, no CLI — which is why they carry the bulk of the tests. A CLI is never imported by another CLI; anything two tools need lives in `common/`. Run them as modules from the repo root: `python3 -m tools.scrapers.<name> --dry-run`.
