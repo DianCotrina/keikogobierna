@@ -18,6 +18,16 @@ const stats = cabinetStats();
 
 const filled = cabinet.filter((row) => row.person || row.announcement);
 
+// The roster's provenance is not the same in both directions, and the page must
+// not claim otherwise. On the day a cabinet is sworn in every card is still a
+// press report; the Resoluciones Supremas follow a day or so later.
+const sworn = cabinet.filter((row) => row.person).length;
+const provenance = sworn === 0
+  ? 'Una tarjeta por cartera. Todavía ninguna designación aparece en Normas Legales: lo que ves proviene de lo publicado por la prensa y por El Peruano, y se confirma cuando salga la Resolución Suprema.'
+  : sworn === filled.length
+    ? 'Una tarjeta por cartera. Cada nombramiento proviene de la Resolución Suprema publicada en El Peruano.'
+    : 'Una tarjeta por cartera. Los nombramientos confirmados provienen de la Resolución Suprema publicada en El Peruano; los anunciados todavía esperan la suya.';
+
 const figures = [
   { value: String(stats.portfolios), label: 'carteras ministeriales' },
   { value: String(stats.serving), label: 'con titular nombrado' },
@@ -75,8 +85,7 @@ const description =
         <div class="reveal border-b border-tinta/10 pb-3">
           <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">El gabinete hoy</h2>
           <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
-            Una tarjeta por cartera. Cada nombramiento proviene de la Resolución Suprema
-            publicada en El Peruano.
+            {provenance}
           </p>
         </div>
 

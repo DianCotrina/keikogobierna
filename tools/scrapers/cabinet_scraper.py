@@ -22,7 +22,7 @@ import os
 import sys
 from datetime import date, timedelta
 
-from cabinet_rules import is_cabinet_norma, parse_cabinet_act, roster_names
+from cabinet_rules import CABINET_DIR, is_cabinet_norma, parse_cabinet_act, roster_names
 from press_rules import announcements_from, judicial_signals
 from singlefetch import MAX_PAGE_SIZE, fetch_page
 from watcher_common import DEFAULT_REPO, create_issue, dedup_token, ensure_label, issue_exists
@@ -111,6 +111,49 @@ def issue_body(act: dict, token: str) -> str:
 def announcement_block(announcements: list) -> str:
     """The JSON a reviewer pastes into announcements.json."""
     return json.dumps({"announcements": announcements}, ensure_ascii=False, indent=2)
+
+
+def run_note(url: str, announced: str) -> int:
+    """Read a whole cabinet from an El Peruano news note.
+
+    The gazette lags a swearing-in by a day or so. In that window El Peruano's
+    own news desk publishes the full roster in one structured list, which beats
+    reconstructing it from nineteen separate press headlines. Still provisional:
+    a note is not a Resolución Suprema, so this feeds `anunciado` like any other
+    press source and is superseded the moment the norma publishes.
+    """
+    from cabinet_note_rules import parse_cabinet_note
+    from watcher_common import http_get
+
+    entries = parse_cabinet_note(http_get(url).decode("utf-8", "replace"))
+    if not entries:
+        print(f"No se reconoció ningún cargo en {url}", file=sys.stderr)
+        print("Revisa que la nota liste «Ministro de <cartera>: <nombre>».", file=sys.stderr)
+        return 1
+
+    known = {p["id"] for p in json.loads(
+        (CABINET_DIR / "portfolios.json").read_text(encoding="utf-8"))["portfolios"]}
+
+    print(f"{len(entries)} carteras leídas de la nota ({len(known)} en el registro)")
+    for entry in entries:
+        print(f"  {entry['portfolio']:26s} {entry['person_name']}")
+
+    missing = known - {e["portfolio"] for e in entries}
+    if missing:
+        print(f"\nSin titular en la nota: {', '.join(sorted(missing))}")
+
+    announcements = [{
+        "portfolio": entry["portfolio"],
+        "person_name": entry["person_name"],
+        "announced": announced,
+        "sources": [{"label": "El Peruano", "url": url, "kind": "press"}],
+    } for entry in entries]
+
+    print("\nBloque propuesto para src/data/cabinet/announcements.json:\n")
+    print(announcement_block(announcements))
+    print("\nLa nota informativa de El Peruano no es la Resolución Suprema. Cuando el "
+          "nombramiento se publique en Normas Legales, mueve cada entrada a tenures.json.")
+    return 0
 
 
 def run_press(dry_run: bool) -> int:
@@ -205,14 +248,20 @@ def main() -> int:
     parser.add_argument("--to", dest="end", help="YYYY-MM-DD (default: --from)")
     parser.add_argument("--press", action="store_true",
                         help="read announcements from the press feeds instead of the gazette")
+    parser.add_argument("--noticia", metavar="URL",
+                        help="read a whole cabinet from an El Peruano news note")
+    parser.add_argument("--announced", metavar="YYYY-MM-DD",
+                        help="date the cabinet was presented (default: today)")
     parser.add_argument("--dry-run", action="store_true",
                         help="print proposed blocks without creating issues")
     args = parser.parse_args()
 
+    if args.noticia:
+        return run_note(args.noticia, args.announced or date.today().isoformat())
     if args.press:
         return run_press(args.dry_run)
     if not args.start:
-        print("--from is required unless --press", file=sys.stderr)
+        print("--from is required unless --press or --noticia", file=sys.stderr)
         return 2
 
     start = parse_date(args.start)
