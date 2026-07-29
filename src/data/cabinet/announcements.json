@@ -2,7 +2,7 @@
   "announcements": [
     {
       "portfolio": "pcm",
-      "person_name": "Luis Galarreta",
+      "person_name": "Luis Galarreta Velarde",
       "announced": "2026-07-27",
       "sources": [
         {
@@ -14,42 +14,242 @@
           "label": "La República",
           "url": "https://larepublica.pe/politica/2026/07/27/keiko-fujimori-anuncia-que-luis-galarreta-sera-el-presidente-del-consejo-de-ministros-hnews-2557602",
           "kind": "press"
+        },
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
         }
       ],
       "person": "luis-fernando-galarreta-velarde"
     },
     {
-      "portfolio": "m-relaciones-exteriores",
-      "person_name": "Carlos Espá",
-      "announced": "2026-07-27",
-      "sources": [
-        {
-          "label": "El Comercio",
-          "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-presenta-a-carlos-espa-como-proximo-ministro-de-relaciones-exteriores-ultimas-noticia/",
-          "kind": "press"
-        }
-      ]
-    },
-    {
       "portfolio": "m-economia",
-      "person_name": "Elmer Cuba",
+      "person_name": "Elmer Cuba Bustinza",
       "announced": "2026-07-27",
       "sources": [
         {
           "label": "RPP",
           "url": "https://rpp.pe/economia/economia/keiko-fujimori-anuncia-a-elmer-cuba-como-ministro-de-economia-de-su-primer-gabinete-perfil-y-hoja-de-vida-noticia-1698966",
           "kind": "press"
+        },
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-relaciones-exteriores",
+      "person_name": "Carlos Espá y Garcés-Alvear",
+      "announced": "2026-07-27",
+      "sources": [
+        {
+          "label": "El Comercio",
+          "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-presenta-a-carlos-espa-como-proximo-ministro-de-relaciones-exteriores-ultimas-noticia/",
+          "kind": "press"
+        },
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-defensa",
+      "person_name": "Rafael Belaunde Llosa",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-interior",
+      "person_name": "César Astudillo Salcedo",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
         }
       ]
     },
     {
       "portfolio": "m-agrario",
-      "person_name": "Marco Vinelli",
+      "person_name": "Marco Vinelli Ruiz",
       "announced": "2026-07-28",
       "sources": [
         {
           "label": "RPP",
           "url": "https://rpp.pe/economia/economia/keiko-fujimori-designa-a-marco-vinelli-como-ministro-de-desarrollo-agrario-este-es-su-perfil-y-hoja-de-vida-noticia-1699191",
+          "kind": "press"
+        },
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-energia-minas",
+      "person_name": "Guillermo Shinno Huamaní",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-transportes",
+      "person_name": "Rafael Rey Rey",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-salud",
+      "person_name": "Luis Dyer Fernández",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-educacion",
+      "person_name": "José Antonio Chang Escobedo",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-cultura",
+      "person_name": "Alberto Beingolea Delgado",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-ambiente",
+      "person_name": "Vladimiro Huaroc Portocarrero",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-mujer",
+      "person_name": "Mara Seminario Marón",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-comercio-exterior",
+      "person_name": "Roger Valencia Espinoza",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-trabajo",
+      "person_name": "Juan Sheput Moore",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-vivienda",
+      "person_name": "Mauricio Arnillas Gonzales",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-justicia",
+      "person_name": "Ernesto Álvarez Miranda",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-desarrollo-social",
+      "person_name": "Maritza Canales Martínez",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "portfolio": "m-produccion",
+      "person_name": "Juan Carlos Requejo Alemán",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "El Peruano",
+          "url": "https://elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
           "kind": "press"
         }
       ]
