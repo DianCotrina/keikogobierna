@@ -1,13 +1,11 @@
 """Unit tests for the commitment-index builder (no network)."""
 
 import json
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-import build_commitment_index as b  # noqa: E402
+from tools.scrapers import build_commitment_index as b  # noqa: E402
 
 
 class BuildIndexTest(unittest.TestCase):

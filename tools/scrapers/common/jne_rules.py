@@ -27,7 +27,7 @@ Pure functions: no I/O. Transport lives in jne_client.py.
 """
 import re
 
-from watcher_common import fold
+from .watcher_common import fold
 
 # The JNE platform is an Angular SPA whose hoja-de-vida view is reachable only
 # by navigating its (captcha-gated) search — verified headless: no path or query

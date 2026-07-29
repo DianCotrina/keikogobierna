@@ -26,8 +26,8 @@ rot as coverage changes, while the structure holds.
 """
 import re
 
-from cabinet_rules import PCM_HEAD, PCM_ID, portfolio_id
-from watcher_common import normalize
+from .cabinet_rules import PCM_HEAD, PCM_ID, portfolio_id
+from .watcher_common import normalize
 
 
 def fold(text: str) -> str:

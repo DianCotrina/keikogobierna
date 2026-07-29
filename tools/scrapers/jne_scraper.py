@@ -19,11 +19,11 @@ lists candidates with their party; drafting requires an idHojaVida you have
 confirmed yourself:
 
   # 1. who might this be?
-  python3 tools/scrapers/jne_scraper.py --cabinet
-  python3 tools/scrapers/jne_scraper.py --name "Luis Galarreta"
+  python3 -m tools.scrapers.jne_scraper --cabinet
+  python3 -m tools.scrapers.jne_scraper --name "Luis Galarreta"
 
   # 2. draft the one you verified
-  python3 tools/scrapers/jne_scraper.py --id 246699
+  python3 -m tools.scrapers.jne_scraper --id 246699
 """
 from __future__ import annotations
 
@@ -31,9 +31,9 @@ import argparse
 import json
 import sys
 
-from cabinet_rules import roster_names
-from jne_client import fetch_hoja_vida, fetch_roster
-from jne_rules import draft_person, match_candidates
+from tools.scrapers.common.cabinet_rules import roster_names
+from tools.scrapers.common.jne_client import fetch_hoja_vida, fetch_roster
+from tools.scrapers.common.jne_rules import draft_person, match_candidates
 
 
 def show_matches(name: str, roster: list) -> None:

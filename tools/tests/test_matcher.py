@@ -1,14 +1,12 @@
 """Unit tests for the shared commitment matcher (no network)."""
 
 import json
-import sys
 import tempfile
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-import matcher as m  # noqa: E402
+from tools.scrapers.common import matcher as m  # noqa: E402
 
 INDEX = {
     "temas": {"t1-1": "orden-ciudadano", "t3-10": "peruanos-exterior"},

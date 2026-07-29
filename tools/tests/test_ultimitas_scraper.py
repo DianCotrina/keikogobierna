@@ -1,13 +1,12 @@
 """Unit tests for the ultimitas scraper's deterministic stages (no network)."""
 
-import sys
 import unittest
 from datetime import datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-import ultimitas_scraper as us
+from tools.scrapers import ultimitas_scraper as us
+from tools.scrapers.common import press_feeds
 
 FIXTURE = (Path(__file__).resolve().parent / "fixtures" / "elcomercio_rss_sample.xml").read_bytes()
 
@@ -133,18 +132,21 @@ class LaRepublicaFeedTest(unittest.TestCase):
 
 class SourceIsolationTest(unittest.TestCase):
     def test_one_dead_source_does_not_kill_the_other(self):
-        real_http_get = us.http_get
+        # fetch_sources lives in the shared feed layer, so that is where the
+        # transport seam is: /ultimitas/ and cabinet_scraper --press both get
+        # this isolation from the same code.
+        real_http_get = press_feeds.http_get
 
         def stub(url, headers=None):
             if "larepublica" in url:
                 raise OSError("simulated outage")
             return FIXTURE
 
-        us.http_get = stub
+        press_feeds.http_get = stub
         try:
-            items, failed = us.fetch_sources()
+            items, failed = press_feeds.fetch_sources()
         finally:
-            us.http_get = real_http_get
+            press_feeds.http_get = real_http_get
         self.assertEqual(failed, ["La República"])
         self.assertTrue(items)  # the other outlets still delivered
         self.assertNotIn("La República", {i["source"] for i in items})

@@ -8,14 +8,12 @@ Fixtures are verbatim captures of the El Comercio and La República politics
 feeds from 2026-07-27, the day the cabinet was presented. They carry both the
 real announcements and the headlines that must NOT be mistaken for one.
 """
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-from press_rules import parse_announcement, announcements_from  # noqa: E402
-from ultimitas_scraper import parse_feed  # noqa: E402
+from tools.scrapers.common.press_rules import parse_announcement, announcements_from  # noqa: E402
+from tools.scrapers.ultimitas_scraper import parse_feed  # noqa: E402
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures"
 

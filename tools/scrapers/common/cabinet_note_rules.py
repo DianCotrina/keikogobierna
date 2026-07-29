@@ -24,7 +24,7 @@ from __future__ import annotations
 import html
 import re
 
-from cabinet_rules import portfolio_id
+from .cabinet_rules import portfolio_id
 
 # The note gives one "<role>: <person>" per block, so a line is the natural
 # right-hand boundary for a name. Reading the whole page as one flat string

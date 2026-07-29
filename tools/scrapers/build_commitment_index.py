@@ -7,9 +7,9 @@ commitments, and writes tools/scrapers/commitment_index.json. Regenerate when
 the plan changes; CI --check guards against drift. Stdlib only.
 
 Usage:
-  python3 tools/scrapers/build_commitment_index.py            # regenerate the file
-  python3 tools/scrapers/build_commitment_index.py --check    # exit 1 if stale
-  python3 tools/scrapers/build_commitment_index.py --report   # list zero-phrase commitments
+  python3 -m tools.scrapers.build_commitment_index            # regenerate the file
+  python3 -m tools.scrapers.build_commitment_index --check    # exit 1 if stale
+  python3 -m tools.scrapers.build_commitment_index --report   # list zero-phrase commitments
 """
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
-from watcher_common import bigrams_of, significant_tokens
+from tools.scrapers.common.watcher_common import bigrams_of, significant_tokens
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 PLAN = ROOT / "src" / "data" / "plan"
