@@ -110,3 +110,30 @@ class Deduplication(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class NameVariants(unittest.TestCase):
+    """Adopting full official names from El Peruano made the roster longer than
+    the names headlines print. The matcher has to tolerate the tail."""
+
+    def test_a_headline_without_the_second_surname_still_matches(self):
+        article = item(
+            "Ministro Mauricio Arnillas recibió prisión suspendida y denigró a una manifestante",
+            summary="El nuevo titular de Vivienda declaró una condena por lesiones culposas",
+        )
+        signals = judicial_signals([article], ["Mauricio Arnillas Gonzales"])
+        self.assertEqual(len(signals), 1)
+        self.assertEqual(signals[0]["person_name"], "Mauricio Arnillas Gonzales")
+
+    def test_a_shared_surname_alone_is_still_not_enough(self):
+        # "Guardaespaldas del Rey de España" must not match Rafael Rey Rey.
+        article = item("Guardaespaldas del Rey de España acusado de agredir a un fotógrafo")
+        self.assertEqual(judicial_signals([article], ["Rafael Rey Rey"]), [])
+
+    def test_a_single_token_roster_name_matches_nothing(self):
+        article = item("Fiscalía investiga a Rey por presunta colusión")
+        self.assertEqual(judicial_signals([article], ["Rey"]), [])
+
+    def test_the_given_name_is_required(self):
+        article = item("Fiscalía investiga a Arnillas por presunta colusión")
+        self.assertEqual(judicial_signals([article], ["Mauricio Arnillas Gonzales"]), [])

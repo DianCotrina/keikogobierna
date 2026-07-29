@@ -125,12 +125,22 @@ _JUDICIAL = re.compile(
 def _mentions(words: set, name_tokens: list) -> bool:
     """Whether a folded article names this person.
 
-    Every token of the roster name must appear, so "Roberto Sánchez" is not
-    matched by a headline that merely says "Sánchez". Both sides arrive folded
-    and tokenised: the caller folds each article once and each roster name once,
-    rather than re-folding on every article-by-name comparison.
+    The given name and the first surname must both appear; anything after them
+    is optional. Peruvian rosters carry both surnames — "Mauricio Arnillas
+    Gonzales", taken from El Peruano — while headlines print one, so requiring
+    every token silently missed a conviction on a sitting minister. Requiring
+    two still rejects "Guardaespaldas del Rey de España" for Rafael Rey Rey,
+    because "rafael" is absent.
+
+    A single-token name is rejected outright: one surname is not an
+    identification.
+
+    Both sides arrive folded and tokenised — the caller folds each article once
+    and each roster name once, not on every comparison.
     """
-    return bool(name_tokens) and all(t in words for t in name_tokens)
+    if len(name_tokens) < 2:
+        return False
+    return all(token in words for token in name_tokens[:2])
 
 
 def judicial_signals(articles: list, roster_names: list) -> list:
