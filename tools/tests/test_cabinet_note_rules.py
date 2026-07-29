@@ -7,13 +7,11 @@ chasing nineteen separate press headlines.
 
 Fixture is the real page, captured 2026-07-28.
 """
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-from cabinet_note_rules import parse_cabinet_note  # noqa: E402
+from tools.scrapers.common.cabinet_note_rules import parse_cabinet_note  # noqa: E402
 
 FIXTURE = Path(__file__).parent / "fixtures" / "elperuano_noticia_301303.html"
 HTML = FIXTURE.read_text(encoding="utf-8", errors="replace")

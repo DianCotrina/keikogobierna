@@ -18,14 +18,12 @@ Note the name follows the portfolio, `tipoDispositivo` arrives unaccented as
 "RESOLUCION SUPREMA", and names are Title Case, not upper case.
 """
 import json
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-from cabinet_rules import is_cabinet_norma, parse_cabinet_act, portfolio_id  # noqa: E402
-from elperuano_scraper import html_to_text  # noqa: E402
+from tools.scrapers.common.cabinet_rules import is_cabinet_norma, parse_cabinet_act, portfolio_id  # noqa: E402
+from tools.scrapers.elperuano_scraper import html_to_text  # noqa: E402
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures"
 RECORDS = json.loads((FIXTURES / "normas_20260318.json").read_text(encoding="utf-8"))

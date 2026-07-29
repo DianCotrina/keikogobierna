@@ -1,12 +1,10 @@
 """Unit tests for shared watcher helpers (no network)."""
 
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-from watcher_common import dedup_token, normalize, phrases_of, significant_tokens
+from tools.scrapers.common.watcher_common import dedup_token, normalize, phrases_of, significant_tokens
 
 
 class NormalizeTest(unittest.TestCase):

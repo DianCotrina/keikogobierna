@@ -15,13 +15,11 @@ norma -> tracking.json path uses.
 Fixtures are verbatim captures of the Elecciones Generales 2026 rolls.
 """
 import json
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-from jne_rules import (  # noqa: E402
+from tools.scrapers.common.jne_rules import (  # noqa: E402
     match_candidates,
     draft_person,
     declared_sentences,

@@ -39,9 +39,9 @@ listing, not evidence; it never touches `tracking.json` or `main`.
 ## Local testing
 
 ```bash
-python3 tools/scrapers/ultimitas_scraper.py --dry-run              # live feeds, print matches
-python3 tools/scrapers/ultimitas_scraper.py --data-dir /tmp/ult    # write both JSON files
-python3 -m unittest discover -s tools/tests -p "test_*.py"       # offline unit tests
+python3 -m tools.scrapers.ultimitas_scraper --dry-run              # live feeds, print matches
+python3 -m tools.scrapers.ultimitas_scraper --data-dir /tmp/ult    # write both JSON files
+python3 -m unittest discover -s tools/tests -t . -p "test_*.py"       # offline unit tests
 ```
 
 ## Known constraints / lessons

@@ -10,9 +10,9 @@ GitHub issue — a ready-to-paste tenure block for a human to review and merge,
 the same human gate the norma -> tracking.json path already uses.
 
 Usage:
-  python3 tools/scrapers/cabinet_scraper.py --from 2026-07-28 --to 2026-08-15 --dry-run
+  python3 -m tools.scrapers.cabinet_scraper --from 2026-07-28 --to 2026-08-15 --dry-run
   GITHUB_TOKEN=... GITHUB_REPOSITORY=owner/repo \
-    python3 tools/scrapers/cabinet_scraper.py --from 2026-07-28 --to 2026-07-31
+    python3 -m tools.scrapers.cabinet_scraper --from 2026-07-28 --to 2026-07-31
 """
 from __future__ import annotations
 
@@ -22,11 +22,12 @@ import os
 import sys
 from datetime import date, timedelta
 
-from cabinet_note_rules import parse_cabinet_note
-from cabinet_rules import PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, roster_names
-from press_rules import announcements_from, judicial_signals
-from singlefetch import MAX_PAGE_SIZE, fetch_page
-from watcher_common import (
+from tools.scrapers.common.cabinet_note_rules import parse_cabinet_note
+from tools.scrapers.common.cabinet_rules import PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, roster_names
+from tools.scrapers.common.press_feeds import fetch_sources
+from tools.scrapers.common.press_rules import announcements_from, judicial_signals
+from tools.scrapers.common.elperuano_client import MAX_PAGE_SIZE, fetch_page, fetch_visor_text
+from tools.scrapers.common.watcher_common import (
     DEFAULT_REPO, create_issue, dedup_token, ensure_label, http_get, issue_exists)
 
 LABEL = "cambio-de-gabinete"
@@ -56,17 +57,6 @@ def fetch_day(day: date) -> list[dict]:
             break
         start += MAX_PAGE_SIZE
     return records
-
-
-def norma_text(op: str) -> str:
-    """Full norma body.
-
-    The import stays function-local for now because VISOR_HTML_URL and
-    html_to_text live inside another CLI script; the restructure moves them to
-    the El Peruano transport module and this becomes a normal top-level import.
-    """
-    from elperuano_scraper import VISOR_HTML_URL, html_to_text
-    return html_to_text(http_get(VISOR_HTML_URL.format(op=op)))
 
 
 def tenure_block(act: dict) -> str:
@@ -161,8 +151,6 @@ def run_press(dry_run: bool) -> int:
     """Read the press feeds for a cabinet presented in public but not yet
     appointed by norma. Always provisional: these feed the `anunciado` state and
     are superseded the moment the Resolución Suprema publishes."""
-    from ultimitas_scraper import fetch_sources
-
     articles, failed = fetch_sources()
     if failed:
         print(f"AVISO: fuentes caídas: {', '.join(failed)}")
@@ -217,7 +205,7 @@ def run(start: date, end: date, dry_run: bool) -> int:
         print(f"{day.isoformat()}: {len(records)} normas, {len(candidates)} candidatas")
 
         for record in candidates:
-            act = parse_cabinet_act(record, norma_text(record["op"]))
+            act = parse_cabinet_act(record, fetch_visor_text(record["op"]))
             if not act:
                 # Detected as cabinet-shaped but unreadable. Say so loudly rather
                 # than guessing at a name.

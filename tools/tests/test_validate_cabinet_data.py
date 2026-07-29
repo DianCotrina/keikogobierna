@@ -4,13 +4,11 @@ The rule that matters most: a judicial entry without a source must fail the
 build. These are named living people, and an unsourced accusation should be
 impossible to publish by accident rather than merely discouraged.
 """
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cabinet"))
 
-from validate_cabinet_data import validate  # noqa: E402
+from tools.cabinet.validate_cabinet_data import validate  # noqa: E402
 
 TOPICS = {"t1-1", "t3-3"}
 PORTFOLIOS = [
@@ -217,7 +215,7 @@ class AnnouncementRules(unittest.TestCase):
 
 class RealDataTest(unittest.TestCase):
     def test_the_committed_cabinet_data_is_valid(self):
-        import validate_cabinet_data as v
+        from tools.cabinet import validate_cabinet_data as v
         self.assertEqual(v.validate(*v.load_all()), [])
 
 

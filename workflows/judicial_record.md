@@ -20,8 +20,8 @@ are closed to machines (see "Why it is manual"). Tools discover; a person certif
 ### 1. Draft the person from the JNE, if they ran for office
 
 ```bash
-python3 tools/scrapers/jne_scraper.py --name "Nombre Apellido"   # find candidates
-python3 tools/scrapers/jne_scraper.py --id <idHojaVida>          # draft the one you verified
+python3 -m tools.scrapers.jne_scraper --name "Nombre Apellido"   # find candidates
+python3 -m tools.scrapers.jne_scraper --id <idHojaVida>          # draft the one you verified
 ```
 
 **Confirm the party before using an id.** A name match is not an identity match:
@@ -54,7 +54,7 @@ reviewer, not published data.
 ### 3. Check the press signals
 
 ```bash
-python3 tools/scrapers/cabinet_scraper.py --press --dry-run
+python3 -m tools.scrapers.cabinet_scraper --press --dry-run
 ```
 
 The tail of that run lists judicial coverage of people already on the roster.

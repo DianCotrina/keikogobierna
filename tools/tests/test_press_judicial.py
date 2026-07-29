@@ -14,13 +14,11 @@ The rule is scoped to the roster on purpose. These all ran in the live feeds on
 A general accusation detector would surface all three. Requiring a roster name
 makes the rule both precise and relevant.
 """
-import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
-from press_rules import judicial_signals  # noqa: E402
+from tools.scrapers.common.press_rules import judicial_signals  # noqa: E402
 
 ROSTER = ["Roberto Sánchez", "Delia Espinoza", "Luis Galarreta"]
 

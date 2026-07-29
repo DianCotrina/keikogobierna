@@ -11,10 +11,10 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from watcher_common import phrases_of, significant_tokens
+from .watcher_common import phrases_of, significant_tokens
 
-INDEX_PATH = Path(__file__).resolve().parent / "commitment_index.json"
-OVERLAY_PATH = Path(__file__).resolve().parent / "commitment_overlay.json"
+INDEX_PATH = Path(__file__).resolve().parent.parent / "commitment_index.json"
+OVERLAY_PATH = Path(__file__).resolve().parent.parent / "commitment_overlay.json"
 
 
 class Matcher:

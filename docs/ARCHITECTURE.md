@@ -60,8 +60,8 @@ The amber node is the only step a machine does not perform.
 | `npm run preview` | Serve the `dist/` build locally |
 | `npm test` | `node --test tests/**/*.test.mjs` (data-layer unit tests) |
 | `npm run validate` | `python3 tools/plan/validate_plan_data.py` (plan tree + tracking integrity) |
-| `python3 -m unittest discover -s tools/tests -p "test_*.py"` | Scraper/matcher unit tests |
-| `python3 tools/scrapers/<name>.py --dry-run` | Run any scraper locally with no writes and no GitHub calls |
+| `python3 -m unittest discover -s tools/tests -t . -p "test_*.py"` | Scraper/matcher unit tests |
+| `python3 -m tools.scrapers.<name> --dry-run` | Run any scraper locally with no writes and no GitHub calls |
 
 ## The site
 
@@ -150,6 +150,19 @@ Identity is a human decision too: the tool searches and drafts in two separate p
 ## Discovery pipeline
 
 Python, stdlib only. `tools/scrapers/watcher_common.py` holds what every source shares: HTTP, RSS parsing, tokenization, GitHub issue/label plumbing, and `dedup_token()`.
+Python, stdlib only (`pypdf` is the single exception — an El Peruano PDF fallback).
+The tree separates what you *run* from what those runs *import*:
+```
+tools/scrapers/
+├── <six CLIs>.py        build_commitment_index · cabinet_scraper · elperuano_scraper
+└── common/              imported, never executed
+    ├── watcher_common   HTTP, RSS parsing, tokenization, GitHub plumbing, dedup_token, fold
+    ├── elperuano_client transport for busquedas.elperuano.pe (turbo-stream + visor_html)
+    ├── jne_client       transport for the JNE candidate API
+    ├── press_feeds      the outlet list and feed parsing, shared by every press consumer
+    ├── matcher          norma ↔ commitment matching
+    └── *_rules          deterministic parsing: cabinet, cabinet_note, press, jne
+Rules modules are pure — no I/O, no network, no CLI — which is why they carry the bulk of the tests. A CLI is never imported by another CLI; anything two tools need lives in `common/`. Run them as modules from the repo root: `python3 -m tools.scrapers.<name> --dry-run`.
 
 | Tool | Source | Cadence | Output |
 |---|---|---|---|
@@ -167,7 +180,7 @@ The El Peruano interface is **unofficial**. If it changes shape, the run fails l
 
 ### The matcher
 
-The interesting problem: ~600 normas land per day, and 764 commitments to check them against. `build_commitment_index.py` builds `commitment_index.json` — for each commitment, the **bigrams** distinctive to it (document frequency ≤ `DF_MAX_BIGRAM`, currently 12, measured across the plan). `matcher.py` tokenizes a norma the same way and matches on shared phrases.
+The interesting problem: ~600 normas land per day, and 764 commitments to check them against. `build_commitment_index.py` builds `commitment_index.json` — for each commitment, the **bigrams** distinctive to it (document frequency ≤ `DF_MAX_BIGRAM`, currently 12, measured across the plan). `common/matcher.py` tokenizes a norma the same way and matches on shared phrases.
 
 Bigrams **only**, deliberately. A word rare in the plan is still common in daily normas ("fiscal", "horario"), and unigram matching flooded the queue with 136–247 hits/day. Bigrams cut that to 8–26; a curated `suppress_phrases` stoplist in `commitment_overlay.json` (generic government bigrams like "poder judicial" — plan-rare but norma-ubiquitous) brings it to **5–13/day**. The overlay is the tuning surface: `boost` (hand-curated phrases, the only route by which a single word can match), `suppress_terms`, `suppress_phrases`, `mute_commitments`.
 

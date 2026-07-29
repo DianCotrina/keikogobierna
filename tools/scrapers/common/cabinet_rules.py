@@ -34,9 +34,9 @@ import json
 import re
 from pathlib import Path
 
-from watcher_common import fold as _fold
+from .watcher_common import fold as _fold
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent.parent
 CABINET_DIR = ROOT / "src" / "data" / "cabinet"
 PORTFOLIOS_PATH = CABINET_DIR / "portfolios.json"
 
