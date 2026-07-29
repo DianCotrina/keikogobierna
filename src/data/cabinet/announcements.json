@@ -41,6 +41,18 @@
           "kind": "press"
         }
       ]
+    },
+    {
+      "portfolio": "m-agrario",
+      "person_name": "Marco Vinelli",
+      "announced": "2026-07-28",
+      "sources": [
+        {
+          "label": "RPP",
+          "url": "https://rpp.pe/economia/economia/keiko-fujimori-designa-a-marco-vinelli-como-ministro-de-desarrollo-agrario-este-es-su-perfil-y-hoja-de-vida-noticia-1699191",
+          "kind": "press"
+        }
+      ]
     }
   ]
 }
