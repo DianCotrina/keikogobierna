@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/DianCotrina/keikogobierna/compare/v2.5.1...v2.5.2) (2026-07-29)
+
+
+### Bug Fixes
+
+* donation dialogs were invisible on iOS Safari ([29ccaa2](https://github.com/DianCotrina/keikogobierna/commit/29ccaa287612470a1f323339927ef783c5d7d134))
+
 ## [2.5.1](https://github.com/DianCotrina/keikogobierna/compare/v2.5.0...v2.5.1) (2026-07-28)
 
 
