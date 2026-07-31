@@ -190,13 +190,22 @@ def norma_text(record: dict) -> str:
 
 # ---- Stage 4: issue body ------------------------------------------------------
 
+def draft_note(record: dict) -> str:
+    """A non-blank starting note for the evidence block: the norma's own summary,
+    which the reviewer refines into how it cumple/avanza the commitment."""
+    sumilla = record["sumilla"].strip()
+    if sumilla:
+        return sumilla if sumilla.endswith(".") else sumilla + "."
+    return f"{record['tipo']} {record['numero']} (El Peruano, {record['fecha']})."
+
+
 def issue_body(record: dict, related: list[str], iso_date: str, excerpt: str) -> str:
     related_lines = "\n".join(f"- `{cid}`" for cid in related) or "- (sin ids asociados)"
     evidence = {
         "date": iso_date,
         "source": f"El Peruano — {record['tipo']} {record['numero']}".strip(),
         "url": record["url"],
-        "note": "",
+        "note": draft_note(record),
     }
 
     excerpt_section = ""
@@ -218,7 +227,7 @@ def issue_body(record: dict, related: list[str], iso_date: str, excerpt: str) ->
 **Compromisos posiblemente relacionados:**
 {related_lines}{excerpt_section}
 
-Evidencia lista para completar en `src/data/tracking.json` (falta la `note`):
+Evidencia lista para `src/data/tracking.json` — la `note` trae un borrador (la sumilla de la norma); revísala y ajústala al compromiso antes de certificar:
 ```json
 {json.dumps(evidence, ensure_ascii=False, indent=2)}
 ```

@@ -86,6 +86,34 @@ def _http_error(url: str, code: int) -> urllib.error.HTTPError:
     return urllib.error.HTTPError(url, code, "boom", {}, io.BytesIO(b""))
 
 
+class DraftNoteTest(unittest.TestCase):
+    """The evidence note ships with a draft (the sumilla), never blank."""
+
+    def test_uses_the_sumilla_as_the_draft(self):
+        rec = {"tipo": "LEY", "numero": "N° 1", "fecha": "2026-07-28",
+               "sumilla": "Ley que crea el registro nacional"}
+        self.assertEqual(draft_note := er.draft_note(rec), "Ley que crea el registro nacional.")
+        self.assertTrue(draft_note)  # non-blank
+
+    def test_keeps_an_existing_final_period(self):
+        rec = {"tipo": "LEY", "numero": "N° 1", "fecha": "2026-07-28", "sumilla": "Aprueban el reglamento."}
+        self.assertEqual(er.draft_note(rec), "Aprueban el reglamento.")
+
+    def test_falls_back_when_sumilla_is_empty(self):
+        rec = {"tipo": "DECRETO SUPREMO", "numero": "N° 5-2026", "fecha": "2026-07-28", "sumilla": "  "}
+        note = er.draft_note(rec)
+        self.assertTrue(note)  # never blank
+        self.assertIn("DECRETO SUPREMO N° 5-2026", note)
+
+    def test_issue_body_evidence_note_is_never_blank(self):
+        rec = {"tipo": "LEY", "numero": "N° 9", "sector": "PCM", "fecha": "2026-07-28",
+               "sumilla": "Ley que reforma el sistema",
+               "url": "https://busquedas.elperuano.pe/dispositivo/NL/1-1"}
+        body = er.issue_body(rec, ["t1-1.P01"], "2026-07-28", excerpt="")
+        self.assertIn('"note": "Ley que reforma el sistema."', body)
+        self.assertNotIn('"note": ""', body)
+
+
 class FetchNormasTest(unittest.TestCase):
     """Pagination + transient-error handling, with http_get stubbed (no network)."""
 
