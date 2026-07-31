@@ -33,7 +33,7 @@ El Peruano is the primary-source, high-precision stream feeding the `evidencia-c
 
 - `tools/scrapers/commitment_index.json` — generated from the plan; regenerate with `build_commitment_index.py` when the plan changes.
 - `tools/scrapers/commitment_overlay.json` — hand-tune: `suppress_phrases`, `boost`, `mute_commitments`, `suppress_terms` (see the matcher section).
-- `tools/scrapers/elperuano_scraper.py` → `SKIP_TIPOS` — norma types to drop outright (empty by default; add municipal/local types if local noise appears); `EXCERPT_CHARS` — issue excerpt length.
+- `tools/scrapers/elperuano_scraper.py` → `SKIP_TIPOS` — norma types to drop outright (empty by default; add municipal/local types if local noise appears); `SUBNATIONAL_SECTOR_RE` — drops norms whose `sector` is a municipality or regional government from the review queue (a subnational own-act can't evidence the *national* plan); applied at the match stage, so those records still reach the archive; `EXCERPT_CHARS` — issue excerpt length.
 
 ## Local testing
 

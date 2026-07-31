@@ -62,6 +62,17 @@ EXCERPT_CHARS = 1200  # norma-text excerpt embedded in each issue for review
 # relevance gate; add tipos here only if local noise shows up in the queue.
 SKIP_TIPOS: set[str] = set()
 
+# A municipal/regional own-act can't evidence the *national* government's plan, yet
+# its boilerplate ("beneficios tributarios", "rendicion de cuentas") keeps matching
+# national commitments. Drop subnational publishers from the review queue by sector;
+# they still land in the archive (this gate is applied at the match stage, not fetch).
+SUBNATIONAL_SECTOR_RE = re.compile(r"^\s*(municipalidad|gobierno regional)\b", re.I)
+
+
+def in_national_scope(record: dict) -> bool:
+    """False for norms published by a municipality or regional government."""
+    return not SUBNATIONAL_SECTOR_RE.match(record.get("sector", ""))
+
 
 # ---- Stage 1: fetch (public search page) --------------------------------------
 
@@ -270,7 +281,8 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
         write_archive(archive_dir, iso_date, records)
     matched = [
         (r, rel) for r in records
-        if (rel := matcher.match(f"{r['numero']} {r['tipo']} {r['sumilla']}"))
+        if in_national_scope(r)
+        and (rel := matcher.match(f"{r['numero']} {r['tipo']} {r['sumilla']}"))
     ]
     print(f"{iso_date}: {len(records)} normas, {len(matched)} matched")
 

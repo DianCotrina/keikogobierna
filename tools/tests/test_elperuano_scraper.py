@@ -57,6 +57,51 @@ class MatcherIntegrationTest(unittest.TestCase):
             matcher.load_matcher().match("Designan fedatarios institucionales de la intendencia regional"), [])
 
 
+class NationalScopeTest(unittest.TestCase):
+    """Subnational publishers (municipal/regional own-acts) are out of the review queue."""
+
+    def test_municipal_and_regional_sectors_are_out_of_scope(self):
+        for sector in ("MUNICIPALIDAD DE SAN LUIS", "Municipalidad de Ancón",
+                       "GOBIERNO REGIONAL DE AMAZONAS", "gobierno regional del cusco"):
+            self.assertFalse(er.in_national_scope({"sector": sector}), sector)
+
+    def test_national_sectors_stay_in_scope(self):
+        for sector in ("EDUCACIÓN", "COMERCIO EXTERIOR Y TURISMO", "AMBIENTE",
+                       "MINISTERIO PÚBLICO", "", "SUPERINTENDENCIA NACIONAL DE SERVICIOS DE SANEAMIENTO"):
+            self.assertTrue(er.in_national_scope({"sector": sector}), sector)
+
+
+class NoiseSuppressionTest(unittest.TestCase):
+    """Generic bigrams that flooded the queue are suppressed; real signal survives."""
+
+    def setUp(self):
+        import matcher
+        self.m = matcher.load_matcher()
+
+    def test_generic_bigrams_no_longer_match(self):
+        # Real 2026-07-31 false-positive sumillas that matched only via a generic bigram.
+        sumillas = [
+            "Aprueban la Sección Segunda del Reglamento de Organización y Funciones del "
+            "Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI)",
+            "Aprueban transferencia financiera a favor del Gobierno Regional del "
+            "Departamento de Amazonas, para el financiamiento exclusivo de la contrapartida "
+            "nacional de diversos proyectos de inversión",
+            "Designan Coordinador de las Fiscalías Superiores Penales Nacionales y Fiscalías "
+            "Penales Supraprovinciales Especializadas en Derechos Humanos y contra el Terrorismo",
+            "Designan Jefa de la Oficina General de Recursos Humanos",
+        ]
+        for sumilla in sumillas:
+            self.assertEqual(self.m.match(sumilla), [], sumilla)
+
+    def test_real_signal_still_matches(self):
+        # The distinctive phrase of each affected commitment must still fire.
+        self.assertIn("t2-1.P21", self.m.match(
+            "Creación del Servicio Nacional de Defensa Jurídica del Emprendedor para "
+            "jóvenes emprendedores y MYPES"))
+        self.assertIn("t1-4.P01", self.m.match(
+            "Modernización del sistema meritocrático liderado por SERVIR"))
+
+
 class NormaTextTest(unittest.TestCase):
     """Against a captured /dispositivo/ page embedding R.M. N° 419-2026-MTC (Hoja de Ruta)."""
 
