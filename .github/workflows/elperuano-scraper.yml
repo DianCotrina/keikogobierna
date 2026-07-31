@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install pypdf # PDF fallback when a norma has no HTML rendition
       - name: Read El Peruano and file candidate issues
         run: python3 tools/scrapers/elperuano_scraper.py --archive-dir "$RUNNER_TEMP/normas"
         env:

@@ -12,7 +12,7 @@ Three planes move data, and they run on completely different clocks.
 flowchart TB
     subgraph P3["Plane 3 · Discovery — asynchronous, human-gated"]
         direction TB
-        EP["El Peruano<br/>GraphQL + visor_html"] -->|"elperuano_scraper.py<br/>daily"| MATCH{"matcher.py<br/>bigram index"}
+        EP["El Peruano<br/>búsqueda + dispositivo"] -->|"elperuano_scraper.py<br/>daily"| MATCH{"matcher.py<br/>bigram index"}
         MATCH --> ISSUES["GitHub issues<br/>evidencia-candidata + tema:*"]
         MATCH --> ARCH["normas-archive branch"]
     end
@@ -112,16 +112,16 @@ A topic id is recoverable from any commitment id by cutting at the `.` — the m
 
 ## Discovery pipeline
 
-Python, stdlib only (`pypdf` is the single exception — an El Peruano PDF fallback). `tools/scrapers/watcher_common.py` holds what every source shares: HTTP, RSS parsing, tokenization, GitHub issue/label plumbing, and `dedup_token()`.
+Python, stdlib only. `tools/scrapers/watcher_common.py` holds what every source shares: HTTP, RSS parsing, tokenization, GitHub issue/label plumbing, and `dedup_token()`.
 
 | Tool | Source | Cadence | Output |
 |---|---|---|---|
-| `elperuano_scraper.py` | El Peruano GraphQL (`/api/graphql`) + `/api/visor_html/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
+| `elperuano_scraper.py` | El Peruano public search page (`/?fechaIni&fechaFin&tipoPublicacion&start`, editions NL/BO/PC) + `/dispositivo/<tipoPub>/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
 | `ultimitas_scraper.py` | El Comercio Arc XP RSS + La República RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
 
 Both news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.
 
-The El Peruano interface is **unofficial**. If it changes shape, the run fails loudly and we fix the tool — that's the accepted trade for $0 access to the primary record. The daily-PDF parser survives as a documented fallback.
+The El Peruano interface is **unofficial**. If it changes shape, the run fails loudly and we fix the tool — that's the accepted trade for $0 access to the primary record. (El Peruano did exactly this on 2026-07-26, retiring its GraphQL API; the reader was repointed at the public search page on 07-31.)
 
 ### The matcher
 
