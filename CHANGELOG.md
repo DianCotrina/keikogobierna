@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/DianCotrina/keikogobierna/compare/v2.5.4...v2.6.0) (2026-07-31)
+
+
+### Features
+
+* seed the evidence note with a draft instead of leaving it blank ([1498c54](https://github.com/DianCotrina/keikogobierna/commit/1498c540a38fa94c357e8470b46116ea78579b90))
+
 ## [2.5.4](https://github.com/DianCotrina/keikogobierna/compare/v2.5.3...v2.5.4) (2026-07-31)
 
 
