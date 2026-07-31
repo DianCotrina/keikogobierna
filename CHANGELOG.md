@@ -1,5 +1,41 @@
 # Changelog
 
+## [2.7.0](https://github.com/DianCotrina/keikogobierna/compare/v2.6.1...v2.7.0) (2026-07-31)
+
+
+### Features
+
+* add Infobae to the shared press sources ([72998cd](https://github.com/DianCotrina/keikogobierna/commit/72998cdbf6ebc1e72104318e3ca1f5397752a30a))
+* add RPP and Gestión to the press sources ([59bbe62](https://github.com/DianCotrina/keikogobierna/commit/59bbe6209a959c798b1ea1d8a9555546782e15ca))
+* announcement cards lead with public record, not with who reported it ([68960ab](https://github.com/DianCotrina/keikogobierna/commit/68960ab4d111abb65c6a0e5f30996643ee19122b))
+* cabinet data model, library and validator ([39f1191](https://github.com/DianCotrina/keikogobierna/commit/39f1191d12d2cab9eda8878822babb86198765e1))
+* detect cabinet changes in El Peruano ([34224ed](https://github.com/DianCotrina/keikogobierna/commit/34224edf134c48d04954e09357b8b6637661537e))
+* document Arnillas' declared record, marked as press-sourced ([b2e3115](https://github.com/DianCotrina/keikogobierna/commit/b2e31152adb2390f73e07d9e0452a096669b258d))
+* document the two investigations reported as active ([1d5d684](https://github.com/DianCotrina/keikogobierna/commit/1d5d6847fbbf992b9046bcf5a39f8263e141e9c7))
+* draft minister dossiers from the JNE hoja de vida ([4a2086e](https://github.com/DianCotrina/keikogobierna/commit/4a2086efb9e12ae38043f01decb5d808178da06f))
+* gabinete roster and per-minister judicial dossiers ([fe5e71a](https://github.com/DianCotrina/keikogobierna/commit/fe5e71a889c837cb3acdb0d04043f332eafca803))
+* Infobae joins the outlets shown on ultimitas and fuentes ([54bb3a8](https://github.com/DianCotrina/keikogobierna/commit/54bb3a8db6eeebf2967697be4b1cbfb8b0920df0))
+* judicial stage ladder with exculpatory outcomes ranked zero ([25ff8bf](https://github.com/DianCotrina/keikogobierna/commit/25ff8bfc7af715f9d7bc54a5af243c6600d56f7f))
+* match press items to the minister they profile ([3888c52](https://github.com/DianCotrina/keikogobierna/commit/3888c525553929668ba8f7f88311b1dc05f5bf06))
+* print a per-minister press review packet for writing fichas ([89ca56a](https://github.com/DianCotrina/keikogobierna/commit/89ca56a374229f353cddd11fc4ce8a58274b19bf))
+* provisional "anunciado" state from press announcements ([7b12412](https://github.com/DianCotrina/keikogobierna/commit/7b124127a0482ce692bfab70ed25f926fa45758a))
+* qualify an imputed crime as presunto until a sentence is firm ([f36f02e](https://github.com/DianCotrina/keikogobierna/commit/f36f02ee1c10aeb06bbe9c45e903f69c638b733a))
+* read the whole cabinet from El Peruano's news note ([25456e7](https://github.com/DianCotrina/keikogobierna/commit/25456e767b6e8a848a53babf81973dc839cecc48))
+* record Marco Vinelli's announcement for Desarrollo Agrario ([663cee3](https://github.com/DianCotrina/keikogobierna/commit/663cee3d73cb58019ad77ae4249a66d4319420c1))
+* resolve ministries by the acronyms the press actually prints ([ce6d46e](https://github.com/DianCotrina/keikogobierna/commit/ce6d46e8f92c339281086697770d0d68bce8dd56))
+* seat the cabinet from the gazette instead of the press ([a8e1ace](https://github.com/DianCotrina/keikogobierna/commit/a8e1ace29a4f142d9c067973dd6b022452e7b9b8))
+
+
+### Bug Fixes
+
+* Arnillas' entry omitted the absolución he says followed ([adc9a24](https://github.com/DianCotrina/keikogobierna/commit/adc9a24172bae2fa72df4fb717b86e25e8301a14))
+* judicial signals missed a minister whose roster name outruns the headline ([a1be3b7](https://github.com/DianCotrina/keikogobierna/commit/a1be3b79f3ce523b7b686df8bd5fca676f80a655))
+* parse cabinet normas against the gazette's real grammar ([91672eb](https://github.com/DianCotrina/keikogobierna/commit/91672eb5dd97076a3b198ee7345c8e42fb629be4))
+* read the Edición Extraordinaria, where a new cabinet is published ([1da6858](https://github.com/DianCotrina/keikogobierna/commit/1da685850e96f836475e8aa29f81d35689bec88d))
+* resolve ministries when a headline runs past the office ([056e126](https://github.com/DianCotrina/keikogobierna/commit/056e12679499fe3065501a273c1e6ad74040cbb3))
+* restore the transport imports the evidence reader lost ([d7407e3](https://github.com/DianCotrina/keikogobierna/commit/d7407e388409a73ec1c145d747d50fff423d70d8))
+* run the El Peruano scraper the way the package requires ([a0f0b35](https://github.com/DianCotrina/keikogobierna/commit/a0f0b3544ad3b4f297608adba7802ad4a11d147a))
+
 ## [2.6.1](https://github.com/DianCotrina/keikogobierna/compare/v2.6.0...v2.6.1) (2026-07-31)
 
 
