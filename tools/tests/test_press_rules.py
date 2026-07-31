@@ -2,7 +2,7 @@
 
 A proclamation is not a Resolución Suprema, so what this produces is always
 provisional — it feeds the "anunciado" state and is superseded the moment the
-gazette publishes. See tools/scrapers/press_rules.py.
+gazette publishes. See tools/scrapers/common/press_rules.py.
 
 Fixtures are verbatim captures of the El Comercio and La República politics
 feeds from 2026-07-27, the day the cabinet was presented. They carry both the

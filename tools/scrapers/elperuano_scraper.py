@@ -68,7 +68,7 @@ def in_national_scope(record: dict) -> bool:
 # ---- Stage 1: fetch (public search page) --------------------------------------
 
 # ---- Stage 2: match against plan commitments ---------------------------------
-# Matching lives in tools/scrapers/matcher.py (shared). A norma's numero + tipo +
+# Matching lives in tools/scrapers/common/matcher.py (shared). A norma's numero + tipo +
 # sumilla is matched against the distinctive-phrase index built from the plan.
 
 
