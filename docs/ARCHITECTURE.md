@@ -159,6 +159,7 @@ tools/scrapers/
     ├── watcher_common   HTTP, RSS parsing, tokenization, GitHub plumbing, dedup_token, fold
     ├── elperuano_client transport for busquedas.elperuano.pe (turbo-stream + visor_html)
     ├── jne_client       transport for the JNE candidate API
+    ├── elperuano_client transport for busquedas.elperuano.pe (search page + dispositivo)
     ├── press_feeds      the outlet list and feed parsing, shared by every press consumer
     ├── infobae_rules    matches press items to the minister they profile
     ├── matcher          norma ↔ commitment matching

@@ -152,8 +152,6 @@ class SourceIsolationTest(unittest.TestCase):
         self.assertNotIn("La República", {i["source"] for i in items})
 
 
-if __name__ == "__main__":
-    unittest.main()
 
 
 INFOBAE_FIXTURE = (Path(__file__).resolve().parent / "fixtures" / "infobae_peru_20260728.xml").read_bytes()
@@ -177,3 +175,6 @@ class InfobaeFeedTest(unittest.TestCase):
         # article body ever needs reading.
         items = us.parse_feed(INFOBAE_FIXTURE, "Infobae")
         self.assertTrue(any(len(i["summary"]) > 80 for i in items))
+
+if __name__ == "__main__":
+    unittest.main()

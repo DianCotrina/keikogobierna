@@ -26,7 +26,7 @@ from tools.scrapers.common.cabinet_note_rules import parse_cabinet_note
 from tools.scrapers.common.cabinet_rules import PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, roster_names
 from tools.scrapers.common.press_feeds import fetch_sources
 from tools.scrapers.common.press_rules import announcements_from, judicial_signals
-from tools.scrapers.common.elperuano_client import MAX_PAGE_SIZE, fetch_page, fetch_visor_text
+from tools.scrapers.common.elperuano_client import fetch_normas, norma_text
 from tools.scrapers.common.watcher_common import (
     DEFAULT_REPO, create_issue, dedup_token, ensure_label, http_get, issue_exists)
 
@@ -46,17 +46,14 @@ def daterange(start: date, end: date):
 
 
 def fetch_day(day: date) -> list[dict]:
-    """All Normas Legales published on one day."""
-    stamp = day.strftime("%Y%m%d")
-    records: list[dict] = []
-    start = 0
-    while True:
-        page, has_next = fetch_page(stamp, stamp, start=start, paginated_by=MAX_PAGE_SIZE)
-        records.extend(page)
-        if not has_next or not page:
-            break
-        start += MAX_PAGE_SIZE
-    return records
+    """Everything the gazette published on one day.
+
+    Pagination, the three editions and the retry-on-transient-error live in the
+    shared transport, so a fix there reaches the evidence reader and this sweep
+    together. That was the point of moving it: El Peruano has already changed
+    shape twice, and having one reader to repair is the whole benefit.
+    """
+    return fetch_normas(day.strftime("%Y%m%d"), day.isoformat())
 
 
 def tenure_block(act: dict) -> str:
@@ -205,7 +202,7 @@ def run(start: date, end: date, dry_run: bool) -> int:
         print(f"{day.isoformat()}: {len(records)} normas, {len(candidates)} candidatas")
 
         for record in candidates:
-            act = parse_cabinet_act(record, fetch_visor_text(record["op"]))
+            act = parse_cabinet_act(record, norma_text(record))
             if not act:
                 # Detected as cabinet-shaped but unreadable. Say so loudly rather
                 # than guessing at a name.
