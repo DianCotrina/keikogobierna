@@ -12,7 +12,23 @@
           "kind": "primary"
         }
       ],
-      "judicial": []
+      "judicial": [
+        {
+          "id": "galarreta-investigaciones-activas",
+          "case": "Dos investigaciones activas",
+          "crime": "lavado de activos, abuso de autoridad y organización criminal",
+          "stage": "investigacion_preliminar",
+          "date": "2026-07-30",
+          "summary": "La República reporta que el presidente del Consejo de Ministros registra dos investigaciones activas por estos presuntos delitos, según lo que él mismo declaró. La nota no separa qué delito corresponde a cada investigación ni precisa fiscalía, expediente o etapa, por lo que ambas se resumen en una sola entrada y en la etapa más temprana. Su declaración jurada de hoja de vida ante el JNE no consigna sentencias penales; esa sección declara condenas, no investigaciones, así que no confirma ni desmiente lo anterior.",
+          "sources": [
+            {
+              "label": "La República — «Quince ministros tienen antecedentes» (30 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+              "kind": "press"
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "alfonso-carlos-espa-y-garces-alvear",
@@ -59,16 +75,37 @@
     {
       "slug": "cesar-augusto-astudillo-salcedo",
       "name": "César Augusto Astudillo Salcedo",
-      "profession": "",
+      "profession": "Ingeniero de Sistemas e Informática",
       "bio": "",
       "sources": [
         {
           "label": "El Peruano — N° 227-2026-PCM",
           "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-5",
           "kind": "primary"
+        },
+        {
+          "label": "Hoja de vida JNE (datos abiertos)",
+          "url": "https://apiplataformaelectoral3.jne.gob.pe/api/v1/candidato/hv-sentenciapenal?IdHojaVida=253823",
+          "kind": "primary"
         }
       ],
-      "judicial": []
+      "judicial": [
+        {
+          "id": "astudillo-peculado",
+          "case": "Investigación por peculado",
+          "crime": "peculado",
+          "stage": "investigacion_preliminar",
+          "date": "2026-07-30",
+          "summary": "La República reporta que el ministro mantiene una investigación activa por el presunto delito de peculado, a partir de lo que él mismo declaró al asumir el cargo. La nota no precisa la fiscalía, el expediente ni la etapa alcanzada, por lo que se registra en la etapa más temprana. Su declaración jurada de hoja de vida ante el JNE no consigna sentencias penales; esa sección declara condenas, no investigaciones, así que no confirma ni desmiente lo anterior.",
+          "sources": [
+            {
+              "label": "La República — «Quince ministros tienen antecedentes» (30 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+              "kind": "press"
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "ernesto-julio-alvarez-miranda",
