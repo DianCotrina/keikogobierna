@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.4](https://github.com/DianCotrina/keikogobierna/compare/v2.5.3...v2.5.4) (2026-07-31)
+
+
+### Bug Fixes
+
+* retry transient errors in the El Peruano fetch ([cf5d0df](https://github.com/DianCotrina/keikogobierna/commit/cf5d0dff68438c7e5c38dd8a3a0a376ea8a19cf1))
+
 ## [2.5.3](https://github.com/DianCotrina/keikogobierna/compare/v2.5.2...v2.5.3) (2026-07-31)
 
 
