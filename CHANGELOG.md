@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.1](https://github.com/DianCotrina/keikogobierna/compare/v2.6.0...v2.6.1) (2026-07-31)
+
+
+### Bug Fixes
+
+* drop subnational and generic-bigram noise from the review queue ([53efa5d](https://github.com/DianCotrina/keikogobierna/commit/53efa5dd18df776daeb9d5f7f0873b99e50a3337))
+
 ## [2.6.0](https://github.com/DianCotrina/keikogobierna/compare/v2.5.4...v2.6.0) (2026-07-31)
 
 
