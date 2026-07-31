@@ -1,6 +1,5 @@
 """Unit tests for the El Peruano scraper's deterministic stages (no network)."""
 
-import json
 import sys
 import unittest
 from pathlib import Path
@@ -9,24 +8,36 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scrapers"))
 
 import elperuano_scraper as er  # noqa: E402
 
-FIXTURE = Path(__file__).resolve().parent / "fixtures" / "graphql_sample.json"
+FIXTURES = Path(__file__).resolve().parent / "fixtures"
 
 
-class ParseResultsTest(unittest.TestCase):
-    def test_maps_fixture_hits_and_detects_next_page(self):
-        payload = json.loads(FIXTURE.read_text())
-        records, has_next = er.parse_results(payload)
-        self.assertEqual(len(records), len(payload["data"]["results"]["hits"]))
-        self.assertTrue(has_next)  # fixture captured with paginatedBy < totalHits
-        first = records[0]
-        self.assertEqual(set(first), {"tipo", "numero", "sector", "rubro", "sumilla", "url_pdf", "fecha", "op"})
-        self.assertTrue(all(isinstance(v, str) for v in first.values()))
-        self.assertRegex(first["op"], r"^\d+-\d+$")  # visor_html/dispositivo id
+class ParseSearchCardsTest(unittest.TestCase):
+    """Against a real 2026-07-25 Normas Legales search page (first 4 result cards)."""
 
-    def test_empty_payload_is_safe(self):
-        records, has_next = er.parse_results({})
-        self.assertEqual(records, [])
-        self.assertFalse(has_next)
+    def setUp(self):
+        page = (FIXTURES / "elperuano_search_nl.html").read_text(encoding="utf-8")
+        self.records = er.parse_search_cards(page, "NL", "2026-07-25")
+
+    def test_parses_every_card_with_all_fields(self):
+        self.assertEqual(len(self.records), 4)
+        for r in self.records:
+            self.assertEqual(
+                set(r),
+                {"tipo", "numero", "sector", "rubro", "sumilla", "url", "fecha", "op", "tipo_pub"},
+            )
+            self.assertTrue(r["tipo"] and r["numero"] and r["sumilla"] and r["op"])
+            self.assertRegex(r["op"], r"^\d+-\d+$")  # visor/dispositivo id
+            self.assertEqual(r["fecha"], "2026-07-25")
+            self.assertEqual(r["url"], f"https://busquedas.elperuano.pe/dispositivo/NL/{r['op']}")
+
+    def test_reads_real_norma_fields(self):
+        ley = next(r for r in self.records if r["tipo"] == "LEY")
+        self.assertEqual(ley["numero"], "N° 32739")
+        self.assertIn("escala remunerativa", ley["sumilla"])
+
+    def test_empty_page_is_safe(self):
+        self.assertEqual(
+            er.parse_search_cards("<html><body>sin resultados</body></html>", "NL", "2026-07-25"), [])
 
 
 class MatcherIntegrationTest(unittest.TestCase):
@@ -44,19 +55,16 @@ class MatcherIntegrationTest(unittest.TestCase):
             matcher.load_matcher().match("Designan fedatarios institucionales de la intendencia regional"), [])
 
 
-class HtmlToTextTest(unittest.TestCase):
-    """Against the captured real /api/visor_html rendition of R. Leg. N° 32726."""
+class NormaTextTest(unittest.TestCase):
+    """Against a captured /dispositivo/ page embedding R.M. N° 419-2026-MTC (Hoja de Ruta)."""
 
-    VISOR_FIXTURE = Path(__file__).resolve().parent / "fixtures" / "visor_html_2535114-1.html"
-
-    def test_extracts_full_single_norma_body(self):
-        text = er.html_to_text(self.VISOR_FIXTURE.read_bytes())
-        self.assertIn("Southern Vanguard", text)   # body, not just metadata
-        self.assertIn("Artículo 1", text)
-        self.assertIn("32726", text)
-        self.assertNotIn("32727", text)            # no bleed into the neighboring norma
-        self.assertNotIn("Texto Integrado del Reglamento", text)  # <head> title noise stripped
-        self.assertNotIn("<", text)                # tags stripped
+    def test_extracts_clean_single_norma_body(self):
+        page = (FIXTURES / "elperuano_dispositivo_2538172-1.html").read_bytes()
+        text = er.html_to_text(er.extract_visor_html(page))
+        self.assertIn("Hoja de Ruta", text)   # this norma's body
+        self.assertIn("Que,", text)            # considerandos, not just metadata
+        self.assertNotIn("Pataz", text)        # neighboring norma's <title> — <head> stripped
+        self.assertNotIn("<", text)            # tags stripped
         self.assertGreater(len(text), 3000)
 
 
