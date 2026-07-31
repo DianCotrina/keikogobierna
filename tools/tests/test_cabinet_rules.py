@@ -23,7 +23,7 @@ from pathlib import Path
 
 
 from tools.scrapers.common.cabinet_rules import is_cabinet_norma, parse_cabinet_act, portfolio_id  # noqa: E402
-from tools.scrapers.elperuano_scraper import html_to_text  # noqa: E402
+from tools.scrapers.common.elperuano_client import html_to_text  # noqa: E402
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures"
 RECORDS = json.loads((FIXTURES / "normas_20260318.json").read_text(encoding="utf-8"))
@@ -250,3 +250,43 @@ class PortfolioAliases(unittest.TestCase):
     def test_existing_resolution_still_works(self):
         self.assertEqual(portfolio_id("Ministerio de Educación"), "m-educacion")
         self.assertEqual(portfolio_id("Desarrollo Agrario y Riego"), "m-agrario")
+
+
+class SearchPageRecordShape(unittest.TestCase):
+    """The gazette transport changed shape on 2026-07-31.
+
+    The retired single-fetch route gave `url_pdf` and a `YYYYMMDD` fecha; the
+    search-page reader gives `url` and an already-ISO fecha. Reading the old
+    names against the new records yields empty strings rather than an error, so
+    a cabinet act would have been filed with no date and no source link.
+    """
+
+    def _record(self, **over):
+        base = {
+            "tipo": "RESOLUCIÓN SUPREMA",
+            "numero": "N° 085-2026-PCM",
+            "sumilla": "Nombran Ministro de Estado en el Despacho de Salud",
+            "url": "https://busquedas.elperuano.pe/dispositivo/NL/2496970-9",
+            "fecha": "2026-03-18",
+            "op": "2496970-9",
+        }
+        base.update(over)
+        return base
+
+    BODY = ("Nombrar Ministro de Estado en el Despacho de Salud, a la señora "
+            "Ana Torres Quispe.")
+
+    def test_the_act_keeps_the_date_and_the_link(self):
+        act = parse_cabinet_act(self._record(), self.BODY)
+        self.assertIsNotNone(act)
+        self.assertEqual(act["date"], "2026-03-18")
+        self.assertEqual(act["url"], "https://busquedas.elperuano.pe/dispositivo/NL/2496970-9")
+
+    def test_the_retired_field_names_still_work(self):
+        # normas-archive holds records captured under the old transport.
+        act = parse_cabinet_act(
+            self._record(fecha="20260318", url=None,
+                         url_pdf="https://busquedas.elperuano.pe/x.PDF"),
+            self.BODY)
+        self.assertEqual(act["date"], "2026-03-18")
+        self.assertEqual(act["url"], "https://busquedas.elperuano.pe/x.PDF")

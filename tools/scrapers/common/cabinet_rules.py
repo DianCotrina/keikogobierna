@@ -176,9 +176,20 @@ def is_cabinet_norma(record: dict) -> bool:
     return _cabinet_office(record.get("sumilla") or "") is not None
 
 
-def _iso_date(yyyymmdd: str) -> str:
-    raw = (yyyymmdd or "").strip()
-    return f"{raw[0:4]}-{raw[4:6]}-{raw[6:8]}" if len(raw) == 8 and raw.isdigit() else ""
+def _iso_date(value: str) -> str:
+    """Accept either gazette date shape.
+
+    The retired single-fetch route gave `20260318`; the search-page reader gives
+    `2026-03-18` already. Records captured under the old transport survive in
+    normas-archive, so both must keep working — and a shape this function does
+    not recognise must return "" rather than something plausible-but-wrong.
+    """
+    raw = (value or "").strip()
+    if len(raw) == 8 and raw.isdigit():
+        return f"{raw[0:4]}-{raw[4:6]}-{raw[6:8]}"
+    if len(raw) == 10 and raw[4] == raw[7] == "-" and raw.replace("-", "").isdigit():
+        return raw
+    return ""
 
 
 def _clean(name: str) -> str:
@@ -221,5 +232,6 @@ def parse_cabinet_act(record: dict, text: str):
         "portfolio": pid,
         "norma": (record.get("numero") or "").strip(),
         "date": _iso_date(record.get("fecha")),
-        "url": (record.get("url_pdf") or "").strip(),
+        # `url` is the search-page reader's field; `url_pdf` the retired one's.
+        "url": (record.get("url") or record.get("url_pdf") or "").strip(),
     }
