@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.3](https://github.com/DianCotrina/keikogobierna/compare/v2.5.2...v2.5.3) (2026-07-31)
+
+
+### Bug Fixes
+
+* repoint the El Peruano reader at the new search page ([92e3610](https://github.com/DianCotrina/keikogobierna/commit/92e361098b90e1e37ecdd1b212b31a5ced295ea5))
+
 ## [2.5.2](https://github.com/DianCotrina/keikogobierna/compare/v2.5.1...v2.5.2) (2026-07-29)
 
 
