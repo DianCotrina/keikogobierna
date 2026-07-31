@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { STAGES, stageMeta, recordBadge, activeEntries } from '../src/lib/judicial.mjs';
+import { STAGES, stageMeta, recordBadge, activeEntries, isAlleged } from '../src/lib/judicial.mjs';
 
 const person = (...stages) => ({ judicial: stages.map((stage, i) => ({ id: `c${i}`, stage })) });
 
@@ -70,4 +70,34 @@ test('a single conviction is counted in the singular', () => {
 
 test('activeEntries drops exculpatory entries', () => {
   assert.equal(activeEntries(person('absuelto', 'archivado', 'juicio_oral')).length, 1);
+});
+
+
+// The qualifier tracks the stage rather than blanketing the page: hedging a
+// firm sentence would misstate a proven fact, and hedging an acquittal would
+// read as insinuation. Both are worse than not hedging at all.
+test('an open proceeding attributes the crime as presunto', () => {
+  for (const stage of ['investigacion_preliminar', 'investigacion_preparatoria',
+                       'acusacion_fiscal', 'juicio_oral', 'sentencia_no_firme']) {
+    assert.equal(isAlleged(stage), true, stage);
+  }
+});
+
+test('a final sentence is a fact, not an allegation', () => {
+  assert.equal(isAlleged('sentencia_firme'), false);
+});
+
+test('an exculpatory outcome is never qualified', () => {
+  for (const stage of ['absuelto', 'archivado', 'prescrito']) {
+    assert.equal(isAlleged(stage), false, stage);
+  }
+});
+
+test('an unknown stage is not qualified, because nothing is known about it', () => {
+  assert.equal(isAlleged('no_such_stage'), false);
+});
+
+test('a sentence under appeal is still presunto — it is not yet firm', () => {
+  assert.equal(stageMeta('sentencia_no_firme').rank > 0, true);
+  assert.equal(isAlleged('sentencia_no_firme'), true);
 });

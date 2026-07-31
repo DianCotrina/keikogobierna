@@ -39,6 +39,24 @@ export function stageMeta(stage) {
   return STAGES[stage] ?? { label: String(stage), color: 'plomo', rank: 0 };
 }
 
+/**
+ * Is the crime in this entry still an accusation rather than a fact?
+ *
+ * The stage is a fact -- a case really is in investigación preliminar -- but
+ * the crime attributed inside it is not, until a sentence is final. So the
+ * qualifier belongs to the crime and is derived from the stage, never typed
+ * into an entry's prose, or the data drifts from the disclaimer above it.
+ *
+ * `sentencia_firme` is excluded on purpose: it is res judicata, and calling it
+ * "presunto" would misstate the record and cheapen the word everywhere else it
+ * appears. Rank 0 is excluded too -- an absolución needs no hedging, and
+ * qualifying a favourable outcome would read as insinuation.
+ */
+export function isAlleged(stage) {
+  const { rank } = stageMeta(stage);
+  return rank >= 1 && stage !== 'sentencia_firme';
+}
+
 const entriesOf = (person) => (person && Array.isArray(person.judicial)) ? person.judicial : [];
 
 /** Entries that represent a live proceeding — everything above rank 0. */
