@@ -13,7 +13,11 @@ import { plural } from './format.mjs';
 
 export const STAGES = {
   sentencia_firme: { label: 'Sentencia firme', color: 'rojo', rank: 6 },
-  sentencia_no_firme: { label: 'Sentencia en apelación', color: 'rojo', rank: 5 },
+  // "no firme" rather than "en apelación": the key is only that the sentence
+  // has not become final. It covers one under appeal, one still within the term
+  // to appeal, and one whose finality we have not been able to establish --
+  // three different situations that "en apelación" asserted wrongly for two.
+  sentencia_no_firme: { label: 'Sentencia no firme', color: 'rojo', rank: 5 },
   juicio_oral: { label: 'En juicio oral', color: 'ambar', rank: 4 },
   acusacion_fiscal: { label: 'Acusación fiscal', color: 'ambar', rank: 3 },
   investigacion_preparatoria: { label: 'Investigación preparatoria', color: 'ambar', rank: 2 },
@@ -22,8 +26,6 @@ export const STAGES = {
   archivado: { label: 'Archivado', color: 'plomo', rank: 0 },
   prescrito: { label: 'Prescrito', color: 'plomo', rank: 0 },
 };
-
-const CONVICTIONS = new Set(['sentencia_firme', 'sentencia_no_firme']);
 
 /**
  * The live stages in order, rank 1 upward — the rungs a proceeding climbs.
@@ -55,6 +57,25 @@ export function stageMeta(stage) {
 export function isAlleged(stage) {
   const { rank } = stageMeta(stage);
   return rank >= 1 && stage !== 'sentencia_firme';
+}
+
+/**
+ * Does this entry rest only on press reporting, with no primary document?
+ *
+ * The workflow says to use a press signal to go looking for the resolution and
+ * never to stage from a headline. Sometimes the resolution cannot be reached:
+ * the Poder Judicial's search is captcha-gated and needs an expediente number
+ * the article did not print. Publishing anyway is defensible -- it is a public
+ * report about a public official, attributed -- but publishing it as though we
+ * had read the ruling is not, and until now the page rendered both identically.
+ *
+ * So the reader is told which one they are looking at, and the entry's date is
+ * labelled as the report's rather than the ruling's, because that is the only
+ * date we actually have.
+ */
+export function isPressOnly(entry) {
+  const sources = (entry && Array.isArray(entry.sources)) ? entry.sources : [];
+  return sources.length > 0 && !sources.some((s) => s && s.kind === 'primary');
 }
 
 const entriesOf = (person) => (person && Array.isArray(person.judicial)) ? person.judicial : [];
@@ -96,10 +117,16 @@ export function recordBadge(person) {
   const worst = active.reduce((a, b) => (stageMeta(b.stage).rank > stageMeta(a.stage).rank ? b : a));
   const meta = stageMeta(worst.stage);
 
-  const convictions = active.filter((e) => CONVICTIONS.has(e.stage)).length;
-  const open = active.length - convictions;
+  // A non-final sentence is counted apart from a firm one. Both used to read
+  // "condena", which stated as settled fact the very thing the entry below
+  // qualifies as presunto -- the summary and the entry have to agree, and the
+  // one that must give is the summary.
+  const firm = active.filter((e) => e.stage === 'sentencia_firme').length;
+  const notFirm = active.filter((e) => e.stage === 'sentencia_no_firme').length;
+  const open = active.length - firm - notFirm;
   const detail = [
-    convictions > 0 ? plural(convictions, 'condena', 'condenas') : null,
+    firm > 0 ? plural(firm, 'condena firme', 'condenas firmes') : null,
+    notFirm > 0 ? plural(notFirm, 'sentencia no firme', 'sentencias no firmes') : null,
     open > 0 ? plural(open, 'proceso abierto', 'procesos abiertos') : null,
   ].filter(Boolean).join(' · ');
 

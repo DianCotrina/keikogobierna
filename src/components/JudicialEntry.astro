@@ -1,6 +1,6 @@
 ---
 import Stamp from './Stamp.astro';
-import { LADDER, stageMeta, isAlleged } from '../lib/judicial.mjs';
+import { LADDER, stageMeta, isAlleged, isPressOnly } from '../lib/judicial.mjs';
 import { formatDateEs } from '../lib/format.mjs';
 import type { JudicialEntry } from '../lib/cabinet-types';
 
@@ -19,6 +19,7 @@ const { entry } = Astro.props;
 const meta = stageMeta(entry.stage);
 const resolved = meta.rank === 0;
 const alleged = isAlleged(entry.stage);
+const pressOnly = isPressOnly(entry);
 const dateEs = formatDateEs(entry.date);
 ---
 
@@ -71,11 +72,24 @@ const dateEs = formatDateEs(entry.date);
     </p>
   )}
 
+  {pressOnly && (
+    <p class="mt-3 flex gap-2 font-mono text-[0.7rem] leading-[1.6] text-tintafina">
+      <span aria-hidden="true">⚑</span>
+      <span>
+        Según prensa · no hemos contrastado la resolución. La consulta de expedientes del
+        Poder Judicial exige un número de expediente que la nota no publica.
+      </span>
+    </p>
+  )}
+
   <dl class="mt-4 grid gap-x-8 gap-y-1 sm:grid-cols-2 font-mono text-xs text-tintafina">
     {entry.body && (
       <div class="flex gap-2"><dt class="shrink-0">Órgano:</dt><dd class="text-tintasuave">{entry.body}</dd></div>
     )}
-    <div class="flex gap-2"><dt class="shrink-0">Fecha:</dt><dd class="text-tintasuave">{dateEs}</dd></div>
+    <div class="flex gap-2">
+      <dt class="shrink-0">{pressOnly ? 'Fecha del reporte:' : 'Fecha:'}</dt>
+      <dd class="text-tintasuave">{dateEs}</dd>
+    </div>
     {entry.expediente && (
       <div class="flex gap-2 sm:col-span-2"><dt class="shrink-0">Expediente:</dt><dd class="text-tintasuave break-all">{entry.expediente}</dd></div>
     )}

@@ -76,6 +76,24 @@ Set `stage` to what the resolution says. If the case was archived, absolved or
 prescribed, use the exculpatory stage — those rank 0 and must never colour the
 badge.
 
+**When the resolution cannot be reached.** The CEJ search needs an expediente
+number, and press notes rarely print one. Publishing on the press alone is a
+judgement call, not the default — it is defensible when the outlet is
+identifiable, the person is a public official, and the report is of the
+person's *own declaration* rather than someone's accusation. When you do it:
+
+- mark it by giving the entry only `kind: "press"` sources. `isPressOnly()`
+  reads that and the dossier shows «Según prensa · no hemos contrastado la
+  resolución», with the date labelled *Fecha del reporte* — it is the report's
+  date, not the ruling's, and the entry must not imply otherwise.
+- stage a sentence whose finality you could not establish as `sentencia_no_firme`.
+  Not `sentencia_firme`: firmness is the thing you failed to verify. The label
+  reads "Sentencia no firme" for exactly this reason.
+- say in the `summary` what you could not check and why.
+
+A single `kind: "primary"` source clears the flag, so replacing the marker later
+is just adding the resolution to `sources`.
+
 ### 5. Validate and open a PR
 
 ```bash
