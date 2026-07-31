@@ -216,11 +216,11 @@
       "judicial": [
         {
           "id": "arnillas-lesiones-culposas",
-          "case": "Condena por lesiones culposas",
+          "case": "Sentencia por lesiones graves (accidente de 1996)",
           "crime": "lesiones culposas",
           "stage": "sentencia_no_firme",
           "date": "2026-07-29",
-          "summary": "El propio ministro consignó en su declaración haber sido sentenciado por lesiones culposas, con pena suspendida de un año, según lo reportado por La República. No hemos podido contrastar la resolución: las notas no publican el número de expediente ni el órgano que sentenció, y sin ese dato la consulta del Poder Judicial no permite ubicar el caso. Tampoco consta si la sentencia quedó firme, por lo que se registra como no firme.",
+          "summary": "El propio ministro reconoció el hecho y lo consignó en la declaración jurada que presentó al asumir el Ministerio de Vivienda: fue sentenciado por causar lesiones graves y abandonar a un acompañante tras un accidente ocurrido en 1996, con pena suspendida de un año. Según su propia versión, en 2009 se emitió una resolución que lo absolvió; no hemos podido contrastar ni la sentencia ni esa absolución, porque las notas no publican el número de expediente y sin él la consulta del Poder Judicial no permite ubicar el caso. Mientras la absolución no esté verificada, la sentencia se registra como no firme y no como condena firme.",
           "sources": [
             {
               "label": "La República — «Arnillas fue sentenciado por lesiones culposas» (29 jul 2026)",
