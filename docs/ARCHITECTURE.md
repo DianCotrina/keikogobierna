@@ -149,12 +149,12 @@ Identity is a human decision too: the tool searches and drafts in two separate p
 
 ## Discovery pipeline
 
-Python, stdlib only. `tools/scrapers/watcher_common.py` holds what every source shares: HTTP, RSS parsing, tokenization, GitHub issue/label plumbing, and `dedup_token()`.
 Python, stdlib only (`pypdf` is the single exception — an El Peruano PDF fallback).
 The tree separates what you *run* from what those runs *import*:
 ```
 tools/scrapers/
 ├── <six CLIs>.py        build_commitment_index · cabinet_scraper · elperuano_scraper
+│                        jne_scraper · ultimitas_scraper · infobae_profiles
 └── common/              imported, never executed
     ├── watcher_common   HTTP, RSS parsing, tokenization, GitHub plumbing, dedup_token, fold
     ├── elperuano_client transport for busquedas.elperuano.pe (turbo-stream + visor_html)
