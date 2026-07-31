@@ -203,3 +203,140 @@ class FetchNormasTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ExtraordinaryEditionTest(unittest.TestCase):
+    """A change of government runs in the Edición Extraordinaria, not Normas Legales.
+
+    Against the real EX search page of 2026-07-28 (page 0 of the day Keiko's
+    cabinet was sworn in). NL that day carried five records; EX carried the
+    whole cabinet. While TIPOS_PUBLICACION was ("NL", "BO", "PC") the sweep
+    read a gazette that had published 19 nombramientos and reported none.
+    """
+
+    def setUp(self):
+        page = (FIXTURES / "elperuano_search_ex_20260728.html").read_text(encoding="utf-8")
+        self.records = ec.parse_search_cards(page, "EX", "2026-07-28")
+
+    def test_the_sweep_reads_the_extraordinary_edition(self):
+        self.assertIn("EX", ec.TIPOS_PUBLICACION)
+
+    def test_the_edition_parses_like_any_other(self):
+        self.assertEqual(len(self.records), 20)
+        for r in self.records:
+            self.assertTrue(r["tipo"] and r["numero"] and r["sumilla"])
+            self.assertEqual(r["fecha"], "2026-07-28")
+            self.assertEqual(r["url"], f"https://busquedas.elperuano.pe/dispositivo/EX/{r['op']}")
+
+    def test_every_card_on_the_page_is_a_cabinet_act(self):
+        from tools.scrapers.common.cabinet_rules import is_cabinet_norma
+        self.assertTrue(all(is_cabinet_norma(r) for r in self.records))
+
+    def test_carries_the_pcm_appointment(self):
+        pcm = next(r for r in self.records
+                   if "Presidente del Consejo de Ministros" in r["sumilla"]
+                   and r["sumilla"].startswith("Nombran"))
+        self.assertEqual(pcm["numero"], "N° 223-2026-PCM")
+        self.assertEqual(pcm["tipo"], "RESOLUCIÓN SUPREMA")
+
+
+class RequestPacingTest(unittest.TestCase):
+    """Gazette requests are paced, or the site throttles a sweep into silence."""
+
+    def setUp(self):
+        self.real_get, self.real_sleep = ec.http_get, ec.time.sleep
+        self.slept = []
+        ec.http_get = lambda url, headers=None: b"<html></html>"
+        ec.time.sleep = self.slept.append
+        ec._last_request = 0.0
+
+    def tearDown(self):
+        ec.http_get, ec.time.sleep = self.real_get, self.real_sleep
+        ec._last_request = 0.0
+
+    def test_back_to_back_requests_wait(self):
+        ec._throttled_get("https://example.test/a")
+        self.slept.clear()
+        ec._throttled_get("https://example.test/b")
+        self.assertTrue(self.slept, "second request went out with no delay")
+        self.assertLessEqual(max(self.slept), ec.REQUEST_DELAY)
+
+    def test_norma_text_is_paced_too(self):
+        """The /dispositivo/ fetch is one request per norma -- the bulk of a sweep."""
+        ec._throttled_get("https://example.test/a")
+        self.slept.clear()
+        ec.norma_text({"url": "https://example.test/n", "sumilla": "x", "numero": "1"})
+        self.assertTrue(self.slept, "norma_text bypassed the pacing")
+
+
+class NormaTextRetryTest(unittest.TestCase):
+    """A norma body gets the same retries a search page does."""
+
+    def setUp(self):
+        self.real_get, self.real_sleep = ec.http_get, ec.time.sleep
+        ec.time.sleep = lambda _s: None
+        ec._last_request = 0.0
+
+    def tearDown(self):
+        ec.http_get, ec.time.sleep = self.real_get, self.real_sleep
+        ec._last_request = 0.0
+
+    def test_a_transient_failure_does_not_lose_the_body(self):
+        calls = []
+        body = b'<div id="visor-html"><html><body>Nombran a Fulano de Tal</body></html></div>'
+
+        def flaky(url, headers=None):
+            calls.append(url)
+            if len(calls) < 3:
+                raise urllib.error.URLError("simulated reset")
+            return body
+
+        ec.http_get = flaky
+        text = ec.norma_text({"url": "https://example.test/n", "sumilla": "Nombran", "numero": "1"})
+        self.assertEqual(len(calls), 3)
+        self.assertIn("Fulano de Tal", text)
+
+    def test_persistent_failure_still_falls_back_to_the_sumilla(self):
+        ec.http_get = lambda url, headers=None: (_ for _ in ()).throw(urllib.error.URLError("down"))
+        text = ec.norma_text({"url": "https://example.test/n", "sumilla": "Nombran Ministro", "numero": "1"})
+        self.assertEqual(text, "Nombran Ministro")
+
+
+class InlineTagWordSplitTest(unittest.TestCase):
+    """A word broken across styling spans must come back whole.
+
+    Real rendition of R.S. 211-2026-PCM, where the gazette emits
+    "…Riego, f</span><span>ormula el señor…". Turning every tag into a space
+    gave "f ormula", and _BODY_RESIGN -- which needs that verb -- read the
+    norma as unparseable. Two resignations in the 2026-07-28 cabinet edition
+    were lost to it.
+    """
+
+    def setUp(self):
+        self.raw = (FIXTURES / "visor_html_2538522-8.html").read_bytes()
+
+    def test_the_fixture_still_contains_the_split(self):
+        """Guards the guard: pointless test if the gazette markup were clean."""
+        self.assertIn(b"f</span>", self.raw)
+
+    def test_the_word_survives_extraction(self):
+        text = ec.html_to_text(self.raw)
+        self.assertNotIn("f ormula", text)
+        self.assertIn("formula el señor Felipe César Meza Millán", text)
+
+    def test_block_tags_still_separate_words(self):
+        text = ec.html_to_text(b"<p>Ministro de Salud</p><p>Lima, 28 de julio</p>")
+        self.assertIn("Salud Lima", text)
+
+    def test_the_resignation_now_parses(self):
+        from tools.scrapers.common.cabinet_rules import parse_cabinet_act
+        record = {
+            "tipo": "RESOLUCIÓN SUPREMA", "numero": "N° 211-2026-PCM",
+            "sumilla": "Aceptan renuncia de Ministro de Desarrollo Agrario y Riego",
+            "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538522-8",
+            "fecha": "2026-07-28", "op": "2538522-8",
+        }
+        act = parse_cabinet_act(record, ec.html_to_text(self.raw))
+        self.assertEqual(act["action"], "renuncia")
+        self.assertEqual(act["person"], "Felipe César Meza Millán")
+        self.assertEqual(act["portfolio"], "m-agrario")
