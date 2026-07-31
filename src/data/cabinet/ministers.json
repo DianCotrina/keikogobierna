@@ -206,9 +206,75 @@
           "label": "El Peruano — N° 237-2026-PCM",
           "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-15",
           "kind": "primary"
+        },
+        {
+          "label": "La República — «Arnillas fue sentenciado por lesiones culposas» (29 jul 2026)",
+          "url": "https://larepublica.pe/politica/2026/07/29/mauricio-arnillas-nuevo-ministro-de-vivienda-de-keiko-fujimori-fue-sentenciado-por-lesiones-culposas-hnews-1361869",
+          "kind": "press"
         }
       ],
-      "judicial": []
+      "judicial": [
+        {
+          "id": "arnillas-lesiones-culposas",
+          "case": "Condena por lesiones culposas",
+          "crime": "lesiones culposas",
+          "stage": "sentencia_no_firme",
+          "date": "2026-07-29",
+          "summary": "El propio ministro consignó en su declaración haber sido sentenciado por lesiones culposas, con pena suspendida de un año, según lo reportado por La República. No hemos podido contrastar la resolución: las notas no publican el número de expediente ni el órgano que sentenció, y sin ese dato la consulta del Poder Judicial no permite ubicar el caso. Tampoco consta si la sentencia quedó firme, por lo que se registra como no firme.",
+          "sources": [
+            {
+              "label": "La República — «Arnillas fue sentenciado por lesiones culposas» (29 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/29/mauricio-arnillas-nuevo-ministro-de-vivienda-de-keiko-fujimori-fue-sentenciado-por-lesiones-culposas-hnews-1361869",
+              "kind": "press"
+            },
+            {
+              "label": "La República — «Quince ministros tienen antecedentes» (30 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+              "kind": "press"
+            }
+          ]
+        },
+        {
+          "id": "arnillas-estafa",
+          "case": "Investigación por estafa",
+          "crime": "estafa",
+          "stage": "archivado",
+          "date": "2026-07-29",
+          "summary": "Antecedente consignado por el propio ministro y reportado por La República, que lo ubica entre las investigaciones archivadas. Un archivamiento no es una condena ni una acusación vigente. No hemos contrastado la resolución de archivo.",
+          "sources": [
+            {
+              "label": "La República — «Arnillas fue sentenciado por lesiones culposas» (29 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/29/mauricio-arnillas-nuevo-ministro-de-vivienda-de-keiko-fujimori-fue-sentenciado-por-lesiones-culposas-hnews-1361869",
+              "kind": "press"
+            },
+            {
+              "label": "La República — «Quince ministros tienen antecedentes» (30 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+              "kind": "press"
+            }
+          ]
+        },
+        {
+          "id": "arnillas-falsedad-ideologica",
+          "case": "Investigación por falsedad ideológica",
+          "crime": "falsedad ideológica",
+          "stage": "archivado",
+          "date": "2026-07-29",
+          "summary": "Antecedente consignado por el propio ministro y reportado por La República, que lo ubica entre las investigaciones archivadas. Un archivamiento no es una condena ni una acusación vigente. No hemos contrastado la resolución de archivo.",
+          "sources": [
+            {
+              "label": "La República — «Arnillas fue sentenciado por lesiones culposas» (29 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/29/mauricio-arnillas-nuevo-ministro-de-vivienda-de-keiko-fujimori-fue-sentenciado-por-lesiones-culposas-hnews-1361869",
+              "kind": "press"
+            },
+            {
+              "label": "La República — «Quince ministros tienen antecedentes» (30 jul 2026)",
+              "url": "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+              "kind": "press"
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "maria-magdalena-seminario-maron",

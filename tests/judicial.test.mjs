@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { STAGES, stageMeta, recordBadge, activeEntries, isAlleged } from '../src/lib/judicial.mjs';
+import { STAGES, stageMeta, recordBadge, activeEntries, isAlleged, isPressOnly } from '../src/lib/judicial.mjs';
 
 const person = (...stages) => ({ judicial: stages.map((stage, i) => ({ id: `c${i}`, stage })) });
 
@@ -100,4 +100,48 @@ test('an unknown stage is not qualified, because nothing is known about it', () 
 test('a sentence under appeal is still presunto — it is not yet firm', () => {
   assert.equal(stageMeta('sentencia_no_firme').rank > 0, true);
   assert.equal(isAlleged('sentencia_no_firme'), true);
+});
+
+// Provenance has to be visible: an entry read off a resolution and one read off
+// a newspaper cannot render identically, or the badge overstates what we know.
+test('an entry with only press sources is flagged as press-only', () => {
+  assert.equal(isPressOnly({ sources: [{ kind: 'press', url: 'https://x' }] }), true);
+});
+
+test('one primary source is enough to clear the flag', () => {
+  assert.equal(isPressOnly({ sources: [
+    { kind: 'press', url: 'https://x' },
+    { kind: 'primary', url: 'https://y' },
+  ] }), false);
+});
+
+test('an entry with no sources is not flagged — the validator rejects it first', () => {
+  assert.equal(isPressOnly({ sources: [] }), false);
+  assert.equal(isPressOnly({}), false);
+});
+
+test('a non-final sentence is labelled by its finality, not by an assumed appeal', () => {
+  assert.equal(stageMeta('sentencia_no_firme').label, 'Sentencia no firme');
+});
+
+test('the badge summary never calls a non-final sentence a condena', () => {
+  const badge = recordBadge({ judicial: [{ id: 'a', stage: 'sentencia_no_firme' }] });
+  assert.equal(badge.detail, '1 sentencia no firme');
+  assert.ok(!badge.detail.includes('condena'), badge.detail);
+});
+
+test('a firm sentence is counted as a condena firme', () => {
+  assert.equal(recordBadge({ judicial: [{ id: 'a', stage: 'sentencia_firme' }] }).detail,
+               '1 condena firme');
+});
+
+test('the three counts read together, worst stage first', () => {
+  const badge = recordBadge({ judicial: [
+    { id: 'a', stage: 'sentencia_firme' },
+    { id: 'b', stage: 'sentencia_no_firme' },
+    { id: 'c', stage: 'investigacion_preliminar' },
+    { id: 'd', stage: 'archivado' },
+  ] });
+  assert.equal(badge.detail, '1 condena firme · 1 sentencia no firme · 1 proceso abierto');
+  assert.equal(badge.label, 'Sentencia firme');
 });
