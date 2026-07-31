@@ -31,6 +31,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -97,6 +99,22 @@ def parse_search_cards(page: str, tipo_pub: str, iso_date: str) -> list[dict]:
     return records
 
 
+RETRY_ATTEMPTS = 4  # the site returns transient 404s/5xx under load; one blip must not kill the day
+
+
+def _get_page(url: str) -> str:
+    """GET a search page, retrying transient HTTP/network errors with backoff."""
+    for attempt in range(RETRY_ATTEMPTS):
+        try:
+            return http_get(url).decode("utf-8", "replace")
+        except (urllib.error.HTTPError, urllib.error.URLError) as err:
+            if attempt == RETRY_ATTEMPTS - 1:
+                raise
+            print(f"WARN: {url} failed ({err}); retry {attempt + 1}/{RETRY_ATTEMPTS - 1}", file=sys.stderr)
+            time.sleep(2 ** attempt)  # 1s, 2s, 4s
+    raise AssertionError("unreachable")  # loop either returns or raises
+
+
 def fetch_normas(yyyymmdd: str, iso_date: str) -> list[dict]:
     """The day's normas across all three editions, de-duplicated by op."""
     records: list[dict] = []
@@ -104,7 +122,16 @@ def fetch_normas(yyyymmdd: str, iso_date: str) -> list[dict]:
     for tipo_pub in TIPOS_PUBLICACION:
         for page_no in range(MAX_PAGES):
             url = SEARCH_URL.format(d=yyyymmdd, tipo=tipo_pub, start=page_no * PAGE_SIZE)
-            cards = parse_search_cards(http_get(url).decode("utf-8", "replace"), tipo_pub, iso_date)
+            try:
+                page = _get_page(url)
+            except urllib.error.HTTPError as err:
+                # A normal edition-end is a short page, not a 404; a 404 that persists
+                # past page 0 is the pagination tail — stop this edition instead of failing.
+                if err.code == 404 and page_no > 0:
+                    print(f"WARN: {tipo_pub} start={page_no * PAGE_SIZE}: 404 after retries — end of edition", file=sys.stderr)
+                    break
+                raise
+            cards = parse_search_cards(page, tipo_pub, iso_date)
             for rec in cards:
                 if rec["op"] not in seen:
                     seen.add(rec["op"])
