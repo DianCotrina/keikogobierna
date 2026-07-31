@@ -23,8 +23,19 @@ from .watcher_common import http_get
 BASE = "https://busquedas.elperuano.pe"
 SEARCH_URL = BASE + "/?fechaIni={d}&fechaFin={d}&tipoPublicacion={tipo}&ci=ONLY&start={start}"
 DISPOSITIVO_URL = BASE + "/dispositivo/{tipo_pub}/{op}"
-# The three daily editions the site exposes: Normas Legales, Boletín Oficial, PC.
-TIPOS_PUBLICACION = ("NL", "BO", "PC")
+# The daily editions the site exposes: Normas Legales, Boletín Oficial, PC and
+# the Edición Extraordinaria.
+#
+# EX is not an optional extra. A change of government is published there, not in
+# Normas Legales: on 2026-07-28 the whole cabinet -- 19 nombramientos (R.S.
+# 223-241-2026-PCM) and 19 renuncias (204-222) -- ran in EX, while NL that day
+# carried five records. Reading only NL/BO/PC, the sweep saw a cabinet that had
+# been sworn in three days earlier and reported zero appointments.
+#
+# It also costs normas on ordinary days (10 on 2026-03-18). EX answers 200 with
+# zero cards on a day that has no extraordinary edition, so it needs no special
+# casing -- the short-page break already handles it.
+TIPOS_PUBLICACION = ("NL", "BO", "PC", "EX")
 PAGE_SIZE = 20   # cards per search page (site-fixed)
 MAX_PAGES = 60   # safety cap per edition: 60*20 = 1200 normas/day
 def _text(match: "re.Match | None") -> str:
@@ -63,18 +74,47 @@ def parse_search_cards(page: str, tipo_pub: str, iso_date: str) -> list[dict]:
 
 RETRY_ATTEMPTS = 4  # the site returns transient 404s/5xx under load; one blip must not kill the day
 
+# Minimum gap between requests. The load the retry comment describes is our own:
+# a day's sweep is ~60 search pages plus one /dispositivo/ per candidate norma,
+# and unpaced the site starts answering 404 and then dropping the TLS connection
+# outright. Backoff does not help, because by then every retry is throttled too.
+#
+# It reads as a slow failure rather than a refusal, which is how it hid: fetching
+# the 2026-07-28 cabinet, 4 of 38 normas came back and the other 34 fell to the
+# sumilla, so the sweep reported them as unreadable normas instead of requests
+# that were never answered. Paced, all 38 read.
+REQUEST_DELAY = 0.8
+_last_request = 0.0
 
-def _get_page(url: str) -> str:
-    """GET a search page, retrying transient HTTP/network errors with backoff."""
+
+def _throttled_get(url: str) -> bytes:
+    """http_get, never faster than REQUEST_DELAY since the last gazette request."""
+    global _last_request
+    wait = REQUEST_DELAY - (time.monotonic() - _last_request)
+    if wait > 0:
+        time.sleep(wait)
+    try:
+        return http_get(url)
+    finally:
+        _last_request = time.monotonic()
+
+
+def _get_with_retry(url: str) -> bytes:
+    """GET, retrying transient HTTP/network errors with backoff."""
     for attempt in range(RETRY_ATTEMPTS):
         try:
-            return http_get(url).decode("utf-8", "replace")
+            return _throttled_get(url)
         except (urllib.error.HTTPError, urllib.error.URLError) as err:
             if attempt == RETRY_ATTEMPTS - 1:
                 raise
             print(f"WARN: {url} failed ({err}); retry {attempt + 1}/{RETRY_ATTEMPTS - 1}", file=sys.stderr)
             time.sleep(2 ** attempt)  # 1s, 2s, 4s
     raise AssertionError("unreachable")  # loop either returns or raises
+
+
+def _get_page(url: str) -> str:
+    """GET a search page. HTTPError still propagates: fetch_normas reads its code."""
+    return _get_with_retry(url).decode("utf-8", "replace")
 
 
 def fetch_normas(yyyymmdd: str, iso_date: str) -> list[dict]:
@@ -108,13 +148,24 @@ def fetch_normas(yyyymmdd: str, iso_date: str) -> list[dict]:
     return records
 
 
+# Tags that carry no word boundary. The rendition splits words across styling
+# spans -- "…Agrario y Riego, f</span><span>ormula el señor…" in R.S.
+# 211-2026-PCM -- so turning every tag into a space yields "f ormula" and any
+# pattern reading that sentence fails on a word that is not actually broken.
+_INLINE_TAGS = (
+    "span|b|i|em|strong|u|a|sub|sup|small|font|mark|abbr|cite|q|s|tt|code|var|big"
+)
+
+
 def html_to_text(raw: bytes) -> str:
     """Plain text from a single-norma HTML rendition (stdlib only).
 
     The <head> goes too: the rendition's <title> carries an unrelated norma's name.
+    Inline tags are removed without a space, everything else becomes one.
     """
     text = re.sub(r"<head\b.*?</head>", " ", raw.decode("utf-8", "replace"), flags=re.S | re.I)
     text = re.sub(r"<(script|style)\b.*?</\1>", " ", text, flags=re.S | re.I)
+    text = re.sub(rf"</?(?:{_INLINE_TAGS})\b[^>]*>", "", text, flags=re.I)
     text = re.sub(r"<[^>]+>", " ", text)
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
@@ -136,9 +187,15 @@ def norma_text(record: dict) -> str:
     everything else on that page (toolbar, sibling normas) is stripped by working
     from that box only. Any fetch/parse blip falls back to the sumilla so a
     candidate is never lost to it.
+
+    It retries like a search page does. These are the bulk of a sweep's requests
+    -- one per candidate norma -- yet they used to get a single attempt, so the
+    throttling that a search page shrugged off dropped norma bodies outright.
+    The fallback then hid it: a sumilla names an office but never a person, so
+    the caller saw an unreadable norma rather than a request that failed.
     """
     try:
-        visor = extract_visor_html(http_get(record["url"]))
+        visor = extract_visor_html(_get_with_retry(record["url"]))
         if visor:
             text = html_to_text(visor)
             if len(text) > len(record["sumilla"]):
