@@ -33,6 +33,7 @@ import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+from tools.scrapers.common.elperuano_client import fetch_normas, norma_text
 from tools.scrapers.common.matcher import load_matcher
 from tools.scrapers.common.watcher_common import (
     DEFAULT_REPO,
