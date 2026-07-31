@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 13 * * *' # daily ~08:00 Lima, after publication
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Backfill one day (YYYY-MM-DD); blank = today'
+        required: false
+        default: ''
 
 permissions:
   issues: write
@@ -15,8 +20,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Read El Peruano and file candidate issues
-        run: python3 tools/scrapers/elperuano_scraper.py --archive-dir "$RUNNER_TEMP/normas"
+        run: python3 tools/scrapers/elperuano_scraper.py ${DATE:+--date "$DATE"} --archive-dir "$RUNNER_TEMP/normas"
         env:
+          DATE: ${{ inputs.date }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
       - name: Push the day's records to the normas-archive branch
