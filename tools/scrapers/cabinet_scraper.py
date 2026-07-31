@@ -94,7 +94,7 @@ def issue_body(act: dict, token: str) -> str:
         "```",
         "",
         "Revisa contra la norma antes de abrir el PR. El nombre debe corresponder a "
-        "una persona ya registrada en `people.json`, o crear su ficha primero.",
+        "una persona ya registrada en `ministers.json`, o crear su ficha primero.",
         "",
         f"<!-- {token} -->",
     ])
@@ -176,7 +176,7 @@ def run_press(dry_run: bool) -> int:
         print(f"      {s['source']} · {s['published']} · {s['url']}")
     if signals:
         print("\nNinguna de estas señales es un hecho probado. Contrasta cada una contra "
-              "el expediente en el Poder Judicial antes de anotar nada en people.json, "
+              "el expediente en el Poder Judicial antes de anotar nada en ministers.json, "
               "y registra la etapa que diga la resolución, no el titular.")
 
     if not dry_run:

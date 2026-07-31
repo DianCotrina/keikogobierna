@@ -109,7 +109,7 @@ A topic id is recoverable from any commitment id by cutting at the `.` — the m
 ```
 src/data/cabinet/
 ├── portfolios.json   # Registry: 19 carteras, each mapped to the plan topics it owns
-├── people.json       # Dossiers: bio + judicial record, one entry per person
+├── ministers.json    # Dossiers: bio + judicial record, one entry per minister
 ├── tenures.json      # Living state: who held what, when, and under which norma
 └── announcements.json # Provisional: named in public, not yet appointed by norma
 ```
@@ -126,7 +126,7 @@ People live in one file rather than one per person because `src/lib/cabinet.mjs`
 
 Press detection is structural, not a blocklist: it requires an announcing verb, then a name, then a linking word, then an office. That shape rejects the headlines that surround a real announcement (ex-minister quotes, profile pieces, "Premier League") without any hand-maintained stoplist. Its ceiling is the source, not the rule — RSS carries headlines only, and only marquee appointments get their own headline, so it recovers the PCM and a portfolio or two rather than a full cabinet.
 
-**Hoja de vida (JNE).** Candidates file a sworn Declaración Jurada de Hoja de Vida — education, work history, party roles, and any criminal or civil sentences — and the JNE publishes it through an open API (`apiplataformaelectoral3.jne.gob.pe`, OpenAPI at `/swagger/v1/swagger.json`). `jne_scraper.py` drafts a `people.json` entry from it.
+**Hoja de vida (JNE).** Candidates file a sworn Declaración Jurada de Hoja de Vida — education, work history, party roles, and any criminal or civil sentences — and the JNE publishes it through an open API (`apiplataformaelectoral3.jne.gob.pe`, OpenAPI at `/swagger/v1/swagger.json`). `jne_scraper.py` drafts a `ministers.json` entry from it.
 
 Three constraints found the hard way, all recorded in `jne_client.py` and `jne_rules.py`:
 - The website's own name search (`POST /candidato/avanzada`) is captcha-gated. `ListaCandidatos` returns the whole roll without one, so that is what the client uses. Seven of the API's 118 endpoints need a captcha; none of the ones here do.
@@ -171,7 +171,7 @@ Rules modules are pure — no I/O, no network, no CLI — which is why they carr
 | `elperuano_scraper.py` | El Peruano public search page (`/?fechaIni&fechaFin&tipoPublicacion&start`, editions NL/BO/PC) + `/dispositivo/<tipoPub>/<op>` for full norma text | daily 13:00 UTC (~08:00 Lima) | Issues + `normas-archive` branch |
 | `cabinet_scraper.py` | The same reader, filtered by `cabinet_rules.py` | on demand (backfill) | Issues labeled `cambio-de-gabinete` |
 | `cabinet_scraper.py --press` | The shared press feeds via `press_rules.py` | on demand | Proposed `announcements.json` block |
-| `jne_scraper.py` | JNE Plataforma Electoral API, via `jne_rules.py` | on demand | Draft `people.json` entry for review |
+| `jne_scraper.py` | JNE Plataforma Electoral API, via `jne_rules.py` | on demand | Draft `ministers.json` entry for review |
 | `cabinet_scraper.py --press` (tail) | Same press feeds, `judicial_signals()` | on demand | Judicial coverage of roster people, for a human to chase |
 | `ultimitas_scraper.py` | El Comercio + La República + RPP + Gestión RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
 

@@ -2,7 +2,7 @@
  * The cabinet data shapes, named once.
  *
  * `src/data/cabinet/*.json` arrives through static ESM imports, so TypeScript
- * infers `never` for every field while a file is still empty (people.json has
+ * infers `never` for every field while a file is still empty (ministers.json has
  * one entry; tenures.json has none). These declarations are what the pages and
  * cards type against instead — and having one home for them means adding a
  * field to a dossier is a single edit rather than a hunt through the cards.

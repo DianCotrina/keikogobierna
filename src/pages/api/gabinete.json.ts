@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { loadPortfolios, loadPeople, loadTenures, loadAnnouncements } from '../../lib/cabinet.mjs';
+import { loadPortfolios, loadMinisters, loadTenures, loadAnnouncements } from '../../lib/cabinet.mjs';
 import pkg from '../../../package.json';
 
 // Static datos-abiertos endpoint: rendered once at build into dist/api/gabinete.json.
@@ -13,7 +13,7 @@ export const GET: APIRoute = () => {
       notice: 'Las etapas procesales no son sentencias. Toda persona es inocente mientras no se declare judicialmente su responsabilidad.',
     },
     portfolios: loadPortfolios(),
-    people: loadPeople(),
+    ministers: loadMinisters(),
     tenures: loadTenures(),
     // Provisional: announced in public, not yet appointed by norma. Superseded
     // by a tenure on the same portfolio the moment one exists.

@@ -2,11 +2,11 @@
  * Build-time access to the cabinet data, plus the aggregates the pages need.
  *
  * Three entities, mirroring the plan data's registry / detail / living-state
- * split: `portfolios` is a frozen registry, `people` carries the dossiers, and
+ * split: `portfolios` is a frozen registry, `ministers` carries the dossiers, and
  * `tenures` is the edge between them and the only file that changes often.
  *
  * JSON arrives through static ESM imports, like plan.mjs — `fs` reads break
- * under the bundler. People live in one file rather than one file per person
+ * under the bundler. Ministers live in one file rather than one file each
  * because static imports cannot enumerate a directory that grows every time
  * the cabinet changes.
  *
@@ -14,7 +14,7 @@
  * supply a roster without depending on whatever is committed today.
  */
 import portfoliosFile from '../data/cabinet/portfolios.json' with { type: 'json' };
-import peopleFile from '../data/cabinet/people.json' with { type: 'json' };
+import ministersFile from '../data/cabinet/ministers.json' with { type: 'json' };
 import tenuresFile from '../data/cabinet/tenures.json' with { type: 'json' };
 import announcementsFile from '../data/cabinet/announcements.json' with { type: 'json' };
 
@@ -28,8 +28,8 @@ export function loadPortfolios() {
   return portfoliosFile.portfolios;
 }
 
-export function loadPeople() {
-  return peopleFile.people;
+export function loadMinisters() {
+  return ministersFile.ministers;
 }
 
 export function loadTenures() {
@@ -49,7 +49,7 @@ export function loadAnnouncements() {
 }
 
 const dataset = (data) => ({
-  people: data?.people ?? loadPeople(),
+  ministers: data?.ministers ?? loadMinisters(),
   tenures: data?.tenures ?? loadTenures(),
   announcements: data?.announcements ?? loadAnnouncements(),
 });
@@ -84,13 +84,13 @@ export function daysLabel(days) {
 
 /**
  * One row per portfolio, vacancies included — the roster is about the offices,
- * not only the people currently filling them.
+ * not only the ministers currently filling them.
  */
 export function currentCabinet(data, today = new Date()) {
-  const { people, tenures, announcements } = dataset(data);
+  const { ministers, tenures, announcements } = dataset(data);
   return loadPortfolios().map((portfolio) => {
     const tenure = tenures.find((t) => t.portfolio === portfolio.id && !t.end) ?? null;
-    const person = tenure ? people.find((p) => p.slug === tenure.person) ?? null : null;
+    const person = tenure ? ministers.find((m) => m.slug === tenure.person) ?? null : null;
     // An announcement only surfaces while the gazette is silent.
     const announced = tenure
       ? null
@@ -99,7 +99,7 @@ export function currentCabinet(data, today = new Date()) {
     // press-reported name is that ficha — a name match is not an identity
     // match. Absent or unresolvable, the card shows the raw reported name only.
     const announcement = announced
-      ? { ...announced, person: people.find((p) => p.slug === announced.person) ?? null }
+      ? { ...announced, person: ministers.find((m) => m.slug === announced.person) ?? null }
       : null;
     return {
       portfolio,
@@ -113,20 +113,20 @@ export function currentCabinet(data, today = new Date()) {
 
 /** Closed tenures, most recently ended first. */
 export function pastTenures(data) {
-  const { people, tenures } = dataset(data);
+  const { ministers, tenures } = dataset(data);
   return tenures
     .filter((t) => t.end)
     .sort((a, b) => b.end.localeCompare(a.end))
     .map((tenure) => ({
       tenure,
-      person: people.find((p) => p.slug === tenure.person) ?? null,
+      person: ministers.find((m) => m.slug === tenure.person) ?? null,
       portfolio: portfolioById(tenure.portfolio) ?? null,
       days: tenureDays(tenure),
     }));
 }
 
 export function cabinetStats(data, today = new Date()) {
-  const { people, tenures, announcements } = dataset(data);
+  const { ministers, tenures, announcements } = dataset(data);
   const serving = tenures.filter((t) => !t.end);
   const servedPortfolios = new Set(serving.map((t) => t.portfolio));
   const servingSlugs = new Set(serving.map((t) => t.person));
@@ -136,7 +136,7 @@ export function cabinetStats(data, today = new Date()) {
     serving: serving.length,
     // Counts sitting ministers with at least one live proceeding. Someone whose
     // only entries are archived, prescribed or acquitted is deliberately absent.
-    withActiveCases: people
+    withActiveCases: ministers
       .filter((p) => servingSlugs.has(p.slug))
       .filter((p) => activeEntries(p).length > 0).length,
     // Outstanding announcements only: once the norma lands the portfolio has a

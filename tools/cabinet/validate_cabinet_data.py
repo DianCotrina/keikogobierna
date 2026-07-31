@@ -18,7 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent.parent
 CABINET_DIR = ROOT / "src" / "data" / "cabinet"
 PORTFOLIOS_PATH = CABINET_DIR / "portfolios.json"
-PEOPLE_PATH = CABINET_DIR / "people.json"
+MINISTERS_PATH = CABINET_DIR / "ministers.json"
 TENURES_PATH = CABINET_DIR / "tenures.json"
 ANNOUNCEMENTS_PATH = CABINET_DIR / "announcements.json"
 PLAN_INDEX_PATH = ROOT / "src" / "data" / "plan" / "index.json"
@@ -44,11 +44,11 @@ def load_json(path: Path):
 
 def load_all():
     portfolios = load_json(PORTFOLIOS_PATH)["portfolios"]
-    people = load_json(PEOPLE_PATH)["people"]
+    ministers = load_json(MINISTERS_PATH)["ministers"]
     tenures = load_json(TENURES_PATH)["tenures"]
     announcements = load_json(ANNOUNCEMENTS_PATH)["announcements"]
     topic_ids = {t["id"] for t in load_json(PLAN_INDEX_PATH)["topics"]}
-    return portfolios, people, tenures, topic_ids, announcements
+    return portfolios, ministers, tenures, topic_ids, announcements
 
 
 def _check_sources(sources, where: str, errors: list) -> None:
@@ -82,7 +82,7 @@ def _check_date(value, where: str, errors: list, today: str, allow_future: bool 
     return True
 
 
-def validate(portfolios, people, tenures, topic_ids, announcements=None, today=None) -> list:
+def validate(portfolios, ministers, tenures, topic_ids, announcements=None, today=None) -> list:
     today = today or date.today().isoformat()
     announcements = announcements or []
     errors: list = []
@@ -101,14 +101,14 @@ def validate(portfolios, people, tenures, topic_ids, announcements=None, today=N
             if topic not in topic_ids:
                 errors.append(f"portfolios[{pid}]: topic '{topic}' is not a plan topic id")
 
-    # ---- people: the dossiers ----------------------------------------------
-    seen_people = set()
-    for person in people:
+    # ---- ministers: the dossiers -------------------------------------------
+    seen_ministers = set()
+    for person in ministers:
         slug = person.get("slug")
-        where = f"people[{slug}]"
-        if slug in seen_people:
-            errors.append(f"people: duplicate slug '{slug}'")
-        seen_people.add(slug)
+        where = f"ministers[{slug}]"
+        if slug in seen_ministers:
+            errors.append(f"ministers: duplicate slug '{slug}'")
+        seen_ministers.add(slug)
         if not person.get("name"):
             errors.append(f"{where}: missing 'name'")
 
@@ -133,8 +133,8 @@ def validate(portfolios, people, tenures, topic_ids, announcements=None, today=N
         where = f"tenures[{i}]"
         person_slug = tenure.get("person")
         portfolio_id = tenure.get("portfolio")
-        if person_slug not in seen_people:
-            errors.append(f"{where}: person '{person_slug}' has no entry in people.json")
+        if person_slug not in seen_ministers:
+            errors.append(f"{where}: person '{person_slug}' has no entry in ministers.json")
         if portfolio_id not in seen_portfolios:
             errors.append(f"{where}: portfolio '{portfolio_id}' is not a known portfolio")
 
@@ -185,8 +185,8 @@ def validate(portfolios, people, tenures, topic_ids, announcements=None, today=N
         # Optional: set by hand once someone confirmed the reported name is
         # that ficha. A name match is not an identity match.
         linked = item.get("person")
-        if linked is not None and linked not in seen_people:
-            errors.append(f"{where}: person '{linked}' has no entry in people.json")
+        if linked is not None and linked not in seen_ministers:
+            errors.append(f"{where}: person '{linked}' has no entry in ministers.json")
         _check_date(item.get("announced"), f"{where}.announced", errors, today)
         _check_sources(item.get("sources"), where, errors)
 
@@ -207,14 +207,14 @@ def validate(portfolios, people, tenures, topic_ids, announcements=None, today=N
 
 
 def main() -> None:
-    portfolios, people, tenures, topic_ids, announcements = load_all()
-    errors = validate(portfolios, people, tenures, topic_ids, announcements)
+    portfolios, ministers, tenures, topic_ids, announcements = load_all()
+    errors = validate(portfolios, ministers, tenures, topic_ids, announcements)
     if errors:
         for error in errors:
             print(f"FAIL: {error}")
         sys.exit(1)
     serving = sum(1 for t in tenures if t.get("end") is None)
-    print(f"OK: cabinet/ valid — {len(portfolios)} portfolios, {len(people)} people, "
+    print(f"OK: cabinet/ valid — {len(portfolios)} portfolios, {len(ministers)} ministers, "
           f"{len(tenures)} tenures ({serving} serving), {len(announcements)} anunciados")
 
 
