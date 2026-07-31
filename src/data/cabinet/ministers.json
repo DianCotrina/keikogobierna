@@ -13,6 +13,258 @@
         }
       ],
       "judicial": []
+    },
+    {
+      "slug": "alfonso-carlos-espa-y-garces-alvear",
+      "name": "Alfonso Carlos Espá y Garcés-Alvear",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 224-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-2",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "rafael-jorge-belaunde-llosa",
+      "name": "Rafael Jorge Belaunde Llosa",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 225-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-3",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "elmer-rafael-cuba-bustinza",
+      "name": "Elmer Rafael Cuba Bustinza",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 226-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-4",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "cesar-augusto-astudillo-salcedo",
+      "name": "César Augusto Astudillo Salcedo",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 227-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-5",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "ernesto-julio-alvarez-miranda",
+      "name": "Ernesto Julio Álvarez Miranda",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 228-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-6",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "jose-antonio-chang-escobedo",
+      "name": "José Antonio Chang Escobedo",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 229-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-7",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "luis-williams-dyer-fernandez",
+      "name": "Luis Williams Dyer Fernández",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 230-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-8",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "marco-antonio-vinelli-ruiz",
+      "name": "Marco Antonio Vinelli Ruiz",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 231-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-9",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "juan-manuel-kosme-sheput-moore",
+      "name": "Juan Manuel Kosme Sheput Moore",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 232-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-10",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "juan-carlos-requejo-aleman",
+      "name": "Juan Carlos Requejo Alemán",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 233-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-11",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "rogers-martin-valencia-espinoza",
+      "name": "Rogers Martín Valencia Espinoza",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 234-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-12",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "guillermo-shinno-huamani",
+      "name": "Guillermo Shinno Huamaní",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 235-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-13",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "rafael-rey-rey",
+      "name": "Rafael Rey Rey",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 236-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-14",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "mauricio-fernando-arnillas-gonzalez",
+      "name": "Mauricio Fernando Arnillas González",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 237-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-15",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "maria-magdalena-seminario-maron",
+      "name": "María Magdalena Seminario Marón",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 238-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-16",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "vladimiro-huaroc-portocarrero",
+      "name": "Vladimiro Huaroc Portocarrero",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 239-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-17",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "alberto-ismael-beingolea-delgado",
+      "name": "Alberto Ismael Beingolea Delgado",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 240-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-18",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
+    },
+    {
+      "slug": "maritza-ivonne-canales-martinez",
+      "name": "Maritza Ivonne Canales Martínez",
+      "profession": "",
+      "bio": "",
+      "sources": [
+        {
+          "label": "El Peruano — N° 241-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-19",
+          "kind": "primary"
+        }
+      ],
+      "judicial": []
     }
   ]
 }

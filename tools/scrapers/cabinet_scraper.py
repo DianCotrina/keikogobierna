@@ -23,7 +23,8 @@ import sys
 from datetime import date, timedelta
 
 from tools.scrapers.common.cabinet_note_rules import parse_cabinet_note
-from tools.scrapers.common.cabinet_rules import PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, roster_names
+from tools.scrapers.common.cabinet_rules import (
+    CABINET_DIR, PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, reconcile, roster_names)
 from tools.scrapers.common.press_feeds import fetch_sources
 from tools.scrapers.common.press_rules import announcements_from, judicial_signals
 from tools.scrapers.common.elperuano_client import fetch_normas, norma_text
@@ -184,6 +185,63 @@ def run_press(dry_run: bool) -> int:
     return 0
 
 
+def sweep_acts(start: date, end: date) -> list:
+    """Every readable cabinet act in a date range."""
+    acts = []
+    for day in daterange(start, end):
+        records = fetch_day(day)
+        candidates = [r for r in records if is_cabinet_norma(r)]
+        print(f"{day.isoformat()}: {len(records)} normas, {len(candidates)} candidatas")
+        for record in candidates:
+            act = parse_cabinet_act(record, norma_text(record))
+            if act:
+                acts.append(act)
+            else:
+                # Detected as cabinet-shaped but unreadable. Say so loudly rather
+                # than guessing at a name.
+                print(f"  ! no se pudo leer {record['numero']} (op={record['op']})")
+    return acts
+
+
+def _read(filename: str, key: str) -> list:
+    return json.loads((CABINET_DIR / filename).read_text(encoding="utf-8"))[key]
+
+
+def run_fill(start: date, end: date) -> int:
+    """Turn announced ministers into gazette-backed entries, for a person to merge.
+
+    The announcements are provisional -- a proclamation is not a Resolución
+    Suprema. This reconciles them against the gazette and prints the
+    ministers.json and tenures.json entries the normas actually support, plus
+    every disagreement. It writes nothing: the same human gate as everywhere
+    else, and here it earns its keep, because the press had five of the
+    nineteen names wrong.
+    """
+    acts = sweep_acts(start, end)
+    result = reconcile(acts, _read("announcements.json", "announcements"),
+                       _read("ministers.json", "ministers"))
+
+    print(f"\n{len(result['tenures'])} nombramiento(s) con norma; "
+          f"{len(result['ministers'])} ficha(s) nueva(s).")
+
+    if result["conflicts"]:
+        print("\nRevisar antes de fusionar:")
+        for c in result["conflicts"]:
+            extra = f" — anunciado: «{c['announced']}»" if c.get("announced") else ""
+            gazette = f" — norma: «{c['gazette']}»" if c.get("gazette") else ""
+            print(f"  [{c['kind']}] {c['portfolio']}{gazette}{extra}\n      {c['detail']}")
+    else:
+        print("\nSin discrepancias: cada cartera anunciada tiene su norma.")
+
+    print("\n--- src/data/cabinet/ministers.json (entradas nuevas) ---")
+    print(json.dumps({"ministers": result["ministers"]}, ensure_ascii=False, indent=2))
+    print("\n--- src/data/cabinet/tenures.json ---")
+    print(json.dumps({"tenures": result["tenures"]}, ensure_ascii=False, indent=2))
+    print("\n`profession` y `bio` van vacíos a propósito: la norma no dice nada de "
+          "eso. Escríbelos tú y cita la fuente. Este comando no escribe nada.")
+    return 0
+
+
 def run(start: date, end: date, dry_run: bool) -> int:
     repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
     gh_token = os.environ.get("GITHUB_TOKEN")
@@ -238,6 +296,9 @@ def main() -> int:
                         help="read a whole cabinet from an El Peruano news note")
     parser.add_argument("--announced", metavar="YYYY-MM-DD",
                         help="date the cabinet was presented (default: today)")
+    parser.add_argument("--fill", action="store_true",
+                        help="reconcile the announced roster against the gazette and print "
+                             "the ministers.json + tenures.json entries to merge")
     parser.add_argument("--dry-run", action="store_true",
                         help="print proposed blocks without creating issues")
     args = parser.parse_args()
@@ -255,6 +316,8 @@ def main() -> int:
     if end < start:
         print("--to precedes --from", file=sys.stderr)
         return 2
+    if args.fill:
+        return run_fill(start, end)
     return run(start, end, args.dry_run)
 
 

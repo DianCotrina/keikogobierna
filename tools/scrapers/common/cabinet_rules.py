@@ -235,3 +235,98 @@ def parse_cabinet_act(record: dict, text: str):
         # `url` is the search-page reader's field; `url_pdf` the retired one's.
         "url": (record.get("url") or record.get("url_pdf") or "").strip(),
     }
+
+
+def slugify(name: str) -> str:
+    """Person name -> ministers.json slug."""
+    return re.sub(r"[^a-z0-9]+", "-", _fold(name)).strip("-")
+
+
+def _same_person(gazette: str, announced: str) -> bool:
+    """Do a gazette name and a press-reported one denote the same person?
+
+    The press drops middle names and gets them wrong -- it printed "Mara
+    Seminario Marón" for María Magdalena, and "Roger" for Rogers Martín -- so
+    equality is useless here. Surnames are what survives: Peruvian names carry
+    two, and the gazette prints the full legal name, so the announced name's
+    last two tokens must both appear in it.
+    """
+    gazette_tokens = set(_fold(gazette).split())
+    announced_tokens = _fold(announced).split()
+    if len(announced_tokens) < 2:
+        return False
+    return all(token in gazette_tokens for token in announced_tokens[-2:])
+
+
+def reconcile(acts: list, announcements: list, ministers: list) -> dict:
+    """Match gazette appointments to the announced roster.
+
+    Returns the ministers.json and tenures.json entries the gazette supports,
+    plus every disagreement a person needs to look at. Nothing here writes: the
+    caller prints it and a human merges, the same gate the norma -> tracking
+    path uses.
+
+    A minister entry carries only what the gazette actually states -- slug, name
+    and the norma as its source. `profession` and `bio` stay empty because the
+    gazette says nothing about either, and a blank field is honest where an
+    invented one is not.
+    """
+    by_slug = {m.get("slug") for m in ministers}
+    announced_by_portfolio = {a.get("portfolio"): a for a in announcements}
+
+    new_ministers, tenures, conflicts = [], [], []
+    seen: set = set()
+
+    for act in acts:
+        if act.get("action") != "nombramiento":
+            continue
+        portfolio, name = act.get("portfolio"), act.get("person")
+        if not portfolio or not name:
+            continue
+        slug = slugify(name)
+        if slug in seen:
+            conflicts.append({"kind": "duplicado", "portfolio": portfolio, "gazette": name,
+                              "detail": f"'{slug}' aparece dos veces en el barrido"})
+            continue
+        seen.add(slug)
+
+        announced = announced_by_portfolio.get(portfolio)
+        if announced is None:
+            conflicts.append({"kind": "sin-anuncio", "portfolio": portfolio, "gazette": name,
+                              "detail": "la norma nombra una cartera que nadie anunció"})
+        elif not _same_person(name, announced.get("person_name", "")):
+            conflicts.append({"kind": "nombre-distinto", "portfolio": portfolio, "gazette": name,
+                              "announced": announced.get("person_name", ""),
+                              "detail": "la prensa y la norma no coinciden en la persona"})
+
+        if slug not in by_slug:
+            new_ministers.append({
+                "slug": slug,
+                "name": name,
+                "profession": "",
+                "bio": "",
+                "sources": [{
+                    "label": f"El Peruano — {act['norma']}",
+                    "url": act["url"],
+                    "kind": "primary",
+                }],
+                "judicial": [],
+            })
+        tenures.append({
+            "person": slug,
+            "portfolio": portfolio,
+            "start": act["date"],
+            "end": None,
+            "appointment_norma": {"numero": act["norma"], "url": act["url"], "date": act["date"]},
+            "exit_norma": None,
+            "exit_reason": None,
+        })
+
+    missing = [a for pid, a in announced_by_portfolio.items()
+               if pid not in {t["portfolio"] for t in tenures}]
+    for a in missing:
+        conflicts.append({"kind": "sin-norma", "portfolio": a.get("portfolio"),
+                          "announced": a.get("person_name", ""),
+                          "detail": "anunciado pero el barrido no halló su norma"})
+
+    return {"ministers": new_ministers, "tenures": tenures, "conflicts": conflicts}
