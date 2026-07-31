@@ -1,3 +1,251 @@
 {
-  "tenures": []
+  "tenures": [
+    {
+      "person": "luis-fernando-galarreta-velarde",
+      "portfolio": "pcm",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 223-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-1",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "alfonso-carlos-espa-y-garces-alvear",
+      "portfolio": "m-relaciones-exteriores",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 224-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-2",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "rafael-jorge-belaunde-llosa",
+      "portfolio": "m-defensa",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 225-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-3",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "elmer-rafael-cuba-bustinza",
+      "portfolio": "m-economia",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 226-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-4",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "cesar-augusto-astudillo-salcedo",
+      "portfolio": "m-interior",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 227-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-5",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "ernesto-julio-alvarez-miranda",
+      "portfolio": "m-justicia",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 228-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-6",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "jose-antonio-chang-escobedo",
+      "portfolio": "m-educacion",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 229-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-7",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "luis-williams-dyer-fernandez",
+      "portfolio": "m-salud",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 230-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-8",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "marco-antonio-vinelli-ruiz",
+      "portfolio": "m-agrario",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 231-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-9",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "juan-manuel-kosme-sheput-moore",
+      "portfolio": "m-trabajo",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 232-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-10",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "juan-carlos-requejo-aleman",
+      "portfolio": "m-produccion",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 233-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-11",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "rogers-martin-valencia-espinoza",
+      "portfolio": "m-comercio-exterior",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 234-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-12",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "guillermo-shinno-huamani",
+      "portfolio": "m-energia-minas",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 235-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-13",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "rafael-rey-rey",
+      "portfolio": "m-transportes",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 236-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-14",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "mauricio-fernando-arnillas-gonzalez",
+      "portfolio": "m-vivienda",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 237-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-15",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "maria-magdalena-seminario-maron",
+      "portfolio": "m-mujer",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 238-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-16",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "vladimiro-huaroc-portocarrero",
+      "portfolio": "m-ambiente",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 239-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-17",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "alberto-ismael-beingolea-delgado",
+      "portfolio": "m-cultura",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 240-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-18",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    },
+    {
+      "person": "maritza-ivonne-canales-martinez",
+      "portfolio": "m-desarrollo-social",
+      "start": "2026-07-28",
+      "end": null,
+      "appointment_norma": {
+        "numero": "N° 241-2026-PCM",
+        "url": "https://busquedas.elperuano.pe/dispositivo/EX/2538529-19",
+        "date": "2026-07-28"
+      },
+      "exit_norma": null,
+      "exit_reason": null
+    }
+  ]
 }
