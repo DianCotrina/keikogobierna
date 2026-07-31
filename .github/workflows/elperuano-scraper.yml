@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Read El Peruano and file candidate issues
-        run: python3 tools/scrapers/elperuano_scraper.py ${DATE:+--date "$DATE"} --archive-dir "$RUNNER_TEMP/normas"
+        run: python3 -m tools.scrapers.elperuano_scraper ${DATE:+--date "$DATE"} --archive-dir "$RUNNER_TEMP/normas"
         env:
           DATE: ${{ inputs.date }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

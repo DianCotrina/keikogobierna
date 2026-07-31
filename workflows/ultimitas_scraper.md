@@ -29,8 +29,10 @@ listing, not evidence; it never touches `tracking.json` or `main`.
 
 ## Tuning
 
-- `SOURCES` / `KEYWORDS` in `tools/scrapers/ultimitas_scraper.py`. Adding an outlet =
-  one `SOURCES` entry + a fuentes card (+ optionally a captured-fixture test).
+- `SOURCES` in `tools/scrapers/common/press_feeds.py` — shared, so an outlet added there
+  also reaches the cabinet sweep's `--press` pass. `KEYWORDS` stays in
+  `tools/scrapers/ultimitas_scraper.py`: it is what this page keeps, not what gets fetched.
+  Adding an outlet = one `SOURCES` entry + a fuentes card (+ optionally a captured-fixture test).
   Alberto/Kenji Fujimori false positives are accepted at launch; tighten keywords if
   they annoy.
 - Copyright rule: only title, link, description snippet, author, date. Never store
