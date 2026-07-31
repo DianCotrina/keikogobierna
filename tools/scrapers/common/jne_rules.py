@@ -202,7 +202,7 @@ def _slug(name: str) -> str:
 
 
 def draft_person(candidate: dict, hoja_vida: dict) -> dict:
-    """A people.json entry ready for review — never for merging as-is."""
+    """A ministers.json entry ready for review — never for merging as-is."""
     name = _full_name(candidate)
     hv_id = candidate.get("idHojaVida")
     return {

@@ -6,7 +6,7 @@ a hoja de vida exists only for people who stood for election. The press is the
 remaining public account, and Infobae profiles nearly the whole cabinet.
 
 This prints a review packet — headline, summary, link, per cartera — and a
-draft people.json entry with `profession` and `bio` left blank.
+draft ministers.json entry with `profession` and `bio` left blank.
 
 It never writes. It never reads an article body either: the summaries below come
 from the feed's own <description>, the same field /ultimitas/ already displays.
@@ -34,14 +34,14 @@ OUTLET = "Infobae"
 
 def roster() -> list:
     """Every cartera with a named holder — appointed or announced."""
-    people = {p["slug"]: p for p in json.loads(
-        (CABINET_DIR / "people.json").read_text(encoding="utf-8"))["people"]}
+    ministers = {m["slug"]: m for m in json.loads(
+        (CABINET_DIR / "ministers.json").read_text(encoding="utf-8"))["ministers"]}
     announcements = json.loads(
         (CABINET_DIR / "announcements.json").read_text(encoding="utf-8"))["announcements"]
 
     rows = []
     for entry in announcements:
-        linked = people.get(entry.get("person") or "")
+        linked = ministers.get(entry.get("person") or "")
         rows.append({
             "portfolio": entry["portfolio"],
             "person_name": (linked or {}).get("name") or entry["person_name"],
@@ -56,7 +56,7 @@ def portfolio_names() -> dict:
 
 
 def draft(person_name: str, url: str) -> str:
-    """The people.json skeleton, with what only a person can write left blank."""
+    """The ministers.json skeleton, with what only a person can write left blank."""
     return json.dumps({
         "slug": _slug(person_name),
         "name": person_name,
@@ -75,12 +75,12 @@ def run(only: str | None) -> int:
     items_by_outlet = [a for a in articles if a.get("source") == OUTLET]
     print(f"{len(articles)} notas en total, {len(items_by_outlet)} de {OUTLET}\n")
 
-    people = [p for p in roster() if not only or p["portfolio"] == only]
-    found = profile_items(items_by_outlet, people)
+    ministers = [m for m in roster() if not only or m["portfolio"] == only]
+    found = profile_items(items_by_outlet, ministers)
     names = portfolio_names()
 
     shown = 0
-    for person in people:
+    for person in ministers:
         pid = person["portfolio"]
         hits = found.get(pid, [])
         if not hits:
@@ -96,11 +96,11 @@ def run(only: str | None) -> int:
                 print(f"   {' '.join(hit['summary'].split())[:220]}")
             print(f"   {hit['url']}")
         if not person["has_ficha"]:
-            print("\n  borrador para src/data/cabinet/people.json:")
+            print("\n  borrador para src/data/cabinet/ministers.json:")
             print("  " + draft(person["person_name"], hits[0]["url"]).replace("\n", "\n  "))
         print()
 
-    missing = [p for p in people if p["portfolio"] not in found]
+    missing = [m for m in ministers if m["portfolio"] not in found]
     if missing:
         print("Sin nota de perfil en el feed de hoy:")
         for person in missing:

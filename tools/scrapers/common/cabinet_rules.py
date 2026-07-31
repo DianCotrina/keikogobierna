@@ -131,7 +131,7 @@ def roster_names() -> list:
         data = json.loads((CABINET_DIR / filename).read_text(encoding="utf-8"))
         return [row[field] for row in data[key]]
 
-    return sorted(set(read("people.json", "people", "name")
+    return sorted(set(read("ministers.json", "ministers", "name")
                       + read("announcements.json", "announcements", "person_name")))
 
 

@@ -13,7 +13,7 @@ import {
 
 // Fixtures shaped like the real files, kept local so the tests stay true even
 // while src/data/cabinet/ is still empty of a real roster.
-const PEOPLE = [
+const MINISTERS = [
   { slug: 'ana-torres', name: 'Ana Torres', judicial: [{ id: 'c1', stage: 'sentencia_firme' }] },
   { slug: 'beto-lima', name: 'Beto Lima', judicial: [{ id: 'c1', stage: 'archivado' }] },
   { slug: 'cira-paz', name: 'Cira Paz', judicial: [] },
@@ -57,7 +57,7 @@ test('a tenure that started today counts as zero days, not negative', () => {
 });
 
 test('currentCabinet has one row per portfolio, including the vacant ones', () => {
-  const rows = currentCabinet({ people: PEOPLE, tenures: TENURES });
+  const rows = currentCabinet({ ministers: MINISTERS, tenures: TENURES });
   assert.equal(rows.length, loadPortfolios().length);
   const interior = rows.find((r) => r.portfolio.id === 'm-interior');
   assert.equal(interior.person.slug, 'ana-torres');
@@ -67,12 +67,12 @@ test('currentCabinet has one row per portfolio, including the vacant ones', () =
 });
 
 test('currentCabinet picks the open tenure when a portfolio has had several holders', () => {
-  const rows = currentCabinet({ people: PEOPLE, tenures: TENURES });
+  const rows = currentCabinet({ ministers: MINISTERS, tenures: TENURES });
   assert.equal(rows.find((r) => r.portfolio.id === 'm-salud').person.slug, 'cira-paz');
 });
 
 test('pastTenures returns only closed tenures, most recent first', () => {
-  const past = pastTenures({ people: PEOPLE, tenures: TENURES });
+  const past = pastTenures({ ministers: MINISTERS, tenures: TENURES });
   assert.equal(past.length, 1);
   assert.equal(past[0].person.slug, 'beto-lima');
   assert.equal(past[0].days, 64);
@@ -80,14 +80,14 @@ test('pastTenures returns only closed tenures, most recent first', () => {
 
 test('cabinetStats counts only ministers with a live proceeding', () => {
   // Ana has a firm conviction; Beto's only entry is archived, so he is not counted.
-  const stats = cabinetStats({ people: PEOPLE, tenures: TENURES }, new Date('2026-10-05T00:00:00Z'));
+  const stats = cabinetStats({ ministers: MINISTERS, tenures: TENURES }, new Date('2026-10-05T00:00:00Z'));
   assert.equal(stats.portfolios, loadPortfolios().length);
   assert.equal(stats.withActiveCases, 1);
   assert.equal(stats.changes, 1);
 });
 
 test('cabinetStats on an empty roster reports zeroes rather than throwing', () => {
-  const stats = cabinetStats({ people: [], tenures: [] }, new Date('2026-10-05T00:00:00Z'));
+  const stats = cabinetStats({ ministers: [], tenures: [] }, new Date('2026-10-05T00:00:00Z'));
   assert.equal(stats.withActiveCases, 0);
   assert.equal(stats.changes, 0);
   assert.equal(stats.serving, 0);
@@ -112,25 +112,25 @@ const ANNOUNCEMENTS = [
 
 test('an announcement can resolve to a full ficha once a person verifies it', () => {
   const announcements = [{ ...ANNOUNCEMENTS[0], person: 'ana-torres' }];
-  const rows = currentCabinet({ people: PEOPLE, tenures: [], announcements });
+  const rows = currentCabinet({ ministers: MINISTERS, tenures: [], announcements });
   const pcm = rows.find((r) => r.portfolio.id === 'pcm');
   assert.equal(pcm.announcement.person.slug, 'ana-torres');
   assert.equal(pcm.person, null, 'still not appointed');
 });
 
 test('an announcement without a verified person carries no ficha', () => {
-  const rows = currentCabinet({ people: PEOPLE, tenures: [], announcements: ANNOUNCEMENTS });
+  const rows = currentCabinet({ ministers: MINISTERS, tenures: [], announcements: ANNOUNCEMENTS });
   assert.equal(rows.find((r) => r.portfolio.id === 'pcm').announcement.person, null);
 });
 
 test('an announcement naming an unknown slug resolves to no ficha rather than throwing', () => {
   const announcements = [{ ...ANNOUNCEMENTS[0], person: 'nobody-here' }];
-  const rows = currentCabinet({ people: PEOPLE, tenures: [], announcements });
+  const rows = currentCabinet({ ministers: MINISTERS, tenures: [], announcements });
   assert.equal(rows.find((r) => r.portfolio.id === 'pcm').announcement.person, null);
 });
 
 test('an announced portfolio with no tenure shows as announced, not as filled', () => {
-  const rows = currentCabinet({ people: [], tenures: [], announcements: ANNOUNCEMENTS });
+  const rows = currentCabinet({ ministers: [], tenures: [], announcements: ANNOUNCEMENTS });
   const pcm = rows.find((r) => r.portfolio.id === 'pcm');
   assert.equal(pcm.person, null);
   assert.equal(pcm.announcement.person_name, 'Luis Galarreta');
@@ -141,7 +141,7 @@ test('a gazette tenure supersedes the announcement for that portfolio', () => {
   // m-interior is both announced and actually appointed; the norma wins and the
   // provisional marking must disappear.
   const rows = currentCabinet(
-    { people: PEOPLE, tenures: TENURES, announcements: ANNOUNCEMENTS },
+    { ministers: MINISTERS, tenures: TENURES, announcements: ANNOUNCEMENTS },
     new Date('2026-08-04T00:00:00Z'),
   );
   const interior = rows.find((r) => r.portfolio.id === 'm-interior');
@@ -150,7 +150,7 @@ test('a gazette tenure supersedes the announcement for that portfolio', () => {
 });
 
 test('a portfolio that is neither appointed nor announced stays vacant', () => {
-  const rows = currentCabinet({ people: [], tenures: [], announcements: ANNOUNCEMENTS });
+  const rows = currentCabinet({ ministers: [], tenures: [], announcements: ANNOUNCEMENTS });
   const defensa = rows.find((r) => r.portfolio.id === 'm-defensa');
   assert.equal(defensa.person, null);
   assert.equal(defensa.announcement, null);
@@ -158,7 +158,7 @@ test('a portfolio that is neither appointed nor announced stays vacant', () => {
 
 test('announced ministers are counted separately from serving ones', () => {
   const stats = cabinetStats(
-    { people: [], tenures: [], announcements: ANNOUNCEMENTS },
+    { ministers: [], tenures: [], announcements: ANNOUNCEMENTS },
     new Date('2026-07-27T00:00:00Z'),
   );
   assert.equal(stats.serving, 0);
@@ -167,7 +167,7 @@ test('announced ministers are counted separately from serving ones', () => {
 
 test('an announcement already confirmed by a norma is not double-counted', () => {
   const stats = cabinetStats(
-    { people: PEOPLE, tenures: TENURES, announcements: ANNOUNCEMENTS },
+    { ministers: MINISTERS, tenures: TENURES, announcements: ANNOUNCEMENTS },
     new Date('2026-08-04T00:00:00Z'),
   );
   // m-interior is served; only the pcm announcement is still outstanding.

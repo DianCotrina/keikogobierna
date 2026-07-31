@@ -2,7 +2,7 @@
 """Draft a minister's dossier from their JNE hoja de vida.
 
 Reads the Declaración Jurada de Hoja de Vida — the candidate's own sworn
-statement to the state, published openly by the JNE — and emits a people.json
+statement to the state, published openly by the JNE — and emits a ministers.json
 entry for review.
 
 It never produces publishable data. Declared sentences come out with `stage`
@@ -89,9 +89,9 @@ def run(names: list, ids: list) -> int:
         print("\nNada que proponer.")
         return 0
 
-    print("\nBorrador para src/data/cabinet/people.json "
+    print("\nBorrador para src/data/cabinet/ministers.json "
           "(REVISAR antes de fusionar):\n")
-    print(json.dumps({"people": drafts}, ensure_ascii=False, indent=2))
+    print(json.dumps({"ministers": drafts}, ensure_ascii=False, indent=2))
 
     pending = sum(1 for d in drafts for e in d["judicial"] if e["stage"] is None)
     if pending:

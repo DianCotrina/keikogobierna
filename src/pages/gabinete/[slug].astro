@@ -5,7 +5,7 @@ import RecordBadge from '../../components/RecordBadge.astro';
 import JudicialEntry from '../../components/JudicialEntry.astro';
 import TenureTimeline from '../../components/TenureTimeline.astro';
 import {
-  loadPeople,
+  loadMinisters,
   loadTenures,
   loadAnnouncements,
   portfolioById,
@@ -18,7 +18,7 @@ import { loadPlan, loadGoals, loadTracking, topicSummaries } from '../../lib/pla
 import type { Announcement, Person, Source, Tenure } from '../../lib/cabinet-types';
 
 export function getStaticPaths() {
-  return (loadPeople() as Person[])
+  return (loadMinisters() as Person[])
     .map((person) => ({ params: { slug: person.slug }, props: { person } }));
 }
 

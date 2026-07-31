@@ -1,6 +1,6 @@
 # Workflow — writing a minister's ficha
 
-**Objective.** Give every minister in `src/data/cabinet/people.json` a
+**Objective.** Give every minister in `src/data/cabinet/ministers.json` a
 `profession` and a `bio`, so their card and dossier say who they are rather than
 *"falta confirmar de qué persona se trata"*.
 
@@ -30,7 +30,7 @@ python3 -m tools.scrapers.infobae_profiles --portfolio m-vivienda   # one carter
 ```
 
 Prints, per cartera: the minister, every matched Infobae item (headline,
-summary, link, date), and a `people.json` skeleton with `profession` and `bio`
+summary, link, date), and a `ministers.json` skeleton with `profession` and `bio`
 blank. It writes nothing.
 
 Carteras with no profile in today's feed are listed by name at the end rather

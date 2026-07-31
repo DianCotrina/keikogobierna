@@ -84,7 +84,7 @@ def parse_announcement(article: dict):
 
     Returns {portfolio, person_name, announced, sources[]}. `person_name` is the
     raw name as printed — announcements deliberately do not reference a
-    people.json slug, since a dossier may not exist yet.
+    ministers.json slug, since a dossier may not exist yet.
     """
     title = (article.get("title") or "").strip()
     match = _ANNOUNCEMENT.search(title)

@@ -1,6 +1,6 @@
 # Workflow — documenting a minister's judicial record
 
-**Objective.** Add or update a `judicial[]` entry in `src/data/cabinet/people.json`
+**Objective.** Add or update a `judicial[]` entry in `src/data/cabinet/ministers.json`
 so that every claim on a minister's dossier is sourced, correctly staged, and
 defensible.
 
@@ -11,7 +11,7 @@ are closed to machines (see "Why it is manual"). Tools discover; a person certif
 
 ## Inputs
 
-- The person's entry in `people.json` (create it first if absent — see step 1)
+- The person's entry in `ministers.json` (create it first if absent — see step 1)
 - At least one source you can link, per the evidence bar in
   `docs/superpowers/specs/2026-07-27-gabinete-design.md`
 
