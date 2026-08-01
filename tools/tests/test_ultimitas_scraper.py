@@ -286,6 +286,40 @@ class MinistrosFileTest(unittest.TestCase):
                          "article arrived — the seven-day window still moves")
         self.assertIn("ministers", json.loads(ministros_path.read_text(encoding="utf-8")))
 
+    def test_a_two_outlet_outage_with_a_third_source_alive_still_writes_the_index(self):
+        """El Comercio and La República down, Gestión up: /ultimitas/ has
+        nothing to publish, but ministros.json draws on all five sources and
+        must not go dark with them."""
+        item = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        us.fetch_sources = lambda: ([item], ["El Comercio", "La República"])
+        result = us.run(self.tmp, dry_run=False)
+        self.assertEqual(result, 1, "still a real failure for /ultimitas/'s two outlets")
+        ministros_path = Path(self.tmp) / "ministros.json"
+        self.assertTrue(ministros_path.exists(), "ministros.json must survive a two-outlet outage")
+
+    def test_a_total_outage_leaves_an_existing_ministros_json_untouched(self):
+        """build_index([]) returns {}; writing it unconditionally on a total
+        outage would overwrite a good file with an empty one and wipe every
+        minister's coverage."""
+        item = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        self._run([item])  # seed a good file from a healthy run
+        ministros_path = Path(self.tmp) / "ministros.json"
+        before = ministros_path.read_text(encoding="utf-8")
+
+        us.fetch_sources = lambda: ([], ["El Comercio", "La República", "RPP", "Gestión", "Infobae"])
+        result = us.run(self.tmp, dry_run=False)
+        self.assertEqual(result, 1)
+        self.assertEqual(ministros_path.read_text(encoding="utf-8"), before,
+                          "a total outage must not overwrite the existing index")
+
     def test_a_failure_building_the_index_does_not_abort_the_run(self):
         """The primary output (ultimitas.json, today.json) must survive even if
         roster() blows up reading the cabinet data files — that data is
