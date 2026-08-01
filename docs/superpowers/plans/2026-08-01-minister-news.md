@@ -141,7 +141,7 @@ git commit -m "refactor: share the http-only URL guard between renderers"
 
 **Files:**
 - Modify: `tools/scrapers/common/infobae_rules.py` (`profile_items`)
-- Modify: `tools/scrapers/infobae_profiles.py:79`
+- Modify: `tools/scrapers/infobae_profiles.py:104`
 - Test: `tools/tests/test_infobae_rules.py`
 
 **Interfaces:**
@@ -257,7 +257,7 @@ In `tools/scrapers/infobae_profiles.py`, change the import line to:
 from tools.scrapers.common.infobae_rules import profile_items, sort_for_review
 ```
 
-and replace line 79 (`found = profile_items(items_by_outlet, ministers)`) with:
+and replace line 104 (`found = profile_items(items_by_outlet, ministers)`) with:
 
 ```python
     found = {pid: sort_for_review(items)
