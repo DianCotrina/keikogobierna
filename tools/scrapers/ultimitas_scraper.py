@@ -98,9 +98,15 @@ def write_ministros(data: Path, articles: list, now_iso: str) -> None:
 
 def run(data_dir: str | None, dry_run: bool) -> int:
     items, failed = fetch_sources()
-    # Only this page's outlets can fail this run. A dead Gestión is the cabinet
-    # sweep's problem, not the page's; both of these dead means no page.
-    if all(name in failed for name in OUTLETS):
+    # Only this page's two outlets matter to /ultimitas/. A dead Gestión is
+    # the cabinet sweep's problem, not the page's; both of these dead means no
+    # page. But ministros.json draws on all five sources (see write_ministros
+    # below), so this outage must not silence it too — a two-outlet outage
+    # with RPP, Gestión and Infobae still healthy must still write the index.
+    # In --dry-run there is nothing downstream of this to preserve, so keep
+    # the original short-circuit.
+    ultimitas_outage = all(name in failed for name in OUTLETS)
+    if ultimitas_outage and dry_run:
         print(f"ERROR: every published outlet failed ({', '.join(OUTLETS)})", file=sys.stderr)
         return 1
 
@@ -131,10 +137,22 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     # A failure here (e.g. malformed cabinet data behind roster()) must not
     # cost the page its primary output below — ultimitas.json and today.json
     # matter more than the secondary coverage index.
-    try:
-        write_ministros(data, list(unique.values()), now_iso)
-    except Exception as exc:  # noqa: BLE001 — deliberately broad, isolated to this one call
-        print(f"WARN: ministros.json not written: {exc}", file=sys.stderr)
+    #
+    # build_index([]) returns {} — writing unconditionally on a total outage
+    # (all five sources dead) would overwrite a good file with an empty one
+    # and wipe every minister's coverage. Only write when at least one source
+    # delivered something; a total outage leaves the existing file untouched.
+    if unique:
+        try:
+            write_ministros(data, list(unique.values()), now_iso)
+        except Exception as exc:  # noqa: BLE001 — deliberately broad, isolated to this one call
+            print(f"WARN: ministros.json not written: {exc}", file=sys.stderr)
+    else:
+        print("WARN: ministros.json not written: no source delivered any articles", file=sys.stderr)
+
+    if ultimitas_outage:
+        print(f"ERROR: every published outlet failed ({', '.join(OUTLETS)})", file=sys.stderr)
+        return 1
 
     articles = merge_history(existing, matched, now_iso)
     if articles == existing and (data / "today.json").exists():
