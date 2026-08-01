@@ -80,6 +80,20 @@ class RosterTest(unittest.TestCase):
         self.assertTrue(rows["Ana Rojas Díaz"])
         self.assertFalse(rows["Beto Lima Soto"])
 
+    def test_each_row_carries_the_minister_slug(self):
+        """The coverage index keys by slug; the roster is where it comes from."""
+        with with_data():
+            rows = {r["portfolio"]: r.get("slug") for r in ip.roster()}
+        self.assertEqual(rows["pcm"], "ana-rojas-diaz")
+        self.assertEqual(rows["m-salud"], "beto-lima-soto")
+
+    def test_an_announced_cartera_has_no_slug(self):
+        announced = {"announcements": [
+            {"portfolio": "m-interior", "person_name": "Dino Paz Ruiz", "person": None}]}
+        with with_data(announcements=announced):
+            row = [r for r in ip.roster() if r["portfolio"] == "m-interior"][0]
+        self.assertIsNone(row["slug"])
+
 
 class LiveRosterTest(unittest.TestCase):
     def test_the_committed_cabinet_yields_every_cartera(self):
