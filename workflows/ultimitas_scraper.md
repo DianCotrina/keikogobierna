@@ -20,6 +20,12 @@ listing, not evidence; it never touches `tracking.json` or `main`.
      params stripped). Never downloaded by the page.
    - `today.json` — the latest Lima-calendar day with matches. This is the only file
      the page fetches (from raw.githubusercontent.com, CORS-open, ~5-min edge cache).
+   - `ministros.json` — press coverage per sitting minister for the last 7 days,
+     keyed by ministers.json slug. Read by each `/gabinete/<slug>/` page. Unlike
+     the two files above it uses **all five** outlets and is not KEYWORDS-filtered:
+     the gate is the two-key matcher in `infobae_rules` (the article must name the
+     cartera *and* an apellido). Written on every run, including runs where no new
+     /ultimitas/ article arrived — the seven-day window moves regardless.
    - Every article carries its `source`; the page's filter chips are built from the
      sources present in the data, not a hardcoded outlet list.
 3. `src/components/Ultimitas/ultimitas.ts` renders it client-side: dated header

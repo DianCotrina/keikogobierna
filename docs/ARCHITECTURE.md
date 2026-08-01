@@ -174,6 +174,7 @@ Rules modules are pure — no I/O, no network, no CLI — which is why they carr
 | `jne_scraper.py` | JNE Plataforma Electoral API, via `jne_rules.py` | on demand | Draft `ministers.json` entry for review |
 | `cabinet_scraper.py --press` (tail) | Same press feeds, `judicial_signals()` | on demand | Judicial coverage of roster people, for a human to chase |
 | `ultimitas_scraper.py` | El Comercio + La República + RPP + Gestión RSS | 4×/day (Lima 00/06/12/18) | `ultimitas-data` branch |
+| `minister_news.py` | press feeds, via `infobae_rules` | 4×/day with ultimitas | `ministros.json` on `ultimitas-data` |
 
 The news sources are read for metadata only — headline, link, snippet, author, date. Article bodies (`content:encoded`, copyrighted norma text beyond an excerpt) are never stored or rendered.
 
