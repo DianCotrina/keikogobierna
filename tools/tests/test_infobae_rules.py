@@ -141,3 +141,45 @@ class SurnameExtractionTest(unittest.TestCase):
         for person in roster():
             found = set(ir._surnames(person["person_name"])) & given
             self.assertEqual(found, set(), f"{person['person_name']}: {found}")
+
+
+class MultipleMinistersTest(unittest.TestCase):
+    """One article naming two ministers is coverage of both."""
+
+    ROSTER = [
+        {"portfolio": "m-economia", "person_name": "Elmer Rafael Cuba Bustinza"},
+        {"portfolio": "m-trabajo", "person_name": "Juan Manuel Kosme Sheput Moore"},
+    ]
+
+    def test_both_ministers_receive_the_article(self):
+        article = {
+            "title": ("El ministro de Economía Cuba y el ministro de Trabajo Sheput "
+                      "coordinan el alza del sueldo mínimo"),
+            "summary": "", "published": "2026-08-01T10:00:00-05:00",
+            "url": "https://gestion.pe/n/", "source": "Gestión",
+        }
+        found = ir.profile_items([article], self.ROSTER)
+        self.assertEqual(set(found), {"m-economia", "m-trabajo"})
+
+
+class OrderingTest(unittest.TestCase):
+    """Ordering belongs to the caller: a review packet and a news list differ."""
+
+    NEWS = {"title": "Cuba anuncia medidas", "published": "2026-08-02T10:00:00-05:00"}
+    PROFILE = {"title": "Quién es Elmer Cuba, el nuevo ministro",
+               "published": "2026-08-01T10:00:00-05:00"}
+
+    def test_profile_items_preserves_feed_order(self):
+        roster = [{"portfolio": "m-economia", "person_name": "Elmer Rafael Cuba Bustinza"}]
+        articles = [
+            {**self.NEWS, "title": "El ministro de Economía Cuba anuncia medidas",
+             "summary": "", "url": "https://a/", "source": "Gestión"},
+            {**self.PROFILE, "title": "Quién es Cuba, el nuevo ministro de Economía",
+             "summary": "", "url": "https://b/", "source": "Gestión"},
+        ]
+        found = ir.profile_items(articles, roster)["m-economia"]
+        self.assertEqual([a["url"] for a in found], ["https://a/", "https://b/"])
+
+    def test_sort_for_review_puts_profiles_first(self):
+        ordered = ir.sort_for_review([self.NEWS, self.PROFILE])
+        self.assertEqual(ordered[0]["title"], "Quién es Elmer Cuba, el nuevo ministro")

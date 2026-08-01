@@ -25,7 +25,7 @@ import json
 import sys
 
 from tools.scrapers.common.cabinet_rules import CABINET_DIR, PORTFOLIOS_PATH
-from tools.scrapers.common.infobae_rules import profile_items
+from tools.scrapers.common.infobae_rules import profile_items, sort_for_review
 from tools.scrapers.common.jne_rules import _slug
 from tools.scrapers.common.press_feeds import fetch_sources
 
@@ -101,7 +101,8 @@ def run(only: str | None) -> int:
     print(f"{len(articles)} notas en total, {len(items_by_outlet)} de {OUTLET}\n")
 
     ministers = [m for m in roster() if not only or m["portfolio"] == only]
-    found = profile_items(items_by_outlet, ministers)
+    found = {pid: sort_for_review(items)
+             for pid, items in profile_items(items_by_outlet, ministers).items()}
     names = portfolio_names()
 
     shown = 0

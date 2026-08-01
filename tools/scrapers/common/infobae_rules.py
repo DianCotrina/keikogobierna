@@ -98,13 +98,20 @@ def _epoch(published: str) -> float:
 
 
 def profile_items(articles: list, roster: list) -> dict:
-    """Feed items about each minister, keyed by cartera, best first.
+    """Articles about each minister, keyed by cartera, in feed order.
 
     A match needs two keys: the item must name one of the person's surnames
     *and* resolve to their cartera. Either alone is wrong in a way the live feed
     demonstrates — "María Seminario" defeats name matching because the roster
     says "Mara", and "Guardaespaldas del Rey de España" defeats surname matching
     because the transport minister is Rafael Rey Rey.
+
+    Every minister an article names receives it. Stopping at the first was fine
+    while the only caller wanted one profile per cartera; an article about two
+    ministers is coverage of both, and which one won was roster order.
+
+    Order is the caller's: a review packet wants profiles first, a dated news
+    list wants the newest.
     """
     by_portfolio: dict = {}
 
@@ -124,9 +131,11 @@ def profile_items(articles: list, roster: list) -> dict:
             if not any(s in words for s in _surnames(person.get("person_name", ""))):
                 continue
             by_portfolio.setdefault(pid, []).append(article)
-            break
 
-    for items in by_portfolio.values():
-        items.sort(key=lambda a: (not is_profile(a.get("title") or ""),
-                                  -_epoch(a.get("published") or "")))
     return by_portfolio
+
+
+def sort_for_review(items: list) -> list:
+    """Profile pieces first, then newest — what a person writing a ficha wants."""
+    return sorted(items, key=lambda a: (not is_profile(a.get("title") or ""),
+                                        -_epoch(a.get("published") or "")))
