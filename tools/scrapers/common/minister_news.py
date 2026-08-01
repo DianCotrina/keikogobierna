@@ -1,0 +1,59 @@
+"""Press coverage of each sitting minister, for their dossier page.
+
+Coverage and nothing more: an article is here because an outlet named this
+minister and their cartera, not because anyone judged it important or true.
+The dossier says so in its own words, and this module must not imply otherwise
+by filtering for tone or topic.
+
+Pure: no I/O, no network. The caller supplies the articles and the roster.
+"""
+from __future__ import annotations
+
+from datetime import datetime, timedelta
+
+from .infobae_rules import profile_items
+
+WINDOW_DAYS = 7
+
+# What the dossier renders, and therefore all it is given. The feed summary and
+# author stay out: shipping text no page displays would be carrying an outlet's
+# prose for no reason.
+PUBLISHED_FIELDS = ("title", "url", "source", "published")
+
+
+def _published_at(article: dict):
+    """Timezone-aware publication time, or None when it cannot be read."""
+    try:
+        parsed = datetime.fromisoformat(article.get("published") or "")
+    except (TypeError, ValueError):
+        return None
+    return parsed if parsed.tzinfo else None
+
+
+def build_index(articles: list, roster: list, now: datetime,
+                window_days: int = WINDOW_DAYS) -> dict:
+    """Coverage per minister slug, newest first, within the trailing window.
+
+    Ministers with no coverage are absent rather than present with an empty
+    list: the page renders both the same way, and absence keeps the file small.
+
+    A roster row with no slug is skipped. That is an announced cartera whose
+    holder has no ficha, so there is no dossier for the coverage to appear on.
+    """
+    cutoff = now - timedelta(days=window_days)
+    fresh = []
+    for article in articles:
+        at = _published_at(article)
+        if at is not None and at >= cutoff:
+            fresh.append(article)
+
+    slugs = {row["portfolio"]: row["slug"] for row in roster if row.get("slug")}
+    index: dict = {}
+    for pid, items in profile_items(fresh, roster).items():
+        slug = slugs.get(pid)
+        if not slug:
+            continue
+        entries = [{k: item.get(k) for k in PUBLISHED_FIELDS} for item in items]
+        entries.sort(key=lambda e: e["published"], reverse=True)
+        index[slug] = entries
+    return index
