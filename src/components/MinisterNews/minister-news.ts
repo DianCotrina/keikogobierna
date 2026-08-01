@@ -1,6 +1,6 @@
 import { formatDateEs } from '../../lib/format.mjs';
 import { safeHttpUrl } from '../../lib/safe-url.mjs';
-import { entriesFor } from '../../lib/minister-news.mjs';
+import { resolveCoverage } from '../../lib/minister-news.mjs';
 
 const DATA_URL =
   'https://raw.githubusercontent.com/DianCotrina/keikogobierna/ultimitas-data/ministros.json';
@@ -49,13 +49,21 @@ async function load(): Promise<void> {
   try {
     const resp = await fetch(DATA_URL, { cache: 'no-cache' });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const entries: Entry[] = entriesFor(await resp.json(), slug);
-    if (entries.length === 0) {
-      // Confirmed no coverage — distinct from "could not check" below.
+    const payload = await resp.json();
+    // The lib decides list vs. empty vs. error — including staleness and
+    // "every entry for this slug was malformed" — so this file only draws
+    // the answer, never re-derives it.
+    const result = resolveCoverage(payload, slug);
+    if (result.status === 'error') {
+      error.classList.remove('hidden');
+      return;
+    }
+    if (result.status === 'empty') {
+      // Confirmed no coverage — distinct from "could not check" above.
       empty.classList.remove('hidden');
       return;
     }
-    list.replaceChildren(...entries.map(item));
+    list.replaceChildren(...(result.entries as Entry[]).map(item));
   } catch (err) {
     // A scraper outage must never mark up a dossier, and must never claim
     // "no coverage" when the truth is "could not check." Say nothing false,
