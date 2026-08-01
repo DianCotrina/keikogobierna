@@ -30,7 +30,9 @@
 | `tools/scrapers/common/minister_news.py` | Pure: articles + roster + now → per-slug index |
 | `tools/tests/test_minister_news.py` | Index tests |
 | `src/components/MinisterNews/MinisterNews.astro` | Section markup + empty/error states |
-| `src/components/MinisterNews/minister-news.ts` | Fetch, filter to this slug, render |
+| `src/lib/minister-news.mjs` | Pure: validate the payload, pick this slug's entries |
+| `tests/minister-news.test.mjs` | Payload/selection tests |
+| `src/components/MinisterNews/minister-news.ts` | DOM only: fetch, call the lib, render |
 
 **Modify**
 | File | Change |
@@ -674,14 +676,96 @@ git commit -m "feat: write the per-minister coverage index each run"
 ### Task 5: Render the section on the dossier
 
 **Files:**
+- Create: `src/lib/minister-news.mjs`, `tests/minister-news.test.mjs`
 - Create: `src/components/MinisterNews/MinisterNews.astro`, `src/components/MinisterNews/minister-news.ts`
 - Modify: `src/pages/gabinete/[slug].astro` (between the tenure section ending at line 168 and the judicial section beginning at line 170)
 
 **Interfaces:**
 - Consumes: `safeHttpUrl(raw)` (Task 1); `ministros.json` (Task 4).
+- Produces: `entriesFor(payload, slug) -> Entry[]` — this slug's entries, or `[]` for any payload that is not the expected shape.
 - The component takes one prop: `slug: string`.
 
-- [ ] **Step 1: Write the component markup**
+The codebase splits pure logic from DOM: `src/lib/search.mjs` is tested and
+holds no `document`, while `src/components/Search/search.ts` does the DOM work
+untested. This task follows that split, which is also what makes the spec's
+renderer tests possible under `node --test`, where there is no DOM.
+
+- [ ] **Step 1: Write the failing selection tests**
+
+Create `tests/minister-news.test.mjs`:
+
+```javascript
+import test from 'node:test';
+import assert from 'node:assert/strict';
+
+import { entriesFor } from '../src/lib/minister-news.mjs';
+
+const ENTRY = {
+  title: 'El ministro de Economía Cuba anuncia medidas',
+  url: 'https://gestion.pe/n/',
+  source: 'Gestión',
+  published: '2026-08-01T09:00:00-05:00',
+};
+const PAYLOAD = { ministers: { 'elmer-rafael-cuba-bustinza': [ENTRY] } };
+
+test('returns this slug\'s entries', () => {
+  assert.deepEqual(entriesFor(PAYLOAD, 'elmer-rafael-cuba-bustinza'), [ENTRY]);
+});
+
+test('a minister absent from the map has no coverage, not an error', () => {
+  assert.deepEqual(entriesFor(PAYLOAD, 'rafael-rey-rey'), []);
+});
+
+test('a malformed payload yields nothing rather than throwing', () => {
+  for (const bad of [null, undefined, {}, { ministers: null }, { ministers: [] }, 'nope', 42]) {
+    assert.deepEqual(entriesFor(bad, 'elmer-rafael-cuba-bustinza'), [], String(bad));
+  }
+});
+
+test('a non-array value for a slug yields nothing', () => {
+  assert.deepEqual(entriesFor({ ministers: { x: 'not an array' } }, 'x'), []);
+});
+
+test('an entry missing its title or url is dropped', () => {
+  const payload = { ministers: { x: [ENTRY, { url: 'https://a/' }, { title: 'sin url' }] } };
+  assert.deepEqual(entriesFor(payload, 'x'), [ENTRY]);
+});
+```
+
+- [ ] **Step 2: Run it and watch it fail**
+
+Run: `npm test`
+Expected: FAIL — cannot resolve `../src/lib/minister-news.mjs`.
+
+- [ ] **Step 3: Write the pure module**
+
+Create `src/lib/minister-news.mjs`:
+
+```javascript
+/**
+ * Selecting one minister's coverage out of the published index.
+ *
+ * Pure and separate from the renderer for the reason search.mjs is: it can be
+ * tested under `node --test`, where there is no DOM. The payload is fetched
+ * from a data branch, so every shape it could arrive in has to be survivable —
+ * a missing file, a half-written file, or an older schema must render an empty
+ * section rather than break the dossier around it.
+ */
+export function entriesFor(payload, slug) {
+  const map = payload && typeof payload === 'object' ? payload.ministers : null;
+  if (!map || typeof map !== 'object' || Array.isArray(map)) return [];
+  const entries = map[slug];
+  if (!Array.isArray(entries)) return [];
+  return entries.filter((e) => e && typeof e.title === 'string' && typeof e.url === 'string');
+}
+```
+
+- [ ] **Step 4: Run the tests**
+
+Run: `npm test`
+Expected: PASS, 5 new tests.
+
+- [ ] **Step 5: Write the component markup**
 
 Create `src/components/MinisterNews/MinisterNews.astro`:
 
@@ -725,13 +809,14 @@ const { slug } = Astro.props;
 <script src="./minister-news.ts"></script>
 ```
 
-- [ ] **Step 2: Write the renderer**
+- [ ] **Step 6: Write the renderer**
 
 Create `src/components/MinisterNews/minister-news.ts`:
 
 ```typescript
 import { formatDateEs } from '../../lib/format.mjs';
 import { safeHttpUrl } from '../../lib/safe-url.mjs';
+import { entriesFor } from '../../lib/minister-news.mjs';
 
 const DATA_URL =
   'https://raw.githubusercontent.com/DianCotrina/keikogobierna/ultimitas-data/ministros.json';
@@ -779,8 +864,7 @@ async function load(): Promise<void> {
   try {
     const resp = await fetch(DATA_URL, { cache: 'no-cache' });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data: { ministers?: Record<string, Entry[]> } = await resp.json();
-    const entries = data.ministers?.[slug] ?? [];
+    const entries: Entry[] = entriesFor(await resp.json(), slug);
     if (entries.length === 0) {
       empty.classList.remove('hidden');
       return;
@@ -796,7 +880,7 @@ async function load(): Promise<void> {
 load();
 ```
 
-- [ ] **Step 3: Mount it between the tenure and judicial sections**
+- [ ] **Step 7: Mount it between the tenure and judicial sections**
 
 In `src/pages/gabinete/[slug].astro`, add to the imports at the top of the frontmatter:
 
@@ -810,19 +894,19 @@ and insert, on the line after the tenure section's closing `</section>` (line 16
     <MinisterNews slug={person.slug} />
 ```
 
-- [ ] **Step 4: Build and look at it**
+- [ ] **Step 8: Build and look at it**
 
 Run: `npm run build && npm run dev` then screenshot `http://localhost:3000/gabinete/elmer-rafael-cuba-bustinza/`.
 Expected: the section renders between «Paso por el cargo» and «Registro judicial». With no `ministros.json` published yet the fetch 404s and the empty state shows — which is the failure behaviour working.
 
-- [ ] **Step 5: Verify the failure modes by hand**
+- [ ] **Step 9: Verify the failure modes by hand**
 
 In the browser console on that page, confirm the section does not throw when the payload is absent, and that the rest of the dossier renders normally. Check keyboard focus reaches each headline link.
 
-- [ ] **Step 6: Commit**
+- [ ] **Step 10: Commit**
 
 ```bash
-git add src/components/MinisterNews src/pages/gabinete/\[slug\].astro
+git add src/lib/minister-news.mjs tests/minister-news.test.mjs src/components/MinisterNews src/pages/gabinete/\[slug\].astro
 git commit -m "feat: show a minister's press coverage on their dossier"
 ```
 
