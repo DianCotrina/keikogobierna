@@ -6,6 +6,7 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest import mock
 
 
 from tools.scrapers import ultimitas_scraper as us
@@ -277,10 +278,32 @@ class MinistrosFileTest(unittest.TestCase):
             "published": datetime.now(timezone.utc).isoformat(),
         }
         self._run([item])
-        first = (Path(self.tmp) / "ministros.json").read_text(encoding="utf-8")
+        ministros_path = Path(self.tmp) / "ministros.json"
+        ministros_path.unlink()  # remove any doubt: run 2 must recreate it, not find it stale
         self._run([item])  # identical input: the /ultimitas/ early return fires
-        self.assertTrue((Path(self.tmp) / "ministros.json").exists())
-        self.assertIn("ministers", json.loads(first))
+        self.assertTrue(ministros_path.exists(),
+                         "ministros.json must be rewritten even when no new /ultimitas/ "
+                         "article arrived — the seven-day window still moves")
+        self.assertIn("ministers", json.loads(ministros_path.read_text(encoding="utf-8")))
+
+    def test_a_failure_building_the_index_does_not_abort_the_run(self):
+        """The primary output (ultimitas.json, today.json) must survive even if
+        roster() blows up reading the cabinet data files — that data is
+        secondary to the page this scraper actually serves."""
+        item = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        real_roster = us.roster
+        us.roster = mock.Mock(side_effect=RuntimeError("cabinet data is malformed"))
+        try:
+            result = self._run([item])
+        finally:
+            us.roster = real_roster
+        self.assertEqual(result, 0)
+        self.assertTrue((Path(self.tmp) / "ultimitas.json").exists())
+        self.assertTrue((Path(self.tmp) / "today.json").exists())
 
 
 if __name__ == "__main__":

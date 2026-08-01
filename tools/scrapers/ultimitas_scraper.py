@@ -128,7 +128,13 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     # Every outlet, not just the two this page publishes: a minister's coverage
     # is wider than the front page's. Written before the early return below,
     # because the seven-day window keeps moving on a day with no new articles.
-    write_ministros(data, list(unique.values()), now_iso)
+    # A failure here (e.g. malformed cabinet data behind roster()) must not
+    # cost the page its primary output below — ultimitas.json and today.json
+    # matter more than the secondary coverage index.
+    try:
+        write_ministros(data, list(unique.values()), now_iso)
+    except Exception as exc:  # noqa: BLE001 — deliberately broad, isolated to this one call
+        print(f"WARN: ministros.json not written: {exc}", file=sys.stderr)
 
     articles = merge_history(existing, matched, now_iso)
     if articles == existing and (data / "today.json").exists():
