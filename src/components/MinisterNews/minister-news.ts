@@ -40,7 +40,8 @@ async function load(): Promise<void> {
   const section = document.querySelector<HTMLElement>('[data-minister-news]');
   const list = document.getElementById('minister-news-list');
   const empty = document.getElementById('minister-news-empty');
-  if (!section || !list || !empty) return;
+  const error = document.getElementById('minister-news-error');
+  if (!section || !list || !empty || !error) return;
 
   const slug = section.dataset.slug;
   if (!slug) return;
@@ -50,14 +51,17 @@ async function load(): Promise<void> {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const entries: Entry[] = entriesFor(await resp.json(), slug);
     if (entries.length === 0) {
+      // Confirmed no coverage — distinct from "could not check" below.
       empty.classList.remove('hidden');
       return;
     }
     list.replaceChildren(...entries.map(item));
   } catch (err) {
-    // A scraper outage must never mark up a dossier. Say nothing, break nothing.
+    // A scraper outage must never mark up a dossier, and must never claim
+    // "no coverage" when the truth is "could not check." Say nothing false,
+    // break nothing.
     console.error('minister-news:', err);
-    empty.classList.remove('hidden');
+    error.classList.remove('hidden');
   }
 }
 

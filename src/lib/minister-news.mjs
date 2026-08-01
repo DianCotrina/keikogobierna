@@ -12,5 +12,12 @@ export function entriesFor(payload, slug) {
   if (!map || typeof map !== 'object' || Array.isArray(map)) return [];
   const entries = map[slug];
   if (!Array.isArray(entries)) return [];
-  return entries.filter((e) => e && typeof e.title === 'string' && typeof e.url === 'string');
+  return entries.filter(
+    (e) =>
+      e &&
+      typeof e.title === 'string' &&
+      typeof e.url === 'string' &&
+      typeof e.source === 'string' &&
+      typeof e.published === 'string',
+  );
 }

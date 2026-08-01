@@ -33,3 +33,27 @@ test('an entry missing its title or url is dropped', () => {
   const payload = { ministers: { x: [ENTRY, { url: 'https://a/' }, { title: 'sin url' }] } };
   assert.deepEqual(entriesFor(payload, 'x'), [ENTRY]);
 });
+
+test('an entry with a non-string published is dropped, siblings survive', () => {
+  const bad1 = { ...ENTRY, title: 'sin fecha (null)', published: null };
+  const bad2 = { ...ENTRY, title: 'sin fecha (numero)', published: 1234567890 };
+  const good = { ...ENTRY, title: 'con fecha' };
+  const payload = { ministers: { x: [bad1, good, bad2] } };
+  assert.deepEqual(entriesFor(payload, 'x'), [good]);
+});
+
+test('an entry with a non-string source is dropped, siblings survive', () => {
+  const bad = { ...ENTRY, title: 'sin fuente', source: null };
+  const good = { ...ENTRY, title: 'con fuente' };
+  const payload = { ministers: { x: [bad, good] } };
+  assert.deepEqual(entriesFor(payload, 'x'), [good]);
+});
+
+test('surviving entries keep their original relative order', () => {
+  const a = { ...ENTRY, title: 'a' };
+  const bad = { ...ENTRY, title: 'malo', published: null };
+  const b = { ...ENTRY, title: 'b' };
+  const c = { ...ENTRY, title: 'c' };
+  const payload = { ministers: { x: [a, bad, b, c] } };
+  assert.deepEqual(entriesFor(payload, 'x'), [a, b, c]);
+});
