@@ -46,6 +46,14 @@ const announcedPortfolio = announcement ? portfolioById(announcement.portfolio) 
 
 const currentPortfolio = openTenure?.portfolio ?? announcedPortfolio;
 
+// Coverage is about a sitting minister's current cartera, not a historical
+// record. A closed tenure with no open one and no outstanding announcement
+// means this person no longer holds a cartera, and the section must not
+// render "Sin cobertura" above their judicial record — that reads as
+// confirmed-no-coverage on a claim this site stopped checking the day they
+// left office.
+const currentlyServing = Boolean(openTenure || announcement);
+
 // The roster-meets-tracker payoff: what this person is actually accountable for.
 // plan.mjs and cabinet.mjs are untyped, so the shape is named here for the editor.
 interface TopicSummary {
@@ -168,7 +176,7 @@ const description = `${person.name}: cargo, temas del plan a su cargo, paso por 
       </div>
     </section>
 
-    <MinisterNews slug={person.slug} />
+    {currentlyServing && <MinisterNews slug={person.slug} />}
 
     <!-- Judicial record -->
     <section class="border-t border-tinta/10 bg-white/40">
