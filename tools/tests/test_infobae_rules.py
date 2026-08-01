@@ -71,10 +71,15 @@ class MatchingIsTwoKeyed(unittest.TestCase):
 
 class Ranking(unittest.TestCase):
     def test_a_profile_piece_outranks_plain_news(self):
+        # profile_items no longer sorts (ordering moved to sort_for_review, whose
+        # own caller-facing behaviour is covered by OrderingTest); the review
+        # packet's ordering guarantee is reproduced here by applying it before
+        # asserting, same as infobae_profiles.py does at its call site.
         for pid, items in FOUND.items():
-            profiles = [i for i, it in enumerate(items) if is_profile(it["title"])]
-            if profiles and len(items) > 1:
-                self.assertEqual(profiles[0], 0, f"{pid}: {items[0]['title']}")
+            ordered = ir.sort_for_review(items)
+            profiles = [i for i, it in enumerate(ordered) if is_profile(it["title"])]
+            if profiles and len(ordered) > 1:
+                self.assertEqual(profiles[0], 0, f"{pid}: {ordered[0]['title']}")
 
     def test_is_profile_recognises_the_usual_shapes(self):
         self.assertTrue(is_profile("¿Quién es Marco Vinelli Ruiz? Perfil y hoja de vida"))
@@ -183,3 +188,29 @@ class OrderingTest(unittest.TestCase):
     def test_sort_for_review_puts_profiles_first(self):
         ordered = ir.sort_for_review([self.NEWS, self.PROFILE])
         self.assertEqual(ordered[0]["title"], "Quién es Elmer Cuba, el nuevo ministro")
+
+
+class MinistryDetectionTest(unittest.TestCase):
+    """_MINISTRY used to be a consuming match: the first "ministro de…" ran on
+
+    greedily and could swallow a second "ministro de…" mention whole, so
+    finditer never examined that position at all. Pinned here, at the source
+    of the bug, rather than only through profile_items above.
+    """
+
+    def test_two_separate_minister_mentions_both_resolve(self):
+        text = ("El ministro de Economía Cuba y el ministro de Trabajo Sheput "
+                 "coordinan el alza del sueldo mínimo")
+        self.assertEqual(ir._carteras_named(text), {"m-economia", "m-trabajo"})
+
+    def test_a_multiword_cartera_joined_by_y_still_resolves(self):
+        self.assertEqual(
+            ir._carteras_named("El ministro de Economía y Finanzas anuncia medidas"),
+            {"m-economia"})
+        self.assertEqual(
+            ir._carteras_named("El ministro de Desarrollo Agrario y Riego visita Piura"),
+            {"m-agrario"})
+        self.assertEqual(
+            ir._carteras_named(
+                "El ministro de Vivienda, Construcción y Saneamiento inaugura obra"),
+            {"m-vivienda"})
