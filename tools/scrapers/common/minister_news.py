@@ -39,13 +39,19 @@ def build_index(articles: list, roster: list, now: datetime,
 
     A roster row with no slug is skipped. That is an announced cartera whose
     holder has no ficha, so there is no dossier for the coverage to appear on.
+
+    `now` must be timezone-aware; the only caller builds it from
+    `datetime.now(timezone.utc)`, so this function does not guard against a
+    naive `now`.
     """
     cutoff = now - timedelta(days=window_days)
     fresh = []
+    published_at = {}
     for article in articles:
         at = _published_at(article)
         if at is not None and at >= cutoff:
             fresh.append(article)
+            published_at[id(article)] = at
 
     slugs = {row["portfolio"]: row["slug"] for row in roster if row.get("slug")}
     index: dict = {}
@@ -53,7 +59,11 @@ def build_index(articles: list, roster: list, now: datetime,
         slug = slugs.get(pid)
         if not slug:
             continue
-        entries = [{k: item.get(k) for k in PUBLISHED_FIELDS} for item in items]
-        entries.sort(key=lambda e: e["published"], reverse=True)
-        index[slug] = entries
+        # Feeds don't share an offset (Lima local vs. UTC), so the sort must
+        # compare parsed, timezone-aware instants rather than the raw ISO
+        # strings — string order and chronological order disagree across
+        # offsets. Reuse the datetime parsed during the window filter instead
+        # of parsing `published` a second time.
+        items = sorted(items, key=lambda item: published_at[id(item)], reverse=True)
+        index[slug] = [{k: item.get(k) for k in PUBLISHED_FIELDS} for item in items]
     return index

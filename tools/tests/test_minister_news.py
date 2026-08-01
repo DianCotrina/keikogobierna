@@ -33,6 +33,10 @@ class WindowTest(unittest.TestCase):
         a = article("El ministro de Economía Cuba anuncia medidas", "no es una fecha")
         self.assertEqual(mn.build_index([a], ROSTER, NOW), {})
 
+    def test_a_naive_date_is_dropped_rather_than_kept_forever(self):
+        a = article("El ministro de Economía Cuba anuncia medidas", "2026-08-01T09:00:00")
+        self.assertEqual(mn.build_index([a], ROSTER, NOW), {})
+
 
 class ShapeTest(unittest.TestCase):
     def setUp(self):
@@ -62,6 +66,24 @@ class OrderTest(unittest.TestCase):
         index = mn.build_index(articles, ROSTER, NOW)
         self.assertEqual([e["url"] for e in index["elmer-rafael-cuba-bustinza"]],
                          ["https://b/", "https://a/"])
+
+    def test_newest_first_across_offsets(self):
+        """RPP publishes at Lima time (-05:00), La República at GMT (+00:00).
+
+        05:09 at -05:00 is 10:09 UTC — genuinely newer than 05:33 at +00:00 —
+        but "2026-07-31T05:09:45-05:00" sorts *before*
+        "2026-07-31T05:33:12+00:00" as a raw string. A sort on the string
+        would put the older article first; the parsed instant must not.
+        """
+        articles = [
+            article("El ministro de Economía Cuba en RPP", "2026-07-31T05:09:45-05:00",
+                     url="https://rpp/", source="RPP"),
+            article("El ministro de Economía Cuba en La República", "2026-07-31T05:33:12+00:00",
+                     url="https://larepublica/", source="La República"),
+        ]
+        index = mn.build_index(articles, ROSTER, NOW)
+        self.assertEqual([e["url"] for e in index["elmer-rafael-cuba-bustinza"]],
+                         ["https://rpp/", "https://larepublica/"])
 
 
 class CoverageTest(unittest.TestCase):
