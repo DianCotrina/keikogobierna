@@ -150,3 +150,6 @@ vite.config.ts.timestamp-*
 
 # Vercel (vercel link/pull write project ids and .env.production.local here)
 .vercel/
+
+# Subagent-driven-development scratch: ledgers, briefs, review packages
+.superpowers/
