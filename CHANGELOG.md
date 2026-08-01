@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.2](https://github.com/DianCotrina/keikogobierna/compare/v2.7.1...v2.7.2) (2026-08-01)
+
+
+### Bug Fixes
+
+* publish /ultimitas/ from El Comercio and La República only ([ab95a54](https://github.com/DianCotrina/keikogobierna/commit/ab95a5404f12c19900c2843e897cad0358c9a4b0))
+
 ## [2.7.1](https://github.com/DianCotrina/keikogobierna/compare/v2.7.0...v2.7.1) (2026-08-01)
 
 
