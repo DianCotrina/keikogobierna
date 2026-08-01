@@ -61,6 +61,7 @@ def roster() -> list:
         rows.append({
             "portfolio": tenure["portfolio"],
             "person_name": person["name"],
+            "slug": person["slug"],
             "has_ficha": bool(person.get("bio")),
         })
     for entry in announcements:
@@ -70,6 +71,7 @@ def roster() -> list:
         rows.append({
             "portfolio": entry["portfolio"],
             "person_name": (linked or {}).get("name") or entry["person_name"],
+            "slug": (linked or {}).get("slug"),
             "has_ficha": bool((linked or {}).get("bio")),
         })
     return rows

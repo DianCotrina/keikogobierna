@@ -1,7 +1,10 @@
 """Unit tests for the ultimitas scraper's deterministic stages (no network)."""
 
+import json
+import shutil
+import tempfile
 import unittest
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -236,6 +239,49 @@ class PublishedOutletsTest(unittest.TestCase):
 
     def test_an_item_with_no_source_is_dropped(self):
         self.assertFalse(us.from_published_outlet({}))
+
+
+class MinistrosFileTest(unittest.TestCase):
+    """The scraper writes a third file, and writes it on every run.
+
+    run() returns early when no new /ultimitas/ article arrived. The coverage
+    window has to keep moving anyway: articles age out of seven days whether or
+    not anything new came in, so a quiet day must still refresh this file.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.real_fetch = us.fetch_sources
+        self.addCleanup(shutil.rmtree, self.tmp, True)
+        self.addCleanup(setattr, us, "fetch_sources", self.real_fetch)
+
+    def _run(self, items):
+        us.fetch_sources = lambda: (items, [])
+        return us.run(self.tmp, dry_run=False)
+
+    def test_the_file_is_written_with_the_expected_shape(self):
+        self._run([{
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }])
+        payload = json.loads((Path(self.tmp) / "ministros.json").read_text(encoding="utf-8"))
+        self.assertEqual(payload["window_days"], 7)
+        self.assertIn("generated", payload)
+        self.assertIsInstance(payload["ministers"], dict)
+
+    def test_a_run_with_no_new_ultimitas_articles_still_refreshes_it(self):
+        item = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        self._run([item])
+        first = (Path(self.tmp) / "ministros.json").read_text(encoding="utf-8")
+        self._run([item])  # identical input: the /ultimitas/ early return fires
+        self.assertTrue((Path(self.tmp) / "ministros.json").exists())
+        self.assertIn("ministers", json.loads(first))
+
 
 if __name__ == "__main__":
     unittest.main()

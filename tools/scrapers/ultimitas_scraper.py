@@ -27,8 +27,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from tools.scrapers.common.press_feeds import canonical_url, fetch_sources, parse_feed
+from tools.scrapers.common.minister_news import WINDOW_DAYS, build_index
+from tools.scrapers.common.press_feeds import SOURCES, canonical_url, fetch_sources, parse_feed
 from tools.scrapers.common.watcher_common import normalize
+from tools.scrapers.infobae_profiles import roster
 
 # Which of the shared feeds' items belong on /ultimitas/.
 KEYWORDS = ["keiko fujimori", "keiko", "fuerza popular", "fujimorismo"]
@@ -79,6 +81,19 @@ def select_today(articles: list[dict]) -> tuple[str, list[dict]]:
     return latest, [a for day, a in days if day == latest]
 
 
+def write_ministros(data: Path, articles: list, now_iso: str) -> None:
+    """The per-minister coverage index, for the gabinete dossier pages."""
+    index = build_index(articles, roster(), datetime.fromisoformat(now_iso))
+    (data / "ministros.json").write_text(json.dumps({
+        "generated": now_iso,
+        "window_days": WINDOW_DAYS,
+        "sources": [s["name"] for s in SOURCES],
+        "ministers": index,
+    }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"ministros.json: {len(index)} minister(s) with coverage "
+          f"in the last {WINDOW_DAYS} days.")
+
+
 # ---- Orchestration ---------------------------------------------------------------
 
 def run(data_dir: str | None, dry_run: bool) -> int:
@@ -109,6 +124,11 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     history_path = data / "ultimitas.json"
     existing = json.loads(history_path.read_text())["articles"] if history_path.exists() else []
     now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    # Every outlet, not just the two this page publishes: a minister's coverage
+    # is wider than the front page's. Written before the early return below,
+    # because the seven-day window keeps moving on a day with no new articles.
+    write_ministros(data, list(unique.values()), now_iso)
 
     articles = merge_history(existing, matched, now_iso)
     if articles == existing and (data / "today.json").exists():
