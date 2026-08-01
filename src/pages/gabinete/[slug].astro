@@ -4,6 +4,7 @@ import PresuncionNotice from '../../components/PresuncionNotice.astro';
 import RecordBadge from '../../components/RecordBadge.astro';
 import JudicialEntry from '../../components/JudicialEntry.astro';
 import TenureTimeline from '../../components/TenureTimeline.astro';
+import MinisterNews from '../../components/MinisterNews/MinisterNews.astro';
 import {
   loadMinisters,
   loadTenures,
@@ -166,6 +167,8 @@ const description = `${person.name}: cargo, temas del plan a su cargo, paso por 
         </div>
       </div>
     </section>
+
+    <MinisterNews slug={person.slug} />
 
     <!-- Judicial record -->
     <section class="border-t border-tinta/10 bg-white/40">

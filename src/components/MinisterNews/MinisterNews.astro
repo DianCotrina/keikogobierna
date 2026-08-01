@@ -1,0 +1,37 @@
+---
+// Press coverage naming this minister in the last seven days.
+//
+// Coverage, not endorsement or accusation — the blurb says so, because this
+// sits directly above the judicial record and presence must not read as a
+// charge. Data arrives client-side: the page is static and the feed moves four
+// times a day.
+interface Props {
+  slug: string;
+}
+const { slug } = Astro.props;
+---
+
+<section class="border-t border-tinta/10" data-minister-news data-slug={slug}>
+  <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
+    <div class="reveal border-b border-tinta/10 pb-3">
+      <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Cobertura de prensa</h2>
+      <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
+        Notas publicadas sobre este ministro en los últimos 7 días. Que una nota aparezca
+        aquí no significa que este sitio la respalde.
+      </p>
+    </div>
+
+    <ul id="minister-news-list" class="mt-6 space-y-4"></ul>
+
+    <p id="minister-news-empty" class="hidden mt-6 font-mono text-sm text-tintasuave">
+      Sin cobertura en los últimos 7 días.
+    </p>
+
+    <p class="mt-8 border-t border-dashed border-tinta/20 pt-5 font-mono text-[0.65rem] text-tintafina leading-relaxed">
+      Los titulares pertenecen a cada medio y se enlazan directamente a la fuente.
+      Este sitio no reproduce artículos completos.
+    </p>
+  </div>
+</section>
+
+<script src="./minister-news.ts"></script>
