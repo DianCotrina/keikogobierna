@@ -25,12 +25,27 @@ _PROFILE = re.compile(
 
 # A ministry named anywhere in the text, however the outlet writes it: in full,
 # by short name, or by one of the acronyms and synonyms portfolios.json carries.
+#
+# Wrapped in a zero-width lookahead so matches never consume each other: a
+# consuming match for "ministro de Economía Cuba y el ministro de Trabajo
+# Sheput…" would swallow the second "ministro de…" inside the first match's
+# capture, and finditer would resume past it — never seeing the second
+# minister at all. The lookahead makes every match zero-width, so finditer
+# tries again one character later instead of after a whole captured span,
+# and each "ministro de…" / acronym / canciller|premier mention is examined
+# on its own.
+#
+# The name capture itself is also bounded to stop before the next such
+# mention (rather than running up to 60 chars regardless of content), so a
+# sentence naming two ministers resolves both instead of one match's capture
+# swallowing the other minister's name into its own prefix-matching attempt.
 _MINISTRY = re.compile(
-    r"(?:ministr[oa]|ministerio|titular)\s+(?:de\s+la|del|de|en\s+el)?\s*"
-    r"([\wÁÉÍÓÚÑáéíóúñ.\- ]{3,60})"
+    r"(?=(?:ministr[oa]|ministerio|titular)\s+(?:de\s+la|del|de|en\s+el)?\s*"
+    r"((?:(?!\bministr[oa]\b|\bministerio\b|\btitular\b)"
+    r"[\wÁÉÍÓÚÑáéíóúñ.\- ]){3,60})"
     r"|\b(MTC|MEF|Minem|Minsa|Minedu|Midagri|Mincetur|Produce|Mininter|Mindef|"
     r"Minjus|Minjusdh|MTPE|Mimp|Minam|Mincul|Midis|RREE|PCM)\b"
-    r"|\b(canciller[ií]a|canciller|premier)\b",
+    r"|\b(canciller[ií]a|canciller|premier)\b)",
     re.I)
 
 
