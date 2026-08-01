@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Scrape Peruvian press RSS for Keiko Fujimori / Fuerza Popular coverage.
 
-Feeds the public "Las ultimitas" page from the outlets in SOURCES (El Comercio,
+Feeds the public "Las ultimitas" page from the outlets in OUTLETS (El Comercio,
 La República): matched headlines accumulate in ultimitas.json (full history) and
 today.json (latest Lima news day — the only file the page downloads), each
 article stamped with its source. One tool for all outlets: parallel scrapers
@@ -27,13 +27,28 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from tools.scrapers.common.press_feeds import SOURCES, canonical_url, fetch_sources, parse_feed
+from tools.scrapers.common.press_feeds import canonical_url, fetch_sources, parse_feed
 from tools.scrapers.common.watcher_common import normalize
 
 # Which of the shared feeds' items belong on /ultimitas/.
 KEYWORDS = ["keiko fujimori", "keiko", "fuerza popular", "fujimorismo"]
 
+# And which outlets. SOURCES is shared with the cabinet sweep and the profile
+# reader, which want every outlet they can get; this page does not, so the
+# narrowing belongs here rather than in the feed list.
+#
+# These two carry a *política* feed that is Peruvian politics. The others do not
+# and cannot be made to: Gestión's category/politica is empty, Infobae's is
+# Argentine politics (its Peru desk is category/peru), and RPP has none -- so
+# they arrive as general feeds and reach this page only through KEYWORDS.
+# Dropping them here costs the cabinet tools nothing.
+OUTLETS = ["El Comercio", "La República"]
+
 LIMA = ZoneInfo("America/Lima")
+
+
+def from_published_outlet(item: dict) -> bool:
+    return item.get("source") in OUTLETS
 
 
 def item_matches(item: dict) -> bool:
@@ -68,20 +83,24 @@ def select_today(articles: list[dict]) -> tuple[str, list[dict]]:
 
 def run(data_dir: str | None, dry_run: bool) -> int:
     items, failed = fetch_sources()
-    if len(failed) == len(SOURCES):
-        print("ERROR: every source failed", file=sys.stderr)
+    # Only this page's outlets can fail this run. A dead Gestión is the cabinet
+    # sweep's problem, not the page's; both of these dead means no page.
+    if all(name in failed for name in OUTLETS):
+        print(f"ERROR: every published outlet failed ({', '.join(OUTLETS)})", file=sys.stderr)
         return 1
 
     unique: dict[str, dict] = {}
     for item in items:
         unique.setdefault(item["url"], item)
-    matched = [i for i in unique.values() if item_matches(i)]
-    print(f"{len(items)} items fetched ({len(unique)} unique), {len(matched)} matched")
+    published = [i for i in unique.values() if from_published_outlet(i)]
+    matched = [i for i in published if item_matches(i)]
+    print(f"{len(items)} items fetched ({len(unique)} unique), "
+          f"{len(published)} from {'/'.join(OUTLETS)}, {len(matched)} matched")
 
     if dry_run:
         for item in matched:
             print(f"[{item['published']}] [{item['source']}] {item['title'][:80]}")
-        by_source = {s["name"]: sum(1 for i in matched if i["source"] == s["name"]) for s in SOURCES}
+        by_source = {name: sum(1 for i in matched if i["source"] == name) for name in OUTLETS}
         print(f"Per source: {by_source}. Dry run complete.")
         return 0
 
@@ -98,10 +117,10 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     day, day_articles = select_today(articles)
 
     history_path.write_text(json.dumps(
-        {"generated": now_iso, "sources": [s["name"] for s in SOURCES], "articles": articles},
+        {"generated": now_iso, "sources": OUTLETS, "articles": articles},
         ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (data / "today.json").write_text(json.dumps(
-        {"generated": now_iso, "sources": [s["name"] for s in SOURCES], "date": day, "articles": day_articles},
+        {"generated": now_iso, "sources": OUTLETS, "date": day, "articles": day_articles},
         ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"History: {len(articles)} articles. today.json: {day} with {len(day_articles)} article(s).")
     return 0
