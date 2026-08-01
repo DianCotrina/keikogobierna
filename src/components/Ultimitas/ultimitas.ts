@@ -1,4 +1,5 @@
 import { formatDateEs } from '../../lib/format.mjs';
+import { safeHttpUrl } from '../../lib/safe-url.mjs';
 
 const DATA_URL = 'https://raw.githubusercontent.com/DianCotrina/keikogobierna/ultimitas-data/today.json';
 // Records written before the source field existed are all El Comercio.
@@ -18,18 +19,6 @@ const timeFmt = new Intl.DateTimeFormat('es-PE', { hour: '2-digit', minute: '2-d
 
 function limaToday(): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: LIMA }).format(new Date());
-}
-
-// Third-party URLs: only http(s) may reach an href — the feed is external data,
-// and canonical_url() upstream preserves schemes like javascript:/data: as-is.
-function safeHttpUrl(raw: string): string {
-  try {
-    const url = new URL(raw);
-    if (url.protocol === 'https:' || url.protocol === 'http:') return url.href;
-  } catch {
-    // unparseable — fall through to ''
-  }
-  return '';
 }
 
 // Third-party text: build every node with textContent — never innerHTML.
