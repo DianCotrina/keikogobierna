@@ -178,3 +178,31 @@ class InfobaeFeedTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FetchDedupTest(unittest.TestCase):
+    """One story on two of an outlet's feeds is one story.
+
+    El Comercio publishes to both its política and general feeds and they
+    overlap by a handful of articles a day. /ultimitas/ deduplicated on its own;
+    the cabinet sweep and the profile reader did not, and counted those twice.
+    """
+
+    def setUp(self):
+        self.real_get = press_feeds.http_get
+
+    def tearDown(self):
+        press_feeds.http_get = self.real_get
+
+    def test_the_same_url_from_two_feeds_arrives_once(self):
+        press_feeds.http_get = lambda url, headers=None: FIXTURE
+        items, failed = press_feeds.fetch_sources()
+        urls = [i["url"] for i in items]
+        self.assertEqual(len(urls), len(set(urls)), "fetch_sources returned duplicates")
+
+    def test_deduplication_does_not_merge_distinct_outlets(self):
+        """Two outlets covering different stories both survive."""
+        press_feeds.http_get = lambda url, headers=None: (
+            FIXTURE if "elcomercio" in url else LR_FIXTURE)
+        items, _ = press_feeds.fetch_sources()
+        self.assertGreater(len({i["source"] for i in items}), 1)

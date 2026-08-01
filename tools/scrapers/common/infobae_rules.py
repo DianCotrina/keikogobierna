@@ -59,11 +59,34 @@ def _carteras_named(text: str) -> set:
 
 
 def _surnames(person_name: str) -> list:
-    """The surname tokens of a Peruvian full name — everything after the given
-    name. "Mara Seminario Marón" -> ["seminario", "maron"].
+    """The two apellidos of a Peruvian full name, paterno and materno.
+
+    "Mara Seminario Marón" -> ["seminario", "maron"].
+
+    Taken from the end, not by dropping the first token. Everything before the
+    apellidos is given names, and there can be more than one: the roster used to
+    hold press-style names with a single one, and now holds the gazette's full
+    legal names, where 16 of 19 carry two. Dropping only the first left
+    "carlos", "julio", "fernando" and "manuel" standing in as surnames -- common
+    enough given names to match strangers.
+
+    Two exceptions, both real on the sitting cabinet:
+
+    `fold` reduces punctuation to spaces, so a compound apellido arrives as
+    separate tokens: "Espá y Garcés-Alvear" becomes espa / garces / alvear, and
+    the last two would drop "Espá" -- the one name the press actually prints for
+    him. A " y " in the original marks that compound, so the token before the
+    final pair is kept as well.
+
+    Tokens of two characters or fewer go first, which is what stops the
+    conjunction itself from being read as a surname.
     """
     tokens = [t for t in fold(person_name).split() if len(t) > 2]
-    return tokens[1:] if len(tokens) > 1 else tokens
+    if len(tokens) <= 1:
+        return tokens
+    joined = f" {fold(person_name)} "
+    take = 3 if " y " in joined and len(tokens) > 2 else 2
+    return tokens[-take:]
 
 
 def _epoch(published: str) -> float:

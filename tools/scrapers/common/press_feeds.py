@@ -55,18 +55,30 @@ def parse_feed(raw: bytes, source: str) -> list[dict]:
 
 
 def fetch_sources() -> tuple[list[dict], list[str]]:
-    """Items across all SOURCES, plus the names of sources that failed entirely.
+    """Items across all SOURCES, deduplicated, plus sources that failed entirely.
 
     One outlet's outage must never silence the other: failures are per-feed,
     and a source only counts as failed when none of its feeds delivered.
+
+    De-duplication by canonical URL belongs here rather than in a caller. An
+    outlet may publish one story to several of its feeds -- El Comercio's
+    política and general feeds overlap by a handful of articles a day -- and a
+    story arriving twice is an artefact of how we fetch, not something any
+    consumer should have to know about. /ultimitas/ deduplicated on its own and
+    the other two readers did not, so the cabinet sweep and the profile reader
+    were counting the same article more than once.
     """
     items: list[dict] = []
+    seen: set[str] = set()
     failed: list[str] = []
     for source in SOURCES:
         got_any = False
         for feed in source["feeds"]:
             try:
-                items.extend(parse_feed(http_get(feed, headers={"User-Agent": BROWSER_UA}), source["name"]))
+                for item in parse_feed(http_get(feed, headers={"User-Agent": BROWSER_UA}), source["name"]):
+                    if item["url"] not in seen:
+                        seen.add(item["url"])
+                        items.append(item)
                 got_any = True
             except Exception as err:  # noqa: BLE001 — any feed error is survivable
                 print(f"WARN: feed failed: {feed}: {err}", file=sys.stderr)
