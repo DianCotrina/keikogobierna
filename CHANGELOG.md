@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.1](https://github.com/DianCotrina/keikogobierna/compare/v2.7.0...v2.7.1) (2026-08-01)
+
+
+### Bug Fixes
+
+* the profile reader broke when the cabinet was sworn in ([351caa0](https://github.com/DianCotrina/keikogobierna/commit/351caa0bd577b797079aeb8fef150e904537d6bb))
+
 ## [2.7.0](https://github.com/DianCotrina/keikogobierna/compare/v2.6.1...v2.7.0) (2026-07-31)
 
 
