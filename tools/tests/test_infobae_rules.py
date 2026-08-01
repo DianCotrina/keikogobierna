@@ -8,6 +8,7 @@ import unittest
 from pathlib import Path
 
 from tools.scrapers.common import press_feeds
+from tools.scrapers.common import infobae_rules as ir
 from tools.scrapers.common.infobae_rules import is_profile, profile_items
 
 FIXTURE = (Path(__file__).resolve().parent / "fixtures" / "infobae_peru_20260728.xml").read_bytes()
@@ -100,3 +101,43 @@ class Purity(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SurnameExtractionTest(unittest.TestCase):
+    """Apellidos come from the end of the name, not from dropping one token.
+
+    The roster used to hold press-style names with one given name; it now holds
+    the gazette's full legal names, where most carry two. Dropping only the
+    first left common given names standing in as surnames.
+    """
+
+    def test_two_given_names_do_not_become_surnames(self):
+        self.assertEqual(ir._surnames("Juan Manuel Kosme Sheput Moore"), ["sheput", "moore"])
+        self.assertEqual(ir._surnames("Ernesto Julio Álvarez Miranda"), ["alvarez", "miranda"])
+        self.assertEqual(ir._surnames("Mauricio Fernando Arnillas González"),
+                         ["arnillas", "gonzalez"])
+
+    def test_a_single_given_name_still_works(self):
+        self.assertEqual(ir._surnames("Mara Seminario Marón"), ["seminario", "maron"])
+        self.assertEqual(ir._surnames("Vladimiro Huaroc Portocarrero"),
+                         ["huaroc", "portocarrero"])
+
+    def test_a_compound_surname_keeps_the_name_the_press_prints(self):
+        """fold splits "Espá y Garcés-Alvear" into three; the press says "Espá"."""
+        surnames = ir._surnames("Alfonso Carlos Espá y Garcés-Alvear")
+        self.assertEqual(surnames, ["espa", "garces", "alvear"])
+        self.assertNotIn("carlos", surnames)   # the given name stays out
+        self.assertNotIn("y", surnames)        # so does the conjunction
+
+    def test_a_repeated_surname_is_kept_as_is(self):
+        self.assertEqual(ir._surnames("Rafael Rey Rey"), ["rey", "rey"])
+
+    def test_no_common_given_name_survives_for_the_sitting_cabinet(self):
+        """The regression, stated as the property it violated."""
+        from tools.scrapers.infobae_profiles import roster
+        given = {"carlos", "julio", "antonio", "fernando", "manuel", "jorge",
+                 "rafael", "augusto", "martin", "ismael", "ivonne", "magdalena",
+                 "williams", "kosme"}
+        for person in roster():
+            found = set(ir._surnames(person["person_name"])) & given
+            self.assertEqual(found, set(), f"{person['person_name']}: {found}")
