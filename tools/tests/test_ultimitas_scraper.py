@@ -120,13 +120,14 @@ class LaRepublicaFeedTest(unittest.TestCase):
             self.assertEqual(item["source"], "La República")
 
     def test_every_outlet_is_configured(self):
-        names = [s["name"] for s in us.SOURCES]
+        # The shared feed list, not the page's: the cabinet sweep reads all of these.
+        names = [s["name"] for s in press_feeds.SOURCES]
         for outlet in ("El Comercio", "La República", "RPP", "Gestión"):
             self.assertIn(outlet, names)
 
     def test_source_names_are_unique(self):
-        # The ultimitas page derives its filter chips from these names.
-        names = [s["name"] for s in us.SOURCES]
+        # The ultimitas page derives its filter chips from the names it publishes.
+        names = [s["name"] for s in press_feeds.SOURCES]
         self.assertEqual(len(names), len(set(names)))
 
 
@@ -152,14 +153,12 @@ class SourceIsolationTest(unittest.TestCase):
         self.assertNotIn("La República", {i["source"] for i in items})
 
 
-
-
 INFOBAE_FIXTURE = (Path(__file__).resolve().parent / "fixtures" / "infobae_peru_20260728.xml").read_bytes()
 
 
 class InfobaeFeedTest(unittest.TestCase):
     def test_infobae_is_configured(self):
-        self.assertIn("Infobae", [s["name"] for s in us.SOURCES])
+        self.assertIn("Infobae", [s["name"] for s in press_feeds.SOURCES])
 
     def test_real_feed_slice_parses_with_all_fields(self):
         items = us.parse_feed(INFOBAE_FIXTURE, "Infobae")
@@ -175,9 +174,6 @@ class InfobaeFeedTest(unittest.TestCase):
         # article body ever needs reading.
         items = us.parse_feed(INFOBAE_FIXTURE, "Infobae")
         self.assertTrue(any(len(i["summary"]) > 80 for i in items))
-
-if __name__ == "__main__":
-    unittest.main()
 
 
 class FetchDedupTest(unittest.TestCase):
@@ -206,3 +202,40 @@ class FetchDedupTest(unittest.TestCase):
             FIXTURE if "elcomercio" in url else LR_FIXTURE)
         items, _ = press_feeds.fetch_sources()
         self.assertGreater(len({i["source"] for i in items}), 1)
+
+class PublishedOutletsTest(unittest.TestCase):
+    """/ultimitas/ publishes two outlets; the shared feed list serves five.
+
+    Gestión, Infobae and RPP are fetched for the cabinet sweep and the profile
+    reader, which want every outlet they can get. They do not reach the page:
+    none of the three has a Peruvian-politics feed to narrow to -- Gestión's
+    category/politica is empty, Infobae's is Argentine politics, RPP has none --
+    so they arrive as general feeds and only KEYWORDS stands between them and
+    the page. That is a weaker gate than the other two get.
+    """
+
+    def test_the_page_publishes_only_its_two_outlets(self):
+        self.assertEqual(us.OUTLETS, ["El Comercio", "La República"])
+
+    def test_the_shared_feed_list_still_carries_all_five(self):
+        names = {s["name"] for s in press_feeds.SOURCES}
+        self.assertTrue({"RPP", "Gestión", "Infobae"} <= names)
+
+    def test_every_published_outlet_is_actually_fetched(self):
+        names = {s["name"] for s in press_feeds.SOURCES}
+        for outlet in us.OUTLETS:
+            self.assertIn(outlet, names, f"{outlet} is published but never fetched")
+
+    def test_items_from_other_outlets_are_dropped(self):
+        for outlet in ("Gestión", "Infobae", "RPP"):
+            self.assertFalse(us.from_published_outlet({"source": outlet}), outlet)
+
+    def test_items_from_published_outlets_are_kept(self):
+        for outlet in us.OUTLETS:
+            self.assertTrue(us.from_published_outlet({"source": outlet}), outlet)
+
+    def test_an_item_with_no_source_is_dropped(self):
+        self.assertFalse(us.from_published_outlet({}))
+
+if __name__ == "__main__":
+    unittest.main()
