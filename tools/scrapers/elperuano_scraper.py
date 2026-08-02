@@ -181,6 +181,7 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
         ensure_label(repo, gh_token)
 
     created = 0
+    ensured: set[str] = set()  # temas recur across a day's matches; one API check each
     for record, related in matched:
         token_str = dedup_token("np", f"{record['tipo']}|{record['numero']}|{iso_date}")
 
@@ -195,8 +196,11 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
             continue
         tema_labels = sorted({f"tema:{s}" for cid in related if (s := matcher.tema_slug(cid))})
         for tl in tema_labels:
+            if tl in ensured:
+                continue
             ensure_label(repo, gh_token, name=tl, color="6B6F7B",
                          description=f"Compromisos del tema «{tl.split(':', 1)[1]}»")
+            ensured.add(tl)
         excerpt = " ".join(norma_text(record).split())[:EXCERPT_CHARS]
         title = f"Norma candidata: {record['tipo']} {record['numero']} [{token_str}]"[:250]
         issue = create_issue(repo, gh_token, title, issue_body(record, related, iso_date, excerpt),
