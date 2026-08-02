@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -81,8 +82,14 @@ def significant_tokens(text: str, extra_stop: frozenset = frozenset()) -> list[s
     Tokens <= 3 chars are dropped as noise, except ones containing a digit —
     short acronyms like "c5i" are distinctive (generic numbers like "100" or a
     year survive here but get dropped later by the index's document-frequency gate).
+
+    Punctuation splits tokens rather than sticking to them. Keeping it attached
+    made "nacional," and "nacional" different words, which split one phrase's
+    document frequency across variants — "nivel nacional" reached the index as
+    three sub-threshold entries instead of one that the DF gate would have cut —
+    and lost matches whenever a norma put a comma inside an indexed phrase.
     """
-    return [t for t in normalize(text).split()
+    return [t for t in re.sub(r"[^0-9a-z]+", " ", normalize(text)).split()
             if (len(t) > 3 or any(c.isdigit() for c in t))
             and t not in STOPWORDS and t not in extra_stop]
 
