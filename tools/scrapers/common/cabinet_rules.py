@@ -96,9 +96,9 @@ def _strip_article(key: str) -> str:
     return key
 
 
-def _load_portfolio_lookup() -> dict:
-    """Folded ministry name -> registry id, built from the committed registry so
-    the parser can never invent a cartera.
+def _load_portfolio_registry() -> tuple:
+    """(folded ministry name -> registry id, id -> short display name), built
+    from the committed registry so the parser can never invent a cartera.
 
     `aliases` carries what the press actually prints — "MTC", "Minem",
     "canciller" — none of which appears in any ministry's own name. Keeping them
@@ -106,33 +106,77 @@ def _load_portfolio_lookup() -> dict:
     authority on what a cartera is called.
     """
     data = json.loads(PORTFOLIOS_PATH.read_text(encoding="utf-8"))
-    lookup = {}
+    lookup, short = {}, {}
     for portfolio in data["portfolios"]:
+        short[portfolio["id"]] = portfolio["short"]
         names = [portfolio["name"], portfolio["short"], portfolio["slug"].replace("-", " ")]
         names += portfolio.get("aliases", [])
         for name in names:
             lookup[_strip_article(_fold(name))] = portfolio["id"]
-    return lookup
+    return lookup, short
 
 
-_PORTFOLIOS = _load_portfolio_lookup()
+_PORTFOLIOS, PORTFOLIO_SHORT = _load_portfolio_registry()
 
 # The registry's own ids, so callers do not re-read portfolios.json to get them.
 PORTFOLIO_IDS = frozenset(_PORTFOLIOS.values())
 
 
-def roster_names() -> list:
-    """Everyone the site already tracks: appointed ministers and announced ones.
+def read_cabinet(filename: str, key: str) -> list:
+    """Rows of one cabinet registry file (ministers/tenures/announcements).
 
-    Read fresh on each call rather than cached — the callers are one-shot CLI
-    runs, and a stale roster would silently narrow what they look for.
+    The single reader of src/data/cabinet/*.json, so a registry-shape change
+    lands in one place. Read fresh on each call rather than cached — the
+    callers are one-shot CLI runs, and a stale registry would silently narrow
+    what they see.
     """
-    def read(filename: str, key: str, field: str) -> list:
-        data = json.loads((CABINET_DIR / filename).read_text(encoding="utf-8"))
-        return [row[field] for row in data[key]]
+    return json.loads((CABINET_DIR / filename).read_text(encoding="utf-8"))[key]
 
-    return sorted(set(read("ministers.json", "ministers", "name")
-                      + read("announcements.json", "announcements", "person_name")))
+
+def roster_names() -> list:
+    """Everyone the site already tracks: appointed ministers and announced ones."""
+    return sorted({m["name"] for m in read_cabinet("ministers.json", "ministers")}
+                  | {a["person_name"] for a in read_cabinet("announcements.json", "announcements")})
+
+
+def roster() -> list:
+    """Every cartera with a named holder — appointed or announced.
+
+    Appointments first, announcements only for a cartera the gazette has not
+    filled. Reading announcements alone was right while the cabinet was merely
+    proclaimed and wrong the moment it was sworn in: a tenure supersedes its
+    announcement and the validator then requires the announcement's deletion,
+    so an all-appointed cabinet emptied that file and the profile reader
+    returned nothing at all — "0 carteras con material" on every run, looking
+    like a quiet news day.
+    """
+    ministers = {m["slug"]: m for m in read_cabinet("ministers.json", "ministers")}
+
+    rows, seen = [], set()
+    for tenure in read_cabinet("tenures.json", "tenures"):
+        if tenure.get("end"):
+            continue  # a past holder is not who covers the cartera now
+        person = ministers.get(tenure.get("person") or "")
+        if not person:
+            continue
+        seen.add(tenure["portfolio"])
+        rows.append({
+            "portfolio": tenure["portfolio"],
+            "person_name": person["name"],
+            "slug": person["slug"],
+            "has_ficha": bool(person.get("bio")),
+        })
+    for entry in read_cabinet("announcements.json", "announcements"):
+        if entry["portfolio"] in seen:
+            continue
+        linked = ministers.get(entry.get("person") or "")
+        rows.append({
+            "portfolio": entry["portfolio"],
+            "person_name": (linked or {}).get("name") or entry["person_name"],
+            "slug": (linked or {}).get("slug"),
+            "has_ficha": bool((linked or {}).get("bio")),
+        })
+    return rows
 
 
 def portfolio_id(name: str):

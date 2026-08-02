@@ -24,7 +24,7 @@ from datetime import date, timedelta
 
 from tools.scrapers.common.cabinet_note_rules import parse_cabinet_note
 from tools.scrapers.common.cabinet_rules import (
-    CABINET_DIR, PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, reconcile, roster_names)
+    PORTFOLIO_IDS, is_cabinet_norma, parse_cabinet_act, read_cabinet, reconcile, roster_names)
 from tools.scrapers.common.press_feeds import fetch_sources
 from tools.scrapers.common.press_rules import announcements_from, judicial_signals
 from tools.scrapers.common.elperuano_client import fetch_normas, norma_text
@@ -200,10 +200,6 @@ def sweep_acts(start: date, end: date):
                 print(f"  ! no se pudo leer {record['numero']} (op={record['op']})")
 
 
-def _read(filename: str, key: str) -> list:
-    return json.loads((CABINET_DIR / filename).read_text(encoding="utf-8"))[key]
-
-
 def run_fill(start: date, end: date) -> int:
     """Turn announced ministers into gazette-backed entries, for a person to merge.
 
@@ -215,8 +211,8 @@ def run_fill(start: date, end: date) -> int:
     nineteen names wrong.
     """
     acts = list(sweep_acts(start, end))
-    result = reconcile(acts, _read("announcements.json", "announcements"),
-                       _read("ministers.json", "ministers"))
+    result = reconcile(acts, read_cabinet("announcements.json", "announcements"),
+                       read_cabinet("ministers.json", "ministers"))
 
     print(f"\n{len(result['tenures'])} nombramiento(s) con norma; "
           f"{len(result['ministers'])} ficha(s) nueva(s).")

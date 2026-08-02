@@ -24,61 +24,11 @@ import argparse
 import json
 import sys
 
-from tools.scrapers.common.cabinet_rules import CABINET_DIR, PORTFOLIOS_PATH, slugify
+from tools.scrapers.common.cabinet_rules import PORTFOLIO_SHORT, roster, slugify
 from tools.scrapers.common.infobae_rules import profile_items, sort_for_review
 from tools.scrapers.common.press_feeds import fetch_sources
 
 OUTLET = "Infobae"
-
-
-def roster() -> list:
-    """Every cartera with a named holder — appointed or announced.
-
-    Appointments first, announcements only for a cartera the gazette has not
-    filled. Reading announcements alone was right while the cabinet was merely
-    proclaimed and wrong the moment it was sworn in: a tenure supersedes its
-    announcement and the validator then requires the announcement's deletion,
-    so an all-appointed cabinet emptied that file and this returned nothing at
-    all. The tool reported "0 carteras con material" on every run and looked
-    like a quiet news day.
-    """
-    ministers = {m["slug"]: m for m in json.loads(
-        (CABINET_DIR / "ministers.json").read_text(encoding="utf-8"))["ministers"]}
-    tenures = json.loads(
-        (CABINET_DIR / "tenures.json").read_text(encoding="utf-8"))["tenures"]
-    announcements = json.loads(
-        (CABINET_DIR / "announcements.json").read_text(encoding="utf-8"))["announcements"]
-
-    rows, seen = [], set()
-    for tenure in tenures:
-        if tenure.get("end"):
-            continue  # a past holder is not who covers the cartera now
-        person = ministers.get(tenure.get("person") or "")
-        if not person:
-            continue
-        seen.add(tenure["portfolio"])
-        rows.append({
-            "portfolio": tenure["portfolio"],
-            "person_name": person["name"],
-            "slug": person["slug"],
-            "has_ficha": bool(person.get("bio")),
-        })
-    for entry in announcements:
-        if entry["portfolio"] in seen:
-            continue
-        linked = ministers.get(entry.get("person") or "")
-        rows.append({
-            "portfolio": entry["portfolio"],
-            "person_name": (linked or {}).get("name") or entry["person_name"],
-            "slug": (linked or {}).get("slug"),
-            "has_ficha": bool((linked or {}).get("bio")),
-        })
-    return rows
-
-
-def portfolio_names() -> dict:
-    return {p["id"]: p["short"] for p in json.loads(
-        PORTFOLIOS_PATH.read_text(encoding="utf-8"))["portfolios"]}
 
 
 def draft(person_name: str, url: str) -> str:
@@ -104,7 +54,7 @@ def run(only: str | None) -> int:
     ministers = [m for m in roster() if not only or m["portfolio"] == only]
     found = {pid: sort_for_review(items)
              for pid, items in profile_items(items_by_outlet, ministers).items()}
-    names = portfolio_names()
+    names = PORTFOLIO_SHORT
 
     shown = 0
     for person in ministers:

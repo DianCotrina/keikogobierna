@@ -139,7 +139,7 @@ class SurnameExtractionTest(unittest.TestCase):
 
     def test_no_common_given_name_survives_for_the_sitting_cabinet(self):
         """The regression, stated as the property it violated."""
-        from tools.scrapers.infobae_profiles import roster
+        from tools.scrapers.common.cabinet_rules import roster
         given = {"carlos", "julio", "antonio", "fernando", "manuel", "jorge",
                  "rafael", "augusto", "martin", "ismael", "ivonne", "magdalena",
                  "williams", "kosme"}
