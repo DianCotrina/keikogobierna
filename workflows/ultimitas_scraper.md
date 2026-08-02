@@ -31,10 +31,12 @@ listing, not evidence; it never touches `tracking.json` or `main`.
      of overwriting it with `{}`. Each entry also carries `matched_in` (`"title"`
      or `"summary"`): the two-key match (cartera + apellido) runs against
      headline + feed summary together, so an article can match while its
-     headline names someone else — `matched_in` is `"title"` when one of the
-     minister's apellidos appears in the headline (cartera aside; requiring
-     it too misclassified headlines that already lead with the minister's own
-     name), `"summary"` otherwise, so the dossier can say so.
+     headline gives a reader no reason to connect it to this minister —
+     `matched_in` is `"title"` when the headline names *either* the
+     minister's apellido *or* their cartera (`headline_names_minister` in
+     `infobae_rules`; requiring both was tried and misclassified headlines
+     naming only the office, e.g. "Ministro de Cultura: ..."), `"summary"`
+     only when it names neither, so the dossier can say so.
    - Every article carries its `source`; the page's filter chips are built from the
      sources present in the data, not a hardcoded outlet list.
 3. `src/components/Ultimitas/ultimitas.ts` renders it client-side: dated header
