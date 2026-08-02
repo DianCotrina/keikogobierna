@@ -26,7 +26,7 @@ rot as coverage changes, while the structure holds.
 """
 import re
 
-from .cabinet_rules import PCM_HEAD, PCM_ID, portfolio_id
+from .cabinet_rules import PCM_HEAD, PCM_ID, resolve_portfolio_prefix
 from .watcher_common import normalize
 
 
@@ -60,23 +60,12 @@ def _office_to_portfolio(office: str):
     """Resolve a headline's office phrase to a portfolio id.
 
     A headline seldom stops at the ministry: "ministro de Economía de su primer
-    gabinete". Rather than maintain a stoplist of trailing clauses, try the
-    longest prefix of the phrase first and shorten until one resolves against
-    the registry. The registry stays the only authority on what a ministry is,
-    and an ambiguous prefix ("Desarrollo", which matches two carteras) resolves
-    to nothing because portfolio_id() requires a unique hit.
+    gabinete". The registry stays the only authority on what a ministry is;
+    resolve_portfolio_prefix owns the shorten-until-it-resolves loop.
     """
     if PCM_HEAD.search(office):
         return PCM_ID
-
-    phrase = re.sub(r"(?i)^ministr[oa]\s+d[ee]l?\s+", "", office).strip()
-    words = phrase.split()
-    for length in range(len(words), 0, -1):
-        candidate = " ".join(words[:length]).strip(" ,.;")
-        resolved = portfolio_id(candidate)
-        if resolved:
-            return resolved
-    return None
+    return resolve_portfolio_prefix(re.sub(r"(?i)^ministr[oa]\s+d[ee]l?\s+", "", office).strip())
 
 
 def parse_announcement(article: dict):
