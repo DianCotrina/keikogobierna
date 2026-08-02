@@ -81,9 +81,13 @@ def select_today(articles: list[dict]) -> tuple[str, list[dict]]:
     return latest, [a for day, a in days if day == latest]
 
 
-def write_ministros(data: Path, articles: list, now_iso: str) -> None:
-    """The per-minister coverage index, for the gabinete dossier pages."""
-    index = build_index(articles, roster(), datetime.fromisoformat(now_iso))
+def write_ministros(data: Path, index: dict, now_iso: str) -> None:
+    """The per-minister coverage index, for the gabinete dossier pages.
+
+    Takes the built index rather than the raw articles: the caller decides
+    whether an empty index is worth writing, which means it has to build the
+    index before deciding, and this must not build it a second time.
+    """
     (data / "ministros.json").write_text(json.dumps({
         "generated": now_iso,
         "window_days": WINDOW_DAYS,
@@ -138,17 +142,26 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     # cost the page its primary output below — ultimitas.json and today.json
     # matter more than the secondary coverage index.
     #
-    # build_index([]) returns {} — writing unconditionally on a total outage
-    # (all five sources dead) would overwrite a good file with an empty one
-    # and wipe every minister's coverage. Only write when at least one source
-    # delivered something; a total outage leaves the existing file untouched.
-    if unique:
-        try:
-            write_ministros(data, list(unique.values()), now_iso)
-        except Exception as exc:  # noqa: BLE001 — deliberately broad, isolated to this one call
-            print(f"WARN: ministros.json not written: {exc}", file=sys.stderr)
+    # The guard checks the *built index*, not "did any source deliver an
+    # article" — build_index() can come back {} even with unique full, most
+    # importantly when roster() reads an empty cabinet without raising (the
+    # try/except below only catches exceptions). Writing an empty index would
+    # carry a fresh `generated`, pass the staleness guard, and every dossier
+    # would assert no coverage for real people that nobody checked. A
+    # genuinely empty index on a first-ever run looks the same as a degraded
+    # one from here, and skipping the write is the right call either way: no
+    # file beats one that asserts nothing was published.
+    try:
+        index = build_index(list(unique.values()), roster(), datetime.fromisoformat(now_iso))
+    except Exception as exc:  # noqa: BLE001 — deliberately broad, isolated to this one call
+        print(f"WARN: ministros.json not written: {exc}", file=sys.stderr)
     else:
-        print("WARN: ministros.json not written: no source delivered any articles", file=sys.stderr)
+        if index:
+            write_ministros(data, index, now_iso)
+        else:
+            print("WARN: ministros.json not written: the coverage index came out empty "
+                  "(no source delivered a match, or the roster itself is empty)",
+                  file=sys.stderr)
 
     if ultimitas_outage:
         print(f"ERROR: every published outlet failed ({', '.join(OUTLETS)})", file=sys.stderr)
