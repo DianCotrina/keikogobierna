@@ -255,7 +255,8 @@ def _iso_date(value: str) -> str:
     return ""
 
 
-def _clean(name: str) -> str:
+def clean_name(name: str) -> str:
+    """Collapse whitespace and strip the punctuation a capture drags along."""
     return " ".join((name or "").split()).strip(" .,;")
 
 
@@ -285,7 +286,7 @@ def parse_cabinet_act(record: dict, text: str):
     else:
         return None
 
-    person = _clean(person)
+    person = clean_name(person)
     if not action or not person or not pid:
         return None
 

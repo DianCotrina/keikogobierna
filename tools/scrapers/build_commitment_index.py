@@ -20,11 +20,11 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
+from tools.scrapers.common.matcher import INDEX_PATH
 from tools.scrapers.common.watcher_common import bigrams_of, significant_tokens
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 PLAN = ROOT / "src" / "data" / "plan"
-INDEX_PATH = Path(__file__).resolve().parent / "commitment_index.json"
 # Phrases are distinctive BIGRAMS only. Single words are too ambiguous against
 # ~600 daily normas even when rare in the plan ("fiscal", "horario" are plan-rare
 # but norma-common), so unigram matching is left to hand-curated overlay boosts.
