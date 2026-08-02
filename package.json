@@ -1,6 +1,6 @@
 {
   "name": "keikogobierna",
-  "version": "2.8.1",
+  "version": "2.8.2",
   "description": "Keiko es la siguiente gobernante del perú y esta pagina será para seguir su plan de gobierno actual",
   "main": "index.js",
   "directories": {
