@@ -67,7 +67,26 @@ class NationalScopeTest(unittest.TestCase):
 
     def test_national_sectors_stay_in_scope(self):
         for sector in ("EDUCACIÓN", "COMERCIO EXTERIOR Y TURISMO", "AMBIENTE",
-                       "MINISTERIO PÚBLICO", "", "SUPERINTENDENCIA NACIONAL DE SERVICIOS DE SANEAMIENTO"):
+                       "", "SUPERINTENDENCIA NACIONAL DE SERVICIOS DE SANEAMIENTO"):
+            self.assertTrue(er.in_national_scope({"sector": sector}), sector)
+
+
+class ExecutiveScopeTest(unittest.TestCase):
+    """Control and judicial own-acts can't evidence the executive's own plan."""
+
+    def test_control_and_judicial_sectors_are_out_of_scope(self):
+        # The publishers behind issues #231-#235: appointments, disciplinary
+        # rulings and registry annexes, none of which the government executes.
+        for sector in ("CONTRALORÍA GENERAL", "PODER JUDICIAL", "MINISTERIO PÚBLICO",
+                       "CORTES SUPERIORES DE JUSTICIA", "CONSEJO EJECUTIVO DEL PODER JUDICIAL"):
+            self.assertFalse(er.in_national_scope({"sector": sector}), sector)
+
+    def test_statistical_and_electoral_bodies_stay_in_scope(self):
+        # INEI publishes the statistics that measure the 65 metas 2031, so it has
+        # to stay reachable; its monthly-index noise dies on the phrase gate instead.
+        for sector in ("INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA",
+                       "BANCO CENTRAL DE RESERVA", "JURADO NACIONAL DE ELECCIONES",
+                       "REGISTRO NACIONAL DE IDENTIFICACIÓN Y ESTADO CIVIL"):
             self.assertTrue(er.in_national_scope({"sector": sector}), sector)
 
 

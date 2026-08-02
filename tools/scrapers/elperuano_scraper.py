@@ -41,6 +41,7 @@ from tools.scrapers.common.watcher_common import (
     create_issue,
     dedup_token,
     ensure_label,
+    fold,
     http_get,
     issue_exists,
 )
@@ -57,12 +58,28 @@ SKIP_TIPOS: set[str] = set()
 # its boilerplate ("beneficios tributarios", "rendicion de cuentas") keeps matching
 # national commitments. Drop subnational publishers from the review queue by sector;
 # they still land in the archive (this gate is applied at the match stage, not fetch).
-SUBNATIONAL_SECTOR_RE = re.compile(r"^\s*(municipalidad|gobierno regional)\b", re.I)
+SUBNATIONAL_SECTOR_RE = re.compile(r"^(municipalidad|gobierno regional)\b")
+
+# Same reasoning one level up: the plan being tracked is the *executive's*, so an
+# own-act of a constitutionally autonomous control or judicial body can't evidence
+# it. These publish constantly (appointments, disciplinary rulings, registry
+# annexes) and kept surfacing as candidates — issues #231-#235.
+#
+# Deliberately narrow. INEI, BCR, RENIEC, ONPE and the JNE stay in scope: the 65
+# metas 2031 are quantitative and those bodies publish the statistics that measure
+# them. INEI's monthly-index noise is handled on the phrase gate instead.
+AUTONOMOUS_SECTOR_RE = re.compile(
+    r"^(contraloria|poder judicial|ministerio publico|cortes superiores"
+    r"|consejo ejecutivo del poder judicial|academia de la magistratura"
+    r"|junta nacional de justicia)\b"
+)
 
 
 def in_national_scope(record: dict) -> bool:
-    """False for norms published by a municipality or regional government."""
-    return not SUBNATIONAL_SECTOR_RE.match(record.get("sector", ""))
+    """False for norms a municipality, regional government, or autonomous control
+    or judicial body published as its own act."""
+    sector = fold(record.get("sector", ""))
+    return not (SUBNATIONAL_SECTOR_RE.match(sector) or AUTONOMOUS_SECTOR_RE.match(sector))
 
 
 # ---- Stage 1: fetch (public search page) --------------------------------------
