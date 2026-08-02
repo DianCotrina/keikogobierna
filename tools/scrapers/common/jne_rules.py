@@ -27,6 +27,7 @@ Pure functions: no I/O. Transport lives in jne_client.py.
 """
 import re
 
+from .cabinet_rules import slugify
 from .watcher_common import fold
 
 # The JNE platform is an Angular SPA whose hoja-de-vida view is reachable only
@@ -197,16 +198,12 @@ def profession_of(hoja_vida: dict) -> str:
     return ""
 
 
-def _slug(name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", fold(name)).strip("-")
-
-
 def draft_person(candidate: dict, hoja_vida: dict) -> dict:
     """A ministers.json entry ready for review — never for merging as-is."""
     name = _full_name(candidate)
     hv_id = candidate.get("idHojaVida")
     return {
-        "slug": _slug(name),
+        "slug": slugify(name),
         "name": title_es(name),
         "profession": title_es(profession_of(hoja_vida)),
         "bio": "",  # written by a person; the declaration carries no prose
