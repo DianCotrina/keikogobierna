@@ -15,7 +15,7 @@ import re
 from datetime import datetime
 
 from .cabinet_rules import resolve_portfolio_prefix
-from .press_rules import fold
+from .watcher_common import fold_words
 
 # Headline shapes that mark a piece as a profile rather than a news item.
 _PROFILE = re.compile(
@@ -95,7 +95,7 @@ def _surnames(person_name: str) -> list:
 
     Two exceptions, both real on the sitting cabinet:
 
-    `fold` reduces punctuation to spaces, so a compound apellido arrives as
+    `fold_words` reduces punctuation to spaces, so a compound apellido arrives as
     separate tokens: "Espá y Garcés-Alvear" becomes espa / garces / alvear, and
     the last two would drop "Espá" -- the one name the press actually prints for
     him. A " y " in the original marks that compound, so the token before the
@@ -104,7 +104,7 @@ def _surnames(person_name: str) -> list:
     Tokens of two characters or fewer go first, which is what stops the
     conjunction itself from being read as a surname.
     """
-    folded = fold(person_name)
+    folded = fold_words(person_name)
     tokens = [t for t in folded.split() if len(t) > 2]
     if len(tokens) <= 1:
         return tokens
@@ -130,7 +130,7 @@ def names_minister(text: str, person: dict) -> bool:
     """
     if person.get("portfolio") not in _carteras_named(text):
         return False
-    words = set(fold(text or "").split())
+    words = set(fold_words(text or "").split())
     return _apellido_in(words, _surnames(person.get("person_name", "")))
 
 
@@ -153,7 +153,7 @@ def headline_names_minister(text: str, person: dict) -> bool:
     """
     if person.get("portfolio") in _carteras_named(text):
         return True
-    words = set(fold(text or "").split())
+    words = set(fold_words(text or "").split())
     return _apellido_in(words, _surnames(person.get("person_name", "")))
 
 
@@ -196,7 +196,7 @@ def profile_items(articles: list, roster: list) -> dict:
         carteras = _carteras_named(blob)
         if not carteras:
             continue
-        words = set(fold(blob).split())
+        words = set(fold_words(blob).split())
 
         for person, apellidos in surnames:
             if person.get("portfolio") in carteras and _apellido_in(words, apellidos):

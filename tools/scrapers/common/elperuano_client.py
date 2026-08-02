@@ -112,11 +112,6 @@ def _get_with_retry(url: str) -> bytes:
     raise AssertionError("unreachable")  # loop either returns or raises
 
 
-def _get_page(url: str) -> str:
-    """GET a search page. HTTPError still propagates: fetch_normas reads its code."""
-    return _get_with_retry(url).decode("utf-8", "replace")
-
-
 def fetch_normas(yyyymmdd: str, iso_date: str) -> list[dict]:
     """The day's normas across all three editions, de-duplicated by op.
 
@@ -130,7 +125,7 @@ def fetch_normas(yyyymmdd: str, iso_date: str) -> list[dict]:
         for page_no in range(MAX_PAGES):
             url = SEARCH_URL.format(d=yyyymmdd, tipo=tipo_pub, start=page_no * PAGE_SIZE)
             try:
-                page = _get_page(url)
+                page = _get_with_retry(url).decode("utf-8", "replace")
             except urllib.error.HTTPError as err:
                 # A normal edition-end is a short page, not a 404; a 404 that persists
                 # past page 0 is the pagination tail — stop this edition instead of failing.

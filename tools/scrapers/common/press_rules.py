@@ -26,19 +26,8 @@ rot as coverage changes, while the structure holds.
 """
 import re
 
-from .cabinet_rules import PCM_HEAD, PCM_ID, resolve_portfolio_prefix
-from .watcher_common import normalize
-
-
-def fold(text: str) -> str:
-    """`watcher_common.fold`, plus punctuation reduced to spaces.
-
-    Headlines attach punctuation to names — "Delia Espinoza: Poder Judicial
-    archiva…" — so a plain whitespace split would yield "espinoza:" and never
-    match the roster. That extra step is why this does not just call the
-    shared helper.
-    """
-    return " ".join(re.sub(r"[^0-9a-z]+", " ", normalize(text or "")).split())
+from .cabinet_rules import PCM_HEAD, PCM_ID, clean_name, resolve_portfolio_prefix
+from .watcher_common import fold_words
 
 # A person: two to four capitalised words. Accented capitals included, since
 # Peruvian names carry them.
@@ -81,7 +70,7 @@ def parse_announcement(article: dict):
         return None
 
     portfolio = _office_to_portfolio(match.group("office"))
-    person = " ".join(match.group("person").split()).strip(" .,;")
+    person = clean_name(match.group("person"))
     if not portfolio or not person:
         return None
 
@@ -143,13 +132,13 @@ def judicial_signals(articles: list, roster_names: list) -> list:
     hombres acusados de vender estampillas falsas" are judicial-shaped headlines
     about people this site does not track.
     """
-    folded = {name: fold(name).split() for name in roster_names}
+    folded = {name: fold_words(name).split() for name in roster_names}
 
     signals, seen = [], set()
     for article in articles:
         title = article.get("title") or ""
         summary = article.get("summary") or ""
-        words = set(fold(f"{title} {summary}").split())
+        words = set(fold_words(f"{title} {summary}").split())
 
         # Every judicial term present, not just the first: "Poder Judicial
         # archiva…" carries both the court and the outcome, and the reviewer

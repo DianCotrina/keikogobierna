@@ -70,6 +70,18 @@ def fold(text: str) -> str:
     return " ".join(normalize(text or "").split())
 
 
+def fold_words(text: str) -> str:
+    """`fold`, plus punctuation reduced to spaces.
+
+    Press text attaches punctuation to names — "Delia Espinoza: Poder Judicial
+    archiva…" — so a whitespace split of `fold` output yields "espinoza:" and
+    never matches a roster. The word-matching rules (press_rules,
+    infobae_rules) tokenize with this; keeping it beside `fold` means the next
+    tokenization decision is made once, not per copy.
+    """
+    return " ".join(re.sub(r"[^0-9a-z]+", " ", normalize(text or "")).split())
+
+
 STOPWORDS = {
     "de", "la", "el", "en", "y", "para", "con", "los", "las", "del", "por",
     "un", "una", "que", "a", "su", "se", "al", "o", "e", "sus", "es",
