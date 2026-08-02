@@ -1,0 +1,153 @@
+{
+ "generated": "2026-08-02T23:59:11+00:00",
+ "window_days": 7,
+ "sources": [
+  "El Comercio",
+  "La República",
+  "RPP",
+  "Gestión",
+  "Infobae"
+ ],
+ "ministers": {
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Suspenden sesión del Consejo de Ministros que debía evaluar pedido de facultades al Legislativo",
+    "url": "https://larepublica.pe/politica/2026/08/02/suspenden-sesion-del-consejo-de-ministros-que-debia-evaluar-pedido-de-facultades-al-legislativo-hnews-92560",
+    "source": "La República",
+    "published": "2026-08-02T23:09:55+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "¿Seguirá censurando el Ministerio de Cultura con Alberto Beingolea a cargo?",
+    "url": "https://larepublica.pe/cultural/2026/07/28/seguira-censurando-el-ministerio-de-cultura-con-alberto-beingolea-a-cargo-hnews-576016",
+    "source": "La República",
+    "published": "2026-08-02T22:58:34+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sesión de Consejo de Ministros de este domingo para evaluar pedido de facultades se postergó, según ministro Alberto Beingolea",
+    "url": "https://elcomercio.pe/politica/gobierno/sesion-de-consejo-de-ministros-de-este-domingo-para-evaluar-pedido-de-facultades-se-postergo-indica-ministro-alberto-beingolea-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-02T22:12:34+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea señala que pedido de facultades legislativas aún “se afina” y descarta cierre del LUM",
+    "url": "https://gestion.pe/peru/beingolea-senala-que-pedido-de-facultades-legislativas-aun-se-afina-y-descarta-cierre-del-lum-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-02T20:15:24+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea dice que pedido de facultades del Ejecutivo aún está recibiendo observaciones de ministerios: \"Se está afinando\"",
+    "url": "https://rpp.pe/politica/gobierno/beingolea-dice-que-pedido-de-facultades-del-ejecutivo-aun-esta-recibiendo-observaciones-de-ministerios-se-esta-afinando-noticia-1699815",
+    "source": "RPP",
+    "published": "2026-08-02T13:56:26-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea dice que no cerrará el LUM y señala que la izquierda \"manejó\" la cultura en el país: \"Se acabaron los privilegios\"",
+    "url": "https://rpp.pe/politica/gobierno/beingolea-dice-que-no-cerrara-el-lum-y-senala-que-la-izquierda-manejo-la-cultura-en-el-pais-se-acabaron-los-privilegios-noticia-1699802",
+    "source": "RPP",
+    "published": "2026-08-02T12:28:07-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Consejo de ministros no debatirán hoy el pedido de facultades al Congreso: “No están las condiciones para la aprobación”",
+    "url": "https://www.infobae.com/peru/2026/08/02/consejo-de-ministros-no-debatiran-hoy-el-pedido-de-facultades-al-congreso-no-estan-las-condiciones-para-la-aprobacion/",
+    "source": "Infobae",
+    "published": "2026-08-02T16:59:11+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro de Cultura afirma que el LUM no cerrará en su gestión y que “se acabaron los privilegios de una manera única de pensar”",
+    "url": "https://www.infobae.com/peru/2026/08/02/ministro-de-cultura-afirma-que-el-lum-cerrara-en-su-gestion-y-que-se-acabaron-los-privilegios-de-una-manera-unica-de-pensar/",
+    "source": "Infobae",
+    "published": "2026-08-02T16:26:47+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Perú buscará incorporarse al Escudo de las Américas para combatir crimen organizado: los anuncios del canciller Carlos Espá",
+    "url": "https://elcomercio.pe/politica/carlos-espa-ratifica-que-el-peru-buscara-incorporarse-al-escudo-de-las-americas-para-combatir-el-crimen-organizado-los-detalles-de-su-primer-discurso-como-canciller-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-01T18:40:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "¿Qué dijo el ministro de Trabajo sobre las vacaciones y pago de CTS y gratificaciones en el Perú?",
+    "url": "https://elcomercio.pe/respuestas/tramites/que-dijo-el-ministro-de-trabajo-sobre-las-vacaciones-y-pago-de-cts-y-gratificaciones-en-el-peru-tdpe-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-02T22:08:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sheput dice que Keiko Fujimori le pidió visitar a Toledo: “Espero que se materialice la posibilidad de prisión domiciliaria”",
+    "url": "https://rpp.pe/politica/gobierno/sheput-dice-que-keiko-fujimori-le-pidio-visitar-a-toledo-espero-que-se-materialice-la-posibilidad-de-prision-domiciliaria-noticia-1699821",
+    "source": "RPP",
+    "published": "2026-08-02T14:54:56-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "Ministro Rafael Rey sobre accidente de avioneta en Nasca: “No tenemos mayor información, las grabaciones van a decirnos (qué ocurrió)”",
+    "url": "https://elcomercio.pe/peru/ministro-rafael-rey-sobre-accidente-de-avioneta-en-nasca-no-tenemos-mayor-informacion-las-grabaciones-van-a-decirnos-que-ocurrio-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-02T19:35:13+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Consejo de Ministros sesionará este domingo: los temas",
+    "url": "https://gestion.pe/peru/politica/consejo-de-ministros-del-gobierno-de-keiko-fujimori-sesionara-este-domingo-los-temas-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-02T12:16:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Alfonso López Chau sobre designaciones en sector salud: \"Necesitamos autoridades por mérito, no por padrinazgos\"",
+    "url": "https://larepublica.pe/politica/2026/08/01/alfonso-lopez-chau-sobre-designaciones-en-sector-salud-necesitamos-autoridades-por-merito-no-por-padrinazgos-hnews-79952",
+    "source": "La República",
+    "published": "2026-08-01T22:29:07+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Empresa de avioneta que cayó en Nasca podría seguir operando “mientras no exista un informe”, según ministro",
+    "url": "https://www.infobae.com/peru/2026/08/02/empresa-de-avioneta-que-cayo-en-nasca-podria-seguir-operando-mientras-no-exista-un-informe-segun-ministro/",
+    "source": "Infobae",
+    "published": "2026-08-02T18:17:43+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Empresa propietaria de avioneta que se estrelló en Nasca \"tenía todos los permisos\", según ministro de Comercio Exterior y Turismo",
+    "url": "https://rpp.pe/politica/gobierno/empresa-propietaria-de-avioneta-que-se-estrello-en-nasca-tenia-todos-los-permisos-segun-ministro-de-comercio-exterior-y-turismo-noticia-1699809",
+    "source": "RPP",
+    "published": "2026-08-02T12:32:44-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Piloto de avioneta que cayó en Nasca y dejó 13 muertos habría reportado una falla en pleno vuelo, revela titular de Mincetur",
+    "url": "https://www.infobae.com/peru/2026/08/02/piloto-de-avioneta-que-cayo-en-nasca-y-dejo-13-muertos-reporto-una-falla-en-pleno-vuelo-revela-titular-de-mincetur/",
+    "source": "Infobae",
+    "published": "2026-08-02T16:42:26+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Minedu envía los primeros 20 domos a Chupaca para reanudar clases tras sismo",
+    "url": "https://www.infobae.com/peru/2026/08/02/minedu-envia-los-primeros-20-domos-a-chupaca-para-reanudar-clases-tras-sismo/",
+    "source": "Infobae",
+    "published": "2026-08-02T02:50:56+00:00",
+    "matched_in": "title"
+   }
+  ]
+ }
+}
