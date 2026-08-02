@@ -1,91 +1,28 @@
 {
- "generated": "2026-08-01T23:58:10+00:00",
+ "generated": "2026-08-02T07:32:10+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-08-01",
+ "date": "2026-08-02",
  "articles": [
   {
-   "title": "Alfonso López Chau sobre designaciones en sector salud: \"Necesitamos autoridades por mérito, no por padrinazgos\"",
-   "url": "https://larepublica.pe/politica/2026/08/01/alfonso-lopez-chau-sobre-designaciones-en-sector-salud-necesitamos-autoridades-por-merito-no-por-padrinazgos-hnews-79952",
-   "summary": "Ante la designación de Luis Dyer como ministro de Salud y Juan Carlos Gonzáles como secretario general del Minsa, el líder de Ahora Nación cuestionó que se prioricen cuotas partidarias y perfiles sin experiencia en el sector. Mientras tanto, Keiko Fujimori respaldó el nombramiento de Dyer, empresario del rubro acero, asegurando que priorizó su capacidad de gestión.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-08-01T22:29:07+00:00",
+   "title": "Julio Arbizu: “Es falso el discurso de reconciliación de Keiko Fujimori”",
+   "url": "https://larepublica.pe/politica/2026/08/02/julio-arbizu-es-falso-el-discurso-de-reconciliacion-de-keiko-fujimori-hnews-121470",
+   "summary": "El exprocurador Julio Arbizu debuta como narrador con Negro, contra el desprecio (Reservoir Books, 2026), un conjunto de relatos en los que cuenta cómo ha vivido en carne propia la discriminación, a lo largo de los años. En esta entrevista habla de esta nueva experiencia y de la posibilidad de llegar a una reconciliación nacional como promete el gobierno de Keiko Fujimori.",
+   "author": "Emilio Camacho",
+   "published": "2026-08-02T06:32:24+00:00",
    "source": "La República",
-   "captured": "2026-08-01T23:58:10+00:00"
+   "captured": "2026-08-02T07:32:10+00:00"
   },
   {
-   "title": "Keiko Fujimori realiza visita oficial a base militar de Junín tras enfrentamiento contra terroristas en el Vraem",
-   "url": "https://elcomercio.pe/peru/vraem/keiko-fujimori-realiza-visita-oficial-a-base-militar-de-junin-tras-enfrentamiento-contra-terroristas-en-el-vraem-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori, visitó nuevamente la región Junín para acudir a las bases militares y policiales situadas en el valle de los ríos Apurímac, Ene y Mantaro (Vraem), específicamente a la localidad de Mazamari con el propósito de inspeccionar las operaciones de seguridad y dialogar con las fuerzas del orden.",
-   "author": "Redacción EC",
-   "published": "2026-08-01T19:40:00+00:00",
+   "title": "Keiko Fujimori y la hora de romper huevos",
+   "url": "https://elcomercio.pe/opinion/columnistas/keiko-fujimori-y-la-hora-de-romper-huevos-por-omar-mariluz-laguna-facultades-legislativas-reformas-noticia/",
+   "summary": "La presidenta Keiko Fujimori quiere hacer tortillas. Las propuestas que se han filtrado en la primera versión del proyecto de ley del pedido de facultades legislativas, que buscan implementar cambios en seguridad, reactivación económica, reforma del Estado, entre otros, demuestran que este gobierno está dispuesto a realizar cambios profundos que tendrán impacto directo en la ciudadanía, las empresas e, incluso, la burocracia peruana.",
+   "author": "Omar Mariluz Laguna",
+   "published": "2026-08-02T05:28:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-01T23:58:10+00:00"
-  },
-  {
-   "title": "Luis Quispe Candia: “El Partido del Buen Gobierno apoyará al gobierno en la emisión de decretos legislativos”",
-   "url": "https://elcomercio.pe/politica/congreso/luis-quispe-candia-el-partido-del-buen-gobierno-apoyara-al-gobierno-en-la-emision-de-decretos-legislativos-ultimas-noticia/",
-   "summary": "Luis Quispe Candia, diputado del Partido del Buen Gobierno, dijo que su agrupación apoyará al Ejecutivo en la emisión de decretos legislativos tras la solicitud de facultades legislativas del gobierno de Keiko Fujimori, siempre que se respeten los límites legales.",
-   "author": "Redacción EC",
-   "published": "2026-08-01T16:03:30+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-01T18:01:47+00:00"
-  },
-  {
-   "title": "Gobierno designa a Marissa Palomino como nueva secretaria general del despacho de Keiko Fujimori",
-   "url": "https://elcomercio.pe/politica/actualidad/keiko-fujimori-gobierno-designa-a-marissa-palomino-como-nueva-secretaria-general-del-despacho-presidencial-ultimas-noticia/",
-   "summary": "El Ejecutivo oficializó el nombramiento de Marissa Carla Palomino Bonilla como secretaria general del Despacho Presidencial, tras aceptar la renuncia de Alonso Tenorio Trigoso al cargo.",
-   "author": "Redacción EC",
-   "published": "2026-08-01T14:57:44+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-01T18:01:47+00:00"
-  },
-  {
-   "title": "Gobierno de Keiko Fujimori designa a Hugo Antonio Cornejo Valdivia como nuevo director de la DINI",
-   "url": "https://elcomercio.pe/politica/actualidad/gobierno-de-keiko-fujimori-designa-a-hugo-antonio-cornejo-valdivia-como-nuevo-director-de-la-dini-ultimas-noticia/",
-   "summary": "El Poder Ejecutivo oficializó la designación del general de brigada del Ejército en retiro, Hugo Antonio Cornejo Valdivia, como el nuevo Director de Inteligencia Nacional de la DINI, como una de las primeras acciones del gobierno de la presidenta Keiko Fujimori.",
-   "author": "Redacción EC",
-   "published": "2026-08-01T14:37:55+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-01T18:01:47+00:00"
-  },
-  {
-   "title": "Keiko Fujimori justifica designación de Luis Dyer pese a no tener experiencia en el sector salud",
-   "url": "https://larepublica.pe/politica/2026/08/01/keiko-fujimori-justifica-designacion-de-luis-dyer-pese-a-no-tener-experiencia-en-el-sector-salud-hnews-54796",
-   "summary": "La mandataria defendió el nombramiento de Dyer, jefe de personeros de Fuerza Popular, y aseguró que priorizó un perfil de gestión antes que uno técnico en salud, pese a los cuestionamientos del Colegio Médico del Perú.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-01T14:06:33+00:00",
-   "source": "La República",
-   "captured": "2026-08-01T23:58:10+00:00"
-  },
-  {
-   "title": "Keiko, la asunción de la naranja, una crónica de Fernando Vivas sobre la presidenta Fujimori",
-   "url": "https://elcomercio.pe/politica/keiko-fujimori-la-asuncion-de-la-naranja-una-cronica-de-fernando-vivas-sobre-la-presidenta-fujimori-noticia/",
-   "summary": "Keiko, la asunción de la naranja, una crónica de Fernando Vivas sobre la presidenta Fujimori. Ganó la primera vuelta con su núcleo duro y la segunda, con los espantados de la versión castillista del comunismo. Esta semana abrió los brazos a otros sectores.",
-   "author": "Fernando Vivas",
-   "published": "2026-08-01T11:25:19+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-01T12:02:55+00:00"
-  },
-  {
-   "title": "Jugando al equilibrio",
-   "url": "https://elcomercio.pe/opinion/columnistas/jugando-al-equilibrio-por-jaime-de-althaus-los-retos-de-keiko-fujimori-reformas-noticia/",
-   "summary": "Los retos de Keiko Fujimori no son más grandes, pero quizá sí más complejos que los que enfrentó su padre. Alberto Fujimori asumió ante un Sendero Luminoso que amenazaba con tomar el poder y lo derrotó con una estrategia inteligente. El problema ahora es una criminalidad organizada muy difundida e insertada social y económicamente y con mil cabezas, que requerirá una estrategia tecnológicamente sofisticada y policías, UIF, bancos, fiscales y jueces interconectados y comprometidos, y formalización minera.",
-   "author": "Jaime de Althaus",
-   "published": "2026-08-01T05:30:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-01T07:28:03+00:00"
-  },
-  {
-   "title": "Facultades en clave ciudadana",
-   "url": "https://elcomercio.pe/opinion/editorial/facultades-en-clave-ciudadana-las-facultades-legislativas-que-el-ejecutivo-solicitara-al-congreso-de-la-republica-deben-ser-una-oportunidad-para-resolver-las-trabas-burocraticas-que-tanto-afectan-a-la-ciudadania-del-peru-noticia/",
-   "summary": "Una de las primeras medidas del gobierno de Keiko Fujimori será pedir facultades legislativas al Congreso por 120 días. Si bien en su mensaje a la nación la mandataria mencionó temas prioritarios como la inseguridad ciudadana o el fenómeno de El Niño, el borrador del proyecto de ley que luego se hizo público –ya reconocido por miembros del Ejecutivo– plantea una ambiciosa reforma estatal que incluye hasta cinco materias.",
-   "author": "Editorial El Comercio",
-   "published": "2026-08-01T05:10:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-01T07:28:03+00:00"
+   "captured": "2026-08-02T07:32:10+00:00"
   }
  ]
 }
