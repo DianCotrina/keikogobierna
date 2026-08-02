@@ -108,11 +108,23 @@ def names_minister(text: str, person: dict) -> bool:
     """Does this text name both the person's cartera and one of their apellidos?
 
     The two-key rule, asked of any text rather than only of a whole article.
-    `minister_news` asks it of the headline alone to tell coverage a reader can
-    see from coverage they cannot.
     """
     if person.get("portfolio") not in _carteras_named(text):
         return False
+    words = set(fold(text or "").split())
+    return any(s in words for s in _surnames(person.get("person_name", "")))
+
+
+def names_minister_by_surname(text: str, person: dict) -> bool:
+    """Does this text carry one of the person's apellidos, cartera aside?
+
+    The single-key half of `names_minister`, asked on its own. `minister_news`
+    uses this — not the full two-key rule — to tell whether a headline reads
+    as being about this person: requiring the cartera too is a stricter
+    question than that, and a headline that leads with a minister's own
+    surname plainly names them whether or not it also spells out their
+    ministry.
+    """
     words = set(fold(text or "").split())
     return any(s in words for s in _surnames(person.get("person_name", "")))
 

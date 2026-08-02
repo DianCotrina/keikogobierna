@@ -107,7 +107,12 @@ class CoverageTest(unittest.TestCase):
 class MatchedInTest(unittest.TestCase):
     """Presence must not read as aboutness: a match on the feed summary alone
     still counts as coverage, but the dossier needs to tell the two cases
-    apart. `matched_in` records which field actually named the minister."""
+    apart. `matched_in` records whether the *headline* names the minister —
+    apellido alone, not the full two-key rule. Requiring the cartera in the
+    headline too was tried and rejected: against live data it misclassified
+    headlines that plainly lead with the minister's own surname (e.g.
+    "Beingolea señala que...") as summary-only, at 16 of 18 cards — a flag
+    that fires almost always stops meaning anything."""
 
     ROSTER = [
         {"portfolio": "m-economia", "person_name": "Elmer Rafael Cuba Bustinza",
@@ -116,12 +121,30 @@ class MatchedInTest(unittest.TestCase):
          "slug": "alfonso-carlos-espa-y-garces-alvear"},
         {"portfolio": "m-agrario", "person_name": "Marco Vinelli Ruiz",
          "slug": "marco-vinelli-ruiz"},
+        {"portfolio": "m-cultura", "person_name": "Alberto Ismael Beingolea Delgado",
+         "slug": "alberto-ismael-beingolea-delgado"},
     ]
 
-    def test_a_headline_match_is_title(self):
+    def test_a_headline_naming_both_apellido_and_cartera_is_title(self):
         a = article("El ministro de Economía Cuba anuncia medidas", "2026-08-01T09:00:00-05:00")
         index = mn.build_index([a], self.ROSTER, NOW)
         self.assertEqual(index["elmer-rafael-cuba-bustinza"][0]["matched_in"], "title")
+
+    def test_a_headline_naming_the_apellido_without_the_cartera_is_still_title(self):
+        """The case that regressed under the two-key framing: a real headline
+        that leads with the minister's own surname, but never spells out
+        "Cultura" or "ministro de ..." — the cartera comes from the summary,
+        the headline alone still plainly names him."""
+        a = article(
+            'Beingolea señala que pedido de facultades legislativas aún "se afina" '
+            'y descarta cierre del LUM',
+            "2026-08-02T09:00:00-05:00",
+            summary=("El ministro de Cultura, Alberto Beingolea, se pronunció sobre "
+                      "el pedido de facultades legislativas del Ejecutivo."),
+        )
+        index = mn.build_index([a], self.ROSTER, NOW)
+        self.assertEqual(
+            index["alberto-ismael-beingolea-delgado"][0]["matched_in"], "title")
 
     def test_a_summary_only_match_is_summary(self):
         a = article("Anuncios del gabinete", "2026-08-01T09:00:00-05:00",
@@ -132,7 +155,7 @@ class MatchedInTest(unittest.TestCase):
     def test_the_espa_case_matches_on_summary_only(self):
         """The real live-feed case that motivated this change: the headline
         names a different minister entirely (Marco Vinelli, on Betssy
-        Chávez), and only the feed summary names Espá and his cartera."""
+        Chávez), and only the feed summary names Espá."""
         a = article(
             'Marco Vinelli considera que el Ejecutivo otorgará salvoconducto a '
             'Betssy Chávez: "Yo creo que sí"',
