@@ -24,9 +24,8 @@ import argparse
 import json
 import sys
 
-from tools.scrapers.common.cabinet_rules import CABINET_DIR, PORTFOLIOS_PATH
+from tools.scrapers.common.cabinet_rules import CABINET_DIR, PORTFOLIOS_PATH, slugify
 from tools.scrapers.common.infobae_rules import profile_items, sort_for_review
-from tools.scrapers.common.jne_rules import _slug
 from tools.scrapers.common.press_feeds import fetch_sources
 
 OUTLET = "Infobae"
@@ -85,7 +84,7 @@ def portfolio_names() -> dict:
 def draft(person_name: str, url: str) -> str:
     """The ministers.json skeleton, with what only a person can write left blank."""
     return json.dumps({
-        "slug": _slug(person_name),
+        "slug": slugify(person_name),
         "name": person_name,
         "profession": "",
         "bio": "",
