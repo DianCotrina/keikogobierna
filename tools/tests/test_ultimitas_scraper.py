@@ -18,40 +18,40 @@ FIXTURE = (Path(__file__).resolve().parent / "fixtures" / "elcomercio_rss_sample
 class CanonicalUrlTest(unittest.TestCase):
     def test_strips_query_and_fragment(self):
         self.assertEqual(
-            us.canonical_url("https://elcomercio.pe/politica/nota/?ref=rss&outputType=xml#top"),
+            press_feeds.canonical_url("https://elcomercio.pe/politica/nota/?ref=rss&outputType=xml#top"),
             "https://elcomercio.pe/politica/nota/",
         )
 
     def test_plain_url_unchanged(self):
-        self.assertEqual(us.canonical_url("https://elcomercio.pe/politica/nota/"),
+        self.assertEqual(press_feeds.canonical_url("https://elcomercio.pe/politica/nota/"),
                          "https://elcomercio.pe/politica/nota/")
 
 
 class ParseFeedTest(unittest.TestCase):
     def test_maps_all_items_with_expected_fields(self):
-        items = us.parse_feed(FIXTURE, "El Comercio")
+        items = press_feeds.parse_feed(FIXTURE, "El Comercio")
         self.assertEqual(len(items), 5)
         self.assertEqual(set(items[0]), {"title", "url", "summary", "author", "published", "source"})
 
     def test_stamps_the_given_source_on_every_item(self):
-        items = us.parse_feed(FIXTURE, "El Comercio")
+        items = press_feeds.parse_feed(FIXTURE, "El Comercio")
         self.assertTrue(all(i["source"] == "El Comercio" for i in items))
 
     def test_canonicalizes_link_and_parses_date(self):
-        first = us.parse_feed(FIXTURE, "El Comercio")[0]
+        first = press_feeds.parse_feed(FIXTURE, "El Comercio")[0]
         self.assertEqual(first["url"], "https://elcomercio.pe/politica/fuerza-popular-evaluara-auditoria-noticia/")
         self.assertEqual(first["published"], "2026-07-15T05:01:00-05:00")
         self.assertEqual(first["author"], "Redacción EC")
 
     def test_missing_creator_and_description_default_to_empty(self):
-        items = us.parse_feed(FIXTURE, "El Comercio")
+        items = press_feeds.parse_feed(FIXTURE, "El Comercio")
         self.assertEqual(items[1]["author"], "")
         self.assertEqual(items[4]["summary"], "")
 
 
 class MatchTest(unittest.TestCase):
     def test_fixture_matches_title_and_description(self):
-        items = us.parse_feed(FIXTURE, "El Comercio")
+        items = press_feeds.parse_feed(FIXTURE, "El Comercio")
         matched = [i for i in items if us.item_matches(i)]
         self.assertEqual(len(matched), 4)  # items 1, 2, 4 (dup), 5 — not the Vásquez one
 
@@ -65,7 +65,7 @@ class MatchTest(unittest.TestCase):
 
 class MergeTest(unittest.TestCase):
     def test_dedupes_by_canonical_url_and_sorts_desc(self):
-        items = [i for i in us.parse_feed(FIXTURE, "El Comercio") if us.item_matches(i)]
+        items = [i for i in press_feeds.parse_feed(FIXTURE, "El Comercio") if us.item_matches(i)]
         merged = us.merge_history([], items, "2026-07-15T12:00:00+00:00")
         self.assertEqual(len(merged), 3)  # the ?ref= duplicate collapsed
         self.assertEqual([a["published"] for a in merged],
@@ -87,7 +87,7 @@ class MergeTest(unittest.TestCase):
 
 class TodayTest(unittest.TestCase):
     def test_selects_latest_lima_day(self):
-        items = [i for i in us.parse_feed(FIXTURE, "El Comercio") if us.item_matches(i)]
+        items = [i for i in press_feeds.parse_feed(FIXTURE, "El Comercio") if us.item_matches(i)]
         merged = us.merge_history([], items, "2026-07-15T12:00:00+00:00")
         day, day_articles = us.select_today(merged)
         self.assertEqual(day, "2026-07-15")
@@ -114,7 +114,7 @@ class LaRepublicaFeedTest(unittest.TestCase):
     exact strings vary with the news cycle, the shape must not."""
 
     def test_real_feed_slice_parses_with_all_fields(self):
-        items = us.parse_feed(LR_FIXTURE, "La República")
+        items = press_feeds.parse_feed(LR_FIXTURE, "La República")
         self.assertGreater(len(items), 0)
         for item in items:
             self.assertEqual(set(item), {"title", "url", "summary", "author", "published", "source"})
@@ -165,7 +165,7 @@ class InfobaeFeedTest(unittest.TestCase):
         self.assertIn("Infobae", [s["name"] for s in press_feeds.SOURCES])
 
     def test_real_feed_slice_parses_with_all_fields(self):
-        items = us.parse_feed(INFOBAE_FIXTURE, "Infobae")
+        items = press_feeds.parse_feed(INFOBAE_FIXTURE, "Infobae")
         self.assertGreater(len(items), 50)
         for item in items:
             self.assertEqual(set(item), {"title", "url", "summary", "author", "published", "source"})
@@ -176,7 +176,7 @@ class InfobaeFeedTest(unittest.TestCase):
     def test_summaries_carry_the_biographical_detail(self):
         # The whole point: profession sits in the feed's own description, so no
         # article body ever needs reading.
-        items = us.parse_feed(INFOBAE_FIXTURE, "Infobae")
+        items = press_feeds.parse_feed(INFOBAE_FIXTURE, "Infobae")
         self.assertTrue(any(len(i["summary"]) > 80 for i in items))
 
 

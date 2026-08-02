@@ -28,7 +28,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from tools.scrapers.common.minister_news import WINDOW_DAYS, build_index
-from tools.scrapers.common.press_feeds import SOURCES, canonical_url, fetch_sources, parse_feed
+from tools.scrapers.common.press_feeds import SOURCES, fetch_sources
 from tools.scrapers.common.watcher_common import normalize
 from tools.scrapers.infobae_profiles import roster
 
@@ -114,12 +114,11 @@ def run(data_dir: str | None, dry_run: bool) -> int:
         print(f"ERROR: every published outlet failed ({', '.join(OUTLETS)})", file=sys.stderr)
         return 1
 
-    unique: dict[str, dict] = {}
-    for item in items:
-        unique.setdefault(item["url"], item)
-    published = [i for i in unique.values() if from_published_outlet(i)]
+    # fetch_sources already deduplicated by canonical URL across every feed;
+    # re-deduplicating here would only suggest to a reader that it doesn't.
+    published = [i for i in items if from_published_outlet(i)]
     matched = [i for i in published if item_matches(i)]
-    print(f"{len(items)} items fetched ({len(unique)} unique), "
+    print(f"{len(items)} items fetched, "
           f"{len(published)} from {'/'.join(OUTLETS)}, {len(matched)} matched")
 
     if dry_run:
@@ -152,7 +151,7 @@ def run(data_dir: str | None, dry_run: bool) -> int:
     # one from here, and skipping the write is the right call either way: no
     # file beats one that asserts nothing was published.
     try:
-        index = build_index(list(unique.values()), roster(), datetime.fromisoformat(now_iso))
+        index = build_index(items, roster(), datetime.fromisoformat(now_iso))
     except Exception as exc:  # noqa: BLE001 — deliberately broad, isolated to this one call
         print(f"WARN: ministros.json not written: {exc}", file=sys.stderr)
     else:

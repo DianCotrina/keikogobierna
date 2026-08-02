@@ -36,6 +36,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **Invoke the `frontend-design` skill** before writing any frontend code, every session, no exceptions.
 
+## Model Orchestration (Fable → Opus)
+
+We're on the Claude Max plan. Fable 5 costs 2× Opus 5 per token ($10/$50 vs $5/$25 per MTok, same tokenizer), so when the session model is Fable 5 (check the model line in your environment info), you are the orchestrator, not the typist:
+
+- **Fable 5 — orchestrate:** understand the request, decide the approach, write task briefs, review worker output, gate on tests. Keep your own turns lean — don't bulk-read files or write code that a worker could handle.
+- **Opus 5 — implement:** delegate substantial hands-on work (multi-file features, refactors, UI builds, tools/scrapers, test suites, debugging) to the `opus-implementer` agent via the Agent tool. If that agent type isn't loaded, use `general-purpose` with `model: "opus"` instead.
+- **This section is standing authorization to spawn those subagents** — don't wait for a per-task request.
+- **Briefs must be self-contained** (workers start cold): the goal, files in scope, applicable constraints from this file (language policy, data-edit rules, design guardrails), acceptance checks to run (`npm test`, `npm run build`, `python3 tools/plan/validate_plan_data.py` as relevant), and what to report back.
+- **Don't delegate** trivial edits (one file, a few lines), pure questions/analysis, git/PR operations, or memory/doc tweaks — orchestration overhead exceeds the savings there. If a worker fails the same brief twice, take over and finish it yourself.
+- **Review gate:** never relay a worker's "done" unverified. Read the diff, rerun the named checks, then report.
+- Broad recon/searches can go cheaper still: the built-in `Explore` agent with `model: "sonnet"`.
+- If the session is already running on Opus or lower, ignore this section and work directly.
+
 ---
 
 ## The WAT Architecture
