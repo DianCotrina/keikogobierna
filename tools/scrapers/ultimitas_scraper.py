@@ -27,10 +27,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from tools.scrapers.common.cabinet_rules import roster
 from tools.scrapers.common.minister_news import WINDOW_DAYS, build_index
 from tools.scrapers.common.press_feeds import SOURCES, fetch_sources
 from tools.scrapers.common.watcher_common import normalize
-from tools.scrapers.infobae_profiles import roster
 
 # Which of the shared feeds' items belong on /ultimitas/.
 KEYWORDS = ["keiko fujimori", "keiko", "fuerza popular", "fujimorismo"]
