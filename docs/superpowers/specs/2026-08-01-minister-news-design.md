@@ -135,11 +135,13 @@ Written to the `ultimitas-data` branch beside the existing two files.
 - `matched_in` is `"title"` or `"summary"`: the two-key match (cartera *and*
   apellido) runs against the headline plus the feed summary together, so an
   article can match while its headline names someone else entirely.
-  `matched_in` asks a narrower question than the match itself — does one of
-  the minister's apellidos appear in the headline, cartera aside — so the
-  page can avoid implying the headline is about this minister when it plainly
-  is not, without also qualifying headlines that already lead with their own
-  name but never spell out the ministry.
+  `matched_in` asks a narrower, OR question — does the headline name either
+  the minister's apellido *or* their cartera (`headline_names_minister` in
+  `infobae_rules`) — so `"summary"` means the headline gives a reader nothing
+  connecting it to this minister, not merely that it didn't spell out both
+  keys at once. The cartera alone counts because the dossier belongs to
+  whoever holds that office right now: a headline naming "el ministro de
+  Cultura" names its current holder even without their surname.
 - Sorted newest first per minister.
 - A minister with no coverage is absent from the map rather than present with an
   empty list — the page treats both identically, and absence keeps the file small.

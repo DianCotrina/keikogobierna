@@ -107,12 +107,16 @@ class CoverageTest(unittest.TestCase):
 class MatchedInTest(unittest.TestCase):
     """Presence must not read as aboutness: a match on the feed summary alone
     still counts as coverage, but the dossier needs to tell the two cases
-    apart. `matched_in` records whether the *headline* names the minister —
-    apellido alone, not the full two-key rule. Requiring the cartera in the
-    headline too was tried and rejected: against live data it misclassified
-    headlines that plainly lead with the minister's own surname (e.g.
-    "Beingolea señala que...") as summary-only, at 16 of 18 cards — a flag
-    that fires almost always stops meaning anything."""
+    apart. `matched_in` records whether the *headline* gives a reader any
+    reason to connect it to this minister — apellido OR cartera, either is
+    enough, not the two-key AND `names_minister` uses for matching itself.
+    Requiring both in the headline was tried and rejected twice: apellido-only
+    still missed headlines naming the office and not the person ("Ministro de
+    Cultura: 'No voy a cerrar el LUM'"), and against live data the full
+    two-key rule misclassified headlines naming either as summary-only at 16
+    of 18 cards on one dossier — a flag that fires almost always stops
+    meaning anything, and the case it exists for (a headline connecting to
+    neither) stops standing out."""
 
     ROSTER = [
         {"portfolio": "m-economia", "person_name": "Elmer Rafael Cuba Bustinza",
@@ -123,6 +127,8 @@ class MatchedInTest(unittest.TestCase):
          "slug": "marco-vinelli-ruiz"},
         {"portfolio": "m-cultura", "person_name": "Alberto Ismael Beingolea Delgado",
          "slug": "alberto-ismael-beingolea-delgado"},
+        {"portfolio": "m-educacion", "person_name": "José Antonio Chang Escobedo",
+         "slug": "jose-antonio-chang-escobedo"},
     ]
 
     def test_a_headline_naming_both_apellido_and_cartera_is_title(self):
@@ -130,11 +136,10 @@ class MatchedInTest(unittest.TestCase):
         index = mn.build_index([a], self.ROSTER, NOW)
         self.assertEqual(index["elmer-rafael-cuba-bustinza"][0]["matched_in"], "title")
 
-    def test_a_headline_naming_the_apellido_without_the_cartera_is_still_title(self):
-        """The case that regressed under the two-key framing: a real headline
-        that leads with the minister's own surname, but never spells out
-        "Cultura" or "ministro de ..." — the cartera comes from the summary,
-        the headline alone still plainly names him."""
+    def test_a_headline_naming_the_apellido_without_the_cartera_is_title(self):
+        """A real headline that leads with the minister's own surname but
+        never spells out "Cultura" or "ministro de ..." — the cartera comes
+        from the summary, the headline alone still plainly names him."""
         a = article(
             'Beingolea señala que pedido de facultades legislativas aún "se afina" '
             'y descarta cierre del LUM',
@@ -146,7 +151,29 @@ class MatchedInTest(unittest.TestCase):
         self.assertEqual(
             index["alberto-ismael-beingolea-delgado"][0]["matched_in"], "title")
 
-    def test_a_summary_only_match_is_summary(self):
+    def test_a_headline_naming_the_cartera_without_the_apellido_is_title(self):
+        """A real headline that names the office, not the officeholder —
+        the dossier belongs to whoever holds Cultura right now, so a headline
+        about "el ministro de Cultura" names him even without "Beingolea"."""
+        a = article('Ministro de Cultura: "No voy a cerrar el LUM"',
+                     "2026-08-02T09:00:00-05:00",
+                     summary="Alberto Beingolea descartó el cierre del Lugar de la Memoria.")
+        index = mn.build_index([a], self.ROSTER, NOW)
+        self.assertEqual(
+            index["alberto-ismael-beingolea-delgado"][0]["matched_in"], "title")
+
+    def test_a_cartera_acronym_in_the_headline_without_the_apellido_is_title(self):
+        """The registry's acronyms count too, same as the full name would —
+        `_carteras_named` already resolves "Minedu", this only has to reuse
+        it."""
+        a = article("Minedu envía los primeros 20 domos a Chupaca para reanudar clases",
+                     "2026-08-02T09:00:00-05:00",
+                     summary="El ministro de Educación, José Chang, supervisó el envío.")
+        index = mn.build_index([a], self.ROSTER, NOW)
+        self.assertEqual(
+            index["jose-antonio-chang-escobedo"][0]["matched_in"], "title")
+
+    def test_a_headline_naming_neither_is_summary(self):
         a = article("Anuncios del gabinete", "2026-08-01T09:00:00-05:00",
                     summary="El ministro de Economía Cuba presentó el paquete.")
         index = mn.build_index([a], self.ROSTER, NOW)

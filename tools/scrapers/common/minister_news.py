@@ -11,7 +11,7 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 
-from .infobae_rules import names_minister_by_surname, profile_items
+from .infobae_rules import headline_names_minister, profile_items
 
 WINDOW_DAYS = 7
 
@@ -73,16 +73,17 @@ def build_index(articles: list, roster: list, now: datetime,
         for item in items:
             entry = {k: item.get(k) for k in PUBLISHED_FIELDS if k != "matched_in"}
             # profile_items matched on the headline + summary blob; whether
-            # the *headline* reads as being about this person is a narrower,
-            # separate question — a reader who never opens the summary must
-            # not read presence as aboutness. Surname alone, not the full
-            # two-key rule: requiring the cartera in the headline too is
-            # stricter than "does this headline name the minister", and
-            # against live data misclassified headlines that plainly lead
-            # with the minister's own name (e.g. "Beingolea señala que...")
-            # as summary-only.
+            # the *headline* gives a reader anything connecting it to this
+            # person is a narrower, separate question — a reader who never
+            # opens the summary must not read presence as aboutness. Apellido
+            # OR cartera, not the full two-key AND: requiring both in the
+            # headline is stricter than "does the headline connect to this
+            # minister", and against live data it misclassified headlines
+            # that plainly name either the minister ("Beingolea señala
+            # que...") or their office ("Ministro de Cultura: 'No voy a
+            # cerrar el LUM'") as summary-only.
             entry["matched_in"] = (
-                "title" if names_minister_by_surname(item.get("title") or "", person)
+                "title" if headline_names_minister(item.get("title") or "", person)
                 else "summary"
             )
             entries.append(entry)
