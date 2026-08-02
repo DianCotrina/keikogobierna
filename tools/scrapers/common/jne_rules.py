@@ -58,7 +58,8 @@ def title_es(text: str) -> str:
     return " ".join(out)
 
 
-def _full_name(candidate: dict) -> str:
+def full_name(candidate: dict) -> str:
+    """The roll's three name fields as one string; None-safe on every field."""
     parts = [candidate.get("txNom"), candidate.get("txApePat"), candidate.get("txApeMat")]
     return " ".join(p.strip() for p in parts if p and p.strip())
 
@@ -78,8 +79,8 @@ def match_candidates(query: str, roster: list) -> list:
 
     hits, seen = [], set()
     for candidate in roster:
-        name = fold(_full_name(candidate))
-        if not all(t in name.split() for t in tokens):
+        name_tokens = set(fold(full_name(candidate)).split())
+        if not all(t in name_tokens for t in tokens):
             continue
         # A candidate appears once per election type; one person, one entry.
         hv_id = candidate.get("idHojaVida")
@@ -200,7 +201,7 @@ def profession_of(hoja_vida: dict) -> str:
 
 def draft_person(candidate: dict, hoja_vida: dict) -> dict:
     """A ministers.json entry ready for review — never for merging as-is."""
-    name = _full_name(candidate)
+    name = full_name(candidate)
     hv_id = candidate.get("idHojaVida")
     return {
         "slug": slugify(name),

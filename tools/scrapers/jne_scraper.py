@@ -33,7 +33,7 @@ import sys
 
 from tools.scrapers.common.cabinet_rules import roster_names
 from tools.scrapers.common.jne_client import fetch_hoja_vida, fetch_roster
-from tools.scrapers.common.jne_rules import draft_person, match_candidates
+from tools.scrapers.common.jne_rules import draft_person, full_name, match_candidates
 
 
 def show_matches(name: str, roster: list) -> None:
@@ -51,8 +51,7 @@ def show_matches(name: str, roster: list) -> None:
         return
     print(f"  {name}: {len(hits)} coincidencia(s) — confirma cuál es antes de continuar")
     for hit in hits:
-        full = f"{hit['txNom']} {hit['txApePat']} {hit['txApeMat']}".strip()
-        print(f"      idHojaVida={hit['idHojaVida']:<8} {full}  ·  {hit['txOrgPol']}")
+        print(f"      idHojaVida={hit['idHojaVida']:<8} {full_name(hit)}  ·  {hit['txOrgPol']}")
 
 
 def draft_for_id(id_hoja_vida: int, by_id: dict) -> dict | None:
