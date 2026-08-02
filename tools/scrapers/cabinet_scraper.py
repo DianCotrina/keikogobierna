@@ -35,10 +35,6 @@ LABEL = "cambio-de-gabinete"
 LABEL_COLOR = "8250DF"
 
 
-def parse_date(value: str) -> date:
-    return date.fromisoformat(value)
-
-
 def daterange(start: date, end: date):
     current = start
     while current <= end:
@@ -121,13 +117,11 @@ def run_note(url: str, announced: str) -> int:
         print("Revisa que la nota liste «Ministro de <cartera>: <nombre>».", file=sys.stderr)
         return 1
 
-    known = PORTFOLIO_IDS
-
-    print(f"{len(entries)} carteras leídas de la nota ({len(known)} en el registro)")
+    print(f"{len(entries)} carteras leídas de la nota ({len(PORTFOLIO_IDS)} en el registro)")
     for entry in entries:
         print(f"  {entry['portfolio']:26s} {entry['person_name']}")
 
-    missing = known - {e["portfolio"] for e in entries}
+    missing = PORTFOLIO_IDS - {e["portfolio"] for e in entries}
     if missing:
         print(f"\nSin titular en la nota: {', '.join(sorted(missing))}")
 
@@ -185,9 +179,13 @@ def run_press(dry_run: bool) -> int:
     return 0
 
 
-def sweep_acts(start: date, end: date) -> list:
-    """Every readable cabinet act in a date range."""
-    acts = []
+def sweep_acts(start: date, end: date):
+    """Every readable cabinet act in a date range, yielded as it is found.
+
+    A generator so `run` can interleave its per-act output with the per-day
+    lines this prints; `run_fill` just drains it. Both modes used to carry
+    their own copy of this loop, and a fix to one kept missing the other.
+    """
     for day in daterange(start, end):
         records = fetch_day(day)
         candidates = [r for r in records if is_cabinet_norma(r)]
@@ -195,12 +193,11 @@ def sweep_acts(start: date, end: date) -> list:
         for record in candidates:
             act = parse_cabinet_act(record, norma_text(record))
             if act:
-                acts.append(act)
+                yield act
             else:
                 # Detected as cabinet-shaped but unreadable. Say so loudly rather
                 # than guessing at a name.
                 print(f"  ! no se pudo leer {record['numero']} (op={record['op']})")
-    return acts
 
 
 def _read(filename: str, key: str) -> list:
@@ -217,7 +214,7 @@ def run_fill(start: date, end: date) -> int:
     else, and here it earns its keep, because the press had five of the
     nineteen names wrong.
     """
-    acts = sweep_acts(start, end)
+    acts = list(sweep_acts(start, end))
     result = reconcile(acts, _read("announcements.json", "announcements"),
                        _read("ministers.json", "ministers"))
 
@@ -254,33 +251,21 @@ def run(start: date, end: date, dry_run: bool) -> int:
                      "Nombramiento o renuncia ministerial detectada en El Peruano")
 
     found = 0
-    for day in daterange(start, end):
-        records = fetch_day(day)
-        candidates = [r for r in records if is_cabinet_norma(r)]
-        print(f"{day.isoformat()}: {len(records)} normas, {len(candidates)} candidatas")
+    for act in sweep_acts(start, end):
+        found += 1
+        title = (f"Gabinete: {act['action']} — {act['person']} "
+                 f"({act['portfolio']}) {act['date']}")
+        token = dedup_token("cab", f"{act['norma']}|{act['portfolio']}|{act['action']}")
 
-        for record in candidates:
-            act = parse_cabinet_act(record, norma_text(record))
-            if not act:
-                # Detected as cabinet-shaped but unreadable. Say so loudly rather
-                # than guessing at a name.
-                print(f"  ! no se pudo leer {record['numero']} (op={record['op']})")
-                continue
-
-            found += 1
-            title = (f"Gabinete: {act['action']} — {act['person']} "
-                     f"({act['portfolio']}) {act['date']}")
-            token = dedup_token("cab", f"{act['norma']}|{act['portfolio']}|{act['action']}")
-
-            if dry_run:
-                print(f"  [{token}] {title}")
-                print(tenure_block(act))
-                continue
-            if issue_exists(token, repo, gh_token):
-                print(f"  [{token}] ya existe, omitido")
-                continue
-            create_issue(repo, gh_token, title, issue_body(act, token), [LABEL])
-            print(f"  [{token}] issue creada: {title}")
+        if dry_run:
+            print(f"  [{token}] {title}")
+            print(tenure_block(act))
+            continue
+        if issue_exists(token, repo, gh_token):
+            print(f"  [{token}] ya existe, omitido")
+            continue
+        create_issue(repo, gh_token, title, issue_body(act, token), [LABEL])
+        print(f"  [{token}] issue creada: {title}")
 
     print(f"{'Dry run complete' if dry_run else 'Listo'}: {found} actos de gabinete.")
     return 0
@@ -311,8 +296,8 @@ def main() -> int:
         print("--from is required unless --press or --noticia", file=sys.stderr)
         return 2
 
-    start = parse_date(args.start)
-    end = parse_date(args.end) if args.end else start
+    start = date.fromisoformat(args.start)
+    end = date.fromisoformat(args.end) if args.end else start
     if end < start:
         print("--to precedes --from", file=sys.stderr)
         return 2
