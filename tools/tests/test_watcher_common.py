@@ -45,6 +45,16 @@ class TokenizeTest(unittest.TestCase):
         # "c5i" is 3 chars but distinctive; "ley" (no digit, 3 chars) is dropped
         self.assertEqual(significant_tokens("Sistema C5i para la ley"), ["sistema", "c5i"])
 
+    def test_punctuation_does_not_leak_into_tokens(self):
+        self.assertEqual(significant_tokens("a Nivel Nacional, correspondiente"),
+                         ["nivel", "nacional", "correspondiente"])
+
+    def test_bigram_survives_intervening_punctuation(self):
+        # A norma writing "unidades de flagrancia," must still hit the indexed
+        # "unidades flagrancia" — otherwise punctuation silently costs us recall.
+        self.assertIn("unidades flagrancia",
+                      phrases_of(significant_tokens("crea unidades de flagrancia, en Lima")))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -31,6 +31,15 @@ class BuildIndexTest(unittest.TestCase):
         self.assertEqual(idx["temas"]["t1-1"], "orden-ciudadano")
         self.assertEqual(set(idx["params"]), {"df_max_bigram"})
 
+    def test_phrases_carry_no_punctuation(self):
+        # Punctuation in a phrase splits its document frequency across variants
+        # ("nivel nacional" vs "nivel nacional,"), letting generic phrases slip
+        # under the DF gate that is supposed to drop them.
+        idx = b.build_index(*b.load_plan())
+        dirty = [p for e in idx["commitments"].values() for p in e["phrases"]
+                 if not all(c.isalnum() or c.isspace() for c in p)]
+        self.assertEqual(dirty[:10], [], f"{len(dirty)} phrases carry punctuation")
+
     def test_committed_index_is_in_sync_with_plan(self):
         fresh = b.build_index(*b.load_plan())
         committed = json.loads((Path(b.__file__).resolve().parent / "commitment_index.json").read_text())
