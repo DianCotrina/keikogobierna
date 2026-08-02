@@ -118,7 +118,8 @@ Written to the `ultimitas-data` branch beside the existing two files.
         "title": "Elmer Cuba: lo que recomendaba el nuevo ministro antes de ser titular del MEF",
         "url": "https://gestion.pe/economia/...",
         "source": "Gestión",
-        "published": "2026-08-01T08:37:00-05:00"
+        "published": "2026-08-01T08:37:00-05:00",
+        "matched_in": "title"
       }
     ]
   }
@@ -131,6 +132,11 @@ Written to the `ultimitas-data` branch beside the existing two files.
   it matched against.
 - `summary` and `author` are omitted. The dossier shows headline, outlet and
   date; carrying the summary would ship text the page never renders.
+- `matched_in` is `"title"` or `"summary"`: the two-key match runs against the
+  headline plus the feed summary together, so an article can match while its
+  headline names someone else entirely — this says which field actually did
+  the naming, so the page can avoid implying the headline is about this
+  minister when it is not.
 - Sorted newest first per minister.
 - A minister with no coverage is absent from the map rather than present with an
   empty list — the page treats both identically, and absence keeps the file small.

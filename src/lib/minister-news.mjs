@@ -41,7 +41,10 @@ function isValidEntry(e) {
     // A malformed date must not reach formatDateEs, which does not guard
     // against one — "not-a-date" would render "NaN de undefined de NaN"
     // beside a real headline.
-    /^\d{4}-\d{2}-\d{2}/.test(e.published)
+    /^\d{4}-\d{2}-\d{2}/.test(e.published) &&
+    // One of two fixed words the scraper writes — anything else is a schema
+    // this renderer does not know how to draw, same as a missing field.
+    (e.matched_in === 'title' || e.matched_in === 'summary')
   );
 }
 

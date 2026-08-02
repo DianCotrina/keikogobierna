@@ -48,9 +48,9 @@ class ShapeTest(unittest.TestCase):
     def test_keyed_by_slug_not_cartera(self):
         self.assertEqual(list(self.index), ["elmer-rafael-cuba-bustinza"])
 
-    def test_carries_only_the_four_published_fields(self):
+    def test_carries_only_the_published_fields(self):
         entry = self.index["elmer-rafael-cuba-bustinza"][0]
-        self.assertEqual(set(entry), {"title", "url", "source", "published"})
+        self.assertEqual(set(entry), {"title", "url", "source", "published", "matched_in"})
 
     def test_the_feed_summary_is_not_shipped(self):
         entry = self.index["elmer-rafael-cuba-bustinza"][0]
@@ -102,6 +102,63 @@ class CoverageTest(unittest.TestCase):
         roster = [{"portfolio": "m-economia", "person_name": "Elmer Rafael Cuba Bustinza"}]
         a = article("El ministro de Economía Cuba anuncia medidas", "2026-08-01T09:00:00-05:00")
         self.assertEqual(mn.build_index([a], roster, NOW), {})
+
+
+class MatchedInTest(unittest.TestCase):
+    """Presence must not read as aboutness: a match on the feed summary alone
+    still counts as coverage, but the dossier needs to tell the two cases
+    apart. `matched_in` records which field actually named the minister."""
+
+    ROSTER = [
+        {"portfolio": "m-economia", "person_name": "Elmer Rafael Cuba Bustinza",
+         "slug": "elmer-rafael-cuba-bustinza"},
+        {"portfolio": "m-relaciones-exteriores", "person_name": "Carlos Espá y Garcés-Alvear",
+         "slug": "alfonso-carlos-espa-y-garces-alvear"},
+        {"portfolio": "m-agrario", "person_name": "Marco Vinelli Ruiz",
+         "slug": "marco-vinelli-ruiz"},
+    ]
+
+    def test_a_headline_match_is_title(self):
+        a = article("El ministro de Economía Cuba anuncia medidas", "2026-08-01T09:00:00-05:00")
+        index = mn.build_index([a], self.ROSTER, NOW)
+        self.assertEqual(index["elmer-rafael-cuba-bustinza"][0]["matched_in"], "title")
+
+    def test_a_summary_only_match_is_summary(self):
+        a = article("Anuncios del gabinete", "2026-08-01T09:00:00-05:00",
+                    summary="El ministro de Economía Cuba presentó el paquete.")
+        index = mn.build_index([a], self.ROSTER, NOW)
+        self.assertEqual(index["elmer-rafael-cuba-bustinza"][0]["matched_in"], "summary")
+
+    def test_the_espa_case_matches_on_summary_only(self):
+        """The real live-feed case that motivated this change: the headline
+        names a different minister entirely (Marco Vinelli, on Betssy
+        Chávez), and only the feed summary names Espá and his cartera."""
+        a = article(
+            'Marco Vinelli considera que el Ejecutivo otorgará salvoconducto a '
+            'Betssy Chávez: "Yo creo que sí"',
+            "2026-08-01T09:00:00-05:00",
+            summary=("Antes de ello, Carlos Espá, ministro de Relaciones Exteriores, "
+                      "había deslizado la posibilidad de un salvoconducto."),
+        )
+        index = mn.build_index([a], self.ROSTER, NOW)
+        self.assertEqual(
+            index["alfonso-carlos-espa-y-garces-alvear"][0]["matched_in"], "summary")
+        # And Vinelli himself is not matched at all: his name appears, but
+        # neither his cartera nor his surname's own ministry phrase does.
+        self.assertNotIn("marco-vinelli-ruiz", index)
+
+    def test_two_ministers_in_one_article_can_differ(self):
+        """A headline match for one minister and a summary-only match for
+        another, in the same article."""
+        a = article(
+            "El ministro de Economía Cuba anuncia medidas",
+            "2026-08-01T09:00:00-05:00",
+            summary="El ministro de Relaciones Exteriores Espá acompañó el anuncio.",
+        )
+        index = mn.build_index([a], self.ROSTER, NOW)
+        self.assertEqual(index["elmer-rafael-cuba-bustinza"][0]["matched_in"], "title")
+        self.assertEqual(
+            index["alfonso-carlos-espa-y-garces-alvear"][0]["matched_in"], "summary")
 
 
 if __name__ == "__main__":
