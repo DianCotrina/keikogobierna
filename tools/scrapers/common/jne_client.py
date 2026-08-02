@@ -20,6 +20,8 @@ Elecciones Generales 2026 is idProcesoElectoral 124; its election types are
 import json
 import urllib.request
 
+from .jne_rules import HV_SECTIONS
+
 BASE = "https://apiplataformaelectoral3.jne.gob.pe"
 HEADERS = {
     "Accept": "application/json",
@@ -30,20 +32,6 @@ TIMEOUT = 45
 
 EG2026 = 124
 ELECTION_TYPES = (1, 15, 3, 20, 21)
-
-# The hoja de vida is assembled from these; the aggregate endpoint is broken.
-#
-# Only the sections jne_rules actually reads. The JNE also serves
-# hv-sentenciaobliga, hv-expelaboral and hv-cargopartidario; those were fetched
-# and discarded, doubling the requests per candidate for data nothing consumed.
-# Work history and party posts are what a hand-written bio draws on, so if a
-# bio ever needs them, add them back here *and* surface them in draft_person —
-# fetching without surfacing helps nobody.
-HV_SECTIONS = (
-    "hv-sentenciapenal",
-    "hv-formacaeduuni",
-    "hv-posgrado",
-)
 
 
 def _get(path: str):
@@ -77,7 +65,12 @@ def fetch_roster(proceso: int = EG2026, tipos=ELECTION_TYPES) -> list:
 
 
 def fetch_hoja_vida(id_hoja_vida: int) -> dict:
-    """All hoja-de-vida sections for one candidate, keyed by endpoint name."""
+    """The hoja-de-vida sections jne_rules reads, keyed by endpoint name.
+
+    Assembled per-section because the aggregate endpoint is broken (see the
+    module docstring). The section list is the rules module's: which sections
+    matter is editorial scope, and transport fetches what the rules declare.
+    """
     return {
         section: _get(f"/api/v1/candidato/{section}?IdHojaVida={id_hoja_vida}")
         for section in HV_SECTIONS

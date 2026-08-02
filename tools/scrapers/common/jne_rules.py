@@ -39,6 +39,22 @@ HV_URL = ("https://apiplataformaelectoral3.jne.gob.pe"
           "/api/v1/candidato/hv-sentenciapenal?IdHojaVida={id_hoja_vida}")
 HV_SOURCE_LABEL = "Hoja de vida JNE (datos abiertos)"
 
+# The hoja-de-vida sections these rules actually read; jne_client fetches
+# exactly this list. Which sections matter is editorial scope, so the list
+# lives here rather than in the transport — when it lived there, rules could
+# start reading a section the client never fetched and _section() would just
+# return [] with no error, drafts quietly coming out empty. The JNE also
+# serves hv-sentenciaobliga, hv-expelaboral and hv-cargopartidario; those were
+# fetched and discarded once, doubling the requests per candidate for data
+# nothing consumed. Work history and party posts are what a hand-written bio
+# draws on, so if a bio ever needs them, add them back here *and* surface them
+# in draft_person — fetching without surfacing helps nobody.
+HV_SECTIONS = (
+    "hv-sentenciapenal",
+    "hv-formacaeduuni",
+    "hv-posgrado",
+)
+
 # Spanish minor words stay lowercase inside a title; the rolls are all caps.
 _MINOR = {"de", "del", "la", "las", "los", "el", "y", "e", "en", "a",
           "con", "por", "para", "un", "una"}
