@@ -12,8 +12,8 @@ import unittest
 from pathlib import Path
 
 
+from tools.scrapers.common.press_feeds import parse_feed  # noqa: E402
 from tools.scrapers.common.press_rules import parse_announcement, announcements_from  # noqa: E402
-from tools.scrapers.ultimitas_scraper import parse_feed  # noqa: E402
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures"
 
@@ -27,7 +27,7 @@ ITEMS = (feed("elcomercio_politica_20260727.xml", "El Comercio")
 
 
 def item(title, source="El Comercio", url="https://elcomercio.pe/x", published="2026-07-27T12:00:00Z"):
-    # Same field names ultimitas_scraper.parse_feed produces.
+    # Same field names press_feeds.parse_feed produces.
     return {"title": title, "source": source, "url": url, "published": published}
 
 

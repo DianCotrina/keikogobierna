@@ -42,7 +42,6 @@ from tools.scrapers.common.watcher_common import (
     dedup_token,
     ensure_label,
     fold,
-    http_get,
     issue_exists,
 )
 
@@ -82,16 +81,12 @@ def in_national_scope(record: dict) -> bool:
     return not (SUBNATIONAL_SECTOR_RE.match(sector) or AUTONOMOUS_SECTOR_RE.match(sector))
 
 
-# ---- Stage 1: fetch (public search page) --------------------------------------
-
-# ---- Stage 2: match against plan commitments ---------------------------------
-# Matching lives in tools/scrapers/common/matcher.py (shared). A norma's numero + tipo +
-# sumilla is matched against the distinctive-phrase index built from the plan.
+# Fetching and norma text live in common/elperuano_client.py; matching lives in
+# common/matcher.py (shared). A norma's numero + tipo + sumilla is matched
+# against the distinctive-phrase index built from the plan.
 
 
-# ---- Stage 3: norma text (for the issue excerpt) ------------------------------
-
-# ---- Stage 4: issue body ------------------------------------------------------
+# ---- Issue body ---------------------------------------------------------------
 
 def draft_note(record: dict) -> str:
     """A non-blank starting note for the evidence block: the norma's own summary,
