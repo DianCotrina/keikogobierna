@@ -47,28 +47,27 @@ def build_index(articles: list, roster: list, now: datetime,
     naive `now`.
     """
     cutoff = now - timedelta(days=window_days)
+    # The parsed instant travels with its article (as a copy's "_at" field)
+    # so the sort below can reuse it instead of parsing `published` a second
+    # time. PUBLISHED_FIELDS copies by name, so "_at" never reaches the file.
     fresh = []
-    published_at = {}
     for article in articles:
         at = _published_at(article)
         if at is not None and at >= cutoff:
-            fresh.append(article)
-            published_at[id(article)] = at
+            fresh.append({**article, "_at": at})
 
-    slugs = {row["portfolio"]: row["slug"] for row in roster if row.get("slug")}
     people = {row["portfolio"]: row for row in roster}
     index: dict = {}
     for pid, items in profile_items(fresh, roster).items():
-        slug = slugs.get(pid)
+        person = people[pid]
+        slug = person.get("slug")
         if not slug:
             continue
         # Feeds don't share an offset (Lima local vs. UTC), so the sort must
         # compare parsed, timezone-aware instants rather than the raw ISO
         # strings — string order and chronological order disagree across
-        # offsets. Reuse the datetime parsed during the window filter instead
-        # of parsing `published` a second time.
-        items = sorted(items, key=lambda item: published_at[id(item)], reverse=True)
-        person = people[pid]
+        # offsets.
+        items = sorted(items, key=lambda item: item["_at"], reverse=True)
         entries = []
         for item in items:
             entry = {k: item.get(k) for k in PUBLISHED_FIELDS if k != "matched_in"}
