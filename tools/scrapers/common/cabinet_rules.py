@@ -150,6 +150,25 @@ def portfolio_id(name: str):
     return hits.pop() if len(hits) == 1 else None
 
 
+def resolve_portfolio_prefix(phrase: str):
+    """Longest prefix of a running phrase that resolves to a registry id.
+
+    Press text seldom stops at the ministry — "Economía y Finanzas de su primer
+    gabinete" — so rather than maintain a stoplist of trailing clauses, try the
+    longest prefix first and shorten until the registry resolves one. An
+    ambiguous prefix ("Desarrollo", which matches two carteras) resolves to
+    nothing because portfolio_id() requires a unique hit. One helper because
+    two rules modules each grew a copy of this loop and their strip charsets
+    had already drifted apart.
+    """
+    words = (phrase or "").split()
+    for length in range(len(words), 0, -1):
+        resolved = portfolio_id(" ".join(words[:length]).strip(" ,.;:"))
+        if resolved:
+            return resolved
+    return None
+
+
 def _is_supreme(tipo: str) -> bool:
     # Records carry both "RESOLUCION SUPREMA" and "RESOLUCIÓN SUPREMA".
     return _fold(tipo) == "resolucion suprema"

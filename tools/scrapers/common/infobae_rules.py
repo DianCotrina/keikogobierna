@@ -14,7 +14,7 @@ from __future__ import annotations
 import re
 from datetime import datetime
 
-from .cabinet_rules import portfolio_id
+from .cabinet_rules import resolve_portfolio_prefix
 from .press_rules import fold
 
 # Headline shapes that mark a piece as a profile rather than a news item.
@@ -62,14 +62,11 @@ def _carteras_named(text: str) -> set:
             if not group:
                 continue
             # A ministry phrase runs on — "ministro de Economía y Finanzas del
-            # gobierno de…" — so try the longest prefix first and shorten until
-            # the registry resolves one. Same technique press_rules uses.
-            words = group.split()
-            for length in range(len(words), 0, -1):
-                pid = portfolio_id(" ".join(words[:length]).strip(" ,.;:"))
-                if pid:
-                    found.add(pid)
-                    break
+            # gobierno de…" — so resolve_portfolio_prefix shortens it until the
+            # registry recognises one.
+            pid = resolve_portfolio_prefix(group)
+            if pid:
+                found.add(pid)
     return found
 
 
