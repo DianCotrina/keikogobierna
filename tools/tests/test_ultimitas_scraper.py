@@ -4,7 +4,7 @@ import json
 import shutil
 import tempfile
 import unittest
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest import mock
 
@@ -338,6 +338,90 @@ class MinistrosFileTest(unittest.TestCase):
         self.assertEqual(result, 0)
         self.assertTrue((Path(self.tmp) / "ultimitas.json").exists())
         self.assertTrue((Path(self.tmp) / "today.json").exists())
+
+    def test_an_empty_roster_without_raising_leaves_ministros_json_untouched(self):
+        """The guard must ask about the *built index*, not "did a source
+        deliver an article": roster() can return [] without raising — an
+        all-appointed cabinet with no elected members did exactly this,
+        earlier in this branch's history — and build_index() then comes back
+        {} even though `unique` is full. The old `if unique:` guard would
+        write that empty index over a good file."""
+        item = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        self._run([item])  # seed a good file from a healthy run
+        ministros_path = Path(self.tmp) / "ministros.json"
+        before = ministros_path.read_text(encoding="utf-8")
+
+        real_roster = us.roster
+        us.roster = mock.Mock(return_value=[])
+        try:
+            result = self._run([item])
+        finally:
+            us.roster = real_roster
+        self.assertEqual(result, 0)
+        self.assertEqual(ministros_path.read_text(encoding="utf-8"), before,
+                          "an empty roster() must not overwrite the existing index")
+
+    def test_an_empty_roster_still_writes_ultimitas_and_today(self):
+        """A dead ministros.json write must not take the page's primary
+        output down with it."""
+        item = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        real_roster = us.roster
+        us.roster = mock.Mock(return_value=[])
+        try:
+            result = self._run([item])
+        finally:
+            us.roster = real_roster
+        self.assertEqual(result, 0)
+        self.assertTrue((Path(self.tmp) / "ultimitas.json").exists())
+        self.assertTrue((Path(self.tmp) / "today.json").exists())
+
+    def test_articles_all_outside_the_window_leave_ministros_json_untouched(self):
+        """unique is full and roster() is healthy, but every article is more
+        than seven days old: build_index() comes back {} on its own merits,
+        not through any failure. Same required outcome as the empty-roster
+        case — no file beats a file that asserts nothing was published."""
+        fresh = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        self._run([fresh])  # seed a good file from a healthy run
+        ministros_path = Path(self.tmp) / "ministros.json"
+        before = ministros_path.read_text(encoding="utf-8")
+
+        stale = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n2/", "author": "", "source": "Gestión",
+            "published": (datetime.now(timezone.utc) - timedelta(days=30)).isoformat(),
+        }
+        result = self._run([stale])
+        self.assertEqual(result, 0)
+        self.assertEqual(ministros_path.read_text(encoding="utf-8"), before,
+                          "articles entirely outside the 7-day window must not "
+                          "overwrite the existing index")
+
+    def test_a_normal_run_with_coverage_still_writes_the_index(self):
+        """Guard against over-correcting: a healthy run with a non-empty
+        index must still write, not just skip on every run."""
+        item = {
+            "title": "El ministro de Economía Cuba anuncia medidas", "summary": "",
+            "url": "https://gestion.pe/n/", "author": "", "source": "Gestión",
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        result = self._run([item])
+        self.assertEqual(result, 0)
+        ministros_path = Path(self.tmp) / "ministros.json"
+        self.assertTrue(ministros_path.exists())
+        payload = json.loads(ministros_path.read_text(encoding="utf-8"))
+        self.assertTrue(payload["ministers"], "a run with real coverage must not be skipped")
 
 
 if __name__ == "__main__":
