@@ -35,9 +35,9 @@ function item(entry: Entry): HTMLElement {
   }
   li.appendChild(headline);
 
-  // The headline alone can name someone else entirely — the two-key match
-  // can come from the feed summary instead (see `matched_in` in
-  // minister-news.mjs). Say so rather than let presence read as aboutness.
+  // The headline alone can name someone else entirely, with this minister
+  // named only in the feed summary the reader never sees (see `matched_in`
+  // in minister-news.mjs). Say so rather than let presence read as aboutness.
   if (entry.matched_in === 'summary') {
     const note = document.createElement('p');
     note.className = 'mt-1 font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina';

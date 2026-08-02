@@ -29,10 +29,12 @@ listing, not evidence; it never touches `tracking.json` or `main`.
      only when the built index is non-empty; a total outage, or `roster()` reading
      an empty cabinet without raising, leaves an existing file untouched instead
      of overwriting it with `{}`. Each entry also carries `matched_in` (`"title"`
-     or `"summary"`): the two-key match runs against headline + feed summary
-     together, so an article can match while its headline names someone else —
-     `matched_in` says which field actually did the naming, so the dossier can
-     say so.
+     or `"summary"`): the two-key match (cartera + apellido) runs against
+     headline + feed summary together, so an article can match while its
+     headline names someone else — `matched_in` is `"title"` when one of the
+     minister's apellidos appears in the headline (cartera aside; requiring
+     it too misclassified headlines that already lead with the minister's own
+     name), `"summary"` otherwise, so the dossier can say so.
    - Every article carries its `source`; the page's filter chips are built from the
      sources present in the data, not a hardcoded outlet list.
 3. `src/components/Ultimitas/ultimitas.ts` renders it client-side: dated header

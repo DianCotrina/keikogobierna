@@ -132,11 +132,14 @@ Written to the `ultimitas-data` branch beside the existing two files.
   it matched against.
 - `summary` and `author` are omitted. The dossier shows headline, outlet and
   date; carrying the summary would ship text the page never renders.
-- `matched_in` is `"title"` or `"summary"`: the two-key match runs against the
-  headline plus the feed summary together, so an article can match while its
-  headline names someone else entirely — this says which field actually did
-  the naming, so the page can avoid implying the headline is about this
-  minister when it is not.
+- `matched_in` is `"title"` or `"summary"`: the two-key match (cartera *and*
+  apellido) runs against the headline plus the feed summary together, so an
+  article can match while its headline names someone else entirely.
+  `matched_in` asks a narrower question than the match itself — does one of
+  the minister's apellidos appear in the headline, cartera aside — so the
+  page can avoid implying the headline is about this minister when it plainly
+  is not, without also qualifying headlines that already lead with their own
+  name but never spell out the ministry.
 - Sorted newest first per minister.
 - A minister with no coverage is absent from the map rather than present with an
   empty list — the page treats both identically, and absence keeps the file small.
