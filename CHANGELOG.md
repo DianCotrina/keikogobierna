@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.8.1](https://github.com/DianCotrina/keikogobierna/compare/v2.8.0...v2.8.1) (2026-08-02)
+
+
+### Bug Fixes
+
+* drop control and judicial own-acts from the evidence queue ([4e1da4f](https://github.com/DianCotrina/keikogobierna/commit/4e1da4f3f68296f6614b355b32a4c69e0da4f4b6))
+* split matcher tokens on punctuation ([41f3ddc](https://github.com/DianCotrina/keikogobierna/commit/41f3ddc1201007c59aacb9fee264399db86d9fee))
+* suppress the boilerplate bigrams that flooded the evidence queue ([489ef9f](https://github.com/DianCotrina/keikogobierna/commit/489ef9f220a259834b8590128161972bd4e7d5e4))
+
 ## [2.8.0](https://github.com/DianCotrina/keikogobierna/compare/v2.7.2...v2.8.0) (2026-08-02)
 
 
