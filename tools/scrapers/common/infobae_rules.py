@@ -104,6 +104,19 @@ def _surnames(person_name: str) -> list:
     return tokens[-take:]
 
 
+def names_minister(text: str, person: dict) -> bool:
+    """Does this text name both the person's cartera and one of their apellidos?
+
+    The two-key rule, asked of any text rather than only of a whole article.
+    `minister_news` asks it of the headline alone to tell coverage a reader can
+    see from coverage they cannot.
+    """
+    if person.get("portfolio") not in _carteras_named(text):
+        return False
+    words = set(fold(text or "").split())
+    return any(s in words for s in _surnames(person.get("person_name", "")))
+
+
 def _epoch(published: str) -> float:
     """Sortable timestamp; an unparseable date sorts last."""
     try:
@@ -134,18 +147,13 @@ def profile_items(articles: list, roster: list) -> dict:
         title = article.get("title") or ""
         summary = article.get("summary") or ""
         blob = f"{title} {summary}"
-        carteras = _carteras_named(blob)
-        if not carteras:
+        if not _carteras_named(blob):
             continue
-        words = set(fold(blob).split())
 
         for person in roster:
-            pid = person.get("portfolio")
-            if pid not in carteras:
+            if not names_minister(blob, person):
                 continue
-            if not any(s in words for s in _surnames(person.get("person_name", ""))):
-                continue
-            by_portfolio.setdefault(pid, []).append(article)
+            by_portfolio.setdefault(person.get("portfolio"), []).append(article)
 
     return by_portfolio
 

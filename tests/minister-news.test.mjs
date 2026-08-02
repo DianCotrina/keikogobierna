@@ -8,6 +8,7 @@ const ENTRY = {
   url: 'https://gestion.pe/n/',
   source: 'Gestión',
   published: '2026-08-01T09:00:00-05:00',
+  matched_in: 'title',
 };
 const NOW = new Date('2026-08-01T12:00:00Z');
 const FRESH_GENERATED = '2026-08-01T06:00:00+00:00'; // 6h old at NOW
@@ -74,6 +75,28 @@ test('an entry whose published is not a well-formed date is dropped', () => {
 test('a published value merely prefixed with a date still passes (time part unchecked)', () => {
   const ok = { ...ENTRY, published: '2026-08-01T09:00:00-05:00' };
   assert.deepEqual(entriesFor({ ministers: { x: [ok] } }, 'x'), [ok]);
+});
+
+// matched_in must be one of the two fixed words the scraper writes; anything
+// else is a schema this renderer does not know how to draw.
+
+test('an entry with matched_in "summary" is valid', () => {
+  const ok = { ...ENTRY, title: 'solo en el resumen', matched_in: 'summary' };
+  assert.deepEqual(entriesFor({ ministers: { x: [ok] } }, 'x'), [ok]);
+});
+
+test('an entry with an unrecognised matched_in is dropped, siblings survive', () => {
+  const bad = { ...ENTRY, title: 'valor desconocido', matched_in: 'body' };
+  const good = { ...ENTRY, title: 'valor valido' };
+  const payload = { ministers: { x: [bad, good] } };
+  assert.deepEqual(entriesFor(payload, 'x'), [good]);
+});
+
+test('an entry missing matched_in entirely is dropped, siblings survive', () => {
+  const { matched_in, ...bad } = ENTRY;
+  const good = { ...ENTRY, title: 'con matched_in' };
+  const payload = { ministers: { x: [{ ...bad, title: 'sin matched_in' }, good] } };
+  assert.deepEqual(entriesFor(payload, 'x'), [good]);
 });
 
 // --- isStale: the staleness guard (finding 1) ---------------------------------

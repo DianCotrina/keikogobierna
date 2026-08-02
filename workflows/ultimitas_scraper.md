@@ -25,7 +25,14 @@ listing, not evidence; it never touches `tracking.json` or `main`.
      the two files above it uses **all five** outlets and is not KEYWORDS-filtered:
      the gate is the two-key matcher in `infobae_rules` (the article must name the
      cartera *and* an apellido). Written on every run, including runs where no new
-     /ultimitas/ article arrived — the seven-day window moves regardless.
+     /ultimitas/ article arrived — the seven-day window moves regardless. Written
+     only when the built index is non-empty; a total outage, or `roster()` reading
+     an empty cabinet without raising, leaves an existing file untouched instead
+     of overwriting it with `{}`. Each entry also carries `matched_in` (`"title"`
+     or `"summary"`): the two-key match runs against headline + feed summary
+     together, so an article can match while its headline names someone else —
+     `matched_in` says which field actually did the naming, so the dossier can
+     say so.
    - Every article carries its `source`; the page's filter chips are built from the
      sources present in the data, not a hardcoded outlet list.
 3. `src/components/Ultimitas/ultimitas.ts` renders it client-side: dated header

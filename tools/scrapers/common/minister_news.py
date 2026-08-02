@@ -11,14 +11,16 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 
-from .infobae_rules import profile_items
+from .infobae_rules import names_minister, profile_items
 
 WINDOW_DAYS = 7
 
 # What the dossier renders, and therefore all it is given. The feed summary and
 # author stay out: shipping text no page displays would be carrying an outlet's
-# prose for no reason.
-PUBLISHED_FIELDS = ("title", "url", "source", "published")
+# prose for no reason. `matched_in` is derived rather than copied from the
+# article (see build_index below), so it is documented here but not produced
+# by the same dict-comprehension the other fields are.
+PUBLISHED_FIELDS = ("title", "url", "source", "published", "matched_in")
 
 
 def _published_at(article: dict):
@@ -54,6 +56,7 @@ def build_index(articles: list, roster: list, now: datetime,
             published_at[id(article)] = at
 
     slugs = {row["portfolio"]: row["slug"] for row in roster if row.get("slug")}
+    people = {row["portfolio"]: row for row in roster}
     index: dict = {}
     for pid, items in profile_items(fresh, roster).items():
         slug = slugs.get(pid)
@@ -65,5 +68,18 @@ def build_index(articles: list, roster: list, now: datetime,
         # offsets. Reuse the datetime parsed during the window filter instead
         # of parsing `published` a second time.
         items = sorted(items, key=lambda item: published_at[id(item)], reverse=True)
-        index[slug] = [{k: item.get(k) for k in PUBLISHED_FIELDS} for item in items]
+        person = people[pid]
+        entries = []
+        for item in items:
+            entry = {k: item.get(k) for k in PUBLISHED_FIELDS if k != "matched_in"}
+            # profile_items matched on the headline + summary blob; whether
+            # the headline alone would have matched is a separate question —
+            # the article can be genuinely about this minister while its
+            # headline names someone else entirely, and a reader who never
+            # opens the summary must not read presence as aboutness.
+            entry["matched_in"] = (
+                "title" if names_minister(item.get("title") or "", person) else "summary"
+            )
+            entries.append(entry)
+        index[slug] = entries
     return index
