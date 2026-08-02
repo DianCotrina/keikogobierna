@@ -104,10 +104,6 @@ class Purity(unittest.TestCase):
         self.assertEqual(profile_items([], ROSTER), {})
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class SurnameExtractionTest(unittest.TestCase):
     """Apellidos come from the end of the name, not from dropping one token.
 
@@ -214,3 +210,53 @@ class MinistryDetectionTest(unittest.TestCase):
             ir._carteras_named(
                 "El ministro de Vivienda, Construcción y Saneamiento inaugura obra"),
             {"m-vivienda"})
+
+
+class RegistryAliasDriftTest(unittest.TestCase):
+    """_MINISTRY's acronym branch is hand-synced from portfolios.json aliases.
+
+    Deriving it at import was rejected: matching is case-insensitive, so an
+    alias that is also a Spanish word ("Vivienda") would tag every housing
+    story with the cartera — each alias needs a human call on whether it is
+    safe to match bare. This pins the sync instead: a new registry alias must
+    either join _ACRONYMS, the title-word branch, or the documented exclusions
+    here. It cannot be silently undetectable, which is the failure mode the
+    registry exists to prevent.
+    """
+
+    # Aliases deliberately not matched as bare words, and why.
+    EXCLUDED = {"Vivienda"}  # common noun; the phrase branch catches "ministro de Vivienda"
+    # Covered by the canciller/premier branch rather than the acronym list.
+    TITLE_WORDS = {"Cancillería", "Canciller", "Premier"}
+
+    @staticmethod
+    def registry_aliases() -> set:
+        import json
+        from tools.scrapers.common.cabinet_rules import PORTFOLIOS_PATH
+        data = json.loads(PORTFOLIOS_PATH.read_text(encoding="utf-8"))
+        return {alias for p in data["portfolios"] for alias in p.get("aliases", [])}
+
+    def test_every_registry_alias_is_detectable_or_excluded(self):
+        for alias in self.registry_aliases() - self.EXCLUDED:
+            with self.subTest(alias=alias):
+                self.assertTrue(ir._MINISTRY.search(alias),
+                                f"registry alias {alias!r} is invisible to _MINISTRY — "
+                                "add it to _ACRONYMS or document its exclusion")
+
+    def test_the_acronym_branch_carries_only_registry_aliases(self):
+        aliases = self.registry_aliases()
+        for acronym in ir._ACRONYMS:
+            with self.subTest(acronym=acronym):
+                self.assertIn(acronym, aliases,
+                              f"{acronym!r} is not a portfolios.json alias — the "
+                              "registry is the authority on what a cartera is called")
+
+    def test_exclusions_and_title_words_stay_real_aliases(self):
+        aliases = self.registry_aliases()
+        for name in self.EXCLUDED | self.TITLE_WORDS:
+            with self.subTest(name=name):
+                self.assertIn(name, aliases)
+
+
+if __name__ == "__main__":
+    unittest.main()

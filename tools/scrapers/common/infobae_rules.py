@@ -39,12 +39,23 @@ _PROFILE = re.compile(
 # mention (rather than running up to 60 chars regardless of content), so a
 # sentence naming two ministers resolves both instead of one match's capture
 # swallowing the other minister's name into its own prefix-matching attempt.
+#
+# Acronyms safe to match as bare words, hand-synced from portfolios.json
+# `aliases` and pinned to the registry by test_infobae_rules, so a new alias
+# cannot be silently undetectable. Hand-synced rather than derived at import
+# because matching is case-insensitive: an alias that is also a Spanish word
+# ("Vivienda") would tag every housing story with the cartera, so each alias
+# needs a human call on whether it is safe bare. The registry's
+# Cancillería/Canciller/Premier aliases live in the third branch instead.
+_ACRONYMS = ("MTC", "MEF", "Minem", "Minsa", "Minedu", "Midagri", "Mincetur",
+             "Produce", "Mininter", "Mindef", "Minjus", "Minjusdh", "MTPE",
+             "Mimp", "Minam", "Mincul", "Midis", "RREE", "PCM")
+
 _MINISTRY = re.compile(
     r"(?=(?:ministr[oa]|ministerio|titular)\s+(?:de\s+la|del|de|en\s+el)?\s*"
     r"((?:(?!\bministr[oa]\b|\bministerio\b|\btitular\b)"
     r"[\wÁÉÍÓÚÑáéíóúñ.\- ]){3,60})"
-    r"|\b(MTC|MEF|Minem|Minsa|Minedu|Midagri|Mincetur|Produce|Mininter|Mindef|"
-    r"Minjus|Minjusdh|MTPE|Mimp|Minam|Mincul|Midis|RREE|PCM)\b"
+    rf"|\b({'|'.join(_ACRONYMS)})\b"
     r"|\b(canciller[ií]a|canciller|premier)\b)",
     re.I)
 
