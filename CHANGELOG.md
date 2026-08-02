@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.8.0](https://github.com/DianCotrina/keikogobierna/compare/v2.7.2...v2.8.0) (2026-08-02)
+
+
+### Features
+
+* per-minister coverage index, keyed by slug and windowed ([f1bce2a](https://github.com/DianCotrina/keikogobierna/commit/f1bce2a578bdb67dcced63e1513d02b9d214766d))
+* show a minister's press coverage on their dossier ([aac854c](https://github.com/DianCotrina/keikogobierna/commit/aac854ca6651c3a41f004396cfb2589fc13df3e7))
+* write the per-minister coverage index each run ([995b490](https://github.com/DianCotrina/keikogobierna/commit/995b4900d0f7dc5751988b0f21d802a2e7a79dbd))
+
+
+### Bug Fixes
+
+* base matched_in on the apellido alone, not the full two-key rule ([4305e14](https://github.com/DianCotrina/keikogobierna/commit/4305e1404016df6e3289bd31f7c368323e124931))
+* distinguish load failure from genuine no-coverage, drop only malformed entries ([cb880fd](https://github.com/DianCotrina/keikogobierna/commit/cb880fd14a97be24244931e3d10f23244907374c))
+* examine every ministro/ministerio mention independently ([2ef1248](https://github.com/DianCotrina/keikogobierna/commit/2ef124822cc132df46a1339b11e716ad1456b30c))
+* guard the ministros.json write on the built index, not the fetch ([e3f1724](https://github.com/DianCotrina/keikogobierna/commit/e3f1724f479bacfd3b3f3d49ff32d9b59891349e))
+* hide press coverage on a former minister's dossier ([434d539](https://github.com/DianCotrina/keikogobierna/commit/434d539c533aabd839c9aa6b8b66c986da35224d))
+* keep writing ministros.json when only ultimitas.json's two outlets are down ([501d332](https://github.com/DianCotrina/keikogobierna/commit/501d33211e80ea1a67ca1d6ff07773418cb16f0a))
+* make ministros.json write survivable and its ordering test real ([d9a8bba](https://github.com/DianCotrina/keikogobierna/commit/d9a8bbada80d45eae1239ba54c3b783fbea0faf3))
+* reject stale minister-news payloads and centralize the render decision ([0987960](https://github.com/DianCotrina/keikogobierna/commit/0987960f3047089bd49487cf7648e72404f18979))
+* say when a minister was named only in the article summary ([145f4ed](https://github.com/DianCotrina/keikogobierna/commit/145f4edcc65c19b4086f30dba5a302bbbe0d0a3f))
+* sort minister coverage by parsed instant, not raw ISO string ([c963312](https://github.com/DianCotrina/keikogobierna/commit/c963312dd1390566cbf4910ead27125e56efcac8))
+* widen matched_in to apellido OR cartera in the headline ([0c152b8](https://github.com/DianCotrina/keikogobierna/commit/0c152b8a215da0b43bd32e19f9274e19f7b6b97d))
+
 ## [2.7.2](https://github.com/DianCotrina/keikogobierna/compare/v2.7.1...v2.7.2) (2026-08-01)
 
 
