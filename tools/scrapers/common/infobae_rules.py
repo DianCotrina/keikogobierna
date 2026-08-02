@@ -93,12 +93,23 @@ def _surnames(person_name: str) -> list:
     Tokens of two characters or fewer go first, which is what stops the
     conjunction itself from being read as a surname.
     """
-    tokens = [t for t in fold(person_name).split() if len(t) > 2]
+    folded = fold(person_name)
+    tokens = [t for t in folded.split() if len(t) > 2]
     if len(tokens) <= 1:
         return tokens
-    joined = f" {fold(person_name)} "
-    take = 3 if " y " in joined and len(tokens) > 2 else 2
+    take = 3 if " y " in f" {folded} " and len(tokens) > 2 else 2
     return tokens[-take:]
+
+
+def _apellido_in(words: set, apellidos: list) -> bool:
+    """One of the apellidos appears among the folded words.
+
+    The one surname-matching convention: names_minister,
+    headline_names_minister and profile_items must all match apellidos the
+    same way, and sharing the check keeps that true rather than asserted
+    in docstrings.
+    """
+    return any(s in words for s in apellidos)
 
 
 def names_minister(text: str, person: dict) -> bool:
@@ -109,7 +120,7 @@ def names_minister(text: str, person: dict) -> bool:
     if person.get("portfolio") not in _carteras_named(text):
         return False
     words = set(fold(text or "").split())
-    return any(s in words for s in _surnames(person.get("person_name", "")))
+    return _apellido_in(words, _surnames(person.get("person_name", "")))
 
 
 def headline_names_minister(text: str, person: dict) -> bool:
@@ -132,7 +143,7 @@ def headline_names_minister(text: str, person: dict) -> bool:
     if person.get("portfolio") in _carteras_named(text):
         return True
     words = set(fold(text or "").split())
-    return any(s in words for s in _surnames(person.get("person_name", "")))
+    return _apellido_in(words, _surnames(person.get("person_name", "")))
 
 
 def _epoch(published: str) -> float:
@@ -158,20 +169,27 @@ def profile_items(articles: list, roster: list) -> dict:
 
     Order is the caller's: a review packet wants profiles first, a dated news
     list wants the newest.
+
+    This is the directory's one hot loop (every fresh article × every roster
+    person), so the two keys of names_minister are asked against values
+    computed once per run — apellidos per person — and once per article —
+    carteras and folded words — rather than recomputed per pair.
     """
     by_portfolio: dict = {}
+    surnames = [(person, _surnames(person.get("person_name", ""))) for person in roster]
 
     for article in articles:
         title = article.get("title") or ""
         summary = article.get("summary") or ""
         blob = f"{title} {summary}"
-        if not _carteras_named(blob):
+        carteras = _carteras_named(blob)
+        if not carteras:
             continue
+        words = set(fold(blob).split())
 
-        for person in roster:
-            if not names_minister(blob, person):
-                continue
-            by_portfolio.setdefault(person.get("portfolio"), []).append(article)
+        for person, apellidos in surnames:
+            if person.get("portfolio") in carteras and _apellido_in(words, apellidos):
+                by_portfolio.setdefault(person.get("portfolio"), []).append(article)
 
     return by_portfolio
 
