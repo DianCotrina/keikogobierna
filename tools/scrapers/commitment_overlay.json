@@ -9,7 +9,12 @@
     "cooperacion internacional", "ministerio economia", "policia nacional", "lima callao",
     "consejo ministros", "presidencia consejo", "sociedad civil", "consejo nacional",
     "control institucional", "organo control", "inversion privada", "innovacion tecnologica",
-    "servicio nacional", "proyectos inversion", "derechos humanos", "recursos humanos"
+    "servicio nacional", "proyectos inversion", "derechos humanos", "recursos humanos",
+
+    "nivel nacional", "fondo nacional", "nacional inteligencia",
+    "distritos judiciales", "justicia penal", "nacional justicia",
+
+    "santa rosa", "jorge chavez"
   ],
   "mute_commitments": []
 }

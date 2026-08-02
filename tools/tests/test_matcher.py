@@ -85,5 +85,59 @@ class RealIndexTest(unittest.TestCase):
         self.assertTrue(all(cid.count(".") == 1 for cid in ids))  # well-formed commitment ids
 
 
+class GenericPhraseRegressionTest(unittest.TestCase):
+    """Real normas that reached the review queue on 2026-08-01/02 as false positives.
+
+    Each matched on a boilerplate bigram that says nothing about a commitment
+    ("fondo nacional", "nivel nacional"). Issues #228-#234; see the overlay's
+    suppress_phrases. They must produce no match at all.
+    """
+
+    NOISE = {
+        # issue: (numero, tipo, sumilla)  -- the exact text the scraper matches on
+        229: ("N° 176-2026-INEI", "RESOLUCIÓN JEFATURAL",
+              "Índice de Precios al Por Mayor a Nivel Nacional, correspondiente al mes de julio de 2026"),
+        230: ("N° 175-2026-INEI", "RESOLUCIÓN JEFATURAL",
+              "Índices de Precios al Consumidor a Nivel Nacional y de Lima Metropolitana, "
+              "correspondientes al mes de julio 2026"),
+        234: ("N° 422-2026-CG", "RESOLUCIÓN",
+              "Modifican el Anexo N° 1 de la Resolución de Contraloría N° 237-2021-CG, a fin de "
+              "incluir al Fondo Nacional de Financiamiento de la Actividad Empresarial del Estado - FONAFE"),
+        232: ("N° 2265-2026-MP-FN", "RESOLUCIÓN",
+              "Nombran y designan fiscales en los Distritos Judiciales de Lima Centro y La Libertad"),
+        233: ("N° 000611-2026-P-CSNJPE-PJ", "RESOLUCIÓN ADMINISTRATIVA",
+              "Oficializan incorporación de magistrado como juez a cargo del Primer Juzgado de "
+              "Investigación Preparatoria Nacional de la Corte Superior Nacional de Justicia Penal Especializada"),
+        231: ("N° Definitiva N° 211-2025-AREQUIPA", "INVESTIGACION",
+              "Imponen medida disciplinaria de destitución a juez de los Juzgados de Paz de 15 de Agosto, "
+              "Jorge Chávez, Ciudad Blanca y Progresista de Paucarpata, y de los Juzgados de Primera "
+              "Nominación, Segunda Nominación y Santa Rosa"),
+        228: ("N° 245-2026-PCM", "RESOLUCIÓN SUPREMA",
+              "Designan Director de Inteligencia Nacional de la Dirección Nacional de Inteligencia - DINI"),
+    }
+
+    def test_boilerplate_normas_do_not_match_any_commitment(self):
+        mt = m.load_matcher()
+        for issue, (numero, tipo, sumilla) in sorted(self.NOISE.items()):
+            with self.subTest(issue=issue):
+                self.assertEqual(mt.match(f"{numero} {tipo} {sumilla}"), [],
+                                 f"issue #{issue} should no longer reach the review queue")
+
+    def test_suppressing_generic_heads_keeps_the_distinctive_tail(self):
+        # Each suppressed phrase is a generic head; the norma that genuinely
+        # evidences the commitment still carries the specific tail that names it.
+        mt = m.load_matcher()
+        for label, text in (
+            ("FONIEX", "Lanzan el Fondo Nacional de Innovación Exportadora para agroindustria"),
+            # "jorge chavez"/"santa rosa" are suppressed as court names, but a real
+            # airport norma says "aeropuerto" — that is what must still carry it.
+            ("aeropuertos", "Aprueban la modernización de los aeropuertos concesionados "
+                            "priorizando seguridad aérea y capacidad operativa"),
+        ):
+            with self.subTest(label=label):
+                self.assertTrue(mt.match(text),
+                                "suppressing a generic head must not blind the matcher to the tail")
+
+
 if __name__ == "__main__":
     unittest.main()
