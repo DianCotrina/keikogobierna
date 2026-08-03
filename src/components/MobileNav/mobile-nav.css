@@ -1,0 +1,145 @@
+/* The mobile menu reads as the expediente's index: hairline-ruled rows on the
+   same paper as the page, grouped by what they open. It drops from the bottom
+   edge of the header, which is why <header> is the positioned ancestor. */
+
+.menu-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid rgba(20, 20, 23, 0.14);
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--color-tinta);
+  transition: border-color 0.18s, transform 0.18s var(--ease-spring);
+}
+.menu-trigger[hidden] { display: none; }
+.menu-trigger:hover { border-color: rgba(20, 20, 23, 0.3); }
+.menu-trigger:focus-visible { outline: 2px solid var(--color-rojo); outline-offset: 2px; }
+.menu-trigger:active { transform: scale(0.96); }
+
+/* Three rules that fold into a cross. Only transform and opacity move. */
+.menu-bars {
+  position: relative;
+  display: block;
+  width: 17px;
+  height: 12px;
+}
+.menu-bars span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1.5px;
+  border-radius: 1px;
+  background: currentColor;
+  transition: transform 0.24s var(--ease-spring), opacity 0.15s linear;
+}
+.menu-bars span:nth-child(1) { top: 0; }
+.menu-bars span:nth-child(2) { top: 5.25px; }
+.menu-bars span:nth-child(3) { top: 10.5px; }
+
+.menu-trigger[aria-expanded='true'] .menu-bars span:nth-child(1) {
+  transform: translateY(5.25px) rotate(45deg);
+}
+.menu-trigger[aria-expanded='true'] .menu-bars span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0.4);
+}
+.menu-trigger[aria-expanded='true'] .menu-bars span:nth-child(3) {
+  transform: translateY(-5.25px) rotate(-45deg);
+}
+
+/* Anchored to the header's bottom edge rather than the viewport, so the bar
+   itself — logo, buscador, the toggle you need to close with — never dims. */
+.menu-backdrop {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100dvh;
+  z-index: 54;
+  background: rgba(20, 20, 23, 0.35);
+}
+.menu-backdrop[hidden] { display: none; }
+
+.menu-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 55;
+  max-height: calc(100dvh - 3.5rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1rem 0 1.5rem;
+  background: var(--color-papel);
+  border-bottom: 1px solid rgba(20, 20, 23, 0.12);
+  box-shadow: var(--shadow-lift);
+  animation: menu-in 0.22s var(--ease-spring);
+}
+.menu-panel[hidden] { display: none; }
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(-8px); }
+}
+
+.menu-group + .menu-group { margin-top: 1.35rem; }
+
+.menu-group-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-tintafina);
+}
+
+.menu-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 3rem;
+  padding: 0.5rem 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-tinta);
+  transition: background-color 0.15s, color 0.2s ease;
+}
+.menu-group li + li .menu-row { border-top: 1px solid rgba(20, 20, 23, 0.09); }
+.menu-row:hover { background: rgba(20, 20, 23, 0.05); }
+.menu-row:active { background: rgba(20, 20, 23, 0.08); }
+.menu-row:focus-visible { outline: 2px solid var(--color-rojo); outline-offset: -2px; }
+
+/* The current page is marked out in the margin, the way you'd tick a page in
+   the file itself — so the labels stay flush with the group eyebrow. */
+.menu-row[aria-current='page']::before {
+  content: '';
+  position: absolute;
+  left: -0.75rem;
+  top: 50%;
+  width: 2px;
+  height: 1.05rem;
+  margin-top: -0.525rem;
+  border-radius: 1px;
+  background: var(--color-rojo);
+}
+
+/* 100 días keeps the rojo it carries in the desktop nav. */
+.menu-row--destacado { color: var(--color-rojo); }
+
+/* The desktop nav takes over here. This lives in the component sheet rather
+   than a md:hidden utility because .menu-trigger's own display would win the
+   cascade against it. */
+@media (min-width: 768px) {
+  .menu-trigger,
+  .menu-panel,
+  .menu-backdrop { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-panel { animation: none; }
+  .menu-trigger,
+  .menu-bars span { transition: none; }
+  .menu-trigger:active { transform: none; }
+}

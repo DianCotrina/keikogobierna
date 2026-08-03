@@ -1,0 +1,80 @@
+---
+import './mobile-nav.css';
+
+// The header nav is desktop-only (hidden md:flex). Below 768px this is the
+// only way to reach the rest of the site, so the toggle + panel render on
+// every page from Base.astro.
+//
+// Like the buscador, the trigger starts hidden and the client script reveals
+// it: a menu button that opens nothing is worse than no button at all.
+
+interface NavLink {
+  key: string;
+  label: string;
+  href: string;
+  group: string;
+}
+
+interface Props {
+  links: NavLink[];
+  activeNav?: string;
+}
+
+const { links, activeNav } = Astro.props;
+
+// The two groups encode a real difference: the first set jumps to sections of
+// the portada, the second opens standalone pages.
+const groups = [
+  { id: 'portada', label: 'En la portada' },
+  { id: 'secciones', label: 'Secciones' }
+];
+---
+
+<button
+  id="menu-trigger"
+  type="button"
+  class="menu-trigger"
+  aria-haspopup="dialog"
+  aria-expanded="false"
+  aria-controls="menu-panel"
+  aria-label="Abrir el menú"
+  hidden
+>
+  <span class="menu-bars" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </span>
+</button>
+
+<div id="menu-backdrop" class="menu-backdrop" data-menu-close aria-hidden="true" hidden></div>
+
+<div
+  id="menu-panel"
+  class="menu-panel"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Navegación principal"
+  hidden
+>
+  <!-- Same container as the header bar, so the rows line up under the logo. -->
+  <div class="mx-auto max-w-6xl px-5 sm:px-8">
+    {groups.map((group) => (
+      <nav class="menu-group" aria-label={group.label}>
+        <p class="menu-group-label">{group.label}</p>
+        <ul>
+          {links.filter((link) => link.group === group.id).map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class:list={['menu-row', { 'menu-row--destacado': link.key === '100dias' }]}
+                data-menu-close
+                aria-current={activeNav === link.key ? 'page' : undefined}
+              >{link.label}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    ))}
+  </div>
+</div>
+
+<script src="./mobile-nav.ts"></script>
