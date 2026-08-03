@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T23:59:11+00:00",
+ "generated": "2026-08-03T08:30:25+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Suspenden sesión del Consejo de Ministros que debía evaluar pedido de facultades al Legislativo",
     "url": "https://larepublica.pe/politica/2026/08/02/suspenden-sesion-del-consejo-de-ministros-que-debia-evaluar-pedido-de-facultades-al-legislativo-hnews-92560",
     "source": "La República",
-    "published": "2026-08-02T23:09:55+00:00",
+    "published": "2026-08-03T01:19:19+00:00",
     "matched_in": "summary"
    },
    {
@@ -36,20 +36,6 @@
     "url": "https://gestion.pe/peru/beingolea-senala-que-pedido-de-facultades-legislativas-aun-se-afina-y-descarta-cierre-del-lum-noticia/",
     "source": "Gestión",
     "published": "2026-08-02T20:15:24+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Beingolea dice que pedido de facultades del Ejecutivo aún está recibiendo observaciones de ministerios: \"Se está afinando\"",
-    "url": "https://rpp.pe/politica/gobierno/beingolea-dice-que-pedido-de-facultades-del-ejecutivo-aun-esta-recibiendo-observaciones-de-ministerios-se-esta-afinando-noticia-1699815",
-    "source": "RPP",
-    "published": "2026-08-02T13:56:26-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Beingolea dice que no cerrará el LUM y señala que la izquierda \"manejó\" la cultura en el país: \"Se acabaron los privilegios\"",
-    "url": "https://rpp.pe/politica/gobierno/beingolea-dice-que-no-cerrara-el-lum-y-senala-que-la-izquierda-manejo-la-cultura-en-el-pais-se-acabaron-los-privilegios-noticia-1699802",
-    "source": "RPP",
-    "published": "2026-08-02T12:28:07-05:00",
     "matched_in": "title"
    },
    {
@@ -76,14 +62,16 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "¿Qué dijo el ministro de Trabajo sobre las vacaciones y pago de CTS y gratificaciones en el Perú?",
-    "url": "https://elcomercio.pe/respuestas/tramites/que-dijo-el-ministro-de-trabajo-sobre-las-vacaciones-y-pago-de-cts-y-gratificaciones-en-el-peru-tdpe-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-02T22:08:00+00:00",
-    "matched_in": "title"
-   },
+    "title": "Alfonso López Chau sobre designaciones en sector salud: \"Necesitamos autoridades por mérito, no por padrinazgos\"",
+    "url": "https://larepublica.pe/politica/2026/08/01/alfonso-lopez-chau-sobre-designaciones-en-sector-salud-necesitamos-autoridades-por-merito-no-por-padrinazgos-hnews-79952",
+    "source": "La República",
+    "published": "2026-08-01T22:29:07+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Sheput dice que Keiko Fujimori le pidió visitar a Toledo: “Espero que se materialice la posibilidad de prisión domiciliaria”",
     "url": "https://rpp.pe/politica/gobierno/sheput-dice-que-keiko-fujimori-le-pidio-visitar-a-toledo-espero-que-se-materialice-la-posibilidad-de-prision-domiciliaria-noticia-1699821",
@@ -94,26 +82,10 @@
   ],
   "rafael-rey-rey": [
    {
-    "title": "Ministro Rafael Rey sobre accidente de avioneta en Nasca: “No tenemos mayor información, las grabaciones van a decirnos (qué ocurrió)”",
-    "url": "https://elcomercio.pe/peru/ministro-rafael-rey-sobre-accidente-de-avioneta-en-nasca-no-tenemos-mayor-informacion-las-grabaciones-van-a-decirnos-que-ocurrio-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-02T19:35:13+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Consejo de Ministros sesionará este domingo: los temas",
     "url": "https://gestion.pe/peru/politica/consejo-de-ministros-del-gobierno-de-keiko-fujimori-sesionara-este-domingo-los-temas-noticia/",
     "source": "Gestión",
     "published": "2026-08-02T12:16:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Alfonso López Chau sobre designaciones en sector salud: \"Necesitamos autoridades por mérito, no por padrinazgos\"",
-    "url": "https://larepublica.pe/politica/2026/08/01/alfonso-lopez-chau-sobre-designaciones-en-sector-salud-necesitamos-autoridades-por-merito-no-por-padrinazgos-hnews-79952",
-    "source": "La República",
-    "published": "2026-08-01T22:29:07+00:00",
     "matched_in": "summary"
    }
   ],
@@ -126,26 +98,10 @@
     "matched_in": "summary"
    },
    {
-    "title": "Empresa propietaria de avioneta que se estrelló en Nasca \"tenía todos los permisos\", según ministro de Comercio Exterior y Turismo",
-    "url": "https://rpp.pe/politica/gobierno/empresa-propietaria-de-avioneta-que-se-estrello-en-nasca-tenia-todos-los-permisos-segun-ministro-de-comercio-exterior-y-turismo-noticia-1699809",
-    "source": "RPP",
-    "published": "2026-08-02T12:32:44-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Piloto de avioneta que cayó en Nasca y dejó 13 muertos habría reportado una falla en pleno vuelo, revela titular de Mincetur",
     "url": "https://www.infobae.com/peru/2026/08/02/piloto-de-avioneta-que-cayo-en-nasca-y-dejo-13-muertos-reporto-una-falla-en-pleno-vuelo-revela-titular-de-mincetur/",
     "source": "Infobae",
     "published": "2026-08-02T16:42:26+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Minedu envía los primeros 20 domos a Chupaca para reanudar clases tras sismo",
-    "url": "https://www.infobae.com/peru/2026/08/02/minedu-envia-los-primeros-20-domos-a-chupaca-para-reanudar-clases-tras-sismo/",
-    "source": "Infobae",
-    "published": "2026-08-02T02:50:56+00:00",
     "matched_in": "title"
    }
   ]
