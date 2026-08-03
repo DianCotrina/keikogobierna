@@ -215,7 +215,9 @@ if (trigger && overlay && panel && input && status && results) {
   function open(): void {
     overlay!.hidden = false;
     trigger!.setAttribute('aria-expanded', 'true');
-    document.body.style.overflow = 'hidden';
+    // On <html>, not <body>: a body lock collapses the scroll offset and
+    // drops the sticky mobile header out of the viewport.
+    document.documentElement.style.overflow = 'hidden';
     input!.focus();
     input!.select();
     void load();
@@ -224,7 +226,7 @@ if (trigger && overlay && panel && input && status && results) {
   function close(): void {
     overlay!.hidden = true;
     trigger!.setAttribute('aria-expanded', 'false');
-    document.body.style.overflow = '';
+    document.documentElement.style.overflow = '';
     trigger!.focus();
   }
 

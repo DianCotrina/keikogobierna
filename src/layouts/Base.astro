@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Donate from '../components/Donate/Donate.astro';
 import Search from '../components/Search/Search.astro';
+import MobileNav from '../components/MobileNav/MobileNav.astro';
 import pkg from '../../package.json';
 
 interface Props {
@@ -12,14 +13,16 @@ interface Props {
 
 const { title, description, activeNav } = Astro.props;
 
+// `group` only matters to the mobile menu, which files the portada anchors
+// apart from the standalone pages; the desktop nav renders one flat row.
 const navLinks = [
-  { key: 'resumen', label: 'Resumen', href: '/#resumen' },
-  { key: 'temas', label: 'Temas', href: '/#temas' },
-  { key: 'metodologia', label: 'Metodología', href: '/#metodologia' },
-  { key: 'actualizaciones', label: 'Actualizaciones', href: '/#actualizaciones' },
-  { key: 'gabinete', label: 'Gabinete', href: '/gabinete/' },
-  { key: 'ultimitas', label: 'Ultimitas', href: '/ultimitas/' },
-  { key: '100dias', label: '100 días', href: '/primeros-100-dias/' }
+  { key: 'resumen', label: 'Resumen', href: '/#resumen', group: 'portada' },
+  { key: 'temas', label: 'Temas', href: '/#temas', group: 'portada' },
+  { key: 'metodologia', label: 'Metodología', href: '/#metodologia', group: 'portada' },
+  { key: 'actualizaciones', label: 'Actualizaciones', href: '/#actualizaciones', group: 'portada' },
+  { key: 'gabinete', label: 'Gabinete', href: '/gabinete/', group: 'secciones' },
+  { key: 'ultimitas', label: 'Ultimitas', href: '/ultimitas/', group: 'secciones' },
+  { key: '100dias', label: '100 días', href: '/primeros-100-dias/', group: 'secciones' }
 ];
 ---
 
@@ -50,7 +53,11 @@ const navLinks = [
     <div class="h-1 bg-rojo" aria-hidden="true"></div>
 
     <!-- Header -->
-    <header class="border-b border-tinta/10">
+    <!-- Sticky below md so the menu button stays reachable down a long page;
+         the desktop nav is always visible, so it keeps the static header.
+         Positioned, which is what the mobile panel drops from. -->
+    <!-- z-45 clears the fixed Donate widget (z-40) so the open menu covers it. -->
+    <header class="sticky top-0 z-[45] bg-papel/90 backdrop-blur-sm md:static md:z-auto md:bg-transparent md:backdrop-blur-none border-b border-tinta/10">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 flex items-center justify-between py-4">
         <a href="/" class="font-display text-lg tracking-tight lowercase">keiko<span class="text-rojo">gobierna</span></a>
         <nav class="hidden md:flex items-center gap-8 font-sans text-sm font-medium" aria-label="Navegación principal">
@@ -62,7 +69,10 @@ const navLinks = [
             >{link.label}</a>
           ))}
         </nav>
-        <Search />
+        <div class="flex items-center gap-2">
+          <Search />
+          <MobileNav links={navLinks} activeNav={activeNav} />
+        </div>
       </div>
     </header>
 
