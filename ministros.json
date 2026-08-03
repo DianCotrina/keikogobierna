@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T08:30:25+00:00",
+ "generated": "2026-08-03T13:41:40+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -37,20 +37,6 @@
     "source": "Gestión",
     "published": "2026-08-02T20:15:24+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Consejo de ministros no debatirán hoy el pedido de facultades al Congreso: “No están las condiciones para la aprobación”",
-    "url": "https://www.infobae.com/peru/2026/08/02/consejo-de-ministros-no-debatiran-hoy-el-pedido-de-facultades-al-congreso-no-estan-las-condiciones-para-la-aprobacion/",
-    "source": "Infobae",
-    "published": "2026-08-02T16:59:11+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro de Cultura afirma que el LUM no cerrará en su gestión y que “se acabaron los privilegios de una manera única de pensar”",
-    "url": "https://www.infobae.com/peru/2026/08/02/ministro-de-cultura-afirma-que-el-lum-cerrara-en-su-gestion-y-que-se-acabaron-los-privilegios-de-una-manera-unica-de-pensar/",
-    "source": "Infobae",
-    "published": "2026-08-02T16:26:47+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -62,6 +48,15 @@
     "matched_in": "title"
    }
   ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Unidad de Investigación: Hallan más de siete millones de jeringas y medicamentos vencidos en Cenares del Minsa",
+    "url": "https://elcomercio.pe/lima/hallan-mas-de-7-millones-de-jeringas-y-medicamentos-vencidos-en-cenares-del-minsa-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-03T11:42:07+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "luis-williams-dyer-fernandez": [
    {
     "title": "Alfonso López Chau sobre designaciones en sector salud: \"Necesitamos autoridades por mérito, no por padrinazgos\"",
@@ -71,15 +66,6 @@
     "matched_in": "summary"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Sheput dice que Keiko Fujimori le pidió visitar a Toledo: “Espero que se materialice la posibilidad de prisión domiciliaria”",
-    "url": "https://rpp.pe/politica/gobierno/sheput-dice-que-keiko-fujimori-le-pidio-visitar-a-toledo-espero-que-se-materialice-la-posibilidad-de-prision-domiciliaria-noticia-1699821",
-    "source": "RPP",
-    "published": "2026-08-02T14:54:56-05:00",
-    "matched_in": "title"
-   }
-  ],
   "rafael-rey-rey": [
    {
     "title": "Consejo de Ministros sesionará este domingo: los temas",
@@ -87,22 +73,6 @@
     "source": "Gestión",
     "published": "2026-08-02T12:16:00+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Empresa de avioneta que cayó en Nasca podría seguir operando “mientras no exista un informe”, según ministro",
-    "url": "https://www.infobae.com/peru/2026/08/02/empresa-de-avioneta-que-cayo-en-nasca-podria-seguir-operando-mientras-no-exista-un-informe-segun-ministro/",
-    "source": "Infobae",
-    "published": "2026-08-02T18:17:43+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Piloto de avioneta que cayó en Nasca y dejó 13 muertos habría reportado una falla en pleno vuelo, revela titular de Mincetur",
-    "url": "https://www.infobae.com/peru/2026/08/02/piloto-de-avioneta-que-cayo-en-nasca-y-dejo-13-muertos-reporto-una-falla-en-pleno-vuelo-revela-titular-de-mincetur/",
-    "source": "Infobae",
-    "published": "2026-08-02T16:42:26+00:00",
-    "matched_in": "title"
    }
   ]
  }
