@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.3](https://github.com/DianCotrina/keikogobierna/compare/v2.8.2...v2.8.3) (2026-08-03)
+
+
+### Bug Fixes
+
+* mobile navigation was unreachable below md ([c012ce2](https://github.com/DianCotrina/keikogobierna/commit/c012ce23e7f876b3626e4bdafcaddc1e6d35754c))
+
 ## [2.8.2](https://github.com/DianCotrina/keikogobierna/compare/v2.8.1...v2.8.2) (2026-08-02)
 
 
