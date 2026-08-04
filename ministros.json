@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T18:51:23+00:00",
+ "generated": "2026-08-04T00:09:52+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori estima que “la próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
+    "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-03T22:25:16+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Canciller Carlos Espá confía en que el Congreso aprobará delegación de facultades al Ejecutivo: “van a reflexionar y poner al Perú por delante”",
     "url": "https://elcomercio.pe/politica/congreso/canciller-carlos-espa-confia-en-que-el-congreso-aprobara-delegacion-de-facultades-al-ejecutivo-van-a-reflexionar-y-poner-al-peru-por-delante-ultimas-noticia/",
@@ -23,36 +30,22 @@
     "source": "El Comercio",
     "published": "2026-08-03T16:20:58+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Callao: canciller y ministros brinda declaraciones tras recibir a peruanos repatriados desde Venezuela",
-    "url": "https://rpp.pe/videos/ampliacion-de-noticias/callao-canciller-y-ministros-brinda-declaraciones-tras-recibir-a-peruanos-repatriados-desde-venezuela-noticia-1699906",
-    "source": "RPP",
-    "published": "2026-08-03T10:19:51-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Canciller y ministro de Defensa afirman que continuarán expulsiones de delincuentes extranjeros: “Es el inicio de una mano firme”",
-    "url": "https://rpp.pe/politica/gobierno/canciller-y-ministro-de-defensa-afirman-que-continuaran-expulsiones-de-delincuentes-extranjeros-es-el-inicio-de-una-mano-firme-noticia-1699899",
-    "source": "RPP",
-    "published": "2026-08-03T10:11:48-05:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "¿Seguirá censurando el Ministerio de Cultura con Alberto Beingolea a cargo?",
+    "url": "https://larepublica.pe/cultural/2026/07/28/seguira-censurando-el-ministerio-de-cultura-con-alberto-beingolea-a-cargo-hnews-576016",
+    "source": "La República",
+    "published": "2026-08-03T20:04:07+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Suspenden sesión del Consejo de Ministros que debía evaluar pedido de facultades al Legislativo",
     "url": "https://larepublica.pe/politica/2026/08/02/suspenden-sesion-del-consejo-de-ministros-que-debia-evaluar-pedido-de-facultades-al-legislativo-hnews-92560",
     "source": "La República",
     "published": "2026-08-03T01:19:19+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "¿Seguirá censurando el Ministerio de Cultura con Alberto Beingolea a cargo?",
-    "url": "https://larepublica.pe/cultural/2026/07/28/seguira-censurando-el-ministerio-de-cultura-con-alberto-beingolea-a-cargo-hnews-576016",
-    "source": "La República",
-    "published": "2026-08-02T22:58:34+00:00",
-    "matched_in": "title"
    },
    {
     "title": "Sesión de Consejo de Ministros de este domingo para evaluar pedido de facultades se postergó, según ministro Alberto Beingolea",
@@ -69,6 +62,29 @@
     "matched_in": "title"
    }
   ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Mincetur solicitará que pedido de facultades legislativas incluya medida para prohibir el trabajo forzoso",
+    "url": "https://elcomercio.pe/economia/peru/mincetur-sobre-nuevos-aranceles-de-donald-trump-se-esta-pidiendo-incluir-una-norma-que-prohiba-la-compra-de-productos-de-trabajo-forzoso-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-03T23:36:29+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Consejo de Ministros se reunirá el miércoles 5 para abordar las facultades legislativas",
+    "url": "https://larepublica.pe/politica/2026/08/03/consejo-de-ministros-se-reunira-el-miercoles-5-para-abordar-las-facultades-legislativas-hnews-52875",
+    "source": "La República",
+    "published": "2026-08-03T19:53:02+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Rogers Valencia afirma que investigación sobre el accidente aéreo en Nasca podría tomar hasta un mes",
+    "url": "https://www.infobae.com/peru/2026/08/03/ministro-valencia-afirma-que-investigacion-sobre-el-accidente-aereo-en-nasca-podria-tomar-hasta-un-mes/",
+    "source": "Infobae",
+    "published": "2026-08-03T18:34:54+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Unidad de Investigación: Hallan más de siete millones de jeringas y medicamentos vencidos en Cenares del Minsa",
@@ -76,54 +92,6 @@
     "source": "El Comercio",
     "published": "2026-08-03T11:42:07+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Alfonso López Chau sobre designaciones en sector salud: \"Necesitamos autoridades por mérito, no por padrinazgos\"",
-    "url": "https://larepublica.pe/politica/2026/08/01/alfonso-lopez-chau-sobre-designaciones-en-sector-salud-necesitamos-autoridades-por-merito-no-por-padrinazgos-hnews-79952",
-    "source": "La República",
-    "published": "2026-08-01T22:29:07+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Ministro Rogers Valencia afirma que investigación sobre el accidente aéreo en Nasca podría tomar hasta un mes",
-    "url": "https://www.infobae.com/peru/2026/08/03/ministro-valencia-afirma-que-investigacion-sobre-el-accidente-aereo-en-nasca-podria-tomar-hasta-un-mes/",
-    "source": "Infobae",
-    "published": "2026-08-03T18:34:54+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Perú busca blindarse de nuevos aranceles de EE.UU.: las medidas que prepara el Gobierno en su pedido de facultades",
-    "url": "https://rpp.pe/economia/economia/aranceles-de-trump-a-peru-las-medidas-que-prepara-gobierno-de-keiko-fujimori-para-blindarlos-en-pedido-de-facultades-noticia-1699921",
-    "source": "RPP",
-    "published": "2026-08-03T12:01:13-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Rogers Valencia sobre tragedia en Nasca: \"Se necesita casi un mes de primeros niveles de investigación\"",
-    "url": "https://rpp.pe/politica/gobierno/ministro-rogers-valencia-sobre-tragedia-en-nasca-se-necesita-casi-un-mes-de-primeros-niveles-de-investigacion-noticia-1699902",
-    "source": "RPP",
-    "published": "2026-08-03T10:27:56-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Callao: canciller y ministros brinda declaraciones tras recibir a peruanos repatriados desde Venezuela",
-    "url": "https://rpp.pe/videos/ampliacion-de-noticias/callao-canciller-y-ministros-brinda-declaraciones-tras-recibir-a-peruanos-repatriados-desde-venezuela-noticia-1699906",
-    "source": "RPP",
-    "published": "2026-08-03T10:19:51-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Canciller y ministro de Defensa afirman que continuarán expulsiones de delincuentes extranjeros: “Es el inicio de una mano firme”",
-    "url": "https://rpp.pe/politica/gobierno/canciller-y-ministro-de-defensa-afirman-que-continuaran-expulsiones-de-delincuentes-extranjeros-es-el-inicio-de-una-mano-firme-noticia-1699899",
-    "source": "RPP",
-    "published": "2026-08-03T10:11:48-05:00",
-    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
