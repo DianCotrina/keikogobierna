@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T13:03:09+00:00",
+ "generated": "2026-08-04T18:27:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
     "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-04T12:20:49+00:00",
+    "published": "2026-08-04T15:41:28+00:00",
     "matched_in": "summary"
    },
    {
@@ -40,6 +40,13 @@
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Sueldo mínimo subiría a S/1.300 “lo más rápido posible”: Ministro de Trabajo da los plazos",
+    "url": "https://www.infobae.com/peru/2026/08/04/sueldo-minimo-subiria-a-s1300-lo-mas-rapido-posible-ministro-de-trabajo-da-los-plazos/",
+    "source": "Infobae",
+    "published": "2026-08-04T14:51:12+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Juan Sheput a favor de otorgar prisión domiciliaria a Alejandro Toledo “si la ley lo permite”",
     "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
@@ -78,12 +85,19 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ministro Rafael Rey sobre accidente de avioneta en Nasca: “No tenemos mayor información, las grabaciones van a decirnos (qué ocurrió)”",
-    "url": "https://elcomercio.pe/peru/ministro-rafael-rey-sobre-accidente-de-avioneta-en-nasca-no-tenemos-mayor-informacion-las-grabaciones-van-a-decirnos-que-ocurrio-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-02T19:35:13+00:00",
+    "title": "César Astudillo asegura que su investigación por presunta apropiación de combustible fue archivada",
+    "url": "https://larepublica.pe/politica/2026/08/04/cesar-astudillo-asegura-que-su-investigacion-por-presunta-apropiacion-de-combustible-fue-archivada-hnews-65880",
+    "source": "La República",
+    "published": "2026-08-04T16:23:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Astudillo promete cautelar el presupuesto de la PNP y buen uso de los recursos",
+    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-promete-cautelar-el-presupuesto-de-la-pnp-y-asegurar-el-buen-uso-de-los-recursos-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-30T23:47:40+00:00",
     "matched_in": "title"
    }
   ],
@@ -96,13 +110,43 @@
     "matched_in": "summary"
    }
   ],
+  "maria-magdalena-seminario-maron": [
+   {
+    "title": "Ministra de la Mujer dice que su sector está dando apoyo psicológico y legal a denunciante de diputado Julián Pérez",
+    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-dice-que-su-sector-esta-dando-apoyo-psicologico-y-legal-a-denunciante-de-diputado-julian-perez-noticia-1700069",
+    "source": "RPP",
+    "published": "2026-08-04T12:51:41-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministra de la Mujer niega que el Ejecutivo esté preparando reducción de ministerios: \"No se ha hablado de eso\"",
+    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-niega-que-el-ejecutivo-este-preparando-reduccion-de-ministerios-no-se-ha-hablado-de-eso-noticia-1700060",
+    "source": "RPP",
+    "published": "2026-08-04T11:48:50-05:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-williams-dyer-fernandez": [
    {
     "title": "Fiorella Molinelli sobre Luis Dyer como ministro de Salud: \"Le voy a dar el beneficio de la duda\"",
     "url": "https://rpp.pe/politica/gobierno/luis-dyer-fiorella-molinelli-senala-que-le-dara-el-beneficio-de-la-duda-como-nuevo-ministro-de-salud-noticia-1700006",
     "source": "RPP",
-    "published": "2026-08-03T23:50:14-05:00",
+    "published": "2026-08-04T11:00:14-05:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Nuevo ministro de Salud inspecciona el Minsa y encuentra médicos en oficinas, reclamos y montañas de expedientes sin digitalizar",
+    "url": "https://www.infobae.com/peru/2026/08/04/nuevo-ministro-de-salud-inspecciona-el-minsa-y-encuentra-medicos-en-oficinas-reclamos-y-montanas-de-expedientes-sin-digitalizar/",
+    "source": "Infobae",
+    "published": "2026-08-04T15:32:19+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Colegio Médico del Perú presentó propuesta de cinco ejes prioritarios para atender en el sector Salud: ¿cuáles son?",
+    "url": "https://rpp.pe/politica/gobierno/colegio-medico-del-peru-presento-propuesta-de-cinco-ejes-prioritarios-para-atender-en-el-sector-salud-cuales-son-noticia-1700043",
+    "source": "RPP",
+    "published": "2026-08-04T10:31:19-05:00",
+    "matched_in": "summary"
    },
    {
     "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
@@ -113,6 +157,13 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF completa su plana mayor: así queda conformado el equipo que conducirá la política económica y el presupuesto 2027",
+    "url": "https://rpp.pe/economia/economia/mef-completa-su-plana-mayor-asi-queda-conformado-el-equipo-que-conducira-la-politica-economica-y-el-presupuesto-2027-noticia-1700035",
+    "source": "RPP",
+    "published": "2026-08-04T09:45:40-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "MEF renueva sus viceministerios tras renuncias: Erick Lahura y Fabrizio Orrego asumen Hacienda y Economía",
     "url": "https://www.infobae.com/peru/2026/08/04/mef-renueva-sus-viceministerios-tras-renuncias-erick-lahura-y-fabrizio-orrego-asumen-hacienda-y-economia/",
@@ -141,15 +192,6 @@
     "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
     "source": "Gestión",
     "published": "2026-07-31T12:15:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro Astudillo promete cautelar el presupuesto de la PNP y buen uso de los recursos",
-    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-promete-cautelar-el-presupuesto-de-la-pnp-y-asegurar-el-buen-uso-de-los-recursos-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-30T23:47:40+00:00",
     "matched_in": "title"
    }
   ]
