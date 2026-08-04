@@ -1,0 +1,27 @@
+---
+import pkg from '../../../package.json';
+import './search.css';
+
+// The button that opens the buscador. Lives in the header; the dialog it opens
+// is SearchOverlay, rendered outside the header — see the note there.
+//
+// The trigger starts hidden and the client script reveals it: nothing here
+// works without JavaScript, and a dead button is worse than no button.
+---
+
+<button
+  id="search-trigger"
+  type="button"
+  class="search-trigger"
+  aria-haspopup="dialog"
+  aria-expanded="false"
+  data-version={pkg.version}
+  hidden
+>
+  <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="h-4 w-4 shrink-0">
+    <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8" />
+    <path d="M12.8 12.8 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+  </svg>
+  <span>Buscar</span>
+  <kbd class="search-kbd" aria-hidden="true">/</kbd>
+</button>
