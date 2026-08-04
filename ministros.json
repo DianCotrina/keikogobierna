@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T00:09:52+00:00",
+ "generated": "2026-08-04T07:40:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,28 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput a favor de otorgar prisión domiciliaria a Alejandro Toledo “si la ley lo permite”",
+    "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-04T03:56:54+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Keiko Fujimori estima que “la próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
+    "title": "Canciller Carlos Espá confía en que el Congreso otorgará facultades al Ejecutivo",
+    "url": "https://larepublica.pe/politica/2026/08/03/canciller-carlos-espa-confia-en-que-el-congreso-otorgara-facultades-al-ejecutivo-hnews-59523",
+    "source": "La República",
+    "published": "2026-08-04T04:08:34+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
     "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-03T22:25:16+00:00",
+    "published": "2026-08-04T01:14:38+00:00",
     "matched_in": "summary"
    },
    {
@@ -37,7 +53,14 @@
     "title": "¿Seguirá censurando el Ministerio de Cultura con Alberto Beingolea a cargo?",
     "url": "https://larepublica.pe/cultural/2026/07/28/seguira-censurando-el-ministerio-de-cultura-con-alberto-beingolea-a-cargo-hnews-576016",
     "source": "La República",
-    "published": "2026-08-03T20:04:07+00:00",
+    "published": "2026-08-04T02:02:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Asociación de Bibliotecólogos del Perú pide a Alberto Beingolea evitar \"improvisaciones\" en la jefatura de la BNP",
+    "url": "https://larepublica.pe/politica/2026/08/03/asociacion-de-bibliotecologos-del-peru-pide-a-alberto-beingolea-evitar-improvisaciones-en-la-jefatura-de-la-bnp-hnews-52293",
+    "source": "La República",
+    "published": "2026-08-04T01:34:21+00:00",
     "matched_in": "title"
    },
    {
@@ -53,28 +76,23 @@
     "source": "El Comercio",
     "published": "2026-08-02T22:12:34+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rafael-rey-rey": [
    {
-    "title": "Beingolea señala que pedido de facultades legislativas aún “se afina” y descarta cierre del LUM",
-    "url": "https://gestion.pe/peru/beingolea-senala-que-pedido-de-facultades-legislativas-aun-se-afina-y-descarta-cierre-del-lum-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-02T20:15:24+00:00",
+    "title": "Ministro Rafael Rey sobre accidente de avioneta en Nasca: “No tenemos mayor información, las grabaciones van a decirnos (qué ocurrió)”",
+    "url": "https://elcomercio.pe/peru/ministro-rafael-rey-sobre-accidente-de-avioneta-en-nasca-no-tenemos-mayor-informacion-las-grabaciones-van-a-decirnos-que-ocurrio-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-02T19:35:13+00:00",
     "matched_in": "title"
    }
   ],
   "rogers-martin-valencia-espinoza": [
    {
-    "title": "Mincetur solicitará que pedido de facultades legislativas incluya medida para prohibir el trabajo forzoso",
-    "url": "https://elcomercio.pe/economia/peru/mincetur-sobre-nuevos-aranceles-de-donald-trump-se-esta-pidiendo-incluir-una-norma-que-prohiba-la-compra-de-productos-de-trabajo-forzoso-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-03T23:36:29+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Consejo de Ministros se reunirá el miércoles 5 para abordar las facultades legislativas",
     "url": "https://larepublica.pe/politica/2026/08/03/consejo-de-ministros-se-reunira-el-miercoles-5-para-abordar-las-facultades-legislativas-hnews-52875",
     "source": "La República",
-    "published": "2026-08-03T19:53:02+00:00",
+    "published": "2026-08-04T04:03:02+00:00",
     "matched_in": "summary"
    },
    {
@@ -85,22 +103,54 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Unidad de Investigación: Hallan más de siete millones de jeringas y medicamentos vencidos en Cenares del Minsa",
-    "url": "https://elcomercio.pe/lima/hallan-mas-de-7-millones-de-jeringas-y-medicamentos-vencidos-en-cenares-del-minsa-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-03T11:42:07+00:00",
-    "matched_in": "summary"
+    "title": "Fiorella Molinelli sobre Luis Dyer como ministro de Salud: \"Le voy a dar el beneficio de la duda\"",
+    "url": "https://rpp.pe/politica/gobierno/luis-dyer-fiorella-molinelli-senala-que-le-dara-el-beneficio-de-la-duda-como-nuevo-ministro-de-salud-noticia-1700006",
+    "source": "RPP",
+    "published": "2026-08-03T23:50:14-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
+    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-31T00:14:45+00:00",
+    "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Consejo de Ministros sesionará este domingo: los temas",
-    "url": "https://gestion.pe/peru/politica/consejo-de-ministros-del-gobierno-de-keiko-fujimori-sesionara-este-domingo-los-temas-noticia/",
+    "title": "Elmer Cuba: lo que recomendaba el nuevo ministro antes de ser titular del MEF",
+    "url": "https://gestion.pe/economia/elmer-cuba-lo-que-recomendaba-el-nuevo-ministro-del-gobierno-de-keiko-fujimori-antes-de-ser-titular-del-mef-noticia/",
     "source": "Gestión",
-    "published": "2026-08-02T12:16:00+00:00",
-    "matched_in": "summary"
+    "published": "2026-07-31T17:17:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Petroperú: grupo de trabajadores solicita al MEF revisar intervención de ProInversión",
+    "url": "https://gestion.pe/peru/sindicato-de-petroperu-pide-al-gobierno-de-fujimori-revisar-la-intervencion-de-proinversion-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-31T03:36:22+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Vinelli: Se está ajustando proyecto de delegación de facultades legislativas",
+    "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-31T12:15:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro Astudillo promete cautelar el presupuesto de la PNP y buen uso de los recursos",
+    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-promete-cautelar-el-presupuesto-de-la-pnp-y-asegurar-el-buen-uso-de-los-recursos-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-30T23:47:40+00:00",
+    "matched_in": "title"
    }
   ]
  }
