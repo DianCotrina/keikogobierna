@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.4](https://github.com/DianCotrina/keikogobierna/compare/v2.8.3...v2.8.4) (2026-08-04)
+
+
+### Bug Fixes
+
+* the search overlay was clipped to the header on mobile ([02a51ac](https://github.com/DianCotrina/keikogobierna/commit/02a51ac8425919a75389f9e53dbb69dc119c656b))
+
 ## [2.8.3](https://github.com/DianCotrina/keikogobierna/compare/v2.8.2...v2.8.3) (2026-08-03)
 
 
