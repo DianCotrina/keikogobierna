@@ -1,7 +1,8 @@
 ---
 import '../styles/global.css';
 import Donate from '../components/Donate/Donate.astro';
-import Search from '../components/Search/Search.astro';
+import SearchTrigger from '../components/Search/SearchTrigger.astro';
+import SearchOverlay from '../components/Search/SearchOverlay.astro';
 import MobileNav from '../components/MobileNav/MobileNav.astro';
 import pkg from '../../package.json';
 
@@ -70,11 +71,15 @@ const navLinks = [
           ))}
         </nav>
         <div class="flex items-center gap-2">
-          <Search />
+          <SearchTrigger />
           <MobileNav links={navLinks} activeNav={activeNav} />
         </div>
       </div>
     </header>
+
+    <!-- Outside the header on purpose: the header's mobile backdrop-blur would
+         become the containing block for the overlay's `position: fixed`. -->
+    <SearchOverlay />
 
     <slot />
 

@@ -1,30 +1,14 @@
 ---
-import pkg from '../../../package.json';
 import './search.css';
 
-// Trigger + overlay, rendered once in Base.astro so the buscador is reachable
-// from every page.
+// The buscador dialog, opened by SearchTrigger.
 //
-// The trigger starts hidden and the client script reveals it: nothing here
-// works without JavaScript, and a dead button is worse than no button.
+// This must be rendered OUTSIDE the header. Below md the header carries
+// backdrop-blur, and a backdrop-filter makes an element the containing block
+// for its fixed-position descendants — `position: fixed; inset: 0` in here
+// would then resolve to the header's 70px-tall box instead of the viewport,
+// clipping the results away on mobile. Keep it a sibling of the header.
 ---
-
-<button
-  id="search-trigger"
-  type="button"
-  class="search-trigger"
-  aria-haspopup="dialog"
-  aria-expanded="false"
-  data-version={pkg.version}
-  hidden
->
-  <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="h-4 w-4 shrink-0">
-    <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8" />
-    <path d="M12.8 12.8 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
-  </svg>
-  <span>Buscar</span>
-  <kbd class="search-kbd" aria-hidden="true">/</kbd>
-</button>
 
 <div id="search-overlay" class="search-overlay" hidden>
   <div class="search-backdrop" data-search-close aria-hidden="true"></div>
