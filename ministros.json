@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T07:40:22+00:00",
+ "generated": "2026-08-04T13:03:09+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,29 +9,20 @@
   "Infobae"
  ],
  "ministers": {
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput a favor de otorgar prisión domiciliaria a Alejandro Toledo “si la ley lo permite”",
-    "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-04T03:56:54+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
+    "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-04T12:20:49+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Canciller Carlos Espá confía en que el Congreso otorgará facultades al Ejecutivo",
     "url": "https://larepublica.pe/politica/2026/08/03/canciller-carlos-espa-confia-en-que-el-congreso-otorgara-facultades-al-ejecutivo-hnews-59523",
     "source": "La República",
     "published": "2026-08-04T04:08:34+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
-    "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-04T01:14:38+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Canciller Carlos Espá confía en que el Congreso aprobará delegación de facultades al Ejecutivo: “van a reflexionar y poner al Perú por delante”",
@@ -45,6 +36,15 @@
     "url": "https://elcomercio.pe/politica/carlos-espa-ratifica-que-el-peru-buscara-incorporarse-al-escudo-de-las-americas-para-combatir-el-crimen-organizado-los-detalles-de-su-primer-discurso-como-canciller-noticia/",
     "source": "El Comercio",
     "published": "2026-08-03T16:20:58+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput a favor de otorgar prisión domiciliaria a Alejandro Toledo “si la ley lo permite”",
+    "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-04T03:56:54+00:00",
     "matched_in": "title"
    }
   ],
@@ -94,13 +94,6 @@
     "source": "La República",
     "published": "2026-08-04T04:03:02+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Rogers Valencia afirma que investigación sobre el accidente aéreo en Nasca podría tomar hasta un mes",
-    "url": "https://www.infobae.com/peru/2026/08/03/ministro-valencia-afirma-que-investigacion-sobre-el-accidente-aereo-en-nasca-podria-tomar-hasta-un-mes/",
-    "source": "Infobae",
-    "published": "2026-08-03T18:34:54+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -120,6 +113,13 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF renueva sus viceministerios tras renuncias: Erick Lahura y Fabrizio Orrego asumen Hacienda y Economía",
+    "url": "https://www.infobae.com/peru/2026/08/04/mef-renueva-sus-viceministerios-tras-renuncias-erick-lahura-y-fabrizio-orrego-asumen-hacienda-y-economia/",
+    "source": "Infobae",
+    "published": "2026-08-04T12:51:56+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Elmer Cuba: lo que recomendaba el nuevo ministro antes de ser titular del MEF",
     "url": "https://gestion.pe/economia/elmer-cuba-lo-que-recomendaba-el-nuevo-ministro-del-gobierno-de-keiko-fujimori-antes-de-ser-titular-del-mef-noticia/",
