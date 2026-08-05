@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T12:53:23+00:00",
+ "generated": "2026-08-05T18:22:13+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori recibirá al papa León XIV en Palacio de Gobierno, según canciller Carlos Espá",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-recibira-al-papa-leon-xiv-en-palacio-de-gobierno-segun-canciller-carlos-espa-noticia-1700216",
+    "source": "RPP",
+    "published": "2026-08-05T12:39:01-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Papa León XIV en Perú: canciller Carlos Espá confirma encuentro del Sumo Pontífice con Keiko Fujimori",
+    "url": "https://elcomercio.pe/lima/sucesos/papa-leon-xiv-en-peru-canciller-carlos-espa-confirma-encuentro-con-keiko-fujimori-y-otros-puntos-de-su-agenda-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-05T17:07:20+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
     "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
@@ -23,35 +37,30 @@
     "source": "La República",
     "published": "2026-08-04T04:08:34+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Canciller Carlos Espá confía en que el Congreso aprobará delegación de facultades al Ejecutivo: “van a reflexionar y poner al Perú por delante”",
-    "url": "https://elcomercio.pe/politica/congreso/canciller-carlos-espa-confia-en-que-el-congreso-aprobara-delegacion-de-facultades-al-ejecutivo-van-a-reflexionar-y-poner-al-peru-por-delante-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-03T17:57:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Perú buscará incorporarse al Escudo de las Américas para combatir crimen organizado: los anuncios del canciller Carlos Espá",
-    "url": "https://elcomercio.pe/politica/carlos-espa-ratifica-que-el-peru-buscara-incorporarse-al-escudo-de-las-americas-para-combatir-el-crimen-organizado-los-detalles-de-su-primer-discurso-como-canciller-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-03T16:20:58+00:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Sueldo mínimo subiría a S/1.300 “lo más rápido posible”: Ministro de Trabajo revela los plazos",
-    "url": "https://www.infobae.com/peru/2026/08/04/sueldo-minimo-subiria-a-s1300-lo-mas-rapido-posible-ministro-de-trabajo-da-los-plazos/",
-    "source": "Infobae",
-    "published": "2026-08-05T11:39:19+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro Juan Sheput a favor de otorgar prisión domiciliaria a Alejandro Toledo “si la ley lo permite”",
     "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-04T03:56:54+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Unidad de Investigación: Hallan más de siete millones de jeringas y medicamentos vencidos en Cenares del Minsa",
+    "url": "https://elcomercio.pe/lima/hallan-mas-de-7-millones-de-jeringas-y-medicamentos-vencidos-en-cenares-del-minsa-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-05T17:29:31+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Vinelli: Se está ajustando proyecto de delegación de facultades legislativas",
+    "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-31T12:15:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -96,30 +105,14 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "¿Cuáles debe ser las prioridades del ministro de Salud, Luis Dyer? Esto dijo el decano del Colegio Médico del Perú",
-    "url": "https://rpp.pe/videos/ampliacion-de-noticias/cuales-debe-ser-las-prioridades-del-ministro-de-salud-luis-dyer-esto-dijo-el-decano-del-colegio-medico-del-peru-noticia-1700170",
-    "source": "RPP",
-    "published": "2026-08-05T05:30:16-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Colegio Médico del Perú presentó propuesta de cinco ejes prioritarios para atender en el sector Salud: ¿cuáles son?",
-    "url": "https://rpp.pe/politica/gobierno/colegio-medico-del-peru-presento-propuesta-de-cinco-ejes-prioritarios-para-atender-en-el-sector-salud-cuales-son-noticia-1700043",
-    "source": "RPP",
-    "published": "2026-08-04T10:31:19-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
-    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-31T00:14:45+00:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF completa su plana mayor: así queda conformado el equipo que conducirá la política económica y el presupuesto 2027",
+    "url": "https://rpp.pe/economia/economia/mef-completa-su-plana-mayor-asi-queda-conformado-el-equipo-que-conducira-la-politica-economica-y-el-presupuesto-2027-noticia-1700035",
+    "source": "RPP",
+    "published": "2026-08-04T09:45:40-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Elmer Cuba: lo que recomendaba el nuevo ministro antes de ser titular del MEF",
     "url": "https://gestion.pe/economia/elmer-cuba-lo-que-recomendaba-el-nuevo-ministro-del-gobierno-de-keiko-fujimori-antes-de-ser-titular-del-mef-noticia/",
@@ -135,12 +128,12 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Ministro Vinelli: Se está ajustando proyecto de delegación de facultades legislativas",
-    "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
+    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
+    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
     "source": "Gestión",
-    "published": "2026-07-31T12:15:00+00:00",
+    "published": "2026-07-31T00:14:45+00:00",
     "matched_in": "title"
    }
   ]

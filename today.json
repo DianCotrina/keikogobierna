@@ -1,109 +1,55 @@
 {
- "generated": "2026-08-05T00:04:04+00:00",
+ "generated": "2026-08-05T18:22:13+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-08-04",
+ "date": "2026-08-05",
  "articles": [
   {
-   "title": "Janet Tello: “Si se llegara a destituir a un juez porque una autoridad discrepa (...) se eliminaría por completo la independencia judicial”",
-   "url": "https://elcomercio.pe/politica/actualidad/janet-tello-si-se-llegara-a-destituir-a-un-juez-porque-una-autoridad-discrepa-se-eliminaria-por-completo-la-independencia-judicial-poder-judicial-ultimas-noticia/",
-   "summary": "La presidenta del Poder Judicial, Janet Tello, defendió la autonomía de los magistrados por el Día del Juez en el Palacio de Justicia en una ceremonia que contó con la participación de Keiko Fujimori. Ahí, la magistrada advirtió que las presiones externas vulneran el sistema democrático y el acceso a una justicia imparcial.",
-   "author": "Redacción EC",
-   "published": "2026-08-04T21:22:39+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-05T00:04:04+00:00"
-  },
-  {
-   "title": "Keiko Fujimori en ceremonia en Palacio de Justicia: “Declaro el absoluto respeto de mi gobierno a la separación de poderes, la independencia del PJ y el Estado de derecho”",
-   "url": "https://elcomercio.pe/politica/justicia/keiko-fujimori-en-ceremonia-en-palacio-de-justicia-declaro-el-absoluto-respeto-de-mi-gobierno-a-la-separacion-de-poderes-la-independencia-del-pj-y-el-estado-de-derecho-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori, reafirmó este martes el compromiso de su gobierno con la independencia del Poder Judicial y el respeto a la institucionalidad democrática durante su participación en la ceremonia por el Día del Juez y la Jueza, realizada en el Palacio de Justicia.",
-   "author": "Redacción EC",
-   "published": "2026-08-04T19:23:30+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-05T00:04:04+00:00"
-  },
-  {
-   "title": "La Victoria: Madre de campeón de bádminton asesinado pide ayuda a presidenta Fujimori",
-   "url": "https://elcomercio.pe/lima/asesinato-de-brian-roque-en-la-victoria-madre-reclama-mayor-celeridad-en-la-investigacion-y-pide-ayuda-a-presidenta-keiko-fujimori-ultimas-noticia/",
-   "summary": "La madre del deportista Brian Roque pidió ayuda a Keiko Fujimori para agilizar la revisión de cámaras de seguridad y esclarecer el asesinato ocurrido en La Victoria.",
-   "author": "Redacción EC",
-   "published": "2026-08-04T17:45:10+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-04T18:27:56+00:00"
-  },
-  {
-   "title": "Aumento de la Pensión 65: ¿quiénes serán los beneficiarios del nuevo monto anunciado por Keiko Fujimori?",
-   "url": "https://elcomercio.pe/respuestas/quien/aumento-de-pension-65-quienes-accederan-a-los-s-700-y-cuando-estara-disponible-tdpe-noticia/",
-   "summary": "El programa Pensión 65 incrementará el subsidio económico a S/ 700 en 2026. Conoce quiénes podrán acceder al nuevo monto, los requisitos y más detalles.",
-   "author": "Paolo Valdivia",
-   "published": "2026-08-04T15:51:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-04T18:27:56+00:00"
-  },
-  {
-   "title": "Gobierno de Keiko Fujimori nombra como viceministros a exfuncionarios de la gestión de Dina Boluarte",
-   "url": "https://larepublica.pe/politica/2026/08/04/gobierno-de-keiko-fujimori-nombra-como-viceministros-a-exfuncionarios-de-la-gestion-de-dina-boluarte-hnews-331496",
-   "summary": "Los nombramientos fueron oficializados mediante resoluciones publicadas este martes en el Diario Oficial El Peruano, como parte de la conformación del nuevo Ejecutivo.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-08-04T15:27:22+00:00",
-   "source": "La República",
-   "captured": "2026-08-04T18:27:56+00:00"
-  },
-  {
-   "title": "MINJUS: Nombran viceministro a Juan Falconi, exabogado de Fuerza Popular que respaldó el indulto a Alberto Fujimori",
-   "url": "https://larepublica.pe/politica/2026/08/04/minjus-nombran-viceministro-a-juan-falconi-exabogado-de-fuerza-popular-que-respaldo-el-indulto-a-alberto-fujimori-hnews-326872",
-   "summary": "Juan Falconi Gálvez asumió la defensa de Fuerza Popular ante el JNE en 2016 y presidió la Comisión de Gracias Presidenciales que recomendó el indulto a Alberto Fujimori en 2017.",
+   "title": "Ollanta Humala compara su caso de lavado de activos con Keiko Fujimori: \"Nosotros no recibimos, ella sí recibió\"",
+   "url": "https://larepublica.pe/politica/2026/08/05/ollanta-humala-compara-su-caso-de-lavado-de-activos-con-keiko-fujimori-nosotros-no-recibimos-ella-si-recibio-hnews-473515",
+   "summary": "Al comparar la decisión judicial sobre la casación de Keiko Fujimori, el expresidente indicó que su partido no recibió fondos irregulares y cuestionó la falta de imparcialidad en el tratamiento de ambos procesos.",
    "author": "Jazmín Bianchi",
-   "published": "2026-08-04T14:46:20+00:00",
+   "published": "2026-08-05T18:02:33+00:00",
    "source": "La República",
-   "captured": "2026-08-04T18:27:56+00:00"
+   "captured": "2026-08-05T18:22:13+00:00"
   },
   {
-   "title": "Diputado de Fuerza Popular bajo sospecha en el caso del crimen del periodista Gastón Medina",
-   "url": "https://larepublica.pe/politica/2026/08/04/diputado-de-fuerza-popular-bajo-sospecha-en-el-caso-del-crimen-del-periodista-gaston-medina-hnews-98049",
-   "summary": "El legislador fujimorista por Ica, Carlos Zegarra Sánchez, es mencionado en la carpeta fiscal sobre el asesinato de Gastón Medina. Aunque este afirma que nunca ha sido citado por las autoridades para declarar sobre el homicidio, lo cierto es que Medina investigaba los casos de corrupción del gobernador regional de Ica, para quien Zegarra trabajaba como asesor.",
-   "author": "Adrián Sarria Muñoz",
-   "published": "2026-08-04T14:12:10+00:00",
-   "source": "La República",
-   "captured": "2026-08-04T18:27:56+00:00"
-  },
-  {
-   "title": "Gobierno designa a Juan Falconi Gálvez como nuevo viceministro de Justicia",
-   "url": "https://elcomercio.pe/politica/gobierno/gobierno-designa-a-juan-falconi-galvez-como-nuevo-viceministro-de-justicia-ministerio-de-justicia-y-derechos-humanos-ultimas-noticia/",
-   "summary": "El Ejecutivo designó este martes a Juan Teodoro Falconi Gálvez como nuevo viceministro de Justicia en el Ministerio de Justicia y Derechos Humanos, cargo que ya había ocupado a finales del 2017 durante el gobierno e Pedro Pablo Kuczysnki y al que vuelve ahora con Keiko Fujimori como presidenta.",
+   "title": "Miguel Torres sobre designación de exdirigente del Movadef en Ética: “Quizás deberían hacer una reevaluación”",
+   "url": "https://elcomercio.pe/politica/congreso/miguel-torres-sobre-designacion-de-diputado-de-juntos-por-el-peru-y-exdirigente-del-movadef-en-etica-quizas-deberian-hacer-una-reevaluacion-cesar-tito-rojas-ultimas-noticia/",
+   "summary": "El presidente del Senado, Miguel Torres (Fuerza Popular), consideró que la bancada Juntos por el Perú (JP) debería hacer una “reevaluación” en la designación del diputado César Tito Rojas (Juntos por el Perú), exdirigente del Movadef, como integrante de la Comisión de Ética.",
    "author": "Redacción EC",
-   "published": "2026-08-04T13:44:52+00:00",
+   "published": "2026-08-05T17:33:44+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-04T18:27:56+00:00"
+   "captured": "2026-08-05T18:22:13+00:00"
   },
   {
-   "title": "¿Keiko en el espejo de Kast? ¿Un gobierno sin relato?",
-   "url": "https://elcomercio.pe/opinion/columnistas/keiko-en-el-espejo-de-kast-un-gobierno-sin-relato-noticia/",
-   "summary": "",
-   "author": "Iván Arenas",
-   "published": "2026-08-04T10:33:00+00:00",
+   "title": "Keiko Fujimori sobre visita del papa León XIV al Perú: “Será un momento de encuentro para nuestra fe y un mensaje de esperanza”",
+   "url": "https://elcomercio.pe/lima/sucesos/keiko-fujimori-sobre-visita-del-papa-leon-xiv-al-peru-sera-un-momento-de-encuentro-para-nuestra-fe-y-un-mensaje-de-esperanza-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori consideró que la próxima visita del papa León XIV al Perú en noviembre de este año “será un momento de encuentro para nuestra fe y un mensaje de esperanza”.",
+   "author": "Redacción EC",
+   "published": "2026-08-05T17:25:55+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-04T13:03:09+00:00"
+   "captured": "2026-08-05T18:22:13+00:00"
   },
   {
-   "title": "Cumplir para confiar",
-   "url": "https://elcomercio.pe/opinion/columnistas/cumplir-para-confiar-por-janice-seinfeld-estado-peruano-gestion-publica-servicios-basicos-gobierno-de-keiko-fujimori-noticia/",
-   "summary": "La presidenta Keiko Fujimori ha iniciado su gobierno con una tarea especialmente difícil: recuperar la confianza de los ciudadanos en el Estado. Es comprensible que, para lograrlo, se apueste por nombramientos de su entorno y se necesiten mensajes claros y decisiones rápidas. Todo ello, si se hace bien, importa, pero no basta. La confianza aumenta cuando el Estado cumple. Y cumplir demanda, además de autoridades competentes y presupuestos suficientes, una maquinaria pública diseñada para producir resultados. Allí el Perú tiene un problema mucho más profundo.",
-   "author": "Janice Seinfeld",
-   "published": "2026-08-04T10:28:00+00:00",
+   "title": "Sueldo mínimo en Perú 2026: ¿de cuánto será el aumento y desde cuándo regirá la nueva RMV?",
+   "url": "https://elcomercio.pe/respuestas/cuanto/sueldo-minimo-en-peru-2026-de-cuanto-sera-el-aumento-y-desde-cuando-regira-la-nueva-rmv-tdpe-noticia/",
+   "summary": "El sueldo mínimo en Perú tendrá un incremento en 2026. Conoce cuál será el nuevo monto de la Remuneración Mínima Vital (RMV) y a quiénes beneficiará la medida anunciada por Keiko Fujimori.",
+   "author": "Paolo Valdivia",
+   "published": "2026-08-05T17:07:31+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-04T13:03:09+00:00"
+   "captured": "2026-08-05T18:22:13+00:00"
   },
   {
-   "title": "El transporte y el crimen",
-   "url": "https://elcomercio.pe/opinion/editorial/el-transporte-y-el-crimen-el-corredor-de-la-carretera-panamericana-norte-enfrenta-una-situacion-critica-con-atentados-contra-empresas-de-transporte-interprovincial-es-urgente-actuar-inseguridad-ciudadana-noticia/",
-   "summary": "Sin duda, el problema más apremiante para los peruanos es la inseguridad, como la propia presidenta Keiko Fujimori señaló en su mensaje del 28 de julio. Hace pocos días, El Comercio reveló una estadística que debe llamar la atención a todos: entre el 5 de junio y el 19 de julio pasados se registraron 17 atentados en el corredor de la Panamericana Norte. Hablamos de una ofensiva en 45 días de organizaciones dedicadas a la extorsión contra buses y sedes de seis empresas: Zbuss, Emmanuel, CIVA, El Dorado, Cruz del Sur y Cruz del Norte. Una ofensiva cuyo saldo fueron múltiples conductores heridos y decenas de pasajeros expuestos a los disparos en plena carretera. Cabe anotar que, siguiendo la pista de un arma que estaría vinculada a más de uno de esos atentados, la policía ya ha capturado a varios de sus perpetradores. Pero importantes como son esas capturas, lo fundamental, lógicamente, es generar un contexto de seguridad que evite que esos episodios de violencia se sigan produciendo.",
-   "author": "Editorial El Comercio",
-   "published": "2026-08-04T05:10:00+00:00",
+   "title": "Papa León XIV en Perú: canciller Carlos Espá confirma encuentro del Sumo Pontífice con Keiko Fujimori",
+   "url": "https://elcomercio.pe/lima/sucesos/papa-leon-xiv-en-peru-canciller-carlos-espa-confirma-encuentro-con-keiko-fujimori-y-otros-puntos-de-su-agenda-ultimas-noticia/",
+   "summary": "El papa León XIV realizará una visita al Perú que durará unos siete días en la que será su primera gira por países de Latinoamérica en lo que va de su pontificado, y los primeros detalles oficiales sobre su agenda oficial fueron dados a conocer este miércoles 5 de agosto por el canciller Carlos Espá, luego de que este último sostuviera una reunión con la presidenta Keiko Fujimori.",
+   "author": "Redacción EC",
+   "published": "2026-08-05T17:07:20+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-04T07:40:22+00:00"
+   "captured": "2026-08-05T18:22:13+00:00"
   }
  ]
 }
