@@ -81,6 +81,45 @@ def in_national_scope(record: dict) -> bool:
     return not (SUBNATIONAL_SECTOR_RE.match(sector) or AUTONOMOUS_SECTOR_RE.match(sector))
 
 
+# Routine acts that cannot evidence a commitment, gated by what the norma *does*
+# rather than by who published it. Two consecutive queues (issues #246-#255 and
+# #256-#265) were 20/20 false positives of just three shapes: the matcher's
+# bigrams come from the entity's *name* ("desarrollo pesquero", "gestion
+# publica", "infraestructura educativa"), so every routine act of a topically
+# relevant body carries them. Suppressing those phrases is not the answer —
+# they are the meaningful ones; the act type is what's wrong.
+#
+# 1. Personnel. Deliberately narrow: only acts whose object is an individual
+#    post. "Designan a los integrantes de la Comision Multisectorial encargada
+#    de <compromiso>" creates the body that implements a commitment and can be
+#    real evidence, so a collective object keeps the norma in the queue.
+_PERSONNEL_VERB_RE = re.compile(
+    r"^(designan"
+    r"|aceptan (?:la )?renuncia"
+    r"|encargan"
+    r"|dan por concluida (?:la )?designacion"
+    r"|dejan sin efecto (?:la )?designacion)\b"
+)
+_COLLECTIVE_OBJECT_RE = re.compile(r"\b(integrantes|miembros|representantes|vocales)\b")
+
+# 2. Travel and academic authorizations: an institutional permission slip.
+_TRAVEL_RE = re.compile(r"\bautorizan\b.{0,40}\bviaje\b|\bestancia academica\b|\bpasantia\b")
+
+# 3. Recurring numeric publications. Narrow on purpose — the statistical bodies
+#    stay in scope (see AUTONOMOUS_SECTOR_RE), so only the periodic series
+#    themselves are dropped, not everything those bodies publish.
+_RECURRING_INDEX_RE = re.compile(r"\bindice de reajuste\b|\btipo de cambio\b")
+
+
+def is_routine_act(record: dict) -> bool:
+    """True for a norma whose operative act is routine administration —
+    personnel churn, a travel authorization, or a periodic index."""
+    sumilla = fold(record.get("sumilla", ""))
+    if _PERSONNEL_VERB_RE.match(sumilla) and not _COLLECTIVE_OBJECT_RE.search(sumilla):
+        return True
+    return bool(_TRAVEL_RE.search(sumilla) or _RECURRING_INDEX_RE.search(sumilla))
+
+
 # Fetching and norma text live in common/elperuano_client.py; matching lives in
 # common/matcher.py (shared). A norma's numero + tipo + sumilla is matched
 # against the distinctive-phrase index built from the plan.
@@ -169,9 +208,11 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
     matched = [
         (r, rel) for r in records
         if in_national_scope(r)
+        and not is_routine_act(r)
         and (rel := matcher.match(f"{r['numero']} {r['tipo']} {r['sumilla']}"))
     ]
-    print(f"{iso_date}: {len(records)} normas, {len(matched)} matched")
+    gated = sum(1 for r in records if in_national_scope(r) and is_routine_act(r))
+    print(f"{iso_date}: {len(records)} normas, {gated} routine acts gated, {len(matched)} matched")
 
     if not matched:
         print("No matches; nothing to file.")
