@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T07:39:46+00:00",
+ "generated": "2026-08-05T12:53:23+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Ahora Nación pide que el canciller Espá acuda al Senado para explicar intención de incorporar a Perú al Escudo de las Américas",
-    "url": "https://rpp.pe/politica/gobierno/ahora-nacion-pide-que-el-canciller-espa-acuda-al-senado-para-explicar-intencion-de-incorporar-a-peru-al-escudo-de-las-americas-noticia-1700119",
-    "source": "RPP",
-    "published": "2026-08-04T16:48:21-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
     "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
@@ -47,6 +40,13 @@
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Sueldo mínimo subiría a S/1.300 “lo más rápido posible”: Ministro de Trabajo revela los plazos",
+    "url": "https://www.infobae.com/peru/2026/08/04/sueldo-minimo-subiria-a-s1300-lo-mas-rapido-posible-ministro-de-trabajo-da-los-plazos/",
+    "source": "Infobae",
+    "published": "2026-08-05T11:39:19+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Juan Sheput a favor de otorgar prisión domiciliaria a Alejandro Toledo “si la ley lo permite”",
     "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
@@ -96,13 +96,27 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Lurigancho - Chosica: vecinos cerca del puente Caracol piden construcción de muro para proteger sus viviendas ante el Fenómeno El Niño",
-    "url": "https://rpp.pe/peru/lima/lurigancho-chosica-vecinos-cera-al-puente-caracol-piden-construccion-de-muro-para-proteger-sus-viviendas-ante-el-fenomeno-el-nino-noticia-1700107",
+    "title": "¿Cuáles debe ser las prioridades del ministro de Salud, Luis Dyer? Esto dijo el decano del Colegio Médico del Perú",
+    "url": "https://rpp.pe/videos/ampliacion-de-noticias/cuales-debe-ser-las-prioridades-del-ministro-de-salud-luis-dyer-esto-dijo-el-decano-del-colegio-medico-del-peru-noticia-1700170",
     "source": "RPP",
-    "published": "2026-08-04T15:31:50-05:00",
+    "published": "2026-08-05T05:30:16-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Colegio Médico del Perú presentó propuesta de cinco ejes prioritarios para atender en el sector Salud: ¿cuáles son?",
+    "url": "https://rpp.pe/politica/gobierno/colegio-medico-del-peru-presento-propuesta-de-cinco-ejes-prioritarios-para-atender-en-el-sector-salud-cuales-son-noticia-1700043",
+    "source": "RPP",
+    "published": "2026-08-04T10:31:19-05:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
+    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-31T00:14:45+00:00",
+    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -127,15 +141,6 @@
     "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
     "source": "Gestión",
     "published": "2026-07-31T12:15:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
-    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-31T00:14:45+00:00",
     "matched_in": "title"
    }
   ]
