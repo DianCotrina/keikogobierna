@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.5](https://github.com/DianCotrina/keikogobierna/compare/v2.8.4...v2.8.5) (2026-08-05)
+
+
+### Bug Fixes
+
+* routine acts no longer reach the evidencia-candidata queue ([bf37f4e](https://github.com/DianCotrina/keikogobierna/commit/bf37f4edfb0a856d315968fdf7a7b6a753bf1fe8))
+
 ## [2.8.4](https://github.com/DianCotrina/keikogobierna/compare/v2.8.3...v2.8.4) (2026-08-04)
 
 
