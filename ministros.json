@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T18:27:56+00:00",
+ "generated": "2026-08-05T00:04:04+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Ahora Nación pide que el canciller Espá acuda al Senado para explicar intención de incorporar a Perú al Escudo de las Américas",
+    "url": "https://rpp.pe/politica/gobierno/ahora-nacion-pide-que-el-canciller-espa-acuda-al-senado-para-explicar-intencion-de-incorporar-a-peru-al-escudo-de-las-americas-noticia-1700119",
+    "source": "RPP",
+    "published": "2026-08-04T16:48:21-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
     "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
@@ -41,10 +48,10 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Sueldo mínimo subiría a S/1.300 “lo más rápido posible”: Ministro de Trabajo da los plazos",
-    "url": "https://www.infobae.com/peru/2026/08/04/sueldo-minimo-subiria-a-s1300-lo-mas-rapido-posible-ministro-de-trabajo-da-los-plazos/",
-    "source": "Infobae",
-    "published": "2026-08-04T14:51:12+00:00",
+    "title": "Ministro Sheput ratifica a secretario técnico del Consejo Nacional de Trabajo en medio de propuesta de aumento al sueldo mínimo",
+    "url": "https://elcomercio.pe/economia/peru/ministro-sheput-ratifica-a-secretario-tecnico-del-cnt-en-medio-de-propuesta-de-aumento-al-sueldo-minimo-l-sueldo-minimo-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-04T19:54:43+00:00",
     "matched_in": "title"
    },
    {
@@ -52,36 +59,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-04T03:56:54+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "¿Seguirá censurando el Ministerio de Cultura con Alberto Beingolea a cargo?",
-    "url": "https://larepublica.pe/cultural/2026/07/28/seguira-censurando-el-ministerio-de-cultura-con-alberto-beingolea-a-cargo-hnews-576016",
-    "source": "La República",
-    "published": "2026-08-04T02:02:42+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Asociación de Bibliotecólogos del Perú pide a Alberto Beingolea evitar \"improvisaciones\" en la jefatura de la BNP",
-    "url": "https://larepublica.pe/politica/2026/08/03/asociacion-de-bibliotecologos-del-peru-pide-a-alberto-beingolea-evitar-improvisaciones-en-la-jefatura-de-la-bnp-hnews-52293",
-    "source": "La República",
-    "published": "2026-08-04T01:34:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Suspenden sesión del Consejo de Ministros que debía evaluar pedido de facultades al Legislativo",
-    "url": "https://larepublica.pe/politica/2026/08/02/suspenden-sesion-del-consejo-de-ministros-que-debia-evaluar-pedido-de-facultades-al-legislativo-hnews-92560",
-    "source": "La República",
-    "published": "2026-08-03T01:19:19+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Sesión de Consejo de Ministros de este domingo para evaluar pedido de facultades se postergó, según ministro Alberto Beingolea",
-    "url": "https://elcomercio.pe/politica/gobierno/sesion-de-consejo-de-ministros-de-este-domingo-para-evaluar-pedido-de-facultades-se-postergo-indica-ministro-alberto-beingolea-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-02T22:12:34+00:00",
     "matched_in": "title"
    }
   ],
@@ -110,50 +87,36 @@
     "matched_in": "summary"
    }
   ],
-  "maria-magdalena-seminario-maron": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Ministra de la Mujer dice que su sector está dando apoyo psicológico y legal a denunciante de diputado Julián Pérez",
-    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-dice-que-su-sector-esta-dando-apoyo-psicologico-y-legal-a-denunciante-de-diputado-julian-perez-noticia-1700069",
-    "source": "RPP",
-    "published": "2026-08-04T12:51:41-05:00",
+    "title": "¿Seguirá censurando el Ministerio de Cultura con Alberto Beingolea a cargo?",
+    "url": "https://larepublica.pe/cultural/2026/07/28/seguira-censurando-el-ministerio-de-cultura-con-alberto-beingolea-a-cargo-hnews-576016",
+    "source": "La República",
+    "published": "2026-08-04T02:02:42+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministra de la Mujer niega que el Ejecutivo esté preparando reducción de ministerios: \"No se ha hablado de eso\"",
-    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-niega-que-el-ejecutivo-este-preparando-reduccion-de-ministerios-no-se-ha-hablado-de-eso-noticia-1700060",
-    "source": "RPP",
-    "published": "2026-08-04T11:48:50-05:00",
+    "title": "Asociación de Bibliotecólogos del Perú pide a Alberto Beingolea evitar \"improvisaciones\" en la jefatura de la BNP",
+    "url": "https://larepublica.pe/politica/2026/08/03/asociacion-de-bibliotecologos-del-peru-pide-a-alberto-beingolea-evitar-improvisaciones-en-la-jefatura-de-la-bnp-hnews-52293",
+    "source": "La República",
+    "published": "2026-08-04T01:34:21+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Suspenden sesión del Consejo de Ministros que debía evaluar pedido de facultades al Legislativo",
+    "url": "https://larepublica.pe/politica/2026/08/02/suspenden-sesion-del-consejo-de-ministros-que-debia-evaluar-pedido-de-facultades-al-legislativo-hnews-92560",
+    "source": "La República",
+    "published": "2026-08-03T01:19:19+00:00",
+    "matched_in": "summary"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "rafael-rey-rey": [
    {
-    "title": "Fiorella Molinelli sobre Luis Dyer como ministro de Salud: \"Le voy a dar el beneficio de la duda\"",
-    "url": "https://rpp.pe/politica/gobierno/luis-dyer-fiorella-molinelli-senala-que-le-dara-el-beneficio-de-la-duda-como-nuevo-ministro-de-salud-noticia-1700006",
+    "title": "Lurigancho - Chosica: vecinos cerca del puente Caracol piden construcción de muro para proteger sus viviendas ante el Fenómeno El Niño",
+    "url": "https://rpp.pe/peru/lima/lurigancho-chosica-vecinos-cera-al-puente-caracol-piden-construccion-de-muro-para-proteger-sus-viviendas-ante-el-fenomeno-el-nino-noticia-1700107",
     "source": "RPP",
-    "published": "2026-08-04T11:00:14-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Nuevo ministro de Salud inspecciona el Minsa y encuentra médicos en oficinas, reclamos y montañas de expedientes sin digitalizar",
-    "url": "https://www.infobae.com/peru/2026/08/04/nuevo-ministro-de-salud-inspecciona-el-minsa-y-encuentra-medicos-en-oficinas-reclamos-y-montanas-de-expedientes-sin-digitalizar/",
-    "source": "Infobae",
-    "published": "2026-08-04T15:32:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Colegio Médico del Perú presentó propuesta de cinco ejes prioritarios para atender en el sector Salud: ¿cuáles son?",
-    "url": "https://rpp.pe/politica/gobierno/colegio-medico-del-peru-presento-propuesta-de-cinco-ejes-prioritarios-para-atender-en-el-sector-salud-cuales-son-noticia-1700043",
-    "source": "RPP",
-    "published": "2026-08-04T10:31:19-05:00",
+    "published": "2026-08-04T15:31:50-05:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
-    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-31T00:14:45+00:00",
-    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -162,13 +125,6 @@
     "url": "https://rpp.pe/economia/economia/mef-completa-su-plana-mayor-asi-queda-conformado-el-equipo-que-conducira-la-politica-economica-y-el-presupuesto-2027-noticia-1700035",
     "source": "RPP",
     "published": "2026-08-04T09:45:40-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF renueva sus viceministerios tras renuncias: Erick Lahura y Fabrizio Orrego asumen Hacienda y Economía",
-    "url": "https://www.infobae.com/peru/2026/08/04/mef-renueva-sus-viceministerios-tras-renuncias-erick-lahura-y-fabrizio-orrego-asumen-hacienda-y-economia/",
-    "source": "Infobae",
-    "published": "2026-08-04T12:51:56+00:00",
     "matched_in": "title"
    },
    {
@@ -192,6 +148,15 @@
     "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
     "source": "Gestión",
     "published": "2026-07-31T12:15:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
+    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-31T00:14:45+00:00",
     "matched_in": "title"
    }
   ]
