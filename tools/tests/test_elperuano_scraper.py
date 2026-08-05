@@ -90,6 +90,73 @@ class ExecutiveScopeTest(unittest.TestCase):
             self.assertTrue(er.in_national_scope({"sector": sector}), sector)
 
 
+class RoutineActTest(unittest.TestCase):
+    """Routine administration can't evidence a commitment, whoever publishes it."""
+
+    # Verbatim sumillas from issues #246-#265: two consecutive queues that were
+    # 20/20 false positives, which is what motivated the gate.
+    PERSONNEL = (
+        "Designan Presidente Ejecutivo del Organismo Técnico de la Administración "
+        "de los Servicios de Saneamiento - OTASS",
+        "Designan Jefe del Fondo Nacional de Desarrollo Pesquero - FONDEPES",
+        "Aceptan renuncia de Jefa del Fondo Nacional de Desarrollo Pesquero - FONDEPES",
+        "Designan Gerente General de la Autoridad Nacional del Agua",
+        "Designan Subsecretaria I de la Subsecretaría de Simplificación y Análisis "
+        "Regulatorio de la Secretaría de Gestión Pública de la PCM",
+        "Designan Asesor II de la Dirección Ejecutiva del Programa Nacional de "
+        "Infraestructura Educativa - PRONIED",
+        "Designan Viceministro de Prestaciones y Aseguramiento en Salud",
+        "Aceptan renuncia de Viceministro de Poblaciones Vulnerables",
+        "Designan Presidente Ejecutivo de la Comisión de Promoción del Perú para la "
+        "Exportación y el Turismo – PROMPERÚ",
+        "Encargan funciones de Director de la Oficina General de Administración",
+        "Dan por concluida la designación del Director de la Dirección General de Salud",
+    )
+
+    def test_individual_appointments_are_gated(self):
+        for sumilla in self.PERSONNEL:
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_collective_designations_stay_in_the_queue(self):
+        # Naming the body that will execute a commitment is a real signal, and
+        # PROMPERÚ above proves the exception can't just look for "comisión":
+        # there the word belongs to the entity, not to the object designated.
+        for sumilla in (
+            "Designan a los integrantes de la Comisión Multisectorial encargada de "
+            "la seguridad alimentaria",
+            "Designan miembros del Grupo de Trabajo para el cierre de brechas de agua",
+            "Designan representantes ante el Consejo Nacional de Educación",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_travel_and_academic_authorizations_are_gated(self):
+        for sumilla in (
+            "Ratifican resolución que aprueba estancia académica en Portugal de "
+            "estudiantes y docente en calidad de tutor",
+            "Autorizan viaje de profesionales del Ministerio de Salud a Colombia",
+            "Autorizan el viaje al exterior de servidores del INDECOPI",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_recurring_index_publications_are_gated(self):
+        for sumilla in (
+            "Índice de reajuste diario a que se refiere el artículo 240º de la Ley "
+            "General del Sistema Financiero, correspondiente al mes de agosto de 2026",
+            "Tipo de cambio promedio ponderado venta correspondiente a julio de 2026",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_substantive_norms_are_untouched(self):
+        for sumilla in (
+            "Aprueban el Reglamento de la Ley que crea las unidades de flagrancia",
+            "Decreto Supremo que aprueba la Política Nacional de Seguridad Alimentaria",
+            "Crean el Programa Nacional de Infraestructura Educativa rural",
+            "Modifican el Reglamento de la Ley General de Pesca",
+            "",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+
 class NoiseSuppressionTest(unittest.TestCase):
     """Generic bigrams that flooded the queue are suppressed; real signal survives."""
 
