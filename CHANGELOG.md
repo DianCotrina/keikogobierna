@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.9.0](https://github.com/DianCotrina/keikogobierna/compare/v2.8.5...v2.9.0) (2026-08-06)
+
+
+### Features
+
+* record quantitative commitments as a measurement series ([45ab92e](https://github.com/DianCotrina/keikogobierna/commit/45ab92e4a11fec5ccd84f929fbbba4edf498165f))
+
+
+### Bug Fixes
+
+* close the residual gaps the act gate exposed in the queue ([90b1cc0](https://github.com/DianCotrina/keikogobierna/commit/90b1cc0fccf4075a48c191925f3a3763a8e8e8cf))
+
 ## [2.8.5](https://github.com/DianCotrina/keikogobierna/compare/v2.8.4...v2.8.5) (2026-08-05)
 
 
