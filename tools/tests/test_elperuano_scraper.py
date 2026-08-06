@@ -81,6 +81,13 @@ class ExecutiveScopeTest(unittest.TestCase):
                        "CORTES SUPERIORES DE JUSTICIA", "CONSEJO EJECUTIVO DEL PODER JUDICIAL"):
             self.assertFalse(er.in_national_scope({"sector": sector}), sector)
 
+    def test_an_autonomous_bodys_own_organs_are_out_of_scope(self):
+        # Issue #271: the sector is the publisher's name, and an organ publishes
+        # under its own, so an anchored match missed the Ministerio Público's
+        # internal control authority — whose budget acts the gate exists to drop.
+        self.assertFalse(er.in_national_scope(
+            {"sector": "AUTORIDAD NACIONAL DE CONTROL DEL MINISTERIO PUBLICO"}))
+
     def test_statistical_and_electoral_bodies_stay_in_scope(self):
         # INEI publishes the statistics that measure the 65 metas 2031, so it has
         # to stay reachable; its monthly-index noise dies on the phrase gate instead.
@@ -117,17 +124,29 @@ class RoutineActTest(unittest.TestCase):
         for sumilla in self.PERSONNEL:
             self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
-    def test_collective_designations_stay_in_the_queue(self):
-        # Naming the body that will execute a commitment is a real signal, and
-        # PROMPERÚ above proves the exception can't just look for "comisión":
-        # there the word belongs to the entity, not to the object designated.
+    def test_designating_a_task_body_stays_in_the_queue(self):
+        # Naming the body that will execute a commitment is a real signal.
         for sumilla in (
             "Designan a los integrantes de la Comisión Multisectorial encargada de "
             "la seguridad alimentaria",
             "Designan miembros del Grupo de Trabajo para el cierre de brechas de agua",
-            "Designan representantes ante el Consejo Nacional de Educación",
+            "Designan integrantes de la Mesa de Trabajo para la formalización minera",
         ):
             self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_the_exception_needs_both_halves(self):
+        # A collective noun alone is not enough: appointing to a standing board is
+        # ordinary churn, and "miembros" alone let issue #268 through. A task body
+        # alone is not enough either — PROMPERÚ's registered name *is* "Comisión de
+        # Promoción del Perú…", so a bare "comisión" test waves an appointment past.
+        for sumilla in (
+            "Designan miembros del Directorio del Banco Central de Reserva del Perú, "
+            "en representación del Poder Ejecutivo",
+            "Designan representantes ante el Consejo Nacional de Educación",
+            "Designan Presidente Ejecutivo de la Comisión de Promoción del Perú para "
+            "la Exportación y el Turismo – PROMPERÚ",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
     def test_travel_and_academic_authorizations_are_gated(self):
         for sumilla in (
@@ -155,6 +174,45 @@ class RoutineActTest(unittest.TestCase):
             "",
         ):
             self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+
+class VocabularyGapTest(unittest.TestCase):
+    """The plan and the gazette name the same instrument differently."""
+
+    NEC = ("RESOLUCIÓN MINISTERIAL N° 000243-2026-PRODUCE Autorizan Transferencia "
+           "Financiera a favor del Núcleo Ejecutor de Compras (NEC) para el sector "
+           "productivo de Textil - confecciones")
+
+    def test_a_compras_myperu_transfer_reaches_its_mype_commitment(self):
+        # Issue #269. The plan writes "Compras MyPerú", El Peruano writes "Núcleo
+        # Ejecutor de Compras", so the norma that funds the commitment shared no
+        # bigram with it and was filed against a *schooling* commitment instead,
+        # on the generic "sector productivo". Precision noise was hiding a recall
+        # bug: the queue had the right norma under the wrong compromiso.
+        #
+        # Only P22. The NEC regime buys for whichever entity requests it — this
+        # one clothes RENIEC staff — so tagging every transfer with P30 ("compras
+        # de los *programas sociales*") would mis-attribute most of them.
+        from tools.scrapers.common import matcher
+        hits = matcher.load_matcher().match(self.NEC)
+        self.assertIn("t2-1.P22", hits)      # Compras MyPerú as a permanent state policy
+        self.assertNotIn("t2-1.P30", hits)   # not social-program procurement
+
+
+class NormaRecordTest(unittest.TestCase):
+    """Boletín Oficial section headings arrive shaped like records but aren't normas."""
+
+    def test_headings_without_a_sumilla_are_dropped(self):
+        # Issue #272: with no sumilla the matcher sees only the tipo, which is a
+        # section name, and matches on whatever topic words it happens to contain.
+        for tipo in ("Balance Por Entidades Financieras",
+                     "Estudios Ambientales (suelo, agua, ruido, eléctricidad, entre otros)"):
+            self.assertFalse(er.is_norma_record({"tipo": tipo, "numero": "", "sumilla": ""}), tipo)
+
+    def test_real_normas_are_kept(self):
+        self.assertTrue(er.is_norma_record(
+            {"tipo": "RESOLUCIÓN MINISTERIAL", "numero": "266-2026-PCM",
+             "sumilla": "Aprueban el Reglamento de la Ley que crea las unidades de flagrancia"}))
 
 
 class NoiseSuppressionTest(unittest.TestCase):

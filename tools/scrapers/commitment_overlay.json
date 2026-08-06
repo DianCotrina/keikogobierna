@@ -1,5 +1,8 @@
 {
-  "boost": { "t1-1.C01": ["c5i"] },
+  "boost": {
+    "t1-1.C01": ["c5i"],
+    "t2-1.P22": ["nucleo ejecutor", "ejecutor compras"]
+  },
   "suppress_terms": ["comuniquese", "registrese", "publiquese", "cumplase"],
   "suppress_phrases": [
     "direccion general", "autoridad nacional", "mediante cual", "servicios publicos",
@@ -14,7 +17,9 @@
     "nivel nacional", "fondo nacional", "nacional inteligencia",
     "distritos judiciales", "justicia penal", "nacional justicia",
 
-    "santa rosa", "jorge chavez"
+    "santa rosa", "jorge chavez",
+
+    "poder ejecutivo", "ministerio publico", "entidades publicas", "personas juridicas"
   ],
   "mute_commitments": []
 }

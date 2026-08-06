@@ -67,8 +67,14 @@ SUBNATIONAL_SECTOR_RE = re.compile(r"^(municipalidad|gobierno regional)\b")
 # Deliberately narrow. INEI, BCR, RENIEC, ONPE and the JNE stay in scope: the 65
 # metas 2031 are quantitative and those bodies publish the statistics that measure
 # them. INEI's monthly-index noise is handled on the phrase gate instead.
+#
+# Matched anywhere in the sector, not anchored: an autonomous body's own organs
+# publish under their own names, and "Autoridad Nacional de Control del Ministerio
+# Público" slipped through an anchored match (issue #271) even though it is exactly
+# the internal-control act the gate exists to drop. A sector string names the
+# publisher, so containing one of these means the publisher *is* that body.
 AUTONOMOUS_SECTOR_RE = re.compile(
-    r"^(contraloria|poder judicial|ministerio publico|cortes superiores"
+    r"\b(contraloria|poder judicial|ministerio publico|cortes superiores"
     r"|consejo ejecutivo del poder judicial|academia de la magistratura"
     r"|junta nacional de justicia)\b"
 )
@@ -78,7 +84,16 @@ def in_national_scope(record: dict) -> bool:
     """False for norms a municipality, regional government, or autonomous control
     or judicial body published as its own act."""
     sector = fold(record.get("sector", ""))
-    return not (SUBNATIONAL_SECTOR_RE.match(sector) or AUTONOMOUS_SECTOR_RE.match(sector))
+    return not (SUBNATIONAL_SECTOR_RE.match(sector) or AUTONOMOUS_SECTOR_RE.search(sector))
+
+
+def is_norma_record(record: dict) -> bool:
+    """False for the Boletín Oficial's section headings, which arrive shaped like
+    records but carry no numero and no sumilla ("Balance Por Entidades
+    Financieras", "Estudios Ambientales (suelo, agua, ruido…)"). With no sumilla
+    the matcher sees only the tipo, which is a section name and matches on its
+    topic words — issue #272."""
+    return bool(fold(record.get("sumilla", "")))
 
 
 # Routine acts that cannot evidence a commitment, gated by what the norma *does*
@@ -92,7 +107,15 @@ def in_national_scope(record: dict) -> bool:
 # 1. Personnel. Deliberately narrow: only acts whose object is an individual
 #    post. "Designan a los integrantes de la Comision Multisectorial encargada
 #    de <compromiso>" creates the body that implements a commitment and can be
-#    real evidence, so a collective object keeps the norma in the queue.
+#    real evidence, so that one keeps its place in the queue.
+#
+#    The exception needs *both* halves. A collective noun alone is not enough:
+#    "Designan miembros del Directorio del Banco Central de Reserva" is ordinary
+#    churn on a standing board and reached the queue on `miembros` (issue #268).
+#    A task body alone is not enough either: PROMPERU's registered name is
+#    "Comision de Promocion del Peru para la Exportacion y el Turismo", so
+#    "Designan Presidente Ejecutivo de la Comision de Promocion..." is an
+#    ordinary appointment that any bare "comision" test would wave through.
 _PERSONNEL_VERB_RE = re.compile(
     r"^(designan"
     r"|aceptan (?:la )?renuncia"
@@ -101,6 +124,7 @@ _PERSONNEL_VERB_RE = re.compile(
     r"|dejan sin efecto (?:la )?designacion)\b"
 )
 _COLLECTIVE_OBJECT_RE = re.compile(r"\b(integrantes|miembros|representantes|vocales)\b")
+_TASK_BODY_RE = re.compile(r"\b(comision|grupo de trabajo|mesa de trabajo|comite)\b")
 
 # 2. Travel and academic authorizations: an institutional permission slip.
 _TRAVEL_RE = re.compile(r"\bautorizan\b.{0,40}\bviaje\b|\bestancia academica\b|\bpasantia\b")
@@ -115,7 +139,9 @@ def is_routine_act(record: dict) -> bool:
     """True for a norma whose operative act is routine administration —
     personnel churn, a travel authorization, or a periodic index."""
     sumilla = fold(record.get("sumilla", ""))
-    if _PERSONNEL_VERB_RE.match(sumilla) and not _COLLECTIVE_OBJECT_RE.search(sumilla):
+    if _PERSONNEL_VERB_RE.match(sumilla) and not (
+        _COLLECTIVE_OBJECT_RE.search(sumilla) and _TASK_BODY_RE.search(sumilla)
+    ):
         return True
     return bool(_TRAVEL_RE.search(sumilla) or _RECURRING_INDEX_RE.search(sumilla))
 
@@ -208,6 +234,7 @@ def run(target: date, dry_run: bool, archive_dir: str | None) -> int:
     matched = [
         (r, rel) for r in records
         if in_national_scope(r)
+        and is_norma_record(r)
         and not is_routine_act(r)
         and (rel := matcher.match(f"{r['numero']} {r['tipo']} {r['sumilla']}"))
     ]
