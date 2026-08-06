@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T00:00:11+00:00",
+ "generated": "2026-08-06T07:40:52+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,50 +11,11 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Papa León XIV se reunirá en privado con Keiko Fujimori: “Va a ser una manifestación de reconciliación”",
-    "url": "https://www.infobae.com/peru/2026/08/05/papa-leon-xiv-se-reunira-en-privado-con-keiko-fujimori-va-a-ser-una-manifestacion-de-reconciliacion/",
-    "source": "Infobae",
-    "published": "2026-08-05T18:36:18+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
     "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
     "source": "El Comercio",
     "published": "2026-08-04T15:41:28+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Canciller Carlos Espá confía en que el Congreso otorgará facultades al Ejecutivo",
-    "url": "https://larepublica.pe/politica/2026/08/03/canciller-carlos-espa-confia-en-que-el-congreso-otorgara-facultades-al-ejecutivo-hnews-59523",
-    "source": "La República",
-    "published": "2026-08-04T04:08:34+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput a favor de otorgar prisión domiciliaria a Alejandro Toledo “si la ley lo permite”",
-    "url": "https://elcomercio.pe/politica/gobierno/alejandro-toledo-ministro-juan-sheput-a-favor-de-otorgar-prision-domiciliaria-al-expresidente-si-la-ley-lo-permite-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-04T03:56:54+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Unidad de Investigación: Hallan más de siete millones de jeringas y medicamentos vencidos en Cenares del Minsa",
-    "url": "https://elcomercio.pe/lima/hallan-mas-de-7-millones-de-jeringas-y-medicamentos-vencidos-en-cenares-del-minsa-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-05T17:29:31+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Vinelli: Se está ajustando proyecto de delegación de facultades legislativas",
-    "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-31T12:15:00+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -70,31 +31,6 @@
     "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-promete-cautelar-el-presupuesto-de-la-pnp-y-asegurar-el-buen-uso-de-los-recursos-noticia/",
     "source": "Gestión",
     "published": "2026-07-30T23:47:40+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Consejo de Ministros se reunirá el miércoles 5 para abordar las facultades legislativas",
-    "url": "https://larepublica.pe/politica/2026/08/03/consejo-de-ministros-se-reunira-el-miercoles-5-para-abordar-las-facultades-legislativas-hnews-52875",
-    "source": "La República",
-    "published": "2026-08-04T04:03:02+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "¿Seguirá censurando el Ministerio de Cultura con Alberto Beingolea a cargo?",
-    "url": "https://larepublica.pe/cultural/2026/07/28/seguira-censurando-el-ministerio-de-cultura-con-alberto-beingolea-a-cargo-hnews-576016",
-    "source": "La República",
-    "published": "2026-08-04T02:02:42+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Asociación de Bibliotecólogos del Perú pide a Alberto Beingolea evitar \"improvisaciones\" en la jefatura de la BNP",
-    "url": "https://larepublica.pe/politica/2026/08/03/asociacion-de-bibliotecologos-del-peru-pide-a-alberto-beingolea-evitar-improvisaciones-en-la-jefatura-de-la-bnp-hnews-52293",
-    "source": "La República",
-    "published": "2026-08-04T01:34:21+00:00",
     "matched_in": "title"
    }
   ],
@@ -127,6 +63,15 @@
     "url": "https://gestion.pe/peru/sindicato-de-petroperu-pide-al-gobierno-de-fujimori-revisar-la-intervencion-de-proinversion-noticia/",
     "source": "Gestión",
     "published": "2026-07-31T03:36:22+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Vinelli: Se está ajustando proyecto de delegación de facultades legislativas",
+    "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
+    "source": "Gestión",
+    "published": "2026-07-31T12:15:00+00:00",
     "matched_in": "title"
    }
   ],
