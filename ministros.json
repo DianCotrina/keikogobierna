@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T18:22:13+00:00",
+ "generated": "2026-08-06T00:00:11+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,18 +11,11 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Keiko Fujimori recibirá al papa León XIV en Palacio de Gobierno, según canciller Carlos Espá",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-recibira-al-papa-leon-xiv-en-palacio-de-gobierno-segun-canciller-carlos-espa-noticia-1700216",
-    "source": "RPP",
-    "published": "2026-08-05T12:39:01-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Papa León XIV en Perú: canciller Carlos Espá confirma encuentro del Sumo Pontífice con Keiko Fujimori",
-    "url": "https://elcomercio.pe/lima/sucesos/papa-leon-xiv-en-peru-canciller-carlos-espa-confirma-encuentro-con-keiko-fujimori-y-otros-puntos-de-su-agenda-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-05T17:07:20+00:00",
-    "matched_in": "title"
+    "title": "Papa León XIV se reunirá en privado con Keiko Fujimori: “Va a ser una manifestación de reconciliación”",
+    "url": "https://www.infobae.com/peru/2026/08/05/papa-leon-xiv-se-reunira-en-privado-con-keiko-fujimori-va-a-ser-una-manifestacion-de-reconciliacion/",
+    "source": "Infobae",
+    "published": "2026-08-05T18:36:18+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
@@ -105,14 +98,23 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "juan-carlos-requejo-aleman": [
    {
-    "title": "MEF completa su plana mayor: así queda conformado el equipo que conducirá la política económica y el presupuesto 2027",
-    "url": "https://rpp.pe/economia/economia/mef-completa-su-plana-mayor-asi-queda-conformado-el-equipo-que-conducira-la-politica-economica-y-el-presupuesto-2027-noticia-1700035",
+    "title": "De la anchoveta al atún: la estrategia del sector pesquero para enfrentar la \"nueva normalidad\" por el fenómeno El Niño",
+    "url": "https://rpp.pe/economia/economia/fenomeno-el-nino-costero-como-impactara-en-sector-pesquero-segun-produce-esta-sera-su-estrategia-noticia-1700302",
     "source": "RPP",
-    "published": "2026-08-04T09:45:40-05:00",
-    "matched_in": "title"
+    "published": "2026-08-05T17:55:40-05:00",
+    "matched_in": "summary"
    },
+   {
+    "title": "Ministro de la Producción: “El Fenómeno El Niño debe verse como una oportunidad para el país”",
+    "url": "https://www.infobae.com/peru/2026/08/05/ministro-de-la-produccion-el-fenomeno-el-nino-debe-verse-como-una-oportunidad-para-el-pais/",
+    "source": "Infobae",
+    "published": "2026-08-05T22:39:56+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
    {
     "title": "Elmer Cuba: lo que recomendaba el nuevo ministro antes de ser titular del MEF",
     "url": "https://gestion.pe/economia/elmer-cuba-lo-que-recomendaba-el-nuevo-ministro-del-gobierno-de-keiko-fujimori-antes-de-ser-titular-del-mef-noticia/",
