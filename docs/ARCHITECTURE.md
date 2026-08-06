@@ -92,8 +92,21 @@ src/data/plan/
 │   └── t1-1-orden-ciudadano.json     # ×23 (file names use Spanish slugs)
 └── goals/
     └── goals-2031.json               # Hand-curated
-src/data/tracking.json                # Living state: goal status + progress log
+src/data/tracking.json                # Living state: status + progress log + measurement series
 ```
+
+**Status is not enough for a quantitative commitment.** `items[]` answers *did it happen* (`fulfilled` / `in_progress` / `no_progress` / `unfulfilled`); it cannot answer *how much*. `t2-1.P22` promises Compras MyPerú "un presupuesto anual mínimo de S/ 1 000 millones", which is only ever answered by adding up the year's transfers — so `measurements` holds the series:
+
+```jsonc
+"measurements": {
+  "t2-1.P22": {
+    "unit": "PEN", "target": 1000000000, "period": "2026",
+    "points": [{ "date": "…", "value": 7360112.76, "source": "…", "url": "…", "note": "…" }]
+  }
+}
+```
+
+Two rules the validator enforces and the reader should keep: a **data point certifies nothing** — proof of compliance still lives in `items[].evidence`, and a number can be recorded while the status stays `no_progress`; and the key is **optional**, because most commitments are not quantitative. `items` accepts proposal (`.P`), first-100-days (`.C`) and goal (`.M`) ids alike — it holds only goals today because nothing else has been certified yet, not because the others are unsupported.
 
 **ID scheme** (frozen once assigned — `tracking.json` references these, so renumbering is not permitted):
 - Topics `t{pillar}-{n}` (`t1-1`) · Proposals `{topic}.P{nn}` (`t1-1.P07`) · First-100-days `{topic}.C{nn}` (`t1-1.C01`) · Goals `{topic}.M{nn}` (`t1-1.M01`)

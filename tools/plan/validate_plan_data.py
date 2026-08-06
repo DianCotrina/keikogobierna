@@ -227,6 +227,66 @@ def validate_evidence_entry(item_id: str, i: int, entry) -> None:
         fail(f"{where} has unknown keys: {sorted(unknown)}")
 
 
+def validate_measurement_point(cid: str, i: int, point) -> None:
+    where = f"tracking.json: measurements['{cid}'].points[{i}]"
+    if not isinstance(point, dict):
+        fail(f"{where} must be an object")
+    for key in ("date", "value", "source"):
+        if key not in point:
+            fail(f"{where} missing {key}")
+    if not isinstance(point["date"], str) or not DATE_RE.match(point["date"]):
+        fail(f"{where}.date must be YYYY-MM-DD, got '{point.get('date')}'")
+    # bool is an int in Python; a measurement of True is a bug, not a value.
+    if isinstance(point["value"], bool) or not isinstance(point["value"], (int, float)):
+        fail(f"{where}.value must be a number, got {point['value']!r}")
+    if not isinstance(point["source"], str) or not point["source"].strip():
+        fail(f"{where}.source must be a non-empty string")
+    if "url" in point and (not isinstance(point["url"], str) or not point["url"].startswith("http")):
+        fail(f"{where}.url must be a string starting with http")
+    if "note" in point and (not isinstance(point["note"], str) or not point["note"].strip()):
+        fail(f"{where}.note must be a non-empty string when present")
+    unknown = set(point) - {"date", "value", "source", "url", "note"}
+    if unknown:
+        fail(f"{where} has unknown keys: {sorted(unknown)}")
+
+
+def validate_measurements(data: dict, known_ids: set) -> None:
+    """Quantitative commitments need a series, not a status.
+
+    "Presupuesto anual mínimo de S/ 1 000 millones" is never answered by
+    fulfilled/no_progress: it is answered by adding up the year's transfers. A
+    measurement is an observation with a number attached — evidence still lives
+    in `items[].evidence`, and recording a data point certifies nothing.
+    """
+    measurements = data.get("measurements", {})
+    if not isinstance(measurements, dict):
+        fail("tracking.json: 'measurements' must be a dict")
+
+    for cid, series in measurements.items():
+        where = f"tracking.json: measurements['{cid}']"
+        if cid not in known_ids:
+            fail(f"{where} does not reference a known proposal/goal/100-days id")
+        if not isinstance(series, dict):
+            fail(f"{where} must be an object")
+        if not isinstance(series.get("unit"), str) or not series["unit"].strip():
+            fail(f"{where}.unit must be a non-empty string")
+        if "target" in series:
+            if isinstance(series["target"], bool) or not isinstance(series["target"], (int, float)):
+                fail(f"{where}.target must be a number")
+            if series["target"] <= 0:
+                fail(f"{where}.target must be greater than zero")
+        if "period" in series and (not isinstance(series["period"], str) or not series["period"].strip()):
+            fail(f"{where}.period must be a non-empty string when present")
+        points = series.get("points")
+        if not isinstance(points, list) or not points:
+            fail(f"{where}.points must be a non-empty list")
+        for i, point in enumerate(points):
+            validate_measurement_point(cid, i, point)
+        unknown = set(series) - {"unit", "target", "period", "points"}
+        if unknown:
+            fail(f"{where} has unknown keys: {sorted(unknown)}")
+
+
 def validate_tracking(known_ids: set) -> None:
     data = load_json(TRACKING_PATH)
 
@@ -268,6 +328,8 @@ def validate_tracking(known_ids: set) -> None:
             fail(f"tracking.json: log[{i}].status invalid '{entry['status']}'")
         if not isinstance(entry["text"], str) or not entry["text"].strip():
             fail(f"tracking.json: log[{i}].text must be a non-empty string")
+
+    validate_measurements(data, known_ids)
 
 
 def main() -> None:
