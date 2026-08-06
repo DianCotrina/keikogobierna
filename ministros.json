@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T07:40:52+00:00",
+ "generated": "2026-08-06T12:58:01+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori no irá a la toma de mando de Abelardo de la Espriella: Canciller Carlos Espá irá en su lugar",
+    "url": "https://www.infobae.com/peru/2026/08/06/keiko-fujimori-no-ira-a-la-toma-de-mando-de-abelardo-de-la-espriella-canciller-carlos-espa-ira-en-su-lugar/",
+    "source": "Infobae",
+    "published": "2026-08-06T12:28:43+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
     "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
@@ -41,16 +48,16 @@
     "source": "RPP",
     "published": "2026-08-05T17:55:40-05:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ministro de la Producción: “El Fenómeno El Niño debe verse como una oportunidad para el país”",
-    "url": "https://www.infobae.com/peru/2026/08/05/ministro-de-la-produccion-el-fenomeno-el-nino-debe-verse-como-una-oportunidad-para-el-pais/",
-    "source": "Infobae",
-    "published": "2026-08-05T22:39:56+00:00",
-    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Ministerio de Economía: prioridades, desafíos, crecimiento, equilibrio fiscal y urgencias marcan la agenda del gobierno de Keiko Fujimori",
+    "url": "https://www.infobae.com/peru/2026/08/06/ministerio-de-economia-prioridades-desafios-crecimiento-equilibrio-fiscal-y-urgencias-marcan-la-agenda-del-gobierno-de-keiko-fujimori/",
+    "source": "Infobae",
+    "published": "2026-08-06T12:21:27+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Elmer Cuba: lo que recomendaba el nuevo ministro antes de ser titular del MEF",
     "url": "https://gestion.pe/economia/elmer-cuba-lo-que-recomendaba-el-nuevo-ministro-del-gobierno-de-keiko-fujimori-antes-de-ser-titular-del-mef-noticia/",
