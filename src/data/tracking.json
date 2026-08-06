@@ -262,5 +262,21 @@
       "evidence": []
     }
   },
-  "log": []
+  "log": [],
+  "measurements": {
+    "t2-1.P22": {
+      "unit": "PEN",
+      "target": 1000000000,
+      "period": "2026",
+      "points": [
+        {
+          "date": "2026-08-06",
+          "value": 7360112.76,
+          "source": "El Peruano — RESOLUCIÓN MINISTERIAL N° 000243-2026-PRODUCE",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2540898-1",
+          "note": "Transferencia del Programa Nacional «Compras a MYPErú» al NEC Textil-confecciones para uniformes del RENIEC. El convenio C001-26 se firmó el 24-07-2026, antes del cambio de gobierno: el dato mide la serie del año fiscal, no acredita cumplimiento."
+        }
+      ]
+    }
+  }
 }
