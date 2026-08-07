@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07T11:46:21+00:00",
+ "generated": "2026-08-07T17:50:12+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,21 +11,70 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Gobiernos de Perú y México restablecen relaciones diplomáticas tras meses de tensión política",
+    "url": "https://larepublica.pe/politica/2026/08/07/peru-y-mexico-restablecen-sus-relaciones-diplomaticas-anuncia-cancilleria-hnews-674107",
+    "source": "La República",
+    "published": "2026-08-07T16:01:20+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Gobierno otorgó salvo conducto a Betssy Chávez y exministra viajó a México en la madrugada",
+    "url": "https://larepublica.pe/politica/2026/08/07/gobierno-otorga-salvoconducto-a-betssy-chavez-y-peru-reanuda-relacion-diplomatica-con-mexico-hnews-461888",
+    "source": "La República",
+    "published": "2026-08-07T15:54:12+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "¿Se acaba el requerimiento de visa para viajar a México? Canciller Espá sugiere avance ‘paso a paso’",
+    "url": "https://www.infobae.com/peru/2026/08/07/se-acaba-el-requerimiento-de-visa-para-viajar-a-mexico-canciller-espa-sugiere-avance-paso-a-paso/",
+    "source": "Infobae",
+    "published": "2026-08-07T13:09:26+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Betssy Chávez partió a México “aproximadamente a la medianoche”, informa canciller Carlos Espá",
+    "url": "https://elcomercio.pe/politica/actualidad/betssy-chavez-partio-a-mexico-aproximadamente-a-la-medianoche-informa-canciller-carlos-espa-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-07T12:43:41+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Betssy Chávez salió del Perú rumbo a México: Gobierno de Keiko Fujimori le dio el salvoconducto",
+    "url": "https://www.infobae.com/peru/2026/08/07/betssy-chavez-salio-del-peru-rumbo-a-mexico-gobierno-de-keiko-fujimori-concedio-el-salvoconducto/",
+    "source": "Infobae",
+    "published": "2026-08-07T12:24:03+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Canciller Espá participará en la toma de mando de Abelardo De La Espriella en Colombia",
+    "url": "https://gestion.pe/peru/politica/canciller-carlos-espa-participara-en-la-toma-de-mando-de-abelardo-de-la-espriella-en-colombia-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T05:40:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller Carlos Espá viaja a Colombia para investidura presidencial de Abelardo de la Espriella, aliado de Fujimori",
+    "url": "https://www.infobae.com/peru/2026/08/07/canciller-carlos-espa-viaja-a-colombia-para-investidura-presidencial-de-abelardo-de-la-espriella-aliado-de-keiko-fujimori/",
+    "source": "Infobae",
+    "published": "2026-08-07T02:29:46+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Canciller Carlos Espá se reúne con el vicepresidente electo de Colombia en Cali",
     "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-se-reune-con-el-vicepresidente-electo-de-colombia-en-cali-abelardo-de-la-espriella-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-07T01:44:12+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori no irá a la toma de mando de Abelardo de la Espriella: Canciller Carlos Espá irá en su lugar",
-    "url": "https://www.infobae.com/peru/2026/08/06/keiko-fujimori-no-ira-a-la-toma-de-mando-de-abelardo-de-la-espriella-canciller-carlos-espa-ira-en-su-lugar/",
-    "source": "Infobae",
-    "published": "2026-08-06T12:28:43+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
+   {
+    "title": "Luis Dyer, titular del Minsa: “Hemos encontrado un ministerio que tecnológicamente está en el año 95”",
+    "url": "https://rpp.pe/politica/gobierno/luis-dyer-titular-del-minsa-hemos-encontrado-un-ministerio-que-tecnologicamente-esta-en-el-ano-95-noticia-1700360",
+    "source": "RPP",
+    "published": "2026-08-07T10:15:18-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro de Salud: “Estamos encontrando un ministerio que tecnológicamente está en el año 95”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-estamos-encontrando-un-ministerio-que-tecnologicamente-esta-en-el-ano-95-ultimas-noticia/",
@@ -34,37 +83,70 @@
     "matched_in": "title"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Beingolea se desplazó a Chongos Altos tras sismo de magnitud 5.0 en Junín: \"Estoy en contacto con el premier y la presidenta\"",
-    "url": "https://rpp.pe/politica/gobierno/ministro-alberto-beingolea-viaja-a-chongos-alto-tras-sismo-de-50-en-junin-noticia-1700433",
-    "source": "RPP",
-    "published": "2026-08-06T20:30:21-05:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministerio de Economía: prioridades, desafíos, crecimiento, equilibrio fiscal y urgencias marcan la agenda del gobierno de Keiko Fujimori",
-    "url": "https://www.infobae.com/peru/2026/08/06/ministerio-de-economia-prioridades-desafios-crecimiento-equilibrio-fiscal-y-urgencias-marcan-la-agenda-del-gobierno-de-keiko-fujimori/",
-    "source": "Infobae",
-    "published": "2026-08-06T12:21:27+00:00",
+    "title": "Leyes “con más ceros” se irán al TC, anunció el MEF",
+    "url": "https://gestion.pe/economia/leyes-con-mas-ceros-se-iran-al-tc-anuncio-el-mef-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T17:16:57+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Elmer Cuba: lo que recomendaba el nuevo ministro antes de ser titular del MEF",
-    "url": "https://gestion.pe/economia/elmer-cuba-lo-que-recomendaba-el-nuevo-ministro-del-gobierno-de-keiko-fujimori-antes-de-ser-titular-del-mef-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-31T17:17:00+00:00",
+    "title": "Gobierno no reducirá los feriados: Serán movidos a los viernes para crear fines de semana largos",
+    "url": "https://www.infobae.com/peru/2026/08/07/gobierno-no-reducira-los-feriados-seran-movidos-a-los-viernes-para-crear-fines-de-semana-largos/",
+    "source": "Infobae",
+    "published": "2026-08-07T17:08:14+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MEF anuncia que aumento del sueldo mínimo a S/1.300 se dará en dos partes: primero S/100 y luego S/70",
+    "url": "https://rpp.pe/economia/economia/mef-anuncia-que-aumento-del-sueldo-minimo-a-s-1300-se-dara-en-dos-partes-primero-s-100-y-luego-s-70-desde-cuando-noticia-1700518",
+    "source": "RPP",
+    "published": "2026-08-07T12:00:12-05:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Economía Elmer Cuba anuncia que los feriados en Perú se trasladarán a los viernes",
+    "url": "https://rpp.pe/economia/economia/ministro-de-economia-elmer-cuba-anuncia-que-los-feriados-se-trasladaran-a-los-viernes-noticia-1700515",
+    "source": "RPP",
+    "published": "2026-08-07T11:45:16-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno anuncia dos aumentos para el sueldo mínimo y confirma ayuda económica a pymes",
+    "url": "https://www.infobae.com/peru/2026/08/07/gobierno-anuncia-dos-aumentos-para-el-sueldo-minimo-y-confirma-ayuda-economica-a-pymes/",
+    "source": "Infobae",
+    "published": "2026-08-07T16:19:29+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con S/ 100",
+    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T16:09:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Editorial de Gestión: Los convocados",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-los-convocados-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T12:23:03+00:00",
+    "matched_in": "summary"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "guillermo-shinno-huamani": [
    {
-    "title": "Ministro Vinelli: Se está ajustando proyecto de delegación de facultades legislativas",
-    "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
+    "title": "Oliver Stark regresa a Petroperú: lo que dice el ministro del Minem sobre la petrolera",
+    "url": "https://gestion.pe/economia/petroperu-oliver-stark-regresa-a-la-petrolera-estatal-esto-es-lo-que-dice-el-ministro-del-minem-guillermo-shinno-sobre-la-empresa-noticia/",
     "source": "Gestión",
-    "published": "2026-07-31T12:15:00+00:00",
+    "published": "2026-08-07T17:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Plantas procesadoras de oro en la mira del Minem: la propuesta contra la minería ilegal",
+    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T16:50:00+00:00",
     "matched_in": "title"
    }
   ]
