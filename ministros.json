@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07T01:41:31+00:00",
+ "generated": "2026-08-07T06:09:29+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,22 @@
   "Infobae"
  ],
  "ministers": {
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá se reúne con el vicepresidente electo de Colombia en Cali",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-se-reune-con-el-vicepresidente-electo-de-colombia-en-cali-abelardo-de-la-espriella-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-07T01:44:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori no irá a la toma de mando de Abelardo de la Espriella: Canciller Carlos Espá irá en su lugar",
+    "url": "https://www.infobae.com/peru/2026/08/06/keiko-fujimori-no-ira-a-la-toma-de-mando-de-abelardo-de-la-espriella-canciller-carlos-espa-ira-en-su-lugar/",
+    "source": "Infobae",
+    "published": "2026-08-06T12:28:43+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-williams-dyer-fernandez": [
    {
     "title": "Ministro de Salud: “Estamos encontrando un ministerio que tecnológicamente está en el año 95”",
@@ -41,13 +57,6 @@
     "source": "Gestión",
     "published": "2026-07-31T17:17:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Petroperú: grupo de trabajadores solicita al MEF revisar intervención de ProInversión",
-    "url": "https://gestion.pe/peru/sindicato-de-petroperu-pide-al-gobierno-de-fujimori-revisar-la-intervencion-de-proinversion-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-31T03:36:22+00:00",
-    "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
@@ -56,15 +65,6 @@
     "url": "https://gestion.pe/economia/ministro-marco-vinelli-se-esta-ajustando-proyecto-de-delegacion-de-facultades-legislativas-para-enviarlo-al-congreso-noticia/",
     "source": "Gestión",
     "published": "2026-07-31T12:15:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Keiko Fujimori no irá a la toma de mando de Abelardo de la Espriella: Canciller Carlos Espá irá en su lugar",
-    "url": "https://www.infobae.com/peru/2026/08/06/keiko-fujimori-no-ira-a-la-toma-de-mando-de-abelardo-de-la-espriella-canciller-carlos-espa-ira-en-su-lugar/",
-    "source": "Infobae",
-    "published": "2026-08-06T12:28:43+00:00",
     "matched_in": "title"
    }
   ]
