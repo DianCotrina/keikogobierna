@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07T17:50:12+00:00",
+ "generated": "2026-08-07T23:34:30+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá anuncia que Perú y Colombia acordaron volver a nombrar embajadores",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-anuncia-que-peru-y-colombia-acordaron-volver-a-nombrar-embajadores-abelardo-de-la-espriella-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-07T22:46:40+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Gobiernos de Perú y México restablecen relaciones diplomáticas tras meses de tensión política",
     "url": "https://larepublica.pe/politica/2026/08/07/peru-y-mexico-restablecen-sus-relaciones-diplomaticas-anuncia-cancilleria-hnews-674107",
@@ -46,20 +53,6 @@
     "matched_in": "summary"
    },
    {
-    "title": "Canciller Espá participará en la toma de mando de Abelardo De La Espriella en Colombia",
-    "url": "https://gestion.pe/peru/politica/canciller-carlos-espa-participara-en-la-toma-de-mando-de-abelardo-de-la-espriella-en-colombia-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-07T05:40:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Canciller Carlos Espá viaja a Colombia para investidura presidencial de Abelardo de la Espriella, aliado de Fujimori",
-    "url": "https://www.infobae.com/peru/2026/08/07/canciller-carlos-espa-viaja-a-colombia-para-investidura-presidencial-de-abelardo-de-la-espriella-aliado-de-keiko-fujimori/",
-    "source": "Infobae",
-    "published": "2026-08-07T02:29:46+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Canciller Carlos Espá se reúne con el vicepresidente electo de Colombia en Cali",
     "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-se-reune-con-el-vicepresidente-electo-de-colombia-en-cali-abelardo-de-la-espriella-ultimas-noticia/",
     "source": "El Comercio",
@@ -68,13 +61,6 @@
    }
   ],
   "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer, titular del Minsa: “Hemos encontrado un ministerio que tecnológicamente está en el año 95”",
-    "url": "https://rpp.pe/politica/gobierno/luis-dyer-titular-del-minsa-hemos-encontrado-un-ministerio-que-tecnologicamente-esta-en-el-ano-95-noticia-1700360",
-    "source": "RPP",
-    "published": "2026-08-07T10:15:18-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro de Salud: “Estamos encontrando un ministerio que tecnológicamente está en el año 95”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-estamos-encontrando-un-ministerio-que-tecnologicamente-esta-en-el-ano-95-ultimas-noticia/",
@@ -85,10 +71,101 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Leyes “con más ceros” se irán al TC, anunció el MEF",
+    "title": "Ministro de Economía anuncia que los feriados en Perú se trasladarán a los viernes: ¿desde cuándo se aplicaría?",
+    "url": "https://rpp.pe/economia/economia/ministro-de-economia-elmer-cuba-anuncia-que-los-feriados-se-trasladaran-a-los-viernes-noticia-1700515",
+    "source": "RPP",
+    "published": "2026-08-07T18:30:16-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Déficit fiscal: Perú daría pasos para cambiar “techo” para siguientes años, ¿qué significa?",
+    "url": "https://gestion.pe/economia/deficit-fiscal-peru-daria-pasos-para-cambiar-techo-para-los-siguientes-anos-lo-que-anuncio-elmer-cuba-ministro-del-mef-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T22:45:22+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
+    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T22:23:48+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
+    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T22:08:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "4 leyes “con más ceros” en su costo se elevarían al TC, anunció el MEF: ¿cuáles serían?",
     "url": "https://gestion.pe/economia/leyes-con-mas-ceros-se-iran-al-tc-anuncio-el-mef-noticia/",
     "source": "Gestión",
-    "published": "2026-08-07T17:16:57+00:00",
+    "published": "2026-08-07T21:47:58+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF irá al TC por cuatro \"normas sobrevivientes\" del anterior Congreso que pondrían en jaque las cuentas públicas de los próximos cinco años",
+    "url": "https://rpp.pe/economia/economia/mef-ira-al-tc-por-cuatro-normas-sobrevivientes-del-anterior-congreso-que-pondrian-en-jaque-las-cuentas-publicas-de-los-proximos-cinco-anos-noticia-1700549",
+    "source": "RPP",
+    "published": "2026-08-07T16:45:04-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno de Fujimori busca reducir la pobreza a 15% al 2031",
+    "url": "https://gestion.pe/economia/gobierno-de-fujimori-busca-reducir-la-pobreza-a-15-al-final-del-mandato-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-07T21:33:05+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MEF anuncia que aumento del sueldo mínimo a S/1.300 se dará en dos partes: primero S/100 y luego S/70",
+    "url": "https://rpp.pe/economia/economia/mef-anuncia-que-aumento-del-sueldo-minimo-a-s-1300-se-dara-en-dos-partes-primero-s-100-y-luego-s-70-desde-cuando-noticia-1700518",
+    "source": "RPP",
+    "published": "2026-08-07T16:15:12-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba señala que pedido de facultades legislativas está paralizado por \"trámite burocrático\"",
+    "url": "https://larepublica.pe/politica/2026/08/07/elmer-cuba-senala-que-pedido-de-facultades-legislativas-esta-paralizado-por-tramite-burocratico-hnews-376306",
+    "source": "La República",
+    "published": "2026-08-07T20:41:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF llevará al TC cuatro normas que podrían elevar el déficit fiscal al 3% durante cinco años",
+    "url": "https://elcomercio.pe/economia/mef-llevara-al-tc-cuatro-normas-que-podrian-elevar-el-deficit-fiscal-al-3-durante-cinco-anos-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-07T20:24:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba, ministro de Economía y Finanzas: “Podríamos crecer 6% en la segunda parte del Gobierno”",
+    "url": "https://elcomercio.pe/economia/peru/mef-elmer-cuba-ministro-de-economia-y-finanzas-podriamos-crecer-6-en-la-segunda-parte-del-gobierno-entrevista-sueldo-minimo-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-07T20:00:06+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF sí evaluará propuesta de nuevo régimen laboral con gratificación, CTS y aportes a pensiones graduales",
+    "url": "https://www.infobae.com/peru/2026/08/07/mef-si-evaluara-propuesta-de-nuevo-regimen-laboral-con-gratificacion-cts-y-aportes-a-pensiones-graduales/",
+    "source": "Infobae",
+    "published": "2026-08-07T18:57:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "¿Desde cuándo los feriados se moverían a los viernes? Esto respondió el ministro Elmer Cuba",
+    "url": "https://www.infobae.com/peru/2026/08/07/desde-cuando-los-feriados-se-moverian-a-los-viernes-esto-respondio-el-ministro-elmer-cuba/",
+    "source": "Infobae",
+    "published": "2026-08-07T18:25:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Feriados se moverán, confirma el MEF: La lista de cómo quedaría el calendario nacional",
+    "url": "https://www.infobae.com/peru/2026/08/07/feriados-se-moveran-confirma-el-mef-la-lista-de-como-quedaria-el-calendario-nacional/",
+    "source": "Infobae",
+    "published": "2026-08-07T18:00:03+00:00",
     "matched_in": "title"
    },
    {
@@ -99,32 +176,11 @@
     "matched_in": "summary"
    },
    {
-    "title": "MEF anuncia que aumento del sueldo mínimo a S/1.300 se dará en dos partes: primero S/100 y luego S/70",
-    "url": "https://rpp.pe/economia/economia/mef-anuncia-que-aumento-del-sueldo-minimo-a-s-1300-se-dara-en-dos-partes-primero-s-100-y-luego-s-70-desde-cuando-noticia-1700518",
-    "source": "RPP",
-    "published": "2026-08-07T12:00:12-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Economía Elmer Cuba anuncia que los feriados en Perú se trasladarán a los viernes",
-    "url": "https://rpp.pe/economia/economia/ministro-de-economia-elmer-cuba-anuncia-que-los-feriados-se-trasladaran-a-los-viernes-noticia-1700515",
-    "source": "RPP",
-    "published": "2026-08-07T11:45:16-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Gobierno anuncia dos aumentos para el sueldo mínimo y confirma ayuda económica a pymes",
     "url": "https://www.infobae.com/peru/2026/08/07/gobierno-anuncia-dos-aumentos-para-el-sueldo-minimo-y-confirma-ayuda-economica-a-pymes/",
     "source": "Infobae",
     "published": "2026-08-07T16:19:29+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con S/ 100",
-    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-07T16:09:37+00:00",
-    "matched_in": "title"
    },
    {
     "title": "Editorial de Gestión: Los convocados",
@@ -139,15 +195,15 @@
     "title": "Oliver Stark regresa a Petroperú: lo que dice el ministro del Minem sobre la petrolera",
     "url": "https://gestion.pe/economia/petroperu-oliver-stark-regresa-a-la-petrolera-estatal-esto-es-lo-que-dice-el-ministro-del-minem-guillermo-shinno-sobre-la-empresa-noticia/",
     "source": "Gestión",
-    "published": "2026-08-07T17:00:00+00:00",
+    "published": "2026-08-07T21:22:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Plantas procesadoras de oro en la mira del Minem: la propuesta contra la minería ilegal",
+    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
     "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
     "source": "Gestión",
-    "published": "2026-08-07T16:50:00+00:00",
-    "matched_in": "title"
+    "published": "2026-08-07T19:22:33+00:00",
+    "matched_in": "summary"
    }
   ]
  }
