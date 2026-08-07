@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T12:58:01+00:00",
+ "generated": "2026-08-07T01:41:31+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,45 +9,22 @@
   "Infobae"
  ],
  "ministers": {
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Keiko Fujimori no irá a la toma de mando de Abelardo de la Espriella: Canciller Carlos Espá irá en su lugar",
-    "url": "https://www.infobae.com/peru/2026/08/06/keiko-fujimori-no-ira-a-la-toma-de-mando-de-abelardo-de-la-espriella-canciller-carlos-espa-ira-en-su-lugar/",
-    "source": "Infobae",
-    "published": "2026-08-06T12:28:43+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori: “La próxima semana debe estar presentándose” proyecto sobre facultades para legislar",
-    "url": "https://elcomercio.pe/politica/keiko-fujimori-estima-que-la-proxima-semana-debe-estar-presentandose-proyecto-sobre-facultades-para-legislar-y-consejo-de-minstros-lo-evalua-este-miercoles-noticia/",
+    "title": "Ministro de Salud: “Estamos encontrando un ministerio que tecnológicamente está en el año 95”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-estamos-encontrando-un-ministerio-que-tecnologicamente-esta-en-el-ano-95-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-04T15:41:28+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "César Astudillo asegura que su investigación por presunta apropiación de combustible fue archivada",
-    "url": "https://larepublica.pe/politica/2026/08/04/cesar-astudillo-asegura-que-su-investigacion-por-presunta-apropiacion-de-combustible-fue-archivada-hnews-65880",
-    "source": "La República",
-    "published": "2026-08-04T16:23:42+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Astudillo promete cautelar el presupuesto de la PNP y buen uso de los recursos",
-    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-promete-cautelar-el-presupuesto-de-la-pnp-y-asegurar-el-buen-uso-de-los-recursos-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-30T23:47:40+00:00",
+    "published": "2026-08-06T16:45:34+00:00",
     "matched_in": "title"
    }
   ],
-  "juan-carlos-requejo-aleman": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "De la anchoveta al atún: la estrategia del sector pesquero para enfrentar la \"nueva normalidad\" por el fenómeno El Niño",
-    "url": "https://rpp.pe/economia/economia/fenomeno-el-nino-costero-como-impactara-en-sector-pesquero-segun-produce-esta-sera-su-estrategia-noticia-1700302",
+    "title": "Beingolea se desplazó a Chongos Altos tras sismo de magnitud 5.0 en Junín: \"Estoy en contacto con el premier y la presidenta\"",
+    "url": "https://rpp.pe/politica/gobierno/ministro-alberto-beingolea-viaja-a-chongos-alto-tras-sismo-de-50-en-junin-noticia-1700433",
     "source": "RPP",
-    "published": "2026-08-05T17:55:40-05:00",
-    "matched_in": "summary"
+    "published": "2026-08-06T20:30:21-05:00",
+    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -82,12 +59,12 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Luis Dyer Fernández, la trayectoria del nuevo ministro de Salud",
-    "url": "https://gestion.pe/peru/luis-dyer-fernandez-asume-como-ministro-de-salud-su-trayectoria-noticia/",
-    "source": "Gestión",
-    "published": "2026-07-31T00:14:45+00:00",
+    "title": "Keiko Fujimori no irá a la toma de mando de Abelardo de la Espriella: Canciller Carlos Espá irá en su lugar",
+    "url": "https://www.infobae.com/peru/2026/08/06/keiko-fujimori-no-ira-a-la-toma-de-mando-de-abelardo-de-la-espriella-canciller-carlos-espa-ira-en-su-lugar/",
+    "source": "Infobae",
+    "published": "2026-08-06T12:28:43+00:00",
     "matched_in": "title"
    }
   ]
