@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T17:31:08+00:00",
+ "generated": "2026-08-08T23:29:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,7 +11,14 @@
  "ministers": {
   "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Ernesto Álvarez sobre Betssy Chávez: “El Perú tiene toda la todo el derecho de pedir extradición”",
+    "title": "Keiko Fujimori no indultará a Pedro Castillo: “Es imposible”, afirma el ministro de Justicia",
+    "url": "https://www.infobae.com/peru/2026/08/08/keiko-fujimori-no-indultara-a-pedro-castillo-es-imposible-enfatiza-el-ministro-de-justicia/",
+    "source": "Infobae",
+    "published": "2026-08-08T21:12:17+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ernesto Álvarez sobre Betssy Chávez: “El Perú tiene todo el derecho de pedir extradición”",
     "url": "https://elcomercio.pe/politica/actualidad/ernesto-alvarez-sobre-betssy-chavez-el-peru-tiene-toda-la-todo-el-derecho-de-pedir-extradicion-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-08T16:37:04+00:00",
@@ -23,16 +30,16 @@
     "source": "Gestión",
     "published": "2026-08-08T16:20:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori no indultará a Pedro Castillo: “Es imposible”, afirma el ministro de Justicia",
-    "url": "https://www.infobae.com/peru/2026/08/08/keiko-fujimori-no-indultara-a-pedro-castillo-es-imposible-enfatiza-el-ministro-de-justicia/",
-    "source": "Infobae",
-    "published": "2026-08-08T15:39:27+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
+    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T21:56:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Canciller Carlos Espá anuncia que Perú y Colombia acordaron volver a nombrar embajadores",
     "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-anuncia-que-peru-y-colombia-acordaron-volver-a-nombrar-embajadores-abelardo-de-la-espriella-ultimas-noticia/",
@@ -69,25 +76,35 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Ministro de Salud: “Estamos encontrando un ministerio que tecnológicamente está en el año 95”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-estamos-encontrando-un-ministerio-que-tecnologicamente-esta-en-el-ano-95-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-06T16:45:34+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
-    "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
-    "source": "La República",
-    "published": "2026-08-08T16:05:53+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
+    "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T21:48:46+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "¿Se cambia el feriado del 30 de agosto? El MEF aclara qué pasará con el Día de Santa Rosa de Lima",
+    "url": "https://elcomercio.pe/respuestas/cuando/se-cambia-el-feriado-del-30-de-agosto-el-mef-aclara-que-pasara-con-el-dia-de-santa-rosa-de-lima-tdpe-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-08T20:43:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
+    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T19:31:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Adiós a la gratificación CAS, aumento de pensiones a maestros y militares, y homologación CAFAE: MEF las llevará al TC",
+    "url": "https://www.infobae.com/peru/2026/08/08/adios-a-la-gratificacion-cas-aumento-de-pensiones-a-maestros-y-militares-y-homologacion-cafae-mef-las-llevara-al-tc/",
+    "source": "Infobae",
+    "published": "2026-08-08T18:52:34+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "MEF subiría regla del déficit fiscal, luego de que el Congreso legislara con iniciativa de gasto",
     "url": "https://www.infobae.com/peru/2026/08/08/mef-subiria-regla-del-deficit-fiscal-luego-de-que-el-congreso-legislara-con-iniciativa-de-gasto/",
@@ -107,13 +124,6 @@
     "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
     "source": "Gestión",
     "published": "2026-08-08T17:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
-    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T16:46:42+00:00",
     "matched_in": "title"
    },
    {
@@ -138,20 +148,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Gobierno anuncia dos aumentos para el sueldo mínimo y confirma ayuda económica a pymes",
-    "url": "https://www.infobae.com/peru/2026/08/07/gobierno-anuncia-dos-aumentos-para-el-sueldo-minimo-y-confirma-ayuda-economica-a-pymes/",
-    "source": "Infobae",
-    "published": "2026-08-08T01:57:29+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
-    "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T01:38:48+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "4 leyes “con más ceros” en su costo se elevarían al TC, anunció el MEF: ¿cuáles serían?",
     "url": "https://gestion.pe/economia/leyes-con-mas-ceros-se-iran-al-tc-anuncio-el-mef-noticia/",
     "source": "Gestión",
@@ -173,7 +169,41 @@
     "matched_in": "title"
    }
   ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Keiko Fujimori se reúne en Palacio de Gobierno con Tomás Gálvez y Patricia Benavides",
+    "url": "https://larepublica.pe/politica/2026/08/08/keiko-fujimori-se-reune-en-palacio-de-gobierno-con-tomas-galvez-y-patricia-benavides-hnews-489448",
+    "source": "La República",
+    "published": "2026-08-08T22:36:17+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Abuchean a Alberto Beingolea durante conmemoración por la Batalla de Junín",
+    "url": "https://larepublica.pe/politica/2026/08/08/abuchean-a-alberto-beingolea-durante-conmemoracion-por-la-batalla-de-junin-hnews-240064",
+    "source": "La República",
+    "published": "2026-08-08T20:44:52+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
+    "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
+    "source": "La República",
+    "published": "2026-08-08T16:05:53+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Fenómeno El Niño pone en riesgo 569 puntos en el Perú: Así atenderá estas zonas el Mindef ante la emergencia climática",
+    "url": "https://www.infobae.com/peru/2026/08/08/fenomeno-el-nino-pone-en-riesgo-569-puntos-en-el-peru-asi-atendera-estas-zonas-el-mindef-ante-la-emergencia-climatica/",
+    "source": "Infobae",
+    "published": "2026-08-08T22:19:11+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "No hay fecha para que los militares salgan a las calles: “Estamos definiendo la estrategia”, señala ministro de Defensa",
     "url": "https://www.infobae.com/peru/2026/08/08/no-hay-fecha-para-que-los-militares-salgan-a-las-calles-estamos-definiendo-la-estrategia-senala-ministro-de-defensa/",
@@ -198,18 +228,11 @@
   ],
   "guillermo-shinno-huamani": [
    {
-    "title": "Oliver Stark regresa a Petroperú: lo que dice el ministro del Minem sobre la petrolera",
-    "url": "https://gestion.pe/economia/petroperu-oliver-stark-regresa-a-la-petrolera-estatal-esto-es-lo-que-dice-el-ministro-del-minem-guillermo-shinno-sobre-la-empresa-noticia/",
+    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
+    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
     "source": "Gestión",
-    "published": "2026-08-07T21:22:00+00:00",
+    "published": "2026-08-08T19:31:10+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
-    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-07T19:22:33+00:00",
-    "matched_in": "summary"
    }
   ]
  }
