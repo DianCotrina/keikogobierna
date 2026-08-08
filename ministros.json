@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T11:29:57+00:00",
+ "generated": "2026-08-08T17:31:08+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ernesto Álvarez sobre Betssy Chávez: “El Perú tiene toda la todo el derecho de pedir extradición”",
+    "url": "https://elcomercio.pe/politica/actualidad/ernesto-alvarez-sobre-betssy-chavez-el-peru-tiene-toda-la-todo-el-derecho-de-pedir-extradicion-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-08T16:37:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
+    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T16:20:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori no indultará a Pedro Castillo: “Es imposible”, afirma el ministro de Justicia",
+    "url": "https://www.infobae.com/peru/2026/08/08/keiko-fujimori-no-indultara-a-pedro-castillo-es-imposible-enfatiza-el-ministro-de-justicia/",
+    "source": "Infobae",
+    "published": "2026-08-08T15:39:27+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Canciller Carlos Espá anuncia que Perú y Colombia acordaron volver a nombrar embajadores",
@@ -55,19 +78,63 @@
     "matched_in": "title"
    }
   ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
+    "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
+    "source": "La República",
+    "published": "2026-08-08T16:05:53+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Elmer Cuba, ministro de Economía y Finanzas: “Los feriados podrán ser viernes o lunes, lo que está en evaluación es cuándo lo sacamos”",
-    "url": "https://elcomercio.pe/economia/peru/mef-elmer-cuba-ministro-de-economia-y-finanzas-podriamos-crecer-6-en-la-segunda-parte-del-gobierno-entrevista-sueldo-minimo-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-08T04:20:00+00:00",
+    "title": "MEF subiría regla del déficit fiscal, luego de que el Congreso legislara con iniciativa de gasto",
+    "url": "https://www.infobae.com/peru/2026/08/08/mef-subiria-regla-del-deficit-fiscal-luego-de-que-el-congreso-legislara-con-iniciativa-de-gasto/",
+    "source": "Infobae",
+    "published": "2026-08-08T17:17:16+00:00",
     "matched_in": "title"
    },
    {
-    "title": "MEF sí evaluará propuesta de nuevo régimen laboral con gratificación, CTS y aportes a pensiones graduales",
+    "title": "MEF revela cuatro leyes que llegarán al TC: gratificaciones CAS, pensiones de maestros y militares y Cafae",
+    "url": "https://rpp.pe/economia/economia/gratificaciones-cas-mef-revela-que-llegaran-al-tribunal-constitucional-con-pensiones-de-maestros-y-militares-y-cafae-ministro-cuba-noticia-1700684",
+    "source": "RPP",
+    "published": "2026-08-08T12:15:18-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
+    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T17:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
+    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T16:46:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno de Fujimori busca reducir la pobreza a 15% al 2031",
+    "url": "https://gestion.pe/economia/gobierno-de-fujimori-busca-reducir-la-pobreza-a-15-al-final-del-mandato-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T15:05:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Feriados en Perú: MEF corrige propuesta y anuncia que se trasladarán a los lunes para no afectar la actividad productiva de las empresas",
+    "url": "https://rpp.pe/economia/economia/feriados-en-peru-mef-cambia-propuesta-y-ahora-plantea-trasladarlos-a-lunes-para-no-afectar-la-actividad-productiva-de-las-empresas-noticia-1700665",
+    "source": "RPP",
+    "published": "2026-08-08T09:33:17-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF sí evalúa propuesta de nuevo régimen laboral con gratificación, CTS y aportes a pensiones graduales",
     "url": "https://www.infobae.com/peru/2026/08/07/mef-si-evaluara-propuesta-de-nuevo-regimen-laboral-con-gratificacion-cts-y-aportes-a-pensiones-graduales/",
     "source": "Infobae",
-    "published": "2026-08-08T02:04:06+00:00",
+    "published": "2026-08-08T11:33:07+00:00",
     "matched_in": "title"
    },
    {
@@ -85,31 +152,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
-    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T00:48:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF busca bajar hasta S/1 el galón de gasolinas: alista fondo para estabilizar el precio de los combustibles",
-    "url": "https://rpp.pe/economia/economia/mef-busca-bajar-hasta-s-1-el-galon-de-gasolinas-alista-fondo-para-estabilizar-el-precio-de-los-combustibles-ante-alza-por-conflicto-del-medio-oriente-anuncio-elmer-cuba-noticia-1700612",
-    "source": "RPP",
-    "published": "2026-08-07T19:11:28-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "4 leyes “con más ceros” en su costo se elevarían al TC, anunció el MEF: ¿cuáles serían?",
     "url": "https://gestion.pe/economia/leyes-con-mas-ceros-se-iran-al-tc-anuncio-el-mef-noticia/",
     "source": "Gestión",
     "published": "2026-08-07T23:48:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Economía anuncia que los feriados en Perú se trasladarán a los viernes: ¿desde cuándo se aplicaría?",
-    "url": "https://rpp.pe/economia/economia/ministro-de-economia-elmer-cuba-anuncia-que-los-feriados-se-trasladaran-a-los-viernes-noticia-1700515",
-    "source": "RPP",
-    "published": "2026-08-07T18:30:16-05:00",
     "matched_in": "title"
    },
    {
@@ -120,45 +166,33 @@
     "matched_in": "summary"
    },
    {
-    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
-    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-07T22:23:48+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno de Fujimori busca reducir la pobreza a 15% al 2031",
-    "url": "https://gestion.pe/economia/gobierno-de-fujimori-busca-reducir-la-pobreza-a-15-al-final-del-mandato-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-07T21:33:05+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Elmer Cuba señala que pedido de facultades legislativas está paralizado por \"trámite burocrático\"",
     "url": "https://larepublica.pe/politica/2026/08/07/elmer-cuba-senala-que-pedido-de-facultades-legislativas-esta-paralizado-por-tramite-burocratico-hnews-376306",
     "source": "La República",
     "published": "2026-08-07T20:41:08+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "¿Desde cuándo los feriados se moverían a los viernes? Esto respondió el ministro Elmer Cuba",
-    "url": "https://www.infobae.com/peru/2026/08/07/desde-cuando-los-feriados-se-moverian-a-los-viernes-esto-respondio-el-ministro-elmer-cuba/",
+    "title": "No hay fecha para que los militares salgan a las calles: “Estamos definiendo la estrategia”, señala ministro de Defensa",
+    "url": "https://www.infobae.com/peru/2026/08/08/no-hay-fecha-para-que-los-militares-salgan-a-las-calles-estamos-definiendo-la-estrategia-senala-ministro-de-defensa/",
     "source": "Infobae",
-    "published": "2026-08-07T18:25:16+00:00",
+    "published": "2026-08-08T16:24:21+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Feriados se moverán, confirma el MEF: La lista de cómo quedaría el calendario nacional",
-    "url": "https://www.infobae.com/peru/2026/08/07/feriados-se-moveran-confirma-el-mef-la-lista-de-como-quedaria-el-calendario-nacional/",
-    "source": "Infobae",
-    "published": "2026-08-07T18:00:03+00:00",
+    "title": "Ministro de Defensa dice que aún no hay fecha definida para que las FF.AA. patrullen las calles y buses de transporte público",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-dice-que-aun-no-hay-fecha-definida-para-que-las-ffaa-patrullen-las-calles-y-buses-de-transporte-publico-noticia-1700673",
+    "source": "RPP",
+    "published": "2026-08-08T11:00:10-05:00",
     "matched_in": "title"
    },
    {
-    "title": "Gobierno no reducirá los feriados: Serán movidos a los viernes para crear fines de semana largos",
-    "url": "https://www.infobae.com/peru/2026/08/07/gobierno-no-reducira-los-feriados-seran-movidos-a-los-viernes-para-crear-fines-de-semana-largos/",
-    "source": "Infobae",
-    "published": "2026-08-07T17:08:14+00:00",
+    "title": "El Niño: Ejército movilizará batallones de ingeniería hacia las zonas prioritarias",
+    "url": "https://gestion.pe/peru/el-nino-ejercito-movilizara-batallones-de-ingenieria-hacia-las-zonas-prioritarias-segun-mindef-del-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T14:55:40+00:00",
     "matched_in": "summary"
    }
   ],
