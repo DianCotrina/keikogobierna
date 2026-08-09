@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T17:32:26+00:00",
+ "generated": "2026-08-09T23:32:00+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Keiko Fujimori no indultará a Alejandro Toledo por sus “problemas notorios” con decir la verdad, anuncia ministro de Justicia",
+    "url": "https://www.infobae.com/peru/2026/08/09/keiko-fujimori-no-indultara-a-alejandro-toledo-por-sus-problemas-notorios-con-decir-la-verdad-afirma-ministro-de-justicia/",
+    "source": "Infobae",
+    "published": "2026-08-09T22:01:37+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
     "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
@@ -22,13 +29,6 @@
     "url": "https://larepublica.pe/politica/2026/08/08/no-se-puede-indultar-a-toledo-ministro-de-justicia-descarta-beneficio-para-el-exmandatario-hnews-566488",
     "source": "La República",
     "published": "2026-08-09T03:28:09+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori no indultará a Pedro Castillo: “Es imposible”, afirma el ministro de Justicia",
-    "url": "https://www.infobae.com/peru/2026/08/08/keiko-fujimori-no-indultara-a-pedro-castillo-es-imposible-enfatiza-el-ministro-de-justicia/",
-    "source": "Infobae",
-    "published": "2026-08-08T21:12:17+00:00",
     "matched_in": "title"
    },
    {
@@ -56,6 +56,13 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "¿Cambiará el feriado del 30 de agosto? El MEF aclara qué pasará con el Día de Santa Rosa de Lima",
+    "url": "https://elcomercio.pe/respuestas/cuando/se-cambia-el-feriado-del-30-de-agosto-el-mef-aclara-que-pasara-con-el-dia-de-santa-rosa-de-lima-tdpe-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-09T17:54:55+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "No dejar la ola",
     "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
@@ -90,13 +97,6 @@
     "source": "Gestión",
     "published": "2026-08-08T15:05:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Elmer Cuba señala que pedido de facultades legislativas está paralizado por \"trámite burocrático\"",
-    "url": "https://larepublica.pe/politica/2026/08/07/elmer-cuba-senala-que-pedido-de-facultades-legislativas-esta-paralizado-por-tramite-burocratico-hnews-376306",
-    "source": "La República",
-    "published": "2026-08-07T20:41:08+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -106,13 +106,6 @@
     "source": "La República",
     "published": "2026-08-09T17:15:55+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Mininter activa Plan Escudo con presencia militar y policial para prevenir ataques extorsivos contra transporte urbano",
-    "url": "https://rpp.pe/politica/gobierno/mininter-activa-plan-escudo-con-presencia-militar-y-policial-para-prevenir-ataques-extorsivos-contra-transporte-urbano-noticia-1700748",
-    "source": "RPP",
-    "published": "2026-08-09T08:27:31-05:00",
-    "matched_in": "title"
    },
    {
     "title": "Copamiento del Ejército en el Ministerio del Interior",
@@ -158,6 +151,13 @@
   ],
   "guillermo-shinno-huamani": [
    {
+    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
+    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T22:20:47+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
     "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
     "source": "Gestión",
@@ -166,13 +166,6 @@
    }
   ],
   "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Fenómeno El Niño pone en riesgo 569 puntos en el Perú: Así atenderá estas zonas el Mindef ante la emergencia climática",
-    "url": "https://www.infobae.com/peru/2026/08/08/fenomeno-el-nino-pone-en-riesgo-569-puntos-en-el-peru-asi-atendera-estas-zonas-el-mindef-ante-la-emergencia-climatica/",
-    "source": "Infobae",
-    "published": "2026-08-08T22:19:11+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "El Niño: Ejército movilizará batallones de ingeniería hacia las zonas prioritarias",
     "url": "https://gestion.pe/peru/el-nino-ejercito-movilizara-batallones-de-ingenieria-hacia-las-zonas-prioritarias-segun-mindef-del-gobierno-de-keiko-fujimori-noticia/",
