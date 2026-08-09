@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T05:46:59+00:00",
+ "generated": "2026-08-09T11:29:34+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -76,34 +76,14 @@
     "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Keiko Fujimori se reúne en Palacio de Gobierno con Tomás Gálvez y Patricia Benavides",
-    "url": "https://larepublica.pe/politica/2026/08/08/keiko-fujimori-se-reune-en-palacio-de-gobierno-con-tomas-galvez-y-patricia-benavides-hnews-489448",
-    "source": "La República",
-    "published": "2026-08-08T22:36:17+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Abuchean a Alberto Beingolea durante conmemoración por la Batalla de Junín",
-    "url": "https://larepublica.pe/politica/2026/08/08/abuchean-a-alberto-beingolea-durante-conmemoracion-por-la-batalla-de-junin-hnews-240064",
-    "source": "La República",
-    "published": "2026-08-08T20:44:52+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
-    "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
-    "source": "La República",
-    "published": "2026-08-08T16:05:53+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "No dejar la ola",
+    "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-09T11:00:01+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
     "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
@@ -154,18 +134,38 @@
     "matched_in": "summary"
    },
    {
-    "title": "4 leyes “con más ceros” en su costo se elevarían al TC, anunció el MEF: ¿cuáles serían?",
-    "url": "https://gestion.pe/economia/leyes-con-mas-ceros-se-iran-al-tc-anuncio-el-mef-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-07T23:48:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Elmer Cuba señala que pedido de facultades legislativas está paralizado por \"trámite burocrático\"",
     "url": "https://larepublica.pe/politica/2026/08/07/elmer-cuba-senala-que-pedido-de-facultades-legislativas-esta-paralizado-por-tramite-burocratico-hnews-376306",
     "source": "La República",
     "published": "2026-08-07T20:41:08+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Keiko Fujimori se reúne en Palacio de Gobierno con Tomás Gálvez y Patricia Benavides",
+    "url": "https://larepublica.pe/politica/2026/08/08/keiko-fujimori-se-reune-en-palacio-de-gobierno-con-tomas-galvez-y-patricia-benavides-hnews-489448",
+    "source": "La República",
+    "published": "2026-08-08T22:36:17+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Abuchean a Alberto Beingolea durante conmemoración por la Batalla de Junín",
+    "url": "https://larepublica.pe/politica/2026/08/08/abuchean-a-alberto-beingolea-durante-conmemoracion-por-la-batalla-de-junin-hnews-240064",
+    "source": "La República",
+    "published": "2026-08-08T20:44:52+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
+    "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
+    "source": "La República",
+    "published": "2026-08-08T16:05:53+00:00",
+    "matched_in": "summary"
    }
   ],
   "guillermo-shinno-huamani": [
