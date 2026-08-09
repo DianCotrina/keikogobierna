@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T11:29:34+00:00",
+ "generated": "2026-08-09T17:32:26+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -53,27 +53,6 @@
     "source": "El Comercio",
     "published": "2026-08-07T22:46:40+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Gobiernos de Perú y México restablecen relaciones diplomáticas tras meses de tensión política",
-    "url": "https://larepublica.pe/politica/2026/08/07/peru-y-mexico-restablecen-sus-relaciones-diplomaticas-anuncia-cancilleria-hnews-674107",
-    "source": "La República",
-    "published": "2026-08-07T16:01:20+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Gobierno otorgó salvo conducto a Betssy Chávez y exministra viajó a México en la madrugada",
-    "url": "https://larepublica.pe/politica/2026/08/07/gobierno-otorga-salvoconducto-a-betssy-chavez-y-peru-reanuda-relacion-diplomatica-con-mexico-hnews-461888",
-    "source": "La República",
-    "published": "2026-08-07T15:54:12+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Betssy Chávez partió a México “aproximadamente a la medianoche”, informa canciller Carlos Espá",
-    "url": "https://elcomercio.pe/politica/actualidad/betssy-chavez-partio-a-mexico-aproximadamente-a-la-medianoche-informa-canciller-carlos-espa-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-07T12:43:41+00:00",
-    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -99,27 +78,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Adiós a la gratificación CAS, aumento de pensiones a maestros y militares, y homologación CAFAE: MEF las llevará al TC",
-    "url": "https://www.infobae.com/peru/2026/08/08/adios-a-la-gratificacion-cas-aumento-de-pensiones-a-maestros-y-militares-y-homologacion-cafae-mef-las-llevara-al-tc/",
-    "source": "Infobae",
-    "published": "2026-08-08T18:52:34+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF subiría regla del déficit fiscal, luego de que el Congreso legislara con iniciativa de gasto",
-    "url": "https://www.infobae.com/peru/2026/08/08/mef-subiria-regla-del-deficit-fiscal-luego-de-que-el-congreso-legislara-con-iniciativa-de-gasto/",
-    "source": "Infobae",
-    "published": "2026-08-08T17:17:16+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF revela cuatro leyes que llegarán al TC: gratificaciones CAS, pensiones de maestros y militares y Cafae",
-    "url": "https://rpp.pe/economia/economia/gratificaciones-cas-mef-revela-que-llegaran-al-tribunal-constitucional-con-pensiones-de-maestros-y-militares-y-cafae-ministro-cuba-noticia-1700684",
-    "source": "RPP",
-    "published": "2026-08-08T12:15:18-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
     "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
     "source": "Gestión",
@@ -138,6 +96,29 @@
     "url": "https://larepublica.pe/politica/2026/08/07/elmer-cuba-senala-que-pedido-de-facultades-legislativas-esta-paralizado-por-tramite-burocratico-hnews-376306",
     "source": "La República",
     "published": "2026-08-07T20:41:08+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Extorsión, sicariato e inteligencia, los primeros desafíos de seguridad que asume el Gobierno",
+    "url": "https://larepublica.pe/politica/2026/08/09/extorsion-sicariato-e-inteligencia-los-primeros-desafios-de-seguridad-que-asume-el-gobierno-seguridad-hnews-547758",
+    "source": "La República",
+    "published": "2026-08-09T17:15:55+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Mininter activa Plan Escudo con presencia militar y policial para prevenir ataques extorsivos contra transporte urbano",
+    "url": "https://rpp.pe/politica/gobierno/mininter-activa-plan-escudo-con-presencia-militar-y-policial-para-prevenir-ataques-extorsivos-contra-transporte-urbano-noticia-1700748",
+    "source": "RPP",
+    "published": "2026-08-09T08:27:31-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Copamiento del Ejército en el Ministerio del Interior",
+    "url": "https://larepublica.pe/politica/2026/08/09/copamiento-del-ejercito-en-el-ministerio-del-interior-hnews-534600",
+    "source": "La República",
+    "published": "2026-08-09T11:46:26+00:00",
     "matched_in": "title"
    }
   ],
@@ -161,6 +142,13 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
+    "title": "Juan Sheput tras remoción de Jaime Moreno: “Empezó el proceso de mejora de EsSalud”",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-tras-remocion-de-jaime-moreno-empezo-el-proceso-de-mejora-de-essalud-noticia-1700759",
+    "source": "RPP",
+    "published": "2026-08-09T09:59:39-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
     "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
     "source": "La República",
@@ -183,13 +171,6 @@
     "url": "https://www.infobae.com/peru/2026/08/08/fenomeno-el-nino-pone-en-riesgo-569-puntos-en-el-peru-asi-atendera-estas-zonas-el-mindef-ante-la-emergencia-climatica/",
     "source": "Infobae",
     "published": "2026-08-08T22:19:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "No hay fecha para que los militares salgan a las calles: “Estamos definiendo la estrategia”, señala ministro de Defensa",
-    "url": "https://www.infobae.com/peru/2026/08/08/no-hay-fecha-para-que-los-militares-salgan-a-las-calles-estamos-definiendo-la-estrategia-senala-ministro-de-defensa/",
-    "source": "Infobae",
-    "published": "2026-08-08T16:24:21+00:00",
     "matched_in": "title"
    },
    {
