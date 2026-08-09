@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T23:29:43+00:00",
+ "generated": "2026-08-09T05:46:59+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
+    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T05:28:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“No se puede indultar a Toledo”: Ministro de Justicia descarta beneficio para el exmandatario",
+    "url": "https://larepublica.pe/politica/2026/08/08/no-se-puede-indultar-a-toledo-ministro-de-justicia-descarta-beneficio-para-el-exmandatario-hnews-566488",
+    "source": "La República",
+    "published": "2026-08-09T03:28:09+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori no indultará a Pedro Castillo: “Es imposible”, afirma el ministro de Justicia",
     "url": "https://www.infobae.com/peru/2026/08/08/keiko-fujimori-no-indultara-a-pedro-castillo-es-imposible-enfatiza-el-ministro-de-justicia/",
@@ -22,13 +36,6 @@
     "url": "https://elcomercio.pe/politica/actualidad/ernesto-alvarez-sobre-betssy-chavez-el-peru-tiene-toda-la-todo-el-derecho-de-pedir-extradicion-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-08T16:37:04+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
-    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T16:20:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -67,13 +74,33 @@
     "source": "El Comercio",
     "published": "2026-08-07T12:43:41+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Canciller Carlos Espá se reúne con el vicepresidente electo de Colombia en Cali",
-    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-se-reune-con-el-vicepresidente-electo-de-colombia-en-cali-abelardo-de-la-espriella-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-07T01:44:12+00:00",
+    "title": "Keiko Fujimori se reúne en Palacio de Gobierno con Tomás Gálvez y Patricia Benavides",
+    "url": "https://larepublica.pe/politica/2026/08/08/keiko-fujimori-se-reune-en-palacio-de-gobierno-con-tomas-galvez-y-patricia-benavides-hnews-489448",
+    "source": "La República",
+    "published": "2026-08-08T22:36:17+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Abuchean a Alberto Beingolea durante conmemoración por la Batalla de Junín",
+    "url": "https://larepublica.pe/politica/2026/08/08/abuchean-a-alberto-beingolea-durante-conmemoracion-por-la-batalla-de-junin-hnews-240064",
+    "source": "La República",
+    "published": "2026-08-08T20:44:52+00:00",
     "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
+    "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
+    "source": "La República",
+    "published": "2026-08-08T16:05:53+00:00",
+    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -81,14 +108,7 @@
     "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
     "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
     "source": "Gestión",
-    "published": "2026-08-08T21:48:46+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "¿Se cambia el feriado del 30 de agosto? El MEF aclara qué pasará con el Día de Santa Rosa de Lima",
-    "url": "https://elcomercio.pe/respuestas/cuando/se-cambia-el-feriado-del-30-de-agosto-el-mef-aclara-que-pasara-con-el-dia-de-santa-rosa-de-lima-tdpe-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-08T20:43:42+00:00",
+    "published": "2026-08-09T03:48:00+00:00",
     "matched_in": "title"
    },
    {
@@ -134,32 +154,11 @@
     "matched_in": "summary"
    },
    {
-    "title": "Feriados en Perú: MEF corrige propuesta y anuncia que se trasladarán a los lunes para no afectar la actividad productiva de las empresas",
-    "url": "https://rpp.pe/economia/economia/feriados-en-peru-mef-cambia-propuesta-y-ahora-plantea-trasladarlos-a-lunes-para-no-afectar-la-actividad-productiva-de-las-empresas-noticia-1700665",
-    "source": "RPP",
-    "published": "2026-08-08T09:33:17-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF sí evalúa propuesta de nuevo régimen laboral con gratificación, CTS y aportes a pensiones graduales",
-    "url": "https://www.infobae.com/peru/2026/08/07/mef-si-evaluara-propuesta-de-nuevo-regimen-laboral-con-gratificacion-cts-y-aportes-a-pensiones-graduales/",
-    "source": "Infobae",
-    "published": "2026-08-08T11:33:07+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "4 leyes “con más ceros” en su costo se elevarían al TC, anunció el MEF: ¿cuáles serían?",
     "url": "https://gestion.pe/economia/leyes-con-mas-ceros-se-iran-al-tc-anuncio-el-mef-noticia/",
     "source": "Gestión",
     "published": "2026-08-07T23:48:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Déficit fiscal: Perú daría pasos para cambiar “techo” para siguientes años, ¿qué significa?",
-    "url": "https://gestion.pe/economia/deficit-fiscal-peru-daria-pasos-para-cambiar-techo-para-los-siguientes-anos-lo-que-anuncio-elmer-cuba-ministro-del-mef-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-07T22:45:22+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Elmer Cuba señala que pedido de facultades legislativas está paralizado por \"trámite burocrático\"",
@@ -169,31 +168,13 @@
     "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "guillermo-shinno-huamani": [
    {
-    "title": "Keiko Fujimori se reúne en Palacio de Gobierno con Tomás Gálvez y Patricia Benavides",
-    "url": "https://larepublica.pe/politica/2026/08/08/keiko-fujimori-se-reune-en-palacio-de-gobierno-con-tomas-galvez-y-patricia-benavides-hnews-489448",
-    "source": "La República",
-    "published": "2026-08-08T22:36:17+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Abuchean a Alberto Beingolea durante conmemoración por la Batalla de Junín",
-    "url": "https://larepublica.pe/politica/2026/08/08/abuchean-a-alberto-beingolea-durante-conmemoracion-por-la-batalla-de-junin-hnews-240064",
-    "source": "La República",
-    "published": "2026-08-08T20:44:52+00:00",
+    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
+    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T23:35:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Gobierno de Fujimori promete viviendas en Junín, pero damnificados del sismo se quejan por la lentitud",
-    "url": "https://larepublica.pe/politica/2026/08/08/gobierno-de-fujimori-promete-viviendas-en-junin-pero-damnificados-del-sismo-se-quejan-por-la-lentitud-hnews-703352",
-    "source": "La República",
-    "published": "2026-08-08T16:05:53+00:00",
-    "matched_in": "summary"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -212,27 +193,11 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro de Defensa dice que aún no hay fecha definida para que las FF.AA. patrullen las calles y buses de transporte público",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-dice-que-aun-no-hay-fecha-definida-para-que-las-ffaa-patrullen-las-calles-y-buses-de-transporte-publico-noticia-1700673",
-    "source": "RPP",
-    "published": "2026-08-08T11:00:10-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "El Niño: Ejército movilizará batallones de ingeniería hacia las zonas prioritarias",
     "url": "https://gestion.pe/peru/el-nino-ejercito-movilizara-batallones-de-ingenieria-hacia-las-zonas-prioritarias-segun-mindef-del-gobierno-de-keiko-fujimori-noticia/",
     "source": "Gestión",
     "published": "2026-08-08T14:55:40+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
-    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T19:31:10+00:00",
-    "matched_in": "title"
    }
   ]
  }
