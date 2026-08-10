@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.10.0](https://github.com/DianCotrina/keikogobierna/compare/v2.9.0...v2.10.0) (2026-08-10)
+
+
+### Features
+
+* certify the first commitment as in progress ([632ebb1](https://github.com/DianCotrina/keikogobierna/commit/632ebb104b27363bd528f4dd9f114aa806a1c343))
+
+
+### Bug Fixes
+
+* gate the personnel forms and name collisions the queue kept surfacing ([77d5d0b](https://github.com/DianCotrina/keikogobierna/commit/77d5d0bdbf9c3b26229d0491ded5b0799bd70191))
+
 ## [2.9.0](https://github.com/DianCotrina/keikogobierna/compare/v2.8.5...v2.9.0) (2026-08-06)
 
 
