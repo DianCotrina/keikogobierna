@@ -90,9 +90,23 @@ describe('topicSummaries', () => {
 });
 
 describe('updatesLog', () => {
-  test('returns empty array for current tracking data', () => {
+  // Asserts the log's shape, not its emptiness — this test hard-coded `[]` and
+  // broke the day the first commitment was certified, which is the one moment
+  // it should have stayed green.
+  test('every entry is well-formed and references a tracked commitment', () => {
     const tracking = loadTracking();
-    assert.deepEqual(updatesLog(tracking), []);
+    const known = new Set(Object.keys(tracking.items));
+    for (const entry of updatesLog(tracking)) {
+      assert.match(entry.date, /^\d{4}-\d{2}-\d{2}$/);
+      assert.ok(known.has(entry.item), `unknown item ${entry.item}`);
+      assert.ok(Object.hasOwn(STATUSES, entry.status), `bad status ${entry.status}`);
+      assert.ok(entry.text.trim().length > 0);
+    }
+  });
+
+  test('entries come back newest first', () => {
+    const dates = updatesLog(loadTracking()).map((e) => e.date);
+    assert.deepEqual(dates, [...dates].sort().reverse());
   });
 });
 

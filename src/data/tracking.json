@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06",
+  "updated": "2026-08-10",
   "items": {
     "t1-1.M01": {
       "status": "no_progress",
@@ -260,9 +260,27 @@
     "t3-10.M03": {
       "status": "no_progress",
       "evidence": []
+    },
+    "t2-4.P05": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-08-09",
+          "source": "El Peruano — DECRETO SUPREMO N° 009-2026-MIDAGRI",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2541428-3",
+          "note": "El Decreto Supremo, dado en Casa de Gobierno el 8 de agosto de 2026, dispone la ejecución inmediata de la reorganización de la Autoridad Nacional del Agua y ordena formular su nuevo modelo organizacional. Recoge los tres elementos del compromiso: la reingeniería de la ANA (artículo 1), el enfoque territorial mediante la gestión integrada de los recursos hídricos con enfoque de cuenca (artículo 2) y la participación de usuarios, incorporada como eje obligatorio «Participación y gobernanza del agua» (artículo 4). Queda en progreso: el decreto ordena la reorganización y manda aprobar un Plan de Implementación; no la culmina."
+        }
+      ]
     }
   },
-  "log": [],
+  "log": [
+    {
+      "date": "2026-08-10",
+      "item": "t2-4.P05",
+      "status": "in_progress",
+      "text": "El Gobierno dispuso por decreto supremo la reorganización de la Autoridad Nacional del Agua, con un nuevo modelo organizacional, enfoque de cuenca y la participación en la gobernanza del agua como eje obligatorio."
+    }
+  ],
   "measurements": {
     "t2-1.P22": {
       "unit": "PEN",
