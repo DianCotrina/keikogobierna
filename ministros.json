@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T17:52:11+00:00",
+ "generated": "2026-08-10T23:35:53+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,14 +14,7 @@
     "title": "Juan Sheput estima que proyecto sobre facultades podría tratarse en Consejo de Ministros de esta semana",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-delegacion-de-facultades-aun-no-nos-llega-la-agenda-pero-creo-que-deberia-tratarse-ya-en-consejo-de-ministros-del-miercoles-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-10T17:36:59+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput anuncia \"auditoría profunda\" en EsSalud y no descarta declarar la entidad en emergencia",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-anuncia-auditoria-profunda-en-essalud-y-no-descarta-declarar-la-entidad-en-emergencia-noticia-1700825",
-    "source": "RPP",
-    "published": "2026-08-10T08:41:56-05:00",
+    "published": "2026-08-10T18:18:16+00:00",
     "matched_in": "title"
    },
    {
@@ -39,13 +32,6 @@
     "source": "La República",
     "published": "2026-08-10T17:18:24+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "No dejar la ola",
-    "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-10T16:47:58+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "El ministro Elmer Cuba afirma que los feriados creados por el Congreso en Perú “algún día se podrán eliminar”",
@@ -83,47 +69,10 @@
     "matched_in": "title"
    },
    {
-    "title": "MEF revela cuatro leyes que llegarán al TC: gratificaciones CAS, pensiones de maestros y militares y Cafae",
-    "url": "https://rpp.pe/economia/economia/gratificaciones-cas-mef-revela-que-llegaran-al-tribunal-constitucional-con-pensiones-de-maestros-y-militares-y-cafae-ministro-cuba-noticia-1700684",
-    "source": "RPP",
-    "published": "2026-08-08T12:15:18-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
     "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
     "source": "Gestión",
     "published": "2026-08-08T17:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Keiko Fujimori no indultará a Alejandro Toledo por sus “problemas notorios” con decir la verdad, anuncia ministro de Justicia",
-    "url": "https://www.infobae.com/peru/2026/08/09/keiko-fujimori-no-indultara-a-alejandro-toledo-por-sus-problemas-notorios-con-decir-la-verdad-afirma-ministro-de-justicia/",
-    "source": "Infobae",
-    "published": "2026-08-09T22:01:37+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
-    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T05:28:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“No se puede indultar a Toledo”: Ministro de Justicia descarta beneficio para el exmandatario",
-    "url": "https://larepublica.pe/politica/2026/08/08/no-se-puede-indultar-a-toledo-ministro-de-justicia-descarta-beneficio-para-el-exmandatario-hnews-566488",
-    "source": "La República",
-    "published": "2026-08-09T03:28:09+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ernesto Álvarez sobre Betssy Chávez: “El Perú tiene todo el derecho de pedir extradición”",
-    "url": "https://elcomercio.pe/politica/actualidad/ernesto-alvarez-sobre-betssy-chavez-el-peru-tiene-toda-la-todo-el-derecho-de-pedir-extradicion-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-08T16:37:04+00:00",
     "matched_in": "title"
    }
   ],
@@ -150,21 +99,26 @@
     "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Keiko Fujimori se reúne en Palacio de Gobierno con Tomás Gálvez y Patricia Benavides",
-    "url": "https://larepublica.pe/politica/2026/08/08/keiko-fujimori-se-reune-en-palacio-de-gobierno-con-tomas-galvez-y-patricia-benavides-hnews-489448",
-    "source": "La República",
-    "published": "2026-08-08T22:36:17+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
+    "title": "Keiko Fujimori no indultará a Alejandro Toledo por sus “problemas notorios” con decir la verdad, anuncia ministro de Justicia",
+    "url": "https://www.infobae.com/peru/2026/08/09/keiko-fujimori-no-indultara-a-alejandro-toledo-por-sus-problemas-notorios-con-decir-la-verdad-afirma-ministro-de-justicia/",
+    "source": "Infobae",
+    "published": "2026-08-10T19:41:06+00:00",
+    "matched_in": "title"
+   },
    {
-    "title": "Abuchean a Alberto Beingolea durante conmemoración por la Batalla de Junín",
-    "url": "https://larepublica.pe/politica/2026/08/08/abuchean-a-alberto-beingolea-durante-conmemoracion-por-la-batalla-de-junin-hnews-240064",
+    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
+    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T05:28:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“No se puede indultar a Toledo”: Ministro de Justicia descarta beneficio para el exmandatario",
+    "url": "https://larepublica.pe/politica/2026/08/08/no-se-puede-indultar-a-toledo-ministro-de-justicia-descarta-beneficio-para-el-exmandatario-hnews-566488",
     "source": "La República",
-    "published": "2026-08-08T20:44:52+00:00",
+    "published": "2026-08-09T03:28:09+00:00",
     "matched_in": "title"
    }
   ],
