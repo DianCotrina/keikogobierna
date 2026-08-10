@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T06:10:36+00:00",
+ "generated": "2026-08-10T11:47:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,43 @@
   "Infobae"
  ],
  "ministers": {
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "El ‘pulpín’ que no indigna",
+    "url": "https://elcomercio.pe/opinion/columnistas/el-pulpin-que-no-indigna-por-fernando-caceres-freyre-reforma-laboral-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-10T10:32:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Reacomodo de posiciones y posturas",
+    "url": "https://elcomercio.pe/opinion/columnistas/reacomodo-de-posiciones-y-posturas-por-enrique-castillo-keiko-fujimori-elmer-cuba-poder-ejecutivo-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-10T10:30:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
+    "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T03:48:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
+    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T19:31:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
+    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T17:00:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Keiko Fujimori no indultará a Alejandro Toledo por sus “problemas notorios” con decir la verdad, anuncia ministro de Justicia",
@@ -36,36 +73,6 @@
     "url": "https://elcomercio.pe/politica/actualidad/ernesto-alvarez-sobre-betssy-chavez-el-peru-tiene-toda-la-todo-el-derecho-de-pedir-extradicion-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-08T16:37:04+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "No dejar la ola",
-    "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-09T11:00:01+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
-    "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T03:48:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
-    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T19:31:50+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
-    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T17:00:00+00:00",
     "matched_in": "title"
    }
   ],
