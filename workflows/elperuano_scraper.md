@@ -53,6 +53,8 @@ When the daily queue is noisy, inspect a day (`--dry-run`) and either add the of
 
 ## Reviewing a candidate issue
 
+**Spending is not evidence of a promise** (decided 2026-08-07). A budget act — a transferencia financiera, a convenio de apoyo presupuestario, a transferencia de partidas — is the government *operating*, not the government *fulfilling a specific commitment*, and it is discarded unless it plainly executes what a compromiso promises. The plan is written in normative and programmatic terms ("impulso de normativa", "creación de brigadas", "fortalecimiento de COPESCO") while El Peruano records money moving, so this class recurs daily: issues #269 (NEC/Compras MyPerú), #211 (MINCETUR → GORE Amazonas) and #275 (CAP al PP 0057) were all real acts of this government, on tracked themes, evidencing nothing. **The queue is supposed to stay near-empty until a normative act appears** — an empty day is the system working, not a bug to tune away. Close these as «no acredita avance», never as «no tiene relación»: the match may be perfectly correct.
+
 1. Read the norma (excerpt in the issue; full document via the El Peruano link) and confirm it actually cumple/avanza the compromiso.
 2. If it holds: update `src/data/tracking.json` (status + evidence + log) on a `fix/` branch, `npm run validate`, PR, merge. The issue contains a ready-to-complete evidence block — write the `note` yourself.
 3. Close the issue linking the PR, or with a comment explaining the discard.

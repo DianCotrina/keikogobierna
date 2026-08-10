@@ -116,15 +116,32 @@ def is_norma_record(record: dict) -> bool:
 #    "Comision de Promocion del Peru para la Exportacion y el Turismo", so
 #    "Designan Presidente Ejecutivo de la Comision de Promocion..." is an
 #    ordinary appointment that any bare "comision" test would wave through.
+#    Every noun and participle here is optionally plural. One resolution
+#    routinely retires and appoints several people at once ("Aceptan renuncias
+#    y designan funcionarios en diversos puestos…"), and a singular-only
+#    pattern misses exactly those: `renuncia\b` cannot match "renuncias",
+#    so issue #278 reached the queue while its singular twin was gated.
 _PERSONNEL_VERB_RE = re.compile(
     r"^(designan"
-    r"|aceptan (?:la )?renuncia"
+    r"|proclaman"
+    r"|aceptan (?:la |las )?renuncias?"
     r"|encargan"
-    r"|dan por concluida (?:la )?designacion"
-    r"|dejan sin efecto (?:la )?designacion)\b"
+    r"|dan por concluidas? (?:la |las )?designacion(?:es)?"
+    r"|dejan sin efecto (?:la |las )?designacion(?:es)?)\b"
 )
 _COLLECTIVE_OBJECT_RE = re.compile(r"\b(integrantes|miembros|representantes|vocales)\b")
-_TASK_BODY_RE = re.compile(r"\b(comision|grupo de trabajo|mesa de trabajo|comite)\b")
+
+#    A body only counts as a *task* body when it was convened to do something.
+#    "Grupo/mesa de trabajo" says so in the name; a bare "comision" does not —
+#    CONADIS's standing "Comision Consultiva" matched both halves and slipped
+#    through on it (issue #285), the same way the BCRP Directorio did. So a
+#    comision or comite qualifies only when it is multisectorial, especial, or
+#    described as encargada de something.
+_TASK_BODY_RE = re.compile(
+    r"\b(grupo de trabajo|mesa de trabajo"
+    r"|comision multisectorial|comision especial|comite especial"
+    r"|(?:comision|comite)\b.{0,60}?\bencargad)"
+)
 
 # 2. Travel and academic authorizations: an institutional permission slip.
 _TRAVEL_RE = re.compile(r"\bautorizan\b.{0,40}\bviaje\b|\bestancia academica\b|\bpasantia\b")
