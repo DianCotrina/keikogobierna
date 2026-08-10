@@ -124,6 +124,19 @@ class RoutineActTest(unittest.TestCase):
         for sumilla in self.PERSONNEL:
             self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
+    def test_plural_personnel_acts_are_gated(self):
+        # One resolution often retires and appoints several people at once, and
+        # the first version of this gate was singular-only — `renuncia\b` cannot
+        # match "renuncias", so issue #278 reached the queue while the singular
+        # "Aceptan renuncia de Jefa del FONDEPES" above was correctly gated.
+        for sumilla in (
+            "Aceptan renuncias y designan funcionarios en diversos puestos de la "
+            "Autoridad Nacional de Infraestructura",
+            "Dan por concluidas las designaciones de asesores del Despacho Ministerial",
+            "Dejan sin efecto las designaciones de directores de la Oficina General",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
     def test_designating_a_task_body_stays_in_the_queue(self):
         # Naming the body that will execute a commitment is a real signal.
         for sumilla in (
@@ -133,6 +146,23 @@ class RoutineActTest(unittest.TestCase):
             "Designan integrantes de la Mesa de Trabajo para la formalización minera",
         ):
             self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_a_standing_body_is_not_a_task_body(self):
+        # Issue #285: CONADIS's permanent "Comisión Consultiva" matched *both*
+        # halves — "miembros" and a bare "comisión" — and slipped through, the
+        # same way the BCRP Directorio did on "miembros" alone. A comisión or
+        # comité only counts when it was convened to do something.
+        for sumilla in (
+            "Proclaman miembros de la Comisión Consultiva del Consejo Nacional para "
+            "la Integración de la Persona con Discapacidad - Conadis",
+            "Designan representantes ante la Comisión Permanente de Estadística",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_a_tasked_comision_still_stays_in_the_queue(self):
+        self.assertFalse(er.is_routine_act({"sumilla":
+            "Proclaman integrantes de la Comisión encargada de implementar el Plan "
+            "Nacional de Agua"}))
 
     def test_the_exception_needs_both_halves(self):
         # A collective noun alone is not enough: appointing to a standing board is
@@ -237,6 +267,19 @@ class NoiseSuppressionTest(unittest.TestCase):
         for sumilla in sumillas:
             self.assertEqual(self.m.match(sumilla), [], sumilla)
 
+    def test_internal_administrative_instruments_no_longer_match(self):
+        # Real 2026-08-07 false positives (issues #275-#277). ROF updates, tarifarios
+        # and budget-programme boilerplate matched on wording that belongs to the
+        # instrument, not the subject: an ROF update hit a commitment about the
+        # *baggage* regulation, a library fee schedule sprayed across five temas.
+        for sumilla in (
+            "Aprueban actualización del Reglamento de Organización y Funciones (ROF) "
+            "de la Universidad Nacional del Callao",
+            "Aprueban el documento consolidado del “Tarifario Único de los Servicios No "
+            "Prestados en Exclusividad de la Biblioteca Nacional del Perú”",
+        ):
+            self.assertEqual(self.m.match(sumilla), [], sumilla)
+
     def test_real_signal_still_matches(self):
         # The distinctive phrase of each affected commitment must still fire.
         self.assertIn("t2-1.P21", self.m.match(
@@ -244,6 +287,14 @@ class NoiseSuppressionTest(unittest.TestCase):
             "jóvenes emprendedores y MYPES"))
         self.assertIn("t1-4.P01", self.m.match(
             "Modernización del sistema meritocrático liderado por SERVIR"))
+        # Suppressing "programa presupuestal" must not blind the two commitments
+        # that carry it — each keeps a dozen subject-matter phrases.
+        self.assertIn("t3-1.P02", self.m.match(
+            "Aprueban el tamizaje para la identificación de retrasos en el desarrollo "
+            "infantil temprano"))
+        self.assertIn("t3-2.P29", self.m.match(
+            "Creación de la Red Escolar Digital de Lectura Perú Lee para mejorar la "
+            "comprensión lectora"))
 
 
 class NormaTextTest(unittest.TestCase):
