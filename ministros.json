@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T23:35:53+00:00",
+ "generated": "2026-08-11T05:53:16+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -16,13 +16,6 @@
     "source": "El Comercio",
     "published": "2026-08-10T18:18:16+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "“Estos 5 años de indiferencia han acabado”: Sheput anuncia reforma en EsSalud y posible declaratoria de emergencia",
-    "url": "https://www.infobae.com/peru/2026/08/10/estos-5-anos-de-indiferencia-han-acabado-sheput-anuncia-reforma-en-essalud-y-posible-declaratoria-de-emergencia/",
-    "source": "Infobae",
-    "published": "2026-08-10T13:37:43+00:00",
-    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -31,20 +24,6 @@
     "url": "https://larepublica.pe/politica/2026/08/10/ernesto-zunini-pide-a-ministro-elmer-cuba-eliminar-prvilegios-tributarios-no-aplique-la-ley-del-embudo-hnews-340170",
     "source": "La República",
     "published": "2026-08-10T17:18:24+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "El ministro Elmer Cuba afirma que los feriados creados por el Congreso en Perú “algún día se podrán eliminar”",
-    "url": "https://www.infobae.com/peru/2026/08/10/el-ministro-elmer-cuba-afirma-que-los-feriados-creados-por-el-congreso-en-peru-algun-dia-se-podran-eliminar/",
-    "source": "Infobae",
-    "published": "2026-08-10T14:00:27+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Adiós a la gratificación CAS, aumento de pensiones a maestros y militares, y homologación CAFAE: MEF las llevará al TC",
-    "url": "https://www.infobae.com/peru/2026/08/08/adios-a-la-gratificacion-cas-aumento-de-pensiones-a-maestros-y-militares-y-homologacion-cafae-mef-las-llevara-al-tc/",
-    "source": "Infobae",
-    "published": "2026-08-10T14:00:15+00:00",
     "matched_in": "title"
    },
    {
@@ -78,13 +57,6 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Mininter activa un “Plan Escudo” con policías y militares para dar protección a transportistas luego de atentados a conductores",
-    "url": "https://www.infobae.com/peru/2026/08/10/mininter-activa-un-plan-escudo-con-policias-y-militares-para-dar-proteccion-a-transportistas-luego-de-atentados-a-conductores/",
-    "source": "Infobae",
-    "published": "2026-08-10T13:01:11+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Extorsión, sicariato e inteligencia, los primeros desafíos de seguridad que asume el Gobierno",
     "url": "https://larepublica.pe/politica/2026/08/09/extorsion-sicariato-e-inteligencia-los-primeros-desafios-de-seguridad-que-asume-el-gobierno-seguridad-hnews-547758",
     "source": "La República",
@@ -96,29 +68,6 @@
     "url": "https://larepublica.pe/politica/2026/08/09/copamiento-del-ejercito-en-el-ministerio-del-interior-hnews-534600",
     "source": "La República",
     "published": "2026-08-09T11:46:26+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Keiko Fujimori no indultará a Alejandro Toledo por sus “problemas notorios” con decir la verdad, anuncia ministro de Justicia",
-    "url": "https://www.infobae.com/peru/2026/08/09/keiko-fujimori-no-indultara-a-alejandro-toledo-por-sus-problemas-notorios-con-decir-la-verdad-afirma-ministro-de-justicia/",
-    "source": "Infobae",
-    "published": "2026-08-10T19:41:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
-    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T05:28:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“No se puede indultar a Toledo”: Ministro de Justicia descarta beneficio para el exmandatario",
-    "url": "https://larepublica.pe/politica/2026/08/08/no-se-puede-indultar-a-toledo-ministro-de-justicia-descarta-beneficio-para-el-exmandatario-hnews-566488",
-    "source": "La República",
-    "published": "2026-08-09T03:28:09+00:00",
     "matched_in": "title"
    }
   ],
@@ -135,6 +84,22 @@
     "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
     "source": "Gestión",
     "published": "2026-08-08T23:35:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Keiko Fujimori no indultará a Alejandro Toledo por sus “problemas notorios” con decir la verdad, anuncia ministro de Justicia",
+    "url": "https://www.infobae.com/peru/2026/08/09/keiko-fujimori-no-indultara-a-alejandro-toledo-por-sus-problemas-notorios-con-decir-la-verdad-afirma-ministro-de-justicia/",
+    "source": "Infobae",
+    "published": "2026-08-10T19:41:06+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
+    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T05:28:00+00:00",
     "matched_in": "title"
    }
   ],
