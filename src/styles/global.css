@@ -151,11 +151,25 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .donate-icon:hover { transform: translateY(-2px) scale(1.06); }
 .donate-icon:active { transform: scale(0.96); }
 
+/* A registro row links to the very commitment it reports on, so the whole row
+   is the hit area: the tint fills it edge to edge and the arrow leads the eye
+   out to the tema page. The outline is inset because the list is clipped to
+   its card — the shared `a:focus-visible` offset would be cut off there. */
+.log-row:hover { background-color: rgba(20, 20, 23, 0.04); }
+.log-row:active { background-color: rgba(20, 20, 23, 0.075); }
+.log-row:focus-visible { outline-offset: -3px; }
+.log-topic { transition: color 0.2s ease; }
+.log-row:hover .log-topic,
+.log-row:focus-visible .log-topic { color: var(--color-tinta); }
+.log-arrow { display: inline-block; transition: transform 0.25s var(--ease-spring); }
+.log-row:hover .log-arrow,
+.log-row:focus-visible .log-arrow { transform: translateX(4px); }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .hero-in, .pen-stroke path { animation: none; opacity: 1; transform: none; stroke-dashoffset: 0; }
   .reveal { opacity: 1; transform: none; transition: none; }
-  a, button, .card-hover { transition: none; }
+  a, button, .card-hover, .log-topic, .log-arrow { transition: none; }
 }
 
 /* A commitment arrived at from the buscador announces itself, then settles.
