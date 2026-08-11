@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T11:43:54+00:00",
+ "generated": "2026-08-11T17:57:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Sheput: “En 10 días ya tendríamos la primera reunión del Consejo Nacional de Trabajo”",
+    "url": "https://elcomercio.pe/economia/ministro-juan-sheput-en-10-dias-ya-tendriamos-la-primera-reunion-del-consejo-nacional-de-trabajo-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-10T19:43:22+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Juan Sheput estima que proyecto sobre facultades podría tratarse en Consejo de Ministros de esta semana",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-delegacion-de-facultades-aun-no-nos-llega-la-agenda-pero-creo-que-deberia-tratarse-ya-en-consejo-de-ministros-del-miercoles-ultimas-noticia/",
@@ -55,35 +62,12 @@
     "matched_in": "title"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "La llegada de León XIV a un país minero",
-    "url": "https://elcomercio.pe/opinion/columnistas/la-llegada-de-leon-xiv-a-un-pais-minero-por-ivan-arenas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-11T11:00:01+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
-    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T21:56:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Extorsión, sicariato e inteligencia, los primeros desafíos de seguridad que asume el Gobierno",
-    "url": "https://larepublica.pe/politica/2026/08/09/extorsion-sicariato-e-inteligencia-los-primeros-desafios-de-seguridad-que-asume-el-gobierno-seguridad-hnews-547758",
-    "source": "La República",
-    "published": "2026-08-09T17:15:55+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Copamiento del Ejército en el Ministerio del Interior",
-    "url": "https://larepublica.pe/politica/2026/08/09/copamiento-del-ejercito-en-el-ministerio-del-interior-hnews-534600",
-    "source": "La República",
-    "published": "2026-08-09T11:46:26+00:00",
+    "title": "¿Qué es el Plan Escudo? Mininter anuncia despliegue de policías y militares para proteger a transportistas",
+    "url": "https://elcomercio.pe/respuestas/que/que-es-el-plan-escudo-mininter-anuncia-despliegue-de-policias-y-militares-para-proteger-a-transportistas-tdpe-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-11T16:52:39+00:00",
     "matched_in": "title"
    }
   ],
@@ -105,17 +89,19 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Keiko Fujimori no indultará a Alejandro Toledo por sus “problemas notorios” con decir la verdad, anuncia ministro de Justicia",
-    "url": "https://www.infobae.com/peru/2026/08/09/keiko-fujimori-no-indultara-a-alejandro-toledo-por-sus-problemas-notorios-con-decir-la-verdad-afirma-ministro-de-justicia/",
-    "source": "Infobae",
-    "published": "2026-08-10T19:41:06+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
     "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
     "source": "Gestión",
     "published": "2026-08-09T05:28:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
+    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T21:56:00+00:00",
     "matched_in": "title"
    }
   ]
