@@ -204,25 +204,36 @@ const updates = updatesLog(tracking).map((entry) => {
           <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">Últimas actualizaciones</h2>
         </div>
 
-        <ul class="mt-10 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card">
+        <ul class="mt-10 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card overflow-hidden">
           {updates.length === 0 ? (
             <li class="reveal flex items-center gap-6 p-6">
               <p class="flex-1 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas. El seguimiento comienza con el gobierno en funciones.</p>
             </li>
-          ) : updates.map((entry) => (
-            <li class="reveal p-6">
-              <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
-                <Stamp status={entry.status} />
-                <time datetime={entry.date} class="font-mono text-xs text-tintafina">{formatDateEs(entry.date)}</time>
-              </div>
-              <p class="mt-2.5 text-sm leading-[1.7]">{entry.text}</p>
-              {entry.topicSlug && (
-                <p class="mt-1.5 font-mono text-[0.65rem] text-tintafina">
-                  <a href={`/temas/${entry.topicSlug}/`} class="nav-link">{entry.topicName}</a>
-                </p>
-              )}
-            </li>
-          ))}
+          ) : updates.map((entry) => {
+            // The row is one link to the commitment's own anchor on the tema
+            // page. An entry whose topic lookup failed has nowhere to point at,
+            // so it stays a plain row rather than becoming a dead link.
+            const Row = entry.topicSlug ? 'a' : 'div';
+            return (
+              <li class="reveal">
+                <Row
+                  href={entry.topicSlug ? `/temas/${entry.topicSlug}/#${entry.item}` : undefined}
+                  class:list={['block p-6', entry.topicSlug && 'log-row']}
+                >
+                  <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+                    <Stamp status={entry.status} />
+                    <time datetime={entry.date} class="font-mono text-xs text-tintafina">{formatDateEs(entry.date)}</time>
+                  </div>
+                  <p class="mt-2.5 text-sm leading-[1.7]">{entry.text}</p>
+                  {entry.topicSlug && (
+                    <p class="log-topic mt-1.5 font-mono text-[0.65rem] text-tintafina">
+                      {entry.topicName} <span class="log-arrow" aria-hidden="true">→</span>
+                    </p>
+                  )}
+                </Row>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
