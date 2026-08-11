@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T05:53:16+00:00",
+ "generated": "2026-08-11T11:43:54+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -55,6 +55,22 @@
     "matched_in": "title"
    }
   ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "La llegada de León XIV a un país minero",
+    "url": "https://elcomercio.pe/opinion/columnistas/la-llegada-de-leon-xiv-a-un-pais-minero-por-ivan-arenas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-11T11:00:01+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
+    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T21:56:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Extorsión, sicariato e inteligencia, los primeros desafíos de seguridad que asume el Gobierno",
@@ -100,15 +116,6 @@
     "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
     "source": "Gestión",
     "published": "2026-08-09T05:28:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
-    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T21:56:00+00:00",
     "matched_in": "title"
    }
   ]
