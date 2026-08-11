@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T17:57:21+00:00",
+ "generated": "2026-08-11T23:41:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -62,16 +62,14 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "¿Qué es el Plan Escudo? Mininter anuncia despliegue de policías y militares para proteger a transportistas",
-    "url": "https://elcomercio.pe/respuestas/que/que-es-el-plan-escudo-mininter-anuncia-despliegue-de-policias-y-militares-para-proteger-a-transportistas-tdpe-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-11T16:52:39+00:00",
-    "matched_in": "title"
-   }
-  ],
   "guillermo-shinno-huamani": [
+   {
+    "title": "Minem coordina con el MEF la entrega de un subsidio directo de corto plazo para aliviar el impacto de los precios en la selva",
+    "url": "https://elcomercio.pe/economia/peru/minem-coordina-con-el-mef-la-entrega-de-un-subsidio-directo-de-corto-plazo-para-aliviar-el-impacto-de-los-precios-en-la-selva-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-11T22:05:15+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
     "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
@@ -84,6 +82,15 @@
     "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
     "source": "Gestión",
     "published": "2026-08-08T23:35:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Gobierno de Keiko Fujimori crea comisión para enfrentar Fenómeno El Niño: Marco Vinelli estará a cargo y lo acompañan el MEF, Vivienda y Defensa",
+    "url": "https://rpp.pe/economia/economia/gobierno-de-kiko-fujimori-crea-comision-para-enfrentar-fenomeno-el-nino-marco-vinelli-estara-a-cargo-y-lo-acompanan-el-mef-vivienda-y-defensa-noticia-1701062",
+    "source": "RPP",
+    "published": "2026-08-11T16:45:47-05:00",
     "matched_in": "title"
    }
   ],
@@ -102,6 +109,15 @@
     "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
     "source": "Gestión",
     "published": "2026-08-08T21:56:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "“En el Minsa no hay dinero”: el ministro de Salud reveló que la caja del sector fue vaciada por la gestión anterior",
+    "url": "https://www.infobae.com/peru/2026/08/11/en-el-minsa-no-hay-dinero-el-ministro-de-salud-revelo-que-la-caja-del-sector-fue-vaciada-por-la-gestion-anterior/",
+    "source": "Infobae",
+    "published": "2026-08-11T20:36:09+00:00",
     "matched_in": "title"
    }
   ]
