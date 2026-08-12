@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T11:47:04+00:00",
+ "generated": "2026-08-12T17:57:24+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,22 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro anuncia que pedido de facultades legislativas está “en las últimas revisiones” para ser enviado al Congreso",
+    "url": "https://www.infobae.com/peru/2026/08/12/ministro-anuncia-que-pedido-de-facultades-legislativas-esta-en-las-ultimas-revisiones-para-ser-enviado-al-congreso/",
+    "source": "Infobae",
+    "published": "2026-08-12T16:06:08+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Marco Vinelli sobre pedido de facultades: “Ya estaba en las últimas revisiones el documento final para ser enviado al Congreso”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-pedido-de-facultades-ya-estaba-en-las-ultimas-revisiones-el-documento-final-para-ser-enviado-al-congreso-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-12T15:41:56+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Ministro Ernesto Álvarez sobre Toledo y Castillo: “No se pueden instrumentalizar indultos o gracias presidenciales en procura de la impunidad”",
@@ -34,19 +50,58 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "rafael-rey-rey": [
    {
-    "title": "Senador Jaime Delgado solicita al MEF información sobre reactivación del FEPC ante alza de precio de combustibles",
-    "url": "https://rpp.pe/politica/congreso/senador-jaime-delgado-solicita-al-mef-informacion-sobre-reactivacion-del-fepc-ante-alza-de-precio-de-combustibles-noticia-1701076",
-    "source": "RPP",
-    "published": "2026-08-11T20:15:43-05:00",
+    "title": "Rafael Rey desmiente versión de López Aliaga sobre los trenes de la MML: “No fue una donación, fue una compra”",
+    "url": "https://larepublica.pe/politica/2026/08/12/rafael-rey-desmiente-version-de-lopez-aliaga-sobre-los-trenes-de-la-mml-no-fue-una-donacion-fue-una-compra-hnews-881784",
+    "source": "La República",
+    "published": "2026-08-12T17:51:50+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ernesto Zunini pide a ministro Elmer Cuba eliminar privilegios tributarios: \"No aplique la ley del embudo\"",
-    "url": "https://larepublica.pe/politica/2026/08/10/ernesto-zunini-pide-a-ministro-elmer-cuba-eliminar-prvilegios-tributarios-no-aplique-la-ley-del-embudo-hnews-340170",
-    "source": "La República",
-    "published": "2026-08-10T17:18:24+00:00",
+    "title": "Rafael Rey descarta riesgo de colapso de puentes de acceso al Aeropuerto Jorge Chávez: “No hay ningún peligro\"",
+    "url": "https://rpp.pe/politica/gobierno/rafael-rey-descarta-riesgo-de-colapso-de-puentes-de-acceso-al-aeropuerto-jorge-chavez-no-hay-ningun-peligro-noticia-1701176",
+    "source": "RPP",
+    "published": "2026-08-12T12:21:56-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Transportes asegura que puentes del Aeropuerto Jorge Chávez “no se van a caer por más fuerte que sea el Niño”",
+    "url": "https://www.infobae.com/peru/2026/08/12/ministro-de-transportes-asegura-que-puentes-del-aeropuerto-jorge-chavez-no-se-van-a-caer-por-mas-fuerte-que-sea-el-nino/",
+    "source": "Infobae",
+    "published": "2026-08-12T14:52:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey, ministro de Transporte, afirmó que los trenes de Caltrain de Lima a Chosica no fueron una donación, “fue una compra”",
+    "url": "https://www.infobae.com/peru/2026/08/12/rafael-rey-ministro-de-transporte-afirmo-que-los-trenes-de-caltrain-de-lima-a-chosica-no-fueron-una-donacion-fue-una-compra/",
+    "source": "Infobae",
+    "published": "2026-08-12T11:49:55+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
+    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T22:20:47+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
+    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T23:35:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Adiós a la gratificación CAS, aumento de pensiones a maestros y homologación CAFAE: MEF las llevará al TC",
+    "url": "https://www.infobae.com/peru/2026/08/08/adios-a-la-gratificacion-cas-aumento-de-pensiones-a-maestros-y-militares-y-homologacion-cafae-mef-las-llevara-al-tc/",
+    "source": "Infobae",
+    "published": "2026-08-12T13:19:30+00:00",
     "matched_in": "title"
    },
    {
@@ -71,32 +126,14 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
-   {
-    "title": "Rafael Rey sobre tren traído por la MML para ruta Lima-Chosica: \"No se trató de una donación, se trató de una adquisición\"",
-    "url": "https://rpp.pe/politica/gobierno/rafael-rey-aclara-que-tren-lima-chosica-de-caltrain-fue-una-compra-municipal-y-no-una-donacion-noticia-1701081",
-    "source": "RPP",
-    "published": "2026-08-11T20:05:06-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
-    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T22:20:47+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
-    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T23:35:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Carlos Espá viaja a Colombia para entregar ayuda humanitaria a familias afectadas por terremoto",
+    "url": "https://www.infobae.com/peru/2026/08/12/carlos-espa-viaja-a-colombia-para-entregar-ayuda-humanitaria-a-familias-afectadas-por-terremoto/",
+    "source": "Infobae",
+    "published": "2026-08-12T12:29:01+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
     "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
@@ -105,13 +142,13 @@
     "matched_in": "title"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Caminos prehispánicos hallados en Machu Picchu serán investigados por el Ministerio de Cultura",
-    "url": "https://www.infobae.com/peru/2026/08/12/caminos-prehispanicos-hallados-en-machu-picchu-seran-investigados-por-el-ministerio-de-cultura/",
+    "title": "Alberto Jordán, excandidato de Renovación Popular, es el nuevo viceministro de Orden Interno",
+    "url": "https://www.infobae.com/peru/2026/08/12/alberto-jordan-excandidato-de-renovacion-popular-es-el-nuevo-viceministro-de-orden-interino/",
     "source": "Infobae",
-    "published": "2026-08-12T02:01:48+00:00",
-    "matched_in": "title"
+    "published": "2026-08-12T13:45:42+00:00",
+    "matched_in": "summary"
    }
   ]
  }
