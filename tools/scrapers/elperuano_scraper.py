@@ -121,13 +121,33 @@ def is_norma_record(record: dict) -> bool:
 #    y designan funcionarios en diversos puestos…"), and a singular-only
 #    pattern misses exactly those: `renuncia\b` cannot match "renuncias",
 #    so issue #278 reached the queue while its singular twin was gated.
+#
+#    The gazette names the same act with a whole family of verbs, and the gate
+#    only ever learned the ones that had burned it. Replaying 197 past
+#    candidates through it left five that are plainly churn: both ends of a
+#    single consular rotation — "Dan por terminadas las funciones de Consul
+#    General del Peru en Orlando" (issue #52) and, two months later, "Nombran
+#    Consul General del Peru en Orlando" (issue #289) — plus ONP's delegations
+#    of signing authority to its own staff (issues #80, #81).
+#
+#    Each addition stays anchored to its object, because the bare verb is not
+#    always routine: "dan por concluido" governs the *Regimen de Contingencia*
+#    in issue #271, a substantive act, so the pattern requires a designacion or
+#    funciones; and "delegan facultades" is the phrase for handing Congress's
+#    legislative power to the Executive, so it counts only when delegated down
+#    to an entity's own servidores or funcionarios.
 _PERSONNEL_VERB_RE = re.compile(
     r"^(designan"
+    r"|nombran"
     r"|proclaman"
     r"|aceptan (?:la |las )?renuncias?"
     r"|encargan"
-    r"|dan por concluidas? (?:la |las )?designacion(?:es)?"
-    r"|dejan sin efecto (?:la |las )?designacion(?:es)?)\b"
+    r"|dan por (?:concluidas?|terminadas?) (?:la |las )?"
+    r"(?:designacion(?:es)?|funciones)"
+    r"|dejan sin efecto (?:la |las )?designacion(?:es)?"
+    r"|delegan (?:facultades|atribuciones)\b.{0,60}?"
+    r"\b(?:servidores|funcionarios)"
+    r")\b"
 )
 _COLLECTIVE_OBJECT_RE = re.compile(r"\b(integrantes|miembros|representantes|vocales)\b")
 
