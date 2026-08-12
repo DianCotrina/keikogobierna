@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T23:41:07+00:00",
+ "generated": "2026-08-12T06:20:00+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,14 +9,23 @@
   "Infobae"
  ],
  "ministers": {
-  "juan-manuel-kosme-sheput-moore": [
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Ministro Sheput: “En 10 días ya tendríamos la primera reunión del Consejo Nacional de Trabajo”",
-    "url": "https://elcomercio.pe/economia/ministro-juan-sheput-en-10-dias-ya-tendriamos-la-primera-reunion-del-consejo-nacional-de-trabajo-noticia/",
+    "title": "Ministro Ernesto Álvarez sobre Toledo y Castillo: “No se pueden instrumentalizar indultos o gracias presidenciales en procura de la impunidad”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-ernesto-alvarez-sobre-alejandro-toledo-y-pedro-castillo-no-se-pueden-instrumentalizar-indultos-o-gracias-presidenciales-en-procura-de-la-impunidad-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-10T19:43:22+00:00",
+    "published": "2026-08-12T02:06:43+00:00",
     "matched_in": "title"
    },
+   {
+    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
+    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T05:28:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Juan Sheput estima que proyecto sobre facultades podría tratarse en Consejo de Ministros de esta semana",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-delegacion-de-facultades-aun-no-nos-llega-la-agenda-pero-creo-que-deberia-tratarse-ya-en-consejo-de-ministros-del-miercoles-ultimas-noticia/",
@@ -26,6 +35,13 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Senador Jaime Delgado solicita al MEF información sobre reactivación del FEPC ante alza de precio de combustibles",
+    "url": "https://rpp.pe/politica/congreso/senador-jaime-delgado-solicita-al-mef-informacion-sobre-reactivacion-del-fepc-ante-alza-de-precio-de-combustibles-noticia-1701076",
+    "source": "RPP",
+    "published": "2026-08-11T20:15:43-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ernesto Zunini pide a ministro Elmer Cuba eliminar privilegios tributarios: \"No aplique la ley del embudo\"",
     "url": "https://larepublica.pe/politica/2026/08/10/ernesto-zunini-pide-a-ministro-elmer-cuba-eliminar-prvilegios-tributarios-no-aplique-la-ley-del-embudo-hnews-340170",
@@ -62,14 +78,25 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "rafael-rey-rey": [
    {
-    "title": "Minem coordina con el MEF la entrega de un subsidio directo de corto plazo para aliviar el impacto de los precios en la selva",
-    "url": "https://elcomercio.pe/economia/peru/minem-coordina-con-el-mef-la-entrega-de-un-subsidio-directo-de-corto-plazo-para-aliviar-el-impacto-de-los-precios-en-la-selva-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-11T22:05:15+00:00",
+    "title": "Rafael Rey sobre tren traído por la MML para ruta Lima-Chosica: \"No se trató de una donación, se trató de una adquisición\"",
+    "url": "https://rpp.pe/politica/gobierno/rafael-rey-aclara-que-tren-lima-chosica-de-caltrain-fue-una-compra-municipal-y-no-una-donacion-noticia-1701081",
+    "source": "RPP",
+    "published": "2026-08-11T20:05:06-05:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Gobierno de Keiko Fujimori crea comisión para enfrentar Fenómeno El Niño: Marco Vinelli estará a cargo y lo acompañan el MEF, Vivienda y Defensa",
+    "url": "https://rpp.pe/economia/economia/gobierno-de-kiko-fujimori-crea-comision-para-enfrentar-fenomeno-el-nino-marco-vinelli-estara-a-cargo-y-lo-acompanan-el-mef-vivienda-y-defensa-noticia-1701062",
+    "source": "RPP",
+    "published": "2026-08-11T16:45:47-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
    {
     "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
     "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
@@ -85,30 +112,21 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno de Keiko Fujimori crea comisión para enfrentar Fenómeno El Niño: Marco Vinelli estará a cargo y lo acompañan el MEF, Vivienda y Defensa",
-    "url": "https://rpp.pe/economia/economia/gobierno-de-kiko-fujimori-crea-comision-para-enfrentar-fenomeno-el-nino-marco-vinelli-estara-a-cargo-y-lo-acompanan-el-mef-vivienda-y-defensa-noticia-1701062",
-    "source": "RPP",
-    "published": "2026-08-11T16:45:47-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
-    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T05:28:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
     "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
     "source": "Gestión",
     "published": "2026-08-08T21:56:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Caminos prehispánicos hallados en Machu Picchu serán investigados por el Ministerio de Cultura",
+    "url": "https://www.infobae.com/peru/2026/08/12/caminos-prehispanicos-hallados-en-machu-picchu-seran-investigados-por-el-ministerio-de-cultura/",
+    "source": "Infobae",
+    "published": "2026-08-12T02:01:48+00:00",
     "matched_in": "title"
    }
   ],
