@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.11.1](https://github.com/DianCotrina/keikogobierna/compare/v2.11.0...v2.11.1) (2026-08-12)
+
+
+### Bug Fixes
+
+* gate the whole personnel verb family, not one verb at a time ([26b4b93](https://github.com/DianCotrina/keikogobierna/commit/26b4b9306dcc8e3b6d1ed55ac2477724be935edc))
+
 ## [2.11.0](https://github.com/DianCotrina/keikogobierna/compare/v2.10.0...v2.11.0) (2026-08-12)
 
 
