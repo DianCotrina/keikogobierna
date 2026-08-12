@@ -137,6 +137,49 @@ class RoutineActTest(unittest.TestCase):
         ):
             self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
+    def test_both_ends_of_a_posting_are_gated(self):
+        # A rotation reaches the gazette twice, and the gate caught neither end:
+        # the outgoing consul's funciones were terminated in issue #52 and the
+        # incoming one was named in issue #289 — same post, same city, two
+        # months apart, two false positives.
+        for sumilla in (
+            "Nombran Cónsul General del Perú en Orlando, Estados Unidos de América",
+            "Dan por terminadas las funciones de Cónsul General del Perú en Orlando, "
+            "Estados Unidos de América",
+            "Dan por terminada designación de Jefe del Órgano de Control Institucional",
+            "Nombran y designan fiscales en los Distritos Judiciales de Lima Centro",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_delegating_signing_authority_to_staff_is_gated(self):
+        for sumilla in (
+            "Delegan facultades a servidores de la Oficina de Normalización "
+            "Previsional durante el Año Fiscal 2026",
+            "Delegan facultades a servidores de la Oficina de Normalización "
+            "Previsional en materia de contrataciones del Estado",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_delegating_legislative_power_stays_in_the_queue(self):
+        # "Delegan facultades" is also how Congress hands its legislative power
+        # to the Executive — the single most consequential act the gazette
+        # carries. The gate only fires when the delegation runs *down* to an
+        # entity's own staff.
+        for sumilla in (
+            "Delegan facultades legislativas al Poder Ejecutivo en materia de "
+            "seguridad ciudadana",
+            "Ley que delega facultades al Poder Ejecutivo para legislar en materia "
+            "tributaria",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_concluding_a_regime_is_not_a_personnel_act(self):
+        # Issue #271: "dan por concluido" governs a *Régimen*, not a designación.
+        # Widening the verb without anchoring its object would gate a real act.
+        self.assertFalse(er.is_routine_act({"sumilla":
+            "Dan por concluido el Régimen de Contingencia y Racionalización "
+            "Extrema de Recursos en la Unidad Ejecutora"}))
+
     def test_designating_a_task_body_stays_in_the_queue(self):
         # Naming the body that will execute a commitment is a real signal.
         for sumilla in (
