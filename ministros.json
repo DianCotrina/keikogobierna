@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T06:20:00+00:00",
+ "generated": "2026-08-12T11:47:04+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -50,13 +50,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Reacomodo de posiciones y posturas",
-    "url": "https://elcomercio.pe/opinion/columnistas/reacomodo-de-posiciones-y-posturas-por-enrique-castillo-keiko-fujimori-elmer-cuba-poder-ejecutivo-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-10T10:30:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
     "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
     "source": "Gestión",
@@ -84,15 +77,6 @@
     "url": "https://rpp.pe/politica/gobierno/rafael-rey-aclara-que-tren-lima-chosica-de-caltrain-fue-una-compra-municipal-y-no-una-donacion-noticia-1701081",
     "source": "RPP",
     "published": "2026-08-11T20:05:06-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno de Keiko Fujimori crea comisión para enfrentar Fenómeno El Niño: Marco Vinelli estará a cargo y lo acompañan el MEF, Vivienda y Defensa",
-    "url": "https://rpp.pe/economia/economia/gobierno-de-kiko-fujimori-crea-comision-para-enfrentar-fenomeno-el-nino-marco-vinelli-estara-a-cargo-y-lo-acompanan-el-mef-vivienda-y-defensa-noticia-1701062",
-    "source": "RPP",
-    "published": "2026-08-11T16:45:47-05:00",
     "matched_in": "title"
    }
   ],
@@ -127,15 +111,6 @@
     "url": "https://www.infobae.com/peru/2026/08/12/caminos-prehispanicos-hallados-en-machu-picchu-seran-investigados-por-el-ministerio-de-cultura/",
     "source": "Infobae",
     "published": "2026-08-12T02:01:48+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "“En el Minsa no hay dinero”: el ministro de Salud reveló que la caja del sector fue vaciada por la gestión anterior",
-    "url": "https://www.infobae.com/peru/2026/08/11/en-el-minsa-no-hay-dinero-el-ministro-de-salud-revelo-que-la-caja-del-sector-fue-vaciada-por-la-gestion-anterior/",
-    "source": "Infobae",
-    "published": "2026-08-11T20:36:09+00:00",
     "matched_in": "title"
    }
   ]
