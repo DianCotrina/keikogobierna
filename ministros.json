@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T17:57:24+00:00",
+ "generated": "2026-08-12T23:42:01+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro de Desarrollo Agrario sobre obras para acceso al agua: “Hemos encontrado 35 proyectos por S/140 millones que están paralizados”",
+    "url": "https://elcomercio.pe/economia/peru/ministro-de-desarrollo-agrario-sobre-obras-para-acceso-al-agua-hemos-encontrado-35-proyectos-por-s140-millones-que-estan-paralizados-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-12T18:29:30+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro anuncia que pedido de facultades legislativas está “en las últimas revisiones” para ser enviado al Congreso",
     "url": "https://www.infobae.com/peru/2026/08/12/ministro-anuncia-que-pedido-de-facultades-legislativas-esta-en-las-ultimas-revisiones-para-ser-enviado-al-congreso/",
@@ -32,22 +39,6 @@
     "source": "El Comercio",
     "published": "2026-08-12T02:06:43+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
-    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T05:28:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Juan Sheput estima que proyecto sobre facultades podría tratarse en Consejo de Ministros de esta semana",
-    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-delegacion-de-facultades-aun-no-nos-llega-la-agenda-pero-creo-que-deberia-tratarse-ya-en-consejo-de-ministros-del-miercoles-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-10T18:18:16+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
@@ -55,15 +46,29 @@
     "title": "Rafael Rey desmiente versión de López Aliaga sobre los trenes de la MML: “No fue una donación, fue una compra”",
     "url": "https://larepublica.pe/politica/2026/08/12/rafael-rey-desmiente-version-de-lopez-aliaga-sobre-los-trenes-de-la-mml-no-fue-una-donacion-fue-una-compra-hnews-881784",
     "source": "La República",
-    "published": "2026-08-12T17:51:50+00:00",
+    "published": "2026-08-12T22:52:35+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Rafael Rey descarta riesgo de colapso de puentes de acceso al Aeropuerto Jorge Chávez: “No hay ningún peligro\"",
-    "url": "https://rpp.pe/politica/gobierno/rafael-rey-descarta-riesgo-de-colapso-de-puentes-de-acceso-al-aeropuerto-jorge-chavez-no-hay-ningun-peligro-noticia-1701176",
+    "title": "López Aliaga responde a Rafael Rey y asegura que trenes fueron donados: \"Está creando un problema gravísimo con EE. UU.\"",
+    "url": "https://rpp.pe/politica/actualidad/lopez-aliaga-responde-a-rafael-rey-y-asegura-que-trenes-fueron-donados-esta-creando-un-problema-gravisimo-con-ee-uu-noticia-1701201",
     "source": "RPP",
-    "published": "2026-08-12T12:21:56-05:00",
+    "published": "2026-08-12T17:45:28-05:00",
     "matched_in": "title"
+   },
+   {
+    "title": "MML responde a ministro Rafael Rey sobre trenes: \"Debe contar con la información técnica antes de emitir opiniones\"",
+    "url": "https://rpp.pe/politica/gobierno/municipalidad-de-lima-ratifica-donacion-de-trenes-lima-chosica-y-responde-a-ministro-rafael-rey-noticia-1701219",
+    "source": "RPP",
+    "published": "2026-08-12T16:13:10-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori sobre la mejora en el Puerto del Callao: “Modernizar puertos significa también fortalecer nuestra economía”",
+    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-sobre-la-mejora-en-el-puerto-del-callao-modernizar-puertos-significa-tambien-fortalecer-nuestra-economia-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-12T18:37:42+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Ministro de Transportes asegura que puentes del Aeropuerto Jorge Chávez “no se van a caer por más fuerte que sea el Niño”",
@@ -71,74 +76,14 @@
     "source": "Infobae",
     "published": "2026-08-12T14:52:43+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey, ministro de Transporte, afirmó que los trenes de Caltrain de Lima a Chosica no fueron una donación, “fue una compra”",
-    "url": "https://www.infobae.com/peru/2026/08/12/rafael-rey-ministro-de-transporte-afirmo-que-los-trenes-de-caltrain-de-lima-a-chosica-no-fueron-una-donacion-fue-una-compra/",
-    "source": "Infobae",
-    "published": "2026-08-12T11:49:55+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
-    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T22:20:47+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
-    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T23:35:00+00:00",
-    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Adiós a la gratificación CAS, aumento de pensiones a maestros y homologación CAFAE: MEF las llevará al TC",
-    "url": "https://www.infobae.com/peru/2026/08/08/adios-a-la-gratificacion-cas-aumento-de-pensiones-a-maestros-y-militares-y-homologacion-cafae-mef-las-llevara-al-tc/",
+    "title": "Maestros sí tendrían aumento de pensiones, pero MEF negociará monto menor a S/3,500",
+    "url": "https://www.infobae.com/peru/2026/08/12/maestros-si-tendrian-aumento-de-pensiones-pero-mef-negociara-monto-menor-a-s3500/",
     "source": "Infobae",
-    "published": "2026-08-12T13:19:30+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
-    "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T03:48:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
-    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T19:31:50+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
-    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T17:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Carlos Espá viaja a Colombia para entregar ayuda humanitaria a familias afectadas por terremoto",
-    "url": "https://www.infobae.com/peru/2026/08/12/carlos-espa-viaja-a-colombia-para-entregar-ayuda-humanitaria-a-familias-afectadas-por-terremoto/",
-    "source": "Infobae",
-    "published": "2026-08-12T12:29:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
-    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T21:56:00+00:00",
+    "published": "2026-08-12T18:35:46+00:00",
     "matched_in": "title"
    }
   ],
