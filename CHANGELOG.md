@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.11.0](https://github.com/DianCotrina/keikogobierna/compare/v2.10.0...v2.11.0) (2026-08-12)
+
+
+### Features
+
+* link each update card to its commitment on the tema page ([daded90](https://github.com/DianCotrina/keikogobierna/commit/daded901e89207c22fcc553cd5e0baa29f4fa4d3))
+
 ## [2.10.0](https://github.com/DianCotrina/keikogobierna/compare/v2.9.0...v2.10.0) (2026-08-10)
 
 
