@@ -1,118 +1,28 @@
 {
- "generated": "2026-08-13T06:17:08+00:00",
+ "generated": "2026-08-13T11:47:50+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-08-12",
+ "date": "2026-08-13",
  "articles": [
   {
-   "title": "Ahora Nación y Fuerza Popular protagonizan disputa por oficinas en el Congreso: policía ingresó a las instalaciones",
-   "url": "https://larepublica.pe/politica/2026/08/12/congreso-ahora-nacion-y-fuerza-popular-protagonizan-disputa-por-oficinas-para-diputados-hnews-215520",
-   "summary": "El enfrentamiento generó la intervención de agentes de seguridad del Parlamento, mientras que desde Ahora Nación anunciaron un comunicado para explicar lo ocurrido y precisar las responsabilidades por la disputa.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-08-13T02:35:35+00:00",
-   "source": "La República",
-   "captured": "2026-08-13T06:17:08+00:00"
-  },
-  {
-   "title": "Patricia Juárez confirma que Carlos Mesía presidirá Comisión de Constitución del Senado",
-   "url": "https://elcomercio.pe/politica/congreso/patricia-juarez-confirma-que-carlos-mesia-presidira-comision-de-constitucion-del-senado-ultimas-noticia/",
-   "summary": "La senadora de Fuerza Popular, Patricia Juárez confirmó que su colega de bancada Carlos Mesía, será quien presida la Comisión de Constitución del Senado.",
-   "author": "Redacción EC",
-   "published": "2026-08-13T01:31:51+00:00",
+   "title": "Ella baila sola",
+   "url": "https://elcomercio.pe/opinion/columnistas/ella-baila-sola-por-jose-carlos-requena-keiko-fujimori-aprobacion-presidencial-popularidad-noticia/",
+   "summary": "El auspicioso debut en la opinión pública del gobierno de Keiko Fujimori (60% de aprobación, según Datum-El Comercio, 9/7/2026) y las positivas acciones y nombramientos sectoriales en el MEF y el Ministerio de Trabajo han marcado la semana política pasada.",
+   "author": "José Carlos Requena",
+   "published": "2026-08-13T10:30:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-13T06:17:08+00:00"
+   "captured": "2026-08-13T11:47:50+00:00"
   },
   {
-   "title": "Keiko Fujimori nombra a Juan Falconí en la Procuraduría General pese a que la ley lo prohíbe",
-   "url": "https://larepublica.pe/politica/2026/08/12/keiko-fujimori-nombra-a-juan-falconi-en-la-procuraduria-general-pese-a-que-la-ley-lo-prohibe-hnews-369576",
-   "summary": "El viceministro de Justicia asumió un cargo en el Consejo Directivo de la entidad que, según el Decreto Legislativo 018-2019, tiene vedado por ejercer función pública.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-13T01:18:21+00:00",
-   "source": "La República",
-   "captured": "2026-08-13T06:17:08+00:00"
-  },
-  {
-   "title": "Keiko Fujimori sobre crisis en inseguridad ciudadana: \"No podemos dar resultados en quince días\"",
-   "url": "https://larepublica.pe/politica/2026/08/12/keiko-fujimori-sobre-crisis-en-inseguridad-ciudadana-no-podemos-dar-resultados-en-quince-dias-hnews-1015140",
-   "summary": "En un evento por el Día del Bodeguero, Fujimori mencionó que se viene desarrollando una estrategia para abordar esta problemática nacional, sin dar mayores detalles.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-08-13T00:15:01+00:00",
-   "source": "La República",
-   "captured": "2026-08-13T06:17:08+00:00"
-  },
-  {
-   "title": "Cámara de Diputados: Juntos por el Perú presidirá Constitución, Energía y Minas; y Justicia",
-   "url": "https://larepublica.pe/politica/2026/08/12/camara-de-diputados-juntos-por-el-peru-presidira-constitucion-energia-y-minas-y-justicia-hnews-409020",
-   "summary": "El reparto de las 16 comisiones ordinarias legislativas quedó definido esta semana. Fuerza Popular obtuvo el mayor número de presidencias, con seis, mientras Ernesto Zunini adelantó que su bancada evaluará con cautela cualquier pedido de facultades legislativas del Ejecutivo.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-13T00:11:27+00:00",
-   "source": "La República",
-   "captured": "2026-08-13T06:17:08+00:00"
-  },
-  {
-   "title": "Keiko Fujimori: “No podemos dar resultados en 15 días, por favor, les pido paciencia, pero, sobre todo, que confíen en este gobierno”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-no-podemos-dar-resultado-en-15-dias-por-favor-les-pido-paciencia-y-que-confien-en-este-gobierno-seguridad-ciudadana-ultimas-noticia/",
-   "summary": "La presidenta Keiko Fujimori aseguró que su Gobierno no puede dar resultados en 15 días en materia de seguridad ciudadana y pidió paciencia en la estrategia que utilizará para devolver orden y tranquilidad al país.",
-   "author": "Redacción EC",
-   "published": "2026-08-12T22:12:21+00:00",
+   "title": "Ahora le toca al Estado",
+   "url": "https://elcomercio.pe/opinion/columnistas/ahora-le-toca-al-estado-por-urpi-torrado-inteligencia-artificial-estado-peruano-digitalizacion-noticia/",
+   "summary": "En su mensaje a la nación, la presidenta Keiko Fujimori afirmó que “los trámites no serán más una pérdida de tiempo”. Para lograrlo, anunció la creación de la Autoridad Nacional Digital y señaló que “con tecnología e inteligencia artificial construiremos un Estado eficiente y cercano, capaz de responder a las necesidades de los ciudadanos”.",
+   "author": "Urpi Torrado",
+   "published": "2026-08-13T10:30:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-12T23:42:01+00:00"
-  },
-  {
-   "title": "Keiko Fujimori sobre la mejora en el Puerto del Callao: “Modernizar puertos significa también fortalecer nuestra economía”",
-   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-sobre-la-mejora-en-el-puerto-del-callao-modernizar-puertos-significa-tambien-fortalecer-nuestra-economia-noticia/",
-   "summary": "Durante la inauguración del sistema ‘shore power’ en el Muelle Sur del Callao, el ministro de Transportes y Comunicaciones, Rafael Rey, destacó que se trata de una tecnología que solo está presente en alrededor del 3% de los puertos del mundo y que se utiliza por primera vez en Hispanoamérica.",
-   "author": "Redacción EC",
-   "published": "2026-08-12T18:37:42+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-12T23:42:01+00:00"
-  },
-  {
-   "title": "Cámara de Diputados: Comisión de Ética suspende su instalación por tercera vez",
-   "url": "https://larepublica.pe/politica/2026/08/12/comision-de-etica-suspende-su-instalacion-por-tercera-vez-hnews-1007976",
-   "summary": "Por tercera vez, la instalación de la Comisión de Ética se ha postergado. Tras las votaciones del pasado martes 11, la Junta de Portavoces acordó que el diputado Heber López, del partido Obras, presidirá el grupo de trabajo. Desde las bancadas de Fuerza Popular y Renovación Popular se mostraron en desacuerdo.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-08-12T17:39:34+00:00",
-   "source": "La República",
-   "captured": "2026-08-12T17:57:24+00:00"
-  },
-  {
-   "title": "Ministro Marco Vinelli sobre pedido de facultades: “Ya estaba en las últimas revisiones el documento final para ser enviado al Congreso”",
-   "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-pedido-de-facultades-ya-estaba-en-las-ultimas-revisiones-el-documento-final-para-ser-enviado-al-congreso-ultimas-noticia/",
-   "summary": "El ministro de Desarrollo Agrario y Riego, Marco Vinelli, informó que el Gobierno de la presidenta Keiko Fujimori está ultimando detalles para solicitar facultades legislativas al Congreso de la República.",
-   "author": "Redacción EC",
-   "published": "2026-08-12T15:41:56+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-12T17:57:24+00:00"
-  },
-  {
-   "title": "El voto dirimente",
-   "url": "https://elcomercio.pe/opinion/columnistas/el-voto-dirimente-por-martin-hidalgo-noticia/",
-   "summary": "La votación para la elección de la Mesa Directiva nos dejó un panorama dividido para el Senado: 30 votos para el bloque de derecha (Fuerza Popular y Renovación Popular) y 30 votos para el bloque de izquierda (Juntos por el Perú, Ahora Nación, Partido Cívico Obras y el Partido del Buen Gobierno). Esto plantea la pregunta sobre cómo se definirán las mayorías en la Cámara Alta: por traición (tal como pasó en la elección de la presidencia) o por el voto dirimente (de la presidencia).",
-   "author": "Martin Hidalgo",
-   "published": "2026-08-12T11:00:01+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-12T11:47:04+00:00"
-  },
-  {
-   "title": "Gobernar con las ciudades",
-   "url": "https://elcomercio.pe/opinion/columnistas/gobernar-con-las-ciudades-por-aldo-facho-dede-noticia/",
-   "summary": "Hemos iniciado un nuevo ciclo presidencial, y con él se renuevan los compromisos y proyectos que debieran orientar al país hacia un mejor futuro. El nuevo gobierno no llega con una agenda en blanco. Para el proceso electoral, Fuerza Popular presentó un plan de gobierno que planteaba diversas acciones, algunas vinculadas al desarrollo urbano y la vivienda. Sin embargo, ninguna de ellas fue recogida de forma explícita en el mensaje a la nación del 28 de julio. Esta omisión debiera llamarnos la atención.",
-   "author": "Aldo Facho Dede",
-   "published": "2026-08-12T11:00:01+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-12T11:47:04+00:00"
-  },
-  {
-   "title": "Fuerza Popular presidirá Constitución en el Senado: ¿Qué partidos dirigirán las otras comisiones? y los entretelones de las negociaciones",
-   "url": "https://elcomercio.pe/politica/senado-fuerza-popular-presidira-constitucion-y-presupuesto-ahora-nacion-economia-los-entretelones-de-las-negociaciones-en-el-camara-alta-noticia-4/",
-   "summary": "",
-   "author": "Erik Rivera",
-   "published": "2026-08-12T05:01:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-12T06:20:00+00:00"
+   "captured": "2026-08-13T11:47:50+00:00"
   }
  ]
 }

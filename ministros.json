@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T06:17:08+00:00",
+ "generated": "2026-08-13T11:47:50+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -57,20 +57,6 @@
     "source": "La República",
     "published": "2026-08-13T00:18:47+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "López Aliaga responde a Rafael Rey y asegura que trenes fueron donados: \"Está creando un problema gravísimo con EE. UU.\"",
-    "url": "https://rpp.pe/politica/actualidad/lopez-aliaga-responde-a-rafael-rey-y-asegura-que-trenes-fueron-donados-esta-creando-un-problema-gravisimo-con-ee-uu-noticia-1701201",
-    "source": "RPP",
-    "published": "2026-08-12T17:45:28-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori sobre la mejora en el Puerto del Callao: “Modernizar puertos significa también fortalecer nuestra economía”",
-    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-sobre-la-mejora-en-el-puerto-del-callao-modernizar-puertos-significa-tambien-fortalecer-nuestra-economia-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-12T18:37:42+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Ministro de Transportes asegura que puentes del Aeropuerto Jorge Chávez “no se van a caer por más fuerte que sea el Niño”",
