@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T23:42:01+00:00",
+ "generated": "2026-08-13T06:17:08+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Ministro de Desarrollo Agrario sobre obras para acceso al agua: “Hemos encontrado 35 proyectos por S/140 millones que están paralizados”",
-    "url": "https://elcomercio.pe/economia/peru/ministro-de-desarrollo-agrario-sobre-obras-para-acceso-al-agua-hemos-encontrado-35-proyectos-por-s140-millones-que-estan-paralizados-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-12T18:29:30+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro anuncia que pedido de facultades legislativas está “en las últimas revisiones” para ser enviado al Congreso",
     "url": "https://www.infobae.com/peru/2026/08/12/ministro-anuncia-que-pedido-de-facultades-legislativas-esta-en-las-ultimas-revisiones-para-ser-enviado-al-congreso/",
@@ -41,12 +34,28 @@
     "matched_in": "title"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "¿Se mantiene el feriado del 30 de agosto? El MEF responde sobre el Día de Santa Rosa de Lima",
+    "url": "https://elcomercio.pe/respuestas/cuando/se-cambia-el-feriado-del-30-de-agosto-el-mef-aclara-que-pasara-con-el-dia-de-santa-rosa-de-lima-tdpe-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-13T02:00:26+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Maestros sí tendrían aumento de pensiones, pero MEF negociará monto menor a S/3,500",
+    "url": "https://www.infobae.com/peru/2026/08/12/maestros-si-tendrian-aumento-de-pensiones-pero-mef-negociara-monto-menor-a-s3500/",
+    "source": "Infobae",
+    "published": "2026-08-12T18:35:46+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-rey-rey": [
    {
     "title": "Rafael Rey desmiente versión de López Aliaga sobre los trenes de la MML: “No fue una donación, fue una compra”",
     "url": "https://larepublica.pe/politica/2026/08/12/rafael-rey-desmiente-version-de-lopez-aliaga-sobre-los-trenes-de-la-mml-no-fue-una-donacion-fue-una-compra-hnews-881784",
     "source": "La República",
-    "published": "2026-08-12T22:52:35+00:00",
+    "published": "2026-08-13T00:18:47+00:00",
     "matched_in": "title"
    },
    {
@@ -54,13 +63,6 @@
     "url": "https://rpp.pe/politica/actualidad/lopez-aliaga-responde-a-rafael-rey-y-asegura-que-trenes-fueron-donados-esta-creando-un-problema-gravisimo-con-ee-uu-noticia-1701201",
     "source": "RPP",
     "published": "2026-08-12T17:45:28-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MML responde a ministro Rafael Rey sobre trenes: \"Debe contar con la información técnica antes de emitir opiniones\"",
-    "url": "https://rpp.pe/politica/gobierno/municipalidad-de-lima-ratifica-donacion-de-trenes-lima-chosica-y-responde-a-ministro-rafael-rey-noticia-1701219",
-    "source": "RPP",
-    "published": "2026-08-12T16:13:10-05:00",
     "matched_in": "title"
    },
    {
@@ -78,13 +80,13 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Maestros sí tendrían aumento de pensiones, pero MEF negociará monto menor a S/3,500",
-    "url": "https://www.infobae.com/peru/2026/08/12/maestros-si-tendrian-aumento-de-pensiones-pero-mef-negociara-monto-menor-a-s3500/",
-    "source": "Infobae",
-    "published": "2026-08-12T18:35:46+00:00",
-    "matched_in": "title"
+    "title": "El Gobierno aprobó declarar de interés nacional la visita del papa León XIV al Perú",
+    "url": "https://rpp.pe/politica/gobierno/el-gobierno-aprobo-declarar-de-interes-nacional-la-visita-del-papa-leon-xiv-al-peru-noticia-1701268",
+    "source": "RPP",
+    "published": "2026-08-12T22:55:32-05:00",
+    "matched_in": "summary"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
