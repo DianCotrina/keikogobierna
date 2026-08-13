@@ -221,6 +221,72 @@ class RoutineActTest(unittest.TestCase):
         ):
             self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
+    def test_drafts_out_for_comment_are_gated(self):
+        # A text still in consulta is not in force, so it cannot evidence a
+        # commitment — and the same instrument returns as its own candidate when
+        # it is finally enacted. Issues #295, #302, #303 in one day.
+        for sumilla in (
+            "Disponen la prepublicación de la Resolución de Dirección Ejecutiva que "
+            "modifica los “Lineamientos para la Inscripción de Plantaciones”",
+            "Autorizan la difusión en consulta pública del proyecto normativo que "
+            "aprueba la Norma que establece los Lineamientos aplicables a los "
+            "productos de seguros",
+            "Resolución de Consejo Directivo con la que se dispone la publicación del "
+            "Proyecto de fijación del Valor Nuevo de Reemplazo (VNR)",
+            "Disponen la publicación de proyecto de “Decreto Supremo que modifica el "
+            "Reglamento Técnico sobre etiquetado”",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_the_enacted_version_still_reaches_the_queue(self):
+        # The gate must catch the draft and miss the norm it becomes.
+        for sumilla in (
+            "Decreto Supremo que aprueba el Reglamento Técnico sobre etiquetado",
+            "Aprueban los Lineamientos para la Inscripción de Plantaciones en el "
+            "Registro Nacional",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_heritage_declarations_are_gated(self):
+        for sumilla in (
+            "Declaran Patrimonio Cultural de la Nación el Libro de Actas del Cabildo "
+            "de la ciudad de Huamanga (1808 – 1810)",
+            "Declaran Patrimonio Cultural de la Nación los “Bonos de reconocimiento de "
+            "la deuda agraria peruana, emitidos entre 1974 y 1976”",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_hazard_emergencies_are_gated_but_security_ones_are_not(self):
+        # t1-1.P18 promises a Plan de Emergencia against inseguridad ciudadana, so
+        # "estado de emergencia" cannot be gated as a phrase — only the Ley 29664
+        # hazard formula (issue #301, déficit hídrico in sixteen departments).
+        self.assertTrue(er.is_routine_act({"sumilla":
+            "Decreto Supremo que declara el Estado de Emergencia en varios distritos "
+            "de algunas provincias de los departamentos de Apurímac, Arequipa y Cusco, "
+            "por peligro inminente ante déficit hídrico para el período de lluvias "
+            "2026-2027"}))
+        for sumilla in (
+            "Decreto Supremo que declara el Estado de Emergencia en distritos de la "
+            "provincia de Trujillo por el incremento de la criminalidad y la "
+            "extorsión",
+            "Prorrogan el Estado de Emergencia declarado en la Región Policial de "
+            "Lima por inseguridad ciudadana",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_academic_paperwork_is_gated(self):
+        self.assertTrue(er.is_routine_act({"sumilla":
+            "Autorizan duplicado de diploma de grado académico de maestro en ciencias "
+            "de la educación de la Universidad Nacional de Educación Enrique Guzmán y "
+            "Valle"}))
+
+    def test_accrediting_representatives_is_personnel_churn(self):
+        # Issue #296: a standing tripartite council swapping its union and CONFIEP
+        # delegates. `representantes` alone never earns the task-body exception.
+        self.assertTrue(er.is_routine_act({"sumilla":
+            "Acreditan designaciones de representantes de la CATP, CGTP, CTP y CONFIEP "
+            "ante el Consejo Nacional de Seguridad y Salud en el Trabajo"}))
+
     def test_travel_and_academic_authorizations_are_gated(self):
         for sumilla in (
             "Ratifican resolución que aprueba estancia académica en Portugal de "
