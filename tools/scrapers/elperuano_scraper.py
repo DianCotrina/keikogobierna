@@ -141,6 +141,7 @@ _PERSONNEL_VERB_RE = re.compile(
     r"|nombran"
     r"|proclaman"
     r"|aceptan (?:la |las )?renuncias?"
+    r"|acreditan (?:la |las )?designacion(?:es)?"
     r"|encargan"
     r"|dan por (?:concluidas?|terminadas?) (?:la |las )?"
     r"(?:designacion(?:es)?|funciones)"
@@ -171,16 +172,57 @@ _TRAVEL_RE = re.compile(r"\bautorizan\b.{0,40}\bviaje\b|\bestancia academica\b|\
 #    themselves are dropped, not everything those bodies publish.
 _RECURRING_INDEX_RE = re.compile(r"\bindice de reajuste\b|\btipo de cambio\b")
 
+# 4. Drafts. A prepublicacion, a proyecto put out for comment, or a consulta
+#    publica is a text that is *not in force* — it cannot evidence a commitment
+#    the government has yet to keep, and the same instrument returns as its own
+#    candidate when it is finally enacted. Not one of the plan's 699 commitments
+#    names a draft as its target. Issues #295, #302, #303 in one day, and
+#    #128/#134/#139 before them.
+_DRAFT_RE = re.compile(
+    r"\bpre ?publicacion\b"
+    r"|\b(?:publicacion|difusion)\b.{0,40}?\bproyecto\b"
+    r"|\bconsulta publica\b"
+)
+
+# 5. Heritage declarations. Under Ley 28296 the Ministerio de Cultura declares
+#    individual objects, archives and expressions Patrimonio Cultural de la
+#    Nacion continuously — three landed in a single queue (issues #298-#300).
+#    The one commitment that mentions patrimonio cultural (t3-2.P35) promises
+#    *promocion de la economia naranja* and Escuelas Tecnicas, not the statutory
+#    declarations themselves, so gating this class blinds nothing.
+_HERITAGE_DECLARATION_RE = re.compile(r"^declaran\b.{0,80}?patrimonio cultural de la nacion")
+
+# 6. SINAGERD emergency declarations. Deliberately *not* a blanket match on
+#    "estado de emergencia": the plan promises one (t1-1.P18, a Plan de
+#    Emergencia against inseguridad ciudadana via delegated legislative
+#    powers), so a security emergency has to keep its place in the queue. Only
+#    the Ley 29664 hazard formula is gated — INDECI/CENEPRED declarations for
+#    peligro inminente or a desastre, which run monthly (issue #301, declared
+#    for deficit hidrico across sixteen departments).
+_HAZARD_RE = re.compile(r"\bpeligro inminente\b|\bdesastre\b|\bimpacto de danos\b")
+
+# 7. University registry paperwork: a reissued diploma is not a policy act.
+_ACADEMIC_PAPERWORK_RE = re.compile(r"\bduplicado de (?:diploma|grado|titulo)\b")
+
 
 def is_routine_act(record: dict) -> bool:
-    """True for a norma whose operative act is routine administration —
-    personnel churn, a travel authorization, or a periodic index."""
+    """True for a norma whose operative act cannot evidence a commitment —
+    personnel churn, a permission slip, a periodic index, a draft still out for
+    comment, a statutory declaration, or hazard-management paperwork."""
     sumilla = fold(record.get("sumilla", ""))
     if _PERSONNEL_VERB_RE.match(sumilla) and not (
         _COLLECTIVE_OBJECT_RE.search(sumilla) and _TASK_BODY_RE.search(sumilla)
     ):
         return True
-    return bool(_TRAVEL_RE.search(sumilla) or _RECURRING_INDEX_RE.search(sumilla))
+    if "estado de emergencia" in sumilla and _HAZARD_RE.search(sumilla):
+        return True
+    return bool(
+        _TRAVEL_RE.search(sumilla)
+        or _RECURRING_INDEX_RE.search(sumilla)
+        or _DRAFT_RE.search(sumilla)
+        or _HERITAGE_DECLARATION_RE.search(sumilla)
+        or _ACADEMIC_PAPERWORK_RE.search(sumilla)
+    )
 
 
 # Fetching and norma text live in common/elperuano_client.py; matching lives in
