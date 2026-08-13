@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T11:47:50+00:00",
+ "generated": "2026-08-13T17:57:23+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,13 +11,6 @@
  "ministers": {
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Ministro anuncia que pedido de facultades legislativas está “en las últimas revisiones” para ser enviado al Congreso",
-    "url": "https://www.infobae.com/peru/2026/08/12/ministro-anuncia-que-pedido-de-facultades-legislativas-esta-en-las-ultimas-revisiones-para-ser-enviado-al-congreso/",
-    "source": "Infobae",
-    "published": "2026-08-12T16:06:08+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Ministro Marco Vinelli sobre pedido de facultades: “Ya estaba en las últimas revisiones el documento final para ser enviado al Congreso”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-pedido-de-facultades-ya-estaba-en-las-ultimas-revisiones-el-documento-final-para-ser-enviado-al-congreso-ultimas-noticia/",
     "source": "El Comercio",
@@ -27,6 +20,13 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "Ministro de Justicia propone construir penales para separar a internos primarios de reos de alta peligrosidad",
+    "url": "https://www.infobae.com/peru/2026/08/13/ministro-de-justicia-propone-construir-penales-para-separar-a-internos-primarios-de-reos-de-alta-peligrosidad/",
+    "source": "Infobae",
+    "published": "2026-08-13T16:43:33+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro Ernesto Álvarez sobre Toledo y Castillo: “No se pueden instrumentalizar indultos o gracias presidenciales en procura de la impunidad”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-ernesto-alvarez-sobre-alejandro-toledo-y-pedro-castillo-no-se-pueden-instrumentalizar-indultos-o-gracias-presidenciales-en-procura-de-la-impunidad-ultimas-noticia/",
     "source": "El Comercio",
@@ -34,20 +34,54 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Minem asegura que se incrementará almacenamiento de combustibles en Ucayali en el más corto plazo",
+    "url": "https://elcomercio.pe/economia/peru/minem-asegura-que-se-incrementara-almacenamiento-de-combustibles-en-ucayali-en-el-mas-corto-plazo-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-13T15:22:50+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
+   {
+    "title": "Produce: pesca del perico se inicia este 1 de septiembre para monitorear impacto del fenómeno de El Niño",
+    "url": "https://elcomercio.pe/economia/peru/produce-pesca-del-perico-se-inicia-excepcionalmente-este-1-de-septiembre-para-monitorear-la-respuesta-del-recurso-a-las-condiciones-del-fenomeno-de-el-nino-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-13T14:46:23+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "¿Se mantiene el feriado del 30 de agosto? El MEF responde sobre el Día de Santa Rosa de Lima",
-    "url": "https://elcomercio.pe/respuestas/cuando/se-cambia-el-feriado-del-30-de-agosto-el-mef-aclara-que-pasara-con-el-dia-de-santa-rosa-de-lima-tdpe-noticia/",
+    "title": "No dejar la ola",
+    "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-13T02:00:26+00:00",
-    "matched_in": "title"
+    "published": "2026-08-13T14:24:09+00:00",
+    "matched_in": "summary"
    },
    {
-    "title": "Maestros sí tendrían aumento de pensiones, pero MEF negociará monto menor a S/3,500",
+    "title": "Adiós a la gratificación CAS, aumento de pensiones a maestros y militares, y homologación CAFAE: Serán llevadas al TC",
+    "url": "https://www.infobae.com/peru/2026/08/08/adios-a-la-gratificacion-cas-aumento-de-pensiones-a-maestros-y-militares-y-homologacion-cafae-mef-las-llevara-al-tc/",
+    "source": "Infobae",
+    "published": "2026-08-13T14:23:19+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Maestros sí tendrían aumento de pensiones, pero el MEF negociará monto menor a S/3,500",
     "url": "https://www.infobae.com/peru/2026/08/12/maestros-si-tendrian-aumento-de-pensiones-pero-mef-negociara-monto-menor-a-s3500/",
     "source": "Infobae",
-    "published": "2026-08-12T18:35:46+00:00",
+    "published": "2026-08-13T14:22:35+00:00",
     "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Gobierno aprobó declarar de interés nacional la visita del papa León XIV al Perú",
+    "url": "https://larepublica.pe/politica/2026/08/13/gobierno-aprobo-declarar-de-interes-nacional-la-visita-del-papa-leon-xiv-al-peru-hnews-877409",
+    "source": "La República",
+    "published": "2026-08-13T15:12:17+00:00",
+    "matched_in": "summary"
    }
   ],
   "rafael-rey-rey": [
@@ -59,29 +93,11 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro de Transportes asegura que puentes del Aeropuerto Jorge Chávez “no se van a caer por más fuerte que sea el Niño”",
-    "url": "https://www.infobae.com/peru/2026/08/12/ministro-de-transportes-asegura-que-puentes-del-aeropuerto-jorge-chavez-no-se-van-a-caer-por-mas-fuerte-que-sea-el-nino/",
-    "source": "Infobae",
-    "published": "2026-08-12T14:52:43+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "El Gobierno aprobó declarar de interés nacional la visita del papa León XIV al Perú",
-    "url": "https://rpp.pe/politica/gobierno/el-gobierno-aprobo-declarar-de-interes-nacional-la-visita-del-papa-leon-xiv-al-peru-noticia-1701268",
+    "title": "López Aliaga responde a Rafael Rey y asegura que trenes fueron donados: \"Está creando un problema gravísimo con EE. UU.\"",
+    "url": "https://rpp.pe/politica/actualidad/lopez-aliaga-responde-a-rafael-rey-y-asegura-que-trenes-fueron-donados-esta-creando-un-problema-gravisimo-con-ee-uu-noticia-1701201",
     "source": "RPP",
-    "published": "2026-08-12T22:55:32-05:00",
-    "matched_in": "summary"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Alberto Jordán, excandidato de Renovación Popular, es el nuevo viceministro de Orden Interno",
-    "url": "https://www.infobae.com/peru/2026/08/12/alberto-jordan-excandidato-de-renovacion-popular-es-el-nuevo-viceministro-de-orden-interino/",
-    "source": "Infobae",
-    "published": "2026-08-12T13:45:42+00:00",
-    "matched_in": "summary"
+    "published": "2026-08-12T17:45:28-05:00",
+    "matched_in": "title"
    }
   ]
  }
