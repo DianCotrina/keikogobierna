@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T17:57:23+00:00",
+ "generated": "2026-08-13T23:41:58+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -20,6 +20,13 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "Ministro de Justicia desmonta propuesta de Keiko Fujimori de retirar al Perú de la Corte IDH: “No es posible, no ahora”",
+    "url": "https://www.infobae.com/peru/2026/08/13/ministro-de-justicia-desmonta-propuesta-de-keiko-fujimori-de-retirar-al-peru-de-la-corte-idh-no-es-posible-no-ahora/",
+    "source": "Infobae",
+    "published": "2026-08-13T20:32:13+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro de Justicia propone construir penales para separar a internos primarios de reos de alta peligrosidad",
     "url": "https://www.infobae.com/peru/2026/08/13/ministro-de-justicia-propone-construir-penales-para-separar-a-internos-primarios-de-reos-de-alta-peligrosidad/",
     "source": "Infobae",
@@ -32,6 +39,15 @@
     "source": "El Comercio",
     "published": "2026-08-12T02:06:43+00:00",
     "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "No dejar la ola",
+    "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-13T20:04:30+00:00",
+    "matched_in": "summary"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -52,29 +68,6 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "No dejar la ola",
-    "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-13T14:24:09+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Adiós a la gratificación CAS, aumento de pensiones a maestros y militares, y homologación CAFAE: Serán llevadas al TC",
-    "url": "https://www.infobae.com/peru/2026/08/08/adios-a-la-gratificacion-cas-aumento-de-pensiones-a-maestros-y-militares-y-homologacion-cafae-mef-las-llevara-al-tc/",
-    "source": "Infobae",
-    "published": "2026-08-13T14:23:19+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Maestros sí tendrían aumento de pensiones, pero el MEF negociará monto menor a S/3,500",
-    "url": "https://www.infobae.com/peru/2026/08/12/maestros-si-tendrian-aumento-de-pensiones-pero-mef-negociara-monto-menor-a-s3500/",
-    "source": "Infobae",
-    "published": "2026-08-13T14:22:35+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Gobierno aprobó declarar de interés nacional la visita del papa León XIV al Perú",
@@ -91,13 +84,15 @@
     "source": "La República",
     "published": "2026-08-13T00:18:47+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "López Aliaga responde a Rafael Rey y asegura que trenes fueron donados: \"Está creando un problema gravísimo con EE. UU.\"",
-    "url": "https://rpp.pe/politica/actualidad/lopez-aliaga-responde-a-rafael-rey-y-asegura-que-trenes-fueron-donados-esta-creando-un-problema-gravisimo-con-ee-uu-noticia-1701201",
-    "source": "RPP",
-    "published": "2026-08-12T17:45:28-05:00",
-    "matched_in": "title"
+    "title": "Keiko Fujimori no asegura continuidad de Óscar Arriola en la PNP: “Espero que podamos ver mejores resultados”",
+    "url": "https://www.infobae.com/peru/2026/08/13/keiko-fujimori-no-asegura-continuidad-de-oscar-arriola-en-la-pnp-espero-que-podamos-ver-mejores-resultados/",
+    "source": "Infobae",
+    "published": "2026-08-13T20:05:39+00:00",
+    "matched_in": "summary"
    }
   ]
  }
