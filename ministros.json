@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T06:14:07+00:00",
+ "generated": "2026-08-14T11:43:50+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,38 +18,6 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Minem asegura que se incrementará almacenamiento de combustibles en Ucayali en el más corto plazo",
-    "url": "https://elcomercio.pe/economia/peru/minem-asegura-que-se-incrementara-almacenamiento-de-combustibles-en-ucayali-en-el-mas-corto-plazo-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-13T15:22:50+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
-    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T22:20:47+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
-    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T23:35:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Produce: pesca del perico se inicia este 1 de septiembre para monitorear impacto del fenómeno de El Niño",
-    "url": "https://elcomercio.pe/economia/peru/produce-pesca-del-perico-se-inicia-excepcionalmente-este-1-de-septiembre-para-monitorear-la-respuesta-del-recurso-a-las-condiciones-del-fenomeno-de-el-nino-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-13T14:46:23+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Gobierno aprobó declarar de interés nacional la visita del papa León XIV al Perú",
@@ -57,13 +25,6 @@
     "source": "La República",
     "published": "2026-08-13T15:12:17+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
-    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T21:56:00+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
@@ -80,54 +41,6 @@
     "source": "La República",
     "published": "2026-08-13T00:18:47+00:00",
     "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministro de Justicia desmonta propuesta de Keiko Fujimori de retirar al Perú de la Corte IDH: “No es posible, no ahora”",
-    "url": "https://www.infobae.com/peru/2026/08/13/ministro-de-justicia-desmonta-propuesta-de-keiko-fujimori-de-retirar-al-peru-de-la-corte-idh-no-es-posible-no-ahora/",
-    "source": "Infobae",
-    "published": "2026-08-13T20:32:13+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
-    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T05:28:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
-    "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-09T03:48:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
-    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T19:31:50+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
-    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-08T17:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Keiko Fujimori no asegura continuidad de Óscar Arriola en la PNP: “Espero que podamos ver mejores resultados”",
-    "url": "https://www.infobae.com/peru/2026/08/13/keiko-fujimori-no-asegura-continuidad-de-oscar-arriola-en-la-pnp-espero-que-podamos-ver-mejores-resultados/",
-    "source": "Infobae",
-    "published": "2026-08-13T20:05:39+00:00",
-    "matched_in": "summary"
    }
   ]
  }
