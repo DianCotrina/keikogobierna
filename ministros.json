@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T17:53:37+00:00",
+ "generated": "2026-08-14T23:22:09+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -27,12 +27,19 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "MEF negociará aumento de pensiones de maestros, pero monto será menor a S/3.500",
-    "url": "https://www.infobae.com/peru/2026/08/12/maestros-si-tendrian-aumento-de-pensiones-pero-mef-negociara-monto-menor-a-s3500/",
+    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Defensa para que responda por situación en Pataz",
+    "url": "https://rpp.pe/politica/congreso/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-defensa-para-que-responda-por-situacion-en-pataz-noticia-1701614",
+    "source": "RPP",
+    "published": "2026-08-14T16:54:12-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Presenta moción para interpelar al ministro de Defensa, Rafael Belaúnde, por supuestos vínculos con Minera Poderosa",
+    "url": "https://www.infobae.com/peru/2026/08/14/presenta-mocion-para-interpelar-al-ministro-de-defensa-rafael-belaunde-por-supuestos-vinculos-con-minera-poderosa/",
     "source": "Infobae",
-    "published": "2026-08-14T11:55:17+00:00",
+    "published": "2026-08-14T18:12:12+00:00",
     "matched_in": "title"
    }
   ]
