@@ -45,7 +45,7 @@ const description = `Los ${stats.total} compromisos que el plan de gobierno 2026
         </span>
       </h1>
       <p class="mt-8 text-lg leading-[1.7] text-tintasuave max-w-xl mx-auto">
-        Los compromisos que el plan promete cumplir apenas asuma el gobierno. Son la primera prueba de intención — y el primer tramo que este seguimiento vigila. El registro comienza cuando el gobierno entre en funciones.
+        Los compromisos que el plan promete cumplir apenas asuma el gobierno. Son la primera prueba de intención — y el primer tramo que este seguimiento vigila. El plazo corre desde el 28 de julio de 2026.
       </p>
     </section>
 
@@ -69,6 +69,21 @@ const description = `Los ${stats.total} compromisos que el plan de gobierno 2026
           <div><p class="text-xl font-semibold text-plomo">{stats.byStatus.no_progress}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Sin avance</p></div>
           <div><p class="text-xl font-semibold text-rojo">{stats.byStatus.unfulfilled}</p><p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Incumplidas</p></div>
         </div>
+      </div>
+
+      <!-- Annotation, not a record: a left rule on the paper rather than another
+           card, so it reads as a note *on* the expediente. It sits against the
+           tally on purpose — the zero above is only legible with this beside it. -->
+      <div class="mt-7 border-l-2 border-tinta/15 pl-4 sm:pl-5">
+        <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Nota sobre la evidencia</h2>
+        <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave max-w-xl">
+          Este seguimiento se apoya en las normas que el gobierno publica en El Peruano.
+          Varias de estas acciones —campañas, operativos, despliegues, inicios de
+          operación— no necesitan una norma publicada para ocurrir, y el diario oficial
+          no las ve. Que una acción figure sin avance significa que todavía no hay una
+          norma que lo acredite, no que no se haya hecho nada.
+        </p>
+        <a href="/fuentes/" class="nav-link mt-2.5 inline-block font-mono text-xs text-tintafina">Cómo se verifica cada compromiso →</a>
       </div>
     </section>
 
