@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T23:41:58+00:00",
+ "generated": "2026-08-14T06:14:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,44 +18,26 @@
     "matched_in": "title"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministro de Justicia desmonta propuesta de Keiko Fujimori de retirar al Perú de la Corte IDH: “No es posible, no ahora”",
-    "url": "https://www.infobae.com/peru/2026/08/13/ministro-de-justicia-desmonta-propuesta-de-keiko-fujimori-de-retirar-al-peru-de-la-corte-idh-no-es-posible-no-ahora/",
-    "source": "Infobae",
-    "published": "2026-08-13T20:32:13+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Justicia propone construir penales para separar a internos primarios de reos de alta peligrosidad",
-    "url": "https://www.infobae.com/peru/2026/08/13/ministro-de-justicia-propone-construir-penales-para-separar-a-internos-primarios-de-reos-de-alta-peligrosidad/",
-    "source": "Infobae",
-    "published": "2026-08-13T16:43:33+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Ernesto Álvarez sobre Toledo y Castillo: “No se pueden instrumentalizar indultos o gracias presidenciales en procura de la impunidad”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-ernesto-alvarez-sobre-alejandro-toledo-y-pedro-castillo-no-se-pueden-instrumentalizar-indultos-o-gracias-presidenciales-en-procura-de-la-impunidad-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-12T02:06:43+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "No dejar la ola",
-    "url": "https://elcomercio.pe/opinion/columnistas/no-dejar-la-ola-por-federico-salazar-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-13T20:04:30+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "guillermo-shinno-huamani": [
    {
     "title": "Minem asegura que se incrementará almacenamiento de combustibles en Ucayali en el más corto plazo",
     "url": "https://elcomercio.pe/economia/peru/minem-asegura-que-se-incrementara-almacenamiento-de-combustibles-en-ucayali-en-el-mas-corto-plazo-l-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-13T15:22:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Plantas procesadoras de oro en la mira del Gobierno: la propuesta contra la minería ilegal",
+    "url": "https://gestion.pe/economia/oro-en-peru-plantas-procesadoras-de-este-metal-en-la-mira-del-minem-y-el-ministro-guillermo-shinno-propuesta-contra-la-mineria-ilegal-del-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T22:20:47+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Combustibles: Minem emitirá normas para enfrentar casos de  especulación de precios",
+    "url": "https://gestion.pe/peru/combustibles-minem-emitira-normas-para-enfrentar-casos-de-especulacion-de-precios-y-abastecimientoen-en-ucayali-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T23:35:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -75,14 +57,67 @@
     "source": "La República",
     "published": "2026-08-13T15:12:17+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Perú y Colombia acuerdan restablecer embajadores, aseguró canciller Espá",
+    "url": "https://gestion.pe/peru/politica/peru-y-colombia-acuerdan-restablecer-embajadores-aseguro-canciller-carlos-espa-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T21:56:00+00:00",
+    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
+   {
+    "title": "JNE: resolución citada por la Municipalidad de Lima no determinó que  trenes fueran donados",
+    "url": "https://rpp.pe/politica/elecciones/jne-resolucion-citada-por-la-municipalidad-de-lima-no-determino-que-los-trenes-fueran-donados-noticia-1701449",
+    "source": "RPP",
+    "published": "2026-08-13T18:58:36-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Rafael Rey desmiente versión de López Aliaga sobre los trenes de la MML: “No fue una donación, fue una compra”",
     "url": "https://larepublica.pe/politica/2026/08/12/rafael-rey-desmiente-version-de-lopez-aliaga-sobre-los-trenes-de-la-mml-no-fue-una-donacion-fue-una-compra-hnews-881784",
     "source": "La República",
     "published": "2026-08-13T00:18:47+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministro de Justicia desmonta propuesta de Keiko Fujimori de retirar al Perú de la Corte IDH: “No es posible, no ahora”",
+    "url": "https://www.infobae.com/peru/2026/08/13/ministro-de-justicia-desmonta-propuesta-de-keiko-fujimori-de-retirar-al-peru-de-la-corte-idh-no-es-posible-no-ahora/",
+    "source": "Infobae",
+    "published": "2026-08-13T20:32:13+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Justicia sobre salvoconducto a Chávez: Ya no teníamos otra opción, era jurídicamente correcto",
+    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-ernesto-alvarez-sobre-salvoconducto-a-betssy-chavez-ya-no-teniamos-otra-opcion-era-juridicamente-correcto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T05:28:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Feriados en Perú: MEF anuncia cambios y ahora se moverán a los lunes",
+    "url": "https://gestion.pe/economia/feriados-en-peru-mef-anuncia-cambios-y-ahora-se-moveran-a-los-viernes-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-09T03:48:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF reclama a quienes no regularizan ingresos: “Si no lo hacen enfrentarán el peso de la ley”",
+    "url": "https://gestion.pe/economia/mef-reclama-a-quienes-no-regularizan-ingresos-si-no-lo-hacen-enfrentaran-el-peso-de-la-ley-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T19:31:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sueldo mínimo: MEF anuncia alza en dos tramos y empezará con incremento de S/ 100",
+    "url": "https://gestion.pe/economia/sueldo-minimo-mef-anuncia-alza-en-dos-tramos-y-empezara-con-s-100-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-08T17:00:00+00:00",
     "matched_in": "title"
    }
   ],
