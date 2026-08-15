@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T17:20:48+00:00",
+ "generated": "2026-08-15T23:20:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,6 +11,20 @@
  "ministers": {
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "Álvarez: Gabinete no ha abordado salida del Perú de la Corte IDH, pero se buscará la “reforma profunda” del SIDH",
+    "url": "https://rpp.pe/politica/gobierno/alvarez-gabinete-no-ha-abordado-salida-del-peru-de-la-corte-idh-pero-se-buscara-la-reforma-profunda-del-sidh-noticia-1701774",
+    "source": "RPP",
+    "published": "2026-08-15T14:45:25-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ruth Luque rechaza trasladar el LUM al Ministerio de Justicia y acusa al fujimorismo de querer reorientar el espacio",
+    "url": "https://www.infobae.com/peru/2026/08/15/ruth-luque-rechaza-trasladar-el-lum-al-ministerio-de-justicia-y-acusa-al-fujimorismo-de-querer-reorientar-el-espacio/",
+    "source": "Infobae",
+    "published": "2026-08-15T17:27:12+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
     "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
     "source": "El Comercio",
@@ -20,10 +34,10 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Elmer Cuba sobre subsidio para transportistas: “Será equivalente a 4 soles por galón con topes mensuales”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-subsidio-para-transportistas-sera-equivalente-a-4-soles-por-galon-con-topes-mensuales-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-15T16:37:22+00:00",
+    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
+    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-15T18:16:49+00:00",
     "matched_in": "title"
    }
   ],
@@ -33,13 +47,6 @@
     "url": "https://gestion.pe/peru/politica/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-defensa-estas-son-las-razones-noticia/",
     "source": "Gestión",
     "published": "2026-08-15T04:11:38+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa Rafael Belaunde lideró simulacro nacional ante lluvias intensas en Piura",
-    "url": "https://www.infobae.com/peru/2026/08/15/ministro-de-defensa-rafael-belaunde-lidero-simulacro-nacional-ante-lluvias-intensas-en-piura/",
-    "source": "Infobae",
-    "published": "2026-08-15T02:37:13+00:00",
     "matched_in": "title"
    }
   ],
