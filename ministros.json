@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T05:25:20+00:00",
+ "generated": "2026-08-15T11:21:06+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,15 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
+    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-15T11:18:22+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Gobierno aprobó declarar de interés nacional la visita del papa León XIV al Perú",
