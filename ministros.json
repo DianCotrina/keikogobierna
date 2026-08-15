@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T23:22:09+00:00",
+ "generated": "2026-08-15T05:25:20+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,21 +18,19 @@
     "matched_in": "summary"
    }
   ],
-  "rafael-rey-rey": [
-   {
-    "title": "Rafael Rey desmiente versión de López Aliaga sobre los trenes de la MML: “No fue una donación, fue una compra”",
-    "url": "https://larepublica.pe/politica/2026/08/12/rafael-rey-desmiente-version-de-lopez-aliaga-sobre-los-trenes-de-la-mml-no-fue-una-donacion-fue-una-compra-hnews-881784",
-    "source": "La República",
-    "published": "2026-08-13T00:18:47+00:00",
-    "matched_in": "title"
-   }
-  ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Defensa para que responda por situación en Pataz",
-    "url": "https://rpp.pe/politica/congreso/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-defensa-para-que-responda-por-situacion-en-pataz-noticia-1701614",
-    "source": "RPP",
-    "published": "2026-08-14T16:54:12-05:00",
+    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Defensa: estas son las razones",
+    "url": "https://gestion.pe/peru/politica/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-defensa-estas-son-las-razones-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-15T04:11:38+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa Rafael Belaunde lideró simulacro nacional ante lluvias intensas en Piura",
+    "url": "https://www.infobae.com/peru/2026/08/15/ministro-de-defensa-rafael-belaunde-lidero-simulacro-nacional-ante-lluvias-intensas-en-piura/",
+    "source": "Infobae",
+    "published": "2026-08-15T02:37:13+00:00",
     "matched_in": "title"
    },
    {
@@ -41,6 +39,15 @@
     "source": "Infobae",
     "published": "2026-08-14T18:12:12+00:00",
     "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Editorial de Gestión: Essalud en la mira",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-essalud-en-la-mira-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-14T21:12:48+00:00",
+    "matched_in": "summary"
    }
   ]
  }
