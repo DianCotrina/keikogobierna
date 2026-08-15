@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T11:21:06+00:00",
+ "generated": "2026-08-15T17:20:48+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,13 +18,13 @@
     "matched_in": "title"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Gobierno aprobó declarar de interés nacional la visita del papa León XIV al Perú",
-    "url": "https://larepublica.pe/politica/2026/08/13/gobierno-aprobo-declarar-de-interes-nacional-la-visita-del-papa-leon-xiv-al-peru-hnews-877409",
-    "source": "La República",
-    "published": "2026-08-13T15:12:17+00:00",
-    "matched_in": "summary"
+    "title": "Elmer Cuba sobre subsidio para transportistas: “Será equivalente a 4 soles por galón con topes mensuales”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-subsidio-para-transportistas-sera-equivalente-a-4-soles-por-galon-con-topes-mensuales-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-15T16:37:22+00:00",
+    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -40,13 +40,6 @@
     "url": "https://www.infobae.com/peru/2026/08/15/ministro-de-defensa-rafael-belaunde-lidero-simulacro-nacional-ante-lluvias-intensas-en-piura/",
     "source": "Infobae",
     "published": "2026-08-15T02:37:13+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Presenta moción para interpelar al ministro de Defensa, Rafael Belaúnde, por supuestos vínculos con Minera Poderosa",
-    "url": "https://www.infobae.com/peru/2026/08/14/presenta-mocion-para-interpelar-al-ministro-de-defensa-rafael-belaunde-por-supuestos-vinculos-con-minera-poderosa/",
-    "source": "Infobae",
-    "published": "2026-08-14T18:12:12+00:00",
     "matched_in": "title"
    }
   ],
