@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T05:29:18+00:00",
+ "generated": "2026-08-16T11:20:28+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -50,15 +50,6 @@
     "source": "Gestión",
     "published": "2026-08-15T04:11:38+00:00",
     "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Editorial de Gestión: Essalud en la mira",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-essalud-en-la-mira-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-14T21:12:48+00:00",
-    "matched_in": "summary"
    }
   ],
   "jose-antonio-chang-escobedo": [
