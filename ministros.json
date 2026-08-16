@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T11:20:28+00:00",
+ "generated": "2026-08-16T17:19:44+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,65 @@
   "Infobae"
  ],
  "ministers": {
-  "ernesto-julio-alvarez-miranda": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Ruth Luque rechaza trasladar el LUM al Ministerio de Justicia y acusa al fujimorismo de querer reorientar el espacio",
-    "url": "https://www.infobae.com/peru/2026/08/15/ruth-luque-rechaza-trasladar-el-lum-al-ministerio-de-justicia-y-acusa-al-fujimorismo-de-querer-reorientar-el-espacio/",
-    "source": "Infobae",
-    "published": "2026-08-15T17:27:12+00:00",
+    "title": "Ministro Belaunde sobre las FFAA en Pataz: “No estamos para chalequear a Minera Poderosa”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-belaunde-sobre-las-ffaa-en-pataz-no-estamos-para-chalequear-a-minera-poderosa-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-16T15:59:35+00:00",
     "matched_in": "title"
    },
+   {
+    "title": "Ministro de Defensa dice que las Fuerzas Armadas ya no tendrán un “rol decorativo” en la lucha contra inseguridad",
+    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-ministro-de-defensa-dice-que-las-fuerzas-armadas-ya-no-tendran-un-rol-decorativo-en-la-lucha-contra-inseguridad-noticia-1701862",
+    "source": "RPP",
+    "published": "2026-08-16T10:48:35-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaúnde niega que Minera Poderosa haya financiado su campaña presidencial: “No he recibido un centavo”",
+    "url": "https://rpp.pe/politica/congreso/rafael-belaunde-niega-que-minera-poderosa-haya-financiado-su-campana-presidencial-no-he-recibido-un-centavo-noticia-1701854",
+    "source": "RPP",
+    "published": "2026-08-16T08:43:35-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Defensa: estas son las razones",
+    "url": "https://gestion.pe/peru/politica/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-defensa-estas-son-las-razones-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-15T04:11:38+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
    {
     "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
     "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
     "source": "El Comercio",
     "published": "2026-08-15T11:18:22+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Secretario general del SUTEP defiende pensiones a maestros y dice que titular del MEF \"se está creyendo un superministro\"",
+    "url": "https://rpp.pe/economia/economia/secretario-general-del-sutep-defiende-pensiones-a-maestros-y-dice-que-titular-del-mef-se-esta-creyendo-un-superministro-noticia-1701869",
+    "source": "RPP",
+    "published": "2026-08-16T11:33:06-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
+    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-15T18:16:49+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba sobre subsidio para transportistas: “Será equivalente a 4 soles por galón con topes mensuales”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-subsidio-para-transportistas-sera-equivalente-a-4-soles-por-galon-con-topes-mensuales-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-15T16:37:22+00:00",
     "matched_in": "title"
    }
   ],
@@ -34,21 +80,12 @@
     "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
-    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-15T18:16:49+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Defensa: estas son las razones",
-    "url": "https://gestion.pe/peru/politica/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-defensa-estas-son-las-razones-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-15T04:11:38+00:00",
+    "title": "Aumento de sueldo mínimo: Ministerio de Trabajo pone fecha para el inicio del debate nacional",
+    "url": "https://www.infobae.com/peru/2026/08/16/aumento-de-sueldo-minimo-ministerio-de-trabajo-pone-fecha-para-el-inicio-del-debate-nacional/",
+    "source": "Infobae",
+    "published": "2026-08-16T15:42:29+00:00",
     "matched_in": "title"
    }
   ],
