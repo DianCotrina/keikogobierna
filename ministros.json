@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T23:20:56+00:00",
+ "generated": "2026-08-16T05:29:18+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Álvarez: Gabinete no ha abordado salida del Perú de la Corte IDH, pero se buscará la “reforma profunda” del SIDH",
-    "url": "https://rpp.pe/politica/gobierno/alvarez-gabinete-no-ha-abordado-salida-del-peru-de-la-corte-idh-pero-se-buscara-la-reforma-profunda-del-sidh-noticia-1701774",
-    "source": "RPP",
-    "published": "2026-08-15T14:45:25-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ruth Luque rechaza trasladar el LUM al Ministerio de Justicia y acusa al fujimorismo de querer reorientar el espacio",
     "url": "https://www.infobae.com/peru/2026/08/15/ruth-luque-rechaza-trasladar-el-lum-al-ministerio-de-justicia-y-acusa-al-fujimorismo-de-querer-reorientar-el-espacio/",
@@ -30,6 +23,15 @@
     "source": "El Comercio",
     "published": "2026-08-15T11:18:22+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Keiko Fujimori y titular del Poder Judicial se reunieron para coordinar acciones contra la criminalidad",
+    "url": "https://larepublica.pe/politica/2026/08/15/keiko-fujimori-y-titular-del-poder-judicial-se-reunieron-para-coordinar-acciones-contra-la-criminalidad-870780",
+    "source": "La República",
+    "published": "2026-08-16T01:56:45+00:00",
+    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -57,6 +59,15 @@
     "source": "Gestión",
     "published": "2026-08-14T21:12:48+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Becas COAR: Minedu anuncia nuevo programa para potenciar el talento de estudiantes destacados",
+    "url": "https://www.infobae.com/peru/2026/08/16/becas-coar-minedu-anuncia-nuevo-programa-para-potenciar-el-talento-de-estudiantes-destacados/",
+    "source": "Infobae",
+    "published": "2026-08-16T02:12:40+00:00",
+    "matched_in": "title"
    }
   ]
  }
