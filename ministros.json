@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T17:19:44+00:00",
+ "generated": "2026-08-16T23:20:19+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,26 +9,51 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
+    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-16T19:35:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput afirma que EsSalud “ya está saliendo de cuidados intensivos” y descarta declarar una emergencia",
+    "url": "https://www.infobae.com/peru/2026/08/16/ministro-juan-sheput-afirma-que-essalud-ya-esta-saliendo-de-cuidados-intensivos-y-descarta-declarar-una-emergencia/",
+    "source": "Infobae",
+    "published": "2026-08-16T20:53:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Juan Sheput: “Tenemos instrumentos que podemos usar más allá de la delegación de facultades”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-tenemos-instrumentos-que-podemos-usar-mas-alla-de-la-delegacion-de-facultades-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-16T18:08:47+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Aumento de sueldo mínimo: Ministerio de Trabajo pone fecha para el inicio del debate nacional",
+    "url": "https://www.infobae.com/peru/2026/08/16/aumento-de-sueldo-minimo-ministerio-de-trabajo-pone-fecha-para-el-inicio-del-debate-nacional/",
+    "source": "Infobae",
+    "published": "2026-08-16T15:42:29+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro de Defensa niega aportes de la minera Poderosa a su campaña presidencial: “No he recibido un centavo”",
+    "url": "https://www.infobae.com/peru/2026/08/16/ministro-de-defensa-niega-aportes-de-la-minera-poderosa-a-su-campana-presidencial-no-he-recibido-un-centavo/",
+    "source": "Infobae",
+    "published": "2026-08-16T17:30:31+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Belaunde sobre las FFAA en Pataz: “No estamos para chalequear a Minera Poderosa”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-belaunde-sobre-las-ffaa-en-pataz-no-estamos-para-chalequear-a-minera-poderosa-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-16T15:59:35+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa dice que las Fuerzas Armadas ya no tendrán un “rol decorativo” en la lucha contra inseguridad",
-    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-ministro-de-defensa-dice-que-las-fuerzas-armadas-ya-no-tendran-un-rol-decorativo-en-la-lucha-contra-inseguridad-noticia-1701862",
-    "source": "RPP",
-    "published": "2026-08-16T10:48:35-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaúnde niega que Minera Poderosa haya financiado su campaña presidencial: “No he recibido un centavo”",
-    "url": "https://rpp.pe/politica/congreso/rafael-belaunde-niega-que-minera-poderosa-haya-financiado-su-campana-presidencial-no-he-recibido-un-centavo-noticia-1701854",
-    "source": "RPP",
-    "published": "2026-08-16T08:43:35-05:00",
     "matched_in": "title"
    },
    {
@@ -39,12 +64,12 @@
     "matched_in": "title"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "rogers-martin-valencia-espinoza": [
    {
-    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
-    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
+    "title": "CCL plantea al Mincetur medidas para reducir costos logísticos y fortalecer la competitividad del comercio exterior",
+    "url": "https://elcomercio.pe/economia/peru/ccl-plantea-al-mincetur-medidas-para-reducir-costos-logisticos-y-fortalecer-la-competitividad-del-comercio-exterior-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-15T11:18:22+00:00",
+    "published": "2026-08-16T18:44:22+00:00",
     "matched_in": "title"
    }
   ],
@@ -78,15 +103,6 @@
     "source": "La República",
     "published": "2026-08-16T01:56:45+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Aumento de sueldo mínimo: Ministerio de Trabajo pone fecha para el inicio del debate nacional",
-    "url": "https://www.infobae.com/peru/2026/08/16/aumento-de-sueldo-minimo-ministerio-de-trabajo-pone-fecha-para-el-inicio-del-debate-nacional/",
-    "source": "Infobae",
-    "published": "2026-08-16T15:42:29+00:00",
-    "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
