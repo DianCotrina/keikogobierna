@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T17:27:33+00:00",
+ "generated": "2026-08-17T23:23:14+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,121 @@
   "Infobae"
  ],
  "ministers": {
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá señala que cooperación de EE.UU. ayudará a “mejorar capacidad de respuesta” del Perú ante El Niño",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-senala-que-cooperacion-de-eeuu-ayudara-a-mejorar-capacidad-de-respuesta-del-peru-ante-el-nino-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T20:36:47+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Keiko Fujimori evalúa eliminar ministerios: ministro Elmer Cuba confirma que el tema “está en agenda”",
+    "url": "https://www.infobae.com/peru/2026/08/17/keiko-fujimori-evalua-eliminar-ministerios-ministro-elmer-cuba-confirma-que-el-tema-esta-en-agenda/",
+    "source": "Infobae",
+    "published": "2026-08-17T23:19:28+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Elmer Cuba anuncia que el Estado asumirá casi la mitad del incremento del combustible",
+    "url": "https://elcomercio.pe/economia/peru/ministro-elmer-cuba-anuncia-que-el-estado-asumira-casi-la-mitad-del-incremento-del-combustible-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T22:04:22+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Cuba pide disculpas por declaraciones sobre inundaciones en Lima: \"Fue una expresión poco feliz\"",
+    "url": "https://rpp.pe/politica/gobierno/elmer-cuba-pide-disculpas-por-declaraciones-sobre-aniego-en-lima-noticia-1702023",
+    "source": "RPP",
+    "published": "2026-08-17T17:00:54-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF alista combo tributario-laboral para facilitar la formalización de empresas y trabajadores",
+    "url": "https://elcomercio.pe/economia/peru/mef-alista-combo-tributario-laboral-para-facilitar-la-formalizacion-de-empresas-y-trabajadores-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T21:35:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Economía tras reprimenda de Keiko Fujimori: “Pido mil disculpas (a damnificados); fue una expresión poco feliz”",
+    "url": "https://www.infobae.com/peru/2026/08/17/ministro-de-economia-tras-reprimenda-de-keiko-fujimori-pido-mil-disculpas-a-damnificados-fue-una-expresion-poco-feliz/",
+    "source": "Infobae",
+    "published": "2026-08-17T20:04:49+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Economía indigna por minimizar lluvias y pedir a damnificados no exagerar “por un poco de agua en la rodilla”",
+    "url": "https://www.infobae.com/peru/2026/08/17/ministro-de-economia-indigna-por-minimizar-lluvias-y-pedir-a-damnificados-no-exagerar-por-un-poco-de-agua-en-la-rodilla/",
+    "source": "Infobae",
+    "published": "2026-08-17T19:43:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
+    "url": "https://larepublica.pe/politica/2026/08/17/fujimori-cuestiona-a-elmer-cuba-por-minimizar-lluvias-en-lima-y-este-pide-disculpas-fue-una-expresion-poco-feliz-hnews-1115829",
+    "source": "La República",
+    "published": "2026-08-17T19:31:46+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba, titular del MEF: “La reducción de ministerios está en agenda”",
+    "url": "https://elcomercio.pe/economia/elmer-cuba-titular-del-mef-la-reduccion-de-ministerios-esta-en-agenda-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T19:03:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori cuestionó al ministro Elmer Cuba tras afirmar “exageración” por lluvias: “No está viendo la magnitud”",
+    "url": "https://www.infobae.com/peru/2026/08/17/keiko-fujimori-cuestiono-al-ministro-elmer-cuba-tras-afirmar-exageracion-por-lluvias-no-esta-viendo-la-magnitud/",
+    "source": "Infobae",
+    "published": "2026-08-17T19:02:17+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori cuestiona a ministro Elmer Cuba por minimizar impacto de las lluvias: “Creo que no está viendo la magnitud del daño”",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-cuestiona-a-ministro-elmer-cuba-por-minimizar-impacto-de-las-lluvias-creo-que-no-esta-viendo-la-magnitud-del-dano-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T17:56:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Keiko Fujimori minimiza inundaciones en Lima: “Tampoco exageremos por un poco de agua en la rodilla”",
+    "url": "https://larepublica.pe/politica/2026/08/17/ministro-de-keiko-fujimori-minimiza-inundaciones-en-lima-tampoco-exageremos-por-un-poco-de-agua-en-la-rodilla-elmer-cuba-hnews-1619607",
+    "source": "La República",
+    "published": "2026-08-17T15:09:58+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Elmer Cuba: “No hay manera de que un gobierno pueda cumplir lo que el Congreso anterior ha aprobado de manera ilegal”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-elmer-cuba-no-hay-manera-de-que-un-gobierno-pueda-cumplir-lo-que-el-congreso-anterior-ha-aprobado-de-manera-ilegal-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T03:14:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
+    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-15T18:16:49+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Fujimori respaldó a ministro de Defensa y consideró \"prematuro\" que se presente una moción de interpelación en su contra",
+    "url": "https://rpp.pe/politica/gobierno/fujimori-respaldo-a-ministro-de-defensa-y-considero-prematuro-que-se-presente-una-mocion-de-interpelacion-en-su-contra-noticia-1702030",
+    "source": "RPP",
+    "published": "2026-08-17T15:10:43-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori sobre pedido de interpelación a ministro Belaunde: “Entiendo que la labor del Congreso sea fiscalizar, pero ¿en solo dos semanas presentar una interpelación...?”",
     "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-pedido-de-interpelacion-a-ministro-belaunde-entiendo-que-la-labor-del-congreso-sea-fiscalizar-pero-en-solo-dos-semanas-presentar-una-interpelacion-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-17T16:49:59+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa dice que las Fuerzas Armadas ya no tendrán un “rol decorativo” en la lucha contra inseguridad",
-    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-ministro-de-defensa-dice-que-las-fuerzas-armadas-ya-no-tendran-un-rol-decorativo-en-la-lucha-contra-inseguridad-noticia-1701862",
-    "source": "RPP",
-    "published": "2026-08-17T10:45:35-05:00",
     "matched_in": "title"
    },
    {
@@ -57,6 +159,13 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Luis Galarreta y su gabinete se presentan este jueves ante la Cámara de Diputados: expondrán la política general del Gobierno",
+    "url": "https://www.infobae.com/peru/2026/08/17/luis-galarreta-y-su-gabinete-se-presentan-este-jueves-ante-la-camara-de-diputados-expondran-la-politica-general-del-gobierno/",
+    "source": "Infobae",
+    "published": "2026-08-17T22:02:13+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Gobierno designa como secretario de  Comunicación Social de la PCM a exjefe de prensa de Fuerza Popular y del Congreso, Christian Peralta",
     "url": "https://elcomercio.pe/politica/gobierno/gobierno-designa-como-secretario-de-la-secretaria-de-comunicacion-social-de-la-pcm-a-exjefe-de-prensa-de-fuerza-popular-y-del-congreso-christian-peralta-ultimas-noticia/",
     "source": "El Comercio",
@@ -71,57 +180,6 @@
     "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Elmer Cuba: Comando privado frente al Fenómeno El Niño estará a cargo de Carlos Neuhaus",
-    "url": "https://elcomercio.pe/lima/sucesos/elmer-cuba-comando-privado-frente-al-fenomeno-el-nino-esta-a-cargo-de-carlos-neuhaus-lluvias-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T17:21:16+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba anuncia fondos para combatir el Fenómeno de El Niño: “Entre hoy y mañana salen los decretos de urgencia”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-anuncia-fondos-para-combatir-el-fenomeno-de-el-nino-entre-hoy-y-manana-salen-los-decretos-de-urgencia-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T16:05:52+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Secretario general del SUTEP defiende pensiones a maestros y afirma que titular del MEF \"se está creyendo un superministro\"",
-    "url": "https://rpp.pe/economia/economia/secretario-general-del-sutep-defiende-pensiones-a-maestros-y-dice-que-titular-del-mef-se-esta-creyendo-un-superministro-noticia-1701869",
-    "source": "RPP",
-    "published": "2026-08-17T10:30:06-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba sobre Petro-Perú: “Si este directorio falla y el sindicato no colabora, se va a perder”",
-    "url": "https://elcomercio.pe/economia/elmer-cuba-sobre-petro-peru-si-este-directorio-falla-y-el-sindicato-no-colabora-se-va-a-perder-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T15:26:15+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Keiko Fujimori minimiza inundaciones en Lima: “Tampoco exageremos por un poco de agua en la rodilla”",
-    "url": "https://larepublica.pe/politica/2026/08/17/ministro-de-keiko-fujimori-minimiza-inundaciones-en-lima-tampoco-exageremos-por-un-poco-de-agua-en-la-rodilla-elmer-cuba-hnews-1619607",
-    "source": "La República",
-    "published": "2026-08-17T15:09:58+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Elmer Cuba: “No hay manera de que un gobierno pueda cumplir lo que el Congreso anterior ha aprobado de manera ilegal”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-elmer-cuba-no-hay-manera-de-que-un-gobierno-pueda-cumplir-lo-que-el-congreso-anterior-ha-aprobado-de-manera-ilegal-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T03:14:03+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
-    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-15T18:16:49+00:00",
-    "matched_in": "title"
-   }
-  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Ministro Juan Sheput: “Tenemos instrumentos que podemos usar más allá de la delegación de facultades”",
@@ -131,28 +189,37 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Guillermo Shinno dice que Petro-Perú deberá investigar por qué la Refinería de Talara no llega a los 95.000 barriles diarios",
+    "url": "https://elcomercio.pe/economia/peru/guillermo-shinno-dice-que-petro-peru-debera-investigar-por-que-la-refineria-de-talara-no-llega-a-los-95000-barriles-diarios-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T20:17:41+00:00",
+    "matched_in": "title"
+   }
+  ],
   "mauricio-fernando-arnillas-gonzalez": [
    {
     "title": "Keiko Fujimori en VES tras inundaciones: “Imagínense lo terrible que va a ser cuando lleguen las lluvias por El Niño”",
     "url": "https://larepublica.pe/politica/2026/08/17/keiko-fujimori-en-ves-tras-inundaciones-imaginense-lo-terrible-que-va-a-ser-cuando-lleguen-las-lluvias-por-el-nino-hnews-421685",
     "source": "La República",
-    "published": "2026-08-17T17:11:30+00:00",
+    "published": "2026-08-17T20:56:27+00:00",
     "matched_in": "summary"
    },
    {
-    "title": "Villa El Salvador será declarado en emergencia tras fuerte aniego: ministro de Vivienda anuncia traslado de damnificados a hoteles",
-    "url": "https://www.infobae.com/peru/2026/08/17/villa-el-salvador-sera-declarado-en-emergencia-tras-fuerte-aniego-ministro-de-vivienda-anuncia-traslado-de-damnificados-a-hoteles/",
-    "source": "Infobae",
-    "published": "2026-08-17T11:00:40+00:00",
+    "title": "Ministro de Vivienda anuncia que se declarará el estado de emergencia en Villa El Salvador tras inundaciones por llovizna",
+    "url": "https://rpp.pe/lima/actualidad/villa-el-salvador-ministro-de-vivienda-anuncia-que-se-declarara-el-estado-de-emergencia-tras-inundaciones-por-llovizna-noticia-1701938",
+    "source": "RPP",
+    "published": "2026-08-16T21:29:38-05:00",
     "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Ministro afirma que obras contra el Niño no estarán listas a fin de año porque “no hay presupuesto ni tiempo”",
+    "title": "Ministro afirma que obras contra El Niño no estarán listas a fin de año porque “no hay presupuesto ni tiempo”",
     "url": "https://www.infobae.com/peru/2026/08/17/ministro-afirma-que-obras-contra-el-nino-no-estaran-listas-a-fin-de-ano-porque-no-hay-presupuesto-ni-tiempo/",
     "source": "Infobae",
-    "published": "2026-08-17T16:33:31+00:00",
+    "published": "2026-08-17T17:22:47+00:00",
     "matched_in": "summary"
    }
   ]
