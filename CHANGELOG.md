@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.12.0](https://github.com/DianCotrina/keikogobierna/compare/v2.11.1...v2.12.0) (2026-08-17)
+
+
+### Features
+
+* audit the first 100 days against the archive, and say what we cannot see ([3d0bed6](https://github.com/DianCotrina/keikogobierna/commit/3d0bed6403ec6bfca420e06e9fd0961d4d4743a3))
+
+
+### Bug Fixes
+
+* stop a multi-word boost from leaking its individual words ([1b5e403](https://github.com/DianCotrina/keikogobierna/commit/1b5e403f9e8af81741437c278c4712b6ff13c625))
+* stop queueing drafts, statutory declarations and hazard emergencies ([0405d0d](https://github.com/DianCotrina/keikogobierna/commit/0405d0d59159a2268769c6e80d45d61d218e925d))
+
 ## [2.11.1](https://github.com/DianCotrina/keikogobierna/compare/v2.11.0...v2.11.1) (2026-08-12)
 
 
