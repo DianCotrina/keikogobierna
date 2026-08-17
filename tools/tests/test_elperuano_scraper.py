@@ -287,6 +287,40 @@ class RoutineActTest(unittest.TestCase):
             "Acreditan designaciones de representantes de la CATP, CGTP, CTP y CONFIEP "
             "ante el Consejo Nacional de Seguridad y Salud en el Trabajo"}))
 
+    def test_extraditions_are_gated(self):
+        # The most frequent class left — 22 in the first month of archive — and
+        # no commitment in the plan mentions extradition at all.
+        for sumilla in (
+            "Acceden a solicitud de extradición activa de ciudadana de nacionalidad "
+            "peruana para ser extraditada de la República de Chile",
+            "Acceden a solicitud de extradición pasiva con procedimiento simplificado "
+            "de entrega de ciudadano peruano y estadounidense",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_regulator_adjudications_are_gated(self):
+        for sumilla in (
+            "Declaran barreras burocráticas ilegales los Procedimientos PA48001840 y "
+            "PA48002D44 del TUPA de la SUNEDU",
+            "Declaran barrera burocrática ilegal la exigencia de contar con un acta",
+            "Aprueban el Mandato de Compartición de Infraestructura entre Easynet "
+            "Conectividad Total S.A.C. y la Empresa Regional de Servicio Público",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_granting_indecopi_new_powers_stays_in_the_queue(self):
+        # t1-3.P10 promises to reinforce INDECOPI's barreras-burocráticas role by
+        # *granting it powers*. A resolution declaring one barrier illegal is the
+        # body using powers it already has; the reform that would fulfil P10
+        # arrives as a Decreto Legislativo and must not be gated with it.
+        for sumilla in (
+            "Decreto Legislativo que otorga a INDECOPI facultades de supervisión "
+            "preventiva y auditorías aleatorias en materia de barreras burocráticas",
+            "Ley que refuerza el rol de INDECOPI en la eliminación de barreras "
+            "burocráticas",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
     def test_travel_and_academic_authorizations_are_gated(self):
         for sumilla in (
             "Ratifican resolución que aprueba estancia académica en Portugal de "

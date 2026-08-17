@@ -51,6 +51,30 @@ class MatcherTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             self.assertEqual(self._matcher(tmp).match("Sistema C5i nacional"), ["t1-1.C01"])
 
+    def test_a_multiword_boost_does_not_leak_its_words(self):
+        # Boosting "ejecutor compras" for Compras MyPerú used to index a bare
+        # "compras" as well, and PERÚ COMPRAS puts that word in the *number* of
+        # every resolution it publishes — so the agency's whole output matched
+        # the commitment (issues #316, #317).
+        overlay = {**OVERLAY, "boost": {"t2-1.P01": ["ejecutor compras"]}}
+        with tempfile.TemporaryDirectory() as tmp:
+            mt = self._matcher(tmp, overlay)
+            self.assertEqual(mt.match("Aprueban modificación de Fichas Técnicas del "
+                                      "Catálogo Electrónico de Acuerdos Marco"), [])
+            self.assertEqual(mt.match("Designan Ejecutor Coactivo de la municipalidad"), [])
+            self.assertEqual(mt.match("Transferencia al Núcleo Ejecutor de Compras"),
+                             ["t2-1.P01"])
+
+    def test_a_boost_longer_than_a_bigram_still_matches(self):
+        # A norma only ever yields unigrams and bigrams, so a three-token boost
+        # has to reach the index as its adjacent bigrams or it could never match.
+        overlay = {**OVERLAY, "boost": {"t2-1.P01": ["nucleo ejecutor compras"]}}
+        with tempfile.TemporaryDirectory() as tmp:
+            mt = self._matcher(tmp, overlay)
+            self.assertEqual(mt.match("Transferencia al Núcleo Ejecutor de Compras"),
+                             ["t2-1.P01"])
+            self.assertEqual(mt.match("Aprueban Fichas Técnicas de compras"), [])
+
     def test_suppress_phrase_ignores_generic_bigram(self):
         with tempfile.TemporaryDirectory() as tmp:
             self.assertEqual(self._matcher(tmp).match("Designan jefe del poder judicial"), [])
