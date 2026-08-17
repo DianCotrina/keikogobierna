@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T05:35:40+00:00",
+ "generated": "2026-08-17T11:26:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -22,13 +22,6 @@
     "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
     "source": "Gestión",
     "published": "2026-08-15T18:16:49+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba sobre subsidio para transportistas: “Será equivalente a 4 soles por galón con topes mensuales”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-subsidio-para-transportistas-sera-equivalente-a-4-soles-por-galon-con-topes-mensuales-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-15T16:37:22+00:00",
     "matched_in": "title"
    }
   ],
@@ -92,7 +85,7 @@
     "title": "Villa El Salvador será declarado en emergencia tras fuerte aniego: ministro de Vivienda anuncia traslado de damnificados a hoteles",
     "url": "https://www.infobae.com/peru/2026/08/17/villa-el-salvador-sera-declarado-en-emergencia-tras-fuerte-aniego-ministro-de-vivienda-anuncia-traslado-de-damnificados-a-hoteles/",
     "source": "Infobae",
-    "published": "2026-08-17T04:41:16+00:00",
+    "published": "2026-08-17T11:00:40+00:00",
     "matched_in": "title"
    },
    {
@@ -107,15 +100,6 @@
     "url": "https://rpp.pe/lima/actualidad/villa-el-salvador-ministro-de-vivienda-anuncia-que-se-declarara-el-estado-de-emergencia-tras-inundaciones-por-llovizna-noticia-1701938",
     "source": "RPP",
     "published": "2026-08-16T21:29:38-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "CCL plantea al Mincetur medidas para reducir costos logísticos y fortalecer la competitividad del comercio exterior",
-    "url": "https://elcomercio.pe/economia/peru/ccl-plantea-al-mincetur-medidas-para-reducir-costos-logisticos-y-fortalecer-la-competitividad-del-comercio-exterior-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-16T18:44:22+00:00",
     "matched_in": "title"
    }
   ],
