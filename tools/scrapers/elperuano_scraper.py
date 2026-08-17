@@ -142,6 +142,7 @@ _PERSONNEL_VERB_RE = re.compile(
     r"|proclaman"
     r"|aceptan (?:la |las )?renuncias?"
     r"|acreditan (?:la |las )?designacion(?:es)?"
+    r"|formalizan (?:la |las )?designacion(?:es)?"
     r"|encargan"
     r"|dan por (?:concluidas?|terminadas?) (?:la |las )?"
     r"(?:designacion(?:es)?|funciones)"
@@ -204,6 +205,29 @@ _HAZARD_RE = re.compile(r"\bpeligro inminente\b|\bdesastre\b|\bimpacto de danos\
 # 7. University registry paperwork: a reissued diploma is not a policy act.
 _ACADEMIC_PAPERWORK_RE = re.compile(r"\bduplicado de (?:diploma|grado|titulo)\b")
 
+# 8. Extraditions. Judicial cooperation resolved case by case, ~22 in the first
+#    month of archive — the single most frequent class left. No commitment in
+#    the plan mentions extradition, so no extradition can evidence one; they
+#    reached the queue on "ciudadano peruano" (issues #313, #314).
+_EXTRADITION_RE = re.compile(r"\bextradicion\b")
+
+# 9. A regulator deciding one case between named parties. INDECOPI declaring a
+#    specific municipal ordinance an illegal barrera burocratica, OSIPTEL
+#    ordering two firms to share a tower — statutory adjudication, not policy
+#    (issues #318, #319, #326, #327).
+#
+#    The INDECOPI half needs the anchor. t1-3.P10 promises to reinforce exactly
+#    this body's barreras-burocraticas role *otorgandole facultades* — new powers
+#    for preventive supervision and random audits. A resolution declaring one
+#    barrier illegal is that body using the powers it already has, which is the
+#    EJE trap again: identical vocabulary, opposite meaning. Granting the powers
+#    would arrive as a Decreto Legislativo or a Ley, which this pattern leaves
+#    alone — there is a test for it.
+_ADJUDICATION_RE = re.compile(
+    r"^declaran barreras? burocratica"
+    r"|\bmandato de comparticion\b"
+)
+
 
 def is_routine_act(record: dict) -> bool:
     """True for a norma whose operative act cannot evidence a commitment —
@@ -222,6 +246,8 @@ def is_routine_act(record: dict) -> bool:
         or _DRAFT_RE.search(sumilla)
         or _HERITAGE_DECLARATION_RE.search(sumilla)
         or _ACADEMIC_PAPERWORK_RE.search(sumilla)
+        or _EXTRADITION_RE.search(sumilla)
+        or _ADJUDICATION_RE.search(sumilla)
     )
 
 

@@ -11,7 +11,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from .watcher_common import phrases_of, significant_tokens
+from .watcher_common import bigrams_of, phrases_of, significant_tokens
 
 INDEX_PATH = Path(__file__).resolve().parent.parent / "commitment_index.json"
 OVERLAY_PATH = Path(__file__).resolve().parent.parent / "commitment_overlay.json"
@@ -54,13 +54,30 @@ def load_matcher(index_path: Path = INDEX_PATH, overlay_path: Path = OVERLAY_PAT
             if phrase in suppress_phrases:
                 continue
             phrase_to_ids.setdefault(phrase, set()).add(cid)
-    # boost: hand-curated phrases (incl. distinctive single words) run through the
-    # same tokenizer as the corpus — the only route by which a unigram can match
+    # boost: hand-curated phrases run through the same tokenizer as the corpus,
+    # so what lands in the index is what a norma can actually produce.
+    #
+    # A boost is authored as the phrase it *means*, and only that phrase belongs
+    # in the index. Expanding it with phrases_of() also injected every unigram:
+    # boosting "ejecutor compras" for Compras MyPerú (t2-1.P22) put a bare
+    # "compras" in the index, and PERÚ COMPRAS publishes every resolution under a
+    # number containing that word — so the agency's entire output matched the
+    # commitment forever (issues #316, #317). "nucleo" and "ejecutor" leaked the
+    # same way, the latter catching every Ejecutor Coactivo designation.
+    #
+    # A one-token boost is a deliberate unigram — "c5i" is the reason this layer
+    # accepts single words at all. Anything longer contributes only its adjacent
+    # bigrams, which is exactly what phrases_of() derives from a norma, so the
+    # authored phrase still matches while its parts no longer do.
     for cid, raw_phrases in overlay.get("boost", {}).items():
         if _muted(cid, muted):
             continue
         for raw in raw_phrases:
-            for phrase in phrases_of(significant_tokens(raw, extra_stop=suppress)):
+            tokens = significant_tokens(raw, extra_stop=suppress)
+            if not tokens:
+                continue
+            phrases = {tokens[0]} if len(tokens) == 1 else bigrams_of(tokens)
+            for phrase in phrases:
                 if phrase not in suppress_phrases:
                     phrase_to_ids.setdefault(phrase, set()).add(cid)
     return Matcher(phrase_to_ids, index.get("temas", {}), suppress)
