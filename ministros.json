@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T23:20:19+00:00",
+ "generated": "2026-08-17T05:35:40+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Elmer Cuba: “No hay manera de que un gobierno pueda cumplir lo que el Congreso anterior ha aprobado de manera ilegal”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-elmer-cuba-no-hay-manera-de-que-un-gobierno-pueda-cumplir-lo-que-el-congreso-anterior-ha-aprobado-de-manera-ilegal-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T03:14:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
+    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-15T18:16:49+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba sobre subsidio para transportistas: “Será equivalente a 4 soles por galón con topes mensuales”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-subsidio-para-transportistas-sera-equivalente-a-4-soles-por-galon-con-topes-mensuales-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-15T16:37:22+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
@@ -64,35 +87,35 @@
     "matched_in": "title"
    }
   ],
+  "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Villa El Salvador será declarado en emergencia tras fuerte aniego: ministro de Vivienda anuncia traslado de damnificados a hoteles",
+    "url": "https://www.infobae.com/peru/2026/08/17/villa-el-salvador-sera-declarado-en-emergencia-tras-fuerte-aniego-ministro-de-vivienda-anuncia-traslado-de-damnificados-a-hoteles/",
+    "source": "Infobae",
+    "published": "2026-08-17T04:41:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MVCS anuncia que se declarará en emergencia Villa El Salvador tras inundaciones por lluvia",
+    "url": "https://elcomercio.pe/lima/sucesos/lluvia-en-lima-ministro-de-vivienda-anuncia-que-se-declarara-en-emergencia-villa-el-salvador-tras-inundaciones-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T04:07:20+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro de Vivienda anuncia que se declarará el estado de emergencia en Villa El Salvador tras inundaciones por llovizna",
+    "url": "https://rpp.pe/lima/actualidad/villa-el-salvador-ministro-de-vivienda-anuncia-que-se-declarara-el-estado-de-emergencia-tras-inundaciones-por-llovizna-noticia-1701938",
+    "source": "RPP",
+    "published": "2026-08-16T21:29:38-05:00",
+    "matched_in": "title"
+   }
+  ],
   "rogers-martin-valencia-espinoza": [
    {
     "title": "CCL plantea al Mincetur medidas para reducir costos logísticos y fortalecer la competitividad del comercio exterior",
     "url": "https://elcomercio.pe/economia/peru/ccl-plantea-al-mincetur-medidas-para-reducir-costos-logisticos-y-fortalecer-la-competitividad-del-comercio-exterior-noticia/",
     "source": "El Comercio",
     "published": "2026-08-16T18:44:22+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Secretario general del SUTEP defiende pensiones a maestros y dice que titular del MEF \"se está creyendo un superministro\"",
-    "url": "https://rpp.pe/economia/economia/secretario-general-del-sutep-defiende-pensiones-a-maestros-y-dice-que-titular-del-mef-se-esta-creyendo-un-superministro-noticia-1701869",
-    "source": "RPP",
-    "published": "2026-08-16T11:33:06-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
-    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-15T18:16:49+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba sobre subsidio para transportistas: “Será equivalente a 4 soles por galón con topes mensuales”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-subsidio-para-transportistas-sera-equivalente-a-4-soles-por-galon-con-topes-mensuales-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-15T16:37:22+00:00",
     "matched_in": "title"
    }
   ],
@@ -103,15 +126,6 @@
     "source": "La República",
     "published": "2026-08-16T01:56:45+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Becas COAR: Minedu anuncia nuevo programa para potenciar el talento de estudiantes destacados",
-    "url": "https://www.infobae.com/peru/2026/08/16/becas-coar-minedu-anuncia-nuevo-programa-para-potenciar-el-talento-de-estudiantes-destacados/",
-    "source": "Infobae",
-    "published": "2026-08-16T02:12:40+00:00",
-    "matched_in": "title"
    }
   ]
  }
