@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T11:26:56+00:00",
+ "generated": "2026-08-17T17:27:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,60 +9,26 @@
   "Infobae"
  ],
  "ministers": {
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Elmer Cuba: “No hay manera de que un gobierno pueda cumplir lo que el Congreso anterior ha aprobado de manera ilegal”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-elmer-cuba-no-hay-manera-de-que-un-gobierno-pueda-cumplir-lo-que-el-congreso-anterior-ha-aprobado-de-manera-ilegal-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T03:14:03+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
-    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-15T18:16:49+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
-    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-16T19:35:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput afirma que EsSalud “ya está saliendo de cuidados intensivos” y descarta declarar una emergencia",
-    "url": "https://www.infobae.com/peru/2026/08/16/ministro-juan-sheput-afirma-que-essalud-ya-esta-saliendo-de-cuidados-intensivos-y-descarta-declarar-una-emergencia/",
-    "source": "Infobae",
-    "published": "2026-08-16T20:53:43+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Juan Sheput: “Tenemos instrumentos que podemos usar más allá de la delegación de facultades”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-tenemos-instrumentos-que-podemos-usar-mas-alla-de-la-delegacion-de-facultades-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-16T18:08:47+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Aumento de sueldo mínimo: Ministerio de Trabajo pone fecha para el inicio del debate nacional",
-    "url": "https://www.infobae.com/peru/2026/08/16/aumento-de-sueldo-minimo-ministerio-de-trabajo-pone-fecha-para-el-inicio-del-debate-nacional/",
-    "source": "Infobae",
-    "published": "2026-08-16T15:42:29+00:00",
-    "matched_in": "title"
-   }
-  ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Ministro de Defensa niega aportes de la minera Poderosa a su campaña presidencial: “No he recibido un centavo”",
-    "url": "https://www.infobae.com/peru/2026/08/16/ministro-de-defensa-niega-aportes-de-la-minera-poderosa-a-su-campana-presidencial-no-he-recibido-un-centavo/",
+    "title": "Keiko Fujimori sobre pedido de interpelación a ministro Belaunde: “Entiendo que la labor del Congreso sea fiscalizar, pero ¿en solo dos semanas presentar una interpelación...?”",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-pedido-de-interpelacion-a-ministro-belaunde-entiendo-que-la-labor-del-congreso-sea-fiscalizar-pero-en-solo-dos-semanas-presentar-una-interpelacion-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T16:49:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa dice que las Fuerzas Armadas ya no tendrán un “rol decorativo” en la lucha contra inseguridad",
+    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-ministro-de-defensa-dice-que-las-fuerzas-armadas-ya-no-tendran-un-rol-decorativo-en-la-lucha-contra-inseguridad-noticia-1701862",
+    "source": "RPP",
+    "published": "2026-08-17T10:45:35-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Rafael Belaúnde niega conflicto de interés por aportes de Poderosa a su campaña presidencial: “No me ha financiado a mi”",
+    "url": "https://www.infobae.com/peru/2026/08/17/ministro-rafael-belaunde-niega-conflicto-de-interes-por-aportes-de-poderosa-a-su-campana-presidencial-no-me-ha-financiado-a-mi/",
     "source": "Infobae",
-    "published": "2026-08-16T17:30:31+00:00",
+    "published": "2026-08-17T12:51:46+00:00",
     "matched_in": "title"
    },
    {
@@ -80,35 +46,113 @@
     "matched_in": "title"
    }
   ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
+    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T15:25:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Gobierno designa como secretario de  Comunicación Social de la PCM a exjefe de prensa de Fuerza Popular y del Congreso, Christian Peralta",
+    "url": "https://elcomercio.pe/politica/gobierno/gobierno-designa-como-secretario-de-la-secretaria-de-comunicacion-social-de-la-pcm-a-exjefe-de-prensa-de-fuerza-popular-y-del-congreso-christian-peralta-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T13:04:56+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori y titular del Poder Judicial se reunieron para coordinar acciones contra la criminalidad",
+    "url": "https://larepublica.pe/politica/2026/08/15/keiko-fujimori-y-titular-del-poder-judicial-se-reunieron-para-coordinar-acciones-contra-la-criminalidad-870780",
+    "source": "La República",
+    "published": "2026-08-16T01:56:45+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Elmer Cuba: Comando privado frente al Fenómeno El Niño estará a cargo de Carlos Neuhaus",
+    "url": "https://elcomercio.pe/lima/sucesos/elmer-cuba-comando-privado-frente-al-fenomeno-el-nino-esta-a-cargo-de-carlos-neuhaus-lluvias-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T17:21:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba anuncia fondos para combatir el Fenómeno de El Niño: “Entre hoy y mañana salen los decretos de urgencia”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-anuncia-fondos-para-combatir-el-fenomeno-de-el-nino-entre-hoy-y-manana-salen-los-decretos-de-urgencia-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T16:05:52+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Secretario general del SUTEP defiende pensiones a maestros y afirma que titular del MEF \"se está creyendo un superministro\"",
+    "url": "https://rpp.pe/economia/economia/secretario-general-del-sutep-defiende-pensiones-a-maestros-y-dice-que-titular-del-mef-se-esta-creyendo-un-superministro-noticia-1701869",
+    "source": "RPP",
+    "published": "2026-08-17T10:30:06-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba sobre Petro-Perú: “Si este directorio falla y el sindicato no colabora, se va a perder”",
+    "url": "https://elcomercio.pe/economia/elmer-cuba-sobre-petro-peru-si-este-directorio-falla-y-el-sindicato-no-colabora-se-va-a-perder-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T15:26:15+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Keiko Fujimori minimiza inundaciones en Lima: “Tampoco exageremos por un poco de agua en la rodilla”",
+    "url": "https://larepublica.pe/politica/2026/08/17/ministro-de-keiko-fujimori-minimiza-inundaciones-en-lima-tampoco-exageremos-por-un-poco-de-agua-en-la-rodilla-elmer-cuba-hnews-1619607",
+    "source": "La República",
+    "published": "2026-08-17T15:09:58+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Elmer Cuba: “No hay manera de que un gobierno pueda cumplir lo que el Congreso anterior ha aprobado de manera ilegal”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-elmer-cuba-no-hay-manera-de-que-un-gobierno-pueda-cumplir-lo-que-el-congreso-anterior-ha-aprobado-de-manera-ilegal-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T03:14:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
+    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-15T18:16:49+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput: “Tenemos instrumentos que podemos usar más allá de la delegación de facultades”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-tenemos-instrumentos-que-podemos-usar-mas-alla-de-la-delegacion-de-facultades-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-16T18:08:47+00:00",
+    "matched_in": "title"
+   }
+  ],
   "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Keiko Fujimori en VES tras inundaciones: “Imagínense lo terrible que va a ser cuando lleguen las lluvias por El Niño”",
+    "url": "https://larepublica.pe/politica/2026/08/17/keiko-fujimori-en-ves-tras-inundaciones-imaginense-lo-terrible-que-va-a-ser-cuando-lleguen-las-lluvias-por-el-nino-hnews-421685",
+    "source": "La República",
+    "published": "2026-08-17T17:11:30+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Villa El Salvador será declarado en emergencia tras fuerte aniego: ministro de Vivienda anuncia traslado de damnificados a hoteles",
     "url": "https://www.infobae.com/peru/2026/08/17/villa-el-salvador-sera-declarado-en-emergencia-tras-fuerte-aniego-ministro-de-vivienda-anuncia-traslado-de-damnificados-a-hoteles/",
     "source": "Infobae",
     "published": "2026-08-17T11:00:40+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "MVCS anuncia que se declarará en emergencia Villa El Salvador tras inundaciones por lluvia",
-    "url": "https://elcomercio.pe/lima/sucesos/lluvia-en-lima-ministro-de-vivienda-anuncia-que-se-declarara-en-emergencia-villa-el-salvador-tras-inundaciones-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T04:07:20+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro de Vivienda anuncia que se declarará el estado de emergencia en Villa El Salvador tras inundaciones por llovizna",
-    "url": "https://rpp.pe/lima/actualidad/villa-el-salvador-ministro-de-vivienda-anuncia-que-se-declarara-el-estado-de-emergencia-tras-inundaciones-por-llovizna-noticia-1701938",
-    "source": "RPP",
-    "published": "2026-08-16T21:29:38-05:00",
-    "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Keiko Fujimori y titular del Poder Judicial se reunieron para coordinar acciones contra la criminalidad",
-    "url": "https://larepublica.pe/politica/2026/08/15/keiko-fujimori-y-titular-del-poder-judicial-se-reunieron-para-coordinar-acciones-contra-la-criminalidad-870780",
-    "source": "La República",
-    "published": "2026-08-16T01:56:45+00:00",
+    "title": "Ministro afirma que obras contra el Niño no estarán listas a fin de año porque “no hay presupuesto ni tiempo”",
+    "url": "https://www.infobae.com/peru/2026/08/17/ministro-afirma-que-obras-contra-el-nino-no-estaran-listas-a-fin-de-ano-porque-no-hay-presupuesto-ni-tiempo/",
+    "source": "Infobae",
+    "published": "2026-08-17T16:33:31+00:00",
     "matched_in": "summary"
    }
   ]
