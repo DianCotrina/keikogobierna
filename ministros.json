@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T05:30:33+00:00",
+ "generated": "2026-08-18T11:25:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,38 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
+    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T11:00:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro afirma que obras contra El Niño no estarán listas a fin de año porque “no hay presupuesto ni tiempo”",
+    "url": "https://www.infobae.com/peru/2026/08/17/ministro-afirma-que-obras-contra-el-nino-no-estaran-listas-a-fin-de-ano-porque-no-hay-presupuesto-ni-tiempo/",
+    "source": "Infobae",
+    "published": "2026-08-17T17:22:47+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "El LUM y la CVR",
+    "url": "https://elcomercio.pe/opinion/columnistas/el-lum-y-la-cvr-por-martin-tanaka-comision-de-la-verdad-y-reconciliacion-lugar-de-la-memoria-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T10:30:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
+    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T15:25:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "“Estamos muy preocupados”: Perú confía en que Trump reduzca al 10% arancel a sus exportaciones, afirma canciller",
@@ -38,13 +70,6 @@
     "url": "https://www.infobae.com/peru/2026/08/17/keiko-fujimori-evalua-eliminar-ministerios-ministro-elmer-cuba-confirma-que-el-tema-esta-en-agenda/",
     "source": "Infobae",
     "published": "2026-08-17T23:58:52+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Cuba pide disculpas por declaraciones sobre inundaciones en Lima: \"Fue una expresión poco feliz\"",
-    "url": "https://rpp.pe/politica/gobierno/elmer-cuba-pide-disculpas-por-declaraciones-sobre-aniego-en-lima-noticia-1702023",
-    "source": "RPP",
-    "published": "2026-08-17T17:00:54-05:00",
     "matched_in": "title"
    },
    {
@@ -134,15 +159,6 @@
     "matched_in": "title"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
-    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T15:25:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Luis Galarreta y su gabinete se presentan este jueves ante la Cámara de Diputados: expondrán la política general del Gobierno",
@@ -160,13 +176,6 @@
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput: Sistema de alcantarillado colapsó en Villa El Salvador no necesariamente por la lluvia",
-    "url": "https://elcomercio.pe/lima/lluvia-en-villa-el-salvador-ministro-juan-sheput-sistema-de-alcantarillado-colapso-en-ese-distrito-no-necesariamente-por-la-lluvia-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T01:00:15+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Damnificados de Villa El Salvador recibirían S/50 diarios por limpiar zonas afectadas por lluvias, según ministro de Trabajo",
     "url": "https://www.infobae.com/peru/2026/08/17/damnificados-de-villa-el-salvador-recibirian-s50-diarios-por-limpiar-zonas-afectadas-por-lluvias-segun-ministro-de-trabajo/",
@@ -195,15 +204,6 @@
     "url": "https://larepublica.pe/politica/2026/08/17/keiko-fujimori-en-ves-tras-inundaciones-imaginense-lo-terrible-que-va-a-ser-cuando-lleguen-las-lluvias-por-el-nino-hnews-421685",
     "source": "La República",
     "published": "2026-08-17T20:56:27+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Ministro afirma que obras contra El Niño no estarán listas a fin de año porque “no hay presupuesto ni tiempo”",
-    "url": "https://www.infobae.com/peru/2026/08/17/ministro-afirma-que-obras-contra-el-nino-no-estaran-listas-a-fin-de-ano-porque-no-hay-presupuesto-ni-tiempo/",
-    "source": "Infobae",
-    "published": "2026-08-17T17:22:47+00:00",
     "matched_in": "summary"
    }
   ]
