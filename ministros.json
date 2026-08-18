@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T17:27:36+00:00",
+ "generated": "2026-08-18T23:22:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,86 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Alberto Beingolea discrepa con Ernesto Álvarez sobre el LUM: “Los museos del Perú están dentro del Ministerio de Cultura”",
+    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-discrepa-con-ernesto-alvarez-sobre-el-lum-los-museos-del-peru-estan-dentro-del-ministerio-de-cultura-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T22:42:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
+    "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
+    "source": "La República",
+    "published": "2026-08-18T22:13:32+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea responde a propuesta de trasladar el LUM a Justicia y defiende su sector: “Los museos son parte de Cultura”",
+    "url": "https://www.infobae.com/peru/2026/08/18/alberto-beingolea-responde-a-propuesta-de-trasladar-el-lum-a-justicia-y-defiende-su-sector-los-museos-son-parte-de-cultura/",
+    "source": "Infobae",
+    "published": "2026-08-18T19:48:57+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "El LUM y la CVR",
+    "url": "https://elcomercio.pe/opinion/columnistas/el-lum-y-la-cvr-por-martin-tanaka-comision-de-la-verdad-y-reconciliacion-lugar-de-la-memoria-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T10:30:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
+    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T15:25:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto Beingolea discrepa con Ernesto Álvarez sobre el LUM: “Los museos del Perú están dentro del Ministerio de Cultura”",
+    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-discrepa-con-ernesto-alvarez-sobre-el-lum-los-museos-del-peru-estan-dentro-del-ministerio-de-cultura-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T22:42:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“Tiene los días contados”: Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
+    "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
+    "source": "RPP",
+    "published": "2026-08-18T15:30:35-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Cultura respaldará derogación de ley que creó el Colegio de Artistas: \"Tiene los días contados\"",
+    "url": "https://larepublica.pe/politica/2026/08/18/ministro-de-cultura-respaldara-derogacion-de-ley-que-creo-el-colegio-de-artistas-tiene-los-dias-contados-hnews-1187316",
+    "source": "La República",
+    "published": "2026-08-18T20:19:52+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea responde a propuesta de trasladar el LUM a Justicia y defiende su sector: “Los museos son parte de Cultura”",
+    "url": "https://www.infobae.com/peru/2026/08/18/alberto-beingolea-responde-a-propuesta-de-trasladar-el-lum-a-justicia-y-defiende-su-sector-los-museos-son-parte-de-cultura/",
+    "source": "Infobae",
+    "published": "2026-08-18T19:48:57+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
+    "url": "https://larepublica.pe/politica/2026/08/17/fujimori-cuestiona-a-elmer-cuba-por-minimizar-lluvias-en-lima-y-este-pide-disculpas-fue-una-expresion-poco-feliz-hnews-1115829",
+    "source": "La República",
+    "published": "2026-08-18T18:08:04+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Elmer Cuba abre cuenta en X y revela las dos prioridades del MEF, luego de minimizar inundaciones",
     "url": "https://www.infobae.com/peru/2026/08/18/elmer-cuba-abre-cuenta-en-x-y-revela-las-dos-prioridades-del-mef-luego-de-minimizar-inundaciones/",
     "source": "Infobae",
     "published": "2026-08-18T17:18:07+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF anuncia un \"comando único\" del sector público y privado para enfrentar el impacto del Fenómeno El Niño",
-    "url": "https://rpp.pe/economia/economia/fenomeno-el-nino-mef-anuncia-comando-unico-sector-publico-y-privado-para-enfrentar-impacto-de-lluvias-noticia-1702202",
-    "source": "RPP",
-    "published": "2026-08-18T11:23:49-05:00",
     "matched_in": "title"
    },
    {
@@ -36,13 +103,6 @@
     "url": "https://elcomercio.pe/economia/peru/mef-alista-combo-tributario-laboral-para-facilitar-la-formalizacion-de-empresas-y-trabajadores-l-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-17T21:35:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
-    "url": "https://larepublica.pe/politica/2026/08/17/fujimori-cuestiona-a-elmer-cuba-por-minimizar-lluvias-en-lima-y-este-pide-disculpas-fue-una-expresion-poco-feliz-hnews-1115829",
-    "source": "La República",
-    "published": "2026-08-17T19:31:46+00:00",
     "matched_in": "title"
    },
    {
@@ -95,28 +155,42 @@
     "matched_in": "title"
    }
   ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del Interior ratifica a Óscar Arriola y altos mandos de la Policía en sus puestos: \"Mientras sigan teniendo resultados van a continuar\"",
+    "url": "https://rpp.pe/lima/actualidad/ministro-del-interior-ratifica-a-oscar-arriola-y-altos-mandos-de-la-policia-en-sus-puestos-mientras-sigan-teniendo-resultados-van-a-continuar-noticia-1702285",
+    "source": "RPP",
+    "published": "2026-08-18T16:48:18-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Interior César Astudillo sobre permanencia de altos mandos de la PNP: “Mientras sigamos teniendo resultados, van a continuar”",
+    "url": "https://elcomercio.pe/politica/actualidad/ministro-del-interior-cesar-astudillo-sobre-permanencia-de-altos-mandos-de-la-pnp-mientras-sigamos-teniendo-resultados-van-a-continuar-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T21:11:58+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "¿Nueva estrategia contra el crimen?: Mininter apuesta por más policías y tecnología en las calles",
+    "url": "https://www.infobae.com/peru/2026/08/18/nueva-estrategia-contra-el-crimen-mininter-apuesta-por-mas-policias-y-tecnologia-en-las-calles/",
+    "source": "Infobae",
+    "published": "2026-08-18T21:06:15+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Óscar Arriola se queda como jefe de la PNP y ministro destaca su gestión: “El año pasado había 500 muertos más”",
+    "url": "https://www.infobae.com/peru/2026/08/18/oscar-arriola-se-queda-como-jefe-de-la-pnp-y-ministro-destaca-su-gestion-el-ano-pasado-habia-500-muertos-mas/",
+    "source": "Infobae",
+    "published": "2026-08-18T20:00:51+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
     "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
     "source": "El Comercio",
     "published": "2026-08-18T16:18:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "El LUM y la CVR",
-    "url": "https://elcomercio.pe/opinion/columnistas/el-lum-y-la-cvr-por-martin-tanaka-comision-de-la-verdad-y-reconciliacion-lugar-de-la-memoria-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T10:30:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
-    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T15:25:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -130,13 +204,6 @@
    }
   ],
   "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "298 damnificados y 62 viviendas afectadas: el balance del ministro de Defensa tras las lluvias en Villa El Salvador",
-    "url": "https://www.infobae.com/peru/2026/08/18/298-damnificados-y-62-viviendas-afectadas-el-balance-del-ministro-de-defensa-tras-las-lluvias-en-villa-el-salvador/",
-    "source": "Infobae",
-    "published": "2026-08-18T12:23:34+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Keiko Fujimori sobre pedido de interpelación a ministro Belaunde: “Entiendo que la labor del Congreso sea fiscalizar, pero ¿en solo dos semanas presentar una interpelación...?”",
     "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-pedido-de-interpelacion-a-ministro-belaunde-entiendo-que-la-labor-del-congreso-sea-fiscalizar-pero-en-solo-dos-semanas-presentar-una-interpelacion-ultimas-noticia/",
@@ -154,21 +221,35 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "rogers-martin-valencia-espinoza": [
    {
-    "title": "Ministro Juan Sheput: “Tenemos instrumentos que podemos usar más allá de la delegación de facultades”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-tenemos-instrumentos-que-podemos-usar-mas-alla-de-la-delegacion-de-facultades-ultimas-noticia/",
+    "title": "Ministro Rogers Valencia: “Estamos revisando la meta de turistas para este año; veremos qué efecto tiene la llegada del Papa”",
+    "url": "https://elcomercio.pe/economia/peru/ministro-rogers-valencia-estamos-revisando-la-meta-de-turistas-para-este-ano-veremos-que-efecto-tiene-la-llegada-del-papa-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-16T18:08:47+00:00",
+    "published": "2026-08-18T23:14:04+00:00",
     "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
    {
-    "title": "Minem apunta a destrabar US$40 mil millones en proyectos mineros en cinco años",
-    "url": "https://rpp.pe/economia/economia/minem-busca-destrabar-40-mil-millones-dolares-en-proyectos-mineros-energeticos-en-cuanto-tiempo-noticia-1702181",
+    "title": "Gobierno anuncia reforma del canon minero para redirigir los recursos directamente a las comunidades",
+    "url": "https://rpp.pe/economia/economia/mineria-en-peru-gobierno-anuncia-reforma-canon-minero-que-impactara-a-comunidades-de-que-trata-noticia-1702223",
     "source": "RPP",
-    "published": "2026-08-18T10:09:47-05:00",
+    "published": "2026-08-18T17:30:11-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Minem anuncia cambios sobre el canon minero para beneficiar directamente a comunidades cercanas a los proyectos",
+    "url": "https://elcomercio.pe/economia/peru/minem-anuncia-cambios-sobre-el-canon-minero-para-beneficiar-directamente-a-comunidades-cercanas-a-los-proyectos-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T19:41:54+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Shinno anuncia destrabe de US$40.000 millones en inversiones mineras en los próximos 5 años",
+    "url": "https://elcomercio.pe/economia/peru/ministro-shinno-anuncia-destrabe-de-us40000-millones-en-inversiones-mineras-en-los-proximos-5-anos-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T18:02:50+00:00",
     "matched_in": "title"
    },
    {
@@ -179,30 +260,7 @@
     "matched_in": "title"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "“Tiene los días contados”: Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
-    "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
-    "source": "RPP",
-    "published": "2026-08-18T12:10:35-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministerio de Cultura quiere derogar ley que crea el Colegio de Artistas, confirma Alberto Beingolea",
-    "url": "https://elcomercio.pe/luces/ministerio-de-cultura-quiere-derogar-ley-que-crea-el-colegio-de-artistas-confirma-alberto-beingolea-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T16:25:41+00:00",
-    "matched_in": "title"
-   }
-  ],
   "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Villa El Salvador será declarado en emergencia tras fuerte aniego: ministro de Vivienda anuncia traslado de damnificados a hoteles",
-    "url": "https://www.infobae.com/peru/2026/08/17/villa-el-salvador-sera-declarado-en-emergencia-tras-fuerte-aniego-ministro-de-vivienda-anuncia-traslado-de-damnificados-a-hoteles/",
-    "source": "Infobae",
-    "published": "2026-08-18T02:18:33+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Keiko Fujimori en VES tras inundaciones: “Imagínense lo terrible que va a ser cuando lleguen las lluvias por El Niño”",
     "url": "https://larepublica.pe/politica/2026/08/17/keiko-fujimori-en-ves-tras-inundaciones-imaginense-lo-terrible-que-va-a-ser-cuando-lleguen-las-lluvias-por-el-nino-hnews-421685",
