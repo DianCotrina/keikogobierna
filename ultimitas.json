@@ -1,10 +1,28 @@
 {
- "generated": "2026-08-17T23:23:14+00:00",
+ "generated": "2026-08-18T17:27:36+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
  "articles": [
+  {
+   "title": "Gobierno no oficializa el estado de emergencia en Lima Sur pese a que Keiko Fujimori anunció la medida por lluvias",
+   "url": "https://larepublica.pe/politica/2026/08/18/gobierno-no-oficializa-el-estado-de-emergencia-en-lima-sur-pese-a-que-keiko-fujimori-anuncio-la-medida-por-lluvias-hnews-305910",
+   "summary": "Pese a que Keiko Fujimori anunció que el estado de emergencia se activaría de inmediato, el gobierno aún no publica la norma legal para agilizar el uso de recursos y atender las inundaciones que afectan a los distritos de Lima Sur.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-08-18T15:54:32+00:00",
+   "source": "La República",
+   "captured": "2026-08-18T17:27:36+00:00"
+  },
+  {
+   "title": "Facultades legislativas: tras cuatro sesiones del Consejo de Ministros, el pedido sigue sin llegar al Congreso",
+   "url": "https://elcomercio.pe/politica/facultades-legislativas-tras-cuatro-sesiones-del-consejo-de-ministros-el-pedido-sigue-sin-llegar-al-congreso-noticia/",
+   "summary": "Cumplidos ya veinte días desde el anuncio que hizo la presidenta Keiko Fujimori en su mensaje a la Nación, el proyecto de facultades legislativas en materia de seguridad ciudadana y lucha contra la criminalidad, entre otros temas, aún no ha sido formalizado ante el Parlamento. El pasado 29 de julio, apenas un día después del anuncio presidencial, el tema fue puesto sobre la mesa en lo que significó la primera sesión del Consejo de Ministros. Sin embargo, aún no sale de esta instancia.",
+   "author": "Alexander Villarroel Zurita",
+   "published": "2026-08-18T11:34:07+00:00",
+   "source": "El Comercio",
+   "captured": "2026-08-18T17:27:36+00:00"
+  },
   {
    "title": "Luis Galarreta propone a la Cámara de Diputados exponer y debatir la política general del Gobierno el 20 de agosto",
    "url": "https://elcomercio.pe/politica/gobierno/primer-ministro-luis-galarreta-propone-a-la-camara-de-diputados-exponer-y-debatir-la-politica-general-del-gobierno-el-20-de-agosto-keiko-fujimori-ultimas-noticia/",
@@ -22,6 +40,15 @@
    "published": "2026-08-17T20:36:21+00:00",
    "source": "La República",
    "captured": "2026-08-17T23:23:14+00:00"
+  },
+  {
+   "title": "Keiko Fujimori anuncia reestructuración en Sedapal",
+   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-anuncia-reestructuracion-en-sedapal-l-ultimas-noticia/",
+   "summary": "Keiko Fujimori anunció una reestructuración en Sedapal. La medida se da luego de que llegará a Villa El Salvador para supervisar las viviendas afectadas por las intensas lluvias registradas en Lima Sur. Además, adelantó que el Gobierno declarará en emergencia varios distritos y regiones del sur y de la sierra del país.",
+   "author": "Redacción EC",
+   "published": "2026-08-17T18:33:03+00:00",
+   "source": "El Comercio",
+   "captured": "2026-08-18T17:27:36+00:00"
   },
   {
    "title": "Keiko Fujimori cuestiona a ministro Elmer Cuba por minimizar impacto de las lluvias: “Creo que no está viendo la magnitud del daño”",
