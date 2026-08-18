@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T23:23:14+00:00",
+ "generated": "2026-08-18T05:30:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,6 +11,13 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "“Estamos muy preocupados”: Perú confía en que Trump reduzca al 10% arancel a sus exportaciones, afirma canciller",
+    "url": "https://www.infobae.com/peru/2026/08/17/estamos-muy-preocupados-peru-confia-en-que-donald-trump-reduzca-al-10-arancel-a-sus-exportaciones-afirma-canciller/",
+    "source": "Infobae",
+    "published": "2026-08-17T23:56:22+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Canciller Carlos Espá señala que cooperación de EE.UU. ayudará a “mejorar capacidad de respuesta” del Perú ante El Niño",
     "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-senala-que-cooperacion-de-eeuu-ayudara-a-mejorar-capacidad-de-respuesta-del-peru-ante-el-nino-ultimas-noticia/",
     "source": "El Comercio",
@@ -20,17 +27,17 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Keiko Fujimori evalúa eliminar ministerios: ministro Elmer Cuba confirma que el tema “está en agenda”",
-    "url": "https://www.infobae.com/peru/2026/08/17/keiko-fujimori-evalua-eliminar-ministerios-ministro-elmer-cuba-confirma-que-el-tema-esta-en-agenda/",
-    "source": "Infobae",
-    "published": "2026-08-17T23:19:28+00:00",
+    "title": "Senador de Fuerza Popular sobre ministro Elmer Cuba: \"Mostró una falta de empatía con los damnificados\"",
+    "url": "https://rpp.pe/politica/congreso/elmer-cuba-senador-de-fuerza-popular-considera-que-ministro-mostro-una-falta-de-empatia-con-los-damnificados-en-ves-noticia-1702112",
+    "source": "RPP",
+    "published": "2026-08-17T23:30:59-05:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministro Elmer Cuba anuncia que el Estado asumirá casi la mitad del incremento del combustible",
-    "url": "https://elcomercio.pe/economia/peru/ministro-elmer-cuba-anuncia-que-el-estado-asumira-casi-la-mitad-del-incremento-del-combustible-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T22:04:22+00:00",
+    "title": "Keiko Fujimori evalúa eliminar ministerios: Elmer Cuba confirma que el tema “está en agenda”",
+    "url": "https://www.infobae.com/peru/2026/08/17/keiko-fujimori-evalua-eliminar-ministerios-ministro-elmer-cuba-confirma-que-el-tema-esta-en-agenda/",
+    "source": "Infobae",
+    "published": "2026-08-17T23:58:52+00:00",
     "matched_in": "title"
    },
    {
@@ -38,13 +45,6 @@
     "url": "https://rpp.pe/politica/gobierno/elmer-cuba-pide-disculpas-por-declaraciones-sobre-aniego-en-lima-noticia-1702023",
     "source": "RPP",
     "published": "2026-08-17T17:00:54-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF alista combo tributario-laboral para facilitar la formalización de empresas y trabajadores",
-    "url": "https://elcomercio.pe/economia/peru/mef-alista-combo-tributario-laboral-para-facilitar-la-formalizacion-de-empresas-y-trabajadores-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T21:35:21+00:00",
     "matched_in": "title"
    },
    {
@@ -102,21 +102,21 @@
     "source": "El Comercio",
     "published": "2026-08-17T03:14:03+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "MEF: Gobierno prepara respuesta ante doble escenario de El Niño",
-    "url": "https://gestion.pe/peru/mef-gobierno-prepara-respuesta-ante-doble-escenario-de-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-15T18:16:49+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Fujimori respaldó a ministro de Defensa y consideró \"prematuro\" que se presente una moción de interpelación en su contra",
-    "url": "https://rpp.pe/politica/gobierno/fujimori-respaldo-a-ministro-de-defensa-y-considero-prematuro-que-se-presente-una-mocion-de-interpelacion-en-su-contra-noticia-1702030",
+    "title": "Ministro de Defensa desde Villa El Salvador: \"Es la tercera vez en el año que esta zona se inunda\"",
+    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-supervisa-villa-el-salvador-tras-inundaciones-por-lluvias-noticia-1702102",
     "source": "RPP",
-    "published": "2026-08-17T15:10:43-05:00",
+    "published": "2026-08-17T21:33:34-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "298 damnificados y daños en viviendas y centros educativos: ministro de Defensa da balance por inundaciones en Lima",
+    "url": "https://rpp.pe/videos/las-noticias/lluvias-en-lima-ministro-de-defensa-da-balance-por-inundaciones-damnificados-y-danos-en-viviendas-y-centros-educativos-noticia-1702107",
+    "source": "RPP",
+    "published": "2026-08-17T21:33:34-05:00",
     "matched_in": "title"
    },
    {
@@ -127,24 +127,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro Rafael Belaúnde niega conflicto de interés por aportes de Poderosa a su campaña presidencial: “No me ha financiado a mi”",
-    "url": "https://www.infobae.com/peru/2026/08/17/ministro-rafael-belaunde-niega-conflicto-de-interes-por-aportes-de-poderosa-a-su-campana-presidencial-no-me-ha-financiado-a-mi/",
-    "source": "Infobae",
-    "published": "2026-08-17T12:51:46+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Belaunde sobre las FFAA en Pataz: “No estamos para chalequear a Minera Poderosa”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-belaunde-sobre-las-ffaa-en-pataz-no-estamos-para-chalequear-a-minera-poderosa-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-16T15:59:35+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Defensa: estas son las razones",
-    "url": "https://gestion.pe/peru/politica/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-defensa-estas-son-las-razones-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-15T04:11:38+00:00",
     "matched_in": "title"
    }
   ],
@@ -171,16 +157,23 @@
     "source": "El Comercio",
     "published": "2026-08-17T13:04:56+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori y titular del Poder Judicial se reunieron para coordinar acciones contra la criminalidad",
-    "url": "https://larepublica.pe/politica/2026/08/15/keiko-fujimori-y-titular-del-poder-judicial-se-reunieron-para-coordinar-acciones-contra-la-criminalidad-870780",
-    "source": "La República",
-    "published": "2026-08-16T01:56:45+00:00",
-    "matched_in": "summary"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput: Sistema de alcantarillado colapsó en Villa El Salvador no necesariamente por la lluvia",
+    "url": "https://elcomercio.pe/lima/lluvia-en-villa-el-salvador-ministro-juan-sheput-sistema-de-alcantarillado-colapso-en-ese-distrito-no-necesariamente-por-la-lluvia-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-18T01:00:15+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Damnificados de Villa El Salvador recibirían S/50 diarios por limpiar zonas afectadas por lluvias, según ministro de Trabajo",
+    "url": "https://www.infobae.com/peru/2026/08/17/damnificados-de-villa-el-salvador-recibirian-s50-diarios-por-limpiar-zonas-afectadas-por-lluvias-segun-ministro-de-trabajo/",
+    "source": "Infobae",
+    "published": "2026-08-18T00:09:06+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Juan Sheput: “Tenemos instrumentos que podemos usar más allá de la delegación de facultades”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-tenemos-instrumentos-que-podemos-usar-mas-alla-de-la-delegacion-de-facultades-ultimas-noticia/",
@@ -189,29 +182,20 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Guillermo Shinno dice que Petro-Perú deberá investigar por qué la Refinería de Talara no llega a los 95.000 barriles diarios",
-    "url": "https://elcomercio.pe/economia/peru/guillermo-shinno-dice-que-petro-peru-debera-investigar-por-que-la-refineria-de-talara-no-llega-a-los-95000-barriles-diarios-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T20:17:41+00:00",
-    "matched_in": "title"
-   }
-  ],
   "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Villa El Salvador será declarado en emergencia tras fuerte aniego: ministro de Vivienda anuncia traslado de damnificados a hoteles",
+    "url": "https://www.infobae.com/peru/2026/08/17/villa-el-salvador-sera-declarado-en-emergencia-tras-fuerte-aniego-ministro-de-vivienda-anuncia-traslado-de-damnificados-a-hoteles/",
+    "source": "Infobae",
+    "published": "2026-08-18T02:18:33+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori en VES tras inundaciones: “Imagínense lo terrible que va a ser cuando lleguen las lluvias por El Niño”",
     "url": "https://larepublica.pe/politica/2026/08/17/keiko-fujimori-en-ves-tras-inundaciones-imaginense-lo-terrible-que-va-a-ser-cuando-lleguen-las-lluvias-por-el-nino-hnews-421685",
     "source": "La República",
     "published": "2026-08-17T20:56:27+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ministro de Vivienda anuncia que se declarará el estado de emergencia en Villa El Salvador tras inundaciones por llovizna",
-    "url": "https://rpp.pe/lima/actualidad/villa-el-salvador-ministro-de-vivienda-anuncia-que-se-declarara-el-estado-de-emergencia-tras-inundaciones-por-llovizna-noticia-1701938",
-    "source": "RPP",
-    "published": "2026-08-16T21:29:38-05:00",
-    "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
