@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10",
+  "updated": "2026-08-19",
   "items": {
     "t1-1.M01": {
       "status": "no_progress",
@@ -271,9 +271,26 @@
           "note": "El Decreto Supremo, dado en Casa de Gobierno el 8 de agosto de 2026, dispone la ejecución inmediata de la reorganización de la Autoridad Nacional del Agua y ordena formular su nuevo modelo organizacional. Recoge los tres elementos del compromiso: la reingeniería de la ANA (artículo 1), el enfoque territorial mediante la gestión integrada de los recursos hídricos con enfoque de cuenca (artículo 2) y la participación de usuarios, incorporada como eje obligatorio «Participación y gobernanza del agua» (artículo 4). Queda en progreso: el decreto ordena la reorganización y manda aprobar un Plan de Implementación; no la culmina."
         }
       ]
+    },
+    "t2-1.P22": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-08-18",
+          "source": "El Peruano — RESOLUCIÓN MINISTERIAL N° 00273-2026-PRODUCE",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2544469-1",
+          "note": "La Resolución Ministerial, del 17 de agosto de 2026, declara el inicio del proceso de fortalecimiento y optimización del Programa Nacional «Compras a MYPErú» (artículo 1) y crea un Grupo de Trabajo Sectorial en PRODUCE para conducirlo (artículo 2). Sus funciones son diagnosticar los factores que limitan el funcionamiento del programa y recomendar medidas de reforma (artículo 6); se instala dentro de cinco días hábiles y tiene una vigencia de sesenta días hábiles (artículos 8 y 9). Los considerandos recogen que la Dirección General de Políticas y Análisis Regulatorio «advierte situaciones que condicionan el funcionamiento» del programa. Queda en progreso: el compromiso promete consolidar Compras MyPerú como política de Estado permanente con un presupuesto anual mínimo de S/ 1,000 millones, y esta norma ordena un diagnóstico, no la permanencia ni el presupuesto. Que el programa sea preexistente (creado por el Decreto Supremo N° 013-2021-PRODUCE) no resta: el compromiso es precisamente fortalecerlo."
+        }
+      ]
     }
   },
   "log": [
+    {
+      "date": "2026-08-18",
+      "item": "t2-1.P22",
+      "status": "in_progress",
+      "text": "PRODUCE declaró el inicio del proceso de fortalecimiento y optimización del Programa Nacional «Compras a MYPErú» y creó un grupo de trabajo sectorial, con sesenta días hábiles para diagnosticar qué limita su funcionamiento y recomendar reformas."
+    },
     {
       "date": "2026-08-10",
       "item": "t2-4.P05",
