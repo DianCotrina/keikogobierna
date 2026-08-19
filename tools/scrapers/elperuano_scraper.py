@@ -171,7 +171,26 @@ _TRAVEL_RE = re.compile(r"\bautorizan\b.{0,40}\bviaje\b|\bestancia academica\b|\
 # 3. Recurring numeric publications. Narrow on purpose — the statistical bodies
 #    stay in scope (see AUTONOMOUS_SECTOR_RE), so only the periodic series
 #    themselves are dropped, not everything those bodies publish.
-_RECURRING_INDEX_RE = re.compile(r"\bindice de reajuste\b|\btipo de cambio\b")
+#
+#    Each entry is a *series*, published on a calendar and carrying no policy.
+#    They are worth naming individually because their fan-out is the worst in
+#    the queue: INEI's monthly "Factores de Reajuste ... obras de edificacion"
+#    matched **ten** commitments across nine temas (issue #333) purely on
+#    construction and geography words.
+#
+#    `indices de distribucion` needs the anchor for the usual reason. The plan
+#    does care about the canon — t2-2.P17 promises "Canon para el Pueblo", up to
+#    40% redistributed to the extraction zone — but that is a change to the
+#    *rule*, which would arrive as a Ley or a Reglamento. These resolutions are
+#    the MEF applying the rule that already exists, monthly, and a new district
+#    is enough to trigger one (issue #332). A canon reform still reaches the
+#    queue; there is a test for it.
+_RECURRING_INDEX_RE = re.compile(
+    r"\bindice de reajuste\b"
+    r"|\btipo de cambio\b"
+    r"|\bfactores? de reajuste\b"
+    r"|\bindices? de distribucion\b"
+)
 
 # 4. Drafts. A prepublicacion, a proyecto put out for comment, or a consulta
 #    publica is a text that is *not in force* — it cannot evidence a commitment

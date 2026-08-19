@@ -338,6 +338,33 @@ class RoutineActTest(unittest.TestCase):
         ):
             self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
+    def test_periodic_series_are_gated(self):
+        # Calendar publications carrying no policy. INEI's monthly construction
+        # factors matched ten commitments across nine temas (issue #333), and a
+        # single new district triggers a canon recalculation (issue #332).
+        for sumilla in (
+            "Aprueban Factores de Reajuste que debe aplicarse a las obras de "
+            "edificación, correspondiente a las trece (13) Áreas Geográficas para las "
+            "Obras del Sector Privado, producidas en el mes de julio de 2026",
+            "Modifican los Índices de Distribución del Canon Hidroenergético "
+            "proveniente del Impuesto a la Renta correspondiente al Ejercicio Fiscal "
+            "2025, por la creación de un nuevo distrito",
+            "Resolución Ministerial que aprueba los Índices de Distribución del Canon "
+            "Minero complementario",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_a_canon_reform_stays_in_the_queue(self):
+        # t2-2.P17 promises "Canon para el Pueblo" — up to 40% redistributed to the
+        # extraction zone. That changes the rule; the gated resolutions only apply
+        # the rule that already exists.
+        for sumilla in (
+            "Ley que modifica la Ley del Canon para redistribuir hasta el 40% a la "
+            "población de la zona de extracción",
+            "Decreto Supremo que aprueba el Reglamento del Canon para el Pueblo",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
     def test_substantive_norms_are_untouched(self):
         for sumilla in (
             "Aprueban el Reglamento de la Ley que crea las unidades de flagrancia",
