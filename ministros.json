@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T11:26:05+00:00",
+ "generated": "2026-08-19T17:27:20+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro de Defensa afirma que inseguridad fue “heredada” y que no se puede solucionar en 18 días",
+    "url": "https://www.infobae.com/peru/2026/08/19/ministro-de-defensa-afirma-que-inseguridad-fue-heredada-y-que-no-se-puede-solucionar-en-18-dias/",
+    "source": "Infobae",
+    "published": "2026-08-19T17:03:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa defiende aporte de presidenta de Minera Poderosa: “Tenemos afinidad de ideas”",
+    "url": "https://www.infobae.com/peru/2026/08/19/ministro-de-defensa-defiende-aporte-de-presidenta-de-minera-poderosa-tenemos-afinidad-de-ideas/",
+    "source": "Infobae",
+    "published": "2026-08-19T16:23:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaunde sobre interpelación: “Es parte del sistema de control político, una prerrogativa de la Cámara de Diputados”",
+    "url": "https://elcomercio.pe/politica/congreso/rafael-belaunde-sobre-interpelacion-es-parte-del-sistema-de-control-politico-una-prerrogativa-de-la-camara-de-diputados-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-19T15:59:31+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
@@ -39,13 +62,6 @@
     "source": "El Comercio",
     "published": "2026-08-17T17:56:35+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Keiko Fujimori minimiza inundaciones en Lima: “Tampoco exageremos por un poco de agua en la rodilla”",
-    "url": "https://larepublica.pe/politica/2026/08/17/ministro-de-keiko-fujimori-minimiza-inundaciones-en-lima-tampoco-exageremos-por-un-poco-de-agua-en-la-rodilla-elmer-cuba-hnews-1619607",
-    "source": "La República",
-    "published": "2026-08-17T15:09:58+00:00",
-    "matched_in": "summary"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -69,21 +85,21 @@
     "source": "El Comercio",
     "published": "2026-08-18T10:30:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ernesto Álvarez: “Estamos ante la oportunidad de oro de una reforma del Sistema Interamericano” | ENTREVISTA",
-    "url": "https://elcomercio.pe/politica/ernesto-alvarez-plantea-reforma-del-sistema-interamericano-de-derechos-humanos-sidh-y-la-corte-idh-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T15:25:00+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
    {
-    "title": "“Tiene los días contados”: Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
+    "title": "Ministerio de Cultura quiere derogar ley que crea el Colegio de Artistas, confirma Alberto Beingolea",
+    "url": "https://elcomercio.pe/luces/ministerio-de-cultura-quiere-derogar-ley-que-crea-el-colegio-de-artistas-confirma-alberto-beingolea-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-19T16:39:45+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“Tiene los días contados”: Alberto Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
     "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
     "source": "RPP",
-    "published": "2026-08-18T18:30:35-05:00",
+    "published": "2026-08-19T10:20:35-05:00",
     "matched_in": "title"
    },
    {
@@ -115,13 +131,6 @@
     "source": "El Comercio",
     "published": "2026-08-18T21:11:58+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "¿Nueva estrategia contra el crimen?: Mininter apuesta por más policías y tecnología en las calles",
-    "url": "https://www.infobae.com/peru/2026/08/18/nueva-estrategia-contra-el-crimen-mininter-apuesta-por-mas-policias-y-tecnologia-en-las-calles/",
-    "source": "Infobae",
-    "published": "2026-08-18T21:06:15+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -133,21 +142,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "rogers-martin-valencia-espinoza": [
    {
-    "title": "Keiko Fujimori sobre pedido de interpelación a ministro Belaunde: “Entiendo que la labor del Congreso sea fiscalizar, pero ¿en solo dos semanas presentar una interpelación...?”",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-pedido-de-interpelacion-a-ministro-belaunde-entiendo-que-la-labor-del-congreso-sea-fiscalizar-pero-en-solo-dos-semanas-presentar-una-interpelacion-ultimas-noticia/",
+    "title": "Ministro Rogers Valencia: “Estamos revisando la meta de turistas para este año; veremos qué efecto tiene la llegada del Papa”",
+    "url": "https://elcomercio.pe/economia/peru/ministro-rogers-valencia-estamos-revisando-la-meta-de-turistas-para-este-ano-veremos-que-efecto-tiene-la-llegada-del-papa-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-17T16:49:59+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Gobierno designa como secretario de  Comunicación Social de la PCM a exjefe de prensa de Fuerza Popular y del Congreso, Christian Peralta",
-    "url": "https://elcomercio.pe/politica/gobierno/gobierno-designa-como-secretario-de-la-secretaria-de-comunicacion-social-de-la-pcm-a-exjefe-de-prensa-de-fuerza-popular-y-del-congreso-christian-peralta-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T13:04:56+00:00",
+    "published": "2026-08-19T16:09:52+00:00",
     "matched_in": "title"
    }
   ],
@@ -157,38 +157,6 @@
     "url": "https://larepublica.pe/politica/2026/08/17/keiko-fujimori-en-ves-tras-inundaciones-imaginense-lo-terrible-que-va-a-ser-cuando-lleguen-las-lluvias-por-el-nino-hnews-421685",
     "source": "La República",
     "published": "2026-08-17T20:56:27+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "maria-magdalena-seminario-maron": [
-   {
-    "title": "\"No lo he conversado con la presidenta\": María Seminario sobre posible fusión del Ministerio de la Mujer",
-    "url": "https://rpp.pe/politica/gobierno/maria-seminario-ministra-de-la-mujer-dice-no-haber-conversado-con-keiko-fujimori-sobre-posible-fusion-de-su-cartera-con-otra-del-gabinete-noticia-1702343",
-    "source": "RPP",
-    "published": "2026-08-18T22:46:10-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministra de la Mujer anuncia cambios estructurales en el INABIF tras denuncias de maltrato a menores",
-    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-anuncia-cambios-estructurales-en-el-inabif-tras-denuncias-de-maltrato-a-menores-noticia-1702331",
-    "source": "RPP",
-    "published": "2026-08-18T21:24:37-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministra de la Mujer reporta denuncias por casos de maltrato en albergue del INABIF",
-    "url": "https://rpp.pe/videos/las-cosas-como-son/ministra-de-la-mujer-reporta-denuncias-por-casos-de-maltrato-en-albergue-del-inabif-noticia-1702332",
-    "source": "RPP",
-    "published": "2026-08-18T21:24:37-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Gobierno anuncia reforma del canon minero para redirigir los recursos directamente a las comunidades",
-    "url": "https://rpp.pe/economia/economia/mineria-en-peru-gobierno-anuncia-reforma-canon-minero-que-impactara-a-comunidades-de-que-trata-noticia-1702223",
-    "source": "RPP",
-    "published": "2026-08-18T17:30:11-05:00",
     "matched_in": "summary"
    }
   ]
