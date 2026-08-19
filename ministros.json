@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T23:22:45+00:00",
+ "generated": "2026-08-19T05:31:19+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,58 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
+    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-19T01:48:58+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
+    "url": "https://larepublica.pe/politica/2026/08/17/fujimori-cuestiona-a-elmer-cuba-por-minimizar-lluvias-en-lima-y-este-pide-disculpas-fue-una-expresion-poco-feliz-hnews-1115829",
+    "source": "La República",
+    "published": "2026-08-18T18:08:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba, titular del MEF: “La reducción de ministerios está en agenda”",
+    "url": "https://elcomercio.pe/economia/elmer-cuba-titular-del-mef-la-reduccion-de-ministerios-esta-en-agenda-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T19:03:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori cuestiona a ministro Elmer Cuba por minimizar impacto de las lluvias: “Creo que no está viendo la magnitud del daño”",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-cuestiona-a-ministro-elmer-cuba-por-minimizar-impacto-de-las-lluvias-creo-que-no-esta-viendo-la-magnitud-del-dano-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-17T17:56:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Keiko Fujimori minimiza inundaciones en Lima: “Tampoco exageremos por un poco de agua en la rodilla”",
+    "url": "https://larepublica.pe/politica/2026/08/17/ministro-de-keiko-fujimori-minimiza-inundaciones-en-lima-tampoco-exageremos-por-un-poco-de-agua-en-la-rodilla-elmer-cuba-hnews-1619607",
+    "source": "La República",
+    "published": "2026-08-17T15:09:58+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
+    "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
+    "source": "La República",
+    "published": "2026-08-19T03:27:54+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Alberto Beingolea discrepa con Ernesto Álvarez sobre el LUM: “Los museos del Perú están dentro del Ministerio de Cultura”",
     "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-discrepa-con-ernesto-alvarez-sobre-el-lum-los-museos-del-peru-estan-dentro-del-ministerio-de-cultura-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-18T22:42:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
-    "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
-    "source": "La República",
-    "published": "2026-08-18T22:13:32+00:00",
     "matched_in": "title"
    },
    {
@@ -48,17 +87,17 @@
   ],
   "alberto-ismael-beingolea-delgado": [
    {
+    "title": "“Tiene los días contados”: Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
+    "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
+    "source": "RPP",
+    "published": "2026-08-18T18:30:35-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Alberto Beingolea discrepa con Ernesto Álvarez sobre el LUM: “Los museos del Perú están dentro del Ministerio de Cultura”",
     "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-discrepa-con-ernesto-alvarez-sobre-el-lum-los-museos-del-peru-estan-dentro-del-ministerio-de-cultura-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-18T22:42:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“Tiene los días contados”: Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
-    "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
-    "source": "RPP",
-    "published": "2026-08-18T15:30:35-05:00",
     "matched_in": "title"
    },
    {
@@ -76,91 +115,12 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
-    "url": "https://larepublica.pe/politica/2026/08/17/fujimori-cuestiona-a-elmer-cuba-por-minimizar-lluvias-en-lima-y-este-pide-disculpas-fue-una-expresion-poco-feliz-hnews-1115829",
-    "source": "La República",
-    "published": "2026-08-18T18:08:04+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba abre cuenta en X y revela las dos prioridades del MEF, luego de minimizar inundaciones",
-    "url": "https://www.infobae.com/peru/2026/08/18/elmer-cuba-abre-cuenta-en-x-y-revela-las-dos-prioridades-del-mef-luego-de-minimizar-inundaciones/",
-    "source": "Infobae",
-    "published": "2026-08-18T17:18:07+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Elmer Cuba anuncia que el Estado asumirá casi la mitad del incremento del combustible",
-    "url": "https://elcomercio.pe/economia/peru/ministro-elmer-cuba-anuncia-que-el-estado-asumira-casi-la-mitad-del-incremento-del-combustible-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T22:04:22+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF alista combo tributario-laboral para facilitar la formalización de empresas y trabajadores",
-    "url": "https://elcomercio.pe/economia/peru/mef-alista-combo-tributario-laboral-para-facilitar-la-formalizacion-de-empresas-y-trabajadores-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T21:35:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Secretario del SUTEP defiende ley que otorga pensión a los maestros y cuestiona al ministro de Economía, Elmer Cuba",
-    "url": "https://elcomercio.pe/economia/peru/secretario-del-sutep-defiende-ley-que-otorga-pension-a-los-maestros-y-cuestiona-al-ministro-de-economia-elmer-cuba-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T19:27:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba, titular del MEF: “La reducción de ministerios está en agenda”",
-    "url": "https://elcomercio.pe/economia/elmer-cuba-titular-del-mef-la-reduccion-de-ministerios-esta-en-agenda-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T19:03:08+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori cuestiona a ministro Elmer Cuba por minimizar impacto de las lluvias: “Creo que no está viendo la magnitud del daño”",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-cuestiona-a-ministro-elmer-cuba-por-minimizar-impacto-de-las-lluvias-creo-que-no-esta-viendo-la-magnitud-del-dano-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T17:56:35+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba anuncia fondos para combatir el Fenómeno de El Niño: “Entre hoy y mañana salen los decretos de urgencia”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-anuncia-fondos-para-combatir-el-fenomeno-de-el-nino-entre-hoy-y-manana-salen-los-decretos-de-urgencia-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T16:05:52+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba sobre Petro-Perú: “Si este directorio falla y el sindicato no colabora, se va a perder”",
-    "url": "https://elcomercio.pe/economia/elmer-cuba-sobre-petro-peru-si-este-directorio-falla-y-el-sindicato-no-colabora-se-va-a-perder-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T15:26:15+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Keiko Fujimori minimiza inundaciones en Lima: “Tampoco exageremos por un poco de agua en la rodilla”",
-    "url": "https://larepublica.pe/politica/2026/08/17/ministro-de-keiko-fujimori-minimiza-inundaciones-en-lima-tampoco-exageremos-por-un-poco-de-agua-en-la-rodilla-elmer-cuba-hnews-1619607",
-    "source": "La República",
-    "published": "2026-08-17T15:09:58+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Elmer Cuba: “No hay manera de que un gobierno pueda cumplir lo que el Congreso anterior ha aprobado de manera ilegal”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-elmer-cuba-no-hay-manera-de-que-un-gobierno-pueda-cumplir-lo-que-el-congreso-anterior-ha-aprobado-de-manera-ilegal-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T03:14:03+00:00",
-    "matched_in": "title"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ministro del Interior ratifica a Óscar Arriola y altos mandos de la Policía en sus puestos: \"Mientras sigan teniendo resultados van a continuar\"",
-    "url": "https://rpp.pe/lima/actualidad/ministro-del-interior-ratifica-a-oscar-arriola-y-altos-mandos-de-la-policia-en-sus-puestos-mientras-sigan-teniendo-resultados-van-a-continuar-noticia-1702285",
-    "source": "RPP",
-    "published": "2026-08-18T16:48:18-05:00",
+    "title": "Ministro del Interior justifica continuidad de Óscar Arriola en la PNP: \"El año pasado había 500 muertos más\"",
+    "url": "https://larepublica.pe/politica/2026/08/18/ministro-del-interior-justifica-continuidad-de-oscar-arriola-en-la-pnp-el-ano-pasado-habia-500-muertos-mas-hnews-1011204",
+    "source": "La República",
+    "published": "2026-08-19T03:11:31+00:00",
     "matched_in": "title"
    },
    {
@@ -183,15 +143,6 @@
     "source": "Infobae",
     "published": "2026-08-18T20:00:51+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
-    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T16:18:00+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -221,15 +172,6 @@
     "matched_in": "title"
    }
   ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Ministro Rogers Valencia: “Estamos revisando la meta de turistas para este año; veremos qué efecto tiene la llegada del Papa”",
-    "url": "https://elcomercio.pe/economia/peru/ministro-rogers-valencia-estamos-revisando-la-meta-de-turistas-para-este-ano-veremos-que-efecto-tiene-la-llegada-del-papa-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T23:14:04+00:00",
-    "matched_in": "title"
-   }
-  ],
   "guillermo-shinno-huamani": [
    {
     "title": "Gobierno anuncia reforma del canon minero para redirigir los recursos directamente a las comunidades",
@@ -251,13 +193,6 @@
     "source": "El Comercio",
     "published": "2026-08-18T18:02:50+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Guillermo Shinno dice que Petro-Perú deberá investigar por qué la Refinería de Talara no llega a los 95.000 barriles diarios",
-    "url": "https://elcomercio.pe/economia/peru/guillermo-shinno-dice-que-petro-peru-debera-investigar-por-que-la-refineria-de-talara-no-llega-a-los-95000-barriles-diarios-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T20:17:41+00:00",
-    "matched_in": "title"
    }
   ],
   "mauricio-fernando-arnillas-gonzalez": [
@@ -267,6 +202,29 @@
     "source": "La República",
     "published": "2026-08-17T20:56:27+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "maria-magdalena-seminario-maron": [
+   {
+    "title": "\"No lo he conversado con la presidenta\": María Seminario sobre posible fusión del Ministerio de la Mujer",
+    "url": "https://rpp.pe/politica/gobierno/maria-seminario-ministra-de-la-mujer-dice-no-haber-conversado-con-keiko-fujimori-sobre-posible-fusion-de-su-cartera-con-otra-del-gabinete-noticia-1702343",
+    "source": "RPP",
+    "published": "2026-08-18T22:46:10-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministra de la Mujer anuncia cambios estructurales en el INABIF tras denuncias de maltrato a menores",
+    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-anuncia-cambios-estructurales-en-el-inabif-tras-denuncias-de-maltrato-a-menores-noticia-1702331",
+    "source": "RPP",
+    "published": "2026-08-18T21:24:37-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministra de la Mujer reporta denuncias por casos de maltrato en albergue del INABIF",
+    "url": "https://rpp.pe/videos/las-cosas-como-son/ministra-de-la-mujer-reporta-denuncias-por-casos-de-maltrato-en-albergue-del-inabif-noticia-1702332",
+    "source": "RPP",
+    "published": "2026-08-18T21:24:37-05:00",
+    "matched_in": "title"
    }
   ]
  }
