@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.2](https://github.com/DianCotrina/keikogobierna/compare/v2.12.1...v2.12.2) (2026-08-19)
+
+
+### Bug Fixes
+
+* certify Compras MyPerú as in progress ([515f7c5](https://github.com/DianCotrina/keikogobierna/commit/515f7c58ae7adde38a054914139cec87e2154eee))
+
 ## [2.12.1](https://github.com/DianCotrina/keikogobierna/compare/v2.12.0...v2.12.1) (2026-08-19)
 
 
