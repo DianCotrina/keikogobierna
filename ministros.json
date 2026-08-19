@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T05:31:19+00:00",
+ "generated": "2026-08-19T11:26:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -53,7 +53,7 @@
     "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
     "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
     "source": "La República",
-    "published": "2026-08-19T03:27:54+00:00",
+    "published": "2026-08-19T10:27:00+00:00",
     "matched_in": "title"
    },
    {
@@ -62,13 +62,6 @@
     "source": "El Comercio",
     "published": "2026-08-18T22:42:44+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea responde a propuesta de trasladar el LUM a Justicia y defiende su sector: “Los museos son parte de Cultura”",
-    "url": "https://www.infobae.com/peru/2026/08/18/alberto-beingolea-responde-a-propuesta-de-trasladar-el-lum-a-justicia-y-defiende-su-sector-los-museos-son-parte-de-cultura/",
-    "source": "Infobae",
-    "published": "2026-08-18T19:48:57+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "El LUM y la CVR",
@@ -106,13 +99,6 @@
     "source": "La República",
     "published": "2026-08-18T20:19:52+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea responde a propuesta de trasladar el LUM a Justicia y defiende su sector: “Los museos son parte de Cultura”",
-    "url": "https://www.infobae.com/peru/2026/08/18/alberto-beingolea-responde-a-propuesta-de-trasladar-el-lum-a-justicia-y-defiende-su-sector-los-museos-son-parte-de-cultura/",
-    "source": "Infobae",
-    "published": "2026-08-18T19:48:57+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -120,7 +106,7 @@
     "title": "Ministro del Interior justifica continuidad de Óscar Arriola en la PNP: \"El año pasado había 500 muertos más\"",
     "url": "https://larepublica.pe/politica/2026/08/18/ministro-del-interior-justifica-continuidad-de-oscar-arriola-en-la-pnp-el-ano-pasado-habia-500-muertos-mas-hnews-1011204",
     "source": "La República",
-    "published": "2026-08-19T03:11:31+00:00",
+    "published": "2026-08-19T10:00:00+00:00",
     "matched_in": "title"
    },
    {
@@ -136,13 +122,6 @@
     "source": "Infobae",
     "published": "2026-08-18T21:06:15+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Óscar Arriola se queda como jefe de la PNP y ministro destaca su gestión: “El año pasado había 500 muertos más”",
-    "url": "https://www.infobae.com/peru/2026/08/18/oscar-arriola-se-queda-como-jefe-de-la-pnp-y-ministro-destaca-su-gestion-el-ano-pasado-habia-500-muertos-mas/",
-    "source": "Infobae",
-    "published": "2026-08-18T20:00:51+00:00",
-    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -169,29 +148,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/gobierno-designa-como-secretario-de-la-secretaria-de-comunicacion-social-de-la-pcm-a-exjefe-de-prensa-de-fuerza-popular-y-del-congreso-christian-peralta-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-17T13:04:56+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Gobierno anuncia reforma del canon minero para redirigir los recursos directamente a las comunidades",
-    "url": "https://rpp.pe/economia/economia/mineria-en-peru-gobierno-anuncia-reforma-canon-minero-que-impactara-a-comunidades-de-que-trata-noticia-1702223",
-    "source": "RPP",
-    "published": "2026-08-18T17:30:11-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Minem anuncia cambios sobre el canon minero para beneficiar directamente a comunidades cercanas a los proyectos",
-    "url": "https://elcomercio.pe/economia/peru/minem-anuncia-cambios-sobre-el-canon-minero-para-beneficiar-directamente-a-comunidades-cercanas-a-los-proyectos-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T19:41:54+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Shinno anuncia destrabe de US$40.000 millones en inversiones mineras en los próximos 5 años",
-    "url": "https://elcomercio.pe/economia/peru/ministro-shinno-anuncia-destrabe-de-us40000-millones-en-inversiones-mineras-en-los-proximos-5-anos-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T18:02:50+00:00",
     "matched_in": "title"
    }
   ],
@@ -225,6 +181,15 @@
     "source": "RPP",
     "published": "2026-08-18T21:24:37-05:00",
     "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Gobierno anuncia reforma del canon minero para redirigir los recursos directamente a las comunidades",
+    "url": "https://rpp.pe/economia/economia/mineria-en-peru-gobierno-anuncia-reforma-canon-minero-que-impactara-a-comunidades-de-que-trata-noticia-1702223",
+    "source": "RPP",
+    "published": "2026-08-18T17:30:11-05:00",
+    "matched_in": "summary"
    }
   ]
  }
