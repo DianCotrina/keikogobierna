@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.1](https://github.com/DianCotrina/keikogobierna/compare/v2.12.0...v2.12.1) (2026-08-19)
+
+
+### Bug Fixes
+
+* gate the construction and canon index series ([a578be1](https://github.com/DianCotrina/keikogobierna/commit/a578be136e846c2822edc2f7bd59dd2c091b61c4))
+
 ## [2.12.0](https://github.com/DianCotrina/keikogobierna/compare/v2.11.1...v2.12.0) (2026-08-17)
 
 
