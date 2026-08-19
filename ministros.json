@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T17:27:20+00:00",
+ "generated": "2026-08-19T23:23:17+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,7 +9,32 @@
   "Infobae"
  ],
  "ministers": {
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta y su Gabinete frente al Congreso: los ejes del discurso y la incógnita sobre las facultades",
+    "url": "https://elcomercio.pe/politica/congreso-camara-de-diputados-luis-galarreta-gabinete-ministerial-keiko-fujimori-los-ejes-de-su-discurso-y-la-incognita-sobre-el-pedido-de-facultades-tlcnota-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-19T22:18:37+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
+    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-19T19:35:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro Belaúnde sobre interpelación del Congreso: Iré a contestar",
+    "url": "https://gestion.pe/peru/politica/ministro-rafael-belaunde-sobre-interpelacion-del-congreso-si-se-aprueba-en-el-congreso-ire-a-contestar-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-19T22:10:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro de Defensa afirma que inseguridad fue “heredada” y que no se puede solucionar en 18 días",
     "url": "https://www.infobae.com/peru/2026/08/19/ministro-de-defensa-afirma-que-inseguridad-fue-heredada-y-que-no-se-puede-solucionar-en-18-dias/",
@@ -32,15 +57,6 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
-    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-19T01:48:58+00:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
@@ -55,13 +71,6 @@
     "source": "El Comercio",
     "published": "2026-08-17T19:03:08+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori cuestiona a ministro Elmer Cuba por minimizar impacto de las lluvias: “Creo que no está viendo la magnitud del daño”",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-cuestiona-a-ministro-elmer-cuba-por-minimizar-impacto-de-las-lluvias-creo-que-no-esta-viendo-la-magnitud-del-dano-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-17T17:56:35+00:00",
-    "matched_in": "title"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -69,7 +78,14 @@
     "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
     "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
     "source": "La República",
-    "published": "2026-08-19T10:27:00+00:00",
+    "published": "2026-08-19T17:50:47+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "CNDDHH rechaza intento de Ernesto Álvarez de poner al LUM bajo administración del Ministerio de Justicia",
+    "url": "https://larepublica.pe/politica/2026/08/19/cnddhh-rechaza-intento-de-ernesto-alvarez-de-poner-al-lum-bajo-administracion-del-ministerio-de-justicia-hnews-358796",
+    "source": "La República",
+    "published": "2026-08-19T17:49:00+00:00",
     "matched_in": "title"
    },
    {
@@ -88,20 +104,6 @@
    }
   ],
   "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Ministerio de Cultura quiere derogar ley que crea el Colegio de Artistas, confirma Alberto Beingolea",
-    "url": "https://elcomercio.pe/luces/ministerio-de-cultura-quiere-derogar-ley-que-crea-el-colegio-de-artistas-confirma-alberto-beingolea-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-19T16:39:45+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“Tiene los días contados”: Alberto Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
-    "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
-    "source": "RPP",
-    "published": "2026-08-19T10:20:35-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Alberto Beingolea discrepa con Ernesto Álvarez sobre el LUM: “Los museos del Perú están dentro del Ministerio de Cultura”",
     "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-discrepa-con-ernesto-alvarez-sobre-el-lum-los-museos-del-peru-estan-dentro-del-ministerio-de-cultura-ultimas-noticia/",
@@ -133,12 +135,12 @@
     "matched_in": "title"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Canciller Carlos Espá señala que cooperación de EE.UU. ayudará a “mejorar capacidad de respuesta” del Perú ante El Niño",
-    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-senala-que-cooperacion-de-eeuu-ayudara-a-mejorar-capacidad-de-respuesta-del-peru-ante-el-nino-ultimas-noticia/",
+    "title": "Ministro Juan Sheput se reúne con centrales sindicales previo a próxima sesión del Consejo Nacional de Trabajo",
+    "url": "https://elcomercio.pe/economia/peru/ministro-juan-sheput-se-reune-con-centrales-sindicales-previo-a-proxima-sesion-del-consejo-nacional-de-trabajo-l-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-17T20:36:47+00:00",
+    "published": "2026-08-19T17:39:42+00:00",
     "matched_in": "title"
    }
   ],
@@ -147,16 +149,32 @@
     "title": "Ministro Rogers Valencia: “Estamos revisando la meta de turistas para este año; veremos qué efecto tiene la llegada del Papa”",
     "url": "https://elcomercio.pe/economia/peru/ministro-rogers-valencia-estamos-revisando-la-meta-de-turistas-para-este-ano-veremos-que-efecto-tiene-la-llegada-del-papa-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-19T16:09:52+00:00",
+    "published": "2026-08-19T22:14:11+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Mincetur: esta será la estrategia para hacerle frente al “nuevo golpe arancelario” de EE.UU.",
+    "url": "https://gestion.pe/economia/nuevo-golpe-arancelario-de-eeuu-esta-sera-la-estrategia-del-gobierno-de-keiko-fujimori-para-hacerle-frente-segun-el-mincetur-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-19T22:00:00+00:00",
     "matched_in": "title"
    }
   ],
   "mauricio-fernando-arnillas-gonzalez": [
    {
-    "title": "Keiko Fujimori en VES tras inundaciones: “Imagínense lo terrible que va a ser cuando lleguen las lluvias por El Niño”",
-    "url": "https://larepublica.pe/politica/2026/08/17/keiko-fujimori-en-ves-tras-inundaciones-imaginense-lo-terrible-que-va-a-ser-cuando-lleguen-las-lluvias-por-el-nino-hnews-421685",
+    "title": "Ministro de Vivienda se reunió con “Cholo Dolmos”, exrecluso condenado por extorsión",
+    "url": "https://larepublica.pe/politica/2026/08/19/ministro-de-vivienda-mauricio-arnillas-gonzalez-se-reunio-con-cholo-dolmos-exrecluso-acusado-por-extorsion-mvcs-hnews-1122159",
     "source": "La República",
-    "published": "2026-08-17T20:56:27+00:00",
+    "published": "2026-08-19T18:29:39+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Gobierno anuncia reforma del canon minero para redirigir los recursos directamente a las comunidades",
+    "url": "https://rpp.pe/economia/economia/mineria-en-peru-gobierno-anuncia-reforma-canon-minero-que-impactara-a-comunidades-de-que-trata-noticia-1702223",
+    "source": "RPP",
+    "published": "2026-08-19T16:15:11-05:00",
     "matched_in": "summary"
    }
   ]
