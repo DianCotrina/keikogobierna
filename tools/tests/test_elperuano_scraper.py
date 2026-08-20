@@ -365,6 +365,58 @@ class RoutineActTest(unittest.TestCase):
         ):
             self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
+    def test_academic_mobility_is_gated(self):
+        # Same permission slip as an estancia académica, newer name. Four UNE
+        # ratifications in one queue (issues #339-#342).
+        for sumilla in (
+            "Ratifican la Resolución N° 0949-2026-D-FAC, que autoriza movilidad "
+            "académica saliente de docente de la Universidad Nacional de Educación "
+            "Enrique Guzmán y Valle para participar en un congreso",
+            "Autorizan movilidad académica entrante de investigador visitante",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_individual_concessions_are_gated(self):
+        for sumilla in (
+            "Otorgan concesión definitiva a favor de AMAZONAS ENERGIA SOLAR S.A.C. "
+            "para desarrollar la actividad de generación de energía eléctrica",
+            "Otorgan a la empresa FIGER MAX S.A.C. concesión única para la prestación "
+            "de servicios públicos de telecomunicaciones",
+            "Aprueban primera modificación de concesión definitiva para desarrollar la "
+            "actividad de generación de energía eléctrica con Recursos Energéticos "
+            "Renovables (RER)",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_the_plans_own_concession_language_is_untouched(self):
+        # t2-6.P21 and t2-6.P27 talk about "aeropuertos concesionados" and a
+        # "concesión supervisada" for the Red Dorsal. Neither is the statutory
+        # instrument the gate names, and both must keep reaching the queue.
+        for sumilla in (
+            "Aprueban la modernización de los aeropuertos concesionados a nivel "
+            "nacional",
+            "Decreto Supremo que aprueba el rediseño de la concesión de la Red Dorsal "
+            "Nacional de Fibra Óptica",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_fishing_seasons_are_gated_but_veda_compensation_is_not(self):
+        # t2-5.P19 promises automatic compensation during vedas through PESCA
+        # SOLIDARIA. That is a payment mechanism, not the season notice.
+        for sumilla in (
+            "Disponen la Conclusión de la Primera Temporada de Pesca 2026 del recurso "
+            "anchoveta y anchoveta blanca en la Zona Norte - Centro del Perú",
+            "Autorizan de manera excepcional el inicio de la temporada de pesca",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+        for sumilla in (
+            "Aprueban el mecanismo automático de compensación económica durante vedas "
+            "articulado al fondo PESCA SOLIDARIA",
+            "Crean el fondo PESCA SOLIDARIA con transferencias directas a pescadores "
+            "formales",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
     def test_substantive_norms_are_untouched(self):
         for sumilla in (
             "Aprueban el Reglamento de la Ley que crea las unidades de flagrancia",
