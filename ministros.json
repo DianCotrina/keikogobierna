@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T17:29:49+00:00",
+ "generated": "2026-08-20T23:26:20+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,8 +11,29 @@
  "ministers": {
   "luis-fernando-galarreta-velarde": [
    {
-    "title": "Diputada de Ahora Nación pide a Luis Galarreta y ministros acciones inmediatas ante bloqueos de vías en el sur",
-    "url": "https://elcomercio.pe/politica/congreso/diputada-de-ahora-nacion-pide-a-luis-galarreta-y-ministros-acciones-inmediatas-ante-bloqueos-de-vias-en-el-sur-ultimas-noticia/",
+    "title": "EN VIVO: Luis Galarreta y el gabinete de ministros presentaron la política general del gobierno en la Cámara de Diputados",
+    "url": "https://www.infobae.com/peru/2026/08/20/congreso-en-vivo-luis-galarreta-y-el-gabinete-de-ministros-presenta-la-politica-general-del-gobierno-en-la-camara-de-diputados/",
+    "source": "Infobae",
+    "published": "2026-08-20T23:11:27+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "A volar: Gobierno destinará S/900 millones para mejorar aeropuertos de Juliaca, Arequipa y Yurimaguas",
+    "url": "https://www.infobae.com/peru/2026/08/20/a-volar-gobierno-destinara-s900-millones-para-mejorar-aeropuertos-de-juliaca-arequipa-y-yurimaguas/",
+    "source": "Infobae",
+    "published": "2026-08-20T22:42:56+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Premier Galarreta ante el Congreso: estas son las principales propuestas del Gobierno",
+    "url": "https://gestion.pe/peru/premier-luis-galarreta-ante-el-congreso-estas-son-las-principales-propuestas-del-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-20T17:44:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ahora Nación pide a Luis Galarreta atención al Gasoducto Sur Peruano y respeto por el Cusco",
+    "url": "https://elcomercio.pe/politica/congreso/ahora-nacion-pide-a-luis-galarreta-atencion-al-gasoducto-sur-peruano-y-respeto-por-el-cusco-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-20T17:17:57+00:00",
     "matched_in": "title"
@@ -25,24 +46,10 @@
     "matched_in": "title"
    },
    {
-    "title": "EN VIVO: Luis Galarreta y el gabinete de ministros presentan ahora la política general del gobierno en la Cámara de Diputados",
-    "url": "https://www.infobae.com/peru/2026/08/20/congreso-en-vivo-luis-galarreta-y-el-gabinete-de-ministros-presenta-la-politica-general-del-gobierno-en-la-camara-de-diputados/",
-    "source": "Infobae",
-    "published": "2026-08-20T16:55:22+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Premier Galarreta: “Se impulsan intervenciones en aeropuertos de Juliaca, Arequipa y Yurimaguas por más de S/900 millones”",
     "url": "https://elcomercio.pe/economia/peru/premier-galarreta-aeropuertos-de-juliaca-arequipa-y-yurimaguas-impulsan-intervenciones-que-superan-los-s900-millones-para-rehabilitar-pistas-drenajes-y-ampliar-capacidad-de-atencion-l-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-20T16:49:57+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Galarreta ante el Congreso: estas son las principales propuestas del Gobierno",
-    "url": "https://gestion.pe/peru/premier-luis-galarreta-ante-el-congreso-estas-son-las-principales-propuestas-del-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-20T16:37:42+00:00",
     "matched_in": "title"
    },
    {
@@ -67,14 +74,44 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Pedro Cateriano sobre designación de Rafael Belaunde en el Mindef: “No es un adversario político, pero tenemos una discrepancia”",
-    "url": "https://rpp.pe/videos/ampliacion-de-noticias/pedro-cateriano-sobre-designacion-de-rafael-belaunde-en-el-mindef-no-es-un-adversario-politico-pero-tenemos-una-discrepancia-noticia-1702669",
-    "source": "RPP",
-    "published": "2026-08-20T11:55:41-05:00",
+    "title": "Astudillo plantea nueva estrategia contra el crimen y pide presupuesto para la Policía",
+    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-plantea-nueva-estrategia-contra-el-crimen-del-gobierno-de-keiko-fujimori-y-pide-al-congreso-leyes-y-presupuesto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-20T22:08:00+00:00",
     "matched_in": "title"
    },
+   {
+    "title": "Estas son las nuevas medidas para combatir la extorsión, según el Mininter",
+    "url": "https://larepublica.pe/politica/2026/08/20/estas-son-las-nuevas-medidas-para-combatir-la-extorsion-segun-el-mininter-criminalidad-hnews-367020",
+    "source": "La República",
+    "published": "2026-08-20T20:13:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo, ministro del Interior: \"No vengo a prometerles que el crimen desaparecerá la próxima semana\"",
+    "url": "https://larepublica.pe/politica/2026/08/20/cesar-astudillo-ministro-del-interior-no-vengo-a-prometerles-que-el-crimen-desaparecera-la-proxima-semana-hnews-212880",
+    "source": "La República",
+    "published": "2026-08-20T18:48:22+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Obras cuestiona a ministro del Interior, César Astudillo tras su exposición en el Congreso: “Se debe dejar las recetas que no han funcionado”",
+    "url": "https://elcomercio.pe/politica/congreso/obras-cuestiona-a-ministro-del-interior-cesar-astudillo-tras-su-exposicion-en-el-congreso-se-debe-dejar-las-recetas-que-no-han-funcionado-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T17:24:58+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Interior justifica continuidad de Óscar Arriola en la PNP: \"El año pasado había 500 muertos más\"",
+    "url": "https://larepublica.pe/politica/2026/08/18/ministro-del-interior-justifica-continuidad-de-oscar-arriola-en-la-pnp-el-ano-pasado-habia-500-muertos-mas-hnews-1011204",
+    "source": "La República",
+    "published": "2026-08-19T10:00:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
    {
     "title": "García Belaunde sobre interpelación al ministro de Defensa: “El mensaje es que quieren iniciar una guerra”",
     "url": "https://elcomercio.pe/politica/congreso/victor-andres-garcia-belaunde-sobre-interpelacion-al-ministro-de-defensa-el-mensaje-es-que-quieren-iniciar-una-guerra-noticia/",
@@ -92,6 +129,13 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
+    "title": "El Niño 2026-2027: Gobierno anuncia S/457 millones para acelerar trabajos de prevención en ocho regiones",
+    "url": "https://elcomercio.pe/lima/obras/el-nino-2026-2027-gobierno-anuncia-s450-millones-para-acelerar-trabajos-de-prevencion-en-ocho-regiones-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T22:31:43+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Gobierno emitirá decreto supremo para transferir S/450 millones en puntos críticos ante El Niño",
     "url": "https://gestion.pe/peru/politica/gobierno-emitira-decreto-supremo-para-transferir-s450-millones-en-puntos-criticos-ante-el-nino-noticia/",
     "source": "Gestión",
@@ -108,17 +152,10 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Alfredo Thorne recomienda a Elmer Cuba por Fenómeno El Niño: \"El MEF debe liderar la respuesta\"",
-    "url": "https://rpp.pe/economia/economia/alfredo-thorne-recomienda-a-elmer-cuba-por-fenomeno-el-nino-el-mef-debe-liderar-la-respuesta-noticia-1702649",
-    "source": "RPP",
-    "published": "2026-08-20T08:58:17-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
-    "url": "https://larepublica.pe/politica/2026/08/17/fujimori-cuestiona-a-elmer-cuba-por-minimizar-lluvias-en-lima-y-este-pide-disculpas-fue-una-expresion-poco-feliz-hnews-1115829",
+    "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
+    "url": "https://larepublica.pe/politica/2026/08/20/fernando-garcia-a-elmer-cuba-nos-quedamos-callados-ante-exoneraciones-tributarias-a-grandes-empresas-hnews-1181660",
     "source": "La República",
-    "published": "2026-08-18T18:08:04+00:00",
+    "published": "2026-08-20T22:53:35+00:00",
     "matched_in": "title"
    },
    {
@@ -131,17 +168,17 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
+    "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
+    "source": "La República",
+    "published": "2026-08-20T21:24:06+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "CNDDHH rechaza intento de Ernesto Álvarez de poner al LUM bajo administración del Ministerio de Justicia",
     "url": "https://larepublica.pe/politica/2026/08/19/cnddhh-rechaza-intento-de-ernesto-alvarez-de-poner-al-lum-bajo-administracion-del-ministerio-de-justicia-hnews-358796",
     "source": "La República",
     "published": "2026-08-20T10:51:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
-    "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
-    "source": "La República",
-    "published": "2026-08-19T17:50:47+00:00",
     "matched_in": "title"
    },
    {
@@ -153,13 +190,6 @@
    }
   ],
   "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "“Tiene los días contados”: Alberto Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
-    "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
-    "source": "RPP",
-    "published": "2026-08-20T11:15:35-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro de Cultura respaldará derogación de ley que creó el Colegio de Artistas: \"Tiene los días contados\"",
     "url": "https://larepublica.pe/politica/2026/08/18/ministro-de-cultura-respaldara-derogacion-de-ley-que-creo-el-colegio-de-artistas-tiene-los-dias-contados-hnews-1187316",
@@ -175,28 +205,21 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro del Interior justifica continuidad de Óscar Arriola en la PNP: \"El año pasado había 500 muertos más\"",
-    "url": "https://larepublica.pe/politica/2026/08/18/ministro-del-interior-justifica-continuidad-de-oscar-arriola-en-la-pnp-el-ano-pasado-habia-500-muertos-mas-hnews-1011204",
-    "source": "La República",
-    "published": "2026-08-19T10:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro del Interior César Astudillo sobre permanencia de altos mandos de la PNP: “Mientras sigamos teniendo resultados, van a continuar”",
-    "url": "https://elcomercio.pe/politica/actualidad/ministro-del-interior-cesar-astudillo-sobre-permanencia-de-altos-mandos-de-la-pnp-mientras-sigamos-teniendo-resultados-van-a-continuar-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T21:11:58+00:00",
-    "matched_in": "title"
-   }
-  ],
   "mauricio-fernando-arnillas-gonzalez": [
    {
     "title": "Ministro de Vivienda se reunió con “Cholo Dolmos”, exrecluso condenado por extorsión",
     "url": "https://larepublica.pe/politica/2026/08/19/ministro-de-vivienda-mauricio-arnillas-gonzalez-se-reunio-con-cholo-dolmos-exrecluso-acusado-por-extorsion-mvcs-hnews-1122159",
     "source": "La República",
     "published": "2026-08-19T18:29:39+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "López Aliaga llama “ministro procorrupción” a Rafael Rey y afirma que pidió al premier no nombrarlo en el MTC",
+    "url": "https://www.infobae.com/peru/2026/08/20/rafael-lopez-aliaga-llama-ministro-procorrupcion-a-rafael-rey-y-afirma-que-pidio-al-premier-luis-galarreta-no-nombrarlo-en-el-mtc/",
+    "source": "Infobae",
+    "published": "2026-08-20T21:02:50+00:00",
     "matched_in": "title"
    }
   ]
