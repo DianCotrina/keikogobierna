@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T05:31:43+00:00",
+ "generated": "2026-08-20T11:26:46+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -71,7 +71,7 @@
     "title": "CNDDHH rechaza intento de Ernesto Álvarez de poner al LUM bajo administración del Ministerio de Justicia",
     "url": "https://larepublica.pe/politica/2026/08/19/cnddhh-rechaza-intento-de-ernesto-alvarez-de-poner-al-lum-bajo-administracion-del-ministerio-de-justicia-hnews-358796",
     "source": "La República",
-    "published": "2026-08-20T02:51:44+00:00",
+    "published": "2026-08-20T10:51:00+00:00",
     "matched_in": "title"
    },
    {
@@ -87,13 +87,6 @@
     "source": "El Comercio",
     "published": "2026-08-18T22:42:44+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "El LUM y la CVR",
-    "url": "https://elcomercio.pe/opinion/columnistas/el-lum-y-la-cvr-por-martin-tanaka-comision-de-la-verdad-y-reconciliacion-lugar-de-la-memoria-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-18T10:30:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -101,7 +94,7 @@
     "title": "Ministro de Cultura respaldará derogación de ley que creó el Colegio de Artistas: \"Tiene los días contados\"",
     "url": "https://larepublica.pe/politica/2026/08/18/ministro-de-cultura-respaldara-derogacion-de-ley-que-creo-el-colegio-de-artistas-tiene-los-dias-contados-hnews-1187316",
     "source": "La República",
-    "published": "2026-08-20T02:54:23+00:00",
+    "published": "2026-08-20T10:00:00+00:00",
     "matched_in": "title"
    },
    {
