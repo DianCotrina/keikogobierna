@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.3](https://github.com/DianCotrina/keikogobierna/compare/v2.12.2...v2.12.3) (2026-08-20)
+
+
+### Bug Fixes
+
+* gate individual licensing, academic mobility and fishing seasons ([da46c84](https://github.com/DianCotrina/keikogobierna/commit/da46c8437320aed4e80f9887be27b25c8dc27b9c))
+
 ## [2.12.2](https://github.com/DianCotrina/keikogobierna/compare/v2.12.1...v2.12.2) (2026-08-19)
 
 
