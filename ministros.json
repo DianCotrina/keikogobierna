@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T11:26:46+00:00",
+ "generated": "2026-08-20T17:29:49+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,35 +11,75 @@
  "ministers": {
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Diputada de Ahora Nación pide a Luis Galarreta y ministros acciones inmediatas ante bloqueos de vías en el sur",
+    "url": "https://elcomercio.pe/politica/congreso/diputada-de-ahora-nacion-pide-a-luis-galarreta-y-ministros-acciones-inmediatas-ante-bloqueos-de-vias-en-el-sur-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T17:17:57+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Galarreta: “Compras a MYPErú proyecta requerimientos cercanos a S/11 millones en el segundo semestre de 2026″",
+    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-compras-a-myperu-proyecta-requerimientos-cercanos-a-s11-millones-en-el-segundo-semestre-de-2026-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T17:06:32+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "EN VIVO: Luis Galarreta y el gabinete de ministros presentan ahora la política general del gobierno en la Cámara de Diputados",
+    "url": "https://www.infobae.com/peru/2026/08/20/congreso-en-vivo-luis-galarreta-y-el-gabinete-de-ministros-presenta-la-politica-general-del-gobierno-en-la-camara-de-diputados/",
+    "source": "Infobae",
+    "published": "2026-08-20T16:55:22+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Galarreta: “Se impulsan intervenciones en aeropuertos de Juliaca, Arequipa y Yurimaguas por más de S/900 millones”",
+    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-aeropuertos-de-juliaca-arequipa-y-yurimaguas-impulsan-intervenciones-que-superan-los-s900-millones-para-rehabilitar-pistas-drenajes-y-ampliar-capacidad-de-atencion-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T16:49:57+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Galarreta ante el Congreso: estas son las principales propuestas del Gobierno",
+    "url": "https://gestion.pe/peru/premier-luis-galarreta-ante-el-congreso-estas-son-las-principales-propuestas-del-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-20T16:37:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Galarreta señala que este año se impulsará la entrada en vigor del TLC con Hong Kong",
+    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-senala-que-este-ano-se-impulsara-la-entrada-en-vigor-del-tlc-con-hong-kong-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T16:21:22+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Galarreta afirma que será prioridad evaluar y acelerar la masificación del uso del gas natural",
+    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-afirma-que-sera-prioridad-evaluar-y-acelerar-la-masificacion-del-uso-del-gas-natural-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T16:12:37+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Luis Galarreta y su Gabinete frente al Congreso: los ejes del discurso y la incógnita sobre las facultades",
     "url": "https://elcomercio.pe/politica/congreso-camara-de-diputados-luis-galarreta-gabinete-ministerial-keiko-fujimori-los-ejes-de-su-discurso-y-la-incognita-sobre-el-pedido-de-facultades-tlcnota-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-20T00:53:51+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno emitirá decreto supremo para transferir S/450 millones en puntos críticos ante El Niño",
-    "url": "https://gestion.pe/peru/politica/gobierno-emitira-decreto-supremo-para-transferir-s450-millones-en-puntos-criticos-ante-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-20T04:19:01+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
-    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-19T19:35:00+00:00",
+    "published": "2026-08-20T14:00:00+00:00",
     "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Ministro Belaúnde sobre interpelación del Congreso: Iré a contestar",
-    "url": "https://gestion.pe/peru/politica/ministro-rafael-belaunde-sobre-interpelacion-del-congreso-si-se-aprueba-en-el-congreso-ire-a-contestar-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-19T22:10:00+00:00",
+    "title": "Pedro Cateriano sobre designación de Rafael Belaunde en el Mindef: “No es un adversario político, pero tenemos una discrepancia”",
+    "url": "https://rpp.pe/videos/ampliacion-de-noticias/pedro-cateriano-sobre-designacion-de-rafael-belaunde-en-el-mindef-no-es-un-adversario-politico-pero-tenemos-una-discrepancia-noticia-1702669",
+    "source": "RPP",
+    "published": "2026-08-20T11:55:41-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "García Belaunde sobre interpelación al ministro de Defensa: “El mensaje es que quieren iniciar una guerra”",
+    "url": "https://elcomercio.pe/politica/congreso/victor-andres-garcia-belaunde-sobre-interpelacion-al-ministro-de-defensa-el-mensaje-es-que-quieren-iniciar-una-guerra-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-20T16:44:11+00:00",
     "matched_in": "title"
    },
    {
@@ -50,7 +90,30 @@
     "matched_in": "title"
    }
   ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Gobierno emitirá decreto supremo para transferir S/450 millones en puntos críticos ante El Niño",
+    "url": "https://gestion.pe/peru/politica/gobierno-emitira-decreto-supremo-para-transferir-s450-millones-en-puntos-criticos-ante-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-20T12:20:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
+    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-19T19:35:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Alfredo Thorne recomienda a Elmer Cuba por Fenómeno El Niño: \"El MEF debe liderar la respuesta\"",
+    "url": "https://rpp.pe/economia/economia/alfredo-thorne-recomienda-a-elmer-cuba-por-fenomeno-el-nino-el-mef-debe-liderar-la-respuesta-noticia-1702649",
+    "source": "RPP",
+    "published": "2026-08-20T08:58:17-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Fujimori cuestiona a Cuba por minimizar lluvias en Lima y este pide disculpas: \"Fue una expresión poco feliz\"",
     "url": "https://larepublica.pe/politica/2026/08/17/fujimori-cuestiona-a-elmer-cuba-por-minimizar-lluvias-en-lima-y-este-pide-disculpas-fue-una-expresion-poco-feliz-hnews-1115829",
@@ -91,6 +154,13 @@
   ],
   "alberto-ismael-beingolea-delgado": [
    {
+    "title": "“Tiene los días contados”: Alberto Beingolea respalda derogatoria de la ley que creó el Colegio de Artistas del Perú",
+    "url": "https://rpp.pe/politica/gobierno/tiene-los-dias-contados-beingolea-respalda-derogatoria-de-la-ley-que-creo-el-colegio-de-artistas-del-peru-noticia-1702212",
+    "source": "RPP",
+    "published": "2026-08-20T11:15:35-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro de Cultura respaldará derogación de ley que creó el Colegio de Artistas: \"Tiene los días contados\"",
     "url": "https://larepublica.pe/politica/2026/08/18/ministro-de-cultura-respaldara-derogacion-de-ley-que-creo-el-colegio-de-artistas-tiene-los-dias-contados-hnews-1187316",
     "source": "La República",
@@ -127,15 +197,6 @@
     "url": "https://larepublica.pe/politica/2026/08/19/ministro-de-vivienda-mauricio-arnillas-gonzalez-se-reunio-con-cholo-dolmos-exrecluso-acusado-por-extorsion-mvcs-hnews-1122159",
     "source": "La República",
     "published": "2026-08-19T18:29:39+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Mincetur: esta será la estrategia para hacerle frente al “nuevo golpe arancelario” de EE.UU.",
-    "url": "https://gestion.pe/economia/nuevo-golpe-arancelario-de-eeuu-esta-sera-la-estrategia-del-gobierno-de-keiko-fujimori-para-hacerle-frente-segun-el-mincetur-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-20T00:00:00+00:00",
     "matched_in": "title"
    }
   ]
