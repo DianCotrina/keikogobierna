@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T23:23:17+00:00",
+ "generated": "2026-08-20T05:31:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,11 +14,18 @@
     "title": "Luis Galarreta y su Gabinete frente al Congreso: los ejes del discurso y la incógnita sobre las facultades",
     "url": "https://elcomercio.pe/politica/congreso-camara-de-diputados-luis-galarreta-gabinete-ministerial-keiko-fujimori-los-ejes-de-su-discurso-y-la-incognita-sobre-el-pedido-de-facultades-tlcnota-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-19T22:18:37+00:00",
+    "published": "2026-08-20T00:53:51+00:00",
     "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Gobierno emitirá decreto supremo para transferir S/450 millones en puntos críticos ante El Niño",
+    "url": "https://gestion.pe/peru/politica/gobierno-emitira-decreto-supremo-para-transferir-s450-millones-en-puntos-criticos-ante-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-20T04:19:01+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
     "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
@@ -33,20 +40,6 @@
     "url": "https://gestion.pe/peru/politica/ministro-rafael-belaunde-sobre-interpelacion-del-congreso-si-se-aprueba-en-el-congreso-ire-a-contestar-noticia/",
     "source": "Gestión",
     "published": "2026-08-19T22:10:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa afirma que inseguridad fue “heredada” y que no se puede solucionar en 18 días",
-    "url": "https://www.infobae.com/peru/2026/08/19/ministro-de-defensa-afirma-que-inseguridad-fue-heredada-y-que-no-se-puede-solucionar-en-18-dias/",
-    "source": "Infobae",
-    "published": "2026-08-19T17:03:59+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa defiende aporte de presidenta de Minera Poderosa: “Tenemos afinidad de ideas”",
-    "url": "https://www.infobae.com/peru/2026/08/19/ministro-de-defensa-defiende-aporte-de-presidenta-de-minera-poderosa-tenemos-afinidad-de-ideas/",
-    "source": "Infobae",
-    "published": "2026-08-19T16:23:37+00:00",
     "matched_in": "title"
    },
    {
@@ -75,17 +68,17 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "CNDDHH rechaza intento de Ernesto Álvarez de poner al LUM bajo administración del Ministerio de Justicia",
+    "url": "https://larepublica.pe/politica/2026/08/19/cnddhh-rechaza-intento-de-ernesto-alvarez-de-poner-al-lum-bajo-administracion-del-ministerio-de-justicia-hnews-358796",
+    "source": "La República",
+    "published": "2026-08-20T02:51:44+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
     "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
     "source": "La República",
     "published": "2026-08-19T17:50:47+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "CNDDHH rechaza intento de Ernesto Álvarez de poner al LUM bajo administración del Ministerio de Justicia",
-    "url": "https://larepublica.pe/politica/2026/08/19/cnddhh-rechaza-intento-de-ernesto-alvarez-de-poner-al-lum-bajo-administracion-del-ministerio-de-justicia-hnews-358796",
-    "source": "La República",
-    "published": "2026-08-19T17:49:00+00:00",
     "matched_in": "title"
    },
    {
@@ -105,17 +98,17 @@
   ],
   "alberto-ismael-beingolea-delgado": [
    {
+    "title": "Ministro de Cultura respaldará derogación de ley que creó el Colegio de Artistas: \"Tiene los días contados\"",
+    "url": "https://larepublica.pe/politica/2026/08/18/ministro-de-cultura-respaldara-derogacion-de-ley-que-creo-el-colegio-de-artistas-tiene-los-dias-contados-hnews-1187316",
+    "source": "La República",
+    "published": "2026-08-20T02:54:23+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Alberto Beingolea discrepa con Ernesto Álvarez sobre el LUM: “Los museos del Perú están dentro del Ministerio de Cultura”",
     "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-discrepa-con-ernesto-alvarez-sobre-el-lum-los-museos-del-peru-estan-dentro-del-ministerio-de-cultura-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-18T22:42:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Cultura respaldará derogación de ley que creó el Colegio de Artistas: \"Tiene los días contados\"",
-    "url": "https://larepublica.pe/politica/2026/08/18/ministro-de-cultura-respaldara-derogacion-de-ley-que-creo-el-colegio-de-artistas-tiene-los-dias-contados-hnews-1187316",
-    "source": "La República",
-    "published": "2026-08-18T20:19:52+00:00",
     "matched_in": "title"
    }
   ],
@@ -135,31 +128,6 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput se reúne con centrales sindicales previo a próxima sesión del Consejo Nacional de Trabajo",
-    "url": "https://elcomercio.pe/economia/peru/ministro-juan-sheput-se-reune-con-centrales-sindicales-previo-a-proxima-sesion-del-consejo-nacional-de-trabajo-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-19T17:39:42+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Ministro Rogers Valencia: “Estamos revisando la meta de turistas para este año; veremos qué efecto tiene la llegada del Papa”",
-    "url": "https://elcomercio.pe/economia/peru/ministro-rogers-valencia-estamos-revisando-la-meta-de-turistas-para-este-ano-veremos-que-efecto-tiene-la-llegada-del-papa-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-19T22:14:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Mincetur: esta será la estrategia para hacerle frente al “nuevo golpe arancelario” de EE.UU.",
-    "url": "https://gestion.pe/economia/nuevo-golpe-arancelario-de-eeuu-esta-sera-la-estrategia-del-gobierno-de-keiko-fujimori-para-hacerle-frente-segun-el-mincetur-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-19T22:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "mauricio-fernando-arnillas-gonzalez": [
    {
     "title": "Ministro de Vivienda se reunió con “Cholo Dolmos”, exrecluso condenado por extorsión",
@@ -169,13 +137,13 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "rogers-martin-valencia-espinoza": [
    {
-    "title": "Gobierno anuncia reforma del canon minero para redirigir los recursos directamente a las comunidades",
-    "url": "https://rpp.pe/economia/economia/mineria-en-peru-gobierno-anuncia-reforma-canon-minero-que-impactara-a-comunidades-de-que-trata-noticia-1702223",
-    "source": "RPP",
-    "published": "2026-08-19T16:15:11-05:00",
-    "matched_in": "summary"
+    "title": "Mincetur: esta será la estrategia para hacerle frente al “nuevo golpe arancelario” de EE.UU.",
+    "url": "https://gestion.pe/economia/nuevo-golpe-arancelario-de-eeuu-esta-sera-la-estrategia-del-gobierno-de-keiko-fujimori-para-hacerle-frente-segun-el-mincetur-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-20T00:00:00+00:00",
+    "matched_in": "title"
    }
   ]
  }
