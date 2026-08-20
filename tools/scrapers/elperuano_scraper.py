@@ -166,7 +166,16 @@ _TASK_BODY_RE = re.compile(
 )
 
 # 2. Travel and academic authorizations: an institutional permission slip.
-_TRAVEL_RE = re.compile(r"\bautorizan\b.{0,40}\bviaje\b|\bestancia academica\b|\bpasantia\b")
+# "movilidad academica" is the same permission slip as an "estancia academica"
+# under a newer name — four UNE ratifications landed in one queue (issues
+# #339-#342), all matching t3-4.P04 on the word "educacion" in the
+# university's own name.
+_TRAVEL_RE = re.compile(
+    r"\bautorizan\b.{0,40}\bviaje\b"
+    r"|\bestancia academica\b"
+    r"|\bmovilidad academica\b"
+    r"|\bpasantia\b"
+)
 
 # 3. Recurring numeric publications. Narrow on purpose — the statistical bodies
 #    stay in scope (see AUTONOMOUS_SECTOR_RE), so only the periodic series
@@ -248,6 +257,24 @@ _ADJUDICATION_RE = re.compile(
 )
 
 
+# 10. Individual licensing. The State granting or amending one named company's
+#     concession — an electricity generation permit, a telecoms concesion unica.
+#     Administrative permission, not policy, and it recurs: ten in five weeks.
+#     "concesion definitiva" and "concesion unica" are the statutory instrument
+#     names (Ley de Concesiones Electricas, Ley de Telecomunicaciones) and appear
+#     in *zero* of the plan's 699 commitments. The plan's own concession language
+#     is different and untouched here — "aeropuertos concesionados" (t2-6.P21),
+#     "concesion supervisada" for the Red Dorsal (t2-6.P27).
+_CONCESSION_RE = re.compile(r"\bconcesion (?:definitiva|unica)\b")
+
+# 11. Fishing season management. PRODUCE opens, closes, suspends and extends the
+#     anchoveta seasons by zone on its own calendar (issue #338, matched a
+#     *turismo* commitment on "zona norte"). No commitment mentions a temporada
+#     de pesca. The plan does care about vedas — t2-5.P19 promises automatic
+#     compensation through PESCA SOLIDARIA — but that is a payment mechanism,
+#     not the season notice, and a test keeps it in the queue.
+_FISHING_SEASON_RE = re.compile(r"\btemporada de pesca\b")
+
 def is_routine_act(record: dict) -> bool:
     """True for a norma whose operative act cannot evidence a commitment —
     personnel churn, a permission slip, a periodic index, a draft still out for
@@ -267,6 +294,8 @@ def is_routine_act(record: dict) -> bool:
         or _ACADEMIC_PAPERWORK_RE.search(sumilla)
         or _EXTRADITION_RE.search(sumilla)
         or _ADJUDICATION_RE.search(sumilla)
+        or _CONCESSION_RE.search(sumilla)
+        or _FISHING_SEASON_RE.search(sumilla)
     )
 
 
