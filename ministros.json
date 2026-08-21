@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T05:33:22+00:00",
+ "generated": "2026-08-21T11:26:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Gobierno de Fujimori apunta a ajustes en impuestos, minería y energía: ¿qué puntos priorizar?",
+    "url": "https://gestion.pe/economia/impuestos-mineria-y-energia-gobierno-de-keiko-fujimori-apunta-a-ajustes-en-estos-temas-que-aspectos-priorizar-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T10:02:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-anuncios-nuevos-y-repetidos-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T10:00:00+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Premier Galarreta ante el Congreso: estas son las principales propuestas del Gobierno",
     "url": "https://gestion.pe/peru/premier-luis-galarreta-ante-el-congreso-estas-son-las-principales-propuestas-del-gobierno-de-keiko-fujimori-noticia/",
@@ -32,34 +46,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Premier Galarreta: “Compras a MYPErú proyecta requerimientos cercanos a S/11 millones en el segundo semestre de 2026″",
-    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-compras-a-myperu-proyecta-requerimientos-cercanos-a-s11-millones-en-el-segundo-semestre-de-2026-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-20T17:06:32+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Galarreta: “Se impulsan intervenciones en aeropuertos de Juliaca, Arequipa y Yurimaguas por más de S/900 millones”",
-    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-aeropuertos-de-juliaca-arequipa-y-yurimaguas-impulsan-intervenciones-que-superan-los-s900-millones-para-rehabilitar-pistas-drenajes-y-ampliar-capacidad-de-atencion-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-20T16:49:57+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Galarreta señala que este año se impulsará la entrada en vigor del TLC con Hong Kong",
-    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-senala-que-este-ano-se-impulsara-la-entrada-en-vigor-del-tlc-con-hong-kong-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-20T16:21:22+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Galarreta afirma que será prioridad evaluar y acelerar la masificación del uso del gas natural",
-    "url": "https://elcomercio.pe/economia/peru/premier-galarreta-afirma-que-sera-prioridad-evaluar-y-acelerar-la-masificacion-del-uso-del-gas-natural-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-20T16:12:37+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Luis Galarreta y su Gabinete frente al Congreso: los ejes del discurso y la incógnita sobre las facultades",
     "url": "https://elcomercio.pe/politica/congreso-camara-de-diputados-luis-galarreta-gabinete-ministerial-keiko-fujimori-los-ejes-de-su-discurso-y-la-incognita-sobre-el-pedido-de-facultades-tlcnota-noticia/",
     "source": "El Comercio",
@@ -68,6 +54,13 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "César Astudillo, ministro del Interior: \"No vengo a prometerles que el crimen desaparecerá la próxima semana\"",
+    "url": "https://larepublica.pe/politica/2026/08/20/cesar-astudillo-ministro-del-interior-no-vengo-a-prometerles-que-el-crimen-desaparecera-la-proxima-semana-hnews-212880",
+    "source": "La República",
+    "published": "2026-08-21T10:00:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Astudillo dice que esta impedido de cambiar al jefe de la PNP por ley del Congreso anterior: \"Aquí no ha habido ratificaciones\"",
     "url": "https://rpp.pe/politica/gobierno/astudillo-ley-impide-remocion-comandante-general-pnp-oscar-arriola-noticia-1702803",
@@ -97,13 +90,6 @@
     "matched_in": "title"
    },
    {
-    "title": "César Astudillo, ministro del Interior: \"No vengo a prometerles que el crimen desaparecerá la próxima semana\"",
-    "url": "https://larepublica.pe/politica/2026/08/20/cesar-astudillo-ministro-del-interior-no-vengo-a-prometerles-que-el-crimen-desaparecera-la-proxima-semana-hnews-212880",
-    "source": "La República",
-    "published": "2026-08-21T00:00:29+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Estas son las nuevas medidas para combatir la extorsión, según el Mininter",
     "url": "https://larepublica.pe/politica/2026/08/20/estas-son-las-nuevas-medidas-para-combatir-la-extorsion-segun-el-mininter-criminalidad-hnews-367020",
     "source": "La República",
@@ -115,13 +101,6 @@
     "url": "https://elcomercio.pe/politica/congreso/obras-cuestiona-a-ministro-del-interior-cesar-astudillo-tras-su-exposicion-en-el-congreso-se-debe-dejar-las-recetas-que-no-han-funcionado-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-20T17:24:58+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro del Interior justifica continuidad de Óscar Arriola en la PNP: \"El año pasado había 500 muertos más\"",
-    "url": "https://larepublica.pe/politica/2026/08/18/ministro-del-interior-justifica-continuidad-de-oscar-arriola-en-la-pnp-el-ano-pasado-habia-500-muertos-mas-hnews-1011204",
-    "source": "La República",
-    "published": "2026-08-19T10:00:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -151,6 +130,13 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Perú pone lupa sobre sus exoneraciones tributarias: ¿a cuáles les podría decir “adiós”?",
+    "url": "https://gestion.pe/economia/peru-pone-lupa-sobre-sus-exoneraciones-tributarias-a-cuales-les-podria-decir-adios-el-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T10:09:00+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
     "url": "https://larepublica.pe/politica/2026/08/20/fernando-garcia-a-elmer-cuba-nos-quedamos-callados-ante-exoneraciones-tributarias-a-grandes-empresas-hnews-1181660",
@@ -213,13 +199,6 @@
     "url": "https://gestion.pe/peru/politica/tren-lima-chosica-ministro-rafael-rey-afirma-que-proinversion-vera-su-viabilidad-noticia/",
     "source": "Gestión",
     "published": "2026-08-21T01:04:53+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "López Aliaga llama “ministro procorrupción” a Rafael Rey y afirma que pidió al premier no nombrarlo en el MTC",
-    "url": "https://www.infobae.com/peru/2026/08/20/rafael-lopez-aliaga-llama-ministro-procorrupcion-a-rafael-rey-y-afirma-que-pidio-al-premier-luis-galarreta-no-nombrarlo-en-el-mtc/",
-    "source": "Infobae",
-    "published": "2026-08-20T21:02:50+00:00",
     "matched_in": "title"
    }
   ]
