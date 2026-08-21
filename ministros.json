@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T17:29:33+00:00",
+ "generated": "2026-08-21T23:24:54+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -16,36 +16,29 @@
     "source": "El Comercio",
     "published": "2026-08-21T14:58:10+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Vivienda se reunió con “Cholo Dolmos”, exrecluso condenado por extorsión",
-    "url": "https://larepublica.pe/politica/2026/08/19/ministro-de-vivienda-mauricio-arnillas-gonzalez-se-reunio-con-cholo-dolmos-exrecluso-acusado-por-extorsion-mvcs-hnews-1122159",
-    "source": "La República",
-    "published": "2026-08-19T18:29:39+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
    {
-    "title": "Gobierno de Fujimori apunta a ajustes en impuestos, minería y energía: ¿qué puntos priorizar?",
-    "url": "https://gestion.pe/economia/impuestos-mineria-y-energia-gobierno-de-keiko-fujimori-apunta-a-ajustes-en-estos-temas-que-aspectos-priorizar-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T16:47:23+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Luis Galarreta dice que “se puede haber cometido un error” al haber respaldado ley que impide remover al comandante de la PNP",
     "url": "https://rpp.pe/politica/gobierno/luis-galarreta-dice-que-se-puede-haber-cometido-un-error-al-haber-respaldado-ley-que-impide-remover-al-comandante-de-la-pnp-noticia-1702888",
     "source": "RPP",
-    "published": "2026-08-21T10:50:49-05:00",
+    "published": "2026-08-21T18:00:49-05:00",
     "matched_in": "title"
    },
    {
     "title": "Julio Velarde es ratificado por el gobierno como presidente del BCRP",
     "url": "https://gestion.pe/economia/gobierno-de-keiko-fujimori-ratifica-a-julio-velarde-como-presidente-del-bcrp-noticia/",
     "source": "Gestión",
-    "published": "2026-08-21T15:26:57+00:00",
+    "published": "2026-08-21T20:28:00+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Fujimori apunta a ajustes en impuestos, minería y energía: ¿qué puntos priorizar?",
+    "url": "https://gestion.pe/economia/impuestos-mineria-y-energia-gobierno-de-keiko-fujimori-apunta-a-ajustes-en-estos-temas-que-aspectos-priorizar-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T20:09:26+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
@@ -53,13 +46,6 @@
     "source": "Gestión",
     "published": "2026-08-21T10:00:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Premier Galarreta ante el Congreso: estas son las principales propuestas del Gobierno",
-    "url": "https://gestion.pe/peru/premier-luis-galarreta-ante-el-congreso-estas-son-las-principales-propuestas-del-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T03:17:25+00:00",
-    "matched_in": "title"
    },
    {
     "title": "Ahora Nación pide a Luis Galarreta atención al Gasoducto Sur Peruano y respeto por el Cusco",
@@ -92,13 +78,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Astudillo anuncia propuesta para modificar ley que limita remoción del comandante general de la PNP",
-    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-plantea-nueva-estrategia-contra-el-crimen-del-gobierno-de-keiko-fujimori-y-pide-al-congreso-leyes-y-presupuesto-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T03:36:18+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Estas son las nuevas medidas para combatir la extorsión, según el Mininter",
     "url": "https://larepublica.pe/politica/2026/08/20/estas-son-las-nuevas-medidas-para-combatir-la-extorsion-segun-el-mininter-criminalidad-hnews-367020",
     "source": "La República",
@@ -115,26 +94,10 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Mindef habilitó puente aéreo para trasladar a más de 300 varados entre Atico y Ocoña: habrá 3 helicópteros operando",
-    "url": "https://rpp.pe/politica/gobierno/mindef-habilito-puente-aereo-para-trasladar-a-mas-de-300-varados-entre-atico-y-ocona-habra-3-helicopteros-operando-noticia-1702895",
-    "source": "RPP",
-    "published": "2026-08-21T11:30:56-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "García Belaunde sobre interpelación al ministro de Defensa: “El mensaje es que quieren iniciar una guerra”",
     "url": "https://elcomercio.pe/politica/congreso/victor-andres-garcia-belaunde-sobre-interpelacion-al-ministro-de-defensa-el-mensaje-es-que-quieren-iniciar-una-guerra-noticia/",
     "source": "El Comercio",
     "published": "2026-08-20T16:44:11+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Marco Vinelli, ministro de Desarrollo Agrario y Riego: “Hemos encontrado un Estado lento, no había ni siquiera un plan para atender El Niño”",
-    "url": "https://elcomercio.pe/politica/marco-vinelli-ministro-de-desarrollo-agrario-y-riego-hemos-encontrado-un-estado-lento-no-habia-ni-siquiera-un-plan-para-atender-el-nino-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-19T19:35:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -143,7 +106,7 @@
     "title": "Guillermo Shinno, ministro de Energía y Minas: “Chevron solo se ha retirado de un lote, no se ha ido del Perú”",
     "url": "https://elcomercio.pe/economia/peru/petroleo-guillermo-shinno-chevron-solo-se-ha-retirado-de-un-lote-no-se-ha-ido-del-peru-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-21T17:08:56+00:00",
+    "published": "2026-08-21T22:30:01+00:00",
     "matched_in": "title"
    }
   ],
@@ -152,15 +115,8 @@
     "title": "Perú pone lupa sobre sus exoneraciones tributarias: ¿a cuáles les podría decir “adiós”?",
     "url": "https://gestion.pe/economia/peru-pone-lupa-sobre-sus-exoneraciones-tributarias-a-cuales-les-podria-decir-adios-el-gobierno-de-keiko-fujimori-noticia/",
     "source": "Gestión",
-    "published": "2026-08-21T15:58:00+00:00",
+    "published": "2026-08-21T21:17:24+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Beneficios tributarios a la agroexportación serán revisados por el Gobierno de Keiko Fujimori: el MEF decidirá si se eliminan",
-    "url": "https://rpp.pe/economia/economia/beneficios-tributarios-a-la-agroexportacion-seran-revisados-por-el-gobierno-de-keiko-fujimori-el-mef-decidira-si-se-eliminan-noticia-1702884",
-    "source": "RPP",
-    "published": "2026-08-21T09:43:24-05:00",
-    "matched_in": "title"
    },
    {
     "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
@@ -200,23 +156,16 @@
     "title": "Mincetur: esta será la estrategia para hacerle frente al “nuevo golpe arancelario” de EE.UU.",
     "url": "https://gestion.pe/economia/nuevo-golpe-arancelario-de-eeuu-esta-sera-la-estrategia-del-gobierno-de-keiko-fujimori-para-hacerle-frente-segun-el-mincetur-noticia/",
     "source": "Gestión",
-    "published": "2026-08-21T14:58:51+00:00",
+    "published": "2026-08-21T20:00:00+00:00",
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Multas de tránsito bajarían significativamente: MTC alista nuevo régimen excepcional de pago",
-    "url": "https://www.infobae.com/peru/2026/08/21/multas-de-transito-bajarian-significativamente-mtc-alista-nuevo-regimen-excepcional-de-pago/",
-    "source": "Infobae",
-    "published": "2026-08-21T03:01:15+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Tren Lima - Chosica: Ministro Rafael Rey afirma que Proinversión verá su viabilidad",
-    "url": "https://gestion.pe/peru/politica/tren-lima-chosica-ministro-rafael-rey-afirma-que-proinversion-vera-su-viabilidad-noticia/",
+    "title": "Cancillería: ya se iniciaron conversaciones con México para exoneración de visa para peruanos",
+    "url": "https://gestion.pe/peru/ministro-carlos-espa-cancilleria-avanza-en-restablecer-exoneracion-de-visa-para-peruanos-que-visitan-mexico-noticia/",
     "source": "Gestión",
-    "published": "2026-08-21T01:04:53+00:00",
+    "published": "2026-08-21T18:33:40+00:00",
     "matched_in": "title"
    }
   ]

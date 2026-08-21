@@ -1,10 +1,28 @@
 {
- "generated": "2026-08-21T17:29:33+00:00",
+ "generated": "2026-08-21T23:24:54+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
  "articles": [
+  {
+   "title": "Keiko Fujimori anuncia declaratoria de emergencia en Arequipa tras seis días de crisis por desabastecimiento de GLP",
+   "url": "https://larepublica.pe/politica/2026/08/21/keiko-fujimori-anuncia-declaratoria-de-emergencia-en-arequipa-tras-seis-dias-de-crisis-por-desabastecimiento-de-glp-hnews-1104999",
+   "summary": "La medida ya fue publicada en una edición extraordinaria de El Peruano, la decisión responde al bloqueo de la Panamericana Sur provocado por los huaicos. Asimismo, se ha implementado un puente aéreo para evacuar a ciudadanos varados.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-08-21T23:20:37+00:00",
+   "source": "La República",
+   "captured": "2026-08-21T23:24:54+00:00"
+  },
+  {
+   "title": "César Astudillo reconoce que no pueden remover a Óscar Arrriola como jefe de la PNP por ley del Congreso pasado",
+   "url": "https://larepublica.pe/politica/2026/08/21/cesar-astudillo-reconoce-que-no-pueden-remover-a-oscar-arrriola-como-jefe-de-la-pnp-por-ley-del-congreso-pasado-hnews-1138326",
+   "summary": "La norma que blinda a Arriola fue aprobada durante el gobierno de Pedro Castillo con el respaldo de congresistas fujimoristas que hoy integran el Legislativo bajo el gobierno de Keiko Fujimori.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-08-21T22:52:32+00:00",
+   "source": "La República",
+   "captured": "2026-08-21T23:24:54+00:00"
+  },
   {
    "title": "Keiko Fujimori visita zonas de Atico y Ocoña para evaluar emergencia tras deslizamientos en carretera",
    "url": "https://elcomercio.pe/peru/arequipa/keiko-fujimori-visita-zonas-de-atico-y-ocona-para-evaluar-emergencia-por-deslizamientos-noticia/",
