@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T11:26:43+00:00",
+ "generated": "2026-08-21T17:29:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,13 +9,43 @@
   "Infobae"
  ],
  "ministers": {
+  "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "El ministro de Vivienda Mauricio Arnillas dijo que hay 8 millones de personas sin acceso a agua potable, pero es falso",
+    "url": "https://elcomercio.pe/politica/el-ministro-de-vivienda-mauricio-arnillas-dijo-que-hay-8-millones-de-personas-sin-acceso-a-agua-potable-pero-es-falso-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-21T14:58:10+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Vivienda se reunió con “Cholo Dolmos”, exrecluso condenado por extorsión",
+    "url": "https://larepublica.pe/politica/2026/08/19/ministro-de-vivienda-mauricio-arnillas-gonzalez-se-reunio-con-cholo-dolmos-exrecluso-acusado-por-extorsion-mvcs-hnews-1122159",
+    "source": "La República",
+    "published": "2026-08-19T18:29:39+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Gobierno de Fujimori apunta a ajustes en impuestos, minería y energía: ¿qué puntos priorizar?",
     "url": "https://gestion.pe/economia/impuestos-mineria-y-energia-gobierno-de-keiko-fujimori-apunta-a-ajustes-en-estos-temas-que-aspectos-priorizar-noticia/",
     "source": "Gestión",
-    "published": "2026-08-21T10:02:00+00:00",
+    "published": "2026-08-21T16:47:23+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Luis Galarreta dice que “se puede haber cometido un error” al haber respaldado ley que impide remover al comandante de la PNP",
+    "url": "https://rpp.pe/politica/gobierno/luis-galarreta-dice-que-se-puede-haber-cometido-un-error-al-haber-respaldado-ley-que-impide-remover-al-comandante-de-la-pnp-noticia-1702888",
+    "source": "RPP",
+    "published": "2026-08-21T10:50:49-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Julio Velarde es ratificado por el gobierno como presidente del BCRP",
+    "url": "https://gestion.pe/economia/gobierno-de-keiko-fujimori-ratifica-a-julio-velarde-como-presidente-del-bcrp-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T15:26:57+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
@@ -30,13 +60,6 @@
     "source": "Gestión",
     "published": "2026-08-21T03:17:25+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "A volar: Gobierno destinará S/900 millones para mejorar aeropuertos de Juliaca, Arequipa y Yurimaguas",
-    "url": "https://www.infobae.com/peru/2026/08/20/a-volar-gobierno-destinara-s900-millones-para-mejorar-aeropuertos-de-juliaca-arequipa-y-yurimaguas/",
-    "source": "Infobae",
-    "published": "2026-08-20T22:42:56+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Ahora Nación pide a Luis Galarreta atención al Gasoducto Sur Peruano y respeto por el Cusco",
@@ -55,6 +78,13 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "¿Óscar Arriola con los días contados? Ministro del Interior anuncia proyecto para destituir al jefe de la PNP",
+    "url": "https://www.infobae.com/peru/2026/08/21/oscar-arriola-con-los-dias-contados-ministro-del-interior-anuncia-proyecto-para-destituir-al-jefe-de-la-pnp/",
+    "source": "Infobae",
+    "published": "2026-08-21T13:24:38+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "César Astudillo, ministro del Interior: \"No vengo a prometerles que el crimen desaparecerá la próxima semana\"",
     "url": "https://larepublica.pe/politica/2026/08/20/cesar-astudillo-ministro-del-interior-no-vengo-a-prometerles-que-el-crimen-desaparecera-la-proxima-semana-hnews-212880",
     "source": "La República",
@@ -62,31 +92,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Astudillo dice que esta impedido de cambiar al jefe de la PNP por ley del Congreso anterior: \"Aquí no ha habido ratificaciones\"",
-    "url": "https://rpp.pe/politica/gobierno/astudillo-ley-impide-remocion-comandante-general-pnp-oscar-arriola-noticia-1702803",
-    "source": "RPP",
-    "published": "2026-08-20T22:44:02-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Astudillo anuncia propuesta para modificar ley que limita remoción del comandante general de la PNP",
     "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-plantea-nueva-estrategia-contra-el-crimen-del-gobierno-de-keiko-fujimori-y-pide-al-congreso-leyes-y-presupuesto-noticia/",
     "source": "Gestión",
     "published": "2026-08-21T03:36:18+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "¿Ministro del Interior ‘se rinde’ ante criminalidad?: “Tienen mejor tecnología que nosotros”, aseguró ante Congreso",
-    "url": "https://www.infobae.com/peru/2026/08/21/ministro-del-interior-se-rinde-ante-criminalidad-tienen-mejor-tecnologia-que-nosotros-aseguro-ante-congreso/",
-    "source": "Infobae",
-    "published": "2026-08-21T02:14:54+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro del Interior defiende a Óscar Arriola y afirma que para cesarlo “tiene que morirse”, delinquir o renunciar",
-    "url": "https://www.infobae.com/peru/2026/08/21/ministro-del-interior-defiende-a-oscar-arriola-y-afirma-que-para-cesarlo-tiene-que-morirse-delinquir-o-renunciar/",
-    "source": "Infobae",
-    "published": "2026-08-21T01:17:03+00:00",
     "matched_in": "title"
    },
    {
@@ -106,17 +115,17 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Mindef habilitó puente aéreo para trasladar a más de 300 varados entre Atico y Ocoña: habrá 3 helicópteros operando",
+    "url": "https://rpp.pe/politica/gobierno/mindef-habilito-puente-aereo-para-trasladar-a-mas-de-300-varados-entre-atico-y-ocona-habra-3-helicopteros-operando-noticia-1702895",
+    "source": "RPP",
+    "published": "2026-08-21T11:30:56-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "García Belaunde sobre interpelación al ministro de Defensa: “El mensaje es que quieren iniciar una guerra”",
     "url": "https://elcomercio.pe/politica/congreso/victor-andres-garcia-belaunde-sobre-interpelacion-al-ministro-de-defensa-el-mensaje-es-que-quieren-iniciar-una-guerra-noticia/",
     "source": "El Comercio",
     "published": "2026-08-20T16:44:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaunde sobre interpelación: “Es parte del sistema de control político, una prerrogativa de la Cámara de Diputados”",
-    "url": "https://elcomercio.pe/politica/congreso/rafael-belaunde-sobre-interpelacion-es-parte-del-sistema-de-control-politico-una-prerrogativa-de-la-camara-de-diputados-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-19T15:59:31+00:00",
     "matched_in": "title"
    }
   ],
@@ -129,19 +138,35 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Guillermo Shinno, ministro de Energía y Minas: “Chevron solo se ha retirado de un lote, no se ha ido del Perú”",
+    "url": "https://elcomercio.pe/economia/peru/petroleo-guillermo-shinno-chevron-solo-se-ha-retirado-de-un-lote-no-se-ha-ido-del-peru-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-21T17:08:56+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "Perú pone lupa sobre sus exoneraciones tributarias: ¿a cuáles les podría decir “adiós”?",
     "url": "https://gestion.pe/economia/peru-pone-lupa-sobre-sus-exoneraciones-tributarias-a-cuales-les-podria-decir-adios-el-gobierno-de-keiko-fujimori-noticia/",
     "source": "Gestión",
-    "published": "2026-08-21T10:09:00+00:00",
+    "published": "2026-08-21T15:58:00+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Beneficios tributarios a la agroexportación serán revisados por el Gobierno de Keiko Fujimori: el MEF decidirá si se eliminan",
+    "url": "https://rpp.pe/economia/economia/beneficios-tributarios-a-la-agroexportacion-seran-revisados-por-el-gobierno-de-keiko-fujimori-el-mef-decidira-si-se-eliminan-noticia-1702884",
+    "source": "RPP",
+    "published": "2026-08-21T09:43:24-05:00",
+    "matched_in": "title"
    },
    {
     "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
     "url": "https://larepublica.pe/politica/2026/08/20/fernando-garcia-a-elmer-cuba-nos-quedamos-callados-ante-exoneraciones-tributarias-a-grandes-empresas-hnews-1181660",
     "source": "La República",
-    "published": "2026-08-21T03:19:32+00:00",
+    "published": "2026-08-21T13:34:36+00:00",
     "matched_in": "title"
    }
   ],
@@ -170,12 +195,12 @@
     "matched_in": "title"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
+  "rogers-martin-valencia-espinoza": [
    {
-    "title": "Ministro de Vivienda se reunió con “Cholo Dolmos”, exrecluso condenado por extorsión",
-    "url": "https://larepublica.pe/politica/2026/08/19/ministro-de-vivienda-mauricio-arnillas-gonzalez-se-reunio-con-cholo-dolmos-exrecluso-acusado-por-extorsion-mvcs-hnews-1122159",
-    "source": "La República",
-    "published": "2026-08-19T18:29:39+00:00",
+    "title": "Mincetur: esta será la estrategia para hacerle frente al “nuevo golpe arancelario” de EE.UU.",
+    "url": "https://gestion.pe/economia/nuevo-golpe-arancelario-de-eeuu-esta-sera-la-estrategia-del-gobierno-de-keiko-fujimori-para-hacerle-frente-segun-el-mincetur-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T14:58:51+00:00",
     "matched_in": "title"
    }
   ],
@@ -185,13 +210,6 @@
     "url": "https://www.infobae.com/peru/2026/08/21/multas-de-transito-bajarian-significativamente-mtc-alista-nuevo-regimen-excepcional-de-pago/",
     "source": "Infobae",
     "published": "2026-08-21T03:01:15+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“No soy miserable”: MTC responde a López Aliaga y encarga a ProInversión la viabilidad del tren Lima-Chosica",
-    "url": "https://www.infobae.com/peru/2026/08/21/no-soy-miserable-mtc-responde-a-rafael-lopez-aliaga-y-encarga-a-proinversion-la-viabilidad-del-tren-lima-chosica/",
-    "source": "Infobae",
-    "published": "2026-08-21T01:32:01+00:00",
     "matched_in": "title"
    },
    {
