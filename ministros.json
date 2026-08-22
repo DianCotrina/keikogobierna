@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T17:21:13+00:00",
+ "generated": "2026-08-22T23:21:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,35 +18,12 @@
     "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-anuncios-nuevos-y-repetidos-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T23:47:59+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Julio Velarde es ratificado por el gobierno como presidente del BCRP",
-    "url": "https://gestion.pe/economia/gobierno-de-keiko-fujimori-ratifica-a-julio-velarde-como-presidente-del-bcrp-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T20:28:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ahora Nación pide a Luis Galarreta atención al Gasoducto Sur Peruano y respeto por el Cusco",
-    "url": "https://elcomercio.pe/politica/congreso/ahora-nacion-pide-a-luis-galarreta-atencion-al-gasoducto-sur-peruano-y-respeto-por-el-cusco-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-20T17:17:57+00:00",
-    "matched_in": "title"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
     "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
     "source": "La República",
-    "published": "2026-08-22T15:54:43+00:00",
+    "published": "2026-08-22T22:08:39+00:00",
     "matched_in": "title"
    },
    {
@@ -62,20 +39,6 @@
     "source": "La República",
     "published": "2026-08-21T10:00:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Estas son las nuevas medidas para combatir la extorsión, según el Mininter",
-    "url": "https://larepublica.pe/politica/2026/08/20/estas-son-las-nuevas-medidas-para-combatir-la-extorsion-segun-el-mininter-criminalidad-hnews-367020",
-    "source": "La República",
-    "published": "2026-08-20T20:13:50+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Obras cuestiona a ministro del Interior, César Astudillo tras su exposición en el Congreso: “Se debe dejar las recetas que no han funcionado”",
-    "url": "https://elcomercio.pe/politica/congreso/obras-cuestiona-a-ministro-del-interior-cesar-astudillo-tras-su-exposicion-en-el-congreso-se-debe-dejar-las-recetas-que-no-han-funcionado-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-20T17:24:58+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -89,26 +52,10 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Perú pone lupa sobre sus exoneraciones tributarias: ¿a cuáles les podría decir “adiós”?",
-    "url": "https://gestion.pe/economia/peru-pone-lupa-sobre-sus-exoneraciones-tributarias-a-cuales-les-podria-decir-adios-el-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T21:17:24+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
     "url": "https://larepublica.pe/politica/2026/08/20/fernando-garcia-a-elmer-cuba-nos-quedamos-callados-ante-exoneraciones-tributarias-a-grandes-empresas-hnews-1181660",
     "source": "La República",
     "published": "2026-08-21T13:34:36+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Alberto Beingolea rechaza propuesta del Minjus para trasladar el LUM: “Los museos del Perú están dentro de Cultura”",
-    "url": "https://larepublica.pe/politica/2026/08/18/alberto-beingolea-rechaza-propuesta-del-minjus-para-trasladar-el-lum-los-museos-del-peru-estan-dentro-de-cultura-hnews-437796",
-    "source": "La República",
-    "published": "2026-08-20T21:24:06+00:00",
     "matched_in": "title"
    }
   ],
@@ -119,6 +66,24 @@
     "source": "Gestión",
     "published": "2026-08-22T07:16:00+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-anuncios-nuevos-y-repetidos-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T23:47:59+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Aumento de sueldo mínimo: ¿Cuándo iniciarían las discusiones en el Consejo Nacional de Trabajo?",
+    "url": "https://www.infobae.com/peru/2026/08/22/aumento-de-sueldo-minimo-cuando-iniciarian-las-discusiones-en-el-consejo-nacional-de-trabajo/",
+    "source": "Infobae",
+    "published": "2026-08-22T18:10:14+00:00",
+    "matched_in": "summary"
    }
   ]
  }
