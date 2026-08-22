@@ -1,82 +1,19 @@
 {
- "generated": "2026-08-22T05:28:07+00:00",
+ "generated": "2026-08-22T11:21:00+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-08-21",
+ "date": "2026-08-22",
  "articles": [
   {
-   "title": "Raúl Tola: “Con los antecedentes del fujimorismo, hay temores muy fundados sobre lo que pueda pasar en nuestro país”",
-   "url": "https://larepublica.pe/politica/2026/08/21/raul-tola-con-los-antecedentes-del-fujimorismo-hay-temores-muy-fundados-sobre-lo-que-pueda-pasar-en-nuestro-pais-hnews-1721433",
-   "summary": "La última novela de Raúl Tola, El peso del aire, va sobre el periodismo peruano durante el primer gobierno de Fujimori. Esta es una novela que Tola ha escrito en siete años y su publicación coincide con Keiko Fujimori como presidenta. Sobre esta publicación, La República conversó con Raúl Tola.",
-   "author": "Gabriel Ruiz Ortega",
-   "published": "2026-08-22T04:33:39+00:00",
-   "source": "La República",
-   "captured": "2026-08-22T05:28:07+00:00"
-  },
-  {
-   "title": "Keiko Fujimori anuncia declaratoria de emergencia en Arequipa tras seis días de crisis por desabastecimiento de GLP",
-   "url": "https://larepublica.pe/politica/2026/08/21/keiko-fujimori-anuncia-declaratoria-de-emergencia-en-arequipa-tras-seis-dias-de-crisis-por-desabastecimiento-de-glp-hnews-1104999",
-   "summary": "La medida ya fue publicada en una edición extraordinaria de El Peruano, la decisión responde al bloqueo de la Panamericana Sur provocado por los huaicos. Asimismo, se ha implementado un puente aéreo para evacuar a ciudadanos varados.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-08-21T23:20:37+00:00",
-   "source": "La República",
-   "captured": "2026-08-21T23:24:54+00:00"
-  },
-  {
-   "title": "César Astudillo reconoce que no pueden remover a Óscar Arrriola como jefe de la PNP por ley del Congreso pasado",
-   "url": "https://larepublica.pe/politica/2026/08/21/cesar-astudillo-reconoce-que-no-pueden-remover-a-oscar-arrriola-como-jefe-de-la-pnp-por-ley-del-congreso-pasado-hnews-1138326",
-   "summary": "La norma que blinda a Arriola fue aprobada durante el gobierno de Pedro Castillo con el respaldo de congresistas fujimoristas que hoy integran el Legislativo bajo el gobierno de Keiko Fujimori.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-08-21T22:52:32+00:00",
-   "source": "La República",
-   "captured": "2026-08-21T23:24:54+00:00"
-  },
-  {
-   "title": "Keiko Fujimori visita zonas de Atico y Ocoña para evaluar emergencia tras deslizamientos en carretera",
-   "url": "https://elcomercio.pe/peru/arequipa/keiko-fujimori-visita-zonas-de-atico-y-ocona-para-evaluar-emergencia-por-deslizamientos-noticia/",
-   "summary": "Keiki Fujimori llegó a la región de Arequipa para luego trasladarse a las zonas de Atico y Ocoña, donde supervisa las medidas contra los deslizamientos ocurridos en la Panamericana Sur que dejaron más de 300 vehículos paralizados y varias personas, entre hombres, mujeres y niños, varados.",
-   "author": "Redacción EC",
-   "published": "2026-08-21T17:26:30+00:00",
+   "title": "Fuerza Popular: ¿Por qué el Poder Judicial excluyó al partido político del proceso vinculado a Joaquín Ramírez?",
+   "url": "https://elcomercio.pe/politica/fuerza-popular-por-que-el-poder-judicial-excluyo-al-partido-politico-del-proceso-vinculado-a-joaquin-ramirez-noticia/",
+   "summary": "",
+   "author": "Karem Barboza Quiroz",
+   "published": "2026-08-22T11:00:01+00:00",
    "source": "El Comercio",
-   "captured": "2026-08-21T17:29:33+00:00"
-  },
-  {
-   "title": "El gobierno de Keiko Fujimori ratifica a Julio Velarde como presidente del Banco Central de Reserva",
-   "url": "https://elcomercio.pe/economia/peru/el-gobierno-de-keiko-fujimori-ratifica-a-julio-velarde-como-presidente-del-banco-central-de-reserva-l-ultimas-noticia/",
-   "summary": "El Gobierno de Keiko Fujimori ratificó como presidente del Banco Central de Reserva (BCR) a Julio Velarde, por el período de cinco años.",
-   "author": "Redacción EC",
-   "published": "2026-08-21T14:49:24+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-21T17:29:33+00:00"
-  },
-  {
-   "title": "Gobierno de Keiko Fujimori oficializa ratificación de Julio Velarde como presidente del Banco Central de Reserva del Perú",
-   "url": "https://larepublica.pe/politica/2026/08/21/gobierno-de-keiko-fujimori-oficializa-ratificacion-de-julio-velarde-como-presidente-del-banco-central-de-reserva-del-peru-hnews-448497",
-   "summary": "Tras ganar la segunda vuelta presidencial, Fujimori visitó a Velarde en las instalaciones del BCRP para solicitarle que continuara en el cargo, un pedido que fue aceptado.",
-   "author": "Narda Saavedra",
-   "published": "2026-08-21T13:24:09+00:00",
-   "source": "La República",
-   "captured": "2026-08-21T17:29:33+00:00"
-  },
-  {
-   "title": "Gabinete de Luis Galarreta ante el Congreso: ¿Cuáles serán las primeras acciones y los lineamientos de la política general del gobierno de Keiko Fujimori?",
-   "url": "https://elcomercio.pe/politica/gabinete-de-luis-galarreta-ante-el-congreso-cuales-seran-las-primeras-acciones-y-los-lineamientos-de-la-politica-general-del-gobierno-de-keiko-fujimori-noticia/",
-   "summary": "El primer ministro Luis Galarreta expuso la política general del Gobierno durante 59 minutos, acompañado por su equipo de ministros. Durante su presentación, anunció las principales medidas que adoptará la gestión de Keiko Fujimori y adelantó que, en seis meses, el Gobierno rendirá cuentas sobre sus avances.",
-   "author": "Erik Rivera",
-   "published": "2026-08-21T11:45:43+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-21T17:29:33+00:00"
-  },
-  {
-   "title": "Del diagnóstico a la acción",
-   "url": "https://elcomercio.pe/opinion/editorial/luis-galarreta-del-diagnostico-a-la-accion-noticia/",
-   "summary": "La presentación de la política general del gobierno, a cargo del presidente del Consejo de Ministros, Luis Galarreta, ante la Cámara de Diputados, tuvo el mérito de partir de un diagnóstico sin eufemismos: el gobierno de Keiko Fujimori encontró, en sus palabras, “un Estado desordenado y desbordado”, entrampado en la burocracia, que llega tarde al delito y a las emergencias, pero que sí llega a tiempo para multar al ciudadano o trabar al pequeño empresario. Es un reconocimiento honesto que evita maquillar la herencia recibida.",
-   "author": "Editorial El Comercio",
-   "published": "2026-08-21T05:10:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-21T05:33:22+00:00"
+   "captured": "2026-08-22T11:21:00+00:00"
   }
  ]
 }
