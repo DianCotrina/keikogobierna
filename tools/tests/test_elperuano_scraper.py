@@ -417,6 +417,28 @@ class RoutineActTest(unittest.TestCase):
         ):
             self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
+    def test_catalogue_maintenance_is_gated(self):
+        # PERÚ COMPRAS edits the Listado de Fichas Técnicas every other day.
+        for sumilla in (
+            "Aprueban modificación de sesenta y tres (63) Fichas Técnicas "
+            "correspondientes al rubro alimentos y bebidas para consumo humano del "
+            "Listado de Fichas Técnicas (LFT)",
+            "Aprueban la exclusión de cinco (5) Fichas Técnicas del rubro Productos "
+            "farmacéuticos del Listado de Fichas Técnicas del Catálogo Electrónico",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_a_compras_myperu_norm_is_not_swallowed_by_the_catalogue_gate(self):
+        # t2-1.P22 is certified in progress, so this gate is anchored on the
+        # *Listado* rather than on "fichas técnicas" alone.
+        for sumilla in (
+            "Declaran el inicio del proceso de fortalecimiento y optimización del "
+            "Programa Nacional “Compras a MYPErú”",
+            "Aprueban fichas técnicas de bienes para el Programa Nacional Compras a "
+            "MYPErú",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
     def test_substantive_norms_are_untouched(self):
         for sumilla in (
             "Aprueban el Reglamento de la Ley que crea las unidades de flagrancia",

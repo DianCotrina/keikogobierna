@@ -275,6 +275,19 @@ _CONCESSION_RE = re.compile(r"\bconcesion (?:definitiva|unica)\b")
 #     not the season notice, and a test keeps it in the queue.
 _FISHING_SEASON_RE = re.compile(r"\btemporada de pesca\b")
 
+# 12. Catalogue maintenance. PERU COMPRAS keeps the Listado de Fichas Tecnicas
+#     of the Catalogo Electronico de Acuerdos Marco, adding, modifying and
+#     excluding product sheets every other day. Nothing in the plan names a
+#     ficha tecnica. These reached the queue twice on the boost leak that put a
+#     bare "compras" in the index (issues #316, #317) and, once that was fixed,
+#     a third time on "consumo humano" from the food rubro (issue #351) — the
+#     leak was hiding a class that was always going to recur.
+#
+#     Anchored on the *Listado*, not on "fichas tecnicas" alone: a genuine
+#     Compras MyPeru norma could well approve fichas tecnicas of its own, and
+#     t2-1.P22 is a tracked commitment with a certification already on it.
+_CATALOGUE_RE = re.compile(r"\blistado de fichas tecnicas\b")
+
 def is_routine_act(record: dict) -> bool:
     """True for a norma whose operative act cannot evidence a commitment —
     personnel churn, a permission slip, a periodic index, a draft still out for
@@ -296,6 +309,7 @@ def is_routine_act(record: dict) -> bool:
         or _ADJUDICATION_RE.search(sumilla)
         or _CONCESSION_RE.search(sumilla)
         or _FISHING_SEASON_RE.search(sumilla)
+        or _CATALOGUE_RE.search(sumilla)
     )
 
 
