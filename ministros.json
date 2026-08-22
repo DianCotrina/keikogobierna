@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T23:24:54+00:00",
+ "generated": "2026-08-22T05:28:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -19,6 +19,13 @@
    }
   ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-anuncios-nuevos-y-repetidos-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-21T23:47:59+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Luis Galarreta dice que “se puede haber cometido un error” al haber respaldado ley que impide remover al comandante de la PNP",
     "url": "https://rpp.pe/politica/gobierno/luis-galarreta-dice-que-se-puede-haber-cometido-un-error-al-haber-respaldado-ley-que-impide-remover-al-comandante-de-la-pnp-noticia-1702888",
@@ -41,13 +48,6 @@
     "matched_in": "summary"
    },
    {
-    "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-anuncios-nuevos-y-repetidos-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T10:00:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Ahora Nación pide a Luis Galarreta atención al Gasoducto Sur Peruano y respeto por el Cusco",
     "url": "https://elcomercio.pe/politica/congreso/ahora-nacion-pide-a-luis-galarreta-atencion-al-gasoducto-sur-peruano-y-respeto-por-el-cusco-ultimas-noticia/",
     "source": "El Comercio",
@@ -63,13 +63,6 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "¿Óscar Arriola con los días contados? Ministro del Interior anuncia proyecto para destituir al jefe de la PNP",
-    "url": "https://www.infobae.com/peru/2026/08/21/oscar-arriola-con-los-dias-contados-ministro-del-interior-anuncia-proyecto-para-destituir-al-jefe-de-la-pnp/",
-    "source": "Infobae",
-    "published": "2026-08-21T13:24:38+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "César Astudillo, ministro del Interior: \"No vengo a prometerles que el crimen desaparecerá la próxima semana\"",
     "url": "https://larepublica.pe/politica/2026/08/20/cesar-astudillo-ministro-del-interior-no-vengo-a-prometerles-que-el-crimen-desaparecera-la-proxima-semana-hnews-212880",
@@ -107,6 +100,15 @@
     "url": "https://elcomercio.pe/economia/peru/petroleo-guillermo-shinno-chevron-solo-se-ha-retirado-de-un-lote-no-se-ha-ido-del-peru-noticia/",
     "source": "El Comercio",
     "published": "2026-08-21T22:30:01+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Luis Dyer ante críticas por estado de hospital en Piura: \"Siempre habrán quejas, pero hay que agradecer\"",
+    "url": "https://larepublica.pe/politica/2026/08/21/luis-dyer-ante-criticas-por-estado-de-hospital-en-piura-siempre-habran-quejas-pero-hay-que-agradecer-hnews-743295",
+    "source": "La República",
+    "published": "2026-08-21T23:55:16+00:00",
     "matched_in": "title"
    }
   ],
@@ -151,21 +153,21 @@
     "matched_in": "title"
    }
   ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Cancillería: ya se iniciaron conversaciones con México para exoneración de visa para peruanos",
+    "url": "https://gestion.pe/peru/ministro-carlos-espa-cancilleria-avanza-en-restablecer-exoneracion-de-visa-para-peruanos-que-visitan-mexico-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-22T02:17:10+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rogers-martin-valencia-espinoza": [
    {
     "title": "Mincetur: esta será la estrategia para hacerle frente al “nuevo golpe arancelario” de EE.UU.",
     "url": "https://gestion.pe/economia/nuevo-golpe-arancelario-de-eeuu-esta-sera-la-estrategia-del-gobierno-de-keiko-fujimori-para-hacerle-frente-segun-el-mincetur-noticia/",
     "source": "Gestión",
     "published": "2026-08-21T20:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Cancillería: ya se iniciaron conversaciones con México para exoneración de visa para peruanos",
-    "url": "https://gestion.pe/peru/ministro-carlos-espa-cancilleria-avanza-en-restablecer-exoneracion-de-visa-para-peruanos-que-visitan-mexico-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T18:33:40+00:00",
     "matched_in": "title"
    }
   ]
