@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T23:21:33+00:00",
+ "generated": "2026-08-23T05:30:03+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -15,6 +15,22 @@
     "url": "https://elcomercio.pe/politica/el-ministro-de-vivienda-mauricio-arnillas-dijo-que-hay-8-millones-de-personas-sin-acceso-a-agua-potable-pero-es-falso-noticia/",
     "source": "El Comercio",
     "published": "2026-08-21T14:58:10+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "MTC anuncia reducción de multas de tránsito: transportistas podrán pagar solo el 10% para archivarlas",
+    "url": "https://elcomercio.pe/lima/mtc-anuncia-reduccion-de-multas-de-transito-transportistas-podran-pagar-solo-el-10-para-archivarlas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-23T02:45:02+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey descarta oposición a uso de trenes Caltrain y anuncia que ProInversión evaluará su viabilidad",
+    "url": "https://larepublica.pe/politica/2026/08/22/rafael-rey-descarta-oposicion-a-uso-de-trenes-caltrain-y-anuncia-que-proinversion-evaluara-su-viabilidad-hnews-1944998",
+    "source": "La República",
+    "published": "2026-08-22T23:38:51+00:00",
     "matched_in": "title"
    }
   ],
