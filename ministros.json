@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23T11:21:31+00:00",
+ "generated": "2026-08-23T17:20:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,44 +9,19 @@
   "Infobae"
  ],
  "ministers": {
-  "mauricio-fernando-arnillas-gonzalez": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "El ministro de Vivienda Mauricio Arnillas dijo que hay 8 millones de personas sin acceso a agua potable, pero es falso",
-    "url": "https://elcomercio.pe/politica/el-ministro-de-vivienda-mauricio-arnillas-dijo-que-hay-8-millones-de-personas-sin-acceso-a-agua-potable-pero-es-falso-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-21T14:58:10+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "¿Quién formaliza al Estado?",
-    "url": "https://elcomercio.pe/opinion/columnistas/quien-formaliza-al-estado-por-mercedes-araoz-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-23T05:30:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
-    "url": "https://larepublica.pe/politica/2026/08/20/fernando-garcia-a-elmer-cuba-nos-quedamos-callados-ante-exoneraciones-tributarias-a-grandes-empresas-hnews-1181660",
-    "source": "La República",
-    "published": "2026-08-21T13:34:36+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-rey-rey": [
-   {
-    "title": "MTC anuncia reducción de multas de tránsito: transportistas podrán pagar solo el 10% para archivarlas",
-    "url": "https://elcomercio.pe/lima/mtc-anuncia-reduccion-de-multas-de-transito-transportistas-podran-pagar-solo-el-10-para-archivarlas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-23T02:45:02+00:00",
+    "title": "Titular del Midagri explica cercanía de Keiko Fujimori con empresario argentino: “En la campaña hubo muchos asesores”",
+    "url": "https://www.infobae.com/peru/2026/08/23/titular-del-midagri-explica-cercania-de-keiko-fujimori-con-empresario-argentino-en-la-campana-hubo-muchos-asesores/",
+    "source": "Infobae",
+    "published": "2026-08-23T17:07:21+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Rafael Rey descarta oposición a uso de trenes Caltrain y anuncia que ProInversión evaluará su viabilidad",
-    "url": "https://larepublica.pe/politica/2026/08/22/rafael-rey-descarta-oposicion-a-uso-de-trenes-caltrain-y-anuncia-que-proinversion-evaluara-su-viabilidad-hnews-1944998",
-    "source": "La República",
-    "published": "2026-08-22T23:38:51+00:00",
+    "title": "Ministro Marco Vinelli señala que fusión de ministerios no se encuentra dentro del pedido de facultades legislativas al Parlamento",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-senala-que-fusion-de-ministerios-no-se-encuentra-dentro-del-pedido-de-facultades-legislativas-al-parlamento-no-no-esta-en-el-texto-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-23T14:45:13+00:00",
     "matched_in": "title"
    }
   ],
@@ -55,14 +30,16 @@
     "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
     "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
     "source": "La República",
-    "published": "2026-08-22T22:08:39+00:00",
+    "published": "2026-08-23T12:28:02+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rafael-rey-rey": [
    {
-    "title": "Juntos por el Perú prepara una moción de interpelación contra el ministro del Interior, César Astudillo",
-    "url": "https://www.infobae.com/peru/2026/08/22/juntos-por-el-peru-prepara-una-mocion-de-interpelacion-contra-el-ministro-del-interior-cesar-astudillo/",
-    "source": "Infobae",
-    "published": "2026-08-22T14:54:40+00:00",
+    "title": "Rafael Rey descarta oposición a uso de trenes Caltrain y anuncia que ProInversión evaluará su viabilidad",
+    "url": "https://larepublica.pe/politica/2026/08/22/rafael-rey-descarta-oposicion-a-uso-de-trenes-caltrain-y-anuncia-que-proinversion-evaluara-su-viabilidad-hnews-1944998",
+    "source": "La República",
+    "published": "2026-08-22T23:38:51+00:00",
     "matched_in": "title"
    }
   ],
@@ -73,24 +50,6 @@
     "source": "La República",
     "published": "2026-08-22T15:49:26+00:00",
     "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Cancillería: ya se iniciaron conversaciones con México para exoneración de visa para peruanos",
-    "url": "https://gestion.pe/peru/ministro-carlos-espa-cancilleria-avanza-en-restablecer-exoneracion-de-visa-para-peruanos-que-visitan-mexico-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-22T07:16:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Aumento de sueldo mínimo: ¿Cuándo iniciarían las discusiones en el Consejo Nacional de Trabajo?",
-    "url": "https://www.infobae.com/peru/2026/08/22/aumento-de-sueldo-minimo-cuando-iniciarian-las-discusiones-en-el-consejo-nacional-de-trabajo/",
-    "source": "Infobae",
-    "published": "2026-08-22T18:10:14+00:00",
-    "matched_in": "summary"
    }
   ]
  }
