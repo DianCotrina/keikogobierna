@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23T17:20:43+00:00",
+ "generated": "2026-08-23T23:21:38+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,13 +9,43 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput se reúne con sindicatos antes de nueva sesión del Consejo Nacional de Trabajo",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-se-reune-con-sindicatos-antes-de-nueva-sesion-del-consejo-nacional-de-trabajo-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-23T17:41:46+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Titular del Midagri explica cercanía de Keiko Fujimori con empresario argentino: “En la campaña hubo muchos asesores”",
-    "url": "https://www.infobae.com/peru/2026/08/23/titular-del-midagri-explica-cercania-de-keiko-fujimori-con-empresario-argentino-en-la-campana-hubo-muchos-asesores/",
-    "source": "Infobae",
-    "published": "2026-08-23T17:07:21+00:00",
+    "title": "Ministro Vinelli descarta fusión o reducción de ministerios en pedido de facultades",
+    "url": "https://gestion.pe/peru/politica/ministro-vinelli-descarta-fusion-o-reduccion-de-ministerios-en-pedido-de-facultades-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-23T21:27:22+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Marco Vinelli confirma que empresario argentino que fue al spa con Keiko Fujimori participó en la campaña",
+    "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-confirma-que-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-participo-en-la-campana-hnews-1209869",
+    "source": "La República",
+    "published": "2026-08-23T21:01:05+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Marco Vinelli asegura que fusión de ministerios no forma parte del pedido de facultades legislativas al Congreso",
+    "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-asegura-que-fusion-de-ministerios-no-forma-parte-del-pedido-de-facultades-legislativas-al-congreso-hnews-1219828",
+    "source": "La República",
+    "published": "2026-08-23T20:54:46+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Perú tendrá 39 helicópteros para enfrentar emergencias por el fenómeno El Niño: Gobierno destinará S/300 millones hasta diciembre",
+    "url": "https://www.infobae.com/peru/2026/08/23/peru-tendra-39-helicopteros-para-enfrentar-emergencias-por-el-fenomeno-el-nino-gobierno-destinara-s300-millones-hasta-diciembre/",
+    "source": "Infobae",
+    "published": "2026-08-23T20:00:14+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Ministro Marco Vinelli señala que fusión de ministerios no se encuentra dentro del pedido de facultades legislativas al Parlamento",
@@ -49,6 +79,15 @@
     "url": "https://larepublica.pe/politica/2026/08/21/luis-dyer-ante-criticas-por-estado-de-hospital-en-piura-siempre-habran-quejas-pero-hay-que-agradecer-hnews-743295",
     "source": "La República",
     "published": "2026-08-22T15:49:26+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Álvarez dice que el LUM debe ser desarrollado “de manera técnica”: “Hay que reorganizarlo todo, de principio a fin”",
+    "url": "https://rpp.pe/politica/gobierno/alvarez-dice-que-el-lum-debe-ser-desarrollado-de-manera-tecnica-hay-que-reorganizarlo-todo-de-principio-a-fin-noticia-1703216",
+    "source": "RPP",
+    "published": "2026-08-23T15:13:44-05:00",
     "matched_in": "title"
    }
   ]
