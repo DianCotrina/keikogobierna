@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23T05:30:03+00:00",
+ "generated": "2026-08-23T11:21:31+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -15,6 +15,22 @@
     "url": "https://elcomercio.pe/politica/el-ministro-de-vivienda-mauricio-arnillas-dijo-que-hay-8-millones-de-personas-sin-acceso-a-agua-potable-pero-es-falso-noticia/",
     "source": "El Comercio",
     "published": "2026-08-21T14:58:10+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "¿Quién formaliza al Estado?",
+    "url": "https://elcomercio.pe/opinion/columnistas/quien-formaliza-al-estado-por-mercedes-araoz-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-23T05:30:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
+    "url": "https://larepublica.pe/politica/2026/08/20/fernando-garcia-a-elmer-cuba-nos-quedamos-callados-ante-exoneraciones-tributarias-a-grandes-empresas-hnews-1181660",
+    "source": "La República",
+    "published": "2026-08-21T13:34:36+00:00",
     "matched_in": "title"
    }
   ],
@@ -48,13 +64,6 @@
     "source": "Infobae",
     "published": "2026-08-22T14:54:40+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo, ministro del Interior: \"No vengo a prometerles que el crimen desaparecerá la próxima semana\"",
-    "url": "https://larepublica.pe/politica/2026/08/20/cesar-astudillo-ministro-del-interior-no-vengo-a-prometerles-que-el-crimen-desaparecera-la-proxima-semana-hnews-212880",
-    "source": "La República",
-    "published": "2026-08-21T10:00:00+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -66,15 +75,6 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Fernando García a Elmer Cuba: “Nos quedamos callados” ante exoneraciones tributarias a grandes empresas",
-    "url": "https://larepublica.pe/politica/2026/08/20/fernando-garcia-a-elmer-cuba-nos-quedamos-callados-ante-exoneraciones-tributarias-a-grandes-empresas-hnews-1181660",
-    "source": "La República",
-    "published": "2026-08-21T13:34:36+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Cancillería: ya se iniciaron conversaciones con México para exoneración de visa para peruanos",
@@ -82,15 +82,6 @@
     "source": "Gestión",
     "published": "2026-08-22T07:16:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Editorial de Gestión: Anuncios nuevos y repetidos",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-anuncios-nuevos-y-repetidos-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-21T23:47:59+00:00",
-    "matched_in": "summary"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
