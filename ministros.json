@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23T23:21:38+00:00",
+ "generated": "2026-08-24T05:38:36+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -20,17 +20,17 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Ministro Vinelli descarta fusión o reducción de ministerios en pedido de facultades",
+    "title": "Keiko Fujimori prevé remitir esta semana al Congreso la solicitud de facultades legislativas",
     "url": "https://gestion.pe/peru/politica/ministro-vinelli-descarta-fusion-o-reduccion-de-ministerios-en-pedido-de-facultades-noticia/",
     "source": "Gestión",
-    "published": "2026-08-23T21:27:22+00:00",
-    "matched_in": "title"
+    "published": "2026-08-24T04:46:00+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Marco Vinelli confirma que empresario argentino que fue al spa con Keiko Fujimori participó en la campaña",
     "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-confirma-que-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-participo-en-la-campana-hnews-1209869",
     "source": "La República",
-    "published": "2026-08-23T21:01:05+00:00",
+    "published": "2026-08-24T03:54:49+00:00",
     "matched_in": "title"
    },
    {
@@ -55,6 +55,22 @@
     "matched_in": "title"
    }
   ],
+  "rafael-rey-rey": [
+   {
+    "title": "MTC anuncia reducción de multas de tránsito: transportistas podrán pagar solo el 10% para archivarlas",
+    "url": "https://elcomercio.pe/lima/mtc-anuncia-reduccion-de-multas-de-transito-transportistas-podran-pagar-solo-el-10-para-archivarlas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-23T02:45:02+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey descarta oposición a uso de trenes Caltrain y anuncia que ProInversión evaluará su viabilidad",
+    "url": "https://larepublica.pe/politica/2026/08/22/rafael-rey-descarta-oposicion-a-uso-de-trenes-caltrain-y-anuncia-que-proinversion-evaluara-su-viabilidad-hnews-1944998",
+    "source": "La República",
+    "published": "2026-08-22T23:38:51+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
@@ -64,30 +80,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
-   {
-    "title": "Rafael Rey descarta oposición a uso de trenes Caltrain y anuncia que ProInversión evaluará su viabilidad",
-    "url": "https://larepublica.pe/politica/2026/08/22/rafael-rey-descarta-oposicion-a-uso-de-trenes-caltrain-y-anuncia-que-proinversion-evaluara-su-viabilidad-hnews-1944998",
-    "source": "La República",
-    "published": "2026-08-22T23:38:51+00:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-williams-dyer-fernandez": [
    {
     "title": "Luis Dyer ante críticas por estado de hospital en Piura: \"Siempre habrán quejas, pero hay que agradecer\"",
     "url": "https://larepublica.pe/politica/2026/08/21/luis-dyer-ante-criticas-por-estado-de-hospital-en-piura-siempre-habran-quejas-pero-hay-que-agradecer-hnews-743295",
     "source": "La República",
     "published": "2026-08-22T15:49:26+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Álvarez dice que el LUM debe ser desarrollado “de manera técnica”: “Hay que reorganizarlo todo, de principio a fin”",
-    "url": "https://rpp.pe/politica/gobierno/alvarez-dice-que-el-lum-debe-ser-desarrollado-de-manera-tecnica-hay-que-reorganizarlo-todo-de-principio-a-fin-noticia-1703216",
-    "source": "RPP",
-    "published": "2026-08-23T15:13:44-05:00",
     "matched_in": "title"
    }
   ]
