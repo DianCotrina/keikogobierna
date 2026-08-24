@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T05:38:36+00:00",
+ "generated": "2026-08-24T11:29:30+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -20,25 +20,25 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Keiko Fujimori prevé remitir esta semana al Congreso la solicitud de facultades legislativas",
-    "url": "https://gestion.pe/peru/politica/ministro-vinelli-descarta-fusion-o-reduccion-de-ministerios-en-pedido-de-facultades-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T04:46:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Marco Vinelli confirma que empresario argentino que fue al spa con Keiko Fujimori participó en la campaña",
     "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-confirma-que-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-participo-en-la-campana-hnews-1209869",
     "source": "La República",
-    "published": "2026-08-24T03:54:49+00:00",
+    "published": "2026-08-24T10:58:00+00:00",
     "matched_in": "title"
    },
    {
     "title": "Marco Vinelli asegura que fusión de ministerios no forma parte del pedido de facultades legislativas al Congreso",
     "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-asegura-que-fusion-de-ministerios-no-forma-parte-del-pedido-de-facultades-legislativas-al-congreso-hnews-1219828",
     "source": "La República",
-    "published": "2026-08-23T20:54:46+00:00",
+    "published": "2026-08-24T10:16:00+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori prevé remitir esta semana al Congreso la solicitud de facultades legislativas",
+    "url": "https://gestion.pe/peru/politica/ministro-vinelli-descarta-fusion-o-reduccion-de-ministerios-en-pedido-de-facultades-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-24T04:46:00+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Perú tendrá 39 helicópteros para enfrentar emergencias por el fenómeno El Niño: Gobierno destinará S/300 millones hasta diciembre",
@@ -82,11 +82,27 @@
   ],
   "luis-williams-dyer-fernandez": [
    {
+    "title": "El ministro de Salud asegura que el empresario argentino Damián Valenzuela \"no tiene ninguna influencia\" en el Gobierno",
+    "url": "https://rpp.pe/politica/gobierno/damian-valenzuela-no-influye-en-el-gobierno-de-keiko-fujimori-afirma-ministro-de-salud-noticia-1703280",
+    "source": "RPP",
+    "published": "2026-08-24T00:25:50-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Luis Dyer ante críticas por estado de hospital en Piura: \"Siempre habrán quejas, pero hay que agradecer\"",
     "url": "https://larepublica.pe/politica/2026/08/21/luis-dyer-ante-criticas-por-estado-de-hospital-en-piura-siempre-habran-quejas-pero-hay-que-agradecer-hnews-743295",
     "source": "La República",
     "published": "2026-08-22T15:49:26+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Editorial de Gestión: Los retos de Shinno",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-los-retos-de-shinno-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-24T10:00:00+00:00",
+    "matched_in": "summary"
    }
   ]
  }
