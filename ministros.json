@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T11:29:30+00:00",
+ "generated": "2026-08-24T17:31:58+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,7 +9,74 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Beingolea dice que Lugar de la Memoria no será cerrado ni pasará al Ministerio de Justicia, pero requiere cambios",
+    "url": "https://rpp.pe/politica/gobierno/lugar-de-la-memoria-beingolea-dice-que-no-se-cerrara-el-lum-ni-pasara-al-ministerio-de-justicia-pero-requiere-cambios-noticia-1703339",
+    "source": "RPP",
+    "published": "2026-08-24T12:02:00-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea niega disputa con Ernesto Álvarez por LUM: “No hay ninguna conversación siquiera al respecto, no hay nada”",
+    "url": "https://elcomercio.pe/politica/actualidad/alberto-beingolea-niega-disputa-con-ernesto-alvarez-por-lum-no-hay-ninguna-conversacion-siquiera-al-respecto-no-hay-nada-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-24T15:43:54+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Esto dijo Alberto Beingolea sobre la permanencia de Goles en Acción en Canal 7",
+    "url": "https://elcomercio.pe/respuestas/deportes/esto-dijo-alberto-beingolea-sobre-la-permanencia-de-goles-en-accion-en-canal-7-tdpe-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-24T17:16:30+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea dice que Lugar de la Memoria no será cerrado ni pasará al Ministerio de Justicia, pero requiere cambios",
+    "url": "https://rpp.pe/politica/gobierno/lugar-de-la-memoria-beingolea-dice-que-no-se-cerrara-el-lum-ni-pasara-al-ministerio-de-justicia-pero-requiere-cambios-noticia-1703339",
+    "source": "RPP",
+    "published": "2026-08-24T12:02:00-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Cultura acusa al Lugar de la Memoria de ser “un punto de desunión y permanente enfrentamiento entre peruanos”",
+    "url": "https://www.infobae.com/peru/2026/08/24/ministro-de-cultura-acusa-al-lugar-de-la-memoria-de-ser-un-punto-de-desunion-y-permanente-enfrentamiento-entre-peruanos/",
+    "source": "Infobae",
+    "published": "2026-08-24T16:40:52+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea niega disputa con Ernesto Álvarez por LUM: “No hay ninguna conversación siquiera al respecto, no hay nada”",
+    "url": "https://elcomercio.pe/politica/actualidad/alberto-beingolea-niega-disputa-con-ernesto-alvarez-por-lum-no-hay-ninguna-conversacion-siquiera-al-respecto-no-hay-nada-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-24T15:43:54+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea defiende permanencia de 'Goles en Acción' en TV estatal y dice no conocer versiones sobre despidos en el IRTP",
+    "url": "https://rpp.pe/politica/gobierno/beingolea-dice-desconocer-versiones-sobre-despido-de-trabajadores-del-irtp-y-defiende-permanencia-de-goles-en-accion-en-tv-estatal-noticia-1703318",
+    "source": "RPP",
+    "published": "2026-08-24T10:30:35-05:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Feriados de Fuerzas Armadas se podrían reducir a una sola fecha, dice el ministro de Trabajo",
+    "url": "https://gestion.pe/economia/feriados-en-peru-de-fuerzas-armadas-se-podrian-reducir-de-4-a-una-sola-fecha-dice-el-ministro-de-trabajo-de-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-24T15:39:49+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juan Sheput defiende permanencia de Jessica Tumi: “Mientras no se demuestre algo incorrecto, va a seguir”",
+    "url": "https://elcomercio.pe/politica/actualidad/juan-sheput-defiende-permanencia-de-jessica-tumi-mientras-no-se-demuestre-algo-incorrecto-va-a-seguir-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-24T13:26:57+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Juan Sheput se reúne con sindicatos antes de nueva sesión del Consejo Nacional de Trabajo",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-se-reune-con-sindicatos-antes-de-nueva-sesion-del-consejo-nacional-de-trabajo-ultimas-noticia/",
@@ -23,7 +90,7 @@
     "title": "Marco Vinelli confirma que empresario argentino que fue al spa con Keiko Fujimori participó en la campaña",
     "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-confirma-que-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-participo-en-la-campana-hnews-1209869",
     "source": "La República",
-    "published": "2026-08-24T10:58:00+00:00",
+    "published": "2026-08-24T13:55:41+00:00",
     "matched_in": "title"
    },
    {
@@ -41,13 +108,6 @@
     "matched_in": "summary"
    },
    {
-    "title": "Perú tendrá 39 helicópteros para enfrentar emergencias por el fenómeno El Niño: Gobierno destinará S/300 millones hasta diciembre",
-    "url": "https://www.infobae.com/peru/2026/08/23/peru-tendra-39-helicopteros-para-enfrentar-emergencias-por-el-fenomeno-el-nino-gobierno-destinara-s300-millones-hasta-diciembre/",
-    "source": "Infobae",
-    "published": "2026-08-23T20:00:14+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Ministro Marco Vinelli señala que fusión de ministerios no se encuentra dentro del pedido de facultades legislativas al Parlamento",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-senala-que-fusion-de-ministerios-no-se-encuentra-dentro-del-pedido-de-facultades-legislativas-al-parlamento-no-no-esta-en-el-texto-ultimas-noticia/",
     "source": "El Comercio",
@@ -57,11 +117,11 @@
   ],
   "rafael-rey-rey": [
    {
-    "title": "MTC anuncia reducción de multas de tránsito: transportistas podrán pagar solo el 10% para archivarlas",
-    "url": "https://elcomercio.pe/lima/mtc-anuncia-reduccion-de-multas-de-transito-transportistas-podran-pagar-solo-el-10-para-archivarlas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-23T02:45:02+00:00",
-    "matched_in": "title"
+    "title": "Keiko Fujimori cede ante transportistas: anuncia derogación de ley de puntos y reducción al 10% de multas",
+    "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
+    "source": "La República",
+    "published": "2026-08-24T16:46:22+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Rafael Rey descarta oposición a uso de trenes Caltrain y anuncia que ProInversión evaluará su viabilidad",
@@ -69,6 +129,22 @@
     "source": "La República",
     "published": "2026-08-22T23:38:51+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Luis Dyer sobre vínculos entre Keiko Fujimori y Damián Valenzuela: \"No tiene ninguna influencia en el Gobierno\"",
+    "url": "https://larepublica.pe/politica/2026/08/24/luis-dyer-sobre-vinculos-entre-keiko-fujimori-y-damian-valenzuela-no-tiene-ninguna-influencia-en-el-gobierno-hnews-2263080",
+    "source": "La República",
+    "published": "2026-08-24T16:38:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cuatro de 25 hospitales de Lima se interconectarán para agilizar citas e historias clínicas",
+    "url": "https://gestion.pe/peru/minsa-citas-en-hospitales-publicos-4-de-25-hospitales-de-lima-se-interconectaran-para-agilizar-citas-e-historias-clinicas-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-24T16:19:04+00:00",
+    "matched_in": "summary"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -80,19 +156,12 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "juan-carlos-requejo-aleman": [
    {
-    "title": "El ministro de Salud asegura que el empresario argentino Damián Valenzuela \"no tiene ninguna influencia\" en el Gobierno",
-    "url": "https://rpp.pe/politica/gobierno/damian-valenzuela-no-influye-en-el-gobierno-de-keiko-fujimori-afirma-ministro-de-salud-noticia-1703280",
+    "title": "Fenómeno El Niño en Perú: Produce anuncia que darán facilidades financieras a pescadores y acuicultores afectados",
+    "url": "https://rpp.pe/economia/economia/fenomeno-el-nino-en-peru-produce-anuncia-que-daran-facilidades-financieras-a-pescadores-y-acuicultores-afectados-noticia-1703353",
     "source": "RPP",
-    "published": "2026-08-24T00:25:50-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Dyer ante críticas por estado de hospital en Piura: \"Siempre habrán quejas, pero hay que agradecer\"",
-    "url": "https://larepublica.pe/politica/2026/08/21/luis-dyer-ante-criticas-por-estado-de-hospital-en-piura-siempre-habran-quejas-pero-hay-que-agradecer-hnews-743295",
-    "source": "La República",
-    "published": "2026-08-22T15:49:26+00:00",
+    "published": "2026-08-24T11:48:32-05:00",
     "matched_in": "title"
    }
   ],

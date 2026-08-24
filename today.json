@@ -1,100 +1,37 @@
 {
- "generated": "2026-08-24T05:38:36+00:00",
+ "generated": "2026-08-24T17:31:58+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-08-23",
+ "date": "2026-08-24",
  "articles": [
   {
-   "title": "Nueve ministros del Gabinete deberán responder ante el Congreso en los primeros días del Gobierno de Keiko Fujimori",
-   "url": "https://larepublica.pe/politica/2026/08/23/keiko-fujimori-nueve-ministros-del-gabinete-deberan-responder-ante-el-congreso-en-los-primeros-dias-de-gobierno-de-la-presidenta-hnews-2038099",
-   "summary": "Legisladores de ambas cámaras citaron a los titulares de Defensa, Economía, Relaciones Exteriores y otras cinco carteras por temas que van desde Pataz hasta la crisis en Ucayali.",
+   "title": "Keiko Fujimori cede ante transportistas: anuncia derogación de ley de puntos y reducción al 10% de multas",
+   "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
+   "summary": "La mandataria y el ministro de Transportes, Rafael Rey, se reunieron con gremios de transportistas el 22 de agosto y ofreció beneficios inmediatos sobre multas y papeletas.",
    "author": "Ariadna Yaya",
-   "published": "2026-08-24T03:56:21+00:00",
+   "published": "2026-08-24T16:46:22+00:00",
    "source": "La República",
-   "captured": "2026-08-24T05:38:36+00:00"
+   "captured": "2026-08-24T17:31:58+00:00"
   },
   {
-   "title": "Carlos Zegarra, diputado de Fuerza Popular, recibió aporte de sentenciado por manejo de dinero ilícito",
-   "url": "https://larepublica.pe/politica/2026/08/23/carlos-zegarra-diputado-de-fuerza-popular-recibio-aporte-de-sentenciado-por-manejo-de-dinero-ilicito-hnews-1154370",
-   "summary": "El legislador fujimorista por Ica también aparece mencionado en la carpeta fiscal que investiga el asesinato del periodista iqueño Gastón Medina, ocurrido en enero de 2025.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-24T03:55:28+00:00",
-   "source": "La República",
-   "captured": "2026-08-24T05:38:36+00:00"
-  },
-  {
-   "title": "Keiko Fujimori anuncia que pedido de facultades se enviará al Congreso \"esta semana\"",
-   "url": "https://larepublica.pe/politica/2026/08/23/keiko-fujimori-anuncia-que-pedido-de-facultades-se-enviara-al-congreso-esta-semana-hnews-1699746",
-   "summary": "La mandataria comparó los plazos de su gobierno con gestiones anteriores y prometió superar el récord de 44 días, tras las críticas que circularon en redes sociales por la demora del trámite.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-24T03:40:51+00:00",
-   "source": "La República",
-   "captured": "2026-08-24T05:38:36+00:00"
-  },
-  {
-   "title": "Keiko Fujimori acepta que fue a spa con empresario argentino Damián Valenzuela",
-   "url": "https://larepublica.pe/politica/2026/08/23/keiko-fujimori-acepta-que-fue-a-spa-con-empresario-argentino-damian-valenzuela-es-un-asesor-ad-honorem-hnews-726570",
-   "summary": "Mandataria confirmó que acudió con Valenzuela el 11 de julio al spa Tomiko tras la revelación del semanario Hildebrandt en sus trece.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-24T03:27:48+00:00",
-   "source": "La República",
-   "captured": "2026-08-24T05:38:36+00:00"
-  },
-  {
-   "title": "Revelan que sentenciado y prófugo de la justicia aportó a la campaña del diputado Carlos Zegarra",
-   "url": "https://elcomercio.pe/politica/congreso/carlos-zegarra-denuncian-que-sentenciado-y-profugo-de-la-justicia-aporto-a-la-campana-del-diputado-de-fuerza-popular-ultimas-noticia/",
-   "summary": "Un hombre sentenciado a 6 años de prisión y actualmente prófugo de la justicia figura en la lista oficial de aportantes de campaña del diputado Carlos Zegarra Sánchez, de Fuerza Popular, según reveló “Cuarto Poder”.",
-   "author": "Redacción EC",
-   "published": "2026-08-24T02:56:15+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-24T05:38:36+00:00"
-  },
-  {
-   "title": "Keiko Fujimori indica que empresario argentino Damián Valenzuela fue parte de su campaña presidencial",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-reconoce-que-empresario-argentino-damian-valenzuela-fue-parte-de-su-campana-presidencial-ultimas-noticia/",
-   "summary": "La mandataria Keiko Fujimori reconoció que el empresario argentino Damián Valenzuela (51), quien ha sido sindicado como su amigo íntimo, fue parte de su campaña presidencial.",
-   "author": "Redacción EC",
-   "published": "2026-08-24T00:54:24+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-24T05:38:36+00:00"
-  },
-  {
-   "title": "Marco Vinelli confirma que empresario argentino que fue al spa con Keiko Fujimori participó en la campaña",
-   "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-confirma-que-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-participo-en-la-campana-hnews-1209869",
-   "summary": "El titular del Midagri aseguró que el empresario Damián Valenzuela Mayer era una de las personas que conversaba con Fujimori durante la campaña presidencial; sin embargo, no afirmó que haya sido uno de sus asesores. De acuerdo con el semanario H13, Valenzuela y la mandataria habrían visitado el spa Tomyko en diversas ocasiones.",
+   "title": "Luis Dyer sobre vínculos entre Keiko Fujimori y Damián Valenzuela: \"No tiene ninguna influencia en el Gobierno\"",
+   "url": "https://larepublica.pe/politica/2026/08/24/luis-dyer-sobre-vinculos-entre-keiko-fujimori-y-damian-valenzuela-no-tiene-ninguna-influencia-en-el-gobierno-hnews-2263080",
+   "summary": "El ministro de Salud calificó el reportaje de la presidenta y el empresario argentino como un \"chisme de peluquería\" y afirmó que Valenzuela presentará una carta notarial al semanario H13.",
    "author": "Josué Chávez Cardoza",
-   "published": "2026-08-23T21:01:05+00:00",
+   "published": "2026-08-24T16:38:08+00:00",
    "source": "La República",
-   "captured": "2026-08-23T23:21:38+00:00"
+   "captured": "2026-08-24T17:31:58+00:00"
   },
   {
-   "title": "JNE gastó más de S/140 mil en la ceremonia de entrega de credenciales a Keiko Fujimori y sus vicepresidentes",
-   "url": "https://larepublica.pe/politica/2026/08/23/jne-gasto-mas-de-s140-mil-en-la-ceremonia-de-entrega-de-credenciales-a-keiko-fujimori-y-sus-vicepresidentes-hnews-1169070",
-   "summary": "El gasto se repartió en 16 pagos por servicios y bienes, entre ellos seguridad, equipos audiovisuales y coffee break, realizados entre el 7 y el 14 de julio, según documentos revisados por La República.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-23T12:43:52+00:00",
+   "title": "Damián Valenzuela Mayer: ¿Quién es el empresario argentino que fue al spa con Keiko Fujimori?",
+   "url": "https://larepublica.pe/politica/2026/08/24/damian-valenzuela-mayer-quien-es-el-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-hnews-1465368",
+   "summary": "La presidenta Fujimori confirmó que acudió al spa Tomyko con el empresario de 51 años. Estuvo presente en la asunción de mando en el Congreso y la juramentación de ministros el 28 de julio. Según H13, Valenzuela Mayer cuenta con sentencias judiciales en Estados Unidos y Uruguay.",
+   "author": "Josué Chávez Cardoza",
+   "published": "2026-08-24T13:54:32+00:00",
    "source": "La República",
-   "captured": "2026-08-23T17:20:43+00:00"
-  },
-  {
-   "title": "Keiko, no pidas mucho, una crónica de Fernando Vivas",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-no-pidas-mucho-una-cronica-de-fernando-vivas-noticia/",
-   "summary": "Keiko, no pidas mucho, una crónica de Fernando Vivas   | Cancelada ya la obligación de voto de confianza a los gabinetes; el pedido de delegación de facultades se ha convertido en el primer encontronazo de Keiko Fujimori con el Congreso.",
-   "author": "Fernando Vivas",
-   "published": "2026-08-23T11:31:33+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-23T17:20:43+00:00"
-  },
-  {
-   "title": "El esquivo sujeto popular",
-   "url": "https://elcomercio.pe/opinion/columnistas/el-esquivo-sujeto-popular-por-carlos-melendez-fujimorismo-castillismo-noticia/",
-   "summary": "En las últimas dos elecciones, el castillismo y el fujimorismo pasaron a la segunda vuelta repartiéndose victorias y derrotas, la sal y la arena. Si bien en la primera vuelta el nivel de apoyo a cada sector no pasó del 20% de los votos válidos en ningún caso, tampoco bajó del 10%. En terreno árido para el florecimiento de partidos, son lo más consistente que tenemos en materia de (pseudo) identidades partidarias. Es lo que hay, si dejamos a un lado los antis. ¿Qué tienen estas ‘fuerzas’ políticas para poder aglutinar a fieles seguidores a pesar de que no cuentan con organizaciones sólidas ni doctrinas elaboradas?",
-   "author": "Carlos Meléndez",
-   "published": "2026-08-23T05:30:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-23T11:21:31+00:00"
+   "captured": "2026-08-24T17:31:58+00:00"
   }
  ]
 }
