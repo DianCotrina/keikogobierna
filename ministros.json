@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T11:28:21+00:00",
+ "generated": "2026-08-25T17:32:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,49 @@
   "Infobae"
  ],
  "ministers": {
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Congreso: buscan interpelar al ministro Shinno por alza de precios de combustibles",
+    "url": "https://gestion.pe/peru/politica/congreso-buscan-interpelar-al-ministro-guillermo-shinno-por-alza-de-precios-de-combustibles-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-25T17:11:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Congreso plantea interpelar a ministro de Energía y Minas por alza de combustibles y protestas de transportistas",
+    "url": "https://larepublica.pe/politica/2026/08/24/congreso-plantea-interpelar-a-ministro-de-energia-y-minas-por-alza-de-combustibles-y-protestas-de-transportistas-hnews-2038080",
+    "source": "La República",
+    "published": "2026-08-25T17:10:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú presenta moción de interpelación contra Guillermo Shinno, ministro de Energía y Minas",
+    "url": "https://elcomercio.pe/economia/peru/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-guillermo-shinno-ministro-de-energia-y-minas-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-25T16:56:23+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Shinno sobre reforma del canon minero: “No habrá dinero en efectivo para la población”",
+    "url": "https://elcomercio.pe/economia/peru/reinfo-shinno-sobre-reforma-del-canon-minero-no-habra-dinero-en-efectivo-para-la-poblacion-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-25T16:11:18+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Energía y Minas: es la segunda de este tipo",
+    "url": "https://rpp.pe/politica/congreso/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-energia-y-minas-es-la-segunda-de-este-tipo-noticia-1703510",
+    "source": "RPP",
+    "published": "2026-08-25T09:38:59-05:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Ministerio de Justicia crea grupo para revisar las leyes del Congreso anterior sobre criminalidad: ¿qué normas están en la mira?",
     "url": "https://elcomercio.pe/politica/gobierno/ministerio-de-justicia-crea-grupo-para-revisar-las-leyes-del-congreso-anterior-sobre-criminalidad-que-normas-estan-en-la-mira-tlcnota-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-25T11:00:00+00:00",
+    "published": "2026-08-25T15:50:00+00:00",
     "matched_in": "title"
    },
    {
@@ -22,13 +59,6 @@
     "url": "https://gestion.pe/peru/ministro-alberto-beingolea-descarta-cierre-del-lum-y-niega-pase-al-ministerio-de-justicia-noticia/",
     "source": "Gestión",
     "published": "2026-08-24T22:36:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Beingolea dice que Lugar de la Memoria no será cerrado ni pasará al Ministerio de Justicia, pero requiere cambios",
-    "url": "https://rpp.pe/politica/gobierno/lugar-de-la-memoria-beingolea-dice-que-no-se-cerrara-el-lum-ni-pasara-al-ministerio-de-justicia-pero-requiere-cambios-noticia-1703339",
-    "source": "RPP",
-    "published": "2026-08-24T17:10:00-05:00",
     "matched_in": "title"
    },
    {
@@ -46,7 +76,30 @@
     "matched_in": "title"
    }
   ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del Interior afirma que el año pasado hubo 500 homicidios más, pero las cifras no cuadran",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-del-interior-afirma-que-el-ano-pasado-hubo-500-homicidios-mas-pero-las-cifras-no-cuadran-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-25T15:35:49+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo sostiene que eventual moción de interpelación le permitirá \"demostrar el trabajo de la PNP\"",
+    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-sostiene-que-eventual-mocion-de-interpelacion-la-permitira-demostrar-el-trabajo-de-la-pnp-noticia-1703469",
+    "source": "RPP",
+    "published": "2026-08-25T09:30:14-05:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Gobierno de Perú evalúa decretar feriado en noviembre por visita del Papa León XIV",
+    "url": "https://www.infobae.com/peru/2026/08/25/gobierno-de-peru-evalua-decretar-feriado-en-noviembre-por-visita-del-papa-leon-xiv/",
+    "source": "Infobae",
+    "published": "2026-08-25T17:26:49+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Visa digital y pasaporte de emergencia estarán habilitados desde la próxima semana",
     "url": "https://gestion.pe/peru/cancilleria-visa-digital-y-pasaporte-de-emergencia-estaran-habilitados-desde-la-proxima-semana-dice-ministro-carlos-espa-noticia/",
@@ -87,20 +140,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Beingolea dice que Lugar de la Memoria no será cerrado ni pasará al Ministerio de Justicia, pero requiere cambios",
-    "url": "https://rpp.pe/politica/gobierno/lugar-de-la-memoria-beingolea-dice-que-no-se-cerrara-el-lum-ni-pasara-al-ministerio-de-justicia-pero-requiere-cambios-noticia-1703339",
-    "source": "RPP",
-    "published": "2026-08-24T17:10:00-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Cultura acusa al Lugar de la Memoria de ser “un punto de desunión y permanente enfrentamiento entre peruanos”",
-    "url": "https://www.infobae.com/peru/2026/08/24/ministro-de-cultura-acusa-al-lugar-de-la-memoria-de-ser-un-punto-de-desunion-y-permanente-enfrentamiento-entre-peruanos/",
-    "source": "Infobae",
-    "published": "2026-08-24T16:40:52+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Alberto Beingolea niega disputa con Ernesto Álvarez por LUM: “No hay ninguna conversación siquiera al respecto, no hay nada”",
     "url": "https://elcomercio.pe/politica/actualidad/alberto-beingolea-niega-disputa-con-ernesto-alvarez-por-lum-no-hay-ninguna-conversacion-siquiera-al-respecto-no-hay-nada-ultimas-noticia/",
     "source": "El Comercio",
@@ -110,18 +149,11 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Feriados de Fuerzas Armadas se podrían reducir a una sola fecha, dice el ministro de Trabajo",
-    "url": "https://gestion.pe/economia/feriados-en-peru-de-fuerzas-armadas-se-podrian-reducir-de-4-a-una-sola-fecha-dice-el-ministro-de-trabajo-de-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T21:57:18+00:00",
+    "title": "Reducir cuatro feriados de las Fuerzas Armadas a uno solo: La propuesta que sugiere el MTPE",
+    "url": "https://www.infobae.com/peru/2026/08/25/reducir-cuatro-feriados-de-las-fuerzas-armadas-a-uno-solo-la-propuesta-que-sugiere-el-mtpe/",
+    "source": "Infobae",
+    "published": "2026-08-25T17:06:46+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Gobierno convoca al Consejo Nacional de Trabajo para el 3 de septiembre: sesión abordará aumento del sueldo mínimo",
-    "url": "https://elcomercio.pe/economia/peru/gobierno-convoca-al-cntpe-para-el-3-de-septiembre-sesion-abordara-aumento-del-sueldo-minimo-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-24T21:19:54+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Juan Sheput defiende permanencia de Jessica Tumi: “Mientras no se demuestre algo incorrecto, va a seguir”",
@@ -138,14 +170,16 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Vinelli dice que en \"un par de días más\" estaría listo pedido de facultades legislativas: \"Están revisando los últimos detalles\"",
-    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-pedido-de-facultades-legislativas-estaria-listo-en-dos-dias-noticia-1703421",
-    "source": "RPP",
-    "published": "2026-08-24T17:48:08-05:00",
+    "title": "Luis Dyer sobre vínculos entre Keiko Fujimori y Damián Valenzuela: \"No tiene ninguna influencia en el Gobierno\"",
+    "url": "https://larepublica.pe/politica/2026/08/24/luis-dyer-sobre-vinculos-entre-keiko-fujimori-y-damian-valenzuela-no-tiene-ninguna-influencia-en-el-gobierno-hnews-2263080",
+    "source": "La República",
+    "published": "2026-08-25T10:13:00+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
    {
     "title": "Marco Vinelli confirma que empresario argentino que fue al spa con Keiko Fujimori participó en la campaña",
     "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-confirma-que-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-participo-en-la-campana-hnews-1209869",
@@ -159,52 +193,6 @@
     "source": "La República",
     "published": "2026-08-24T10:16:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro Marco Vinelli señala que fusión de ministerios no se encuentra dentro del pedido de facultades legislativas al Parlamento",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-senala-que-fusion-de-ministerios-no-se-encuentra-dentro-del-pedido-de-facultades-legislativas-al-parlamento-no-no-esta-en-el-texto-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-23T14:45:13+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer sobre vínculos entre Keiko Fujimori y Damián Valenzuela: \"No tiene ninguna influencia en el Gobierno\"",
-    "url": "https://larepublica.pe/politica/2026/08/24/luis-dyer-sobre-vinculos-entre-keiko-fujimori-y-damian-valenzuela-no-tiene-ninguna-influencia-en-el-gobierno-hnews-2263080",
-    "source": "La República",
-    "published": "2026-08-25T10:13:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Cuatro de 25 hospitales de Lima se interconectarán para agilizar citas e historias clínicas",
-    "url": "https://gestion.pe/peru/minsa-citas-en-hospitales-publicos-4-de-25-hospitales-de-lima-se-interconectaran-para-agilizar-citas-e-historias-clinicas-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T21:20:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Congreso plantea interpelar a ministro de Energía y Minas por alza de combustibles y protestas de transportistas",
-    "url": "https://larepublica.pe/politica/2026/08/24/congreso-plantea-interpelar-a-ministro-de-energia-y-minas-por-alza-de-combustibles-y-protestas-de-transportistas-hnews-2038080",
-    "source": "La República",
-    "published": "2026-08-25T02:47:38+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno descarta, por ahora, una gestión privada en Petroperú: “Hoy no está pensado”, afirmó el titular del Minem",
-    "url": "https://rpp.pe/economia/economia/petroperu-gobierno-descarta-por-ahora-una-administracion-privada-en-la-refineria-de-talara-noticia-1703436",
-    "source": "RPP",
-    "published": "2026-08-24T20:19:37-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“El Reinfo debe tener un punto final”: Minem presentará nueva Ley Mape en noviembre para formalizar a mineros artesanales",
-    "url": "https://rpp.pe/economia/economia/ley-mape-minem-presenta-nueva-ley-para-formalizar-a-mineros-artesanales-y-acabar-con-reinfo-noticia-1703429",
-    "source": "RPP",
-    "published": "2026-08-24T18:47:54-05:00",
-    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
@@ -216,29 +204,13 @@
     "matched_in": "summary"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro César Astudillo sostiene que eventual moción de interpelación le permitirá \"demostrar el trabajo de la PNP\"",
-    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-sostiene-que-eventual-mocion-de-interpelacion-la-permitira-demostrar-el-trabajo-de-la-pnp-noticia-1703469",
-    "source": "RPP",
-    "published": "2026-08-25T05:55:14-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
-    "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
-    "source": "La República",
-    "published": "2026-08-23T12:28:02+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Ministerio de Vivienda: dirigentes de construcción civil rechazan vínculos con bandas delictivas y mantienen distancia con CAPECO",
-    "url": "https://www.infobae.com/peru/2026/08/25/ministerio-de-vivienda-dirigentes-de-construccion-civil-rechazan-vinculos-con-bandas-delictivas-y-mantienen-distancia-con-capeco/",
-    "source": "Infobae",
-    "published": "2026-08-25T00:17:44+00:00",
-    "matched_in": "title"
+    "title": "Exoneraciones tributarias bajo la lupa: ¿A cuáles les podría decir “adiós”?",
+    "url": "https://gestion.pe/economia/peru-pone-lupa-sobre-sus-exoneraciones-tributarias-a-cuales-les-podria-decir-adios-el-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-25T13:49:36+00:00",
+    "matched_in": "summary"
    }
   ]
  }
