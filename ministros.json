@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T17:32:37+00:00",
+ "generated": "2026-08-25T23:25:25+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,27 @@
  ],
  "ministers": {
   "guillermo-shinno-huamani": [
+   {
+    "title": "Ministro Shinno sobre reforma del canon minero: “No habrá dinero en efectivo para la población”",
+    "url": "https://elcomercio.pe/economia/peru/reinfo-shinno-sobre-reforma-del-canon-minero-no-habra-dinero-en-efectivo-para-la-poblacion-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-25T22:21:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Minem evalúa nuevas reglas en concesiones mineras: titulares tendrían que pagar una fianza para evitar la especulación",
+    "url": "https://rpp.pe/economia/economia/mineria-en-peru-minem-evalua-nuevas-reglas-concesiones-mineras-pago-de-fianzas-para-evitar-especulacion-noticia-1703622",
+    "source": "RPP",
+    "published": "2026-08-25T15:56:43-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú impulsa interpelación contra el ministro de Energía y Minas por el incremento del precio de los combustibles",
+    "url": "https://www.infobae.com/peru/2026/08/25/juntos-por-el-peru-impulsa-interpelacion-contra-el-ministro-de-energia-y-minas-por-el-incremento-del-precio-de-los-combustibles/",
+    "source": "Infobae",
+    "published": "2026-08-25T17:39:11+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Congreso: buscan interpelar al ministro Shinno por alza de precios de combustibles",
     "url": "https://gestion.pe/peru/politica/congreso-buscan-interpelar-al-ministro-guillermo-shinno-por-alza-de-precios-de-combustibles-noticia/",
@@ -30,20 +51,6 @@
     "source": "El Comercio",
     "published": "2026-08-25T16:56:23+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro Shinno sobre reforma del canon minero: “No habrá dinero en efectivo para la población”",
-    "url": "https://elcomercio.pe/economia/peru/reinfo-shinno-sobre-reforma-del-canon-minero-no-habra-dinero-en-efectivo-para-la-poblacion-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-25T16:11:18+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú presentó moción de interpelación contra ministro de Energía y Minas: es la segunda de este tipo",
-    "url": "https://rpp.pe/politica/congreso/juntos-por-el-peru-presento-mocion-de-interpelacion-contra-ministro-de-energia-y-minas-es-la-segunda-de-este-tipo-noticia-1703510",
-    "source": "RPP",
-    "published": "2026-08-25T09:38:59-05:00",
-    "matched_in": "title"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -51,14 +58,7 @@
     "title": "Ministerio de Justicia crea grupo para revisar las leyes del Congreso anterior sobre criminalidad: ¿qué normas están en la mira?",
     "url": "https://elcomercio.pe/politica/gobierno/ministerio-de-justicia-crea-grupo-para-revisar-las-leyes-del-congreso-anterior-sobre-criminalidad-que-normas-estan-en-la-mira-tlcnota-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-25T15:50:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Beingolea descarta cierre del LUM, ¿pasará al Ministerio de Justicia?",
-    "url": "https://gestion.pe/peru/ministro-alberto-beingolea-descarta-cierre-del-lum-y-niega-pase-al-ministerio-de-justicia-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T22:36:00+00:00",
+    "published": "2026-08-25T19:15:00+00:00",
     "matched_in": "title"
    },
    {
@@ -83,37 +83,9 @@
     "source": "El Comercio",
     "published": "2026-08-25T15:35:49+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro César Astudillo sostiene que eventual moción de interpelación le permitirá \"demostrar el trabajo de la PNP\"",
-    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-sostiene-que-eventual-mocion-de-interpelacion-la-permitira-demostrar-el-trabajo-de-la-pnp-noticia-1703469",
-    "source": "RPP",
-    "published": "2026-08-25T09:30:14-05:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Gobierno de Perú evalúa decretar feriado en noviembre por visita del Papa León XIV",
-    "url": "https://www.infobae.com/peru/2026/08/25/gobierno-de-peru-evalua-decretar-feriado-en-noviembre-por-visita-del-papa-leon-xiv/",
-    "source": "Infobae",
-    "published": "2026-08-25T17:26:49+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Visa digital y pasaporte de emergencia estarán habilitados desde la próxima semana",
-    "url": "https://gestion.pe/peru/cancilleria-visa-digital-y-pasaporte-de-emergencia-estaran-habilitados-desde-la-proxima-semana-dice-ministro-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-25T00:28:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Espá: se acatará renovación de orden de captura contra Betssy Chávez, pero se respetará su asilo",
-    "url": "https://gestion.pe/peru/politica/canciller-espa-se-acatara-renovacion-de-orden-de-captura-contra-betssy-chavez-pero-se-respetara-su-asilo-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-25T00:00:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Canciller Carlos Espá sobre renovación de orden de captura contra Betssy Chávez: “Tiene que seguir su curso”",
     "url": "https://elcomercio.pe/politica/gobierno/betssy-chavez-en-mexico-canciller-carlos-espa-sobre-renovacion-de-orden-de-captura-contra-exprimera-ministra-tiene-que-seguir-su-curso-ultimas-noticia/",
@@ -124,6 +96,13 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Rafael López Aliaga “no ha revisado bien la historia” y desconoce cómo funciona el Estado, afirma premier",
+    "url": "https://www.infobae.com/peru/2026/08/25/rafael-lopez-aliaga-no-ha-revisado-bien-la-historia-y-desconoce-como-funciona-el-estado-afirma-premier/",
+    "source": "Infobae",
+    "published": "2026-08-25T20:04:12+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Luis Galarreta bajo la lupa: aciertos y falsedades del primer ministro ante el Congreso",
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-bajo-la-lupa-aciertos-y-falsedades-del-primer-ministro-ante-el-congreso-noticia/",
     "source": "El Comercio",
@@ -133,10 +112,10 @@
   ],
   "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Beingolea descarta cierre del LUM, ¿pasará al Ministerio de Justicia?",
-    "url": "https://gestion.pe/peru/ministro-alberto-beingolea-descarta-cierre-del-lum-y-niega-pase-al-ministerio-de-justicia-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T22:36:00+00:00",
+    "title": "Ministro de Cultura, Alberto Beingolea, se pronunció sobre el MUNA y cuestionó sus problemas técnicos, acceso y falta de guion museográfico",
+    "url": "https://www.infobae.com/peru/2026/08/25/ministro-de-cultura-alberto-beingolea-se-pronuncio-sobre-el-muna-y-cuestiono-sus-problemas-tecnicos-acceso-y-falta-de-guion-museografico/",
+    "source": "Infobae",
+    "published": "2026-08-25T20:09:38+00:00",
     "matched_in": "title"
    },
    {
@@ -160,13 +139,6 @@
     "url": "https://elcomercio.pe/politica/actualidad/juan-sheput-defiende-permanencia-de-jessica-tumi-mientras-no-se-demuestre-algo-incorrecto-va-a-seguir-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-24T13:26:57+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Juan Sheput se reúne con sindicatos antes de nueva sesión del Consejo Nacional de Trabajo",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-se-reune-con-sindicatos-antes-de-nueva-sesion-del-consejo-nacional-de-trabajo-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-23T17:41:46+00:00",
     "matched_in": "title"
    }
   ],
@@ -204,12 +176,12 @@
     "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "rogers-martin-valencia-espinoza": [
    {
-    "title": "Exoneraciones tributarias bajo la lupa: ¿A cuáles les podría decir “adiós”?",
-    "url": "https://gestion.pe/economia/peru-pone-lupa-sobre-sus-exoneraciones-tributarias-a-cuales-les-podria-decir-adios-el-gobierno-de-keiko-fujimori-noticia/",
+    "title": "Gobierno admite que descolmatación de Piura “recién está empezando”",
+    "url": "https://gestion.pe/economia/el-nino-gobierno-admite-que-descolmatacion-de-piura-recien-esta-empezando-pese-a-conocerse-impacto-desde-mayo-noticia/",
     "source": "Gestión",
-    "published": "2026-08-25T13:49:36+00:00",
+    "published": "2026-08-25T18:43:17+00:00",
     "matched_in": "summary"
    }
   ]
