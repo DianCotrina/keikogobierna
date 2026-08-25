@@ -1,82 +1,37 @@
 {
- "generated": "2026-08-25T05:32:42+00:00",
+ "generated": "2026-08-25T11:28:21+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-08-24",
+ "date": "2026-08-25",
  "articles": [
   {
-   "title": "Keiko Fujimori: Oficialismo critica a JP por interpelar ministros, pero hizo lo mismo con Pedro Castillo",
-   "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-oficialismo-critica-a-jp-por-interpelar-ministros-pero-hizo-lo-mismo-con-pedro-castillo-hnews-393936",
-   "summary": "Mientras Keiko Fujimori tilda de “prematura” la interpelación al ministro Rafael Belaunde, en 2021 su bancada promovió la misma medida contra el Gabinete saliente a solo 15 días de asumir el cargo.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-08-25T02:01:00+00:00",
-   "source": "La República",
-   "captured": "2026-08-25T05:32:42+00:00"
+   "title": "El nuevo orden del poder presidencial",
+   "url": "https://elcomercio.pe/opinion/columnistas/el-nuevo-orden-del-poder-presidencial-por-juan-paredes-castro-noticia/",
+   "summary": "Dentro de la atmósfera de generalizada ansiedad por resultados del gobierno, a solo veintitantos días de su inicio, Keiko Fujimori ha dado un paso decisivo en lo que atañe a su propio mandato presidencial. En una decisión que seguramente ha sido rápida y tajante, ha puesto fin al enredo o “nudo gordiano” de la Presidencia del Consejo de Ministros, que convertía hasta hace poco a cada ocupante del cargo en una figura decorativa o hasta en “primer ministro”, menos en lo que se ajusta a sus reales funciones constitucionales.",
+   "author": "Juan Paredes Castro",
+   "published": "2026-08-25T10:30:00+00:00",
+   "source": "El Comercio",
+   "captured": "2026-08-25T11:28:21+00:00"
   },
   {
-   "title": "Empresario Damián Valenzuela vinculado a Keiko Fujimori asegura que no tiene sentencias",
-   "url": "https://larepublica.pe/politica/2026/08/24/empresario-damian-valenzuela-vinculado-a-keiko-fujimori-asegura-que-no-tiene-sentencias-hnews-1293600",
-   "summary": "El empresario argentino niega tener condenas penales por estafa y exige al semanario y al periodista Eloy Marchán rectificar su reportaje dentro de un plazo de 24 horas, bajo amenaza de querella por difamación agravada.",
+   "title": "Gobierno, expectativas y minería moderna",
+   "url": "https://elcomercio.pe/opinion/columnistas/gobierno-expectativas-y-mineria-moderna-por-ivan-arenas-gobierno-de-keiko-fujimori-noticia/",
+   "summary": "Las expectativas ciudadanas hacia el gobierno han sido y todavía son altas. Orden. Ese era el tema de la campaña fujimorista que indicaba que había un enorme desorden que no es otra cosa que una crisis de autoridad. Las expectativas eran más o menos así: a partir del 28 de julio, Keiko Fujimori venía a poner orden en el caos y terminar la crisis de autoridad. Ha pasado más de un mes y para que exista orden tiene que haber autoridad. Hoy la presidenta no puede retirar al general Arriola, jefe de la Policía Nacional, a quien la realidad lo ha rebasado. Hoy, la lucha contra la criminalidad no funciona. Hoy, la inseguridad es el primer problema nacional.",
+   "author": "Iván Arenas",
+   "published": "2026-08-25T10:30:00+00:00",
+   "source": "El Comercio",
+   "captured": "2026-08-25T11:28:21+00:00"
+  },
+  {
+   "title": "Hildebrandt responde a carta notarial de Damián Valenzuela: \"Este señor cree que habla con un comunicador que se arrastra\"",
+   "url": "https://larepublica.pe/politica/2026/08/24/hildebrandt-responde-a-carta-notarial-de-damian-valenzuela-este-senor-cree-que-habla-con-un-comunicador-que-se-arrastra-hnews-681096",
+   "summary": "César Hildebrandt respondió en su podcast a la carta notarial del empresario Damián Valenzuela, vinculado a la mandataria Keiko Fujimori. Defendió la importancia del caso, aunque admite que es de naturaleza civil.",
    "author": "Eva Palomino",
-   "published": "2026-08-25T00:08:07+00:00",
+   "published": "2026-08-25T10:21:28+00:00",
    "source": "La República",
-   "captured": "2026-08-25T05:32:42+00:00"
-  },
-  {
-   "title": "Keiko Fujimori se reúne con exmandatario de Ecuador Guillermo Lasso para abordar “temas de interés regional”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-se-reune-con-exmandatario-de-ecuador-guillermo-lasso-para-abordar-temas-de-interes-regional-ultimas-noticia/",
-   "summary": "La presidenta de la república, Keiko Fujimori, recibió en Palacio de Gobierno al exmandatario ecuatoriano Guillermo Lasso, donde ambos dialogaron sobre temas de interés regional y asuntos vinculados con el fortalecimiento de los vínculos entre ambos países.",
-   "author": "Redacción EC",
-   "published": "2026-08-24T22:59:36+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-24T23:23:00+00:00"
-  },
-  {
-   "title": "Ministros no precisan cuáles eran las funciones reales del empresario argentino en la campaña de Keiko Fujimori",
-   "url": "https://larepublica.pe/politica/2026/08/24/ministros-no-precisan-cuales-eran-las-funciones-reales-del-empresario-argentino-en-la-campana-de-keiko-fujimori-hnews-772584",
-   "summary": "Mientras el titular del Midagri señaló que Damián Valenzuela conversaba con Fujimori en campaña y no afirmó que haya ejercido como asesor; el ministro de Salud mencionó que era un consejero. Por su parte, el empresario argentino se pronunció en redes sociales y negó contar con sentencias en su contra.",
-   "author": "Josué Chávez Cardoza",
-   "published": "2026-08-24T22:08:58+00:00",
-   "source": "La República",
-   "captured": "2026-08-24T23:23:00+00:00"
-  },
-  {
-   "title": "Congresistas esperan que Gobierno presente pedido de facultades legislativas esta semana",
-   "url": "https://elcomercio.pe/politica/congreso/congresistas-esperan-que-gobierno-presente-pedido-de-facultades-legislativas-esta-semana-ultimas-noticia/",
-   "summary": "Congresistas de diferentes bancadas esperan que el Gobierno de Keiko Fujimori presente esta semana el pedido de facultades legislativas tal y como anunció a inicios de su gestión, mientras que el oficialismo espera que haya consensos a favor de su aprobación.",
-   "author": "",
-   "published": "2026-08-24T17:58:11+00:00",
-   "source": "El Comercio",
-   "captured": "2026-08-24T23:23:00+00:00"
-  },
-  {
-   "title": "Keiko Fujimori cede ante transportistas: anuncia derogación de ley de puntos y reducción al 10% de multas",
-   "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
-   "summary": "La mandataria y el ministro de Transportes, Rafael Rey, se reunieron con gremios de transportistas el 22 de agosto y ofreció beneficios inmediatos sobre multas y papeletas.",
-   "author": "Ariadna Yaya",
-   "published": "2026-08-24T16:46:22+00:00",
-   "source": "La República",
-   "captured": "2026-08-24T17:31:58+00:00"
-  },
-  {
-   "title": "Luis Dyer sobre vínculos entre Keiko Fujimori y Damián Valenzuela: \"No tiene ninguna influencia en el Gobierno\"",
-   "url": "https://larepublica.pe/politica/2026/08/24/luis-dyer-sobre-vinculos-entre-keiko-fujimori-y-damian-valenzuela-no-tiene-ninguna-influencia-en-el-gobierno-hnews-2263080",
-   "summary": "El ministro de Salud calificó el reportaje de la presidenta y el empresario argentino como un \"chisme de peluquería\" y afirmó que Valenzuela presentará una carta notarial al semanario H13.",
-   "author": "Josué Chávez Cardoza",
-   "published": "2026-08-24T16:38:08+00:00",
-   "source": "La República",
-   "captured": "2026-08-24T17:31:58+00:00"
-  },
-  {
-   "title": "Damián Valenzuela Mayer: ¿Quién es el empresario argentino que fue al spa con Keiko Fujimori?",
-   "url": "https://larepublica.pe/politica/2026/08/24/damian-valenzuela-mayer-quien-es-el-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-hnews-1465368",
-   "summary": "La presidenta Fujimori confirmó que acudió al spa Tomyko con el empresario de 51 años. Estuvo presente en la asunción de mando en el Congreso y la juramentación de ministros el 28 de julio. Según H13, Valenzuela Mayer cuenta con sentencias judiciales en Estados Unidos y Uruguay.",
-   "author": "Josué Chávez Cardoza",
-   "published": "2026-08-24T13:54:32+00:00",
-   "source": "La República",
-   "captured": "2026-08-24T17:31:58+00:00"
+   "captured": "2026-08-25T11:28:21+00:00"
   }
  ]
 }

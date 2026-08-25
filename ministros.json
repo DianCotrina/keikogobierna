@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T05:32:42+00:00",
+ "generated": "2026-08-25T11:28:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,43 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministerio de Justicia crea grupo para revisar las leyes del Congreso anterior sobre criminalidad: ¿qué normas están en la mira?",
+    "url": "https://elcomercio.pe/politica/gobierno/ministerio-de-justicia-crea-grupo-para-revisar-las-leyes-del-congreso-anterior-sobre-criminalidad-que-normas-estan-en-la-mira-tlcnota-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-25T11:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea descarta cierre del LUM, ¿pasará al Ministerio de Justicia?",
+    "url": "https://gestion.pe/peru/ministro-alberto-beingolea-descarta-cierre-del-lum-y-niega-pase-al-ministerio-de-justicia-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-24T22:36:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea dice que Lugar de la Memoria no será cerrado ni pasará al Ministerio de Justicia, pero requiere cambios",
+    "url": "https://rpp.pe/politica/gobierno/lugar-de-la-memoria-beingolea-dice-que-no-se-cerrara-el-lum-ni-pasara-al-ministerio-de-justicia-pero-requiere-cambios-noticia-1703339",
+    "source": "RPP",
+    "published": "2026-08-24T17:10:00-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Beingolea contradice a Álvarez y rechaza que el LUM pase a Justicia: “No hay ninguna conversación”",
+    "url": "https://larepublica.pe/politica/2026/08/24/beingolea-contradice-a-alvarez-y-rechaza-que-el-lum-pase-a-justicia-no-hay-ninguna-conversacion-hnews-1456800",
+    "source": "La República",
+    "published": "2026-08-24T19:27:10+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea niega disputa con Ernesto Álvarez por LUM: “No hay ninguna conversación siquiera al respecto, no hay nada”",
+    "url": "https://elcomercio.pe/politica/actualidad/alberto-beingolea-niega-disputa-con-ernesto-alvarez-por-lum-no-hay-ninguna-conversacion-siquiera-al-respecto-no-hay-nada-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-24T15:43:54+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Visa digital y pasaporte de emergencia estarán habilitados desde la próxima semana",
@@ -38,36 +75,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-bajo-la-lupa-aciertos-y-falsedades-del-primer-ministro-ante-el-congreso-noticia/",
     "source": "El Comercio",
     "published": "2026-08-24T20:18:07+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Beingolea descarta cierre del LUM, ¿pasará al Ministerio de Justicia?",
-    "url": "https://gestion.pe/peru/ministro-alberto-beingolea-descarta-cierre-del-lum-y-niega-pase-al-ministerio-de-justicia-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T22:36:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Beingolea dice que Lugar de la Memoria no será cerrado ni pasará al Ministerio de Justicia, pero requiere cambios",
-    "url": "https://rpp.pe/politica/gobierno/lugar-de-la-memoria-beingolea-dice-que-no-se-cerrara-el-lum-ni-pasara-al-ministerio-de-justicia-pero-requiere-cambios-noticia-1703339",
-    "source": "RPP",
-    "published": "2026-08-24T17:10:00-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Beingolea contradice a Álvarez y rechaza que el LUM pase a Justicia: “No hay ninguna conversación”",
-    "url": "https://larepublica.pe/politica/2026/08/24/beingolea-contradice-a-alvarez-y-rechaza-que-el-lum-pase-a-justicia-no-hay-ninguna-conversacion-hnews-1456800",
-    "source": "La República",
-    "published": "2026-08-24T19:27:10+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea niega disputa con Ernesto Álvarez por LUM: “No hay ninguna conversación siquiera al respecto, no hay nada”",
-    "url": "https://elcomercio.pe/politica/actualidad/alberto-beingolea-niega-disputa-con-ernesto-alvarez-por-lum-no-hay-ninguna-conversacion-siquiera-al-respecto-no-hay-nada-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-24T15:43:54+00:00",
     "matched_in": "title"
    }
   ],
@@ -161,6 +168,22 @@
     "matched_in": "title"
    }
   ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Luis Dyer sobre vínculos entre Keiko Fujimori y Damián Valenzuela: \"No tiene ninguna influencia en el Gobierno\"",
+    "url": "https://larepublica.pe/politica/2026/08/24/luis-dyer-sobre-vinculos-entre-keiko-fujimori-y-damian-valenzuela-no-tiene-ninguna-influencia-en-el-gobierno-hnews-2263080",
+    "source": "La República",
+    "published": "2026-08-25T10:13:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cuatro de 25 hospitales de Lima se interconectarán para agilizar citas e historias clínicas",
+    "url": "https://gestion.pe/peru/minsa-citas-en-hospitales-publicos-4-de-25-hospitales-de-lima-se-interconectaran-para-agilizar-citas-e-historias-clinicas-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-24T21:20:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "guillermo-shinno-huamani": [
    {
     "title": "Congreso plantea interpelar a ministro de Energía y Minas por alza de combustibles y protestas de transportistas",
@@ -170,7 +193,7 @@
     "matched_in": "title"
    },
    {
-    "title": "Gobierno cierra la puerta, por ahora, a una gestión privada en Petroperú: “Hoy no está pensado”, afirmó el titular del Minem",
+    "title": "Gobierno descarta, por ahora, una gestión privada en Petroperú: “Hoy no está pensado”, afirmó el titular del Minem",
     "url": "https://rpp.pe/economia/economia/petroperu-gobierno-descarta-por-ahora-una-administracion-privada-en-la-refineria-de-talara-noticia-1703436",
     "source": "RPP",
     "published": "2026-08-24T20:19:37-05:00",
@@ -184,22 +207,6 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Cuatro de 25 hospitales de Lima se interconectarán para agilizar citas e historias clínicas",
-    "url": "https://gestion.pe/peru/minsa-citas-en-hospitales-publicos-4-de-25-hospitales-de-lima-se-interconectaran-para-agilizar-citas-e-historias-clinicas-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T21:20:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Luis Dyer sobre vínculos entre Keiko Fujimori y Damián Valenzuela: \"No tiene ninguna influencia en el Gobierno\"",
-    "url": "https://larepublica.pe/politica/2026/08/24/luis-dyer-sobre-vinculos-entre-keiko-fujimori-y-damian-valenzuela-no-tiene-ninguna-influencia-en-el-gobierno-hnews-2263080",
-    "source": "La República",
-    "published": "2026-08-24T21:13:36+00:00",
-    "matched_in": "title"
-   }
-  ],
   "rafael-rey-rey": [
    {
     "title": "Keiko Fujimori cede ante transportistas: eliminará ley de puntos y reducirá multas al 10% para evitar paro",
@@ -210,6 +217,13 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro César Astudillo sostiene que eventual moción de interpelación le permitirá \"demostrar el trabajo de la PNP\"",
+    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-sostiene-que-eventual-mocion-de-interpelacion-la-permitira-demostrar-el-trabajo-de-la-pnp-noticia-1703469",
+    "source": "RPP",
+    "published": "2026-08-25T05:55:14-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
     "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
