@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T23:23:00+00:00",
+ "generated": "2026-08-25T05:32:42+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,32 +11,25 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Canciller Carlos Espá sobre renovación de orden de captura contra Betssy Chávez: “Tiene que seguir su curso”",
-    "url": "https://elcomercio.pe/politica/gobierno/betssy-chavez-en-mexico-canciller-carlos-espa-sobre-renovacion-de-orden-de-captura-contra-exprimera-ministra-tiene-que-seguir-su-curso-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-24T22:33:39+00:00",
-    "matched_in": "title"
+    "title": "Visa digital y pasaporte de emergencia estarán habilitados desde la próxima semana",
+    "url": "https://gestion.pe/peru/cancilleria-visa-digital-y-pasaporte-de-emergencia-estaran-habilitados-desde-la-proxima-semana-dice-ministro-carlos-espa-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-25T00:28:00+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Espá: se acatará renovación de orden de captura contra Betssy Chávez, pero se respetará su asilo",
     "url": "https://gestion.pe/peru/politica/canciller-espa-se-acatara-renovacion-de-orden-de-captura-contra-betssy-chavez-pero-se-respetara-su-asilo-noticia/",
     "source": "Gestión",
-    "published": "2026-08-24T19:59:05+00:00",
+    "published": "2026-08-25T00:00:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Papa León XIV celebrará misa multitudinaria en la Base Aérea Las Palmas el 16 de noviembre, confirmó canciller",
-    "url": "https://rpp.pe/lima/actualidad/papa-leon-xiv-celebrara-misa-multitudinaria-en-la-base-aerea-las-palmas-el-16-de-noviembre-confirmo-canciller-noticia-1703367",
-    "source": "RPP",
-    "published": "2026-08-24T13:49:59-05:00",
+    "title": "Canciller Carlos Espá sobre renovación de orden de captura contra Betssy Chávez: “Tiene que seguir su curso”",
+    "url": "https://elcomercio.pe/politica/gobierno/betssy-chavez-en-mexico-canciller-carlos-espa-sobre-renovacion-de-orden-de-captura-contra-exprimera-ministra-tiene-que-seguir-su-curso-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-24T22:33:39+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Visa digital y pasaporte de emergencia estarán habilitados desde la próxima semana",
-    "url": "https://gestion.pe/peru/cancilleria-visa-digital-y-pasaporte-de-emergencia-estaran-habilitados-desde-la-proxima-semana-dice-ministro-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-24T18:28:09+00:00",
-    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -168,6 +161,29 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Congreso plantea interpelar a ministro de Energía y Minas por alza de combustibles y protestas de transportistas",
+    "url": "https://larepublica.pe/politica/2026/08/24/congreso-plantea-interpelar-a-ministro-de-energia-y-minas-por-alza-de-combustibles-y-protestas-de-transportistas-hnews-2038080",
+    "source": "La República",
+    "published": "2026-08-25T02:47:38+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno cierra la puerta, por ahora, a una gestión privada en Petroperú: “Hoy no está pensado”, afirmó el titular del Minem",
+    "url": "https://rpp.pe/economia/economia/petroperu-gobierno-descarta-por-ahora-una-administracion-privada-en-la-refineria-de-talara-noticia-1703436",
+    "source": "RPP",
+    "published": "2026-08-24T20:19:37-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“El Reinfo debe tener un punto final”: Minem presentará nueva Ley Mape en noviembre para formalizar a mineros artesanales",
+    "url": "https://rpp.pe/economia/economia/ley-mape-minem-presenta-nueva-ley-para-formalizar-a-mineros-artesanales-y-acabar-con-reinfo-noticia-1703429",
+    "source": "RPP",
+    "published": "2026-08-24T18:47:54-05:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-williams-dyer-fernandez": [
    {
     "title": "Cuatro de 25 hospitales de Lima se interconectarán para agilizar citas e historias clínicas",
@@ -191,13 +207,6 @@
     "source": "La República",
     "published": "2026-08-24T18:56:02+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Rafael Rey descarta oposición a uso de trenes Caltrain y anuncia que ProInversión evaluará su viabilidad",
-    "url": "https://larepublica.pe/politica/2026/08/22/rafael-rey-descarta-oposicion-a-uso-de-trenes-caltrain-y-anuncia-que-proinversion-evaluara-su-viabilidad-hnews-1944998",
-    "source": "La República",
-    "published": "2026-08-22T23:38:51+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -209,13 +218,13 @@
     "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
+  "mauricio-fernando-arnillas-gonzalez": [
    {
-    "title": "Keiko Fujimori supervisa reinicio de clases en colegios afectados por lluvias en Lima Sur",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-supervisa-reinicio-de-clases-en-colegios-afectados-por-lluvias-en-lima-sur-noticia-1703363",
-    "source": "RPP",
-    "published": "2026-08-24T13:48:11-05:00",
-    "matched_in": "summary"
+    "title": "Ministerio de Vivienda: dirigentes de construcción civil rechazan vínculos con bandas delictivas y mantienen distancia con CAPECO",
+    "url": "https://www.infobae.com/peru/2026/08/25/ministerio-de-vivienda-dirigentes-de-construccion-civil-rechazan-vinculos-con-bandas-delictivas-y-mantienen-distancia-con-capeco/",
+    "source": "Infobae",
+    "published": "2026-08-25T00:17:44+00:00",
+    "matched_in": "title"
    }
   ]
  }
