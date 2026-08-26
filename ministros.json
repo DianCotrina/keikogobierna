@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T23:25:25+00:00",
+ "generated": "2026-08-26T05:34:58+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,31 +11,10 @@
  "ministers": {
   "guillermo-shinno-huamani": [
    {
-    "title": "Ministro Shinno sobre reforma del canon minero: “No habrá dinero en efectivo para la población”",
-    "url": "https://elcomercio.pe/economia/peru/reinfo-shinno-sobre-reforma-del-canon-minero-no-habra-dinero-en-efectivo-para-la-poblacion-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-25T22:21:35+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Minem evalúa nuevas reglas en concesiones mineras: titulares tendrían que pagar una fianza para evitar la especulación",
-    "url": "https://rpp.pe/economia/economia/mineria-en-peru-minem-evalua-nuevas-reglas-concesiones-mineras-pago-de-fianzas-para-evitar-especulacion-noticia-1703622",
-    "source": "RPP",
-    "published": "2026-08-25T15:56:43-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú impulsa interpelación contra el ministro de Energía y Minas por el incremento del precio de los combustibles",
-    "url": "https://www.infobae.com/peru/2026/08/25/juntos-por-el-peru-impulsa-interpelacion-contra-el-ministro-de-energia-y-minas-por-el-incremento-del-precio-de-los-combustibles/",
-    "source": "Infobae",
-    "published": "2026-08-25T17:39:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Congreso: buscan interpelar al ministro Shinno por alza de precios de combustibles",
+    "title": "Shinno sobre su interpelación: “Si prospera, acudiré, aunque no entiendo las razones”",
     "url": "https://gestion.pe/peru/politica/congreso-buscan-interpelar-al-ministro-guillermo-shinno-por-alza-de-precios-de-combustibles-noticia/",
     "source": "Gestión",
-    "published": "2026-08-25T17:11:03+00:00",
+    "published": "2026-08-26T03:44:12+00:00",
     "matched_in": "title"
    },
    {
@@ -78,10 +57,24 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
+    "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
+    "source": "La República",
+    "published": "2026-08-26T01:41:24+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro del Interior afirma que el año pasado hubo 500 homicidios más, pero las cifras no cuadran",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-del-interior-afirma-que-el-ano-pasado-hubo-500-homicidios-mas-pero-las-cifras-no-cuadran-noticia/",
     "source": "El Comercio",
     "published": "2026-08-25T15:35:49+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Astudillo dice que esta impedido de cambiar al jefe de la PNP por ley del Congreso anterior: \"Aquí no ha habido ratificaciones\"",
+    "url": "https://rpp.pe/politica/gobierno/astudillo-ley-impide-remocion-comandante-general-pnp-oscar-arriola-noticia-1702803",
+    "source": "RPP",
+    "published": "2026-08-20T22:44:02-05:00",
     "matched_in": "title"
    }
   ],
@@ -128,18 +121,34 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Reducir cuatro feriados de las Fuerzas Armadas a uno solo: La propuesta que sugiere el MTPE",
-    "url": "https://www.infobae.com/peru/2026/08/25/reducir-cuatro-feriados-de-las-fuerzas-armadas-a-uno-solo-la-propuesta-que-sugiere-el-mtpe/",
-    "source": "Infobae",
-    "published": "2026-08-25T17:06:46+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Juan Sheput defiende permanencia de Jessica Tumi: “Mientras no se demuestre algo incorrecto, va a seguir”",
     "url": "https://elcomercio.pe/politica/actualidad/juan-sheput-defiende-permanencia-de-jessica-tumi-mientras-no-se-demuestre-algo-incorrecto-va-a-seguir-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-24T13:26:57+00:00",
     "matched_in": "title"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "Reducción de multas de tránsito: ¿Qué infracciones fueron excluidas por el MTC?",
+    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-26T05:01:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de transporte será citado en el congreso tras anunciar descuento del 90% en papeletas",
+    "url": "https://elcomercio.pe/lima/ministro-de-transporte-sera-citado-en-el-congreso-tras-anunciar-descuento-del-90-en-papeletas-rafael-rey-mtc-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-26T02:53:25+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori cede ante transportistas: eliminará ley de puntos y reducirá multas al 10% para evitar paro",
+    "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
+    "source": "La República",
+    "published": "2026-08-26T02:46:43+00:00",
+    "matched_in": "summary"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -167,21 +176,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
-   {
-    "title": "Keiko Fujimori cede ante transportistas: eliminará ley de puntos y reducirá multas al 10% para evitar paro",
-    "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
-    "source": "La República",
-    "published": "2026-08-24T18:56:02+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "rogers-martin-valencia-espinoza": [
    {
     "title": "Gobierno admite que descolmatación de Piura “recién está empezando”",
     "url": "https://gestion.pe/economia/el-nino-gobierno-admite-que-descolmatacion-de-piura-recien-esta-empezando-pese-a-conocerse-impacto-desde-mayo-noticia/",
     "source": "Gestión",
-    "published": "2026-08-25T18:43:17+00:00",
+    "published": "2026-08-25T23:56:23+00:00",
     "matched_in": "summary"
    }
   ]
