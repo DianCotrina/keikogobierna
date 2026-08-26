@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T05:34:58+00:00",
+ "generated": "2026-08-26T11:30:34+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -60,7 +60,7 @@
     "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
     "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
     "source": "La República",
-    "published": "2026-08-26T01:41:24+00:00",
+    "published": "2026-08-26T10:00:00+00:00",
     "matched_in": "title"
    },
    {
@@ -89,13 +89,6 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
-    "title": "Rafael López Aliaga “no ha revisado bien la historia” y desconoce cómo funciona el Estado, afirma premier",
-    "url": "https://www.infobae.com/peru/2026/08/25/rafael-lopez-aliaga-no-ha-revisado-bien-la-historia-y-desconoce-como-funciona-el-estado-afirma-premier/",
-    "source": "Infobae",
-    "published": "2026-08-25T20:04:12+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Luis Galarreta bajo la lupa: aciertos y falsedades del primer ministro ante el Congreso",
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-bajo-la-lupa-aciertos-y-falsedades-del-primer-ministro-ante-el-congreso-noticia/",
     "source": "El Comercio",
@@ -104,13 +97,6 @@
    }
   ],
   "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Ministro de Cultura, Alberto Beingolea, se pronunció sobre el MUNA y cuestionó sus problemas técnicos, acceso y falta de guion museográfico",
-    "url": "https://www.infobae.com/peru/2026/08/25/ministro-de-cultura-alberto-beingolea-se-pronuncio-sobre-el-muna-y-cuestiono-sus-problemas-tecnicos-acceso-y-falta-de-guion-museografico/",
-    "source": "Infobae",
-    "published": "2026-08-25T20:09:38+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Alberto Beingolea niega disputa con Ernesto Álvarez por LUM: “No hay ninguna conversación siquiera al respecto, no hay nada”",
     "url": "https://elcomercio.pe/politica/actualidad/alberto-beingolea-niega-disputa-con-ernesto-alvarez-por-lum-no-hay-ninguna-conversacion-siquiera-al-respecto-no-hay-nada-ultimas-noticia/",
@@ -130,6 +116,13 @@
   ],
   "rafael-rey-rey": [
    {
+    "title": "Keiko Fujimori cede ante transportistas: eliminará ley de puntos y reducirá multas al 10% para evitar paro",
+    "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
+    "source": "La República",
+    "published": "2026-08-26T10:46:00+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Reducción de multas de tránsito: ¿Qué infracciones fueron excluidas por el MTC?",
     "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
     "source": "El Comercio",
@@ -142,13 +135,6 @@
     "source": "El Comercio",
     "published": "2026-08-26T02:53:25+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori cede ante transportistas: eliminará ley de puntos y reducirá multas al 10% para evitar paro",
-    "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
-    "source": "La República",
-    "published": "2026-08-26T02:46:43+00:00",
-    "matched_in": "summary"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -167,13 +153,22 @@
     "source": "La República",
     "published": "2026-08-24T20:44:58+00:00",
     "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Las obsesiones del MEF",
+    "url": "https://gestion.pe/opinion/las-obsesiones-del-mef-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-26T11:00:00+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Marco Vinelli asegura que fusión de ministerios no forma parte del pedido de facultades legislativas al Congreso",
-    "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-asegura-que-fusion-de-ministerios-no-forma-parte-del-pedido-de-facultades-legislativas-al-congreso-hnews-1219828",
-    "source": "La República",
-    "published": "2026-08-24T10:16:00+00:00",
-    "matched_in": "title"
+    "title": "Número de ministerios en el radar: se reactivaría el de Pesca, ¿y qué pasaría con el resto?",
+    "url": "https://gestion.pe/economia/numero-de-ministerios-en-el-radar-se-reactivaria-el-de-pesca-y-que-pasaria-con-el-resto-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-26T10:11:00+00:00",
+    "matched_in": "summary"
    }
   ],
   "rogers-martin-valencia-espinoza": [
