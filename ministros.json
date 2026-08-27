@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T19:04:36+00:00",
+ "generated": "2026-08-27T04:20:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,77 @@
   "Infobae"
  ],
  "ministers": {
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Juntos por el Perú retira moción de interpelación contra ministro de Energía y Minas",
+    "url": "https://gestion.pe/peru/juntos-por-el-peru-retira-mocion-de-interpelacion-contra-ministro-de-energia-y-minas-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-27T03:16:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú retira moción contra ministro de Energía y Minas mientras congresistas de bancadas aliadas marcan distancia",
+    "url": "https://elcomercio.pe/politica/congreso/juntos-por-el-peru-retira-mocion-contra-ministro-de-energia-y-minas-mientras-congresistas-de-bancadas-aliadas-marcan-distancia-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T00:39:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Guillermo Shinno, ministro de Energía: “Nunca ha estado ni está en la agenda la privatización de Petroperú”",
+    "url": "https://www.infobae.com/peru/2026/08/26/guillermo-shinno-ministro-de-energia-nunca-ha-estado-ni-esta-en-la-agenda-la-privatizacion-de-petroperu/",
+    "source": "Infobae",
+    "published": "2026-08-26T22:55:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Combustibles al alza: precios suben por quinta vez en el mes y así se ven en los grifos",
+    "url": "https://gestion.pe/economia/combustibles-precios-suben-por-quinta-vez-en-el-mes-e-impacta-en-grifos-mientras-peru-enfrenta-protestas-y-una-eventual-interpelacion-al-minem-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-26T22:13:57+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Juntos por el Perú retrocede con interpelación a Guillermo Shinno Huamaní, ministro de Energía y Minas",
+    "url": "https://larepublica.pe/politica/2026/08/26/juntos-por-el-peru-retrocede-con-interpelacion-a-guillermo-shinno-huamani-ministro-de-energia-y-minas-hnews-883896",
+    "source": "La República",
+    "published": "2026-08-26T21:55:05+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Shinno no descarta una nueva ampliación del Reinfo, pero no sería para el 100%",
+    "url": "https://gestion.pe/economia/ministro-de-energia-y-minas-guillermo-shinno-no-descarta-una-nueva-ampliacion-del-reinfo-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-26T21:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Energía y Minas no descarta ampliación de Reinfo al 2027: “No para el 100% sino para los que están en proceso de formalización”",
+    "url": "https://elcomercio.pe/politica/actualidad/ministro-de-energia-y-minas-no-descarta-ampliacion-de-reinfo-al-2027-no-para-el-100-sino-para-los-que-estan-en-proceso-de-formalizacion-guillermo-shinno-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-26T15:15:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Congreso plantea interpelar a ministro de Energía y Minas por alza de combustibles y protestas de transportistas",
+    "url": "https://larepublica.pe/politica/2026/08/24/congreso-plantea-interpelar-a-ministro-de-energia-y-minas-por-alza-de-combustibles-y-protestas-de-transportistas-hnews-2038080",
+    "source": "La República",
+    "published": "2026-08-25T17:10:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú presenta moción de interpelación contra Guillermo Shinno, ministro de Energía y Minas",
+    "url": "https://elcomercio.pe/economia/peru/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-guillermo-shinno-ministro-de-energia-y-minas-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-25T16:56:23+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "JP presenta dos mociones y prepara una tercera: Es el mayor número de interpelaciones a ministros durante el primer mes de gobierno en los últimos 15 años",
     "url": "https://elcomercio.pe/politica/jp-presenta-dos-mociones-y-prepara-una-tercera-es-el-mayor-numero-de-interpelaciones-a-ministros-durante-el-primer-mes-de-gobierno-en-los-ultimos-15-anos-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-26T16:17:34+00:00",
+    "published": "2026-08-26T20:01:30+00:00",
     "matched_in": "summary"
    },
    {
@@ -34,11 +99,32 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Gobierno evalúa declarar feriados y permisos laborales por visita del Papa León XIV al Perú en noviembre",
-    "url": "https://rpp.pe/economia/economia/leon-xiv-en-peru-gobierno-evalua-declarar-feriados-y-permisos-laborales-por-visita-papal-en-noviembre-noticia-1703813",
+    "title": "Ministro Juan Sheput dice que aún no se define fecha para aumento del sueldo mínimo",
+    "url": "https://gestion.pe/peru/politica/ministro-juan-sheput-dice-que-aun-no-se-define-fecha-para-aumento-del-sueldo-minimo-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-27T04:01:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Juan Sheput sobre feriados por visita del Papa: \"No creo que Elmer Cuba se caiga de espaldas\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-ministro-senala-que-elmer-cuba-apoyaria-la-idea-de-decretar-feriados-por-visita-del-papa-leon-xiv-noticia-1703918",
     "source": "RPP",
-    "published": "2026-08-26T13:43:01-05:00",
+    "published": "2026-08-26T22:49:44-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno evalúa declarar feriados en noviembre por la visita del papa León XIV al Perú",
+    "url": "https://elcomercio.pe/lima/sucesos/el-papa-leon-xiv-en-el-peru-gobierno-evalua-declarar-feriados-durante-la-visita-del-santo-padre-juan-sheput-mtpe-carlos-espa-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T02:53:08+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Aumento del sueldo mínimo a S/1.300: Ministro de Trabajo Juan Sheput señala que aún no se tiene fecha definida",
+    "url": "https://rpp.pe/economia/economia/sueldo-minimo-en-peru-a-1300-soles-ministro-juan-sheput-asegura-no-tiene-fecha-definida-aun-noticia-1703873",
+    "source": "RPP",
+    "published": "2026-08-26T16:26:48-05:00",
+    "matched_in": "title"
    },
    {
     "title": "Juan Sheput dice que es “insólito” que Juntos por el Perú promueva tres interpelaciones: “Son por lo menos exageradas”",
@@ -55,112 +141,38 @@
     "source": "El Comercio",
     "published": "2026-08-26T16:20:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Beingolea contradice a Álvarez y rechaza que el LUM pase a Justicia: “No hay ninguna conversación”",
-    "url": "https://larepublica.pe/politica/2026/08/24/beingolea-contradice-a-alvarez-y-rechaza-que-el-lum-pase-a-justicia-no-hay-ninguna-conversacion-hnews-1456800",
-    "source": "La República",
-    "published": "2026-08-24T19:27:10+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Ministro Shinno sobre reforma del canon minero: “No habrá dinero en efectivo para la población”",
-    "url": "https://elcomercio.pe/economia/peru/reinfo-shinno-sobre-reforma-del-canon-minero-no-habra-dinero-en-efectivo-para-la-poblacion-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-26T18:50:07+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Combustibles al alza: precios suben por quinta vez en el mes y así se ven en los grifos",
-    "url": "https://gestion.pe/economia/combustibles-precios-suben-por-quinta-vez-en-el-mes-e-impacta-en-grifos-mientras-peru-enfrenta-protestas-y-una-eventual-interpelacion-al-minem-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-26T17:17:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Shinno no descarta una nueva ampliación del Reinfo, pero no sería para el 100%",
-    "url": "https://gestion.pe/economia/ministro-de-energia-y-minas-guillermo-shinno-no-descarta-una-nueva-ampliacion-del-reinfo-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-26T16:00:28+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Energía y Minas no descarta ampliación de Reinfo al 2027: “No para el 100% sino para los que están en proceso de formalización”",
-    "url": "https://elcomercio.pe/politica/actualidad/ministro-de-energia-y-minas-no-descarta-ampliacion-de-reinfo-al-2027-no-para-el-100-sino-para-los-que-estan-en-proceso-de-formalizacion-guillermo-shinno-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-26T15:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Shinno sobre su interpelación: “Si prospera, acudiré, aunque no entiendo las razones”",
-    "url": "https://gestion.pe/peru/politica/congreso-buscan-interpelar-al-ministro-guillermo-shinno-por-alza-de-precios-de-combustibles-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-26T12:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Congreso plantea interpelar a ministro de Energía y Minas por alza de combustibles y protestas de transportistas",
-    "url": "https://larepublica.pe/politica/2026/08/24/congreso-plantea-interpelar-a-ministro-de-energia-y-minas-por-alza-de-combustibles-y-protestas-de-transportistas-hnews-2038080",
-    "source": "La República",
-    "published": "2026-08-25T17:10:55+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú presenta moción de interpelación contra Guillermo Shinno, ministro de Energía y Minas",
-    "url": "https://elcomercio.pe/economia/peru/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-guillermo-shinno-ministro-de-energia-y-minas-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-25T16:56:23+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Canciller Carlos Espá sobre renovación de orden de captura contra Betssy Chávez: “Tiene que seguir su curso”",
-    "url": "https://elcomercio.pe/politica/gobierno/betssy-chavez-en-mexico-canciller-carlos-espa-sobre-renovacion-de-orden-de-captura-contra-exprimera-ministra-tiene-que-seguir-su-curso-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-24T22:33:39+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Paro en Loreto cumple 48 horas y podría ser indefinido: manifestantes piden que vaya Keiko Fujimori o el premier Luis Galarreta",
-    "url": "https://www.infobae.com/peru/2026/08/26/paro-en-loreto-cumple-48-horas-y-podria-ser-indefinido-manifestantes-piden-que-vaya-keiko-fujimori-o-el-premier-luis-galarreta/",
-    "source": "Infobae",
-    "published": "2026-08-26T17:29:34+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta bajo la lupa: aciertos y falsedades del primer ministro ante el Congreso",
-    "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-bajo-la-lupa-aciertos-y-falsedades-del-primer-ministro-ante-el-congreso-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-24T20:18:07+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
+   {
+    "title": "Reducción de multas de tránsito: ¿Qué infracciones fueron excluidas por el MTC?",
+    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T02:20:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Rey planteó sumar a empresas telefónicas y bancos en lucha contra la delincuencia",
+    "url": "https://gestion.pe/peru/politica/ministro-rey-planteo-sumar-a-empresas-telefonicas-y-bancos-en-lucha-contra-la-delincuencia-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-27T00:45:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori cede ante transportistas: eliminará ley de puntos y reducirá multas al 10% para evitar paro",
     "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
     "source": "La República",
     "published": "2026-08-26T18:21:17+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Ministro Rey dice que multas de tránsito “son abusivas”: MTC alista corrección de criterios",
-    "url": "https://gestion.pe/peru/ministro-rafael-rey-dice-que-multas-de-transito-son-abusivas-mtc-alista-correccion-de-criterios-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-26T18:05:04+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Se debe reenfocar propuesta para bloquear señal de celulares en penales, dice Rafael Rey",
-    "url": "https://rpp.pe/politica/gobierno/se-debe-reenfocar-propuesta-para-bloquear-senal-de-celulares-en-penales-dice-rafael-rey-noticia-1703757",
-    "source": "RPP",
-    "published": "2026-08-26T12:10:48-05:00",
-    "matched_in": "title"
+    "title": "Juntos por el Perú retrocede con interpelación a Guillermo Shinno Huamaní, ministro de Energía y Minas",
+    "url": "https://larepublica.pe/politica/2026/08/26/juntos-por-el-peru-retrocede-con-interpelacion-a-guillermo-shinno-huamani-ministro-de-energia-y-minas-hnews-883896",
+    "source": "La República",
+    "published": "2026-08-26T21:55:05+00:00",
+    "matched_in": "summary"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -172,35 +184,21 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Marco Vinelli confirma que empresario argentino que fue al spa con Keiko Fujimori participó en la campaña",
-    "url": "https://larepublica.pe/politica/2026/08/23/marco-vinelli-confirma-que-empresario-argentino-que-fue-al-spa-con-keiko-fujimori-participo-en-la-campana-hnews-1209869",
-    "source": "La República",
-    "published": "2026-08-24T20:44:58+00:00",
-    "matched_in": "title"
+    "title": "Perú y Bolivia anuncian pronta vigencia de paso fronterizo Collpa - Thola Kollo",
+    "url": "https://gestion.pe/peru/politica/peru-y-bolivia-anuncian-pronta-vigencia-de-paso-fronterizo-collpa-thola-kollo-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-27T03:30:00+00:00",
+    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Elmer Cuba sobre regímenes tributarios para mypes como el RUS y el RER: \"Ha llegado la hora de cambiarlos\"",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-anuncia-fin-de-regimenes-tributarios-para-mypes-como-el-rus-y-el-rer-ha-llegado-la-hora-de-cambiarlos-noticia-1703727",
-    "source": "RPP",
-    "published": "2026-08-26T08:15:00-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Las obsesiones del MEF",
-    "url": "https://gestion.pe/opinion/las-obsesiones-del-mef-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-26T11:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Número de ministerios en el radar: se reactivaría el de Pesca, ¿y qué pasaría con el resto?",
+    "title": "¿Fujimori reducirá ministerios?: plan de Gobierno considera reactivar el de Pesca, ¿y el resto?",
     "url": "https://gestion.pe/economia/numero-de-ministerios-en-el-radar-se-reactivaria-el-de-pesca-y-que-pasaria-con-el-resto-noticia/",
     "source": "Gestión",
-    "published": "2026-08-26T10:11:00+00:00",
+    "published": "2026-08-26T23:44:00+00:00",
     "matched_in": "summary"
    }
   ]
