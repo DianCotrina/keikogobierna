@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T01:18:56+00:00",
+ "generated": "2026-08-28T17:11:04+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,17 +11,17 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Estado de emergencia en Lima y Callao continuará por 60 días, confirma ministro del Interior",
+    "title": "Gobierno declara estado de emergencia en Lima y Callao por 60 días: los detalles",
     "url": "https://gestion.pe/peru/estado-de-emergencia-en-lima-y-callao-continuara-por-60-dias-confirma-ministro-del-interior-noticia/",
     "source": "Gestión",
-    "published": "2026-08-28T00:43:58+00:00",
-    "matched_in": "title"
+    "published": "2026-08-28T12:50:24+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Estado de emergencia en Lima y Callao: Gobierno implementará nueva medida por 60 días, confirma ministro del Interior",
     "url": "https://www.infobae.com/peru/2026/08/28/estado-de-emergencia-en-lima-y-callao-gobierno-implementara-nueva-medida-por-60-dias-confirma-ministro-del-interior/",
     "source": "Infobae",
-    "published": "2026-08-28T00:33:39+00:00",
+    "published": "2026-08-28T02:38:31+00:00",
     "matched_in": "title"
    },
    {
@@ -37,23 +37,9 @@
     "source": "La República",
     "published": "2026-08-27T18:39:37+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
-    "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
-    "source": "La República",
-    "published": "2026-08-26T10:00:00+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
-   {
-    "title": "Editorial de Gestión: Reinfo sin fin",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-reinfo-sin-fin-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-27T23:06:36+00:00",
-    "matched_in": "summary"
-   },
    {
     "title": "¿Hacia una sexta ampliación?: Gobierno prevé presentar propuesta de Ley MAPE recién en noviembre, al límite del fin del Reinfo",
     "url": "https://elcomercio.pe/politica/sexta-ampliacion-del-reinfo-hacia-una-sexta-ampliacion-gobierno-preve-presentar-propuesta-de-ley-mape-recien-en-noviembre-al-limite-del-fin-del-reinfo-noticia/",
@@ -81,13 +67,6 @@
     "source": "La República",
     "published": "2026-08-26T21:55:05+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Energía y Minas no descarta ampliación de Reinfo al 2027: “No para el 100% sino para los que están en proceso de formalización”",
-    "url": "https://elcomercio.pe/politica/actualidad/ministro-de-energia-y-minas-no-descarta-ampliacion-de-reinfo-al-2027-no-para-el-100-sino-para-los-que-estan-en-proceso-de-formalizacion-guillermo-shinno-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-26T15:15:00+00:00",
-    "matched_in": "title"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -106,12 +85,12 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Juan Sheput dice que es “insólito” que Juntos por el Perú promueva tres interpelaciones: “Son por lo menos exageradas”",
-    "url": "https://elcomercio.pe/politica/congreso/juan-sheput-dice-que-es-insolito-que-juntos-por-el-peru-promueva-tres-interpelaciones-son-por-lo-menos-exageradas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-26T16:36:39+00:00",
+    "title": "Revelan tres viajes al extranjero de Ministro José Antonio Chang con excongresista Tania Ramírez",
+    "url": "https://larepublica.pe/politica/2026/08/28/marco-sifuentes-revela-tres-viajes-al-extranjero-de-ministro-jose-antonio-chang-con-excongresista-tania-ramirez-1230236",
+    "source": "La República",
+    "published": "2026-08-28T17:10:20+00:00",
     "matched_in": "title"
    }
   ],
@@ -129,7 +108,7 @@
     "title": "Rafael Rey defiende rebaja del 90% de multas: “Eran absolutamente abusivas”",
     "url": "https://gestion.pe/peru/rafael-rey-defiende-rebaja-del-90-de-multas-eran-absolutamente-abusivas-noticia/",
     "source": "Gestión",
-    "published": "2026-08-28T00:40:54+00:00",
+    "published": "2026-08-28T04:18:00+00:00",
     "matched_in": "title"
    },
    {
@@ -140,29 +119,22 @@
     "matched_in": "summary"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "PCM aprobó texto del pedido de facultades legislativas y entregará documento a Cámara de Diputados este 28 de agosto",
-    "url": "https://rpp.pe/politica/gobierno/pcm-presenta-pedido-de-facultades-legislativas-al-congreso-seguridad-y-reestructuracion-del-estado-noticia-1704118",
-    "source": "RPP",
-    "published": "2026-08-27T18:51:22-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "María Luisa Carrillo, esposa del premier Luis Galarreta, fue contratada en el Congreso",
-    "url": "https://www.infobae.com/peru/2026/08/27/maria-luisa-carrillo-esposa-del-premier-luis-galarreta-fue-contratada-en-el-congreso/",
-    "source": "Infobae",
-    "published": "2026-08-27T22:06:38+00:00",
-    "matched_in": "title"
+    "title": "Gobierno busca clasificar a bandas criminales como “grupos hostiles” para que F.F.A.A. intervengan",
+    "url": "https://gestion.pe/peru/politica/gobierno-busca-clasificar-a-bandas-criminales-como-grupos-hostiles-para-que-ffaa-intervengan-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-28T03:34:52+00:00",
+    "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "MEF llama “última jugada” al directorio de Petroperú y alerta que empresa caería en manos de sus acreedores",
-    "url": "https://www.infobae.com/peru/2026/08/18/mef-llama-ultima-jugada-al-directorio-de-petroperu-y-alerta-que-empresa-caeria-en-manos-de-sus-acreedores/",
+    "title": "Declarar terroristas a grupos criminales y permitir que FF. AA. custodien penales: Esto incluiría el pedido de facultades",
+    "url": "https://www.infobae.com/peru/2026/08/28/declarar-terroristas-a-grupos-criminales-y-permitir-que-ff-aa-custodien-penales-esto-incluiria-el-pedido-de-facultades/",
     "source": "Infobae",
-    "published": "2026-08-27T17:56:15+00:00",
-    "matched_in": "title"
+    "published": "2026-08-28T16:33:01+00:00",
+    "matched_in": "summary"
    }
   ]
  }

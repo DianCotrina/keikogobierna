@@ -1,10 +1,82 @@
 {
- "generated": "2026-08-28T01:18:56+00:00",
+ "generated": "2026-08-28T17:11:04+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
  "articles": [
+  {
+   "title": "Miguel Torres sobre pedido de facultades: “Flaco favor hace que pensemos que es una oportunidad de negociar agendas específicas”",
+   "url": "https://elcomercio.pe/politica/congreso/miguel-torres-sobre-pedido-de-facultades-flaco-favor-hace-que-pensemos-que-es-una-oportunidad-de-negociar-agendas-especificas-ultimas-noticia/",
+   "summary": "El presidente del Senado, Miguel Torres (Fuerza Popular), exhortó al Parlamento celeridad en la evaluación y aprobación de la delegación de facultades legislativas que presenta el Poder Ejecutivo, y que no se utilice esta oportunidad para promover agendas particulares desde grupos de oposición.",
+   "author": "Redacción EC",
+   "published": "2026-08-28T16:18:59+00:00",
+   "source": "El Comercio",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
+  {
+   "title": "Rosa María Palacios sobre el caso Roberto Cerimedo: \"Si hay relación con el Perú y con el gobierno de Keiko Fujimori\"",
+   "url": "https://larepublica.pe/politica/2026/08/28/rosa-maria-palacios-sobre-el-caso-roberto-cerimedo-si-hay-relacion-con-el-peru-y-con-el-gobierno-de-keiko-fujimori-hnews-722148",
+   "summary": "Rosa María Palacios comentó en su programa 'Sin Guion' los vínculos entre Keiko Fujimori y Fernando Cerimedo, publicista político procesado por intento de feminicidio, a través del asesor Carlos Díaz-Rosillo.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-08-28T15:56:07+00:00",
+   "source": "La República",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
+  {
+   "title": "Fuerza Popular: aportes privados no identificables superan los 2 millones de soles",
+   "url": "https://larepublica.pe/politica/2026/08/28/fuerza-popular-aportes-privados-no-identificables-superan-los-2-millones-de-soles-hnews-1499008",
+   "summary": "Los depósitos, algunos superiores a S/ 400.000, fueron registrados entre abril y junio de este año a través de cuentas del Banco de la Nación, bajo una modalidad permitida por la legislación vigente.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-08-28T14:43:40+00:00",
+   "source": "La República",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
+  {
+   "title": "Fuerza Popular reportó aportes privados por más de S/ 4 millones en la campaña electoral: ¿quiénes son sus principales financistas?",
+   "url": "https://elcomercio.pe/politica/elecciones/fuerza-popular-reporto-aportes-privados-por-mas-de-s-4-millones-en-la-campana-electoral-quienes-son-sus-principales-financistas-tlc-nota-noticia/",
+   "summary": "El partido de gobierno, Fuerza Popular, reportó a la Oficina Nacional de Procesos Electorales (ONPE) que recibió aportes privados por S/ 4 millones 138 mil en las elecciones generales 2026. La cifra incluye dinero en efectivo y aportes en especie (bienes y servicios entregados gratuitamente).",
+   "author": "Martín Calderón",
+   "published": "2026-08-28T13:50:00+00:00",
+   "source": "El Comercio",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
+  {
+   "title": "Asesor de Keiko Fujimori tiene vínculo con marketero preso Fernando Cerimedo",
+   "url": "https://larepublica.pe/politica/2026/08/28/asesor-de-keiko-fujimori-tiene-vinculo-con-marketero-preso-fernando-cerimedo-carlos-diaz-rosillo-fuerza-popular-hnews-830439",
+   "summary": "Encadenados. El cubano-estadounidense Carlos Díaz-Rosillo dirige el Centro Adam Smith en Miami y contrató a la jefa de Estado para dictar clases por US$45 mil al año. Está relacionado con el estratega digital argentino detenido en Bolivia, conocido por montar campañas de desinformación a cuenta de candidatos de la derecha como Javier Milei, Flávio Bolsonaro y Rodrigo Paz.",
+   "author": "Ángel Páez",
+   "published": "2026-08-28T13:46:28+00:00",
+   "source": "La República",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
+  {
+   "title": "Gobierno de Keiko Fujimori insiste en el estado de emergencia: decretan medida en Lima y Callao por 60 días",
+   "url": "https://larepublica.pe/sociedad/2026/08/28/gobierno-de-keiko-fujimori-insiste-en-el-estado-de-emergencia-decretan-medida-en-lima-y-callao-por-60-dias-2714516",
+   "summary": "La medida busca enfrentar la ola de violencia y dispone restricciones a derechos constitucionales. El anuncio ocurre cuando los homicidios y ataques armados continúan registrándose en la capital y la provincia constitucional, con 105 contabilizados desde la juramentación de la presidenta.",
+   "author": "Daniela Orellana",
+   "published": "2026-08-28T13:25:00+00:00",
+   "source": "La República",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
+  {
+   "title": "Keiko Fujimori cierra su primer mes de gobierno con más de 150 homicidios, según Sinadef",
+   "url": "https://larepublica.pe/politica/2026/08/28/keiko-fujimori-cierra-su-primer-mes-de-gobierno-con-mas-de-150-homicidios-segun-sinadef-hnews-648054",
+   "summary": "De los 151 homicidios, el 75,5% fueron causados por armas de fuego, con Lima destacándose como la región más afectada, sumando 48 muertes en este periodo por esa causa. Otras regiones como La Libertad y Callao también reportan cifras elevadas.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-08-28T10:00:00+00:00",
+   "source": "La República",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
+  {
+   "title": "Keiko Fujimori sobre delegación de facultades: “Corresponde que diputados y luego los senadores aprueben este pedido”",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-delegacion-de-facultades-corresponde-que-diputados-y-luego-los-senadores-aprueben-este-pedido-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori afirmó que ahora corresponde que los diputados y senadores aprueben el pedido de delegación de facultades al Ejecutivo, documento que fue aprobado este jueves 27 por el Consejo de Ministros y que será enviado el viernes al Congreso.",
+   "author": "Redacción EC",
+   "published": "2026-08-28T04:01:18+00:00",
+   "source": "El Comercio",
+   "captured": "2026-08-28T17:11:04+00:00"
+  },
   {
    "title": "Diputados critican al defensor del Pueblo por frase sobre eventual disolución del Congreso por parte de Keiko Fujimori",
    "url": "https://elcomercio.pe/politica/diputados-critican-al-defensor-del-pueblo-por-frase-sobre-eventual-disolucion-del-congreso-por-parte-de-keiko-fujimori-ultimas-noticia/",
