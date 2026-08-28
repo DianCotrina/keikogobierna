@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T16:09:59+00:00",
+ "generated": "2026-08-28T01:18:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,20 +9,64 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Estado de emergencia en Lima y Callao continuará por 60 días, confirma ministro del Interior",
+    "url": "https://gestion.pe/peru/estado-de-emergencia-en-lima-y-callao-continuara-por-60-dias-confirma-ministro-del-interior-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-28T00:43:58+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Estado de emergencia en Lima y Callao: Gobierno implementará nueva medida por 60 días, confirma ministro del Interior",
+    "url": "https://www.infobae.com/peru/2026/08/28/estado-de-emergencia-en-lima-y-callao-gobierno-implementara-nueva-medida-por-60-dias-confirma-ministro-del-interior/",
+    "source": "Infobae",
+    "published": "2026-08-28T00:33:39+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "JP presenta dos mociones y prepara una tercera: Es el mayor número de interpelaciones a ministros durante el primer mes de gobierno en los últimos 15 años",
+    "url": "https://elcomercio.pe/politica/jp-presenta-dos-mociones-y-prepara-una-tercera-es-el-mayor-numero-de-interpelaciones-a-ministros-durante-el-primer-mes-de-gobierno-en-los-ultimos-15-anos-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T20:05:08+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Astudillo evita dar la cara a la prensa tras rechazo de transportistas al plan Escudo de la PNP",
+    "url": "https://larepublica.pe/politica/2026/08/27/ministro-astudillo-evita-dar-la-cara-a-la-prensa-tras-rechazo-de-transportistas-al-plan-escudo-de-la-pnp-hnews-1048815",
+    "source": "La República",
+    "published": "2026-08-27T18:39:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
+    "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
+    "source": "La República",
+    "published": "2026-08-26T10:00:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "guillermo-shinno-huamani": [
    {
-    "title": "Combustibles al alza: precios suben por quinta vez en el mes y así se ven en los grifos",
-    "url": "https://gestion.pe/economia/combustibles-precios-suben-por-quinta-vez-en-el-mes-e-impacta-en-grifos-mientras-peru-enfrenta-protestas-y-una-eventual-interpelacion-al-minem-noticia/",
+    "title": "Editorial de Gestión: Reinfo sin fin",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-reinfo-sin-fin-noticia/",
     "source": "Gestión",
-    "published": "2026-08-27T19:00:00+00:00",
+    "published": "2026-08-27T23:06:36+00:00",
     "matched_in": "summary"
    },
    {
     "title": "¿Hacia una sexta ampliación?: Gobierno prevé presentar propuesta de Ley MAPE recién en noviembre, al límite del fin del Reinfo",
     "url": "https://elcomercio.pe/politica/sexta-ampliacion-del-reinfo-hacia-una-sexta-ampliacion-gobierno-preve-presentar-propuesta-de-ley-mape-recien-en-noviembre-al-limite-del-fin-del-reinfo-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-27T16:01:47+00:00",
+    "published": "2026-08-27T20:01:13+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Congresistas cuestionan posible ampliación de Reinfo mencionada por el ministro de Energía y Minas, Guillermo Shinno",
+    "url": "https://elcomercio.pe/politica/congreso/congresistas-cuestionan-posible-ampliacion-de-reinfo-mencionada-por-el-ministro-de-energia-y-minas-guillermo-shinno-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T17:30:33+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Juntos por el Perú retira moción contra ministro de Energía y Minas mientras congresistas de bancadas aliadas marcan distancia",
@@ -30,13 +74,6 @@
     "source": "El Comercio",
     "published": "2026-08-27T14:25:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Editorial de Gestión: Reinfo sin fin",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-reinfo-sin-fin-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-27T10:00:00+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Juntos por el Perú retrocede con interpelación a Guillermo Shinno Huamaní, ministro de Energía y Minas",
@@ -51,60 +88,30 @@
     "source": "El Comercio",
     "published": "2026-08-26T15:15:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Congreso plantea interpelar a ministro de Energía y Minas por alza de combustibles y protestas de transportistas",
-    "url": "https://larepublica.pe/politica/2026/08/24/congreso-plantea-interpelar-a-ministro-de-energia-y-minas-por-alza-de-combustibles-y-protestas-de-transportistas-hnews-2038080",
-    "source": "La República",
-    "published": "2026-08-25T17:10:55+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú presenta moción de interpelación contra Guillermo Shinno, ministro de Energía y Minas",
-    "url": "https://elcomercio.pe/economia/peru/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-guillermo-shinno-ministro-de-energia-y-minas-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-25T16:56:23+00:00",
-    "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "JP presenta dos mociones y prepara una tercera: Es el mayor número de interpelaciones a ministros durante el primer mes de gobierno en los últimos 15 años",
-    "url": "https://elcomercio.pe/politica/jp-presenta-dos-mociones-y-prepara-una-tercera-es-el-mayor-numero-de-interpelaciones-a-ministros-durante-el-primer-mes-de-gobierno-en-los-ultimos-15-anos-noticia/",
+    "title": "Comisión del Ministerio de Justicia inicia la revisión integral de leyes contra el crimen",
+    "url": "https://elcomercio.pe/politica/actualidad/comision-del-ministerio-de-justicia-inicia-la-revision-integral-de-leyes-contra-el-crimen-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-27T11:57:31+00:00",
-    "matched_in": "summary"
+    "published": "2026-08-27T19:35:27+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Juntos por el Perú anuncia moción de interpelación contra César Astudillo, ministro del Interior",
-    "url": "https://larepublica.pe/politica/2026/08/22/juntos-por-el-peru-prepara-mocion-de-interpelacion-contra-cesar-astudillo-ministro-del-interior-hnews-2160752",
-    "source": "La República",
-    "published": "2026-08-26T10:00:00+00:00",
+    "title": "Ministerio de Justicia crea grupo para revisar las leyes del Congreso anterior sobre criminalidad: ¿qué normas están en la mira?",
+    "url": "https://elcomercio.pe/politica/gobierno/ministerio-de-justicia-crea-grupo-para-revisar-las-leyes-del-congreso-anterior-sobre-criminalidad-que-normas-estan-en-la-mira-tlcnota-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T16:55:00+00:00",
     "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Ministro Juan Sheput dice que aún no se define fecha para aumento del sueldo mínimo",
-    "url": "https://gestion.pe/peru/politica/ministro-juan-sheput-dice-que-aun-no-se-define-fecha-para-aumento-del-sueldo-minimo-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-27T04:01:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Juan Sheput dice que es “insólito” que Juntos por el Perú promueva tres interpelaciones: “Son por lo menos exageradas”",
     "url": "https://elcomercio.pe/politica/congreso/juan-sheput-dice-que-es-insolito-que-juntos-por-el-peru-promueva-tres-interpelaciones-son-por-lo-menos-exageradas-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-26T16:36:39+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministerio de Justicia crea grupo para revisar las leyes del Congreso anterior sobre criminalidad: ¿qué normas están en la mira?",
-    "url": "https://elcomercio.pe/politica/gobierno/ministerio-de-justicia-crea-grupo-para-revisar-las-leyes-del-congreso-anterior-sobre-criminalidad-que-normas-estan-en-la-mira-tlcnota-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-26T16:20:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -119,10 +126,10 @@
   ],
   "rafael-rey-rey": [
    {
-    "title": "Ministro de Transporte anuncia el fin de los privilegios de tránsito para funcionarios",
-    "url": "https://www.infobae.com/peru/2026/08/27/ministro-de-transporte-anuncia-el-fin-de-los-privilegios-de-transito-para-funcionarios/",
-    "source": "Infobae",
-    "published": "2026-08-27T12:38:37+00:00",
+    "title": "Rafael Rey defiende rebaja del 90% de multas: “Eran absolutamente abusivas”",
+    "url": "https://gestion.pe/peru/rafael-rey-defiende-rebaja-del-90-de-multas-eran-absolutamente-abusivas-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-28T00:40:54+00:00",
     "matched_in": "title"
    },
    {
@@ -133,12 +140,28 @@
     "matched_in": "summary"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Fiscalía realizó diligencias en el Ministerio de Cultura y la BNP por contratación exmilitantes del PPC asociadas a Beingolea",
-    "url": "https://rpp.pe/lima/actualidad/fiscalia-investiga-al-ministerio-de-cultura-por-contratacion-de-madre-e-hija-vinculadas-a-alberto-beingolea-noticia-1703904",
+    "title": "PCM aprobó texto del pedido de facultades legislativas y entregará documento a Cámara de Diputados este 28 de agosto",
+    "url": "https://rpp.pe/politica/gobierno/pcm-presenta-pedido-de-facultades-legislativas-al-congreso-seguridad-y-reestructuracion-del-estado-noticia-1704118",
     "source": "RPP",
-    "published": "2026-08-27T10:00:44-05:00",
+    "published": "2026-08-27T18:51:22-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "María Luisa Carrillo, esposa del premier Luis Galarreta, fue contratada en el Congreso",
+    "url": "https://www.infobae.com/peru/2026/08/27/maria-luisa-carrillo-esposa-del-premier-luis-galarreta-fue-contratada-en-el-congreso/",
+    "source": "Infobae",
+    "published": "2026-08-27T22:06:38+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF llama “última jugada” al directorio de Petroperú y alerta que empresa caería en manos de sus acreedores",
+    "url": "https://www.infobae.com/peru/2026/08/18/mef-llama-ultima-jugada-al-directorio-de-petroperu-y-alerta-que-empresa-caeria-en-manos-de-sus-acreedores/",
+    "source": "Infobae",
+    "published": "2026-08-27T17:56:15+00:00",
     "matched_in": "title"
    }
   ]
