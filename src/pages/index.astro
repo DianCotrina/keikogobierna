@@ -81,8 +81,50 @@ const updates = updatesLog(tracking).map((entry) => {
       </div>
     </section>
 
+    <!-- Actualizaciones -->
+    <section id="actualizaciones" class="border-t border-tinta/10 bg-white/40">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
+        <div class="reveal">
+          <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Registro</p>
+          <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">Últimas actualizaciones</h2>
+        </div>
+
+        <ul class="mt-10 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card overflow-hidden">
+          {updates.length === 0 ? (
+            <li class="reveal flex items-center gap-6 p-6">
+              <p class="flex-1 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas.</p>
+            </li>
+          ) : updates.map((entry) => {
+            // The row is one link to the commitment's own anchor on the tema
+            // page. An entry whose topic lookup failed has nowhere to point at,
+            // so it stays a plain row rather than becoming a dead link.
+            const Row = entry.topicSlug ? 'a' : 'div';
+            return (
+              <li class="reveal">
+                <Row
+                  href={entry.topicSlug ? `/temas/${entry.topicSlug}/#${entry.item}` : undefined}
+                  class:list={['block p-6', entry.topicSlug && 'log-row']}
+                >
+                  <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+                    <Stamp status={entry.status} />
+                    <time datetime={entry.date} class="font-mono text-xs text-tintafina">{formatDateEs(entry.date)}</time>
+                  </div>
+                  <p class="mt-2.5 text-sm leading-[1.7]">{entry.text}</p>
+                  {entry.topicSlug && (
+                    <p class="log-topic mt-1.5 font-mono text-[0.65rem] text-tintafina">
+                      {entry.topicName} <span class="log-arrow" aria-hidden="true">→</span>
+                    </p>
+                  )}
+                </Row>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+
     <!-- Temas del plan -->
-    <section id="temas" class="border-t border-tinta/10 bg-white/40">
+    <section id="temas" class="border-t border-tinta/10">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
         <div class="reveal max-w-2xl">
           <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Temas del plan</p>
@@ -112,7 +154,7 @@ const updates = updatesLog(tracking).map((entry) => {
     </section>
 
     <!-- Primeros 100 días (teaser) -->
-    <section class="border-t border-tinta/10">
+    <section class="border-t border-tinta/10 bg-white/40">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-14 sm:py-20">
         <a href="/primeros-100-dias/" class="reveal card-hover group block bg-tinta text-papel rounded-lg shadow-lift p-8 sm:p-10 relative overflow-hidden">
           <div class="absolute inset-0 opacity-25" style="background: radial-gradient(600px 320px at 88% 10%, rgba(200,16,46,0.55), transparent 60%);" aria-hidden="true"></div>
@@ -129,7 +171,7 @@ const updates = updatesLog(tracking).map((entry) => {
     </section>
 
     <!-- Registro de cumplidas -->
-    <section id="cumplidas" class="border-t border-tinta/10 bg-white/40 scroll-mt-6">
+    <section id="cumplidas" class="border-t border-tinta/10 scroll-mt-6">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-14 sm:py-20 grid lg:grid-cols-[0.9fr_1.1fr] gap-10 items-start">
         <div class="reveal">
           <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Lo entregado</p>
@@ -143,7 +185,7 @@ const updates = updatesLog(tracking).map((entry) => {
     </section>
 
     <!-- Metodología -->
-    <section id="metodologia" class="border-t border-tinta/10">
+    <section id="metodologia" class="border-t border-tinta/10 bg-white/40">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24 grid lg:grid-cols-[0.9fr_1.1fr] gap-12">
         <div class="reveal">
           <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Metodología</p>
@@ -193,48 +235,6 @@ const updates = updatesLog(tracking).map((entry) => {
             </div>
           </li>
         </ol>
-      </div>
-    </section>
-
-    <!-- Actualizaciones -->
-    <section id="actualizaciones" class="border-t border-tinta/10 bg-white/40">
-      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
-        <div class="reveal">
-          <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Registro</p>
-          <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">Últimas actualizaciones</h2>
-        </div>
-
-        <ul class="mt-10 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card overflow-hidden">
-          {updates.length === 0 ? (
-            <li class="reveal flex items-center gap-6 p-6">
-              <p class="flex-1 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas. El seguimiento comienza con el gobierno en funciones.</p>
-            </li>
-          ) : updates.map((entry) => {
-            // The row is one link to the commitment's own anchor on the tema
-            // page. An entry whose topic lookup failed has nowhere to point at,
-            // so it stays a plain row rather than becoming a dead link.
-            const Row = entry.topicSlug ? 'a' : 'div';
-            return (
-              <li class="reveal">
-                <Row
-                  href={entry.topicSlug ? `/temas/${entry.topicSlug}/#${entry.item}` : undefined}
-                  class:list={['block p-6', entry.topicSlug && 'log-row']}
-                >
-                  <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
-                    <Stamp status={entry.status} />
-                    <time datetime={entry.date} class="font-mono text-xs text-tintafina">{formatDateEs(entry.date)}</time>
-                  </div>
-                  <p class="mt-2.5 text-sm leading-[1.7]">{entry.text}</p>
-                  {entry.topicSlug && (
-                    <p class="log-topic mt-1.5 font-mono text-[0.65rem] text-tintafina">
-                      {entry.topicName} <span class="log-arrow" aria-hidden="true">→</span>
-                    </p>
-                  )}
-                </Row>
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </section>
 
