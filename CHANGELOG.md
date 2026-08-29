@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.5](https://github.com/DianCotrina/keikogobierna/compare/v2.12.4...v2.12.5) (2026-08-29)
+
+
+### Bug Fixes
+
+* gate procedural steps, archaeological estate and electoral succession ([00f897e](https://github.com/DianCotrina/keikogobierna/commit/00f897e91c2889c3d9250c641fb3936626a4b31e))
+
 ## [2.12.4](https://github.com/DianCotrina/keikogobierna/compare/v2.12.3...v2.12.4) (2026-08-29)
 
 
