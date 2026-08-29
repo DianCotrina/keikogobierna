@@ -143,6 +143,7 @@ _PERSONNEL_VERB_RE = re.compile(
     r"|aceptan (?:la |las )?renuncias?"
     r"|acreditan (?:la |las )?designacion(?:es)?"
     r"|formalizan (?:la |las )?designacion(?:es)?"
+    r"|renuevan (?:el )?reconocimiento"
     r"|encargan"
     r"|dan por (?:concluidas?|terminadas?) (?:la |las )?"
     r"(?:designacion(?:es)?|funciones)"
@@ -288,6 +289,37 @@ _FISHING_SEASON_RE = re.compile(r"\btemporada de pesca\b")
 #     t2-1.P22 is a tracked commitment with a certification already on it.
 _CATALOGUE_RE = re.compile(r"\blistado de fichas tecnicas\b")
 
+# 13. Procedural steps inside a project, not the project. Expropriating one plot
+#     for a road or an airport is a legal formality repeated dozens of times per
+#     work — fifteen in six weeks — and no commitment mentions expropiacion.
+#     Note this deliberately drops steps on roads the plan *does* name
+#     (t2-6.P01 lists the Longitudinal de la Sierra): the promise is to execute
+#     the highway, and a single land acquisition is not that. What would
+#     evidence it is the award or the completion.
+_EXPROPRIATION_RE = re.compile(r"\bexpropiacion\b")
+
+# 14. Archaeological estate administration. The Ministerio de Cultura issues
+#     provisional protections and starts saneamiento fisico legal on sites
+#     continuously — nineteen and four in the archive. Sibling of the Ley 28296
+#     heritage declarations already gated above, and equally absent from the
+#     plan's 699 commitments.
+_ARCHAEOLOGICAL_RE = re.compile(r"\bproteccion provisional\b|\bsaneamiento fisico legal\b")
+
+# 15. Phytosanitary import permits. SENASA authorising a consignment of plants
+#     from a named country through a named border post (issues #320, #379, the
+#     same arandanos twice). It reaches the queue on `ingreso pais`, which is a
+#     real phrase of t2-6.P23 — the airports commitment talks about easing entry
+#     to the country — so the *act* is gated rather than the phrase suppressed.
+_PHYTOSANITARY_RE = re.compile(r"\bautorizan (?:el )?ingreso al pais\b")
+
+# 16. Electoral succession. The JNE seats replacement regidores, alcaldes,
+#     consejeros and JEE members continuously — 147 in the archive, the largest
+#     single class left. Anchored to the seat-filling form so that convoking an
+#     *election* or a public accountability hearing is untouched.
+_ELECTORAL_SUCCESSION_RE = re.compile(
+    r"^convocan a (?:ciudadan[oa]s?|magistrad[oa]s?)\b.{0,90}?\bpara que asuma"
+)
+
 def is_routine_act(record: dict) -> bool:
     """True for a norma whose operative act cannot evidence a commitment —
     personnel churn, a permission slip, a periodic index, a draft still out for
@@ -310,6 +342,10 @@ def is_routine_act(record: dict) -> bool:
         or _CONCESSION_RE.search(sumilla)
         or _FISHING_SEASON_RE.search(sumilla)
         or _CATALOGUE_RE.search(sumilla)
+        or _EXPROPRIATION_RE.search(sumilla)
+        or _ARCHAEOLOGICAL_RE.search(sumilla)
+        or _PHYTOSANITARY_RE.search(sumilla)
+        or _ELECTORAL_SUCCESSION_RE.search(sumilla)
     )
 
 

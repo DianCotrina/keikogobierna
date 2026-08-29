@@ -439,6 +439,52 @@ class RoutineActTest(unittest.TestCase):
         ):
             self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
 
+    def test_procedural_steps_inside_a_project_are_gated(self):
+        for sumilla in (
+            "Aprueban ejecución de la expropiación del área afectada de un inmueble "
+            "para la ejecución de la Obra: “Red Vial N.° 4: Tramo Pativilca - Santa”",
+            "Aprueban ejecución de expropiación de área afectada de bienes inmuebles "
+            "para la ejecución de la obra: Aeropuerto “Capitán FAP David Abensur”",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_archaeological_estate_administration_is_gated(self):
+        for sumilla in (
+            "Determinan la Protección Provisional del Paisaje Arqueológico Camino "
+            "Prehispánico, Sección Límite – Huaricolca",
+            "Disponen el inicio de las acciones de saneamiento físico legal de la Zona "
+            "Arqueológica Monumental “Fortaleza de Paramonga”",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_phytosanitary_permits_are_gated(self):
+        self.assertTrue(er.is_routine_act({"sumilla":
+            "Autorizan el ingreso al país de plantas de arándanos de origen y "
+            "procedencia de la República de Chile, a través del Complejo Fronterizo "
+            "Santa Rosa"}))
+
+    def test_electoral_succession_is_gated_but_calling_an_election_is_not(self):
+        # 147 in the archive, the largest class left: the JNE seating replacement
+        # regidores, alcaldes and JEE members.
+        for sumilla in (
+            "Convocan a ciudadana para que asuma, provisionalmente, el cargo de "
+            "regidora del Concejo Distrital de Ate",
+            "Convocan a magistrado para que asuma el cargo de presidente del Jurado "
+            "Electoral Especial de Huancavelica",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+        for sumilla in (
+            "Convocan a elección de miembros titular y suplentes del Pleno del Jurado "
+            "Nacional de Elecciones",
+            "Convocan a la Segunda Audiencia Pública de Rendición de Cuentas 2026",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_renewing_a_board_representative_is_personnel(self):
+        self.assertTrue(er.is_routine_act({"sumilla":
+            "Renuevan reconocimiento de representante de los empleadores ante el "
+            "Consejo Directivo del Seguro Social de Salud – ESSALUD"}))
+
     def test_substantive_norms_are_untouched(self):
         for sumilla in (
             "Aprueban el Reglamento de la Ley que crea las unidades de flagrancia",
