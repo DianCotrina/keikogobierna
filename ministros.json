@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T11:29:47+00:00",
+ "generated": "2026-08-29T19:37:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,31 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
+    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-29T14:20:49+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Comisión del Ministerio de Justicia inicia la revisión integral de leyes contra el crimen",
+    "url": "https://elcomercio.pe/politica/actualidad/comision-del-ministerio-de-justicia-inicia-la-revision-integral-de-leyes-contra-el-crimen-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T19:35:27+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
+    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-29T14:20:49+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "guillermo-shinno-huamani": [
    {
     "title": "Keiko Fujimori sobre posible ampliación del Reinfo: “No vamos a actuar ni ceder frente a presiones”",
@@ -23,58 +48,32 @@
     "source": "El Comercio",
     "published": "2026-08-27T20:01:13+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Congresistas cuestionan posible ampliación de Reinfo mencionada por el ministro de Energía y Minas, Guillermo Shinno",
-    "url": "https://elcomercio.pe/politica/congreso/congresistas-cuestionan-posible-ampliacion-de-reinfo-mencionada-por-el-ministro-de-energia-y-minas-guillermo-shinno-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T17:30:33+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú retira moción contra ministro de Energía y Minas mientras congresistas de bancadas aliadas marcan distancia",
-    "url": "https://elcomercio.pe/politica/congreso/juntos-por-el-peru-retira-mocion-contra-ministro-de-energia-y-minas-mientras-congresistas-de-bancadas-aliadas-marcan-distancia-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T14:25:00+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Gobierno declara estado de emergencia en Lima y Callao por 60 días: los detalles",
-    "url": "https://gestion.pe/peru/estado-de-emergencia-en-lima-y-callao-continuara-por-60-dias-confirma-ministro-del-interior-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-28T19:24:01+00:00",
-    "matched_in": "summary"
-   },
    {
     "title": "JP presenta dos mociones y prepara una tercera: Es el mayor número de interpelaciones a ministros durante el primer mes de gobierno en los últimos 15 años",
     "url": "https://elcomercio.pe/politica/jp-presenta-dos-mociones-y-prepara-una-tercera-es-el-mayor-numero-de-interpelaciones-a-ministros-durante-el-primer-mes-de-gobierno-en-los-ultimos-15-anos-noticia/",
     "source": "El Comercio",
     "published": "2026-08-27T20:05:08+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "rafael-rey-rey": [
    {
-    "title": "Ministro Astudillo evita dar la cara a la prensa tras rechazo de transportistas al plan Escudo de la PNP",
-    "url": "https://larepublica.pe/politica/2026/08/27/ministro-astudillo-evita-dar-la-cara-a-la-prensa-tras-rechazo-de-transportistas-al-plan-escudo-de-la-pnp-hnews-1048815",
-    "source": "La República",
-    "published": "2026-08-27T18:39:37+00:00",
+    "title": "Multas de tránsito: ¿qué infracciones no aplican para los descuentos según el MTC?",
+    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-29T16:54:16+00:00",
     "matched_in": "title"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Comisión del Ministerio de Justicia inicia la revisión integral de leyes contra el crimen",
-    "url": "https://elcomercio.pe/politica/actualidad/comision-del-ministerio-de-justicia-inicia-la-revision-integral-de-leyes-contra-el-crimen-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T19:35:27+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministerio de Justicia crea grupo para revisar las leyes del Congreso anterior sobre criminalidad: ¿qué normas están en la mira?",
-    "url": "https://elcomercio.pe/politica/gobierno/ministerio-de-justicia-crea-grupo-para-revisar-las-leyes-del-congreso-anterior-sobre-criminalidad-que-normas-estan-en-la-mira-tlcnota-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T16:55:00+00:00",
+    "title": "Luis Dyer responsabiliza a la prensa de Ucayali no difundir crisis en el sistema de salud",
+    "url": "https://larepublica.pe/politica/2026/08/29/luis-dyer-ministro-de-salud-responsabiliza-a-la-prensa-de-ucayali-no-difundir-crisis-en-el-sistema-de-salud-hnews-1991372",
+    "source": "La República",
+    "published": "2026-08-29T18:10:49+00:00",
     "matched_in": "title"
    }
   ],
@@ -87,53 +86,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Rafael Belaunde sobre cuestionamientos contra ministros Beingolea y Chang: \"La presidenta no va a apañar ningún comportamiento indebido\"",
-    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-sobre-cuestionamientos-contra-ministros-beingolea-y-chang-la-presidenta-no-va-a-apanar-ningun-comportamiento-indebido-noticia-1704377",
-    "source": "RPP",
-    "published": "2026-08-28T20:41:37-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa sobre control militar en las cárceles: \"Se instalará escáneres y un detector de metales en Piedras Gordas\"",
-    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-ministro-de-defensa-anuncia-la-instalacion-de-escaneres-y-un-detector-de-metales-en-piedras-gordas-noticia-1704371",
-    "source": "RPP",
-    "published": "2026-08-28T20:30:54-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa justifica propuesta del Gobierno para que militares controlen el acceso a los penales",
-    "url": "https://rpp.pe/videos/las-cosas-como-son/ministro-de-defensa-justifica-propuesta-del-gobierno-para-que-militares-controlen-el-acceso-a-los-penales-noticia-1704379",
-    "source": "RPP",
-    "published": "2026-08-28T20:30:54-05:00",
-    "matched_in": "title"
-   }
-  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Gobierno busca clasificar a bandas criminales como “grupos hostiles” para que F.F.A.A. intervengan",
     "url": "https://gestion.pe/peru/politica/gobierno-busca-clasificar-a-bandas-criminales-como-grupos-hostiles-para-que-ffaa-intervengan-noticia/",
     "source": "Gestión",
     "published": "2026-08-29T00:36:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Keiko Fujimori niega salida de Alberto Beingolea pese a contratación de exmilitantes del PPC en el Mincul",
-    "url": "https://www.infobae.com/peru/2026/08/28/keiko-fujimori-niega-salida-de-alberto-beingolea-pese-a-contratacion-de-exmilitantes-del-ppc-en-el-mincul/",
-    "source": "Infobae",
-    "published": "2026-08-28T18:51:04+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Declarar terroristas a grupos criminales y permitir que FF. AA. custodien penales: Esto incluiría el pedido de facultades",
-    "url": "https://www.infobae.com/peru/2026/08/28/declarar-terroristas-a-grupos-criminales-y-permitir-que-ff-aa-custodien-penales-esto-incluiria-el-pedido-de-facultades/",
-    "source": "Infobae",
-    "published": "2026-08-28T16:33:01+00:00",
     "matched_in": "summary"
    }
   ]
