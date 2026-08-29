@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.13.0](https://github.com/DianCotrina/keikogobierna/compare/v2.12.6...v2.13.0) (2026-08-29)
+
+
+### Features
+
+* move the updates log up to sit under the tracker card ([5a08fd4](https://github.com/DianCotrina/keikogobierna/commit/5a08fd4738e2e327b9f6bc82553f2ffc66613418))
+
 ## [2.12.6](https://github.com/DianCotrina/keikogobierna/compare/v2.12.5...v2.12.6) (2026-08-29)
 
 
