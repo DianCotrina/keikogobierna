@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.6](https://github.com/DianCotrina/keikogobierna/compare/v2.12.5...v2.12.6) (2026-08-29)
+
+
+### Bug Fixes
+
+* certify the Madre de Dios command as in progress ([2a13da0](https://github.com/DianCotrina/keikogobierna/commit/2a13da005a209bc631f76a29d97b0a6f9a2fc76b))
+
 ## [2.12.5](https://github.com/DianCotrina/keikogobierna/compare/v2.12.4...v2.12.5) (2026-08-29)
 
 
