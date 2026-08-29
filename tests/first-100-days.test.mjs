@@ -7,14 +7,21 @@ import {
   firstHundredDays,
   firstHundredDaysStats,
 } from '../src/lib/plan.mjs';
+import { STATUSES } from '../src/lib/statuses.mjs';
 
-test('firstHundredDaysStats tallies all 67 actions, all no_progress at launch', () => {
+// Asserts the tally's shape, not its emptiness. This test hard-coded 67
+// no_progress and broke the day the first 100-days action was certified
+// (t2-2.C03, the Madre de Dios command) — the one moment it should have stayed
+// green. Same failure the updatesLog test had on the first certification.
+test('firstHundredDaysStats tallies all 67 actions across valid statuses', () => {
   const stats = firstHundredDaysStats(loadTopics(), loadTracking());
   assert.equal(stats.total, 67);
-  assert.equal(stats.byStatus.no_progress, 67);
-  assert.equal(stats.byStatus.fulfilled, 0);
-  assert.equal(stats.byStatus.in_progress, 0);
-  assert.equal(stats.byStatus.unfulfilled, 0);
+  for (const status of Object.keys(STATUSES)) {
+    assert.ok(Number.isInteger(stats.byStatus[status]), `missing count for ${status}`);
+    assert.ok(stats.byStatus[status] >= 0, `negative count for ${status}`);
+  }
+  const summed = Object.keys(STATUSES).reduce((n, s) => n + stats.byStatus[s], 0);
+  assert.equal(summed, stats.total, 'every action lands in exactly one status');
 });
 
 test('firstHundredDays groups by the 3 pillars in order', () => {
@@ -35,7 +42,7 @@ test('pillar 1 holds its 4 topics; t1-1 leads with its 4 actions', () => {
   assert.equal(first.actions.length, 4);
   for (const action of first.actions) {
     assert.match(action.id, /^t1-1\.C\d\d$/);
-    assert.equal(action.status, 'no_progress');
+    assert.ok(Object.hasOwn(STATUSES, action.status), `bad status ${action.status}`);
     assert.ok(action.text.trim().length > 0);
   }
 });

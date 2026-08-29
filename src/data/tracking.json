@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19",
+  "updated": "2026-08-29",
   "items": {
     "t1-1.M01": {
       "status": "no_progress",
@@ -282,9 +282,26 @@
           "note": "La Resolución Ministerial, del 17 de agosto de 2026, declara el inicio del proceso de fortalecimiento y optimización del Programa Nacional «Compras a MYPErú» (artículo 1) y crea un Grupo de Trabajo Sectorial en PRODUCE para conducirlo (artículo 2). Sus funciones son diagnosticar los factores que limitan el funcionamiento del programa y recomendar medidas de reforma (artículo 6); se instala dentro de cinco días hábiles y tiene una vigencia de sesenta días hábiles (artículos 8 y 9). Los considerandos recogen que la Dirección General de Políticas y Análisis Regulatorio «advierte situaciones que condicionan el funcionamiento» del programa. Queda en progreso: el compromiso promete consolidar Compras MyPerú como política de Estado permanente con un presupuesto anual mínimo de S/ 1,000 millones, y esta norma ordena un diagnóstico, no la permanencia ni el presupuesto. Que el programa sea preexistente (creado por el Decreto Supremo N° 013-2021-PRODUCE) no resta: el compromiso es precisamente fortalecerlo."
         }
       ]
+    },
+    "t2-2.C03": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-08-28",
+          "source": "El Peruano — DECRETO SUPREMO N° 121-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2548480-2",
+          "note": "El Decreto Supremo declara por sesenta (60) días calendario el Estado de Emergencia en seis distritos de Madre de Dios — Tambopata, Inambari, Las Piedras, Laberinto, Madre de Dios y Huepetuhe — «para hacer frente a la criminalidad y otras situaciones de violencia», con la Policía Nacional a cargo del orden interno y **acciones de apoyo de las Fuerzas Armadas** (artículo 1). El artículo 5 conforma, dentro de las 24 horas, el **Comando de Coordinación Operativa Unificada (CCO)** junto con los Comités de Coordinación Distrital, de Inteligencia, de Fiscalización y de Comunicación Estratégica, con participación indelegable; el artículo 4 los declara en sesión permanente. Los considerandos precisan el objeto operativo: la Región Policial Madre de Dios ejecuta operaciones «tendientes a combatir y neutralizar la tala y minería ilegal, tráfico ilícito de drogas, delitos conexos y otras situaciones de violencia». Queda en progreso, no cumplida, por dos razones: el compromiso promete comandos mixtos PNP–FF.AA.–**Fiscalía–SUNAT**, y el decreto convoca a la Policía y a las Fuerzas Armadas pero no incorpora al Ministerio Público ni a la SUNAT; y el comando existe mientras dure la emergencia de 60 días, no como órgano permanente de control de la minería ilegal. La zona sí es la comprometida: Madre de Dios es el epicentro de la minería ilegal en el país."
+        }
+      ]
     }
   },
   "log": [
+    {
+      "date": "2026-08-28",
+      "item": "t2-2.C03",
+      "status": "in_progress",
+      "text": "El Gobierno declaró en emergencia seis distritos de Madre de Dios por sesenta días y conformó un Comando de Coordinación Operativa Unificada con la Policía y las Fuerzas Armadas, para operaciones contra la minería y la tala ilegal."
+    },
     {
       "date": "2026-08-18",
       "item": "t2-1.P22",
