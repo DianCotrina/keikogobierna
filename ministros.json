@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T17:11:04+00:00",
+ "generated": "2026-08-29T04:02:39+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,37 +9,14 @@
   "Infobae"
  ],
  "ministers": {
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Gobierno declara estado de emergencia en Lima y Callao por 60 días: los detalles",
-    "url": "https://gestion.pe/peru/estado-de-emergencia-en-lima-y-callao-continuara-por-60-dias-confirma-ministro-del-interior-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-28T12:50:24+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Estado de emergencia en Lima y Callao: Gobierno implementará nueva medida por 60 días, confirma ministro del Interior",
-    "url": "https://www.infobae.com/peru/2026/08/28/estado-de-emergencia-en-lima-y-callao-gobierno-implementara-nueva-medida-por-60-dias-confirma-ministro-del-interior/",
-    "source": "Infobae",
-    "published": "2026-08-28T02:38:31+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "JP presenta dos mociones y prepara una tercera: Es el mayor número de interpelaciones a ministros durante el primer mes de gobierno en los últimos 15 años",
-    "url": "https://elcomercio.pe/politica/jp-presenta-dos-mociones-y-prepara-una-tercera-es-el-mayor-numero-de-interpelaciones-a-ministros-durante-el-primer-mes-de-gobierno-en-los-ultimos-15-anos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T20:05:08+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Astudillo evita dar la cara a la prensa tras rechazo de transportistas al plan Escudo de la PNP",
-    "url": "https://larepublica.pe/politica/2026/08/27/ministro-astudillo-evita-dar-la-cara-a-la-prensa-tras-rechazo-de-transportistas-al-plan-escudo-de-la-pnp-hnews-1048815",
-    "source": "La República",
-    "published": "2026-08-27T18:39:37+00:00",
-    "matched_in": "title"
-   }
-  ],
   "guillermo-shinno-huamani": [
+   {
+    "title": "Keiko Fujimori sobre posible ampliación del Reinfo: “No vamos a actuar ni ceder frente a presiones”",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-posible-ampliacion-del-reinfo-no-vamos-a-actuar-ni-ceder-frente-a-presiones-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-28T18:34:41+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "¿Hacia una sexta ampliación?: Gobierno prevé presentar propuesta de Ley MAPE recién en noviembre, al límite del fin del Reinfo",
     "url": "https://elcomercio.pe/politica/sexta-ampliacion-del-reinfo-hacia-una-sexta-ampliacion-gobierno-preve-presentar-propuesta-de-ley-mape-recien-en-noviembre-al-limite-del-fin-del-reinfo-noticia/",
@@ -60,12 +37,28 @@
     "source": "El Comercio",
     "published": "2026-08-27T14:25:00+00:00",
     "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Gobierno declara estado de emergencia en Lima y Callao por 60 días: los detalles",
+    "url": "https://gestion.pe/peru/estado-de-emergencia-en-lima-y-callao-continuara-por-60-dias-confirma-ministro-del-interior-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-28T19:24:01+00:00",
+    "matched_in": "summary"
    },
    {
-    "title": "Juntos por el Perú retrocede con interpelación a Guillermo Shinno Huamaní, ministro de Energía y Minas",
-    "url": "https://larepublica.pe/politica/2026/08/26/juntos-por-el-peru-retrocede-con-interpelacion-a-guillermo-shinno-huamani-ministro-de-energia-y-minas-hnews-883896",
+    "title": "JP presenta dos mociones y prepara una tercera: Es el mayor número de interpelaciones a ministros durante el primer mes de gobierno en los últimos 15 años",
+    "url": "https://elcomercio.pe/politica/jp-presenta-dos-mociones-y-prepara-una-tercera-es-el-mayor-numero-de-interpelaciones-a-ministros-durante-el-primer-mes-de-gobierno-en-los-ultimos-15-anos-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-27T20:05:08+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Astudillo evita dar la cara a la prensa tras rechazo de transportistas al plan Escudo de la PNP",
+    "url": "https://larepublica.pe/politica/2026/08/27/ministro-astudillo-evita-dar-la-cara-a-la-prensa-tras-rechazo-de-transportistas-al-plan-escudo-de-la-pnp-hnews-1048815",
     "source": "La República",
-    "published": "2026-08-26T21:55:05+00:00",
+    "published": "2026-08-27T18:39:37+00:00",
     "matched_in": "title"
    }
   ],
@@ -87,36 +80,34 @@
   ],
   "jose-antonio-chang-escobedo": [
    {
-    "title": "Revelan tres viajes al extranjero de Ministro José Antonio Chang con excongresista Tania Ramírez",
+    "title": "Ministro de Educación coincidió en viajes con Tania Ramírez: excongresista fue designada en la Derrama Magisterial",
     "url": "https://larepublica.pe/politica/2026/08/28/marco-sifuentes-revela-tres-viajes-al-extranjero-de-ministro-jose-antonio-chang-con-excongresista-tania-ramirez-1230236",
     "source": "La República",
-    "published": "2026-08-28T17:10:20+00:00",
+    "published": "2026-08-28T17:41:22+00:00",
     "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Juntos por el Perú retrocede con interpelación a Guillermo Shinno Huamaní, ministro de Energía y Minas",
-    "url": "https://larepublica.pe/politica/2026/08/26/juntos-por-el-peru-retrocede-con-interpelacion-a-guillermo-shinno-huamani-ministro-de-energia-y-minas-hnews-883896",
-    "source": "La República",
-    "published": "2026-08-26T21:55:05+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rafael-rey-rey": [
-   {
-    "title": "Rafael Rey defiende rebaja del 90% de multas: “Eran absolutamente abusivas”",
-    "url": "https://gestion.pe/peru/rafael-rey-defiende-rebaja-del-90-de-multas-eran-absolutamente-abusivas-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-28T04:18:00+00:00",
+    "title": "Rafael Belaunde sobre cuestionamientos contra ministros Beingolea y Chang: \"La presidenta no va a apañar ningún comportamiento indebido\"",
+    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-sobre-cuestionamientos-contra-ministros-beingolea-y-chang-la-presidenta-no-va-a-apanar-ningun-comportamiento-indebido-noticia-1704377",
+    "source": "RPP",
+    "published": "2026-08-28T20:41:37-05:00",
     "matched_in": "title"
    },
    {
-    "title": "Keiko Fujimori cede ante transportistas: eliminará ley de puntos y reducirá multas al 10% para evitar paro",
-    "url": "https://larepublica.pe/politica/2026/08/24/keiko-fujimori-cede-ante-transportistas-anuncia-derogacion-de-ley-de-puntos-y-reduccion-al-10-de-multas-hnews-866640",
-    "source": "La República",
-    "published": "2026-08-26T18:21:17+00:00",
-    "matched_in": "summary"
+    "title": "Ministro de Defensa sobre control militar en las cárceles: \"Se instalará escáneres y un detector de metales en Piedras Gordas\"",
+    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-ministro-de-defensa-anuncia-la-instalacion-de-escaneres-y-un-detector-de-metales-en-piedras-gordas-noticia-1704371",
+    "source": "RPP",
+    "published": "2026-08-28T20:30:54-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa justifica propuesta del Gobierno para que militares controlen el acceso a los penales",
+    "url": "https://rpp.pe/videos/las-cosas-como-son/ministro-de-defensa-justifica-propuesta-del-gobierno-para-que-militares-controlen-el-acceso-a-los-penales-noticia-1704379",
+    "source": "RPP",
+    "published": "2026-08-28T20:30:54-05:00",
+    "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
@@ -124,8 +115,17 @@
     "title": "Gobierno busca clasificar a bandas criminales como “grupos hostiles” para que F.F.A.A. intervengan",
     "url": "https://gestion.pe/peru/politica/gobierno-busca-clasificar-a-bandas-criminales-como-grupos-hostiles-para-que-ffaa-intervengan-noticia/",
     "source": "Gestión",
-    "published": "2026-08-28T03:34:52+00:00",
+    "published": "2026-08-29T00:36:00+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Keiko Fujimori niega salida de Alberto Beingolea pese a contratación de exmilitantes del PPC en el Mincul",
+    "url": "https://www.infobae.com/peru/2026/08/28/keiko-fujimori-niega-salida-de-alberto-beingolea-pese-a-contratacion-de-exmilitantes-del-ppc-en-el-mincul/",
+    "source": "Infobae",
+    "published": "2026-08-28T18:51:04+00:00",
+    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
