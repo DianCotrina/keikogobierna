@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.4](https://github.com/DianCotrina/keikogobierna/compare/v2.12.3...v2.12.4) (2026-08-29)
+
+
+### Bug Fixes
+
+* gate PERÚ COMPRAS catalogue maintenance ([8bbb27a](https://github.com/DianCotrina/keikogobierna/commit/8bbb27a782f4f720bd77c5f738cc62aad391ad8e))
+
 ## [2.12.3](https://github.com/DianCotrina/keikogobierna/compare/v2.12.2...v2.12.3) (2026-08-20)
 
 
