@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T15:11:18+00:00",
+ "generated": "2026-08-30T19:39:18+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
     "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-29T20:10:33+00:00",
+    "published": "2026-08-30T19:00:00+00:00",
     "matched_in": "summary"
    }
   ],
@@ -23,7 +23,39 @@
     "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
     "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-29T20:10:33+00:00",
+    "published": "2026-08-30T19:00:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Martha Chávez sobre José Antonio Chang por nombramiento de Tania Ramírez: “Debe dar una explicación inmediata”",
+    "url": "https://elcomercio.pe/politica/congreso/martha-chavez-sobre-cuestionamientos-a-jose-antonio-chang-por-nombramiento-de-tania-ramirez-debe-dar-una-explicacion-inmediata-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-30T18:03:45+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro de Defensa afirma que es urgente declarar como “grupos hostiles” a las organizaciones criminales",
+    "url": "https://www.infobae.com/peru/2026/08/30/ministro-de-defensa-afirma-que-es-urgente-declarar-como-grupos-hostiles-a-las-organizaciones-criminales/",
+    "source": "Infobae",
+    "published": "2026-08-30T16:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaunde: “Nadie ingresará a los penales sin pasar por un retén militar”",
+    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-nadie-ingresara-a-los-penales-sin-pasar-por-un-reten-militar-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-30T15:45:58+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "El Ejército usa recursos de la minera Poderosa en Pataz",
+    "url": "https://larepublica.pe/politica/2026/08/30/el-ejercito-usa-recursos-de-la-minera-poderosa-en-pataz-400084",
+    "source": "La República",
+    "published": "2026-08-30T12:17:28+00:00",
     "matched_in": "summary"
    }
   ],
@@ -36,21 +68,12 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "rafael-rey-rey": [
    {
-    "title": "Keiko Fujimori sobre posible ampliación del Reinfo: “No vamos a actuar ni ceder frente a presiones”",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-posible-ampliacion-del-reinfo-no-vamos-a-actuar-ni-ceder-frente-a-presiones-ultimas-noticia/",
+    "title": "Descuentos en multas de tránsito: ¿qué infracciones no aplican para la reducción?",
+    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-28T18:34:41+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "El Ejército usa recursos de la minera Poderosa en Pataz",
-    "url": "https://larepublica.pe/politica/2026/08/30/el-ejercito-usa-recursos-de-la-minera-poderosa-en-pataz-400084",
-    "source": "La República",
-    "published": "2026-08-30T12:17:28+00:00",
+    "published": "2026-08-30T17:47:34+00:00",
     "matched_in": "summary"
    }
   ],
@@ -70,6 +93,15 @@
     "source": "Gestión",
     "published": "2026-08-30T01:14:00+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Premier Luis Galarreta sobre contratación de su esposa en Congreso: “No tengo que aclarar, que aclare la institución”",
+    "url": "https://www.infobae.com/peru/2026/08/30/premier-luis-galarreta-sobre-contratacion-de-su-esposa-en-congreso-no-tengo-que-aclarar-que-aclare-la-institucion/",
+    "source": "Infobae",
+    "published": "2026-08-30T19:34:04+00:00",
+    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
