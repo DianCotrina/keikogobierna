@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T19:37:21+00:00",
+ "generated": "2026-08-30T01:08:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,15 +14,8 @@
     "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
     "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-29T14:20:49+00:00",
+    "published": "2026-08-29T20:10:33+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Comisión del Ministerio de Justicia inicia la revisión integral de leyes contra el crimen",
-    "url": "https://elcomercio.pe/politica/actualidad/comision-del-ministerio-de-justicia-inicia-la-revision-integral-de-leyes-contra-el-crimen-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T19:35:27+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -30,8 +23,17 @@
     "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
     "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-29T14:20:49+00:00",
+    "published": "2026-08-29T20:10:33+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Sheput en Atico: delegación de facultades permitirá acelerar obras de prevención ante El Niño",
+    "url": "https://elcomercio.pe/politica/actualidad/ministro-juan-sheput-en-atico-delegacion-de-facultades-permitira-acelerar-obras-de-prevencion-ante-el-nino-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-29T23:39:37+00:00",
+    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -41,31 +43,6 @@
     "source": "El Comercio",
     "published": "2026-08-28T18:34:41+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "¿Hacia una sexta ampliación?: Gobierno prevé presentar propuesta de Ley MAPE recién en noviembre, al límite del fin del Reinfo",
-    "url": "https://elcomercio.pe/politica/sexta-ampliacion-del-reinfo-hacia-una-sexta-ampliacion-gobierno-preve-presentar-propuesta-de-ley-mape-recien-en-noviembre-al-limite-del-fin-del-reinfo-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T20:01:13+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "JP presenta dos mociones y prepara una tercera: Es el mayor número de interpelaciones a ministros durante el primer mes de gobierno en los últimos 15 años",
-    "url": "https://elcomercio.pe/politica/jp-presenta-dos-mociones-y-prepara-una-tercera-es-el-mayor-numero-de-interpelaciones-a-ministros-durante-el-primer-mes-de-gobierno-en-los-ultimos-15-anos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-27T20:05:08+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rafael-rey-rey": [
-   {
-    "title": "Multas de tránsito: ¿qué infracciones no aplican para los descuentos según el MTC?",
-    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-29T16:54:16+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -74,15 +51,6 @@
     "url": "https://larepublica.pe/politica/2026/08/29/luis-dyer-ministro-de-salud-responsabiliza-a-la-prensa-de-ucayali-no-difundir-crisis-en-el-sistema-de-salud-hnews-1991372",
     "source": "La República",
     "published": "2026-08-29T18:10:49+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Ministro de Educación coincidió en viajes con Tania Ramírez: excongresista fue designada en la Derrama Magisterial",
-    "url": "https://larepublica.pe/politica/2026/08/28/marco-sifuentes-revela-tres-viajes-al-extranjero-de-ministro-jose-antonio-chang-con-excongresista-tania-ramirez-1230236",
-    "source": "La República",
-    "published": "2026-08-28T17:41:22+00:00",
     "matched_in": "title"
    }
   ],
