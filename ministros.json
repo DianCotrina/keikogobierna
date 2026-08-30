@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T10:18:16+00:00",
+ "generated": "2026-08-30T15:11:18+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -45,6 +45,15 @@
     "matched_in": "summary"
    }
   ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "El Ejército usa recursos de la minera Poderosa en Pataz",
+    "url": "https://larepublica.pe/politica/2026/08/30/el-ejercito-usa-recursos-de-la-minera-poderosa-en-pataz-400084",
+    "source": "La República",
+    "published": "2026-08-30T12:17:28+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "luis-williams-dyer-fernandez": [
    {
     "title": "Luis Dyer responsabiliza a la prensa de Ucayali no difundir crisis en el sistema de salud",
@@ -60,6 +69,15 @@
     "url": "https://gestion.pe/peru/politica/gobierno-busca-clasificar-a-bandas-criminales-como-grupos-hostiles-para-que-ffaa-intervengan-noticia/",
     "source": "Gestión",
     "published": "2026-08-30T01:14:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "El Perú y Estados Unidos consolidan una alianza estratégica para el desarrollo espacial: ¿de qué trata?",
+    "url": "https://www.infobae.com/peru/2026/08/30/el-peru-y-estados-unidos-consolidan-una-alianza-estrategica-para-el-desarrollo-espacial-de-que-trata/",
+    "source": "Infobae",
+    "published": "2026-08-30T14:51:43+00:00",
     "matched_in": "summary"
    }
   ]
