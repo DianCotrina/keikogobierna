@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T01:08:20+00:00",
+ "generated": "2026-08-31T11:24:57+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -45,6 +45,20 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Ministro de Defensa llegó a Trujillo para coordinar acciones con la PNP tras secuestro de empresario y asesinato de 4 personas",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-en-trujillo-por-secuestro-de-empresario-y-4-asesinatos-noticia-1704651",
+    "source": "RPP",
+    "published": "2026-08-31T01:02:47-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa viajará a Trujillo tras secuestro a empresario y asesinato de cuatro personas",
+    "url": "https://rpp.pe/peru/la-libertad/trujillo-ministro-de-defensa-viajara-a-la-libertad-tras-secuestro-a-empresario-y-asesinato-de-cuatro-personas-noticia-1704636",
+    "source": "RPP",
+    "published": "2026-08-30T20:50:22-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Fuerzas Armadas controlarán accesos de cinco penales para frenar extorsiones",
     "url": "https://gestion.pe/peru/politica/fuerzas-armadas-controlaran-accesos-de-cinco-penales-para-frenar-extorsiones-noticia/",
     "source": "Gestión",
@@ -89,12 +103,21 @@
     "matched_in": "title"
    }
   ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Fenómeno El Niño: Gobierno busca mejorar capacidad operativa para responder ante posibles efectos en Lima",
+    "url": "https://elcomercio.pe/lima/sucesos/fenomeno-el-nino-gobierno-afirma-que-se-busca-mejorar-capacidad-operativa-para-responder-ante-posibles-efectos-en-lima-marco-vinelli-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-31T04:18:19+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "rafael-rey-rey": [
    {
     "title": "Descuentos en multas de tránsito: ¿qué infracciones no aplican para la reducción?",
     "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-30T21:35:13+00:00",
+    "published": "2026-08-31T02:35:00+00:00",
     "matched_in": "summary"
    }
   ],
@@ -107,16 +130,14 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno busca clasificar a bandas criminales como “grupos hostiles” para que FF.AA. intervengan",
-    "url": "https://gestion.pe/peru/politica/gobierno-busca-clasificar-a-bandas-criminales-como-grupos-hostiles-para-que-ffaa-intervengan-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-30T01:14:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Ministro de Defensa viajará a Trujillo tras secuestro a empresario y asesinato de cuatro personas",
+    "url": "https://rpp.pe/peru/la-libertad/trujillo-ministro-de-defensa-viajara-a-la-libertad-tras-secuestro-a-empresario-y-asesinato-de-cuatro-personas-noticia-1704636",
+    "source": "RPP",
+    "published": "2026-08-30T20:50:22-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Premier Luis Galarreta sobre contratación de su esposa en Congreso: “No tengo que aclarar, que aclare la institución”",
     "url": "https://www.infobae.com/peru/2026/08/30/premier-luis-galarreta-sobre-contratacion-de-su-esposa-en-congreso-no-tengo-que-aclarar-que-aclare-la-institucion/",
