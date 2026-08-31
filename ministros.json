@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T19:39:18+00:00",
+ "generated": "2026-08-31T01:08:20+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -29,6 +29,13 @@
   ],
   "jose-antonio-chang-escobedo": [
    {
+    "title": "Martha Chávez: Designación de Tania Ramírez por parte del ministro de Educación \"merece una explicación inmediata\"",
+    "url": "https://rpp.pe/politica/congreso/martha-chavez-exige-explicaciones-a-jose-antonio-chang-por-tania-ramirez-noticia-1704622",
+    "source": "RPP",
+    "published": "2026-08-30T18:13:01-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Martha Chávez sobre José Antonio Chang por nombramiento de Tania Ramírez: “Debe dar una explicación inmediata”",
     "url": "https://elcomercio.pe/politica/congreso/martha-chavez-sobre-cuestionamientos-a-jose-antonio-chang-por-nombramiento-de-tania-ramirez-debe-dar-una-explicacion-inmediata-ultimas-noticia/",
     "source": "El Comercio",
@@ -37,6 +44,20 @@
    }
   ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Fuerzas Armadas controlarán accesos de cinco penales para frenar extorsiones",
+    "url": "https://gestion.pe/peru/politica/fuerzas-armadas-controlaran-accesos-de-cinco-penales-para-frenar-extorsiones-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-31T00:45:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Así será el nuevo control perimétrico en los penales: retenes, escáneres y detectores para impedir el ingreso de objetos prohibidos",
+    "url": "https://www.infobae.com/peru/2026/08/30/asi-sera-el-nuevo-control-perimetrico-en-los-penales-retenes-escaneres-y-detectores-para-impedir-el-ingreso-de-objetos-prohibidos/",
+    "source": "Infobae",
+    "published": "2026-08-30T23:27:43+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Ministro de Defensa afirma que es urgente declarar como “grupos hostiles” a las organizaciones criminales",
     "url": "https://www.infobae.com/peru/2026/08/30/ministro-de-defensa-afirma-que-es-urgente-declarar-como-grupos-hostiles-a-las-organizaciones-criminales/",
@@ -73,7 +94,7 @@
     "title": "Descuentos en multas de tránsito: ¿qué infracciones no aplican para la reducción?",
     "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-30T17:47:34+00:00",
+    "published": "2026-08-30T21:35:13+00:00",
     "matched_in": "summary"
    }
   ],
@@ -100,7 +121,7 @@
     "title": "Premier Luis Galarreta sobre contratación de su esposa en Congreso: “No tengo que aclarar, que aclare la institución”",
     "url": "https://www.infobae.com/peru/2026/08/30/premier-luis-galarreta-sobre-contratacion-de-su-esposa-en-congreso-no-tengo-que-aclarar-que-aclare-la-institucion/",
     "source": "Infobae",
-    "published": "2026-08-30T19:34:04+00:00",
+    "published": "2026-08-30T22:42:37+00:00",
     "matched_in": "title"
    }
   ],
