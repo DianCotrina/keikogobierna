@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T09:47:46+00:00",
+ "generated": "2026-09-01T15:24:04+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,41 +9,32 @@
   "Infobae"
  ],
  "ministers": {
-  "alberto-ismael-beingolea-delgado": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Alberto Beingolea sobre delegación de facultades: Si no nos las dan “nos la van a hacer enormemente difícil”",
-    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-sobre-delegacion-de-facultades-si-no-nos-las-dan-nos-la-van-a-hacer-enormemente-dificil-congreso-trujillo-secuestro-ultimas-noticia/",
+    "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
+    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-01T03:25:24+00:00",
+    "published": "2026-09-01T15:00:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
-    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T16:15:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Reestructuración de Sedapal iniciará esta semana, anunció ministro Arnillas",
-    "url": "https://gestion.pe/peru/politica/reestructuracion-de-sedapal-iniciara-esta-semana-anuncio-ministro-arnillas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T02:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Mauricio Arnillas sobre facultades legislativas: “Vamos a seguir impulsando estos procesos”",
-    "url": "https://elcomercio.pe/politica/mauricio-arnillas-sobre-facultades-legislativas-vamos-a-seguir-impulsando-estos-procesos-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T19:44:08+00:00",
+    "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
+    "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
+    "source": "La República",
+    "published": "2026-09-01T03:40:01+00:00",
     "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
    {
-    "title": "La excongresista Tanía Ramírez renunció a la Derrama Magisterial en medio de cuestionamientos al ministro de Educación",
+    "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
+    "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T14:35:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "La excongresista Tania Ramírez renunció a la Derrama Magisterial en medio de cuestionamientos al ministro de Educación",
     "url": "https://rpp.pe/politica/gobierno/tania-ramirez-renuncia-a-derrama-magisterial-por-presiones-a-ministro-chang-noticia-1704831",
     "source": "RPP",
     "published": "2026-08-31T22:42:18-05:00",
@@ -78,6 +69,38 @@
     "matched_in": "title"
    }
   ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto Beingolea sobre delegación de facultades: Si no nos las dan “nos la van a hacer enormemente difícil”",
+    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-sobre-delegacion-de-facultades-si-no-nos-las-dan-nos-la-van-a-hacer-enormemente-dificil-congreso-trujillo-secuestro-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T03:25:24+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
+    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-31T16:15:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Reestructuración de Sedapal iniciará esta semana, anunció ministro Arnillas",
+    "url": "https://gestion.pe/peru/politica/reestructuracion-de-sedapal-iniciara-esta-semana-anuncio-ministro-arnillas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-01T02:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Mauricio Arnillas sobre facultades legislativas: “Vamos a seguir impulsando estos procesos”",
+    "url": "https://elcomercio.pe/politica/mauricio-arnillas-sobre-facultades-legislativas-vamos-a-seguir-impulsando-estos-procesos-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-31T19:44:08+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Minjusdh anula contratos con empresa de seguridad por presuntas irregularidades",
@@ -96,10 +119,31 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
+    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
+    "source": "La República",
+    "published": "2026-09-01T14:58:19+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Belaunde corta a Arriola en plena explicación sobre liberación de empresario secuestrado en Trujillo",
+    "url": "https://larepublica.pe/politica/2026/09/01/ministro-belaunde-corta-a-arriola-en-plena-explicacion-sobre-liberacion-de-empresario-secuestrado-en-trujillo-hnews-85854",
+    "source": "La República",
+    "published": "2026-09-01T14:55:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gastón Rodríguez, exministro del Interior, cuestiona que ministro de Defensa, Rafael Belaúnde haya estado en interrogatorio a secuestrador capturado",
+    "url": "https://www.infobae.com/peru/2026/09/01/gaston-rodriguez-exministro-del-interior-cuestiona-que-ministro-de-defensa-rafael-belaunde-haya-estado-en-interrogatorio-a-secuestrador-capturado/",
+    "source": "Infobae",
+    "published": "2026-09-01T12:39:13+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro de Defensa confirmó pago para liberar a empresario secuestrado en Trujillo: “Estamos siguiendo la ruta del dinero”",
     "url": "https://www.infobae.com/peru/2026/09/01/ministro-de-defensa-confirmo-pago-para-liberar-a-empresario-secuestrado-en-trujillo-estamos-siguiendo-la-ruta-del-dinero/",
     "source": "Infobae",
-    "published": "2026-09-01T04:22:59+00:00",
+    "published": "2026-09-01T11:12:09+00:00",
     "matched_in": "title"
    },
    {
@@ -122,46 +166,14 @@
     "source": "El Comercio",
     "published": "2026-08-30T15:45:58+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "El Ejército usa recursos de la minera Poderosa en Pataz",
-    "url": "https://larepublica.pe/politica/2026/08/30/el-ejercito-usa-recursos-de-la-minera-poderosa-en-pataz-400084",
-    "source": "La República",
-    "published": "2026-08-30T12:17:28+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rafael-rey-rey": [
-   {
-    "title": "Descuentos del 90% en multas de tránsito: ¿qué infracciones no son consideradas para la reducción?",
-    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T04:11:43+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
-    "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
-    "source": "La República",
-    "published": "2026-09-01T03:40:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Sheput sobre feriados: “Tenemos que revisar opciones, una es tener un gran feriado el 27 de julio uniendo los tres de las FF.AA.”",
-    "url": "https://elcomercio.pe/economia/peru/ministro-sheput-sobre-feriados-tenemos-que-revisar-opciones-una-es-tener-un-gran-feriado-el-27-de-julio-uniendo-los-tres-de-las-ffaa-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T18:36:11+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ministerio del Interior indica que César Astudillo no viajó a operativo en Trujillo \"por una situación familiar muy delicada\"",
-    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-no-viajo-a-trujillo-por-emergencia-familiar-noticia-1704839",
-    "source": "RPP",
-    "published": "2026-09-01T00:33:23-05:00",
+    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
+    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
+    "source": "La República",
+    "published": "2026-09-01T14:58:19+00:00",
     "matched_in": "title"
    },
    {
@@ -178,22 +190,6 @@
     "url": "https://gestion.pe/peru/politica/ministro-vinelli-nadie-en-el-congreso-se-opondra-a-aprobar-delegacion-de-facultades-noticia/",
     "source": "Gestión",
     "published": "2026-09-01T00:45:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Chavimochic: contrato para tercera etapa de proyecto de Irrigación se firma en noviembre",
-    "url": "https://gestion.pe/economia/chavimochic-contrato-para-tercera-etapa-de-proyecto-de-irrigacion-se-firma-en-noviembre-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-31T19:20:54+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Presentan moción para invitar al Pleno al premier y ministros de Interior y Defensa",
-    "url": "https://gestion.pe/peru/politica/congreso-juntos-por-el-peru-presenta-mocion-para-invitar-al-pleno-al-premier-y-ministros-de-interior-y-defensa-por-ola-de-criminalidad-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-31T19:17:21+00:00",
     "matched_in": "title"
    }
   ]
