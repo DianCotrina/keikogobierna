@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T15:24:04+00:00",
+ "generated": "2026-09-01T19:45:32+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,64 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro Astudillo sobre Arriola: “No es un respaldo”, estamos todos en evaluación",
+    "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-comandante-oscar-arriola-no-es-un-respaldo-a-su-continuidad-estamos-todos-en-evaluacion-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-01T19:35:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo niega respaldo a Óscar Arriola, pero “todavía” no le pedirá su renuncia",
+    "url": "https://www.infobae.com/peru/2026/09/01/ministro-cesar-astudillo-niega-respaldo-a-oscar-arriola-pero-todavia-no-le-pedira-su-renuncia/",
+    "source": "Infobae",
+    "published": "2026-09-01T19:16:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo sostiene que general Óscar Arriola está “técnicamente calificado” para ejercer su cargo",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-asegura-que-no-se-ha-pedido-a-oscar-arriola-que-de-un-paso-al-costado-todavia-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T18:08:39+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cesar Astudillo viaja a Trujillo y no descarta que policías facilitaron los uniformes usados en la masacre: “Tomaré acciones radicales”",
+    "url": "https://www.infobae.com/peru/2026/09/01/cesar-astudillo-viaja-a-trujillo-y-no-descarta-que-policias-facilitaron-los-uniformes-usados-en-la-masacre-tomare-acciones-radicales/",
+    "source": "Infobae",
+    "published": "2026-09-01T17:59:26+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Captura de Jhonsson Cruz en Bolivia: El mensaje de WhatsApp que hizo caer al líder de ‘Los Pulpos’",
+    "url": "https://www.infobae.com/peru/2026/09/01/captura-de-jhonsson-cruz-en-bolivia-el-mensaje-de-whatsapp-que-hizo-caer-al-lider-de-los-pulpos/",
+    "source": "Infobae",
+    "published": "2026-09-01T17:46:15+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Mininter confirma detención en Bolivia de ‘Jhonsson Pulpo’, señalado como cabecilla de ‘Los Pulpos’",
+    "url": "https://elcomercio.pe/lima/policiales/mininter-confirma-detencion-en-bolivia-de-jhon-pulpo-senalado-como-cabecilla-de-los-pulpos-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T17:12:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo reveló por qué no estuvo en Trujillo tras el secuestro de empresario minero: “Mi ausencia ha sido por un tema personal”",
+    "url": "https://www.infobae.com/peru/2026/09/01/cesar-astudillo-revelo-por-que-no-estuvo-en-trujillo-tras-el-secuestro-de-empresario-minero-mi-ausencia-ha-sido-por-un-tema-personal/",
+    "source": "Infobae",
+    "published": "2026-09-01T16:21:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
+    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
+    "source": "La República",
+    "published": "2026-09-01T14:58:19+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
@@ -25,19 +83,37 @@
     "matched_in": "title"
    }
   ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
+    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T15:50:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
+    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T15:50:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Alberto Beingolea sobre delegación de facultades: Si no nos las dan “nos la van a hacer enormemente difícil”",
+    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-sobre-delegacion-de-facultades-si-no-nos-las-dan-nos-la-van-a-hacer-enormemente-dificil-congreso-trujillo-secuestro-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T03:25:24+00:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
     "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-01T14:35:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "La excongresista Tania Ramírez renunció a la Derrama Magisterial en medio de cuestionamientos al ministro de Educación",
-    "url": "https://rpp.pe/politica/gobierno/tania-ramirez-renuncia-a-derrama-magisterial-por-presiones-a-ministro-chang-noticia-1704831",
-    "source": "RPP",
-    "published": "2026-08-31T22:42:18-05:00",
+    "published": "2026-09-01T15:23:22+00:00",
     "matched_in": "title"
    },
    {
@@ -48,51 +124,14 @@
     "matched_in": "title"
    },
    {
-    "title": "Piden citar al ministro de Educación por designación de Tania Ramírez en Derrama Magisterial",
-    "url": "https://gestion.pe/peru/politica/piden-citar-al-ministro-de-educacion-por-designacion-de-tania-ramirez-en-derrama-magisterial-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T00:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Víctor Piñán pide explicaciones a ministro de Educación, José Antonio Chang por designación de Tania Ramírez en Derrama Magisterial",
     "url": "https://elcomercio.pe/politica/congreso/victor-pinan-pide-explicaciones-a-ministro-de-educacion-jose-antonio-chang-por-designacion-de-tania-ramirez-en-derrama-magisterial-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-31T16:33:49+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Martha Chávez sobre José Antonio Chang por nombramiento de Tania Ramírez: “Debe dar una explicación inmediata”",
-    "url": "https://elcomercio.pe/politica/congreso/martha-chavez-sobre-cuestionamientos-a-jose-antonio-chang-por-nombramiento-de-tania-ramirez-debe-dar-una-explicacion-inmediata-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-30T18:03:45+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Alberto Beingolea sobre delegación de facultades: Si no nos las dan “nos la van a hacer enormemente difícil”",
-    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-sobre-delegacion-de-facultades-si-no-nos-las-dan-nos-la-van-a-hacer-enormemente-dificil-congreso-trujillo-secuestro-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T03:25:24+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
-    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T16:15:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Reestructuración de Sedapal iniciará esta semana, anunció ministro Arnillas",
-    "url": "https://gestion.pe/peru/politica/reestructuracion-de-sedapal-iniciara-esta-semana-anuncio-ministro-arnillas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T02:00:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Mauricio Arnillas sobre facultades legislativas: “Vamos a seguir impulsando estos procesos”",
     "url": "https://elcomercio.pe/politica/mauricio-arnillas-sobre-facultades-legislativas-vamos-a-seguir-impulsando-estos-procesos-ultimas-noticia/",
@@ -101,23 +140,14 @@
     "matched_in": "title"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Minjusdh anula contratos con empresa de seguridad por presuntas irregularidades",
-    "url": "https://gestion.pe/peru/politica/minjusdh-anula-contratos-con-empresa-que-prestaba-servicios-de-seguridad-por-presuntas-irregularidades-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T03:30:00+00:00",
+    "title": "Rafael Belaúnde confirma pago para liberar a empresario en Trujillo",
+    "url": "https://elcomercio.pe/lima/rafael-belaunde-confirma-pago-para-liberar-a-empresario-secuestrado-en-trujillo-estamos-siguiendo-la-ruta-del-dinero-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T17:57:34+00:00",
     "matched_in": "title"
    },
-   {
-    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
-    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T16:15:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
    {
     "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
     "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
@@ -138,59 +168,15 @@
     "source": "Infobae",
     "published": "2026-09-01T12:39:13+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa confirmó pago para liberar a empresario secuestrado en Trujillo: “Estamos siguiendo la ruta del dinero”",
-    "url": "https://www.infobae.com/peru/2026/09/01/ministro-de-defensa-confirmo-pago-para-liberar-a-empresario-secuestrado-en-trujillo-estamos-siguiendo-la-ruta-del-dinero/",
-    "source": "Infobae",
-    "published": "2026-09-01T11:12:09+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "El ministro Rafael Belaúnde justifica la ausencia de César Astudillo, titular del Mininter, en el operativo de Trujillo",
-    "url": "https://www.infobae.com/peru/2026/09/01/el-ministro-rafael-belaunde-justifica-la-ausencia-de-cesar-astudillo-titular-del-mininter-en-el-operativo-de-trujillo/",
-    "source": "Infobae",
-    "published": "2026-09-01T01:00:13+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaúnde sobre Óscar Arriola: “No soy quién para juzgar el trabajo del general”, pero respalda su mandato legal de dos años",
-    "url": "https://www.infobae.com/peru/2026/08/31/rafael-belaunde-sobre-oscar-arriola-no-soy-quien-para-juzgar-el-trabajo-del-general-pero-respalda-su-mandato-legal-de-dos-anos/",
-    "source": "Infobae",
-    "published": "2026-08-31T23:59:10+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaunde: “Nadie ingresará a los penales sin pasar por un retén militar”",
-    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-nadie-ingresara-a-los-penales-sin-pasar-por-un-reten-militar-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-30T15:45:58+00:00",
-    "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
-    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
-    "source": "La República",
-    "published": "2026-09-01T14:58:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "El ministro Rafael Belaúnde justifica la ausencia de César Astudillo, titular del Mininter, en el operativo de Trujillo",
-    "url": "https://www.infobae.com/peru/2026/09/01/el-ministro-rafael-belaunde-justifica-la-ausencia-de-cesar-astudillo-titular-del-mininter-en-el-operativo-de-trujillo/",
-    "source": "Infobae",
-    "published": "2026-09-01T01:00:13+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Ministro Vinelli: nadie en el Congreso se opondrá a aprobar delegación de facultades",
-    "url": "https://gestion.pe/peru/politica/ministro-vinelli-nadie-en-el-congreso-se-opondra-a-aprobar-delegacion-de-facultades-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T00:45:00+00:00",
-    "matched_in": "title"
+    "title": "Comisiones del Senado aprueban citar a 6 ministros de Estado para que informen sobre plan de trabajo en sus sectores",
+    "url": "https://rpp.pe/politica/congreso/comisiones-del-congreso-aprueban-citar-a-6-ministros-de-estado-para-que-informen-sobre-plan-de-trabajo-en-sus-sectores-noticia-1704923",
+    "source": "RPP",
+    "published": "2026-09-01T12:02:59-05:00",
+    "matched_in": "summary"
    }
   ]
  }
