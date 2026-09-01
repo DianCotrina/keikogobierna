@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T21:45:00+00:00",
+ "generated": "2026-09-01T01:41:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,33 +11,33 @@
  "ministers": {
   "mauricio-fernando-arnillas-gonzalez": [
    {
+    "title": "Reestructuración de Sedapal iniciará esta semana, anunció ministro Arnillas",
+    "url": "https://gestion.pe/peru/politica/reestructuracion-de-sedapal-iniciara-esta-semana-anuncio-ministro-arnillas-noticia/",
+    "source": "Gestión",
+    "published": "2026-08-31T23:39:14+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Mauricio Arnillas sobre facultades legislativas: “Vamos a seguir impulsando estos procesos”",
     "url": "https://elcomercio.pe/politica/mauricio-arnillas-sobre-facultades-legislativas-vamos-a-seguir-impulsando-estos-procesos-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-08-31T19:44:08+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Reestructuración de Sedapal iniciará con nuevo directorio a partir del 4 de septiembre, asegura ministro de Vivienda",
-    "url": "https://rpp.pe/politica/gobierno/sedapal-entra-en-reestructuracion-cuando-se-realizaran-los-cambios-del-directorio-noticia-1704749",
-    "source": "RPP",
-    "published": "2026-08-31T14:31:54-05:00",
-    "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
+   {
+    "title": "Piden citar al ministro de Educación por designación de Tania Ramírez en Derrama Magisterial",
+    "url": "https://gestion.pe/peru/politica/piden-citar-al-ministro-de-educacion-por-designacion-de-tania-ramirez-en-derrama-magisterial-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-01T00:15:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Piden citar al ministro de Educación por designación de la excongresista Tania Ramírez en Derrama Magisterial",
     "url": "https://rpp.pe/politica/congreso/piden-citar-al-ministro-de-educacion-por-designacion-de-la-excongresista-tania-ramirez-en-derrama-magisterial-noticia-1704772",
     "source": "RPP",
     "published": "2026-08-31T16:30:28-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Piden citar al ministro de Educación por designación de Tania Ramírez en Derrama Magisterial",
-    "url": "https://gestion.pe/peru/politica/piden-citar-al-ministro-de-educacion-por-designacion-de-tania-ramirez-en-derrama-magisterial-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-31T20:37:12+00:00",
     "matched_in": "title"
    },
    {
@@ -62,13 +62,6 @@
     "source": "El Comercio",
     "published": "2026-08-31T16:15:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Minjusdh anula contratos con empresa de seguridad por presuntas irregularidades",
-    "url": "https://gestion.pe/peru/politica/minjusdh-anula-contratos-con-empresa-que-prestaba-servicios-de-seguridad-por-presuntas-irregularidades-noticia/",
-    "source": "Gestión",
-    "published": "2026-08-31T13:14:17+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -81,6 +74,20 @@
    }
   ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "El ministro Rafael Belaúnde justifica la ausencia de César Astudillo, titular del Mininter, en el operativo de Trujillo",
+    "url": "https://www.infobae.com/peru/2026/09/01/el-ministro-rafael-belaunde-justifica-la-ausencia-de-cesar-astudillo-titular-del-mininter-en-el-operativo-de-trujillo/",
+    "source": "Infobae",
+    "published": "2026-09-01T01:00:13+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaúnde sobre Óscar Arriola: “No soy quién para juzgar el trabajo del general”, pero respalda su mandato legal de dos años",
+    "url": "https://www.infobae.com/peru/2026/08/31/rafael-belaunde-sobre-oscar-arriola-no-soy-quien-para-juzgar-el-trabajo-del-general-pero-respalda-su-mandato-legal-de-dos-anos/",
+    "source": "Infobae",
+    "published": "2026-08-31T23:59:10+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Rafael Belaunde: “Nadie ingresará a los penales sin pasar por un retén militar”",
     "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-nadie-ingresara-a-los-penales-sin-pasar-por-un-reten-militar-ultimas-noticia/",
@@ -103,13 +110,15 @@
     "source": "El Comercio",
     "published": "2026-08-31T18:36:11+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rafael-rey-rey": [
    {
-    "title": "Ministro Sheput en Atico: delegación de facultades permitirá acelerar obras de prevención ante El Niño",
-    "url": "https://elcomercio.pe/politica/actualidad/ministro-juan-sheput-en-atico-delegacion-de-facultades-permitira-acelerar-obras-de-prevencion-ante-el-nino-ultimas-noticia/",
+    "title": "Descuentos del 90% en multas de tránsito: ¿qué infracciones no aplican a la reducción?",
+    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
     "source": "El Comercio",
-    "published": "2026-08-29T23:39:37+00:00",
-    "matched_in": "title"
+    "published": "2026-08-31T23:03:18+00:00",
+    "matched_in": "summary"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
@@ -117,7 +126,7 @@
     "title": "Ministro Vinelli: nadie en el Congreso se opondrá a aprobar delegación de facultades",
     "url": "https://gestion.pe/peru/politica/ministro-vinelli-nadie-en-el-congreso-se-opondra-a-aprobar-delegacion-de-facultades-noticia/",
     "source": "Gestión",
-    "published": "2026-08-31T21:11:41+00:00",
+    "published": "2026-09-01T00:45:00+00:00",
     "matched_in": "title"
    },
    {
@@ -134,6 +143,15 @@
     "url": "https://gestion.pe/peru/politica/congreso-juntos-por-el-peru-presenta-mocion-para-invitar-al-pleno-al-premier-y-ministros-de-interior-y-defensa-por-ola-de-criminalidad-noticia/",
     "source": "Gestión",
     "published": "2026-08-31T19:17:21+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "El ministro Rafael Belaúnde justifica la ausencia de César Astudillo, titular del Mininter, en el operativo de Trujillo",
+    "url": "https://www.infobae.com/peru/2026/09/01/el-ministro-rafael-belaunde-justifica-la-ausencia-de-cesar-astudillo-titular-del-mininter-en-el-operativo-de-trujillo/",
+    "source": "Infobae",
+    "published": "2026-09-01T01:00:13+00:00",
     "matched_in": "title"
    }
   ]
