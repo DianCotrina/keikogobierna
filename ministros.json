@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T00:51:59+00:00",
+ "generated": "2026-09-02T09:20:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,42 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
+    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-02T04:40:20+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "El Niño: Gobierno plantea medidas para proteger el empleo ante eventual emergencia",
+    "url": "https://gestion.pe/peru/politica/el-nino-gobierno-plantea-medidas-para-proteger-el-empleo-ante-eventual-emergencia-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-01T23:19:51+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
+    "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
+    "source": "La República",
+    "published": "2026-09-01T03:40:01+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Ministro Beingolea sobre pedido de facultades: “Ningún Gobierno las pidió tan pronto”",
+    "url": "https://gestion.pe/peru/politica/ministro-de-cultura-alberto-beingolea-este-pedido-de-facultades-ha-batido-records-ningun-gobierno-las-pidio-tan-pronto-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-02T04:36:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Alberto Beingolea sobre Óscar Arriola: “No es que sacando a un funcionario el problema se va a resolver”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-sobre-oscar-arriola-no-es-que-sacando-a-un-funcionario-el-problema-se-va-a-resolver-pnp-trujillo-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-02T00:19:12+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Beingolea sobre pedido de facultades: “Ningún Gobierno las pidió tan pronto”",
-    "url": "https://gestion.pe/peru/politica/ministro-de-cultura-alberto-beingolea-este-pedido-de-facultades-ha-batido-records-ningun-gobierno-las-pidio-tan-pronto-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T23:36:50+00:00",
     "matched_in": "title"
    },
    {
@@ -62,37 +85,7 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "El Niño: Gobierno plantea medidas para proteger el empleo ante eventual emergencia",
-    "url": "https://gestion.pe/peru/politica/el-nino-gobierno-plantea-medidas-para-proteger-el-empleo-ante-eventual-emergencia-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T23:19:51+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
-    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T20:00:17+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
-    "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
-    "source": "La República",
-    "published": "2026-09-01T03:40:01+00:00",
-    "matched_in": "title"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro Astudillo sobre Arriola: “No es un respaldo”, estamos todos en evaluación",
-    "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-comandante-oscar-arriola-no-es-un-respaldo-a-su-continuidad-estamos-todos-en-evaluacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T19:35:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro César Astudillo niega respaldo a Óscar Arriola, pero “todavía” no le pedirá su renuncia",
     "url": "https://www.infobae.com/peru/2026/09/01/ministro-cesar-astudillo-niega-respaldo-a-oscar-arriola-pero-todavia-no-le-pedira-su-renuncia/",
@@ -138,6 +131,20 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "Empresario Jenss Lara habría  cambiado de \"proveedor de seguridad a banda rival\", revela ministro Ernesto Álvarez",
+    "url": "https://rpp.pe/politica/gobierno/empresario-jenss-lara-habria-cambiado-de-proveedor-de-seguridad-a-banda-rival-revela-ministro-ernesto-alvarez-noticia-1705052",
+    "source": "RPP",
+    "published": "2026-09-01T20:43:56-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "¿Cuál fue el móvil del secuentro del empresario Jenss Lara?: esta es la teoría que maneja la Policía, según ministro Ernesto Álvarez",
+    "url": "https://rpp.pe/videos/las-cosas-como-son/cual-fue-el-movil-del-secuentro-del-empresario-jenss-lara-esta-es-la-teoria-que-maneja-la-policia-segun-ministro-ernesto-alvarez-noticia-1705060",
+    "source": "RPP",
+    "published": "2026-09-01T20:43:56-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
     "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
     "source": "El Comercio",
@@ -159,11 +166,18 @@
     "title": "Multas de tránsito con descuentos del 90%: ¿qué infracciones no son consideradas para la rebaja?",
     "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-01T23:59:47+00:00",
+    "published": "2026-09-02T05:44:35+00:00",
     "matched_in": "summary"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Rafael Belaúnde ante dudas sobre los detenidos por secuestro y asesinatos en Trujillo: \"Confío en lo que sostiene la Policía\"",
+    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-secuestro-trujillo-confio-en-lo-que-sostiene-la-policia-noticia-1705078",
+    "source": "RPP",
+    "published": "2026-09-02T00:45:52-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
     "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
@@ -179,35 +193,19 @@
     "matched_in": "title"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Comisiones del Senado aprueban citar a 6 ministros de Estado para que informen sobre plan de trabajo en sus sectores",
-    "url": "https://rpp.pe/politica/congreso/comisiones-del-congreso-aprueban-citar-a-6-ministros-de-estado-para-que-informen-sobre-plan-de-trabajo-en-sus-sectores-noticia-1704923",
-    "source": "RPP",
-    "published": "2026-09-01T12:02:59-05:00",
-    "matched_in": "summary"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Premier Galarreta: FF.AA. tendrán “tranquilidad” para actuar contra bandas criminales",
+    "url": "https://gestion.pe/peru/premier-luis-galarreta-de-fuerza-popular-ffaa-tendran-tranquilidad-para-actuar-contra-bandas-criminales-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-02T00:55:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Facultades legislativas: PCM convoca a diálogo con bancadas de diputados para explicar proyecto",
     "url": "https://gestion.pe/peru/politica/facultades-legislativas-pcm-convoca-a-dialogo-con-bancadas-de-diputados-para-explicar-proyecto-noticia/",
     "source": "Gestión",
     "published": "2026-09-01T21:51:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Galarreta: FF.AA. tendrán “tranquilidad” para actuar contra bandas criminales",
-    "url": "https://gestion.pe/peru/premier-luis-galarreta-de-fuerza-popular-ffaa-tendran-tranquilidad-para-actuar-contra-bandas-criminales-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T20:55:16+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "PCM invita a bancadas de la Cámara de Diputados a dialogar sobre pedido de facultades legislativas",
-    "url": "https://rpp.pe/politica/gobierno/pcm-invita-a-bancadas-de-la-camara-de-diputados-a-dialogar-sobre-pedido-de-facultades-legislativas-noticia-1704991",
-    "source": "RPP",
-    "published": "2026-09-01T15:18:44-05:00",
     "matched_in": "title"
    }
   ]
