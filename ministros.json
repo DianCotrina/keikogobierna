@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T14:59:37+00:00",
+ "generated": "2026-09-02T19:38:19+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
     "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-02T14:04:37+00:00",
+    "published": "2026-09-02T19:31:06+00:00",
     "matched_in": "title"
    },
    {
@@ -23,13 +23,6 @@
     "source": "La República",
     "published": "2026-09-01T03:39:41+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Víctor Piñán pide explicaciones a ministro de Educación, José Antonio Chang por designación de Tania Ramírez en Derrama Magisterial",
-    "url": "https://elcomercio.pe/politica/congreso/victor-pinan-pide-explicaciones-a-ministro-de-educacion-jose-antonio-chang-por-designacion-de-tania-ramirez-en-derrama-magisterial-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T16:33:49+00:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
@@ -37,21 +30,74 @@
     "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-02T04:40:20+00:00",
+    "published": "2026-09-02T19:30:47+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "El Niño: Gobierno plantea medidas para proteger el empleo ante eventual emergencia",
-    "url": "https://gestion.pe/peru/politica/el-nino-gobierno-plantea-medidas-para-proteger-el-empleo-ante-eventual-emergencia-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T23:19:51+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
     "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
     "source": "La República",
     "published": "2026-09-01T03:40:01+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Keiko Fujimori: “El ministro (Rafael) Belaunde no ha participado de ningún interrogatorio, los ha llevado a cabo la PNP”",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-el-ministro-rafael-belaunde-no-ha-participado-de-ningun-interrogatorio-los-ha-llevado-a-cabo-la-policia-trujillo-cesar-astudillo-oscar-arriola-secuestro-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-02T18:50:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
+    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
+    "source": "La República",
+    "published": "2026-09-01T14:58:19+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Belaunde corta a Arriola en plena explicación sobre liberación de empresario secuestrado en Trujillo",
+    "url": "https://larepublica.pe/politica/2026/09/01/ministro-belaunde-corta-a-arriola-en-plena-explicacion-sobre-liberacion-de-empresario-secuestrado-en-trujillo-hnews-85854",
+    "source": "La República",
+    "published": "2026-09-01T14:55:12+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
+    "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
+    "source": "La República",
+    "published": "2026-09-02T19:04:31+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputada Svieta Fernández pide citar urgentemente al ministro del Interior, César Astudillo, por crisis de inseguridad",
+    "url": "https://rpp.pe/politica/congreso/diputada-svieta-fernandez-pide-citar-urgentemente-al-ministro-del-interior-cesar-astudillo-por-crisis-de-inseguridad-noticia-1705169",
+    "source": "RPP",
+    "published": "2026-09-02T12:58:44-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "JP propone invitar al ministro César Astudillo a la Cámara de Diputados para que informe medidas contra inseguridad ciudadana",
+    "url": "https://elcomercio.pe/politica/congreso/juntos-por-el-peru-propone-invitar-al-ministro-cesar-astudillo-para-que-informe-medidas-contra-inseguridad-ciudadana-svieta-fernandez-oscar-arriola-pnp-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-02T17:29:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo sostiene que general Óscar Arriola está “técnicamente calificado” para ejercer su cargo",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-asegura-que-no-se-ha-pedido-a-oscar-arriola-que-de-un-paso-al-costado-todavia-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-01T18:08:39+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
+    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
+    "source": "La República",
+    "published": "2026-09-01T14:58:19+00:00",
     "matched_in": "title"
    }
   ],
@@ -85,50 +131,6 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro César Astudillo niega respaldo a Óscar Arriola, pero “todavía” no le pedirá su renuncia",
-    "url": "https://www.infobae.com/peru/2026/09/01/ministro-cesar-astudillo-niega-respaldo-a-oscar-arriola-pero-todavia-no-le-pedira-su-renuncia/",
-    "source": "Infobae",
-    "published": "2026-09-01T19:16:03+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro César Astudillo sostiene que general Óscar Arriola está “técnicamente calificado” para ejercer su cargo",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-asegura-que-no-se-ha-pedido-a-oscar-arriola-que-de-un-paso-al-costado-todavia-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T18:08:39+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Cesar Astudillo viaja a Trujillo y no descarta que policías facilitaron los uniformes usados en la masacre: “Tomaré acciones radicales”",
-    "url": "https://www.infobae.com/peru/2026/09/01/cesar-astudillo-viaja-a-trujillo-y-no-descarta-que-policias-facilitaron-los-uniformes-usados-en-la-masacre-tomare-acciones-radicales/",
-    "source": "Infobae",
-    "published": "2026-09-01T17:59:26+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Captura de Jhonsson Cruz en Bolivia: El mensaje de WhatsApp que hizo caer al líder de ‘Los Pulpos’",
-    "url": "https://www.infobae.com/peru/2026/09/01/captura-de-jhonsson-cruz-en-bolivia-el-mensaje-de-whatsapp-que-hizo-caer-al-lider-de-los-pulpos/",
-    "source": "Infobae",
-    "published": "2026-09-01T17:46:15+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "César Astudillo reveló por qué no estuvo en Trujillo tras el secuestro de empresario minero: “Mi ausencia ha sido por un tema personal”",
-    "url": "https://www.infobae.com/peru/2026/09/01/cesar-astudillo-revelo-por-que-no-estuvo-en-trujillo-tras-el-secuestro-de-empresario-minero-mi-ausencia-ha-sido-por-un-tema-personal/",
-    "source": "Infobae",
-    "published": "2026-09-01T16:21:43+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
-    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
-    "source": "La República",
-    "published": "2026-09-01T14:58:19+00:00",
-    "matched_in": "title"
-   }
-  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
@@ -147,44 +149,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
-    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
-    "source": "La República",
-    "published": "2026-09-01T14:58:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Belaunde corta a Arriola en plena explicación sobre liberación de empresario secuestrado en Trujillo",
-    "url": "https://larepublica.pe/politica/2026/09/01/ministro-belaunde-corta-a-arriola-en-plena-explicacion-sobre-liberacion-de-empresario-secuestrado-en-trujillo-hnews-85854",
-    "source": "La República",
-    "published": "2026-09-01T14:55:12+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Ministro de la Producción: Fenómeno 'El Niño' provocó la aparición de algunas especies que ahora llegan a los mercados",
-    "url": "https://rpp.pe/videos/la-rotativa-del-aire/ministro-de-la-produccion-fenomeno-el-nino-provoco-la-aparicion-de-algunas-especies-que-ahora-llegan-a-los-mercados-noticia-1705105",
-    "source": "RPP",
-    "published": "2026-09-02T07:04:12-05:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Premier Galarreta: FF.AA. tendrán “tranquilidad” para actuar contra bandas criminales",
     "url": "https://gestion.pe/peru/premier-luis-galarreta-de-fuerza-popular-ffaa-tendran-tranquilidad-para-actuar-contra-bandas-criminales-noticia/",
     "source": "Gestión",
     "published": "2026-09-02T00:55:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Facultades legislativas: PCM convoca a diálogo con bancadas de diputados para explicar proyecto",
-    "url": "https://gestion.pe/peru/politica/facultades-legislativas-pcm-convoca-a-dialogo-con-bancadas-de-diputados-para-explicar-proyecto-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-01T21:51:01+00:00",
     "matched_in": "title"
    }
   ]

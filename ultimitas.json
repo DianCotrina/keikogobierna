@@ -1,10 +1,73 @@
 {
- "generated": "2026-09-02T14:59:37+00:00",
+ "generated": "2026-09-02T19:38:19+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
  "articles": [
+  {
+   "title": "Keiko Fujimori: “El ministro (Rafael) Belaunde no ha participado de ningún interrogatorio, los ha llevado a cabo la PNP”",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-el-ministro-rafael-belaunde-no-ha-participado-de-ningun-interrogatorio-los-ha-llevado-a-cabo-la-policia-trujillo-cesar-astudillo-oscar-arriola-secuestro-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori afirmó que el ministro de Defensa, Rafael Belaunde, no ha participado de ningún interrogatorio a los detenidos por el cuádruple asesinato y el secuestro del empresario minero Jenss Lara en la ciudad de Trujillo, hecho ocurrido el último domingo 30 de agosto.",
+   "author": "Redacción EC",
+   "published": "2026-09-02T18:50:37+00:00",
+   "source": "El Comercio",
+   "captured": "2026-09-02T19:38:19+00:00"
+  },
+  {
+   "title": "Keiko Fujimori asegura que detenidos en Trujillo ya han confesado: ''Hay documentos firmados''",
+   "url": "https://larepublica.pe/sociedad/2026/09/02/keiko-fujimori-asegura-que-detenidos-en-trujillo-ya-han-confesado-hay-documentos-firmados-37354",
+   "summary": "Durante su visita a Piura, la presidenta anunció nuevos avances sobre los crímenes perpetrados en Húsares de Junín y que la investigación continúa. Evitó dar más detalles hasta que el ministro Astudillo dé más información.",
+   "author": "Daniela Orellana",
+   "published": "2026-09-02T18:28:02+00:00",
+   "source": "La República",
+   "captured": "2026-09-02T19:38:19+00:00"
+  },
+  {
+   "title": "Keiko Fujimori sobre su vínculo con Fernando Cerimedo: \"No ha participado ni en la primera ni en la segunda vuelta\"",
+   "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-sobre-su-vinculo-con-fernando-cerimedo-no-ha-participado-ni-en-la-primera-ni-en-la-segunda-vuelta-hnews-101052",
+   "summary": "Keiko Fujimori rechazó cualquier nexo con el consultor y operador digital Fernando Cerimedo, pero movimientos migratorios prueban sus constantes visitas al Perú durante el proceso electoral.",
+   "author": "Jazmín Bianchi",
+   "published": "2026-09-02T18:25:42+00:00",
+   "source": "La República",
+   "captured": "2026-09-02T19:38:19+00:00"
+  },
+  {
+   "title": "Keiko Fujimori niega que ministro Belaunde haya interrogado a delincuentes capturados en Trujillo pese a fotografías",
+   "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-niega-que-ministro-belaunde-haya-interrogado-a-delincuentes-capturados-en-trujillo-pese-a-fotografias-hnews-68330",
+   "summary": "Las imágenes muestran a Rafael Belaúnde junto a Óscar Arriola cerca de los señalados como responsables del ataque en Trujillo.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-09-02T18:17:51+00:00",
+   "source": "La República",
+   "captured": "2026-09-02T19:38:19+00:00"
+  },
+  {
+   "title": "Estos son los casi 900 distritos que han sido declarados en emergencia por las lluvias a raíz del Fenómeno El Niño",
+   "url": "https://elcomercio.pe/respuestas/cual/estos-son-los-casi-900-distritos-que-han-sido-declarados-en-emergencia-por-las-lluvias-a-raiz-del-fenomeno-el-nino-tdpe-noticia/",
+   "summary": "Estos son los casi 900 distritos que han sido declarados en emergencia por las lluvias a raíz del Fenómeno El Niño. Ante la intensidad que se espera del Fenómeno El Niño, el Gobierno de Keiko Fujimori aprobó el estado de emergencia para alrededor de 900 distritos del país, con el objetivo de implementar medidas de prevención. Todos los detalles, en esta nota.",
+   "author": "Redacción EC",
+   "published": "2026-09-02T18:07:57+00:00",
+   "source": "El Comercio",
+   "captured": "2026-09-02T19:38:19+00:00"
+  },
+  {
+   "title": "Los viajes de Keiko Fujimori en su primer mes de gestión: ¿qué revela su agenda y qué queda pendiente?",
+   "url": "https://elcomercio.pe/politica/gobierno/los-viajes-de-la-presidenta-en-su-primer-mes-de-gestion-que-dice-su-agenda-sobre-las-prioridades-del-gobierno-apuesplan-noticia/",
+   "summary": "Durante su primer mes de gestión, la presidenta Keiko Fujimori ha realizado nueve viajes a regiones con una agenda marcada por la atención de emergencias frente a fenómenos naturales y visitas a instalaciones militares y policiales. Su reciente arribo a Puno, donde obtuvo uno de sus peores resultados electorales, añadió a su agenda una lectura política particular.",
+   "author": "Martín Calderón",
+   "published": "2026-09-02T17:59:09+00:00",
+   "source": "El Comercio",
+   "captured": "2026-09-02T19:38:19+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: “Puedo señalar con claridad que el señor Cerimedo no ha participado en nuestra campaña electoral”",
+   "url": "https://elcomercio.pe/politica/actualidad/keiko-fujimori-niega-vinculos-con-fernando-cerimedo-no-ha-participado-en-nuestra-campana-electoral-en-primera-ni-segunda-vuelta-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori descartó ante la prensa cualquier vínculo personal o durante su reciente campaña a la cabeza de Fuerza Popular con el estratega argentino Fernando Cerimedo, arrestado recientemente en Bolivia.",
+   "author": "Redacción EC",
+   "published": "2026-09-02T17:51:37+00:00",
+   "source": "El Comercio",
+   "captured": "2026-09-02T19:38:19+00:00"
+  },
   {
    "title": "Cámara Baja sin reflejos",
    "url": "https://elcomercio.pe/opinion/columnistas/camara-baja-sin-reflejos-por-martin-hidalgo-diputados-congreso-de-la-republica-noticia/",
