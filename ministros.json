@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T09:20:07+00:00",
+ "generated": "2026-09-02T14:59:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
+    "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-02T14:04:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Tania Ramírez renuncia como representante del Minedu en Derrama Magisterial tras cuestionamientos",
+    "url": "https://larepublica.pe/politica/2026/08/31/tania-ramirez-renuncia-como-representante-del-minedu-en-derrama-magisterial-tras-cuestionamientos-hnews-1901044",
+    "source": "La República",
+    "published": "2026-09-01T03:39:41+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Víctor Piñán pide explicaciones a ministro de Educación, José Antonio Chang por designación de Tania Ramírez en Derrama Magisterial",
+    "url": "https://elcomercio.pe/politica/congreso/victor-pinan-pide-explicaciones-a-ministro-de-educacion-jose-antonio-chang-por-designacion-de-tania-ramirez-en-derrama-magisterial-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-08-31T16:33:49+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
@@ -62,29 +85,6 @@
     "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
-    "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T20:00:42+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Tania Ramírez renuncia como representante del Minedu en Derrama Magisterial tras cuestionamientos",
-    "url": "https://larepublica.pe/politica/2026/08/31/tania-ramirez-renuncia-como-representante-del-minedu-en-derrama-magisterial-tras-cuestionamientos-hnews-1901044",
-    "source": "La República",
-    "published": "2026-09-01T03:39:41+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Víctor Piñán pide explicaciones a ministro de Educación, José Antonio Chang por designación de Tania Ramírez en Derrama Magisterial",
-    "url": "https://elcomercio.pe/politica/congreso/victor-pinan-pide-explicaciones-a-ministro-de-educacion-jose-antonio-chang-por-designacion-de-tania-ramirez-en-derrama-magisterial-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T16:33:49+00:00",
-    "matched_in": "title"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Ministro César Astudillo niega respaldo a Óscar Arriola, pero “todavía” no le pedirá su renuncia",
@@ -131,20 +131,6 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Empresario Jenss Lara habría  cambiado de \"proveedor de seguridad a banda rival\", revela ministro Ernesto Álvarez",
-    "url": "https://rpp.pe/politica/gobierno/empresario-jenss-lara-habria-cambiado-de-proveedor-de-seguridad-a-banda-rival-revela-ministro-ernesto-alvarez-noticia-1705052",
-    "source": "RPP",
-    "published": "2026-09-01T20:43:56-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "¿Cuál fue el móvil del secuentro del empresario Jenss Lara?: esta es la teoría que maneja la Policía, según ministro Ernesto Álvarez",
-    "url": "https://rpp.pe/videos/las-cosas-como-son/cual-fue-el-movil-del-secuentro-del-empresario-jenss-lara-esta-es-la-teoria-que-maneja-la-policia-segun-ministro-ernesto-alvarez-noticia-1705060",
-    "source": "RPP",
-    "published": "2026-09-01T20:43:56-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
     "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
     "source": "El Comercio",
@@ -161,23 +147,7 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
-   {
-    "title": "Multas de tránsito con descuentos del 90%: ¿qué infracciones no son consideradas para la rebaja?",
-    "url": "https://elcomercio.pe/lima/transporte/reduccion-de-multas-de-transito-que-infracciones-fueron-excluidas-por-el-mtc-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-02T05:44:35+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Rafael Belaúnde ante dudas sobre los detenidos por secuestro y asesinatos en Trujillo: \"Confío en lo que sostiene la Policía\"",
-    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-secuestro-trujillo-confio-en-lo-que-sostiene-la-policia-noticia-1705078",
-    "source": "RPP",
-    "published": "2026-09-02T00:45:52-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
     "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
@@ -190,6 +160,15 @@
     "url": "https://larepublica.pe/politica/2026/09/01/ministro-belaunde-corta-a-arriola-en-plena-explicacion-sobre-liberacion-de-empresario-secuestrado-en-trujillo-hnews-85854",
     "source": "La República",
     "published": "2026-09-01T14:55:12+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
+   {
+    "title": "Ministro de la Producción: Fenómeno 'El Niño' provocó la aparición de algunas especies que ahora llegan a los mercados",
+    "url": "https://rpp.pe/videos/la-rotativa-del-aire/ministro-de-la-produccion-fenomeno-el-nino-provoco-la-aparicion-de-algunas-especies-que-ahora-llegan-a-los-mercados-noticia-1705105",
+    "source": "RPP",
+    "published": "2026-09-02T07:04:12-05:00",
     "matched_in": "title"
    }
   ],
