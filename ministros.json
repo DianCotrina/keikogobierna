@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T09:29:57+00:00",
+ "generated": "2026-09-03T14:53:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput se planta ante Keiko Fujimori y exige la salida de Óscar Arriola: “No voy a retroceder”",
-    "url": "https://www.infobae.com/peru/2026/09/02/ministro-juan-sheput-se-planta-ante-keiko-fujimori-y-exige-la-salida-de-oscar-arriola-no-voy-a-retroceder/",
-    "source": "Infobae",
-    "published": "2026-09-02T21:03:37+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
@@ -58,6 +51,13 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "‘Jhonsson Pulpo’, líder del grupo criminal ‘Los Pulpos’, llegó a Lima tras ser capturado en Bolivia",
+    "url": "https://www.infobae.com/peru/2026/09/02/jhonsson-pulpo-cabecilla-de-los-pulpos-llega-a-lima-bajo-fuerte-resguardo-policial/",
+    "source": "Infobae",
+    "published": "2026-09-02T23:57:09+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
     "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
@@ -118,6 +118,15 @@
     "url": "https://gestion.pe/peru/politica/ministro-de-energia-y-minas-anuncio-cambios-en-el-proceso-de-formalizacion-minera-y-el-reinfo-noticia/",
     "source": "Gestión",
     "published": "2026-09-03T04:12:07+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Premier Luis Galarreta: La promesa de trabajar “desde el día uno” no evitó hechos sangrientos como el de Trujillo",
+    "url": "https://www.infobae.com/peru/2026/09/03/premier-luis-galarreta-reconoce-que-promesa-de-trabajar-desde-el-dia-uno-no-evito-hechos-sangrientos-como-el-de-trujillo/",
+    "source": "Infobae",
+    "published": "2026-09-03T01:23:22+00:00",
     "matched_in": "title"
    }
   ]
