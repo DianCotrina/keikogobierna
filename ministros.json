@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T00:58:54+00:00",
+ "generated": "2026-09-03T09:29:57+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -23,13 +23,6 @@
     "source": "El Comercio",
     "published": "2026-09-02T19:30:47+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
-    "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
-    "source": "La República",
-    "published": "2026-09-01T03:40:01+00:00",
-    "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
@@ -38,13 +31,6 @@
     "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
     "source": "El Comercio",
     "published": "2026-09-02T19:31:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Tania Ramírez renuncia como representante del Minedu en Derrama Magisterial tras cuestionamientos",
-    "url": "https://larepublica.pe/politica/2026/08/31/tania-ramirez-renuncia-como-representante-del-minedu-en-derrama-magisterial-tras-cuestionamientos-hnews-1901044",
-    "source": "La República",
-    "published": "2026-09-01T03:39:41+00:00",
     "matched_in": "title"
    }
   ],
@@ -115,13 +101,6 @@
     "source": "El Comercio",
     "published": "2026-09-01T15:50:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Alberto Beingolea sobre delegación de facultades: Si no nos las dan “nos la van a hacer enormemente difícil”",
-    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-sobre-delegacion-de-facultades-si-no-nos-las-dan-nos-la-van-a-hacer-enormemente-dificil-congreso-trujillo-secuestro-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T03:25:24+00:00",
-    "matched_in": "title"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -131,6 +110,15 @@
     "source": "El Comercio",
     "published": "2026-09-01T15:50:00+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Ministro de Energía y Minas anunció cambios en el proceso de formalización minera y el Reinfo",
+    "url": "https://gestion.pe/peru/politica/ministro-de-energia-y-minas-anuncio-cambios-en-el-proceso-de-formalizacion-minera-y-el-reinfo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T04:12:07+00:00",
+    "matched_in": "title"
    }
   ]
  }
