@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T19:38:19+00:00",
+ "generated": "2026-09-03T00:58:54+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput se planta ante Keiko Fujimori y exige la salida de Óscar Arriola: “No voy a retroceder”",
+    "url": "https://www.infobae.com/peru/2026/09/02/ministro-juan-sheput-se-planta-ante-keiko-fujimori-y-exige-la-salida-de-oscar-arriola-no-voy-a-retroceder/",
+    "source": "Infobae",
+    "published": "2026-09-02T21:03:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
+    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-02T19:30:47+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
+    "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
+    "source": "La República",
+    "published": "2026-09-01T03:40:01+00:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
@@ -22,22 +45,6 @@
     "url": "https://larepublica.pe/politica/2026/08/31/tania-ramirez-renuncia-como-representante-del-minedu-en-derrama-magisterial-tras-cuestionamientos-hnews-1901044",
     "source": "La República",
     "published": "2026-09-01T03:39:41+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
-    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-02T19:30:47+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Sheput a favor de salida de Arriola de la PNP, mientras Vinelli y Belaúnde justifican su continuidad",
-    "url": "https://larepublica.pe/politica/2026/08/31/ministro-sheput-a-favor-de-salida-de-arriola-de-la-pnp-mientras-vinelli-y-belaunde-justifican-su-continuidad-hnews-1315423",
-    "source": "La República",
-    "published": "2026-09-01T03:40:01+00:00",
     "matched_in": "title"
    }
   ],
@@ -69,14 +76,7 @@
     "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
     "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
     "source": "La República",
-    "published": "2026-09-02T19:04:31+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputada Svieta Fernández pide citar urgentemente al ministro del Interior, César Astudillo, por crisis de inseguridad",
-    "url": "https://rpp.pe/politica/congreso/diputada-svieta-fernandez-pide-citar-urgentemente-al-ministro-del-interior-cesar-astudillo-por-crisis-de-inseguridad-noticia-1705169",
-    "source": "RPP",
-    "published": "2026-09-02T12:58:44-05:00",
+    "published": "2026-09-02T23:49:13+00:00",
     "matched_in": "title"
    },
    {
@@ -102,13 +102,6 @@
    }
   ],
   "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Ministro Beingolea sobre pedido de facultades: “Ningún Gobierno las pidió tan pronto”",
-    "url": "https://gestion.pe/peru/politica/ministro-de-cultura-alberto-beingolea-este-pedido-de-facultades-ha-batido-records-ningun-gobierno-las-pidio-tan-pronto-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-02T04:36:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro Alberto Beingolea sobre Óscar Arriola: “No es que sacando a un funcionario el problema se va a resolver”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-sobre-oscar-arriola-no-es-que-sacando-a-un-funcionario-el-problema-se-va-a-resolver-pnp-trujillo-ultimas-noticia/",
@@ -138,24 +131,6 @@
     "source": "El Comercio",
     "published": "2026-09-01T15:50:00+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Mauricio Arnillas sobre facultades legislativas: “Vamos a seguir impulsando estos procesos”",
-    "url": "https://elcomercio.pe/politica/mauricio-arnillas-sobre-facultades-legislativas-vamos-a-seguir-impulsando-estos-procesos-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-08-31T19:44:08+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Premier Galarreta: FF.AA. tendrán “tranquilidad” para actuar contra bandas criminales",
-    "url": "https://gestion.pe/peru/premier-luis-galarreta-de-fuerza-popular-ffaa-tendran-tranquilidad-para-actuar-contra-bandas-criminales-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-02T00:55:00+00:00",
-    "matched_in": "title"
    }
   ]
  }
