@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T14:53:43+00:00",
+ "generated": "2026-09-03T19:40:01+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,11 +14,53 @@
     "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-02T19:30:47+00:00",
+    "published": "2026-09-03T18:21:09+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MTPE plantea declarar sesión permanente del CNTPE: los temas prioritarios",
+    "url": "https://gestion.pe/economia/gobierno-ministerio-de-trabajo-plantea-declarar-sesion-permanente-del-cntpe-los-temas-prioritarios-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T18:00:31+00:00",
     "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
+   {
+    "title": "José Antonio Chang respalda a Tania Ramírez pese a su renuncia a la Derrama Magisterial: \"Tiene todos los requisitos\"",
+    "url": "https://larepublica.pe/politica/2026/09/03/jose-antonio-chang-respalda-a-tania-ramirez-pese-a-su-renuncia-a-la-derrama-magisterial-tiene-todos-los-requisitos-hnews-154428",
+    "source": "La República",
+    "published": "2026-09-03T18:54:57+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ley de pensión a maestros: Ministro de Educación dice que cumplirá con norma, pero no sería 3.500 soles",
+    "url": "https://www.infobae.com/peru/2026/09/03/ley-de-pension-a-maestros-ministro-de-educacion-cumplira-con-norma-pero-no-seria-3500-soles/",
+    "source": "Infobae",
+    "published": "2026-09-03T17:49:06+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "José Antonio Chang sobre Óscar Arriola: “No he visto los resultados que se esperaban pero hay que darle tiempo”",
+    "url": "https://elcomercio.pe/politica/gobierno/jose-antonio-chang-sobre-oscar-arriola-no-he-visto-los-resultados-que-se-esperaban-pero-hay-que-darle-tiempo-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-03T16:56:47+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diana Gonzáles visitó al ministro de Educación días antes de ser nombrada como directora ejecutiva de Pronabec",
+    "url": "https://larepublica.pe/politica/2026/09/03/diana-gonzales-visito-al-ministro-de-educacion-dias-antes-de-ser-nombrada-como-directora-ejecutiva-de-pronabec-hnews-160752",
+    "source": "La República",
+    "published": "2026-09-03T16:52:05+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro José Antonio Chang niega relación amorosa con Tania Ramírez: “Ha hecho un sacrificio al renunciar”",
+    "url": "https://www.infobae.com/peru/2026/09/03/ministro-jose-antonio-chang-niega-relacion-amorosa-con-tania-ramirez-ha-hecho-un-sacrificio-al-renunciar/",
+    "source": "Infobae",
+    "published": "2026-09-03T16:39:37+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
     "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
@@ -29,35 +71,21 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Humberto Abanto sobre foto del comandante de la PNP y el ministro de Defensa con detenido: “No es un interrogatorio”",
+    "url": "https://rpp.pe/politica/actualidad/humberto-abanto-sobre-foto-del-comandante-de-la-pnp-y-el-ministro-de-defensa-con-detenido-no-es-un-interrogatorio-noticia-1705367",
+    "source": "RPP",
+    "published": "2026-09-03T11:18:58-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Keiko Fujimori: “El ministro (Rafael) Belaunde no ha participado de ningún interrogatorio, los ha llevado a cabo la PNP”",
     "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-el-ministro-rafael-belaunde-no-ha-participado-de-ningun-interrogatorio-los-ha-llevado-a-cabo-la-policia-trujillo-cesar-astudillo-oscar-arriola-secuestro-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-02T18:50:37+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
-    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
-    "source": "La República",
-    "published": "2026-09-01T14:58:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Belaunde corta a Arriola en plena explicación sobre liberación de empresario secuestrado en Trujillo",
-    "url": "https://larepublica.pe/politica/2026/09/01/ministro-belaunde-corta-a-arriola-en-plena-explicacion-sobre-liberacion-de-empresario-secuestrado-en-trujillo-hnews-85854",
-    "source": "La República",
-    "published": "2026-09-01T14:55:12+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "‘Jhonsson Pulpo’, líder del grupo criminal ‘Los Pulpos’, llegó a Lima tras ser capturado en Bolivia",
-    "url": "https://www.infobae.com/peru/2026/09/02/jhonsson-pulpo-cabecilla-de-los-pulpos-llega-a-lima-bajo-fuerte-resguardo-policial/",
-    "source": "Infobae",
-    "published": "2026-09-02T23:57:09+00:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
     "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
@@ -71,20 +99,6 @@
     "source": "El Comercio",
     "published": "2026-09-02T17:29:37+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro César Astudillo sostiene que general Óscar Arriola está “técnicamente calificado” para ejercer su cargo",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-asegura-que-no-se-ha-pedido-a-oscar-arriola-que-de-un-paso-al-costado-todavia-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T18:08:39+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Belaunde mintió ante ausencia de Astudillo: ministro no viajó a Trujillo por temas personales",
-    "url": "https://larepublica.pe/politica/2026/09/01/rafael-belaunde-sobre-ausencia-del-ministro-del-interior-en-trujillo-ha-tenido-otra-responsabilidades-hnews-65766",
-    "source": "La República",
-    "published": "2026-09-01T14:58:19+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -94,22 +108,45 @@
     "source": "El Comercio",
     "published": "2026-09-02T00:19:12+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
-    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T15:50:00+00:00",
-    "matched_in": "summary"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Alberto, que te lo quitan, una crónica de Fernando Vivas",
-    "url": "https://elcomercio.pe/politica/alberto-que-te-lo-quitan-una-cronica-de-fernando-vivas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-01T15:50:00+00:00",
-    "matched_in": "summary"
+    "title": "Ley de Presupuesto: MEF plantea reducir la evasión tributaria en dos años para obtener S/20 mil millones adicionales",
+    "url": "https://www.infobae.com/peru/2026/09/03/ley-de-presupuesto-mef-plantea-reducir-la-evasion-tributaria-en-dos-anos-para-obtener-s20-mil-millones-adicionales/",
+    "source": "Infobae",
+    "published": "2026-09-03T19:13:17+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba sobre crecer 4% este año: este ritmo es clave para que suban los salarios",
+    "url": "https://gestion.pe/economia/mef-y-su-meta-de-que-peru-crezca-al-4-es-la-diferencia-entre-subir-salarios-o-no-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T17:47:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF apunta a las empresas que compran facturas falsas: “Ahí está el problema central de la evasión tributaria”, advierte Elmer Cuba",
+    "url": "https://rpp.pe/economia/economia/mef-elmer-cuba-critica-empresas-que-comprar-facturas-falsas-y-revela-problema-central-de-evasion-tributaria-noticia-1705392",
+    "source": "RPP",
+    "published": "2026-09-03T12:25:22-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Premier Galarreta: “El presupuesto del 2027 es de inflexión para enfrentar a la inseguridad”",
+    "url": "https://gestion.pe/economia/premier-galarreta-el-presupuesto-del-2027-es-de-inflexion-para-enfrentar-a-la-inseguridad-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T18:05:30+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Galarreta: Presupuesto 2027 marcará un punto de inflexión para enfrentar inseguridad",
+    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-de-fuerza-popular-presupuesto-2027-marcara-un-punto-de-inflexion-para-enfrentar-inseguridad-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T18:02:08+00:00",
+    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -118,15 +155,6 @@
     "url": "https://gestion.pe/peru/politica/ministro-de-energia-y-minas-anuncio-cambios-en-el-proceso-de-formalizacion-minera-y-el-reinfo-noticia/",
     "source": "Gestión",
     "published": "2026-09-03T04:12:07+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Premier Luis Galarreta: La promesa de trabajar “desde el día uno” no evitó hechos sangrientos como el de Trujillo",
-    "url": "https://www.infobae.com/peru/2026/09/03/premier-luis-galarreta-reconoce-que-promesa-de-trabajar-desde-el-dia-uno-no-evito-hechos-sangrientos-como-el-de-trujillo/",
-    "source": "Infobae",
-    "published": "2026-09-03T01:23:22+00:00",
     "matched_in": "title"
    }
   ]
