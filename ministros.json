@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T14:50:48+00:00",
+ "generated": "2026-09-04T19:19:32+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -30,13 +30,6 @@
     "source": "La República",
     "published": "2026-09-02T23:49:13+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "JP propone invitar al ministro César Astudillo a la Cámara de Diputados para que informe medidas contra inseguridad ciudadana",
-    "url": "https://elcomercio.pe/politica/congreso/juntos-por-el-peru-propone-invitar-al-ministro-cesar-astudillo-para-que-informe-medidas-contra-inseguridad-ciudadana-svieta-fernandez-oscar-arriola-pnp-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-02T17:29:37+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -56,6 +49,13 @@
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput ante propuesta de reducir la planilla estatal con incentivos: “Hemos heredado una estructura laboral perversa”",
+    "url": "https://rpp.pe/economia/economia/juan-sheput-ante-propuesta-del-gobierno-de-reducir-la-planilla-estatal-con-incentivos-hemos-heredado-una-estructura-laboral-perversa-noticia-1705644",
+    "source": "RPP",
+    "published": "2026-09-04T14:15:10-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "CNTPE retoma diálogo con agenda sobre RMV y El Niño: los acuerdos",
     "url": "https://gestion.pe/economia/gobierno-ministerio-de-trabajo-plantea-declarar-sesion-permanente-del-cntpe-los-temas-prioritarios-noticia/",
@@ -115,25 +115,11 @@
     "source": "La República",
     "published": "2026-09-04T10:14:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Fiscal de la Nación cuestiona exposición de detenidos y presencia de Belaúnde en Trujillo",
-    "url": "https://gestion.pe/peru/fiscal-de-la-nacion-cuestiona-exposicion-de-detenidos-y-presencia-de-belaunde-en-trujillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T19:51:31+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori: “El ministro (Rafael) Belaunde no ha participado de ningún interrogatorio, los ha llevado a cabo la PNP”",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-el-ministro-rafael-belaunde-no-ha-participado-de-ningun-interrogatorio-los-ha-llevado-a-cabo-la-policia-trujillo-cesar-astudillo-oscar-arriola-secuestro-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-02T18:50:37+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
    {
-    "title": "De abusivas a baratas",
+    "title": "Editorial de Gestión: De abusivas a baratas",
     "url": "https://gestion.pe/opinion/editorial/de-abusivas-a-baratas-noticia/",
     "source": "Gestión",
     "published": "2026-09-04T10:00:00+00:00",
@@ -141,13 +127,6 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "El ministro de Economía, Elmer Cuba afirmó que el gasto público por habitante está en un “máximo histórico”",
-    "url": "https://www.infobae.com/peru/2026/09/04/el-ministro-de-economia-elmer-cuba-afirmo-que-el-gasto-publico-por-habitante-esta-en-un-maximo-historico/",
-    "source": "Infobae",
-    "published": "2026-09-04T01:38:21+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Cuba defiende alza de 3.5% en presupuesto del 2027: “La cifra presenta máximos históricos”",
     "url": "https://gestion.pe/economia/cuba-defiende-alza-de-35-en-presupuesto-del-2027-la-cifra-presenta-maximos-historicos-noticia/",
@@ -161,31 +140,6 @@
     "source": "Gestión",
     "published": "2026-09-03T22:00:04+00:00",
     "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Premier Galarreta: “El presupuesto del 2027 es de inflexión para enfrentar a la inseguridad”",
-    "url": "https://gestion.pe/economia/premier-galarreta-el-presupuesto-del-2027-es-de-inflexion-para-enfrentar-a-la-inseguridad-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T18:05:30+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Galarreta: Presupuesto 2027 marcará un punto de inflexión para enfrentar inseguridad",
-    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-de-fuerza-popular-presupuesto-2027-marcara-un-punto-de-inflexion-para-enfrentar-inseguridad-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T18:02:08+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Gobierno designa nuevo presidente del INPE: Abraham Lescano reemplaza a Raúl Inga tras su salida en medio de cuestionamientos",
-    "url": "https://www.infobae.com/peru/2026/09/04/gobierno-designa-nuevo-presidente-del-inpe-abraham-lescano-reemplaza-a-raul-inga-tras-su-salida-en-medio-de-cuestionamientos/",
-    "source": "Infobae",
-    "published": "2026-09-04T02:13:43+00:00",
-    "matched_in": "summary"
    }
   ]
  }
