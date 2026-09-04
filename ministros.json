@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T00:49:45+00:00",
+ "generated": "2026-09-04T09:21:46+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -25,13 +25,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Juntos por el Perú presenta moción de interpelación contra ministro del Interior, César Astudillo: cuestionan gestión frente al crimen",
-    "url": "https://www.infobae.com/peru/2026/09/03/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-ministro-del-interior-cesar-astudillo-cuestionan-gestion-frente-al-crimen/",
-    "source": "Infobae",
-    "published": "2026-09-03T19:53:54+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
     "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
     "source": "La República",
@@ -47,6 +40,13 @@
    }
   ],
   "guillermo-shinno-huamani": [
+   {
+    "title": "Guillermo Shinno solicitó presentarse ante el Congreso: ¿qué temas explicará el ministro?",
+    "url": "https://gestion.pe/peru/politica/guillermo-shinno-solicito-presentarse-ante-el-congreso-que-temas-explicara-el-ministro-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-04T01:32:29+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Guillermo Shinno solicita acudir a la Comisión de Energía y Minas para exponer política del sector",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-guillermo-shinno-solicita-acudir-a-la-comision-de-energia-y-minas-para-exponer-politica-del-sector-ultimas-noticia/",
@@ -76,14 +76,7 @@
     "title": "José Antonio Chang respalda a Tania Ramírez pese a su renuncia a la Derrama Magisterial: \"Tiene todos los requisitos\"",
     "url": "https://larepublica.pe/politica/2026/09/03/jose-antonio-chang-respalda-a-tania-ramirez-pese-a-su-renuncia-a-la-derrama-magisterial-tiene-todos-los-requisitos-hnews-154428",
     "source": "La República",
-    "published": "2026-09-03T23:14:48+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ley de pensión a maestros: Ministro de Educación dice que cumplirá con norma, pero no sería 3.500 soles",
-    "url": "https://www.infobae.com/peru/2026/09/03/ley-de-pension-a-maestros-ministro-de-educacion-cumplira-con-norma-pero-no-seria-3500-soles/",
-    "source": "Infobae",
-    "published": "2026-09-03T17:49:06+00:00",
+    "published": "2026-09-04T03:40:04+00:00",
     "matched_in": "title"
    },
    {
@@ -101,13 +94,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro José Antonio Chang niega relación amorosa con Tania Ramírez: “Ha hecho un sacrificio al renunciar”",
-    "url": "https://www.infobae.com/peru/2026/09/03/ministro-jose-antonio-chang-niega-relacion-amorosa-con-tania-ramirez-ha-hecho-un-sacrificio-al-renunciar/",
-    "source": "Infobae",
-    "published": "2026-09-03T16:39:37+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
     "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
     "source": "El Comercio",
@@ -116,6 +102,20 @@
    }
   ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Tomás Gálvez sobre interrogatorio de Rafael Belaúnde a detenidos en Trujillo: \"No es pertinente\"",
+    "url": "https://larepublica.pe/politica/2026/09/03/tomas-galvez-sobre-interrogatorio-de-rafael-belaunde-a-detenidos-en-trujillo-no-es-pertinente-hnews-164055",
+    "source": "La República",
+    "published": "2026-09-04T03:28:53+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Fiscal Chávez Cotrina dice que \"fue un error\" que Rafael Belaunde interactuara con detenidos por asesinato en Trujillo",
+    "url": "https://rpp.pe/peru/actualidad/fiscal-jorge-chavez-cotrina-dice-que-fue-un-error-que-rafael-belaunde-interactuara-con-detenidos-por-asesinato-en-trujillo-noticia-1705500",
+    "source": "RPP",
+    "published": "2026-09-03T20:22:57-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Fiscal de la Nación cuestiona exposición de detenidos y presencia de Belaúnde en Trujillo",
     "url": "https://gestion.pe/peru/fiscal-de-la-nacion-cuestiona-exposicion-de-detenidos-y-presencia-de-belaunde-en-trujillo-noticia/",
@@ -133,6 +133,13 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
+    "title": "El ministro de Economía, Elmer Cuba afirmó que el gasto público por habitante está en un “máximo histórico”",
+    "url": "https://www.infobae.com/peru/2026/09/04/el-ministro-de-economia-elmer-cuba-afirmo-que-el-gasto-publico-por-habitante-esta-en-un-maximo-historico/",
+    "source": "Infobae",
+    "published": "2026-09-04T01:38:21+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Cuba defiende alza de 3.5% en presupuesto del 2027: “La cifra presenta máximos históricos”",
     "url": "https://gestion.pe/economia/cuba-defiende-alza-de-35-en-presupuesto-del-2027-la-cifra-presenta-maximos-historicos-noticia/",
     "source": "Gestión",
@@ -144,20 +151,6 @@
     "url": "https://gestion.pe/economia/mef-y-su-meta-de-que-peru-crezca-al-4-es-la-diferencia-entre-subir-salarios-o-no-noticia/",
     "source": "Gestión",
     "published": "2026-09-03T22:00:04+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba, titular del MEF: “Estamos en máximos históricos de gasto por persona, no en mínimos”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-titular-del-mef-estamos-en-maximos-historicos-de-gasto-por-persona-no-en-minimos-presupuesto-publico-congreso-de-la-republica-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-03T19:54:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ley de Presupuesto: MEF plantea reducir la evasión tributaria en dos años para obtener S/20 mil millones adicionales",
-    "url": "https://www.infobae.com/peru/2026/09/03/ley-de-presupuesto-mef-plantea-reducir-la-evasion-tributaria-en-dos-anos-para-obtener-s20-mil-millones-adicionales/",
-    "source": "Infobae",
-    "published": "2026-09-03T19:13:17+00:00",
     "matched_in": "title"
    }
   ],
@@ -175,6 +168,15 @@
     "source": "Gestión",
     "published": "2026-09-03T18:02:08+00:00",
     "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Gobierno designa nuevo presidente del INPE: Abraham Lescano reemplaza a Raúl Inga tras su salida en medio de cuestionamientos",
+    "url": "https://www.infobae.com/peru/2026/09/04/gobierno-designa-nuevo-presidente-del-inpe-abraham-lescano-reemplaza-a-raul-inga-tras-su-salida-en-medio-de-cuestionamientos/",
+    "source": "Infobae",
+    "published": "2026-09-04T02:13:43+00:00",
+    "matched_in": "summary"
    }
   ]
  }
