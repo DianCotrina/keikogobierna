@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T19:40:01+00:00",
+ "generated": "2026-09-04T00:49:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,65 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "JP presenta moción de interpelación contra César Astudillo: ¿qué le cuestionan?",
+    "url": "https://gestion.pe/peru/politica/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-cesar-astudillo-que-le-cuestionan-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T23:31:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "JP presenta moción para interpelar al ministro César Astudillo por su desempeño en el cargo y lucha contra inseguridad ciudadana",
+    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-juntos-por-el-peru-presenta-mocion-para-interpelar-al-ministro-del-interior-por-su-desempeno-en-el-cargo-y-lucha-contra-inseguridad-ciudadana-congreso-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-03T22:05:32+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú presenta moción de interpelación contra ministro del Interior, César Astudillo: cuestionan gestión frente al crimen",
+    "url": "https://www.infobae.com/peru/2026/09/03/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-ministro-del-interior-cesar-astudillo-cuestionan-gestion-frente-al-crimen/",
+    "source": "Infobae",
+    "published": "2026-09-03T19:53:54+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
+    "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
+    "source": "La República",
+    "published": "2026-09-02T23:49:13+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "JP propone invitar al ministro César Astudillo a la Cámara de Diputados para que informe medidas contra inseguridad ciudadana",
+    "url": "https://elcomercio.pe/politica/congreso/juntos-por-el-peru-propone-invitar-al-ministro-cesar-astudillo-para-que-informe-medidas-contra-inseguridad-ciudadana-svieta-fernandez-oscar-arriola-pnp-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-02T17:29:37+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Ministro Guillermo Shinno solicita acudir a la Comisión de Energía y Minas para exponer política del sector",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-guillermo-shinno-solicita-acudir-a-la-comision-de-energia-y-minas-para-exponer-politica-del-sector-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-03T19:59:26+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "CNTPE retoma diálogo con agenda sobre RMV y El Niño: los acuerdos",
+    "url": "https://gestion.pe/economia/gobierno-ministerio-de-trabajo-plantea-declarar-sesion-permanente-del-cntpe-los-temas-prioritarios-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-04T00:42:36+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
     "source": "El Comercio",
     "published": "2026-09-03T18:21:09+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MTPE plantea declarar sesión permanente del CNTPE: los temas prioritarios",
-    "url": "https://gestion.pe/economia/gobierno-ministerio-de-trabajo-plantea-declarar-sesion-permanente-del-cntpe-los-temas-prioritarios-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T18:00:31+00:00",
     "matched_in": "title"
    }
   ],
@@ -30,7 +76,7 @@
     "title": "José Antonio Chang respalda a Tania Ramírez pese a su renuncia a la Derrama Magisterial: \"Tiene todos los requisitos\"",
     "url": "https://larepublica.pe/politica/2026/09/03/jose-antonio-chang-respalda-a-tania-ramirez-pese-a-su-renuncia-a-la-derrama-magisterial-tiene-todos-los-requisitos-hnews-154428",
     "source": "La República",
-    "published": "2026-09-03T18:54:57+00:00",
+    "published": "2026-09-03T23:14:48+00:00",
     "matched_in": "title"
    },
    {
@@ -71,10 +117,10 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Humberto Abanto sobre foto del comandante de la PNP y el ministro de Defensa con detenido: “No es un interrogatorio”",
-    "url": "https://rpp.pe/politica/actualidad/humberto-abanto-sobre-foto-del-comandante-de-la-pnp-y-el-ministro-de-defensa-con-detenido-no-es-un-interrogatorio-noticia-1705367",
-    "source": "RPP",
-    "published": "2026-09-03T11:18:58-05:00",
+    "title": "Fiscal de la Nación cuestiona exposición de detenidos y presencia de Belaúnde en Trujillo",
+    "url": "https://gestion.pe/peru/fiscal-de-la-nacion-cuestiona-exposicion-de-detenidos-y-presencia-de-belaunde-en-trujillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T19:51:31+00:00",
     "matched_in": "title"
    },
    {
@@ -85,51 +131,33 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
-    "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
-    "source": "La República",
-    "published": "2026-09-02T23:49:13+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "JP propone invitar al ministro César Astudillo a la Cámara de Diputados para que informe medidas contra inseguridad ciudadana",
-    "url": "https://elcomercio.pe/politica/congreso/juntos-por-el-peru-propone-invitar-al-ministro-cesar-astudillo-para-que-informe-medidas-contra-inseguridad-ciudadana-svieta-fernandez-oscar-arriola-pnp-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-02T17:29:37+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Ministro Alberto Beingolea sobre Óscar Arriola: “No es que sacando a un funcionario el problema se va a resolver”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-sobre-oscar-arriola-no-es-que-sacando-a-un-funcionario-el-problema-se-va-a-resolver-pnp-trujillo-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-02T00:19:12+00:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ley de Presupuesto: MEF plantea reducir la evasión tributaria en dos años para obtener S/20 mil millones adicionales",
-    "url": "https://www.infobae.com/peru/2026/09/03/ley-de-presupuesto-mef-plantea-reducir-la-evasion-tributaria-en-dos-anos-para-obtener-s20-mil-millones-adicionales/",
-    "source": "Infobae",
-    "published": "2026-09-03T19:13:17+00:00",
+    "title": "Cuba defiende alza de 3.5% en presupuesto del 2027: “La cifra presenta máximos históricos”",
+    "url": "https://gestion.pe/economia/cuba-defiende-alza-de-35-en-presupuesto-del-2027-la-cifra-presenta-maximos-historicos-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-03T22:04:11+00:00",
     "matched_in": "title"
    },
    {
     "title": "Elmer Cuba sobre crecer 4% este año: este ritmo es clave para que suban los salarios",
     "url": "https://gestion.pe/economia/mef-y-su-meta-de-que-peru-crezca-al-4-es-la-diferencia-entre-subir-salarios-o-no-noticia/",
     "source": "Gestión",
-    "published": "2026-09-03T17:47:21+00:00",
+    "published": "2026-09-03T22:00:04+00:00",
     "matched_in": "title"
    },
    {
-    "title": "MEF apunta a las empresas que compran facturas falsas: “Ahí está el problema central de la evasión tributaria”, advierte Elmer Cuba",
-    "url": "https://rpp.pe/economia/economia/mef-elmer-cuba-critica-empresas-que-comprar-facturas-falsas-y-revela-problema-central-de-evasion-tributaria-noticia-1705392",
-    "source": "RPP",
-    "published": "2026-09-03T12:25:22-05:00",
+    "title": "Elmer Cuba, titular del MEF: “Estamos en máximos históricos de gasto por persona, no en mínimos”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-titular-del-mef-estamos-en-maximos-historicos-de-gasto-por-persona-no-en-minimos-presupuesto-publico-congreso-de-la-republica-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-03T19:54:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ley de Presupuesto: MEF plantea reducir la evasión tributaria en dos años para obtener S/20 mil millones adicionales",
+    "url": "https://www.infobae.com/peru/2026/09/03/ley-de-presupuesto-mef-plantea-reducir-la-evasion-tributaria-en-dos-anos-para-obtener-s20-mil-millones-adicionales/",
+    "source": "Infobae",
+    "published": "2026-09-03T19:13:17+00:00",
     "matched_in": "title"
    }
   ],
@@ -146,15 +174,6 @@
     "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-de-fuerza-popular-presupuesto-2027-marcara-un-punto-de-inflexion-para-enfrentar-inseguridad-noticia/",
     "source": "Gestión",
     "published": "2026-09-03T18:02:08+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Ministro de Energía y Minas anunció cambios en el proceso de formalización minera y el Reinfo",
-    "url": "https://gestion.pe/peru/politica/ministro-de-energia-y-minas-anuncio-cambios-en-el-proceso-de-formalizacion-minera-y-el-reinfo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T04:12:07+00:00",
     "matched_in": "title"
    }
   ]
