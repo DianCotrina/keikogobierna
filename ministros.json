@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T13:42:03+00:00",
+ "generated": "2026-09-05T18:49:28+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
     "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-05T15:00:00+00:00",
+    "published": "2026-09-05T17:04:57+00:00",
     "matched_in": "title"
    },
    {
@@ -30,6 +30,36 @@
     "source": "La República",
     "published": "2026-09-04T10:14:00+00:00",
     "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Excongresista Carlos Tubino fue nombrado nuevo embajador de Perú en Argentina",
+    "url": "https://rpp.pe/politica/gobierno/carlos-tubino-excongresista-fue-nombrado-nuevo-embajador-de-peru-en-argentina-noticia-1705784",
+    "source": "RPP",
+    "published": "2026-09-05T12:55:42-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Carlos Tubino designado como nuevo embajador en Argentina por Cancillería",
+    "url": "https://elcomercio.pe/politica/gobierno/carlos-tubino-designado-como-nuevo-embajador-en-argentina-por-cancilleria-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-05T15:18:33+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Aurelio Pastor y Carlos Pareja son nombrados representantes del Perú ante la OEA y la ONU por la Cancillería",
+    "url": "https://elcomercio.pe/politica/gobierno/aurelio-pastor-y-carlos-pareja-son-nombrados-representantes-del-peru-ante-la-oea-y-la-onu-por-la-cancilleria-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-05T14:56:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Nombran al fujimorista Carlos Tubino como embajador de Perú en Argentina y al aprista Aurelio Pastor en la OEA",
+    "url": "https://www.infobae.com/peru/2026/09/05/nombran-al-fujimorista-carlos-tubino-como-embajador-de-peru-en-argentina-y-al-aprista-aurelio-pastor-en-la-oea/",
+    "source": "Infobae",
+    "published": "2026-09-05T14:35:23+00:00",
+    "matched_in": "summary"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -50,22 +80,6 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Congreso cita a Juan Sheput: ¿qué tendrá que explicar el ministro de Trabajo?",
-    "url": "https://gestion.pe/peru/politica/congreso-cita-a-juan-sheput-que-tendra-que-explicar-el-ministro-de-trabajo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-04T20:42:51+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
-    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-estoy-dentro-de-aquellos-que-pide-la-salida-de-arriola-no-voy-a-retroceder-en-mi-posicion-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-03T18:21:09+00:00",
-    "matched_in": "title"
-   }
-  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "José Antonio Chang respalda a Tania Ramírez pese a su renuncia a la Derrama Magisterial: \"Tiene todos los requisitos\"",
@@ -73,19 +87,23 @@
     "source": "La República",
     "published": "2026-09-04T10:20:00+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "José Antonio Chang sobre Óscar Arriola: “No he visto los resultados que se esperaban pero hay que darle tiempo”",
-    "url": "https://elcomercio.pe/politica/gobierno/jose-antonio-chang-sobre-oscar-arriola-no-he-visto-los-resultados-que-se-esperaban-pero-hay-que-darle-tiempo-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-03T16:56:47+00:00",
+    "title": "Luis Dyer sobre pedido de facultades legislativas en Salud: \"Nuestra meta a corto plazo es la transformación digital y mejorar la parte administrativa\"",
+    "url": "https://rpp.pe/politica/gobierno/luis-dyer-sobre-pedido-de-facultades-legislativas-en-salud-nuestra-meta-a-corto-plazo-es-la-transformacion-digital-y-mejorar-la-parte-administrativa-noticia-1705766",
+    "source": "RPP",
+    "published": "2026-09-05T10:20:47-05:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Diana Gonzáles visitó al ministro de Educación días antes de ser nombrada como directora ejecutiva de Pronabec",
-    "url": "https://larepublica.pe/politica/2026/09/03/diana-gonzales-visito-al-ministro-de-educacion-dias-antes-de-ser-nombrada-como-directora-ejecutiva-de-pronabec-hnews-160752",
-    "source": "La República",
-    "published": "2026-09-03T16:52:05+00:00",
+    "title": "Congreso cita a Juan Sheput: ¿qué tendrá que explicar el ministro de Trabajo?",
+    "url": "https://gestion.pe/peru/politica/congreso-cita-a-juan-sheput-que-tendra-que-explicar-el-ministro-de-trabajo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-04T20:42:51+00:00",
     "matched_in": "title"
    }
   ],
