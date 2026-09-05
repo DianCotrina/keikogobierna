@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T08:51:23+00:00",
+ "generated": "2026-09-05T13:42:03+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
+    "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-05T15:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaunde omitió en su declaración jurada que su padre es director de Paltarumi",
+    "url": "https://larepublica.pe/politica/2026/09/04/rafael-belaunde-omitio-en-su-declaracion-jurada-que-su-padre-es-director-de-paltarumi-hnews-264232",
+    "source": "La República",
+    "published": "2026-09-05T01:51:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Tomás Gálvez sobre interrogatorio de Rafael Belaúnde a detenidos en Trujillo: \"No es pertinente\"",
+    "url": "https://larepublica.pe/politica/2026/09/03/tomas-galvez-sobre-interrogatorio-de-rafael-belaunde-a-detenidos-en-trujillo-no-es-pertinente-hnews-164055",
+    "source": "La República",
+    "published": "2026-09-04T10:14:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "JP presenta moción para interpelar al ministro César Astudillo por su desempeño en el cargo y lucha contra inseguridad ciudadana",
@@ -33,13 +56,6 @@
     "url": "https://gestion.pe/peru/politica/congreso-cita-a-juan-sheput-que-tendra-que-explicar-el-ministro-de-trabajo-noticia/",
     "source": "Gestión",
     "published": "2026-09-04T20:42:51+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput ante propuesta de reducir la planilla estatal con incentivos: “Hemos heredado una estructura laboral perversa”",
-    "url": "https://rpp.pe/economia/economia/juan-sheput-ante-propuesta-del-gobierno-de-reducir-la-planilla-estatal-con-incentivos-hemos-heredado-una-estructura-laboral-perversa-noticia-1705644",
-    "source": "RPP",
-    "published": "2026-09-04T14:15:10-05:00",
     "matched_in": "title"
    },
    {
@@ -70,22 +86,6 @@
     "url": "https://larepublica.pe/politica/2026/09/03/diana-gonzales-visito-al-ministro-de-educacion-dias-antes-de-ser-nombrada-como-directora-ejecutiva-de-pronabec-hnews-160752",
     "source": "La República",
     "published": "2026-09-03T16:52:05+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Rafael Belaunde omitió en su declaración jurada que su padre es director de Paltarumi",
-    "url": "https://larepublica.pe/politica/2026/09/04/rafael-belaunde-omitio-en-su-declaracion-jurada-que-su-padre-es-director-de-paltarumi-hnews-264232",
-    "source": "La República",
-    "published": "2026-09-05T01:51:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Tomás Gálvez sobre interrogatorio de Rafael Belaúnde a detenidos en Trujillo: \"No es pertinente\"",
-    "url": "https://larepublica.pe/politica/2026/09/03/tomas-galvez-sobre-interrogatorio-de-rafael-belaunde-a-detenidos-en-trujillo-no-es-pertinente-hnews-164055",
-    "source": "La República",
-    "published": "2026-09-04T10:14:00+00:00",
     "matched_in": "title"
    }
   ],
