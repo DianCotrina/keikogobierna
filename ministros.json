@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T19:19:32+00:00",
+ "generated": "2026-09-05T00:39:42+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,35 +11,14 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "JP presenta moción de interpelación contra César Astudillo: ¿qué le cuestionan?",
-    "url": "https://gestion.pe/peru/politica/juntos-por-el-peru-presenta-mocion-de-interpelacion-contra-cesar-astudillo-que-le-cuestionan-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T23:31:04+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "JP presenta moción para interpelar al ministro César Astudillo por su desempeño en el cargo y lucha contra inseguridad ciudadana",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-juntos-por-el-peru-presenta-mocion-para-interpelar-al-ministro-del-interior-por-su-desempeno-en-el-cargo-y-lucha-contra-inseguridad-ciudadana-congreso-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-03T22:05:32+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Fujimori se lava las manos por desempeño de Arriola en la PNP: \"Esa respuesta se la dejo al ministro del Interior\"",
-    "url": "https://larepublica.pe/politica/2026/09/02/keiko-fujimori-se-lava-las-manos-por-desempeno-de-arriola-en-la-pnp-esa-respuesta-se-la-dejo-al-ministro-del-interior-hnews-99794",
-    "source": "La República",
-    "published": "2026-09-02T23:49:13+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
-   {
-    "title": "Guillermo Shinno solicitó presentarse ante el Congreso: ¿qué temas explicará el ministro?",
-    "url": "https://gestion.pe/peru/politica/guillermo-shinno-solicito-presentarse-ante-el-congreso-que-temas-explicara-el-ministro-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-04T01:32:29+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro Guillermo Shinno solicita acudir a la Comisión de Energía y Minas para exponer política del sector",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-guillermo-shinno-solicita-acudir-a-la-comision-de-energia-y-minas-para-exponer-politica-del-sector-ultimas-noticia/",
@@ -50,18 +29,18 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
+    "title": "Congreso cita a Juan Sheput: ¿qué tendrá que explicar el ministro de Trabajo?",
+    "url": "https://gestion.pe/peru/politica/congreso-cita-a-juan-sheput-que-tendra-que-explicar-el-ministro-de-trabajo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-04T20:42:51+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Juan Sheput ante propuesta de reducir la planilla estatal con incentivos: “Hemos heredado una estructura laboral perversa”",
     "url": "https://rpp.pe/economia/economia/juan-sheput-ante-propuesta-del-gobierno-de-reducir-la-planilla-estatal-con-incentivos-hemos-heredado-una-estructura-laboral-perversa-noticia-1705644",
     "source": "RPP",
     "published": "2026-09-04T14:15:10-05:00",
     "matched_in": "title"
-   },
-   {
-    "title": "CNTPE retoma diálogo con agenda sobre RMV y El Niño: los acuerdos",
-    "url": "https://gestion.pe/economia/gobierno-ministerio-de-trabajo-plantea-declarar-sesion-permanente-del-cntpe-los-temas-prioritarios-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-04T00:42:36+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Juan Sheput: “Estoy dentro de aquellos que pide la salida de Arriola, no voy a retroceder en mi posición” | Entrevista",
@@ -92,16 +71,16 @@
     "source": "La República",
     "published": "2026-09-03T16:52:05+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "José Antonio Chang: ¿Qué dicen las bancadas sobre la designación de Tania Ramírez y qué acciones impulsan?",
-    "url": "https://elcomercio.pe/politica/jose-antonio-chang-que-dicen-las-bancadas-sobre-la-designacion-de-tania-ramirez-y-que-acciones-impulsan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-02T19:31:06+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Rafael Belaunde omitió en su declaración jurada que su padre es director de Paltarumi",
+    "url": "https://larepublica.pe/politica/2026/09/04/rafael-belaunde-omitio-en-su-declaracion-jurada-que-su-padre-es-director-de-paltarumi-hnews-264232",
+    "source": "La República",
+    "published": "2026-09-05T00:04:01+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Revelan que padre del ministro Rafael Belaúnde es director de minera Paltarumi: “No labora”, había dicho",
     "url": "https://www.infobae.com/peru/2026/09/04/revelan-que-padre-del-ministro-rafael-belaunde-es-director-de-minera-paltarumi-no-labora-habia-dicho/",
@@ -122,23 +101,16 @@
     "title": "Editorial de Gestión: De abusivas a baratas",
     "url": "https://gestion.pe/opinion/editorial/de-abusivas-a-baratas-noticia/",
     "source": "Gestión",
-    "published": "2026-09-04T10:00:00+00:00",
+    "published": "2026-09-04T20:25:14+00:00",
     "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Cuba defiende alza de 3.5% en presupuesto del 2027: “La cifra presenta máximos históricos”",
-    "url": "https://gestion.pe/economia/cuba-defiende-alza-de-35-en-presupuesto-del-2027-la-cifra-presenta-maximos-historicos-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T22:04:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba sobre crecer 4% este año: este ritmo es clave para que suban los salarios",
-    "url": "https://gestion.pe/economia/mef-y-su-meta-de-que-peru-crezca-al-4-es-la-diferencia-entre-subir-salarios-o-no-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-03T22:00:04+00:00",
+    "title": "PJ ordena que Alberto Beingolea vaya a juicio por presunta corrupción: Fiscalía pide 10 años de prisión",
+    "url": "https://www.infobae.com/peru/2026/09/04/pj-ordena-que-alberto-beingolea-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-10-anos-de-prision/",
+    "source": "Infobae",
+    "published": "2026-09-04T19:44:12+00:00",
     "matched_in": "title"
    }
   ]
