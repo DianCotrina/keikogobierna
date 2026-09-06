@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T13:59:03+00:00",
+ "generated": "2026-09-06T18:54:04+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,17 +11,38 @@
  "ministers": {
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
+    "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-06T18:28:33+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaunde niega haber interrogado a detenidos por crimen en Trujillo: “Mi motivación era ver su estado físico”",
+    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-niega-haber-interrogado-a-detenidos-por-crimen-en-trujillo-mi-motivacion-era-ver-su-estado-fisico-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-06T17:53:38+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaúnde justifica interrogatorio a detenidos: \"Solo quería verificar su estado de salud\"",
+    "url": "https://larepublica.pe/politica/2026/09/06/rafael-belaunde-justifica-interrogatorio-a-detenidos-solo-queria-verificar-su-estado-de-salud-hnews-288900",
+    "source": "La República",
+    "published": "2026-09-06T16:13:29+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Belaúnde niega haber interrogado a detenidos por secuestro en Trujillo: “Tuve interés en su salud”",
+    "url": "https://www.infobae.com/peru/2026/09/06/ministro-belaunde-niega-haber-interrogado-a-detenidos-por-secuestro-en-trujillo-tuve-interes-en-su-salud/",
+    "source": "Infobae",
+    "published": "2026-09-06T15:07:39+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Belaúnde niega intromisión y dice que solo verificó el estado de presuntos implicados en secuestro de empresario minero",
     "url": "https://rpp.pe/peru/actualidad/belaunde-niega-intromision-y-dice-que-solo-verifico-el-estado-de-presuntos-implicados-en-secuestro-de-empresario-minero-noticia-1705880",
     "source": "RPP",
     "published": "2026-09-06T08:01:38-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
-    "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-05T17:04:57+00:00",
     "matched_in": "title"
    },
    {
@@ -61,6 +82,15 @@
     "url": "https://elcomercio.pe/politica/gobierno/aurelio-pastor-y-carlos-pareja-son-nombrados-representantes-del-peru-ante-la-oea-y-la-onu-por-la-cancilleria-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-05T14:56:59+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "¿Despidos de maestros por evaluación de desempeño docente en Perú? El Minedu aclara politica de meritocracia",
+    "url": "https://www.infobae.com/peru/2026/09/06/despidos-de-maestros-por-evaluacion-de-desempeno-docente-en-peru-el-minedu-aclara-politica-de-meritocracia/",
+    "source": "Infobae",
+    "published": "2026-09-06T14:31:09+00:00",
     "matched_in": "title"
    }
   ],
