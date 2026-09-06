@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T18:49:28+00:00",
+ "generated": "2026-09-06T00:39:01+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -29,6 +29,15 @@
     "url": "https://larepublica.pe/politica/2026/09/03/tomas-galvez-sobre-interrogatorio-de-rafael-belaunde-a-detenidos-en-trujillo-no-es-pertinente-hnews-164055",
     "source": "La República",
     "published": "2026-09-04T10:14:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Gobierno oficializa la nueva Política General de Gobierno aprobada por el gabinete de Luis Galarreta",
+    "url": "https://elcomercio.pe/politica/gobierno/gobierno-oficializa-la-nueva-politica-general-de-gobierno-aprobada-por-el-gabinete-de-luis-galarreta-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-05T19:57:27+00:00",
     "matched_in": "title"
    }
   ],
@@ -62,39 +71,12 @@
     "matched_in": "summary"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "JP presenta moción para interpelar al ministro César Astudillo por su desempeño en el cargo y lucha contra inseguridad ciudadana",
-    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-juntos-por-el-peru-presenta-mocion-para-interpelar-al-ministro-del-interior-por-su-desempeno-en-el-cargo-y-lucha-contra-inseguridad-ciudadana-congreso-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-03T22:05:32+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Ministro Guillermo Shinno solicita acudir a la Comisión de Energía y Minas para exponer política del sector",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-guillermo-shinno-solicita-acudir-a-la-comision-de-energia-y-minas-para-exponer-politica-del-sector-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-03T19:59:26+00:00",
-    "matched_in": "title"
-   }
-  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "José Antonio Chang respalda a Tania Ramírez pese a su renuncia a la Derrama Magisterial: \"Tiene todos los requisitos\"",
     "url": "https://larepublica.pe/politica/2026/09/03/jose-antonio-chang-respalda-a-tania-ramirez-pese-a-su-renuncia-a-la-derrama-magisterial-tiene-todos-los-requisitos-hnews-154428",
     "source": "La República",
     "published": "2026-09-04T10:20:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer sobre pedido de facultades legislativas en Salud: \"Nuestra meta a corto plazo es la transformación digital y mejorar la parte administrativa\"",
-    "url": "https://rpp.pe/politica/gobierno/luis-dyer-sobre-pedido-de-facultades-legislativas-en-salud-nuestra-meta-a-corto-plazo-es-la-transformacion-digital-y-mejorar-la-parte-administrativa-noticia-1705766",
-    "source": "RPP",
-    "published": "2026-09-05T10:20:47-05:00",
     "matched_in": "title"
    }
   ],
@@ -107,21 +89,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Editorial de Gestión: De abusivas a baratas",
-    "url": "https://gestion.pe/opinion/editorial/de-abusivas-a-baratas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-04T20:25:14+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "PJ ordena que Alberto Beingolea vaya a juicio por presunta corrupción: Fiscalía pide 10 años de prisión",
-    "url": "https://www.infobae.com/peru/2026/09/04/pj-ordena-que-alberto-beingolea-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-10-anos-de-prision/",
+    "title": "Estado de emergencia en cinco penales del Perú: ministro de Justicia detalla los alcances de la medida y el rol de las FF. AA.",
+    "url": "https://www.infobae.com/peru/2026/09/06/estado-de-emergencia-en-cinco-penales-del-peru-ministro-de-justicia-detalla-los-alcances-de-la-medida-y-el-rol-de-las-ff-aa/",
     "source": "Infobae",
-    "published": "2026-09-04T19:44:12+00:00",
+    "published": "2026-09-06T00:19:35+00:00",
     "matched_in": "title"
    }
   ]
