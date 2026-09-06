@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T09:10:56+00:00",
+ "generated": "2026-09-06T13:59:03+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Belaúnde niega intromisión y dice que solo verificó el estado de presuntos implicados en secuestro de empresario minero",
+    "url": "https://rpp.pe/peru/actualidad/belaunde-niega-intromision-y-dice-que-solo-verifico-el-estado-de-presuntos-implicados-en-secuestro-de-empresario-minero-noticia-1705880",
+    "source": "RPP",
+    "published": "2026-09-06T08:01:38-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
     "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
@@ -23,16 +30,16 @@
     "source": "La República",
     "published": "2026-09-05T01:51:01+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Tomás Gálvez sobre interrogatorio de Rafael Belaúnde a detenidos en Trujillo: \"No es pertinente\"",
-    "url": "https://larepublica.pe/politica/2026/09/03/tomas-galvez-sobre-interrogatorio-de-rafael-belaunde-a-detenidos-en-trujillo-no-es-pertinente-hnews-164055",
-    "source": "La República",
-    "published": "2026-09-04T10:14:00+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Comisión de Constitución cita a Luis Galarreta para que sustente alcances del pedido de facultades",
+    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-constitucion-cita-a-luis-galarreta-para-que-sustente-alcances-del-pedido-de-facultades-hnews-492192",
+    "source": "La República",
+    "published": "2026-09-06T13:56:55+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Gobierno oficializa la nueva Política General de Gobierno aprobada por el gabinete de Luis Galarreta",
     "url": "https://elcomercio.pe/politica/gobierno/gobierno-oficializa-la-nueva-politica-general-de-gobierno-aprobada-por-el-gabinete-de-luis-galarreta-ultimas-noticia/",
@@ -54,22 +61,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/aurelio-pastor-y-carlos-pareja-son-nombrados-representantes-del-peru-ante-la-oea-y-la-onu-por-la-cancilleria-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-05T14:56:59+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Nombran al fujimorista Carlos Tubino como embajador de Perú en Argentina y al aprista Aurelio Pastor en la OEA",
-    "url": "https://www.infobae.com/peru/2026/09/05/nombran-al-fujimorista-carlos-tubino-como-embajador-de-peru-en-argentina-y-al-aprista-aurelio-pastor-en-la-oea/",
-    "source": "Infobae",
-    "published": "2026-09-05T14:35:23+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "José Antonio Chang respalda a Tania Ramírez pese a su renuncia a la Derrama Magisterial: \"Tiene todos los requisitos\"",
-    "url": "https://larepublica.pe/politica/2026/09/03/jose-antonio-chang-respalda-a-tania-ramirez-pese-a-su-renuncia-a-la-derrama-magisterial-tiene-todos-los-requisitos-hnews-154428",
-    "source": "La República",
-    "published": "2026-09-04T10:20:00+00:00",
     "matched_in": "title"
    }
   ],
