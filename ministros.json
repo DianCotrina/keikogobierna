@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T00:39:01+00:00",
+ "generated": "2026-09-06T09:10:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -43,13 +43,6 @@
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Excongresista Carlos Tubino fue nombrado nuevo embajador de Perú en Argentina",
-    "url": "https://rpp.pe/politica/gobierno/carlos-tubino-excongresista-fue-nombrado-nuevo-embajador-de-peru-en-argentina-noticia-1705784",
-    "source": "RPP",
-    "published": "2026-09-05T12:55:42-05:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Carlos Tubino designado como nuevo embajador en Argentina por Cancillería",
     "url": "https://elcomercio.pe/politica/gobierno/carlos-tubino-designado-como-nuevo-embajador-en-argentina-por-cancilleria-ultimas-noticia/",
     "source": "El Comercio",
@@ -77,15 +70,6 @@
     "url": "https://larepublica.pe/politica/2026/09/03/jose-antonio-chang-respalda-a-tania-ramirez-pese-a-su-renuncia-a-la-derrama-magisterial-tiene-todos-los-requisitos-hnews-154428",
     "source": "La República",
     "published": "2026-09-04T10:20:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Congreso cita a Juan Sheput: ¿qué tendrá que explicar el ministro de Trabajo?",
-    "url": "https://gestion.pe/peru/politica/congreso-cita-a-juan-sheput-que-tendra-que-explicar-el-ministro-de-trabajo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-04T20:42:51+00:00",
     "matched_in": "title"
    }
   ],
