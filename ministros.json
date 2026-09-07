@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T00:44:09+00:00",
+ "generated": "2026-09-07T09:59:00+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -44,13 +44,6 @@
     "source": "Infobae",
     "published": "2026-09-06T15:07:39+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaunde omitió en su declaración jurada que su padre es director de Paltarumi",
-    "url": "https://larepublica.pe/politica/2026/09/04/rafael-belaunde-omitio-en-su-declaracion-jurada-que-su-padre-es-director-de-paltarumi-hnews-264232",
-    "source": "La República",
-    "published": "2026-09-05T01:51:01+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -58,8 +51,15 @@
     "title": "Fredy López Mendoza será el nuevo comandante general de la PNP tras la renuncia de Óscar Arriola",
     "url": "https://larepublica.pe/politica/2026/09/06/fredy-lopez-mendoza-sera-el-nuevo-comandante-general-de-la-pnp-tras-la-renuncia-de-oscar-arriola-hnews-165110",
     "source": "La República",
-    "published": "2026-09-07T00:37:34+00:00",
+    "published": "2026-09-07T03:08:54+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Premier Luis Galarreta califica de “desliz” y “torpeza” el selfi de Rafael Belaúnde tras masacre y secuestro en Trujillo",
+    "url": "https://www.infobae.com/peru/2026/09/07/premier-luis-galarreta-califica-de-desliz-y-torpeza-el-selfi-de-rafael-belaunde-tras-masacre-y-secuestro-en-trujillo/",
+    "source": "Infobae",
+    "published": "2026-09-07T02:02:40+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Óscar Arriola anuncia que será relevado como comandante de la Policía Nacional: \"Me voy con la conciencia tranquila\"",
@@ -119,15 +119,6 @@
     "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
     "source": "La República",
     "published": "2026-09-06T19:42:54+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "¿Despidos de maestros por evaluación de desempeño docente en Perú? El Minedu aclara politica de meritocracia",
-    "url": "https://www.infobae.com/peru/2026/09/06/despidos-de-maestros-por-evaluacion-de-desempeno-docente-en-peru-el-minedu-aclara-politica-de-meritocracia/",
-    "source": "Infobae",
-    "published": "2026-09-06T14:31:09+00:00",
     "matched_in": "title"
    }
   ]
