@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T16:18:28+00:00",
+ "generated": "2026-09-07T20:22:29+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -41,18 +41,18 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Esposa del premier Luis Galarreta cobró más de 8 mil soles en agosto como asesora en el Congreso",
+    "url": "https://larepublica.pe/politica/2026/09/07/luis-galarreta-esposa-del-premier-cobro-mas-de-8-mil-soles-como-asesora-del-despacho-de-ana-patino-en-agosto-maria-carrillo-alzamora-hnews-634662",
+    "source": "La República",
+    "published": "2026-09-07T19:08:42+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Comisión de Constitución cita al ministro Luis Galarreta para explicar pedido de facultades legislativas",
     "url": "https://www.infobae.com/peru/2026/09/07/comision-de-constitucion-cita-al-ministro-luis-galarreta-para-explicar-pedido-de-facultades-legislativas/",
     "source": "Infobae",
     "published": "2026-09-07T15:35:08+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Óscar Arriola anuncia que será relevado como comandante de la Policía Nacional: \"Me voy con la conciencia tranquila\"",
-    "url": "https://rpp.pe/lima/actualidad/oscar-arriola-anuncia-que-sera-relevado-como-comandante-de-la-policia-nacional-noticia-1705961",
-    "source": "RPP",
-    "published": "2026-09-07T09:15:51-05:00",
-    "matched_in": "summary"
    },
    {
     "title": "Comisión de Constitución tiene dos semanas para aprobar pedido de facultades y pasarlo a Pleno",
@@ -81,28 +81,23 @@
     "source": "La República",
     "published": "2026-09-06T13:56:55+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Gobierno oficializa la nueva Política General de Gobierno aprobada por el gabinete de Luis Galarreta",
-    "url": "https://elcomercio.pe/politica/gobierno/gobierno-oficializa-la-nueva-politica-general-de-gobierno-aprobada-por-el-gabinete-de-luis-galarreta-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-05T19:57:27+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Óscar Arriola anuncia que será relevado como comandante de la Policía Nacional: \"Me voy con la conciencia tranquila\"",
-    "url": "https://rpp.pe/lima/actualidad/oscar-arriola-anuncia-que-sera-relevado-como-comandante-de-la-policia-nacional-noticia-1705961",
-    "source": "RPP",
-    "published": "2026-09-07T09:15:51-05:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
     "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
     "source": "La República",
     "published": "2026-09-06T19:42:54+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministro de Justicia dice que medidas en penales buscan reestablecer el orden",
+    "url": "https://gestion.pe/peru/ministro-ernesto-alvarez-afirma-que-medidas-en-penales-buscan-reestablecer-el-orden-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-07T19:07:18+00:00",
     "matched_in": "title"
    }
   ],
