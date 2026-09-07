@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T18:54:04+00:00",
+ "generated": "2026-09-07T00:44:09+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,14 @@
     "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
     "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-06T18:28:33+00:00",
+    "published": "2026-09-06T22:28:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
+    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
+    "source": "La República",
+    "published": "2026-09-06T19:42:54+00:00",
     "matched_in": "title"
    },
    {
@@ -39,13 +46,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Belaúnde niega intromisión y dice que solo verificó el estado de presuntos implicados en secuestro de empresario minero",
-    "url": "https://rpp.pe/peru/actualidad/belaunde-niega-intromision-y-dice-que-solo-verifico-el-estado-de-presuntos-implicados-en-secuestro-de-empresario-minero-noticia-1705880",
-    "source": "RPP",
-    "published": "2026-09-06T08:01:38-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Rafael Belaunde omitió en su declaración jurada que su padre es director de Paltarumi",
     "url": "https://larepublica.pe/politica/2026/09/04/rafael-belaunde-omitio-en-su-declaracion-jurada-que-su-padre-es-director-de-paltarumi-hnews-264232",
     "source": "La República",
@@ -54,6 +54,27 @@
    }
   ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Fredy López Mendoza será el nuevo comandante general de la PNP tras la renuncia de Óscar Arriola",
+    "url": "https://larepublica.pe/politica/2026/09/06/fredy-lopez-mendoza-sera-el-nuevo-comandante-general-de-la-pnp-tras-la-renuncia-de-oscar-arriola-hnews-165110",
+    "source": "La República",
+    "published": "2026-09-07T00:37:34+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Óscar Arriola anuncia que será relevado como comandante de la Policía Nacional: \"Me voy con la conciencia tranquila\"",
+    "url": "https://rpp.pe/lima/actualidad/oscar-arriola-anuncia-que-sera-relevado-como-comandante-de-la-policia-nacional-noticia-1705961",
+    "source": "RPP",
+    "published": "2026-09-06T19:27:51-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Premier Luis Galarreta niega crisis en el Gabinete y asegura que no se ha planteado cambiar a ningún ministro",
+    "url": "https://www.infobae.com/peru/2026/09/06/premier-luis-galarreta-niega-crisis-en-el-gabinete-y-asegura-que-no-se-ha-planteado-cambiar-a-ningun-ministro/",
+    "source": "Infobae",
+    "published": "2026-09-06T20:15:28+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Comisión de Constitución cita a Luis Galarreta para que sustente alcances del pedido de facultades",
     "url": "https://larepublica.pe/politica/2026/09/06/comision-de-constitucion-cita-a-luis-galarreta-para-que-sustente-alcances-del-pedido-de-facultades-hnews-492192",
@@ -85,21 +106,28 @@
     "matched_in": "title"
    }
   ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Óscar Arriola anuncia que será relevado como comandante de la Policía Nacional: \"Me voy con la conciencia tranquila\"",
+    "url": "https://rpp.pe/lima/actualidad/oscar-arriola-anuncia-que-sera-relevado-como-comandante-de-la-policia-nacional-noticia-1705961",
+    "source": "RPP",
+    "published": "2026-09-06T19:27:51-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
+    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
+    "source": "La República",
+    "published": "2026-09-06T19:42:54+00:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "¿Despidos de maestros por evaluación de desempeño docente en Perú? El Minedu aclara politica de meritocracia",
     "url": "https://www.infobae.com/peru/2026/09/06/despidos-de-maestros-por-evaluacion-de-desempeno-docente-en-peru-el-minedu-aclara-politica-de-meritocracia/",
     "source": "Infobae",
     "published": "2026-09-06T14:31:09+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Estado de emergencia en cinco penales del Perú: ministro de Justicia detalla los alcances de la medida y el rol de las FF. AA.",
-    "url": "https://www.infobae.com/peru/2026/09/06/estado-de-emergencia-en-cinco-penales-del-peru-ministro-de-justicia-detalla-los-alcances-de-la-medida-y-el-rol-de-las-ff-aa/",
-    "source": "Infobae",
-    "published": "2026-09-06T00:19:35+00:00",
     "matched_in": "title"
    }
   ]
