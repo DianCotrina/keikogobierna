@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T14:56:55+00:00",
+ "generated": "2026-09-08T19:45:15+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,36 @@
   "Infobae"
  ],
  "ministers": {
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Carlos Espá defiende la incorporación del Perú al Escudo de las Américas y dice que habrá mayor éxito en la lucha contra la criminalidad",
+    "url": "https://rpp.pe/politica/gobierno/carlos-espa-defiende-la-incorporacion-del-peru-al-escudo-de-las-americas-y-dice-que-habra-mayor-exito-en-la-lucha-contra-la-criminalidad-noticia-1706281",
+    "source": "RPP",
+    "published": "2026-09-08T14:15:17-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cancillería trabajará en modernización de servicios consulares y mayor presencia internacional",
+    "url": "https://gestion.pe/peru/politica/gobierno-carlos-espa-cancilleria-dice-que-trabajara-en-modernizacion-de-servicios-consulares-y-mayor-presencia-internacional-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-08T18:56:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Perú ingresará al Escudo de las Américas, confirma Marco Rubio, secretario de Estado de EE. UU.",
+    "url": "https://larepublica.pe/politica/2026/09/08/peru-ingresara-al-escudo-de-las-americas-confirma-marco-rubio-secretario-de-estado-de-ee-uu-hnews-165712",
+    "source": "La República",
+    "published": "2026-09-08T18:13:32+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Canciller Carlos Espá anuncia encuentros presidenciales y gabinetes binacionales con Bolivia, Chile, Colombia y Ecuador",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-anuncia-encuentros-presidenciales-y-gabinetes-binacionales-con-bolivia-chile-colombia-y-ecuador-congreso-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-08T16:37:50+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
    {
     "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
@@ -16,30 +46,30 @@
     "source": "El Comercio",
     "published": "2026-09-07T14:20:39+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
-    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
-    "source": "La República",
-    "published": "2026-09-06T19:42:54+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaunde niega haber interrogado a detenidos por crimen en Trujillo: “Mi motivación era ver su estado físico”",
-    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-niega-haber-interrogado-a-detenidos-por-crimen-en-trujillo-mi-motivacion-era-ver-su-estado-fisico-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-06T17:53:38+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaúnde justifica interrogatorio a detenidos: \"Solo quería verificar su estado de salud\"",
-    "url": "https://larepublica.pe/politica/2026/09/06/rafael-belaunde-justifica-interrogatorio-a-detenidos-solo-queria-verificar-su-estado-de-salud-hnews-288900",
-    "source": "La República",
-    "published": "2026-09-06T16:13:29+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del Interior indica que espera que la percepción de inseguridad “baje a fin de año”",
+    "url": "https://www.infobae.com/peru/2026/09/08/ministro-del-interior-indica-que-espera-que-la-percepcion-de-inseguridad-baje-a-fin-de-ano/",
+    "source": "Infobae",
+    "published": "2026-09-08T19:20:51+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
+    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
+    "source": "La República",
+    "published": "2026-09-08T17:40:56+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Perú evalúa expulsiones masivas por barco y negocia su ejecución con Venezuela",
+    "url": "https://www.infobae.com/peru/2026/09/08/peru-evalua-expulsiones-masivas-por-barco-y-negocia-su-ejecucion-con-venezuela/",
+    "source": "Infobae",
+    "published": "2026-09-08T16:43:46+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Óscar Arriola seguirá como jefe de la PNP una semana más: El martes 15 será pasado al retiro",
     "url": "https://www.infobae.com/peru/2026/09/08/oscar-arriola-seguira-como-jefe-de-la-pnp-una-semana-mas-el-martes-15-sera-pasado-al-retiro/",
@@ -55,45 +85,10 @@
     "matched_in": "title"
    },
    {
-    "title": "César Astudillo confirma que el general Freddy López asumirá la Comandancia General de la PNP el 16 de septiembre",
-    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-confirma-que-el-general-freddy-lopez-asumira-la-comandancia-general-de-la-pnp-el-16-de-septiembre-noticia-1706190",
-    "source": "RPP",
-    "published": "2026-09-08T06:25:14-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Mininter sobre la PNP, Fiscalía e INPE: Sistema no funciona, porque cada uno quiere más poder",
     "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-operadores-de-justicia-pnp-fiscalia-e-inpe-este-sistema-no-esta-funcionando-noticia/",
     "source": "Gestión",
     "published": "2026-09-08T05:58:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Perú evalúa expulsiones masivas por barco y negocia su ejecución con Venezuela",
-    "url": "https://www.infobae.com/peru/2026/09/08/peru-evalua-expulsiones-masivas-por-barco-y-negocia-su-ejecucion-con-venezuela/",
-    "source": "Infobae",
-    "published": "2026-09-08T02:35:26+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
-    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
-    "source": "La República",
-    "published": "2026-09-08T02:17:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“¿Cómo hago para leer esa huev**a?”: ministro César Astudillo deja su micro abierto y se queja al exponer sobre criminalidad",
-    "url": "https://www.infobae.com/peru/2026/09/08/como-hago-para-leer-esa-hueva-cesar-astudillo-deja-su-micro-abierto-y-se-queja-al-exponer-sobre-criminalidad/",
-    "source": "Infobae",
-    "published": "2026-09-08T01:57:42+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
-    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
-    "source": "La República",
-    "published": "2026-09-06T19:42:54+00:00",
     "matched_in": "title"
    }
   ],
@@ -118,6 +113,31 @@
     "source": "La República",
     "published": "2026-09-07T03:08:54+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "¿Adiós a las exoneraciones tributarias? Gobierno evalúa proyecto para reformar “un par”",
+    "url": "https://www.infobae.com/peru/2026/09/08/adios-a-las-exoneraciones-tributarias-gobierno-evalua-proyecto-para-reformar-un-par/",
+    "source": "Infobae",
+    "published": "2026-09-08T18:25:54+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Élmer Cuba plantea nuevo régimen para formalizar trabajadores de pequeñas empresas: “La Ley Mype actual ha fracasado”",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-plantea-nuevo-regimen-para-formalizar-trabajadores-de-pequenas-empresas-la-ley-mype-actual-ha-fracasado-noticia-1706257",
+    "source": "RPP",
+    "published": "2026-09-08T11:32:56-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Minsa buscará reducir a 4 meses y medio el tiempo de espera para cirugías en hospitales",
+    "url": "https://gestion.pe/peru/ministro-luis-dyer-minsa-buscara-reducir-a-4-meses-y-medio-el-tiempo-de-espera-para-cirugias-en-hospitales-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-08T16:09:31+00:00",
+    "matched_in": "title"
    }
   ]
  }
