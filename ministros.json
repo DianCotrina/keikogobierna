@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T20:22:29+00:00",
+ "generated": "2026-09-08T00:57:51+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -44,7 +44,14 @@
     "title": "Esposa del premier Luis Galarreta cobró más de 8 mil soles en agosto como asesora en el Congreso",
     "url": "https://larepublica.pe/politica/2026/09/07/luis-galarreta-esposa-del-premier-cobro-mas-de-8-mil-soles-como-asesora-del-despacho-de-ana-patino-en-agosto-maria-carrillo-alzamora-hnews-634662",
     "source": "La República",
-    "published": "2026-09-07T19:08:42+00:00",
+    "published": "2026-09-07T23:24:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "María Luisa Carrillo, esposa del premier Luis Galarreta, cobra S/8.470 del Congreso como asesora de fujimorista",
+    "url": "https://www.infobae.com/peru/2026/09/07/maria-luisa-carrillo-esposa-del-premier-luis-galarreta-cobro-s8470-del-congreso-como-asesora-de-fujimorista/",
+    "source": "Infobae",
+    "published": "2026-09-07T21:21:23+00:00",
     "matched_in": "title"
    },
    {
@@ -69,13 +76,6 @@
     "matched_in": "summary"
    },
    {
-    "title": "Premier Luis Galarreta califica de “desliz” y “torpeza” el selfi de Rafael Belaúnde tras masacre y secuestro en Trujillo",
-    "url": "https://www.infobae.com/peru/2026/09/07/premier-luis-galarreta-califica-de-desliz-y-torpeza-el-selfi-de-rafael-belaunde-tras-masacre-y-secuestro-en-trujillo/",
-    "source": "Infobae",
-    "published": "2026-09-07T02:02:40+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Comisión de Constitución cita a Luis Galarreta para que sustente alcances del pedido de facultades",
     "url": "https://larepublica.pe/politica/2026/09/06/comision-de-constitucion-cita-a-luis-galarreta-para-que-sustente-alcances-del-pedido-de-facultades-hnews-492192",
     "source": "La República",
@@ -84,6 +84,20 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Perú evalúa expulsiones masivas por barco y negocia su ejecución con Venezuela",
+    "url": "https://www.infobae.com/peru/2026/09/08/peru-evalua-expulsiones-masivas-por-barco-y-negocia-su-ejecucion-con-venezuela/",
+    "source": "Infobae",
+    "published": "2026-09-08T00:10:58+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Mininter sobre la PNP, Fiscalía e INPE: Sistema no funciona, porque cada uno quiere más poder",
+    "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-operadores-de-justicia-pnp-fiscalia-e-inpe-este-sistema-no-esta-funcionando-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-07T22:51:40+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
     "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
