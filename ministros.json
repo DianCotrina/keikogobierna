@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T00:57:51+00:00",
+ "generated": "2026-09-08T09:24:27+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro del Interior cuestiona al sistema de justicia y defiende los estados de emergencia",
+    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-cuestiona-al-sistema-de-justicia-y-defiende-los-estados-de-emergencia-noticia-1706159",
+    "source": "RPP",
+    "published": "2026-09-07T21:16:19-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
     "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
@@ -39,6 +46,50 @@
     "matched_in": "title"
    }
   ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Mininter sobre la PNP, Fiscalía e INPE: Sistema no funciona, porque cada uno quiere más poder",
+    "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-operadores-de-justicia-pnp-fiscalia-e-inpe-este-sistema-no-esta-funcionando-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-08T05:58:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Perú evalúa expulsiones masivas por barco y negocia su ejecución con Venezuela",
+    "url": "https://www.infobae.com/peru/2026/09/08/peru-evalua-expulsiones-masivas-por-barco-y-negocia-su-ejecucion-con-venezuela/",
+    "source": "Infobae",
+    "published": "2026-09-08T02:35:26+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
+    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
+    "source": "La República",
+    "published": "2026-09-08T02:17:06+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Interior cuestiona al sistema de justicia y defiende los estados de emergencia",
+    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-cuestiona-al-sistema-de-justicia-y-defiende-los-estados-de-emergencia-noticia-1706159",
+    "source": "RPP",
+    "published": "2026-09-07T21:16:19-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“¿Cómo hago para leer esa huev**a?”: ministro César Astudillo deja su micro abierto y se queja al exponer sobre criminalidad",
+    "url": "https://www.infobae.com/peru/2026/09/08/como-hago-para-leer-esa-hueva-cesar-astudillo-deja-su-micro-abierto-y-se-queja-al-exponer-sobre-criminalidad/",
+    "source": "Infobae",
+    "published": "2026-09-08T01:57:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
+    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
+    "source": "La República",
+    "published": "2026-09-06T19:42:54+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Esposa del premier Luis Galarreta cobró más de 8 mil soles en agosto como asesora en el Congreso",
@@ -52,13 +103,6 @@
     "url": "https://www.infobae.com/peru/2026/09/07/maria-luisa-carrillo-esposa-del-premier-luis-galarreta-cobro-s8470-del-congreso-como-asesora-de-fujimorista/",
     "source": "Infobae",
     "published": "2026-09-07T21:21:23+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Constitución cita al ministro Luis Galarreta para explicar pedido de facultades legislativas",
-    "url": "https://www.infobae.com/peru/2026/09/07/comision-de-constitucion-cita-al-ministro-luis-galarreta-para-explicar-pedido-de-facultades-legislativas/",
-    "source": "Infobae",
-    "published": "2026-09-07T15:35:08+00:00",
     "matched_in": "title"
    },
    {
@@ -83,44 +127,12 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Perú evalúa expulsiones masivas por barco y negocia su ejecución con Venezuela",
-    "url": "https://www.infobae.com/peru/2026/09/08/peru-evalua-expulsiones-masivas-por-barco-y-negocia-su-ejecucion-con-venezuela/",
-    "source": "Infobae",
-    "published": "2026-09-08T00:10:58+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Mininter sobre la PNP, Fiscalía e INPE: Sistema no funciona, porque cada uno quiere más poder",
-    "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-operadores-de-justicia-pnp-fiscalia-e-inpe-este-sistema-no-esta-funcionando-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-07T22:51:40+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Defensa del Senado invita a Rafael Belaunde y César Astudillo para responder por inseguirdad ciudadana",
-    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-defensa-del-senado-invita-a-rafael-belaunde-y-cesar-astudillo-para-responder-por-inseguirdad-ciudadana-hnews-459300",
-    "source": "La República",
-    "published": "2026-09-06T19:42:54+00:00",
-    "matched_in": "title"
-   }
-  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Ministro de Justicia dice que medidas en penales buscan reestablecer el orden",
     "url": "https://gestion.pe/peru/ministro-ernesto-alvarez-afirma-que-medidas-en-penales-buscan-reestablecer-el-orden-noticia/",
     "source": "Gestión",
     "published": "2026-09-07T19:07:18+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "¿Despidos de maestros por evaluación de desempeño docente en el Perú? Minedu aclara su política de meritocracia",
-    "url": "https://www.infobae.com/peru/2026/09/06/despidos-de-maestros-por-evaluacion-de-desempeno-docente-en-peru-el-minedu-aclara-politica-de-meritocracia/",
-    "source": "Infobae",
-    "published": "2026-09-07T13:17:07+00:00",
     "matched_in": "title"
    }
   ]
