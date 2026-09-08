@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T09:24:27+00:00",
+ "generated": "2026-09-08T14:56:55+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Ministro del Interior cuestiona al sistema de justicia y defiende los estados de emergencia",
-    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-cuestiona-al-sistema-de-justicia-y-defiende-los-estados-de-emergencia-noticia-1706159",
-    "source": "RPP",
-    "published": "2026-09-07T21:16:19-05:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
     "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
@@ -48,6 +41,27 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Óscar Arriola seguirá como jefe de la PNP una semana más: El martes 15 será pasado al retiro",
+    "url": "https://www.infobae.com/peru/2026/09/08/oscar-arriola-seguira-como-jefe-de-la-pnp-una-semana-mas-el-martes-15-sera-pasado-al-retiro/",
+    "source": "Infobae",
+    "published": "2026-09-08T14:00:57+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "“Los homicidios no nos han sobrepasado”: Ministro Astudillo insiste en que la ola criminal es un problema de percepción ciudadana",
+    "url": "https://www.infobae.com/peru/2026/09/08/los-homicidios-no-nos-han-sobrepasado-ministro-astudillo-insiste-en-que-la-ola-criminal-es-un-problema-de-percepcion-ciudadana/",
+    "source": "Infobae",
+    "published": "2026-09-08T13:14:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo confirma que el general Freddy López asumirá la Comandancia General de la PNP el 16 de septiembre",
+    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-confirma-que-el-general-freddy-lopez-asumira-la-comandancia-general-de-la-pnp-el-16-de-septiembre-noticia-1706190",
+    "source": "RPP",
+    "published": "2026-09-08T06:25:14-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Mininter sobre la PNP, Fiscalía e INPE: Sistema no funciona, porque cada uno quiere más poder",
     "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-operadores-de-justicia-pnp-fiscalia-e-inpe-este-sistema-no-esta-funcionando-noticia/",
     "source": "Gestión",
@@ -66,13 +80,6 @@
     "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
     "source": "La República",
     "published": "2026-09-08T02:17:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro del Interior cuestiona al sistema de justicia y defiende los estados de emergencia",
-    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-cuestiona-al-sistema-de-justicia-y-defiende-los-estados-de-emergencia-noticia-1706159",
-    "source": "RPP",
-    "published": "2026-09-07T21:16:19-05:00",
     "matched_in": "title"
    },
    {
@@ -99,13 +106,6 @@
     "matched_in": "title"
    },
    {
-    "title": "María Luisa Carrillo, esposa del premier Luis Galarreta, cobra S/8.470 del Congreso como asesora de fujimorista",
-    "url": "https://www.infobae.com/peru/2026/09/07/maria-luisa-carrillo-esposa-del-premier-luis-galarreta-cobro-s8470-del-congreso-como-asesora-de-fujimorista/",
-    "source": "Infobae",
-    "published": "2026-09-07T21:21:23+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Comisión de Constitución tiene dos semanas para aprobar pedido de facultades y pasarlo a Pleno",
     "url": "https://larepublica.pe/politica/2026/09/07/comision-de-constitucion-tiene-dos-semanas-para-aprobar-pedido-de-facultades-y-pasarlo-a-pleno-hnews-88040",
     "source": "La República",
@@ -118,22 +118,6 @@
     "source": "La República",
     "published": "2026-09-07T03:08:54+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Comisión de Constitución cita a Luis Galarreta para que sustente alcances del pedido de facultades",
-    "url": "https://larepublica.pe/politica/2026/09/06/comision-de-constitucion-cita-a-luis-galarreta-para-que-sustente-alcances-del-pedido-de-facultades-hnews-492192",
-    "source": "La República",
-    "published": "2026-09-06T13:56:55+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministro de Justicia dice que medidas en penales buscan reestablecer el orden",
-    "url": "https://gestion.pe/peru/ministro-ernesto-alvarez-afirma-que-medidas-en-penales-buscan-reestablecer-el-orden-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-07T19:07:18+00:00",
-    "matched_in": "title"
    }
   ]
  }
