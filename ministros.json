@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T19:45:15+00:00",
+ "generated": "2026-09-09T01:04:35+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,90 +9,14 @@
   "Infobae"
  ],
  "ministers": {
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Carlos Espá defiende la incorporación del Perú al Escudo de las Américas y dice que habrá mayor éxito en la lucha contra la criminalidad",
-    "url": "https://rpp.pe/politica/gobierno/carlos-espa-defiende-la-incorporacion-del-peru-al-escudo-de-las-americas-y-dice-que-habra-mayor-exito-en-la-lucha-contra-la-criminalidad-noticia-1706281",
-    "source": "RPP",
-    "published": "2026-09-08T14:15:17-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Cancillería trabajará en modernización de servicios consulares y mayor presencia internacional",
-    "url": "https://gestion.pe/peru/politica/gobierno-carlos-espa-cancilleria-dice-que-trabajara-en-modernizacion-de-servicios-consulares-y-mayor-presencia-internacional-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-08T18:56:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Perú ingresará al Escudo de las Américas, confirma Marco Rubio, secretario de Estado de EE. UU.",
-    "url": "https://larepublica.pe/politica/2026/09/08/peru-ingresara-al-escudo-de-las-americas-confirma-marco-rubio-secretario-de-estado-de-ee-uu-hnews-165712",
-    "source": "La República",
-    "published": "2026-09-08T18:13:32+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Canciller Carlos Espá anuncia encuentros presidenciales y gabinetes binacionales con Bolivia, Chile, Colombia y Ecuador",
-    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-anuncia-encuentros-presidenciales-y-gabinetes-binacionales-con-bolivia-chile-colombia-y-ecuador-congreso-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-08T16:37:50+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
-    "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-07T14:20:39+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro del Interior indica que espera que la percepción de inseguridad “baje a fin de año”",
-    "url": "https://www.infobae.com/peru/2026/09/08/ministro-del-interior-indica-que-espera-que-la-percepcion-de-inseguridad-baje-a-fin-de-ano/",
-    "source": "Infobae",
-    "published": "2026-09-08T19:20:51+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
-    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
-    "source": "La República",
-    "published": "2026-09-08T17:40:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Perú evalúa expulsiones masivas por barco y negocia su ejecución con Venezuela",
-    "url": "https://www.infobae.com/peru/2026/09/08/peru-evalua-expulsiones-masivas-por-barco-y-negocia-su-ejecucion-con-venezuela/",
-    "source": "Infobae",
-    "published": "2026-09-08T16:43:46+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Óscar Arriola seguirá como jefe de la PNP una semana más: El martes 15 será pasado al retiro",
-    "url": "https://www.infobae.com/peru/2026/09/08/oscar-arriola-seguira-como-jefe-de-la-pnp-una-semana-mas-el-martes-15-sera-pasado-al-retiro/",
-    "source": "Infobae",
-    "published": "2026-09-08T14:00:57+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "“Los homicidios no nos han sobrepasado”: Ministro Astudillo insiste en que la ola criminal es un problema de percepción ciudadana",
-    "url": "https://www.infobae.com/peru/2026/09/08/los-homicidios-no-nos-han-sobrepasado-ministro-astudillo-insiste-en-que-la-ola-criminal-es-un-problema-de-percepcion-ciudadana/",
-    "source": "Infobae",
-    "published": "2026-09-08T13:14:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Mininter sobre la PNP, Fiscalía e INPE: Sistema no funciona, porque cada uno quiere más poder",
-    "url": "https://gestion.pe/peru/ministro-del-interior-cesar-astudillo-sobre-operadores-de-justicia-pnp-fiscalia-e-inpe-este-sistema-no-esta-funcionando-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-08T05:58:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "PCM y Embajada de EE.UU. suscriben memorando de entendimiento para impulsar desarrollo de la Inteligencia Artificial",
+    "url": "https://elcomercio.pe/politica/gobierno/pcm-y-embajada-de-estados-unidos-suscriben-memorando-de-entendimiento-para-impulsar-desarrollo-de-la-inteligencia-artificial-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-08T21:17:13+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Esposa del premier Luis Galarreta cobró más de 8 mil soles en agosto como asesora en el Congreso",
     "url": "https://larepublica.pe/politica/2026/09/07/luis-galarreta-esposa-del-premier-cobro-mas-de-8-mil-soles-como-asesora-del-despacho-de-ana-patino-en-agosto-maria-carrillo-alzamora-hnews-634662",
@@ -115,6 +39,84 @@
     "matched_in": "summary"
    }
   ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Perú ingresará al Escudo de las Américas, confirma Marco Rubio, secretario de Estado de EE. UU.",
+    "url": "https://larepublica.pe/politica/2026/09/08/peru-ingresara-al-escudo-de-las-americas-confirma-marco-rubio-secretario-de-estado-de-ee-uu-hnews-165712",
+    "source": "La República",
+    "published": "2026-09-08T23:33:55+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Canciller sobre incorporación del Perú al Escudo de las Américas: “Vamos a poder luchar contra el lavado de activos y organizaciones criminales trasnacionales”",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-sobre-incorporacion-del-peru-al-escudo-de-las-americas-vamos-a-poder-luchar-contra-el-lavado-de-activos-y-organizaciones-criminales-trasnacionales-marco-rubio-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-08T20:05:25+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cancillería trabajará en modernización de servicios consulares y mayor presencia internacional",
+    "url": "https://gestion.pe/peru/politica/gobierno-carlos-espa-cancilleria-dice-que-trabajara-en-modernizacion-de-servicios-consulares-y-mayor-presencia-internacional-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-08T18:56:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller Carlos Espá anuncia encuentros presidenciales y gabinetes binacionales con Bolivia, Chile, Colombia y Ecuador",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-anuncia-encuentros-presidenciales-y-gabinetes-binacionales-con-bolivia-chile-colombia-y-ecuador-congreso-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-08T16:37:50+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
+    "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-07T14:20:39+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Minem propone a Japón plan de trabajo de tres años para impulsar proyectos de inversión y cooperación",
+    "url": "https://elcomercio.pe/economia/minem-propone-a-japon-plan-de-trabajo-de-tres-anos-para-impulsar-proyectos-de-inversion-y-cooperacion-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-08T22:24:05+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Astudillo pide reabrir debate sobre cadena perpetua para policías y militares que delinquen",
+    "url": "https://gestion.pe/peru/astudillo-pide-reabrir-debate-sobre-cadena-perpetua-para-policias-y-militares-que-delinquen-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-08T23:33:47+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“Me he expresado mal”: Ministro César Astudillo se rectifica tras dejar su micro abierto y quejarse en el Congreso",
+    "url": "https://www.infobae.com/peru/2026/09/08/me-he-expresado-mal-ministro-cesar-astudillo-se-rectifica-tras-dejar-su-micro-abierto-y-quejarse-en-el-congreso/",
+    "source": "Infobae",
+    "published": "2026-09-08T21:54:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Interior indica que espera que la percepción de inseguridad “baje a fin de año”",
+    "url": "https://www.infobae.com/peru/2026/09/08/ministro-del-interior-indica-que-espera-que-la-percepcion-de-inseguridad-baje-a-fin-de-ano/",
+    "source": "Infobae",
+    "published": "2026-09-08T19:20:51+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
+    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
+    "source": "La República",
+    "published": "2026-09-08T17:40:56+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "¿Adiós a las exoneraciones tributarias? Gobierno evalúa proyecto para reformar “un par”",
@@ -124,10 +126,35 @@
     "matched_in": "summary"
    },
    {
-    "title": "Élmer Cuba plantea nuevo régimen para formalizar trabajadores de pequeñas empresas: “La Ley Mype actual ha fracasado”",
+    "title": "Elmer Cuba plantea nuevo régimen para formalizar trabajadores de pequeñas empresas: “La Ley Mype actual ha fracasado”",
     "url": "https://rpp.pe/economia/economia/elmer-cuba-plantea-nuevo-regimen-para-formalizar-trabajadores-de-pequenas-empresas-la-ley-mype-actual-ha-fracasado-noticia-1706257",
     "source": "RPP",
     "published": "2026-09-08T11:32:56-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Se instaló Comisión Sectorial que analizará el impacto de la IA en el marco laboral peruano",
+    "url": "https://gestion.pe/economia/management-empleo/se-instalo-comision-sectorial-que-analizara-el-impacto-de-la-ia-en-el-marco-laboral-peruano-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-08T23:37:27+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "Fenómeno El Niño: MTC moviliza puentes modulares para responder ante posibles emergencias en carreteras",
+    "url": "https://www.infobae.com/peru/2026/09/08/fenomeno-el-nino-mtc-moviliza-puentes-modulares-para-responder-ante-posibles-emergencias-en-carreteras/",
+    "source": "Infobae",
+    "published": "2026-09-08T21:08:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Rafael Rey ante el Fenómeno El Niño: “Estamos haciendo la prevención posible”",
+    "url": "https://gestion.pe/peru/politica/ministro-rafael-rey-ante-el-fenomeno-el-nino-estamos-haciendo-la-prevencion-posible-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-08T20:44:49+00:00",
     "matched_in": "title"
    }
   ],
@@ -136,7 +163,16 @@
     "title": "Minsa buscará reducir a 4 meses y medio el tiempo de espera para cirugías en hospitales",
     "url": "https://gestion.pe/peru/ministro-luis-dyer-minsa-buscara-reducir-a-4-meses-y-medio-el-tiempo-de-espera-para-cirugias-en-hospitales-noticia/",
     "source": "Gestión",
-    "published": "2026-09-08T16:09:31+00:00",
+    "published": "2026-09-08T20:10:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
+   {
+    "title": "Flotas extranjeras dejaron de abastecerse en puertos peruanos y trasladaron sus operaciones frente a Chile, afirma PRODUCE",
+    "url": "https://www.infobae.com/peru/2026/09/09/flotas-extranjeras-dejaron-de-abastecerse-en-puertos-peruanos-y-trasladaron-sus-operaciones-frente-a-chile-afirma-produce/",
+    "source": "Infobae",
+    "published": "2026-09-09T00:39:05+00:00",
     "matched_in": "title"
    }
   ]
