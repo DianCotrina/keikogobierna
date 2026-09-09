@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T15:01:45+00:00",
+ "generated": "2026-09-09T19:36:44+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,42 +9,19 @@
   "Infobae"
  ],
  "ministers": {
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Luis Galarreta se reúne con la bancada de Renovación Popular por pedido de facultades a un día de su citación en el Congreso",
-    "url": "https://www.infobae.com/peru/2026/09/09/luis-galarreta-se-reune-con-la-bancada-de-renovacion-popular-por-pedido-de-facultades-a-un-dia-de-su-citacion-en-el-congreso/",
-    "source": "Infobae",
-    "published": "2026-09-09T02:17:14+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Luis Galarreta inicia diálogo con bancadas en el Congreso por facultades legislativas",
-    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-inicia-dialogo-con-bancadas-en-el-congreso-por-facultades-legislativas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-09T01:49:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "PCM y Embajada de EE.UU. suscriben memorando de entendimiento para impulsar desarrollo de la Inteligencia Artificial",
-    "url": "https://elcomercio.pe/politica/gobierno/pcm-y-embajada-de-estados-unidos-suscriben-memorando-de-entendimiento-para-impulsar-desarrollo-de-la-inteligencia-artificial-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-08T21:17:13+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Esposa del premier Luis Galarreta cobró más de 8 mil soles en agosto como asesora en el Congreso",
-    "url": "https://larepublica.pe/politica/2026/09/07/luis-galarreta-esposa-del-premier-cobro-mas-de-8-mil-soles-como-asesora-del-despacho-de-ana-patino-en-agosto-maria-carrillo-alzamora-hnews-634662",
-    "source": "La República",
-    "published": "2026-09-07T23:24:04+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Canciller Espá defendió ingreso del Perú al Escudo de las Américas, ¿cuál es el beneficio?",
-    "url": "https://gestion.pe/peru/politica/canciller-espa-defendio-ingreso-del-peru-al-escudo-de-las-americas-cual-es-el-beneficio-noticia/",
+    "title": "Perú busca ser socio estratégico en minerales críticos y atraer inversión de EE.UU.",
+    "url": "https://gestion.pe/peru/canciller-carlos-espa-peru-busca-posicionarse-como-socio-estrategico-en-minerales-criticos-y-atraer-inversion-de-eeuu-noticia/",
     "source": "Gestión",
-    "published": "2026-09-09T01:06:20+00:00",
+    "published": "2026-09-09T19:18:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Escudo de las Américas: Pleno del Senado tiene en su agenda debate de moción para invitar a canciller Carlos Espá",
+    "url": "https://elcomercio.pe/politica/marco-rubio-pleno-del-senado-mocion-para-invitar-a-canciller-carlos-espa-a-fin-de-que-explique-incorporacion-de-peru-a-escudo-de-las-americas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-09T16:10:33+00:00",
     "matched_in": "title"
    },
    {
@@ -69,7 +46,58 @@
     "matched_in": "title"
    }
   ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Comisiones de la Cámara de Diputados ya votan en  contra del pedido facultades del gobierno de Keiko Fujimori",
+    "url": "https://www.infobae.com/peru/2026/09/09/comisiones-de-la-camara-de-diputados-ya-votan-en-contra-del-pedido-facultades-del-gobierno-de-keiko-fujimori/",
+    "source": "Infobae",
+    "published": "2026-09-09T15:09:16+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Premier Luis Galarreta inicia diálogo con bancadas en el Congreso por facultades legislativas",
+    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-inicia-dialogo-con-bancadas-en-el-congreso-por-facultades-legislativas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-09T01:49:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "PCM y Embajada de EE.UU. suscriben memorando de entendimiento para impulsar desarrollo de la Inteligencia Artificial",
+    "url": "https://elcomercio.pe/politica/gobierno/pcm-y-embajada-de-estados-unidos-suscriben-memorando-de-entendimiento-para-impulsar-desarrollo-de-la-inteligencia-artificial-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-08T21:17:13+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Esposa del premier Luis Galarreta cobró más de 8 mil soles en agosto como asesora en el Congreso",
+    "url": "https://larepublica.pe/politica/2026/09/07/luis-galarreta-esposa-del-premier-cobro-mas-de-8-mil-soles-como-asesora-del-despacho-de-ana-patino-en-agosto-maria-carrillo-alzamora-hnews-634662",
+    "source": "La República",
+    "published": "2026-09-07T23:24:04+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-williams-dyer-fernandez": [
+   {
+    "title": "Minsa entra en reorganización por 90 días tras detectar problemas de gestión, digitalización y abastecimiento",
+    "url": "https://www.infobae.com/peru/2026/09/09/minsa-entra-en-reorganizacion-por-90-dias-tras-detectar-problemas-de-gestion-digitalizacion-y-abastecimiento/",
+    "source": "Infobae",
+    "published": "2026-09-09T19:07:11+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Dyer: Proceso de reorganización no implica reducción de personal médico",
+    "url": "https://gestion.pe/peru/politica/ministro-de-salud-luis-dyer-proceso-de-reorganizacion-no-implica-reduccion-de-personal-medico-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-09T18:42:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Dyer sobre reforma del sector: “El Minsa hoy tiene un atraso tecnológico y un tema de administración y gestión que mejorar”",
+    "url": "https://elcomercio.pe/lima/sucesos/luis-dyer-sobre-reforma-del-sector-el-minsa-hoy-tiene-un-atraso-tecnologico-y-un-tema-de-administracion-y-gestion-que-mejorar-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-09T18:15:04+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Minsa en reorganización por 90 días tras diagnóstico crítico y cuestionamientos a la gestión de Salud",
     "url": "https://larepublica.pe/sociedad/2026/09/09/minsa-en-reorganizacion-por-90-dias-tras-diagnostico-critico-y-cuestionamientos-a-la-gestion-de-salud-589005",
@@ -80,13 +108,6 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Astudillo pide reabrir debate sobre cadena perpetua para policías y militares que delinquen",
-    "url": "https://gestion.pe/peru/astudillo-pide-reabrir-debate-sobre-cadena-perpetua-para-policias-y-militares-que-delinquen-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-08T23:33:47+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
     "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
     "source": "La República",
@@ -94,40 +115,20 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Se instaló Comisión Sectorial que analizará el impacto de la IA en el marco laboral peruano",
-    "url": "https://gestion.pe/economia/management-empleo/se-instalo-comision-sectorial-que-analizara-el-impacto-de-la-ia-en-el-marco-laboral-peruano-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-08T23:37:27+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto Beingolea da detalles sobre importante descubrimiento en Chan Chan: \"Ha sido el hallazgo del año\"",
+    "url": "https://rpp.pe/politica/gobierno/alberto-beingolea-da-detalles-sobre-importante-hallazgo-en-chan-chan-ahora-viene-la-etapa-de-la-investigacion-noticia-1706441",
+    "source": "RPP",
+    "published": "2026-09-09T10:58:35-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Alberto Beingolea llama “patraña” al juicio donde piden 10 años de prisión en su contra: “Se va a caer”",
     "url": "https://www.infobae.com/peru/2026/09/09/alberto-beingolea-llama-patrana-al-juicio-donde-piden-10-anos-de-prision-en-su-contra-se-va-a-caer/",
     "source": "Infobae",
     "published": "2026-09-09T14:53:45+00:00",
     "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Ministro de Produce confía en revertir rechazo a facultades legislativas: “en la medida que expliquemos más van a entender”",
-    "url": "https://www.infobae.com/peru/2026/09/09/ministro-de-produce-confia-en-revertir-rechazo-a-facultades-legislativas-en-la-medida-que-expliquemos-mas-van-a-entender/",
-    "source": "Infobae",
-    "published": "2026-09-09T12:57:21+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "¿Adiós a las exoneraciones tributarias? Gobierno sí evalúa proyecto para reformar “un par”",
-    "url": "https://www.infobae.com/peru/2026/09/08/adios-a-las-exoneraciones-tributarias-gobierno-evalua-proyecto-para-reformar-un-par/",
-    "source": "Infobae",
-    "published": "2026-09-09T11:42:53+00:00",
-    "matched_in": "summary"
    }
   ]
  }
