@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T01:04:35+00:00",
+ "generated": "2026-09-09T09:25:48+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta se reúne con la bancada de Renovación Popular por pedido de facultades a un día de su citación en el Congreso",
+    "url": "https://www.infobae.com/peru/2026/09/09/luis-galarreta-se-reune-con-la-bancada-de-renovacion-popular-por-pedido-de-facultades-a-un-dia-de-su-citacion-en-el-congreso/",
+    "source": "Infobae",
+    "published": "2026-09-09T02:17:14+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Luis Galarreta inicia diálogo con bancadas en el Congreso por facultades legislativas",
+    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-inicia-dialogo-con-bancadas-en-el-congreso-por-facultades-legislativas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-09T01:49:44+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "PCM y Embajada de EE.UU. suscriben memorando de entendimiento para impulsar desarrollo de la Inteligencia Artificial",
     "url": "https://elcomercio.pe/politica/gobierno/pcm-y-embajada-de-estados-unidos-suscriben-memorando-de-entendimiento-para-impulsar-desarrollo-de-la-inteligencia-artificial-ultimas-noticia/",
@@ -30,16 +44,16 @@
     "source": "La República",
     "published": "2026-09-07T10:00:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Fredy López Mendoza será el nuevo comandante general de la PNP tras la renuncia de Óscar Arriola",
-    "url": "https://larepublica.pe/politica/2026/09/06/fredy-lopez-mendoza-sera-el-nuevo-comandante-general-de-la-pnp-tras-la-renuncia-de-oscar-arriola-hnews-165110",
-    "source": "La República",
-    "published": "2026-09-07T03:08:54+00:00",
-    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Espá defendió ingreso del Perú al Escudo de las Américas, ¿cuál es el beneficio?",
+    "url": "https://gestion.pe/peru/politica/canciller-espa-defendio-ingreso-del-peru-al-escudo-de-las-americas-cual-es-el-beneficio-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-09T01:06:20+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Perú ingresará al Escudo de las Américas, confirma Marco Rubio, secretario de Estado de EE. UU.",
     "url": "https://larepublica.pe/politica/2026/09/08/peru-ingresara-al-escudo-de-las-americas-confirma-marco-rubio-secretario-de-estado-de-ee-uu-hnews-165712",
@@ -70,6 +84,13 @@
    }
   ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Martha Chávez sobre Rafael Belaunde: \"Es un novato en la cuestión ministerial\" [VIDEO]",
+    "url": "https://rpp.pe/politica/gobierno/martha-chavez-considero-que-rafael-belaunde-es-un-novato-en-la-cuestion-ministerial-tras-su-actuacion-en-trujillo-noticia-1706382",
+    "source": "RPP",
+    "published": "2026-09-08T22:10:15-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
     "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
@@ -103,13 +124,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro del Interior indica que espera que la percepción de inseguridad “baje a fin de año”",
-    "url": "https://www.infobae.com/peru/2026/09/08/ministro-del-interior-indica-que-espera-que-la-percepcion-de-inseguridad-baje-a-fin-de-ano/",
-    "source": "Infobae",
-    "published": "2026-09-08T19:20:51+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
     "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
     "source": "La República",
@@ -118,13 +132,6 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "¿Adiós a las exoneraciones tributarias? Gobierno evalúa proyecto para reformar “un par”",
-    "url": "https://www.infobae.com/peru/2026/09/08/adios-a-las-exoneraciones-tributarias-gobierno-evalua-proyecto-para-reformar-un-par/",
-    "source": "Infobae",
-    "published": "2026-09-08T18:25:54+00:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Elmer Cuba plantea nuevo régimen para formalizar trabajadores de pequeñas empresas: “La Ley Mype actual ha fracasado”",
     "url": "https://rpp.pe/economia/economia/elmer-cuba-plantea-nuevo-regimen-para-formalizar-trabajadores-de-pequenas-empresas-la-ley-mype-actual-ha-fracasado-noticia-1706257",
