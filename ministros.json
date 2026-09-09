@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T09:25:48+00:00",
+ "generated": "2026-09-09T15:01:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -37,13 +37,6 @@
     "source": "La República",
     "published": "2026-09-07T23:24:04+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Constitución tiene dos semanas para aprobar pedido de facultades y pasarlo a Pleno",
-    "url": "https://larepublica.pe/politica/2026/09/07/comision-de-constitucion-tiene-dos-semanas-para-aprobar-pedido-de-facultades-y-pasarlo-a-pleno-hnews-88040",
-    "source": "La República",
-    "published": "2026-09-07T10:00:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -69,13 +62,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Cancillería trabajará en modernización de servicios consulares y mayor presencia internacional",
-    "url": "https://gestion.pe/peru/politica/gobierno-carlos-espa-cancilleria-dice-que-trabajara-en-modernizacion-de-servicios-consulares-y-mayor-presencia-internacional-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-08T18:56:21+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Canciller Carlos Espá anuncia encuentros presidenciales y gabinetes binacionales con Bolivia, Chile, Colombia y Ecuador",
     "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-anuncia-encuentros-presidenciales-y-gabinetes-binacionales-con-bolivia-chile-colombia-y-ecuador-congreso-ultimas-noticia/",
     "source": "El Comercio",
@@ -83,28 +69,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Martha Chávez sobre Rafael Belaunde: \"Es un novato en la cuestión ministerial\" [VIDEO]",
-    "url": "https://rpp.pe/politica/gobierno/martha-chavez-considero-que-rafael-belaunde-es-un-novato-en-la-cuestion-ministerial-tras-su-actuacion-en-trujillo-noticia-1706382",
-    "source": "RPP",
-    "published": "2026-09-08T22:10:15-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael, cuidado con la Defensa, una crónica de Fernando Vivas sobre el papel del ministro Belaúnde Llosa",
-    "url": "https://elcomercio.pe/politica/rafael-cuidado-con-la-defensa-una-cronica-de-fernando-vivas-sobre-el-papel-del-ministro-belaunde-llosa-trujillo-secuestro-asesinatos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-07T14:20:39+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Minem propone a Japón plan de trabajo de tres años para impulsar proyectos de inversión y cooperación",
-    "url": "https://elcomercio.pe/economia/minem-propone-a-japon-plan-de-trabajo-de-tres-anos-para-impulsar-proyectos-de-inversion-y-cooperacion-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-08T22:24:05+00:00",
+    "title": "Minsa en reorganización por 90 días tras diagnóstico crítico y cuestionamientos a la gestión de Salud",
+    "url": "https://larepublica.pe/sociedad/2026/09/09/minsa-en-reorganizacion-por-90-dias-tras-diagnostico-critico-y-cuestionamientos-a-la-gestion-de-salud-589005",
+    "source": "La República",
+    "published": "2026-09-09T13:00:30+00:00",
     "matched_in": "title"
    }
   ],
@@ -117,26 +87,10 @@
     "matched_in": "title"
    },
    {
-    "title": "“Me he expresado mal”: Ministro César Astudillo se rectifica tras dejar su micro abierto y quejarse en el Congreso",
-    "url": "https://www.infobae.com/peru/2026/09/08/me-he-expresado-mal-ministro-cesar-astudillo-se-rectifica-tras-dejar-su-micro-abierto-y-quejarse-en-el-congreso/",
-    "source": "Infobae",
-    "published": "2026-09-08T21:54:55+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
     "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
     "source": "La República",
     "published": "2026-09-08T17:40:56+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Elmer Cuba plantea nuevo régimen para formalizar trabajadores de pequeñas empresas: “La Ley Mype actual ha fracasado”",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-plantea-nuevo-regimen-para-formalizar-trabajadores-de-pequenas-empresas-la-ley-mype-actual-ha-fracasado-noticia-1706257",
-    "source": "RPP",
-    "published": "2026-09-08T11:32:56-05:00",
     "matched_in": "title"
    }
   ],
@@ -149,38 +103,31 @@
     "matched_in": "summary"
    }
   ],
-  "rafael-rey-rey": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Fenómeno El Niño: MTC moviliza puentes modulares para responder ante posibles emergencias en carreteras",
-    "url": "https://www.infobae.com/peru/2026/09/08/fenomeno-el-nino-mtc-moviliza-puentes-modulares-para-responder-ante-posibles-emergencias-en-carreteras/",
+    "title": "Alberto Beingolea llama “patraña” al juicio donde piden 10 años de prisión en su contra: “Se va a caer”",
+    "url": "https://www.infobae.com/peru/2026/09/09/alberto-beingolea-llama-patrana-al-juicio-donde-piden-10-anos-de-prision-en-su-contra-se-va-a-caer/",
     "source": "Infobae",
-    "published": "2026-09-08T21:08:12+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Rafael Rey ante el Fenómeno El Niño: “Estamos haciendo la prevención posible”",
-    "url": "https://gestion.pe/peru/politica/ministro-rafael-rey-ante-el-fenomeno-el-nino-estamos-haciendo-la-prevencion-posible-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-08T20:44:49+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Minsa buscará reducir a 4 meses y medio el tiempo de espera para cirugías en hospitales",
-    "url": "https://gestion.pe/peru/ministro-luis-dyer-minsa-buscara-reducir-a-4-meses-y-medio-el-tiempo-de-espera-para-cirugias-en-hospitales-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-08T20:10:00+00:00",
+    "published": "2026-09-09T14:53:45+00:00",
     "matched_in": "title"
    }
   ],
   "juan-carlos-requejo-aleman": [
    {
-    "title": "Flotas extranjeras dejaron de abastecerse en puertos peruanos y trasladaron sus operaciones frente a Chile, afirma PRODUCE",
-    "url": "https://www.infobae.com/peru/2026/09/09/flotas-extranjeras-dejaron-de-abastecerse-en-puertos-peruanos-y-trasladaron-sus-operaciones-frente-a-chile-afirma-produce/",
+    "title": "Ministro de Produce confía en revertir rechazo a facultades legislativas: “en la medida que expliquemos más van a entender”",
+    "url": "https://www.infobae.com/peru/2026/09/09/ministro-de-produce-confia-en-revertir-rechazo-a-facultades-legislativas-en-la-medida-que-expliquemos-mas-van-a-entender/",
     "source": "Infobae",
-    "published": "2026-09-09T00:39:05+00:00",
+    "published": "2026-09-09T12:57:21+00:00",
     "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "¿Adiós a las exoneraciones tributarias? Gobierno sí evalúa proyecto para reformar “un par”",
+    "url": "https://www.infobae.com/peru/2026/09/08/adios-a-las-exoneraciones-tributarias-gobierno-evalua-proyecto-para-reformar-un-par/",
+    "source": "Infobae",
+    "published": "2026-09-09T11:42:53+00:00",
+    "matched_in": "summary"
    }
   ]
  }
