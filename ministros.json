@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T00:53:22+00:00",
+ "generated": "2026-09-10T09:24:57+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá: “Marco Rubio viene para hacer anuncios importantes sobre el apoyo de EE.UU. al Perú”",
+    "url": "https://elcomercio.pe/politica/canciller-carlos-espa-marco-rubio-viene-para-hacer-anuncios-importantes-sobre-el-apoyo-de-eeuu-al-peru-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-10T01:38:36+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Perú busca ser socio estratégico en minerales críticos y atraer inversión de EE.UU.",
     "url": "https://gestion.pe/peru/canciller-carlos-espa-peru-busca-posicionarse-como-socio-estrategico-en-minerales-criticos-y-atraer-inversion-de-eeuu-noticia/",
@@ -55,19 +62,35 @@
     "matched_in": "title"
    }
   ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Diputado Marlon Aguirre retira firma que impulsa moción de interpelación contra ministro César Astudillo",
+    "url": "https://larepublica.pe/politica/2026/09/09/diputado-marlon-aguirre-retira-firma-que-impulsa-mocion-de-interpelacion-contra-ministro-cesar-astudillo-hnews-170910",
+    "source": "La República",
+    "published": "2026-09-10T03:46:20+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
+    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
+    "source": "La República",
+    "published": "2026-09-08T17:40:56+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-williams-dyer-fernandez": [
+   {
+    "title": "Luis Dyer sobre Fernando Cerimedo: \"Al señor yo no lo conozco, jamás me he reunido con él\"",
+    "url": "https://rpp.pe/politica/gobierno/luis-dyer-ministro-de-salud-descarta-conocer-al-consultor-argentino-fernando-cerimedo-noticia-1706584",
+    "source": "RPP",
+    "published": "2026-09-09T22:26:47-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Dyer: Proceso de reorganización no implica reducción de personal médico",
     "url": "https://gestion.pe/peru/politica/ministro-de-salud-luis-dyer-proceso-de-reorganizacion-no-implica-reduccion-de-personal-medico-noticia/",
     "source": "Gestión",
     "published": "2026-09-09T23:42:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Minsa entra en reorganización por 90 días tras detectar problemas de gestión, digitalización y abastecimiento",
-    "url": "https://www.infobae.com/peru/2026/09/09/minsa-entra-en-reorganizacion-por-90-dias-tras-detectar-problemas-de-gestion-digitalizacion-y-abastecimiento/",
-    "source": "Infobae",
-    "published": "2026-09-09T19:07:11+00:00",
     "matched_in": "title"
    },
    {
@@ -78,12 +101,12 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
-    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
-    "source": "La República",
-    "published": "2026-09-08T17:40:56+00:00",
+    "title": "Fiscal Chávez Cotrina dice que \"fue un error\" que Rafael Belaunde interactuara con detenidos por asesinato en Trujillo",
+    "url": "https://rpp.pe/peru/actualidad/fiscal-jorge-chavez-cotrina-dice-que-fue-un-error-que-rafael-belaunde-interactuara-con-detenidos-por-asesinato-en-trujillo-noticia-1705500",
+    "source": "RPP",
+    "published": "2026-09-03T20:22:57-05:00",
     "matched_in": "title"
    }
   ],
