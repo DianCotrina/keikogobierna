@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T09:24:57+00:00",
+ "generated": "2026-09-10T14:54:02+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,26 +9,100 @@
   "Infobae"
  ],
  "ministers": {
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Luis Dyer, ministro de Salud: “La oposición nos pide resultados, pero hay que acelerar las facultades para que eso se concrete” | ENTREVISTA",
+    "url": "https://elcomercio.pe/politica/luis-dyer-ministro-de-salud-la-oposicion-nos-pide-resultados-pero-decimos-que-hay-que-acelerar-las-facultades-para-que-esos-resultados-se-concreten-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-10T14:44:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Dyer sobre Fernando Cerimedo: \"Al señor yo no lo conozco, jamás me he reunido con él\"",
+    "url": "https://rpp.pe/politica/gobierno/luis-dyer-ministro-de-salud-descarta-conocer-al-consultor-argentino-fernando-cerimedo-noticia-1706584",
+    "source": "RPP",
+    "published": "2026-09-09T22:26:47-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Dyer: Proceso de reorganización no implica reducción de personal médico",
+    "url": "https://gestion.pe/peru/politica/ministro-de-salud-luis-dyer-proceso-de-reorganizacion-no-implica-reduccion-de-personal-medico-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-09T23:42:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Dyer sobre reforma del sector: “El Minsa hoy tiene un atraso tecnológico y un tema de administración y gestión que mejorar”",
+    "url": "https://elcomercio.pe/lima/sucesos/luis-dyer-sobre-reforma-del-sector-el-minsa-hoy-tiene-un-atraso-tecnologico-y-un-tema-de-administracion-y-gestion-que-mejorar-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-09T18:15:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Minsa en reorganización por 90 días tras diagnóstico crítico y cuestionamientos a la gestión de Salud",
+    "url": "https://larepublica.pe/sociedad/2026/09/09/minsa-en-reorganizacion-por-90-dias-tras-diagnostico-critico-y-cuestionamientos-a-la-gestion-de-salud-589005",
+    "source": "La República",
+    "published": "2026-09-09T13:00:30+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Diputado Marlon Aguirre, de JP, retira su firma de moción de interpelación a ministro del Interior",
+    "url": "https://elcomercio.pe/politica/congreso/diputado-marlon-aguirre-de-juntos-por-el-peru-retira-su-firma-de-mocion-de-interpelacion-contra-el-ministro-cesar-astudillo-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-10T14:42:53+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputado de Juntos por el Perú solicitó retirar su firma de moción de interpelación contra el ministro del Interior",
+    "url": "https://rpp.pe/politica/congreso/marlon-aguirre-diputado-de-juntos-por-el-peru-solicito-retirar-su-firma-de-mocion-de-interpelacion-contra-el-ministro-del-interior-noticia-1706604",
+    "source": "RPP",
+    "published": "2026-09-10T06:06:50-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputado Marlon Aguirre retira firma que impulsa moción de interpelación contra ministro César Astudillo",
+    "url": "https://larepublica.pe/politica/2026/09/09/diputado-marlon-aguirre-retira-firma-que-impulsa-mocion-de-interpelacion-contra-ministro-cesar-astudillo-hnews-170910",
+    "source": "La República",
+    "published": "2026-09-10T03:46:20+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
+    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
+    "source": "La República",
+    "published": "2026-09-08T17:40:56+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá se presentará ante el pleno del Senado el 16 de setiembre",
+    "url": "https://gestion.pe/peru/politica/canciller-carlos-espa-se-presentara-ante-el-pleno-del-senado-el-16-de-setiembre-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-10T14:27:05+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Pleno del Senado aprueba moción y convoca a canciller Carlos Espá para que explique ingreso del Perú al Escudo de las Américas",
+    "url": "https://elcomercio.pe/politica/marco-rubio-pleno-del-senado-mocion-para-invitar-a-canciller-carlos-espa-a-fin-de-que-explique-incorporacion-de-peru-a-escudo-de-las-americas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-10T12:51:57+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller señala que llegada de Marco Rubio será provechosa para Perú: \"viene para hacer anuncios importantes\"",
+    "url": "https://rpp.pe/politica/gobierno/canciller-destaco-incorporacion-del-peru-al-escudo-de-las-americas-para-fortalecer-nuestras-fronteras-y-combatir-al-crimen-organizado-noticia-1706574",
+    "source": "RPP",
+    "published": "2026-09-10T06:30:52-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Canciller Carlos Espá: “Marco Rubio viene para hacer anuncios importantes sobre el apoyo de EE.UU. al Perú”",
     "url": "https://elcomercio.pe/politica/canciller-carlos-espa-marco-rubio-viene-para-hacer-anuncios-importantes-sobre-el-apoyo-de-eeuu-al-peru-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-10T01:38:36+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Perú busca ser socio estratégico en minerales críticos y atraer inversión de EE.UU.",
-    "url": "https://gestion.pe/peru/canciller-carlos-espa-peru-busca-posicionarse-como-socio-estrategico-en-minerales-criticos-y-atraer-inversion-de-eeuu-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-09T19:18:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Escudo de las Américas: Pleno del Senado tiene en su agenda debate de moción para invitar a canciller Carlos Espá",
-    "url": "https://elcomercio.pe/politica/marco-rubio-pleno-del-senado-mocion-para-invitar-a-canciller-carlos-espa-a-fin-de-que-explique-incorporacion-de-peru-a-escudo-de-las-americas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-09T16:10:33+00:00",
     "matched_in": "title"
    },
    {
@@ -62,55 +136,14 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Diputado Marlon Aguirre retira firma que impulsa moción de interpelación contra ministro César Astudillo",
-    "url": "https://larepublica.pe/politica/2026/09/09/diputado-marlon-aguirre-retira-firma-que-impulsa-mocion-de-interpelacion-contra-ministro-cesar-astudillo-hnews-170910",
-    "source": "La República",
-    "published": "2026-09-10T03:46:20+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Astudillo lanza lisura en plena Comisión de Defensa: \"Cómo hago para leer todo esto\"",
-    "url": "https://larepublica.pe/politica/2026/09/07/ministro-astudillo-lanza-lisura-en-plena-comision-de-defensa-como-hago-para-leer-todo-esto-hnews-213290",
-    "source": "La República",
-    "published": "2026-09-08T17:40:56+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer sobre Fernando Cerimedo: \"Al señor yo no lo conozco, jamás me he reunido con él\"",
-    "url": "https://rpp.pe/politica/gobierno/luis-dyer-ministro-de-salud-descarta-conocer-al-consultor-argentino-fernando-cerimedo-noticia-1706584",
-    "source": "RPP",
-    "published": "2026-09-09T22:26:47-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Dyer: Proceso de reorganización no implica reducción de personal médico",
-    "url": "https://gestion.pe/peru/politica/ministro-de-salud-luis-dyer-proceso-de-reorganizacion-no-implica-reduccion-de-personal-medico-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-09T23:42:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Minsa en reorganización por 90 días tras diagnóstico crítico y cuestionamientos a la gestión de Salud",
-    "url": "https://larepublica.pe/sociedad/2026/09/09/minsa-en-reorganizacion-por-90-dias-tras-diagnostico-critico-y-cuestionamientos-a-la-gestion-de-salud-589005",
-    "source": "La República",
-    "published": "2026-09-09T13:00:30+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Fiscal Chávez Cotrina dice que \"fue un error\" que Rafael Belaunde interactuara con detenidos por asesinato en Trujillo",
-    "url": "https://rpp.pe/peru/actualidad/fiscal-jorge-chavez-cotrina-dice-que-fue-un-error-que-rafael-belaunde-interactuara-con-detenidos-por-asesinato-en-trujillo-noticia-1705500",
-    "source": "RPP",
-    "published": "2026-09-03T20:22:57-05:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Ministro Juan Sheput señala que aumento del sueldo mínimo se dará en este semestre: \"Hay un compromiso presidencial\"",
+    "url": "https://larepublica.pe/politica/2026/09/10/ministro-juan-sheput-senala-que-aumento-del-sueldo-minimo-se-dara-en-este-semestre-hay-un-compromiso-presidencial-hnews-214990",
+    "source": "La República",
+    "published": "2026-09-10T13:28:37+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Elmer Cuba sobre facultades legislativas: “La idea es ampliar avenidas para formalizar mypes”",
     "url": "https://gestion.pe/economia/elmer-cuba-sobre-facultades-legislativas-la-idea-es-ampliar-avenidas-para-formalizar-mypes-noticia/",
@@ -119,12 +152,12 @@
     "matched_in": "title"
    }
   ],
-  "juan-carlos-requejo-aleman": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Flotas extranjeras dejaron de abastecerse en puertos peruanos y trasladaron sus operaciones frente a Chile, afirma PRODUCE",
-    "url": "https://www.infobae.com/peru/2026/09/09/flotas-extranjeras-dejaron-de-abastecerse-en-puertos-peruanos-y-trasladaron-sus-operaciones-frente-a-chile-afirma-produce/",
-    "source": "Infobae",
-    "published": "2026-09-09T19:39:45+00:00",
+    "title": "Ministro Juan Sheput señala que aumento del sueldo mínimo se dará en este semestre: \"Hay un compromiso presidencial\"",
+    "url": "https://larepublica.pe/politica/2026/09/10/ministro-juan-sheput-senala-que-aumento-del-sueldo-minimo-se-dara-en-este-semestre-hay-un-compromiso-presidencial-hnews-214990",
+    "source": "La República",
+    "published": "2026-09-10T13:28:37+00:00",
     "matched_in": "title"
    }
   ]
