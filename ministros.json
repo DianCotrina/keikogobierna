@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T19:36:44+00:00",
+ "generated": "2026-09-10T00:53:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -48,54 +48,26 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
-    "title": "Comisiones de la Cámara de Diputados ya votan en  contra del pedido facultades del gobierno de Keiko Fujimori",
-    "url": "https://www.infobae.com/peru/2026/09/09/comisiones-de-la-camara-de-diputados-ya-votan-en-contra-del-pedido-facultades-del-gobierno-de-keiko-fujimori/",
-    "source": "Infobae",
-    "published": "2026-09-09T15:09:16+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Premier Luis Galarreta inicia diálogo con bancadas en el Congreso por facultades legislativas",
-    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-inicia-dialogo-con-bancadas-en-el-congreso-por-facultades-legislativas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-09T01:49:44+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "PCM y Embajada de EE.UU. suscriben memorando de entendimiento para impulsar desarrollo de la Inteligencia Artificial",
     "url": "https://elcomercio.pe/politica/gobierno/pcm-y-embajada-de-estados-unidos-suscriben-memorando-de-entendimiento-para-impulsar-desarrollo-de-la-inteligencia-artificial-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-08T21:17:13+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Esposa del premier Luis Galarreta cobró más de 8 mil soles en agosto como asesora en el Congreso",
-    "url": "https://larepublica.pe/politica/2026/09/07/luis-galarreta-esposa-del-premier-cobro-mas-de-8-mil-soles-como-asesora-del-despacho-de-ana-patino-en-agosto-maria-carrillo-alzamora-hnews-634662",
-    "source": "La República",
-    "published": "2026-09-07T23:24:04+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
+   {
+    "title": "Ministro Dyer: Proceso de reorganización no implica reducción de personal médico",
+    "url": "https://gestion.pe/peru/politica/ministro-de-salud-luis-dyer-proceso-de-reorganizacion-no-implica-reduccion-de-personal-medico-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-09T23:42:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Minsa entra en reorganización por 90 días tras detectar problemas de gestión, digitalización y abastecimiento",
     "url": "https://www.infobae.com/peru/2026/09/09/minsa-entra-en-reorganizacion-por-90-dias-tras-detectar-problemas-de-gestion-digitalizacion-y-abastecimiento/",
     "source": "Infobae",
     "published": "2026-09-09T19:07:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Dyer: Proceso de reorganización no implica reducción de personal médico",
-    "url": "https://gestion.pe/peru/politica/ministro-de-salud-luis-dyer-proceso-de-reorganizacion-no-implica-reduccion-de-personal-medico-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-09T18:42:08+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Dyer sobre reforma del sector: “El Minsa hoy tiene un atraso tecnológico y un tema de administración y gestión que mejorar”",
-    "url": "https://elcomercio.pe/lima/sucesos/luis-dyer-sobre-reforma-del-sector-el-minsa-hoy-tiene-un-atraso-tecnologico-y-un-tema-de-administracion-y-gestion-que-mejorar-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-09T18:15:04+00:00",
     "matched_in": "title"
    },
    {
@@ -115,19 +87,21 @@
     "matched_in": "title"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Alberto Beingolea da detalles sobre importante descubrimiento en Chan Chan: \"Ha sido el hallazgo del año\"",
-    "url": "https://rpp.pe/politica/gobierno/alberto-beingolea-da-detalles-sobre-importante-hallazgo-en-chan-chan-ahora-viene-la-etapa-de-la-investigacion-noticia-1706441",
-    "source": "RPP",
-    "published": "2026-09-09T10:58:35-05:00",
+    "title": "Elmer Cuba sobre facultades legislativas: “La idea es ampliar avenidas para formalizar mypes”",
+    "url": "https://gestion.pe/economia/elmer-cuba-sobre-facultades-legislativas-la-idea-es-ampliar-avenidas-para-formalizar-mypes-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-10T00:12:27+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
    {
-    "title": "Alberto Beingolea llama “patraña” al juicio donde piden 10 años de prisión en su contra: “Se va a caer”",
-    "url": "https://www.infobae.com/peru/2026/09/09/alberto-beingolea-llama-patrana-al-juicio-donde-piden-10-anos-de-prision-en-su-contra-se-va-a-caer/",
+    "title": "Flotas extranjeras dejaron de abastecerse en puertos peruanos y trasladaron sus operaciones frente a Chile, afirma PRODUCE",
+    "url": "https://www.infobae.com/peru/2026/09/09/flotas-extranjeras-dejaron-de-abastecerse-en-puertos-peruanos-y-trasladaron-sus-operaciones-frente-a-chile-afirma-produce/",
     "source": "Infobae",
-    "published": "2026-09-09T14:53:45+00:00",
+    "published": "2026-09-09T19:39:45+00:00",
     "matched_in": "title"
    }
   ]
