@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T09:23:36+00:00",
+ "generated": "2026-09-11T14:51:24+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Aliados en la Mesa Directiva, pero divididos en el pleno: así fue la votación para interpelar al ministro del Interior en la Cámara de Diputados",
     "url": "https://elcomercio.pe/politica/congreso/aliados-en-la-mesa-directiva-pero-divididos-en-el-pleno-asi-fue-la-votacion-para-interpelar-al-ministro-del-interior-en-la-camara-de-diputados-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-11T05:02:00+00:00",
+    "published": "2026-09-11T11:39:58+00:00",
     "matched_in": "title"
    },
    {
@@ -39,13 +39,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Congreso aprueba interpelar a César Astudillo por ola criminal: ministro irá al Pleno este 17 de septiembre",
-    "url": "https://www.infobae.com/peru/2026/09/10/congreso-aprueba-interpelar-a-cesar-astudillo-por-ola-criminal-ministro-ira-al-pleno-este-17-de-septiembre/",
-    "source": "Infobae",
-    "published": "2026-09-10T21:45:28+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Diputado Marlon Aguirre, de JP, retira su firma de moción de interpelación a ministro del Interior",
     "url": "https://elcomercio.pe/politica/congreso/diputado-marlon-aguirre-de-juntos-por-el-peru-retira-su-firma-de-mocion-de-interpelacion-contra-el-ministro-cesar-astudillo-ultimas-noticia/",
     "source": "El Comercio",
@@ -66,13 +59,6 @@
     "url": "https://elcomercio.pe/politica/luis-dyer-ministro-de-salud-la-oposicion-nos-pide-resultados-pero-decimos-que-hay-que-acelerar-las-facultades-para-que-esos-resultados-se-concreten-noticia/",
     "source": "El Comercio",
     "published": "2026-09-10T21:16:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Minsa en reorganización por 90 días tras diagnóstico crítico y cuestionamientos a la gestión de Salud",
-    "url": "https://larepublica.pe/sociedad/2026/09/09/minsa-en-reorganizacion-por-90-dias-tras-diagnostico-critico-y-cuestionamientos-a-la-gestion-de-salud-589005",
-    "source": "La República",
-    "published": "2026-09-09T13:00:30+00:00",
     "matched_in": "title"
    }
   ],
@@ -99,13 +85,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Carlos Espá confía en que facultades legislativas sean otorgadas: \"El sentimiento patriótico va a prevalecer\"",
-    "url": "https://rpp.pe/politica/gobierno/carlos-espa-confia-en-que-facultades-legislativas-sean-otorgadas-el-sentimiento-patriotico-va-a-prevalecer-noticia-1706781",
-    "source": "RPP",
-    "published": "2026-09-10T19:47:45-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Marco Rubio sostiene reunión con el canciller Carlos Espá en la sede de Torre Tagle",
     "url": "https://elcomercio.pe/politica/gobierno/marco-rubio-recibido-por-canciller-carlos-espa-en-la-sede-de-torre-tagle-cancilleria-estados-unidos-ultimas-noticia/",
     "source": "El Comercio",
@@ -127,36 +106,6 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Juan Sheput defiende facultades legislativas y asegura que “la formalidad ayuda a luchar contra la delincuencia”",
-    "url": "https://www.infobae.com/peru/2026/09/10/juan-sheput-defiende-facultades-legislativas-y-asegura-que-la-formalidad-ayuda-a-luchar-contra-la-delincuencia/",
-    "source": "Infobae",
-    "published": "2026-09-10T23:06:51+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Trabajo anuncia que aumento del sueldo a S/1.300 será en dos tramos: primer abono será este año",
-    "url": "https://elcomercio.pe/economia/peru/ministro-de-trabajo-anuncia-que-aumento-del-sueldo-a-s1300-sera-en-dos-tramos-primer-abono-sera-este-ano-l-aumento-de-sueldo-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-10T19:47:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sheput anuncia que el aumento de la RMV a S/ 1,300 será en dos tramos, el primero este año",
-    "url": "https://gestion.pe/economia/sheput-anuncia-que-el-aumento-de-la-rmv-a-s1300-sera-en-dos-tramos-el-primero-este-ano-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-10T19:39:32+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Juan Sheput señala que aumento del sueldo mínimo se dará en este semestre: \"Hay un compromiso presidencial\"",
-    "url": "https://larepublica.pe/politica/2026/09/10/ministro-juan-sheput-senala-que-aumento-del-sueldo-minimo-se-dara-en-este-semestre-hay-un-compromiso-presidencial-hnews-214990",
-    "source": "La República",
-    "published": "2026-09-10T13:28:37+00:00",
-    "matched_in": "title"
-   }
-  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Abogados penalistas cuestionan a Ernesto Álvarez por vincular Código Procesal Penal con delincuencia organizada",
@@ -173,6 +122,31 @@
     "source": "La República",
     "published": "2026-09-10T13:28:37+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Sheput anuncia que el aumento de la RMV a S/ 1,300 será en dos tramos, el primero este año",
+    "url": "https://gestion.pe/economia/sheput-anuncia-que-el-aumento-de-la-rmv-a-s1300-sera-en-dos-tramos-el-primero-este-ano-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-10T19:39:32+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Juan Sheput señala que aumento del sueldo mínimo se dará en este semestre: \"Hay un compromiso presidencial\"",
+    "url": "https://larepublica.pe/politica/2026/09/10/ministro-juan-sheput-senala-que-aumento-del-sueldo-minimo-se-dara-en-este-semestre-hay-un-compromiso-presidencial-hnews-214990",
+    "source": "La República",
+    "published": "2026-09-10T13:28:37+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "maria-magdalena-seminario-maron": [
+   {
+    "title": "Ministra de la Mujer sobre situación de violencia sexual en Condorcanqui: \"El gran ausente es el GORE Amazonas\"",
+    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-sobre-situacion-de-violencia-sexual-en-condorcanqui-el-gran-ausente-es-el-gore-amazonas-noticia-1706852",
+    "source": "RPP",
+    "published": "2026-09-11T08:35:14-05:00",
+    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
