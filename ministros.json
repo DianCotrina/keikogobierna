@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T00:51:05+00:00",
+ "generated": "2026-09-11T09:23:36+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Aliados en la Mesa Directiva, pero divididos en el pleno: así fue la votación para interpelar al ministro del Interior en la Cámara de Diputados",
+    "url": "https://elcomercio.pe/politica/congreso/aliados-en-la-mesa-directiva-pero-divididos-en-el-pleno-asi-fue-la-votacion-para-interpelar-al-ministro-del-interior-en-la-camara-de-diputados-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-11T05:02:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Cámara de Diputados aprueba moción de interpelación contra ministro del Interior, César Astudillo",
     "url": "https://larepublica.pe/politica/2026/09/10/camara-de-diputados-aprueba-mocion-de-interpelacion-contra-ministro-del-interior-cesar-astudillo-hnews-535860",
@@ -36,13 +43,6 @@
     "url": "https://www.infobae.com/peru/2026/09/10/congreso-aprueba-interpelar-a-cesar-astudillo-por-ola-criminal-ministro-ira-al-pleno-este-17-de-septiembre/",
     "source": "Infobae",
     "published": "2026-09-10T21:45:28+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Pleno de la Cámara de Diputados aprobó interpelar al ministro del Interior, César Astudillo",
-    "url": "https://rpp.pe/politica/congreso/pleno-de-la-camara-de-diputados-aprobo-interpelar-al-ministro-del-interior-cesar-astudillo-noticia-1706743",
-    "source": "RPP",
-    "published": "2026-09-10T16:39:24-05:00",
     "matched_in": "title"
    },
    {
@@ -78,10 +78,31 @@
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Keiko viajaría a Estados Unidos para participar en la Asamblea General de las Naciones Unidas",
+    "url": "https://larepublica.pe/politica/2026/09/10/keiko-viajaria-a-estados-unidos-para-participar-en-la-asamblea-general-de-las-naciones-unidas-hnews-191430",
+    "source": "La República",
+    "published": "2026-09-11T03:21:35+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Canciller Espá afirma que facultades legislativas “van a ser otorgadas” por el Congreso pese a críticas y rechazo en comisiones",
+    "url": "https://www.infobae.com/peru/2026/09/11/canciller-espa-afirma-que-facultades-legislativas-van-a-ser-otorgadas-por-el-congreso-pese-a-criticas-y-rechazo-en-comisiones/",
+    "source": "Infobae",
+    "published": "2026-09-11T02:56:21+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Canciller Carlos Espá se presentará ante el pleno del Senado el 16 de setiembre",
     "url": "https://gestion.pe/peru/politica/canciller-carlos-espa-se-presentara-ante-el-pleno-del-senado-el-16-de-setiembre-noticia/",
     "source": "Gestión",
-    "published": "2026-09-11T00:32:38+00:00",
+    "published": "2026-09-11T01:32:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Carlos Espá confía en que facultades legislativas sean otorgadas: \"El sentimiento patriótico va a prevalecer\"",
+    "url": "https://rpp.pe/politica/gobierno/carlos-espa-confia-en-que-facultades-legislativas-sean-otorgadas-el-sentimiento-patriotico-va-a-prevalecer-noticia-1706781",
+    "source": "RPP",
+    "published": "2026-09-10T19:47:45-05:00",
     "matched_in": "title"
    },
    {
@@ -147,13 +168,6 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "“La Ley MYPE ha fracasado”, reconoce el MEF y ya ‘cocina’ reforma para pequeñas empresas",
-    "url": "https://www.infobae.com/peru/2026/09/10/la-ley-mype-ha-fracasado-reconoce-el-mef-y-ya-cocina-reforma-para-pequenas-empresas/",
-    "source": "Infobae",
-    "published": "2026-09-10T18:29:17+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Juan Sheput señala que aumento del sueldo mínimo se dará en este semestre: \"Hay un compromiso presidencial\"",
     "url": "https://larepublica.pe/politica/2026/09/10/ministro-juan-sheput-senala-que-aumento-del-sueldo-minimo-se-dara-en-este-semestre-hay-un-compromiso-presidencial-hnews-214990",
     "source": "La República",
@@ -167,15 +181,6 @@
     "url": "https://gestion.pe/peru/politica/camara-de-diputados-aprobo-citar-al-titular-de-la-pcm-y-a-los-ministros-de-defensa-e-interior-noticia/",
     "source": "Gestión",
     "published": "2026-09-10T20:39:23+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Flotas extranjeras dejaron de abastecerse en puertos peruanos y trasladaron sus operaciones frente a Chile, afirma PRODUCE",
-    "url": "https://www.infobae.com/peru/2026/09/09/flotas-extranjeras-dejaron-de-abastecerse-en-puertos-peruanos-y-trasladaron-sus-operaciones-frente-a-chile-afirma-produce/",
-    "source": "Infobae",
-    "published": "2026-09-10T19:29:35+00:00",
     "matched_in": "title"
    }
   ]
