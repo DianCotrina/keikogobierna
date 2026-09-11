@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T14:51:24+00:00",
+ "generated": "2026-09-11T19:28:30+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,8 +14,36 @@
     "title": "Aliados en la Mesa Directiva, pero divididos en el pleno: así fue la votación para interpelar al ministro del Interior en la Cámara de Diputados",
     "url": "https://elcomercio.pe/politica/congreso/aliados-en-la-mesa-directiva-pero-divididos-en-el-pleno-asi-fue-la-votacion-para-interpelar-al-ministro-del-interior-en-la-camara-de-diputados-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-11T11:39:58+00:00",
+    "published": "2026-09-11T19:05:00+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Interior sobre interpelación: “Por supuesto que iremos cuando corresponda la próxima semana”",
+    "url": "https://elcomercio.pe/politica/congreso/ministro-del-interior-sobre-interpelacion-por-supuesto-que-iremos-cuando-corresponda-la-proxima-semana-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-11T19:02:41+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo sobre resultados contra la inseguridad: Los primeros logros se verán “en dos a tres meses”",
+    "url": "https://elcomercio.pe/lima/seguridad/cesar-astudillo-sobre-resultados-contra-inseguridad-los-primeros-logros-se-veran-en-dos-a-tres-meses-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-11T18:20:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo: primeros logros contra la inseguridad “se verán en dos o tres meses”",
+    "url": "https://gestion.pe/peru/politica/camara-de-diputados-aprobo-interpelar-al-ministro-del-interior-cesar-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-11T16:28:09+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "PNP rastreará ubicación de líneas vinculadas a la extorsión, secuestro y sicariato",
+    "url": "https://larepublica.pe/politica/2026/09/11/pnp-rastreara-ubicacion-de-lineas-vinculadas-a-la-extorsion-secuestro-y-sicariato-inseguridad-hnews-806971",
+    "source": "La República",
+    "published": "2026-09-11T15:19:52+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Cámara de Diputados aprueba moción de interpelación contra ministro del Interior, César Astudillo",
@@ -29,13 +57,6 @@
     "url": "https://elcomercio.pe/politica/congreso/congreso-camara-de-diputados-mociones-de-interpelacion-ministros-defensa-interior-rafael-belaunde-cesar-astudillo-pataz-seguridad-ciudadana-pnp-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-10T22:28:16+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Cámara de Diputados aprobó interpelar al ministro del Interior, César Astudillo",
-    "url": "https://gestion.pe/peru/politica/camara-de-diputados-aprobo-interpelar-al-ministro-del-interior-cesar-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-10T21:47:03+00:00",
     "matched_in": "title"
    },
    {
@@ -55,6 +76,13 @@
   ],
   "luis-williams-dyer-fernandez": [
    {
+    "title": "Luis Dyer, ministro de Salud, asegura que detuvo una licitación de impresoras por 3,2 millones de soles",
+    "url": "https://www.infobae.com/peru/2026/09/11/luis-dyer-ministro-de-salud-asegura-que-detuvo-una-licitacion-de-impresoras-por-32-millones-de-soles/",
+    "source": "Infobae",
+    "published": "2026-09-11T15:18:52+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Luis Dyer, ministro de Salud: “La oposición nos pide resultados, pero hay que acelerar las facultades para que eso se concrete” | ENTREVISTA",
     "url": "https://elcomercio.pe/politica/luis-dyer-ministro-de-salud-la-oposicion-nos-pide-resultados-pero-decimos-que-hay-que-acelerar-las-facultades-para-que-esos-resultados-se-concreten-noticia/",
     "source": "El Comercio",
@@ -64,10 +92,10 @@
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Keiko viajaría a Estados Unidos para participar en la Asamblea General de las Naciones Unidas",
+    "title": "Keiko Fujimori viajaría a Estados Unidos para participar en la Asamblea General de las Naciones Unidas",
     "url": "https://larepublica.pe/politica/2026/09/10/keiko-viajaria-a-estados-unidos-para-participar-en-la-asamblea-general-de-las-naciones-unidas-hnews-191430",
     "source": "La República",
-    "published": "2026-09-11T03:21:35+00:00",
+    "published": "2026-09-11T15:15:57+00:00",
     "matched_in": "summary"
    },
    {
@@ -108,6 +136,27 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "Keiko Fujimori reprocha a Ernesto Álvarez por arremeter contra penalistas: “Fue una frase muy desafortunada”",
+    "url": "https://www.infobae.com/peru/2026/09/11/keiko-fujimori-reprocha-a-ernesto-alvarez-por-arremeter-contra-penalistas-fue-una-frase-muy-desafortunada/",
+    "source": "Infobae",
+    "published": "2026-09-11T17:45:31+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rosa María Palacios cuestiona a ministro Ernesto Álvarez por afirmar que Código Penal \"fue redactado por delincuentes\"",
+    "url": "https://larepublica.pe/politica/2026/09/11/rosa-maria-palacios-cuestiona-a-ministro-ernesto-alvarez-por-afirmar-que-codigo-penal-fue-redactado-por-delincuentes-413303",
+    "source": "La República",
+    "published": "2026-09-11T17:24:39+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Humberto Abanto: “Ernesto Álvarez ha dicho cosas (sobre el Código Procesal Penal) que revelan una pobre asesoría, es triste”",
+    "url": "https://www.infobae.com/peru/2026/09/11/humberto-abanto-ernesto-alvarez-ha-dicho-cosas-sobre-el-codigo-procesal-penal-que-revelan-una-pobre-asesoria-es-triste/",
+    "source": "Infobae",
+    "published": "2026-09-11T15:41:51+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Abogados penalistas cuestionan a Ernesto Álvarez por vincular Código Procesal Penal con delincuencia organizada",
     "url": "https://larepublica.pe/politica/2026/09/10/ernesto-alvarez-abogados-penalistas-cuestionan-al-ministro-de-justicia-por-vincular-codigo-procesal-penal-con-delincuencia-organizada-hnews-447520",
     "source": "La República",
@@ -126,18 +175,20 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Sheput anuncia que el aumento de la RMV a S/ 1,300 será en dos tramos, el primero este año",
-    "url": "https://gestion.pe/economia/sheput-anuncia-que-el-aumento-de-la-rmv-a-s1300-sera-en-dos-tramos-el-primero-este-ano-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-10T19:39:32+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Juan Sheput señala que aumento del sueldo mínimo se dará en este semestre: \"Hay un compromiso presidencial\"",
     "url": "https://larepublica.pe/politica/2026/09/10/ministro-juan-sheput-senala-que-aumento-del-sueldo-minimo-se-dara-en-este-semestre-hay-un-compromiso-presidencial-hnews-214990",
     "source": "La República",
     "published": "2026-09-10T13:28:37+00:00",
     "matched_in": "title"
+   }
+  ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Keiko Fujimori pidió a Marco Rubio, secretario de Estado de EEUU, reevaluar los aranceles a Perú: \"dijo que no era de su competencia\"",
+    "url": "https://rpp.pe/economia/economia/keiko-fujimori-solicito-a-marco-rubio-reevaluar-aranceles-a-peru-que-le-respondio-noticia-1706907",
+    "source": "RPP",
+    "published": "2026-09-11T12:46:58-05:00",
+    "matched_in": "summary"
    }
   ],
   "maria-magdalena-seminario-maron": [
@@ -149,12 +200,12 @@
     "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Cámara de Diputados aprobó citar al titular de la PCM y a los ministros de Defensa e Interior",
-    "url": "https://gestion.pe/peru/politica/camara-de-diputados-aprobo-citar-al-titular-de-la-pcm-y-a-los-ministros-de-defensa-e-interior-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-10T20:39:23+00:00",
+    "title": "‘Jhonsson Pulpo’ será enviado a la Base Naval, confirma el ministro de Defensa: “Será su destino hasta que el diablo lo recoja”",
+    "url": "https://www.infobae.com/peru/2026/09/11/jhonsson-pulpo-sera-enviado-a-la-base-naval-confirma-el-ministro-de-defensa-sera-destino-hasta-que-el-diablo-lo-recoja/",
+    "source": "Infobae",
+    "published": "2026-09-11T15:27:46+00:00",
     "matched_in": "title"
    }
   ]
