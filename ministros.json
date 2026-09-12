@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T13:54:29+00:00",
+ "generated": "2026-09-12T18:59:26+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,38 @@
   "Infobae"
  ],
  "ministers": {
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá defiende designación de embajadores políticos como Carlos Tubino",
+    "url": "https://elcomercio.pe/politica/actualidad/canciller-carlos-espa-defiende-designacion-de-embajadores-politicos-como-carlos-tubino-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-12T18:41:54+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller Carlos Espá: “Estoy seguro que van a otorgar las facultades legislativas”",
+    "url": "https://elcomercio.pe/politica/congreso/canciller-carlos-espa-estoy-seguro-que-van-a-otorgar-las-facultades-legislativas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-12T13:59:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori viajaría a Estados Unidos para participar en la Asamblea General de las Naciones Unidas",
+    "url": "https://larepublica.pe/politica/2026/09/10/keiko-viajaria-a-estados-unidos-para-participar-en-la-asamblea-general-de-las-naciones-unidas-hnews-191430",
+    "source": "La República",
+    "published": "2026-09-11T15:15:57+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Rafael Belaunde citado por Comisión de Constitución de Cámara de Diputados para exponer sobre pedido de facultades",
+    "url": "https://elcomercio.pe/politica/congreso/rafael-belaunde-citado-por-comision-de-constitucion-de-camara-de-diputados-para-exponer-sobre-pedido-de-facultades-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-12T15:49:57+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Aliados en la Mesa Directiva, pero divididos en el pleno: así fue la votación para interpelar al ministro del Interior en la Cámara de Diputados",
@@ -22,13 +54,6 @@
     "url": "https://elcomercio.pe/politica/congreso/ministro-del-interior-sobre-interpelacion-por-supuesto-que-iremos-cuando-corresponda-la-proxima-semana-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-11T19:02:41+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo: primeros logros contra la inseguridad “se verán en dos o tres meses”",
-    "url": "https://gestion.pe/peru/politica/camara-de-diputados-aprobo-interpelar-al-ministro-del-interior-cesar-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-11T16:28:09+00:00",
     "matched_in": "title"
    },
    {
@@ -51,13 +76,6 @@
     "source": "El Comercio",
     "published": "2026-09-10T22:28:16+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Diputado Marlon Aguirre, de JP, retira su firma de moción de interpelación a ministro del Interior",
-    "url": "https://elcomercio.pe/politica/congreso/diputado-marlon-aguirre-de-juntos-por-el-peru-retira-su-firma-de-mocion-de-interpelacion-contra-el-ministro-cesar-astudillo-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-10T14:42:53+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -69,20 +87,13 @@
     "matched_in": "title"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Keiko Fujimori viajaría a Estados Unidos para participar en la Asamblea General de las Naciones Unidas",
-    "url": "https://larepublica.pe/politica/2026/09/10/keiko-viajaria-a-estados-unidos-para-participar-en-la-asamblea-general-de-las-naciones-unidas-hnews-191430",
+    "title": "Lourdes Alcorta cuestiona al Ejecutivo por mezclar delincuencia y Fenómeno del Niño con otras propuestas",
+    "url": "https://larepublica.pe/politica/2026/09/12/lourdes-alcorta-cuestiona-al-ejecutivo-por-mezclar-delincuencia-y-fenomeno-del-nino-con-otras-propuestas-hnews-1006560",
     "source": "La República",
-    "published": "2026-09-11T15:15:57+00:00",
+    "published": "2026-09-12T18:13:12+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Marco Rubio sostiene reunión con el canciller Carlos Espá en la sede de Torre Tagle",
-    "url": "https://elcomercio.pe/politica/gobierno/marco-rubio-recibido-por-canciller-carlos-espa-en-la-sede-de-torre-tagle-cancilleria-estados-unidos-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-10T15:09:29+00:00",
-    "matched_in": "title"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -108,13 +119,13 @@
     "matched_in": "title"
    }
   ],
-  "rogers-martin-valencia-espinoza": [
+  "maria-magdalena-seminario-maron": [
    {
-    "title": "Keiko Fujimori pidió a Marco Rubio, secretario de Estado de EEUU, reevaluar los aranceles a Perú: \"dijo que no era de su competencia\"",
-    "url": "https://rpp.pe/economia/economia/keiko-fujimori-solicito-a-marco-rubio-reevaluar-aranceles-a-peru-que-le-respondio-noticia-1706907",
+    "title": "Ministra de la Mujer: Se busca consolidar respuesta del Estado ante casos de violencia sexual contra menores en Condorcanqui",
+    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-se-busca-consolidar-respuesta-conjunta-del-estado-ante-casos-de-violencia-sexual-contra-menores-en-condorcanqui-noticia-1707043",
     "source": "RPP",
-    "published": "2026-09-11T12:46:58-05:00",
-    "matched_in": "summary"
+    "published": "2026-09-12T11:30:00-05:00",
+    "matched_in": "title"
    }
   ]
  }
