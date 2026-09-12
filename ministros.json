@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T19:28:30+00:00",
+ "generated": "2026-09-12T00:56:27+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Aliados en la Mesa Directiva, pero divididos en el pleno: así fue la votación para interpelar al ministro del Interior en la Cámara de Diputados",
     "url": "https://elcomercio.pe/politica/congreso/aliados-en-la-mesa-directiva-pero-divididos-en-el-pleno-asi-fue-la-votacion-para-interpelar-al-ministro-del-interior-en-la-camara-de-diputados-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-11T19:05:00+00:00",
+    "published": "2026-09-11T21:42:00+00:00",
     "matched_in": "title"
    },
    {
@@ -22,13 +22,6 @@
     "url": "https://elcomercio.pe/politica/congreso/ministro-del-interior-sobre-interpelacion-por-supuesto-que-iremos-cuando-corresponda-la-proxima-semana-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-11T19:02:41+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo sobre resultados contra la inseguridad: Los primeros logros se verán “en dos a tres meses”",
-    "url": "https://elcomercio.pe/lima/seguridad/cesar-astudillo-sobre-resultados-contra-inseguridad-los-primeros-logros-se-veran-en-dos-a-tres-meses-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-11T18:20:35+00:00",
     "matched_in": "title"
    },
    {
@@ -99,13 +92,6 @@
     "matched_in": "summary"
    },
    {
-    "title": "Canciller Espá afirma que facultades legislativas “van a ser otorgadas” por el Congreso pese a críticas y rechazo en comisiones",
-    "url": "https://www.infobae.com/peru/2026/09/11/canciller-espa-afirma-que-facultades-legislativas-van-a-ser-otorgadas-por-el-congreso-pese-a-criticas-y-rechazo-en-comisiones/",
-    "source": "Infobae",
-    "published": "2026-09-11T02:56:21+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Canciller Carlos Espá se presentará ante el pleno del Senado el 16 de setiembre",
     "url": "https://gestion.pe/peru/politica/canciller-carlos-espa-se-presentara-ante-el-pleno-del-senado-el-16-de-setiembre-noticia/",
     "source": "Gestión",
@@ -135,6 +121,13 @@
    }
   ],
   "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Keiko Fujimori califica de “desafortunada” frase de Ernesto Álvarez sobre el Código Procesal Penal",
+    "url": "https://larepublica.pe/politica/2026/09/11/keiko-fujimori-califica-de-desafortunada-frase-de-ernesto-alvarez-sobre-el-codigo-procesal-penal-hnews-737330",
+    "source": "La República",
+    "published": "2026-09-11T23:45:31+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori reprocha a Ernesto Álvarez por arremeter contra penalistas: “Fue una frase muy desafortunada”",
     "url": "https://www.infobae.com/peru/2026/09/11/keiko-fujimori-reprocha-a-ernesto-alvarez-por-arremeter-contra-penalistas-fue-una-frase-muy-desafortunada/",
@@ -191,12 +184,12 @@
     "matched_in": "summary"
    }
   ],
-  "maria-magdalena-seminario-maron": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Ministra de la Mujer sobre situación de violencia sexual en Condorcanqui: \"El gran ausente es el GORE Amazonas\"",
-    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-sobre-situacion-de-violencia-sexual-en-condorcanqui-el-gran-ausente-es-el-gore-amazonas-noticia-1706852",
+    "title": "Ministerio de Cultura anuncia eliminación de reservas anticipadas para ir a Machu Picchu",
+    "url": "https://rpp.pe/peru/actualidad/ministerio-de-cultura-anuncia-eliminacion-de-reservas-anticipadas-para-ir-a-machu-picchu-noticia-1706950",
     "source": "RPP",
-    "published": "2026-09-11T08:35:14-05:00",
+    "published": "2026-09-11T16:40:20-05:00",
     "matched_in": "title"
    }
   ],
