@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T14:49:05+00:00",
+ "generated": "2026-09-13T19:12:44+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -23,13 +23,6 @@
     "source": "El Comercio",
     "published": "2026-09-12T13:59:16+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori viajaría a Estados Unidos para participar en la Asamblea General de las Naciones Unidas",
-    "url": "https://larepublica.pe/politica/2026/09/10/keiko-viajaria-a-estados-unidos-para-participar-en-la-asamblea-general-de-las-naciones-unidas-hnews-191430",
-    "source": "La República",
-    "published": "2026-09-11T15:15:57+00:00",
-    "matched_in": "summary"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -54,22 +47,6 @@
     "url": "https://elcomercio.pe/politica/congreso/ministro-del-interior-sobre-interpelacion-por-supuesto-que-iremos-cuando-corresponda-la-proxima-semana-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-11T19:02:41+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "PNP rastreará ubicación de líneas vinculadas a la extorsión, secuestro y sicariato",
-    "url": "https://larepublica.pe/politica/2026/09/11/pnp-rastreara-ubicacion-de-lineas-vinculadas-a-la-extorsion-secuestro-y-sicariato-inseguridad-hnews-806971",
-    "source": "La República",
-    "published": "2026-09-11T15:19:52+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "¿Qué dijo el Ministerio de Cultura sobre los cambios que hay para las visitas turísticas a Machu Picchu?",
-    "url": "https://elcomercio.pe/respuestas/que/que-dijo-el-ministerio-de-cultura-sobre-los-cambios-que-hay-para-las-visitas-turisticas-a-machu-picchu-tdpe-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-13T14:00:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -97,13 +74,6 @@
     "url": "https://larepublica.pe/politica/2026/09/11/keiko-fujimori-califica-de-desafortunada-frase-de-ernesto-alvarez-sobre-el-codigo-procesal-penal-hnews-737330",
     "source": "La República",
     "published": "2026-09-11T23:45:31+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rosa María Palacios cuestiona a ministro Ernesto Álvarez por afirmar que Código Penal \"fue redactado por delincuentes\"",
-    "url": "https://larepublica.pe/politica/2026/09/11/rosa-maria-palacios-cuestiona-a-ministro-ernesto-alvarez-por-afirmar-que-codigo-penal-fue-redactado-por-delincuentes-413303",
-    "source": "La República",
-    "published": "2026-09-11T17:24:39+00:00",
     "matched_in": "title"
    }
   ]
