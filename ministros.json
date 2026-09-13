@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T10:01:45+00:00",
+ "generated": "2026-09-13T14:49:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -62,6 +62,15 @@
     "source": "La República",
     "published": "2026-09-11T15:19:52+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "¿Qué dijo el Ministerio de Cultura sobre los cambios que hay para las visitas turísticas a Machu Picchu?",
+    "url": "https://elcomercio.pe/respuestas/que/que-dijo-el-ministerio-de-cultura-sobre-los-cambios-que-hay-para-las-visitas-turisticas-a-machu-picchu-tdpe-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-13T14:00:00+00:00",
+    "matched_in": "title"
    }
   ],
   "maria-magdalena-seminario-maron": [
