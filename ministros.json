@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T19:12:44+00:00",
+ "generated": "2026-09-14T00:47:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -34,19 +34,26 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Aliados en la Mesa Directiva, pero divididos en el pleno: así fue la votación para interpelar al ministro del Interior en la Cámara de Diputados",
-    "url": "https://elcomercio.pe/politica/congreso/aliados-en-la-mesa-directiva-pero-divididos-en-el-pleno-asi-fue-la-votacion-para-interpelar-al-ministro-del-interior-en-la-camara-de-diputados-noticia/",
+    "title": "Juan Sheput: Las críticas no detendrán la renovación ni recuperación de EsSalud",
+    "url": "https://elcomercio.pe/peru/juan-sheput-ministro-de-trabajo-las-criticas-no-detendran-la-renovacion-ni-recuperacion-de-essalud-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-11T21:42:00+00:00",
+    "published": "2026-09-14T00:11:28+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministro del Interior sobre interpelación: “Por supuesto que iremos cuando corresponda la próxima semana”",
-    "url": "https://elcomercio.pe/politica/congreso/ministro-del-interior-sobre-interpelacion-por-supuesto-que-iremos-cuando-corresponda-la-proxima-semana-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-11T19:02:41+00:00",
+    "title": "Juan Sheput defiende designación de Zulema Tomas en EsSalud: \"Tiene una muy destacada trayectoria\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-defiende-designacion-de-zulema-tomas-en-essalud-tiene-una-muy-destacada-trayectoria-noticia-1707203",
+    "source": "RPP",
+    "published": "2026-09-13T15:59:26-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sheput avala designación de Zulema Tomás: “Vamos a rescatar a EsSalud del poder político nefasto”",
+    "url": "https://gestion.pe/peru/politica/juan-sheput-avala-a-nueva-presidenta-de-essalud-siempre-habra-quienes-se-dediquen-a-criticar-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-13T20:18:16+00:00",
     "matched_in": "title"
    }
   ],
@@ -68,12 +75,19 @@
     "matched_in": "summary"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Keiko Fujimori califica de “desafortunada” frase de Ernesto Álvarez sobre el Código Procesal Penal",
-    "url": "https://larepublica.pe/politica/2026/09/11/keiko-fujimori-califica-de-desafortunada-frase-de-ernesto-alvarez-sobre-el-codigo-procesal-penal-hnews-737330",
-    "source": "La República",
-    "published": "2026-09-11T23:45:31+00:00",
+    "title": "Ministro Beingolea cuestiona pedido de limitar facultades",
+    "url": "https://gestion.pe/peru/politica/ministro-alberto-beingolea-cuestiona-pedido-de-limitar-facultades-espero-que-se-pueda-todavia-corregir-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-13T23:44:28+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea sobre bancadas que piden nueva delegación de facultades: \"Es una visión equivocada\"",
+    "url": "https://rpp.pe/politica/gobierno/beingolea-sobre-bancadas-que-piden-nueva-delegacion-de-facultades-es-una-vision-equivocada-noticia-1707209",
+    "source": "RPP",
+    "published": "2026-09-13T16:33:46-05:00",
     "matched_in": "title"
    }
   ]
