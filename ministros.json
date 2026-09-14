@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T10:21:58+00:00",
+ "generated": "2026-09-14T16:48:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,20 +9,36 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Expresiones ministeriales y reacción presidencial",
+    "url": "https://elcomercio.pe/opinion/columnistas/expresiones-ministeriales-y-reaccion-presidencial-por-enrique-castillo-keiko-fujimori-ernesto-alvarez-pcm-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-14T13:35:31+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "¿Cómo va la preparación de Piura y Trujillo ante nuevas inundaciones? Esto dice jefe del ANA",
+    "url": "https://rpp.pe/politica/gobierno/fenomeno-el-nino-como-va-la-preparacion-de-piura-y-trujillo-ante-nuevas-inundaciones-noticia-1707300",
+    "source": "RPP",
+    "published": "2026-09-14T11:15:24-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Gobierno de Keiko Fujimori descarta retirar pedido de facultades para presentar uno nuevo",
+    "url": "https://gestion.pe/peru/politica/gobierno-de-keiko-fujimori-ministro-marco-vinelli-descarta-retirar-pedido-de-facultades-para-presentar-uno-nuevo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-14T11:52:00+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Ministro Marco Vinelli sobre solicitud de facultades: “Los 66 [pedidos para legislar] van a permitir agilizar y ejecutar la política de la presidenta”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-solicitud-de-facultades-los-66-pedidos-para-legislar-van-a-permitir-agilizar-y-ejecutar-la-politica-de-la-presidenta-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-14T04:20:28+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Gobierno de Keiko Fujimori descarta retirar pedido de facultades para presentar uno nuevo",
-    "url": "https://gestion.pe/peru/politica/gobierno-de-keiko-fujimori-ministro-marco-vinelli-descarta-retirar-pedido-de-facultades-para-presentar-uno-nuevo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T03:56:30+00:00",
-    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -32,45 +48,29 @@
     "source": "El Comercio",
     "published": "2026-09-12T18:41:54+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Canciller Carlos Espá: “Estoy seguro que van a otorgar las facultades legislativas”",
-    "url": "https://elcomercio.pe/politica/congreso/canciller-carlos-espa-estoy-seguro-que-van-a-otorgar-las-facultades-legislativas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-12T13:59:16+00:00",
-    "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Rafael Belaunde citado por Comisión de Constitución de Cámara de Diputados para exponer sobre pedido de facultades",
-    "url": "https://elcomercio.pe/politica/congreso/rafael-belaunde-citado-por-comision-de-constitucion-de-camara-de-diputados-para-exponer-sobre-pedido-de-facultades-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-12T15:49:57+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Sheput avala designación de Zulema Tomás: “Vamos a rescatar a EsSalud del poder político nefasto”",
-    "url": "https://gestion.pe/peru/politica/juan-sheput-avala-a-nueva-presidenta-de-essalud-siempre-habra-quienes-se-dediquen-a-criticar-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T02:18:00+00:00",
-    "matched_in": "title"
+    "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
+    "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
+    "source": "La República",
+    "published": "2026-09-14T16:47:32+00:00",
+    "matched_in": "summary"
    },
    {
-    "title": "Juan Sheput: Las críticas no detendrán la renovación ni recuperación de EsSalud",
-    "url": "https://elcomercio.pe/peru/juan-sheput-ministro-de-trabajo-las-criticas-no-detendran-la-renovacion-ni-recuperacion-de-essalud-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-14T00:11:28+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput defiende designación de Zulema Tomas en EsSalud: \"Tiene una muy destacada trayectoria\"",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-defiende-designacion-de-zulema-tomas-en-essalud-tiene-una-muy-destacada-trayectoria-noticia-1707203",
+    "title": "Ministerio de Educación anuncia el retiro de la “ideología” del currículo escolar y evaluación a docentes",
+    "url": "https://rpp.pe/politica/gobierno/ministerio-de-educacion-anuncia-el-retiro-de-la-ideologia-del-curriculo-escolar-y-evaluacion-a-docentes-noticia-1707303",
     "source": "RPP",
-    "published": "2026-09-13T15:59:26-05:00",
+    "published": "2026-09-14T11:32:04-05:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Colegios de Perú dictarán cursos de educación financiera, anuncia el Gobierno: estos serán los contenidos reemplazados",
+    "url": "https://www.infobae.com/peru/2026/09/14/colegios-de-peru-dictaran-cursos-de-educacion-financiera-anuncia-el-gobierno-estos-seran-los-contenidos-reemplazados/",
+    "source": "Infobae",
+    "published": "2026-09-14T15:19:06+00:00",
+    "matched_in": "summary"
    }
   ],
   "maria-magdalena-seminario-maron": [
@@ -84,10 +84,26 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Premier: Ejecutivo busca construir acuerdos con la Cámara de Diputados por El Niño e inseguridad",
+    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-ejecutivo-busca-construir-acuerdos-con-la-camara-de-diputados-para-enfrentar-criminalidad-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-14T14:11:46+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Lourdes Alcorta cuestiona al Ejecutivo por mezclar delincuencia y Fenómeno del Niño con otras propuestas",
     "url": "https://larepublica.pe/politica/2026/09/12/lourdes-alcorta-cuestiona-al-ejecutivo-por-mezclar-delincuencia-y-fenomeno-del-nino-con-otras-propuestas-hnews-1006560",
     "source": "La República",
     "published": "2026-09-12T18:13:12+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Editorial de Gestión: Reorganización y reforma",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-reorganizacion-y-reforma-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-14T10:00:00+00:00",
     "matched_in": "summary"
    }
   ],
@@ -98,22 +114,15 @@
     "source": "Gestión",
     "published": "2026-09-14T07:44:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea sobre bancadas que piden nueva delegación de facultades: \"Es una visión equivocada\"",
-    "url": "https://rpp.pe/politica/gobierno/beingolea-sobre-bancadas-que-piden-nueva-delegacion-de-facultades-es-una-vision-equivocada-noticia-1707209",
-    "source": "RPP",
-    "published": "2026-09-13T16:33:46-05:00",
-    "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Editorial de Gestión: Reorganización y reforma",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-reorganizacion-y-reforma-noticia/",
+    "title": "Sheput avala designación de Zulema Tomás: “Vamos a rescatar a EsSalud del poder político nefasto”",
+    "url": "https://gestion.pe/peru/politica/juan-sheput-avala-a-nueva-presidenta-de-essalud-siempre-habra-quienes-se-dediquen-a-criticar-noticia/",
     "source": "Gestión",
-    "published": "2026-09-14T10:00:00+00:00",
-    "matched_in": "summary"
+    "published": "2026-09-14T02:18:00+00:00",
+    "matched_in": "title"
    }
   ]
  }
