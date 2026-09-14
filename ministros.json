@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T00:47:45+00:00",
+ "generated": "2026-09-14T10:21:58+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,22 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Marco Vinelli sobre solicitud de facultades: “Los 66 [pedidos para legislar] van a permitir agilizar y ejecutar la política de la presidenta”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-solicitud-de-facultades-los-66-pedidos-para-legislar-van-a-permitir-agilizar-y-ejecutar-la-politica-de-la-presidenta-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-14T04:20:28+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno de Keiko Fujimori descarta retirar pedido de facultades para presentar uno nuevo",
+    "url": "https://gestion.pe/peru/politica/gobierno-de-keiko-fujimori-ministro-marco-vinelli-descarta-retirar-pedido-de-facultades-para-presentar-uno-nuevo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-14T03:56:30+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Canciller Carlos Espá defiende designación de embajadores políticos como Carlos Tubino",
@@ -36,6 +52,13 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
+    "title": "Sheput avala designación de Zulema Tomás: “Vamos a rescatar a EsSalud del poder político nefasto”",
+    "url": "https://gestion.pe/peru/politica/juan-sheput-avala-a-nueva-presidenta-de-essalud-siempre-habra-quienes-se-dediquen-a-criticar-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-14T02:18:00+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Juan Sheput: Las críticas no detendrán la renovación ni recuperación de EsSalud",
     "url": "https://elcomercio.pe/peru/juan-sheput-ministro-de-trabajo-las-criticas-no-detendran-la-renovacion-ni-recuperacion-de-essalud-ultimas-noticia/",
     "source": "El Comercio",
@@ -47,13 +70,6 @@
     "url": "https://rpp.pe/politica/gobierno/juan-sheput-defiende-designacion-de-zulema-tomas-en-essalud-tiene-una-muy-destacada-trayectoria-noticia-1707203",
     "source": "RPP",
     "published": "2026-09-13T15:59:26-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sheput avala designación de Zulema Tomás: “Vamos a rescatar a EsSalud del poder político nefasto”",
-    "url": "https://gestion.pe/peru/politica/juan-sheput-avala-a-nueva-presidenta-de-essalud-siempre-habra-quienes-se-dediquen-a-criticar-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-13T20:18:16+00:00",
     "matched_in": "title"
    }
   ],
@@ -80,7 +96,7 @@
     "title": "Ministro Beingolea cuestiona pedido de limitar facultades",
     "url": "https://gestion.pe/peru/politica/ministro-alberto-beingolea-cuestiona-pedido-de-limitar-facultades-espero-que-se-pueda-todavia-corregir-noticia/",
     "source": "Gestión",
-    "published": "2026-09-13T23:44:28+00:00",
+    "published": "2026-09-14T07:44:00+00:00",
     "matched_in": "title"
    },
    {
@@ -89,6 +105,15 @@
     "source": "RPP",
     "published": "2026-09-13T16:33:46-05:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Editorial de Gestión: Reorganización y reforma",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-reorganizacion-y-reforma-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-14T10:00:00+00:00",
+    "matched_in": "summary"
    }
   ]
  }
