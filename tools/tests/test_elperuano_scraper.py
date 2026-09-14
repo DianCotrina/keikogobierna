@@ -88,6 +88,16 @@ class ExecutiveScopeTest(unittest.TestCase):
         self.assertFalse(er.in_national_scope(
             {"sector": "AUTORIDAD NACIONAL DE CONTROL DEL MINISTERIO PUBLICO"}))
 
+    def test_the_constitutional_court_is_out_of_scope(self):
+        # Four TC own-acts in one queue (issues #402, #403, #432, #433).
+        self.assertFalse(er.in_national_scope({"sector": "TRIBUNAL CONSTITUCIONAL"}))
+
+    def test_complying_with_a_tc_ruling_stays_in_scope(self):
+        # t3-2.P03 promises the executive pays the deuda social the TC ordered.
+        # That act is published under the executive's sector, not the TC's.
+        self.assertTrue(er.in_national_scope({"sector": "EDUCACIÓN"}))
+        self.assertTrue(er.in_national_scope({"sector": "ECONOMÍA Y FINANZAS"}))
+
     def test_statistical_and_electoral_bodies_stay_in_scope(self):
         # INEI publishes the statistics that measure the 65 metas 2031, so it has
         # to stay reachable; its monthly-index noise dies on the phrase gate instead.
@@ -484,6 +494,39 @@ class RoutineActTest(unittest.TestCase):
         self.assertTrue(er.is_routine_act({"sumilla":
             "Renuevan reconocimiento de representante de los empleadores ante el "
             "Consejo Directivo del Seguro Social de Salud – ESSALUD"}))
+
+    def test_gated_classes_that_changed_vocabulary_stay_gated(self):
+        # Three classes already gated came back under new names: a draft called a
+        # "propuesta" (issue #399), an internal delegation *amended* rather than
+        # granted (issue #398), and a generation permit called an "autorización"
+        # rather than a concesión (issue #407).
+        for sumilla in (
+            "Disponen la publicación de la propuesta de “Lineamientos que aprueban los "
+            "criterios técnicos para la implementación o compensación del área de reserva”",
+            "Modifican delegación de facultades al Director/a de la Dirección General de "
+            "Proyectos y Gestión Financiera para el Desarrollo Pesquero Artesanal",
+            "Aprueban solicitud de modificación de la autorización para desarrollar la "
+            "actividad de generación de energía eléctrica de la Central Térmica San Miguel",
+        ):
+            self.assertTrue(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_the_new_vocabulary_does_not_reach_the_rule(self):
+        # The legislative delegation t1-1.P18 relies on, and the generation policy
+        # t2-3.P05 promises, must keep reaching the queue.
+        for sumilla in (
+            "Ley que modifica la delegación de facultades legislativas al Poder Ejecutivo",
+            "Decreto Supremo que promueve proyectos de generación eléctrica "
+            "descentralizada con gas natural",
+        ):
+            self.assertFalse(er.is_routine_act({"sumilla": sumilla}), sumilla)
+
+    def test_protected_area_entry_tariffs_are_gated_but_social_tariffs_are_not(self):
+        self.assertTrue(er.is_routine_act({"sumilla":
+            "Autorizan la aplicación de las tarifas por ingreso con fines turísticos "
+            "aprobadas mediante Resolución Presidencial N° 349-2016-SERNANP"}))
+        self.assertFalse(er.is_routine_act({"sumilla":
+            "Aprueban tarifas sociales reducidas en agua y electricidad para hogares "
+            "vulnerables"}))
 
     def test_substantive_norms_are_untouched(self):
         for sumilla in (
