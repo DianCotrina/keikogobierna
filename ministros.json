@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T09:48:31+00:00",
+ "generated": "2026-09-15T15:27:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Marco Vinelli confirma que habrá reunión de Mincetur con el ministerio de Comercio Exterior de EE.UU. para evaluar aranceles a las exportaciones peruanas",
+    "url": "https://elcomercio.pe/economia/peru/marco-vinelli-confirma-que-habra-reunion-de-mincetur-con-el-ministerio-de-comercio-exterior-de-eeuu-para-evaluar-aranceles-a-las-exportaciones-peruanas-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-15T15:04:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Vinelli a congresistas: “Lo que corresponde a ellos es evaluar (el pedido de facultades), no que presentemos uno nuevo”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-vinelli-a-congresistas-lo-que-corresponde-a-ellos-es-evaluar-el-pedido-de-facultades-no-que-presentemos-uno-nuevo-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-15T14:17:10+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Marco Vinelli sobre solicitud de facultades: “Los 66 [pedidos para legislar] van a permitir agilizar y ejecutar la política de la presidenta”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-solicitud-de-facultades-los-66-pedidos-para-legislar-van-a-permitir-agilizar-y-ejecutar-la-politica-de-la-presidenta-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-14T04:20:28+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Juan Sheput: “Si rechazan solicitud de facultades están apostando porque la crisis continúe”",
@@ -36,50 +59,20 @@
     "matched_in": "summary"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Ministro Marco Vinelli sobre solicitud de facultades: “Los 66 [pedidos para legislar] van a permitir agilizar y ejecutar la política de la presidenta”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-solicitud-de-facultades-los-66-pedidos-para-legislar-van-a-permitir-agilizar-y-ejecutar-la-politica-de-la-presidenta-ultimas-noticia/",
+    "title": "Ahora se dictarán cursos de educación financiera: los nuevos contenidos que se verán en el Plan Nacional de Educación 2026-2031",
+    "url": "https://elcomercio.pe/respuestas/que/ahora-se-dictaran-cursos-de-educacion-financiera-los-nuevos-contenidos-que-se-veran-en-el-plan-nacional-de-educacion-2026-2031-tdpe-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-14T04:20:28+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Gobierno aprobará subsidio de hasta S/100 mensuales para mototaxistas de la selva",
-    "url": "https://gestion.pe/economia/gobierno-aprobara-subsidio-de-hasta-s100-mensuales-para-mototaxistas-de-la-selva-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-15T03:45:42+00:00",
+    "published": "2026-09-15T13:10:24+00:00",
     "matched_in": "summary"
    },
    {
-    "title": "Cuba sobre presupuesto público 2027: “Es peligroso” hacerlo pensando que irá “muy bien”",
-    "url": "https://gestion.pe/economia/ministro-de-mef-elmer-cuba-sobre-presupuesto-publico-2027-es-peligroso-hacerlo-pensando-que-ira-muy-bien-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-15T02:21:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF prevé aprobar este viernes subsidio de hasta S/100 mensuales para mototaxistas que usan gasolina",
-    "url": "https://elcomercio.pe/economia/mef-preve-aprobar-este-viernes-subsidio-de-hasta-s100-mensuales-para-mototaxistas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-15T00:31:04+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba anuncia que esta semana se aprobará subsidio de hasta S/100 mensual a mototaxistas de la selva para comprar gasolina",
-    "url": "https://rpp.pe/economia/economia/mef-elmer-cuba-anuncia-subsidio-a-mototaxistas-de-la-selva-para-pago-de-combustibles-sera-de-100-soles-mensuales-noticia-1707390",
-    "source": "RPP",
-    "published": "2026-09-14T19:04:47-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Economía Elmer Cuba: \"la pesca, el agro y textil ya están en recesión\" por impacto del Fenómeno El Niño",
-    "url": "https://rpp.pe/economia/economia/fenomeno-el-nino-ministro-elmer-cuba-advierte-que-la-pesca-agro-y-textil-estan-en-recesion-en-peru-por-impacto-fen-noticia-1707383",
-    "source": "RPP",
-    "published": "2026-09-14T18:18:02-05:00",
-    "matched_in": "title"
+    "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
+    "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
+    "source": "La República",
+    "published": "2026-09-14T23:18:14+00:00",
+    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -88,29 +81,6 @@
     "url": "https://larepublica.pe/politica/2026/09/14/partido-civico-obras-solo-respaldara-el-pedido-de-facultades-en-seguridad-ciudadana-y-fenomeno-del-nino-hnews-784546",
     "source": "La República",
     "published": "2026-09-15T02:49:40+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Premier: Ejecutivo busca construir acuerdos con la Cámara de Diputados por El Niño e inseguridad",
-    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-ejecutivo-busca-construir-acuerdos-con-la-camara-de-diputados-para-enfrentar-criminalidad-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T17:15:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
-    "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
-    "source": "La República",
-    "published": "2026-09-14T23:18:14+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Colegios de Perú dictarán cursos de educación financiera, anuncia el Gobierno: estos serán los contenidos reemplazados",
-    "url": "https://www.infobae.com/peru/2026/09/14/colegios-de-peru-dictaran-cursos-de-educacion-financiera-anuncia-el-gobierno-estos-seran-los-contenidos-reemplazados/",
-    "source": "Infobae",
-    "published": "2026-09-14T15:19:06+00:00",
     "matched_in": "summary"
    }
   ],
@@ -139,12 +109,19 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro Rafael Rey revela que el MTC no tiene presupuesto para ejecutar la Nueva Carretera Central",
-    "url": "https://www.infobae.com/peru/2026/09/14/ministro-rafael-rey-revela-que-el-mtc-no-tiene-presupuesto-para-ejecutar-la-nueva-carretera-central/",
-    "source": "Infobae",
-    "published": "2026-09-14T21:48:25+00:00",
+    "title": "Gobierno aprobará subsidio de hasta S/ 100 mensuales para mototaxistas de la selva",
+    "url": "https://gestion.pe/economia/gobierno-aprobara-subsidio-de-hasta-s100-mensuales-para-mototaxistas-de-la-selva-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-15T12:45:41+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Cuba sobre presupuesto público 2027: “Es peligroso” hacerlo pensando que irá “muy bien”",
+    "url": "https://gestion.pe/economia/ministro-de-mef-elmer-cuba-sobre-presupuesto-publico-2027-es-peligroso-hacerlo-pensando-que-ira-muy-bien-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-15T02:21:00+00:00",
     "matched_in": "title"
    }
   ]
