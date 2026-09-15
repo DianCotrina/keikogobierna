@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T15:27:45+00:00",
+ "generated": "2026-09-15T20:03:06+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,28 @@
   "Infobae"
  ],
  "ministers": {
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Pleno del Senado debate este miércoles viaje de Keiko Fujimori a Asamblea General de las Naciones Unidas",
+    "url": "https://elcomercio.pe/politica/congreso/senado-debatira-este-miercoles-viaje-de-keiko-fujimori-a-asamblea-general-de-las-naciones-unidas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-15T17:53:02+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Espá evita responder si Perú tomaría postura entre EE.UU. y China ante pedidos específicos dentro del Escudo de las Américas",
+    "url": "https://larepublica.pe/politica/2026/09/14/espa-evita-responder-si-peru-tomaria-postura-entre-eeuu-y-china-ante-pedidos-especificos-dentro-del-escudo-de-las-americas-hnews-970774",
+    "source": "La República",
+    "published": "2026-09-14T23:01:28+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Marco Vinelli confirma que habrá reunión de Mincetur con el ministerio de Comercio Exterior de EE.UU. para evaluar aranceles a las exportaciones peruanas",
+    "title": "Midagri sobre aranceles a exportaciones peruanas: “Habrá reunión del Mincetur con el ministerio de Comercio Exterior de EE.UU. para evaluarlo”",
     "url": "https://elcomercio.pe/economia/peru/marco-vinelli-confirma-que-habra-reunion-de-mincetur-con-el-ministerio-de-comercio-exterior-de-eeuu-para-evaluar-aranceles-a-las-exportaciones-peruanas-l-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-15T15:04:50+00:00",
+    "published": "2026-09-15T17:06:27+00:00",
     "matched_in": "title"
    },
    {
@@ -43,6 +59,20 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Ejército simuló entrega de helicópteros rusos reparados",
+    "url": "https://larepublica.pe/politica/2026/09/15/ejercito-simulo-entrega-de-helicopteros-rusos-reparados-hnews-1054455",
+    "source": "La República",
+    "published": "2026-09-15T18:29:43+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Mindef busca crear centros de detención para indocumentados en terrenos de las FF.AA.",
+    "url": "https://www.infobae.com/peru/2026/09/15/mindef-busca-crear-centros-de-detencion-para-indocumentados-en-terrenos-de-las-ffaa/",
+    "source": "Infobae",
+    "published": "2026-09-15T17:34:09+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Rafael Belaunde citado por Comisión de Constitución de Cámara de Diputados para exponer sobre pedido de facultades",
     "url": "https://elcomercio.pe/politica/congreso/rafael-belaunde-citado-por-comision-de-constitucion-de-camara-de-diputados-para-exponer-sobre-pedido-de-facultades-ultimas-noticia/",
     "source": "El Comercio",
@@ -64,7 +94,7 @@
     "title": "Ahora se dictarán cursos de educación financiera: los nuevos contenidos que se verán en el Plan Nacional de Educación 2026-2031",
     "url": "https://elcomercio.pe/respuestas/que/ahora-se-dictaran-cursos-de-educacion-financiera-los-nuevos-contenidos-que-se-veran-en-el-plan-nacional-de-educacion-2026-2031-tdpe-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-15T13:10:24+00:00",
+    "published": "2026-09-15T17:32:10+00:00",
     "matched_in": "summary"
    },
    {
@@ -84,22 +114,6 @@
     "matched_in": "summary"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Carlos Espá rechaza “falsa dicotomía” entre Estados Unidos y China por Escudo de las Américas",
-    "url": "https://gestion.pe/peru/politica/carlos-espa-rechaza-falsa-dicotomia-entre-estados-unidos-y-china-por-escudo-de-las-americas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-15T00:30:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Espá evita responder si Perú tomaría postura entre EE.UU. y China ante pedidos específicos dentro del Escudo de las Américas",
-    "url": "https://larepublica.pe/politica/2026/09/14/espa-evita-responder-si-peru-tomaria-postura-entre-eeuu-y-china-ante-pedidos-especificos-dentro-del-escudo-de-las-americas-hnews-970774",
-    "source": "La República",
-    "published": "2026-09-14T23:01:28+00:00",
-    "matched_in": "title"
-   }
-  ],
   "mauricio-fernando-arnillas-gonzalez": [
    {
     "title": "Ministro de Vivienda pide aprobar las facultades: “Piensen en el país, no piensen solamente en El Niño y la inseguridad\"",
@@ -107,6 +121,15 @@
     "source": "La República",
     "published": "2026-09-14T18:06:48+00:00",
     "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Gobierno enviará Ley MAPE al Congreso a más tardar el 15 de octubre: 31 mil mineros del Reinfo pasarían a un nuevo proceso simplificado",
+    "url": "https://rpp.pe/economia/economia/gobierno-enviara-ley-mape-al-congreso-a-mas-tardar-el-15-de-octubre-31-mil-mineros-del-reinfo-pasarian-a-un-nuevo-proceso-simplificado-noticia-1707515",
+    "source": "RPP",
+    "published": "2026-09-15T12:00:44-05:00",
+    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
