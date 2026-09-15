@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T20:45:59+00:00",
+ "generated": "2026-09-15T01:13:41+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,28 +9,21 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput: “Si rechazan solicitud de facultades están apostando porque la crisis continúe”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-si-rechazan-solicitud-de-facultades-estan-apostando-porque-la-crisis-continue-keiko-fujimori-congreso-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-14T21:05:58+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
    {
     "title": "Rafael Belaunde citado por Comisión de Constitución de Cámara de Diputados para exponer sobre pedido de facultades",
     "url": "https://elcomercio.pe/politica/congreso/rafael-belaunde-citado-por-comision-de-constitucion-de-camara-de-diputados-para-exponer-sobre-pedido-de-facultades-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-14T17:55:17+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Juan Sheput: “Si rechazan solicitud de facultades están apostando porque la crisis continúe”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-si-rechazan-solicitud-de-facultades-estan-apostando-porque-la-crisis-continue-keiko-fujimori-congreso-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-14T17:54:32+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sheput avala designación de Zulema Tomás: “Vamos a rescatar a EsSalud del poder político nefasto”",
-    "url": "https://gestion.pe/peru/politica/juan-sheput-avala-a-nueva-presidenta-de-essalud-siempre-habra-quienes-se-dediquen-a-criticar-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T02:18:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -44,13 +37,6 @@
    }
   ],
   "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "¿Cómo va la preparación de Piura y Trujillo ante nuevas inundaciones? Esto dice jefe del ANA",
-    "url": "https://rpp.pe/politica/gobierno/fenomeno-el-nino-como-va-la-preparacion-de-piura-y-trujillo-ante-nuevas-inundaciones-noticia-1707300",
-    "source": "RPP",
-    "published": "2026-09-14T11:15:24-05:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Gobierno de Keiko Fujimori descarta retirar pedido de facultades para presentar uno nuevo",
     "url": "https://gestion.pe/peru/politica/gobierno-de-keiko-fujimori-ministro-marco-vinelli-descarta-retirar-pedido-de-facultades-para-presentar-uno-nuevo-noticia/",
@@ -66,19 +52,49 @@
     "matched_in": "title"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF prevé aprobar este viernes subsidio de hasta S/100 mensuales para mototaxistas que usan gasolina",
+    "url": "https://elcomercio.pe/economia/mef-preve-aprobar-este-viernes-subsidio-de-hasta-s100-mensuales-para-mototaxistas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-15T00:31:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cuba sobre presupuesto público 2027: “Es peligroso” hacerlo pensando que irá “muy bien”",
+    "url": "https://gestion.pe/economia/ministro-de-mef-elmer-cuba-sobre-presupuesto-publico-2027-es-peligroso-hacerlo-pensando-que-ira-muy-bien-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-15T00:29:24+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba anuncia que esta semana se aprobará subsidio de hasta S/100 mensual a mototaxistas de la selva para comprar gasolina",
+    "url": "https://rpp.pe/economia/economia/mef-elmer-cuba-anuncia-subsidio-a-mototaxistas-de-la-selva-para-pago-de-combustibles-sera-de-100-soles-mensuales-noticia-1707390",
+    "source": "RPP",
+    "published": "2026-09-14T19:04:47-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Economía Elmer Cuba: \"la pesca, el agro y textil ya están en recesión\" por impacto del Fenómeno El Niño",
+    "url": "https://rpp.pe/economia/economia/fenomeno-el-nino-ministro-elmer-cuba-advierte-que-la-pesca-agro-y-textil-estan-en-recesion-en-peru-por-impacto-fen-noticia-1707383",
+    "source": "RPP",
+    "published": "2026-09-14T18:18:02-05:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
     "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
     "source": "La República",
-    "published": "2026-09-14T19:48:42+00:00",
+    "published": "2026-09-14T23:18:14+00:00",
     "matched_in": "summary"
    },
    {
-    "title": "Ministerio de Educación anuncia el retiro de la “ideología” del currículo escolar y evaluación a docentes",
-    "url": "https://rpp.pe/politica/gobierno/ministerio-de-educacion-anuncia-el-retiro-de-la-ideologia-del-curriculo-escolar-y-evaluacion-a-docentes-noticia-1707303",
+    "title": "Minedu anuncia atención a escuelas en cinco regiones por Fenómeno El Niño: \"Vamos a reducir la vulnerabilidad\"",
+    "url": "https://rpp.pe/peru/actualidad/minedu-anuncia-atencion-a-escuelas-en-cinco-regiones-por-fenomeno-el-nino-vamos-a-reducir-la-vulnerabilidad-noticia-1707359",
     "source": "RPP",
-    "published": "2026-09-14T11:32:04-05:00",
+    "published": "2026-09-14T16:05:19-05:00",
     "matched_in": "title"
    },
    {
@@ -89,30 +105,19 @@
     "matched_in": "summary"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Ministro de Vivienda pide aprobar las facultades: “Piensen en el país, no piensen solamente en El Niño y la inseguridad\"",
-    "url": "https://larepublica.pe/politica/2026/09/14/ministro-de-vivienda-pide-al-congreso-aprobar-facultades-legislativas-piensen-en-el-pais-no-piensen-solamente-en-el-nino-y-la-inseguridad-hnews-182812",
-    "source": "La República",
-    "published": "2026-09-14T18:06:48+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "maria-magdalena-seminario-maron": [
-   {
-    "title": "Ministra de la Mujer sobre casos de violencia sexual en Condorcanqui: \"No es un problema del Ejecutivo\"",
-    "url": "https://larepublica.pe/politica/2026/09/12/ministra-de-la-mujer-sobre-casos-de-violencia-sexual-en-condorcanqui-no-es-un-problema-del-ejecutivo-hnews-493164",
-    "source": "La República",
-    "published": "2026-09-12T23:31:28+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Carlos Espá rechaza “falsa dicotomía” entre Estados Unidos y China por Escudo de las Américas",
     "url": "https://gestion.pe/peru/politica/carlos-espa-rechaza-falsa-dicotomia-entre-estados-unidos-y-china-por-escudo-de-las-americas-noticia/",
     "source": "Gestión",
-    "published": "2026-09-14T20:34:46+00:00",
+    "published": "2026-09-15T00:30:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Espá evita responder si Perú tomaría postura entre EE.UU. y China ante pedidos específicos dentro del Escudo de las Américas",
+    "url": "https://larepublica.pe/politica/2026/09/14/espa-evita-responder-si-peru-tomaria-postura-entre-eeuu-y-china-ante-pedidos-especificos-dentro-del-escudo-de-las-americas-hnews-970774",
+    "source": "La República",
+    "published": "2026-09-14T23:01:28+00:00",
     "matched_in": "title"
    },
    {
@@ -120,6 +125,15 @@
     "url": "https://rpp.pe/politica/gobierno/canciller-espa-la-visita-del-papa-va-a-ser-un-balsamo-en-el-esfuerzo-del-gobierno-por-lograr-la-reconciliacion-nacional-noticia-1707342",
     "source": "RPP",
     "published": "2026-09-14T15:22:23-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Ministro de Vivienda pide aprobar las facultades: “Piensen en el país, no piensen solamente en El Niño y la inseguridad\"",
+    "url": "https://larepublica.pe/politica/2026/09/14/ministro-de-vivienda-pide-al-congreso-aprobar-facultades-legislativas-piensen-en-el-pais-no-piensen-solamente-en-el-nino-y-la-inseguridad-hnews-182812",
+    "source": "La República",
+    "published": "2026-09-14T18:06:48+00:00",
     "matched_in": "title"
    }
   ],
@@ -141,12 +155,12 @@
     "matched_in": "summary"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
+  "rafael-rey-rey": [
    {
-    "title": "Ministro Beingolea cuestiona pedido de limitar facultades",
-    "url": "https://gestion.pe/peru/politica/ministro-alberto-beingolea-cuestiona-pedido-de-limitar-facultades-espero-que-se-pueda-todavia-corregir-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T07:44:00+00:00",
+    "title": "Ministro Rafael Rey revela que el MTC no tiene presupuesto para ejecutar la Nueva Carretera Central",
+    "url": "https://www.infobae.com/peru/2026/09/14/ministro-rafael-rey-revela-que-el-mtc-no-tiene-presupuesto-para-ejecutar-la-nueva-carretera-central/",
+    "source": "Infobae",
+    "published": "2026-09-14T21:48:25+00:00",
     "matched_in": "title"
    }
   ]
