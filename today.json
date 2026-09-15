@@ -1,82 +1,19 @@
 {
- "generated": "2026-09-15T01:13:41+00:00",
+ "generated": "2026-09-15T09:48:31+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-09-14",
+ "date": "2026-09-15",
  "articles": [
   {
-   "title": "Fujimorismo intenta reescribir la historia a través del currículo escolar",
-   "url": "https://larepublica.pe/politica/2026/09/14/fujimorismo-intenta-reescribir-la-historia-a-traves-del-curriculo-escolar-hnews-1087282",
-   "summary": "El gobierno descarta el concepto de conflicto armado interno en los colegios bajo el argumento de \"eliminar la ideología\", una medida que relega los abusos y crímenes cometidos por agentes del Estado durante las décadas de violencia.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-09-15T00:08:42+00:00",
-   "source": "La República",
-   "captured": "2026-09-15T01:13:41+00:00"
-  },
-  {
-   "title": "Keiko Fujimori anuncia decretos de urgencia mientras se discute facultades en el Congreso: “Apelo a su reflexión”",
-   "url": "https://larepublica.pe/politica/2026/09/14/keiko-fujimori-anuncia-decretos-de-urgencia-mientras-se-discute-facultades-en-el-congreso-apelo-a-su-reflexion-995596",
-   "summary": "La mandataria señaló que el Ejecutivo viene trabajando dichos decretos a la par que el Parlamento debate el pedido de facultades legislativas. Fujimori pidió a los diputados a reflexionar y actuar con objetividad ante el rechazo que se mantiene por parte de diferentes bancadas a distintos puntos del pedido.",
-   "author": "Ariadna Yaya",
-   "published": "2026-09-14T19:56:13+00:00",
-   "source": "La República",
-   "captured": "2026-09-14T20:45:59+00:00"
-  },
-  {
-   "title": "Keiko Fujimori pide a Estados Unidos evaluar aranceles a las exportaciones peruanas",
-   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-pide-a-estados-unidos-evaluar-aranceles-a-las-exportaciones-peruanas-l-ultimas-noticia/",
-   "summary": "Keiko Fujimori, presidenta del Perú, indicó que espera que los Estados Unidos pueda reevaluar los aranceles impuestos a las exportaciones peruanas.",
-   "author": "Redacción EC",
-   "published": "2026-09-14T19:38:46+00:00",
+   "title": "Aumentan a 7 las comisiones que se oponen al pedido de facultades del Ejecutivo ¿cuáles son y cómo avanza en la Cámara de Diputados?",
+   "url": "https://elcomercio.pe/politica/aumenta-el-numero-de-comisiones-que-se-oponen-al-pedido-de-facultades-del-ejecutivo-cuales-son-y-como-avanza-en-la-camara-de-diputados-noticia/",
+   "summary": "La Comisión de Defensa del Consumidor se sumó a los grupos que rechazan las facultades, mientras que la Comisión de Economía postergó la votación de su informe, en medio de cuestionamientos de Fuerza Popular y Renovación Popular.",
+   "author": "Thalía Cadenas",
+   "published": "2026-09-15T05:01:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-09-14T20:45:59+00:00"
-  },
-  {
-   "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
-   "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
-   "summary": "El ministro de Educación, José Antonio Chang, precisó que se eliminarán contenidos ideológicos, concentrando la enseñanza en habilidades como pensamiento crítico y comprensión lectora, tras los resultados negativos de PISA 2025 y una crisis en el sector.",
-   "author": "Daniela Orellana",
-   "published": "2026-09-14T16:47:32+00:00",
-   "source": "La República",
-   "captured": "2026-09-14T16:48:33+00:00"
-  },
-  {
-   "title": "Keiko Fujimori presentó Plan Nacional de Educación 2026-2031",
-   "url": "https://elcomercio.pe/lima/sucesos/keiko-fujimori-presenta-plan-nacional-de-educacion-2026-2031-ultimas-noticia/",
-   "summary": "",
-   "author": "Redacción EC",
-   "published": "2026-09-14T16:39:15+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-14T16:48:33+00:00"
-  },
-  {
-   "title": "Keiko Fujimori: “Apelo a la reflexión del Parlamento porque facultades tienen como objetivo recuperar el orden”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-el-pedido-de-facultades-apelo-a-la-reflexion-del-parlamento-porque-facultades-tienen-como-objetivo-recuperar-el-orden-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori, pidió al Congreso reflexionar sobre el pedido de facultades legislativas presentado por el Ejecutivo y sostuvo que estas tienen como principal objetivo recuperar el orden en el país.",
-   "author": "Redacción EC",
-   "published": "2026-09-14T14:54:07+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-14T16:48:33+00:00"
-  },
-  {
-   "title": "Pier Figari busca conciliar demanda de S/2 millones contra fiscales y jueces por caso Cócteles",
-   "url": "https://larepublica.pe/politica/2026/09/14/pier-figari-busca-conciliar-demanda-de-s2-millones-contra-fiscales-y-jueces-por-caso-cocteles-hnews-370622",
-   "summary": "El diputado de Fuerza Popular acude hoy a una segunda audiencia de conciliación, luego de que procuradores del Estado y tres de los cuatro magistrados demandados no asistieran a la primera cita del 3 de setiembre.",
-   "author": "Ariadna Yaya",
-   "published": "2026-09-14T14:14:55+00:00",
-   "source": "La República",
-   "captured": "2026-09-14T16:48:33+00:00"
-  },
-  {
-   "title": "Expresiones ministeriales y reacción presidencial",
-   "url": "https://elcomercio.pe/opinion/columnistas/expresiones-ministeriales-y-reaccion-presidencial-por-enrique-castillo-keiko-fujimori-ernesto-alvarez-pcm-noticia/",
-   "summary": "La presidenta calificó de muy desafortunadas las expresiones del ministro de Justicia, Ernesto Álvarez, quien calificó el Código Procesal Penal como engendro que beneficia a los abogados de los delincuentes. Keiko Fujimori no dijo que esas expresiones fueron sacadas de contexto o que fueron mal interpretadas, tratando de justificar el exabrupto. Fue dura y directa.",
-   "author": "Enrique Castillo",
-   "published": "2026-09-14T13:35:31+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-14T16:48:33+00:00"
+   "captured": "2026-09-15T09:48:31+00:00"
   }
  ]
 }

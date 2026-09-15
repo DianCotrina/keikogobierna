@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T01:13:41+00:00",
+ "generated": "2026-09-15T09:48:31+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -38,13 +38,6 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Gobierno de Keiko Fujimori descarta retirar pedido de facultades para presentar uno nuevo",
-    "url": "https://gestion.pe/peru/politica/gobierno-de-keiko-fujimori-ministro-marco-vinelli-descarta-retirar-pedido-de-facultades-para-presentar-uno-nuevo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T11:52:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Ministro Marco Vinelli sobre solicitud de facultades: “Los 66 [pedidos para legislar] van a permitir agilizar y ejecutar la política de la presidenta”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-solicitud-de-facultades-los-66-pedidos-para-legislar-van-a-permitir-agilizar-y-ejecutar-la-politica-de-la-presidenta-ultimas-noticia/",
     "source": "El Comercio",
@@ -54,17 +47,24 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "MEF prevé aprobar este viernes subsidio de hasta S/100 mensuales para mototaxistas que usan gasolina",
-    "url": "https://elcomercio.pe/economia/mef-preve-aprobar-este-viernes-subsidio-de-hasta-s100-mensuales-para-mototaxistas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-15T00:31:04+00:00",
-    "matched_in": "title"
+    "title": "Gobierno aprobará subsidio de hasta S/100 mensuales para mototaxistas de la selva",
+    "url": "https://gestion.pe/economia/gobierno-aprobara-subsidio-de-hasta-s100-mensuales-para-mototaxistas-de-la-selva-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-15T03:45:42+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Cuba sobre presupuesto público 2027: “Es peligroso” hacerlo pensando que irá “muy bien”",
     "url": "https://gestion.pe/economia/ministro-de-mef-elmer-cuba-sobre-presupuesto-publico-2027-es-peligroso-hacerlo-pensando-que-ira-muy-bien-noticia/",
     "source": "Gestión",
-    "published": "2026-09-15T00:29:24+00:00",
+    "published": "2026-09-15T02:21:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF prevé aprobar este viernes subsidio de hasta S/100 mensuales para mototaxistas que usan gasolina",
+    "url": "https://elcomercio.pe/economia/mef-preve-aprobar-este-viernes-subsidio-de-hasta-s100-mensuales-para-mototaxistas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-15T00:31:04+00:00",
     "matched_in": "title"
    },
    {
@@ -82,6 +82,22 @@
     "matched_in": "title"
    }
   ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Partido Cívico Obras solo respaldará el pedido de facultades en seguridad ciudadana y Fenómeno del Niño",
+    "url": "https://larepublica.pe/politica/2026/09/14/partido-civico-obras-solo-respaldara-el-pedido-de-facultades-en-seguridad-ciudadana-y-fenomeno-del-nino-hnews-784546",
+    "source": "La República",
+    "published": "2026-09-15T02:49:40+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Premier: Ejecutivo busca construir acuerdos con la Cámara de Diputados por El Niño e inseguridad",
+    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-ejecutivo-busca-construir-acuerdos-con-la-camara-de-diputados-para-enfrentar-criminalidad-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-14T17:15:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
@@ -89,13 +105,6 @@
     "source": "La República",
     "published": "2026-09-14T23:18:14+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Minedu anuncia atención a escuelas en cinco regiones por Fenómeno El Niño: \"Vamos a reducir la vulnerabilidad\"",
-    "url": "https://rpp.pe/peru/actualidad/minedu-anuncia-atencion-a-escuelas-en-cinco-regiones-por-fenomeno-el-nino-vamos-a-reducir-la-vulnerabilidad-noticia-1707359",
-    "source": "RPP",
-    "published": "2026-09-14T16:05:19-05:00",
-    "matched_in": "title"
    },
    {
     "title": "Colegios de Perú dictarán cursos de educación financiera, anuncia el Gobierno: estos serán los contenidos reemplazados",
@@ -119,13 +128,6 @@
     "source": "La República",
     "published": "2026-09-14T23:01:28+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Canciller Espá: \"La visita del Papa va a ser un bálsamo en el esfuerzo del gobierno por lograr la reconciliación nacional\"",
-    "url": "https://rpp.pe/politica/gobierno/canciller-espa-la-visita-del-papa-va-a-ser-un-balsamo-en-el-esfuerzo-del-gobierno-por-lograr-la-reconciliacion-nacional-noticia-1707342",
-    "source": "RPP",
-    "published": "2026-09-14T15:22:23-05:00",
-    "matched_in": "title"
    }
   ],
   "mauricio-fernando-arnillas-gonzalez": [
@@ -135,24 +137,6 @@
     "source": "La República",
     "published": "2026-09-14T18:06:48+00:00",
     "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Premier: Ejecutivo busca construir acuerdos con la Cámara de Diputados por El Niño e inseguridad",
-    "url": "https://gestion.pe/peru/politica/premier-luis-galarreta-ejecutivo-busca-construir-acuerdos-con-la-camara-de-diputados-para-enfrentar-criminalidad-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T17:15:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Editorial de Gestión: Reorganización y reforma",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-reorganizacion-y-reforma-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-14T10:00:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "rafael-rey-rey": [
