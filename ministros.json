@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T15:20:28+00:00",
+ "generated": "2026-09-16T19:51:15+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá explicará esta tarde ante el Pleno del Senado ingreso del Perú al Escudo de las Américas",
+    "url": "https://elcomercio.pe/politica/canciller-carlos-espa-explica-ante-el-pleno-del-senado-ingreso-del-peru-al-escudo-de-las-americas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-16T16:44:25+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Pleno del Senado debate este miércoles viaje de Keiko Fujimori a Asamblea General de las Naciones Unidas",
     "url": "https://elcomercio.pe/politica/congreso/senado-debatira-este-miercoles-viaje-de-keiko-fujimori-a-asamblea-general-de-las-naciones-unidas-ultimas-noticia/",
@@ -43,11 +50,32 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Gobierno crea Comisión para identificar posibles efectos de El Niño sobre el empleo: los detalles",
-    "url": "https://gestion.pe/peru/politica/gobierno-crea-comision-para-identificar-posibles-efectos-de-el-nino-sobre-el-empleo-los-detalles-noticia/",
+    "title": "Sheput cuestiona a sindicatos de EsSalud por anuncio de paro: \"Se les escuchará, pero la prioridad la van a tener los pacientes\"",
+    "url": "https://rpp.pe/politica/gobierno/sheput-cuestiona-a-sindicatos-de-essalud-por-anuncio-de-paro-se-les-escuchara-pero-la-prioridad-la-van-a-tener-los-pacientes-noticia-1707751",
+    "source": "RPP",
+    "published": "2026-09-16T13:47:33-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juan Sheput apunta a Roberto Sánchez por postura de JPP: “Hay un asesor que todavía está picón porque perdió las elecciones”",
+    "url": "https://www.infobae.com/peru/2026/09/16/juan-sheput-apunta-a-roberto-sanchez-por-postura-de-jpp-hay-un-asesor-que-todavia-esta-picon-porque-perdio-las-elecciones/",
+    "source": "Infobae",
+    "published": "2026-09-16T18:37:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Trabajo de Perú se reunió con embajador de EE.UU.: los temas en materia laboral",
+    "url": "https://gestion.pe/peru/ministro-de-trabajo-de-peru-se-reunio-con-embajador-de-eeuu-los-temas-en-materia-laboral-noticia/",
     "source": "Gestión",
-    "published": "2026-09-16T01:00:00+00:00",
-    "matched_in": "summary"
+    "published": "2026-09-16T18:33:05+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Juan Sheput culpa a Roberto Sánchez ante falta de respaldo en pedido de facultades: \"Está picón\"",
+    "url": "https://larepublica.pe/politica/2026/09/16/ministro-juan-sheput-culpa-a-roberto-sanchez-ante-falta-de-respaldo-en-pedido-de-facultades-esta-picon-hnews-618048",
+    "source": "La República",
+    "published": "2026-09-16T16:17:38+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Juan Sheput: “Si rechazan solicitud de facultades están apostando porque la crisis continúe”",
@@ -57,35 +85,33 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Ejército simuló entrega de helicópteros rusos reparados",
-    "url": "https://larepublica.pe/politica/2026/09/15/ejercito-simulo-entrega-de-helicopteros-rusos-reparados-hnews-1054455",
-    "source": "La República",
-    "published": "2026-09-15T21:48:42+00:00",
-    "matched_in": "summary"
+    "title": "Ministra de la Mujer discrepa con Álvarez sobre abuso de menores en Condorcanqui: “Es un delito”",
+    "url": "https://gestion.pe/peru/politica/ministra-de-la-mujer-discrepa-con-ministro-ernesto-alvarez-sobre-abuso-de-menores-en-condorcanqui-es-un-delito-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T19:04:55+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Rafael Belaunde citado por Comisión de Constitución de Cámara de Diputados para exponer sobre pedido de facultades",
-    "url": "https://elcomercio.pe/politica/congreso/rafael-belaunde-citado-por-comision-de-constitucion-de-camara-de-diputados-para-exponer-sobre-pedido-de-facultades-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-14T17:55:17+00:00",
+    "title": "Ernesto Álvarez reconoce que no es penalista y que no sabe qué artículos cambiar del Código Procesal Penal",
+    "url": "https://www.infobae.com/peru/2026/09/16/ernesto-alvarez-reconoce-que-no-es-penalista-y-que-no-sabe-que-articulos-cambiar-del-codigo-procesal-penal/",
+    "source": "Infobae",
+    "published": "2026-09-16T16:33:03+00:00",
     "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
+   },
+   {
+    "title": "Ernesto Álvarez se retracta luego de decir que Código Procesal Penal fue hecho por 'abogados litigantes pensando en sus clientes'",
+    "url": "https://larepublica.pe/politica/2026/09/16/ernesto-alvarez-se-retracta-luego-de-decir-que-codigo-procesal-penal-fue-hecho-por-abogados-litigantes-pensando-en-sus-clientes-hnews-936352",
+    "source": "La República",
+    "published": "2026-09-16T15:22:15+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ernesto Álvarez señala que violaciones en comunidades indígenas tienen \"origen cultural\"",
     "url": "https://larepublica.pe/politica/2026/09/15/ernesto-alvarez-senala-que-violaciones-en-comunidades-indigenas-tienen-origen-cultural-y-lo-compara-con-pasarse-la-luz-roja-hnews-1105200",
     "source": "La República",
     "published": "2026-09-16T10:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Álvarez plantea inteligencia militar y reforma penal para combatir la extorsión",
-    "url": "https://gestion.pe/peru/politica/ministro-alvarez-plantea-inteligencia-militar-y-reforma-penal-para-combatir-la-extorsion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T00:16:25+00:00",
     "matched_in": "title"
    }
   ],
@@ -98,6 +124,15 @@
     "matched_in": "summary"
    }
   ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ejército simuló entrega de helicópteros rusos reparados",
+    "url": "https://larepublica.pe/politica/2026/09/15/ejercito-simulo-entrega-de-helicopteros-rusos-reparados-hnews-1054455",
+    "source": "La República",
+    "published": "2026-09-15T21:48:42+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
@@ -107,12 +142,12 @@
     "matched_in": "summary"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
+  "maria-magdalena-seminario-maron": [
    {
-    "title": "Ministro de Vivienda pide aprobar las facultades: “Piensen en el país, no piensen solamente en El Niño y la inseguridad\"",
-    "url": "https://larepublica.pe/politica/2026/09/14/ministro-de-vivienda-pide-al-congreso-aprobar-facultades-legislativas-piensen-en-el-pais-no-piensen-solamente-en-el-nino-y-la-inseguridad-hnews-182812",
-    "source": "La República",
-    "published": "2026-09-14T18:06:48+00:00",
+    "title": "Ministra de la Mujer discrepa con Álvarez sobre abuso de menores en Condorcanqui: “Es un delito”",
+    "url": "https://gestion.pe/peru/politica/ministra-de-la-mujer-discrepa-con-ministro-ernesto-alvarez-sobre-abuso-de-menores-en-condorcanqui-es-un-delito-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T19:04:55+00:00",
     "matched_in": "title"
    }
   ],
@@ -122,6 +157,15 @@
     "url": "https://gestion.pe/economia/ley-mape-en-octubre-proximo-el-ejecutivo-planteara-el-proyecto-al-congreso-anuncia-shinno-noticia/",
     "source": "Gestión",
     "published": "2026-09-16T03:46:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Tres sectores de la economía ya se encuentran en recesión, alerta el MEF: “No será posible pasar el 4% este año”, según Cuba",
+    "url": "https://www.infobae.com/peru/2026/09/16/tres-sectores-de-la-economia-ya-se-encuentran-en-recesion-alerta-el-mef-no-sera-posible-pasar-el-4-este-ano-segun-cuba/",
+    "source": "Infobae",
+    "published": "2026-09-16T18:27:44+00:00",
     "matched_in": "title"
    }
   ]
