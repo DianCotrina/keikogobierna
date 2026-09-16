@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T09:43:51+00:00",
+ "generated": "2026-09-16T15:20:28+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -43,13 +43,6 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Juan Sheput ante paro anunciado por trabajadores de EsSalud: \"No creo que eso prospere\"",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-ante-paro-anunciado-por-trabajadores-de-essalud-no-creo-que-eso-prospere-noticia-1707628",
-    "source": "RPP",
-    "published": "2026-09-15T23:13:45-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Gobierno crea Comisión para identificar posibles efectos de El Niño sobre el empleo: los detalles",
     "url": "https://gestion.pe/peru/politica/gobierno-crea-comision-para-identificar-posibles-efectos-de-el-nino-sobre-el-empleo-los-detalles-noticia/",
     "source": "Gestión",
@@ -85,14 +78,7 @@
     "title": "Ernesto Álvarez señala que violaciones en comunidades indígenas tienen \"origen cultural\"",
     "url": "https://larepublica.pe/politica/2026/09/15/ernesto-alvarez-senala-que-violaciones-en-comunidades-indigenas-tienen-origen-cultural-y-lo-compara-con-pasarse-la-luz-roja-hnews-1105200",
     "source": "La República",
-    "published": "2026-09-16T02:09:48+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Ernesto Álvarez afirma que violaciones a niñas indígenas “tienen origen cultural”",
-    "url": "https://www.infobae.com/peru/2026/09/16/ministro-ernesto-alvarez-afirma-que-violaciones-a-ninas-indigenas-tienen-origen-cultural-pero-es-un-delito-abominable/",
-    "source": "Infobae",
-    "published": "2026-09-16T02:07:39+00:00",
+    "published": "2026-09-16T10:00:00+00:00",
     "matched_in": "title"
    },
    {
@@ -101,36 +87,6 @@
     "source": "Gestión",
     "published": "2026-09-16T00:16:25+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "“No soy político”: Ministro Álvarez se disculpa por decir que el Código Penal fue hecho para defender delincuentes",
-    "url": "https://www.infobae.com/peru/2026/09/15/no-soy-politico-ministro-ernesto-alvarez-se-disculpa-por-decir-que-el-codigo-penal-fue-hecho-para-defender-delincuentes/",
-    "source": "Infobae",
-    "published": "2026-09-15T23:06:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Expresiones ministeriales y reacción presidencial",
-    "url": "https://elcomercio.pe/opinion/columnistas/expresiones-ministeriales-y-reaccion-presidencial-por-enrique-castillo-keiko-fujimori-ernesto-alvarez-pcm-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-14T13:35:31+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Ahora se dictarán cursos de educación financiera: los nuevos contenidos que se verán en el Plan Nacional de Educación 2026-2031",
-    "url": "https://elcomercio.pe/respuestas/que/ahora-se-dictaran-cursos-de-educacion-financiera-los-nuevos-contenidos-que-se-veran-en-el-plan-nacional-de-educacion-2026-2031-tdpe-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-16T01:36:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
-    "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
-    "source": "La República",
-    "published": "2026-09-14T23:18:14+00:00",
-    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -139,6 +95,15 @@
     "url": "https://larepublica.pe/politica/2026/09/14/partido-civico-obras-solo-respaldara-el-pedido-de-facultades-en-seguridad-ciudadana-y-fenomeno-del-nino-hnews-784546",
     "source": "La República",
     "published": "2026-09-15T23:47:14+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
+    "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
+    "source": "La República",
+    "published": "2026-09-14T23:18:14+00:00",
     "matched_in": "summary"
    }
   ],
