@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T15:27:06+00:00",
+ "generated": "2026-09-17T20:03:28+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,42 +9,19 @@
   "Infobae"
  ],
  "ministers": {
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "EN VIVO: Ministro del Interior, César Astudillo, es interpelado por el Congreso",
-    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-17T15:20:33+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro César Astudillo será interpelado: estas son las 27 preguntas que responderá ante la Cámara de Diputados",
-    "url": "https://larepublica.pe/politica/2026/09/17/ministro-cesar-astudillo-sera-interpelado-estas-son-las-27-preguntas-que-respondera-ante-la-camara-de-diputados-hnews-284988",
-    "source": "La República",
-    "published": "2026-09-17T12:57:29+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro César Astudillo llega esta mañana al Congreso para su interpelación",
-    "url": "https://www.infobae.com/peru/2026/09/17/ministro-cesar-astudillo-llega-esta-manana-al-congreso-para-su-interpelacion/",
-    "source": "Infobae",
-    "published": "2026-09-17T12:05:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro del Interior será interpelado este jueves 17: debate durará dos horas",
-    "url": "https://gestion.pe/peru/ministro-del-interior-sera-interpelado-este-jueves-17-debate-tendra-dos-horas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-17T01:31:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori tiene planeado viajar a China en noviembre para participar en APEC, confirma canciller",
+    "url": "https://www.infobae.com/peru/2026/09/17/keiko-fujimori-tiene-planeado-viajar-a-china-en-noviembre-para-participar-en-apec-confirma-canciller/",
+    "source": "Infobae",
+    "published": "2026-09-17T19:49:09+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Perú ingresó al Escudo de las Américas sin tratado ni obligaciones vinculantes, afirma el canciller: ¿qué falta definir?",
     "url": "https://elcomercio.pe/politica/congreso/peru-ingreso-al-escudo-de-las-americas-sin-tratado-ni-obligaciones-vinculantes-afirma-el-canciller-tlcnota-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-17T15:11:52+00:00",
+    "published": "2026-09-17T19:30:00+00:00",
     "matched_in": "title"
    },
    {
@@ -62,47 +39,33 @@
     "matched_in": "title"
    },
    {
-    "title": "Escudo de las Américas: Espá asegura que el Perú se une a esta coalición en base a sus intereses",
-    "url": "https://gestion.pe/peru/politica/escudo-de-las-americas-espa-asegura-que-el-peru-se-une-a-esta-coalicion-en-base-a-sus-intereses-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T23:33:14+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Canciller sobre ingreso del Perú al Escudo de las Américas: “Representa una excelente oportunidad que debemos aprovechar con pragmatismo”",
     "url": "https://elcomercio.pe/politica/congreso/canciller-carlos-espa-sobre-ingreso-del-peru-al-escudo-de-las-americas-representa-una-excelente-oportunidad-que-debemos-saber-aprovechar-con-pragmatismo-senado-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-16T21:56:30+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Pleno del Senado debate este miércoles viaje de Keiko Fujimori a Asamblea General de las Naciones Unidas",
-    "url": "https://elcomercio.pe/politica/congreso/senado-debatira-este-miercoles-viaje-de-keiko-fujimori-a-asamblea-general-de-las-naciones-unidas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-15T17:53:02+00:00",
-    "matched_in": "summary"
    }
   ],
-  "maria-magdalena-seminario-maron": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Defensoría pide intervención inmediata del MIMP por denuncia de presunta violencia sexual en Liceo Naval",
-    "url": "https://www.infobae.com/peru/2026/09/17/defensoria-pide-intervencion-inmediata-del-mimp-por-denuncia-de-presunta-violencia-sexual-en-liceo-naval/",
-    "source": "Infobae",
-    "published": "2026-09-17T14:49:42+00:00",
+    "title": "Ministro del Interior EN VIVO: César Astudillo responde ante el Congreso por incremento de la inseguridad ciudadana",
+    "url": "https://larepublica.pe/politica/2026/09/17/ministro-del-interior-en-vivo-cesar-astudillo-responde-ante-el-congreso-por-incremento-de-la-inseguridad-ciudadana-hnews-710957",
+    "source": "La República",
+    "published": "2026-09-17T18:55:50+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministra de la Mujer sobre presunto abuso sexual en Liceo Naval: “Los niños iban en el bus acompañados de profesores”",
-    "url": "https://elcomercio.pe/lima/policiales/ministra-de-la-mujer-sobre-presunto-abuso-sexual-en-liceo-naval-los-ninos-iban-en-el-bus-acompanados-de-profesores-apuesplan-ultimas-noticia/",
+    "title": "EN VIVO: Pleno de la Cámara de Diputados interpela a ministro del Interior, César Astudillo",
+    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-17T14:03:00+00:00",
+    "published": "2026-09-17T18:27:54+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministra de la Mujer: menores involucrados y el Liceo Naval deben asumir \"su responsabilidad\" en caso de presunto abuso sexual",
-    "url": "https://rpp.pe/politica/gobierno/mimp-afirma-que-menores-involucrados-y-el-liceo-naval-tendran-que-asumir-su-responsabilidad-por-presunto-abuso-sexual-noticia-1707899",
-    "source": "RPP",
-    "published": "2026-09-17T08:10:14-05:00",
+    "title": "Ministro César Astudillo será interpelado: estas son las 27 preguntas que responderá ante la Cámara de Diputados",
+    "url": "https://larepublica.pe/politica/2026/09/17/ministro-cesar-astudillo-sera-interpelado-estas-son-las-27-preguntas-que-respondera-ante-la-camara-de-diputados-hnews-284988",
+    "source": "La República",
+    "published": "2026-09-17T12:57:29+00:00",
     "matched_in": "title"
    }
   ],
@@ -113,30 +76,9 @@
     "source": "La República",
     "published": "2026-09-17T15:21:23+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Vinelli: Si el Legislativo no aprueba las facultades, las promesas de campaña “van a demorar un poco más de tiempo”",
-    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-sobre-pedido-de-facultades-estamos-trabajando-para-convencer-a-las-diferentes-bancadas-noticia-1707905",
-    "source": "RPP",
-    "published": "2026-09-17T09:14:43-05:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "EsSalud en “UCI”: costaría S/ 39,494 millones recuperarse, según MTPE",
-    "url": "https://gestion.pe/economia/management-empleo/essalud-en-uci-costaria-s-39494-millones-recuperarse-segun-ministro-del-mtpe-juan-sheput-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-17T00:07:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sunafil volvería a fiscalizar mypes y EsSalud regresaría a Fonafe: cambios que alista el MTPE",
-    "url": "https://gestion.pe/economia/management-empleo/essalud-regresaria-a-fonafe-y-sunafil-volveria-a-fiscalizar-mypes-cambios-que-alista-el-mtpe-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T23:55:36+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Sheput alerta un millón y medio de \"ninis\" para justificar facultades: \"¿Qué derecho le vamos a quitar si ni siquiera los tienen?”",
     "url": "https://larepublica.pe/politica/2026/09/16/juan-sheput-alerta-un-millon-y-medio-de-ninis-para-justificar-facultades-que-derecho-le-vamos-a-quitar-si-ni-siquiera-los-tienen-hnews-855552",
@@ -186,19 +128,37 @@
     "matched_in": "summary"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Perú lanza oficialmente PERUMIN 38, la mayor convención minera de Latam: estos son los tres megaproyectos que busca destrabar",
+    "url": "https://www.infobae.com/peru/2026/09/17/peru-lanza-oficialmente-perumin-38-la-mayor-convencion-minera-de-latam-estos-son-los-tres-megaproyectos-que-busca-destrabar/",
+    "source": "Infobae",
+    "published": "2026-09-17T18:18:31+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
-    "title": "Ministro de Educación cuestiona a adultos que iban en bus donde adolescente habría sido agredido sexualmente por sus compañeros: \"¿No actuaron?\"",
-    "url": "https://rpp.pe/peru/actualidad/ministro-de-educacion-cuestiona-a-adultos-que-iban-en-bus-donde-un-adolescente-habria-sido-agredido-sexualmente-por-sus-companeros-noticia-1707938",
-    "source": "RPP",
-    "published": "2026-09-17T09:55:30-05:00",
+    "title": "Ministro de Educación cuestiona a adultos dentro del bus donde se habría cometido abuso sexual contra menor de edad: “¿No actuaron?”",
+    "url": "https://www.infobae.com/peru/2026/09/17/ministro-de-educacion-cuestiona-a-adultos-dentro-del-bus-donde-se-habria-cometido-abuso-sexual-contra-menor-de-edad-no-actuaron/",
+    "source": "Infobae",
+    "published": "2026-09-17T16:36:12+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "maria-magdalena-seminario-maron": [
+   {
+    "title": "Ministra de la Mujer no aclaró si presunta agresión sexual a escolar haya sido en presencia de algún adultos o profesor",
+    "url": "https://www.infobae.com/peru/2026/09/17/ministra-de-la-mujer-no-aclaro-si-presunta-agresion-sexual-a-escolar-haya-sido-en-presencia-de-algun-adultos-o-profesor/",
+    "source": "Infobae",
+    "published": "2026-09-17T15:56:47+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministerio de Educación propone orientar becas y educación técnica a sectores productivos",
-    "url": "https://gestion.pe/peru/politica/ministerio-de-educacion-propone-orientar-becas-y-educacion-tecnica-a-sectores-productivos-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T23:40:55+00:00",
+    "title": "Defensoría pide intervención inmediata del MIMP por denuncia de presunta violencia sexual en Liceo Naval",
+    "url": "https://www.infobae.com/peru/2026/09/17/defensoria-pide-intervencion-inmediata-del-mimp-por-denuncia-de-presunta-violencia-sexual-en-liceo-naval/",
+    "source": "Infobae",
+    "published": "2026-09-17T14:49:42+00:00",
     "matched_in": "title"
    }
   ],
