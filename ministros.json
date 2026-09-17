@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T09:51:31+00:00",
+ "generated": "2026-09-17T15:27:06+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,7 +9,51 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "EN VIVO: Ministro del Interior, César Astudillo, es interpelado por el Congreso",
+    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-17T15:20:33+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo será interpelado: estas son las 27 preguntas que responderá ante la Cámara de Diputados",
+    "url": "https://larepublica.pe/politica/2026/09/17/ministro-cesar-astudillo-sera-interpelado-estas-son-las-27-preguntas-que-respondera-ante-la-camara-de-diputados-hnews-284988",
+    "source": "La República",
+    "published": "2026-09-17T12:57:29+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo llega esta mañana al Congreso para su interpelación",
+    "url": "https://www.infobae.com/peru/2026/09/17/ministro-cesar-astudillo-llega-esta-manana-al-congreso-para-su-interpelacion/",
+    "source": "Infobae",
+    "published": "2026-09-17T12:05:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Interior será interpelado este jueves 17: debate durará dos horas",
+    "url": "https://gestion.pe/peru/ministro-del-interior-sera-interpelado-este-jueves-17-debate-tendra-dos-horas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-17T01:31:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Perú ingresó al Escudo de las Américas sin tratado ni obligaciones vinculantes, afirma el canciller: ¿qué falta definir?",
+    "url": "https://elcomercio.pe/politica/congreso/peru-ingreso-al-escudo-de-las-americas-sin-tratado-ni-obligaciones-vinculantes-afirma-el-canciller-tlcnota-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-17T15:11:52+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Carlos Espá confirma que Keiko Fujimori tiene programado viajar a China en noviembre para el APEC",
+    "url": "https://elcomercio.pe/politica/gobierno/carlos-espa-confirma-que-keiko-fujimori-tiene-programado-viajar-a-china-en-noviembre-para-el-apec-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-17T15:08:20+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Canciller Carlos Espá explicó ante el Pleno del Senado ingreso del Perú al Escudo de las Américas",
     "url": "https://elcomercio.pe/politica/canciller-carlos-espa-explica-ante-el-pleno-del-senado-ingreso-del-peru-al-escudo-de-las-americas-noticia/",
@@ -39,23 +83,46 @@
     "matched_in": "summary"
    }
   ],
+  "maria-magdalena-seminario-maron": [
+   {
+    "title": "Defensoría pide intervención inmediata del MIMP por denuncia de presunta violencia sexual en Liceo Naval",
+    "url": "https://www.infobae.com/peru/2026/09/17/defensoria-pide-intervencion-inmediata-del-mimp-por-denuncia-de-presunta-violencia-sexual-en-liceo-naval/",
+    "source": "Infobae",
+    "published": "2026-09-17T14:49:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministra de la Mujer sobre presunto abuso sexual en Liceo Naval: “Los niños iban en el bus acompañados de profesores”",
+    "url": "https://elcomercio.pe/lima/policiales/ministra-de-la-mujer-sobre-presunto-abuso-sexual-en-liceo-naval-los-ninos-iban-en-el-bus-acompanados-de-profesores-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-17T14:03:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministra de la Mujer: menores involucrados y el Liceo Naval deben asumir \"su responsabilidad\" en caso de presunto abuso sexual",
+    "url": "https://rpp.pe/politica/gobierno/mimp-afirma-que-menores-involucrados-y-el-liceo-naval-tendran-que-asumir-su-responsabilidad-por-presunto-abuso-sexual-noticia-1707899",
+    "source": "RPP",
+    "published": "2026-09-17T08:10:14-05:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Ministro Vinelli a congresistas: “Lo que corresponde a ellos es evaluar (el pedido de facultades), no que presentemos uno nuevo”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-vinelli-a-congresistas-lo-que-corresponde-a-ellos-es-evaluar-el-pedido-de-facultades-no-que-presentemos-uno-nuevo-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-15T14:17:10+00:00",
+    "title": "Ministro Marco Vinelli niega que se este formando un 'gabinete paralelo': \"No existe tal cosa\"",
+    "url": "https://larepublica.pe/politica/2026/09/17/ministro-marco-vinelli-niega-que-se-este-formando-un-gabinete-paralelo-no-existe-tal-cosa-hnews-843540",
+    "source": "La República",
+    "published": "2026-09-17T15:21:23+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Vinelli: Si el Legislativo no aprueba las facultades, las promesas de campaña “van a demorar un poco más de tiempo”",
+    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-sobre-pedido-de-facultades-estamos-trabajando-para-convencer-a-las-diferentes-bancadas-noticia-1707905",
+    "source": "RPP",
+    "published": "2026-09-17T09:14:43-05:00",
     "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "EsSalud en crisis cerraría el año con déficit de S/1.957 millones, la peor cifra de su historia: ¿qué está pasando?",
-    "url": "https://rpp.pe/economia/economia/essalud-en-crisis-cerraria-el-ano-con-deficit-de-s-1957-millones-el-mas-grande-de-su-historia-que-esta-pasando-esto-dice-el-ministro-de-trabajo-juan-sheput-noticia-1707840",
-    "source": "RPP",
-    "published": "2026-09-16T19:24:35-05:00",
-    "matched_in": "summary"
-   },
    {
     "title": "EsSalud en “UCI”: costaría S/ 39,494 millones recuperarse, según MTPE",
     "url": "https://gestion.pe/economia/management-empleo/essalud-en-uci-costaria-s-39494-millones-recuperarse-segun-ministro-del-mtpe-juan-sheput-noticia/",
@@ -78,13 +145,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro de Trabajo de Perú se reunió con embajador de EE.UU.: los temas en materia laboral",
-    "url": "https://gestion.pe/peru/ministro-de-trabajo-de-peru-se-reunio-con-embajador-de-eeuu-los-temas-en-materia-laboral-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T18:33:05+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Juan Sheput culpa a Roberto Sánchez ante falta de respaldo en pedido de facultades: \"Está picón\"",
     "url": "https://larepublica.pe/politica/2026/09/16/ministro-juan-sheput-culpa-a-roberto-sanchez-ante-falta-de-respaldo-en-pedido-de-facultades-esta-picon-hnews-618048",
     "source": "La República",
@@ -93,13 +153,6 @@
    }
   ],
   "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministra de la Mujer discrepa con Álvarez sobre abuso de menores en Condorcanqui: “Es un delito”",
-    "url": "https://gestion.pe/peru/politica/ministra-de-la-mujer-discrepa-con-ministro-ernesto-alvarez-sobre-abuso-de-menores-en-condorcanqui-es-un-delito-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T19:04:55+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ernesto Álvarez se retracta luego de decir que Código Procesal Penal fue hecho por 'abogados litigantes pensando en sus clientes'",
     "url": "https://larepublica.pe/politica/2026/09/16/ernesto-alvarez-se-retracta-luego-de-decir-que-codigo-procesal-penal-fue-hecho-por-abogados-litigantes-pensando-en-sus-clientes-hnews-936352",
@@ -133,32 +186,14 @@
     "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "MEF: Comisionados de Alto Nivel plantearán reformas para enfrentar desafíos estructurales de la economía peruana",
-    "url": "https://rpp.pe/economia/economia/mef-comisionados-de-alto-nivel-plantearan-reformas-para-enfrentar-desafios-estructurales-de-la-economia-peruana-noticia-1707868",
+    "title": "Ministro de Educación cuestiona a adultos que iban en bus donde adolescente habría sido agredido sexualmente por sus compañeros: \"¿No actuaron?\"",
+    "url": "https://rpp.pe/peru/actualidad/ministro-de-educacion-cuestiona-a-adultos-que-iban-en-bus-donde-un-adolescente-habria-sido-agredido-sexualmente-por-sus-companeros-noticia-1707938",
     "source": "RPP",
-    "published": "2026-09-17T00:19:05-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro del Interior será interpelado este jueves 17: debate durará dos horas",
-    "url": "https://gestion.pe/peru/ministro-del-interior-sera-interpelado-este-jueves-17-debate-tendra-dos-horas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-17T01:31:00+00:00",
+    "published": "2026-09-17T09:55:30-05:00",
     "matched_in": "title"
    },
-   {
-    "title": "Interpelación al ministro del Interior: las 27 preguntas que deberá responder César Astudillo ante la Cámara de Diputados",
-    "url": "https://www.infobae.com/peru/2026/09/16/interpelacion-al-ministro-del-interior-las-27-preguntas-que-debera-responder-cesar-astudillo-ante-la-camara-de-diputados/",
-    "source": "Infobae",
-    "published": "2026-09-16T20:35:51+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
    {
     "title": "Ministerio de Educación propone orientar becas y educación técnica a sectores productivos",
     "url": "https://gestion.pe/peru/politica/ministerio-de-educacion-propone-orientar-becas-y-educacion-tecnica-a-sectores-productivos-noticia/",
@@ -167,21 +202,21 @@
     "matched_in": "title"
    }
   ],
-  "maria-magdalena-seminario-maron": [
+  "vladimiro-huaroc-portocarrero": [
    {
-    "title": "Ministra de la Mujer discrepa con Álvarez sobre abuso de menores en Condorcanqui: “Es un delito”",
-    "url": "https://gestion.pe/peru/politica/ministra-de-la-mujer-discrepa-con-ministro-ernesto-alvarez-sobre-abuso-de-menores-en-condorcanqui-es-un-delito-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T19:04:55+00:00",
+    "title": "“No deben ser museos vivientes”: Así el ministro del Ambiente defiende inversiones en Áreas Naturales Protegidas",
+    "url": "https://www.infobae.com/peru/2026/09/17/no-deben-ser-museos-vivientes-asi-el-ministro-del-ambiente-defiende-inversiones-en-areas-naturales-protegidas/",
+    "source": "Infobae",
+    "published": "2026-09-17T15:17:28+00:00",
     "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
    {
-    "title": "MTC calcula que peruanos responden 1.360 millones de llamadas publicitarias al año",
-    "url": "https://www.infobae.com/peru/2026/09/16/mtc-calcula-que-peruanos-responden-1360-millones-de-llamadas-publicitarias-al-ano/",
+    "title": "Fenómeno El Niño: el despacho de Rafael Rey recibe S/205 millones ante riesgo de colapso en puentes y carreteras de Perú",
+    "url": "https://www.infobae.com/peru/2026/09/17/fenomeno-el-nino-el-despacho-de-rafael-rey-recibe-s205-millones-ante-riesgo-de-colapso-en-puentes-y-carreteras-de-peru/",
     "source": "Infobae",
-    "published": "2026-09-16T21:13:09+00:00",
+    "published": "2026-09-17T14:04:03+00:00",
     "matched_in": "title"
    }
   ]
