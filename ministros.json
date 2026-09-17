@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T19:51:15+00:00",
+ "generated": "2026-09-17T01:06:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,10 +11,24 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Canciller Carlos Espá explicará esta tarde ante el Pleno del Senado ingreso del Perú al Escudo de las Américas",
+    "title": "Canciller Carlos Espá explicó ante el Pleno del Senado ingreso del Perú al Escudo de las Américas",
     "url": "https://elcomercio.pe/politica/canciller-carlos-espa-explica-ante-el-pleno-del-senado-ingreso-del-peru-al-escudo-de-las-americas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-16T16:44:25+00:00",
+    "published": "2026-09-17T00:59:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Escudo de las Américas: Espá asegura que el Perú se une a esta coalición en base a sus intereses",
+    "url": "https://gestion.pe/peru/politica/escudo-de-las-americas-espa-asegura-que-el-peru-se-une-a-esta-coalicion-en-base-a-sus-intereses-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T23:33:14+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller sobre ingreso del Perú al Escudo de las Américas: “Representa una excelente oportunidad que debemos aprovechar con pragmatismo”",
+    "url": "https://elcomercio.pe/politica/congreso/canciller-carlos-espa-sobre-ingreso-del-peru-al-escudo-de-las-americas-representa-una-excelente-oportunidad-que-debemos-saber-aprovechar-con-pragmatismo-senado-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-16T21:56:30+00:00",
     "matched_in": "title"
    },
    {
@@ -23,23 +37,9 @@
     "source": "El Comercio",
     "published": "2026-09-15T17:53:02+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Espá evita responder si Perú tomaría postura entre EE.UU. y China ante pedidos específicos dentro del Escudo de las Américas",
-    "url": "https://larepublica.pe/politica/2026/09/14/espa-evita-responder-si-peru-tomaria-postura-entre-eeuu-y-china-ante-pedidos-especificos-dentro-del-escudo-de-las-americas-hnews-970774",
-    "source": "La República",
-    "published": "2026-09-14T23:01:28+00:00",
-    "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Marco Vinelli insta a Diputados a priorizar facultades para acelerar respuesta ante emergencias",
-    "url": "https://gestion.pe/peru/politica/marco-vinelli-insta-a-diputados-a-priorizar-facultades-para-acelerar-respuesta-ante-emergencias-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T08:10:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro Vinelli a congresistas: “Lo que corresponde a ellos es evaluar (el pedido de facultades), no que presentemos uno nuevo”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-vinelli-a-congresistas-lo-que-corresponde-a-ellos-es-evaluar-el-pedido-de-facultades-no-que-presentemos-uno-nuevo-ultimas-noticia/",
@@ -48,7 +48,58 @@
     "matched_in": "title"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Gobierno presenta a 7 comisionados para reformas en 4 temas: ¿qué plazos hay para propuestas?",
+    "url": "https://gestion.pe/economia/gobierno-de-keiko-fujimori-presenta-a-7-comisionados-para-reformas-en-4-temas-informalidad-inversion-publica-tributario-y-mercado-financiero-que-plazos-tendran-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T21:53:37+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Keiko Fujimori presenta Comisionados de Alto Nivel para las reformas estructurales y el aumento de la productividad del Perú: Conozca quiénes son",
+    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-presenta-comisionados-de-alto-nivel-para-las-reformas-estructurales-y-el-aumento-de-la-productividad-del-peru-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-16T21:08:07+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Tres sectores de la economía ya se encuentran en recesión, alerta el MEF: “No será posible pasar el 4% este año”, según Cuba",
+    "url": "https://www.infobae.com/peru/2026/09/16/tres-sectores-de-la-economia-ya-se-encuentran-en-recesion-alerta-el-mef-no-sera-posible-pasar-el-4-este-ano-segun-cuba/",
+    "source": "Infobae",
+    "published": "2026-09-16T18:27:44+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "EsSalud en crisis cerraría el año con déficit de S/1.957 millones, la peor cifra de su historia: ¿qué está pasando?",
+    "url": "https://rpp.pe/economia/economia/essalud-en-crisis-cerraria-el-ano-con-deficit-de-s-1957-millones-el-mas-grande-de-su-historia-que-esta-pasando-esto-dice-el-ministro-de-trabajo-juan-sheput-noticia-1707840",
+    "source": "RPP",
+    "published": "2026-09-16T19:24:35-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "EsSalud en “UCI”: costaría S/ 39,494 millones recuperarse, según MTPE",
+    "url": "https://gestion.pe/economia/management-empleo/essalud-en-uci-costaria-s-39494-millones-recuperarse-segun-ministro-del-mtpe-juan-sheput-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-17T00:07:19+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sunafil volvería a fiscalizar mypes y EsSalud regresaría a Fonafe: cambios que alista el MTPE",
+    "url": "https://gestion.pe/economia/management-empleo/essalud-regresaria-a-fonafe-y-sunafil-volveria-a-fiscalizar-mypes-cambios-que-alista-el-mtpe-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T23:55:36+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sheput alerta un millón y medio de \"ninis\" para justificar facultades: \"¿Qué derecho le vamos a quitar si ni siquiera los tienen?”",
+    "url": "https://larepublica.pe/politica/2026/09/16/juan-sheput-alerta-un-millon-y-medio-de-ninis-para-justificar-facultades-que-derecho-le-vamos-a-quitar-si-ni-siquiera-los-tienen-hnews-855552",
+    "source": "La República",
+    "published": "2026-09-16T23:48:28+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Sheput cuestiona a sindicatos de EsSalud por anuncio de paro: \"Se les escuchará, pero la prioridad la van a tener los pacientes\"",
     "url": "https://rpp.pe/politica/gobierno/sheput-cuestiona-a-sindicatos-de-essalud-por-anuncio-de-paro-se-les-escuchara-pero-la-prioridad-la-van-a-tener-los-pacientes-noticia-1707751",
@@ -75,13 +126,6 @@
     "url": "https://larepublica.pe/politica/2026/09/16/ministro-juan-sheput-culpa-a-roberto-sanchez-ante-falta-de-respaldo-en-pedido-de-facultades-esta-picon-hnews-618048",
     "source": "La República",
     "published": "2026-09-16T16:17:38+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput: “Si rechazan solicitud de facultades están apostando porque la crisis continúe”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-si-rechazan-solicitud-de-facultades-estan-apostando-porque-la-crisis-continue-keiko-fujimori-congreso-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-14T21:05:58+00:00",
     "matched_in": "title"
    }
   ],
@@ -135,11 +179,27 @@
   ],
   "jose-antonio-chang-escobedo": [
    {
-    "title": "Plan Nacional de Educación: Keiko Fujimori anuncia reforma de la currícula ''sin ningún tipo de ideología''",
-    "url": "https://larepublica.pe/sociedad/2026/09/14/plan-nacional-de-educacion-keiko-fujimori-anuncia-reforma-de-la-curricula-sin-ningun-tipo-de-ideologia-313320",
-    "source": "La República",
-    "published": "2026-09-14T23:18:14+00:00",
-    "matched_in": "summary"
+    "title": "Ministerio de Educación propone orientar becas y educación técnica a sectores productivos",
+    "url": "https://gestion.pe/peru/politica/ministerio-de-educacion-propone-orientar-becas-y-educacion-tecnica-a-sectores-productivos-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T23:40:55+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del Interior será interpelado este jueves 17: debate durará dos horas",
+    "url": "https://gestion.pe/peru/ministro-del-interior-sera-interpelado-este-jueves-17-debate-tendra-dos-horas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T22:15:48+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Interpelación al ministro del Interior: las 27 preguntas que deberá responder César Astudillo ante la Cámara de Diputados",
+    "url": "https://www.infobae.com/peru/2026/09/16/interpelacion-al-ministro-del-interior-las-27-preguntas-que-debera-responder-cesar-astudillo-ante-la-camara-de-diputados/",
+    "source": "Infobae",
+    "published": "2026-09-16T20:35:51+00:00",
+    "matched_in": "title"
    }
   ],
   "maria-magdalena-seminario-maron": [
@@ -151,21 +211,12 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "rafael-rey-rey": [
    {
-    "title": "Ley MAPE: Gobierno de Fujimori planteará el proyecto al Congreso en octubre, anuncia el Minem",
-    "url": "https://gestion.pe/economia/ley-mape-en-octubre-proximo-el-ejecutivo-planteara-el-proyecto-al-congreso-anuncia-shinno-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T03:46:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Tres sectores de la economía ya se encuentran en recesión, alerta el MEF: “No será posible pasar el 4% este año”, según Cuba",
-    "url": "https://www.infobae.com/peru/2026/09/16/tres-sectores-de-la-economia-ya-se-encuentran-en-recesion-alerta-el-mef-no-sera-posible-pasar-el-4-este-ano-segun-cuba/",
+    "title": "MTC calcula que peruanos responden 1.360 millones de llamadas publicitarias al año",
+    "url": "https://www.infobae.com/peru/2026/09/16/mtc-calcula-que-peruanos-responden-1360-millones-de-llamadas-publicitarias-al-ano/",
     "source": "Infobae",
-    "published": "2026-09-16T18:27:44+00:00",
+    "published": "2026-09-16T21:13:09+00:00",
     "matched_in": "title"
    }
   ]
