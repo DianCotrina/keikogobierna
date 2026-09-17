@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T01:06:56+00:00",
+ "generated": "2026-09-17T09:51:31+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -48,29 +48,6 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Gobierno presenta a 7 comisionados para reformas en 4 temas: ¿qué plazos hay para propuestas?",
-    "url": "https://gestion.pe/economia/gobierno-de-keiko-fujimori-presenta-a-7-comisionados-para-reformas-en-4-temas-informalidad-inversion-publica-tributario-y-mercado-financiero-que-plazos-tendran-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T21:53:37+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Keiko Fujimori presenta Comisionados de Alto Nivel para las reformas estructurales y el aumento de la productividad del Perú: Conozca quiénes son",
-    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-presenta-comisionados-de-alto-nivel-para-las-reformas-estructurales-y-el-aumento-de-la-productividad-del-peru-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-16T21:08:07+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Tres sectores de la economía ya se encuentran en recesión, alerta el MEF: “No será posible pasar el 4% este año”, según Cuba",
-    "url": "https://www.infobae.com/peru/2026/09/16/tres-sectores-de-la-economia-ya-se-encuentran-en-recesion-alerta-el-mef-no-sera-posible-pasar-el-4-este-ano-segun-cuba/",
-    "source": "Infobae",
-    "published": "2026-09-16T18:27:44+00:00",
-    "matched_in": "title"
-   }
-  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "EsSalud en crisis cerraría el año con déficit de S/1.957 millones, la peor cifra de su historia: ¿qué está pasando?",
@@ -101,20 +78,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Sheput cuestiona a sindicatos de EsSalud por anuncio de paro: \"Se les escuchará, pero la prioridad la van a tener los pacientes\"",
-    "url": "https://rpp.pe/politica/gobierno/sheput-cuestiona-a-sindicatos-de-essalud-por-anuncio-de-paro-se-les-escuchara-pero-la-prioridad-la-van-a-tener-los-pacientes-noticia-1707751",
-    "source": "RPP",
-    "published": "2026-09-16T13:47:33-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput apunta a Roberto Sánchez por postura de JPP: “Hay un asesor que todavía está picón porque perdió las elecciones”",
-    "url": "https://www.infobae.com/peru/2026/09/16/juan-sheput-apunta-a-roberto-sanchez-por-postura-de-jpp-hay-un-asesor-que-todavia-esta-picon-porque-perdio-las-elecciones/",
-    "source": "Infobae",
-    "published": "2026-09-16T18:37:08+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro de Trabajo de Perú se reunió con embajador de EE.UU.: los temas en materia laboral",
     "url": "https://gestion.pe/peru/ministro-de-trabajo-de-peru-se-reunio-con-embajador-de-eeuu-los-temas-en-materia-laboral-noticia/",
     "source": "Gestión",
@@ -135,13 +98,6 @@
     "url": "https://gestion.pe/peru/politica/ministra-de-la-mujer-discrepa-con-ministro-ernesto-alvarez-sobre-abuso-de-menores-en-condorcanqui-es-un-delito-noticia/",
     "source": "Gestión",
     "published": "2026-09-16T19:04:55+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ernesto Álvarez reconoce que no es penalista y que no sabe qué artículos cambiar del Código Procesal Penal",
-    "url": "https://www.infobae.com/peru/2026/09/16/ernesto-alvarez-reconoce-que-no-es-penalista-y-que-no-sabe-que-articulos-cambiar-del-codigo-procesal-penal/",
-    "source": "Infobae",
-    "published": "2026-09-16T16:33:03+00:00",
     "matched_in": "title"
    },
    {
@@ -177,12 +133,12 @@
     "matched_in": "summary"
    }
   ],
-  "jose-antonio-chang-escobedo": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministerio de Educación propone orientar becas y educación técnica a sectores productivos",
-    "url": "https://gestion.pe/peru/politica/ministerio-de-educacion-propone-orientar-becas-y-educacion-tecnica-a-sectores-productivos-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-16T23:40:55+00:00",
+    "title": "MEF: Comisionados de Alto Nivel plantearán reformas para enfrentar desafíos estructurales de la economía peruana",
+    "url": "https://rpp.pe/economia/economia/mef-comisionados-de-alto-nivel-plantearan-reformas-para-enfrentar-desafios-estructurales-de-la-economia-peruana-noticia-1707868",
+    "source": "RPP",
+    "published": "2026-09-17T00:19:05-05:00",
     "matched_in": "title"
    }
   ],
@@ -191,7 +147,7 @@
     "title": "Ministro del Interior será interpelado este jueves 17: debate durará dos horas",
     "url": "https://gestion.pe/peru/ministro-del-interior-sera-interpelado-este-jueves-17-debate-tendra-dos-horas-noticia/",
     "source": "Gestión",
-    "published": "2026-09-16T22:15:48+00:00",
+    "published": "2026-09-17T01:31:00+00:00",
     "matched_in": "title"
    },
    {
@@ -199,6 +155,15 @@
     "url": "https://www.infobae.com/peru/2026/09/16/interpelacion-al-ministro-del-interior-las-27-preguntas-que-debera-responder-cesar-astudillo-ante-la-camara-de-diputados/",
     "source": "Infobae",
     "published": "2026-09-16T20:35:51+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Ministerio de Educación propone orientar becas y educación técnica a sectores productivos",
+    "url": "https://gestion.pe/peru/politica/ministerio-de-educacion-propone-orientar-becas-y-educacion-tecnica-a-sectores-productivos-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-16T23:40:55+00:00",
     "matched_in": "title"
    }
   ],
