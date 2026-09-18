@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T09:25:14+00:00",
+ "generated": "2026-09-18T14:48:27+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,11 +11,18 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ministro del Interior anunció estrategia de cinco ejes para enfrentar la delincuencia y fortalecer a la Policía Nacional",
-    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-anuncio-estrategia-de-cinco-ejes-para-enfrentar-la-delincuencia-y-fortalecer-a-la-policia-nacional-noticia-1708099",
-    "source": "RPP",
-    "published": "2026-09-17T20:41:02-05:00",
+    "title": "Ministro del Interior, César Astudillo, fue interpelado: ¿Qué bancadas lo respaldan y cuáles lo cuestionan?",
+    "url": "https://elcomercio.pe/politica/ministro-astudillo-interpelado-que-bancadas-lo-respaldan-y-cuales-lo-cuestionan-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T14:22:00+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Óscar Reto responde a Cecilia Chacón por decirle que ponga orden: “Yo sé bien lo que tengo que hacer”",
+    "url": "https://larepublica.pe/politica/2026/09/18/oscar-reto-responde-a-cecilia-chacon-por-decirle-que-ponga-orden-yo-se-bien-lo-que-tengo-que-hacer-hnews-1685610",
+    "source": "La República",
+    "published": "2026-09-18T13:16:09+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Ministro Astudillo anuncia cambios en la Policía: “En los próximos días vamos a tener noticias fuertes”",
@@ -46,20 +53,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Diputado Jesús Pérez grita que las cifras de criminalidad “no son huev***s” y ministro César Astudillo abandona pleno",
-    "url": "https://www.infobae.com/peru/2026/09/17/diputado-jesus-perez-grita-que-cifras-de-criminalidad-no-son-huevs-y-ministro-cesar-astudillo-abandona-el-congreso/",
-    "source": "Infobae",
-    "published": "2026-09-17T21:11:09+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro del Interior EN VIVO: César Astudillo responde ante el Congreso por incremento de la inseguridad ciudadana",
-    "url": "https://larepublica.pe/politica/2026/09/17/ministro-del-interior-en-vivo-cesar-astudillo-responde-ante-el-congreso-por-incremento-de-la-inseguridad-ciudadana-hnews-710957",
-    "source": "La República",
-    "published": "2026-09-17T20:51:18+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro César Astudillo será interpelado: estas son las 27 preguntas que responderá ante la Cámara de Diputados",
     "url": "https://larepublica.pe/politica/2026/09/17/ministro-cesar-astudillo-sera-interpelado-estas-son-las-27-preguntas-que-respondera-ante-la-camara-de-diputados-hnews-284988",
     "source": "La República",
@@ -73,13 +66,6 @@
     "url": "https://elcomercio.pe/politica/congreso/peru-ingreso-al-escudo-de-las-americas-sin-tratado-ni-obligaciones-vinculantes-afirma-el-canciller-tlcnota-noticia/",
     "source": "El Comercio",
     "published": "2026-09-17T23:45:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori tiene planeado viajar a China en noviembre para participar en APEC, confirma canciller",
-    "url": "https://www.infobae.com/peru/2026/09/17/keiko-fujimori-tiene-planeado-viajar-a-china-en-noviembre-para-participar-en-apec-confirma-canciller/",
-    "source": "Infobae",
-    "published": "2026-09-17T20:55:00+00:00",
     "matched_in": "title"
    },
    {
@@ -159,22 +145,6 @@
     "source": "La República",
     "published": "2026-09-16T15:22:15+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ernesto Álvarez señala que violaciones en comunidades indígenas tienen \"origen cultural\"",
-    "url": "https://larepublica.pe/politica/2026/09/15/ernesto-alvarez-senala-que-violaciones-en-comunidades-indigenas-tienen-origen-cultural-y-lo-compara-con-pasarse-la-luz-roja-hnews-1105200",
-    "source": "La República",
-    "published": "2026-09-16T10:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Gobierno culminó primera ronda de diálogo con bancadas para explicar pedido de facultades legislativas",
-    "url": "https://rpp.pe/politica/gobierno/gobierno-culmino-primera-ronda-de-dialogo-con-bancadas-para-explicar-pedido-de-facultades-legislativas-noticia-1708090",
-    "source": "RPP",
-    "published": "2026-09-17T19:40:23-05:00",
-    "matched_in": "summary"
    }
   ],
   "guillermo-shinno-huamani": [
