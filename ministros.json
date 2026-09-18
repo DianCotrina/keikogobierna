@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T01:05:05+00:00",
+ "generated": "2026-09-18T09:25:14+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del Interior anunció estrategia de cinco ejes para enfrentar la delincuencia y fortalecer a la Policía Nacional",
+    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-anuncio-estrategia-de-cinco-ejes-para-enfrentar-la-delincuencia-y-fortalecer-a-la-policia-nacional-noticia-1708099",
+    "source": "RPP",
+    "published": "2026-09-17T20:41:02-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Astudillo anuncia cambios en la Policía: “En los próximos días vamos a tener noticias fuertes”",
     "url": "https://gestion.pe/peru/interpelacion-al-titular-del-minter-cesar-astudillo-se-realiza-en-estricto-privado-por-pedido-del-ministro-noticia/",
@@ -120,7 +127,7 @@
     "title": "Sunafil volvería a fiscalizar mypes y EsSalud regresaría a Fonafe: cambios que alista el MTPE",
     "url": "https://gestion.pe/economia/management-empleo/essalud-regresaria-a-fonafe-y-sunafil-volveria-a-fiscalizar-mypes-cambios-que-alista-el-mtpe-noticia/",
     "source": "Gestión",
-    "published": "2026-09-17T23:18:37+00:00",
+    "published": "2026-09-18T01:45:00+00:00",
     "matched_in": "title"
    },
    {
@@ -140,17 +147,10 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Ministro de Justicia: INPE designará funcionarios sin cuestionamientos y con experiencia",
+    "title": "Ministro de Justicia: nuevo subsistema contra la extorsión operará desde octubre en La Libertad",
     "url": "https://gestion.pe/peru/politica/ministro-de-justicia-inpe-designara-funcionarios-sin-cuestionamientos-y-con-experiencia-noticia/",
     "source": "Gestión",
-    "published": "2026-09-18T00:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Álvarez anuncia que el Subsistema especializado contra la extorsión iniciará en octubre en La Libertad",
-    "url": "https://rpp.pe/politica/gobierno/ministro-alvarez-anuncia-que-el-subsistema-especializado-contra-la-extorsion-iniciara-en-octubre-en-la-libertad-noticia-1708077",
-    "source": "RPP",
-    "published": "2026-09-17T18:03:09-05:00",
+    "published": "2026-09-18T04:56:00+00:00",
     "matched_in": "title"
    },
    {
@@ -183,13 +183,6 @@
     "url": "https://gestion.pe/economia/gobierno-prepara-reforma-de-hidrocarburos-para-atraer-inversiones-noticia/",
     "source": "Gestión",
     "published": "2026-09-17T22:12:21+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Perú lanza oficialmente PERUMIN 38, la mayor convención minera de Latam: estos son los tres megaproyectos que busca destrabar",
-    "url": "https://www.infobae.com/peru/2026/09/17/peru-lanza-oficialmente-perumin-38-la-mayor-convencion-minera-de-latam-estos-son-los-tres-megaproyectos-que-busca-destrabar/",
-    "source": "Infobae",
-    "published": "2026-09-17T18:18:31+00:00",
     "matched_in": "summary"
    }
   ]
