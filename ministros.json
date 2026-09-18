@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T20:03:28+00:00",
+ "generated": "2026-09-18T01:05:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,70 @@
   "Infobae"
  ],
  "ministers": {
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Keiko Fujimori tiene planeado viajar a China en noviembre para participar en APEC, confirma canciller",
-    "url": "https://www.infobae.com/peru/2026/09/17/keiko-fujimori-tiene-planeado-viajar-a-china-en-noviembre-para-participar-en-apec-confirma-canciller/",
-    "source": "Infobae",
-    "published": "2026-09-17T19:49:09+00:00",
+    "title": "Ministro Astudillo anuncia cambios en la Policía: “En los próximos días vamos a tener noticias fuertes”",
+    "url": "https://gestion.pe/peru/interpelacion-al-titular-del-minter-cesar-astudillo-se-realiza-en-estricto-privado-por-pedido-del-ministro-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-18T00:45:00+00:00",
     "matched_in": "title"
    },
+   {
+    "title": "Diputado Jesús Pérez protagoniza incidente durante interpelación de ministro Astudillo",
+    "url": "https://elcomercio.pe/politica/congreso/congreso-ministro-cesar-astudillo-y-diputado-jesus-perez-protagonizan-incidente-por-cifras-de-criminalidad-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T00:17:29+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú no descarta censurar a ministro César Astudillo luego de que fuera interpelado",
+    "url": "https://larepublica.pe/politica/2026/09/17/juntos-por-el-peru-no-descarta-censurar-a-ministro-cesar-astudillo-luego-de-que-fuera-interpelado-hnews-251056",
+    "source": "La República",
+    "published": "2026-09-17T21:51:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo:Pleno de la Cámara de Diputados interpeló a ministro del Interior por ola de criminalidad",
+    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-17T21:36:33+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputado Jesús Pérez grita que las cifras de criminalidad “no son huev***s” y ministro César Astudillo abandona pleno",
+    "url": "https://www.infobae.com/peru/2026/09/17/diputado-jesus-perez-grita-que-cifras-de-criminalidad-no-son-huevs-y-ministro-cesar-astudillo-abandona-el-congreso/",
+    "source": "Infobae",
+    "published": "2026-09-17T21:11:09+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Interior EN VIVO: César Astudillo responde ante el Congreso por incremento de la inseguridad ciudadana",
+    "url": "https://larepublica.pe/politica/2026/09/17/ministro-del-interior-en-vivo-cesar-astudillo-responde-ante-el-congreso-por-incremento-de-la-inseguridad-ciudadana-hnews-710957",
+    "source": "La República",
+    "published": "2026-09-17T20:51:18+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo será interpelado: estas son las 27 preguntas que responderá ante la Cámara de Diputados",
+    "url": "https://larepublica.pe/politica/2026/09/17/ministro-cesar-astudillo-sera-interpelado-estas-son-las-27-preguntas-que-respondera-ante-la-camara-de-diputados-hnews-284988",
+    "source": "La República",
+    "published": "2026-09-17T12:57:29+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Perú ingresó al Escudo de las Américas sin tratado ni obligaciones vinculantes, afirma el canciller: ¿qué falta definir?",
     "url": "https://elcomercio.pe/politica/congreso/peru-ingreso-al-escudo-de-las-americas-sin-tratado-ni-obligaciones-vinculantes-afirma-el-canciller-tlcnota-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-17T19:30:00+00:00",
+    "published": "2026-09-17T23:45:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori tiene planeado viajar a China en noviembre para participar en APEC, confirma canciller",
+    "url": "https://www.infobae.com/peru/2026/09/17/keiko-fujimori-tiene-planeado-viajar-a-china-en-noviembre-para-participar-en-apec-confirma-canciller/",
+    "source": "Infobae",
+    "published": "2026-09-17T20:55:00+00:00",
     "matched_in": "title"
    },
    {
@@ -46,27 +97,13 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Ministro del Interior EN VIVO: César Astudillo responde ante el Congreso por incremento de la inseguridad ciudadana",
-    "url": "https://larepublica.pe/politica/2026/09/17/ministro-del-interior-en-vivo-cesar-astudillo-responde-ante-el-congreso-por-incremento-de-la-inseguridad-ciudadana-hnews-710957",
+    "title": "Ejército simuló entrega de helicópteros rusos reparados",
+    "url": "https://larepublica.pe/politica/2026/09/15/ejercito-simulo-entrega-de-helicopteros-rusos-reparados-hnews-1054455",
     "source": "La República",
-    "published": "2026-09-17T18:55:50+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "EN VIVO: Pleno de la Cámara de Diputados interpela a ministro del Interior, César Astudillo",
-    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-17T18:27:54+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro César Astudillo será interpelado: estas son las 27 preguntas que responderá ante la Cámara de Diputados",
-    "url": "https://larepublica.pe/politica/2026/09/17/ministro-cesar-astudillo-sera-interpelado-estas-son-las-27-preguntas-que-respondera-ante-la-camara-de-diputados-hnews-284988",
-    "source": "La República",
-    "published": "2026-09-17T12:57:29+00:00",
-    "matched_in": "title"
+    "published": "2026-09-17T23:23:02+00:00",
+    "matched_in": "summary"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
@@ -79,6 +116,13 @@
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Sunafil volvería a fiscalizar mypes y EsSalud regresaría a Fonafe: cambios que alista el MTPE",
+    "url": "https://gestion.pe/economia/management-empleo/essalud-regresaria-a-fonafe-y-sunafil-volveria-a-fiscalizar-mypes-cambios-que-alista-el-mtpe-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-17T23:18:37+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Sheput alerta un millón y medio de \"ninis\" para justificar facultades: \"¿Qué derecho le vamos a quitar si ni siquiera los tienen?”",
     "url": "https://larepublica.pe/politica/2026/09/16/juan-sheput-alerta-un-millon-y-medio-de-ninis-para-justificar-facultades-que-derecho-le-vamos-a-quitar-si-ni-siquiera-los-tienen-hnews-855552",
@@ -96,6 +140,20 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
+    "title": "Ministro de Justicia: INPE designará funcionarios sin cuestionamientos y con experiencia",
+    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-inpe-designara-funcionarios-sin-cuestionamientos-y-con-experiencia-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-18T00:15:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Álvarez anuncia que el Subsistema especializado contra la extorsión iniciará en octubre en La Libertad",
+    "url": "https://rpp.pe/politica/gobierno/ministro-alvarez-anuncia-que-el-subsistema-especializado-contra-la-extorsion-iniciara-en-octubre-en-la-libertad-noticia-1708077",
+    "source": "RPP",
+    "published": "2026-09-17T18:03:09-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ernesto Álvarez se retracta luego de decir que Código Procesal Penal fue hecho por 'abogados litigantes pensando en sus clientes'",
     "url": "https://larepublica.pe/politica/2026/09/16/ernesto-alvarez-se-retracta-luego-de-decir-que-codigo-procesal-penal-fue-hecho-por-abogados-litigantes-pensando-en-sus-clientes-hnews-936352",
     "source": "La República",
@@ -112,72 +170,27 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
-    "title": "Partido Cívico Obras solo respaldará el pedido de facultades en seguridad ciudadana y Fenómeno del Niño",
-    "url": "https://larepublica.pe/politica/2026/09/14/partido-civico-obras-solo-respaldara-el-pedido-de-facultades-en-seguridad-ciudadana-y-fenomeno-del-nino-hnews-784546",
-    "source": "La República",
-    "published": "2026-09-15T23:47:14+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Ejército simuló entrega de helicópteros rusos reparados",
-    "url": "https://larepublica.pe/politica/2026/09/15/ejercito-simulo-entrega-de-helicopteros-rusos-reparados-hnews-1054455",
-    "source": "La República",
-    "published": "2026-09-15T21:48:42+00:00",
+    "title": "Gobierno culminó primera ronda de diálogo con bancadas para explicar pedido de facultades legislativas",
+    "url": "https://rpp.pe/politica/gobierno/gobierno-culmino-primera-ronda-de-dialogo-con-bancadas-para-explicar-pedido-de-facultades-legislativas-noticia-1708090",
+    "source": "RPP",
+    "published": "2026-09-17T19:40:23-05:00",
     "matched_in": "summary"
    }
   ],
   "guillermo-shinno-huamani": [
+   {
+    "title": "Gobierno prepara reforma de hidrocarburos para atraer inversiones",
+    "url": "https://gestion.pe/economia/gobierno-prepara-reforma-de-hidrocarburos-para-atraer-inversiones-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-17T22:12:21+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Perú lanza oficialmente PERUMIN 38, la mayor convención minera de Latam: estos son los tres megaproyectos que busca destrabar",
     "url": "https://www.infobae.com/peru/2026/09/17/peru-lanza-oficialmente-perumin-38-la-mayor-convencion-minera-de-latam-estos-son-los-tres-megaproyectos-que-busca-destrabar/",
     "source": "Infobae",
     "published": "2026-09-17T18:18:31+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Ministro de Educación cuestiona a adultos dentro del bus donde se habría cometido abuso sexual contra menor de edad: “¿No actuaron?”",
-    "url": "https://www.infobae.com/peru/2026/09/17/ministro-de-educacion-cuestiona-a-adultos-dentro-del-bus-donde-se-habria-cometido-abuso-sexual-contra-menor-de-edad-no-actuaron/",
-    "source": "Infobae",
-    "published": "2026-09-17T16:36:12+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "maria-magdalena-seminario-maron": [
-   {
-    "title": "Ministra de la Mujer no aclaró si presunta agresión sexual a escolar haya sido en presencia de algún adultos o profesor",
-    "url": "https://www.infobae.com/peru/2026/09/17/ministra-de-la-mujer-no-aclaro-si-presunta-agresion-sexual-a-escolar-haya-sido-en-presencia-de-algun-adultos-o-profesor/",
-    "source": "Infobae",
-    "published": "2026-09-17T15:56:47+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Defensoría pide intervención inmediata del MIMP por denuncia de presunta violencia sexual en Liceo Naval",
-    "url": "https://www.infobae.com/peru/2026/09/17/defensoria-pide-intervencion-inmediata-del-mimp-por-denuncia-de-presunta-violencia-sexual-en-liceo-naval/",
-    "source": "Infobae",
-    "published": "2026-09-17T14:49:42+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "vladimiro-huaroc-portocarrero": [
-   {
-    "title": "“No deben ser museos vivientes”: Así el ministro del Ambiente defiende inversiones en Áreas Naturales Protegidas",
-    "url": "https://www.infobae.com/peru/2026/09/17/no-deben-ser-museos-vivientes-asi-el-ministro-del-ambiente-defiende-inversiones-en-areas-naturales-protegidas/",
-    "source": "Infobae",
-    "published": "2026-09-17T15:17:28+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-rey-rey": [
-   {
-    "title": "Fenómeno El Niño: el despacho de Rafael Rey recibe S/205 millones ante riesgo de colapso en puentes y carreteras de Perú",
-    "url": "https://www.infobae.com/peru/2026/09/17/fenomeno-el-nino-el-despacho-de-rafael-rey-recibe-s205-millones-ante-riesgo-de-colapso-en-puentes-y-carreteras-de-peru/",
-    "source": "Infobae",
-    "published": "2026-09-17T14:04:03+00:00",
-    "matched_in": "title"
    }
   ]
  }
