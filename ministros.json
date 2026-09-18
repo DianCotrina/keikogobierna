@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T14:48:27+00:00",
+ "generated": "2026-09-18T19:27:23+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Ministro del Interior, César Astudillo, fue interpelado: ¿Qué bancadas lo respaldan y cuáles lo cuestionan?",
     "url": "https://elcomercio.pe/politica/ministro-astudillo-interpelado-que-bancadas-lo-respaldan-y-cuales-lo-cuestionan-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-18T14:22:00+00:00",
+    "published": "2026-09-18T19:12:00+00:00",
     "matched_in": "title"
    },
    {
@@ -58,6 +58,82 @@
     "source": "La República",
     "published": "2026-09-17T12:57:29+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Ministro de Salud habla de la salida de Rafael Rey del Gabinete que lidera Luis Galarreta",
+    "url": "https://gestion.pe/peru/ministro-de-salud-desde-el-congreso-habla-sobre-salida-de-rafael-rey-del-gabinete-de-luis-galarreta-estuvo-a-la-altura-desde-un-inicio-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-18T18:28:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Salud Luis Dyer destaca labor de Rafael Rey tras su renuncia al MTC",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T18:27:55+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones: “Razones de salud me impiden continuar”",
+    "url": "https://www.infobae.com/peru/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-razones-de-salud-me-impiden-continuar/",
+    "source": "Infobae",
+    "published": "2026-09-18T18:53:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Salud habla de la salida de Rafael Rey del Gabinete que lidera Luis Galarreta",
+    "url": "https://gestion.pe/peru/ministro-de-salud-desde-el-congreso-habla-sobre-salida-de-rafael-rey-del-gabinete-de-luis-galarreta-estuvo-a-la-altura-desde-un-inicio-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-18T18:28:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Salud Luis Dyer destaca labor de Rafael Rey tras su renuncia al MTC",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T18:27:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones tras casi dos meses en el cargo",
+    "url": "https://larepublica.pe/politica/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-tras-casi-dos-meses-en-el-cargo-hnews-875142",
+    "source": "La República",
+    "published": "2026-09-18T18:26:36+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones",
+    "url": "https://gestion.pe/peru/politica/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-dwl-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-18T17:28:19+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey presenta su renuncia como ministro de Transportes y Comunicaciones por motivos de salud",
+    "url": "https://elcomercio.pe/politica/gobierno/rafael-rey-presenta-su-renuncia-como-ministro-de-transportes-y-comunicaciones-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T17:24:19+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey renunció al Ministerio de Transportes y Comunicaciones",
+    "url": "https://rpp.pe/politica/gobierno/rafael-rey-renuncio-al-ministerio-de-transportes-y-comunicaciones-noticia-1708213",
+    "source": "RPP",
+    "published": "2026-09-18T11:50:36-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Rafael Rey presenta su renuncia como ministro de Transportes y Comunicaciones por motivos de salud",
+    "url": "https://elcomercio.pe/politica/gobierno/rafael-rey-presenta-su-renuncia-como-ministro-de-transportes-y-comunicaciones-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T17:24:19+00:00",
+    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -122,12 +198,21 @@
     "source": "La República",
     "published": "2026-09-16T23:48:28+00:00",
     "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Ministro de Educación dice que hay denuncias de acoso y violencia sexual en Liceo Naval: \"No se trataron adecuadamente\"",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-educacion-dice-que-hay-denuncias-de-acoso-y-violencia-sexual-en-liceo-naval-no-se-trataron-adecuadamente-noticia-1708214",
+    "source": "RPP",
+    "published": "2026-09-18T12:43:03-05:00",
+    "matched_in": "title"
    },
    {
-    "title": "Ministro Juan Sheput culpa a Roberto Sánchez ante falta de respaldo en pedido de facultades: \"Está picón\"",
-    "url": "https://larepublica.pe/politica/2026/09/16/ministro-juan-sheput-culpa-a-roberto-sanchez-ante-falta-de-respaldo-en-pedido-de-facultades-esta-picon-hnews-618048",
-    "source": "La República",
-    "published": "2026-09-16T16:17:38+00:00",
+    "title": "Colegios podrán volver a expulsar a alumnos: Ministro Chang anuncia modificación tras caso Liceo Naval",
+    "url": "https://www.infobae.com/peru/2026/09/18/ministro-chang-anuncia-norma-para-que-colegios-puedan-expulsar-alumnos-vamos-a-volver-al-orden/",
+    "source": "Infobae",
+    "published": "2026-09-18T16:16:41+00:00",
     "matched_in": "title"
    }
   ],
@@ -138,22 +223,6 @@
     "source": "Gestión",
     "published": "2026-09-18T04:56:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ernesto Álvarez se retracta luego de decir que Código Procesal Penal fue hecho por 'abogados litigantes pensando en sus clientes'",
-    "url": "https://larepublica.pe/politica/2026/09/16/ernesto-alvarez-se-retracta-luego-de-decir-que-codigo-procesal-penal-fue-hecho-por-abogados-litigantes-pensando-en-sus-clientes-hnews-936352",
-    "source": "La República",
-    "published": "2026-09-16T15:22:15+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Gobierno prepara reforma de hidrocarburos para atraer inversiones",
-    "url": "https://gestion.pe/economia/gobierno-prepara-reforma-de-hidrocarburos-para-atraer-inversiones-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-17T22:12:21+00:00",
-    "matched_in": "summary"
    }
   ]
  }
