@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T01:00:18+00:00",
+ "generated": "2026-09-19T09:13:27+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,99 @@
   "Infobae"
  ],
  "ministers": {
+  "rafael-rey-rey": [
+   {
+    "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
+    "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-19T05:01:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "José Tangherlini es el nuevo titular del Ministerio de Transportes y Comunicaciones (MTC)",
+    "url": "https://www.infobae.com/peru/2026/09/19/jose-tangherlini-es-el-nuevo-titular-del-ministerio-de-transportes-y-comunicaciones-mtc/",
+    "source": "Infobae",
+    "published": "2026-09-19T02:36:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juramentó nuevo ministro de Transportes tras renuncia de Rafael Rey",
+    "url": "https://gestion.pe/peru/politica/juramento-nuevo-ministro-de-transportes-tras-renuncia-de-rafael-rey-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-19T02:34:45+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "José Tangherlini jura como nuevo ministro de Transportes y Comunicaciones en reemplazo de Rafael Rey",
+    "url": "https://larepublica.pe/politica/2026/09/18/jose-tangherlini-jura-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-hnews-1414710",
+    "source": "La República",
+    "published": "2026-09-19T02:18:56+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "José Tangherlini jura como nuevo ministro de Transportes y Comunicaciones en reemplazo de Rafael Rey",
+    "url": "https://elcomercio.pe/politica/gobierno/jose-tangherlini-jura-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-keiko-fujimori-mtc-palacio-de-gobierno-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-19T02:06:58+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "José Tangherlini juró como nuevo ministro de Transportes y Comunicaciones en reemplazo de Rafael Rey",
+    "url": "https://rpp.pe/politica/gobierno/jose-tangherlini-juro-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-noticia-1708311",
+    "source": "RPP",
+    "published": "2026-09-18T21:01:40-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Salud habla de la salida de Rafael Rey del Gabinete que lidera Luis Galarreta",
+    "url": "https://gestion.pe/peru/ministro-de-salud-desde-el-congreso-habla-sobre-salida-de-rafael-rey-del-gabinete-de-luis-galarreta-estuvo-a-la-altura-desde-un-inicio-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-18T22:28:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey presenta su renuncia como ministro de Transportes y Comunicaciones por motivos de salud",
+    "url": "https://elcomercio.pe/politica/gobierno/rafael-rey-presenta-su-renuncia-como-ministro-de-transportes-y-comunicaciones-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T19:35:33+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey deja el MTC con la Nueva Carretera Central en la incertidumbre: sin presupuesto para arrancar obras en 2027",
+    "url": "https://rpp.pe/economia/economia/rafael-rey-deja-el-mtc-con-la-nueva-carretera-central-en-la-incertidumbre-sin-presupuesto-para-arrancar-obras-en-2027-noticia-1708064",
+    "source": "RPP",
+    "published": "2026-09-18T14:30:18-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones: “Razones de salud me impiden continuar”",
+    "url": "https://www.infobae.com/peru/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-razones-de-salud-me-impiden-continuar/",
+    "source": "Infobae",
+    "published": "2026-09-18T18:53:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Salud, Luis Dyer, destaca labor de Rafael Rey tras su renuncia al MTC",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T18:27:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones tras casi dos meses en el cargo",
+    "url": "https://larepublica.pe/politica/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-tras-casi-dos-meses-en-el-cargo-hnews-875142",
+    "source": "La República",
+    "published": "2026-09-18T18:26:36+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones",
+    "url": "https://gestion.pe/peru/politica/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-dwl-gobierno-de-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-18T17:28:19+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Ministro del Interior, César Astudillo, fue interpelado: ¿Qué bancadas lo respaldan y cuáles lo cuestionan?",
@@ -78,57 +171,6 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
-   {
-    "title": "Ministro de Salud habla de la salida de Rafael Rey del Gabinete que lidera Luis Galarreta",
-    "url": "https://gestion.pe/peru/ministro-de-salud-desde-el-congreso-habla-sobre-salida-de-rafael-rey-del-gabinete-de-luis-galarreta-estuvo-a-la-altura-desde-un-inicio-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-18T22:28:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey presenta su renuncia como ministro de Transportes y Comunicaciones por motivos de salud",
-    "url": "https://elcomercio.pe/politica/gobierno/rafael-rey-presenta-su-renuncia-como-ministro-de-transportes-y-comunicaciones-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T19:35:33+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey deja el MTC con la Nueva Carretera Central en la incertidumbre: sin presupuesto para arrancar obras en 2027",
-    "url": "https://rpp.pe/economia/economia/rafael-rey-deja-el-mtc-con-la-nueva-carretera-central-en-la-incertidumbre-sin-presupuesto-para-arrancar-obras-en-2027-noticia-1708064",
-    "source": "RPP",
-    "published": "2026-09-18T14:30:18-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones: “Razones de salud me impiden continuar”",
-    "url": "https://www.infobae.com/peru/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-razones-de-salud-me-impiden-continuar/",
-    "source": "Infobae",
-    "published": "2026-09-18T18:53:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Salud, Luis Dyer, destaca labor de Rafael Rey tras su renuncia al MTC",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T18:27:55+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones tras casi dos meses en el cargo",
-    "url": "https://larepublica.pe/politica/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-tras-casi-dos-meses-en-el-cargo-hnews-875142",
-    "source": "La República",
-    "published": "2026-09-18T18:26:36+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones",
-    "url": "https://gestion.pe/peru/politica/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-dwl-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-18T17:28:19+00:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Rafael Rey presenta su renuncia como ministro de Transportes y Comunicaciones por motivos de salud",
@@ -152,13 +194,6 @@
     "source": "El Comercio",
     "published": "2026-09-17T15:08:20+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Canciller Carlos Espá explicó ante el Pleno del Senado ingreso del Perú al Escudo de las Américas",
-    "url": "https://elcomercio.pe/politica/canciller-carlos-espa-explica-ante-el-pleno-del-senado-ingreso-del-peru-al-escudo-de-las-americas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-17T00:59:35+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -179,15 +214,6 @@
     "matched_in": "title"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Ministro de Vivienda confía en que Keiko Fujimori suba en las encuestas: \"Veo que está trabajando\"",
-    "url": "https://rpp.pe/peru/lambayeque/ministro-de-vivienda-confia-en-que-keiko-fujimori-suba-en-las-encuestas-noticia-1708279",
-    "source": "RPP",
-    "published": "2026-09-18T16:50:22-05:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "Mercado de capitales en Perú: comisión presidencial le pone foco, ¿qué temas debería considerar?",
@@ -195,15 +221,6 @@
     "source": "Gestión",
     "published": "2026-09-18T21:07:56+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministro de Justicia: nuevo subsistema contra la extorsión operará desde octubre en La Libertad",
-    "url": "https://gestion.pe/peru/politica/ministro-de-justicia-inpe-designara-funcionarios-sin-cuestionamientos-y-con-experiencia-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-18T04:56:00+00:00",
-    "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
