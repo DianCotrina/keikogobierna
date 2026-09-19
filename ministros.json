@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T09:13:27+00:00",
+ "generated": "2026-09-19T14:12:16+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,49 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del Interior, César Astudillo, fue interpelado: ¿Qué bancadas lo respaldan y cuáles lo cuestionan?",
+    "url": "https://elcomercio.pe/politica/ministro-astudillo-interpelado-que-bancadas-lo-respaldan-y-cuales-lo-cuestionan-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-19T13:40:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Óscar Reto responde a Cecilia Chacón por decirle que ponga orden: “Yo sé bien lo que tengo que hacer”",
+    "url": "https://larepublica.pe/politica/2026/09/18/oscar-reto-responde-a-cecilia-chacon-por-decirle-que-ponga-orden-yo-se-bien-lo-que-tengo-que-hacer-hnews-1685610",
+    "source": "La República",
+    "published": "2026-09-18T13:16:09+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Diputado Jesús Pérez protagoniza incidente durante interpelación de ministro Astudillo",
+    "url": "https://elcomercio.pe/politica/congreso/congreso-ministro-cesar-astudillo-y-diputado-jesus-perez-protagonizan-incidente-por-cifras-de-criminalidad-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-18T00:17:29+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juntos por el Perú no descarta censurar a ministro César Astudillo luego de que fuera interpelado",
+    "url": "https://larepublica.pe/politica/2026/09/17/juntos-por-el-peru-no-descarta-censurar-a-ministro-cesar-astudillo-luego-de-que-fuera-interpelado-hnews-251056",
+    "source": "La República",
+    "published": "2026-09-17T21:51:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo:Pleno de la Cámara de Diputados interpeló a ministro del Interior por ola de criminalidad",
+    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-17T21:36:33+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-rey-rey": [
    {
     "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
     "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-19T05:01:00+00:00",
+    "published": "2026-09-19T13:24:10+00:00",
     "matched_in": "title"
    },
    {
@@ -22,13 +59,6 @@
     "url": "https://www.infobae.com/peru/2026/09/19/jose-tangherlini-es-el-nuevo-titular-del-ministerio-de-transportes-y-comunicaciones-mtc/",
     "source": "Infobae",
     "published": "2026-09-19T02:36:08+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juramentó nuevo ministro de Transportes tras renuncia de Rafael Rey",
-    "url": "https://gestion.pe/peru/politica/juramento-nuevo-ministro-de-transportes-tras-renuncia-de-rafael-rey-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-19T02:34:45+00:00",
     "matched_in": "title"
    },
    {
@@ -67,20 +97,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Rafael Rey deja el MTC con la Nueva Carretera Central en la incertidumbre: sin presupuesto para arrancar obras en 2027",
-    "url": "https://rpp.pe/economia/economia/rafael-rey-deja-el-mtc-con-la-nueva-carretera-central-en-la-incertidumbre-sin-presupuesto-para-arrancar-obras-en-2027-noticia-1708064",
-    "source": "RPP",
-    "published": "2026-09-18T14:30:18-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones: “Razones de salud me impiden continuar”",
-    "url": "https://www.infobae.com/peru/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-razones-de-salud-me-impiden-continuar/",
-    "source": "Infobae",
-    "published": "2026-09-18T18:53:01+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro de Salud, Luis Dyer, destaca labor de Rafael Rey tras su renuncia al MTC",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
@@ -93,56 +109,14 @@
     "source": "La República",
     "published": "2026-09-18T18:26:36+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones",
-    "url": "https://gestion.pe/peru/politica/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-dwl-gobierno-de-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-18T17:28:19+00:00",
-    "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Ministro del Interior, César Astudillo, fue interpelado: ¿Qué bancadas lo respaldan y cuáles lo cuestionan?",
-    "url": "https://elcomercio.pe/politica/ministro-astudillo-interpelado-que-bancadas-lo-respaldan-y-cuales-lo-cuestionan-apuesplan-noticia/",
+    "title": "Alberto Beingolea: “Si insisten en no dar [las facultades], le están complicando la vida al Perú”",
+    "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-18T22:44:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Óscar Reto responde a Cecilia Chacón por decirle que ponga orden: “Yo sé bien lo que tengo que hacer”",
-    "url": "https://larepublica.pe/politica/2026/09/18/oscar-reto-responde-a-cecilia-chacon-por-decirle-que-ponga-orden-yo-se-bien-lo-que-tengo-que-hacer-hnews-1685610",
-    "source": "La República",
-    "published": "2026-09-18T13:16:09+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Diputado Jesús Pérez protagoniza incidente durante interpelación de ministro Astudillo",
-    "url": "https://elcomercio.pe/politica/congreso/congreso-ministro-cesar-astudillo-y-diputado-jesus-perez-protagonizan-incidente-por-cifras-de-criminalidad-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T00:17:29+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú no descarta censurar a ministro César Astudillo luego de que fuera interpelado",
-    "url": "https://larepublica.pe/politica/2026/09/17/juntos-por-el-peru-no-descarta-censurar-a-ministro-cesar-astudillo-luego-de-que-fuera-interpelado-hnews-251056",
-    "source": "La República",
-    "published": "2026-09-17T21:51:55+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo:Pleno de la Cámara de Diputados interpeló a ministro del Interior por ola de criminalidad",
-    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-17T21:36:33+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro César Astudillo será interpelado: estas son las 27 preguntas que responderá ante la Cámara de Diputados",
-    "url": "https://larepublica.pe/politica/2026/09/17/ministro-cesar-astudillo-sera-interpelado-estas-son-las-27-preguntas-que-respondera-ante-la-camara-de-diputados-hnews-284988",
-    "source": "La República",
-    "published": "2026-09-17T12:57:29+00:00",
+    "published": "2026-09-19T13:04:31+00:00",
     "matched_in": "title"
    }
   ],
@@ -221,15 +195,6 @@
     "source": "Gestión",
     "published": "2026-09-18T21:07:56+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Colegios podrán volver a expulsar a alumnos: Ministro Chang anuncia modificación tras caso Liceo Naval",
-    "url": "https://www.infobae.com/peru/2026/09/18/ministro-chang-anuncia-norma-para-que-colegios-puedan-expulsar-alumnos-vamos-a-volver-al-orden/",
-    "source": "Infobae",
-    "published": "2026-09-18T21:50:50+00:00",
-    "matched_in": "title"
    }
   ]
  }
