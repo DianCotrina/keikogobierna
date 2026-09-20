@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T19:12:42+00:00",
+ "generated": "2026-09-20T00:44:51+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -20,13 +20,6 @@
   ],
   "rafael-rey-rey": [
    {
-    "title": "Galarreta responde a pedido de que se priorice lo urgente en las facultades: La Constitución “no habla de urgencia”",
-    "url": "https://rpp.pe/politica/gobierno/galarreta-responde-a-pedido-de-que-se-priorice-lo-urgente-en-las-facultades-la-constitucion-no-habla-de-urgencia-noticia-1708387",
-    "source": "RPP",
-    "published": "2026-09-19T12:55:04-05:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Luis Galarreta no descarta que Rafael Rey asuma un nuevo cargo en el Gobierno tras su renuncia al MTC",
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-no-descarta-que-rafael-rey-asuma-un-nuevo-cargo-en-el-gobierno-tras-su-renuncia-al-mtc-ultimas-noticia/",
     "source": "El Comercio",
@@ -38,13 +31,6 @@
     "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
     "source": "El Comercio",
     "published": "2026-09-19T16:27:50+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "José Tangherlini es el nuevo titular del Ministerio de Transportes y Comunicaciones (MTC)",
-    "url": "https://www.infobae.com/peru/2026/09/19/jose-tangherlini-es-el-nuevo-titular-del-ministerio-de-transportes-y-comunicaciones-mtc/",
-    "source": "Infobae",
-    "published": "2026-09-19T02:36:08+00:00",
     "matched_in": "title"
    },
    {
@@ -76,13 +62,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Rafael Rey deja el MTC con la Nueva Carretera Central en la incertidumbre: sin presupuesto para iniciar obras en 2027",
-    "url": "https://rpp.pe/economia/economia/rafael-rey-deja-el-mtc-con-la-nueva-carretera-central-en-la-incertidumbre-sin-presupuesto-para-arrancar-obras-en-2027-noticia-1708064",
-    "source": "RPP",
-    "published": "2026-09-18T14:30:18-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro de Salud, Luis Dyer, destaca labor de Rafael Rey tras su renuncia al MTC",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
@@ -111,27 +90,6 @@
     "source": "La República",
     "published": "2026-09-18T13:16:09+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Diputado Jesús Pérez protagoniza incidente durante interpelación de ministro Astudillo",
-    "url": "https://elcomercio.pe/politica/congreso/congreso-ministro-cesar-astudillo-y-diputado-jesus-perez-protagonizan-incidente-por-cifras-de-criminalidad-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T00:17:29+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juntos por el Perú no descarta censurar a ministro César Astudillo luego de que fuera interpelado",
-    "url": "https://larepublica.pe/politica/2026/09/17/juntos-por-el-peru-no-descarta-censurar-a-ministro-cesar-astudillo-luego-de-que-fuera-interpelado-hnews-251056",
-    "source": "La República",
-    "published": "2026-09-17T21:51:55+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo:Pleno de la Cámara de Diputados interpeló a ministro del Interior por ola de criminalidad",
-    "url": "https://elcomercio.pe/politica/en-vivo-cesar-astudillo-interpelado-ministro-del-interior-acude-al-congreso-estas-son-las-27-preguntas-que-debe-responder-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-17T21:36:33+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -161,6 +119,13 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Premier Galarreta plantea “poner orden” en colegios y evaluar expulsión de escolares",
+    "url": "https://gestion.pe/peru/politica/premier-galarreta-plantea-poner-orden-en-colegios-y-evaluar-expulsion-de-escolares-como-sancion-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-19T23:55:00+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Luis Galarreta asumirá la Presidencia de Perú durante el viaje de Keiko Fujimori a EE. UU.",
     "url": "https://www.infobae.com/peru/2026/09/19/luis-galarreta-asumira-la-presidencia-de-peru-durante-el-viaje-de-keiko-fujimori-a-ee-uu/",
     "source": "Infobae",
@@ -180,49 +145,8 @@
     "title": "Canciller Espá y OEA suscriben acuerdo para Misión de Observación Electoral en ERM 2026",
     "url": "https://gestion.pe/peru/politica/canciller-carlos-espa-y-oea-suscriben-acuerdo-para-mision-de-observacion-electoral-en-elecciones-regionales-y-municipales-2026-noticia/",
     "source": "Gestión",
-    "published": "2026-09-19T15:20:17+00:00",
+    "published": "2026-09-19T20:20:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Perú ingresó al Escudo de las Américas sin tratado ni obligaciones vinculantes, afirma el canciller: ¿qué falta definir?",
-    "url": "https://elcomercio.pe/politica/congreso/peru-ingreso-al-escudo-de-las-americas-sin-tratado-ni-obligaciones-vinculantes-afirma-el-canciller-tlcnota-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-17T23:45:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Ejército simuló entrega de helicópteros rusos reparados",
-    "url": "https://larepublica.pe/politica/2026/09/15/ejercito-simulo-entrega-de-helicopteros-rusos-reparados-hnews-1054455",
-    "source": "La República",
-    "published": "2026-09-17T23:23:02+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Pacientes hospitalizados de EsSalud podrán estar acompañados de un familiar 24/7, anunció presidenta de la entidad",
-    "url": "https://rpp.pe/politica/gobierno/pacientes-hospitalizados-de-essalud-podran-estar-acompanados-de-un-familiar-24-7-anuncio-presidenta-de-la-entidad-noticia-1708373",
-    "source": "RPP",
-    "published": "2026-09-19T11:00:12-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Presidenta de EsSalud anunció reorganización de la entidad para reducir costos: \"Ese dinero debe ir a la prestación del servicio\"",
-    "url": "https://rpp.pe/politica/gobierno/presidenta-de-essalud-anuncio-reorganizacion-de-la-entidad-para-reducir-costos-ese-dinero-debe-ir-a-la-prestacion-del-servicio-noticia-1708365",
-    "source": "RPP",
-    "published": "2026-09-19T09:25:55-05:00",
-    "matched_in": "summary"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Mercado de capitales en Perú: comisión presidencial le pone foco, ¿qué temas debería considerar?",
-    "url": "https://gestion.pe/tu-dinero/finanzas-personales/mercado-de-capitales-en-peru-comision-presidencial-del-gobierno-de-keiko-fujimori-le-pone-foco-que-temas-deberia-considerar-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-18T21:07:56+00:00",
-    "matched_in": "summary"
    }
   ]
  }
