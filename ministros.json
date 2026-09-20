@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T14:33:46+00:00",
+ "generated": "2026-09-20T19:16:54+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,21 +9,12 @@
   "Infobae"
  ],
  "ministers": {
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Alberto Beingolea: “Si insisten en no dar [las facultades], le están complicando la vida al Perú”",
-    "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-20T11:50:28+00:00",
-    "matched_in": "title"
-   }
-  ],
   "rafael-rey-rey": [
    {
     "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
     "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-20T11:49:43+00:00",
+    "published": "2026-09-20T16:00:00+00:00",
     "matched_in": "title"
    },
    {
@@ -60,12 +51,14 @@
     "source": "El Comercio",
     "published": "2026-09-18T18:27:55+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Rafael Rey renuncia al Ministerio de Transportes y Comunicaciones tras casi dos meses en el cargo",
-    "url": "https://larepublica.pe/politica/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-tras-casi-dos-meses-en-el-cargo-hnews-875142",
-    "source": "La República",
-    "published": "2026-09-18T18:26:36+00:00",
+    "title": "Alberto Beingolea: “Si insisten en no dar [las facultades], le están complicando la vida al Perú”",
+    "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-20T14:50:00+00:00",
     "matched_in": "title"
    }
   ],
