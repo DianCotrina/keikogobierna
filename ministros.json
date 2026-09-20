@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T00:44:51+00:00",
+ "generated": "2026-09-20T09:37:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -45,13 +45,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/jose-tangherlini-jura-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-keiko-fujimori-mtc-palacio-de-gobierno-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-19T02:06:58+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Salud habla de la salida de Rafael Rey del Gabinete que lidera Luis Galarreta",
-    "url": "https://gestion.pe/peru/ministro-de-salud-desde-el-congreso-habla-sobre-salida-de-rafael-rey-del-gabinete-de-luis-galarreta-estuvo-a-la-altura-desde-un-inicio-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-18T22:28:00+00:00",
     "matched_in": "title"
    },
    {
@@ -102,13 +95,6 @@
    }
   ],
   "luis-williams-dyer-fernandez": [
-   {
-    "title": "Ministro de Salud habla de la salida de Rafael Rey del Gabinete que lidera Luis Galarreta",
-    "url": "https://gestion.pe/peru/ministro-de-salud-desde-el-congreso-habla-sobre-salida-de-rafael-rey-del-gabinete-de-luis-galarreta-estuvo-a-la-altura-desde-un-inicio-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-18T22:28:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro de Salud, Luis Dyer, destaca labor de Rafael Rey tras su renuncia al MTC",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
