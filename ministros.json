@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T09:37:37+00:00",
+ "generated": "2026-09-20T14:33:46+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,23 +14,23 @@
     "title": "Alberto Beingolea: “Si insisten en no dar [las facultades], le están complicando la vida al Perú”",
     "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-19T19:00:00+00:00",
+    "published": "2026-09-20T11:50:28+00:00",
     "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
    {
+    "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
+    "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-20T11:49:43+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Luis Galarreta no descarta que Rafael Rey asuma un nuevo cargo en el Gobierno tras su renuncia al MTC",
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-no-descarta-que-rafael-rey-asuma-un-nuevo-cargo-en-el-gobierno-tras-su-renuncia-al-mtc-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-19T17:07:05+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
-    "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-19T16:27:50+00:00",
     "matched_in": "title"
    },
    {
@@ -76,13 +76,6 @@
     "source": "El Comercio",
     "published": "2026-09-19T13:40:16+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Óscar Reto responde a Cecilia Chacón por decirle que ponga orden: “Yo sé bien lo que tengo que hacer”",
-    "url": "https://larepublica.pe/politica/2026/09/18/oscar-reto-responde-a-cecilia-chacon-por-decirle-que-ponga-orden-yo-se-bien-lo-que-tengo-que-hacer-hnews-1685610",
-    "source": "La República",
-    "published": "2026-09-18T13:16:09+00:00",
-    "matched_in": "summary"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -109,13 +102,6 @@
     "url": "https://gestion.pe/peru/politica/premier-galarreta-plantea-poner-orden-en-colegios-y-evaluar-expulsion-de-escolares-como-sancion-noticia/",
     "source": "Gestión",
     "published": "2026-09-19T23:55:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta asumirá la Presidencia de Perú durante el viaje de Keiko Fujimori a EE. UU.",
-    "url": "https://www.infobae.com/peru/2026/09/19/luis-galarreta-asumira-la-presidencia-de-peru-durante-el-viaje-de-keiko-fujimori-a-ee-uu/",
-    "source": "Infobae",
-    "published": "2026-09-19T18:29:50+00:00",
     "matched_in": "title"
    },
    {
