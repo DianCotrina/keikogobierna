@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T10:26:18+00:00",
+ "generated": "2026-09-21T16:49:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "rafael-rey-rey": [
+   {
+    "title": "MTC: Thangherlini asume sector de 567 proyectos lejos de inaugurarse, ¿cuáles cuestan más?",
+    "url": "https://gestion.pe/economia/mtc-jose-thangherlini-asume-cartera-de-567-proyectos-lejos-de-inaugurarse-cuales-cuestan-mas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T14:48:52+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Rafael Rey niega desavenencias con Keiko Fujimori tras su renuncia al MTC",
     "url": "https://elcomercio.pe/politica/actualidad/rafael-rey-niega-desavenencias-con-keiko-fujimori-tras-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-mtc-ultimas-noticia/",
@@ -48,43 +55,43 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Asesinato de candidata Susy Aponte: jefe de la PNP encabezará operación e investigaciones",
-    "url": "https://gestion.pe/peru/asesinato-de-candidata-susy-aponte-jefe-de-la-pnp-encabezara-operacion-e-investigaciones-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-21T05:56:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "‘China Polo’: Disponen que nuevo comandante de la PNP encabece la operación e investigaciones en Caraz",
-    "url": "https://elcomercio.pe/peru/ancash/china-polo-disponen-que-nuevo-comandante-de-la-policia-nacional-encabece-la-operacion-e-investigaciones-en-caraz-susy-aponte-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-21T03:59:07+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Partido del Buen Gobierno sobre el asesinato de la candidata Susy Aponte: \"El silencio del Gobierno acrecienta el miedo\"",
-    "url": "https://rpp.pe/politica/actualidad/partido-del-buen-gobierno-sobre-el-asesinato-de-la-candidata-susy-aponte-el-silencio-del-gobierno-acrecienta-el-miedo-noticia-1708520",
-    "source": "RPP",
-    "published": "2026-09-20T18:29:32-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro del Interior, César Astudillo, fue interpelado: ¿Qué bancadas lo respaldan y cuáles lo cuestionan?",
-    "url": "https://elcomercio.pe/politica/ministro-astudillo-interpelado-que-bancadas-lo-respaldan-y-cuales-lo-cuestionan-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-19T13:40:16+00:00",
-    "matched_in": "title"
-   }
-  ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "América y El Comercio organizan foro “Municipios, Senado y El Niño: los temas que marcarán el país”",
+    "url": "https://gestion.pe/peru/politica/america-y-el-comercio-organizan-foro-municipios-senado-y-el-fenomeno-de-el-nino-los-temas-que-marcaran-el-pais-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T16:38:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Marco Vinelli suspende su viaje con Keiko Fujimori a Estados Unidos por avance del fenómeno El Niño",
+    "url": "https://larepublica.pe/politica/2026/09/21/ministro-marco-vinelli-suspende-su-viaje-con-keiko-fujimori-a-estados-unidos-por-avance-del-fenomeno-el-nino-hnews-1700433",
+    "source": "La República",
+    "published": "2026-09-21T16:09:30+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Vinelli afirmó que suspendió su viaje en comitiva oficial a EE.UU. porque 'El Niño' se \"estaría adelantando\"",
     "url": "https://rpp.pe/politica/gobierno/el-nino-se-adelanta-en-peru-ministro-vinelli-cancela-viaje-a-ee-uu-por-alertas-de-lluvias-noticia-1708540",
     "source": "RPP",
     "published": "2026-09-20T23:19:45-05:00",
     "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Congresista Zunini anuncia que impulsarán censura contra ministro del Interior",
+    "url": "https://gestion.pe/peru/congreso-ernesto-zunini-anuncia-que-impulsaran-censura-contra-ministro-del-interior-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T16:27:27+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Asesinato de candidata Susy Aponte: jefe de la PNP encabezará operación e investigaciones",
+    "url": "https://gestion.pe/peru/asesinato-de-candidata-susy-aponte-jefe-de-la-pnp-encabezara-operacion-e-investigaciones-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T05:56:00+00:00",
+    "matched_in": "summary"
    }
   ],
   "jose-antonio-chang-escobedo": [
@@ -100,22 +107,6 @@
     "url": "https://www.infobae.com/peru/2026/09/21/minedu-confirma-80-denuncias-por-violencia-hostigamiento-sexual-y-tocamientos-indebidos-en-el-liceo-naval-durante-dos-anos/",
     "source": "Infobae",
     "published": "2026-09-21T00:38:38+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Chang dice que en Liceo Naval Almirante Guise hay 80 denuncias por violencia y anuncia protocolo de expulsión de escolares",
-    "url": "https://rpp.pe/politica/gobierno/chang-dice-que-en-liceo-naval-almirante-guise-hay-80-denuncias-por-violencia-y-anuncia-protocolo-de-expulsion-de-escolares-noticia-1708507",
-    "source": "RPP",
-    "published": "2026-09-20T17:22:08-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Premier Galarreta plantea “poner orden” en colegios y evaluar expulsión de escolares",
-    "url": "https://gestion.pe/peru/politica/premier-galarreta-plantea-poner-orden-en-colegios-y-evaluar-expulsion-de-escolares-como-sancion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-19T23:55:00+00:00",
     "matched_in": "title"
    }
   ]
