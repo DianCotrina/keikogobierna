@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T16:49:05+00:00",
+ "generated": "2026-09-21T20:49:57+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "MTC: Thangherlini asume sector de 567 proyectos lejos de inaugurarse, ¿cuáles cuestan más?",
     "url": "https://gestion.pe/economia/mtc-jose-thangherlini-asume-cartera-de-567-proyectos-lejos-de-inaugurarse-cuales-cuestan-mas-noticia/",
     "source": "Gestión",
-    "published": "2026-09-21T14:48:52+00:00",
+    "published": "2026-09-21T17:30:00+00:00",
     "matched_in": "title"
    },
    {
@@ -25,24 +25,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Rafael Rey reitera que su salida del MTC fue por razones de salud: \"Keiko Fujimori no me ha jalado ninguna oreja\"",
-    "url": "https://rpp.pe/politica/gobierno/rafael-rey-reitera-que-su-salida-del-mtc-fue-por-razones-de-salud-keiko-fujimori-no-me-ha-jalado-ninguna-oreja-noticia-1708534",
-    "source": "RPP",
-    "published": "2026-09-20T21:48:09-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
     "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
     "source": "El Comercio",
     "published": "2026-09-20T22:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta no descarta que Rafael Rey asuma un nuevo cargo en el Gobierno tras su renuncia al MTC",
-    "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-no-descarta-que-rafael-rey-asuma-un-nuevo-cargo-en-el-gobierno-tras-su-renuncia-al-mtc-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-19T17:07:05+00:00",
     "matched_in": "title"
    }
   ],
@@ -55,35 +41,74 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Minem: Zafranal, Galeno y Michiquillay están entre los proyectos que se busca destrabar para crecer al 6%",
+    "url": "https://elcomercio.pe/economia/peru/minem-zafranal-galeno-y-michiquillay-estan-entre-los-proyectos-que-se-busca-destrabar-para-crecer-al-6-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-21T19:37:45+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministerio de Trabajo impulsa cooperación con Estados Unidos para afrontar desafíos laborales",
+    "url": "https://elcomercio.pe/economia/peru/ministerio-de-trabajo-impulsa-cooperacion-con-estados-unidos-para-afrontar-desafios-laborales-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-21T17:41:11+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Marco Vinelli sobre suspensión de su viaje a EE. UU.: \"La presidenta nos indicó que la atención de la emergencia es prioridad\"",
+    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-la-presidenta-nos-indico-que-la-atencion-de-la-emergencia-es-prioridad-noticia-1708625",
+    "source": "RPP",
+    "published": "2026-09-21T14:51:03-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Marco Vinelli suspende su viaje con Keiko Fujimori a Estados Unidos por avance del fenómeno El Niño",
+    "url": "https://larepublica.pe/politica/2026/09/21/ministro-marco-vinelli-suspende-su-viaje-con-keiko-fujimori-a-estados-unidos-por-avance-del-fenomeno-el-nino-hnews-1700433",
+    "source": "La República",
+    "published": "2026-09-21T19:10:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "América y El Comercio organizan foro “Municipios, Senado y El Niño: los temas que marcarán el país”",
     "url": "https://gestion.pe/peru/politica/america-y-el-comercio-organizan-foro-municipios-senado-y-el-fenomeno-de-el-nino-los-temas-que-marcaran-el-pais-noticia/",
     "source": "Gestión",
     "published": "2026-09-21T16:38:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Marco Vinelli suspende su viaje con Keiko Fujimori a Estados Unidos por avance del fenómeno El Niño",
-    "url": "https://larepublica.pe/politica/2026/09/21/ministro-marco-vinelli-suspende-su-viaje-con-keiko-fujimori-a-estados-unidos-por-avance-del-fenomeno-el-nino-hnews-1700433",
-    "source": "La República",
-    "published": "2026-09-21T16:09:30+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Vinelli afirmó que suspendió su viaje en comitiva oficial a EE.UU. porque 'El Niño' se \"estaría adelantando\"",
-    "url": "https://rpp.pe/politica/gobierno/el-nino-se-adelanta-en-peru-ministro-vinelli-cancela-viaje-a-ee-uu-por-alertas-de-lluvias-noticia-1708540",
-    "source": "RPP",
-    "published": "2026-09-20T23:19:45-05:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Miguel Torres a la oposición: “Muy rápidos para pedir una censura”",
+    "url": "https://gestion.pe/peru/politica/miguel-torres-critica-mocion-de-censura-contra-cesar-astudillo-y-pide-priorizar-delegacion-de-facultades-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T20:32:03+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Congresista Zunini anuncia que impulsarán censura contra ministro del Interior",
     "url": "https://gestion.pe/peru/congreso-ernesto-zunini-anuncia-que-impulsaran-censura-contra-ministro-del-interior-noticia/",
     "source": "Gestión",
-    "published": "2026-09-21T16:27:27+00:00",
+    "published": "2026-09-21T20:28:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "‘China’ Polo: bancada de Juntos por el Perú anuncia moción de censura contra el ministro del Interior, César Astudillo",
+    "url": "https://www.infobae.com/peru/2026/09/21/china-polo-bancada-de-juntos-por-el-peru-anuncia-mocion-de-censura-contra-el-ministro-del-interior/",
+    "source": "Infobae",
+    "published": "2026-09-21T19:18:40+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Vocero de Juntos por el Perú anuncia moción de censura contra el ministro del Interior: \"Necesitamos resultados\"",
+    "url": "https://rpp.pe/politica/congreso/vocero-de-juntos-por-el-peru-anuncia-mocion-de-censura-contra-el-ministro-del-interior-necesitamos-resultados-noticia-1708585",
+    "source": "RPP",
+    "published": "2026-09-21T11:54:02-05:00",
     "matched_in": "title"
    },
    {
@@ -94,20 +119,29 @@
     "matched_in": "summary"
    }
   ],
-  "jose-antonio-chang-escobedo": [
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Liceo Naval Almirante Guise: padres protestan frente al colegio y exigen justicia",
-    "url": "https://gestion.pe/peru/politica/liceo-naval-almirante-guise-registra-80-denuncias-por-violencia-escolar-afirma-ministro-chang-noticia/",
+    "title": "Luis Galarreta: Gobierno no cerrará Cámara de Diputados, “no tenemos ánimo de confrontar”",
+    "url": "https://gestion.pe/peru/politica/luis-galarreta-gobierno-no-cerrara-camara-de-diputados-ni-pedira-cuestion-de-confianza-noticia/",
     "source": "Gestión",
-    "published": "2026-09-21T03:16:00+00:00",
-    "matched_in": "summary"
+    "published": "2026-09-21T18:36:12+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Minedu confirma 80 denuncias por violencia, hostigamiento sexual y tocamientos indebidos en el Liceo Naval",
-    "url": "https://www.infobae.com/peru/2026/09/21/minedu-confirma-80-denuncias-por-violencia-hostigamiento-sexual-y-tocamientos-indebidos-en-el-liceo-naval-durante-dos-anos/",
+    "title": "Ministro Luis Galarreta sobre el asesinato de la ‘China’ Polo: “El sistema no funcionó”",
+    "url": "https://www.infobae.com/peru/2026/09/21/ministro-luis-galarreta-sobre-el-asesinato-de-la-china-polo-el-sistema-no-funciono/",
     "source": "Infobae",
-    "published": "2026-09-21T00:38:38+00:00",
+    "published": "2026-09-21T17:15:23+00:00",
     "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Liceo Naval Almirante Guise: Marina expresa solidaridad y padres protestaron frente al colegio",
+    "url": "https://gestion.pe/peru/politica/liceo-naval-almirante-guise-registra-80-denuncias-por-violencia-escolar-afirma-ministro-chang-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T17:34:12+00:00",
+    "matched_in": "summary"
    }
   ]
  }
