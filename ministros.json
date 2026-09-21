@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T19:16:54+00:00",
+ "generated": "2026-09-21T00:53:51+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
     "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-20T16:00:00+00:00",
+    "published": "2026-09-20T22:15:00+00:00",
     "matched_in": "title"
    },
    {
@@ -37,20 +37,6 @@
     "source": "El Comercio",
     "published": "2026-09-19T02:06:58+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey presenta su renuncia como ministro de Transportes y Comunicaciones por motivos de salud",
-    "url": "https://elcomercio.pe/politica/gobierno/rafael-rey-presenta-su-renuncia-como-ministro-de-transportes-y-comunicaciones-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T19:35:33+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Salud, Luis Dyer, destaca labor de Rafael Rey tras su renuncia al MTC",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T18:27:55+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -58,11 +44,18 @@
     "title": "Alberto Beingolea: “Si insisten en no dar [las facultades], le están complicando la vida al Perú”",
     "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-20T14:50:00+00:00",
+    "published": "2026-09-20T21:45:00+00:00",
     "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Partido del Buen Gobierno sobre el asesinato de la candidata Susy Aponte: \"El silencio del Gobierno acrecienta el miedo\"",
+    "url": "https://rpp.pe/politica/actualidad/partido-del-buen-gobierno-sobre-el-asesinato-de-la-candidata-susy-aponte-el-silencio-del-gobierno-acrecienta-el-miedo-noticia-1708520",
+    "source": "RPP",
+    "published": "2026-09-20T18:29:32-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Ministro del Interior, César Astudillo, fue interpelado: ¿Qué bancadas lo respaldan y cuáles lo cuestionan?",
     "url": "https://elcomercio.pe/politica/ministro-astudillo-interpelado-que-bancadas-lo-respaldan-y-cuales-lo-cuestionan-apuesplan-noticia/",
@@ -71,21 +64,26 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Ministro Guillermo Shinno: “La propuesta nuestra es que no haya ampliación del Reinfo”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-guillermo-shinno-la-propuesta-nuestra-es-que-no-haya-ampliacion-del-reinfo-minem-mineria-informal-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T22:26:07+00:00",
+    "title": "Minedu confirma 80 denuncias por violencia, hostigamiento sexual y tocamientos indebidos en el Liceo Naval",
+    "url": "https://www.infobae.com/peru/2026/09/21/minedu-confirma-80-denuncias-por-violencia-hostigamiento-sexual-y-tocamientos-indebidos-en-el-liceo-naval-durante-dos-anos/",
+    "source": "Infobae",
+    "published": "2026-09-21T00:38:38+00:00",
     "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
+   },
    {
-    "title": "Ministro de Salud, Luis Dyer, destaca labor de Rafael Rey tras su renuncia al MTC",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-de-salud-luis-dyer-destaca-labor-de-rafael-rey-tras-su-renuncia-al-mtc-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T18:27:55+00:00",
+    "title": "Liceo Naval Almirante Guise: padres protestan frente al colegio y exigen justicia",
+    "url": "https://gestion.pe/peru/politica/liceo-naval-almirante-guise-registra-80-denuncias-por-violencia-escolar-afirma-ministro-chang-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T00:17:19+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Chang dice que en Liceo Naval Almirante Guise hay 80 denuncias por violencia y anuncia protocolo de expulsión de escolares",
+    "url": "https://rpp.pe/politica/gobierno/chang-dice-que-en-liceo-naval-almirante-guise-hay-80-denuncias-por-violencia-y-anuncia-protocolo-de-expulsion-de-escolares-noticia-1708507",
+    "source": "RPP",
+    "published": "2026-09-20T17:22:08-05:00",
     "matched_in": "title"
    }
   ],
@@ -96,13 +94,6 @@
     "source": "Gestión",
     "published": "2026-09-19T23:55:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey presenta su renuncia como ministro de Transportes y Comunicaciones por motivos de salud",
-    "url": "https://elcomercio.pe/politica/gobierno/rafael-rey-presenta-su-renuncia-como-ministro-de-transportes-y-comunicaciones-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-18T19:35:33+00:00",
-    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
