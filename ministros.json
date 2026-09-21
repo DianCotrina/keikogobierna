@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T00:53:51+00:00",
+ "generated": "2026-09-21T10:26:18+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "rafael-rey-rey": [
+   {
+    "title": "Rafael Rey niega desavenencias con Keiko Fujimori tras su renuncia al MTC",
+    "url": "https://elcomercio.pe/politica/actualidad/rafael-rey-niega-desavenencias-con-keiko-fujimori-tras-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-mtc-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-21T03:14:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Rey reitera que su salida del MTC fue por razones de salud: \"Keiko Fujimori no me ha jalado ninguna oreja\"",
+    "url": "https://rpp.pe/politica/gobierno/rafael-rey-reitera-que-su-salida-del-mtc-fue-por-razones-de-salud-keiko-fujimori-no-me-ha-jalado-ninguna-oreja-noticia-1708534",
+    "source": "RPP",
+    "published": "2026-09-20T21:48:09-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
     "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
@@ -23,20 +37,6 @@
     "source": "El Comercio",
     "published": "2026-09-19T17:07:05+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "José Tangherlini jura como nuevo ministro de Transportes y Comunicaciones en reemplazo de Rafael Rey",
-    "url": "https://larepublica.pe/politica/2026/09/18/jose-tangherlini-jura-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-hnews-1414710",
-    "source": "La República",
-    "published": "2026-09-19T02:18:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "José Tangherlini jura como nuevo ministro de Transportes y Comunicaciones en reemplazo de Rafael Rey",
-    "url": "https://elcomercio.pe/politica/gobierno/jose-tangherlini-jura-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-keiko-fujimori-mtc-palacio-de-gobierno-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-19T02:06:58+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -44,11 +44,25 @@
     "title": "Alberto Beingolea: “Si insisten en no dar [las facultades], le están complicando la vida al Perú”",
     "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-20T21:45:00+00:00",
+    "published": "2026-09-21T01:44:00+00:00",
     "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Asesinato de candidata Susy Aponte: jefe de la PNP encabezará operación e investigaciones",
+    "url": "https://gestion.pe/peru/asesinato-de-candidata-susy-aponte-jefe-de-la-pnp-encabezara-operacion-e-investigaciones-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T05:56:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "‘China Polo’: Disponen que nuevo comandante de la PNP encabece la operación e investigaciones en Caraz",
+    "url": "https://elcomercio.pe/peru/ancash/china-polo-disponen-que-nuevo-comandante-de-la-policia-nacional-encabece-la-operacion-e-investigaciones-en-caraz-susy-aponte-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-21T03:59:07+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Partido del Buen Gobierno sobre el asesinato de la candidata Susy Aponte: \"El silencio del Gobierno acrecienta el miedo\"",
     "url": "https://rpp.pe/politica/actualidad/partido-del-buen-gobierno-sobre-el-asesinato-de-la-candidata-susy-aponte-el-silencio-del-gobierno-acrecienta-el-miedo-noticia-1708520",
@@ -64,20 +78,29 @@
     "matched_in": "title"
    }
   ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Vinelli afirmó que suspendió su viaje en comitiva oficial a EE.UU. porque 'El Niño' se \"estaría adelantando\"",
+    "url": "https://rpp.pe/politica/gobierno/el-nino-se-adelanta-en-peru-ministro-vinelli-cancela-viaje-a-ee-uu-por-alertas-de-lluvias-noticia-1708540",
+    "source": "RPP",
+    "published": "2026-09-20T23:19:45-05:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
+   {
+    "title": "Liceo Naval Almirante Guise: padres protestan frente al colegio y exigen justicia",
+    "url": "https://gestion.pe/peru/politica/liceo-naval-almirante-guise-registra-80-denuncias-por-violencia-escolar-afirma-ministro-chang-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T03:16:00+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Minedu confirma 80 denuncias por violencia, hostigamiento sexual y tocamientos indebidos en el Liceo Naval",
     "url": "https://www.infobae.com/peru/2026/09/21/minedu-confirma-80-denuncias-por-violencia-hostigamiento-sexual-y-tocamientos-indebidos-en-el-liceo-naval-durante-dos-anos/",
     "source": "Infobae",
     "published": "2026-09-21T00:38:38+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Liceo Naval Almirante Guise: padres protestan frente al colegio y exigen justicia",
-    "url": "https://gestion.pe/peru/politica/liceo-naval-almirante-guise-registra-80-denuncias-por-violencia-escolar-afirma-ministro-chang-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-21T00:17:19+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Chang dice que en Liceo Naval Almirante Guise hay 80 denuncias por violencia y anuncia protocolo de expulsión de escolares",
@@ -93,15 +116,6 @@
     "url": "https://gestion.pe/peru/politica/premier-galarreta-plantea-poner-orden-en-colegios-y-evaluar-expulsion-de-escolares-como-sancion-noticia/",
     "source": "Gestión",
     "published": "2026-09-19T23:55:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Canciller Espá y OEA suscriben acuerdo para Misión de Observación Electoral en ERM 2026",
-    "url": "https://gestion.pe/peru/politica/canciller-carlos-espa-y-oea-suscriben-acuerdo-para-mision-de-observacion-electoral-en-elecciones-regionales-y-municipales-2026-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-19T20:20:00+00:00",
     "matched_in": "title"
    }
   ]
