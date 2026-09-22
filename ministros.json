@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T09:39:40+00:00",
+ "generated": "2026-09-22T15:26:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,28 @@
   "Infobae"
  ],
  "ministers": {
+  "maria-magdalena-seminario-maron": [
+   {
+    "title": "María Seminario, ministra de la Mujer: “La población en este momento no está para vaivenes políticos”",
+    "url": "https://elcomercio.pe/politica/entrevista-maria-seminario-ministra-de-la-mujer-la-poblacion-en-este-momento-no-esta-para-vaivenes-politicos-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-22T13:55:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
-    "title": "Bancadas de oposición presentan moción de interpelación contra el ministro de Educación",
-    "url": "https://rpp.pe/politica/congreso/interpelacion-al-ministro-de-educacion-jose-chang-oposicion-presenta-mocion-con-44-preguntas-en-la-camara-de-diputados-noticia-1708683",
+    "title": "Diputados presentan moción para interpelar al ministro de Educación, José Antonio Chang",
+    "url": "https://gestion.pe/peru/politica/congreso-diputados-presentan-mocion-para-interpelar-al-ministro-de-educacion-jose-antonio-chang-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-22T12:41:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Minedu designa a Luis Alemán, viceministro de Gestión Institucional, como director del Liceo Naval Almirante Guise",
+    "url": "https://rpp.pe/politica/gobierno/minedu-designa-a-luis-aleman-viceministro-de-gestion-institucional-como-director-del-liceo-naval-almirante-guise-noticia-1708716",
     "source": "RPP",
-    "published": "2026-09-21T20:27:49-05:00",
+    "published": "2026-09-22T07:40:54-05:00",
     "matched_in": "title"
    },
    {
@@ -22,13 +38,6 @@
     "url": "https://elcomercio.pe/politica/congreso/jose-chang-presentan-mocion-para-interpelar-al-ministro-de-educacion-por-designaciones-y-otras-medidas-camara-de-diputados-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-22T01:01:59+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados presentan moción para interpelar al ministro de Educación, José Antonio Chang",
-    "url": "https://gestion.pe/peru/politica/congreso-diputados-presentan-mocion-para-interpelar-al-ministro-de-educacion-jose-antonio-chang-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-22T00:57:50+00:00",
     "matched_in": "title"
    },
    {
@@ -71,24 +80,6 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Minem: Zafranal, Galeno y Michiquillay están entre los proyectos que se busca destrabar para crecer al 6%",
-    "url": "https://elcomercio.pe/economia/peru/minem-zafranal-galeno-y-michiquillay-estan-entre-los-proyectos-que-se-busca-destrabar-para-crecer-al-6-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-21T19:37:45+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministerio de Trabajo impulsa cooperación con Estados Unidos para afrontar desafíos laborales",
-    "url": "https://elcomercio.pe/economia/peru/ministerio-de-trabajo-impulsa-cooperacion-con-estados-unidos-para-afrontar-desafios-laborales-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-21T17:41:11+00:00",
-    "matched_in": "title"
-   }
-  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Marco Vinelli sobre el pedido de facultades: \"Si no nos las dan, nosotros seguiremos mediante el esquema de decreto de urgencia\"",
@@ -105,45 +96,20 @@
     "matched_in": "title"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Keiko Fujimori sostuvo reuniones bilaterales con directora ejecutiva de UNODC y presidente de República Dominicana",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-sostuvo-reuniones-bilaterales-con-directora-ejecutiva-de-unodc-y-presidente-de-republica-dominicana-noticia-1708674",
-    "source": "RPP",
-    "published": "2026-09-21T19:05:11-05:00",
-    "matched_in": "summary"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro de Transportes: “Pretender censurar a un ministro a menos de dos meses no contribuye a la unidad frente a la inseguridad”",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-transportes-pretender-censurar-a-un-ministro-a-menos-de-dos-meses-no-contribuye-a-la-unidad-frente-a-la-inseguridad-noticia-1708724",
+    "source": "RPP",
+    "published": "2026-09-22T08:31:00-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Miguel Torres a la oposición: “Muy rápidos para pedir una censura”",
     "url": "https://gestion.pe/peru/politica/miguel-torres-critica-mocion-de-censura-contra-cesar-astudillo-y-pide-priorizar-delegacion-de-facultades-noticia/",
     "source": "Gestión",
     "published": "2026-09-22T00:00:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Congresista Zunini anuncia que impulsarán censura contra ministro del Interior",
-    "url": "https://gestion.pe/peru/congreso-ernesto-zunini-anuncia-que-impulsaran-censura-contra-ministro-del-interior-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-21T20:28:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "‘China’ Polo: bancada de Juntos por el Perú anuncia moción de censura contra el ministro del Interior, César Astudillo",
-    "url": "https://www.infobae.com/peru/2026/09/21/china-polo-bancada-de-juntos-por-el-peru-anuncia-mocion-de-censura-contra-el-ministro-del-interior/",
-    "source": "Infobae",
-    "published": "2026-09-21T19:18:40+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Luis Galarreta: Gobierno no cerrará Cámara de Diputados, “no tenemos ánimo de confrontar”",
-    "url": "https://gestion.pe/peru/politica/luis-galarreta-gobierno-no-cerrara-camara-de-diputados-ni-pedira-cuestion-de-confianza-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-21T20:59:16+00:00",
-    "matched_in": "title"
    }
   ]
  }
