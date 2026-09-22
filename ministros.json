@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T01:28:22+00:00",
+ "generated": "2026-09-22T09:39:40+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "jose-antonio-chang-escobedo": [
+   {
+    "title": "Bancadas de oposición presentan moción de interpelación contra el ministro de Educación",
+    "url": "https://rpp.pe/politica/congreso/interpelacion-al-ministro-de-educacion-jose-chang-oposicion-presenta-mocion-con-44-preguntas-en-la-camara-de-diputados-noticia-1708683",
+    "source": "RPP",
+    "published": "2026-09-21T20:27:49-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Diputados: Presentan moción para interpelar al ministro de Educación por designaciones y otras medidas",
     "url": "https://elcomercio.pe/politica/congreso/jose-chang-presentan-mocion-para-interpelar-al-ministro-de-educacion-por-designaciones-y-otras-medidas-camara-de-diputados-ultimas-noticia/",
@@ -96,13 +103,6 @@
     "source": "La República",
     "published": "2026-09-21T19:10:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "América y El Comercio organizan foro “Municipios, Senado y El Niño: los temas que marcarán el país”",
-    "url": "https://gestion.pe/peru/politica/america-y-el-comercio-organizan-foro-municipios-senado-y-el-fenomeno-de-el-nino-los-temas-que-marcaran-el-pais-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-21T16:38:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -143,13 +143,6 @@
     "url": "https://gestion.pe/peru/politica/luis-galarreta-gobierno-no-cerrara-camara-de-diputados-ni-pedira-cuestion-de-confianza-noticia/",
     "source": "Gestión",
     "published": "2026-09-21T20:59:16+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Luis Galarreta sobre el asesinato de la ‘China’ Polo: “El sistema no funcionó”",
-    "url": "https://www.infobae.com/peru/2026/09/21/ministro-luis-galarreta-sobre-el-asesinato-de-la-china-polo-el-sistema-no-funciono/",
-    "source": "Infobae",
-    "published": "2026-09-21T17:15:23+00:00",
     "matched_in": "title"
    }
   ]
