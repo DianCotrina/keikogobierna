@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T20:49:57+00:00",
+ "generated": "2026-09-22T01:28:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,35 @@
   "Infobae"
  ],
  "ministers": {
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Diputados: Presentan moción para interpelar al ministro de Educación por designaciones y otras medidas",
+    "url": "https://elcomercio.pe/politica/congreso/jose-chang-presentan-mocion-para-interpelar-al-ministro-de-educacion-por-designaciones-y-otras-medidas-camara-de-diputados-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-22T01:01:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputados presentan moción para interpelar al ministro de Educación, José Antonio Chang",
+    "url": "https://gestion.pe/peru/politica/congreso-diputados-presentan-mocion-para-interpelar-al-ministro-de-educacion-jose-antonio-chang-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-22T00:57:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Liceo Naval Almirante Guise: Marina expresa solidaridad y padres protestaron frente al colegio",
+    "url": "https://gestion.pe/peru/politica/liceo-naval-almirante-guise-registra-80-denuncias-por-violencia-escolar-afirma-ministro-chang-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-21T23:34:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "rafael-rey-rey": [
    {
     "title": "MTC: Thangherlini asume sector de 567 proyectos lejos de inaugurarse, ¿cuáles cuestan más?",
     "url": "https://gestion.pe/economia/mtc-jose-thangherlini-asume-cartera-de-567-proyectos-lejos-de-inaugurarse-cuales-cuestan-mas-noticia/",
     "source": "Gestión",
-    "published": "2026-09-21T17:30:00+00:00",
+    "published": "2026-09-22T00:20:00+00:00",
     "matched_in": "title"
    },
    {
@@ -61,10 +84,10 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Marco Vinelli sobre suspensión de su viaje a EE. UU.: \"La presidenta nos indicó que la atención de la emergencia es prioridad\"",
-    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-la-presidenta-nos-indico-que-la-atencion-de-la-emergencia-es-prioridad-noticia-1708625",
-    "source": "RPP",
-    "published": "2026-09-21T14:51:03-05:00",
+    "title": "Marco Vinelli sobre el pedido de facultades: \"Si no nos las dan, nosotros seguiremos mediante el esquema de decreto de urgencia\"",
+    "url": "https://larepublica.pe/politica/2026/09/21/marco-vinelli-sobre-el-pedido-de-facultades-si-no-nos-las-dan-seguiremos-mediante-el-esquema-de-decreto-de-urgencia-hnews-1242990",
+    "source": "La República",
+    "published": "2026-09-22T00:21:01+00:00",
     "matched_in": "title"
    },
    {
@@ -82,12 +105,21 @@
     "matched_in": "summary"
    }
   ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori sostuvo reuniones bilaterales con directora ejecutiva de UNODC y presidente de República Dominicana",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-sostuvo-reuniones-bilaterales-con-directora-ejecutiva-de-unodc-y-presidente-de-republica-dominicana-noticia-1708674",
+    "source": "RPP",
+    "published": "2026-09-21T19:05:11-05:00",
+    "matched_in": "summary"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Miguel Torres a la oposición: “Muy rápidos para pedir una censura”",
     "url": "https://gestion.pe/peru/politica/miguel-torres-critica-mocion-de-censura-contra-cesar-astudillo-y-pide-priorizar-delegacion-de-facultades-noticia/",
     "source": "Gestión",
-    "published": "2026-09-21T20:32:03+00:00",
+    "published": "2026-09-22T00:00:00+00:00",
     "matched_in": "summary"
    },
    {
@@ -103,20 +135,6 @@
     "source": "Infobae",
     "published": "2026-09-21T19:18:40+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Vocero de Juntos por el Perú anuncia moción de censura contra el ministro del Interior: \"Necesitamos resultados\"",
-    "url": "https://rpp.pe/politica/congreso/vocero-de-juntos-por-el-peru-anuncia-mocion-de-censura-contra-el-ministro-del-interior-necesitamos-resultados-noticia-1708585",
-    "source": "RPP",
-    "published": "2026-09-21T11:54:02-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Asesinato de candidata Susy Aponte: jefe de la PNP encabezará operación e investigaciones",
-    "url": "https://gestion.pe/peru/asesinato-de-candidata-susy-aponte-jefe-de-la-pnp-encabezara-operacion-e-investigaciones-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-21T05:56:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -124,7 +142,7 @@
     "title": "Luis Galarreta: Gobierno no cerrará Cámara de Diputados, “no tenemos ánimo de confrontar”",
     "url": "https://gestion.pe/peru/politica/luis-galarreta-gobierno-no-cerrara-camara-de-diputados-ni-pedira-cuestion-de-confianza-noticia/",
     "source": "Gestión",
-    "published": "2026-09-21T18:36:12+00:00",
+    "published": "2026-09-21T20:59:16+00:00",
     "matched_in": "title"
    },
    {
@@ -133,15 +151,6 @@
     "source": "Infobae",
     "published": "2026-09-21T17:15:23+00:00",
     "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Liceo Naval Almirante Guise: Marina expresa solidaridad y padres protestaron frente al colegio",
-    "url": "https://gestion.pe/peru/politica/liceo-naval-almirante-guise-registra-80-denuncias-por-violencia-escolar-afirma-ministro-chang-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-21T17:34:12+00:00",
-    "matched_in": "summary"
    }
   ]
  }
