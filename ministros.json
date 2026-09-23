@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T01:17:41+00:00",
+ "generated": "2026-09-23T09:47:08+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "María Seminario, ministra de la Mujer: “La población en este momento no está para vaivenes políticos” | Entrevista",
     "url": "https://elcomercio.pe/politica/entrevista-maria-seminario-ministra-de-la-mujer-la-poblacion-en-este-momento-no-esta-para-vaivenes-politicos-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-22T20:03:00+00:00",
+    "published": "2026-09-23T01:35:48+00:00",
     "matched_in": "title"
    }
   ],
@@ -48,40 +48,6 @@
     "matched_in": "title"
    }
   ],
-  "rafael-rey-rey": [
-   {
-    "title": "Rafael Rey niega desavenencias con Keiko Fujimori tras su renuncia al MTC",
-    "url": "https://elcomercio.pe/politica/actualidad/rafael-rey-niega-desavenencias-con-keiko-fujimori-tras-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-mtc-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-21T03:14:16+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Alberto Beingolea: “Si insisten en no dar [las facultades], le están complicando la vida al Perú”",
-    "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-21T01:44:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Perú busca posicionarse como socio estratégico de EE.UU. ante la transición energética y seguridad alimentaria",
-    "url": "https://elcomercio.pe/economia/peru/peru-busca-posicionarse-como-socio-estrategico-de-eeuu-ante-la-transicion-energetica-y-seguridad-alimentaria-mef-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-23T00:28:40+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Elmer Cuba: “si no se aprueban las facultades legislativas, el plan B es ir al Congreso, va a demorar más, pero no hay otro camino”",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-si-no-se-aprueban-las-facultades-legislativas-el-plan-b-es-ir-al-congreso-va-a-demorar-mas-pero-no-hay-otro-camino-noticia-1708862",
-    "source": "RPP",
-    "published": "2026-09-22T18:33:09-05:00",
-    "matched_in": "title"
-   }
-  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Marco Vinelli sobre el pedido de facultades: \"Si no nos las dan, nosotros seguiremos mediante el esquema de decreto de urgencia\"",
@@ -107,12 +73,21 @@
     "matched_in": "title"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Elmer Cuba: “si no se aprueban las facultades legislativas, el plan B es ir al Congreso, va a demorar más, pero no hay otro camino”",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-si-no-se-aprueban-las-facultades-legislativas-el-plan-b-es-ir-al-congreso-va-a-demorar-mas-pero-no-hay-otro-camino-noticia-1708862",
+    "source": "RPP",
+    "published": "2026-09-22T18:33:09-05:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "MTPE señala que noveno retiro de AFP debe evaluarse con estudios técnicos actualizados",
     "url": "https://gestion.pe/peru/politica/mtpe-senala-que-noveno-retiro-de-afp-debe-evaluarse-con-estudios-tecnicos-actualizados-noticia/",
     "source": "Gestión",
-    "published": "2026-09-22T22:58:26+00:00",
+    "published": "2026-09-23T03:15:00+00:00",
     "matched_in": "title"
    },
    {
@@ -123,28 +98,12 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro del MTC cuestiona censura contra Astudillo: “Perú necesita menos confrontación”",
-    "url": "https://gestion.pe/peru/politica/ministro-del-mtc-cuestiona-censura-contra-astudillo-peru-necesita-menos-confrontacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-23T00:45:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alias 'Jhonsson Pulpo' será trasladado a la Base Naval del Callao bajo estrictas medidas de seguridad",
-    "url": "https://rpp.pe/peru/actualidad/alias-jhonsson-pulpo-sera-trasladado-a-la-base-naval-del-callao-bajo-estrictas-medidas-de-seguridad-noticia-1708819",
-    "source": "RPP",
-    "published": "2026-09-22T16:11:14-05:00",
-    "matched_in": "summary"
-   }
-  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Minjus: facultades agilizarán traslado de internos y jóvenes infractores de alto riesgo",
     "url": "https://gestion.pe/peru/minjus-facultades-agilizaran-traslado-de-internos-y-jovenes-infractores-de-alto-riesgo-noticia/",
     "source": "Gestión",
-    "published": "2026-09-22T23:08:13+00:00",
+    "published": "2026-09-23T04:48:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -153,8 +112,17 @@
     "title": "Gobierno declarará en emergencia al sector textil por impacto de El Niño",
     "url": "https://gestion.pe/economia/gobierno-declarara-en-emergencia-al-sector-textil-por-impacto-de-el-nino-noticia/",
     "source": "Gestión",
-    "published": "2026-09-22T22:46:15+00:00",
+    "published": "2026-09-23T02:15:00+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del MTC cuestiona censura contra Astudillo: “Perú necesita menos confrontación”",
+    "url": "https://gestion.pe/peru/politica/ministro-del-mtc-cuestiona-censura-contra-astudillo-peru-necesita-menos-confrontacion-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-23T00:45:00+00:00",
+    "matched_in": "title"
    }
   ]
  }

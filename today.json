@@ -1,82 +1,19 @@
 {
- "generated": "2026-09-23T01:17:41+00:00",
+ "generated": "2026-09-23T09:47:08+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-09-22",
+ "date": "2026-09-23",
  "articles": [
   {
-   "title": "Debate municipal: simpatizantes de Renovación Popular y Fuerza Popular se enfrentan en exteriores del local",
-   "url": "https://larepublica.pe/politica/2026/09/22/debate-municipal-simpatizantes-de-renovacion-popular-y-fuerza-popular-se-enfrentan-en-exteriores-del-local-hnews-1793814",
-   "summary": "La PNP tuvo que intervenir para separar a los involucrados. El conflicto inició cuando llegó una portátil de Renovación Popular a una zona cerca al lugar del debate donde ya se encontraban los simpatizantes del partido naranja.",
-   "author": "Narda Saavedra",
-   "published": "2026-09-22T23:47:02+00:00",
-   "source": "La República",
-   "captured": "2026-09-23T01:17:41+00:00"
-  },
-  {
-   "title": "Keiko Fujimori y los ejes de su discurso ante la ONU: “la guerra” contra el crimen organizado y la defensa a militares",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-y-los-ejes-de-su-primer-discurso-ante-la-onu-la-guerra-contra-el-crimen-organizado-y-la-defensa-a-militares-apuesplan-noticia/",
-   "summary": "En su primera presentación ante la Asamblea General de las Naciones Unidas, que se realiza en Nueva York (Estados Unidos), la presidenta de la República, Keiko Fujimori, afirmó que los países de América Latina libran “una guerra” contra el crimen organizado transnacional, también defendió a militares y policías que continúan siendo procesados en el Perú y dijo esperar que la ONU “respete los límites” de cada nación.",
-   "author": "Sebastian Ortiz Martínez",
-   "published": "2026-09-22T23:29:32+00:00",
+   "title": "Del discurso a los resultados",
+   "url": "https://elcomercio.pe/opinion/editorial/del-discurso-a-los-resultados-el-mensaje-de-keiko-fujimori-ante-la-onu-sobre-la-lucha-contra-el-crimen-organizado-es-positivo-pero-no-solo-basta-nombrar-al-enemigo-naciones-unidas-noticia/",
+   "summary": "El mensaje de Keiko Fujimori ante la ONU sobre la lucha contra el crimen organizado es positivo, pero no solo basta nombrar al enemigo.",
+   "author": "Editorial El Comercio",
+   "published": "2026-09-23T05:10:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-09-23T01:17:41+00:00"
-  },
-  {
-   "title": "Senadora Karla Schaefer recibió 20 mil soles de empresario minero que busca una concesión en Arequipa",
-   "url": "https://larepublica.pe/politica/2026/09/22/senadora-karla-schaefer-recibio-20-mil-soles-de-empresario-minero-que-busca-una-concesion-en-arequipa-hnews-1345036",
-   "summary": "Pese a que la senadora de Fuerza Popular, Karla Schaefer, rechazó haber recibido aportes de empresas mineras, registros oficiales confirman que el empresario Francisco Pedraza —apoderado de The Mine Key S.A.C.— entregó S/20 mil a su campaña mientras su empresa mantiene activos trámites para obtener concesiones en Río Grande y Yanquihua, en la región Arequipa.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-09-22T23:02:13+00:00",
-   "source": "La República",
-   "captured": "2026-09-23T01:17:41+00:00"
-  },
-  {
-   "title": "Miguel Torres: “Me sorprende la rapidez, la agilidad con la que pueden tomar algunos temas y la poca celeridad en algunos otros”",
-   "url": "https://elcomercio.pe/politica/congreso/miguel-torres-me-sorprende-la-rapidez-la-agilidad-con-la-que-pueden-tomar-algunos-temas-y-la-poca-celeridad-en-algunos-otros-delegacion-de-facultades-senado-camara-de-diputados-congreso-ultimas-noticia/",
-   "summary": "El presidente del Congreso, Miguel Torres (Fuerza Popular), afirmó que le “sorprende” la rapidez y la agilidad con la que en la Cámara de Diputados pueden tomar algunos temas y la poca celeridad en otros, como la delegación de facultades.",
-   "author": "Redacción EC",
-   "published": "2026-09-22T22:48:45+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-23T01:17:41+00:00"
-  },
-  {
-   "title": "Keiko Fujimori acusa a 'agendas culturales' de generar divisiones entre la población ante Asamblea General de la ONU",
-   "url": "https://larepublica.pe/politica/2026/09/22/keiko-fujimori-acusa-a-agendas-culturales-de-generar-divisiones-entre-la-poblacion-ante-asamblea-general-de-la-onu-hnews-2111912",
-   "summary": "Además, la presidenta insistió en equiparar organizaciones criminales con grupos terroristas.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-09-22T22:09:30+00:00",
-   "source": "La República",
-   "captured": "2026-09-23T01:17:41+00:00"
-  },
-  {
-   "title": "Keiko Fujimori participa en reunión del Escudo de las Américas que encabezó Donald Trump",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-participa-en-reunion-del-escudo-de-las-americas-que-encabezo-donald-trump-apuesplan-ultimas-noticia/",
-   "summary": "La presidenta Keiko Fujimori participó en una reunión del Escudo de las Américas, coalición impulsada por el presidente de Estados Unidos, Donald Trump, para fortalecer la cooperación entre países frente a las organizaciones criminales transnacionales.",
-   "author": "Redacción EC",
-   "published": "2026-09-22T20:45:44+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-23T01:17:41+00:00"
-  },
-  {
-   "title": "Keiko Fujimori reitera en calificar como organizaciones terroristas a grupos criminales en Asamblea General de la ONU",
-   "url": "https://larepublica.pe/politica/2026/09/22/keiko-fujimori-reitera-en-calificar-como-organizaciones-terroristas-a-grupos-criminales-en-asamblea-general-de-la-onu-hnews-2068924",
-   "summary": "La presidenta también insistió en permitir que las Fuerzas Armadas y la Policía Nacional cuenten con un marco normativo para operar en conjunto frente a estas organizaciones criminales.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-09-22T18:03:11+00:00",
-   "source": "La República",
-   "captured": "2026-09-22T20:01:24+00:00"
-  },
-  {
-   "title": "Diputada Cecilia Chacón: “La intención de la izquierda es generar el caos”",
-   "url": "https://elcomercio.pe/politica/congreso/diputada-cecilia-chacon-la-intencion-de-la-izquierda-es-generar-el-caos-tras-mocion-de-interpelacion-a-ministro-de-educacion-ultimas-noticia/",
-   "summary": "La diputada de Fuerza Popular Cecilia Chacón cuestionó la moción de interpelación presentada contra el ministro de Educación, José Antonio Chang, y sostuvo que esta medida responde, según su apreciación, a una agenda política de sectores de izquierda.",
-   "author": "Redacción EC",
-   "published": "2026-09-22T17:00:02+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-22T20:01:24+00:00"
+   "captured": "2026-09-23T09:47:08+00:00"
   }
  ]
 }
