@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T15:20:24+00:00",
+ "generated": "2026-09-23T19:58:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Diputados: Vocero de Obras anuncia que su bancada apoyará moción de censura contra el ministro César Astudillo",
+    "url": "https://elcomercio.pe/politica/cesar-astudillo-vocero-de-obras-anuncia-que-su-bancada-en-la-camara-de-diputados-apoyara-mocion-de-censura-contra-ministro-del-interior-victor-pinan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-23T17:43:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Bancada de Obras anuncia que respaldará moción de censura contra ministro del Interior, César Astudillo",
+    "url": "https://rpp.pe/politica/congreso/bancada-de-obras-anuncia-que-respaldara-mocion-de-censura-contra-ministro-del-interior-cesar-astudillo-noticia-1708975",
+    "source": "RPP",
+    "published": "2026-09-23T12:20:00-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Obras se suma a la moción de censura contra el ministro del Interior",
+    "url": "https://larepublica.pe/politica/2026/09/23/obras-se-suma-a-la-mocion-de-censura-contra-el-ministro-del-interior-hnews-2194177",
+    "source": "La República",
+    "published": "2026-09-23T13:50:24+00:00",
+    "matched_in": "title"
+   }
+  ],
   "maria-magdalena-seminario-maron": [
    {
     "title": "María Seminario, ministra de la Mujer: “La población en este momento no está para vaivenes políticos” | Entrevista",
@@ -19,13 +42,6 @@
    }
   ],
   "jose-antonio-chang-escobedo": [
-   {
-    "title": "Moción de interpelación al ministro de Educación: reacciones encontradas en el Congreso",
-    "url": "https://gestion.pe/peru/politica/congreso-jose-antonio-chang-reacciones-encontradas-ante-mocion-de-interpelacion-al-ministro-de-educacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-22T21:32:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Diputada Cecilia Chacón: “La intención de la izquierda es generar el caos”",
     "url": "https://elcomercio.pe/politica/congreso/diputada-cecilia-chacon-la-intencion-de-la-izquierda-es-generar-el-caos-tras-mocion-de-interpelacion-a-ministro-de-educacion-ultimas-noticia/",
@@ -59,22 +75,6 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Obras se suma a la moción de censura contra el ministro del Interior",
-    "url": "https://larepublica.pe/politica/2026/09/23/obras-se-suma-a-la-mocion-de-censura-contra-el-ministro-del-interior-hnews-2194177",
-    "source": "La República",
-    "published": "2026-09-23T13:50:24+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro del MTC cuestiona censura contra Astudillo: “Perú necesita menos confrontación”",
-    "url": "https://gestion.pe/peru/politica/ministro-del-mtc-cuestiona-censura-contra-astudillo-peru-necesita-menos-confrontacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-23T00:45:00+00:00",
-    "matched_in": "title"
-   }
-  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Marco Vinelli sobre el pedido de facultades: \"Si no nos las dan, nosotros seguiremos mediante el esquema de decreto de urgencia\"",
@@ -82,12 +82,35 @@
     "source": "La República",
     "published": "2026-09-22T00:21:01+00:00",
     "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "EsSalud despedirá 11 mil 500 locadores de servicios para redestinar recursos",
+    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
+    "source": "Infobae",
+    "published": "2026-09-23T18:28:35+00:00",
+    "matched_in": "summary"
    },
    {
-    "title": "Ministro Marco Vinelli suspende su viaje con Keiko Fujimori a Estados Unidos por avance del fenómeno El Niño",
-    "url": "https://larepublica.pe/politica/2026/09/21/ministro-marco-vinelli-suspende-su-viaje-con-keiko-fujimori-a-estados-unidos-por-avance-del-fenomeno-el-nino-hnews-1700433",
-    "source": "La República",
-    "published": "2026-09-21T19:10:00+00:00",
+    "title": "Ministro Juan Sheput advierte que la IA ya desplaza a abogados, contadores y psicólogos en Perú: “empresas están prescindiendo de esos profesionales”",
+    "url": "https://rpp.pe/economia/economia/ia-ministro-de-trabajo-juan-sheput-advierte-que-inteligencia-artificial-desplaza-a-abogados-contadores-administradores-y-psicologos-en-peru-noticia-1708965",
+    "source": "RPP",
+    "published": "2026-09-23T11:11:33-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sueldo mínimo: Keiko Fujimori aprobará aumento de S/100 “a la brevedad posible”",
+    "url": "https://www.infobae.com/peru/2026/09/22/primer-aumento-del-sueldo-minimo-de-s100-seria-aprobado-a-la-brevedad-posible/",
+    "source": "Infobae",
+    "published": "2026-09-23T15:46:43+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MTPE señala que noveno retiro de AFP debe evaluarse con estudios técnicos actualizados",
+    "url": "https://gestion.pe/peru/politica/mtpe-senala-que-noveno-retiro-de-afp-debe-evaluarse-con-estudios-tecnicos-actualizados-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-23T03:15:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -106,22 +129,6 @@
     "url": "https://gestion.pe/peru/minjus-facultades-agilizaran-traslado-de-internos-y-jovenes-infractores-de-alto-riesgo-noticia/",
     "source": "Gestión",
     "published": "2026-09-23T04:48:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Keiko Fujimori aprobará el primer aumento del sueldo mínimo de S/100 “a la brevedad posible”",
-    "url": "https://www.infobae.com/peru/2026/09/22/primer-aumento-del-sueldo-minimo-de-s100-seria-aprobado-a-la-brevedad-posible/",
-    "source": "Infobae",
-    "published": "2026-09-23T11:32:25+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "MTPE señala que noveno retiro de AFP debe evaluarse con estudios técnicos actualizados",
-    "url": "https://gestion.pe/peru/politica/mtpe-senala-que-noveno-retiro-de-afp-debe-evaluarse-con-estudios-tecnicos-actualizados-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-23T03:15:00+00:00",
     "matched_in": "title"
    }
   ],
