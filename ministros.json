@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T20:01:24+00:00",
+ "generated": "2026-09-23T01:17:41+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,16 +14,16 @@
     "title": "María Seminario, ministra de la Mujer: “La población en este momento no está para vaivenes políticos” | Entrevista",
     "url": "https://elcomercio.pe/politica/entrevista-maria-seminario-ministra-de-la-mujer-la-poblacion-en-este-momento-no-esta-para-vaivenes-politicos-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-22T18:03:50+00:00",
+    "published": "2026-09-22T20:03:00+00:00",
     "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
    {
-    "title": "Chacón y Muñante critican moción de interpelación contra ministro de Educación: \"La intención es generar caos\"",
-    "url": "https://rpp.pe/politica/gobierno/chacon-y-munante-critican-mocion-de-interpelacion-contra-ministro-de-educacion-la-intencion-es-generar-caos-noticia-1708778",
-    "source": "RPP",
-    "published": "2026-09-22T13:27:41-05:00",
+    "title": "Moción de interpelación al ministro de Educación: reacciones encontradas en el Congreso",
+    "url": "https://gestion.pe/peru/politica/congreso-jose-antonio-chang-reacciones-encontradas-ante-mocion-de-interpelacion-al-ministro-de-educacion-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-22T21:32:00+00:00",
     "matched_in": "title"
    },
    {
@@ -32,13 +32,6 @@
     "source": "El Comercio",
     "published": "2026-09-22T17:00:02+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Moción de interpelación al ministro de Educación: reacciones encontradas en el Congreso",
-    "url": "https://gestion.pe/peru/politica/congreso-jose-antonio-chang-reacciones-encontradas-ante-mocion-de-interpelacion-al-ministro-de-educacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-22T16:32:37+00:00",
-    "matched_in": "title"
    },
    {
     "title": "Diputados presentan moción para interpelar al ministro de Educación, José Antonio Chang",
@@ -62,13 +55,6 @@
     "source": "El Comercio",
     "published": "2026-09-21T03:14:16+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Rafael Rey: los entretelones a su renuncia al Ministerio de Transportes y Comunicaciones",
-    "url": "https://elcomercio.pe/politica/rafael-rey-los-entretelones-a-su-renuncia-al-ministerio-de-transportes-y-comunicaciones-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-20T22:15:00+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -77,6 +63,22 @@
     "url": "https://elcomercio.pe/politica/gobierno/entrevista-alberto-beingolea-si-insisten-en-no-dar-las-facultades-le-estan-complicando-la-vida-al-peru-entrevista-noticia/",
     "source": "El Comercio",
     "published": "2026-09-21T01:44:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Perú busca posicionarse como socio estratégico de EE.UU. ante la transición energética y seguridad alimentaria",
+    "url": "https://elcomercio.pe/economia/peru/peru-busca-posicionarse-como-socio-estrategico-de-eeuu-ante-la-transicion-energetica-y-seguridad-alimentaria-mef-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-23T00:28:40+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Elmer Cuba: “si no se aprueban las facultades legislativas, el plan B es ir al Congreso, va a demorar más, pero no hay otro camino”",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-si-no-se-aprueban-las-facultades-legislativas-el-plan-b-es-ir-al-congreso-va-a-demorar-mas-pero-no-hay-otro-camino-noticia-1708862",
+    "source": "RPP",
+    "published": "2026-09-22T18:33:09-05:00",
     "matched_in": "title"
    }
   ],
@@ -96,19 +98,62 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Ministro de Energía y Minas señala que el proyecto Tía María \"iniciaría fase de producción en inicios de 2028\"",
+    "url": "https://rpp.pe/economia/economia/proyecto-tia-maria-minem-senala-que-el-proyecto-iniciaria-fase-de-produccion-en-inicios-de-2028-noticia-1708870",
+    "source": "RPP",
+    "published": "2026-09-22T20:12:42-05:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Sueldo mínimo: Keiko Fujimori anunciará “a la brevedad” alza de S/100, previsto a aplicarse en octubre o noviembre",
-    "url": "https://rpp.pe/economia/economia/sueldo-minimo-keiko-fujimori-anunciara-a-la-brevedad-alza-de-s-100-del-sueldo-minimo-previsto-a-aplicarse-en-octubre-o-noviembre-noticia-1708805",
-    "source": "RPP",
-    "published": "2026-09-22T14:30:43-05:00",
-    "matched_in": "summary"
+    "title": "MTPE señala que noveno retiro de AFP debe evaluarse con estudios técnicos actualizados",
+    "url": "https://gestion.pe/peru/politica/mtpe-senala-que-noveno-retiro-de-afp-debe-evaluarse-con-estudios-tecnicos-actualizados-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-22T22:58:26+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Primer aumento del sueldo mínimo de S/100 se aprobará “a la brevedad posible” por Keiko Fujimori",
-    "url": "https://www.infobae.com/peru/2026/09/22/primer-aumento-del-sueldo-minimo-de-s100-seria-aprobado-a-la-brevedad-posible/",
-    "source": "Infobae",
-    "published": "2026-09-22T17:27:17+00:00",
+    "title": "Sheput dice que Gobierno está \"pensando en una reorganización de la Policía\" y respaldó gestión de titular del Mininter",
+    "url": "https://rpp.pe/politica/gobierno/sheput-dice-que-gobierno-esta-pensando-en-una-reorganizacion-de-la-policia-y-respaldo-gestion-de-titular-del-mininter-noticia-1708835",
+    "source": "RPP",
+    "published": "2026-09-22T16:50:47-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del MTC cuestiona censura contra Astudillo: “Perú necesita menos confrontación”",
+    "url": "https://gestion.pe/peru/politica/ministro-del-mtc-cuestiona-censura-contra-astudillo-peru-necesita-menos-confrontacion-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-23T00:45:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alias 'Jhonsson Pulpo' será trasladado a la Base Naval del Callao bajo estrictas medidas de seguridad",
+    "url": "https://rpp.pe/peru/actualidad/alias-jhonsson-pulpo-sera-trasladado-a-la-base-naval-del-callao-bajo-estrictas-medidas-de-seguridad-noticia-1708819",
+    "source": "RPP",
+    "published": "2026-09-22T16:11:14-05:00",
+    "matched_in": "summary"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Minjus: facultades agilizarán traslado de internos y jóvenes infractores de alto riesgo",
+    "url": "https://gestion.pe/peru/minjus-facultades-agilizaran-traslado-de-internos-y-jovenes-infractores-de-alto-riesgo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-22T23:08:13+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
+   {
+    "title": "Gobierno declarará en emergencia al sector textil por impacto de El Niño",
+    "url": "https://gestion.pe/economia/gobierno-declarara-en-emergencia-al-sector-textil-por-impacto-de-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-22T22:46:15+00:00",
     "matched_in": "summary"
    }
   ]
