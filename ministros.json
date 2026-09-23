@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T09:47:08+00:00",
+ "generated": "2026-09-23T15:20:24+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -34,17 +34,44 @@
     "matched_in": "summary"
    },
    {
-    "title": "Diputados presentan moción para interpelar al ministro de Educación, José Antonio Chang",
-    "url": "https://gestion.pe/peru/politica/congreso-diputados-presentan-mocion-para-interpelar-al-ministro-de-educacion-jose-antonio-chang-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-22T12:41:43+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Diputados: Presentan moción para interpelar al ministro de Educación por designaciones y otras medidas",
     "url": "https://elcomercio.pe/politica/congreso/jose-chang-presentan-mocion-para-interpelar-al-ministro-de-educacion-por-designaciones-y-otras-medidas-camara-de-diputados-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-22T01:01:59+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Perú refuerza en Nueva York su agenda comercial y de inversiones con Asia-Pacífico y Estados Unidos",
+    "url": "https://elcomercio.pe/economia/peru/peru-refuerza-en-nueva-york-su-agenda-comercial-y-de-inversiones-con-asia-pacifico-y-estados-unidos-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-23T14:25:33+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Elmer Cuba, ministro de Economía, sostiene reuniones con las principales calificadoras de riesgo en Nueva York",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-sostiene-reuniones-con-las-principales-calificadoras-de-riesgo-en-nueva-york-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-23T13:54:17+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Obras se suma a la moción de censura contra el ministro del Interior",
+    "url": "https://larepublica.pe/politica/2026/09/23/obras-se-suma-a-la-mocion-de-censura-contra-el-ministro-del-interior-hnews-2194177",
+    "source": "La República",
+    "published": "2026-09-23T13:50:24+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del MTC cuestiona censura contra Astudillo: “Perú necesita menos confrontación”",
+    "url": "https://gestion.pe/peru/politica/ministro-del-mtc-cuestiona-censura-contra-astudillo-peru-necesita-menos-confrontacion-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-23T00:45:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -64,38 +91,13 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "rafael-rey-rey": [
    {
-    "title": "Ministro de Energía y Minas señala que el proyecto Tía María \"iniciaría fase de producción en inicios de 2028\"",
-    "url": "https://rpp.pe/economia/economia/proyecto-tia-maria-minem-senala-que-el-proyecto-iniciaria-fase-de-produccion-en-inicios-de-2028-noticia-1708870",
-    "source": "RPP",
-    "published": "2026-09-22T20:12:42-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Elmer Cuba: “si no se aprueban las facultades legislativas, el plan B es ir al Congreso, va a demorar más, pero no hay otro camino”",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-si-no-se-aprueban-las-facultades-legislativas-el-plan-b-es-ir-al-congreso-va-a-demorar-mas-pero-no-hay-otro-camino-noticia-1708862",
-    "source": "RPP",
-    "published": "2026-09-22T18:33:09-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "MTPE señala que noveno retiro de AFP debe evaluarse con estudios técnicos actualizados",
-    "url": "https://gestion.pe/peru/politica/mtpe-senala-que-noveno-retiro-de-afp-debe-evaluarse-con-estudios-tecnicos-actualizados-noticia/",
+    "title": "Editorial de Gestión: Primeros pasos",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-primeros-pasos-noticia/",
     "source": "Gestión",
-    "published": "2026-09-23T03:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sheput dice que Gobierno está \"pensando en una reorganización de la Policía\" y respaldó gestión de titular del Mininter",
-    "url": "https://rpp.pe/politica/gobierno/sheput-dice-que-gobierno-esta-pensando-en-una-reorganizacion-de-la-policia-y-respaldo-gestion-de-titular-del-mininter-noticia-1708835",
-    "source": "RPP",
-    "published": "2026-09-22T16:50:47-05:00",
-    "matched_in": "title"
+    "published": "2026-09-23T10:00:00+00:00",
+    "matched_in": "summary"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -107,6 +109,22 @@
     "matched_in": "title"
    }
   ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Keiko Fujimori aprobará el primer aumento del sueldo mínimo de S/100 “a la brevedad posible”",
+    "url": "https://www.infobae.com/peru/2026/09/22/primer-aumento-del-sueldo-minimo-de-s100-seria-aprobado-a-la-brevedad-posible/",
+    "source": "Infobae",
+    "published": "2026-09-23T11:32:25+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MTPE señala que noveno retiro de AFP debe evaluarse con estudios técnicos actualizados",
+    "url": "https://gestion.pe/peru/politica/mtpe-senala-que-noveno-retiro-de-afp-debe-evaluarse-con-estudios-tecnicos-actualizados-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-23T03:15:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-carlos-requejo-aleman": [
    {
     "title": "Gobierno declarará en emergencia al sector textil por impacto de El Niño",
@@ -114,15 +132,6 @@
     "source": "Gestión",
     "published": "2026-09-23T02:15:00+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro del MTC cuestiona censura contra Astudillo: “Perú necesita menos confrontación”",
-    "url": "https://gestion.pe/peru/politica/ministro-del-mtc-cuestiona-censura-contra-astudillo-peru-necesita-menos-confrontacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-23T00:45:00+00:00",
-    "matched_in": "title"
    }
   ]
  }
