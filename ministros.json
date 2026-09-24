@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T19:58:37+00:00",
+ "generated": "2026-09-24T01:10:26+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,19 +9,49 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ernesto Álvarez sale en defensa de Fujimori y asegura que decisiones del Poder Judicial si pueden ser criticadas",
+    "url": "https://larepublica.pe/politica/2026/09/23/ernesto-alvarez-sale-en-defensa-de-fujimori-y-asegura-que-decisiones-del-poder-judicial-si-pueden-ser-criticadas-hnews-1183143",
+    "source": "La República",
+    "published": "2026-09-23T23:24:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Justicia pide al Poder Judicial resolver casos de Chavín de Huántar y El Frontón antes de expresar “indignación pública”",
+    "url": "https://www.infobae.com/peru/2026/09/23/ministro-de-justicia-pide-al-poder-judicial-resolver-casos-de-chavin-de-huantar-y-el-fronton-antes-de-expresar-indignacion-publica/",
+    "source": "Infobae",
+    "published": "2026-09-23T22:40:29+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ernesto Álvarez responde a Janet Tello: “A nadie le debe llamar la atención que se pueda criticar la actuación de jueces o fiscales”",
+    "url": "https://elcomercio.pe/politica/justicia/ernesto-alvarez-responde-a-janet-tello-a-nadie-le-debe-llamar-la-atencion-que-se-pueda-criticar-la-actuacion-de-jueces-o-fiscales-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-23T22:11:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Justicia responde a presidenta del PJ y dice que decisiones judiciales sí pueden ser criticadas sin que esto signifique una injerencia",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-justicia-responde-a-janet-tello-y-dice-que-decisiones-judiciales-si-pueden-ser-criticadas-sin-que-esto-signifique-una-injerencia-noticia-1709000",
+    "source": "RPP",
+    "published": "2026-09-23T14:52:49-05:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Bancada Obras anunció que respaldará moción de censura contra ministro César Astudillo",
+    "url": "https://gestion.pe/peru/politica/bancada-obras-anuncio-que-respaldara-mocion-de-censura-contra-ministro-cesar-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-24T00:00:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Diputados: Vocero de Obras anuncia que su bancada apoyará moción de censura contra el ministro César Astudillo",
     "url": "https://elcomercio.pe/politica/cesar-astudillo-vocero-de-obras-anuncia-que-su-bancada-en-la-camara-de-diputados-apoyara-mocion-de-censura-contra-ministro-del-interior-victor-pinan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-23T17:43:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Bancada de Obras anuncia que respaldará moción de censura contra ministro del Interior, César Astudillo",
-    "url": "https://rpp.pe/politica/congreso/bancada-de-obras-anuncia-que-respaldara-mocion-de-censura-contra-ministro-del-interior-cesar-astudillo-noticia-1708975",
-    "source": "RPP",
-    "published": "2026-09-23T12:20:00-05:00",
     "matched_in": "title"
    },
    {
@@ -77,40 +107,17 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Marco Vinelli sobre el pedido de facultades: \"Si no nos las dan, nosotros seguiremos mediante el esquema de decreto de urgencia\"",
-    "url": "https://larepublica.pe/politica/2026/09/21/marco-vinelli-sobre-el-pedido-de-facultades-si-no-nos-las-dan-seguiremos-mediante-el-esquema-de-decreto-de-urgencia-hnews-1242990",
-    "source": "La República",
-    "published": "2026-09-22T00:21:01+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "EsSalud despedirá 11 mil 500 locadores de servicios para redestinar recursos",
-    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
-    "source": "Infobae",
-    "published": "2026-09-23T18:28:35+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Juan Sheput advierte que la IA ya desplaza a abogados, contadores y psicólogos en Perú: “empresas están prescindiendo de esos profesionales”",
-    "url": "https://rpp.pe/economia/economia/ia-ministro-de-trabajo-juan-sheput-advierte-que-inteligencia-artificial-desplaza-a-abogados-contadores-administradores-y-psicologos-en-peru-noticia-1708965",
-    "source": "RPP",
-    "published": "2026-09-23T11:11:33-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Sueldo mínimo: Keiko Fujimori aprobará aumento de S/100 “a la brevedad posible”",
-    "url": "https://www.infobae.com/peru/2026/09/22/primer-aumento-del-sueldo-minimo-de-s100-seria-aprobado-a-la-brevedad-posible/",
-    "source": "Infobae",
-    "published": "2026-09-23T15:46:43+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "MTPE señala que noveno retiro de AFP debe evaluarse con estudios técnicos actualizados",
-    "url": "https://gestion.pe/peru/politica/mtpe-senala-que-noveno-retiro-de-afp-debe-evaluarse-con-estudios-tecnicos-actualizados-noticia/",
+    "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
+    "url": "https://gestion.pe/peru/midagri-hay-1700-puntos-criticos-por-el-nino-pero-no-intervendra-en-todos-que-hara-el-gobierno-noticia/",
     "source": "Gestión",
-    "published": "2026-09-23T03:15:00+00:00",
+    "published": "2026-09-23T23:34:38+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "“No hay una disminución en el flujo de los alimentos”, afirma el Midagri tras alarma de escasez por el fenómeno El Niño",
+    "url": "https://www.infobae.com/peru/2026/09/23/no-hay-una-disminucion-en-el-flujo-de-los-alimentos-afirma-el-midagri-tras-alarma-de-escasez-por-el-fenomeno-el-nino/",
+    "source": "Infobae",
+    "published": "2026-09-23T21:43:57+00:00",
     "matched_in": "title"
    }
   ],
@@ -123,21 +130,12 @@
     "matched_in": "summary"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Minjus: facultades agilizarán traslado de internos y jóvenes infractores de alto riesgo",
-    "url": "https://gestion.pe/peru/minjus-facultades-agilizaran-traslado-de-internos-y-jovenes-infractores-de-alto-riesgo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-23T04:48:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Gobierno declarará en emergencia al sector textil por impacto de El Niño",
-    "url": "https://gestion.pe/economia/gobierno-declarara-en-emergencia-al-sector-textil-por-impacto-de-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-23T02:15:00+00:00",
+    "title": "EsSalud despedirá 11 mil 500 locadores de servicios para redestinar recursos",
+    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
+    "source": "Infobae",
+    "published": "2026-09-23T18:28:35+00:00",
     "matched_in": "summary"
    }
   ]
