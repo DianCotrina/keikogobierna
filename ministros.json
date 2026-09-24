@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T01:10:26+00:00",
+ "generated": "2026-09-24T09:44:17+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -30,16 +30,16 @@
     "source": "El Comercio",
     "published": "2026-09-23T22:11:59+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Justicia responde a presidenta del PJ y dice que decisiones judiciales sí pueden ser criticadas sin que esto signifique una injerencia",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-justicia-responde-a-janet-tello-y-dice-que-decisiones-judiciales-si-pueden-ser-criticadas-sin-que-esto-signifique-una-injerencia-noticia-1709000",
-    "source": "RPP",
-    "published": "2026-09-23T14:52:49-05:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "\"El tiempo ya se le acabó\": diputado Fernando García considera que César Astudillo debería dejar el Ministerio del Interior",
+    "url": "https://rpp.pe/politica/congreso/diputado-fernando-garcia-buen-gobierno-considera-que-cesar-astudillo-deberia-dejar-el-ministerio-del-interior-noticia-1709092",
+    "source": "RPP",
+    "published": "2026-09-23T22:07:31-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Bancada Obras anunció que respaldará moción de censura contra ministro César Astudillo",
     "url": "https://gestion.pe/peru/politica/bancada-obras-anuncio-que-respaldara-mocion-de-censura-contra-ministro-cesar-astudillo-noticia/",
@@ -78,34 +78,16 @@
     "source": "El Comercio",
     "published": "2026-09-22T17:00:02+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Diputados: Presentan moción para interpelar al ministro de Educación por designaciones y otras medidas",
-    "url": "https://elcomercio.pe/politica/congreso/jose-chang-presentan-mocion-para-interpelar-al-ministro-de-educacion-por-designaciones-y-otras-medidas-camara-de-diputados-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-22T01:01:59+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Perú refuerza en Nueva York su agenda comercial y de inversiones con Asia-Pacífico y Estados Unidos",
-    "url": "https://elcomercio.pe/economia/peru/peru-refuerza-en-nueva-york-su-agenda-comercial-y-de-inversiones-con-asia-pacifico-y-estados-unidos-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-23T14:25:33+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Elmer Cuba, ministro de Economía, sostiene reuniones con las principales calificadoras de riesgo en Nueva York",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-sostiene-reuniones-con-las-principales-calificadoras-de-riesgo-en-nueva-york-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-23T13:54:17+00:00",
-    "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Reflexiones indispensables",
+    "url": "https://elcomercio.pe/opinion/editorial/reflexiones-indispensables-el-foro-municipios-senado-y-el-fenomeno-de-el-nino-arrojo-luces-sobre-los-retos-que-enfrenta-el-pais-congreso-alcaldia-de-lima-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-24T05:10:00+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
     "url": "https://gestion.pe/peru/midagri-hay-1700-puntos-criticos-por-el-nino-pero-no-intervendra-en-todos-que-hara-el-gobierno-noticia/",
@@ -119,24 +101,6 @@
     "source": "Infobae",
     "published": "2026-09-23T21:43:57+00:00",
     "matched_in": "title"
-   }
-  ],
-  "rafael-rey-rey": [
-   {
-    "title": "Editorial de Gestión: Primeros pasos",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-primeros-pasos-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-23T10:00:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "EsSalud despedirá 11 mil 500 locadores de servicios para redestinar recursos",
-    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
-    "source": "Infobae",
-    "published": "2026-09-23T18:28:35+00:00",
-    "matched_in": "summary"
    }
   ]
  }
