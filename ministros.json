@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T15:43:40+00:00",
+ "generated": "2026-09-24T20:16:54+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,23 +9,21 @@
   "Infobae"
  ],
  "ministers": {
-  "ernesto-julio-alvarez-miranda": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ernesto Álvarez sale en defensa de Fujimori y asegura que decisiones del Poder Judicial si pueden ser criticadas",
-    "url": "https://larepublica.pe/politica/2026/09/23/ernesto-alvarez-sale-en-defensa-de-fujimori-y-asegura-que-decisiones-del-poder-judicial-si-pueden-ser-criticadas-hnews-1183143",
-    "source": "La República",
-    "published": "2026-09-23T23:24:44+00:00",
-    "matched_in": "title"
+    "title": "Luis Galarreta: “Censurar a un ministro que ha sido interpelado y está trabajando ¿para quién trabajamos?”",
+    "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-sobre-mocion-de-censura-contra-cesar-astudillo-censurar-a-un-ministro-que-ha-sido-interpelado-y-esta-trabajando-para-quien-trabajamos-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-24T17:41:19+00:00",
+    "matched_in": "summary"
    },
    {
-    "title": "Ernesto Álvarez responde a Janet Tello: “A nadie le debe llamar la atención que se pueda criticar la actuación de jueces o fiscales”",
-    "url": "https://elcomercio.pe/politica/justicia/ernesto-alvarez-responde-a-janet-tello-a-nadie-le-debe-llamar-la-atencion-que-se-pueda-criticar-la-actuacion-de-jueces-o-fiscales-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-23T22:11:59+00:00",
+    "title": "Ministro del Interior sobre críticas contra regulación de armas de uso civil: “Va a suceder, les guste o no”",
+    "url": "https://rpp.pe/politica/estado/ministro-del-interior-sobre-criticas-contra-regulacion-de-armas-de-uso-civil-va-a-suceder-les-guste-o-no-noticia-1709171",
+    "source": "RPP",
+    "published": "2026-09-24T12:21:25-05:00",
     "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
+   },
    {
     "title": "César Astudillo niega relación entre relevo de Víctor Revoredo y asesinato de la ‘China Polo’: “Parecería”",
     "url": "https://www.infobae.com/peru/2026/09/24/cesar-astudillo-niega-relacion-entre-relevo-de-victor-revoredo-y-asesinato-de-la-china-polo-pareceria/",
@@ -34,10 +32,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Bancada Obras anunció que respaldará moción de censura contra ministro César Astudillo",
-    "url": "https://gestion.pe/peru/politica/bancada-obras-anuncio-que-respaldara-mocion-de-censura-contra-ministro-cesar-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-24T00:00:00+00:00",
+    "title": "\"El tiempo ya se le acabó\": diputado Fernando García considera que César Astudillo debería dejar el Ministerio del Interior",
+    "url": "https://rpp.pe/politica/congreso/diputado-fernando-garcia-buen-gobierno-considera-que-cesar-astudillo-deberia-dejar-el-ministerio-del-interior-noticia-1709092",
+    "source": "RPP",
+    "published": "2026-09-23T22:07:31-05:00",
     "matched_in": "title"
    },
    {
@@ -55,6 +53,29 @@
     "matched_in": "title"
    }
   ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Víctor Piñán al Ejecutivo por condicionar seguridad con aprobación facultades: “No justifiquen su falta de eficacia”",
+    "url": "https://larepublica.pe/politica/2026/09/24/victor-pinan-al-ejecutivo-por-condicionar-seguridad-con-aprobacion-facultades-no-justifiquen-su-falta-de-eficacia-hnews-1787760",
+    "source": "La República",
+    "published": "2026-09-24T20:16:02+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ernesto Álvarez sale en defensa de Fujimori y asegura que decisiones del Poder Judicial si pueden ser criticadas",
+    "url": "https://larepublica.pe/politica/2026/09/23/ernesto-alvarez-sale-en-defensa-de-fujimori-y-asegura-que-decisiones-del-poder-judicial-si-pueden-ser-criticadas-hnews-1183143",
+    "source": "La República",
+    "published": "2026-09-23T23:24:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ernesto Álvarez responde a Janet Tello: “A nadie le debe llamar la atención que se pueda criticar la actuación de jueces o fiscales”",
+    "url": "https://elcomercio.pe/politica/justicia/ernesto-alvarez-responde-a-janet-tello-a-nadie-le-debe-llamar-la-atencion-que-se-pueda-criticar-la-actuacion-de-jueces-o-fiscales-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-23T22:11:59+00:00",
+    "matched_in": "title"
+   }
+  ],
   "maria-magdalena-seminario-maron": [
    {
     "title": "María Seminario, ministra de la Mujer: “La población en este momento no está para vaivenes políticos” | Entrevista",
@@ -64,15 +85,6 @@
     "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Diputada Cecilia Chacón: “La intención de la izquierda es generar el caos”",
-    "url": "https://elcomercio.pe/politica/congreso/diputada-cecilia-chacon-la-intencion-de-la-izquierda-es-generar-el-caos-tras-mocion-de-interpelacion-a-ministro-de-educacion-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-22T17:00:02+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
@@ -80,6 +92,15 @@
     "source": "Gestión",
     "published": "2026-09-24T11:34:00+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta advierte a Diputados por eventuales censuras y dice que Bukele demoró 6 meses en obtener resultados",
+    "url": "https://www.infobae.com/peru/2026/09/24/luis-galarreta-advierte-a-diputados-por-eventuales-censuras-y-dice-que-bukele-demoro-6-meses-en-obtener-resultados/",
+    "source": "Infobae",
+    "published": "2026-09-24T16:42:10+00:00",
+    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
