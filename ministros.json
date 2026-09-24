@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T09:44:17+00:00",
+ "generated": "2026-09-24T15:43:40+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,13 +18,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro de Justicia pide al Poder Judicial resolver casos de Chavín de Huántar y El Frontón antes de expresar “indignación pública”",
-    "url": "https://www.infobae.com/peru/2026/09/23/ministro-de-justicia-pide-al-poder-judicial-resolver-casos-de-chavin-de-huantar-y-el-fronton-antes-de-expresar-indignacion-publica/",
-    "source": "Infobae",
-    "published": "2026-09-23T22:40:29+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ernesto Álvarez responde a Janet Tello: “A nadie le debe llamar la atención que se pueda criticar la actuación de jueces o fiscales”",
     "url": "https://elcomercio.pe/politica/justicia/ernesto-alvarez-responde-a-janet-tello-a-nadie-le-debe-llamar-la-atencion-que-se-pueda-criticar-la-actuacion-de-jueces-o-fiscales-ultimas-noticia/",
     "source": "El Comercio",
@@ -34,10 +27,10 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "\"El tiempo ya se le acabó\": diputado Fernando García considera que César Astudillo debería dejar el Ministerio del Interior",
-    "url": "https://rpp.pe/politica/congreso/diputado-fernando-garcia-buen-gobierno-considera-que-cesar-astudillo-deberia-dejar-el-ministerio-del-interior-noticia-1709092",
-    "source": "RPP",
-    "published": "2026-09-23T22:07:31-05:00",
+    "title": "César Astudillo niega relación entre relevo de Víctor Revoredo y asesinato de la ‘China Polo’: “Parecería”",
+    "url": "https://www.infobae.com/peru/2026/09/24/cesar-astudillo-niega-relacion-entre-relevo-de-victor-revoredo-y-asesinato-de-la-china-polo-pareceria/",
+    "source": "Infobae",
+    "published": "2026-09-24T12:44:29+00:00",
     "matched_in": "title"
    },
    {
@@ -82,25 +75,20 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Reflexiones indispensables",
-    "url": "https://elcomercio.pe/opinion/editorial/reflexiones-indispensables-el-foro-municipios-senado-y-el-fenomeno-de-el-nino-arrojo-luces-sobre-los-retos-que-enfrenta-el-pais-congreso-alcaldia-de-lima-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-24T05:10:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
     "url": "https://gestion.pe/peru/midagri-hay-1700-puntos-criticos-por-el-nino-pero-no-intervendra-en-todos-que-hara-el-gobierno-noticia/",
     "source": "Gestión",
-    "published": "2026-09-23T23:34:38+00:00",
+    "published": "2026-09-24T11:34:00+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "“No hay una disminución en el flujo de los alimentos”, afirma el Midagri tras alarma de escasez por el fenómeno El Niño",
-    "url": "https://www.infobae.com/peru/2026/09/23/no-hay-una-disminucion-en-el-flujo-de-los-alimentos-afirma-el-midagri-tras-alarma-de-escasez-por-el-fenomeno-el-nino/",
+    "title": "EsSalud despedirá a 11 mil 500 locadores de servicios para redestinar recursos",
+    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
     "source": "Infobae",
-    "published": "2026-09-23T21:43:57+00:00",
-    "matched_in": "title"
+    "published": "2026-09-24T13:17:32+00:00",
+    "matched_in": "summary"
    }
   ]
  }
