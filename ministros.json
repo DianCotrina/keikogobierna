@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T01:11:52+00:00",
+ "generated": "2026-09-25T10:01:59+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,27 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "López Aliaga sobre moción de censura contra Astudillo: “Me parece una locura estar petardeando a un gobierno que no tiene ni 90 días”",
+    "url": "https://elcomercio.pe/politica/actualidad/rafael-lopez-aliaga-sobre-mocion-de-censura-contra-cesar-astudillo-me-parece-una-locura-estar-petardeando-a-un-gobierno-que-no-tiene-ni-90-dias-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-25T04:26:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "\"La criminalidad está en aumento\": Diputados cuestionan a ministro César Astudillo y respaldan moción de censura",
+    "url": "https://rpp.pe/politica/congreso/diputados-cuestionan-a-cesar-astudillo-y-respaldan-mocion-de-censura-por-inseguridad-noticia-1709271",
+    "source": "RPP",
+    "published": "2026-09-24T22:03:36-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo: presentan moción de censura contra ministro del Interior",
+    "url": "https://gestion.pe/peru/politica/cesar-astudillo-presentan-mocion-de-censura-contra-ministro-del-interior-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T01:31:52+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Presentan formalmente la moción de censura contra el ministro César Astudillo por crisis de inseguridad",
     "url": "https://larepublica.pe/politica/2026/09/24/cesar-astudillo-presentan-formalmente-la-mocion-de-censura-contra-el-ministro-del-interior-por-crisis-de-inseguridad-hnews-1083432",
@@ -76,12 +97,28 @@
     "matched_in": "title"
    }
   ],
-  "maria-magdalena-seminario-maron": [
+  "maritza-ivonne-canales-martinez": [
    {
-    "title": "María Seminario, ministra de la Mujer: “La población en este momento no está para vaivenes políticos” | Entrevista",
-    "url": "https://elcomercio.pe/politica/entrevista-maria-seminario-ministra-de-la-mujer-la-poblacion-en-este-momento-no-esta-para-vaivenes-politicos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-23T01:35:48+00:00",
+    "title": "Midis dice que garantizará la continuidad de programas sociales ante emergencias climáticas",
+    "url": "https://rpp.pe/politica/gobierno/midis-dice-que-garantizara-la-continuidad-de-programas-sociales-ante-emergencias-climaticas-noticia-1709265",
+    "source": "RPP",
+    "published": "2026-09-24T20:52:43-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF evalúa bonos para familias afectadas por El Niño: ¿qué se sabe hasta ahora?",
+    "url": "https://gestion.pe/peru/politica/mef-evalua-bonos-para-familias-afectadas-por-el-nino-quienes-recibirian-la-ayuda-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T03:40:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba anuncia que Gobierno evalúa entrega de bonos a familias que resulten afectadas por el fenómeno de 'El Niño'",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-anuncia-que-gobierno-evalua-entrega-de-bonos-a-familias-que-resulten-afectadas-por-el-fenomeno-de-el-nino-noticia-1709255",
+    "source": "RPP",
+    "published": "2026-09-24T20:02:37-05:00",
     "matched_in": "title"
    }
   ],
@@ -109,13 +146,6 @@
     "url": "https://www.infobae.com/peru/2026/09/24/premier-defiende-a-keiko-fujimori-y-cree-que-presidenta-del-pj-puede-haber-interpretado-mal-sus-dichos-en-la-onu/",
     "source": "Infobae",
     "published": "2026-09-24T21:35:48+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta advierte a Diputados por eventuales censuras y dice que Bukele demoró 6 meses en obtener resultados",
-    "url": "https://www.infobae.com/peru/2026/09/24/luis-galarreta-advierte-a-diputados-por-eventuales-censuras-y-dice-que-bukele-demoro-6-meses-en-obtener-resultados/",
-    "source": "Infobae",
-    "published": "2026-09-24T16:42:10+00:00",
     "matched_in": "title"
    }
   ]
