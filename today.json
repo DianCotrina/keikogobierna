@@ -1,100 +1,28 @@
 {
- "generated": "2026-09-25T10:01:59+00:00",
+ "generated": "2026-09-25T15:44:46+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-09-24",
+ "date": "2026-09-25",
  "articles": [
   {
-   "title": "Keiko Fujimori participa en Diálogo de Alto Nivel del CAF",
-   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-expone-indicadores-economicos-del-peru-ante-inversionistas-en-nueva-york-ultimas-noticia/",
-   "summary": "En Nueva York, la presidenta destacó el crecimiento económico de 3,4 %, ratificó la autonomía del BCR y anunció la construcción de 2.000 escuelas en los próximos cinco años.",
-   "author": "Redacción EC",
-   "published": "2026-09-25T03:10:34+00:00",
+   "title": "Congreso evaluará situación de trabajadores vinculados al Movadef: ¿Cuáles son los riesgos de su contratación?",
+   "url": "https://elcomercio.pe/politica/congreso/congreso-evaluara-situacion-de-trabajadores-vinculados-al-movadef-cuales-son-los-riesgos-de-su-contratacion-miguel-torres-noticia/",
+   "summary": "La situación de, al menos, ocho trabajadores del Congreso que firmaron el planillón del Movimiento por la Amnistía y Derechos Fundamentales (Movadef), brazo político del grupo terrorista Sendero Luminoso, será evaluada en la Comisión Directiva del Parlamento en los próximos días, según adelantó el presidente de ese poder del Estado, Miguel Torres (Fuerza Popular).",
+   "author": "Sebastian Ortiz Martínez",
+   "published": "2026-09-25T14:29:46+00:00",
    "source": "El Comercio",
-   "captured": "2026-09-25T10:01:59+00:00"
+   "captured": "2026-09-25T15:44:46+00:00"
   },
   {
-   "title": "Keiko Fujimori participa en “campanazo” de cierre de la Bolsa de Valores de Nueva York",
-   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-participa-en-campanazo-de-cierre-de-la-bolsa-de-valores-de-nueva-york-estados-unidos-naciones-unidas-apuesplan-ultimas-noticia/",
-   "summary": "La presidenta de la república, Keiko Fujimori, participó en el tradicional “campanazo” de cierre de la Bolsa de Valores de Nueva York, como parte de sus actividades realizadas en el marco del 81.º período de sesiones de la Asamblea General de las Naciones Unidas.",
-   "author": "Redacción EC",
-   "published": "2026-09-25T00:56:34+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-25T01:11:52+00:00"
-  },
-  {
-   "title": "Keiko Fujimori sobre el PJ: “Esa independencia no significa callar, perder la oportunidad de hacer una crítica al desempeño en el pasado”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-el-poder-judicial-esa-independencia-no-significa-callar-perder-la-oportunidad-de-hacer-una-critica-al-desempeno-en-el-pasado-janet-tello-apuesplan-ultimas-noticia/",
-   "summary": "La mandataria Keiko Fujimori se refirió a los cuestionamientos de la presidenta del Poder Judicial (PJ), Janet Tello, por su discurso de rechazo a los procesos contra militares y policías y dijo que la independencia de poderes “no significa callar” ni “perder la oportunidad de hacer una crítica al desempeño en el pasado”.",
-   "author": "Redacción EC",
-   "published": "2026-09-24T23:39:10+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-25T01:11:52+00:00"
-  },
-  {
-   "title": "Keiko Fujimori presenta cartera de proyectos en sectores estratégicos del país ante empresarios e inversionistas",
-   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-presenta-cartera-de-proyectos-en-sectores-estrategicos-del-pais-ante-empresarios-e-inversionistas-l-ultimas-noticia/",
-   "summary": "La presidenta de la república, Keiko Fujimori, presentó ante empresarios e inversionistas internacionales una cartera de proyectos y oportunidades para captar capital privado en sectores estratégicos del país, durante un encuentro organizado por Americas Society/Council of the Americas (AS/COA), en Nueva York.",
-   "author": "Redacción EC",
-   "published": "2026-09-24T19:57:24+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-24T20:16:54+00:00"
-  },
-  {
-   "title": "Congresistas cuestionan participación de Keiko Fujimori en la ONU: \"Repite un discurso que ya le escuchamos a Boluarte\"",
-   "url": "https://larepublica.pe/politica/2026/09/24/congresistas-opinan-sobre-participacion-de-keiko-fujimori-en-la-onu-repite-un-discurso-que-ya-le-escuchamos-a-boluarte-hnews-1082112",
-   "summary": "La diputada Indira Huilca (Ahora Nación) y el senador Flavio Figallo (Partido del Buen Gobierno) comentaron el discurso de Keiko Fujimori en Nueva York.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-09-24T19:17:46+00:00",
-   "source": "La República",
-   "captured": "2026-09-24T20:16:54+00:00"
-  },
-  {
-   "title": "Fuerza Popular: trabajadora del despacho de la diputada Kim Muñoz figura en el planillón de Movadef",
-   "url": "https://larepublica.pe/politica/2026/09/24/fuerza-popular-trabajadora-del-despacho-de-la-diputada-kim-munoz-figura-en-el-planillon-de-movadef-hnews-1186344",
-   "summary": "Cecilia Villanueva Oshiro, candidata a regidora por Lima, aparece en el listado que el Movadef presentó ante el JNE en 2011. La postulante negó haber firmado el documento y sostuvo que sus datos pudieron ser utilizados sin autorización.",
-   "author": "Ariadna Yaya",
-   "published": "2026-09-24T18:26:05+00:00",
-   "source": "La República",
-   "captured": "2026-09-24T20:16:54+00:00"
-  },
-  {
-   "title": "Luis Galarreta sobre críticas de Janet Tello: Keiko Fujimori “no ha cuestionado” ni interferido con la autonomía del Poder Judicial",
-   "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-sobre-criticas-de-janet-tello-keiko-fujimori-no-ha-cuestionado-ni-interferido-con-la-autonomia-del-poder-judicial-ultimas-noticia/",
-   "summary": "El presidente del Consejo de Ministros, Luis Galarreta, respondió a las críticas de la presidenta del Poder Judicial, Janet Tello, a las declaraciones de Keiko Fujimori durante su participación en la Asamblea General de las Naciones Unidas.",
-   "author": "Redacción EC",
-   "published": "2026-09-24T16:53:54+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-24T20:16:54+00:00"
-  },
-  {
-   "title": "Mensajes, llamadas y acusaciones: Los entretelones de la confrontación entre Samuel Daza y Rafael López Aliaga",
-   "url": "https://elcomercio.pe/politica/elecciones/mensajes-llamadas-y-acusaciones-los-entretelones-de-la-confrontacion-entre-samuel-daza-y-rafael-lopez-aliaga-noticia/",
-   "summary": "La confrontación entre los candidatos a la Alcaldía de Lima Samuel Daza (Fuerza Popular) y Rafael López Aliaga (Renovación Popular) no terminó el martes pasado, cuando concluyó el debate organizado por el Jurado Nacional de Elecciones (JNE). Al día siguiente, el miércoles 23, Daza llevó el enfrentamiento a otra instancia al denunciar a López Aliaga ante el Tribunal de Honor del Pacto Ético Electoral del JNE por presunta intimidación.",
+   "title": "Facultades legislativas: la nueva alternativa de Renovación Popular y la posición de Obras",
+   "url": "https://elcomercio.pe/politica/congreso/facultades-legislativas-la-nueva-alternativa-de-renovacion-popular-y-la-posicion-de-obras-noticia/",
+   "summary": "Los diputados Roxana Rocha y Frank Krklec, de Renovación Popular, plantearon a la Comisión de Constitución limitar a cuatro materias la delegación de facultades legislativas solicitada por el gobierno de Keiko Fujimori. Estas son seguridad ciudadana, fenómeno de El Niño, reactivación económica y modernización del Estado.",
    "author": "Martín Calderón",
-   "published": "2026-09-24T15:05:03+00:00",
+   "published": "2026-09-25T14:29:28+00:00",
    "source": "El Comercio",
-   "captured": "2026-09-24T15:43:40+00:00"
-  },
-  {
-   "title": "El último cuarto",
-   "url": "https://elcomercio.pe/opinion/columnistas/el-ultimo-cuarto-por-jose-carlos-requena-noticia/",
-   "summary": "El ingreso al último cuarto de año será difícil para el gobierno de Keiko Fujimori. En efecto, la semana que pasó se inició con el descenso de la popularidad presidencial en las encuestas, continuó con Rafael Rey como su primera baja en el Gabinete y terminó con el impactante asesinato de Susy Aponte Polo, candidata al Gobierno Regional de Áncash.",
-   "author": "José Carlos Requena",
-   "published": "2026-09-24T10:30:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-24T15:43:40+00:00"
-  },
-  {
-   "title": "Reflexiones indispensables",
-   "url": "https://elcomercio.pe/opinion/editorial/reflexiones-indispensables-el-foro-municipios-senado-y-el-fenomeno-de-el-nino-arrojo-luces-sobre-los-retos-que-enfrenta-el-pais-congreso-alcaldia-de-lima-noticia/",
-   "summary": "El Comercio y América Multimedia realizaron ayer el foro político “Municipios, Senado y el fenómeno de El Niño: los temas que marcarán el país”, con el fin de reflexionar sobre los más serios desafíos que enfrentan en este momento la capital y el Perú en general. El encuentro reunió, por un lado, a tres de los principales candidatos a la alcaldía de Lima –Carlos Bruce (Somos Perú), Francis Allison (Avanza País) y Daniel Urresti (Podemos Perú)–, quienes debatieron sobre seguridad y transporte, en el marco de la responsabilidad a la que aspiran. Y por otro, contó con la participación del presidente del Senado, Miguel Torres (Fuerza Popular), y del ministro de Desarrollo Agrario y Riego, Marco Vinelli. El primero expuso sobre el Senado, el pedido de facultades del gobierno y la bicameralidad, mientras que el segundo detalló las estrategias del Ejecutivo ante el fenómeno de El Niño. Cabe anotar que al debate entre los postulantes al sillón municipal provincial fue invitado también el representante de Renovación Popular, Rafael López Aliaga, quien decidió no asistir.",
-   "author": "Editorial El Comercio",
-   "published": "2026-09-24T05:10:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-24T09:44:17+00:00"
+   "captured": "2026-09-25T15:44:46+00:00"
   }
  ]
 }

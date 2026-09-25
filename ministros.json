@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T10:01:59+00:00",
+ "generated": "2026-09-25T15:44:46+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,17 +11,24 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Alfonso López Chau sobre censura a César Astudillo: “En Ahora Nación no hemos tomado una decisión”",
+    "url": "https://elcomercio.pe/politica/alfonso-lopez-chau-sobre-censura-a-cesar-astudillo-en-ahora-nacion-no-hemos-tomado-una-decision-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-25T15:26:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Presentan moción de censura contra el ministro del Interior, César Astudillo, por crisis de seguridad",
+    "url": "https://www.infobae.com/peru/2026/09/25/presentan-mocion-de-censura-contra-el-ministro-del-interior-cesar-astudillo-por-crisis-de-seguridad/",
+    "source": "Infobae",
+    "published": "2026-09-25T12:42:23+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "López Aliaga sobre moción de censura contra Astudillo: “Me parece una locura estar petardeando a un gobierno que no tiene ni 90 días”",
     "url": "https://elcomercio.pe/politica/actualidad/rafael-lopez-aliaga-sobre-mocion-de-censura-contra-cesar-astudillo-me-parece-una-locura-estar-petardeando-a-un-gobierno-que-no-tiene-ni-90-dias-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-25T04:26:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "\"La criminalidad está en aumento\": Diputados cuestionan a ministro César Astudillo y respaldan moción de censura",
-    "url": "https://rpp.pe/politica/congreso/diputados-cuestionan-a-cesar-astudillo-y-respaldan-mocion-de-censura-por-inseguridad-noticia-1709271",
-    "source": "RPP",
-    "published": "2026-09-24T22:03:36-05:00",
     "matched_in": "title"
    },
    {
@@ -36,13 +43,6 @@
     "url": "https://larepublica.pe/politica/2026/09/24/cesar-astudillo-presentan-formalmente-la-mocion-de-censura-contra-el-ministro-del-interior-por-crisis-de-inseguridad-hnews-1083432",
     "source": "La República",
     "published": "2026-09-25T00:54:25+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados presentan moción de censura contra ministro del Interior, César Astudillo",
-    "url": "https://rpp.pe/politica/congreso/cesar-astudillo-presentan-mocion-de-censura-contra-ministro-del-interior-noticia-1709257",
-    "source": "RPP",
-    "published": "2026-09-24T19:31:23-05:00",
     "matched_in": "title"
    },
    {
@@ -64,13 +64,6 @@
     "url": "https://elcomercio.pe/politica/cesar-astudillo-vocero-de-obras-anuncia-que-su-bancada-en-la-camara-de-diputados-apoyara-mocion-de-censura-contra-ministro-del-interior-victor-pinan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-23T17:43:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Obras se suma a la moción de censura contra el ministro del Interior",
-    "url": "https://larepublica.pe/politica/2026/09/23/obras-se-suma-a-la-mocion-de-censura-contra-el-ministro-del-interior-hnews-2194177",
-    "source": "La República",
-    "published": "2026-09-23T13:50:24+00:00",
     "matched_in": "title"
    }
   ],
@@ -97,13 +90,20 @@
     "matched_in": "title"
    }
   ],
-  "maritza-ivonne-canales-martinez": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Midis dice que garantizará la continuidad de programas sociales ante emergencias climáticas",
-    "url": "https://rpp.pe/politica/gobierno/midis-dice-que-garantizara-la-continuidad-de-programas-sociales-ante-emergencias-climaticas-noticia-1709265",
-    "source": "RPP",
-    "published": "2026-09-24T20:52:43-05:00",
-    "matched_in": "title"
+    "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
+    "url": "https://gestion.pe/economia/gobierno-acelerara-grandes-proyectos-de-irrigacion-como-van-chavimochic-y-majes-siguas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T14:42:52+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
+    "url": "https://gestion.pe/peru/midagri-hay-1700-puntos-criticos-por-el-nino-pero-no-intervendra-en-todos-que-hara-el-gobierno-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-24T23:15:43+00:00",
+    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -111,14 +111,7 @@
     "title": "MEF evalúa bonos para familias afectadas por El Niño: ¿qué se sabe hasta ahora?",
     "url": "https://gestion.pe/peru/politica/mef-evalua-bonos-para-familias-afectadas-por-el-nino-quienes-recibirian-la-ayuda-noticia/",
     "source": "Gestión",
-    "published": "2026-09-25T03:40:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba anuncia que Gobierno evalúa entrega de bonos a familias que resulten afectadas por el fenómeno de 'El Niño'",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-anuncia-que-gobierno-evalua-entrega-de-bonos-a-familias-que-resulten-afectadas-por-el-fenomeno-de-el-nino-noticia-1709255",
-    "source": "RPP",
-    "published": "2026-09-24T20:02:37-05:00",
+    "published": "2026-09-25T10:07:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -131,22 +124,13 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
-    "url": "https://gestion.pe/peru/midagri-hay-1700-puntos-criticos-por-el-nino-pero-no-intervendra-en-todos-que-hara-el-gobierno-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-24T23:15:43+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Premier defiende a Keiko Fujimori y cree que presidenta del PJ “puede haber interpretado” mal sus dichos en la ONU",
-    "url": "https://www.infobae.com/peru/2026/09/24/premier-defiende-a-keiko-fujimori-y-cree-que-presidenta-del-pj-puede-haber-interpretado-mal-sus-dichos-en-la-onu/",
+    "title": "EsSalud despedirá a 11 mil 500 locadores de servicios para redestinar presupuesto",
+    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
     "source": "Infobae",
-    "published": "2026-09-24T21:35:48+00:00",
-    "matched_in": "title"
+    "published": "2026-09-25T12:03:39+00:00",
+    "matched_in": "summary"
    }
   ]
  }
