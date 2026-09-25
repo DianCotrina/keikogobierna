@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T15:44:46+00:00",
+ "generated": "2026-09-25T20:18:00+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,34 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Alfonso López Chau sobre moción de censura contra ministro Astullido: \"Hay que pensar en el país\"",
+    "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
+    "source": "La República",
+    "published": "2026-09-25T20:02:29+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro José Antonio Chang sobre moción de censura: “Me parece bastante apresurado”",
+    "url": "https://elcomercio.pe/politica/ministro-jose-antonio-chang-sobre-mocion-de-censura-a-cesar-astudillo-me-parece-bastante-apresurado-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-25T18:53:03+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Diputada Uribe respalda censura contra Astudillo: \"Falta una estrategia clara contra la inseguridad\"",
+    "url": "https://larepublica.pe/politica/2026/09/25/diputada-uribe-respalda-censura-contra-astudillo-falta-una-estrategia-clara-contra-la-inseguridad-hnews-1374750",
+    "source": "La República",
+    "published": "2026-09-25T18:24:48+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Paola Martínez, diputada de Renovación Popular, sobre censura a César Astudillo: “Yo creo que es inoportuna”",
+    "url": "https://elcomercio.pe/politica/congreso/paola-martinez-sobre-censura-a-cesar-astudillo-yo-creo-que-es-inoportuna-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-25T16:42:31+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Alfonso López Chau sobre censura a César Astudillo: “En Ahora Nación no hemos tomado una decisión”",
     "url": "https://elcomercio.pe/politica/alfonso-lopez-chau-sobre-censura-a-cesar-astudillo-en-ahora-nacion-no-hemos-tomado-una-decision-apuesplan-ultimas-noticia/",
@@ -29,6 +57,13 @@
     "url": "https://elcomercio.pe/politica/actualidad/rafael-lopez-aliaga-sobre-mocion-de-censura-contra-cesar-astudillo-me-parece-una-locura-estar-petardeando-a-un-gobierno-que-no-tiene-ni-90-dias-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-25T04:26:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "\"La criminalidad está en aumento\": Diputados cuestionan a ministro César Astudillo y respaldan moción de censura",
+    "url": "https://rpp.pe/politica/congreso/diputados-cuestionan-a-cesar-astudillo-y-respaldan-mocion-de-censura-por-inseguridad-noticia-1709271",
+    "source": "RPP",
+    "published": "2026-09-24T22:03:36-05:00",
     "matched_in": "title"
    },
    {
@@ -58,12 +93,14 @@
     "source": "El Comercio",
     "published": "2026-09-24T17:41:19+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Diputados: Vocero de Obras anuncia que su bancada apoyará moción de censura contra el ministro César Astudillo",
-    "url": "https://elcomercio.pe/politica/cesar-astudillo-vocero-de-obras-anuncia-que-su-bancada-en-la-camara-de-diputados-apoyara-mocion-de-censura-contra-ministro-del-interior-victor-pinan-ultimas-noticia/",
+    "title": "Ministro José Antonio Chang sobre moción de censura: “Me parece bastante apresurado”",
+    "url": "https://elcomercio.pe/politica/ministro-jose-antonio-chang-sobre-mocion-de-censura-a-cesar-astudillo-me-parece-bastante-apresurado-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-23T17:43:01+00:00",
+    "published": "2026-09-25T18:53:03+00:00",
     "matched_in": "title"
    }
   ],
@@ -90,6 +127,42 @@
     "matched_in": "title"
    }
   ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "\"Estar cambiando de ministros no es la solución\": Galarreta rechaza pedidos de censura contra César Astudillo",
+    "url": "https://rpp.pe/politica/gobierno/luis-galarreta-rechaza-pedidos-de-censura-contra-el-ministro-del-interior-cesar-astudillo-noticia-1709377",
+    "source": "RPP",
+    "published": "2026-09-25T14:27:49-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Ministro de Vivienda sobre moción de censura contra César Astudillo: \"Un cambio de ministro no soluciona el problema\"",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-sobre-mocion-de-censura-contra-cesar-astudillo-un-cambio-de-ministro-no-soluciona-el-problema-noticia-1709347",
+    "source": "RPP",
+    "published": "2026-09-25T12:51:28-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF evalúa bonos para familias afectadas por El Niño: ¿qué se sabe hasta ahora?",
+    "url": "https://gestion.pe/peru/politica/mef-evalua-bonos-para-familias-afectadas-por-el-nino-quienes-recibirian-la-ayuda-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T19:20:15+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Venezuela y Perú acuerdan en “seguir dando pasos sólidos” en sus relaciones, dice Caracas",
+    "url": "https://gestion.pe/mundo/internacional/venezuela-y-peru-acuerdan-en-seguir-dando-pasos-solidos-en-sus-relaciones-dice-caracas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T17:01:19+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
@@ -104,15 +177,6 @@
     "source": "Gestión",
     "published": "2026-09-24T23:15:43+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "MEF evalúa bonos para familias afectadas por El Niño: ¿qué se sabe hasta ahora?",
-    "url": "https://gestion.pe/peru/politica/mef-evalua-bonos-para-familias-afectadas-por-el-nino-quienes-recibirian-la-ayuda-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T10:07:00+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
