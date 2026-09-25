@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T20:16:54+00:00",
+ "generated": "2026-09-25T01:11:52+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,32 +11,32 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Luis Galarreta: “Censurar a un ministro que ha sido interpelado y está trabajando ¿para quién trabajamos?”",
+    "title": "Presentan formalmente la moción de censura contra el ministro César Astudillo por crisis de inseguridad",
+    "url": "https://larepublica.pe/politica/2026/09/24/cesar-astudillo-presentan-formalmente-la-mocion-de-censura-contra-el-ministro-del-interior-por-crisis-de-inseguridad-hnews-1083432",
+    "source": "La República",
+    "published": "2026-09-25T00:54:25+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputados presentan moción de censura contra ministro del Interior, César Astudillo",
+    "url": "https://rpp.pe/politica/congreso/cesar-astudillo-presentan-mocion-de-censura-contra-ministro-del-interior-noticia-1709257",
+    "source": "RPP",
+    "published": "2026-09-24T19:31:23-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo: Juntos por el Perú presenta moción de censura contra el ministro del Interior",
+    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-juntos-por-el-peru-presenta-mocion-de-censura-contra-el-ministro-del-interior-seguridad-ciudadana-camara-de-diputados-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-25T00:30:06+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Galarreta sobre anunciada moción: “Censurar a un ministro que ha sido interpelado ¿para quién trabajamos?”",
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-sobre-mocion-de-censura-contra-cesar-astudillo-censurar-a-un-ministro-que-ha-sido-interpelado-y-esta-trabajando-para-quien-trabajamos-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-24T17:41:19+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ministro del Interior sobre críticas contra regulación de armas de uso civil: “Va a suceder, les guste o no”",
-    "url": "https://rpp.pe/politica/estado/ministro-del-interior-sobre-criticas-contra-regulacion-de-armas-de-uso-civil-va-a-suceder-les-guste-o-no-noticia-1709171",
-    "source": "RPP",
-    "published": "2026-09-24T12:21:25-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo niega relación entre relevo de Víctor Revoredo y asesinato de la ‘China Polo’: “Parecería”",
-    "url": "https://www.infobae.com/peru/2026/09/24/cesar-astudillo-niega-relacion-entre-relevo-de-victor-revoredo-y-asesinato-de-la-china-polo-pareceria/",
-    "source": "Infobae",
-    "published": "2026-09-24T12:44:29+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "\"El tiempo ya se le acabó\": diputado Fernando García considera que César Astudillo debería dejar el Ministerio del Interior",
-    "url": "https://rpp.pe/politica/congreso/diputado-fernando-garcia-buen-gobierno-considera-que-cesar-astudillo-deberia-dejar-el-ministerio-del-interior-noticia-1709092",
-    "source": "RPP",
-    "published": "2026-09-23T22:07:31-05:00",
-    "matched_in": "title"
    },
    {
     "title": "Diputados: Vocero de Obras anuncia que su bancada apoyará moción de censura contra el ministro César Astudillo",
@@ -55,10 +55,10 @@
   ],
   "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Víctor Piñán al Ejecutivo por condicionar seguridad con aprobación facultades: “No justifiquen su falta de eficacia”",
+    "title": "Víctor Piñán al Ejecutivo por condicionar seguridad con aprobación de facultades: “No justifiquen su falta de eficacia”",
     "url": "https://larepublica.pe/politica/2026/09/24/victor-pinan-al-ejecutivo-por-condicionar-seguridad-con-aprobacion-facultades-no-justifiquen-su-falta-de-eficacia-hnews-1787760",
     "source": "La República",
-    "published": "2026-09-24T20:16:02+00:00",
+    "published": "2026-09-24T21:36:44+00:00",
     "matched_in": "summary"
    },
    {
@@ -85,31 +85,38 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Minem simplificará cerca del 50% de sus procesos: ¿cómo planea acelerar proyectos mineros?",
+    "url": "https://gestion.pe/economia/minem-simplificara-cerca-del-50-de-sus-procesos-como-planea-acelerar-proyectos-mineros-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-24T23:38:11+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
     "url": "https://gestion.pe/peru/midagri-hay-1700-puntos-criticos-por-el-nino-pero-no-intervendra-en-todos-que-hara-el-gobierno-noticia/",
     "source": "Gestión",
-    "published": "2026-09-24T11:34:00+00:00",
+    "published": "2026-09-24T23:15:43+00:00",
     "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Premier defiende a Keiko Fujimori y cree que presidenta del PJ “puede haber interpretado” mal sus dichos en la ONU",
+    "url": "https://www.infobae.com/peru/2026/09/24/premier-defiende-a-keiko-fujimori-y-cree-que-presidenta-del-pj-puede-haber-interpretado-mal-sus-dichos-en-la-onu/",
+    "source": "Infobae",
+    "published": "2026-09-24T21:35:48+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Luis Galarreta advierte a Diputados por eventuales censuras y dice que Bukele demoró 6 meses en obtener resultados",
     "url": "https://www.infobae.com/peru/2026/09/24/luis-galarreta-advierte-a-diputados-por-eventuales-censuras-y-dice-que-bukele-demoro-6-meses-en-obtener-resultados/",
     "source": "Infobae",
     "published": "2026-09-24T16:42:10+00:00",
     "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "EsSalud despedirá a 11 mil 500 locadores de servicios para redestinar recursos",
-    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
-    "source": "Infobae",
-    "published": "2026-09-24T13:17:32+00:00",
-    "matched_in": "summary"
    }
   ]
  }
