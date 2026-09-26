@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T09:43:35+00:00",
+ "generated": "2026-09-26T14:54:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,8 +14,15 @@
     "title": "César Astudillo: ¿La oposición tendría o no los votos para censurar al ministro del Interior?",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-26T05:01:00+00:00",
+    "published": "2026-09-26T13:33:08+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Alfonso López Chau sobre moción de censura contra ministro Astullido: \"Hay que pensar en el país\"",
+    "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
+    "source": "La República",
+    "published": "2026-09-26T13:07:43+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Mininter: “No hay ningún espíritu de cuerpo con el criminal que mancha el uniforme de la PNP”",
@@ -30,13 +37,6 @@
     "source": "RPP",
     "published": "2026-09-25T19:50:17-05:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alfonso López Chau sobre moción de censura contra ministro Astullido: \"Hay que pensar en el país\"",
-    "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
-    "source": "La República",
-    "published": "2026-09-25T23:46:31+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Luis Galarreta blinda a Astudillo y rechaza moción de censura: \"Estar cambiando de ministros no es la solución\"",
@@ -88,13 +88,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Presentan moción de censura contra el ministro del Interior, César Astudillo, por crisis de seguridad",
-    "url": "https://www.infobae.com/peru/2026/09/25/presentan-mocion-de-censura-contra-el-ministro-del-interior-cesar-astudillo-por-crisis-de-seguridad/",
-    "source": "Infobae",
-    "published": "2026-09-25T12:42:23+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "López Aliaga sobre moción de censura contra Astudillo: “Me parece una locura estar petardeando a un gobierno que no tiene ni 90 días”",
     "url": "https://elcomercio.pe/politica/actualidad/rafael-lopez-aliaga-sobre-mocion-de-censura-contra-cesar-astudillo-me-parece-una-locura-estar-petardeando-a-un-gobierno-que-no-tiene-ni-90-dias-ultimas-noticia/",
     "source": "El Comercio",
@@ -139,6 +132,22 @@
     "matched_in": "title"
    }
   ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "El Niño: peligro versus riesgo",
+    "url": "https://elcomercio.pe/opinion/columnistas/el-nino-peligro-versus-riesgo-por-ernesto-bustamante-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-26T13:53:37+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
+    "url": "https://gestion.pe/economia/gobierno-acelerara-grandes-proyectos-de-irrigacion-como-van-chavimochic-y-majes-siguas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T20:42:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Luis Galarreta blinda a Astudillo y rechaza moción de censura: \"Estar cambiando de ministros no es la solución\"",
@@ -157,15 +166,6 @@
     "matched_in": "summary"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
-    "url": "https://gestion.pe/economia/gobierno-acelerara-grandes-proyectos-de-irrigacion-como-van-chavimochic-y-majes-siguas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T20:42:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "MEF evalúa bonos para familias afectadas por El Niño: ¿qué se sabe hasta ahora?",
@@ -181,15 +181,6 @@
     "url": "https://gestion.pe/mundo/internacional/venezuela-y-peru-acuerdan-en-seguir-dando-pasos-solidos-en-sus-relaciones-dice-caracas-noticia/",
     "source": "Gestión",
     "published": "2026-09-25T17:01:19+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "EsSalud despedirá a 11 mil 500 locadores de servicios para redestinar presupuesto",
-    "url": "https://www.infobae.com/peru/2026/09/23/essalud-despedira-11-mil-500-locadores-de-servicios-para-redestinar-recursos/",
-    "source": "Infobae",
-    "published": "2026-09-25T12:03:39+00:00",
     "matched_in": "summary"
    }
   ]
