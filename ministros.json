@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T01:14:07+00:00",
+ "generated": "2026-09-26T09:43:35+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "César Astudillo: ¿La oposición tendría o no los votos para censurar al ministro del Interior?",
+    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-26T05:01:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Mininter: “No hay ningún espíritu de cuerpo con el criminal que mancha el uniforme de la PNP”",
+    "url": "https://larepublica.pe/politica/2026/09/25/mininter-no-hay-ningun-espiritu-de-cuerpo-con-el-criminal-que-mancha-el-uniforme-de-la-pnp-corrupcion-hnews-254800",
+    "source": "La República",
+    "published": "2026-09-26T03:04:30+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ricardo Belmont toma distancia de respaldo de Obras a censura contra Astudillo: \"No han consultado conmigo, se han disparado\"",
     "url": "https://rpp.pe/politica/congreso/ricardo-belmont-toma-distancia-de-respaldo-de-obras-a-censura-contra-astudillo-no-han-consultado-conmigo-se-han-disparado-noticia-1709446",
@@ -111,10 +125,10 @@
   ],
   "jose-antonio-chang-escobedo": [
    {
-    "title": "Chang dice que moción de censura contra ministro del Interior es \"bastante apresurado\": \"No están dejando trabajar\"",
-    "url": "https://rpp.pe/politica/gobierno/chang-dice-que-mocion-de-censura-contra-ministro-del-interior-es-bastante-apresurado-no-estan-dejando-trabajar-noticia-1709393",
-    "source": "RPP",
-    "published": "2026-09-25T16:05:36-05:00",
+    "title": "Ministro Chang sobre interpelación en su contra: “Han pasado recien noventa días de gestión”",
+    "url": "https://larepublica.pe/politica/2026/09/25/ministro-chang-sobre-interpelacion-en-su-contra-han-pasado-recien-noventa-dias-de-gestion-hnews-348150",
+    "source": "La República",
+    "published": "2026-09-26T01:38:11+00:00",
     "matched_in": "title"
    },
    {
