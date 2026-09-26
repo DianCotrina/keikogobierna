@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T14:54:05+00:00",
+ "generated": "2026-09-26T19:33:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "César Astudillo: ¿La oposición tendría o no los votos para censurar al ministro del Interior?",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-26T13:33:08+00:00",
+    "published": "2026-09-26T17:22:06+00:00",
     "matched_in": "title"
    },
    {
@@ -29,13 +29,6 @@
     "url": "https://larepublica.pe/politica/2026/09/25/mininter-no-hay-ningun-espiritu-de-cuerpo-con-el-criminal-que-mancha-el-uniforme-de-la-pnp-corrupcion-hnews-254800",
     "source": "La República",
     "published": "2026-09-26T03:04:30+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ricardo Belmont toma distancia de respaldo de Obras a censura contra Astudillo: \"No han consultado conmigo, se han disparado\"",
-    "url": "https://rpp.pe/politica/congreso/ricardo-belmont-toma-distancia-de-respaldo-de-obras-a-censura-contra-astudillo-no-han-consultado-conmigo-se-han-disparado-noticia-1709446",
-    "source": "RPP",
-    "published": "2026-09-25T19:50:17-05:00",
     "matched_in": "title"
    },
    {
@@ -134,11 +127,11 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "El Niño: peligro versus riesgo",
-    "url": "https://elcomercio.pe/opinion/columnistas/el-nino-peligro-versus-riesgo-por-ernesto-bustamante-noticia/",
+    "title": "Gobierno acelera procesos para ejecutar grandes proyectos de irrigación, informa ministro Marco Vinelli",
+    "url": "https://elcomercio.pe/economia/gobierno-acelera-procesos-para-ejecutar-grandes-proyectos-de-irrigacion-informa-ministro-marco-vinelli-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-26T13:53:37+00:00",
-    "matched_in": "summary"
+    "published": "2026-09-26T19:16:35+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
@@ -173,15 +166,6 @@
     "source": "Gestión",
     "published": "2026-09-25T19:20:15+00:00",
     "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Venezuela y Perú acuerdan en “seguir dando pasos sólidos” en sus relaciones, dice Caracas",
-    "url": "https://gestion.pe/mundo/internacional/venezuela-y-peru-acuerdan-en-seguir-dando-pasos-solidos-en-sus-relaciones-dice-caracas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T17:01:19+00:00",
-    "matched_in": "summary"
    }
   ]
  }
