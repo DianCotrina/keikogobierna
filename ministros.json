@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T20:18:00+00:00",
+ "generated": "2026-09-26T01:14:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,11 +11,39 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Ricardo Belmont toma distancia de respaldo de Obras a censura contra Astudillo: \"No han consultado conmigo, se han disparado\"",
+    "url": "https://rpp.pe/politica/congreso/ricardo-belmont-toma-distancia-de-respaldo-de-obras-a-censura-contra-astudillo-no-han-consultado-conmigo-se-han-disparado-noticia-1709446",
+    "source": "RPP",
+    "published": "2026-09-25T19:50:17-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Alfonso López Chau sobre moción de censura contra ministro Astullido: \"Hay que pensar en el país\"",
     "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
     "source": "La República",
-    "published": "2026-09-25T20:02:29+00:00",
+    "published": "2026-09-25T23:46:31+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Luis Galarreta blinda a Astudillo y rechaza moción de censura: \"Estar cambiando de ministros no es la solución\"",
+    "url": "https://larepublica.pe/politica/2026/09/25/luis-galarreta-blinda-a-astudillo-y-rechaza-mocion-de-censura-estar-cambiando-de-ministros-no-es-la-solucion-hnews-618675",
+    "source": "La República",
+    "published": "2026-09-25T23:20:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministros defienden a Astudillo y cuestionan moción de censura: ¿qué argumentos dieron?",
+    "url": "https://gestion.pe/peru/politica/ministros-defienden-a-astudillo-y-cuestionan-mocion-de-censura-que-argumentos-dieron-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T21:04:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Galarreta sobre censura a César Astudillo: “Estar cambiando de ministros no es la solución”",
+    "url": "https://elcomercio.pe/politica/luis-galarreta-sobre-censura-a-cesar-astudillo-estar-cambiando-de-ministros-no-es-la-solucion-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-25T20:33:31+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Ministro José Antonio Chang sobre moción de censura: “Me parece bastante apresurado”",
@@ -60,20 +88,6 @@
     "matched_in": "title"
    },
    {
-    "title": "\"La criminalidad está en aumento\": Diputados cuestionan a ministro César Astudillo y respaldan moción de censura",
-    "url": "https://rpp.pe/politica/congreso/diputados-cuestionan-a-cesar-astudillo-y-respaldan-mocion-de-censura-por-inseguridad-noticia-1709271",
-    "source": "RPP",
-    "published": "2026-09-24T22:03:36-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo: presentan moción de censura contra ministro del Interior",
-    "url": "https://gestion.pe/peru/politica/cesar-astudillo-presentan-mocion-de-censura-contra-ministro-del-interior-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T01:31:52+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Presentan formalmente la moción de censura contra el ministro César Astudillo por crisis de inseguridad",
     "url": "https://larepublica.pe/politica/2026/09/24/cesar-astudillo-presentan-formalmente-la-mocion-de-censura-contra-el-ministro-del-interior-por-crisis-de-inseguridad-hnews-1083432",
     "source": "La República",
@@ -97,10 +111,26 @@
   ],
   "jose-antonio-chang-escobedo": [
    {
+    "title": "Chang dice que moción de censura contra ministro del Interior es \"bastante apresurado\": \"No están dejando trabajar\"",
+    "url": "https://rpp.pe/politica/gobierno/chang-dice-que-mocion-de-censura-contra-ministro-del-interior-es-bastante-apresurado-no-estan-dejando-trabajar-noticia-1709393",
+    "source": "RPP",
+    "published": "2026-09-25T16:05:36-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro José Antonio Chang sobre moción de censura: “Me parece bastante apresurado”",
     "url": "https://elcomercio.pe/politica/ministro-jose-antonio-chang-sobre-mocion-de-censura-a-cesar-astudillo-me-parece-bastante-apresurado-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-25T18:53:03+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta blinda a Astudillo y rechaza moción de censura: \"Estar cambiando de ministros no es la solución\"",
+    "url": "https://larepublica.pe/politica/2026/09/25/luis-galarreta-blinda-a-astudillo-y-rechaza-mocion-de-censura-estar-cambiando-de-ministros-no-es-la-solucion-hnews-618675",
+    "source": "La República",
+    "published": "2026-09-25T23:20:44+00:00",
     "matched_in": "title"
    }
   ],
@@ -111,38 +141,15 @@
     "source": "La República",
     "published": "2026-09-24T21:36:44+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ernesto Álvarez sale en defensa de Fujimori y asegura que decisiones del Poder Judicial si pueden ser criticadas",
-    "url": "https://larepublica.pe/politica/2026/09/23/ernesto-alvarez-sale-en-defensa-de-fujimori-y-asegura-que-decisiones-del-poder-judicial-si-pueden-ser-criticadas-hnews-1183143",
-    "source": "La República",
-    "published": "2026-09-23T23:24:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ernesto Álvarez responde a Janet Tello: “A nadie le debe llamar la atención que se pueda criticar la actuación de jueces o fiscales”",
-    "url": "https://elcomercio.pe/politica/justicia/ernesto-alvarez-responde-a-janet-tello-a-nadie-le-debe-llamar-la-atencion-que-se-pueda-criticar-la-actuacion-de-jueces-o-fiscales-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-23T22:11:59+00:00",
-    "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "\"Estar cambiando de ministros no es la solución\": Galarreta rechaza pedidos de censura contra César Astudillo",
-    "url": "https://rpp.pe/politica/gobierno/luis-galarreta-rechaza-pedidos-de-censura-contra-el-ministro-del-interior-cesar-astudillo-noticia-1709377",
-    "source": "RPP",
-    "published": "2026-09-25T14:27:49-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Ministro de Vivienda sobre moción de censura contra César Astudillo: \"Un cambio de ministro no soluciona el problema\"",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-sobre-mocion-de-censura-contra-cesar-astudillo-un-cambio-de-ministro-no-soluciona-el-problema-noticia-1709347",
-    "source": "RPP",
-    "published": "2026-09-25T12:51:28-05:00",
-    "matched_in": "title"
+    "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
+    "url": "https://gestion.pe/economia/gobierno-acelerara-grandes-proyectos-de-irrigacion-como-van-chavimochic-y-majes-siguas-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-25T20:42:00+00:00",
+    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -161,31 +168,6 @@
     "source": "Gestión",
     "published": "2026-09-25T17:01:19+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
-    "url": "https://gestion.pe/economia/gobierno-acelerara-grandes-proyectos-de-irrigacion-como-van-chavimochic-y-majes-siguas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T14:42:52+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Hay 1,700 puntos críticos por El Niño, pero el Gobierno no intervendrá en todos: el plan",
-    "url": "https://gestion.pe/peru/midagri-hay-1700-puntos-criticos-por-el-nino-pero-no-intervendra-en-todos-que-hara-el-gobierno-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-24T23:15:43+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Minem simplificará cerca del 50% de sus procesos: ¿cómo planea acelerar proyectos mineros?",
-    "url": "https://gestion.pe/economia/minem-simplificara-cerca-del-50-de-sus-procesos-como-planea-acelerar-proyectos-mineros-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-24T23:38:11+00:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
