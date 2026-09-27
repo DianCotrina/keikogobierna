@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T10:23:10+00:00",
+ "generated": "2026-09-27T15:32:31+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,7 +9,23 @@
   "Infobae"
  ],
  "ministers": {
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá viajará a Washington para reunión de la OEA sobre Nicaragua",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-viajara-a-washington-para-reunion-de-la-oea-sobre-nicaragua-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-27T15:21:36+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Astudillo dice que organizaciones criminales \"meten jóvenes\" en escuelas policiales: PNP había negado esos hechos",
+    "url": "https://rpp.pe/politica/gobierno/astudillo-dice-que-organizaciones-criminales-meten-jovenes-en-escuelas-policiales-pnp-habia-negado-esos-hechos-noticia-1709586",
+    "source": "RPP",
+    "published": "2026-09-27T10:23:28-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "MTC anunció que instalará un puente modular en Apurímac en un plazo de siete días tras colapso de la estructura de Pampatama",
     "url": "https://rpp.pe/politica/gobierno/mtc-anuncio-que-instalara-un-puente-modular-en-apurimac-en-un-plazo-de-siete-dias-tras-colapso-de-la-estructura-de-pampatama-noticia-1709565",
@@ -71,13 +87,6 @@
     "url": "https://elcomercio.pe/politica/congreso/paola-martinez-sobre-censura-a-cesar-astudillo-yo-creo-que-es-inoportuna-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-25T16:42:31+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alfonso López Chau sobre censura a César Astudillo: “En Ahora Nación no hemos tomado una decisión”",
-    "url": "https://elcomercio.pe/politica/alfonso-lopez-chau-sobre-censura-a-cesar-astudillo-en-ahora-nacion-no-hemos-tomado-una-decision-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-25T15:26:03+00:00",
     "matched_in": "title"
    },
    {
