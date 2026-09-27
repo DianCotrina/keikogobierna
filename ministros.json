@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T01:07:14+00:00",
+ "generated": "2026-09-27T10:23:10+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "MTC anunció que instalará un puente modular en Apurímac en un plazo de siete días tras colapso de la estructura de Pampatama",
+    "url": "https://rpp.pe/politica/gobierno/mtc-anuncio-que-instalara-un-puente-modular-en-apurimac-en-un-plazo-de-siete-dias-tras-colapso-de-la-estructura-de-pampatama-noticia-1709565",
+    "source": "RPP",
+    "published": "2026-09-26T22:30:38-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Alfonso López Chau sobre moción de censura contra ministro Astudillo: \"Hay que pensar en el país\"",
     "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
@@ -36,13 +43,6 @@
     "url": "https://larepublica.pe/politica/2026/09/25/luis-galarreta-blinda-a-astudillo-y-rechaza-mocion-de-censura-estar-cambiando-de-ministros-no-es-la-solucion-hnews-618675",
     "source": "La República",
     "published": "2026-09-25T23:20:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministros defienden a Astudillo y cuestionan moción de censura: ¿qué argumentos dieron?",
-    "url": "https://gestion.pe/peru/politica/ministros-defienden-a-astudillo-y-cuestionan-mocion-de-censura-que-argumentos-dieron-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T21:04:08+00:00",
     "matched_in": "title"
    },
    {
@@ -85,13 +85,6 @@
     "url": "https://elcomercio.pe/politica/actualidad/rafael-lopez-aliaga-sobre-mocion-de-censura-contra-cesar-astudillo-me-parece-una-locura-estar-petardeando-a-un-gobierno-que-no-tiene-ni-90-dias-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-25T04:26:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo: Juntos por el Perú presenta moción de censura contra el ministro del Interior",
-    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-juntos-por-el-peru-presenta-mocion-de-censura-contra-el-ministro-del-interior-seguridad-ciudadana-camara-de-diputados-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-25T00:30:06+00:00",
     "matched_in": "title"
    }
   ],
