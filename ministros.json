@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T19:33:22+00:00",
+ "generated": "2026-09-27T01:07:14+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,18 +11,18 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Alfonso López Chau sobre moción de censura contra ministro Astudillo: \"Hay que pensar en el país\"",
+    "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
+    "source": "La República",
+    "published": "2026-09-26T20:42:51+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "César Astudillo: ¿La oposición tendría o no los votos para censurar al ministro del Interior?",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
     "source": "El Comercio",
     "published": "2026-09-26T17:22:06+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alfonso López Chau sobre moción de censura contra ministro Astullido: \"Hay que pensar en el país\"",
-    "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
-    "source": "La República",
-    "published": "2026-09-26T13:07:43+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Mininter: “No hay ningún espíritu de cuerpo con el criminal que mancha el uniforme de la PNP”",
@@ -88,25 +88,11 @@
     "matched_in": "title"
    },
    {
-    "title": "Presentan formalmente la moción de censura contra el ministro César Astudillo por crisis de inseguridad",
-    "url": "https://larepublica.pe/politica/2026/09/24/cesar-astudillo-presentan-formalmente-la-mocion-de-censura-contra-el-ministro-del-interior-por-crisis-de-inseguridad-hnews-1083432",
-    "source": "La República",
-    "published": "2026-09-25T00:54:25+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "César Astudillo: Juntos por el Perú presenta moción de censura contra el ministro del Interior",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-juntos-por-el-peru-presenta-mocion-de-censura-contra-el-ministro-del-interior-seguridad-ciudadana-camara-de-diputados-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-25T00:30:06+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta sobre anunciada moción: “Censurar a un ministro que ha sido interpelado ¿para quién trabajamos?”",
-    "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-sobre-mocion-de-censura-contra-cesar-astudillo-censurar-a-un-ministro-que-ha-sido-interpelado-y-esta-trabajando-para-quien-trabajamos-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-24T17:41:19+00:00",
-    "matched_in": "summary"
    }
   ],
   "jose-antonio-chang-escobedo": [
@@ -125,46 +111,12 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno acelera procesos para ejecutar grandes proyectos de irrigación, informa ministro Marco Vinelli",
-    "url": "https://elcomercio.pe/economia/gobierno-acelera-procesos-para-ejecutar-grandes-proyectos-de-irrigacion-informa-ministro-marco-vinelli-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-26T19:16:35+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno acelerará proyectos de irrigación: ¿cómo van Chavimochic y Majes-Siguas?",
-    "url": "https://gestion.pe/economia/gobierno-acelerara-grandes-proyectos-de-irrigacion-como-van-chavimochic-y-majes-siguas-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T20:42:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Luis Galarreta blinda a Astudillo y rechaza moción de censura: \"Estar cambiando de ministros no es la solución\"",
     "url": "https://larepublica.pe/politica/2026/09/25/luis-galarreta-blinda-a-astudillo-y-rechaza-mocion-de-censura-estar-cambiando-de-ministros-no-es-la-solucion-hnews-618675",
     "source": "La República",
     "published": "2026-09-25T23:20:44+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Víctor Piñán al Ejecutivo por condicionar seguridad con aprobación de facultades: “No justifiquen su falta de eficacia”",
-    "url": "https://larepublica.pe/politica/2026/09/24/victor-pinan-al-ejecutivo-por-condicionar-seguridad-con-aprobacion-facultades-no-justifiquen-su-falta-de-eficacia-hnews-1787760",
-    "source": "La República",
-    "published": "2026-09-24T21:36:44+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "MEF evalúa bonos para familias afectadas por El Niño: ¿qué se sabe hasta ahora?",
-    "url": "https://gestion.pe/peru/politica/mef-evalua-bonos-para-familias-afectadas-por-el-nino-quienes-recibirian-la-ayuda-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-25T19:20:15+00:00",
     "matched_in": "title"
    }
   ]
