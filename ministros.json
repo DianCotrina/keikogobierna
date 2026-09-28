@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T01:26:18+00:00",
+ "generated": "2026-09-28T11:29:53+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Miguel Torres sobre moción de censura contra César Astudillo: “Demostrarían que no les interesa el Perú”",
+    "url": "https://elcomercio.pe/politica/gobierno/miguel-torres-sobre-mocion-de-censura-contra-cesar-astudillo-demostrarian-que-no-les-interesa-el-peru-camara-de-diputados-juntos-por-el-peru-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-28T04:44:23+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Buen Gobierno respaldará la moción de censura contra ministro del Interior, César Astudillo",
     "url": "https://larepublica.pe/politica/2026/09/27/buen-gobierno-respaldara-la-mocion-de-censura-contra-ministro-del-interior-cesar-astudillo-hnews-2482326",
@@ -22,13 +29,6 @@
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
     "source": "El Comercio",
     "published": "2026-09-27T20:46:33+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Figallo confirma que Buen Gobierno apoyará censura a Astudillo y considera que Fredy López podría asumir Mininter",
-    "url": "https://rpp.pe/politica/congreso/figallo-confirma-que-buen-gobierno-apoyara-censura-a-astudillo-y-considera-que-fredy-lopez-podria-asumir-mininter-noticia-1709613",
-    "source": "RPP",
-    "published": "2026-09-27T13:10:57-05:00",
     "matched_in": "title"
    },
    {
@@ -58,21 +58,58 @@
     "source": "La República",
     "published": "2026-09-26T20:42:51+00:00",
     "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Midagri acelera trabajos por fenómeno de El Niño ante adelanto de la temporada de lluvias",
+    "url": "https://rpp.pe/politica/gobierno/midagri-acelera-trabajos-por-fenomeno-de-el-nino-ante-adelanto-de-la-temporada-de-lluvias-noticia-1709665",
+    "source": "RPP",
+    "published": "2026-09-27T23:50:39-05:00",
+    "matched_in": "title"
    },
    {
-    "title": "Mininter: “No hay ningún espíritu de cuerpo con el criminal que mancha el uniforme de la PNP”",
-    "url": "https://larepublica.pe/politica/2026/09/25/mininter-no-hay-ningun-espiritu-de-cuerpo-con-el-criminal-que-mancha-el-uniforme-de-la-pnp-corrupcion-hnews-254800",
-    "source": "La República",
-    "published": "2026-09-26T03:04:30+00:00",
+    "title": "Gobierno confirma que solicitará crédito suplementario por S/8,000 millones: ¿cuánto irá a El Niño?",
+    "url": "https://gestion.pe/peru/politica/gobierno-solicitara-credito-suplementario-por-s8000-millones-cuanto-se-destinara-a-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-28T03:41:47+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Vinelli pide que Comisión de Constitución tome una decisión sobre facultades legislativas este lunes",
+    "url": "https://elcomercio.pe/politica/gobierno/delegacion-de-facultades-ministro-marco-vinelli-pide-que-comision-de-constitucion-tome-una-decision-sobre-el-tema-este-lunes-28-de-setiembre-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-28T03:23:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Marco Vinelli considera que “hay un apresuramiento” en mociones de censuras e interpelaciones a ministros",
+    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-considera-que-hay-un-apresuramiento-en-mociones-de-censuras-e-interpelaciones-a-ministros-noticia-1709630",
+    "source": "RPP",
+    "published": "2026-09-27T16:47:06-05:00",
     "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Farid Kahhat: “Keiko Fujimori no querrá antagonizar a Trump mientras dure su gobierno”",
+    "url": "https://larepublica.pe/politica/2026/09/28/farid-kahhat-keiko-fujimori-no-querra-antagonizar-a-trump-mientras-dure-su-gobierno-hnews-896150",
+    "source": "La República",
+    "published": "2026-09-28T10:00:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Reunión entre Keiko Fujimori y Nayib Bukele está programada para el 29 de octubre en El Salvador, anunció Carlos Espá",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-y-nayib-bukele-se-reuniran-el-29-de-octubre-en-el-salvador-anuncio-carlos-espa-noticia-1709663",
+    "source": "RPP",
+    "published": "2026-09-27T22:53:11-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Keiko Fujimori se reunirá con Nayib Bukele en El Salvador: visita será a fines de octubre y seguridad ciudadana estará en la agenda",
     "url": "https://www.infobae.com/peru/2026/09/28/keiko-fujimori-se-reunira-con-nayib-bukele-en-el-salvador-visita-sera-a-fines-de-octubre-y-seguridad-ciudadana-estara-en-la-agenda/",
     "source": "Infobae",
-    "published": "2026-09-28T01:15:24+00:00",
+    "published": "2026-09-28T02:31:54+00:00",
     "matched_in": "summary"
    },
    {
@@ -83,22 +120,13 @@
     "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro Chang sobre interpelación en su contra: “Han pasado recien noventa días de gestión”",
-    "url": "https://larepublica.pe/politica/2026/09/25/ministro-chang-sobre-interpelacion-en-su-contra-han-pasado-recien-noventa-dias-de-gestion-hnews-348150",
-    "source": "La República",
-    "published": "2026-09-26T01:38:11+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Marco Vinelli considera que “hay un apresuramiento” en mociones de censuras e interpelaciones a ministros",
-    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-considera-que-hay-un-apresuramiento-en-mociones-de-censuras-e-interpelaciones-a-ministros-noticia-1709630",
-    "source": "RPP",
-    "published": "2026-09-27T16:47:06-05:00",
-    "matched_in": "title"
+    "title": "Editorial de Gestión: Arrancan las comisiones",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-arrancan-las-comisiones-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-28T10:20:00+00:00",
+    "matched_in": "summary"
    }
   ]
  }
