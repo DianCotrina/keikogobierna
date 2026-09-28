@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T11:29:53+00:00",
+ "generated": "2026-09-28T22:25:51+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,79 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Gobierno confirma que solicitará crédito suplementario por S/8,000 millones: ¿cuánto irá a El Niño?",
+    "url": "https://gestion.pe/peru/politica/gobierno-solicitara-credito-suplementario-por-s8000-millones-cuanto-se-destinara-a-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-28T12:10:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Vinelli pide que Comisión de Constitución tome una decisión sobre facultades legislativas este lunes",
+    "url": "https://elcomercio.pe/politica/gobierno/delegacion-de-facultades-ministro-marco-vinelli-pide-que-comision-de-constitucion-tome-una-decision-sobre-el-tema-este-lunes-28-de-setiembre-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-28T03:23:12+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Ministro Alberto Beingolea considera “perfectamente pertinente” anunciado viaje de Keiko Fujimori a El Salvador",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-considera-perfectamente-pertinente-eventual-viaje-de-keiko-fujimori-a-el-salvador-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-28T17:43:25+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Belmont califica de “traición” apoyar la moción de censura a Astudillo desde su propia bancada",
+    "url": "https://gestion.pe/peru/ricardo-belmont-califica-de-traicion-el-impulso-de-censura-a-ministro-astudillo-desde-su-propia-bancada-obras-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-28T21:25:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Harvey Colchado se opone a censura de César Astudillo y plantea evaluarlo hasta diciembre",
+    "url": "https://gestion.pe/peru/politica/diputado-harvey-colchado-se-opone-a-eventual-censura-de-cesar-astudillo-y-plantea-evaluar-su-gestion-hasta-diciembre-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-28T21:06:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Transporte público: Ministro Astudillo anuncia mesa de trabajo para contrarrestar extorsiones",
+    "url": "https://gestion.pe/peru/ministro-cesar-astudillo-anuncia-mesa-de-trabajo-para-contrarrestar-casos-de-extorsion-en-el-transporte-publico-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-28T20:07:15+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Espá pide al Congreso aprobar facultades legislativas: \"La inmensa mayoría de peruanos está harta de las rencillas entre políticos\"",
+    "url": "https://rpp.pe/politica/gobierno/espa-pide-al-congreso-aprobar-facultades-legislativas-la-inmensa-mayoria-de-peruanos-esta-harta-de-las-rencillas-entre-politicos-noticia-1709744",
+    "source": "RPP",
+    "published": "2026-09-28T13:48:27-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
+    "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
+    "source": "La República",
+    "published": "2026-09-28T16:46:10+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputado Harvey Colchado de Ahora Nación en contra de censurar en estos momentos a ministro César Astudillo",
+    "url": "https://elcomercio.pe/politica/diputado-harvey-colchado-de-ahora-nacion-en-contra-de-censurar-en-estos-momentos-a-ministro-cesar-astudillo-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-28T15:06:24+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Miguel Torres sobre moción de censura contra César Astudillo: “Demostrarían que no les interesa el Perú”",
     "url": "https://elcomercio.pe/politica/gobierno/miguel-torres-sobre-mocion-de-censura-contra-cesar-astudillo-demostrarian-que-no-les-interesa-el-peru-camara-de-diputados-juntos-por-el-peru-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-28T04:44:23+00:00",
+    "published": "2026-09-28T13:28:56+00:00",
     "matched_in": "title"
    },
    {
@@ -32,13 +99,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro Astudillo confirma que organizaciones criminales infiltran a jóvenes en la Policía Nacional",
-    "url": "https://www.infobae.com/peru/2026/09/27/ministro-astudillo-confirma-que-organizaciones-criminales-infiltran-a-jovenes-en-la-policia-nacional/",
-    "source": "Infobae",
-    "published": "2026-09-27T17:34:59+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "César Astudillo contradice a la PNP y afirma que mafias infiltran jóvenes en escuelas policiales",
     "url": "https://elcomercio.pe/politica/gobierno/cesar-astudillo-contradice-a-la-pnp-y-afirma-que-mafias-infiltran-jovenes-en-escuelas-policiales-ultimas-noticia/",
     "source": "El Comercio",
@@ -51,65 +111,56 @@
     "source": "El Comercio",
     "published": "2026-09-27T15:55:23+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alfonso López Chau sobre moción de censura contra ministro Astudillo: \"Hay que pensar en el país\"",
-    "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
-    "source": "La República",
-    "published": "2026-09-26T20:42:51+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Midagri acelera trabajos por fenómeno de El Niño ante adelanto de la temporada de lluvias",
-    "url": "https://rpp.pe/politica/gobierno/midagri-acelera-trabajos-por-fenomeno-de-el-nino-ante-adelanto-de-la-temporada-de-lluvias-noticia-1709665",
-    "source": "RPP",
-    "published": "2026-09-27T23:50:39-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno confirma que solicitará crédito suplementario por S/8,000 millones: ¿cuánto irá a El Niño?",
-    "url": "https://gestion.pe/peru/politica/gobierno-solicitara-credito-suplementario-por-s8000-millones-cuanto-se-destinara-a-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-28T03:41:47+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Vinelli pide que Comisión de Constitución tome una decisión sobre facultades legislativas este lunes",
-    "url": "https://elcomercio.pe/politica/gobierno/delegacion-de-facultades-ministro-marco-vinelli-pide-que-comision-de-constitucion-tome-una-decision-sobre-el-tema-este-lunes-28-de-setiembre-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-28T03:23:12+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Marco Vinelli considera que “hay un apresuramiento” en mociones de censuras e interpelaciones a ministros",
-    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-considera-que-hay-un-apresuramiento-en-mociones-de-censuras-e-interpelaciones-a-ministros-noticia-1709630",
-    "source": "RPP",
-    "published": "2026-09-27T16:47:06-05:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "¿Habrá feriados por la visita del Papa León XIV al Perú? Canciller Carlos Espá expone lo que evalúa el Gobierno",
+    "url": "https://www.infobae.com/peru/2026/09/28/habra-feriados-por-la-visita-del-papa-leon-xiv-al-peru-canciller-carlos-espa-expone-lo-que-evalua-el-gobierno/",
+    "source": "Infobae",
+    "published": "2026-09-28T20:26:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori y Nayib Bukele se reunirán en El Salvador el 29 de octubre",
+    "url": "https://larepublica.pe/politica/2026/09/28/keiko-fujimori-y-nayib-bukele-se-reuniran-en-el-salvador-el-29-de-octubre-hnews-1153236",
+    "source": "La República",
+    "published": "2026-09-28T19:44:45+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Gobierno evalúa decretar feriados en fechas de visita del papa León XIV al Perú",
+    "url": "https://rpp.pe/politica/gobierno/gobierno-evalua-decretar-feriados-en-fechas-de-visita-del-papa-leon-xiv-al-peru-noticia-1709741",
+    "source": "RPP",
+    "published": "2026-09-28T14:08:38-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "León XIV tendrá ‘papamóvil’ peruano tras su llegada al país en noviembre: el Gobierno encargó dos unidades",
+    "url": "https://www.infobae.com/peru/2026/09/28/leon-xiv-tendra-papamovil-peruano-tras-su-llegada-al-pais-en-noviembre-el-gobierno-encargo-dos-unidades/",
+    "source": "Infobae",
+    "published": "2026-09-28T19:02:18+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Espá pide al Congreso aprobar facultades legislativas: \"La inmensa mayoría de peruanos está harta de las rencillas entre políticos\"",
+    "url": "https://rpp.pe/politica/gobierno/espa-pide-al-congreso-aprobar-facultades-legislativas-la-inmensa-mayoria-de-peruanos-esta-harta-de-las-rencillas-entre-politicos-noticia-1709744",
+    "source": "RPP",
+    "published": "2026-09-28T13:48:27-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Carlos Espá confirma fecha de la reunión entre Keiko Fujimori y Nayib Bukele en El Salvador",
+    "url": "https://www.infobae.com/peru/2026/09/28/ministro-carlos-espa-confirma-fecha-de-la-reunion-entre-keiko-fujimori-y-nayib-bukele-en-el-salvador/",
+    "source": "Infobae",
+    "published": "2026-09-28T15:49:10+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Farid Kahhat: “Keiko Fujimori no querrá antagonizar a Trump mientras dure su gobierno”",
     "url": "https://larepublica.pe/politica/2026/09/28/farid-kahhat-keiko-fujimori-no-querra-antagonizar-a-trump-mientras-dure-su-gobierno-hnews-896150",
     "source": "La República",
     "published": "2026-09-28T10:00:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Reunión entre Keiko Fujimori y Nayib Bukele está programada para el 29 de octubre en El Salvador, anunció Carlos Espá",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-y-nayib-bukele-se-reuniran-el-29-de-octubre-en-el-salvador-anuncio-carlos-espa-noticia-1709663",
-    "source": "RPP",
-    "published": "2026-09-27T22:53:11-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori se reunirá con Nayib Bukele en El Salvador: visita será a fines de octubre y seguridad ciudadana estará en la agenda",
-    "url": "https://www.infobae.com/peru/2026/09/28/keiko-fujimori-se-reunira-con-nayib-bukele-en-el-salvador-visita-sera-a-fines-de-octubre-y-seguridad-ciudadana-estara-en-la-agenda/",
-    "source": "Infobae",
-    "published": "2026-09-28T02:31:54+00:00",
     "matched_in": "summary"
    },
    {
@@ -120,12 +171,30 @@
     "matched_in": "title"
    }
   ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Ministro Chang: se prepara desalojo de inquilinos precarios que ocupan terrenos de colegios",
+    "url": "https://gestion.pe/peru/ministro-de-educacion-chang-se-prepara-desalojo-de-inquilinos-precarios-que-ocupan-terrenos-de-colegios-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-28T20:48:38+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "Editorial de Gestión: Arrancan las comisiones",
     "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-arrancan-las-comisiones-noticia/",
     "source": "Gestión",
     "published": "2026-09-28T10:20:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Gobierno de Keiko Fujimori oficializa el aumento del sueldo mínimo: primer tramo se aplicará desde octubre",
+    "url": "https://www.infobae.com/peru/2026/09/28/gobierno-de-keiko-fujimori-oficializa-aumento-del-sueldo-minimo-desde-octubre-sera-de-s1230-en-su-primer-tramo/",
+    "source": "Infobae",
+    "published": "2026-09-28T21:52:11+00:00",
     "matched_in": "summary"
    }
   ]
