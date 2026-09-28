@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T19:58:19+00:00",
+ "generated": "2026-09-28T01:26:18+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Buen Gobierno respaldará la moción de censura contra ministro del Interior, César Astudillo",
+    "url": "https://larepublica.pe/politica/2026/09/27/buen-gobierno-respaldara-la-mocion-de-censura-contra-ministro-del-interior-cesar-astudillo-hnews-2482326",
+    "source": "La República",
+    "published": "2026-09-28T01:20:09+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "César Astudillo: ¿La oposición tendría o no los votos para censurar al ministro del Interior?",
+    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-27T20:46:33+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Figallo confirma que Buen Gobierno apoyará censura a Astudillo y considera que Fredy López podría asumir Mininter",
     "url": "https://rpp.pe/politica/congreso/figallo-confirma-que-buen-gobierno-apoyara-censura-a-astudillo-y-considera-que-fredy-lopez-podria-asumir-mininter-noticia-1709613",
@@ -39,24 +53,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Astudillo dice que organizaciones criminales \"meten jóvenes\" en escuelas policiales: PNP había negado esos hechos",
-    "url": "https://rpp.pe/politica/gobierno/astudillo-dice-que-organizaciones-criminales-meten-jovenes-en-escuelas-policiales-pnp-habia-negado-esos-hechos-noticia-1709586",
-    "source": "RPP",
-    "published": "2026-09-27T10:23:28-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Alfonso López Chau sobre moción de censura contra ministro Astudillo: \"Hay que pensar en el país\"",
     "url": "https://larepublica.pe/politica/2026/09/25/alfonso-lopez-chau-sobre-mocion-de-censura-contra-ministro-cesar-astullido-hay-que-pensar-en-el-pais-hnews-2062450",
     "source": "La República",
     "published": "2026-09-26T20:42:51+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo: ¿La oposición tendría o no los votos para censurar al ministro del Interior?",
-    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-26T17:22:06+00:00",
     "matched_in": "title"
    },
    {
@@ -65,23 +65,16 @@
     "source": "La República",
     "published": "2026-09-26T03:04:30+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta blinda a Astudillo y rechaza moción de censura: \"Estar cambiando de ministros no es la solución\"",
-    "url": "https://larepublica.pe/politica/2026/09/25/luis-galarreta-blinda-a-astudillo-y-rechaza-mocion-de-censura-estar-cambiando-de-ministros-no-es-la-solucion-hnews-618675",
-    "source": "La República",
-    "published": "2026-09-25T23:20:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta sobre censura a César Astudillo: “Estar cambiando de ministros no es la solución”",
-    "url": "https://elcomercio.pe/politica/luis-galarreta-sobre-censura-a-cesar-astudillo-estar-cambiando-de-ministros-no-es-la-solucion-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-25T20:33:31+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori se reunirá con Nayib Bukele en El Salvador: visita será a fines de octubre y seguridad ciudadana estará en la agenda",
+    "url": "https://www.infobae.com/peru/2026/09/28/keiko-fujimori-se-reunira-con-nayib-bukele-en-el-salvador-visita-sera-a-fines-de-octubre-y-seguridad-ciudadana-estara-en-la-agenda/",
+    "source": "Infobae",
+    "published": "2026-09-28T01:15:24+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Canciller Carlos Espá viajará a Washington para reunión de la OEA sobre Nicaragua",
     "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-viajara-a-washington-para-reunion-de-la-oea-sobre-nicaragua-ultimas-noticia/",
@@ -99,12 +92,12 @@
     "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Luis Galarreta blinda a Astudillo y rechaza moción de censura: \"Estar cambiando de ministros no es la solución\"",
-    "url": "https://larepublica.pe/politica/2026/09/25/luis-galarreta-blinda-a-astudillo-y-rechaza-mocion-de-censura-estar-cambiando-de-ministros-no-es-la-solucion-hnews-618675",
-    "source": "La República",
-    "published": "2026-09-25T23:20:44+00:00",
+    "title": "Marco Vinelli considera que “hay un apresuramiento” en mociones de censuras e interpelaciones a ministros",
+    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-considera-que-hay-un-apresuramiento-en-mociones-de-censuras-e-interpelaciones-a-ministros-noticia-1709630",
+    "source": "RPP",
+    "published": "2026-09-27T16:47:06-05:00",
     "matched_in": "title"
    }
   ]
