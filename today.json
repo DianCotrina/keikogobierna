@@ -1,109 +1,28 @@
 {
- "generated": "2026-09-29T02:30:04+00:00",
+ "generated": "2026-09-29T11:10:12+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-09-28",
+ "date": "2026-09-29",
  "articles": [
   {
-   "title": "Miguel Torres sobre delegación de facultades: “Rechazar incluso lo urgente sería darle la espalda al país”",
-   "url": "https://elcomercio.pe/politica/gobierno/miguel-torres-sobre-delegacion-de-facultades-rechazar-incluso-lo-urgente-seria-darle-la-espalda-al-pais-comision-de-constitucion-camara-de-diputados-ultimas-noticia/",
-   "summary": "El presidente del Congreso, Miguel Torres (Fuerza Popular), consideró que el predictamen de la Comisión de Constitución de la Cámara de Diputados, que rechaza la delegación de facultades, le estaría dando “la espalda al país” si también desestima lo urgente.",
-   "author": "Redacción EC",
-   "published": "2026-09-29T01:02:34+00:00",
+   "title": "La hora de Galarreta",
+   "url": "https://elcomercio.pe/opinion/columnistas/la-hora-de-luis-galarreta-por-juan-paredes-castro-noticia/",
+   "summary": "Entre el innecesario bloqueo parlamentario a las facultades legislativas solicitadas por el gobierno y la desmedida ansiedad pública por resultados de gestión a solo dos meses de la asunción al poder de Keiko Fujimori, el presidente del Consejo de Ministros, Luis Galarreta, debiera dar un urgente campanazo de alerta de que el pararrayos del régimen es precisamente él.",
+   "author": "Juan Paredes Castro",
+   "published": "2026-09-29T11:00:01+00:00",
    "source": "El Comercio",
-   "captured": "2026-09-29T02:30:04+00:00"
+   "captured": "2026-09-29T11:10:12+00:00"
   },
   {
-   "title": "Diputada Cecilia Chacón sobre predictamen de la Comisión de Constitución: “Es una puñalada hacia el pueblo peruano”",
-   "url": "https://elcomercio.pe/politica/gobierno/diputada-cecilia-chacon-sobre-predictamen-de-la-comision-de-constitucion-por-delegacion-de-facultades-es-una-punalada-hacia-el-pueblo-peruano-camara-de-diputados-ultimas-noticia/",
-   "summary": "La diputada Cecilia Chacón (Fuerza Popular) consideró que el predictamen de la Comisión de Constitución, presidida por Juntos por el Perú, que recomienda no aprobar y archivar pedido de facultades del Gobierno, “es en realidad una puñalada hacia el pueblo peruano”.",
-   "author": "Redacción EC",
-   "published": "2026-09-28T22:26:12+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-29T02:30:04+00:00"
-  },
-  {
-   "title": "Sueldo mínimo: Keiko Fujimori aprobó primer alza de S/100 en la RMV desde octubre",
-   "url": "https://elcomercio.pe/economia/sueldo-minimo-keiko-fujimori-aprobo-primer-alza-de-s100-en-la-rmv-desde-octubre-l-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori, formalizó la primera parte del incremento de la Remuneración Mínima Vital (RMV) de S/100, que se aplicará de manera progresiva hasta alcanzar los S/1.300.",
-   "author": "Redacción EC",
-   "published": "2026-09-28T22:18:23+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-28T22:25:51+00:00"
-  },
-  {
-   "title": "Comisión de Constitución: predictamen recomienda no otorgar las facultades legislativas al Gobierno de Keiko Fujimori",
-   "url": "https://larepublica.pe/politica/2026/09/28/comision-de-constitucion-predictamen-recomendaria-no-otorgar-las-facultades-legislativas-al-gobierno-de-keiko-fujimori-hnews-717220",
-   "summary": "El documento de 205 páginas sostiene que el pedido del Ejecutivo no demostró la urgencia de legislar por su cuenta. Cinco comisiones de la Cámara de Diputados ya se habían pronunciado en contra.",
-   "author": "Ariadna Yaya",
-   "published": "2026-09-28T22:10:40+00:00",
-   "source": "La República",
-   "captured": "2026-09-28T22:25:51+00:00"
-  },
-  {
-   "title": "Keiko Fujimori realizará anuncio en materia laboral este lunes 28 de septiembre",
-   "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-realizara-anuncio-en-materia-laboral-este-lunes-28-de-septiembre-l-ultimas-noticia/",
-   "summary": "Este lunes 28 de septiembre desde las 3:45 p.m., Keiko Fujimori, presidenta del Perú, realizará un anuncio en materia laboral en una ceremonia que se llevará a cabo en Palacio de Gobierno.",
-   "author": "Redacción EC",
-   "published": "2026-09-28T21:04:42+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-28T22:25:51+00:00"
-  },
-  {
-   "title": "Keiko Fujimori y Nayib Bukele se reunirán en El Salvador el 29 de octubre",
-   "url": "https://larepublica.pe/politica/2026/09/28/keiko-fujimori-y-nayib-bukele-se-reuniran-en-el-salvador-el-29-de-octubre-hnews-1153236",
-   "summary": "El canciller Carlos Espá confirmó que el encuentro se realizará a fines de octubre, con el objetivo de abordar la crisis de inseguridad ciudadana y la lucha contra organizaciones criminales transnacionales.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-09-28T19:44:45+00:00",
-   "source": "La República",
-   "captured": "2026-09-28T22:25:51+00:00"
-  },
-  {
-   "title": "El 76% se siente inseguro en las calles de su ciudad, según última encuesta de Datum",
-   "url": "https://elcomercio.pe/politica/gobierno/el-76-se-siente-inseguro-en-las-calles-de-su-ciudad-segun-ultima-encuesta-de-datum-apuesplan-noticia/",
-   "summary": "A dos meses de iniciado el gobierno de la presidenta Keiko Fujimori (Fuerza Popular), el 76% de peruanos se siente inseguro en las calles de su ciudad, mientras que solamente el 23% se siente seguro, según la última encuesta de Datum Internacional para El Comercio, realizada entre el 19 y 25 de setiembre último. El 1% no sabe.",
+   "title": "Keiko Fujimori: ¿Cuál puede ser el impacto de su visita a El Salvador? ¿Y qué puede adoptar del modelo Bukele?",
+   "url": "https://elcomercio.pe/politica/keiko-fujimori-cual-puede-ser-el-impacto-de-su-visita-a-el-salvador-y-que-puede-adoptar-del-modelo-bukele-apuesplan-noticia/",
+   "summary": "A poco más de un mes, la presidenta de la República, Keiko Fujimori, retomó este domingo las transmisiones en vivo en TikTok y en Facebook. En esta última oportunidad dejó de lado los regalos o los consejos de belleza y se centró en hacer un balance de su viaje a Nueva York (Estados Unidos), donde se presentó ante la Asamblea General de las Naciones Unidas y participó en una reunión del Escudo de las Américas, dirigido por su par estadounidense Donald Trump.",
    "author": "Sebastian Ortiz Martínez",
-   "published": "2026-09-28T19:17:00+00:00",
+   "published": "2026-09-29T11:00:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-09-28T22:25:51+00:00"
-  },
-  {
-   "title": "Ministro Alberto Beingolea considera “perfectamente pertinente” anunciado viaje de Keiko Fujimori a El Salvador",
-   "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-considera-perfectamente-pertinente-eventual-viaje-de-keiko-fujimori-a-el-salvador-ultimas-noticia/",
-   "summary": "El ministro de Cultura, Alberto Beingolea, consideró que sería “perfectamente pertinente” que la presidenta Keiko Fujimori viaje a El Salvador para reunirse con su homólogo Nayib Bukele, luego de la invitación que el mandatario salvadoreño le extendió para visitar ese país.",
-   "author": "Redacción EC",
-   "published": "2026-09-28T17:43:25+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-28T22:25:51+00:00"
-  },
-  {
-   "title": "López Aliaga compara a Fujimori con Boluarte: \"No necesitas tantas facultades (...) Ella sacaba un decreto cada semana\"",
-   "url": "https://larepublica.pe/politica/2026/09/28/rafael-lopez-aliaga-compara-a-fujimori-con-dina-boluarte-no-necesitas-tantas-facultades-ella-sacaba-un-decreto-cada-semana-hnews-1416492",
-   "summary": "El líder de Renovación Popular cuestionó la respuesta del Gobierno de Keiko Fujimori frente a la inseguridad ciudadana y sostuvo que el Ejecutivo puede tomar medidas rápidas sin esperar la delegación de facultades legislativas.",
-   "author": "Ariadna Yaya",
-   "published": "2026-09-28T16:49:46+00:00",
-   "source": "La República",
-   "captured": "2026-09-28T22:25:51+00:00"
-  },
-  {
-   "title": "Cuidado con las dependencias",
-   "url": "https://elcomercio.pe/opinion/columnistas/cuidado-con-las-dependencias-noticia/",
-   "summary": "La polémica ocurrida a raíz del debate municipal, donde el candidato de Fuerza Popular (FP) salió con la intención de demoler al favorito en las encuestas para la alcaldía de Lima, no es un detalle menor. El enfrentamiento trajo varias consecuencias, siendo la principal que el candidato de Renovación Popular (RP) lanzó públicamente una severa queja y advertencia a Fuerza Popular y al gobierno sobre las consecuencias que el comportamiento de su candidato podría traer en las relaciones de ambas agrupaciones en el Congreso.",
-   "author": "Enrique Castillo",
-   "published": "2026-09-28T10:30:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-09-28T11:29:53+00:00"
-  },
-  {
-   "title": "Farid Kahhat: “Keiko Fujimori no querrá antagonizar a Trump mientras dure su gobierno”",
-   "url": "https://larepublica.pe/politica/2026/09/28/farid-kahhat-keiko-fujimori-no-querra-antagonizar-a-trump-mientras-dure-su-gobierno-hnews-896150",
-   "summary": "El internacionalista habla con La República sobre los últimos movimientos en política exterior del Perú. Además, señala las implicancias en el giro pro-Estados Unidos que se maneja desde Cancillería bajo la orden de Carlos Espá.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-09-28T10:00:00+00:00",
-   "source": "La República",
-   "captured": "2026-09-28T11:29:53+00:00"
+   "captured": "2026-09-29T11:10:12+00:00"
   }
  ]
 }

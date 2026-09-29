@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T02:30:04+00:00",
+ "generated": "2026-09-29T11:10:12+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,14 +9,23 @@
   "Infobae"
  ],
  "ministers": {
-  "marco-antonio-vinelli-ruiz": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Gobierno confirma que solicitará crédito suplementario por S/8,000 millones: ¿cuánto irá a El Niño?",
-    "url": "https://gestion.pe/peru/politica/gobierno-solicitara-credito-suplementario-por-s8000-millones-cuanto-se-destinara-a-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-28T12:10:00+00:00",
-    "matched_in": "summary"
+    "title": "Ministro Juan Sheput descarta cuestión de confianza por delegación de facultades legislativas",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-descarta-cuestion-de-confianza-por-delegacion-de-facultades-legislativas-comision-de-constitucion-camara-de-diputados-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-29T03:22:05+00:00",
+    "matched_in": "title"
    },
+   {
+    "title": "Gobierno de Keiko Fujimori oficializa el aumento del sueldo mínimo: primer tramo se aplicará desde octubre",
+    "url": "https://www.infobae.com/peru/2026/09/28/gobierno-de-keiko-fujimori-oficializa-aumento-del-sueldo-minimo-desde-octubre-sera-de-s1230-en-su-primer-tramo/",
+    "source": "Infobae",
+    "published": "2026-09-28T21:52:11+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
    {
     "title": "Ministro Vinelli pide que Comisión de Constitución tome una decisión sobre facultades legislativas este lunes",
     "url": "https://elcomercio.pe/politica/gobierno/delegacion-de-facultades-ministro-marco-vinelli-pide-que-comision-de-constitucion-tome-una-decision-sobre-el-tema-este-lunes-28-de-setiembre-ultimas-noticia/",
@@ -46,7 +55,14 @@
     "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
     "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
     "source": "La República",
-    "published": "2026-09-29T00:46:07+00:00",
+    "published": "2026-09-29T04:13:33+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Belmont envía mensaje a su bancada por apoyar censura contra Astudillo: “El que traiciona se va, aunque me quede con uno\"",
+    "url": "https://larepublica.pe/politica/2026/09/28/belmont-envia-mensaje-su-bancada-por-apoyar-censura-contra-astudillo-el-que-traiciona-se-va-aunque-me-quede-con-uno-hnews-1461656",
+    "source": "La República",
+    "published": "2026-09-29T04:11:22+00:00",
     "matched_in": "title"
    },
    {
@@ -54,13 +70,6 @@
     "url": "https://gestion.pe/peru/ministro-cesar-astudillo-anuncia-mesa-de-trabajo-para-contrarrestar-casos-de-extorsion-en-el-transporte-publico-noticia/",
     "source": "Gestión",
     "published": "2026-09-29T00:07:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Belmont envía mensaje a su bancada por apoyar censura contra Astudillo: “El que traiciona se va, aunque me quede con uno\"",
-    "url": "https://larepublica.pe/politica/2026/09/28/belmont-envia-mensaje-su-bancada-por-apoyar-censura-contra-astudillo-el-que-traiciona-se-va-aunque-me-quede-con-uno-hnews-1461656",
-    "source": "La República",
-    "published": "2026-09-28T23:17:24+00:00",
     "matched_in": "title"
    },
    {
@@ -129,6 +138,13 @@
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Exministro Rafael Rey sería enviado como embajador a España, desliza canciller Carlos Espá: “Vamos a esperar unos días”",
+    "url": "https://www.infobae.com/peru/2026/09/29/exministro-rafael-rey-seria-enviado-como-embajador-a-espana-desliza-canciller-carlos-espa-vamos-a-esperar-unos-dias/",
+    "source": "Infobae",
+    "published": "2026-09-29T02:42:10+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "¿Habrá feriados por la visita del Papa León XIV al Perú? Canciller Carlos Espá expone lo que evalúa el Gobierno",
     "url": "https://www.infobae.com/peru/2026/09/28/habra-feriados-por-la-visita-del-papa-leon-xiv-al-peru-canciller-carlos-espa-expone-lo-que-evalua-el-gobierno/",
     "source": "Infobae",
@@ -150,13 +166,6 @@
     "matched_in": "summary"
    },
    {
-    "title": "Ministro Carlos Espá confirma fecha de la reunión entre Keiko Fujimori y Nayib Bukele en El Salvador",
-    "url": "https://www.infobae.com/peru/2026/09/28/ministro-carlos-espa-confirma-fecha-de-la-reunion-entre-keiko-fujimori-y-nayib-bukele-en-el-salvador/",
-    "source": "Infobae",
-    "published": "2026-09-28T15:49:10+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Farid Kahhat: “Keiko Fujimori no querrá antagonizar a Trump mientras dure su gobierno”",
     "url": "https://larepublica.pe/politica/2026/09/28/farid-kahhat-keiko-fujimori-no-querra-antagonizar-a-trump-mientras-dure-su-gobierno-hnews-896150",
     "source": "La República",
@@ -176,17 +185,8 @@
     "title": "Ministro Chang: se prepara desalojo de inquilinos precarios que ocupan terrenos de colegios",
     "url": "https://gestion.pe/peru/ministro-de-educacion-chang-se-prepara-desalojo-de-inquilinos-precarios-que-ocupan-terrenos-de-colegios-noticia/",
     "source": "Gestión",
-    "published": "2026-09-29T00:15:00+00:00",
+    "published": "2026-09-29T05:23:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Gobierno de Keiko Fujimori oficializa el aumento del sueldo mínimo: primer tramo se aplicará desde octubre",
-    "url": "https://www.infobae.com/peru/2026/09/28/gobierno-de-keiko-fujimori-oficializa-aumento-del-sueldo-minimo-desde-octubre-sera-de-s1230-en-su-primer-tramo/",
-    "source": "Infobae",
-    "published": "2026-09-28T21:52:11+00:00",
-    "matched_in": "summary"
    }
   ]
  }
