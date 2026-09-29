@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T11:10:12+00:00",
+ "generated": "2026-09-29T21:17:08+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,81 +9,47 @@
   "Infobae"
  ],
  "ministers": {
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput descarta cuestión de confianza por delegación de facultades legislativas",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-descarta-cuestion-de-confianza-por-delegacion-de-facultades-legislativas-comision-de-constitucion-camara-de-diputados-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-29T03:22:05+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno de Keiko Fujimori oficializa el aumento del sueldo mínimo: primer tramo se aplicará desde octubre",
-    "url": "https://www.infobae.com/peru/2026/09/28/gobierno-de-keiko-fujimori-oficializa-aumento-del-sueldo-minimo-desde-octubre-sera-de-s1230-en-su-primer-tramo/",
-    "source": "Infobae",
-    "published": "2026-09-28T21:52:11+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Ministro Vinelli pide que Comisión de Constitución tome una decisión sobre facultades legislativas este lunes",
-    "url": "https://elcomercio.pe/politica/gobierno/delegacion-de-facultades-ministro-marco-vinelli-pide-que-comision-de-constitucion-tome-una-decision-sobre-el-tema-este-lunes-28-de-setiembre-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-28T03:23:12+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno acelera procesos para ejecutar grandes proyectos de irrigación, informa ministro Marco Vinelli",
-    "url": "https://elcomercio.pe/economia/gobierno-acelera-procesos-para-ejecutar-grandes-proyectos-de-irrigacion-informa-ministro-marco-vinelli-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-26T19:16:35+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Ministro Alberto Beingolea considera “perfectamente pertinente” anunciado viaje de Keiko Fujimori a El Salvador",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-considera-perfectamente-pertinente-eventual-viaje-de-keiko-fujimori-a-el-salvador-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-28T17:43:25+00:00",
-    "matched_in": "title"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
-    "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
-    "source": "La República",
-    "published": "2026-09-29T04:13:33+00:00",
+    "title": "Pleno de la Cámara de Diputados debatirá este jueves moción de censura contra ministro Astudillo",
+    "url": "https://gestion.pe/peru/politica/pleno-de-la-camara-de-diputados-debatira-este-jueves-mocion-de-censura-contra-ministro-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-29T20:38:20+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cámara de Diputados debatirá este jueves censura contra ministro del Interior",
+    "url": "https://elcomercio.pe/politica/congreso/camara-de-diputados-debatira-este-jueves-censura-contra-ministro-del-interior-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-29T19:58:23+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ahora Nación acuerda “por mayoría” no apoyar la censura del ministro del Interior, anuncia diputado Marcelo",
+    "url": "https://elcomercio.pe/politica/congreso/mocion-de-censura-contra-cesar-astudillo-que-pasa-en-ahora-nacion-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-29T18:36:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cámara de Diputados decidirá este jueves si censura al ministro del Interior, César Astudillo",
+    "url": "https://www.infobae.com/peru/2026/09/29/camara-de-diputados-decidira-este-jueves-si-censura-al-ministro-del-interior-cesar-astudillo/",
+    "source": "Infobae",
+    "published": "2026-09-29T18:26:36+00:00",
     "matched_in": "title"
    },
    {
     "title": "Belmont envía mensaje a su bancada por apoyar censura contra Astudillo: “El que traiciona se va, aunque me quede con uno\"",
     "url": "https://larepublica.pe/politica/2026/09/28/belmont-envia-mensaje-su-bancada-por-apoyar-censura-contra-astudillo-el-que-traiciona-se-va-aunque-me-quede-con-uno-hnews-1461656",
     "source": "La República",
-    "published": "2026-09-29T04:11:22+00:00",
+    "published": "2026-09-29T14:42:57+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Transporte público: Ministro Astudillo anuncia mesa de trabajo para contrarrestar extorsiones",
-    "url": "https://gestion.pe/peru/ministro-cesar-astudillo-anuncia-mesa-de-trabajo-para-contrarrestar-casos-de-extorsion-en-el-transporte-publico-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-29T00:07:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Belmont califica de “traición” apoyar la moción de censura a Astudillo desde su propia bancada",
-    "url": "https://gestion.pe/peru/ricardo-belmont-califica-de-traicion-el-impulso-de-censura-a-ministro-astudillo-desde-su-propia-bancada-obras-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-28T21:25:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Harvey Colchado se opone a censura de César Astudillo y plantea evaluarlo hasta diciembre",
-    "url": "https://gestion.pe/peru/politica/diputado-harvey-colchado-se-opone-a-eventual-censura-de-cesar-astudillo-y-plantea-evaluar-su-gestion-hasta-diciembre-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-28T21:06:00+00:00",
+    "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
+    "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
+    "source": "La República",
+    "published": "2026-09-29T14:41:51+00:00",
     "matched_in": "title"
    },
    {
@@ -106,64 +72,100 @@
     "source": "La República",
     "published": "2026-09-28T01:20:09+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "César Astudillo: ¿La oposición tendría o no los votos para censurar al ministro del Interior?",
-    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-la-oposicion-tiene-los-votos-para-censurar-al-ministro-del-interior-y-que-camino-sigue-la-mocion-en-el-congreso-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-27T20:46:33+00:00",
+    "title": "Juan Sheput: Gobierno espera “razonabilidad” del Congreso por pedido de facultades",
+    "url": "https://gestion.pe/peru/ministro-juan-sheput-gobierno-espera-razonabilidad-del-congreso-por-pedido-de-facultades-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-29T18:19:06+00:00",
     "matched_in": "title"
    },
    {
-    "title": "César Astudillo contradice a la PNP y afirma que mafias infiltran jóvenes en escuelas policiales",
-    "url": "https://elcomercio.pe/politica/gobierno/cesar-astudillo-contradice-a-la-pnp-y-afirma-que-mafias-infiltran-jovenes-en-escuelas-policiales-ultimas-noticia/",
+    "title": "Ministro Juan Sheput descarta cuestión de confianza por delegación de facultades legislativas",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-descarta-cuestion-de-confianza-por-delegacion-de-facultades-legislativas-comision-de-constitucion-camara-de-diputados-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-27T16:53:47+00:00",
+    "published": "2026-09-29T03:22:05+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Vinelli pide que Comisión de Constitución tome una decisión sobre facultades legislativas este lunes",
+    "url": "https://elcomercio.pe/politica/gobierno/delegacion-de-facultades-ministro-marco-vinelli-pide-que-comision-de-constitucion-tome-una-decision-sobre-el-tema-este-lunes-28-de-setiembre-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-28T03:23:12+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Ministro Alberto Beingolea considera “perfectamente pertinente” anunciado viaje de Keiko Fujimori a El Salvador",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-considera-perfectamente-pertinente-eventual-viaje-de-keiko-fujimori-a-el-salvador-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-28T17:43:25+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Roberto Sánchez pide renuncia del premier Luis Galarreta: “Si quiere amenazar (...), que dé un paso al costado”",
+    "url": "https://www.infobae.com/peru/2026/09/29/roberto-sanchez-pide-renuncia-del-premier-luis-galarreta-si-quiere-amenazar-que-de-un-paso-al-costado/",
+    "source": "Infobae",
+    "published": "2026-09-29T20:23:33+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Flavio Figallo confirma respaldo del Partido del Buen Gobierno a censura de César Astudillo: “Jorge Nieto la avala”",
-    "url": "https://elcomercio.pe/politica/congreso/flavio-figallo-confirma-respaldo-del-partido-del-buen-gobierno-a-censura-de-cesar-astudillo-jorge-nieto-la-avala-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-27T15:55:23+00:00",
+    "title": "Luis Galarreta amenaza al Congreso por facultades: “Hemos mantenido paciencia democrática hasta el momento”",
+    "url": "https://larepublica.pe/politica/2026/09/29/luis-galarreta-amenaza-al-congreso-por-facultades-hemos-mantenido-paciencia-democratica-hasta-el-momento-hnews-621934",
+    "source": "La República",
+    "published": "2026-09-29T19:18:56+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ricardo Belmont toma distancia de respaldo de Obras a censura contra Astudillo: \"No han consultado conmigo, se han disparado\"",
-    "url": "https://rpp.pe/politica/congreso/ricardo-belmont-toma-distancia-de-respaldo-de-obras-a-censura-contra-astudillo-no-han-consultado-conmigo-se-han-disparado-noticia-1709446",
-    "source": "RPP",
-    "published": "2026-09-25T19:50:17-05:00",
+    "title": "Keiko Fujimori advierte al Congreso ante posible negación de facultades: \"Están poniendo a prueba nuestra paciencia\"",
+    "url": "https://larepublica.pe/politica/2026/09/29/keiko-fujimori-advierte-al-congreso-ante-posible-negacion-de-facultades-estan-poniendo-a-prueba-nuestra-paciencia-hnews-2401026",
+    "source": "La República",
+    "published": "2026-09-29T19:13:59+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ahora Nación se reunió con el premier Galarreta para revisar el pedido de facultades horas antes de su debate en Constitución",
+    "url": "https://larepublica.pe/politica/2026/09/29/ahora-nacion-se-reunio-con-el-premier-galarreta-para-revisar-el-pedido-de-facultades-horas-antes-de-su-debate-en-constitucion-hnews-2240569",
+    "source": "La República",
+    "published": "2026-09-29T16:01:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Galarreta amenaza al Congreso: “Ojalá recapaciten, porque hasta ahora hemos mantenido paciencia y actitud republicana”",
+    "url": "https://www.infobae.com/peru/2026/09/29/luis-galarreta-amenaza-al-congreso-hemos-mantenido-paciencia-democratica-y-actitud-republicana-hasta-el-momento/",
+    "source": "Infobae",
+    "published": "2026-09-29T14:56:40+00:00",
     "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Exministro Rafael Rey sería enviado como embajador a España, desliza canciller Carlos Espá: “Vamos a esperar unos días”",
-    "url": "https://www.infobae.com/peru/2026/09/29/exministro-rafael-rey-seria-enviado-como-embajador-a-espana-desliza-canciller-carlos-espa-vamos-a-esperar-unos-dias/",
+    "title": "Fujimori promete trabajar con todos los que sean electos sin mirar “color”, aunque canciller está “más cerca del celeste”",
+    "url": "https://www.infobae.com/peru/2026/09/29/keiko-fujimori-promete-trabajar-con-todos-los-sean-electos-sin-mirar-color-aunque-canciller-esta-mas-cerca-del-celeste/",
     "source": "Infobae",
-    "published": "2026-09-29T02:42:10+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "¿Habrá feriados por la visita del Papa León XIV al Perú? Canciller Carlos Espá expone lo que evalúa el Gobierno",
-    "url": "https://www.infobae.com/peru/2026/09/28/habra-feriados-por-la-visita-del-papa-leon-xiv-al-peru-canciller-carlos-espa-expone-lo-que-evalua-el-gobierno/",
-    "source": "Infobae",
-    "published": "2026-09-28T20:26:35+00:00",
+    "published": "2026-09-29T21:09:06+00:00",
     "matched_in": "title"
    },
    {
     "title": "Keiko Fujimori y Nayib Bukele se reunirán en El Salvador el 29 de octubre",
     "url": "https://larepublica.pe/politica/2026/09/28/keiko-fujimori-y-nayib-bukele-se-reuniran-en-el-salvador-el-29-de-octubre-hnews-1153236",
     "source": "La República",
-    "published": "2026-09-28T19:44:45+00:00",
+    "published": "2026-09-29T14:48:34+00:00",
     "matched_in": "summary"
    },
    {
-    "title": "León XIV tendrá ‘papamóvil’ peruano tras su llegada al país en noviembre: el Gobierno encargó dos unidades",
-    "url": "https://www.infobae.com/peru/2026/09/28/leon-xiv-tendra-papamovil-peruano-tras-su-llegada-al-pais-en-noviembre-el-gobierno-encargo-dos-unidades/",
+    "title": "Canciller Carlos Espá anuncia futuro encuentro entre Fujimori y Trump en la Casa Blanca",
+    "url": "https://www.infobae.com/peru/2026/09/29/canciller-carlos-espa-anuncia-futuro-encuentro-entre-fujimori-y-trump-en-la-casa-blanca/",
     "source": "Infobae",
-    "published": "2026-09-28T19:02:18+00:00",
-    "matched_in": "summary"
+    "published": "2026-09-29T13:27:29+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Farid Kahhat: “Keiko Fujimori no querrá antagonizar a Trump mientras dure su gobierno”",
@@ -171,21 +173,44 @@
     "source": "La República",
     "published": "2026-09-28T10:00:00+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Canciller Carlos Espá viajará a Washington para reunión de la OEA sobre Nicaragua",
-    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-viajara-a-washington-para-reunion-de-la-oea-sobre-nicaragua-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-27T15:21:36+00:00",
-    "matched_in": "title"
+    "title": "inPERÚ regresa a Nueva York: Llevará oportunidades de inversión en minería, infraestructura y agroindustria",
+    "url": "https://rpp.pe/economia/economia/inperu-regresa-a-nueva-york-llevara-oportunidades-de-inversion-en-mineria-infraestructura-y-agroindustria-noticia-1709951",
+    "source": "RPP",
+    "published": "2026-09-29T13:42:35-05:00",
+    "matched_in": "summary"
    }
   ],
   "jose-antonio-chang-escobedo": [
    {
+    "title": "Pleno de la Cámara de Diputados debatirá este jueves moción de censura contra ministro Astudillo",
+    "url": "https://gestion.pe/peru/politica/pleno-de-la-camara-de-diputados-debatira-este-jueves-mocion-de-censura-contra-ministro-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-29T20:38:20+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Evalúan la posibilidad de expulsar a escolares violentos, dice titular del Minedu",
+    "url": "https://gestion.pe/peru/evaluan-la-posibilidad-de-expulsar-a-escolares-violentos-anuncia-titular-del-minedu-jose-antonio-chang-escobedo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-29T18:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Cámara de Diputados debatirá el jueves 1 de octubre la moción de censura contra el ministro del Interior",
+    "url": "https://rpp.pe/politica/congreso/cesar-astudillo-camara-de-diputados-debatira-el-jueves-1-de-octubre-la-mocion-de-censura-contra-el-ministro-del-interior-noticia-1709933",
+    "source": "RPP",
+    "published": "2026-09-29T12:45:19-05:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Ministro Chang: se prepara desalojo de inquilinos precarios que ocupan terrenos de colegios",
     "url": "https://gestion.pe/peru/ministro-de-educacion-chang-se-prepara-desalojo-de-inquilinos-precarios-que-ocupan-terrenos-de-colegios-noticia/",
     "source": "Gestión",
-    "published": "2026-09-29T05:23:00+00:00",
+    "published": "2026-09-29T15:12:00+00:00",
     "matched_in": "title"
    }
   ]
