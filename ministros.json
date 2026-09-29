@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T22:25:51+00:00",
+ "generated": "2026-09-29T02:30:04+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -23,6 +23,13 @@
     "source": "El Comercio",
     "published": "2026-09-28T03:23:12+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Gobierno acelera procesos para ejecutar grandes proyectos de irrigación, informa ministro Marco Vinelli",
+    "url": "https://elcomercio.pe/economia/gobierno-acelera-procesos-para-ejecutar-grandes-proyectos-de-irrigacion-informa-ministro-marco-vinelli-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-26T19:16:35+00:00",
+    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -36,6 +43,27 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
+    "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
+    "source": "La República",
+    "published": "2026-09-29T00:46:07+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Transporte público: Ministro Astudillo anuncia mesa de trabajo para contrarrestar extorsiones",
+    "url": "https://gestion.pe/peru/ministro-cesar-astudillo-anuncia-mesa-de-trabajo-para-contrarrestar-casos-de-extorsion-en-el-transporte-publico-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-29T00:07:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Belmont envía mensaje a su bancada por apoyar censura contra Astudillo: “El que traiciona se va, aunque me quede con uno\"",
+    "url": "https://larepublica.pe/politica/2026/09/28/belmont-envia-mensaje-su-bancada-por-apoyar-censura-contra-astudillo-el-que-traiciona-se-va-aunque-me-quede-con-uno-hnews-1461656",
+    "source": "La República",
+    "published": "2026-09-28T23:17:24+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Belmont califica de “traición” apoyar la moción de censura a Astudillo desde su propia bancada",
     "url": "https://gestion.pe/peru/ricardo-belmont-califica-de-traicion-el-impulso-de-censura-a-ministro-astudillo-desde-su-propia-bancada-obras-noticia/",
     "source": "Gestión",
@@ -47,27 +75,6 @@
     "url": "https://gestion.pe/peru/politica/diputado-harvey-colchado-se-opone-a-eventual-censura-de-cesar-astudillo-y-plantea-evaluar-su-gestion-hasta-diciembre-noticia/",
     "source": "Gestión",
     "published": "2026-09-28T21:06:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Transporte público: Ministro Astudillo anuncia mesa de trabajo para contrarrestar extorsiones",
-    "url": "https://gestion.pe/peru/ministro-cesar-astudillo-anuncia-mesa-de-trabajo-para-contrarrestar-casos-de-extorsion-en-el-transporte-publico-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-28T20:07:15+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Espá pide al Congreso aprobar facultades legislativas: \"La inmensa mayoría de peruanos está harta de las rencillas entre políticos\"",
-    "url": "https://rpp.pe/politica/gobierno/espa-pide-al-congreso-aprobar-facultades-legislativas-la-inmensa-mayoria-de-peruanos-esta-harta-de-las-rencillas-entre-politicos-noticia-1709744",
-    "source": "RPP",
-    "published": "2026-09-28T13:48:27-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
-    "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
-    "source": "La República",
-    "published": "2026-09-28T16:46:10+00:00",
     "matched_in": "title"
    },
    {
@@ -111,6 +118,13 @@
     "source": "El Comercio",
     "published": "2026-09-27T15:55:23+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Ricardo Belmont toma distancia de respaldo de Obras a censura contra Astudillo: \"No han consultado conmigo, se han disparado\"",
+    "url": "https://rpp.pe/politica/congreso/ricardo-belmont-toma-distancia-de-respaldo-de-obras-a-censura-contra-astudillo-no-han-consultado-conmigo-se-han-disparado-noticia-1709446",
+    "source": "RPP",
+    "published": "2026-09-25T19:50:17-05:00",
+    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -129,25 +143,11 @@
     "matched_in": "summary"
    },
    {
-    "title": "Gobierno evalúa decretar feriados en fechas de visita del papa León XIV al Perú",
-    "url": "https://rpp.pe/politica/gobierno/gobierno-evalua-decretar-feriados-en-fechas-de-visita-del-papa-leon-xiv-al-peru-noticia-1709741",
-    "source": "RPP",
-    "published": "2026-09-28T14:08:38-05:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "León XIV tendrá ‘papamóvil’ peruano tras su llegada al país en noviembre: el Gobierno encargó dos unidades",
     "url": "https://www.infobae.com/peru/2026/09/28/leon-xiv-tendra-papamovil-peruano-tras-su-llegada-al-pais-en-noviembre-el-gobierno-encargo-dos-unidades/",
     "source": "Infobae",
     "published": "2026-09-28T19:02:18+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Espá pide al Congreso aprobar facultades legislativas: \"La inmensa mayoría de peruanos está harta de las rencillas entre políticos\"",
-    "url": "https://rpp.pe/politica/gobierno/espa-pide-al-congreso-aprobar-facultades-legislativas-la-inmensa-mayoria-de-peruanos-esta-harta-de-las-rencillas-entre-politicos-noticia-1709744",
-    "source": "RPP",
-    "published": "2026-09-28T13:48:27-05:00",
-    "matched_in": "title"
    },
    {
     "title": "Ministro Carlos Espá confirma fecha de la reunión entre Keiko Fujimori y Nayib Bukele en El Salvador",
@@ -176,17 +176,8 @@
     "title": "Ministro Chang: se prepara desalojo de inquilinos precarios que ocupan terrenos de colegios",
     "url": "https://gestion.pe/peru/ministro-de-educacion-chang-se-prepara-desalojo-de-inquilinos-precarios-que-ocupan-terrenos-de-colegios-noticia/",
     "source": "Gestión",
-    "published": "2026-09-28T20:48:38+00:00",
+    "published": "2026-09-29T00:15:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Editorial de Gestión: Arrancan las comisiones",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-arrancan-las-comisiones-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-28T10:20:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
