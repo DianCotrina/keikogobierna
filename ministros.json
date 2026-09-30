@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T16:45:09+00:00",
+ "generated": "2026-09-30T21:16:14+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,56 +9,91 @@
   "Infobae"
  ],
  "ministers": {
-  "alberto-ismael-beingolea-delgado": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Alberto Beingolea sobre delegación de facultades: “Estoy seguro que otras bancadas van a cambiar esta situación”",
-    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-sobre-delegacion-de-facultades-estoy-seguro-que-otras-bancadas-van-a-cambiar-esta-situacion-comision-de-constitucion-camara-de-diputados-apuesplan-ultimas-noticia/",
+    "title": "Ministro Rafael Belaunde sobre delegación de facultades: “El ultimátum no lo da la presidenta, creo que lo da la población”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-delegacion-de-facultades-el-ultimatum-no-lo-da-la-presidenta-creo-que-lo-da-la-poblacion-keiko-fujimori-camara-de-diputados-comision-de-constitucion-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-30T15:59:08+00:00",
+    "published": "2026-09-30T20:44:27+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Alberto Beingolea considera “bastante absurda” moción de censura contra el ministro César Astudillo",
-    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-considera-bastante-absurda-mocion-de-censura-contra-el-ministro-cesar-astudillo-seguridad-ciudadana-camara-de-diputados-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T15:41:17+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Alberto Beingolea considera “perfectamente pertinente” anunciado viaje de Keiko Fujimori a El Salvador",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-alberto-beingolea-considera-perfectamente-pertinente-eventual-viaje-de-keiko-fujimori-a-el-salvador-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-28T17:43:25+00:00",
+    "title": "Rafael Belaúnde dice que negación del pedido de facultades sería \"un hecho sin precedentes\" en la historia del país",
+    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-dice-que-negacion-del-pedido-de-facultades-seria-un-hecho-sin-precedentes-en-la-historia-del-pais-noticia-1710147",
+    "source": "RPP",
+    "published": "2026-09-30T13:54:03-05:00",
     "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Obras no apoyará censura contra ministro César Astudillo y Buen Gobierno definirá su postura en las próximas horas",
+    "url": "https://larepublica.pe/politica/2026/09/30/obras-no-apoyara-censura-contra-ministro-cesar-astudillo-y-buen-gobierno-definira-su-postura-en-las-proximas-horas-hnews-1892340",
+    "source": "La República",
+    "published": "2026-09-30T20:52:25+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Moción de censura contra Astudillo pierde votos: los entretelones de la decisión de Ahora Nación",
     "url": "https://elcomercio.pe/politica/congreso/mocion-de-censura-contra-astudillo-pierde-votos-los-entretelones-de-la-decision-de-ahora-nacion-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-30T15:47:28+00:00",
+    "published": "2026-09-30T20:42:29+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Alberto Beingolea considera “bastante absurda” moción de censura contra el ministro César Astudillo",
-    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-considera-bastante-absurda-mocion-de-censura-contra-el-ministro-cesar-astudillo-seguridad-ciudadana-camara-de-diputados-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T15:41:17+00:00",
+    "title": "Congreso: Obras no apoyará censura contra el ministro del Interior, César Astudillo",
+    "url": "https://gestion.pe/peru/politica/congreso-obras-no-apoyara-censura-contra-el-ministro-del-interior-cesar-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-30T19:34:25+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Harvey Colchado afirma que censura al ministro del Interior tendrá dos votos a favor de Ahora Nación",
-    "url": "https://www.infobae.com/peru/2026/09/30/harvey-colchado-afirma-que-censura-al-ministro-del-interior-tendra-dos-votos-a-favor-de-ahora-nacion/",
+    "title": "César Astudillo no sería censurado: Obras decide no respaldar moción contra el ministro del Interior",
+    "url": "https://www.infobae.com/peru/2026/09/30/cesar-astudillo-no-seria-censurado-obras-decide-no-respaldar-mocion-contra-el-ministro-del-interior/",
     "source": "Infobae",
-    "published": "2026-09-30T12:36:18+00:00",
+    "published": "2026-09-30T19:12:26+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Senador Daniel Barragán anuncia que diputados de Obras no respaldará moción de censura contra ministro César Astudillo",
+    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-senador-daniel-barragan-anuncia-que-diputados-de-obras-no-respaldara-mocion-de-censura-contra-ministro-del-interior-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T19:09:14+00:00",
     "matched_in": "title"
    },
    {
     "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
     "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
     "source": "La República",
-    "published": "2026-09-30T03:56:34+00:00",
+    "published": "2026-09-30T18:24:27+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Senadora Luque descarta quiebre en Ahora Nación por censura a César Astudillo",
+    "url": "https://gestion.pe/peru/politica/congreso-senadora-ruth-luque-descarta-quiebre-en-ahora-nacion-por-censura-a-ministro-cesar-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-30T18:23:25+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Jair Manrique, diputado de Ahora Nación, señala que votará a favor de la censura del ministro César Astudillo",
+    "url": "https://larepublica.pe/politica/2026/09/30/jair-manrique-diputado-de-ahora-nacion-senala-que-votara-a-favor-de-la-censura-del-ministro-cesar-astudillo-hnews-621330",
+    "source": "La República",
+    "published": "2026-09-30T18:04:11+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputado Edwin Espinoza sobre apoyo de Buen Gobierno a censura a Astudillo: \"Es muy probable que se vote en contra\"",
+    "url": "https://rpp.pe/politica/congreso/diputado-edwin-espinoza-sobre-apoyo-de-buen-gobierno-a-censura-a-astudillo-es-muy-probable-que-se-vote-en-contra-noticia-1710130",
+    "source": "RPP",
+    "published": "2026-09-30T12:00:06-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea considera “bastante absurda” moción de censura contra el ministro César Astudillo",
+    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-considera-bastante-absurda-mocion-de-censura-contra-el-ministro-cesar-astudillo-seguridad-ciudadana-camara-de-diputados-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T15:41:17+00:00",
     "matched_in": "title"
    },
    {
@@ -73,13 +108,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-respalda-al-ministro-cesar-astudillo-ante-mocion-de-censura-espero-que-se-priorice-el-valor-que-tiene-camara-de-diputados-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-30T00:11:07+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Pleno de la Cámara de Diputados debatirá este jueves moción de censura contra ministro Astudillo",
-    "url": "https://gestion.pe/peru/politica/pleno-de-la-camara-de-diputados-debatira-este-jueves-mocion-de-censura-contra-ministro-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-30T00:00:00+00:00",
     "matched_in": "title"
    },
    {
@@ -104,19 +132,58 @@
     "matched_in": "title"
    }
   ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Chavimochic III se reactiva tras 10 años paralizado: Midagri firma contrato por S/145 millones para ejecutar primer componente",
+    "url": "https://rpp.pe/economia/economia/midagri-chavimochic-iii-se-reactiva-tras-casi-10-anos-firman-contrato-por-145-millones-de-soles-para-ejecutar-primer-componente-del-proyecto-noticia-1710163",
+    "source": "RPP",
+    "published": "2026-09-30T13:57:38-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Marco Vinelli: “Si el Legislativo decide no darle las facultades (al Gobierno), le está diciendo no a la población”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-si-el-legislativo-decide-no-darle-las-facultades-al-gobierno-le-esta-diciendo-no-a-la-poblacion-comision-de-constitucion-camara-de-diputados-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T17:24:47+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto Beingolea sobre delegación de facultades: “Estoy seguro que otras bancadas van a cambiar esta situación”",
+    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-sobre-delegacion-de-facultades-estoy-seguro-que-otras-bancadas-van-a-cambiar-esta-situacion-comision-de-constitucion-camara-de-diputados-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T15:59:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alberto Beingolea considera “bastante absurda” moción de censura contra el ministro César Astudillo",
+    "url": "https://elcomercio.pe/politica/gobierno/alberto-beingolea-considera-bastante-absurda-mocion-de-censura-contra-el-ministro-cesar-astudillo-seguridad-ciudadana-camara-de-diputados-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T15:41:17+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Sheput pide no “arañarse” por dichos de Keiko Fujimori y niega cierre del Congreso: “Es teoría conspiracionista”",
+    "url": "https://www.infobae.com/peru/2026/09/30/sheput-pide-no-aranarse-por-dichos-de-keiko-fujimori-y-niega-cierre-del-congreso-es-teoria-conspiracionista/",
+    "source": "Infobae",
+    "published": "2026-09-30T19:47:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sheput niega amenaza de Keiko Fujimori al Congreso: “Hay una generación de cristal”",
+    "url": "https://gestion.pe/peru/ministro-juan-sheput-niega-amenaza-de-keiko-fujimori-al-congreso-hay-una-generacion-de-cristal-en-algunos-politicos-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-30T18:35:29+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Juan Sheput sobre expresiones de Keiko Fujimori por facultades legislativas: “No es ninguna amenaza”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-sobre-expresiones-de-keiko-fujimori-por-delegacion-de-facultades-no-es-ninguna-amenaza-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-30T15:27:51+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“Hay una generación de cristal en algunos políticos”: Juan Sheput negó que declaraciones de Keiko Fujimori sean una amenaza",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-descarto-que-declaraciones-de-keiko-fujimori-sean-una-amenaza-hay-una-generacion-de-cristal-en-algunos-politicos-noticia-1710089",
-    "source": "RPP",
-    "published": "2026-09-30T09:30:56-05:00",
     "matched_in": "title"
    },
    {
@@ -127,16 +194,14 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Ministro Vinelli pide que Comisión de Constitución tome una decisión sobre facultades legislativas este lunes",
-    "url": "https://elcomercio.pe/politica/gobierno/delegacion-de-facultades-ministro-marco-vinelli-pide-que-comision-de-constitucion-tome-una-decision-sobre-el-tema-este-lunes-28-de-setiembre-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-28T03:23:12+00:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "López Chau a Keiko Fujimori: \"Su mensaje político es amenazante, concéntrese en atender a la población\"",
+    "url": "https://larepublica.pe/politica/2026/09/30/lopez-chau-a-keiko-fujimori-su-mensaje-politico-es-amenazante-concentrese-en-atender-a-la-poblacion-hnews-960180",
+    "source": "La República",
+    "published": "2026-09-30T18:52:16+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Keiko Fujimori advierte al Congreso ante posible negación de facultades: \"Están poniendo a prueba nuestra paciencia\"",
     "url": "https://larepublica.pe/politica/2026/09/29/keiko-fujimori-advierte-al-congreso-ante-posible-negacion-de-facultades-estan-poniendo-a-prueba-nuestra-paciencia-hnews-2401026",
@@ -172,31 +237,6 @@
     "url": "https://larepublica.pe/politica/2026/09/28/keiko-fujimori-y-nayib-bukele-se-reuniran-en-el-salvador-el-29-de-octubre-hnews-1153236",
     "source": "La República",
     "published": "2026-09-29T14:48:34+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "maria-magdalena-seminario-maron": [
-   {
-    "title": "Ministra de la Mujer condenó caso de joven que denunció agresión sexual y cuyo juicio fue programado para el 2029",
-    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-condeno-caso-de-joven-que-denuncio-agresion-sexual-y-cuyo-juicio-fue-programado-para-el-2029-noticia-1710080",
-    "source": "RPP",
-    "published": "2026-09-30T09:15:08-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministra de la Mujer considera \"inhumano\" rechazar pedido de facultades ante situación del Fenómeno El Niño",
-    "url": "https://rpp.pe/politica/gobierno/ministra-de-la-mujer-considera-inhumano-rechazar-pedido-de-facultades-ante-situacion-del-fenomeno-el-nino-noticia-1710086",
-    "source": "RPP",
-    "published": "2026-09-30T08:50:51-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Pleno de la Cámara de Diputados debatirá este jueves moción de censura contra ministro Astudillo",
-    "url": "https://gestion.pe/peru/politica/pleno-de-la-camara-de-diputados-debatira-este-jueves-mocion-de-censura-contra-ministro-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-30T00:00:00+00:00",
     "matched_in": "summary"
    }
   ]
