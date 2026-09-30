@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T21:17:08+00:00",
+ "generated": "2026-09-30T01:52:13+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,10 +11,38 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Harvey Colchado señala que tres diputados de Ahora Nación votarán a favor de la censura del ministro del Interior",
+    "url": "https://rpp.pe/politica/congreso/harvey-colchado-senala-que-tres-diputados-de-ahora-nacion-votaran-a-favor-de-la-censura-del-ministro-del-interior-noticia-1710017",
+    "source": "RPP",
+    "published": "2026-09-29T20:30:05-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Discrepancias en Ahora Nación: Acuerdan “por mayoría” no apoyar la censura del ministro del Interior",
+    "url": "https://elcomercio.pe/politica/congreso/mocion-de-censura-contra-cesar-astudillo-que-pasa-en-ahora-nacion-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T00:43:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori respalda al ministro César Astudillo ante moción de censura: “Espero que se priorice el valor que tiene”",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-respalda-al-ministro-cesar-astudillo-ante-mocion-de-censura-espero-que-se-priorice-el-valor-que-tiene-camara-de-diputados-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T00:11:07+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Pleno de la Cámara de Diputados debatirá este jueves moción de censura contra ministro Astudillo",
     "url": "https://gestion.pe/peru/politica/pleno-de-la-camara-de-diputados-debatira-este-jueves-mocion-de-censura-contra-ministro-astudillo-noticia/",
     "source": "Gestión",
-    "published": "2026-09-29T20:38:20+00:00",
+    "published": "2026-09-30T00:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Indira Huilca votará a favor de la censura contra el ministro César Astudillo pese al acuerdo de Ahora Nación",
+    "url": "https://larepublica.pe/politica/2026/09/29/indira-huilca-votara-a-favor-de-la-censura-contra-el-ministro-cesar-astudillo-pese-al-acuerdo-de-ahora-nacion-hnews-1773031",
+    "source": "La República",
+    "published": "2026-09-29T23:10:22+00:00",
     "matched_in": "title"
    },
    {
@@ -22,13 +50,6 @@
     "url": "https://elcomercio.pe/politica/congreso/camara-de-diputados-debatira-este-jueves-censura-contra-ministro-del-interior-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-29T19:58:23+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ahora Nación acuerda “por mayoría” no apoyar la censura del ministro del Interior, anuncia diputado Marcelo",
-    "url": "https://elcomercio.pe/politica/congreso/mocion-de-censura-contra-cesar-astudillo-que-pasa-en-ahora-nacion-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-29T18:36:59+00:00",
     "matched_in": "title"
    },
    {
@@ -65,13 +86,6 @@
     "source": "El Comercio",
     "published": "2026-09-28T13:28:56+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Buen Gobierno respaldará la moción de censura contra ministro del Interior, César Astudillo",
-    "url": "https://larepublica.pe/politica/2026/09/27/buen-gobierno-respaldara-la-mocion-de-censura-contra-ministro-del-interior-cesar-astudillo-hnews-2482326",
-    "source": "La República",
-    "published": "2026-09-28T01:20:09+00:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
@@ -79,7 +93,7 @@
     "title": "Juan Sheput: Gobierno espera “razonabilidad” del Congreso por pedido de facultades",
     "url": "https://gestion.pe/peru/ministro-juan-sheput-gobierno-espera-razonabilidad-del-congreso-por-pedido-de-facultades-noticia/",
     "source": "Gestión",
-    "published": "2026-09-29T18:19:06+00:00",
+    "published": "2026-09-29T21:30:00+00:00",
     "matched_in": "title"
    },
    {
@@ -110,6 +124,13 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Keiko Fujimori advierte al Congreso ante posible negación de facultades: \"Están poniendo a prueba nuestra paciencia\"",
+    "url": "https://larepublica.pe/politica/2026/09/29/keiko-fujimori-advierte-al-congreso-ante-posible-negacion-de-facultades-estan-poniendo-a-prueba-nuestra-paciencia-hnews-2401026",
+    "source": "La República",
+    "published": "2026-09-29T23:14:53+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Roberto Sánchez pide renuncia del premier Luis Galarreta: “Si quiere amenazar (...), que dé un paso al costado”",
     "url": "https://www.infobae.com/peru/2026/09/29/roberto-sanchez-pide-renuncia-del-premier-luis-galarreta-si-quiere-amenazar-que-de-un-paso-al-costado/",
     "source": "Infobae",
@@ -124,24 +145,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Keiko Fujimori advierte al Congreso ante posible negación de facultades: \"Están poniendo a prueba nuestra paciencia\"",
-    "url": "https://larepublica.pe/politica/2026/09/29/keiko-fujimori-advierte-al-congreso-ante-posible-negacion-de-facultades-estan-poniendo-a-prueba-nuestra-paciencia-hnews-2401026",
-    "source": "La República",
-    "published": "2026-09-29T19:13:59+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Ahora Nación se reunió con el premier Galarreta para revisar el pedido de facultades horas antes de su debate en Constitución",
     "url": "https://larepublica.pe/politica/2026/09/29/ahora-nacion-se-reunio-con-el-premier-galarreta-para-revisar-el-pedido-de-facultades-horas-antes-de-su-debate-en-constitucion-hnews-2240569",
     "source": "La República",
     "published": "2026-09-29T16:01:37+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta amenaza al Congreso: “Ojalá recapaciten, porque hasta ahora hemos mantenido paciencia y actitud republicana”",
-    "url": "https://www.infobae.com/peru/2026/09/29/luis-galarreta-amenaza-al-congreso-hemos-mantenido-paciencia-democratica-y-actitud-republicana-hasta-el-momento/",
-    "source": "Infobae",
-    "published": "2026-09-29T14:56:40+00:00",
     "matched_in": "title"
    }
   ],
@@ -161,26 +168,10 @@
     "matched_in": "summary"
    },
    {
-    "title": "Canciller Carlos Espá anuncia futuro encuentro entre Fujimori y Trump en la Casa Blanca",
-    "url": "https://www.infobae.com/peru/2026/09/29/canciller-carlos-espa-anuncia-futuro-encuentro-entre-fujimori-y-trump-en-la-casa-blanca/",
-    "source": "Infobae",
-    "published": "2026-09-29T13:27:29+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Farid Kahhat: “Keiko Fujimori no querrá antagonizar a Trump mientras dure su gobierno”",
     "url": "https://larepublica.pe/politica/2026/09/28/farid-kahhat-keiko-fujimori-no-querra-antagonizar-a-trump-mientras-dure-su-gobierno-hnews-896150",
     "source": "La República",
     "published": "2026-09-28T10:00:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "inPERÚ regresa a Nueva York: Llevará oportunidades de inversión en minería, infraestructura y agroindustria",
-    "url": "https://rpp.pe/economia/economia/inperu-regresa-a-nueva-york-llevara-oportunidades-de-inversion-en-mineria-infraestructura-y-agroindustria-noticia-1709951",
-    "source": "RPP",
-    "published": "2026-09-29T13:42:35-05:00",
     "matched_in": "summary"
    }
   ],
@@ -189,7 +180,7 @@
     "title": "Pleno de la Cámara de Diputados debatirá este jueves moción de censura contra ministro Astudillo",
     "url": "https://gestion.pe/peru/politica/pleno-de-la-camara-de-diputados-debatira-este-jueves-mocion-de-censura-contra-ministro-astudillo-noticia/",
     "source": "Gestión",
-    "published": "2026-09-29T20:38:20+00:00",
+    "published": "2026-09-30T00:00:00+00:00",
     "matched_in": "summary"
    },
    {
@@ -198,13 +189,6 @@
     "source": "Gestión",
     "published": "2026-09-29T18:00:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Cámara de Diputados debatirá el jueves 1 de octubre la moción de censura contra el ministro del Interior",
-    "url": "https://rpp.pe/politica/congreso/cesar-astudillo-camara-de-diputados-debatira-el-jueves-1-de-octubre-la-mocion-de-censura-contra-el-ministro-del-interior-noticia-1709933",
-    "source": "RPP",
-    "published": "2026-09-29T12:45:19-05:00",
-    "matched_in": "summary"
    },
    {
     "title": "Ministro Chang: se prepara desalojo de inquilinos precarios que ocupan terrenos de colegios",
