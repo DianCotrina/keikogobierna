@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T11:24:56+00:00",
+ "generated": "2026-10-01T21:36:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,28 @@
   "Infobae"
  ],
  "ministers": {
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Diputados retiran su firma de moción que plantea interpelar al ministro de Educación",
+    "url": "https://elcomercio.pe/politica/congreso/diputados-retiran-su-firma-de-mocion-que-plantea-interpelar-al-ministro-de-educacion-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-01T19:55:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Tres diputados de Ahora Nación y Obras retiran su firma de la moción para interpelar al ministro de Educación",
+    "url": "https://larepublica.pe/politica/2026/10/01/tres-diputados-de-ahora-nacion-y-obras-retiran-su-firma-de-la-mocion-para-interpelar-al-ministro-de-educacion-hnews-71608",
+    "source": "La República",
+    "published": "2026-10-01T19:00:46+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Diputada de Renovación Popular propone dar 120 días al ministro del Interior para demostrar resultados de su estrategia contra la inseguridad",
-    "url": "https://rpp.pe/politica/congreso/diputada-de-renovacion-popular-propone-dar-120-dias-al-ministro-del-interior-para-demostrar-resultados-de-su-estrategia-contra-la-inseguridad-noticia-1710217",
-    "source": "RPP",
-    "published": "2026-09-30T21:23:58-05:00",
+    "title": "César Astudillo: así perdió fuerza la moción de censura hasta caerse",
+    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-asi-perdio-fuerza-la-mocion-de-censura-hasta-caerse-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-01T18:52:00+00:00",
     "matched_in": "title"
    },
    {
@@ -29,20 +45,6 @@
     "url": "https://elcomercio.pe/politica/cesar-astudillo-mocion-de-censura-contra-el-ministro-del-interior-se-cae-tras-retiro-de-firmas-camara-de-diputados-keiko-fujimori-noticia/",
     "source": "El Comercio",
     "published": "2026-09-30T23:30:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Senadora Luque descarta quiebre en Ahora Nación por censura a César Astudillo",
-    "url": "https://gestion.pe/peru/politica/congreso-senadora-ruth-luque-descarta-quiebre-en-ahora-nacion-por-censura-a-ministro-cesar-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-30T22:24:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alfonso López-Chau dice que Ahora Nación apoyará diálogo unificado sobre censura de ministro del Interior, César Astudillo",
-    "url": "https://rpp.pe/politica/congreso/ahora-nacion-apoyara-dialogo-unificado-sobre-mocion-de-censura-de-ministro-del-interior-cesar-astudillo-noticia-1710199",
-    "source": "RPP",
-    "published": "2026-09-30T17:01:27-05:00",
     "matched_in": "title"
    },
    {
@@ -107,23 +109,23 @@
     "source": "La República",
     "published": "2026-09-29T23:10:22+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Cámara de Diputados debatirá este jueves censura contra ministro del Interior",
-    "url": "https://elcomercio.pe/politica/congreso/camara-de-diputados-debatira-este-jueves-censura-contra-ministro-del-interior-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-29T19:58:23+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Belmont envía mensaje a su bancada por apoyar censura contra Astudillo: “El que traiciona se va, aunque me quede con uno\"",
-    "url": "https://larepublica.pe/politica/2026/09/28/belmont-envia-mensaje-su-bancada-por-apoyar-censura-contra-astudillo-el-que-traiciona-se-va-aunque-me-quede-con-uno-hnews-1461656",
-    "source": "La República",
-    "published": "2026-09-29T14:42:57+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Perú asumirá la presidencia pro tempore de la Comunidad Andina para el periodo 2026-2027",
+    "url": "https://larepublica.pe/politica/2026/10/01/peru-asumira-la-presidencia-pro-tempore-de-la-comunidad-andina-para-el-periodo-20262027-hnews-73677",
+    "source": "La República",
+    "published": "2026-10-01T18:19:13+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Informe del JEE advierte que Carlos Espá habría infringido neutralidad para apoyar a Rafael López Aliaga",
+    "url": "https://www.infobae.com/peru/2026/10/01/informe-del-jee-advierte-que-carlos-espa-habria-infringido-neutralidad-para-apoyar-a-rafael-lopez-aliaga/",
+    "source": "Infobae",
+    "published": "2026-10-01T16:40:21+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "JEE investiga a canciller Carlos Espá por comentarios favorables a López Aliaga",
     "url": "https://larepublica.pe/politica/2026/09/30/jee-investiga-a-canciller-carlos-espa-por-comentarios-favorables-a-rafael-lopez-aliaga-hnews-1447170",
@@ -132,25 +134,11 @@
     "matched_in": "title"
    },
    {
-    "title": "JEE abre investigación contra canciller Carlos Espá por presunta vulneración de neutralidad electoral",
-    "url": "https://gestion.pe/peru/politica/jee-abre-investigacion-contra-canciller-carlos-espa-por-presunta-vulneracion-de-neutralidad-electoral-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-01T00:45:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "JEE Lima Centro advierte presunta infracción electoral del canciller Carlos Espá por declaraciones sobre Rafael López Aliaga",
     "url": "https://elcomercio.pe/politica/gobierno/jee-lima-centro-advierte-presunta-infraccion-electoral-del-canciller-carlos-espa-por-declaraciones-sobre-rafael-lopez-aliaga-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-30T22:57:44+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori y Nayib Bukele se reunirán en El Salvador el 29 de octubre",
-    "url": "https://larepublica.pe/politica/2026/09/28/keiko-fujimori-y-nayib-bukele-se-reuniran-en-el-salvador-el-29-de-octubre-hnews-1153236",
-    "source": "La República",
-    "published": "2026-09-29T14:48:34+00:00",
-    "matched_in": "summary"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -170,13 +158,6 @@
    }
   ],
   "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Chavimochic III se reactiva tras 10 años paralizado: Midagri firma contrato por S/145 millones para ejecutar primer componente",
-    "url": "https://rpp.pe/economia/economia/midagri-chavimochic-iii-se-reactiva-tras-casi-10-anos-firman-contrato-por-145-millones-de-soles-para-ejecutar-primer-componente-del-proyecto-noticia-1710163",
-    "source": "RPP",
-    "published": "2026-09-30T13:57:38-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro Marco Vinelli: “Si el Legislativo decide no darle las facultades (al Gobierno), le está diciendo no a la población”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-si-el-legislativo-decide-no-darle-las-facultades-al-gobierno-le-esta-diciendo-no-a-la-poblacion-comision-de-constitucion-camara-de-diputados-apuesplan-ultimas-noticia/",
@@ -203,18 +184,34 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Sheput pide no “arañarse” por dichos de Keiko Fujimori y niega cierre del Congreso: “Es teoría conspiracionista”",
-    "url": "https://www.infobae.com/peru/2026/09/30/sheput-pide-no-aranarse-por-dichos-de-keiko-fujimori-y-niega-cierre-del-congreso-es-teoria-conspiracionista/",
-    "source": "Infobae",
-    "published": "2026-09-30T19:47:55+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Juan Sheput sobre expresiones de Keiko Fujimori por facultades legislativas: “No es ninguna amenaza”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-sobre-expresiones-de-keiko-fujimori-por-delegacion-de-facultades-no-es-ninguna-amenaza-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-09-30T15:27:51+00:00",
     "matched_in": "title"
+   }
+  ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Mincetur: autoridades autónomas regionales no aliviarán los problemas turísticos de Cusco",
+    "url": "https://gestion.pe/economia/ministro-rogers-valencia-autoridades-autonomas-regionales-no-aliviaran-los-problemas-turisticos-de-cusco-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-01T20:30:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Habilitarán vuelo chárter de Ecuador a Chiclayo por la visita del papa León XIV",
+    "url": "https://gestion.pe/peru/habilitaran-vuelo-charter-de-ecuador-a-chiclayo-por-la-visita-del-papa-leon-xiv-al-peru-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-01T20:25:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Perú asumirá la presidencia pro tempore de la Comunidad Andina para el periodo 2026-2027",
+    "url": "https://larepublica.pe/politica/2026/10/01/peru-asumira-la-presidencia-pro-tempore-de-la-comunidad-andina-para-el-periodo-20262027-hnews-73677",
+    "source": "La República",
+    "published": "2026-10-01T18:19:13+00:00",
+    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -238,19 +235,14 @@
     "source": "La República",
     "published": "2026-09-30T13:52:39+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Luis Galarreta amenaza al Congreso por facultades: “Hemos mantenido paciencia democrática hasta el momento”",
-    "url": "https://larepublica.pe/politica/2026/09/29/luis-galarreta-amenaza-al-congreso-por-facultades-hemos-mantenido-paciencia-democratica-hasta-el-momento-hnews-621934",
-    "source": "La República",
-    "published": "2026-09-29T19:18:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ahora Nación se reunió con el premier Galarreta para revisar el pedido de facultades horas antes de su debate en Constitución",
-    "url": "https://larepublica.pe/politica/2026/09/29/ahora-nacion-se-reunio-con-el-premier-galarreta-para-revisar-el-pedido-de-facultades-horas-antes-de-su-debate-en-constitucion-hnews-2240569",
-    "source": "La República",
-    "published": "2026-09-29T16:01:37+00:00",
+    "title": "Ministro de Justicia sobre pedido de facultades: \"Yo confío en que el 90 % va a ser aprobado finalmente\"",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-justicia-sobre-pedido-de-facultades-yo-confio-en-que-el-90-van-a-ser-aprobadas-finalmente-noticia-1710330",
+    "source": "RPP",
+    "published": "2026-10-01T14:37:23-05:00",
     "matched_in": "title"
    }
   ],
@@ -259,16 +251,7 @@
     "title": "Produce: la apuesta por el factoring para ayudar a mitigar impacto del alza de RMV sobre mypes",
     "url": "https://gestion.pe/economia/produce-asi-sera-la-apuesta-por-el-factoring-como-clave-para-ayudar-a-mitigar-impacto-del-alza-del-salario-minimo-sobre-mypes-noticia/",
     "source": "Gestión",
-    "published": "2026-10-01T10:06:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Ministro Chang: se prepara desalojo de inquilinos precarios que ocupan terrenos de colegios",
-    "url": "https://gestion.pe/peru/ministro-de-educacion-chang-se-prepara-desalojo-de-inquilinos-precarios-que-ocupan-terrenos-de-colegios-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-01T01:16:13+00:00",
+    "published": "2026-10-01T20:10:00+00:00",
     "matched_in": "title"
    }
   ]
