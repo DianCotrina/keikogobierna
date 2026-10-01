@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T21:16:14+00:00",
+ "generated": "2026-10-01T01:49:40+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,28 +9,40 @@
   "Infobae"
  ],
  "ministers": {
-  "rafael-jorge-belaunde-llosa": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ministro Rafael Belaunde sobre delegación de facultades: “El ultimátum no lo da la presidenta, creo que lo da la población”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-delegacion-de-facultades-el-ultimatum-no-lo-da-la-presidenta-creo-que-lo-da-la-poblacion-keiko-fujimori-camara-de-diputados-comision-de-constitucion-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T20:44:27+00:00",
+    "title": "Moción de censura contra ministro Astudillo se cae: tres diputados de Obras retiraron su firma",
+    "url": "https://larepublica.pe/politica/2026/09/30/mocion-de-censura-contra-ministro-cesar-astudillo-se-cae-tres-diputados-de-obras-retiraron-su-firma-hnews-2387760",
+    "source": "La República",
+    "published": "2026-10-01T00:26:26+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Rafael Belaúnde dice que negación del pedido de facultades sería \"un hecho sin precedentes\" en la historia del país",
-    "url": "https://rpp.pe/politica/gobierno/rafael-belaunde-dice-que-negacion-del-pedido-de-facultades-seria-un-hecho-sin-precedentes-en-la-historia-del-pais-noticia-1710147",
-    "source": "RPP",
-    "published": "2026-09-30T13:54:03-05:00",
+    "title": "César Astudillo: moción de censura contra el ministro del Interior se cae tras retiro de firmas",
+    "url": "https://elcomercio.pe/politica/cesar-astudillo-mocion-de-censura-contra-el-ministro-del-interior-se-cae-tras-retiro-de-firmas-camara-de-diputados-keiko-fujimori-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T23:30:56+00:00",
     "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
+   },
+   {
+    "title": "Senadora Luque descarta quiebre en Ahora Nación por censura a César Astudillo",
+    "url": "https://gestion.pe/peru/politica/congreso-senadora-ruth-luque-descarta-quiebre-en-ahora-nacion-por-censura-a-ministro-cesar-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-30T22:24:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Alfonso López-Chau dice que Ahora Nación apoyará diálogo unificado sobre censura de ministro del Interior, César Astudillo",
+    "url": "https://rpp.pe/politica/congreso/ahora-nacion-apoyara-dialogo-unificado-sobre-mocion-de-censura-de-ministro-del-interior-cesar-astudillo-noticia-1710199",
+    "source": "RPP",
+    "published": "2026-09-30T17:01:27-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Obras no apoyará censura contra ministro César Astudillo y Buen Gobierno definirá su postura en las próximas horas",
     "url": "https://larepublica.pe/politica/2026/09/30/obras-no-apoyara-censura-contra-ministro-cesar-astudillo-y-buen-gobierno-definira-su-postura-en-las-proximas-horas-hnews-1892340",
     "source": "La República",
-    "published": "2026-09-30T20:52:25+00:00",
+    "published": "2026-09-30T21:31:17+00:00",
     "matched_in": "title"
    },
    {
@@ -69,24 +81,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Senadora Luque descarta quiebre en Ahora Nación por censura a César Astudillo",
-    "url": "https://gestion.pe/peru/politica/congreso-senadora-ruth-luque-descarta-quiebre-en-ahora-nacion-por-censura-a-ministro-cesar-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-09-30T18:23:25+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Jair Manrique, diputado de Ahora Nación, señala que votará a favor de la censura del ministro César Astudillo",
     "url": "https://larepublica.pe/politica/2026/09/30/jair-manrique-diputado-de-ahora-nacion-senala-que-votara-a-favor-de-la-censura-del-ministro-cesar-astudillo-hnews-621330",
     "source": "La República",
     "published": "2026-09-30T18:04:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputado Edwin Espinoza sobre apoyo de Buen Gobierno a censura a Astudillo: \"Es muy probable que se vote en contra\"",
-    "url": "https://rpp.pe/politica/congreso/diputado-edwin-espinoza-sobre-apoyo-de-buen-gobierno-a-censura-a-astudillo-es-muy-probable-que-se-vote-en-contra-noticia-1710130",
-    "source": "RPP",
-    "published": "2026-09-30T12:00:06-05:00",
     "matched_in": "title"
    },
    {
@@ -129,6 +127,45 @@
     "url": "https://larepublica.pe/politica/2026/09/28/belmont-envia-mensaje-su-bancada-por-apoyar-censura-contra-astudillo-el-que-traiciona-se-va-aunque-me-quede-con-uno-hnews-1461656",
     "source": "La República",
     "published": "2026-09-29T14:42:57+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "JEE abre investigación contra canciller Carlos Espá por presunta vulneración de neutralidad electoral",
+    "url": "https://gestion.pe/peru/politica/jee-abre-investigacion-contra-canciller-carlos-espa-por-presunta-vulneracion-de-neutralidad-electoral-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-01T00:45:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "JEE Lima Centro advierte presunta infracción electoral del canciller Carlos Espá por declaraciones sobre Rafael López Aliaga",
+    "url": "https://elcomercio.pe/politica/gobierno/jee-lima-centro-advierte-presunta-infraccion-electoral-del-canciller-carlos-espa-por-declaraciones-sobre-rafael-lopez-aliaga-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T22:57:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori y Nayib Bukele se reunirán en El Salvador el 29 de octubre",
+    "url": "https://larepublica.pe/politica/2026/09/28/keiko-fujimori-y-nayib-bukele-se-reuniran-en-el-salvador-el-29-de-octubre-hnews-1153236",
+    "source": "La República",
+    "published": "2026-09-29T14:48:34+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "ERM 2026: 41 mil militares serán desplegados para resguardar locales de votación este domingo",
+    "url": "https://gestion.pe/peru/erm-2026-41-mil-militares-seran-desplegados-para-resguardar-locales-de-votacion-este-domingo-noticia/",
+    "source": "Gestión",
+    "published": "2026-09-30T22:06:37+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Rafael Belaunde sobre delegación de facultades: “El ultimátum no lo da la presidenta, creo que lo da la población”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-delegacion-de-facultades-el-ultimatum-no-lo-da-la-presidenta-creo-que-lo-da-la-poblacion-keiko-fujimori-camara-de-diputados-comision-de-constitucion-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-30T20:44:27+00:00",
     "matched_in": "title"
    }
   ],
@@ -194,6 +231,15 @@
     "matched_in": "title"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Elmer Cuba, titular del MEF, y Julio Velarde viajarán a Nueva York para reunirse con inversionistas",
+    "url": "https://elcomercio.pe/economia/elmer-cuba-y-julio-velarde-viajaran-a-nueva-york-para-reunirse-con-inversionistas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-09-29T23:44:50+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "López Chau a Keiko Fujimori: \"Su mensaje político es amenazante, concéntrese en atender a la población\"",
@@ -231,13 +277,13 @@
     "matched_in": "title"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Keiko Fujimori y Nayib Bukele se reunirán en El Salvador el 29 de octubre",
-    "url": "https://larepublica.pe/politica/2026/09/28/keiko-fujimori-y-nayib-bukele-se-reuniran-en-el-salvador-el-29-de-octubre-hnews-1153236",
-    "source": "La República",
-    "published": "2026-09-29T14:48:34+00:00",
-    "matched_in": "summary"
+    "title": "Ministro Chang: se prepara desalojo de inquilinos precarios que ocupan terrenos de colegios",
+    "url": "https://gestion.pe/peru/ministro-de-educacion-chang-se-prepara-desalojo-de-inquilinos-precarios-que-ocupan-terrenos-de-colegios-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-01T01:16:13+00:00",
+    "matched_in": "title"
    }
   ]
  }
