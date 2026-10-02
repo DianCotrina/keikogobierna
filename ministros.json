@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T16:31:48+00:00",
+ "generated": "2026-10-02T21:11:25+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,11 +11,11 @@
  "ministers": {
   "jose-antonio-chang-escobedo": [
    {
-    "title": "Diferencias y movidas en la oposición debilitan otra moción contra el Ejecutivo",
+    "title": "Diferencias y movidas en la oposición debilitan ahora la moción de interpelación al ministro de Educación",
     "url": "https://elcomercio.pe/politica/diferencias-y-movidas-en-la-oposicion-debilitan-otra-mocion-contra-el-ejecutivo-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-02T15:12:07+00:00",
-    "matched_in": "summary"
+    "published": "2026-10-02T20:37:00+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Diputados retiran su firma de moción que plantea interpelar al ministro de Educación",
@@ -33,6 +33,13 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro del Interior anuncia que PNP destinará 11 mil efectivos para resguardar el traslado de material electoral",
+    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-anuncia-que-pnp-destinara-11-mil-efectivos-para-resguardar-el-traslado-de-material-electoral-noticia-1710517",
+    "source": "RPP",
+    "published": "2026-10-02T13:53:34-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "César Astudillo: así perdió fuerza la moción de censura hasta caerse",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-asi-perdio-fuerza-la-mocion-de-censura-hasta-caerse-noticia/",
@@ -60,34 +67,6 @@
     "source": "La República",
     "published": "2026-09-30T21:31:17+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Moción de censura contra Astudillo pierde votos: los entretelones de la decisión de Ahora Nación",
-    "url": "https://elcomercio.pe/politica/congreso/mocion-de-censura-contra-astudillo-pierde-votos-los-entretelones-de-la-decision-de-ahora-nacion-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T20:42:29+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Senador Daniel Barragán anuncia que diputados de Obras no respaldará moción de censura contra ministro César Astudillo",
-    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-senador-daniel-barragan-anuncia-que-diputados-de-obras-no-respaldara-mocion-de-censura-contra-ministro-del-interior-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T19:09:14+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Zunini a Colchado tras oponerse a la censura del ministro del Interior: \"No hay reforma policial en marcha, solo cambios de escritorio\"",
-    "url": "https://larepublica.pe/politica/2026/09/28/zunini-a-colchado-tras-oponerse-a-la-censura-del-ministro-del-interior-no-hay-reforma-policial-en-marcha-solo-cambios-de-escritorio-hnews-1941828",
-    "source": "La República",
-    "published": "2026-09-30T18:24:27+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Jair Manrique, diputado de Ahora Nación, señala que votará a favor de la censura del ministro César Astudillo",
-    "url": "https://larepublica.pe/politica/2026/09/30/jair-manrique-diputado-de-ahora-nacion-senala-que-votara-a-favor-de-la-censura-del-ministro-cesar-astudillo-hnews-621330",
-    "source": "La República",
-    "published": "2026-09-30T18:04:11+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -113,31 +92,6 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Gobierno espera ejecutar operaciones militares contra organizaciones criminales",
-    "url": "https://gestion.pe/peru/gobierno-espera-ejecutar-operaciones-militares-contra-organizaciones-criminales-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-01T23:52:05+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Rafael Belaunde sobre delegación de facultades: “El ultimátum no lo da la presidenta, creo que lo da la población”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-delegacion-de-facultades-el-ultimatum-no-lo-da-la-presidenta-creo-que-lo-da-la-poblacion-keiko-fujimori-camara-de-diputados-comision-de-constitucion-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T20:44:27+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Ministro Marco Vinelli: “Si el Legislativo decide no darle las facultades (al Gobierno), le está diciendo no a la población”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-si-el-legislativo-decide-no-darle-las-facultades-al-gobierno-le-esta-diciendo-no-a-la-poblacion-comision-de-constitucion-camara-de-diputados-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T17:24:47+00:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "MEF sostiene reuniones con organismos financieros internacionales para impulsar proyectos estratégicos de inversión y desarrollo",
@@ -152,7 +106,7 @@
     "title": "Cielo Único Andino para bajar precios de vuelos al extranjero: ¿en qué etapa se encuentra?",
     "url": "https://gestion.pe/economia/mincetur-cielo-unico-andino-para-bajar-precios-de-vuelos-de-peru-al-extranjero-en-que-etapa-se-encuentra-noticia/",
     "source": "Gestión",
-    "published": "2026-10-02T14:52:09+00:00",
+    "published": "2026-10-02T20:52:00+00:00",
     "matched_in": "summary"
    },
    {
@@ -177,21 +131,12 @@
     "matched_in": "summary"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "López Chau a Keiko Fujimori: \"Su mensaje político es amenazante, concéntrese en atender a la población\"",
-    "url": "https://larepublica.pe/politica/2026/09/30/lopez-chau-a-keiko-fujimori-su-mensaje-politico-es-amenazante-concentrese-en-atender-a-la-poblacion-hnews-960180",
-    "source": "La República",
-    "published": "2026-09-30T18:52:16+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Produce: la apuesta por el factoring para ayudar a mitigar impacto del alza de RMV sobre mypes",
-    "url": "https://gestion.pe/economia/produce-asi-sera-la-apuesta-por-el-factoring-como-clave-para-ayudar-a-mitigar-impacto-del-alza-del-salario-minimo-sobre-mypes-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-02T01:30:00+00:00",
+    "title": "Alberto Beingolea califica de \"barbaridad\" excluir a las Fuerzas Armadas de facultades legislativas",
+    "url": "https://rpp.pe/politica/gobierno/alberto-beingolea-califica-de-barbaridad-excluir-a-las-fuerzas-armadas-de-facultades-legislativas-noticia-1710496",
+    "source": "RPP",
+    "published": "2026-10-02T12:12:12-05:00",
     "matched_in": "title"
    }
   ]
