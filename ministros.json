@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T21:11:25+00:00",
+ "generated": "2026-10-03T01:46:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Diferencias y movidas en la oposición debilitan ahora la moción de interpelación al ministro de Educación",
     "url": "https://elcomercio.pe/politica/diferencias-y-movidas-en-la-oposicion-debilitan-otra-mocion-contra-el-ejecutivo-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-02T20:37:00+00:00",
+    "published": "2026-10-02T23:16:51+00:00",
     "matched_in": "title"
    },
    {
@@ -34,38 +34,19 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ministro del Interior anuncia que PNP destinará 11 mil efectivos para resguardar el traslado de material electoral",
-    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-anuncia-que-pnp-destinara-11-mil-efectivos-para-resguardar-el-traslado-de-material-electoral-noticia-1710517",
-    "source": "RPP",
-    "published": "2026-10-02T13:53:34-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "César Astudillo: así perdió fuerza la moción de censura hasta caerse",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-asi-perdio-fuerza-la-mocion-de-censura-hasta-caerse-noticia/",
     "source": "El Comercio",
     "published": "2026-10-01T18:52:00+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Moción de censura contra ministro Astudillo se cae: tres diputados de Obras retiraron su firma",
-    "url": "https://larepublica.pe/politica/2026/09/30/mocion-de-censura-contra-ministro-cesar-astudillo-se-cae-tres-diputados-de-obras-retiraron-su-firma-hnews-2387760",
-    "source": "La República",
-    "published": "2026-10-01T00:26:26+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo: moción de censura contra el ministro del Interior se cae tras retiro de firmas",
-    "url": "https://elcomercio.pe/politica/cesar-astudillo-mocion-de-censura-contra-el-ministro-del-interior-se-cae-tras-retiro-de-firmas-camara-de-diputados-keiko-fujimori-noticia/",
+    "title": "MEF sostiene reuniones con organismos financieros internacionales para impulsar proyectos estratégicos de inversión y desarrollo",
+    "url": "https://elcomercio.pe/economia/peru/mef-sostiene-reuniones-con-organismos-financieros-internacionales-para-impulsar-proyectos-estrategicos-de-inversion-y-desarrollo-l-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-09-30T23:30:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Obras no apoyará censura contra ministro César Astudillo y Buen Gobierno definirá su postura en las próximas horas",
-    "url": "https://larepublica.pe/politica/2026/09/30/obras-no-apoyara-censura-contra-ministro-cesar-astudillo-y-buen-gobierno-definira-su-postura-en-las-proximas-horas-hnews-1892340",
-    "source": "La República",
-    "published": "2026-09-30T21:31:17+00:00",
+    "published": "2026-10-02T15:23:15+00:00",
     "matched_in": "title"
    }
   ],
@@ -83,22 +64,6 @@
     "source": "La República",
     "published": "2026-10-01T03:32:01+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "JEE Lima Centro advierte presunta infracción electoral del canciller Carlos Espá por declaraciones sobre Rafael López Aliaga",
-    "url": "https://elcomercio.pe/politica/gobierno/jee-lima-centro-advierte-presunta-infraccion-electoral-del-canciller-carlos-espa-por-declaraciones-sobre-rafael-lopez-aliaga-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-09-30T22:57:44+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "MEF sostiene reuniones con organismos financieros internacionales para impulsar proyectos estratégicos de inversión y desarrollo",
-    "url": "https://elcomercio.pe/economia/peru/mef-sostiene-reuniones-con-organismos-financieros-internacionales-para-impulsar-proyectos-estrategicos-de-inversion-y-desarrollo-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-02T15:23:15+00:00",
-    "matched_in": "title"
    }
   ],
   "rogers-martin-valencia-espinoza": [
@@ -110,20 +75,6 @@
     "matched_in": "summary"
    },
    {
-    "title": "Mincetur: autoridades autónomas regionales no aliviarán los problemas turísticos de Cusco",
-    "url": "https://gestion.pe/economia/ministro-rogers-valencia-autoridades-autonomas-regionales-no-aliviaran-los-problemas-turisticos-de-cusco-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-02T02:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Habilitarán vuelo chárter de Ecuador a Chiclayo por la visita del papa León XIV",
-    "url": "https://gestion.pe/peru/habilitaran-vuelo-charter-de-ecuador-a-chiclayo-por-la-visita-del-papa-leon-xiv-al-peru-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-02T02:00:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Perú asumirá la presidencia pro tempore de la Comunidad Andina para el periodo 2026-2027",
     "url": "https://larepublica.pe/politica/2026/10/01/peru-asumira-la-presidencia-pro-tempore-de-la-comunidad-andina-para-el-periodo-20262027-hnews-73677",
     "source": "La República",
@@ -131,12 +82,12 @@
     "matched_in": "summary"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
+  "juan-carlos-requejo-aleman": [
    {
-    "title": "Alberto Beingolea califica de \"barbaridad\" excluir a las Fuerzas Armadas de facultades legislativas",
-    "url": "https://rpp.pe/politica/gobierno/alberto-beingolea-califica-de-barbaridad-excluir-a-las-fuerzas-armadas-de-facultades-legislativas-noticia-1710496",
-    "source": "RPP",
-    "published": "2026-10-02T12:12:12-05:00",
+    "title": "Produce: la apuesta por el factoring para ayudar a mitigar impacto del alza de RMV sobre mypes",
+    "url": "https://gestion.pe/economia/produce-asi-sera-la-apuesta-por-el-factoring-como-clave-para-ayudar-a-mitigar-impacto-del-alza-del-salario-minimo-sobre-mypes-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-03T00:05:00+00:00",
     "matched_in": "title"
    }
   ]
