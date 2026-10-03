@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T15:04:06+00:00",
+ "generated": "2026-10-03T19:41:23+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "jose-antonio-chang-escobedo": [
-   {
-    "title": "Sin plumas",
-    "url": "https://elcomercio.pe/opinion/columnistas/sin-plumas-por-mario-ghibellini-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-03T10:00:00+00:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Diferencias y movidas en la oposición debilitan ahora la moción de interpelación al ministro de Educación",
     "url": "https://elcomercio.pe/politica/diferencias-y-movidas-en-la-oposicion-debilitan-otra-mocion-contra-el-ejecutivo-noticia/",
@@ -30,54 +23,15 @@
     "source": "El Comercio",
     "published": "2026-10-01T19:55:16+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Tres diputados de Ahora Nación y Obras retiran su firma de la moción para interpelar al ministro de Educación",
-    "url": "https://larepublica.pe/politica/2026/10/01/tres-diputados-de-ahora-nacion-y-obras-retiran-su-firma-de-la-mocion-para-interpelar-al-ministro-de-educacion-hnews-71608",
-    "source": "La República",
-    "published": "2026-10-01T19:00:46+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro del Interior anuncia que PNP destinará 11 mil efectivos para resguardar el traslado de material electoral",
-    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-anuncia-que-pnp-destinara-11-mil-efectivos-para-resguardar-el-traslado-de-material-electoral-noticia-1710517",
-    "source": "RPP",
-    "published": "2026-10-02T16:30:34-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "César Astudillo: así perdió fuerza la moción de censura hasta caerse",
-    "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-asi-perdio-fuerza-la-mocion-de-censura-hasta-caerse-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-01T18:52:00+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Perú asumirá la presidencia pro tempore de la Comunidad Andina para el periodo 2026-2027",
-    "url": "https://larepublica.pe/politica/2026/10/01/peru-asumira-la-presidencia-pro-tempore-de-la-comunidad-andina-para-el-periodo-20262027-hnews-73677",
+    "title": "Ruth Luque acusa a Espá de mentir sobre el Escudo de las Américas: \"No vamos a permitir que Perú actúe como colonia de EE. UU.\"",
+    "url": "https://larepublica.pe/politica/2026/10/03/ruth-luque-acusa-a-espa-de-mentir-sobre-el-escudo-de-las-americas-no-vamos-a-permitir-que-peru-actue-como-colonia-de-ee-uu-hnews-141801",
     "source": "La República",
-    "published": "2026-10-01T18:19:13+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Cielo Único Andino para bajar precios de vuelos al extranjero: ¿en qué etapa se encuentra?",
-    "url": "https://gestion.pe/economia/mincetur-cielo-unico-andino-para-bajar-precios-de-vuelos-de-peru-al-extranjero-en-que-etapa-se-encuentra-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-02T20:52:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Perú asumirá la presidencia pro tempore de la Comunidad Andina para el periodo 2026-2027",
-    "url": "https://larepublica.pe/politica/2026/10/01/peru-asumira-la-presidencia-pro-tempore-de-la-comunidad-andina-para-el-periodo-20262027-hnews-73677",
-    "source": "La República",
-    "published": "2026-10-01T18:19:13+00:00",
-    "matched_in": "summary"
+    "published": "2026-10-03T17:53:16+00:00",
+    "matched_in": "title"
    }
   ],
   "juan-carlos-requejo-aleman": [
