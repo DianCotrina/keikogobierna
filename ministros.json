@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T01:46:07+00:00",
+ "generated": "2026-10-03T10:14:50+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "jose-antonio-chang-escobedo": [
+   {
+    "title": "Sin plumas",
+    "url": "https://elcomercio.pe/opinion/columnistas/sin-plumas-por-mario-ghibellini-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-03T10:00:00+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Diferencias y movidas en la oposición debilitan ahora la moción de interpelación al ministro de Educación",
     "url": "https://elcomercio.pe/politica/diferencias-y-movidas-en-la-oposicion-debilitan-otra-mocion-contra-el-ejecutivo-noticia/",
@@ -34,19 +41,17 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Ministro del Interior anuncia que PNP destinará 11 mil efectivos para resguardar el traslado de material electoral",
+    "url": "https://rpp.pe/politica/gobierno/ministro-del-interior-anuncia-que-pnp-destinara-11-mil-efectivos-para-resguardar-el-traslado-de-material-electoral-noticia-1710517",
+    "source": "RPP",
+    "published": "2026-10-02T16:30:34-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "César Astudillo: así perdió fuerza la moción de censura hasta caerse",
     "url": "https://elcomercio.pe/politica/congreso/cesar-astudillo-asi-perdio-fuerza-la-mocion-de-censura-hasta-caerse-noticia/",
     "source": "El Comercio",
     "published": "2026-10-01T18:52:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "MEF sostiene reuniones con organismos financieros internacionales para impulsar proyectos estratégicos de inversión y desarrollo",
-    "url": "https://elcomercio.pe/economia/peru/mef-sostiene-reuniones-con-organismos-financieros-internacionales-para-impulsar-proyectos-estrategicos-de-inversion-y-desarrollo-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-02T15:23:15+00:00",
     "matched_in": "title"
    }
   ],
@@ -57,13 +62,6 @@
     "source": "La República",
     "published": "2026-10-01T18:19:13+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "JEE investiga a canciller Carlos Espá por comentarios favorables a López Aliaga",
-    "url": "https://larepublica.pe/politica/2026/09/30/jee-investiga-a-canciller-carlos-espa-por-comentarios-favorables-a-rafael-lopez-aliaga-hnews-1447170",
-    "source": "La República",
-    "published": "2026-10-01T03:32:01+00:00",
-    "matched_in": "title"
    }
   ],
   "rogers-martin-valencia-espinoza": [
