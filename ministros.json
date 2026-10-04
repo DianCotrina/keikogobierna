@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T19:41:23+00:00",
+ "generated": "2026-10-04T02:26:30+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -15,13 +15,6 @@
     "url": "https://elcomercio.pe/politica/diferencias-y-movidas-en-la-oposicion-debilitan-otra-mocion-contra-el-ejecutivo-noticia/",
     "source": "El Comercio",
     "published": "2026-10-02T23:16:51+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados retiran su firma de moción que plantea interpelar al ministro de Educación",
-    "url": "https://elcomercio.pe/politica/congreso/diputados-retiran-su-firma-de-mocion-que-plantea-interpelar-al-ministro-de-educacion-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-01T19:55:16+00:00",
     "matched_in": "title"
    }
   ],
