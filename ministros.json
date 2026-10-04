@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T15:44:59+00:00",
+ "generated": "2026-10-04T19:54:50+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,10 +11,17 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Keiko Fujimori se reunió con Luis Galarreta, Miguel Torres y Carlos Espá tras emitir su voto",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-se-reunio-con-galarreta-torres-y-espa-tras-emitir-su-voto-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-04T19:47:56+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Canciller Espá: “La relación con EE.UU. no solo es política, hay un ingrediente estratégico, de seguridad”",
     "url": "https://elcomercio.pe/politica/canciller-espa-la-relacion-con-eeuu-no-solo-es-politica-hay-un-ingrediente-estrategico-de-seguridad-entrevista-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-04T15:22:00+00:00",
+    "published": "2026-10-04T19:02:57+00:00",
     "matched_in": "title"
    },
    {
@@ -22,6 +29,15 @@
     "url": "https://larepublica.pe/politica/2026/10/03/ruth-luque-acusa-a-espa-de-mentir-sobre-el-escudo-de-las-americas-no-vamos-a-permitir-que-peru-actue-como-colonia-de-ee-uu-hnews-141801",
     "source": "La República",
     "published": "2026-10-03T17:53:16+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Diferencias y movidas en la oposición debilitan ahora la moción de interpelación al ministro de Educación",
+    "url": "https://elcomercio.pe/politica/diferencias-y-movidas-en-la-oposicion-debilitan-otra-mocion-contra-el-ejecutivo-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-02T23:16:51+00:00",
     "matched_in": "title"
    }
   ]
