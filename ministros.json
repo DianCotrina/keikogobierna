@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T12:05:06+00:00",
+ "generated": "2026-10-05T23:04:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,15 @@
   "Infobae"
  ],
  "ministers": {
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Pleno del Congreso debate este martes moción de interpelación al ministro José Antonio Chang",
+    "url": "https://elcomercio.pe/politica/congreso/pleno-del-congreso-debate-este-martes-mocion-de-interpelacion-al-ministro-jose-antonio-chang-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-05T19:09:17+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Canciller Espá: “La relación con EE.UU. no solo es política, hay un ingrediente estratégico, de seguridad”",
@@ -22,13 +31,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-se-reunio-con-galarreta-torres-y-espa-tras-emitir-su-voto-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-04T19:47:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ruth Luque acusa a Espá de mentir sobre el Escudo de las Américas: \"No vamos a permitir que Perú actúe como colonia de EE. UU.\"",
-    "url": "https://larepublica.pe/politica/2026/10/03/ruth-luque-acusa-a-espa-de-mentir-sobre-el-escudo-de-las-americas-no-vamos-a-permitir-que-peru-actue-como-colonia-de-ee-uu-hnews-141801",
-    "source": "La República",
-    "published": "2026-10-03T17:53:16+00:00",
     "matched_in": "title"
    }
   ],
