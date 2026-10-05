@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T01:41:15+00:00",
+ "generated": "2026-10-05T12:05:06+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -30,6 +30,15 @@
     "source": "La República",
     "published": "2026-10-03T17:53:16+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Elecciones municipales y regionales 2026: así votaron las autoridades del Ejecutivo y del Congreso",
+    "url": "https://larepublica.pe/politica/2026/10/04/elecciones-municipales-y-regionales-2026-asi-votaron-las-autoridades-del-ejecutivo-y-del-congreso-hnews-324460",
+    "source": "La República",
+    "published": "2026-10-05T04:05:02+00:00",
+    "matched_in": "summary"
    }
   ]
  }
