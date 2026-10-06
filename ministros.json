@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T23:04:07+00:00",
+ "generated": "2026-10-06T11:49:59+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,16 +9,21 @@
   "Infobae"
  ],
  "ministers": {
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Pleno del Congreso debate este martes moción de interpelación al ministro José Antonio Chang",
-    "url": "https://elcomercio.pe/politica/congreso/pleno-del-congreso-debate-este-martes-mocion-de-interpelacion-al-ministro-jose-antonio-chang-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-05T19:09:17+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Comisión de Constitución de Diputados acordó citar a Carlos Espá para el 19 de octubre",
+    "url": "https://rpp.pe/politica/congreso/comision-de-constitucion-cita-al-canciller-carlos-espa-para-el-19-de-octubre-noticia-1710993",
+    "source": "RPP",
+    "published": "2026-10-05T22:18:46-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputados: Comisión de Constitución acuerda citar al canciller Carlos Espá para el próximo 19 de octubre",
+    "url": "https://elcomercio.pe/politica/congreso/diputados-comision-de-constitucion-acuerda-citar-al-canciller-carlos-espa-para-el-proximo-19-de-octubre-escudo-de-las-americas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-06T01:31:28+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Canciller Espá: “La relación con EE.UU. no solo es política, hay un ingrediente estratégico, de seguridad”",
     "url": "https://elcomercio.pe/politica/canciller-espa-la-relacion-con-eeuu-no-solo-es-politica-hay-un-ingrediente-estrategico-de-seguridad-entrevista-noticia/",
@@ -31,6 +36,15 @@
     "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-se-reunio-con-galarreta-torres-y-espa-tras-emitir-su-voto-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-04T19:47:56+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Pleno del Congreso debate este martes moción de interpelación al ministro José Antonio Chang",
+    "url": "https://elcomercio.pe/politica/congreso/pleno-del-congreso-debate-este-martes-mocion-de-interpelacion-al-ministro-jose-antonio-chang-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-05T19:09:17+00:00",
     "matched_in": "title"
    }
   ],
