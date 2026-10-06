@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T11:49:59+00:00",
+ "generated": "2026-10-06T21:27:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Comisión de Constitución de Diputados acordó citar a Carlos Espá para el 19 de octubre",
-    "url": "https://rpp.pe/politica/congreso/comision-de-constitucion-cita-al-canciller-carlos-espa-para-el-19-de-octubre-noticia-1710993",
-    "source": "RPP",
-    "published": "2026-10-05T22:18:46-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Diputados: Comisión de Constitución acuerda citar al canciller Carlos Espá para el próximo 19 de octubre",
     "url": "https://elcomercio.pe/politica/congreso/diputados-comision-de-constitucion-acuerda-citar-al-canciller-carlos-espa-para-el-proximo-19-de-octubre-escudo-de-las-americas-ultimas-noticia/",
@@ -30,16 +23,37 @@
     "source": "El Comercio",
     "published": "2026-10-04T22:47:47+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori se reunió con Luis Galarreta, Miguel Torres y Carlos Espá tras emitir su voto",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-se-reunio-con-galarreta-torres-y-espa-tras-emitir-su-voto-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-04T19:47:56+00:00",
-    "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
+   {
+    "title": "Expulsión de escolares: Gobierno prepublicará el jueves propuesta que permitirá aplicarla",
+    "url": "https://gestion.pe/peru/expulsion-de-escolares-gobierno-prepublicara-el-jueves-documento-que-permitira-aplicarla-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-06T20:17:33+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Minedu prepublicará norma que contempla la expulsión de escolares: ¿en qué casos?",
+    "url": "https://rpp.pe/politica/gobierno/minedu-prepublicara-norma-que-contempla-la-expulsion-de-escolares-en-que-casos-noticia-1711109",
+    "source": "RPP",
+    "published": "2026-10-06T14:30:04-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Desde este año los colegios podrán expulsar alumnos, confirma el ministro Chang: “Indispensable”",
+    "url": "https://www.infobae.com/peru/2026/10/06/desde-este-ano-los-colegios-podran-expulsar-alumnos-confirma-el-ministro-chang-indispensable/",
+    "source": "Infobae",
+    "published": "2026-10-06T17:23:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Pleno de la Cámara de Diputados debatirá este martes la moción de interpelación contra el ministro José Antonio Chang",
+    "url": "https://larepublica.pe/politica/2026/10/06/pleno-de-la-camara-de-diputados-debatira-este-martes-la-mocion-de-interpelacion-contra-el-ministro-jose-antonio-chang-hnews-192444",
+    "source": "La República",
+    "published": "2026-10-06T14:11:36+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Pleno del Congreso debate este martes moción de interpelación al ministro José Antonio Chang",
     "url": "https://elcomercio.pe/politica/congreso/pleno-del-congreso-debate-este-martes-mocion-de-interpelacion-al-ministro-jose-antonio-chang-ultimas-noticia/",
@@ -55,6 +69,15 @@
     "source": "La República",
     "published": "2026-10-05T04:05:02+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Beingolea califica de \"incomprensible\" dictamen de Juntos por el Perú que plantea archivar pedido de facultades del Gobierno",
+    "url": "https://rpp.pe/politica/gobierno/beingolea-califica-de-incomprensible-dictamen-de-juntos-por-el-peru-que-plantea-archivar-pedido-de-facultades-del-gobierno-noticia-1711044",
+    "source": "RPP",
+    "published": "2026-10-06T13:30:16-05:00",
+    "matched_in": "title"
    }
   ]
  }
