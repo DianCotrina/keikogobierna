@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T11:35:06+00:00",
+ "generated": "2026-10-07T21:47:48+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,45 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "César Astudillo tras aprobación parcial de facultades: “Vamos a seguir trabajando con las leyes que nos den”",
+    "url": "https://www.infobae.com/peru/2026/10/07/cesar-astudillo-tras-aprobacion-parcial-de-facultades-vamos-a-seguir-trabajando-con-las-leyes-que-nos-den/",
+    "source": "Infobae",
+    "published": "2026-10-07T15:07:23+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro César Astudillo sobre facultades aprobadas: “Vamos a seguir trabajando con las leyes que nos den”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-sobre-facultades-aprobadas-vamos-a-seguir-trabajando-con-las-leyes-que-nos-den-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-07T15:01:14+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ernesto Álvarez pide al Senado no someterse a diputados durante debate del pedido de facultades",
+    "url": "https://larepublica.pe/politica/2026/10/07/ernesto-alvarez-pide-al-senado-no-someterse-a-diputados-durante-debate-del-pedido-de-facultades-hnews-292033",
+    "source": "La República",
+    "published": "2026-10-07T20:17:51+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Ernesto Álvarez: “La Cámara de Diputados no puede decirle al Senado qué cosa hacer y no hacer”",
+    "url": "https://www.infobae.com/peru/2026/10/07/ministro-ernesto-alvarez-la-camara-de-diputados-no-puede-decirle-al-senado-que-cosa-hacer-y-no-hacer/",
+    "source": "Infobae",
+    "published": "2026-10-07T16:32:55+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Ernesto Álvarez sobre facultades: “Lo aprobado en Diputados es un freno a la acción de las Fuerzas Armadas”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-ernesto-alvarez-sobre-delegacion-de-facultades-lo-aprobado-en-diputados-es-un-freno-a-la-accion-de-las-fuerzas-armadas-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-07T13:16:12+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Comisión de Constitución citará a Carlos Espá por la incorporación al Escudo de las Américas y la visita del papa León XIV",
@@ -25,27 +64,31 @@
     "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Expulsión de escolares: Gobierno prepublicará el jueves propuesta que permitirá aplicarla",
-    "url": "https://gestion.pe/peru/expulsion-de-escolares-gobierno-prepublicara-el-jueves-documento-que-permitira-aplicarla-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-06T23:30:00+00:00",
-    "matched_in": "summary"
-   },
+    "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
+    "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
+    "source": "La República",
+    "published": "2026-10-07T17:07:46+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
    {
     "title": "Pleno de la Cámara de Diputados debatirá este martes la moción de interpelación contra el ministro José Antonio Chang",
     "url": "https://larepublica.pe/politica/2026/10/06/pleno-de-la-camara-de-diputados-debatira-este-martes-la-mocion-de-interpelacion-contra-el-ministro-jose-antonio-chang-hnews-192444",
     "source": "La República",
     "published": "2026-10-06T14:11:36+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Pleno del Congreso debate este martes moción de interpelación al ministro José Antonio Chang",
-    "url": "https://elcomercio.pe/politica/congreso/pleno-del-congreso-debate-este-martes-mocion-de-interpelacion-al-ministro-jose-antonio-chang-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-05T19:09:17+00:00",
-    "matched_in": "title"
+    "title": "Gobierno espera que el Senado pueda “mejorar” la facultades legislativas otorgadas",
+    "url": "https://gestion.pe/peru/politica/gobierno-espera-que-el-senado-pueda-mejorar-la-facultades-legislativas-otorgadas-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-07T19:58:46+00:00",
+    "matched_in": "summary"
    }
   ]
  }

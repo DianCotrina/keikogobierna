@@ -1,10 +1,73 @@
 {
- "generated": "2026-10-07T11:35:06+00:00",
+ "generated": "2026-10-07T21:47:48+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
  "articles": [
+  {
+   "title": "Keiko Fujimori anuncia creación de comando unificado para enfrentar a la delincuencia",
+   "url": "https://elcomercio.pe/lima/seguridad/keiko-fujimori-anuncia-creacion-de-comando-unificado-para-enfrentar-a-la-delincuencia-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori anunció el establecimiento de un comando unificado para enfrentar la delincuencia y el crimen organizado.\nEl centro de control y operaciones estará ubicado en el Cuartel General del Ejército, en San Borja.",
+   "author": "Redacción EC",
+   "published": "2026-10-07T21:23:55+00:00",
+   "source": "El Comercio",
+   "captured": "2026-10-07T21:47:48+00:00"
+  },
+  {
+   "title": "Ernesto Álvarez pide al Senado no someterse a diputados durante debate del pedido de facultades",
+   "url": "https://larepublica.pe/politica/2026/10/07/ernesto-alvarez-pide-al-senado-no-someterse-a-diputados-durante-debate-del-pedido-de-facultades-hnews-292033",
+   "summary": "El ministro de Justicia sostuvo que ambas cámaras tienen funciones distintas y pidió que los senadores evalúen por cuenta propia el pedido de facultades solicitado por el Gobierno de Keiko Fujimori.",
+   "author": "Ariadna Yaya",
+   "published": "2026-10-07T20:17:51+00:00",
+   "source": "La República",
+   "captured": "2026-10-07T21:47:48+00:00"
+  },
+  {
+   "title": "Cámara de Senadores autoriza que Keiko Fujimori viaje a El Salvador y España",
+   "url": "https://larepublica.pe/politica/2026/10/07/camara-de-senadores-autoriza-que-keiko-fujimori-viaje-a-el-salvador-y-espana-hnews-486003",
+   "summary": "La aprobación de la Cámara de Senadores se dio con 38 votos a favor y 11 en contra.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-10-07T18:20:56+00:00",
+   "source": "La República",
+   "captured": "2026-10-07T21:47:48+00:00"
+  },
+  {
+   "title": "Carlos Mesía dice que \"no sabe\" qué significa \"desnaturalizar\" un dictamen aprobado por la Cámara de Diputados",
+   "url": "https://larepublica.pe/politica/2026/10/07/carlos-mesia-dice-que-no-sabe-que-significa-desnaturalizar-un-dictamen-aprobado-por-la-camara-de-diputados-hnews-120806",
+   "summary": "El presidente de la Comisión de Constitución y senador de Fuerza Popular señaló que el término debe ser aterrizado en la práctica. Todo esto en el contexto del dictamen aprobado por la Cámara de Diputados sobre facultades al Ejecutivo.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-10-07T18:09:39+00:00",
+   "source": "La República",
+   "captured": "2026-10-07T21:47:48+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: Senado aprueba viajes de la mandataria a El Salvador y España",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-senado-aprueba-viajes-de-la-mandataria-a-el-salvador-y-espana-nayib-bukele-madrid-ultimas-noticia/",
+   "summary": "El pleno del Senado aprobó los viajes de la presidenta Keiko Fujimori a El Salvador, donde realizará una visita oficial y se reunirá con su homólogo de ese país, Nayib Bukele, del 28 al 31 de octubre, y a España del 2 al 6 de noviembre.",
+   "author": "Redacción EC",
+   "published": "2026-10-07T18:08:56+00:00",
+   "source": "El Comercio",
+   "captured": "2026-10-07T21:47:48+00:00"
+  },
+  {
+   "title": "Keiko Fujimori: “Tenemos una Constitución Política sólida que permite dar garantías y estabilidad jurídica a los inversionistas”",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-tenemos-una-constitucion-politica-solida-que-permite-dar-garantias-y-estabilidad-juridica-a-los-inversionistas-ultimas-noticia/",
+   "summary": "La presidenta Keiko Fujimori afirmó que Constitución Política de 1993 es “sólida” y permite dar garantías y estabilidad jurídica a los inversionistas nacionales y extranjeros.",
+   "author": "Redacción EC",
+   "published": "2026-10-07T16:20:48+00:00",
+   "source": "El Comercio",
+   "captured": "2026-10-07T21:47:48+00:00"
+  },
+  {
+   "title": "Keiko Fujimori sostuvo reunión con el defensor del Pueblo en Palacio de Gobierno",
+   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sostuvo-reunion-con-el-defensor-del-pueblo-en-palacio-de-gobierno-josue-gutierrez-ultimas-noticia/",
+   "summary": "La presidenta de la república, Keiko Fujimori, sostuvo una reunión con el defensor del Pueblo, Josué Gutiérrez, en Palacio de Gobierno el último martes 6 de octubre.",
+   "author": "Redacción EC",
+   "published": "2026-10-07T13:31:16+00:00",
+   "source": "El Comercio",
+   "captured": "2026-10-07T21:47:48+00:00"
+  },
   {
    "title": "Fuerza Popular en las regiones: ¿Qué resultados obtuvieron sus candidatos y qué factores explican la baja votación?",
    "url": "https://elcomercio.pe/politica/fuerza-popular-y-las-erm-que-resultados-obtuvieron-sus-candidatos-a-regiones-y-que-factores-explican-su-votacion-donde-perdieron-apuesplan-noticia/",
