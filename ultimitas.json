@@ -1,10 +1,37 @@
 {
- "generated": "2026-10-07T02:08:55+00:00",
+ "generated": "2026-10-07T11:35:06+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
  "articles": [
+  {
+   "title": "Fuerza Popular en las regiones: ¿Qué resultados obtuvieron sus candidatos y qué factores explican la baja votación?",
+   "url": "https://elcomercio.pe/politica/fuerza-popular-y-las-erm-que-resultados-obtuvieron-sus-candidatos-a-regiones-y-que-factores-explican-su-votacion-donde-perdieron-apuesplan-noticia/",
+   "summary": "En nueve regiones, Fuerza Popular registró una votación menor que la obtenida por Keiko Fujimori en la segunda vuelta presidencial.",
+   "author": "Thalía Cadenas",
+   "published": "2026-10-07T11:00:00+00:00",
+   "source": "El Comercio",
+   "captured": "2026-10-07T11:35:06+00:00"
+  },
+  {
+   "title": "Senado debatirá este miércoles si autoriza viajes de Keiko Fujimori a El Salvador y a España",
+   "url": "https://larepublica.pe/politica/2026/10/06/senado-debatira-este-miercoles-si-autoriza-viajes-de-keiko-fujimori-a-el-salvador-y-a-espana-hnews-486234",
+   "summary": "El Ejecutivo solicitó la autorización para que Fujimori realice dos viajes oficiales. . Se trata de una visita el 28 y el 31 de octubre para cumplir una visita oficial a El Salvador y, posteriormente, entre el 2 y el 6 de noviembre, a Madrid.",
+   "author": "Narda Saavedra",
+   "published": "2026-10-07T05:30:03+00:00",
+   "source": "La República",
+   "captured": "2026-10-07T11:35:06+00:00"
+  },
+  {
+   "title": "Cámara de Diputados rechaza dictamen en minoría presentado por el Fujimorismo",
+   "url": "https://larepublica.pe/politica/2026/10/06/camara-de-diputados-rechaza-dictamen-en-minoria-presentado-por-el-fujimorismo-hnews-394314",
+   "summary": "El dictamen formulado por Fuerza Popular proponía ampliar el periodo de delegación a 120 días e integraba propuestas en materia de seguridad, sino también sobre micro y pequeñas empresas (Mypes), empleo, el desarrollo productivo y reformas al régimen tributario.",
+   "author": "Narda Saavedra",
+   "published": "2026-10-07T05:27:46+00:00",
+   "source": "La República",
+   "captured": "2026-10-07T11:35:06+00:00"
+  },
   {
    "title": "Senado debatirá este miércoles autorización de viajes de la presidenta Keiko Fujimori a El Salvador y a España",
    "url": "https://larepublica.pe/politica/2020/02/17/los-intocables-ediles-hoy-allanamiento-en-vivo-ultimas-noticias-la-victoria-elias-cuba-luciana-leon-pnp-fiscalia",
