@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T21:27:22+00:00",
+ "generated": "2026-10-07T02:08:55+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,17 +11,17 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Comisión de Constitución citará a Carlos Espá por la incorporación al Escudo de las Américas y la visita del papa León XIV",
+    "url": "https://larepublica.pe/politica/2026/10/06/comision-de-constitucion-citara-el-19-de-octubre-a-carlos-espa-por-el-escudo-de-las-americas-y-la-visita-del-papa-leon-xiv-hnews-518988",
+    "source": "La República",
+    "published": "2026-10-06T22:43:59+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Diputados: Comisión de Constitución acuerda citar al canciller Carlos Espá para el próximo 19 de octubre",
     "url": "https://elcomercio.pe/politica/congreso/diputados-comision-de-constitucion-acuerda-citar-al-canciller-carlos-espa-para-el-proximo-19-de-octubre-escudo-de-las-americas-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-06T01:31:28+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Canciller Espá: “La relación con EE.UU. no solo es política, hay un ingrediente estratégico, de seguridad”",
-    "url": "https://elcomercio.pe/politica/canciller-espa-la-relacion-con-eeuu-no-solo-es-politica-hay-un-ingrediente-estrategico-de-seguridad-entrevista-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-04T22:47:47+00:00",
     "matched_in": "title"
    }
   ],
@@ -30,21 +30,14 @@
     "title": "Expulsión de escolares: Gobierno prepublicará el jueves propuesta que permitirá aplicarla",
     "url": "https://gestion.pe/peru/expulsion-de-escolares-gobierno-prepublicara-el-jueves-documento-que-permitira-aplicarla-noticia/",
     "source": "Gestión",
-    "published": "2026-10-06T20:17:33+00:00",
+    "published": "2026-10-06T23:30:00+00:00",
     "matched_in": "summary"
    },
    {
-    "title": "Minedu prepublicará norma que contempla la expulsión de escolares: ¿en qué casos?",
-    "url": "https://rpp.pe/politica/gobierno/minedu-prepublicara-norma-que-contempla-la-expulsion-de-escolares-en-que-casos-noticia-1711109",
+    "title": "Ministerio de Educación recupera área deportiva en el colegio Mariano Melgar de Breña que estaba tomada por terceros",
+    "url": "https://rpp.pe/lima/actualidad/ministerio-de-educacion-recupera-area-deportiva-en-el-colegio-mariano-melgar-de-brena-que-estaba-tomada-por-terceros-noticia-1711128",
     "source": "RPP",
-    "published": "2026-10-06T14:30:04-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Desde este año los colegios podrán expulsar alumnos, confirma el ministro Chang: “Indispensable”",
-    "url": "https://www.infobae.com/peru/2026/10/06/desde-este-ano-los-colegios-podran-expulsar-alumnos-confirma-el-ministro-chang-indispensable/",
-    "source": "Infobae",
-    "published": "2026-10-06T17:23:08+00:00",
+    "published": "2026-10-06T16:30:16-05:00",
     "matched_in": "title"
    },
    {
@@ -69,15 +62,6 @@
     "source": "La República",
     "published": "2026-10-05T04:05:02+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Beingolea califica de \"incomprensible\" dictamen de Juntos por el Perú que plantea archivar pedido de facultades del Gobierno",
-    "url": "https://rpp.pe/politica/gobierno/beingolea-califica-de-incomprensible-dictamen-de-juntos-por-el-peru-que-plantea-archivar-pedido-de-facultades-del-gobierno-noticia-1711044",
-    "source": "RPP",
-    "published": "2026-10-06T13:30:16-05:00",
-    "matched_in": "title"
    }
   ]
  }
