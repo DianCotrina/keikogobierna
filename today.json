@@ -1,118 +1,28 @@
 {
- "generated": "2026-10-08T02:35:16+00:00",
+ "generated": "2026-10-08T11:49:33+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "articles": [
   {
-   "title": "Luis Galarreta y ministros presionan para que Senado aumente facultades delegadas al Gobierno de Keiko Fujimori",
-   "url": "https://larepublica.pe/politica/2026/10/07/luis-galarreta-y-ministros-presionan-para-que-senado-aumente-facultades-delegadas-al-gobierno-de-keiko-fujimori-hnews-502593",
-   "summary": "La Comisión de Constitución de la Cámara de Senadores debatirá el pedido de facultades, con ciertas tensiones respecto a posibles modificaciones del texto aprobado por la Cámara de Diputados.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-10-08T00:10:56+00:00",
-   "source": "La República",
-   "captured": "2026-10-08T02:35:16+00:00"
-  },
-  {
-   "title": "Keiko Fujimori crea comando unificado de FF. AA. y PNP: “Ya no vamos a esperar”",
-   "url": "https://larepublica.pe/politica/2026/10/07/keiko-fujimori-crea-comando-unificado-de-ff-aa-y-pnp-ya-no-vamos-a-esperar-hnews-241479",
-   "summary": "La presidenta anunció una estructura de 1.350 efectivos militares y policiales para enfrentar a las organizaciones criminales. El centro de control estará en el Cuartel General del Ejército, en San Borja.",
-   "author": "Ariadna Yaya",
-   "published": "2026-10-07T23:51:18+00:00",
-   "source": "La República",
-   "captured": "2026-10-08T02:35:16+00:00"
-  },
-  {
-   "title": "Keiko Fujimori anuncia creación de comando unificado para enfrentar a la delincuencia",
-   "url": "https://elcomercio.pe/lima/seguridad/keiko-fujimori-anuncia-creacion-de-comando-unificado-para-enfrentar-a-la-delincuencia-ultimas-noticia/",
-   "summary": "La presidenta Keiko Fujimori anunció el establecimiento de un comando unificado para enfrentar la delincuencia y el crimen organizado.\nEl centro de control y operaciones estará ubicado en el Cuartel General del Ejército, en San Borja.",
-   "author": "Redacción EC",
-   "published": "2026-10-07T21:23:55+00:00",
+   "title": "“Desencanto” y cruce de cuestionamientos: ¿Cómo recibió el gobierno de Keiko Fujimori el recorte de su solicitud de facultades?",
+   "url": "https://elcomercio.pe/politica/desencanto-y-cruce-de-cuestionamientos-como-recibio-el-gobierno-de-keiko-fujimori-el-recorte-de-su-solicitud-de-facultades-apuesplan-noticia/",
+   "summary": "Tras la aprobación de solo 20 de los 66 puntos de la solicitud de facultades en la cámara de diputados, diferentes representantes del gobierno de Keiko Fujimori cuestionaron que esta instancia del Congreso no haya otorgado “las herramientas más importantes que el país necesita” para frenar al crimen organizado y enfrentar el impacto del fenómeno de El Niño. La propuesta ahora estará en manos del Senado.",
+   "author": "Sebastian Ortiz Martínez",
+   "published": "2026-10-08T11:42:28+00:00",
    "source": "El Comercio",
-   "captured": "2026-10-07T21:47:48+00:00"
+   "captured": "2026-10-08T11:49:33+00:00"
   },
   {
-   "title": "Ernesto Álvarez pide al Senado no someterse a diputados durante debate del pedido de facultades",
-   "url": "https://larepublica.pe/politica/2026/10/07/ernesto-alvarez-pide-al-senado-no-someterse-a-diputados-durante-debate-del-pedido-de-facultades-hnews-292033",
-   "summary": "El ministro de Justicia sostuvo que ambas cámaras tienen funciones distintas y pidió que los senadores evalúen por cuenta propia el pedido de facultades solicitado por el Gobierno de Keiko Fujimori.",
-   "author": "Ariadna Yaya",
-   "published": "2026-10-07T20:17:51+00:00",
-   "source": "La República",
-   "captured": "2026-10-07T21:47:48+00:00"
-  },
-  {
-   "title": "Cámara de Senadores autoriza que Keiko Fujimori viaje a El Salvador y España",
-   "url": "https://larepublica.pe/politica/2026/10/07/camara-de-senadores-autoriza-que-keiko-fujimori-viaje-a-el-salvador-y-espana-hnews-486003",
-   "summary": "La aprobación de la Cámara de Senadores se dio con 38 votos a favor y 11 en contra.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-10-07T18:20:56+00:00",
-   "source": "La República",
-   "captured": "2026-10-07T21:47:48+00:00"
-  },
-  {
-   "title": "Carlos Mesía dice que \"no sabe\" qué significa \"desnaturalizar\" un dictamen aprobado por la Cámara de Diputados",
-   "url": "https://larepublica.pe/politica/2026/10/07/carlos-mesia-dice-que-no-sabe-que-significa-desnaturalizar-un-dictamen-aprobado-por-la-camara-de-diputados-hnews-120806",
-   "summary": "El presidente de la Comisión de Constitución y senador de Fuerza Popular señaló que el término debe ser aterrizado en la práctica. Todo esto en el contexto del dictamen aprobado por la Cámara de Diputados sobre facultades al Ejecutivo.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-10-07T18:09:39+00:00",
-   "source": "La República",
-   "captured": "2026-10-07T21:47:48+00:00"
-  },
-  {
-   "title": "Keiko Fujimori: Senado aprueba viajes de la mandataria a El Salvador y España",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-senado-aprueba-viajes-de-la-mandataria-a-el-salvador-y-espana-nayib-bukele-madrid-ultimas-noticia/",
-   "summary": "El pleno del Senado aprobó los viajes de la presidenta Keiko Fujimori a El Salvador, donde realizará una visita oficial y se reunirá con su homólogo de ese país, Nayib Bukele, del 28 al 31 de octubre, y a España del 2 al 6 de noviembre.",
-   "author": "Redacción EC",
-   "published": "2026-10-07T18:08:56+00:00",
+   "title": "Keiko Fujimori anuncia la creación de un comando unificado contra el crimen",
+   "url": "https://elcomercio.pe/lima/seguridad/keiko-fujimori-anuncia-la-creacion-de-un-comando-unificado-contra-el-crimen-noticia/",
+   "summary": "En ceremonia realizada en el cuartel general del Ejército, la mandataria anunció su respaldo total a las FF.AA. y PNP. en esta misión.",
+   "author": "Miguel Rocca",
+   "published": "2026-10-08T11:00:01+00:00",
    "source": "El Comercio",
-   "captured": "2026-10-07T21:47:48+00:00"
-  },
-  {
-   "title": "Keiko Fujimori: “Tenemos una Constitución Política sólida que permite dar garantías y estabilidad jurídica a los inversionistas”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-tenemos-una-constitucion-politica-solida-que-permite-dar-garantias-y-estabilidad-juridica-a-los-inversionistas-ultimas-noticia/",
-   "summary": "La presidenta Keiko Fujimori afirmó que Constitución Política de 1993 es “sólida” y permite dar garantías y estabilidad jurídica a los inversionistas nacionales y extranjeros.",
-   "author": "Redacción EC",
-   "published": "2026-10-07T16:20:48+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-07T21:47:48+00:00"
-  },
-  {
-   "title": "Keiko Fujimori sostuvo reunión con el defensor del Pueblo en Palacio de Gobierno",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sostuvo-reunion-con-el-defensor-del-pueblo-en-palacio-de-gobierno-josue-gutierrez-ultimas-noticia/",
-   "summary": "La presidenta de la república, Keiko Fujimori, sostuvo una reunión con el defensor del Pueblo, Josué Gutiérrez, en Palacio de Gobierno el último martes 6 de octubre.",
-   "author": "Redacción EC",
-   "published": "2026-10-07T13:31:16+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-07T21:47:48+00:00"
-  },
-  {
-   "title": "Fuerza Popular en las regiones: ¿Qué resultados obtuvieron sus candidatos y qué factores explican la baja votación?",
-   "url": "https://elcomercio.pe/politica/fuerza-popular-y-las-erm-que-resultados-obtuvieron-sus-candidatos-a-regiones-y-que-factores-explican-su-votacion-donde-perdieron-apuesplan-noticia/",
-   "summary": "En nueve regiones, Fuerza Popular registró una votación menor que la obtenida por Keiko Fujimori en la segunda vuelta presidencial.",
-   "author": "Thalía Cadenas",
-   "published": "2026-10-07T11:00:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-07T11:35:06+00:00"
-  },
-  {
-   "title": "Senado debatirá este miércoles si autoriza viajes de Keiko Fujimori a El Salvador y a España",
-   "url": "https://larepublica.pe/politica/2026/10/06/senado-debatira-este-miercoles-si-autoriza-viajes-de-keiko-fujimori-a-el-salvador-y-a-espana-hnews-486234",
-   "summary": "El Ejecutivo solicitó la autorización para que Fujimori realice dos viajes oficiales. . Se trata de una visita el 28 y el 31 de octubre para cumplir una visita oficial a El Salvador y, posteriormente, entre el 2 y el 6 de noviembre, a Madrid.",
-   "author": "Narda Saavedra",
-   "published": "2026-10-07T05:30:03+00:00",
-   "source": "La República",
-   "captured": "2026-10-07T11:35:06+00:00"
-  },
-  {
-   "title": "Cámara de Diputados rechaza dictamen en minoría presentado por el Fujimorismo",
-   "url": "https://larepublica.pe/politica/2026/10/06/camara-de-diputados-rechaza-dictamen-en-minoria-presentado-por-el-fujimorismo-hnews-394314",
-   "summary": "El dictamen formulado por Fuerza Popular proponía ampliar el periodo de delegación a 120 días e integraba propuestas en materia de seguridad, sino también sobre micro y pequeñas empresas (Mypes), empleo, el desarrollo productivo y reformas al régimen tributario.",
-   "author": "Narda Saavedra",
-   "published": "2026-10-07T05:27:46+00:00",
-   "source": "La República",
-   "captured": "2026-10-07T11:35:06+00:00"
+   "captured": "2026-10-08T11:49:33+00:00"
   }
  ]
 }

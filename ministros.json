@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T02:35:16+00:00",
+ "generated": "2026-10-08T11:49:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -34,6 +34,13 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Ministerio del Interior plantea actualizar las leyes ante nuevas modalidades de las organizaciones criminales",
+    "url": "https://rpp.pe/politica/gobierno/ministerio-del-interior-plantea-actualizar-las-leyes-ante-nuevas-modalidades-de-las-organizaciones-criminales-noticia-1711437",
+    "source": "RPP",
+    "published": "2026-10-07T22:28:49-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro César Astudillo sobre facultades aprobadas: “Vamos a seguir trabajando con las leyes que nos den”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-sobre-facultades-aprobadas-vamos-a-seguir-trabajando-con-las-leyes-que-nos-den-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
@@ -62,7 +69,7 @@
     "title": "Cancillería entrega al Ministerio de Cultura 342 bienes recuperados en seis países",
     "url": "https://gestion.pe/peru/cancilleria-entrega-al-ministerio-de-cultura-342-bienes-recuperados-en-seis-paises-noticia/",
     "source": "Gestión",
-    "published": "2026-10-08T01:27:20+00:00",
+    "published": "2026-10-08T05:20:00+00:00",
     "matched_in": "title"
    },
    {
