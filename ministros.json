@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T21:47:48+00:00",
+ "generated": "2026-10-08T02:35:16+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,14 +9,30 @@
   "Infobae"
  ],
  "ministers": {
-  "cesar-augusto-astudillo-salcedo": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "César Astudillo tras aprobación parcial de facultades: “Vamos a seguir trabajando con las leyes que nos den”",
-    "url": "https://www.infobae.com/peru/2026/10/07/cesar-astudillo-tras-aprobacion-parcial-de-facultades-vamos-a-seguir-trabajando-con-las-leyes-que-nos-den/",
-    "source": "Infobae",
-    "published": "2026-10-07T15:07:23+00:00",
+    "title": "Rafael Belaunde pide al Senado “estar a la altura del desafío histórico” en la lucha contra la delincuencia",
+    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-pide-al-senado-estar-a-la-altura-del-desafio-historico-en-la-lucha-contra-la-delincuencia-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-08T00:02:04+00:00",
     "matched_in": "title"
    },
+   {
+    "title": "Ministro Rafael Belaúnde arremete contra el Congreso: “Necesitamos que responda y deje de ser parte del problema”",
+    "url": "https://www.infobae.com/peru/2026/10/07/ministro-rafael-belaunde-arremete-contra-el-congreso-necesitamos-que-responda-y-deje-de-ser-parte-del-problema/",
+    "source": "Infobae",
+    "published": "2026-10-07T23:34:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
+    "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
+    "source": "La República",
+    "published": "2026-10-07T17:07:46+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Ministro César Astudillo sobre facultades aprobadas: “Vamos a seguir trabajando con las leyes que nos den”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-sobre-facultades-aprobadas-vamos-a-seguir-trabajando-con-las-leyes-que-nos-den-apuesplan-ultimas-noticia/",
@@ -34,13 +50,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro Ernesto Álvarez: “La Cámara de Diputados no puede decirle al Senado qué cosa hacer y no hacer”",
-    "url": "https://www.infobae.com/peru/2026/10/07/ministro-ernesto-alvarez-la-camara-de-diputados-no-puede-decirle-al-senado-que-cosa-hacer-y-no-hacer/",
-    "source": "Infobae",
-    "published": "2026-10-07T16:32:55+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Ernesto Álvarez sobre facultades: “Lo aprobado en Diputados es un freno a la acción de las Fuerzas Armadas”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-ernesto-alvarez-sobre-delegacion-de-facultades-lo-aprobado-en-diputados-es-un-freno-a-la-accion-de-las-fuerzas-armadas-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
@@ -50,26 +59,17 @@
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Cancillería entrega al Ministerio de Cultura 342 bienes recuperados en seis países",
+    "url": "https://gestion.pe/peru/cancilleria-entrega-al-ministerio-de-cultura-342-bienes-recuperados-en-seis-paises-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-08T01:27:20+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Comisión de Constitución citará a Carlos Espá por la incorporación al Escudo de las Américas y la visita del papa León XIV",
     "url": "https://larepublica.pe/politica/2026/10/06/comision-de-constitucion-citara-el-19-de-octubre-a-carlos-espa-por-el-escudo-de-las-americas-y-la-visita-del-papa-leon-xiv-hnews-518988",
     "source": "La República",
     "published": "2026-10-06T22:43:59+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados: Comisión de Constitución acuerda citar al canciller Carlos Espá para el próximo 19 de octubre",
-    "url": "https://elcomercio.pe/politica/congreso/diputados-comision-de-constitucion-acuerda-citar-al-canciller-carlos-espa-para-el-proximo-19-de-octubre-escudo-de-las-americas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-06T01:31:28+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
-    "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
-    "source": "La República",
-    "published": "2026-10-07T17:07:46+00:00",
     "matched_in": "title"
    }
   ],
@@ -87,7 +87,7 @@
     "title": "Gobierno espera que el Senado pueda “mejorar” la facultades legislativas otorgadas",
     "url": "https://gestion.pe/peru/politica/gobierno-espera-que-el-senado-pueda-mejorar-la-facultades-legislativas-otorgadas-noticia/",
     "source": "Gestión",
-    "published": "2026-10-07T19:58:46+00:00",
+    "published": "2026-10-07T23:30:00+00:00",
     "matched_in": "summary"
    }
   ]
