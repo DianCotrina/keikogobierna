@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T11:49:33+00:00",
+ "generated": "2026-10-08T21:50:53+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,13 +18,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro Rafael Belaúnde arremete contra el Congreso: “Necesitamos que responda y deje de ser parte del problema”",
-    "url": "https://www.infobae.com/peru/2026/10/07/ministro-rafael-belaunde-arremete-contra-el-congreso-necesitamos-que-responda-y-deje-de-ser-parte-del-problema/",
-    "source": "Infobae",
-    "published": "2026-10-07T23:34:01+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
     "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
     "source": "La República",
@@ -33,13 +26,6 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministerio del Interior plantea actualizar las leyes ante nuevas modalidades de las organizaciones criminales",
-    "url": "https://rpp.pe/politica/gobierno/ministerio-del-interior-plantea-actualizar-las-leyes-ante-nuevas-modalidades-de-las-organizaciones-criminales-noticia-1711437",
-    "source": "RPP",
-    "published": "2026-10-07T22:28:49-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro César Astudillo sobre facultades aprobadas: “Vamos a seguir trabajando con las leyes que nos den”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-sobre-facultades-aprobadas-vamos-a-seguir-trabajando-con-las-leyes-que-nos-den-apuesplan-ultimas-noticia/",
@@ -78,24 +64,6 @@
     "source": "La República",
     "published": "2026-10-06T22:43:59+00:00",
     "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Pleno de la Cámara de Diputados debatirá este martes la moción de interpelación contra el ministro José Antonio Chang",
-    "url": "https://larepublica.pe/politica/2026/10/06/pleno-de-la-camara-de-diputados-debatira-este-martes-la-mocion-de-interpelacion-contra-el-ministro-jose-antonio-chang-hnews-192444",
-    "source": "La República",
-    "published": "2026-10-06T14:11:36+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Gobierno espera que el Senado pueda “mejorar” la facultades legislativas otorgadas",
-    "url": "https://gestion.pe/peru/politica/gobierno-espera-que-el-senado-pueda-mejorar-la-facultades-legislativas-otorgadas-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-07T23:30:00+00:00",
-    "matched_in": "summary"
    }
   ]
  }
