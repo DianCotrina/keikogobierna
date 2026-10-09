@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T11:41:30+00:00",
+ "generated": "2026-10-09T21:29:39+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -23,47 +23,31 @@
     "source": "El Comercio",
     "published": "2026-10-08T00:02:04+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
-    "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
-    "source": "La República",
-    "published": "2026-10-07T17:07:46+00:00",
-    "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Ministro César Astudillo sobre facultades aprobadas: “Vamos a seguir trabajando con las leyes que nos den”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-sobre-facultades-aprobadas-vamos-a-seguir-trabajando-con-las-leyes-que-nos-den-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-07T15:01:14+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ernesto Álvarez pide al Senado no someterse a diputados durante debate del pedido de facultades",
-    "url": "https://larepublica.pe/politica/2026/10/07/ernesto-alvarez-pide-al-senado-no-someterse-a-diputados-durante-debate-del-pedido-de-facultades-hnews-292033",
+    "title": "Luis Galarreta insiste ante el Senado que facultades aprobadas por diputados son insuficientes: \"Negarlas sería histórico\"",
+    "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-insiste-ante-el-senado-que-facultades-aprobadas-por-diputados-son-insuficientes-negarlas-seria-historico-hnews-816417",
     "source": "La República",
-    "published": "2026-10-07T20:17:51+00:00",
+    "published": "2026-10-09T20:18:02+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministro Ernesto Álvarez sobre facultades: “Lo aprobado en Diputados es un freno a la acción de las Fuerzas Armadas”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-ernesto-alvarez-sobre-delegacion-de-facultades-lo-aprobado-en-diputados-es-un-freno-a-la-accion-de-las-fuerzas-armadas-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-07T13:16:12+00:00",
+    "title": "Luis Galarreta contradice a Keiko Fujimori: admite que el Gobierno puede actuar sin facultades",
+    "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-contradice-a-keiko-fujimori-admite-que-el-gobierno-puede-actuar-sin-facultades-hnews-355041",
+    "source": "La República",
+    "published": "2026-10-09T18:35:32+00:00",
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "guillermo-shinno-huamani": [
    {
-    "title": "Empleo formal crece 4,4% en julio y registra 268 mil puestos adicionales respecto del mismo mes del 2025",
-    "url": "https://elcomercio.pe/economia/peru/empleo-formal-crece-44-en-julio-y-registra-268-mil-puestos-adicionales-respecto-del-mismo-mes-del-2025-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-06T16:28:31+00:00",
-    "matched_in": "summary"
+    "title": "Ministro de Energía y Minas, Guillermo Shinno, advierte posibles cortes de luz por El Niño y prepara medidas: ¿Impactará en tarifas?",
+    "url": "https://rpp.pe/economia/economia/ministro-de-energia-y-minas-guillermo-shinno-advierte-posibles-cortes-de-luz-por-el-nino-y-prepara-medidas-impactara-en-tarifas-noticia-1711684",
+    "source": "RPP",
+    "published": "2026-10-09T15:30:12-05:00",
+    "matched_in": "title"
    }
   ]
  }
