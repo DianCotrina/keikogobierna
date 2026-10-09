@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T21:50:53+00:00",
+ "generated": "2026-10-09T02:49:06+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Belaunde plantea que el Estado “recupere la ofensiva” contra el crimen organizado",
+    "url": "https://gestion.pe/peru/belaunde-plantea-que-el-estado-recupere-la-ofensiva-contra-el-crimen-organizado-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-09T01:22:08+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Rafael Belaunde pide al Senado “estar a la altura del desafío histórico” en la lucha contra la delincuencia",
     "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-pide-al-senado-estar-a-la-altura-del-desafio-historico-en-la-lucha-contra-la-delincuencia-ultimas-noticia/",
@@ -56,13 +63,6 @@
     "url": "https://gestion.pe/peru/cancilleria-entrega-al-ministerio-de-cultura-342-bienes-recuperados-en-seis-paises-noticia/",
     "source": "Gestión",
     "published": "2026-10-08T05:20:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Constitución citará a Carlos Espá por la incorporación al Escudo de las Américas y la visita del papa León XIV",
-    "url": "https://larepublica.pe/politica/2026/10/06/comision-de-constitucion-citara-el-19-de-octubre-a-carlos-espa-por-el-escudo-de-las-americas-y-la-visita-del-papa-leon-xiv-hnews-518988",
-    "source": "La República",
-    "published": "2026-10-06T22:43:59+00:00",
     "matched_in": "title"
    }
   ]
