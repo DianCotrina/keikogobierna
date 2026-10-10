@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T16:11:35+00:00",
+ "generated": "2026-10-10T20:30:13+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Tensión en Comisión de Constitución del Senado: sesión fue suspendida varios minutos por altercado entre Iber Maraví y ministros",
+    "url": "https://elcomercio.pe/politica/congreso/tension-en-comision-de-constitucion-del-senado-sesion-fue-suspendida-varios-minutos-por-altercado-entre-iber-maravi-y-ministros-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-10T17:58:25+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Senador Iber Maraví y ministro del Interior protagonizaron un altercado durante la sesión de la Comisión de Constitución",
+    "url": "https://rpp.pe/politica/congreso/congreso-senador-iber-maravi-y-ministro-del-interior-protagonizaron-un-altercado-durante-la-sesion-de-la-comision-de-constitucion-noticia-1711837",
+    "source": "RPP",
+    "published": "2026-10-10T12:55:12-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Astudillo y senador Iber Maraví protagonizan altercado en plena comisión del Senado",
+    "url": "https://www.infobae.com/peru/2026/10/10/ministro-astudillo-y-senador-iber-maravi-protagonizan-altercado-en-plena-comision-del-senado/",
+    "source": "Infobae",
+    "published": "2026-10-10T17:35:40+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Luis Galarreta insiste ante el Senado que facultades aprobadas por diputados son insuficientes: \"Negarlas sería histórico\"",
@@ -39,13 +62,6 @@
     "source": "Gestión",
     "published": "2026-10-10T00:08:03+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Días no laborables por la llegada del papa León XIV en noviembre serían macrorregionales, anuncia Mincetur",
-    "url": "https://rpp.pe/economia/economia/feriados-por-la-llegada-del-papa-leon-xiv-serian-macrorregionales-anuncia-el-mincetur-noticia-1711734",
-    "source": "RPP",
-    "published": "2026-10-09T18:01:47-05:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -70,6 +86,15 @@
     "url": "https://gestion.pe/economia/exportaciones-peruanas-alcanzarian-otro-record-mef-apuesta-por-us-100-mil-millones-en-2026-noticia/",
     "source": "Gestión",
     "published": "2026-10-09T22:13:16+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "Gobierno designa a José Barba, excompañero de programa de Rafael Rey, como embajador en Costa Rica",
+    "url": "https://www.infobae.com/peru/2026/10/10/gobierno-designa-a-jose-barba-excompanero-del-programa-de-rafael-rey-como-embajador-en-costa-rica/",
+    "source": "Infobae",
+    "published": "2026-10-10T18:53:36+00:00",
     "matched_in": "title"
    }
   ]
