@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T21:29:39+00:00",
+ "generated": "2026-10-10T02:09:00+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,28 +9,12 @@
   "Infobae"
  ],
  "ministers": {
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Belaunde plantea que el Estado “recupere la ofensiva” contra el crimen organizado",
-    "url": "https://gestion.pe/peru/belaunde-plantea-que-el-estado-recupere-la-ofensiva-contra-el-crimen-organizado-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-09T01:22:08+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rafael Belaunde pide al Senado “estar a la altura del desafío histórico” en la lucha contra la delincuencia",
-    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-pide-al-senado-estar-a-la-altura-del-desafio-historico-en-la-lucha-contra-la-delincuencia-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-08T00:02:04+00:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Luis Galarreta insiste ante el Senado que facultades aprobadas por diputados son insuficientes: \"Negarlas sería histórico\"",
     "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-insiste-ante-el-senado-que-facultades-aprobadas-por-diputados-son-insuficientes-negarlas-seria-historico-hnews-816417",
     "source": "La República",
-    "published": "2026-10-09T20:18:02+00:00",
+    "published": "2026-10-09T22:49:37+00:00",
     "matched_in": "title"
    },
    {
@@ -41,12 +25,58 @@
     "matched_in": "title"
    }
   ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Lima apunta a convertirse en un “hub de eventos”, afirma el Mincetur tras la llegada de miles de turistas por los conciertos de BTS",
+    "url": "https://www.infobae.com/peru/2026/10/10/lima-apunta-a-convertirse-en-un-hub-de-eventos-afirma-el-mincetur-tras-la-llegada-de-miles-de-turistas-por-los-conciertos-de-bts/",
+    "source": "Infobae",
+    "published": "2026-10-10T00:21:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Mincetur prevé más de 850 mil visitantes por llegada del papa León XIV al Perú",
+    "url": "https://gestion.pe/peru/mincetur-preve-mas-de-850-mil-visitantes-por-llegada-del-papa-leon-xiv-al-peru-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-10T00:08:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Días no laborables por la llegada del papa León XIV en noviembre serían macrorregionales, anuncia Mincetur",
+    "url": "https://rpp.pe/economia/economia/feriados-por-la-llegada-del-papa-leon-xiv-serian-macrorregionales-anuncia-el-mincetur-noticia-1711734",
+    "source": "RPP",
+    "published": "2026-10-09T18:01:47-05:00",
+    "matched_in": "title"
+   }
+  ],
   "guillermo-shinno-huamani": [
+   {
+    "title": "Adenda de Cálidda para llevar gas a siete regiones: Shinno admite diferencias con Osinergmin y dice que \"todavía no es algo definido\"",
+    "url": "https://rpp.pe/economia/economia/adenda-de-calidda-para-llevar-gas-a-siete-regiones-shinno-admite-diferencias-con-osinergmin-y-dice-que-todavia-no-es-algo-definido-noticia-1711722",
+    "source": "RPP",
+    "published": "2026-10-09T18:00:37-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Fenómeno El Niño: tarifas eléctricas no se verán afectadas, asegura ministro Shinno",
+    "url": "https://gestion.pe/economia/fenomeno-el-nino-tarifas-electricas-no-se-veran-afectadas-asegura-ministro-shinno-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-09T22:36:41+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro de Energía y Minas, Guillermo Shinno, advierte posibles cortes de luz por El Niño y prepara medidas: ¿Impactará en tarifas?",
     "url": "https://rpp.pe/economia/economia/ministro-de-energia-y-minas-guillermo-shinno-advierte-posibles-cortes-de-luz-por-el-nino-y-prepara-medidas-impactara-en-tarifas-noticia-1711684",
     "source": "RPP",
     "published": "2026-10-09T15:30:12-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Exportaciones peruanas alcanzarían otro récord: MEF apuesta por US$ 100 mil millones en 2026",
+    "url": "https://gestion.pe/economia/exportaciones-peruanas-alcanzarian-otro-record-mef-apuesta-por-us-100-mil-millones-en-2026-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-09T22:13:16+00:00",
     "matched_in": "title"
    }
   ]
