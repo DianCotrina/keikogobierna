@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T10:59:27+00:00",
+ "generated": "2026-10-10T16:11:35+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -50,11 +50,11 @@
   ],
   "guillermo-shinno-huamani": [
    {
-    "title": "Adenda de Cálidda para llevar gas a siete regiones: Shinno admite diferencias con Osinergmin y dice que \"todavía no es algo definido\"",
-    "url": "https://rpp.pe/economia/economia/adenda-de-calidda-para-llevar-gas-a-siete-regiones-shinno-admite-diferencias-con-osinergmin-y-dice-que-todavia-no-es-algo-definido-noticia-1711722",
-    "source": "RPP",
-    "published": "2026-10-09T18:00:37-05:00",
-    "matched_in": "title"
+    "title": "Ministro revela que podrían darse apagones por el fenómeno El Niño: ¿A causa de qué?",
+    "url": "https://www.infobae.com/peru/2026/10/10/ministro-revela-que-podrian-darse-apagones-por-el-fenomeno-el-nino-a-causa-de-que/",
+    "source": "Infobae",
+    "published": "2026-10-10T14:44:25+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Fenómeno El Niño: tarifas eléctricas no se verán afectadas, asegura ministro Shinno",
