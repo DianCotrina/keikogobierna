@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T20:30:13+00:00",
+ "generated": "2026-10-11T01:35:46+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,51 +11,58 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Fujimori rechaza “agresión verbal” a ministro del Interior durante altercado en el Senado: “le expreso mi total respaldo y gratitud”",
+    "url": "https://rpp.pe/politica/gobierno/fujimori-rechaza-agresion-verbal-a-ministro-del-interior-durante-altercado-en-el-senado-le-expreso-mi-total-respaldo-y-gratitud-noticia-1711896",
+    "source": "RPP",
+    "published": "2026-10-10T19:45:28-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori sobre Astudillo: “Le expreso mi total respaldo y gratitud por su valentía. Ministro, los perros ladran es una señal que estamos avanzando”",
+    "url": "https://elcomercio.pe/politica/keiko-fujimori-sobre-cesar-astudillo-le-expreso-mi-total-respaldo-y-gratitud-por-su-valentia-ministro-los-perros-ladran-es-una-senal-que-estamos-avanzando-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-10T23:18:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Presidenta Keiko Fujimori al Congreso: “Tenemos que saber de qué lado están”",
+    "url": "https://gestion.pe/peru/politica/presidenta-keiko-fujimori-al-congreso-tenemos-que-saber-de-que-lado-estan-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-10T23:06:18+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Pelea en el Congreso de Perú: Ministros y senadores casi se van a los golpes durante debate de sesión de facultades",
+    "url": "https://www.infobae.com/peru/2026/10/10/ministro-astudillo-y-senador-iber-maravi-protagonizan-altercado-en-plena-comision-del-senado/",
+    "source": "Infobae",
+    "published": "2026-10-10T21:10:15+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Tensión en Comisión de Constitución del Senado: sesión fue suspendida varios minutos por altercado entre Iber Maraví y ministros",
     "url": "https://elcomercio.pe/politica/congreso/tension-en-comision-de-constitucion-del-senado-sesion-fue-suspendida-varios-minutos-por-altercado-entre-iber-maravi-y-ministros-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-10T17:58:25+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Senador Iber Maraví y ministro del Interior protagonizaron un altercado durante la sesión de la Comisión de Constitución",
-    "url": "https://rpp.pe/politica/congreso/congreso-senador-iber-maravi-y-ministro-del-interior-protagonizaron-un-altercado-durante-la-sesion-de-la-comision-de-constitucion-noticia-1711837",
-    "source": "RPP",
-    "published": "2026-10-10T12:55:12-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Astudillo y senador Iber Maraví protagonizan altercado en plena comisión del Senado",
-    "url": "https://www.infobae.com/peru/2026/10/10/ministro-astudillo-y-senador-iber-maravi-protagonizan-altercado-en-plena-comision-del-senado/",
-    "source": "Infobae",
-    "published": "2026-10-10T17:35:40+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta contradice a Keiko Fujimori: admite que el Gobierno puede actuar sin facultades",
+    "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-contradice-a-keiko-fujimori-admite-que-el-gobierno-puede-actuar-sin-facultades-hnews-355041",
+    "source": "La República",
+    "published": "2026-10-10T23:44:58+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Luis Galarreta insiste ante el Senado que facultades aprobadas por diputados son insuficientes: \"Negarlas sería histórico\"",
     "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-insiste-ante-el-senado-que-facultades-aprobadas-por-diputados-son-insuficientes-negarlas-seria-historico-hnews-816417",
     "source": "La República",
     "published": "2026-10-09T22:49:37+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta contradice a Keiko Fujimori: admite que el Gobierno puede actuar sin facultades",
-    "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-contradice-a-keiko-fujimori-admite-que-el-gobierno-puede-actuar-sin-facultades-hnews-355041",
-    "source": "La República",
-    "published": "2026-10-09T18:35:32+00:00",
-    "matched_in": "title"
    }
   ],
   "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Lima apunta a convertirse en un “hub de eventos”, afirma el Mincetur tras la llegada de miles de turistas por los conciertos de BTS",
-    "url": "https://www.infobae.com/peru/2026/10/10/lima-apunta-a-convertirse-en-un-hub-de-eventos-afirma-el-mincetur-tras-la-llegada-de-miles-de-turistas-por-los-conciertos-de-bts/",
-    "source": "Infobae",
-    "published": "2026-10-10T00:21:01+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Mincetur prevé más de 850 mil visitantes por llegada del papa León XIV al Perú",
     "url": "https://gestion.pe/peru/mincetur-preve-mas-de-850-mil-visitantes-por-llegada-del-papa-leon-xiv-al-peru-noticia/",
