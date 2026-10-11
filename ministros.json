@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T11:16:15+00:00",
+ "generated": "2026-10-11T20:49:15+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,10 +11,45 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Fujimori se pronuncia tras “agresión verbal” a ministro del Interior en el Senado: “le expreso mi total respaldo y gratitud”",
-    "url": "https://rpp.pe/politica/gobierno/fujimori-rechaza-agresion-verbal-a-ministro-del-interior-durante-altercado-en-el-senado-le-expreso-mi-total-respaldo-y-gratitud-noticia-1711896",
+    "title": "Mininter busca limitar uso de armas que civiles registran para caza, deporte y colección",
+    "url": "https://www.infobae.com/peru/2026/10/11/mininter-busca-limitar-uso-de-armas-que-civiles-registran-para-caza-deporte-y-coleccion/",
+    "source": "Infobae",
+    "published": "2026-10-11T20:16:25+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ruth Luque sobre reacción de ministro Astudillo: \"Hay un sector militar-policial que no quiere ser cuestionado\"",
+    "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-sobre-reaccion-de-ministro-astudillo-hay-un-sector-militarpolicial-que-no-quiere-ser-cuestionado-hnews-545996",
+    "source": "La República",
+    "published": "2026-10-11T20:08:23+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno plantea regulación de armas de fuego de uso civil",
+    "url": "https://larepublica.pe/politica/2026/10/11/gobierno-plantea-regulacion-de-armas-de-fuego-de-uso-civil-inseguridad-ciudadana-hnews-498938",
+    "source": "La República",
+    "published": "2026-10-11T19:01:50+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Senador Iber Maraví y el ministro César Astudillo se dieron la mano luego de altercado en la Comisión de Constitución",
+    "url": "https://www.infobae.com/peru/2026/10/11/senador-iber-maravi-y-el-ministro-cesar-astudillo-se-dieron-la-mano-luego-de-altercado-en-la-comision-de-constitucion/",
+    "source": "Infobae",
+    "published": "2026-10-11T18:12:26+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ruth Luque a Fujimori tras incidente en el Senado: \"Corresponde exigirle algo más que respaldos incondicionales a sus ministros\"",
+    "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-a-fujimori-tras-incidentes-en-el-senado-corresponde-exigirle-algo-mas-que-respaldos-incondicionales-a-sus-ministros-hnews-602547",
+    "source": "La República",
+    "published": "2026-10-11T17:37:37+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Iber Maraví y César Astudillo se dieron la mano tras protagonizar altercado en la Comisión de Constitución, dice Héctor Ventura",
+    "url": "https://rpp.pe/politica/congreso/iber-maravi-y-cesar-astudillo-se-dieron-la-mano-tras-protagonizar-altercado-en-sesion-de-comision-de-constitucion-dice-hector-ventura-noticia-1711941",
     "source": "RPP",
-    "published": "2026-10-10T19:45:28-05:00",
+    "published": "2026-10-11T11:15:29-05:00",
     "matched_in": "title"
    },
    {
@@ -32,18 +67,29 @@
     "matched_in": "summary"
    },
    {
-    "title": "Pelea en el Congreso de Perú: Ministros y senadores casi se van a los golpes durante debate de sesión de facultades",
-    "url": "https://www.infobae.com/peru/2026/10/10/ministro-astudillo-y-senador-iber-maravi-protagonizan-altercado-en-plena-comision-del-senado/",
-    "source": "Infobae",
-    "published": "2026-10-10T21:10:15+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Tensión en Comisión de Constitución del Senado: sesión fue suspendida varios minutos por altercado entre Iber Maraví y ministros",
     "url": "https://elcomercio.pe/politica/congreso/tension-en-comision-de-constitucion-del-senado-sesion-fue-suspendida-varios-minutos-por-altercado-entre-iber-maravi-y-ministros-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-10T17:58:25+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "rafael-rey-rey": [
+   {
+    "title": "Gobierno nombra embajadores a Elmer Schialer en Canadá y a José Barba Caballero en Costa Rica",
+    "url": "https://larepublica.pe/politica/2026/10/11/gobierno-nombra-embajadores-a-elmer-schialer-en-canada-y-jose-barba-caballero-en-costa-rica-hnews-240515",
+    "source": "La República",
+    "published": "2026-10-11T19:50:21+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Rafael Belaunde minimiza altercado en la Comisión de Constitución: \"ha sido un incidente propio del fragor del debate político\"",
+    "url": "https://larepublica.pe/politica/2026/10/11/rafael-belaunde-minimiza-altercado-en-la-comision-de-constitucion-ha-sido-un-incidente-propio-del-fragor-del-debate-politico-hnews-126544",
+    "source": "La República",
+    "published": "2026-10-11T14:16:43+00:00",
+    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -62,6 +108,15 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Perú y Chile evalúan interconexión eléctrica de US$ 550 millones",
+    "url": "https://gestion.pe/economia/peru-y-chile-evaluan-interconexion-electrica-de-us-550-millones-segun-el-ministro-del-minem-guillermo-shinno-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-11T20:40:10+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "rogers-martin-valencia-espinoza": [
    {
     "title": "Mincetur prevé más de 850 mil visitantes por llegada del papa León XIV al Perú",
@@ -71,37 +126,21 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Ministro revela que podrían darse apagones por el fenómeno El Niño: ¿A causa de qué?",
-    "url": "https://www.infobae.com/peru/2026/10/10/ministro-revela-que-podrian-darse-apagones-por-el-fenomeno-el-nino-a-causa-de-que/",
+    "title": "“Cualquier queja me avisa”: Keiko Fujimori habla con el cardenal Carlos Castillo sobre la visita del Papa León XIV al Perú",
+    "url": "https://www.infobae.com/peru/2026/10/11/cualquier-queja-me-avisa-keiko-fujimori-habla-con-el-cardenal-carlos-castillo-sobre-la-visita-del-papa-leon-xiv-al-peru/",
     "source": "Infobae",
-    "published": "2026-10-10T14:44:25+00:00",
+    "published": "2026-10-11T20:34:30+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Fenómeno El Niño: tarifas eléctricas no se verán afectadas, asegura ministro Shinno",
-    "url": "https://gestion.pe/economia/fenomeno-el-nino-tarifas-electricas-no-se-veran-afectadas-asegura-ministro-shinno-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-09T22:36:41+00:00",
-    "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Exportaciones peruanas alcanzarían otro récord: MEF apuesta por US$ 100 mil millones en 2026",
-    "url": "https://gestion.pe/economia/exportaciones-peruanas-alcanzarian-otro-record-mef-apuesta-por-us-100-mil-millones-en-2026-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-09T22:13:16+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-rey-rey": [
-   {
-    "title": "Gobierno designa a José Barba, excompañero de programa de Rafael Rey, como embajador en Costa Rica",
-    "url": "https://www.infobae.com/peru/2026/10/10/gobierno-designa-a-jose-barba-excompanero-del-programa-de-rafael-rey-como-embajador-en-costa-rica/",
+    "title": "La visita del Papa León XIV al Perú sigue en pie “sin absolutamente ningún cambio”, afirma ministro Juan Sheput",
+    "url": "https://www.infobae.com/peru/2026/10/11/la-visita-del-papa-leon-xiv-al-peru-sigue-en-pie-sin-absolutamente-ningun-cambio-afirma-ministro-juan-sheput/",
     "source": "Infobae",
-    "published": "2026-10-10T18:53:36+00:00",
+    "published": "2026-10-11T20:11:13+00:00",
     "matched_in": "title"
    }
   ]
