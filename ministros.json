@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T02:08:04+00:00",
+ "generated": "2026-10-12T12:49:34+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,26 +9,49 @@
   "Infobae"
  ],
  "ministers": {
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro Rafael Belaunde sobre altercado en el Congreso: “Hay gente que está en el Parlamento para socavar la democracia desde adentro”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-altercado-en-el-congreso-hay-gente-que-esta-en-el-parlamento-para-socavar-la-democracia-desde-adentro-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-12T03:44:20+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaunde minimiza altercado en la Comisión de Constitución: \"ha sido un incidente propio del fragor del debate político\"",
+    "url": "https://larepublica.pe/politica/2026/10/11/rafael-belaunde-minimiza-altercado-en-la-comision-de-constitucion-ha-sido-un-incidente-propio-del-fragor-del-debate-politico-hnews-126544",
+    "source": "La República",
+    "published": "2026-10-11T14:16:43+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Ruth Luque a Fujimori tras incidente en el Senado: \"Corresponde exigirle algo más que respaldos incondicionales a sus ministros\"",
     "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-a-fujimori-tras-incidentes-en-el-senado-corresponde-exigirle-algo-mas-que-respaldos-incondicionales-a-sus-ministros-hnews-602547",
     "source": "La República",
-    "published": "2026-10-12T01:29:11+00:00",
+    "published": "2026-10-12T11:45:00+00:00",
     "matched_in": "summary"
    },
    {
     "title": "Ruth Luque sobre reacción de ministro Astudillo: \"Hay un sector militar-policial que no quiere ser cuestionado\"",
     "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-sobre-reaccion-de-ministro-astudillo-hay-un-sector-militarpolicial-que-no-quiere-ser-cuestionado-hnews-545996",
     "source": "La República",
-    "published": "2026-10-11T23:38:42+00:00",
+    "published": "2026-10-12T11:45:00+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "A gritos",
+    "url": "https://elcomercio.pe/opinion/editorial/el-bochornoso-altercado-en-el-senado-expone-claramente-la-personalidad-y-exaltacion-de-iber-maravi-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-12T05:10:00+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Facultades legislativas: Mininter plantea regular las armas de uso civil",
     "url": "https://gestion.pe/peru/politica/facultades-legislativas-mininter-plantea-regular-el-uso-de-armas-de-uso-civil-ante-inseguridad-ciudadana-noticia/",
     "source": "Gestión",
-    "published": "2026-10-11T20:45:17+00:00",
+    "published": "2026-10-12T02:45:00+00:00",
     "matched_in": "title"
    },
    {
@@ -60,18 +83,29 @@
     "matched_in": "title"
    },
    {
-    "title": "Presidenta Keiko Fujimori al Congreso: “Tenemos que saber de qué lado están”",
-    "url": "https://gestion.pe/peru/politica/presidenta-keiko-fujimori-al-congreso-tenemos-que-saber-de-que-lado-estan-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-10T23:06:18+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Tensión en Comisión de Constitución del Senado: sesión fue suspendida varios minutos por altercado entre Iber Maraví y ministros",
     "url": "https://elcomercio.pe/politica/congreso/tension-en-comision-de-constitucion-del-senado-sesion-fue-suspendida-varios-minutos-por-altercado-entre-iber-maravi-y-ministros-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-10T17:58:25+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Gobierno dispone acciones para reforzar la respuesta ante incendios forestales en el Cusco",
+    "url": "https://elcomercio.pe/peru/cusco/gobierno-dispone-acciones-para-reforzar-la-respuesta-ante-incendios-forestales-en-el-cusco-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-12T04:03:16+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta contradice a Keiko Fujimori: admite que el Gobierno puede actuar sin facultades",
+    "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-contradice-a-keiko-fujimori-admite-que-el-gobierno-puede-actuar-sin-facultades-hnews-355041",
+    "source": "La República",
+    "published": "2026-10-12T03:15:36+00:00",
+    "matched_in": "title"
    }
   ],
   "rafael-rey-rey": [
@@ -81,24 +115,6 @@
     "source": "La República",
     "published": "2026-10-11T19:50:21+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Rafael Belaunde minimiza altercado en la Comisión de Constitución: \"ha sido un incidente propio del fragor del debate político\"",
-    "url": "https://larepublica.pe/politica/2026/10/11/rafael-belaunde-minimiza-altercado-en-la-comision-de-constitucion-ha-sido-un-incidente-propio-del-fragor-del-debate-politico-hnews-126544",
-    "source": "La República",
-    "published": "2026-10-11T14:16:43+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Luis Galarreta contradice a Keiko Fujimori: admite que el Gobierno puede actuar sin facultades",
-    "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-contradice-a-keiko-fujimori-admite-que-el-gobierno-puede-actuar-sin-facultades-hnews-355041",
-    "source": "La República",
-    "published": "2026-10-10T23:44:58+00:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
@@ -122,7 +138,7 @@
     "title": "Perú y Chile evalúan interconexión eléctrica de US$ 550 millones",
     "url": "https://gestion.pe/economia/peru-y-chile-evaluan-interconexion-electrica-de-us-550-millones-segun-el-ministro-del-minem-guillermo-shinno-noticia/",
     "source": "Gestión",
-    "published": "2026-10-11T23:42:26+00:00",
+    "published": "2026-10-12T07:00:00+00:00",
     "matched_in": "summary"
    }
   ],
