@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T20:49:15+00:00",
+ "generated": "2026-10-12T02:08:04+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,17 +11,31 @@
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Mininter busca limitar uso de armas que civiles registran para caza, deporte y colección",
-    "url": "https://www.infobae.com/peru/2026/10/11/mininter-busca-limitar-uso-de-armas-que-civiles-registran-para-caza-deporte-y-coleccion/",
-    "source": "Infobae",
-    "published": "2026-10-11T20:16:25+00:00",
-    "matched_in": "title"
+    "title": "Ruth Luque a Fujimori tras incidente en el Senado: \"Corresponde exigirle algo más que respaldos incondicionales a sus ministros\"",
+    "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-a-fujimori-tras-incidentes-en-el-senado-corresponde-exigirle-algo-mas-que-respaldos-incondicionales-a-sus-ministros-hnews-602547",
+    "source": "La República",
+    "published": "2026-10-12T01:29:11+00:00",
+    "matched_in": "summary"
    },
    {
     "title": "Ruth Luque sobre reacción de ministro Astudillo: \"Hay un sector militar-policial que no quiere ser cuestionado\"",
     "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-sobre-reaccion-de-ministro-astudillo-hay-un-sector-militarpolicial-que-no-quiere-ser-cuestionado-hnews-545996",
     "source": "La República",
-    "published": "2026-10-11T20:08:23+00:00",
+    "published": "2026-10-11T23:38:42+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Facultades legislativas: Mininter plantea regular las armas de uso civil",
+    "url": "https://gestion.pe/peru/politica/facultades-legislativas-mininter-plantea-regular-el-uso-de-armas-de-uso-civil-ante-inseguridad-ciudadana-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-11T20:45:17+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Mininter busca limitar uso de armas que civiles registran para caza, deporte y colección",
+    "url": "https://www.infobae.com/peru/2026/10/11/mininter-busca-limitar-uso-de-armas-que-civiles-registran-para-caza-deporte-y-coleccion/",
+    "source": "Infobae",
+    "published": "2026-10-11T20:16:25+00:00",
     "matched_in": "title"
    },
    {
@@ -36,20 +50,6 @@
     "url": "https://www.infobae.com/peru/2026/10/11/senador-iber-maravi-y-el-ministro-cesar-astudillo-se-dieron-la-mano-luego-de-altercado-en-la-comision-de-constitucion/",
     "source": "Infobae",
     "published": "2026-10-11T18:12:26+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ruth Luque a Fujimori tras incidente en el Senado: \"Corresponde exigirle algo más que respaldos incondicionales a sus ministros\"",
-    "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-a-fujimori-tras-incidentes-en-el-senado-corresponde-exigirle-algo-mas-que-respaldos-incondicionales-a-sus-ministros-hnews-602547",
-    "source": "La República",
-    "published": "2026-10-11T17:37:37+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Iber Maraví y César Astudillo se dieron la mano tras protagonizar altercado en la Comisión de Constitución, dice Héctor Ventura",
-    "url": "https://rpp.pe/politica/congreso/iber-maravi-y-cesar-astudillo-se-dieron-la-mano-tras-protagonizar-altercado-en-sesion-de-comision-de-constitucion-dice-hector-ventura-noticia-1711941",
-    "source": "RPP",
-    "published": "2026-10-11T11:15:29-05:00",
     "matched_in": "title"
    },
    {
@@ -99,12 +99,21 @@
     "source": "La República",
     "published": "2026-10-10T23:44:58+00:00",
     "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput: \"Confiamos que el programa que el papa tiene destinado a hacer en el Perú se cumplirá\"",
+    "url": "https://rpp.pe/politica/gobierno/papa-leon-xiv-juan-sheput-mantiene-la-esperanza-de-que-el-papa-llegue-al-peru-despues-de-su-operacion-noticia-1711997",
+    "source": "RPP",
+    "published": "2026-10-11T19:08:10-05:00",
+    "matched_in": "title"
    },
    {
-    "title": "Luis Galarreta insiste ante el Senado que facultades aprobadas por diputados son insuficientes: \"Negarlas sería histórico\"",
-    "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-insiste-ante-el-senado-que-facultades-aprobadas-por-diputados-son-insuficientes-negarlas-seria-historico-hnews-816417",
-    "source": "La República",
-    "published": "2026-10-09T22:49:37+00:00",
+    "title": "La visita del Papa León XIV al Perú sigue en pie “sin absolutamente ningún cambio”, afirma ministro Juan Sheput",
+    "url": "https://www.infobae.com/peru/2026/10/11/la-visita-del-papa-leon-xiv-al-peru-sigue-en-pie-sin-absolutamente-ningun-cambio-afirma-ministro-juan-sheput/",
+    "source": "Infobae",
+    "published": "2026-10-11T20:11:13+00:00",
     "matched_in": "title"
    }
   ],
@@ -113,17 +122,8 @@
     "title": "Perú y Chile evalúan interconexión eléctrica de US$ 550 millones",
     "url": "https://gestion.pe/economia/peru-y-chile-evaluan-interconexion-electrica-de-us-550-millones-segun-el-ministro-del-minem-guillermo-shinno-noticia/",
     "source": "Gestión",
-    "published": "2026-10-11T20:40:10+00:00",
+    "published": "2026-10-11T23:42:26+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Mincetur prevé más de 850 mil visitantes por llegada del papa León XIV al Perú",
-    "url": "https://gestion.pe/peru/mincetur-preve-mas-de-850-mil-visitantes-por-llegada-del-papa-leon-xiv-al-peru-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-10T00:08:03+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -131,17 +131,8 @@
     "title": "“Cualquier queja me avisa”: Keiko Fujimori habla con el cardenal Carlos Castillo sobre la visita del Papa León XIV al Perú",
     "url": "https://www.infobae.com/peru/2026/10/11/cualquier-queja-me-avisa-keiko-fujimori-habla-con-el-cardenal-carlos-castillo-sobre-la-visita-del-papa-leon-xiv-al-peru/",
     "source": "Infobae",
-    "published": "2026-10-11T20:34:30+00:00",
+    "published": "2026-10-12T00:34:25+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "La visita del Papa León XIV al Perú sigue en pie “sin absolutamente ningún cambio”, afirma ministro Juan Sheput",
-    "url": "https://www.infobae.com/peru/2026/10/11/la-visita-del-papa-leon-xiv-al-peru-sigue-en-pie-sin-absolutamente-ningun-cambio-afirma-ministro-juan-sheput/",
-    "source": "Infobae",
-    "published": "2026-10-11T20:11:13+00:00",
-    "matched_in": "title"
    }
   ]
  }
