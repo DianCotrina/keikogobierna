@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T12:49:34+00:00",
+ "generated": "2026-10-12T23:31:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Ministro Rafael Belaunde sobre altercado en el Congreso: “Hay gente que está en el Parlamento para socavar la democracia desde adentro”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-altercado-en-el-congreso-hay-gente-que-esta-en-el-parlamento-para-socavar-la-democracia-desde-adentro-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-12T03:44:20+00:00",
+    "published": "2026-10-12T17:20:00+00:00",
     "matched_in": "title"
    },
    {
@@ -26,6 +26,27 @@
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Senador de JP cuestiona a Astudillo por confrontación en la Comisión de Constitución: “No se puede permitir estas actitudes”",
+    "url": "https://larepublica.pe/politica/2026/10/12/senador-de-jp-cuestiona-a-astudillo-por-confrontacion-en-la-comision-de-constitucion-no-se-puede-permitir-estas-actitudes-hnews-194544",
+    "source": "La República",
+    "published": "2026-10-12T19:28:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ahora Nación cuestiona a Fujimori por respaldar al ministro Astudillo: \"Debe rectificarse y pedir respeto para el Congreso\"",
+    "url": "https://larepublica.pe/politica/2026/10/12/ahora-nacion-cuestiona-a-fujimori-por-respaldar-a-ministro-astudillo-debe-rectificarse-y-pedir-respeto-para-el-congreso-hnews-274332",
+    "source": "La República",
+    "published": "2026-10-12T13:41:56+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno plantea regulación de armas de fuego de uso civil",
+    "url": "https://larepublica.pe/politica/2026/10/11/gobierno-plantea-regulacion-de-armas-de-fuego-de-uso-civil-inseguridad-ciudadana-hnews-498938",
+    "source": "La República",
+    "published": "2026-10-12T12:53:18+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Ruth Luque a Fujimori tras incidente en el Senado: \"Corresponde exigirle algo más que respaldos incondicionales a sus ministros\"",
     "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-a-fujimori-tras-incidentes-en-el-senado-corresponde-exigirle-algo-mas-que-respaldos-incondicionales-a-sus-ministros-hnews-602547",
@@ -39,67 +60,16 @@
     "source": "La República",
     "published": "2026-10-12T11:45:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "A gritos",
-    "url": "https://elcomercio.pe/opinion/editorial/el-bochornoso-altercado-en-el-senado-expone-claramente-la-personalidad-y-exaltacion-de-iber-maravi-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-12T05:10:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Facultades legislativas: Mininter plantea regular las armas de uso civil",
-    "url": "https://gestion.pe/peru/politica/facultades-legislativas-mininter-plantea-regular-el-uso-de-armas-de-uso-civil-ante-inseguridad-ciudadana-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-12T02:45:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Mininter busca limitar uso de armas que civiles registran para caza, deporte y colección",
-    "url": "https://www.infobae.com/peru/2026/10/11/mininter-busca-limitar-uso-de-armas-que-civiles-registran-para-caza-deporte-y-coleccion/",
-    "source": "Infobae",
-    "published": "2026-10-11T20:16:25+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno plantea regulación de armas de fuego de uso civil",
-    "url": "https://larepublica.pe/politica/2026/10/11/gobierno-plantea-regulacion-de-armas-de-fuego-de-uso-civil-inseguridad-ciudadana-hnews-498938",
-    "source": "La República",
-    "published": "2026-10-11T19:01:50+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Senador Iber Maraví y el ministro César Astudillo se dieron la mano luego de altercado en la Comisión de Constitución",
-    "url": "https://www.infobae.com/peru/2026/10/11/senador-iber-maravi-y-el-ministro-cesar-astudillo-se-dieron-la-mano-luego-de-altercado-en-la-comision-de-constitucion/",
-    "source": "Infobae",
-    "published": "2026-10-11T18:12:26+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori sobre Astudillo: “Le expreso mi total respaldo y gratitud por su valentía. Ministro, los perros ladran es una señal que estamos avanzando”",
-    "url": "https://elcomercio.pe/politica/keiko-fujimori-sobre-cesar-astudillo-le-expreso-mi-total-respaldo-y-gratitud-por-su-valentia-ministro-los-perros-ladran-es-una-senal-que-estamos-avanzando-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-10T23:18:03+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Tensión en Comisión de Constitución del Senado: sesión fue suspendida varios minutos por altercado entre Iber Maraví y ministros",
-    "url": "https://elcomercio.pe/politica/congreso/tension-en-comision-de-constitucion-del-senado-sesion-fue-suspendida-varios-minutos-por-altercado-entre-iber-maravi-y-ministros-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-10T17:58:25+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Gobierno dispone acciones para reforzar la respuesta ante incendios forestales en el Cusco",
-    "url": "https://elcomercio.pe/peru/cusco/gobierno-dispone-acciones-para-reforzar-la-respuesta-ante-incendios-forestales-en-el-cusco-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-12T04:03:16+00:00",
-    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "BTS no llegó a Palacio de Gobierno: usuarios cuestionan a Keiko Fujimori por no cumplir promesa",
+    "url": "https://www.infobae.com/peru/2026/10/12/bts-no-llego-a-palacio-de-gobierno-usuarios-cuestionan-a-keiko-fujimori-por-no-cumplir-promesa/",
+    "source": "Infobae",
+    "published": "2026-10-12T19:27:52+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Luis Galarreta contradice a Keiko Fujimori: admite que el Gobierno puede actuar sin facultades",
     "url": "https://larepublica.pe/politica/2026/10/09/luis-galarreta-contradice-a-keiko-fujimori-admite-que-el-gobierno-puede-actuar-sin-facultades-hnews-355041",
@@ -117,19 +87,28 @@
     "matched_in": "summary"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Juan Sheput: \"Confiamos que el programa que el papa tiene destinado a hacer en el Perú se cumplirá\"",
-    "url": "https://rpp.pe/politica/gobierno/papa-leon-xiv-juan-sheput-mantiene-la-esperanza-de-que-el-papa-llegue-al-peru-despues-de-su-operacion-noticia-1711997",
+    "title": "Midagri afirma que el Gobierno atiende todos los incendios forestales en el país: se han registrado 385 en lo que va de 2026",
+    "url": "https://rpp.pe/peru/actualidad/midagri-afirma-que-el-gobierno-atiende-todos-los-incendios-forestales-en-el-pais-se-han-registrado-385-en-lo-que-va-de-2026-noticia-1712155",
     "source": "RPP",
-    "published": "2026-10-11T19:08:10-05:00",
+    "published": "2026-10-12T14:09:41-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Minedu presenta lineamientos de disciplina escolar y establece escala de faltas, ¿cuáles son?",
+    "url": "https://gestion.pe/peru/politica/minedu-presenta-lineamientos-de-disciplina-escolar-y-establece-escala-de-faltas-cuales-son-keiko-fujimori-colegios-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-12T22:30:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "La visita del Papa León XIV al Perú sigue en pie “sin absolutamente ningún cambio”, afirma ministro Juan Sheput",
-    "url": "https://www.infobae.com/peru/2026/10/11/la-visita-del-papa-leon-xiv-al-peru-sigue-en-pie-sin-absolutamente-ningun-cambio-afirma-ministro-juan-sheput/",
-    "source": "Infobae",
-    "published": "2026-10-11T20:11:13+00:00",
+    "title": "Minedu detalla cuáles serán los actos que serán considerados graves y muy graves para la expulsión en colegios",
+    "url": "https://rpp.pe/peru/actualidad/minedu-anuncia-cuales-seran-los-actos-que-seran-considerados-graves-y-muy-graves-para-la-expulsion-noticia-1712126",
+    "source": "RPP",
+    "published": "2026-10-12T14:00:43-05:00",
     "matched_in": "title"
    }
   ],
@@ -139,15 +118,6 @@
     "url": "https://gestion.pe/economia/peru-y-chile-evaluan-interconexion-electrica-de-us-550-millones-segun-el-ministro-del-minem-guillermo-shinno-noticia/",
     "source": "Gestión",
     "published": "2026-10-12T07:00:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "“Cualquier queja me avisa”: Keiko Fujimori habla con el cardenal Carlos Castillo sobre la visita del Papa León XIV al Perú",
-    "url": "https://www.infobae.com/peru/2026/10/11/cualquier-queja-me-avisa-keiko-fujimori-habla-con-el-cardenal-carlos-castillo-sobre-la-visita-del-papa-leon-xiv-al-peru/",
-    "source": "Infobae",
-    "published": "2026-10-12T00:34:25+00:00",
     "matched_in": "summary"
    }
   ]
