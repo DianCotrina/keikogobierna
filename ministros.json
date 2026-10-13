@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T23:31:22+00:00",
+ "generated": "2026-10-13T12:29:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,23 +9,35 @@
   "Infobae"
  ],
  "ministers": {
-  "rafael-jorge-belaunde-llosa": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Ministro Rafael Belaunde sobre altercado en el Congreso: “Hay gente que está en el Parlamento para socavar la democracia desde adentro”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-altercado-en-el-congreso-hay-gente-que-esta-en-el-parlamento-para-socavar-la-democracia-desde-adentro-ultimas-noticia/",
+    "title": "Arturo Alegría: “De partido de Buen Gobierno no tiene nada, es un anexo de Juntos por el Perú”",
+    "url": "https://elcomercio.pe/politica/congreso/arturo-alegria-de-partido-de-buen-gobierno-no-tiene-nada-es-un-anexo-de-juntos-por-el-peru-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-12T17:20:00+00:00",
+    "published": "2026-10-13T11:00:01+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ruth Luque sobre incidente en el Senado: \"El ministro Astudillo no debió interrumpir mi intervención\"",
+    "url": "https://rpp.pe/politica/congreso/ruth-luque-niega-que-haya-insultado-al-ministro-del-interior-cesar-astudillo-en-la-comision-de-constitucion-noticia-1712230",
+    "source": "RPP",
+    "published": "2026-10-12T23:30:50-05:00",
     "matched_in": "title"
    },
    {
-    "title": "Rafael Belaunde minimiza altercado en la Comisión de Constitución: \"ha sido un incidente propio del fragor del debate político\"",
-    "url": "https://larepublica.pe/politica/2026/10/11/rafael-belaunde-minimiza-altercado-en-la-comision-de-constitucion-ha-sido-un-incidente-propio-del-fragor-del-debate-politico-hnews-126544",
-    "source": "La República",
-    "published": "2026-10-11T14:16:43+00:00",
+    "title": "Ministro César Astudillo tras incidente en la Comisión de Constitución del Senado: “De mi parte esto ya ha sido superado”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-cesar-astudillo-tras-incidente-en-la-comision-de-constitucion-del-senado-de-mi-parte-esto-ya-ha-sido-superado-delegacion-de-facultades-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-13T03:43:15+00:00",
     "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
+   },
+   {
+    "title": "César Astudillo sobre altercado con Iber Maraví: \"De mi parte, esto ya ha sido superado\"",
+    "url": "https://rpp.pe/politica/gobierno/cesar-astudillo-sobre-altercado-con-iber-maravi-de-mi-parte-esto-ya-ha-sido-superado-noticia-1712231",
+    "source": "RPP",
+    "published": "2026-10-12T21:53:23-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Senador de JP cuestiona a Astudillo por confrontación en la Comisión de Constitución: “No se puede permitir estas actitudes”",
     "url": "https://larepublica.pe/politica/2026/10/12/senador-de-jp-cuestiona-a-astudillo-por-confrontacion-en-la-comision-de-constitucion-no-se-puede-permitir-estas-actitudes-hnews-194544",
@@ -62,7 +74,55 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Ministro Guillermo Shinno presenta propuesta de nueva Ley Mape para formalización de mineros pequeños y artesanales",
+    "url": "https://elcomercio.pe/politica/gobierno/reinfo-ministro-guillermo-shinno-presenta-propuesta-de-nueva-ley-mape-para-formalizacion-de-mineros-pequenos-y-artesanales-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-13T01:45:52+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro Rafael Belaunde sobre altercado en el Congreso: “Hay gente que está en el Parlamento para socavar la democracia desde adentro”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-altercado-en-el-congreso-hay-gente-que-esta-en-el-parlamento-para-socavar-la-democracia-desde-adentro-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-12T17:20:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaunde minimiza altercado en la Comisión de Constitución: \"ha sido un incidente propio del fragor del debate político\"",
+    "url": "https://larepublica.pe/politica/2026/10/11/rafael-belaunde-minimiza-altercado-en-la-comision-de-constitucion-ha-sido-un-incidente-propio-del-fragor-del-debate-politico-hnews-126544",
+    "source": "La República",
+    "published": "2026-10-11T14:16:43+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "José Antonio Chang: “Los padres de familia, de alguna manera, se han liberado del tema educativo”",
+    "url": "https://elcomercio.pe/lima/sucesos/jose-antonio-chang-los-padres-de-familia-de-alguna-manera-se-han-liberado-del-tema-educativo-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-13T11:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Minedu presenta lineamientos de disciplina escolar y establece escala de faltas, ¿cuáles son?",
+    "url": "https://gestion.pe/peru/politica/minedu-presenta-lineamientos-de-disciplina-escolar-y-establece-escala-de-faltas-cuales-son-keiko-fujimori-colegios-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-12T22:30:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "PCM anuncia comité multisectorial para reforzar la lucha contra la criminalidad",
+    "url": "https://gestion.pe/peru/politica/pcm-anuncia-comite-multisectorial-para-reforzar-la-lucha-contra-la-criminalidad-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-13T12:15:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "BTS no llegó a Palacio de Gobierno: usuarios cuestionan a Keiko Fujimori por no cumplir promesa",
     "url": "https://www.infobae.com/peru/2026/10/12/bts-no-llego-a-palacio-de-gobierno-usuarios-cuestionan-a-keiko-fujimori-por-no-cumplir-promesa/",
@@ -89,36 +149,11 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Midagri afirma que el Gobierno atiende todos los incendios forestales en el país: se han registrado 385 en lo que va de 2026",
-    "url": "https://rpp.pe/peru/actualidad/midagri-afirma-que-el-gobierno-atiende-todos-los-incendios-forestales-en-el-pais-se-han-registrado-385-en-lo-que-va-de-2026-noticia-1712155",
-    "source": "RPP",
-    "published": "2026-10-12T14:09:41-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Minedu presenta lineamientos de disciplina escolar y establece escala de faltas, ¿cuáles son?",
-    "url": "https://gestion.pe/peru/politica/minedu-presenta-lineamientos-de-disciplina-escolar-y-establece-escala-de-faltas-cuales-son-keiko-fujimori-colegios-noticia/",
+    "title": "Ministro Vinelli indicó que 19 incendios forestales siguen activos en el país",
+    "url": "https://gestion.pe/peru/ministro-vinelli-indico-que-19-incendios-forestales-siguen-activos-en-el-pais-noticia/",
     "source": "Gestión",
-    "published": "2026-10-12T22:30:00+00:00",
+    "published": "2026-10-13T00:14:14+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Minedu detalla cuáles serán los actos que serán considerados graves y muy graves para la expulsión en colegios",
-    "url": "https://rpp.pe/peru/actualidad/minedu-anuncia-cuales-seran-los-actos-que-seran-considerados-graves-y-muy-graves-para-la-expulsion-noticia-1712126",
-    "source": "RPP",
-    "published": "2026-10-12T14:00:43-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Perú y Chile evalúan interconexión eléctrica de US$ 550 millones",
-    "url": "https://gestion.pe/economia/peru-y-chile-evaluan-interconexion-electrica-de-us-550-millones-segun-el-ministro-del-minem-guillermo-shinno-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-12T07:00:00+00:00",
-    "matched_in": "summary"
    }
   ]
  }
