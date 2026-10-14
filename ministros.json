@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T21:45:08+00:00",
+ "generated": "2026-10-14T01:39:40+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Senador de Juntos por el Perú pide que Astudillo renuncie tras su discusión en Constitución",
+    "url": "https://larepublica.pe/politica/2026/10/13/senador-de-juntos-por-el-peru-pide-que-astudillo-renuncie-y-se-disculpe-tras-su-discusion-en-constitucion-hnews-427141",
+    "source": "La República",
+    "published": "2026-10-13T22:34:30+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Arturo Alegría: “De partido de Buen Gobierno no tiene nada, es un anexo de Juntos por el Perú”",
     "url": "https://elcomercio.pe/politica/congreso/arturo-alegria-de-partido-de-buen-gobierno-no-tiene-nada-es-un-anexo-de-juntos-por-el-peru-noticia/",
@@ -103,15 +110,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-altercado-en-el-congreso-hay-gente-que-esta-en-el-parlamento-para-socavar-la-democracia-desde-adentro-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-12T17:20:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "vladimiro-huaroc-portocarrero": [
-   {
-    "title": "Ministro del Ambiente, Vladimiro Huaroc, espera resultados de mesa de trabajo por laguna Parón “en muy pocas semanas”",
-    "url": "https://elcomercio.pe/peru/ancash/ministro-del-ambiente-vladimiro-huaroc-espera-resultados-de-mesa-de-trabajo-por-laguna-paron-en-muy-pocas-semanas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-13T20:47:30+00:00",
     "matched_in": "title"
    }
   ],
