@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:43:26+00:00",
+ "generated": "2026-10-14T20:29:29+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,22 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput: “El Congreso ha apostado por la coyuntura y no por las reformas de fondo” | Entrevista",
+    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-14T20:05:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juan Sheput sobre suspensión del viaje del papa León XIV al Perú: “Es posible, pero todavía no está la palabra definitiva, que corresponde al Vaticano”",
+    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-suspension-del-viaje-del-papa-leon-xiv-al-peru-es-posible-pero-todavia-no-esta-la-palabra-definitiva-que-corresponde-al-vaticano-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-14T17:50:16+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Arturo Alegría: “De partido de Buen Gobierno no tiene nada, es un anexo de Juntos por el Perú”",
@@ -37,13 +53,6 @@
     "source": "El Comercio",
     "published": "2026-10-13T03:43:15+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Senador de JP cuestiona a Astudillo por confrontación en la Comisión de Constitución: “No se puede permitir estas actitudes”",
-    "url": "https://larepublica.pe/politica/2026/10/12/senador-de-jp-cuestiona-a-astudillo-por-confrontacion-en-la-comision-de-constitucion-no-se-puede-permitir-estas-actitudes-hnews-194544",
-    "source": "La República",
-    "published": "2026-10-12T19:28:35+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -55,12 +64,12 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "maritza-ivonne-canales-martinez": [
    {
-    "title": "Ministro Rafael Belaunde sobre altercado en el Congreso: “Hay gente que está en el Parlamento para socavar la democracia desde adentro”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-rafael-belaunde-sobre-altercado-en-el-congreso-hay-gente-que-esta-en-el-parlamento-para-socavar-la-democracia-desde-adentro-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-12T17:20:00+00:00",
+    "title": "Autorizan viajes de los ministros Marco Vinelli a Panamá y Maritza Canales a Italia",
+    "url": "https://larepublica.pe/politica/2026/10/14/autorizan-viajes-de-los-ministros-marco-vinelli-a-panama-y-maritza-canales-a-italia-hnews-186648",
+    "source": "La República",
+    "published": "2026-10-14T19:12:09+00:00",
     "matched_in": "title"
    }
   ],
@@ -73,13 +82,31 @@
     "matched_in": "summary"
    }
   ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Inician distribución de material escolar 2027: se retirarán textos con sesgos ideológicos",
+    "url": "https://gestion.pe/peru/gobierno-inicia-distribucion-de-material-para-ano-escolar-2027-por-efen-revisan-textos-para-retirar-sesgos-ideologicos-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-14T19:19:53+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "BTS no llegó a Palacio de Gobierno: usuarios cuestionan a Keiko Fujimori por no cumplir promesa",
     "url": "https://www.infobae.com/peru/2026/10/12/bts-no-llego-a-palacio-de-gobierno-usuarios-cuestionan-a-keiko-fujimori-por-no-cumplir-promesa/",
     "source": "Infobae",
-    "published": "2026-10-14T12:13:49+00:00",
+    "published": "2026-10-14T19:14:05+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Entradas a Machu Picchu se comprarán con pago confirmado y sin reservas, anunció el ministro de Cultura",
+    "url": "https://www.infobae.com/peru/2026/10/14/entradas-a-machupicchu-se-compraran-con-pago-confirmado-y-sin-reservas-anuncio-el-ministro-de-cultura/",
+    "source": "Infobae",
+    "published": "2026-10-14T17:03:09+00:00",
+    "matched_in": "title"
    }
   ]
  }
