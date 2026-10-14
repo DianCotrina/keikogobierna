@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:56:56+00:00",
+ "generated": "2026-10-14T15:43:26+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -44,63 +44,14 @@
     "source": "La República",
     "published": "2026-10-12T19:28:35+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ahora Nación cuestiona a Fujimori por respaldar al ministro Astudillo: \"Debe rectificarse y pedir respeto para el Congreso\"",
-    "url": "https://larepublica.pe/politica/2026/10/12/ahora-nacion-cuestiona-a-fujimori-por-respaldar-a-ministro-astudillo-debe-rectificarse-y-pedir-respeto-para-el-congreso-hnews-274332",
-    "source": "La República",
-    "published": "2026-10-12T13:41:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno plantea regulación de armas de fuego de uso civil",
-    "url": "https://larepublica.pe/politica/2026/10/11/gobierno-plantea-regulacion-de-armas-de-fuego-de-uso-civil-inseguridad-ciudadana-hnews-498938",
-    "source": "La República",
-    "published": "2026-10-12T12:53:18+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ruth Luque a Fujimori tras incidente en el Senado: \"Corresponde exigirle algo más que respaldos incondicionales a sus ministros\"",
-    "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-a-fujimori-tras-incidentes-en-el-senado-corresponde-exigirle-algo-mas-que-respaldos-incondicionales-a-sus-ministros-hnews-602547",
-    "source": "La República",
-    "published": "2026-10-12T11:45:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ruth Luque sobre reacción de ministro Astudillo: \"Hay un sector militar-policial que no quiere ser cuestionado\"",
-    "url": "https://larepublica.pe/politica/2026/10/11/ruth-luque-sobre-reaccion-de-ministro-astudillo-hay-un-sector-militarpolicial-que-no-quiere-ser-cuestionado-hnews-545996",
-    "source": "La República",
-    "published": "2026-10-12T11:45:00+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
-   {
-    "title": "No más maquillajes",
-    "url": "https://elcomercio.pe/opinion/editorial/la-nueva-ley-mape-no-puede-ser-un-reinfo-disfrazado-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-14T05:10:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Perú y Chile evalúan interconexión eléctrica de US$ 550 millones, ¿cómo nos beneficia?",
-    "url": "https://gestion.pe/economia/peru-y-chile-evaluan-interconexion-electrica-de-us-550-millones-segun-el-ministro-del-minem-guillermo-shinno-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-13T14:12:14+00:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Ministro Guillermo Shinno presenta propuesta de nueva Ley Mape para formalización de mineros pequeños y artesanales",
     "url": "https://elcomercio.pe/politica/gobierno/reinfo-ministro-guillermo-shinno-presenta-propuesta-de-nueva-ley-mape-para-formalizacion-de-mineros-pequenos-y-artesanales-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-13T01:45:52+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Energía señala que adenda de Calidda para llevar gas a siete regiones sigue en evaluación y admite diferencias con Osinergmin",
-    "url": "https://elcomercio.pe/economia/peru/ministro-de-energia-senala-que-adenda-de-calidda-para-llevar-gas-a-siete-regiones-sigue-en-evaluacion-y-admite-diferencias-con-osinergmin-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-12T15:23:08+00:00",
     "matched_in": "title"
    }
   ],
@@ -111,6 +62,24 @@
     "source": "El Comercio",
     "published": "2026-10-12T17:20:00+00:00",
     "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Gobierno oficializa a Álvaro Vargas Llosa como embajador del Perú en Estados Unidos",
+    "url": "https://larepublica.pe/politica/2026/10/14/gobierno-oficializa-a-alvaro-vargas-llosa-como-embajador-del-peru-en-estados-unidos-hnews-719026",
+    "source": "La República",
+    "published": "2026-10-14T14:59:28+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "BTS no llegó a Palacio de Gobierno: usuarios cuestionan a Keiko Fujimori por no cumplir promesa",
+    "url": "https://www.infobae.com/peru/2026/10/12/bts-no-llego-a-palacio-de-gobierno-usuarios-cuestionan-a-keiko-fujimori-por-no-cumplir-promesa/",
+    "source": "Infobae",
+    "published": "2026-10-14T12:13:49+00:00",
+    "matched_in": "summary"
    }
   ]
  }
