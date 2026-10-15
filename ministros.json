@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T20:29:29+00:00",
+ "generated": "2026-10-15T01:15:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,16 +9,32 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ernesto Álvarez sobre lucha contra la extorsión: “Este delito no se combate con presencia policial en la calle ni tanquetas del Ejército sino con inteligencia”",
+    "url": "https://elcomercio.pe/politica/gobierno/ernesto-alvarez-sobre-lucha-contra-la-extorsion-este-delito-no-se-combate-con-presencia-policial-en-la-calle-ni-tanquetas-del-ejercito-sino-con-inteligencia-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-14T23:55:10+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Justicia reitera que no se ha evaluado salida del Perú de la Corte IDH: \"Es un problema muy complejo\"",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-justicia-reitera-que-no-se-ha-evaluado-salida-del-peru-de-la-corte-idh-es-un-problema-muy-complejo-noticia-1712610",
+    "source": "RPP",
+    "published": "2026-10-14T15:32:42-05:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Juan Sheput: “El Congreso ha apostado por la coyuntura y no por las reformas de fondo” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-14T20:05:21+00:00",
+    "published": "2026-10-14T22:24:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Juan Sheput sobre suspensión del viaje del papa León XIV al Perú: “Es posible, pero todavía no está la palabra definitiva, que corresponde al Vaticano”",
+    "title": "Juan Sheput sobre eventual suspensión del viaje del papa León XIV al Perú: “Es posible, pero todavía no está la palabra definitiva, que corresponde al Vaticano”",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-suspension-del-viaje-del-papa-leon-xiv-al-peru-es-posible-pero-todavia-no-esta-la-palabra-definitiva-que-corresponde-al-vaticano-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-14T17:50:16+00:00",
@@ -57,6 +73,13 @@
   ],
   "guillermo-shinno-huamani": [
    {
+    "title": "Minería y energía representan casi el 70% de las exportaciones peruanas, destaca el Minem",
+    "url": "https://www.infobae.com/peru/2026/10/14/mineria-y-energia-representan-casi-el-70-de-las-exportaciones-peruanas-destaca-el-minem/",
+    "source": "Infobae",
+    "published": "2026-10-14T21:57:37+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro Guillermo Shinno presenta propuesta de nueva Ley Mape para formalización de mineros pequeños y artesanales",
     "url": "https://elcomercio.pe/politica/gobierno/reinfo-ministro-guillermo-shinno-presenta-propuesta-de-nueva-ley-mape-para-formalizacion-de-mineros-pequenos-y-artesanales-ultimas-noticia/",
     "source": "El Comercio",
@@ -87,7 +110,16 @@
     "title": "Inician distribución de material escolar 2027: se retirarán textos con sesgos ideológicos",
     "url": "https://gestion.pe/peru/gobierno-inicia-distribucion-de-material-para-ano-escolar-2027-por-efen-revisan-textos-para-retirar-sesgos-ideologicos-noticia/",
     "source": "Gestión",
-    "published": "2026-10-14T19:19:53+00:00",
+    "published": "2026-10-14T20:35:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Jefe del Comando Sur de EEUU llega a Perú para fortalecer la cooperación militar contra el narcotráfico y la minería ilegal",
+    "url": "https://www.infobae.com/peru/2026/10/15/jefe-del-comando-sur-de-eeuu-llega-a-peru-para-fortalecer-la-cooperacion-militar-contra-el-narcotrafico-y-la-mineria-ilegal/",
+    "source": "Infobae",
+    "published": "2026-10-15T00:29:06+00:00",
     "matched_in": "summary"
    }
   ],
