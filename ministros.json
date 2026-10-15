@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:30:38+00:00",
+ "generated": "2026-10-15T20:11:38+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Juan Sheput: “El Congreso ha apostado por la coyuntura y no por las reformas de fondo” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-15T13:48:34+00:00",
+    "published": "2026-10-15T15:48:00+00:00",
     "matched_in": "title"
    },
    {
@@ -64,15 +64,6 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Ministro de Energía señala que adenda de Calidda para llevar gas a siete regiones sigue en evaluación y admite diferencias con Osinergmin",
-    "url": "https://elcomercio.pe/economia/peru/ministro-de-energia-senala-que-adenda-de-calidda-para-llevar-gas-a-siete-regiones-sigue-en-evaluacion-y-admite-diferencias-con-osinergmin-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-12T15:23:08+00:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "Autorizan viaje de ministro Elmer Cuba a Nueva York del 24 al 28 de octubre",
@@ -90,13 +81,6 @@
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Álvaro Vargas Llosa es nombrado oficialmente como embajador del Perú en Estados Unidos",
-    "url": "https://rpp.pe/politica/gobierno/alvaro-vargas-llosa-es-nombrado-oficialmente-como-embajador-del-peru-en-estados-unidos-noticia-1712484",
-    "source": "RPP",
-    "published": "2026-10-15T09:00:08-05:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Rafael Rey confiesa que le ofrecieron la embajada del Perú en España: \"No hay decisión tomada”",
     "url": "https://larepublica.pe/politica/2026/10/14/rafael-rey-confiesa-que-le-ofrecieron-la-embajada-del-peru-en-espana-no-hay-decision-tomada-hnews-465528",
@@ -121,12 +105,12 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "juan-carlos-requejo-aleman": [
    {
-    "title": "Ministro de Salud dice que hay un plan piloto de interconexión para afrontar brecha digital en hospitales",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-salud-dice-que-hay-un-plan-piloto-de-interconexion-para-afrontar-brecha-digital-en-hospitales-noticia-1712717",
+    "title": "Ministro de la Producción dice que el Gobierno recurrirá a mecanismos legislativos si no se aprueban algunas propuestas de facultades",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-la-produccion-dice-que-el-gobierno-recurrira-a-mecanismos-legislativos-si-no-se-aprueban-algunas-propuestas-de-facultades-noticia-1712796",
     "source": "RPP",
-    "published": "2026-10-15T08:59:24-05:00",
+    "published": "2026-10-15T14:22:37-05:00",
     "matched_in": "title"
    }
   ],
@@ -136,24 +120,6 @@
     "url": "https://gestion.pe/economia/machu-picchu-mincetur-propone-ampliar-espacios-y-modelo-de-visita-que-cambiaria-noticia/",
     "source": "Gestión",
     "published": "2026-10-15T09:52:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Jefe del Comando Sur de EEUU llega a Perú para fortalecer la cooperación militar contra el narcotráfico y la minería ilegal",
-    "url": "https://www.infobae.com/peru/2026/10/15/jefe-del-comando-sur-de-eeuu-llega-a-peru-para-fortalecer-la-cooperacion-militar-contra-el-narcotrafico-y-la-mineria-ilegal/",
-    "source": "Infobae",
-    "published": "2026-10-15T11:51:09+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Ministro de Educación presentará denuncia penal por presunto abuso sexual grupal contra alumna en Piura: “Aunque sean menores”",
-    "url": "https://www.infobae.com/peru/2026/10/15/ministro-de-educacion-presentara-denuncia-penal-por-presunto-abuso-sexual-grupal-contra-alumna-en-piura-aunque-sean-menores/",
-    "source": "Infobae",
-    "published": "2026-10-15T02:02:08+00:00",
     "matched_in": "title"
    }
   ]
