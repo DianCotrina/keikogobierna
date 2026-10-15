@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T09:38:55+00:00",
+ "generated": "2026-10-15T15:30:38+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,22 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput: “El Congreso ha apostado por la coyuntura y no por las reformas de fondo” | Entrevista",
+    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-15T13:48:34+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juan Sheput sobre eventual suspensión del viaje del papa León XIV al Perú: “Es posible, pero todavía no está la palabra definitiva, que corresponde al Vaticano”",
+    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-suspension-del-viaje-del-papa-leon-xiv-al-peru-es-posible-pero-todavia-no-esta-la-palabra-definitiva-que-corresponde-al-vaticano-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-14T17:50:16+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "César Astudillo detalla medidas en seguridad que fueron excluidas de predictamen que será visto en el Senado",
@@ -30,32 +46,16 @@
     "source": "La República",
     "published": "2026-10-13T22:34:30+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alfonso López Chau: “Dado el comportamiento actual del ministro del Interior, estoy tentado de pedir su interpelación”",
-    "url": "https://elcomercio.pe/politica/congreso/alfonso-lopez-chau-dado-el-comportamiento-actual-del-ministro-del-interior-estoy-tentado-de-pedir-su-interpelacion-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-13T14:49:50+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Juan Sheput: “El Congreso ha apostado por la coyuntura y no por las reformas de fondo” | Entrevista",
-    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-15T01:36:45+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput sobre eventual suspensión del viaje del papa León XIV al Perú: “Es posible, pero todavía no está la palabra definitiva, que corresponde al Vaticano”",
-    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-suspension-del-viaje-del-papa-leon-xiv-al-peru-es-posible-pero-todavia-no-esta-la-palabra-definitiva-que-corresponde-al-vaticano-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-14T17:50:16+00:00",
-    "matched_in": "title"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministro Ernesto Álvarez descarta salida de la Corte IDH: “No se ha discutido eso”",
+    "url": "https://larepublica.pe/politica/2026/10/15/ministro-ernesto-alvarez-descarta-salida-de-la-corte-idh-no-se-ha-discutido-eso-hnews-671685",
+    "source": "La República",
+    "published": "2026-10-15T13:12:39+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ernesto Álvarez sobre lucha contra la extorsión: “Este delito no se combate con presencia policial en la calle ni tanquetas del Ejército sino con inteligencia”",
     "url": "https://elcomercio.pe/politica/gobierno/ernesto-alvarez-sobre-lucha-contra-la-extorsion-este-delito-no-se-combate-con-presencia-policial-en-la-calle-ni-tanquetas-del-ejercito-sino-con-inteligencia-noticia/",
@@ -64,30 +64,39 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Ministro de Energía señala que adenda de Calidda para llevar gas a siete regiones sigue en evaluación y admite diferencias con Osinergmin",
+    "url": "https://elcomercio.pe/economia/peru/ministro-de-energia-senala-que-adenda-de-calidda-para-llevar-gas-a-siete-regiones-sigue-en-evaluacion-y-admite-diferencias-con-osinergmin-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-12T15:23:08+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministerio de Economía evalúa transparentar el acceso a estados financieros de las empresas",
-    "url": "https://rpp.pe/economia/economia/ministerio-de-economia-evalua-transparentar-el-acceso-a-estados-financieros-de-las-empresas-noticia-1712677",
-    "source": "RPP",
-    "published": "2026-10-14T22:39:22-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba: “Tenemos un Ministerio de Economía que va a responder para que la economía no se enfríe”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-tenemos-un-ministerio-de-economia-que-va-a-responder-para-que-la-economia-no-se-enfrie-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-15T02:59:20+00:00",
+    "title": "Autorizan viaje de ministro Elmer Cuba a Nueva York del 24 al 28 de octubre",
+    "url": "https://larepublica.pe/politica/2026/10/15/autorizan-viaje-de-ministro-elmer-cuba-a-nueva-york-del-24-al-28-de-octubre-hnews-1242540",
+    "source": "La República",
+    "published": "2026-10-15T13:49:11+00:00",
     "matched_in": "title"
    },
    {
     "title": "MEF alista política fiscal contracíclica para evitar desaceleración frente a “tres choques”",
     "url": "https://gestion.pe/economia/mef-alista-con-keiko-fujimori-politica-fiscal-contraciclica-para-evitar-desaceleracion-de-la-economia-frente-a-tres-choques-noticia/",
     "source": "Gestión",
-    "published": "2026-10-15T01:20:09+00:00",
+    "published": "2026-10-15T11:30:00+00:00",
     "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Álvaro Vargas Llosa es nombrado oficialmente como embajador del Perú en Estados Unidos",
+    "url": "https://rpp.pe/politica/gobierno/alvaro-vargas-llosa-es-nombrado-oficialmente-como-embajador-del-peru-en-estados-unidos-noticia-1712484",
+    "source": "RPP",
+    "published": "2026-10-15T09:00:08-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Rafael Rey confiesa que le ofrecieron la embajada del Perú en España: \"No hay decisión tomada”",
     "url": "https://larepublica.pe/politica/2026/10/14/rafael-rey-confiesa-que-le-ofrecieron-la-embajada-del-peru-en-espana-no-hay-decision-tomada-hnews-465528",
@@ -112,20 +121,22 @@
     "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Ministro de Educación presentará denuncia penal por presunto abuso sexual grupal contra alumna en Piura: “Aunque sean menores”",
-    "url": "https://www.infobae.com/peru/2026/10/15/ministro-de-educacion-presentara-denuncia-penal-por-presunto-abuso-sexual-grupal-contra-alumna-en-piura-aunque-sean-menores/",
-    "source": "Infobae",
-    "published": "2026-10-15T02:02:08+00:00",
+    "title": "Ministro de Salud dice que hay un plan piloto de interconexión para afrontar brecha digital en hospitales",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-salud-dice-que-hay-un-plan-piloto-de-interconexion-para-afrontar-brecha-digital-en-hospitales-noticia-1712717",
+    "source": "RPP",
+    "published": "2026-10-15T08:59:24-05:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rogers-martin-valencia-espinoza": [
    {
-    "title": "Inician distribución de material escolar 2027: se retirarán textos con sesgos ideológicos",
-    "url": "https://gestion.pe/peru/gobierno-inicia-distribucion-de-material-para-ano-escolar-2027-por-efen-revisan-textos-para-retirar-sesgos-ideologicos-noticia/",
+    "title": "Mincetur propone ampliar espacios y modelo de visita en Machu Picchu: ¿qué cambiaría?",
+    "url": "https://gestion.pe/economia/machu-picchu-mincetur-propone-ampliar-espacios-y-modelo-de-visita-que-cambiaria-noticia/",
     "source": "Gestión",
-    "published": "2026-10-14T20:35:00+00:00",
-    "matched_in": "summary"
+    "published": "2026-10-15T09:52:00+00:00",
+    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -133,26 +144,17 @@
     "title": "Jefe del Comando Sur de EEUU llega a Perú para fortalecer la cooperación militar contra el narcotráfico y la minería ilegal",
     "url": "https://www.infobae.com/peru/2026/10/15/jefe-del-comando-sur-de-eeuu-llega-a-peru-para-fortalecer-la-cooperacion-militar-contra-el-narcotrafico-y-la-mineria-ilegal/",
     "source": "Infobae",
-    "published": "2026-10-15T00:29:06+00:00",
+    "published": "2026-10-15T11:51:09+00:00",
     "matched_in": "summary"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Minería y energía representan casi el 70% de las exportaciones peruanas, destaca el Minem",
-    "url": "https://www.infobae.com/peru/2026/10/14/mineria-y-energia-representan-casi-el-70-de-las-exportaciones-peruanas-destaca-el-minem/",
+    "title": "Ministro de Educación presentará denuncia penal por presunto abuso sexual grupal contra alumna en Piura: “Aunque sean menores”",
+    "url": "https://www.infobae.com/peru/2026/10/15/ministro-de-educacion-presentara-denuncia-penal-por-presunto-abuso-sexual-grupal-contra-alumna-en-piura-aunque-sean-menores/",
     "source": "Infobae",
-    "published": "2026-10-14T21:57:37+00:00",
+    "published": "2026-10-15T02:02:08+00:00",
     "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "BTS no llegó a Palacio de Gobierno: usuarios cuestionan a Keiko Fujimori por no cumplir promesa",
-    "url": "https://www.infobae.com/peru/2026/10/12/bts-no-llego-a-palacio-de-gobierno-usuarios-cuestionan-a-keiko-fujimori-por-no-cumplir-promesa/",
-    "source": "Infobae",
-    "published": "2026-10-14T19:14:05+00:00",
-    "matched_in": "summary"
    }
   ]
  }
