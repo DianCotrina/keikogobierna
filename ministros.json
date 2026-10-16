@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T09:32:21+00:00",
+ "generated": "2026-10-16T15:16:11+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -34,13 +34,6 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Ministro Juan Sheput se declara a favor de restablecer el servicio militar obligatorio: “Sería saludable para el país”",
-    "url": "https://www.infobae.com/peru/2026/10/15/ministro-juan-sheput-se-declara-a-favor-de-restablecer-el-servicio-militar-obligatorio-seria-saludable-para-el-pais/",
-    "source": "Infobae",
-    "published": "2026-10-15T20:16:59+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Juan Sheput: “El Congreso ha apostado por la coyuntura y no por las reformas de fondo” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
     "source": "El Comercio",
@@ -66,17 +59,17 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
+    "title": "MEF se va a Estados Unidos: Elmer Cuba buscará inversiones en roadshow en Nueva York",
+    "url": "https://www.infobae.com/peru/2026/10/16/mef-se-va-a-estados-unidos-elmer-cuba-buscara-inversiones-en-roadshow-en-nueva-york/",
+    "source": "Infobae",
+    "published": "2026-10-16T12:41:50+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "MEF alista política fiscal contracíclica para evitar desaceleración frente a “tres choques”",
     "url": "https://gestion.pe/economia/mef-alista-con-keiko-fujimori-politica-fiscal-contraciclica-para-evitar-desaceleracion-de-la-economia-frente-a-tres-choques-noticia/",
     "source": "Gestión",
     "published": "2026-10-16T02:37:41+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba: “Tenemos un Ministerio de Economía que va a responder para que la economía no se enfríe”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-tenemos-un-ministerio-de-economia-que-va-a-responder-para-que-la-economia-no-se-enfrie-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-16T01:44:15+00:00",
     "matched_in": "title"
    },
    {
@@ -93,13 +86,6 @@
     "url": "https://larepublica.pe/politica/2026/10/14/rafael-rey-confiesa-que-le-ofrecieron-la-embajada-del-peru-en-espana-no-hay-decision-tomada-hnews-465528",
     "source": "La República",
     "published": "2026-10-15T03:18:14+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Gobierno oficializa a Álvaro Vargas Llosa como embajador del Perú en Estados Unidos",
-    "url": "https://larepublica.pe/politica/2026/10/14/gobierno-oficializa-a-alvaro-vargas-llosa-como-embajador-del-peru-en-estados-unidos-hnews-719026",
-    "source": "La República",
-    "published": "2026-10-14T14:59:28+00:00",
     "matched_in": "summary"
    }
   ],
@@ -118,13 +104,6 @@
     "url": "https://gestion.pe/peru/politica/facultades-legislativas-ministro-belaunde-cuestiona-limites-al-pedido-del-ejecutivo-en-el-senado-noticia/",
     "source": "Gestión",
     "published": "2026-10-16T03:50:46+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Defensa critica al Senado y califica de \"inaudito\" falta de consenso sobre facultades legislativas",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-critica-al-senado-por-falta-de-consenso-sobre-facultades-legislativas-es-innecesario-e-inaudito-noticia-1712868",
-    "source": "RPP",
-    "published": "2026-10-15T21:16:44-05:00",
     "matched_in": "title"
    }
   ],
