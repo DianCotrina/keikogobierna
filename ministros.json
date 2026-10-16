@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T20:11:38+00:00",
+ "generated": "2026-10-16T01:01:26+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput se declara a favor de restablecer el servicio militar obligatorio: “Sería saludable para el país”",
+    "url": "https://www.infobae.com/peru/2026/10/15/ministro-juan-sheput-se-declara-a-favor-de-restablecer-el-servicio-militar-obligatorio-seria-saludable-para-el-pais/",
+    "source": "Infobae",
+    "published": "2026-10-15T20:16:59+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Juan Sheput: “El Congreso ha apostado por la coyuntura y no por las reformas de fondo” | Entrevista",
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
@@ -39,13 +46,6 @@
     "source": "El Comercio",
     "published": "2026-10-14T02:03:51+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Senador de Juntos por el Perú pide que Astudillo renuncie tras su discusión en Constitución",
-    "url": "https://larepublica.pe/politica/2026/10/13/senador-de-juntos-por-el-peru-pide-que-astudillo-renuncie-y-se-disculpe-tras-su-discusion-en-constitucion-hnews-427141",
-    "source": "La República",
-    "published": "2026-10-13T22:34:30+00:00",
-    "matched_in": "title"
    }
   ],
   "ernesto-julio-alvarez-miranda": [
@@ -65,6 +65,13 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Elmer Cuba: “Tenemos un Ministerio de Economía que va a responder para que la economía no se enfríe”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-tenemos-un-ministerio-de-economia-que-va-a-responder-para-que-la-economia-no-se-enfrie-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-16T00:16:42+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Autorizan viaje de ministro Elmer Cuba a Nueva York del 24 al 28 de octubre",
     "url": "https://larepublica.pe/politica/2026/10/15/autorizan-viaje-de-ministro-elmer-cuba-a-nueva-york-del-24-al-28-de-octubre-hnews-1242540",
@@ -105,21 +112,12 @@
     "matched_in": "title"
    }
   ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Ministro de la Producción dice que el Gobierno recurrirá a mecanismos legislativos si no se aprueban algunas propuestas de facultades",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-la-produccion-dice-que-el-gobierno-recurrira-a-mecanismos-legislativos-si-no-se-aprueban-algunas-propuestas-de-facultades-noticia-1712796",
-    "source": "RPP",
-    "published": "2026-10-15T14:22:37-05:00",
-    "matched_in": "title"
-   }
-  ],
   "rogers-martin-valencia-espinoza": [
    {
     "title": "Mincetur propone ampliar espacios y modelo de visita en Machu Picchu: ¿qué cambiaría?",
     "url": "https://gestion.pe/economia/machu-picchu-mincetur-propone-ampliar-espacios-y-modelo-de-visita-que-cambiaria-noticia/",
     "source": "Gestión",
-    "published": "2026-10-15T09:52:00+00:00",
+    "published": "2026-10-15T22:54:41+00:00",
     "matched_in": "title"
    }
   ]
