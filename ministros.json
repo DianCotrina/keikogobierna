@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T01:01:26+00:00",
+ "generated": "2026-10-16T09:32:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministro Ernesto Álvarez acusa a las bancadas de izquierda de obstruir al Gobierno",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-ernesto-alvarez-acusa-a-las-bancadas-de-izquierda-de-obstruir-al-gobierno-delegacion-de-facultades-comision-de-constitucion-senado-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-16T02:17:35+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Ernesto Álvarez descarta salida de la Corte IDH: “No se ha discutido eso”",
+    "url": "https://larepublica.pe/politica/2026/10/15/ministro-ernesto-alvarez-descarta-salida-de-la-corte-idh-no-se-ha-discutido-eso-hnews-671685",
+    "source": "La República",
+    "published": "2026-10-15T13:12:39+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ernesto Álvarez sobre lucha contra la extorsión: “Este delito no se combate con presencia policial en la calle ni tanquetas del Ejército sino con inteligencia”",
+    "url": "https://elcomercio.pe/politica/gobierno/ernesto-alvarez-sobre-lucha-contra-la-extorsion-este-delito-no-se-combate-con-presencia-policial-en-la-calle-ni-tanquetas-del-ejercito-sino-con-inteligencia-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-14T23:55:10+00:00",
+    "matched_in": "title"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Ministro Juan Sheput se declara a favor de restablecer el servicio militar obligatorio: “Sería saludable para el país”",
@@ -39,37 +62,21 @@
     "source": "El Comercio",
     "published": "2026-10-15T02:44:06+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Arturo Alegría: “De partido de Buen Gobierno no tiene nada, es un anexo de Juntos por el Perú”",
-    "url": "https://elcomercio.pe/politica/congreso/arturo-alegria-de-partido-de-buen-gobierno-no-tiene-nada-es-un-anexo-de-juntos-por-el-peru-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-14T02:03:51+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministro Ernesto Álvarez descarta salida de la Corte IDH: “No se ha discutido eso”",
-    "url": "https://larepublica.pe/politica/2026/10/15/ministro-ernesto-alvarez-descarta-salida-de-la-corte-idh-no-se-ha-discutido-eso-hnews-671685",
-    "source": "La República",
-    "published": "2026-10-15T13:12:39+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ernesto Álvarez sobre lucha contra la extorsión: “Este delito no se combate con presencia policial en la calle ni tanquetas del Ejército sino con inteligencia”",
-    "url": "https://elcomercio.pe/politica/gobierno/ernesto-alvarez-sobre-lucha-contra-la-extorsion-este-delito-no-se-combate-con-presencia-policial-en-la-calle-ni-tanquetas-del-ejercito-sino-con-inteligencia-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-14T23:55:10+00:00",
-    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
    {
+    "title": "MEF alista política fiscal contracíclica para evitar desaceleración frente a “tres choques”",
+    "url": "https://gestion.pe/economia/mef-alista-con-keiko-fujimori-politica-fiscal-contraciclica-para-evitar-desaceleracion-de-la-economia-frente-a-tres-choques-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-16T02:37:41+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Elmer Cuba: “Tenemos un Ministerio de Economía que va a responder para que la economía no se enfríe”",
     "url": "https://elcomercio.pe/economia/peru/elmer-cuba-tenemos-un-ministerio-de-economia-que-va-a-responder-para-que-la-economia-no-se-enfrie-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-16T00:16:42+00:00",
+    "published": "2026-10-16T01:44:15+00:00",
     "matched_in": "title"
    },
    {
@@ -77,13 +84,6 @@
     "url": "https://larepublica.pe/politica/2026/10/15/autorizan-viaje-de-ministro-elmer-cuba-a-nueva-york-del-24-al-28-de-octubre-hnews-1242540",
     "source": "La República",
     "published": "2026-10-15T13:49:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF alista política fiscal contracíclica para evitar desaceleración frente a “tres choques”",
-    "url": "https://gestion.pe/economia/mef-alista-con-keiko-fujimori-politica-fiscal-contraciclica-para-evitar-desaceleracion-de-la-economia-frente-a-tres-choques-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-15T11:30:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -109,6 +109,22 @@
     "url": "https://larepublica.pe/politica/2026/10/14/autorizan-viajes-de-los-ministros-marco-vinelli-a-panama-y-maritza-canales-a-italia-hnews-186648",
     "source": "La República",
     "published": "2026-10-14T19:12:09+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Facultades legislativas: ministro Belaúnde cuestiona límites al pedido del Ejecutivo en el Senado",
+    "url": "https://gestion.pe/peru/politica/facultades-legislativas-ministro-belaunde-cuestiona-limites-al-pedido-del-ejecutivo-en-el-senado-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-16T03:50:46+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa critica al Senado y califica de \"inaudito\" falta de consenso sobre facultades legislativas",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-critica-al-senado-por-falta-de-consenso-sobre-facultades-legislativas-es-innecesario-e-inaudito-noticia-1712868",
+    "source": "RPP",
+    "published": "2026-10-15T21:16:44-05:00",
     "matched_in": "title"
    }
   ],
