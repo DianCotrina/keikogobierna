@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T15:16:11+00:00",
+ "generated": "2026-10-16T19:49:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -57,6 +57,22 @@
     "matched_in": "title"
    }
   ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro Rafael Belaúnde propone que las FF.AA apoyen en lucha contra el crimen: \"La Policía ha sido rebasada”",
+    "url": "https://larepublica.pe/politica/2026/10/16/ministro-rafael-belaunde-propone-que-las-ffaa-apoyen-en-lucha-contra-el-crimen-la-policia-ha-sido-rebasada-hnews-1377744",
+    "source": "La República",
+    "published": "2026-10-16T17:36:47+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Facultades legislativas: ministro Belaúnde cuestiona límites al pedido del Ejecutivo en el Senado",
+    "url": "https://gestion.pe/peru/politica/facultades-legislativas-ministro-belaunde-cuestiona-limites-al-pedido-del-ejecutivo-en-el-senado-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-16T03:50:46+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "MEF se va a Estados Unidos: Elmer Cuba buscará inversiones en roadshow en Nueva York",
@@ -89,22 +105,13 @@
     "matched_in": "summary"
    }
   ],
-  "maritza-ivonne-canales-martinez": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Autorizan viajes de los ministros Marco Vinelli a Panamá y Maritza Canales a Italia",
-    "url": "https://larepublica.pe/politica/2026/10/14/autorizan-viajes-de-los-ministros-marco-vinelli-a-panama-y-maritza-canales-a-italia-hnews-186648",
-    "source": "La República",
-    "published": "2026-10-14T19:12:09+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Facultades legislativas: ministro Belaúnde cuestiona límites al pedido del Ejecutivo en el Senado",
-    "url": "https://gestion.pe/peru/politica/facultades-legislativas-ministro-belaunde-cuestiona-limites-al-pedido-del-ejecutivo-en-el-senado-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-16T03:50:46+00:00",
-    "matched_in": "title"
+    "title": "Keiko Fujimori: \"El Niño puede ser mucho más grande de lo que tenemos planificado\"",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-el-nino-puede-ser-mucho-mas-grande-de-lo-que-tenemos-planificado-noticia-1712982",
+    "source": "RPP",
+    "published": "2026-10-16T13:55:17-05:00",
+    "matched_in": "summary"
    }
   ],
   "rogers-martin-valencia-espinoza": [
