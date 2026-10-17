@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T09:02:51+00:00",
+ "generated": "2026-10-17T14:05:03+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -32,13 +32,6 @@
     "source": "El Comercio",
     "published": "2026-10-16T02:17:35+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro Ernesto Álvarez descarta salida de la Corte IDH: “No se ha discutido eso”",
-    "url": "https://larepublica.pe/politica/2026/10/15/ministro-ernesto-alvarez-descarta-salida-de-la-corte-idh-no-se-ha-discutido-eso-hnews-671685",
-    "source": "La República",
-    "published": "2026-10-15T13:12:39+00:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
@@ -68,33 +61,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Facultades legislativas: ministro Belaúnde cuestiona límites al pedido del Ejecutivo en el Senado",
-    "url": "https://gestion.pe/peru/politica/facultades-legislativas-ministro-belaunde-cuestiona-limites-al-pedido-del-ejecutivo-en-el-senado-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-16T03:50:46+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro de Defensa critica al Senado y califica de \"inaudito\" falta de consenso sobre facultades legislativas",
     "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-critica-al-senado-por-falta-de-consenso-sobre-facultades-legislativas-es-innecesario-e-inaudito-noticia-1712868",
     "source": "RPP",
     "published": "2026-10-15T21:16:44-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "MEF alista política fiscal contracíclica para evitar desaceleración frente a “tres choques”",
-    "url": "https://gestion.pe/economia/mef-alista-con-keiko-fujimori-politica-fiscal-contraciclica-para-evitar-desaceleracion-de-la-economia-frente-a-tres-choques-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-16T02:37:41+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Autorizan viaje de ministro Elmer Cuba a Nueva York del 24 al 28 de octubre",
-    "url": "https://larepublica.pe/politica/2026/10/15/autorizan-viaje-de-ministro-elmer-cuba-a-nueva-york-del-24-al-28-de-octubre-hnews-1242540",
-    "source": "La República",
-    "published": "2026-10-15T13:49:11+00:00",
     "matched_in": "title"
    }
   ]
