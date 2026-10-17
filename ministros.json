@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T19:49:07+00:00",
+ "generated": "2026-10-17T01:07:44+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,15 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Marco Vinelli sobre facultades: “Se está dilatando mucho tiempo y la población necesita respuestas rápidas y urgentes”",
+    "url": "https://elcomercio.pe/politica/congreso/ministro-marco-vinelli-sobre-facultades-se-esta-dilatando-mucho-tiempo-y-la-poblacion-necesita-respuestas-rapidas-y-urgentes-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-16T21:41:49+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Ministro Ernesto Álvarez acusa a las bancadas de izquierda de obstruir al Gobierno",
@@ -23,13 +32,6 @@
     "source": "La República",
     "published": "2026-10-15T13:12:39+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ernesto Álvarez sobre lucha contra la extorsión: “Este delito no se combate con presencia policial en la calle ni tanquetas del Ejército sino con inteligencia”",
-    "url": "https://elcomercio.pe/politica/gobierno/ernesto-alvarez-sobre-lucha-contra-la-extorsion-este-delito-no-se-combate-con-presencia-policial-en-la-calle-ni-tanquetas-del-ejercito-sino-con-inteligencia-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-14T23:55:10+00:00",
-    "matched_in": "title"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
@@ -38,13 +40,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-el-congreso-ha-apostado-por-la-coyuntura-y-no-por-las-reformas-de-fondo-entrevista-apuesplan-noticia/",
     "source": "El Comercio",
     "published": "2026-10-15T15:48:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Juan Sheput sobre eventual suspensión del viaje del papa León XIV al Perú: “Es posible, pero todavía no está la palabra definitiva, que corresponde al Vaticano”",
-    "url": "https://elcomercio.pe/politica/gobierno/juan-sheput-sobre-suspension-del-viaje-del-papa-leon-xiv-al-peru-es-posible-pero-todavia-no-esta-la-palabra-definitiva-que-corresponde-al-vaticano-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-14T17:50:16+00:00",
     "matched_in": "title"
    }
   ],
@@ -62,7 +57,7 @@
     "title": "Ministro Rafael Belaúnde propone que las FF.AA apoyen en lucha contra el crimen: \"La Policía ha sido rebasada”",
     "url": "https://larepublica.pe/politica/2026/10/16/ministro-rafael-belaunde-propone-que-las-ffaa-apoyen-en-lucha-contra-el-crimen-la-policia-ha-sido-rebasada-hnews-1377744",
     "source": "La República",
-    "published": "2026-10-16T17:36:47+00:00",
+    "published": "2026-10-16T21:15:28+00:00",
     "matched_in": "title"
    },
    {
@@ -102,15 +97,6 @@
     "url": "https://larepublica.pe/politica/2026/10/14/rafael-rey-confiesa-que-le-ofrecieron-la-embajada-del-peru-en-espana-no-hay-decision-tomada-hnews-465528",
     "source": "La República",
     "published": "2026-10-15T03:18:14+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Keiko Fujimori: \"El Niño puede ser mucho más grande de lo que tenemos planificado\"",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-el-nino-puede-ser-mucho-mas-grande-de-lo-que-tenemos-planificado-noticia-1712982",
-    "source": "RPP",
-    "published": "2026-10-16T13:55:17-05:00",
     "matched_in": "summary"
    }
   ],
