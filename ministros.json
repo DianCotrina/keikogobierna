@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T01:07:44+00:00",
+ "generated": "2026-10-17T09:02:51+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Marco Vinelli cuestiona rechazo del Congreso a facultades legislativas: ¿qué dijo?",
+    "url": "https://gestion.pe/peru/politica/ministro-marco-vinelli-cuestiona-rechazo-del-congreso-a-facultades-legislativas-que-dijo-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-17T04:00:19+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Marco Vinelli sobre facultades: “Se está dilatando mucho tiempo y la población necesita respuestas rápidas y urgentes”",
     "url": "https://elcomercio.pe/politica/congreso/ministro-marco-vinelli-sobre-facultades-se-esta-dilatando-mucho-tiempo-y-la-poblacion-necesita-respuestas-rapidas-y-urgentes-apuesplan-ultimas-noticia/",
@@ -45,11 +52,11 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "César Astudillo detalla medidas en seguridad que fueron excluidas de predictamen que será visto en el Senado",
-    "url": "https://elcomercio.pe/politica/gobierno/cesar-astudillo-detalla-medidas-en-materia-de-seguridad-que-fueron-excluidas-de-predictamen-que-sera-visto-en-el-senado-ultimas-apuesplan-noticia/",
+    "title": "Ladrido avisa",
+    "url": "https://elcomercio.pe/opinion/columnistas/ladrido-avisa-por-mario-ghibellini-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-15T02:44:06+00:00",
-    "matched_in": "title"
+    "published": "2026-10-17T05:30:00+00:00",
+    "matched_in": "summary"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -66,16 +73,16 @@
     "source": "Gestión",
     "published": "2026-10-16T03:50:46+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa critica al Senado y califica de \"inaudito\" falta de consenso sobre facultades legislativas",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-critica-al-senado-por-falta-de-consenso-sobre-facultades-legislativas-es-innecesario-e-inaudito-noticia-1712868",
+    "source": "RPP",
+    "published": "2026-10-15T21:16:44-05:00",
+    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "MEF se va a Estados Unidos: Elmer Cuba buscará inversiones en roadshow en Nueva York",
-    "url": "https://www.infobae.com/peru/2026/10/16/mef-se-va-a-estados-unidos-elmer-cuba-buscara-inversiones-en-roadshow-en-nueva-york/",
-    "source": "Infobae",
-    "published": "2026-10-16T12:41:50+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "MEF alista política fiscal contracíclica para evitar desaceleración frente a “tres choques”",
     "url": "https://gestion.pe/economia/mef-alista-con-keiko-fujimori-politica-fiscal-contraciclica-para-evitar-desaceleracion-de-la-economia-frente-a-tres-choques-noticia/",
@@ -88,24 +95,6 @@
     "url": "https://larepublica.pe/politica/2026/10/15/autorizan-viaje-de-ministro-elmer-cuba-a-nueva-york-del-24-al-28-de-octubre-hnews-1242540",
     "source": "La República",
     "published": "2026-10-15T13:49:11+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Rafael Rey confiesa que le ofrecieron la embajada del Perú en España: \"No hay decisión tomada”",
-    "url": "https://larepublica.pe/politica/2026/10/14/rafael-rey-confiesa-que-le-ofrecieron-la-embajada-del-peru-en-espana-no-hay-decision-tomada-hnews-465528",
-    "source": "La República",
-    "published": "2026-10-15T03:18:14+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Mincetur propone ampliar espacios y modelo de visita en Machu Picchu: ¿qué cambiaría?",
-    "url": "https://gestion.pe/economia/machu-picchu-mincetur-propone-ampliar-espacios-y-modelo-de-visita-que-cambiaria-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-15T22:54:41+00:00",
     "matched_in": "title"
    }
   ]
