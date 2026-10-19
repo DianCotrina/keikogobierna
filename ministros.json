@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T19:15:40+00:00",
+ "generated": "2026-10-19T10:33:03+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,28 +9,44 @@
   "Infobae"
  ],
  "ministers": {
-  "marco-antonio-vinelli-ruiz": [
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Ministro Marco Vinelli cuestiona rechazo del Congreso a facultades legislativas: ¿qué dijo?",
-    "url": "https://gestion.pe/peru/politica/ministro-marco-vinelli-cuestiona-rechazo-del-congreso-a-facultades-legislativas-que-dijo-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-17T04:00:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Marco Vinelli sobre facultades: “Se está dilatando mucho tiempo y la población necesita respuestas rápidas y urgentes”",
-    "url": "https://elcomercio.pe/politica/congreso/ministro-marco-vinelli-sobre-facultades-se-esta-dilatando-mucho-tiempo-y-la-poblacion-necesita-respuestas-rapidas-y-urgentes-apuesplan-ultimas-noticia/",
+    "title": "Ernesto Álvarez: “La izquierda deber ser más sincera y decir la verdad: que apuestan por el fracaso del gobierno”",
+    "url": "https://elcomercio.pe/politica/gobierno/ernesto-alvarez-la-izquierda-deber-ser-mas-sincera-y-decir-la-verdad-que-apuestan-por-el-fracaso-del-gobierno-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-16T21:41:49+00:00",
+    "published": "2026-10-19T05:01:00+00:00",
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Ministro Rafael Belaúnde propone que las FF.AA apoyen en lucha contra el crimen: \"La Policía ha sido rebasada”",
-    "url": "https://larepublica.pe/politica/2026/10/16/ministro-rafael-belaunde-propone-que-las-ffaa-apoyen-en-lucha-contra-el-crimen-la-policia-ha-sido-rebasada-hnews-1377744",
-    "source": "La República",
-    "published": "2026-10-16T21:15:28+00:00",
+    "title": "Ministro de Salud sobre El Niño: “Nos espera realmente una situación terrible”",
+    "url": "https://gestion.pe/peru/ministro-de-salud-sobre-el-nino-nos-espera-realmente-una-situacion-terrible-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-19T05:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Luis Dyer sobre intensidad del fenómeno de El Niño: \"Nos espera realmente una situación terrible\"",
+    "url": "https://rpp.pe/politica/gobierno/luis-dyer-sobre-el-meganino-en-peru-fenomeno-de-el-nino-traera-desbordes-e-impacto-extremo-noticia-1713299",
+    "source": "RPP",
+    "published": "2026-10-18T23:15:20-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Luis Dyer sobre debate de facultades: “No les interesa y a ellos hay que responsabilizarles de esta situación”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-luis-dyer-sobre-debate-de-delegacion-de-facultades-no-les-interesa-y-a-ellos-hay-que-responsabilizarles-de-esta-situacion-comision-de-constitucion-senado-congreso-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-19T03:51:49+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "PCM instala comisión de alto nivel para recuperar la seguridad y el orden público",
+    "url": "https://gestion.pe/peru/politica/pcm-instala-comision-de-alto-nivel-para-recuperar-la-seguridad-y-el-orden-publico-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-19T04:11:05+00:00",
     "matched_in": "title"
    }
   ]
