@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T15:33:56+00:00",
+ "generated": "2026-10-20T20:18:44+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -20,17 +20,19 @@
   ],
   "luis-williams-dyer-fernandez": [
    {
-    "title": "Ministro de Salud sobre El Niño: “Nos espera realmente una situación terrible”",
-    "url": "https://gestion.pe/peru/ministro-de-salud-sobre-el-nino-nos-espera-realmente-una-situacion-terrible-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-19T23:45:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Luis Dyer sobre debate de facultades: “No les interesa y a ellos hay que responsabilizarles de esta situación”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-luis-dyer-sobre-debate-de-delegacion-de-facultades-no-les-interesa-y-a-ellos-hay-que-responsabilizarles-de-esta-situacion-comision-de-constitucion-senado-congreso-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-19T14:50:34+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Ley MAPE: Comisión de Energía y Minas cita a ministro Shinno para sustentar propuesta del Ejecutivo",
+    "url": "https://gestion.pe/peru/politica/ley-mape-comision-de-energia-y-minas-cita-a-ministro-shinno-para-sustentar-propuesta-del-ejecutivo-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-20T20:12:33+00:00",
     "matched_in": "title"
    }
   ],
@@ -41,15 +43,6 @@
     "source": "Gestión",
     "published": "2026-10-20T12:15:00+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Cancillería reporta 25 peruanos fallecidos y 187 desaparecidos en filas del Ejército ruso",
-    "url": "https://gestion.pe/peru/politica/cancilleria-reporta-25-peruanos-fallecidos-y-187-desaparecidos-en-el-ejercito-ruso-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-20T01:30:00+00:00",
-    "matched_in": "title"
    }
   ]
  }

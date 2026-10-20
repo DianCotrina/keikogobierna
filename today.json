@@ -1,118 +1,55 @@
 {
- "generated": "2026-10-20T01:37:03+00:00",
+ "generated": "2026-10-20T20:18:44+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "articles": [
   {
-   "title": "Keiko Fujimori y Daniel Noboa se reúnen este martes en el marco del XVII Gabinete Binacional Perú - Ecuador",
-   "url": "https://elcomercio.pe/politica/en-vivo-keiko-fujimori-y-daniel-noboa-se-reunen-este-martes-y-se-desarrolla-gabinete-binacional-peru-ecuador-noticia/",
-   "summary": "Previamente, los cancilleres de Perú y Ecuador, Carlos Espá y Roberto Kury Pesantes, encabezaron la instalación de la XVIII Comisión de Vecindad Peruano-Ecuatoriana en el Palacio de Torre Tagle.",
-   "author": "Thalía Cadenas",
-   "published": "2026-10-20T01:12:02+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Canciller de Ecuador: “Tenemos desafíos en la seguridad fronteriza, donde combatimos a grupos de delincuencia organizada”",
-   "url": "https://elcomercio.pe/politica/internacional/entrevista-roberto-kury-pesantes-canciller-de-ecuador-tenemos-desafios-en-la-seguridad-fronteriza-donde-combatimos-a-grupos-de-delincuencia-organizada-noticia/",
-   "summary": "El ministro de Relaciones Exteriores y Movilidad Humana de Ecuador, Roberto Kury Pesantes, afirmó que los presidentes Daniel Noboa y Keiko Fujimori “comparten una misma visión de país” y que esto ha hecho que la relación bilateral entre Quito y Lima sea “más fluida”.",
-   "author": "Sebastian Ortiz Martínez",
-   "published": "2026-10-20T00:41:36+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Keiko Fujimori y Daniel Noboa tratarán agenda de seguridad en encuentro bilateral en Lima",
-   "url": "https://larepublica.pe/politica/2026/10/19/keiko-fujimori-y-daniel-noboa-trataran-agenda-de-seguridad-en-encuentro-bilateral-en-lima-hnews-659414",
-   "summary": "Daniel Noboa ha sido cuestionado por violaciones a los derechos humanos. Pese a ello, desde antes de asumir su mandato, Fujimori anunció que tomaría como referencia sus medidas contra la inseguridad.",
-   "author": "Narda Saavedra",
-   "published": "2026-10-19T23:58:42+00:00",
-   "source": "La República",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Presidente del Congreso saluda consenso por facultades y anuncia convocatoria de inmediato a pleno del Senado",
-   "url": "https://elcomercio.pe/politica/congreso/delegacion-de-facultades-presidente-del-congreso-saluda-consenso-y-anuncia-convocatoria-de-inmediato-a-pleno-del-senado-apuesplan-ultimas-noticia/",
-   "summary": "El presidente del Congreso, Miguel Torres (Fuerza Popular), saludó el consenso logrado para la aprobación de 27 puntos de la delegación de facultades solicitada por el Poder Ejecutivo en la Comisión de Constitución del Senado.",
-   "author": "Redacción EC",
-   "published": "2026-10-19T22:13:53+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Fuerza Popular lanza provocación a la oposición: \"Estas sillas vacías representan a aquellos que dan la espalda al pueblo\"",
-   "url": "https://larepublica.pe/politica/2026/10/19/fuerza-popular-lanza-provocacion-a-la-oposicion-estas-sillas-vacias-representan-a-aquellos-que-dan-la-espalda-al-pueblo-hnews-1486864",
-   "summary": "Patricia Juárez cuestionó a los senadores que no asistieron a la sesión de la Comisión de Constitución. La representante fujimorista los acusó de priorizar sus diferencias políticas y los convocó a participar en la próxima sesión del pleno, prevista para el miércoles.",
-   "author": "Ariadna Yaya",
-   "published": "2026-10-19T21:17:59+00:00",
-   "source": "La República",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Patricia Juárez critica a la oposición: “Estas sillas vacías representan a políticos que dan la espalda al reclamo ciudadano”",
-   "url": "https://elcomercio.pe/politica/congreso/patricia-juarez-critica-ausencia-de-la-oposicion-en-comision-de-constitucion-estas-sillas-vacias-representan-a-politicos-que-dan-la-espalda-al-reclamo-ciudadano-noticia/",
-   "summary": "La senadora Patricia Juárez (Fuerza Popular) criticó la ausencia de legisladores de oposición durante el debate y votación del pedido de facultades legislativas en la Comisión de Constitución del Senado.",
-   "author": "Redacción EC",
-   "published": "2026-10-19T20:53:26+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Senador de JP acusa a Obras de \"hacerle el juego\" al fujimorismo en la Comisión de Constitución",
-   "url": "https://larepublica.pe/politica/2026/10/19/senador-de-jp-acusa-a-obras-de-hacerle-el-juego-al-fujimorismo-en-la-comision-de-constitucion-hnews-929689",
-   "summary": "Hugo Ccahuana afirmó que habían coordinado con Obras debatir solo los 20 puntos originales del pedido de facultades, pero la sesión de este lunes trató también los siete temas adicionales.",
-   "author": "Eva Palomino",
-   "published": "2026-10-19T19:30:58+00:00",
-   "source": "La República",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Comisión de Constitución aprueba dictamen que incluye 7 puntos adicionales a la de Diputados",
-   "url": "https://larepublica.pe/politica/2026/10/19/comision-de-constitucion-aprueba-dictamen-que-incluye-7-puntos-adicionales-a-la-de-diputados-hnews-950912",
-   "summary": "Con los votos de Fuerza Popular, Obras y Renovación Popular el dictamen pasará al pleno del Senado para su debate y posterior aprobación o rechazo.",
-   "author": "Ariadna Yaya",
-   "published": "2026-10-19T19:13:56+00:00",
-   "source": "La República",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Ruth Luque sobre debate de facultades en el pleno del Senado: \"Ya tienen los votos teniendo un acuerdo con Obras\"",
-   "url": "https://larepublica.pe/politica/2026/10/19/ruth-luque-sobre-debate-de-facultades-en-el-pleno-del-senado-ya-tienen-los-votos-teniendo-un-acuerdo-con-obras-hnews-1465584",
-   "summary": "Luque cuestionó la falta de consideración hacia las restricciones del Senado. Además alertó sobre un posible acuerdo entre Fuerza Popular y la bancada de Obras que facilitó el desarrollo de la sesión y una posible aprobación de las facultades en el pleno de la cámara alta.",
-   "author": "Ariadna Yaya",
-   "published": "2026-10-19T18:10:29+00:00",
-   "source": "La República",
-   "captured": "2026-10-20T01:37:03+00:00"
-  },
-  {
-   "title": "Mininter nombra nuevos subprefectos: más de 20 afiliados de Fuerza Popular han sido designados",
-   "url": "https://elcomercio.pe/politica/mininter-nombra-nuevos-subprefectos-mas-de-20-afiliados-de-fuerza-popular-han-sido-designados-cesar-astudillo-noticia/",
-   "summary": "Cuatro postularon al Congreso bicameral en las últimas elecciones y una es hermana de la diputada Pierangeli Dodero. Otra de las designadas, Tamara Pérez, es investigada por presunto peculado doloso.",
-   "author": "Delsy Loyola Jorge",
-   "published": "2026-10-19T15:57:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-19T17:21:07+00:00"
-  },
-  {
-   "title": "Ruth Luque anuncia que no asistirá a la Comisión de Constitución y acusa al fujimorismo de ser obstruccionista: \"El Senado debe ejercer su función con límites\"",
-   "url": "https://larepublica.pe/politica/2026/10/19/ruth-luque-anuncia-que-no-asistira-a-la-comision-de-constitucion-y-acusa-al-fujimorismo-de-ser-obstruccionista-el-senado-debe-ejercer-su-funcion-con-limites-hnews-1802815",
-   "summary": "La parlamentaria de Ahora Nación indicó que no asistirá a la sesión de este lunes tras denunciar que la mesa presidida por el fujimorismo insiste en agregar ocho puntos adicionales al dictamen aprobado por la Cámara de Diputados.",
+   "title": "Ricardo Belmont admite convesaciones con el fujimorismo previo a las facultades: \"No vamos a ceder en todo\"",
+   "url": "https://larepublica.pe/politica/2026/10/20/ricardo-belmont-admite-convesaciones-con-el-fujimorismo-previo-a-las-facultades-no-vamos-a-ceder-en-todo-hnews-377720",
+   "summary": "Tras confirmar diálogos con Luis Galarreta y José Chlimper, el líder del Partido Cívico Obras, Ricardo Belmont, justificó la presencia de sus senadores en la Comisión de Constitución para dar el \"beneficio de la duda\" al Ejecutivo. Sin embargo, aclaró que no dará \"cheques en blanco\" y exigirá votar las leyes \"una por una\" en el Pleno.",
    "author": "Jazmín Bianchi",
-   "published": "2026-10-19T15:40:47+00:00",
+   "published": "2026-10-20T19:53:07+00:00",
    "source": "La República",
-   "captured": "2026-10-19T17:21:07+00:00"
+   "captured": "2026-10-20T20:18:44+00:00"
   },
   {
-   "title": "Impunidad perpetua",
-   "url": "https://elcomercio.pe/opinion/editorial/la-justicia-ha-tardado-tanto-en-el-caso-de-la-exalcaldesa-susana-villaran-que-posiblemente-nunca-llegara-noticia/",
-   "summary": "No son pocos los políticos de alto perfil que, en la última década, fueron hostilizados por fiscales que perseguían su propia agenda. Recién la semana pasada, por ejemplo, el Poder Judicial levantó el impedimento de salida del país en contra del expresidente Pedro Pablo Kuczynski, de 88 años. La propia Keiko Fujimori, presidenta actual, sufrió también excesos de la fiscalía y del Poder Judicial que la llevaron en más de una ocasión a permanecer recluida.",
-   "author": "Editorial El Comercio",
-   "published": "2026-10-19T05:10:00+00:00",
+   "title": "Pedido de facultades: ¿El oficialismo tiene los votos en el Senado? ¿Cuál es el ánimo de las bancadas?",
+   "url": "https://elcomercio.pe/politica/pedido-de-facultades-el-oficialismo-tiene-los-votos-en-el-senado-cual-es-el-animo-de-las-bancadas-apuesplan-noticia/",
+   "summary": "Para que el Gobierno de Keiko Fujimori obtenga las facultades legislativas, necesita 31 votos en el Senado.",
+   "author": "Thalía Cadenas",
+   "published": "2026-10-20T18:23:35+00:00",
    "source": "El Comercio",
-   "captured": "2026-10-19T10:33:03+00:00"
+   "captured": "2026-10-20T20:18:44+00:00"
+  },
+  {
+   "title": "Keiko Fujimori y Daniel Noboa, presidente de Ecuador, se reúnen en Lima en medio de crisis de seguridad fronteriza",
+   "url": "https://larepublica.pe/politica/2026/10/20/keiko-fujimori-y-daniel-noboa-presidente-de-ecuador-se-reunen-en-lima-en-medio-de-crisis-de-seguridad-fronteriza-hnews-299460",
+   "summary": "Ambos mandatarios se reunieron como parte de la ceremonia de traspaso de la Presidencia Pro Tempore de la Comunidad Andina de Ecuador a Perú para el periodo 2026-2027.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-10-20T18:03:58+00:00",
+   "source": "La República",
+   "captured": "2026-10-20T20:18:44+00:00"
+  },
+  {
+   "title": "Francisco Calisto de Renovación Popular sobre próximo Pleno por facultades legislativas: “Tenemos que mantener la posición de lo que estamos presentando”",
+   "url": "https://elcomercio.pe/politica/congreso/francisco-calisto-de-renovacion-popular-sobre-proximo-pleno-por-facultades-legislativas-tenemos-que-mantener-la-posicion-de-lo-que-estamos-presentando-noticia/",
+   "summary": "El senador de Renovación Popular Francisco Calisto Giampietri afirmó que su bancada mantendrá en el Pleno del Senado la posición acordada en torno al pedido de facultades legislativas del Ejecutivo, cuyo debate está previsto para este miércoles. Según indicó, el dictamen fue consensuado con Fuerza Popular y el Partido Cívico Obras, tras incorporar aportes de esta última agrupación.",
+   "author": "Redacción EC",
+   "published": "2026-10-20T16:45:16+00:00",
+   "source": "El Comercio",
+   "captured": "2026-10-20T20:18:44+00:00"
+  },
+  {
+   "title": "Fujimorismo insiste en fortalecer capacidad operativa de la DINI: expertos señalan riesgos de uso político",
+   "url": "https://larepublica.pe/politica/2026/10/20/fujimorismo-insiste-en-fortalecer-capacidad-operativa-de-la-dini-expertos-senalan-riesgos-de-uso-politico-hnews-1099540",
+   "summary": "La propuesta permitiría que el organismo de inteligencia obtenga información por cuenta propia. Especialistas advierten que la falta de controles suficientes podría facilitar acciones contra sectores opositores del Gobierno.",
+   "author": "Mauricio Muñoz",
+   "published": "2026-10-20T16:01:14+00:00",
+   "source": "La República",
+   "captured": "2026-10-20T20:18:44+00:00"
   }
  ]
 }
