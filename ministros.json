@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T09:50:01+00:00",
+ "generated": "2026-10-20T15:33:56+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -39,15 +39,8 @@
     "title": "Extorsiones a transportistas: Gobierno anuncia compra de tecnología para la fortalecer inteligencia policial",
     "url": "https://gestion.pe/peru/politica/gobierno-anuncia-compra-de-tecnologia-para-la-fortalecer-inteligencia-policial-antes-de-fin-de-ano-noticia/",
     "source": "Gestión",
-    "published": "2026-10-20T02:14:44+00:00",
+    "published": "2026-10-20T12:15:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ministro del Interior sobre policías involucrados en delitos: “Serán expulsados y sancionados; malogran toda la imagen”",
-    "url": "https://www.infobae.com/peru/2026/10/19/ministro-del-interior-sobre-policias-involucrados-en-delitos-seran-expulsados-y-sancionados-malogran-toda-la-imagen/",
-    "source": "Infobae",
-    "published": "2026-10-19T22:25:00+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -56,15 +49,6 @@
     "url": "https://gestion.pe/peru/politica/cancilleria-reporta-25-peruanos-fallecidos-y-187-desaparecidos-en-el-ejercito-ruso-noticia/",
     "source": "Gestión",
     "published": "2026-10-20T01:30:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "PCM instala comisión de alto nivel para recuperar la seguridad y el orden público",
-    "url": "https://gestion.pe/peru/politica/pcm-instala-comision-de-alto-nivel-para-recuperar-la-seguridad-y-el-orden-publico-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-19T12:40:00+00:00",
     "matched_in": "title"
    }
   ]
