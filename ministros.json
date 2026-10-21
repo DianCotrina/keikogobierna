@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T09:52:01+00:00",
+ "generated": "2026-10-21T15:51:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,21 @@
   "Infobae"
  ],
  "ministers": {
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro y senador César Astudillo acude a sesión donde se debate delegación de facultades",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-y-senador-cesar-astudillo-acude-a-sesion-de-la-camara-alta-donde-se-debate-delegacion-de-facultades-al-ejecutivo-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-21T15:37:48+00:00",
+    "matched_in": "title"
+   }
+  ],
   "guillermo-shinno-huamani": [
    {
     "title": "Propuesta de Ley MAPE: Comisión de Energía y Minas cita al ministro Guillermo Shinno",
     "url": "https://elcomercio.pe/politica/la-comision-de-energia-y-minas-cita-al-ministro-de-energia-y-minas-guillermo-shinno-para-que-explique-la-propuesta-de-ley-mape-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-21T05:02:00+00:00",
+    "published": "2026-10-21T13:56:34+00:00",
     "matched_in": "title"
    },
    {
@@ -34,28 +43,19 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Minsa prepara a más de 5,000 brigadistas y 30 puestos médicos ante el Fenómeno El Niño",
-    "url": "https://gestion.pe/peru/minsa-prepara-a-mas-de-5000-brigadistas-y-30-puestos-medicos-ante-el-fenomeno-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-21T01:30:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Luis Dyer sobre debate de facultades: “No les interesa y a ellos hay que responsabilizarles de esta situación”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-luis-dyer-sobre-debate-de-delegacion-de-facultades-no-les-interesa-y-a-ellos-hay-que-responsabilizarles-de-esta-situacion-comision-de-constitucion-senado-congreso-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-19T14:50:34+00:00",
-    "matched_in": "title"
-   }
-  ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Fenómeno El Niño: Gobierno evalúa permitir la suspensión perfecta de labores en empresas afectadas",
-    "url": "https://www.infobae.com/peru/2026/10/21/fenomeno-el-nino-gobierno-evalua-permitir-la-suspension-perfecta-de-labores-en-empresas-afectadas/",
-    "source": "Infobae",
-    "published": "2026-10-21T00:49:10+00:00",
+    "title": "Gobierno evalúa autorizar la suspensión perfecta de labores en empresas afectadas por el fenómeno de El Niño",
+    "url": "https://elcomercio.pe/economia/peru/gobierno-evalua-autorizar-la-suspension-perfecta-de-labores-en-empresas-afectadas-por-el-fenomeno-de-el-nino-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-21T14:26:18+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Jefa de EsSalud niega favoritismo en la contratación de la hermana del senador Barragán: \"Soy yo quien la ha traído\"",
+    "url": "https://larepublica.pe/politica/2026/10/21/jefa-de-essalud-niega-favoritismo-en-la-contratacion-de-la-hermana-del-senador-barragan-soy-yo-quien-la-ha-traido-hnews-459312",
+    "source": "La República",
+    "published": "2026-10-21T14:03:30+00:00",
     "matched_in": "summary"
    },
    {
@@ -64,12 +64,23 @@
     "source": "Gestión",
     "published": "2026-10-21T00:00:00+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "“Yo la he traído”: jefa de EsSalud defiende contratación de hermana de Daniel Barragán, que Juan Sheput conocía",
-    "url": "https://www.infobae.com/peru/2026/10/20/yo-la-he-traido-jefa-de-essalud-defiende-contratacion-de-hermana-de-daniel-barragan-que-juan-sheput-conocia/",
-    "source": "Infobae",
-    "published": "2026-10-20T23:30:16+00:00",
+    "title": "Carlos Espá sobre visita del papa León XIV: “Hasta que no recibamos información contraria, la visita se mantiene organizada”",
+    "url": "https://elcomercio.pe/lima/sucesos/carlos-espa-sobre-visita-del-papa-leon-xiv-hasta-que-no-recibamos-informacion-contraria-la-visita-se-mantiene-organizada-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-21T13:43:06+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Minsa prepara a más de 5,000 brigadistas y 30 puestos médicos ante el Fenómeno El Niño",
+    "url": "https://gestion.pe/peru/minsa-prepara-a-mas-de-5000-brigadistas-y-30-puestos-medicos-ante-el-fenomeno-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-21T01:30:00+00:00",
     "matched_in": "title"
    }
   ]
