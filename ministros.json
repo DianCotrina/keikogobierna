@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T20:18:44+00:00",
+ "generated": "2026-10-21T01:21:18+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -20,10 +20,47 @@
   ],
   "luis-williams-dyer-fernandez": [
    {
+    "title": "Minsa prepara a más de 5,000 brigadistas y 30 puestos médicos ante el Fenómeno El Niño",
+    "url": "https://gestion.pe/peru/minsa-prepara-a-mas-de-5000-brigadistas-y-30-puestos-medicos-ante-el-fenomeno-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-20T21:48:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Luis Dyer sobre la intensidad del fenómeno de El Niño: \"Nos espera realmente una situación terrible\"",
+    "url": "https://rpp.pe/politica/gobierno/luis-dyer-sobre-el-meganino-en-peru-fenomeno-de-el-nino-traera-desbordes-e-impacto-extremo-noticia-1713299",
+    "source": "RPP",
+    "published": "2026-10-20T16:45:20-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro Luis Dyer sobre debate de facultades: “No les interesa y a ellos hay que responsabilizarles de esta situación”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-luis-dyer-sobre-debate-de-delegacion-de-facultades-no-les-interesa-y-a-ellos-hay-que-responsabilizarles-de-esta-situacion-comision-de-constitucion-senado-congreso-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-19T14:50:34+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Fenómeno El Niño: Gobierno evalúa permitir la suspensión perfecta de labores en empresas afectadas",
+    "url": "https://www.infobae.com/peru/2026/10/21/fenomeno-el-nino-gobierno-evalua-permitir-la-suspension-perfecta-de-labores-en-empresas-afectadas/",
+    "source": "Infobae",
+    "published": "2026-10-21T00:49:10+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Gobierno evalúa dar luz verde a suspensión perfecta de labores en empresas afectadas por El Niño",
+    "url": "https://gestion.pe/peru/politica/gobierno-evalua-realizar-suspension-perfecta-de-labores-en-empresas-afectadas-por-el-nino-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-21T00:00:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "“Yo la he traído”: jefa de EsSalud defiende contratación de hermana de Daniel Barragán, que Juan Sheput conocía",
+    "url": "https://www.infobae.com/peru/2026/10/20/yo-la-he-traido-jefa-de-essalud-defiende-contratacion-de-hermana-de-daniel-barragan-que-juan-sheput-conocia/",
+    "source": "Infobae",
+    "published": "2026-10-20T23:30:16+00:00",
     "matched_in": "title"
    }
   ],
@@ -32,17 +69,8 @@
     "title": "Ley MAPE: Comisión de Energía y Minas cita a ministro Shinno para sustentar propuesta del Ejecutivo",
     "url": "https://gestion.pe/peru/politica/ley-mape-comision-de-energia-y-minas-cita-a-ministro-shinno-para-sustentar-propuesta-del-ejecutivo-noticia/",
     "source": "Gestión",
-    "published": "2026-10-20T20:12:33+00:00",
+    "published": "2026-10-20T23:46:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Extorsiones a transportistas: Gobierno anuncia compra de tecnología para la fortalecer inteligencia policial",
-    "url": "https://gestion.pe/peru/politica/gobierno-anuncia-compra-de-tecnologia-para-la-fortalecer-inteligencia-policial-antes-de-fin-de-ano-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-20T12:15:00+00:00",
-    "matched_in": "summary"
    }
   ]
  }
