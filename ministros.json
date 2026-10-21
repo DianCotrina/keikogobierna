@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T15:51:05+00:00",
+ "generated": "2026-10-21T20:27:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,15 @@
   "Infobae"
  ],
  "ministers": {
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Propuesta de Ley MAPE: Comisión de Energía y Minas cita al ministro Guillermo Shinno",
+    "url": "https://elcomercio.pe/politica/la-comision-de-energia-y-minas-cita-al-ministro-de-energia-y-minas-guillermo-shinno-para-que-explique-la-propuesta-de-ley-mape-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-21T19:59:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Ministro y senador César Astudillo acude a sesión donde se debate delegación de facultades",
@@ -18,69 +27,44 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Propuesta de Ley MAPE: Comisión de Energía y Minas cita al ministro Guillermo Shinno",
-    "url": "https://elcomercio.pe/politica/la-comision-de-energia-y-minas-cita-al-ministro-de-energia-y-minas-guillermo-shinno-para-que-explique-la-propuesta-de-ley-mape-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-21T13:56:34+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ley MAPE: Comisión de Energía y Minas cita a ministro Shinno para sustentar propuesta del Ejecutivo",
-    "url": "https://gestion.pe/peru/politica/ley-mape-comision-de-energia-y-minas-cita-a-ministro-shinno-para-sustentar-propuesta-del-ejecutivo-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-20T23:46:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ernesto Álvarez: “La izquierda debe ser más sincera y decir la verdad: que apuestan por el fracaso del gobierno”",
-    "url": "https://elcomercio.pe/politica/gobierno/ernesto-alvarez-la-izquierda-deber-ser-mas-sincera-y-decir-la-verdad-que-apuestan-por-el-fracaso-del-gobierno-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-19T17:07:55+00:00",
-    "matched_in": "title"
-   }
-  ],
   "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Jefa de EsSalud niega favoritismo en la contratación de la hermana del senador Barragán: \"Soy yo quien la ha traído\"",
+    "url": "https://larepublica.pe/politica/2026/10/21/jefa-de-essalud-niega-favoritismo-en-la-contratacion-de-la-hermana-del-senador-barragan-soy-yo-quien-la-ha-traido-hnews-459312",
+    "source": "La República",
+    "published": "2026-10-21T16:35:45+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Gobierno evalúa autorizar la suspensión perfecta de labores en empresas afectadas por el fenómeno de El Niño",
     "url": "https://elcomercio.pe/economia/peru/gobierno-evalua-autorizar-la-suspension-perfecta-de-labores-en-empresas-afectadas-por-el-fenomeno-de-el-nino-l-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-21T14:26:18+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Jefa de EsSalud niega favoritismo en la contratación de la hermana del senador Barragán: \"Soy yo quien la ha traído\"",
-    "url": "https://larepublica.pe/politica/2026/10/21/jefa-de-essalud-niega-favoritismo-en-la-contratacion-de-la-hermana-del-senador-barragan-soy-yo-quien-la-ha-traido-hnews-459312",
-    "source": "La República",
-    "published": "2026-10-21T14:03:30+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Gobierno evalúa dar luz verde a suspensión perfecta de labores en empresas afectadas por El Niño",
-    "url": "https://gestion.pe/peru/politica/gobierno-evalua-realizar-suspension-perfecta-de-labores-en-empresas-afectadas-por-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-21T00:00:00+00:00",
-    "matched_in": "summary"
    }
   ],
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Carlos Espá sobre visita del papa León XIV: “Hasta que no recibamos información contraria, la visita se mantiene organizada”",
-    "url": "https://elcomercio.pe/lima/sucesos/carlos-espa-sobre-visita-del-papa-leon-xiv-hasta-que-no-recibamos-informacion-contraria-la-visita-se-mantiene-organizada-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-21T13:43:06+00:00",
+    "title": "Ministro de Defensa: \"¿Que deje de llover? Hay que pedírselo al Señor de los Milagros\"",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-que-deje-de-llover-hay-que-pedirselo-al-senor-de-los-milagros-noticia-1713753",
+    "source": "RPP",
+    "published": "2026-10-21T14:14:14-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Rafael Belaunde sobre la población afectada por las precipitaciones en Piura: “Igual va a llover, igual se van a inundar”",
+    "url": "https://larepublica.pe/politica/2026/10/21/rafael-belaunde-sobre-la-poblacion-afectada-por-las-precipitaciones-en-piura-igual-va-a-llover-igual-se-van-a-inundar-hnews-1768767",
+    "source": "La República",
+    "published": "2026-10-21T19:05:45+00:00",
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Minsa prepara a más de 5,000 brigadistas y 30 puestos médicos ante el Fenómeno El Niño",
-    "url": "https://gestion.pe/peru/minsa-prepara-a-mas-de-5000-brigadistas-y-30-puestos-medicos-ante-el-fenomeno-el-nino-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-21T01:30:00+00:00",
+    "title": "MEF sustenta ampliación de la exoneración del impuesto a la renta hasta 2029: Para ahorros y más",
+    "url": "https://www.infobae.com/peru/2026/10/21/mef-sustenta-ampliacion-de-la-exoneracion-del-impuesto-a-la-renta-hasta-2029-para-ahorros-y-mas/",
+    "source": "Infobae",
+    "published": "2026-10-21T19:27:58+00:00",
     "matched_in": "title"
    }
   ]
