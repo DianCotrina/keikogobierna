@@ -19,15 +19,20 @@ interface Stats {
   progressPct: number;
 }
 
+interface CommitmentStats {
+  total: number;
+  byStatus: Stats['byStatus'];
+}
+
 interface Props {
   stats: Stats;
-  totalProposals: number;
+  commitments: CommitmentStats;
   highlights: Highlight[];
   sourcesLine: string;
   updatedText: string;
 }
 
-const { stats, totalProposals, highlights, sourcesLine, updatedText } = Astro.props;
+const { stats, commitments, highlights, sourcesLine, updatedText } = Astro.props;
 ---
 
 <div class="bg-white/85 backdrop-blur rounded-lg shadow-lift border border-tinta/10 p-6 sm:p-7">
@@ -37,9 +42,9 @@ const { stats, totalProposals, highlights, sourcesLine, updatedText } = Astro.pr
   </div>
   <div class="mt-5 flex flex-wrap items-end justify-between gap-x-4 gap-y-1">
     <p class="font-display text-5xl sm:text-6xl" style="letter-spacing:-0.03em">{stats.progressPct}<span class="text-3xl">%</span></p>
-    <p class="font-mono text-xs text-tintasuave mb-1.5">{stats.total} metas al 2031 · {totalProposals} propuestas rastreadas</p>
+    <p class="font-mono text-xs text-tintasuave mb-1.5">de las {stats.total} metas al 2031 cumplidas</p>
   </div>
-  <PenProgress pct={stats.progressPct} label={`Avance general: ${stats.progressPct} por ciento`} />
+  <PenProgress pct={stats.progressPct} label={`Metas al 2031 cumplidas: ${stats.progressPct} por ciento`} />
   <div class="mt-6 grid grid-cols-4 gap-2 font-mono text-center">
     <div>
       <p class="text-xl font-semibold text-verde">{stats.byStatus.fulfilled}</p>
@@ -56,6 +61,33 @@ const { stats, totalProposals, highlights, sourcesLine, updatedText } = Astro.pr
     <div>
       <p class="text-xl font-semibold text-rojo">{stats.byStatus.unfulfilled}</p>
       <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Incumplidas</p>
+    </div>
+  </div>
+  {/* Proposals and 100-day actions move on published norms, long before any
+      2031 goal can move on a measurement — so they get their own row rather
+      than being folded into the goal percentage above. */}
+  <div class="mt-6 border-t border-dashed border-tinta/20 pt-5">
+    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-0.5">
+      <p class="font-sans font-bold text-sm">Compromisos del plan</p>
+      <p class="font-mono text-xs text-tintafina">{commitments.total} propuestas y acciones</p>
+    </div>
+    <div class="mt-3 grid grid-cols-4 gap-2 font-mono text-center">
+      <div>
+        <p class="text-base font-semibold text-verde">{commitments.byStatus.fulfilled}</p>
+        <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Cumplidos</p>
+      </div>
+      <div>
+        <p class="text-base font-semibold text-ambar">{commitments.byStatus.in_progress}</p>
+        <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">En progreso</p>
+      </div>
+      <div>
+        <p class="text-base font-semibold text-plomo">{commitments.byStatus.no_progress}</p>
+        <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Sin avance</p>
+      </div>
+      <div>
+        <p class="text-base font-semibold text-rojo">{commitments.byStatus.unfulfilled}</p>
+        <p class="text-[0.6rem] uppercase tracking-wider text-tintafina mt-1">Incumplidos</p>
+      </div>
     </div>
   </div>
   <ul class="mt-6 space-y-3 border-t border-dashed border-tinta/20 pt-5">

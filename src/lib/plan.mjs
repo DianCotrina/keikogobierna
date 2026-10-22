@@ -77,7 +77,23 @@ export function goalStats(goals, tracking, topicId) {
   return { total, byStatus, progressPct };
 }
 
-export function topicSummaries(plan, goals, tracking) {
+// Proposals and first-100-days actions by status — what the El Peruano review
+// certifies. Goals (.M) are deliberately excluded: they move on measurements,
+// not on norms, and goalStats covers them.
+export function commitmentStats(topics, tracking, topicId) {
+  const byStatus = { fulfilled: 0, in_progress: 0, no_progress: 0, unfulfilled: 0 };
+  let total = 0;
+  for (const [id, file] of topics) {
+    if (topicId && id !== topicId) continue;
+    for (const item of [...file.groups.flatMap((group) => group.proposals), ...file.first_100_days]) {
+      total += 1;
+      byStatus[statusOf(item.id, tracking)] += 1;
+    }
+  }
+  return { total, byStatus, started: byStatus.in_progress + byStatus.fulfilled };
+}
+
+export function topicSummaries(plan, goals, tracking, topics) {
   return plan.topics.map((topic) => {
     const pillar = plan.pillars.find((p) => p.id === topic.pillar);
     return {
@@ -90,6 +106,7 @@ export function topicSummaries(plan, goals, tracking) {
       first_100_days: topic.first_100_days,
       goals: topic.goals,
       progressPct: goalStats(goals, tracking, topic.id).progressPct,
+      started: topics ? commitmentStats(topics, tracking, topic.id).started : 0,
     };
   });
 }
