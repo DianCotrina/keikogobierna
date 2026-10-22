@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.14.0](https://github.com/DianCotrina/keikogobierna/compare/v2.13.1...v2.14.0) (2026-10-22)
+
+
+### Features
+
+* add a day counter to the 100-days page ([43c2386](https://github.com/DianCotrina/keikogobierna/commit/43c23861c3f5d4269cfadfb4e3f981888cae641b))
+
 ## [2.13.1](https://github.com/DianCotrina/keikogobierna/compare/v2.13.0...v2.13.1) (2026-10-22)
 
 
