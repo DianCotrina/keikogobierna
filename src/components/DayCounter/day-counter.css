@@ -1,0 +1,111 @@
+/* The 100-day ruler: one tick per day of the window. Elapsed days are inked,
+   today stands taller in red, the days still ahead are faint hairlines. */
+
+.dc { text-align: left; }
+
+.dc-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+}
+
+.dc-count {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+}
+.dc-word { font-size: 1.5rem; color: var(--color-tintasuave); }
+.dc-num { font-size: 4rem; font-variant-numeric: tabular-nums; }
+.dc-of {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0;
+  color: var(--color-tintafina);
+}
+@media (min-width: 640px) {
+  .dc-word { font-size: 2rem; }
+  .dc-num { font-size: 5.5rem; }
+  .dc-of { font-size: 1.125rem; }
+  /* Close the note on the ruler's right edge, where day 100 sits. */
+  .dc-note { text-align: right; }
+}
+
+.dc-note {
+  max-width: 22rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-tintasuave);
+}
+
+/* Ruler */
+.dc-ruler {
+  --tick-h: 1.25rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 1px;
+  height: 2.25rem;
+  border-bottom: 1.5px solid var(--color-tinta);
+}
+@media (min-width: 640px) { .dc-ruler { gap: 2px; } }
+
+.dc-tick {
+  flex: 1 1 0;
+  min-width: 0;
+  height: var(--tick-h);
+  border-radius: 1px 1px 0 0;
+  background: var(--color-tinta);
+  transform-origin: bottom;
+}
+.dc-tick[data-major] { height: calc(var(--tick-h) + 0.5rem); }
+.dc-tick[data-state="future"] { background: rgba(20, 20, 23, 0.14); }
+.dc-tick[data-state="today"] {
+  height: 100%;
+  background: var(--color-rojo);
+}
+/* Day 100 is the deadline: it keeps a red edge even while still ahead. */
+.dc-tick:last-child[data-state="future"] { background: rgba(200, 16, 46, 0.45); }
+
+/* Once the window has closed the ruler is full; the deadline tick stays red. */
+[data-phase="over"] .dc-tick:last-child { background: var(--color-rojo); height: 100%; }
+
+.dc-scale {
+  position: relative;
+  height: 1.25rem;
+  margin-top: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--color-tintafina);
+}
+.dc-scale span {
+  position: absolute;
+  /* Centre each label under its tick: tick n spans ((n-1)/100 → n/100). */
+  left: calc((var(--at) - 0.5) * 1%);
+  transform: translateX(-50%);
+}
+.dc-scale span:first-child { transform: none; left: 0; }
+.dc-scale span:last-child { transform: none; left: auto; right: 0; }
+@media (max-width: 639px) { .dc-scale span[data-minor] { display: none; } }
+
+/* The single orchestrated moment: elapsed days ink in, left to right. */
+@keyframes dc-ink {
+  from { transform: scaleY(0); opacity: 0; }
+  to   { transform: scaleY(1); opacity: 1; }
+}
+.dc-tick[data-state="past"],
+.dc-tick[data-state="today"] {
+  animation: dc-ink 0.5s var(--ease-spring) both;
+  animation-delay: calc(var(--i) * 7ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dc-tick[data-state="past"],
+  .dc-tick[data-state="today"] { animation: none; }
+}

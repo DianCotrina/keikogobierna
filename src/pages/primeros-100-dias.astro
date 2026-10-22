@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import IndexRail from '../components/IndexRail/IndexRail.astro';
 import Stamp from '../components/Stamp.astro';
+import DayCounter from '../components/DayCounter/DayCounter.astro';
 import {
   loadPlan,
   loadTopics,
@@ -47,6 +48,11 @@ const description = `Los ${stats.total} compromisos que el plan de gobierno 2026
       <p class="mt-8 text-lg leading-[1.7] text-tintasuave max-w-xl mx-auto">
         Los compromisos que el plan promete cumplir apenas asuma el gobierno. Son la primera prueba de intención — y el primer tramo que este seguimiento vigila. El plazo corre desde el 28 de julio de 2026.
       </p>
+    </section>
+
+    <!-- Clock: days elapsed against the 100-day window -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 pb-10" aria-label="Días de gobierno">
+      <DayCounter />
     </section>
 
     <!-- Tally -->

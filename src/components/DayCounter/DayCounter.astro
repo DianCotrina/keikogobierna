@@ -1,0 +1,44 @@
+---
+import './day-counter.css';
+import { DEADLINE_DAYS, limaToday, mandateClock, mandateCopy } from '../../lib/mandate.mjs';
+
+// Rendered for the build date; day-counter.ts recomputes in the visitor's
+// browser, so the counter stays right between deploys.
+const clock = mandateClock(limaToday());
+const copy = mandateCopy(clock);
+
+const tickState = (n: number) =>
+  n < clock.elapsed ? 'past' : n === clock.elapsed ? 'today' : 'future';
+
+const ticks = Array.from({ length: DEADLINE_DAYS }, (_, i) => i + 1);
+const scale = [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+---
+
+<div class="dc" data-day-counter data-phase={clock.phase}>
+  <div class="dc-head">
+    <p class="dc-count">
+      <span class="dc-word">Día</span>
+      <span class="dc-num" data-dc-day>{copy.day}</span>
+      <span class="dc-of" data-dc-of>{copy.of}</span>
+    </p>
+    <p class="dc-note" data-dc-note>{copy.note}</p>
+  </div>
+
+  <div class="dc-ruler" role="img" aria-label={copy.label} data-dc-ruler>
+    {ticks.map((n) => (
+      <span
+        class="dc-tick"
+        data-state={tickState(n)}
+        data-major={n % 10 === 0 ? '' : undefined}
+        style={`--i:${n}`}
+      ></span>
+    ))}
+  </div>
+  <div class="dc-scale" aria-hidden="true">
+    {scale.map((n) => (
+      <span data-minor={n % 50 !== 0 && n !== 1 ? '' : undefined} style={`--at:${n}`}>{n}</span>
+    ))}
+  </div>
+</div>
+
+<script src="./day-counter.ts"></script>
