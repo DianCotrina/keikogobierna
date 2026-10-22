@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T01:18:21+00:00",
+ "generated": "2026-10-22T09:52:17+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -27,22 +27,6 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Jefa de EsSalud niega favoritismo en la contratación de la hermana del senador Barragán: \"Soy yo quien la ha traído\"",
-    "url": "https://larepublica.pe/politica/2026/10/21/jefa-de-essalud-niega-favoritismo-en-la-contratacion-de-la-hermana-del-senador-barragan-soy-yo-quien-la-ha-traido-hnews-459312",
-    "source": "La República",
-    "published": "2026-10-21T16:35:45+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Gobierno evalúa autorizar la suspensión perfecta de labores en empresas afectadas por el fenómeno de El Niño",
-    "url": "https://elcomercio.pe/economia/peru/gobierno-evalua-autorizar-la-suspension-perfecta-de-labores-en-empresas-afectadas-por-el-fenomeno-de-el-nino-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-21T14:26:18+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "rafael-jorge-belaunde-llosa": [
    {
     "title": "Ministro Rafael Belaúnde afirma en Piura que es tarde para resolver falta de drenaje: “Igual va a llover, se van a inundar”",
@@ -52,17 +36,28 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro de Defensa: \"¿Que deje de llover? Hay que pedírselo al Señor de los Milagros\"",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-que-deje-de-llover-hay-que-pedirselo-al-senor-de-los-milagros-noticia-1713753",
-    "source": "RPP",
-    "published": "2026-10-21T14:14:14-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Rafael Belaunde sobre la población afectada por las precipitaciones en Piura: “Igual va a llover, igual se van a inundar”",
     "url": "https://larepublica.pe/politica/2026/10/21/rafael-belaunde-sobre-la-poblacion-afectada-por-las-precipitaciones-en-piura-igual-va-a-llover-igual-se-van-a-inundar-hnews-1768767",
     "source": "La República",
     "published": "2026-10-21T19:05:45+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Jefa de EsSalud niega favoritismo en la contratación de la hermana del senador Barragán: \"Soy yo quien la ha traído\"",
+    "url": "https://larepublica.pe/politica/2026/10/21/jefa-de-essalud-niega-favoritismo-en-la-contratacion-de-la-hermana-del-senador-barragan-soy-yo-quien-la-ha-traido-hnews-459312",
+    "source": "La República",
+    "published": "2026-10-21T16:35:45+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Incendio en los totorales de Puno fue controlado casi en su totalidad, informó el ministro Vinelli",
+    "url": "https://gestion.pe/peru/incendio-de-gran-magnitud-se-registra-en-totorales-cerca-de-las-islas-de-los-uros-en-puno-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-22T04:44:00+00:00",
     "matched_in": "title"
    }
   ],
