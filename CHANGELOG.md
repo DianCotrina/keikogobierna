@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.13.1](https://github.com/DianCotrina/keikogobierna/compare/v2.13.0...v2.13.1) (2026-10-22)
+
+
+### Bug Fixes
+
+* certify the Perú en Orden commission as in progress ([54235e1](https://github.com/DianCotrina/keikogobierna/commit/54235e1edf1c9c322f9bf52dede390566cbaebc8))
+
 ## [2.13.0](https://github.com/DianCotrina/keikogobierna/compare/v2.12.6...v2.13.0) (2026-08-29)
 
 
