@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.15.0](https://github.com/DianCotrina/keikogobierna/compare/v2.14.0...v2.15.0) (2026-10-22)
+
+
+### Features
+
+* show certified commitments on the homepage tracker card ([dc8f347](https://github.com/DianCotrina/keikogobierna/commit/dc8f347746c2e5235fa16140ef920eda2ca3c7a7))
+
 ## [2.14.0](https://github.com/DianCotrina/keikogobierna/compare/v2.13.1...v2.14.0) (2026-10-22)
 
 
