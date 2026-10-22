@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29",
+  "updated": "2026-10-22",
   "items": {
     "t1-1.M01": {
       "status": "no_progress",
@@ -293,9 +293,26 @@
           "note": "El Decreto Supremo declara por sesenta (60) días calendario el Estado de Emergencia en seis distritos de Madre de Dios — Tambopata, Inambari, Las Piedras, Laberinto, Madre de Dios y Huepetuhe — «para hacer frente a la criminalidad y otras situaciones de violencia», con la Policía Nacional a cargo del orden interno y **acciones de apoyo de las Fuerzas Armadas** (artículo 1). El artículo 5 conforma, dentro de las 24 horas, el **Comando de Coordinación Operativa Unificada (CCO)** junto con los Comités de Coordinación Distrital, de Inteligencia, de Fiscalización y de Comunicación Estratégica, con participación indelegable; el artículo 4 los declara en sesión permanente. Los considerandos precisan el objeto operativo: la Región Policial Madre de Dios ejecuta operaciones «tendientes a combatir y neutralizar la tala y minería ilegal, tráfico ilícito de drogas, delitos conexos y otras situaciones de violencia». Queda en progreso, no cumplida, por dos razones: el compromiso promete comandos mixtos PNP–FF.AA.–**Fiscalía–SUNAT**, y el decreto convoca a la Policía y a las Fuerzas Armadas pero no incorpora al Ministerio Público ni a la SUNAT; y el comando existe mientras dure la emergencia de 60 días, no como órgano permanente de control de la minería ilegal. La zona sí es la comprometida: Madre de Dios es el epicentro de la minería ilegal en el país."
         }
       ]
+    },
+    "t1-1.P19": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "El Peruano — DECRETO SUPREMO N° 141-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2564302-1",
+          "note": "El Decreto Supremo crea la Comisión Multisectorial de Alto Nivel para Recuperar la Seguridad y el Orden Público «Perú en Orden», de **naturaleza permanente** y dependiente de la PCM, como «espacio permanente de articulación, coordinación y seguimiento político y estratégico» de las acciones del Ejecutivo contra la criminalidad (artículo 1). La integran el **Presidente del Consejo de Ministros**, quien la preside, y los **ministros del Interior, Defensa y Justicia y Derechos Humanos**, además del de Relaciones Exteriores (artículo 3); supervisa el Eje 1 de la Política General de Gobierno con indicadores y metas, y propone al Consejo de Ministros medidas e iniciativas normativas (artículo 4). Queda en progreso, no cumplida, por dos razones: el compromiso promete un **comando** que integre además al Presidente de la República, al Jefe del INPE, a las FF.AA., a la PNP y a los organismos de inteligencia, y en esta comisión la DINI solo asiste a sesiones ampliadas como invitada (artículo 8), mientras el INPE, las FF.AA. y la PNP no figuran; y la comisión supervisa y coordina, pero no conduce operaciones: el propio decreto menciona un «Comando Unificado contra el Crimen Organizado» ya existente, cuyo seguimiento asume «sin intervenir en su conducción operativa» (artículo 4, literal c)."
+        }
+      ]
     }
   },
   "log": [
+    {
+      "date": "2026-10-14",
+      "item": "t1-1.P19",
+      "status": "in_progress",
+      "text": "El Gobierno creó la comisión permanente «Perú en Orden», presidida por la PCM con los ministros del Interior, Defensa, Justicia y Relaciones Exteriores, para supervisar y coordinar al más alto nivel la lucha contra la criminalidad."
+    },
     {
       "date": "2026-08-28",
       "item": "t2-2.C03",
