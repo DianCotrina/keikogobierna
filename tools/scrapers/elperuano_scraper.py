@@ -73,10 +73,18 @@ SUBNATIONAL_SECTOR_RE = re.compile(r"^(municipalidad|gobierno regional)\b")
 # Público" slipped through an anchored match (issue #271) even though it is exactly
 # the internal-control act the gate exists to drop. A sector string names the
 # publisher, so containing one of these means the publisher *is* that body.
+#
+# The Tribunal Constitucional joined the list on 2026-09-13: four of its own
+# acts reached one queue (issues #402, #403, #432, #433) - internal reglamentos,
+# notification rules, the make-up of its Salas, delegations to its staff - six
+# in the archive. The plan names the TC three times, always as something the
+# *executive* complies with (t3-2.P03, paying the deuda social it ordered) or
+# reforms with the justice system's actors (t1-1.P28, t1-4.P10); those acts are
+# published by MINEDU, MEF or Congress, never under the TC's own sector.
 AUTONOMOUS_SECTOR_RE = re.compile(
     r"\b(contraloria|poder judicial|ministerio publico|cortes superiores"
     r"|consejo ejecutivo del poder judicial|academia de la magistratura"
-    r"|junta nacional de justicia)\b"
+    r"|junta nacional de justicia|tribunal constitucional)\b"
 )
 
 
@@ -148,6 +156,7 @@ _PERSONNEL_VERB_RE = re.compile(
     r"|dan por (?:concluidas?|terminadas?) (?:la |las )?"
     r"(?:designacion(?:es)?|funciones)"
     r"|dejan sin efecto (?:la |las )?designacion(?:es)?"
+    r"|modifican (?:la )?delegacion de facultades"
     r"|delegan (?:facultades|atribuciones)\b.{0,60}?"
     r"\b(?:servidores|funcionarios)"
     r")\b"
@@ -210,7 +219,7 @@ _RECURRING_INDEX_RE = re.compile(
 #    #128/#134/#139 before them.
 _DRAFT_RE = re.compile(
     r"\bpre ?publicacion\b"
-    r"|\b(?:publicacion|difusion)\b.{0,40}?\bproyecto\b"
+    r"|\b(?:publicacion|difusion)\b.{0,40}?\b(?:proyecto|propuesta)\b"
     r"|\bconsulta publica\b"
 )
 
@@ -266,7 +275,14 @@ _ADJUDICATION_RE = re.compile(
 #     in *zero* of the plan's 699 commitments. The plan's own concession language
 #     is different and untouched here — "aeropuertos concesionados" (t2-6.P21),
 #     "concesion supervisada" for the Red Dorsal (t2-6.P27).
-_CONCESSION_RE = re.compile(r"\bconcesion (?:definitiva|unica)\b")
+#
+#     A thermal plant below the concession threshold holds an *autorizacion* for
+#     the same activity, and amending one reached the queue as issue #407. Same
+#     permission, different statutory name.
+_CONCESSION_RE = re.compile(
+    r"\bconcesion (?:definitiva|unica)\b"
+    r"|\bautorizacion para desarrollar la actividad de generacion\b"
+)
 
 # 11. Fishing season management. PRODUCE opens, closes, suspends and extends the
 #     anchoveta seasons by zone on its own calendar (issue #338, matched a
@@ -320,6 +336,14 @@ _ELECTORAL_SUCCESSION_RE = re.compile(
     r"^convocan a (?:ciudadan[oa]s?|magistrad[oa]s?)\b.{0,90}?\bpara que asuma"
 )
 
+# 17. Protected-area entry tariffs. SERNANP authorises its visitor fees sector by
+#     sector of each area — two in a single day (issues #405, #406), matching
+#     t3-5.P15 on "aplicacion de tarifas". The plan's tariffs are *tarifas
+#     sociales* for water, electricity and telecoms (t3-5.P15, t2-3.P11), so the
+#     gate is anchored on the entry fee and a test keeps a social-tariff norma
+#     in the queue.
+_ENTRY_TARIFF_RE = re.compile(r"\btarifas? por ingreso\b")
+
 def is_routine_act(record: dict) -> bool:
     """True for a norma whose operative act cannot evidence a commitment —
     personnel churn, a permission slip, a periodic index, a draft still out for
@@ -346,6 +370,7 @@ def is_routine_act(record: dict) -> bool:
         or _ARCHAEOLOGICAL_RE.search(sumilla)
         or _PHYTOSANITARY_RE.search(sumilla)
         or _ELECTORAL_SUCCESSION_RE.search(sumilla)
+        or _ENTRY_TARIFF_RE.search(sumilla)
     )
 
 
