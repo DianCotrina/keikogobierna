@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:52:17+00:00",
+ "generated": "2026-10-22T15:48:02+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -27,14 +27,16 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Ministro Rafael Belaúnde afirma en Piura que es tarde para resolver falta de drenaje: “Igual va a llover, se van a inundar”",
-    "url": "https://www.infobae.com/peru/2026/10/21/ministro-rafael-belaunde-afirma-en-piura-que-es-tarde-para-resolver-falta-de-drenaje-igual-va-a-llover-se-van-a-inundar/",
-    "source": "Infobae",
-    "published": "2026-10-21T21:30:29+00:00",
+    "title": "Luis Dyer traslada responsabilidad a la población y reconoce límites ante El Niño: \"Está por encima de cualquier esfuerzo\"",
+    "url": "https://larepublica.pe/politica/2026/10/22/luis-dyer-traslada-responsabilidad-a-la-poblacion-y-reconoce-limites-ante-el-nino-esta-por-encima-de-cualquier-esfuerzo-hnews-1257762",
+    "source": "La República",
+    "published": "2026-10-22T13:53:03+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
    {
     "title": "Rafael Belaunde sobre la población afectada por las precipitaciones en Piura: “Igual va a llover, igual se van a inundar”",
     "url": "https://larepublica.pe/politica/2026/10/21/rafael-belaunde-sobre-la-poblacion-afectada-por-las-precipitaciones-en-piura-igual-va-a-llover-igual-se-van-a-inundar-hnews-1768767",
@@ -45,6 +47,13 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
+    "title": "Vinelli: no se descarta suspensión perfecta en agroexportación, pero no hay pedido por ahora",
+    "url": "https://gestion.pe/economia/marco-vinelli-no-se-descarta-suspension-perfecta-de-labores-en-agroexportacion-pero-no-hay-pedido-por-ahora-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-22T14:13:47+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Jefa de EsSalud niega favoritismo en la contratación de la hermana del senador Barragán: \"Soy yo quien la ha traído\"",
     "url": "https://larepublica.pe/politica/2026/10/21/jefa-de-essalud-niega-favoritismo-en-la-contratacion-de-la-hermana-del-senador-barragan-soy-yo-quien-la-ha-traido-hnews-459312",
     "source": "La República",
@@ -52,7 +61,23 @@
     "matched_in": "summary"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Gobierno anuncia S/2.500 millones en bonos para familias vulnerables ante el Fenómeno El Niño: ¿quiénes los recibirán?",
+    "url": "https://rpp.pe/economia/economia/mef-anuncia-s-2500-millones-en-bonos-para-familias-vulnerables-ante-el-fenomeno-el-nino-quienes-los-recibiran-noticia-1713896",
+    "source": "RPP",
+    "published": "2026-10-22T09:45:55-05:00",
+    "matched_in": "summary"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Vinelli: no se descarta suspensión perfecta en agroexportación, pero no hay pedido por ahora",
+    "url": "https://gestion.pe/economia/marco-vinelli-no-se-descarta-suspension-perfecta-de-labores-en-agroexportacion-pero-no-hay-pedido-por-ahora-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-22T14:13:47+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Incendio en los totorales de Puno fue controlado casi en su totalidad, informó el ministro Vinelli",
     "url": "https://gestion.pe/peru/incendio-de-gran-magnitud-se-registra-en-totorales-cerca-de-las-islas-de-los-uros-en-puno-noticia/",
@@ -63,19 +88,10 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
-    "title": "Premier Galarreta agradeció aprobación de 27 facultades legislativas en el Senado y crítico a “sector radical” del Congreso",
-    "url": "https://www.infobae.com/peru/2026/10/22/premier-galarreta-agradecio-aprobacion-de-27-facultades-legislativas-en-el-senado-y-critico-a-sector-radical-del-congreso/",
+    "title": "Luis Galarreta afirma que se usarán decretos de urgencia y proyectos de ley para temas que quedaron fuera de las facultades",
+    "url": "https://www.infobae.com/peru/2026/10/22/luis-galarreta-anuncia-que-el-gobierno-usara-decretos-de-urgencia-y-proyectos-de-ley-en-temas-que-quedaron-fuera-de-las-facultades/",
     "source": "Infobae",
-    "published": "2026-10-22T00:59:43+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "MEF sustenta ampliación de la exoneración del impuesto a la renta hasta 2029: Para ahorros y más",
-    "url": "https://www.infobae.com/peru/2026/10/21/mef-sustenta-ampliacion-de-la-exoneracion-del-impuesto-a-la-renta-hasta-2029-para-ahorros-y-mas/",
-    "source": "Infobae",
-    "published": "2026-10-21T19:27:58+00:00",
+    "published": "2026-10-22T15:15:25+00:00",
     "matched_in": "title"
    }
   ]
