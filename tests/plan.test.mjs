@@ -7,6 +7,7 @@ import {
   loadTracking,
   statusOf,
   goalStats,
+  commitmentStats,
   topicSummaries,
   updatesLog,
   fulfilledItems,
@@ -155,5 +156,32 @@ describe('statusMeta', () => {
       'no_progress',
       'unfulfilled',
     ]);
+  });
+});
+
+describe('commitmentStats', () => {
+  const topics = loadTopics();
+  const tracking = loadTracking();
+  // Certified proposals and 100-days actions, read straight from tracking.json.
+  const certified = (prefix = '') =>
+    Object.entries(tracking.items).filter(
+      ([id, item]) => id.startsWith(prefix) && !id.includes('.M') && item.status !== 'no_progress',
+    ).length;
+
+  test('counts every proposal and first-100-days action, and no goals', () => {
+    const stats = commitmentStats(topics, tracking);
+    const plan = loadPlan();
+    const proposals = plan.topics.reduce((sum, topic) => sum + topic.proposals, 0);
+    const actions = [...topics.values()].reduce((sum, file) => sum + file.first_100_days.length, 0);
+    assert.equal(stats.total, proposals + actions);
+    assert.equal(Object.values(stats.byStatus).reduce((a, b) => a + b, 0), stats.total);
+  });
+
+  test('started matches what tracking.json certifies outside the goals', () => {
+    assert.equal(commitmentStats(topics, tracking).started, certified());
+  });
+
+  test('scopes to one topic', () => {
+    assert.equal(commitmentStats(topics, tracking, 't1-1').started, certified('t1-1.'));
   });
 });

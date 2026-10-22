@@ -5,7 +5,7 @@ import TopicCard from '../components/TopicCard.astro';
 import CumplidasRegistry from '../components/CumplidasRegistry.astro';
 import HeroBanner from '../components/HeroBanner.astro';
 import Stamp from '../components/Stamp.astro';
-import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, topicSummaries, statusOf, fulfilledItems, updatesLog } from '../lib/plan.mjs';
+import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, commitmentStats, topicSummaries, statusOf, fulfilledItems, updatesLog } from '../lib/plan.mjs';
 import { formatDateEs } from '../lib/format.mjs';
 
 const plan = loadPlan();
@@ -13,8 +13,9 @@ const goals = loadGoals();
 const tracking = loadTracking();
 
 const overallStats = goalStats(goals, tracking);
-const totalProposals = plan.topics.reduce((sum, topic) => sum + topic.proposals, 0);
-const summaries = topicSummaries(plan, goals, tracking);
+const topicFiles = loadTopics();
+const commitments = commitmentStats(topicFiles, tracking);
+const summaries = topicSummaries(plan, goals, tracking, topicFiles);
 
 const highlightIds = ['t1-1.M01', 't2-1.M01', 't3-1.M01'];
 const highlights = highlightIds
@@ -30,7 +31,7 @@ const pillarGroups = plan.pillars.map((pillar) => ({
   topics: summaries.filter((topic) => topic.pillar === pillar.id),
 }));
 
-const cumplidas = fulfilledItems(plan, loadTopics(), tracking);
+const cumplidas = fulfilledItems(plan, topicFiles, tracking);
 
 // A log entry names a commitment (t1-1.M01); its topic is the id up to the dot.
 const topicById = new Map(plan.topics.map((topic) => [topic.id, topic]));
@@ -72,7 +73,7 @@ const updates = updatesLog(tracking).map((entry) => {
       <div id="resumen" class="hero-in d4">
         <TrackerCard
           stats={overallStats}
-          totalProposals={totalProposals}
+          commitments={commitments}
           highlights={highlights}
           sourcesLine={sourcesLine}
           updatedText={updatedText}
@@ -145,6 +146,7 @@ const updates = updatesLog(tracking).map((entry) => {
                   slug={topic.slug}
                   proposals={topic.proposals}
                   progressPct={topic.progressPct}
+                  started={topic.started}
                 />
               ))}
             </div>
