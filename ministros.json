@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T20:27:33+00:00",
+ "generated": "2026-10-22T01:18:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -45,6 +45,13 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Ministro Rafael Belaúnde afirma en Piura que es tarde para resolver falta de drenaje: “Igual va a llover, se van a inundar”",
+    "url": "https://www.infobae.com/peru/2026/10/21/ministro-rafael-belaunde-afirma-en-piura-que-es-tarde-para-resolver-falta-de-drenaje-igual-va-a-llover-se-van-a-inundar/",
+    "source": "Infobae",
+    "published": "2026-10-21T21:30:29+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro de Defensa: \"¿Que deje de llover? Hay que pedírselo al Señor de los Milagros\"",
     "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-que-deje-de-llover-hay-que-pedirselo-al-senor-de-los-milagros-noticia-1713753",
     "source": "RPP",
@@ -56,6 +63,15 @@
     "url": "https://larepublica.pe/politica/2026/10/21/rafael-belaunde-sobre-la-poblacion-afectada-por-las-precipitaciones-en-piura-igual-va-a-llover-igual-se-van-a-inundar-hnews-1768767",
     "source": "La República",
     "published": "2026-10-21T19:05:45+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Premier Galarreta agradeció aprobación de 27 facultades legislativas en el Senado y crítico a “sector radical” del Congreso",
+    "url": "https://www.infobae.com/peru/2026/10/22/premier-galarreta-agradecio-aprobacion-de-27-facultades-legislativas-en-el-senado-y-critico-a-sector-radical-del-congreso/",
+    "source": "Infobae",
+    "published": "2026-10-22T00:59:43+00:00",
     "matched_in": "title"
    }
   ],
