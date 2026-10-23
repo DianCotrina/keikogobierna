@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T20:25:50+00:00",
+ "generated": "2026-10-23T01:17:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -27,12 +27,35 @@
     "matched_in": "title"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Keiko Fujimori asegura que el alza de los combustibles no frenará la economía y anuncia bonos para trabajadores afectados",
+    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-asegura-que-el-alza-de-los-combustibles-no-frenara-la-economia-y-anuncia-bonos-para-trabajadores-afectados-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-23T00:39:55+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MEF: este es el nuevo plan para enfrentar a El Niño y otros “choques” económicos",
+    "url": "https://gestion.pe/economia/mef-este-es-el-nuevo-plan-para-enfrentar-a-el-nino-y-otros-choques-economicos-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-22T23:15:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno anuncia S/2.500 millones en bonos para familias vulnerables ante el Fenómeno El Niño: ¿quiénes los recibirán?",
+    "url": "https://rpp.pe/economia/economia/mef-anuncia-s-2500-millones-en-bonos-para-familias-vulnerables-ante-el-fenomeno-el-nino-quienes-los-recibiran-noticia-1713896",
+    "source": "RPP",
+    "published": "2026-10-22T09:45:55-05:00",
+    "matched_in": "summary"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
    {
     "title": "Comando Pataz utiliza vehículos y choferes  de Poderosa para trasladar a los detenidos",
     "url": "https://larepublica.pe/politica/2026/10/22/comando-pataz-utiliza-vehiculos-y-choferes-de-poderosa-para-trasladar-a-los-detenidos-hnews-1077736",
     "source": "La República",
-    "published": "2026-10-22T19:30:10+00:00",
+    "published": "2026-10-23T00:09:18+00:00",
     "matched_in": "summary"
    },
    {
@@ -54,11 +77,25 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Vinelli: no se descarta suspensión perfecta en agroexportación, pero no hay pedido por ahora",
-    "url": "https://gestion.pe/economia/marco-vinelli-no-se-descarta-suspension-perfecta-de-labores-en-agroexportacion-pero-no-hay-pedido-por-ahora-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-22T14:13:47+00:00",
+    "title": "Fenómeno El Niño podría cambiar los planes del Gobierno para elevar el sueldo mínimo a S/ 1.300 en 2027",
+    "url": "https://www.infobae.com/peru/2026/10/23/fenomeno-el-nino-podria-cambiar-los-planes-del-gobierno-para-elevar-el-sueldo-minimo-a-s-1300-en-2027/",
+    "source": "Infobae",
+    "published": "2026-10-23T01:05:23+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Alza del sueldo mínimo a S/ 1,300 podría revisarse por El Niño, según ministro Sheput",
+    "url": "https://gestion.pe/economia/fenomeno-el-nino-podria-afectar-aumento-del-sueldo-minimo-a-s-1300-segun-el-ministro-de-trabajo-juan-sheput-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-23T01:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Sueldo mínimo: Gobierno pone en duda segundo tramo del aumento en 2027 por El Niño, “se podría revisar”, dice ministro Sheput",
+    "url": "https://rpp.pe/economia/economia/sueldo-minimo-gobierno-pone-en-duda-segundo-tramo-del-aumento-en-2027-por-el-nino-se-podria-revisar-dice-ministro-sheput-noticia-1713984",
+    "source": "RPP",
+    "published": "2026-10-22T17:00:33-05:00",
+    "matched_in": "title"
    },
    {
     "title": "Jefa de EsSalud niega favoritismo en la contratación de la hermana del senador Barragán: \"Soy yo quien la ha traído\"",
@@ -68,20 +105,13 @@
     "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "MEF: este es el nuevo plan para enfrentar a El Niño y otros “choques” económicos",
-    "url": "https://gestion.pe/economia/mef-este-es-el-nuevo-plan-para-enfrentar-a-el-nino-y-otros-choques-economicos-noticia/",
+    "title": "Cámara de Diputados someterá a votación admisión de interpelación al ministro Chang",
+    "url": "https://gestion.pe/peru/politica/camara-de-diputados-sometera-a-votacion-admision-de-interpelacion-al-ministro-chang-noticia/",
     "source": "Gestión",
-    "published": "2026-10-22T20:09:08+00:00",
+    "published": "2026-10-22T23:30:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Gobierno anuncia S/2.500 millones en bonos para familias vulnerables ante el Fenómeno El Niño: ¿quiénes los recibirán?",
-    "url": "https://rpp.pe/economia/economia/mef-anuncia-s-2500-millones-en-bonos-para-familias-vulnerables-ante-el-fenomeno-el-nino-quienes-los-recibiran-noticia-1713896",
-    "source": "RPP",
-    "published": "2026-10-22T09:45:55-05:00",
-    "matched_in": "summary"
    }
   ],
   "mauricio-fernando-arnillas-gonzalez": [
@@ -89,26 +119,8 @@
     "title": "MVCS presentará 15 proyectos para destrabar obras de agua y desagüe",
     "url": "https://gestion.pe/economia/mvcs-presentara-al-congreso-15-proyectos-para-destrabar-obras-de-agua-y-desague-noticia/",
     "source": "Gestión",
-    "published": "2026-10-22T17:51:47+00:00",
+    "published": "2026-10-22T20:50:00+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Vinelli: no se descarta suspensión perfecta en agroexportación, pero no hay pedido por ahora",
-    "url": "https://gestion.pe/economia/marco-vinelli-no-se-descarta-suspension-perfecta-de-labores-en-agroexportacion-pero-no-hay-pedido-por-ahora-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-22T14:13:47+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Luis Galarreta afirma que se usarán decretos de urgencia y proyectos de ley para temas que quedaron fuera de las facultades",
-    "url": "https://www.infobae.com/peru/2026/10/22/luis-galarreta-anuncia-que-el-gobierno-usara-decretos-de-urgencia-y-proyectos-de-ley-en-temas-que-quedaron-fuera-de-las-facultades/",
-    "source": "Infobae",
-    "published": "2026-10-22T15:15:25+00:00",
-    "matched_in": "title"
    }
   ]
  }
