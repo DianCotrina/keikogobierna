@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T20:13:47+00:00",
+ "generated": "2026-10-24T01:23:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -15,13 +15,6 @@
     "url": "https://elcomercio.pe/politica/congreso/marco-vinelli-mostramos-nuestra-gran-insatisfaccion-ante-esta-accion-de-algunos-diputados-y-senadores-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-23T15:45:54+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Vinelli: no se descarta suspensión perfecta en agroexportación, pero no hay pedido por ahora",
-    "url": "https://gestion.pe/economia/marco-vinelli-no-se-descarta-suspension-perfecta-de-labores-en-agroexportacion-pero-no-hay-pedido-por-ahora-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T03:30:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -45,45 +38,52 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "MEF revisará reglas fiscales: todo sobre el cambio que haría que Perú crezca más desde 2027",
-    "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
+    "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
+    "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
     "source": "Gestión",
-    "published": "2026-10-23T20:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori asegura que el alza de los combustibles no frenará la economía y anuncia bonos para trabajadores afectados",
-    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-asegura-que-el-alza-de-los-combustibles-no-frenara-la-economia-y-anuncia-bonos-para-trabajadores-afectados-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T19:38:38+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Elmer Cuba ante temores de un mayor déficit fiscal: La compra de aviones se pagará en 10 años y \"el hueco\" de Petroperú ya no existe",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-ante-temores-de-un-mayor-deficit-fiscal-la-compra-de-aviones-se-pagara-en-10-anos-y-el-hueco-de-petroperu-ya-no-existe-noticia-1714147",
-    "source": "RPP",
-    "published": "2026-10-23T13:50:43-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba, ministro de Economía: “Mientras estemos en el ministerio no plantearemos cambiar ninguna tasa de impuestos, IGV o impuesto a la renta”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-mientras-estemos-en-el-ministerio-no-plantearemos-cambiar-ninguna-tasa-de-impuestos-igv-o-impuesto-a-la-renta-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T18:30:00+00:00",
+    "published": "2026-10-24T00:48:36+00:00",
     "matched_in": "title"
    },
    {
     "title": "MEF: bonos del paquete fiscal “contracíclico” no serán menores a S/ 200, ¿para quiénes?",
     "url": "https://gestion.pe/economia/mef-monto-de-bonos-del-paquete-fiscal-contraciclico-no-seran-menores-a-s-200-noticia/",
     "source": "Gestión",
-    "published": "2026-10-23T18:07:02+00:00",
+    "published": "2026-10-24T00:47:19+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Suspensión perfecta de labores por el Fenómeno El Niño: \"No es una política que se ha discutido, es un caso extremo\", afirma Elmer Cuba",
-    "url": "https://rpp.pe/economia/economia/suspension-perfecta-de-labores-por-el-fenomeno-el-nino-no-es-una-politica-que-se-ha-discutido-es-un-caso-extremo-afirma-elmer-cuba-noticia-1714135",
+    "title": "Keiko Fujimori asegura que el alza de los combustibles no frenará la economía y anuncia bonos para trabajadores afectados",
+    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-asegura-que-el-alza-de-los-combustibles-no-frenara-la-economia-y-anuncia-bonos-para-trabajadores-afectados-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-23T23:38:11+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Editorial de Gestión: Nueva meta de déficit fiscal",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-nueva-meta-de-deficit-fiscal-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-23T23:22:41+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Elmer Cuba, ministro de Economía: “Mientras estemos en el ministerio no plantearemos cambiar ninguna tasa de impuestos, IGV o impuesto a la renta”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-mientras-estemos-en-el-ministerio-no-plantearemos-cambiar-ninguna-tasa-de-impuestos-igv-o-impuesto-a-la-renta-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-23T22:50:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF revisará reglas fiscales: todo sobre el cambio que haría que Perú crezca más desde 2027",
+    "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-23T22:30:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba ante temores de un mayor déficit fiscal: La compra de aviones se pagará en 10 años y \"el hueco\" de Petroperú ya no existe",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-ante-temores-de-un-mayor-deficit-fiscal-la-compra-de-aviones-se-pagara-en-10-anos-y-el-hueco-de-petroperu-ya-no-existe-noticia-1714147",
     "source": "RPP",
-    "published": "2026-10-23T11:23:13-05:00",
+    "published": "2026-10-23T15:30:43-05:00",
     "matched_in": "title"
    },
    {
@@ -99,36 +99,15 @@
     "source": "El Comercio",
     "published": "2026-10-23T15:08:17+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Editorial de Gestión: Nueva meta de déficit fiscal",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-nueva-meta-de-deficit-fiscal-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T10:00:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Vinelli: no se descarta suspensión perfecta en agroexportación, pero no hay pedido por ahora",
-    "url": "https://gestion.pe/economia/marco-vinelli-no-se-descarta-suspension-perfecta-de-labores-en-agroexportacion-pero-no-hay-pedido-por-ahora-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T03:30:00+00:00",
-    "matched_in": "summary"
-   },
    {
     "title": "CGTP rechaza suspensión perfecta de labores ante posible impacto de El Niño y exige garantías laborales",
     "url": "https://elcomercio.pe/economia/peru/cgtp-rechaza-suspension-perfecta-de-labores-ante-posible-impacto-de-fenomeno-el-nino-y-exige-garantias-laborales-juan-sheput-mtpe-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-23T02:11:15+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Alza del sueldo mínimo a S/ 1,300 podría revisarse por El Niño, según ministro Sheput",
-    "url": "https://gestion.pe/economia/fenomeno-el-nino-podria-afectar-aumento-del-sueldo-minimo-a-s-1300-segun-el-ministro-de-trabajo-juan-sheput-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T01:00:00+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -149,21 +128,21 @@
     "matched_in": "title"
    }
   ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Plan actual de vigilancia aérea antidrogas no funciona, dice el ministro Astudillo",
+    "url": "https://gestion.pe/peru/plan-de-vigilancia-aerea-antidrogas-no-funciona-segun-el-ministro-cesar-astudillo-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-23T21:21:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rogers-martin-valencia-espinoza": [
    {
     "title": "El Niño: ¿turismo y agroexportación bajo suspensión perfecta de labores? Esto dice Mincetur",
     "url": "https://gestion.pe/economia/el-nino-turismo-y-agroexportacion-bajo-suspension-perfecta-de-labores-esto-dice-mincetur-noticia/",
     "source": "Gestión",
     "published": "2026-10-23T19:17:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Plan actual de vigilancia aérea antidrogas no funciona, dice el ministro Astudillo",
-    "url": "https://gestion.pe/peru/plan-de-vigilancia-aerea-antidrogas-no-funciona-segun-el-ministro-cesar-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T16:21:41+00:00",
     "matched_in": "title"
    }
   ],
