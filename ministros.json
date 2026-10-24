@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T14:18:06+00:00",
+ "generated": "2026-10-24T19:16:55+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -27,12 +27,12 @@
     "matched_in": "title"
    }
   ],
-  "guillermo-shinno-huamani": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Propuesta de Ley MAPE: Comisión de Energía y Minas cita al ministro Guillermo Shinno",
-    "url": "https://elcomercio.pe/politica/la-comision-de-energia-y-minas-cita-al-ministro-de-energia-y-minas-guillermo-shinno-para-que-explique-la-propuesta-de-ley-mape-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-22T18:40:00+00:00",
+    "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
+    "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
+    "source": "La República",
+    "published": "2026-10-23T18:35:51+00:00",
     "matched_in": "title"
    }
   ],
@@ -42,13 +42,6 @@
     "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
     "source": "Gestión",
     "published": "2026-10-24T13:10:14+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba, ministro de Economía: “Mientras estemos en el ministerio no plantearemos cambiar ninguna tasa de impuestos, IGV o impuesto a la renta”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-mientras-estemos-en-el-ministerio-no-plantearemos-cambiar-ninguna-tasa-de-impuestos-igv-o-impuesto-a-la-renta-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-24T12:32:05+00:00",
     "matched_in": "title"
    },
    {
@@ -73,15 +66,6 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
-    "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
-    "source": "La República",
-    "published": "2026-10-23T18:35:51+00:00",
-    "matched_in": "title"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Plan actual de vigilancia aérea antidrogas no funciona, dice el ministro Astudillo",
@@ -97,6 +81,15 @@
     "url": "https://gestion.pe/economia/el-nino-turismo-y-agroexportacion-bajo-suspension-perfecta-de-labores-esto-dice-mincetur-noticia/",
     "source": "Gestión",
     "published": "2026-10-23T19:17:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá y ministro Ernesto Álvarez acompañarán a Keiko Fujimori a su visita oficial a El Salvador",
+    "url": "https://www.infobae.com/peru/2026/10/24/canciller-carlos-espa-y-ministro-ernesto-alvarez-acompanaran-a-keiko-fujimori-a-su-visita-oficial-a-el-salvador/",
+    "source": "Infobae",
+    "published": "2026-10-24T14:55:22+00:00",
     "matched_in": "title"
    }
   ]
