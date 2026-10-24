@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T01:23:45+00:00",
+ "generated": "2026-10-24T09:19:32+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -38,17 +38,17 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
+    "title": "MEF: bonos del paquete fiscal “contracíclico” no serán menores a S/ 200, ¿para quiénes?",
+    "url": "https://gestion.pe/economia/mef-monto-de-bonos-del-paquete-fiscal-contraciclico-no-seran-menores-a-s-200-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-24T02:40:00+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
     "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
     "source": "Gestión",
     "published": "2026-10-24T00:48:36+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF: bonos del paquete fiscal “contracíclico” no serán menores a S/ 200, ¿para quiénes?",
-    "url": "https://gestion.pe/economia/mef-monto-de-bonos-del-paquete-fiscal-contraciclico-no-seran-menores-a-s-200-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-24T00:47:19+00:00",
     "matched_in": "title"
    },
    {
@@ -77,13 +77,6 @@
     "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
     "source": "Gestión",
     "published": "2026-10-23T22:30:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba ante temores de un mayor déficit fiscal: La compra de aviones se pagará en 10 años y \"el hueco\" de Petroperú ya no existe",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-ante-temores-de-un-mayor-deficit-fiscal-la-compra-de-aviones-se-pagara-en-10-anos-y-el-hueco-de-petroperu-ya-no-existe-noticia-1714147",
-    "source": "RPP",
-    "published": "2026-10-23T15:30:43-05:00",
     "matched_in": "title"
    },
    {
