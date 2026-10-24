@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.15.1](https://github.com/DianCotrina/keikogobierna/compare/v2.15.0...v2.15.1) (2026-10-24)
+
+
+### Bug Fixes
+
+* gate the Tribunal Constitucional and three classes that renamed themselves ([7de95f8](https://github.com/DianCotrina/keikogobierna/commit/7de95f8df8f051c7cb124230b0ba336c96cd2329))
+
 ## [2.15.0](https://github.com/DianCotrina/keikogobierna/compare/v2.14.0...v2.15.0) (2026-10-22)
 
 
