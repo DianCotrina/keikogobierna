@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T09:19:32+00:00",
+ "generated": "2026-10-24T14:18:06+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -38,25 +38,25 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
+    "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
+    "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-24T13:10:14+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba, ministro de Economía: “Mientras estemos en el ministerio no plantearemos cambiar ninguna tasa de impuestos, IGV o impuesto a la renta”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-mientras-estemos-en-el-ministerio-no-plantearemos-cambiar-ninguna-tasa-de-impuestos-igv-o-impuesto-a-la-renta-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-24T12:32:05+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "MEF: bonos del paquete fiscal “contracíclico” no serán menores a S/ 200, ¿para quiénes?",
     "url": "https://gestion.pe/economia/mef-monto-de-bonos-del-paquete-fiscal-contraciclico-no-seran-menores-a-s-200-noticia/",
     "source": "Gestión",
     "published": "2026-10-24T02:40:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
-    "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-24T00:48:36+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori asegura que el alza de los combustibles no frenará la economía y anuncia bonos para trabajadores afectados",
-    "url": "https://elcomercio.pe/economia/peru/keiko-fujimori-asegura-que-el-alza-de-los-combustibles-no-frenara-la-economia-y-anuncia-bonos-para-trabajadores-afectados-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T23:38:11+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Editorial de Gestión: Nueva meta de déficit fiscal",
@@ -66,41 +66,11 @@
     "matched_in": "summary"
    },
    {
-    "title": "Elmer Cuba, ministro de Economía: “Mientras estemos en el ministerio no plantearemos cambiar ninguna tasa de impuestos, IGV o impuesto a la renta”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-mientras-estemos-en-el-ministerio-no-plantearemos-cambiar-ninguna-tasa-de-impuestos-igv-o-impuesto-a-la-renta-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T22:50:50+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "MEF revisará reglas fiscales: todo sobre el cambio que haría que Perú crezca más desde 2027",
     "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
     "source": "Gestión",
     "published": "2026-10-23T22:30:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba ante una eventual suspensión perfecta por El Niño: “Es un caso extremo, no es una política que se haya discutido ni aprobado”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ante-una-eventual-suspension-perfecta-por-los-efectos-de-el-nino-es-un-caso-extremo-no-es-una-politica-que-se-discutido-ni-aprobado-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T15:33:22+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Economía sobre medidas para enfrentar el fenómeno de El Niño: “Solo los países solventes fiscalmente como Perú pueden reaccionar”",
-    "url": "https://elcomercio.pe/economia/peru/ministro-de-economia-sobre-medidas-para-enfrentar-el-fenomeno-de-el-nino-solo-los-paises-solventes-fiscalmente-como-peru-pueden-reaccionar-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T15:08:17+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "CGTP rechaza suspensión perfecta de labores ante posible impacto de El Niño y exige garantías laborales",
-    "url": "https://elcomercio.pe/economia/peru/cgtp-rechaza-suspension-perfecta-de-labores-ante-posible-impacto-de-fenomeno-el-nino-y-exige-garantias-laborales-juan-sheput-mtpe-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T02:11:15+00:00",
-    "matched_in": "summary"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -109,15 +79,6 @@
     "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
     "source": "La República",
     "published": "2026-10-23T18:35:51+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer traslada responsabilidad a la población y reconoce límites ante El Niño: \"Está por encima de cualquier esfuerzo\"",
-    "url": "https://larepublica.pe/politica/2026/10/22/luis-dyer-traslada-responsabilidad-a-la-poblacion-y-reconoce-limites-ante-el-nino-esta-por-encima-de-cualquier-esfuerzo-hnews-1257762",
-    "source": "La República",
-    "published": "2026-10-22T13:53:03+00:00",
     "matched_in": "title"
    }
   ],
@@ -137,15 +98,6 @@
     "source": "Gestión",
     "published": "2026-10-23T19:17:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "MVCS presentará 15 proyectos para destrabar obras de agua y desagüe",
-    "url": "https://gestion.pe/economia/mvcs-presentara-al-congreso-15-proyectos-para-destrabar-obras-de-agua-y-desague-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T04:47:00+00:00",
-    "matched_in": "summary"
    }
   ]
  }
