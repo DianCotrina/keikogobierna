@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T09:36:18+00:00",
+ "generated": "2026-10-25T14:52:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,15 +18,6 @@
     "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "José Antonio Chang: Pleno de Diputados debate en próxima sesión la moción para interpelar a ministro",
-    "url": "https://elcomercio.pe/politica/congreso/jose-antonio-chang-pleno-de-diputados-debate-en-proxima-sesion-mocion-para-interpelar-a-ministro-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T13:37:08+00:00",
-    "matched_in": "title"
-   }
-  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Canciller y ministro de Justicia viajarán con Keiko Fujimori a El Salvador del 28 al 31 de octubre",
@@ -42,6 +33,15 @@
     "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
     "source": "La República",
     "published": "2026-10-23T18:35:51+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Ministro de Vivienda anuncia declaratoria de emergencia de su sector: \"Tenemos 15 millones sin desagüe y 9 millones sin agua potable”",
+    "url": "https://rpp.pe/politica/gobierno/declaran-en-emergencia-el-ministerio-de-vivienda-por-fenomeno-el-nino-tenemos-15-millones-sin-desague-y-9-millones-sin-agua-potable-noticia-1714383",
+    "source": "RPP",
+    "published": "2026-10-25T08:14:28-05:00",
     "matched_in": "title"
    }
   ],
@@ -81,33 +81,6 @@
     "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
     "source": "Gestión",
     "published": "2026-10-23T22:30:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Plan actual de vigilancia aérea antidrogas no funciona, dice el ministro Astudillo",
-    "url": "https://gestion.pe/peru/plan-de-vigilancia-aerea-antidrogas-no-funciona-segun-el-ministro-cesar-astudillo-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T21:21:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "El Niño: ¿turismo y agroexportación bajo suspensión perfecta de labores? Esto dice Mincetur",
-    "url": "https://gestion.pe/economia/el-nino-turismo-y-agroexportacion-bajo-suspension-perfecta-de-labores-esto-dice-mincetur-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T19:17:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Canciller Carlos Espá y ministro Ernesto Álvarez acompañarán a Keiko Fujimori a su visita oficial a El Salvador",
-    "url": "https://www.infobae.com/peru/2026/10/24/canciller-carlos-espa-y-ministro-ernesto-alvarez-acompanaran-a-keiko-fujimori-a-su-visita-oficial-a-el-salvador/",
-    "source": "Infobae",
-    "published": "2026-10-24T14:55:22+00:00",
     "matched_in": "title"
    }
   ]
