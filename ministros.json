@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T00:53:17+00:00",
+ "generated": "2026-10-25T09:36:18+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -42,22 +42,6 @@
     "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
     "source": "La República",
     "published": "2026-10-23T18:35:51+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Canciller Carlos Espá viajará a Portugal y España del 1 al 6 de noviembre: ¿por qué motivos?",
-    "url": "https://rpp.pe/politica/gobierno/carlos-espa-viajara-a-portugal-y-espana-del-1-al-6-de-noviembre-por-que-motivos-noticia-1714306",
-    "source": "RPP",
-    "published": "2026-10-24T14:15:13-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Canciller Carlos Espá y ministro Ernesto Álvarez acompañarán a Keiko Fujimori a su visita oficial a El Salvador",
-    "url": "https://www.infobae.com/peru/2026/10/24/canciller-carlos-espa-y-ministro-ernesto-alvarez-acompanaran-a-keiko-fujimori-a-su-visita-oficial-a-el-salvador/",
-    "source": "Infobae",
-    "published": "2026-10-24T14:55:22+00:00",
     "matched_in": "title"
    }
   ],
@@ -115,6 +99,15 @@
     "url": "https://gestion.pe/economia/el-nino-turismo-y-agroexportacion-bajo-suspension-perfecta-de-labores-esto-dice-mincetur-noticia/",
     "source": "Gestión",
     "published": "2026-10-23T19:17:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá y ministro Ernesto Álvarez acompañarán a Keiko Fujimori a su visita oficial a El Salvador",
+    "url": "https://www.infobae.com/peru/2026/10/24/canciller-carlos-espa-y-ministro-ernesto-alvarez-acompanaran-a-keiko-fujimori-a-su-visita-oficial-a-el-salvador/",
+    "source": "Infobae",
+    "published": "2026-10-24T14:55:22+00:00",
     "matched_in": "title"
    }
   ]
