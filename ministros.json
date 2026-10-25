@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T14:52:33+00:00",
+ "generated": "2026-10-25T19:27:35+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,15 +9,6 @@
   "Infobae"
  ],
  "ministers": {
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Marco Vinelli: “Mostramos nuestra gran insatisfacción ante esta acción de algunos diputados y senadores”",
-    "url": "https://elcomercio.pe/politica/congreso/marco-vinelli-mostramos-nuestra-gran-insatisfaccion-ante-esta-accion-de-algunos-diputados-y-senadores-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-23T15:45:54+00:00",
-    "matched_in": "title"
-   }
-  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Canciller y ministro de Justicia viajarán con Keiko Fujimori a El Salvador del 28 al 31 de octubre",
@@ -27,34 +18,14 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
-    "url": "https://larepublica.pe/politica/2026/10/07/ministro-de-defensa-no-hay-plata-para-la-compra-de-tanques-coreanos-hnews-678377",
-    "source": "La República",
-    "published": "2026-10-23T18:35:51+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Ministro de Vivienda anuncia declaratoria de emergencia de su sector: \"Tenemos 15 millones sin desagüe y 9 millones sin agua potable”",
-    "url": "https://rpp.pe/politica/gobierno/declaran-en-emergencia-el-ministerio-de-vivienda-por-fenomeno-el-nino-tenemos-15-millones-sin-desague-y-9-millones-sin-agua-potable-noticia-1714383",
-    "source": "RPP",
-    "published": "2026-10-25T08:14:28-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Seguridad y El Niño: premier Galarreta anuncia plazo para emitir las primeras normas",
-    "url": "https://gestion.pe/peru/politica/seguridad-y-fenomeno-el-nino-premier-galarreta-anuncia-plazo-para-primera-normas-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-24T23:01:53+00:00",
-    "matched_in": "title"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "inPERU inicia en Nueva York reuniones con grandes bancos de inversión para atraer capitales",
+    "url": "https://rpp.pe/economia/economia/inperu-inicia-en-nueva-york-reuniones-con-grandes-bancos-de-inversion-para-atraer-capitales-noticia-1714406",
+    "source": "RPP",
+    "published": "2026-10-25T11:50:07-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
     "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
@@ -75,12 +46,32 @@
     "source": "Gestión",
     "published": "2026-10-23T23:22:41+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
    {
-    "title": "MEF revisará reglas fiscales: todo sobre el cambio que haría que Perú crezca más desde 2027",
-    "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
+    "title": "Ministro de Vivienda pide a población dejar las torrenteras y cauces ante posibilidad de desbordes: “Que piensen en sus vidas”",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-pide-a-poblacion-dejar-las-torrenteras-y-cauces-ante-posibilidad-de-desbordes-que-piensen-en-sus-vidas-noticia-1714398",
+    "source": "RPP",
+    "published": "2026-10-25T10:20:10-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Seguridad y El Niño: premier Galarreta anuncia plazo para emitir las primeras normas",
+    "url": "https://gestion.pe/peru/politica/seguridad-y-fenomeno-el-nino-premier-galarreta-anuncia-plazo-para-primera-normas-noticia/",
     "source": "Gestión",
-    "published": "2026-10-23T22:30:00+00:00",
+    "published": "2026-10-24T23:01:53+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Ministro de Defensa afirma que facultades legislativas permitirán que líderes de organizaciones criminales sean “objetivos militares”",
+    "url": "https://www.infobae.com/peru/2026/10/25/ministro-de-defensa-afirma-que-facultades-legislativas-permitiran-que-lideres-de-organizaciones-criminales-sean-objetivos-militares/",
+    "source": "Infobae",
+    "published": "2026-10-25T15:20:53+00:00",
     "matched_in": "title"
    }
   ]
