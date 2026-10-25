@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:16:55+00:00",
+ "generated": "2026-10-25T00:53:17+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -27,6 +27,15 @@
     "matched_in": "title"
    }
   ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Canciller y ministro de Justicia viajarán con Keiko Fujimori a El Salvador del 28 al 31 de octubre",
+    "url": "https://larepublica.pe/politica/2026/10/24/canciller-y-ministro-de-justicia-viajaran-con-keiko-fujimori-a-el-salvador-del-28-al-31-de-octubre-hnews-2004984",
+    "source": "La República",
+    "published": "2026-10-24T21:57:30+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
    {
     "title": "Ministro de Defensa: No hay plata para la compra de tanques coreanos",
@@ -36,12 +45,37 @@
     "matched_in": "title"
    }
   ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá viajará a Portugal y España del 1 al 6 de noviembre: ¿por qué motivos?",
+    "url": "https://rpp.pe/politica/gobierno/carlos-espa-viajara-a-portugal-y-espana-del-1-al-6-de-noviembre-por-que-motivos-noticia-1714306",
+    "source": "RPP",
+    "published": "2026-10-24T14:15:13-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller Carlos Espá y ministro Ernesto Álvarez acompañarán a Keiko Fujimori a su visita oficial a El Salvador",
+    "url": "https://www.infobae.com/peru/2026/10/24/canciller-carlos-espa-y-ministro-ernesto-alvarez-acompanaran-a-keiko-fujimori-a-su-visita-oficial-a-el-salvador/",
+    "source": "Infobae",
+    "published": "2026-10-24T14:55:22+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Seguridad y El Niño: premier Galarreta anuncia plazo para emitir las primeras normas",
+    "url": "https://gestion.pe/peru/politica/seguridad-y-fenomeno-el-nino-premier-galarreta-anuncia-plazo-para-primera-normas-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-24T23:01:53+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
     "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
     "source": "Gestión",
-    "published": "2026-10-24T13:10:14+00:00",
+    "published": "2026-10-24T19:19:00+00:00",
     "matched_in": "title"
    },
    {
@@ -81,15 +115,6 @@
     "url": "https://gestion.pe/economia/el-nino-turismo-y-agroexportacion-bajo-suspension-perfecta-de-labores-esto-dice-mincetur-noticia/",
     "source": "Gestión",
     "published": "2026-10-23T19:17:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Canciller Carlos Espá y ministro Ernesto Álvarez acompañarán a Keiko Fujimori a su visita oficial a El Salvador",
-    "url": "https://www.infobae.com/peru/2026/10/24/canciller-carlos-espa-y-ministro-ernesto-alvarez-acompanaran-a-keiko-fujimori-a-su-visita-oficial-a-el-salvador/",
-    "source": "Infobae",
-    "published": "2026-10-24T14:55:22+00:00",
     "matched_in": "title"
    }
   ]
