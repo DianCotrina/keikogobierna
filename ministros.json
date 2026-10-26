@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T10:48:12+00:00",
+ "generated": "2026-10-26T17:08:44+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
+    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-26T15:54:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "El ‘Mega Niño’ podría afectar producción de arándanos, uva y mango hacia finales del año, prevé el Midagri",
+    "url": "https://elcomercio.pe/economia/peru/el-mega-nino-podria-afectar-produccion-de-arandanos-uva-y-mango-hacia-finales-del-ano-preve-el-midagri-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-26T15:11:49+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Vinelli sobre facultades legislativas delegadas: “En dos a tres semanas empiezan a salir los decretos legislativos”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-facultades-legislativas-delegadas-en-dos-a-tres-semanas-empiezan-a-salir-los-decretos-legislativos-ultimas-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-26T14:31:12+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
    {
     "title": "Mano derecha de Rafael Belaúnde, investigada como presunta líder de una organización criminal por contratos fantasma",
@@ -23,12 +46,28 @@
     "source": "El Comercio",
     "published": "2026-10-26T01:46:04+00:00",
     "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
+    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-26T16:40:00+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Ministro de Defensa afirma que facultades legislativas permitirán que líderes de organizaciones criminales sean “objetivos militares”",
-    "url": "https://www.infobae.com/peru/2026/10/25/ministro-de-defensa-afirma-que-facultades-legislativas-permitiran-que-lideres-de-organizaciones-criminales-sean-objetivos-militares/",
-    "source": "Infobae",
-    "published": "2026-10-25T15:20:53+00:00",
+    "title": "Elmer Cuba, ministro de Economía: “Mientras estemos en el ministerio no plantearemos cambiar ninguna tasa de impuestos, IGV o impuesto a la renta”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-mientras-estemos-en-el-ministerio-no-plantearemos-cambiar-ninguna-tasa-de-impuestos-igv-o-impuesto-a-la-renta-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-26T16:23:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
+    "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-26T04:16:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -38,65 +77,6 @@
     "url": "https://larepublica.pe/politica/2026/10/24/canciller-y-ministro-de-justicia-viajaran-con-keiko-fujimori-a-el-salvador-del-28-al-31-de-octubre-hnews-2004984",
     "source": "La República",
     "published": "2026-10-24T21:57:30+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Sheput sobre promulgación de facultades: \"Algo que se puede solucionar con una fe de erratas se convierte en un gran debate intelectual\"",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-cuestiona-debate-generado-por-error-en-la-autografa-sobre-ley-de-facultades-legislativas-al-gobierno-noticia-1714436",
-    "source": "RPP",
-    "published": "2026-10-25T16:55:44-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
-    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-26T10:39:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
-    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-26T10:20:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
-    "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-26T04:16:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF revisará reglas fiscales: todo sobre el cambio que haría que Perú crezca más desde 2027",
-    "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-25T20:15:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Machu Picchu: Habilitarán compra de entradas con hasta un año de anticipación",
-    "url": "https://gestion.pe/peru/politica/machu-picchu-habilitaran-compra-de-entradas-con-hasta-un-ano-de-anticipacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-25T21:47:38+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Seguridad y El Niño: premier Galarreta anuncia plazo para emitir las primeras normas",
-    "url": "https://gestion.pe/peru/politica/seguridad-y-fenomeno-el-nino-premier-galarreta-anuncia-plazo-para-primera-normas-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-24T23:01:53+00:00",
     "matched_in": "title"
    }
   ]
