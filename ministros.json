@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T19:27:35+00:00",
+ "generated": "2026-10-26T01:00:52+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,43 +18,38 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "inPERU inicia en Nueva York reuniones con grandes bancos de inversión para atraer capitales",
-    "url": "https://rpp.pe/economia/economia/inperu-inicia-en-nueva-york-reuniones-con-grandes-bancos-de-inversion-para-atraer-capitales-noticia-1714406",
+    "title": "Sheput sobre promulgación de facultades: \"Algo que se puede solucionar con una fe de erratas se convierte en un gran debate intelectual\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-cuestiona-debate-generado-por-error-en-la-autografa-sobre-ley-de-facultades-legislativas-al-gobierno-noticia-1714436",
     "source": "RPP",
-    "published": "2026-10-25T11:50:07-05:00",
-    "matched_in": "summary"
-   },
+    "published": "2026-10-25T16:55:44-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
    {
     "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
     "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
     "source": "Gestión",
-    "published": "2026-10-24T19:19:00+00:00",
+    "published": "2026-10-25T23:10:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "MEF: bonos del paquete fiscal “contracíclico” no serán menores a S/ 200, ¿para quiénes?",
-    "url": "https://gestion.pe/economia/mef-monto-de-bonos-del-paquete-fiscal-contraciclico-no-seran-menores-a-s-200-noticia/",
+    "title": "MEF revisará reglas fiscales: todo sobre el cambio que haría que Perú crezca más desde 2027",
+    "url": "https://gestion.pe/economia/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027-noticia/",
     "source": "Gestión",
-    "published": "2026-10-24T02:40:00+00:00",
+    "published": "2026-10-25T20:15:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Editorial de Gestión: Nueva meta de déficit fiscal",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-nueva-meta-de-deficit-fiscal-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-23T23:22:41+00:00",
-    "matched_in": "summary"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Ministro de Vivienda pide a población dejar las torrenteras y cauces ante posibilidad de desbordes: “Que piensen en sus vidas”",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-pide-a-poblacion-dejar-las-torrenteras-y-cauces-ante-posibilidad-de-desbordes-que-piensen-en-sus-vidas-noticia-1714398",
-    "source": "RPP",
-    "published": "2026-10-25T10:20:10-05:00",
-    "matched_in": "title"
+    "title": "Machu Picchu: Habilitarán compra de entradas con hasta un año de anticipación",
+    "url": "https://gestion.pe/peru/politica/machu-picchu-habilitaran-compra-de-entradas-con-hasta-un-ano-de-anticipacion-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-25T21:47:38+00:00",
+    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
