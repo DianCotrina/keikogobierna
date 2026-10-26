@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T01:00:52+00:00",
+ "generated": "2026-10-26T10:48:12+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,29 @@
   "Infobae"
  ],
  "ministers": {
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Mano derecha de Rafael Belaúnde, investigada como presunta líder de una organización criminal por contratos fantasma",
+    "url": "https://www.infobae.com/peru/2026/10/26/mano-derecha-de-rafael-belaunde-investigada-como-presunta-lider-de-una-organizacion-criminal-por-contratos-fantasma/",
+    "source": "Infobae",
+    "published": "2026-10-26T01:55:52+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Denuncian que jefa del gabinete de asesores del ministro Rafael Belaunde afronta investigación preparatoria por organización criminal",
+    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-denuncian-que-jefa-del-gabinete-de-asesores-del-ministro-de-defensa-afronta-investigacion-preparatoria-por-organizacion-criminal-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-26T01:46:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Defensa afirma que facultades legislativas permitirán que líderes de organizaciones criminales sean “objetivos militares”",
+    "url": "https://www.infobae.com/peru/2026/10/25/ministro-de-defensa-afirma-que-facultades-legislativas-permitiran-que-lideres-de-organizaciones-criminales-sean-objetivos-militares/",
+    "source": "Infobae",
+    "published": "2026-10-25T15:20:53+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Canciller y ministro de Justicia viajarán con Keiko Fujimori a El Salvador del 28 al 31 de octubre",
@@ -27,12 +50,28 @@
     "matched_in": "title"
    }
   ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
+    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-26T10:39:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
+    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-26T10:20:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "MEF seguirá con reforma tributaria tras El Niño: ¿qué exoneraciones le parecen correctas?",
     "url": "https://gestion.pe/economia/mef-seguira-con-reforma-tributaria-tras-el-nino-que-exoneraciones-le-parecen-correctas-noticia/",
     "source": "Gestión",
-    "published": "2026-10-25T23:10:00+00:00",
+    "published": "2026-10-26T04:16:00+00:00",
     "matched_in": "title"
    },
    {
@@ -58,15 +97,6 @@
     "url": "https://gestion.pe/peru/politica/seguridad-y-fenomeno-el-nino-premier-galarreta-anuncia-plazo-para-primera-normas-noticia/",
     "source": "Gestión",
     "published": "2026-10-24T23:01:53+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Ministro de Defensa afirma que facultades legislativas permitirán que líderes de organizaciones criminales sean “objetivos militares”",
-    "url": "https://www.infobae.com/peru/2026/10/25/ministro-de-defensa-afirma-que-facultades-legislativas-permitiran-que-lideres-de-organizaciones-criminales-sean-objetivos-militares/",
-    "source": "Infobae",
-    "published": "2026-10-25T15:20:53+00:00",
     "matched_in": "title"
    }
   ]
