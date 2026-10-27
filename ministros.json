@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T16:13:37+00:00",
+ "generated": "2026-10-27T21:08:03+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Keiko Fujimori evalúa sacar a Galarreta de la PCM",
+    "url": "https://larepublica.pe/politica/2026/10/27/keiko-fujimori-evalua-sacar-a-galarreta-de-la-pcm-hnews-1842399",
+    "source": "La República",
+    "published": "2026-10-27T19:12:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Galarreta asumirá el Despacho Presidencial durante viajes de Keiko Fujimori a El Salvador y España",
+    "url": "https://larepublica.pe/politica/2026/10/27/luis-galarreta-asumira-el-despacho-presidencial-durante-viajes-de-keiko-fujimori-a-el-salvador-y-espana-hnews-2097306",
+    "source": "La República",
+    "published": "2026-10-27T18:34:22+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Encargan despacho presidencial a Luis Galarreta por viaje de Keiko Fujimori a El Salvador y España",
     "url": "https://elcomercio.pe/politica/gobierno/encargan-despacho-presidencial-a-luis-galarreta-por-viaje-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
@@ -27,13 +41,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Midagri descarta desabastecimiento de alimentos en mercados",
-    "url": "https://gestion.pe/economia/el-nino-gobierno-midagri-descarta-desabastecimiento-de-alimentos-en-mercados-que-dijo-confiep-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-27T03:30:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Vinelli sobre facultades legislativas delegadas: “En dos a tres semanas empiezan a salir los decretos legislativos”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-facultades-legislativas-delegadas-en-dos-a-tres-semanas-empiezan-a-salir-los-decretos-legislativos-ultimas-apuesplan-noticia/",
     "source": "El Comercio",
@@ -42,13 +49,6 @@
    }
   ],
   "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Luis Galarreta asumirá el Despacho Presidencial durante los viajes de Keiko Fujimori a El Salvador y España",
-    "url": "https://rpp.pe/politica/gobierno/luis-galarreta-asumira-el-despacho-presidencial-durante-los-viajes-de-keiko-fujimori-a-el-salvador-y-espana-noticia-1714622",
-    "source": "RPP",
-    "published": "2026-10-27T06:35:31-05:00",
-    "matched_in": "summary"
-   },
    {
     "title": "Denuncian que jefa del gabinete de asesores del ministro Rafael Belaunde afronta investigación preparatoria por organización criminal",
     "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-denuncian-que-jefa-del-gabinete-de-asesores-del-ministro-de-defensa-afronta-investigacion-preparatoria-por-organizacion-criminal-ultimas-noticia/",
@@ -77,10 +77,33 @@
   ],
   "guillermo-shinno-huamani": [
    {
+    "title": "Ley MAPE: así será incentivo para que concesionarios firmen convenios con mineros informales",
+    "url": "https://gestion.pe/economia/ley-mape-asi-sera-incentivo-para-que-concesionarios-firmen-convenios-con-mineros-informales-en-peru-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-27T19:18:20+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ley MAPE: Minem busca que concesionarios firmen contratos con mineros artesanales: “O la trabajas, o permites este convenio”",
+    "url": "https://rpp.pe/economia/economia/ley-mape-minem-busca-que-concesionarios-firmen-contratos-con-mineros-artesanales-o-la-trabajas-o-permites-este-convenio-noticia-1714700",
+    "source": "RPP",
+    "published": "2026-10-27T12:52:46-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Minem rechaza que proyecto de ley MAPE del Ejecutivo sea una ampliación del Reinfo",
     "url": "https://gestion.pe/peru/politica/minem-rechaza-que-proyecto-de-ley-mape-del-ejecutivo-sea-una-ampliacion-del-reinfo-noticia/",
     "source": "Gestión",
     "published": "2026-10-27T11:50:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Minedu publicará a fin de mes el nuevo reglamento de disciplina escolar",
+    "url": "https://gestion.pe/peru/minedu-publicara-a-fin-de-mes-el-nuevo-reglamento-de-disciplina-escolar-afirma-ministro-chang-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-27T18:31:52+00:00",
     "matched_in": "title"
    }
   ],
