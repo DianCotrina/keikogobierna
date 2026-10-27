@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T10:14:34+00:00",
+ "generated": "2026-10-27T16:13:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,15 @@
   "Infobae"
  ],
  "ministers": {
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Encargan despacho presidencial a Luis Galarreta por viaje de Keiko Fujimori a El Salvador y España",
+    "url": "https://elcomercio.pe/politica/gobierno/encargan-despacho-presidencial-a-luis-galarreta-por-viaje-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-27T12:56:51+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
@@ -25,13 +34,6 @@
     "matched_in": "title"
    },
    {
-    "title": "El ‘Mega Niño’ podría afectar producción de arándanos, uva y mango hacia finales del año, prevé el Midagri",
-    "url": "https://elcomercio.pe/economia/peru/el-mega-nino-podria-afectar-produccion-de-arandanos-uva-y-mango-hacia-finales-del-ano-preve-el-midagri-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-26T15:11:49+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Vinelli sobre facultades legislativas delegadas: “En dos a tres semanas empiezan a salir los decretos legislativos”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-facultades-legislativas-delegadas-en-dos-a-tres-semanas-empiezan-a-salir-los-decretos-legislativos-ultimas-apuesplan-noticia/",
     "source": "El Comercio",
@@ -41,6 +43,13 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
+    "title": "Luis Galarreta asumirá el Despacho Presidencial durante los viajes de Keiko Fujimori a El Salvador y España",
+    "url": "https://rpp.pe/politica/gobierno/luis-galarreta-asumira-el-despacho-presidencial-durante-los-viajes-de-keiko-fujimori-a-el-salvador-y-espana-noticia-1714622",
+    "source": "RPP",
+    "published": "2026-10-27T06:35:31-05:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "Denuncian que jefa del gabinete de asesores del ministro Rafael Belaunde afronta investigación preparatoria por organización criminal",
     "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-denuncian-que-jefa-del-gabinete-de-asesores-del-ministro-de-defensa-afronta-investigacion-preparatoria-por-organizacion-criminal-ultimas-noticia/",
     "source": "El Comercio",
@@ -48,34 +57,13 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "alberto-ismael-beingolea-delgado": [
    {
-    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
-    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-27T09:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "inPerú: Estas son las oportunidades de inversión que el ministro Elmer Cuba y Julio Velarde destacan para el Perú",
-    "url": "https://elcomercio.pe/economia/peru/inperu-estas-son-las-oportunidades-de-inversion-que-el-ministro-elmer-cuba-y-julio-velarde-destacan-para-el-peru-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-27T00:19:29+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Elmer Cuba destaca confianza empresarial en inPerú 2026: \"El entusiasmo es mayúsculo y ese dinamismo de inversión se mantendrá\"",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-destaca-confianza-empresarial-en-inperu-2026-el-entusiasmo-es-mayusculo-y-ese-dinamismo-de-inversion-se-mantendra-noticia-1714586",
-    "source": "RPP",
-    "published": "2026-10-26T18:40:22-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Exportaciones peruanas alcanzan récord de US$ 83,000 millones a septiembre, revela MEF en Inperú",
-    "url": "https://gestion.pe/economia/exportaciones-peruanas-alcanzan-record-de-us-83000-millones-a-septiembre-revela-mef-en-inperu-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-26T20:18:45+00:00",
-    "matched_in": "title"
+    "title": "Senadora Milagros Jáuregui busca retirar los huacos eróticos de Moche: asegura que 'son dañinos para la infancia'",
+    "url": "https://larepublica.pe/politica/2026/10/27/senadora-milagros-jauregui-busca-retirar-los-huacos-eroticos-de-moche-asegura-que-son-daninos-para-la-infancia-hnews-2034504",
+    "source": "La República",
+    "published": "2026-10-27T14:58:30+00:00",
+    "matched_in": "summary"
    }
   ],
   "mauricio-fernando-arnillas-gonzalez": [
@@ -92,7 +80,23 @@
     "title": "Minem rechaza que proyecto de ley MAPE del Ejecutivo sea una ampliación del Reinfo",
     "url": "https://gestion.pe/peru/politica/minem-rechaza-que-proyecto-de-ley-mape-del-ejecutivo-sea-una-ampliacion-del-reinfo-noticia/",
     "source": "Gestión",
-    "published": "2026-10-27T04:29:33+00:00",
+    "published": "2026-10-27T11:50:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
+    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-27T09:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Exportaciones peruanas alcanzan récord de US$ 83,000 millones a septiembre, revela MEF en Inperú",
+    "url": "https://gestion.pe/economia/exportaciones-peruanas-alcanzan-record-de-us-83000-millones-a-septiembre-revela-mef-en-inperu-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-26T20:18:45+00:00",
     "matched_in": "title"
    }
   ]
