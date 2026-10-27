@@ -1,73 +1,19 @@
 {
- "generated": "2026-10-27T01:50:59+00:00",
+ "generated": "2026-10-27T10:14:34+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "articles": [
   {
-   "title": "Una lucha transnacional",
-   "url": "https://elcomercio.pe/opinion/columnistas/una-lucha-transnacional-por-hernan-sifuentes-noticia/",
-   "summary": "Algunos congresistas han criticado el viaje de la presidenta Keiko Fujimori a El Salvador, el mismo que tiene como objetivo recoger parte de la experiencia y lograr todo el apoyo necesario para combatir la situación de emergencia que afronta nuestro país con la extorsión y el sicariato. No reconocer la importancia de este viaje implica desconocer la realidad que afrontamos, y la necesidad que existe de toda la cooperación internacional para devolver el orden y la tranquilidad a las familias peruanas.",
-   "author": "Hernán  Sifuentes",
-   "published": "2026-10-26T23:46:29+00:00",
+   "title": "Keiko y el momento político interno y externo",
+   "url": "https://elcomercio.pe/opinion/columnistas/keiko-y-el-momento-politico-interno-y-externo-por-ivan-arenas-noticia/",
+   "summary": "Novedades. En el frente interno político hay novedades. Hay un primer atisbo de coalición en ambas cámaras: Fuerza Popular, Renovación Popular y Obras conformarían una alianza que, si se da, le daría estabilidad a un gobierno que ha renunciado a la confrontación abierta y directa.",
+   "author": "Iván Arenas",
+   "published": "2026-10-27T10:00:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-10-27T01:50:59+00:00"
-  },
-  {
-   "title": "José Gavidia justifica su apoyo al oficialismo: \"Tenemos que confiar en nuestro Gobierno\"",
-   "url": "https://larepublica.pe/politica/2026/10/26/jose-gavidia-justifica-su-apoyo-al-oficialismo-tenemos-que-confiar-en-nuestro-gobierno-hnews-1345682",
-   "summary": "El senador explicó que sus diferencias con Buen Gobierno pasan por la desconfianza hacia Fuerza Popular y defendió darle una oportunidad a la gestión de Keiko Fujimori. También cuestionó que se juzgue al partido por sus antecedentes sin considerar el escenario actual.",
-   "author": "Ariadna Yaya",
-   "published": "2026-10-26T22:12:54+00:00",
-   "source": "La República",
-   "captured": "2026-10-27T01:50:59+00:00"
-  },
-  {
-   "title": "Keiko Fujimori saluda confirmación de viaje del papa León XIV al Perú: “Lo esperamos con los brazos y corazones abiertos”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-saluda-confirmacion-de-viaje-del-papa-leon-xiv-al-peru-lo-esperamos-con-los-brazos-y-corazones-abiertos-apuesplan-ultimas-noticia/",
-   "summary": "La presidenta Keiko Fujimori saludó la confirmación del viaje del papa León XIV al Perú, en noviembre próximo, y dijo que nuestro país lo espera “con los brazos y corazones abiertos”.",
-   "author": "Redacción EC",
-   "published": "2026-10-26T21:43:24+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-27T01:50:59+00:00"
-  },
-  {
-   "title": "PerúCheck: Es imprecisa la afirmación de Keiko Fujimori de que la tasa nacional de anemia es del 40 %",
-   "url": "https://elcomercio.pe/politica/perucheck-es-imprecisa-la-afirmacion-de-keiko-fujimori-de-que-la-tasa-nacional-de-anemia-es-del-40-noticia/",
-   "summary": "PerúCheck: Es imprecisa la afirmación de Keiko Fujimori de que la tasa nacional de anemia es del 40 %",
-   "author": "Perú Check",
-   "published": "2026-10-26T13:47:22+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-26T17:08:44+00:00"
-  },
-  {
-   "title": "66 a 27: la dictadura que no fue",
-   "url": "https://elcomercio.pe/opinion/columnistas/66-a-27-la-dictadura-que-no-fue-por-fernando-caceres-noticia/",
-   "summary": "“Keiko tiene ahora todo el poder”. “Dictadura del Senado”. “El Senado no tiene ningún límite a su poder”. “Lo que mande Diputados puede ser modificado como le dé la gana al oficialismo”. Son frases que un sect",
-   "author": "Fernando Cáceres Freyre",
-   "published": "2026-10-26T10:00:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-26T10:48:12+00:00"
-  },
-  {
-   "title": "Facultades legislativas avanzaron en el Congreso con votos de la propia oposición",
-   "url": "https://larepublica.pe/politica/2026/10/26/facultades-legislativas-avanzaron-en-el-congreso-con-votos-de-la-propia-oposicion-hnews-490429",
-   "summary": "La votación evidenció la falta de una estrategia común entre las bancadas opositoras y la capacidad de Fuerza Popular para negociar mayorías variables. Experto advierte que la controversia por los cambios introducidos en el Senado también podría abrir un conflicto institucional entre ambas cámaras.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-10-26T10:00:00+00:00",
-   "source": "La República",
-   "captured": "2026-10-26T10:48:12+00:00"
-  },
-  {
-   "title": "Cita decisiva para la inversión",
-   "url": "https://elcomercio.pe/opinion/editorial/cita-decisiva-para-la-inversion-representantes-nacionales-viajan-a-nueva-york-para-participar-en-el-encuentro-de-inversion-promovido-por-inperu-noticia/",
-   "summary": "El mensaje de Keiko Fujimori ante la ONU sobre la lucha contra el crimen organizado es positivo, pero no solo basta nombrar al enemigo.",
-   "author": "Editorial El Comercio",
-   "published": "2026-10-26T05:10:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-26T10:48:12+00:00"
+   "captured": "2026-10-27T10:14:34+00:00"
   }
  ]
 }

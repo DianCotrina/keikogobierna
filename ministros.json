@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T01:50:59+00:00",
+ "generated": "2026-10-27T10:14:34+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,14 +14,14 @@
     "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
     "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
     "source": "Gestión",
-    "published": "2026-10-26T17:54:00+00:00",
+    "published": "2026-10-27T08:00:00+00:00",
     "matched_in": "title"
    },
    {
     "title": "Midagri descarta desabastecimiento de alimentos en mercados",
     "url": "https://gestion.pe/economia/el-nino-gobierno-midagri-descarta-desabastecimiento-de-alimentos-en-mercados-que-dijo-confiep-noticia/",
     "source": "Gestión",
-    "published": "2026-10-26T17:19:29+00:00",
+    "published": "2026-10-27T03:30:00+00:00",
     "matched_in": "title"
    },
    {
@@ -50,6 +50,13 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
+    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
+    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-27T09:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "inPerú: Estas son las oportunidades de inversión que el ministro Elmer Cuba y Julio Velarde destacan para el Perú",
     "url": "https://elcomercio.pe/economia/peru/inperu-estas-son-las-oportunidades-de-inversion-que-el-ministro-elmer-cuba-y-julio-velarde-destacan-para-el-peru-noticia/",
     "source": "El Comercio",
@@ -64,41 +71,29 @@
     "matched_in": "title"
    },
    {
-    "title": "Elmer Cuba, ministro de Economía: “Mientras estemos en el ministerio no plantearemos cambiar ninguna tasa de impuestos, IGV o impuesto a la renta”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-ministro-de-economia-mientras-estemos-en-el-ministerio-no-plantearemos-cambiar-ninguna-tasa-de-impuestos-igv-o-impuesto-a-la-renta-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-26T23:18:07+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
-    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-26T21:03:33+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Exportaciones peruanas alcanzan récord de US$ 83,000 millones a septiembre, revela MEF en Inperú",
     "url": "https://gestion.pe/economia/exportaciones-peruanas-alcanzan-record-de-us-83000-millones-a-septiembre-revela-mef-en-inperu-noticia/",
     "source": "Gestión",
     "published": "2026-10-26T20:18:45+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
    {
-    "title": "inPerú 2026: Elmer Cuba anuncia adjudicación de proyectos vía APP por US$ 55,000 millones hasta 2030 y llama a inversionistas en Nueva York",
-    "url": "https://rpp.pe/economia/economia/inperu-2026-elmer-cuba-anuncia-adjudicacion-de-proyectos-via-app-por-us-55000-millones-hasta-2030-y-llama-a-inversionistas-en-nueva-york-noticia-1714561",
-    "source": "RPP",
-    "published": "2026-10-26T15:12:14-05:00",
+    "title": "Familiares de asesinados en protestas del 2023 condicionan reunión con ministro de Vivienda: \"Que pida disculpas por terruquear a Puno\"",
+    "url": "https://larepublica.pe/politica/2026/10/26/familiares-de-asesinados-en-protestas-del-2023-condicionan-reunion-con-ministro-de-vivienda-que-pida-disculpas-por-terruquear-a-puno-hnews-307398",
+    "source": "La República",
+    "published": "2026-10-27T02:34:44+00:00",
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "guillermo-shinno-huamani": [
    {
-    "title": "Sindicato de trabajadores de Sunafil acata huelga nacional por incrementos salariales y mejora de condiciones",
-    "url": "https://rpp.pe/lima/actualidad/sindicato-de-trabajadores-de-sunafil-acata-huelga-nacional-por-incrementos-salariales-y-mejora-de-condiciones-noticia-1714551",
-    "source": "RPP",
-    "published": "2026-10-26T13:54:58-05:00",
-    "matched_in": "summary"
+    "title": "Minem rechaza que proyecto de ley MAPE del Ejecutivo sea una ampliación del Reinfo",
+    "url": "https://gestion.pe/peru/politica/minem-rechaza-que-proyecto-de-ley-mape-del-ejecutivo-sea-una-ampliacion-del-reinfo-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-27T04:29:33+00:00",
+    "matched_in": "title"
    }
   ]
  }
