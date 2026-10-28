@@ -1,82 +1,19 @@
 {
- "generated": "2026-10-28T02:02:37+00:00",
+ "generated": "2026-10-28T11:02:39+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "articles": [
   {
-   "title": "Keiko Fujimori saluda decisión de Mesas Directivas de Diputados y Senadores: “Recursos serán destinados para atender prioridades del país”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-saluda-decision-de-mesas-directivas-de-diputados-y-senadores-recursos-seran-destinados-para-atender-prioridades-del-pais-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori, saludó la decisión de las mesas directivas del Senado y la Cámara de Diputados de devolver S/270 millones al Poder Ejecutivo, recursos que serán destinados a atender las principales necesidades del país.",
-   "author": "Redacción EC",
-   "published": "2026-10-27T23:52:54+00:00",
+   "title": "El (nuevo) voto 31",
+   "url": "https://elcomercio.pe/opinion/columnistas/el-nuevo-voto-31-por-martin-hidalgo-noticia/",
+   "summary": "La anunciada renuncia del senador Jorge Gavidia a la bancada del Partido del Buen Gobierno deja varias lecturas a tener en cuenta para las dinámicas parlamentarias. La más importante quizá sea el cambio en la correlación de fuerzas y el peso que tendrá su voto para el bloque de derecha conformado por Fuerza Popular y Renovación Popular.",
+   "author": "Martin Hidalgo",
+   "published": "2026-10-28T10:00:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-10-28T02:02:37+00:00"
-  },
-  {
-   "title": "Keiko Fujimori evalúa sacar a Galarreta de la PCM",
-   "url": "https://larepublica.pe/politica/2026/10/27/keiko-fujimori-evalua-sacar-a-galarreta-de-la-pcm-hnews-1842399",
-   "summary": "CAMBIOS. Fuentes de este diario dicen que se busca un nuevo premier y cambios en otros ministerios. Podrían ingresar personajes históricos del fujimorismo.",
-   "author": "César Romero Calle",
-   "published": "2026-10-27T19:12:50+00:00",
-   "source": "La República",
-   "captured": "2026-10-27T21:08:03+00:00"
-  },
-  {
-   "title": "Luis Galarreta asumirá el Despacho Presidencial durante viajes de Keiko Fujimori a El Salvador y España",
-   "url": "https://larepublica.pe/politica/2026/10/27/luis-galarreta-asumira-el-despacho-presidencial-durante-viajes-de-keiko-fujimori-a-el-salvador-y-espana-hnews-2097306",
-   "summary": "Luis Galarreta quedará a cargo del Despacho Presidencial y Rafael Belaunde de la PCM ante los viajes de Keiko Fujimori a El Salvador y España, programados del 28 al 31 de octubre y del 2 al 6 de noviembre.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-10-27T18:34:22+00:00",
-   "source": "La República",
-   "captured": "2026-10-27T21:08:03+00:00"
-  },
-  {
-   "title": "Keiko Fujimori sobre su gobierno: “El balance vendrá a los 100 días”",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-sobre-su-gobierno-el-balance-vendra-a-los-100-dias-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori remarcó que el balance de su Gobierno se hará a los 100 días de haber iniciado su gestión como mandataria.",
-   "author": "Redacción EC",
-   "published": "2026-10-27T15:48:17+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-27T16:13:37+00:00"
-  },
-  {
-   "title": "Keiko Fujimori: “Estamos golpeando a las organizaciones criminales con el Comando Unificado”",
-   "url": "https://elcomercio.pe/lima/seguridad/keiko-fujimori-estamos-golpeando-a-las-organizaciones-criminales-con-el-comando-unificado-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori, destacó los avances del Comando Unificado en la lucha contra la delincuencia organizada. La jefa de Estado declaró desde una actividad oficial realizada en el distrito de Santa Anita, en Lima.",
-   "author": "Redacción EC",
-   "published": "2026-10-27T15:43:56+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-27T16:13:37+00:00"
-  },
-  {
-   "title": "Lula da Silva responde a Keiko Fujimori tras saludo: \"Podemos fortalecer la integración regional\"",
-   "url": "https://larepublica.pe/politica/2026/10/27/lula-da-silva-responde-a-keiko-fujimori-tras-saludo-podemos-fortalecer-la-integracion-regional-hnews-687879",
-   "summary": "La presidenta peruana y el electo mandatario brasileño coincidieron en impulsar una agenda conjunta con Brasil, con énfasis en el desarrollo sostenible de la Amazonía, a puertas del bicentenario de las relaciones diplomáticas entre ambos países en 2027.",
-   "author": "Mauricio Muñoz",
-   "published": "2026-10-27T15:18:23+00:00",
-   "source": "La República",
-   "captured": "2026-10-27T16:13:37+00:00"
-  },
-  {
-   "title": "Encargan despacho presidencial a Luis Galarreta por viaje de Keiko Fujimori a El Salvador y España",
-   "url": "https://elcomercio.pe/politica/gobierno/encargan-despacho-presidencial-a-luis-galarreta-por-viaje-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
-   "summary": "El Gobierno encargó el despacho de la Presidencia de la República al primer vicepresidente, Luis Fernando Galarreta Velarde, durante los viajes que realizará la presidenta Keiko Fujimori a El Salvador y España entre finales de octubre y los primeros días de noviembre, según la Resolución Suprema Nº 307-2026-PCM, publicada este martes.",
-   "author": "Redacción EC",
-   "published": "2026-10-27T12:56:51+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-27T16:13:37+00:00"
-  },
-  {
-   "title": "Keiko y el momento político interno y externo",
-   "url": "https://elcomercio.pe/opinion/columnistas/keiko-y-el-momento-politico-interno-y-externo-por-ivan-arenas-noticia/",
-   "summary": "Novedades. En el frente interno político hay novedades. Hay un primer atisbo de coalición en ambas cámaras: Fuerza Popular, Renovación Popular y Obras conformarían una alianza que, si se da, le daría estabilidad a un gobierno que ha renunciado a la confrontación abierta y directa.",
-   "author": "Iván Arenas",
-   "published": "2026-10-27T10:00:00+00:00",
-   "source": "El Comercio",
-   "captured": "2026-10-27T10:14:34+00:00"
+   "captured": "2026-10-28T11:02:39+00:00"
   }
  ]
 }

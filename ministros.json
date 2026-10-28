@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T02:02:37+00:00",
+ "generated": "2026-10-28T11:02:39+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,7 +9,30 @@
   "Infobae"
  ],
  "ministers": {
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Ministro Shinno niega que Ley MAPE sea “un Reinfo amplificado”: lo que dejó su presentación en el Congreso",
+    "url": "https://elcomercio.pe/politica/congreso-diputados-guillermo-shinno-del-minem-niega-que-ley-mape-sea-un-reinfo-amplificado-todos-los-detalles-de-lo-que-dejo-su-presentacion-mineria-ilegal-mineria-informal-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-28T11:00:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ley MAPE: así será incentivo para que concesionarios firmen convenios con mineros informales",
+    "url": "https://gestion.pe/economia/ley-mape-asi-sera-incentivo-para-que-concesionarios-firmen-convenios-con-mineros-informales-en-peru-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T01:01:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Vocero alterno de Fuerza Popular sobre posible salida de Luis Galarreta: \"Los rumores no tienen mucho asidero\"",
+    "url": "https://rpp.pe/politica/congreso/luis-galarreta-vocero-alterno-de-fuerza-popular-victor-flores-niega-rumores-sobre-su-posible-salida-en-la-pcm-noticia-1714775",
+    "source": "RPP",
+    "published": "2026-10-27T22:53:22-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori evalúa sacar a Galarreta de la PCM",
     "url": "https://larepublica.pe/politica/2026/10/27/keiko-fujimori-evalua-sacar-a-galarreta-de-la-pcm-hnews-1842399",
@@ -33,6 +56,20 @@
    }
   ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
+    "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T10:30:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
+    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T08:25:08+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Vinelli sobre facultades legislativas delegadas: “En dos a tres semanas empiezan a salir los decretos legislativos”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-facultades-legislativas-delegadas-en-dos-a-tres-semanas-empiezan-a-salir-los-decretos-legislativos-ultimas-apuesplan-noticia/",
@@ -80,6 +117,31 @@
     "matched_in": "summary"
    }
   ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Gobierno busca conocer cuál fue la estrategia inicial de Bukele contra la criminalidad en viaje a El Salvador, dice ministro Álvarez",
+    "url": "https://rpp.pe/politica/gobierno/gobierno-busca-conocer-cual-fue-la-estrategia-inicial-de-bukele-contra-la-criminalidad-en-viaje-a-el-salvador-dice-ministro-alvarez-noticia-1714783",
+    "source": "RPP",
+    "published": "2026-10-27T19:30:25-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Editorial de Gestión: IGV a la carta",
+    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-igv-a-la-carta-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T10:00:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
+    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T08:24:49+00:00",
+    "matched_in": "title"
+   }
+  ],
   "vladimiro-huaroc-portocarrero": [
    {
     "title": "Cámara de Diputados: ministro del Ambiente informará sobre avances frente al cambio climático",
@@ -87,22 +149,6 @@
     "source": "Gestión",
     "published": "2026-10-28T00:31:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ministro del Ambiente se presentará ante la Cámara de Diputados para informar sobre las metas en mitigación del cambio climático",
-    "url": "https://rpp.pe/politica/congreso/ministro-del-ambiente-se-presentara-ante-la-camara-de-diputados-para-informar-sobre-las-metas-en-mitigacion-del-cambio-climatico-noticia-1714727",
-    "source": "RPP",
-    "published": "2026-10-27T16:11:36-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Ley MAPE: así será incentivo para que concesionarios firmen convenios con mineros informales",
-    "url": "https://gestion.pe/economia/ley-mape-asi-sera-incentivo-para-que-concesionarios-firmen-convenios-con-mineros-informales-en-peru-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T01:01:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "juan-carlos-requejo-aleman": [
