@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T11:02:39+00:00",
+ "generated": "2026-10-28T21:31:12+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,25 +14,11 @@
     "title": "Ministro Shinno niega que Ley MAPE sea “un Reinfo amplificado”: lo que dejó su presentación en el Congreso",
     "url": "https://elcomercio.pe/politica/congreso-diputados-guillermo-shinno-del-minem-niega-que-ley-mape-sea-un-reinfo-amplificado-todos-los-detalles-de-lo-que-dejo-su-presentacion-mineria-ilegal-mineria-informal-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-28T11:00:01+00:00",
+    "published": "2026-10-28T21:07:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Ley MAPE: así será incentivo para que concesionarios firmen convenios con mineros informales",
-    "url": "https://gestion.pe/economia/ley-mape-asi-sera-incentivo-para-que-concesionarios-firmen-convenios-con-mineros-informales-en-peru-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T01:01:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Vocero alterno de Fuerza Popular sobre posible salida de Luis Galarreta: \"Los rumores no tienen mucho asidero\"",
-    "url": "https://rpp.pe/politica/congreso/luis-galarreta-vocero-alterno-de-fuerza-popular-victor-flores-niega-rumores-sobre-su-posible-salida-en-la-pcm-noticia-1714775",
-    "source": "RPP",
-    "published": "2026-10-27T22:53:22-05:00",
-    "matched_in": "title"
-   },
    {
     "title": "Keiko Fujimori evalúa sacar a Galarreta de la PCM",
     "url": "https://larepublica.pe/politica/2026/10/27/keiko-fujimori-evalua-sacar-a-galarreta-de-la-pcm-hnews-1842399",
@@ -55,49 +41,21 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "vladimiro-huaroc-portocarrero": [
    {
-    "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
-    "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T10:30:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
-    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T08:25:08+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Vinelli sobre facultades legislativas delegadas: “En dos a tres semanas empiezan a salir los decretos legislativos”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-facultades-legislativas-delegadas-en-dos-a-tres-semanas-empiezan-a-salir-los-decretos-legislativos-ultimas-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-26T14:31:12+00:00",
+    "title": "Ministro del Ambiente informará este jueves ante el Pleno de la Cámara de Diputados los avances en la mitigación del cambio climático",
+    "url": "https://larepublica.pe/politica/2026/10/28/ministro-del-ambiente-informara-este-jueves-ante-el-pleno-de-la-camara-de-diputados-los-avances-en-la-mitigacion-del-cambio-climatico-hnews-616532",
+    "source": "La República",
+    "published": "2026-10-28T14:21:49+00:00",
     "matched_in": "title"
    }
   ],
   "mauricio-fernando-arnillas-gonzalez": [
    {
-    "title": "Ministro de Vivienda ante pedido de reubicación de viviendas por El Niño: “El Estado no puede hacer eso, cada familia tiene que tomar conciencia”",
-    "url": "https://www.infobae.com/peru/2026/10/27/ministro-de-vivienda-ante-pedido-de-reubicacion-de-viviendas-por-el-nino-el-estado-no-puede-hacer-eso-cada-familia-tiene-que-tomar-conciencia/",
-    "source": "Infobae",
-    "published": "2026-10-27T22:06:53+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Mauricio Arnillas descarta reubicar a familias que viven en quebradas ante la llegada del FEN: “El Estado no puede cubrir todo eso”",
     "url": "https://larepublica.pe/politica/2026/10/27/mauricio-arnillas-descarta-reubicar-a-familias-que-viven-en-quebradas-ante-la-llegada-del-fen-el-estado-no-puede-cubrir-todo-eso-hnews-1717956",
     "source": "La República",
     "published": "2026-10-27T22:01:52+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Vivienda descarta reubicación de viviendas en quebradas ante fenómeno El Niño: \"El Estado no puede cubrir todo eso\"",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-mauricio-arnillas-descarta-reubicacion-de-viviendas-que-viven-en-quebradas-ante-fenomeno-el-nino-noticia-1714741",
-    "source": "RPP",
-    "published": "2026-10-27T16:51:40-05:00",
     "matched_in": "title"
    },
    {
@@ -117,56 +75,52 @@
     "matched_in": "summary"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Gobierno busca conocer cuál fue la estrategia inicial de Bukele contra la criminalidad en viaje a El Salvador, dice ministro Álvarez",
-    "url": "https://rpp.pe/politica/gobierno/gobierno-busca-conocer-cual-fue-la-estrategia-inicial-de-bukele-contra-la-criminalidad-en-viaje-a-el-salvador-dice-ministro-alvarez-noticia-1714783",
+    "title": "Ministro de Defensa considera \"pertinente\" que Fiscalía integre el Comando Unificado contra la criminalidad",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-considera-pertinente-que-fiscalia-integre-el-comando-unificado-noticia-1714879",
     "source": "RPP",
-    "published": "2026-10-27T19:30:25-05:00",
+    "published": "2026-10-28T13:38:02-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno alista norma para declarar a organizaciones criminales como grupos hostiles",
+    "url": "https://gestion.pe/peru/gobierno-de-keiko-fujimori-alista-norma-para-declarar-a-organizaciones-criminales-como-grupos-hostiles-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T17:43:35+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
+    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T14:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
+    "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T10:30:00+00:00",
     "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
+    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T13:00:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Editorial de Gestión: IGV a la carta",
     "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-igv-a-la-carta-noticia/",
     "source": "Gestión",
     "published": "2026-10-28T10:00:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
-    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T08:24:49+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "vladimiro-huaroc-portocarrero": [
-   {
-    "title": "Cámara de Diputados: ministro del Ambiente informará sobre avances frente al cambio climático",
-    "url": "https://gestion.pe/peru/politica/camara-de-diputados-ministro-del-ambiente-informara-sobre-avances-frente-al-cambio-climatico-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T00:31:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Produce presentará 17 proyectos de ley al Congreso: ¿qué piden para pesca, industria y mypes?",
-    "url": "https://gestion.pe/economia/produce-presentara-17-proyectos-de-ley-al-congreso-que-piden-para-pesca-industria-y-mypes-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-27T21:53:16+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Minedu publicará a fin de mes el nuevo reglamento de disciplina escolar",
-    "url": "https://gestion.pe/peru/minedu-publicara-a-fin-de-mes-el-nuevo-reglamento-de-disciplina-escolar-afirma-ministro-chang-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-27T18:31:52+00:00",
-    "matched_in": "title"
    }
   ]
  }
