@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T21:08:03+00:00",
+ "generated": "2026-10-28T02:02:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -34,13 +34,6 @@
   ],
   "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
-    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-27T08:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Vinelli sobre facultades legislativas delegadas: “En dos a tres semanas empiezan a salir los decretos legislativos”",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-facultades-legislativas-delegadas-en-dos-a-tres-semanas-empiezan-a-salir-los-decretos-legislativos-ultimas-apuesplan-noticia/",
     "source": "El Comercio",
@@ -48,12 +41,33 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "mauricio-fernando-arnillas-gonzalez": [
    {
-    "title": "Denuncian que jefa del gabinete de asesores del ministro Rafael Belaunde afronta investigación preparatoria por organización criminal",
-    "url": "https://elcomercio.pe/politica/gobierno/rafael-belaunde-denuncian-que-jefa-del-gabinete-de-asesores-del-ministro-de-defensa-afronta-investigacion-preparatoria-por-organizacion-criminal-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-26T01:46:04+00:00",
+    "title": "Ministro de Vivienda ante pedido de reubicación de viviendas por El Niño: “El Estado no puede hacer eso, cada familia tiene que tomar conciencia”",
+    "url": "https://www.infobae.com/peru/2026/10/27/ministro-de-vivienda-ante-pedido-de-reubicacion-de-viviendas-por-el-nino-el-estado-no-puede-hacer-eso-cada-familia-tiene-que-tomar-conciencia/",
+    "source": "Infobae",
+    "published": "2026-10-27T22:06:53+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Mauricio Arnillas descarta reubicar a familias que viven en quebradas ante la llegada del FEN: “El Estado no puede cubrir todo eso”",
+    "url": "https://larepublica.pe/politica/2026/10/27/mauricio-arnillas-descarta-reubicar-a-familias-que-viven-en-quebradas-ante-la-llegada-del-fen-el-estado-no-puede-cubrir-todo-eso-hnews-1717956",
+    "source": "La República",
+    "published": "2026-10-27T22:01:52+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro de Vivienda descarta reubicación de viviendas en quebradas ante fenómeno El Niño: \"El Estado no puede cubrir todo eso\"",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-mauricio-arnillas-descarta-reubicacion-de-viviendas-que-viven-en-quebradas-ante-fenomeno-el-nino-noticia-1714741",
+    "source": "RPP",
+    "published": "2026-10-27T16:51:40-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Familiares de asesinados en protestas del 2023 condicionan reunión con ministro de Vivienda: \"Que pida disculpas por terruquear a Puno\"",
+    "url": "https://larepublica.pe/politica/2026/10/26/familiares-de-asesinados-en-protestas-del-2023-condicionan-reunion-con-ministro-de-vivienda-que-pida-disculpas-por-terruquear-a-puno-hnews-307398",
+    "source": "La República",
+    "published": "2026-10-27T02:34:44+00:00",
     "matched_in": "title"
    }
   ],
@@ -66,12 +80,19 @@
     "matched_in": "summary"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
+  "vladimiro-huaroc-portocarrero": [
    {
-    "title": "Familiares de asesinados en protestas del 2023 condicionan reunión con ministro de Vivienda: \"Que pida disculpas por terruquear a Puno\"",
-    "url": "https://larepublica.pe/politica/2026/10/26/familiares-de-asesinados-en-protestas-del-2023-condicionan-reunion-con-ministro-de-vivienda-que-pida-disculpas-por-terruquear-a-puno-hnews-307398",
-    "source": "La República",
-    "published": "2026-10-27T02:34:44+00:00",
+    "title": "Cámara de Diputados: ministro del Ambiente informará sobre avances frente al cambio climático",
+    "url": "https://gestion.pe/peru/politica/camara-de-diputados-ministro-del-ambiente-informara-sobre-avances-frente-al-cambio-climatico-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-28T00:31:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro del Ambiente se presentará ante la Cámara de Diputados para informar sobre las metas en mitigación del cambio climático",
+    "url": "https://rpp.pe/politica/congreso/ministro-del-ambiente-se-presentara-ante-la-camara-de-diputados-para-informar-sobre-las-metas-en-mitigacion-del-cambio-climatico-noticia-1714727",
+    "source": "RPP",
+    "published": "2026-10-27T16:11:36-05:00",
     "matched_in": "title"
    }
   ],
@@ -80,21 +101,16 @@
     "title": "Ley MAPE: así será incentivo para que concesionarios firmen convenios con mineros informales",
     "url": "https://gestion.pe/economia/ley-mape-asi-sera-incentivo-para-que-concesionarios-firmen-convenios-con-mineros-informales-en-peru-noticia/",
     "source": "Gestión",
-    "published": "2026-10-27T19:18:20+00:00",
+    "published": "2026-10-28T01:01:00+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
    {
-    "title": "Ley MAPE: Minem busca que concesionarios firmen contratos con mineros artesanales: “O la trabajas, o permites este convenio”",
-    "url": "https://rpp.pe/economia/economia/ley-mape-minem-busca-que-concesionarios-firmen-contratos-con-mineros-artesanales-o-la-trabajas-o-permites-este-convenio-noticia-1714700",
-    "source": "RPP",
-    "published": "2026-10-27T12:52:46-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Minem rechaza que proyecto de ley MAPE del Ejecutivo sea una ampliación del Reinfo",
-    "url": "https://gestion.pe/peru/politica/minem-rechaza-que-proyecto-de-ley-mape-del-ejecutivo-sea-una-ampliacion-del-reinfo-noticia/",
+    "title": "Produce presentará 17 proyectos de ley al Congreso: ¿qué piden para pesca, industria y mypes?",
+    "url": "https://gestion.pe/economia/produce-presentara-17-proyectos-de-ley-al-congreso-que-piden-para-pesca-industria-y-mypes-noticia/",
     "source": "Gestión",
-    "published": "2026-10-27T11:50:00+00:00",
+    "published": "2026-10-27T21:53:16+00:00",
     "matched_in": "title"
    }
   ],
@@ -104,22 +120,6 @@
     "url": "https://gestion.pe/peru/minedu-publicara-a-fin-de-mes-el-nuevo-reglamento-de-disciplina-escolar-afirma-ministro-chang-noticia/",
     "source": "Gestión",
     "published": "2026-10-27T18:31:52+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
-    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-27T09:00:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Exportaciones peruanas alcanzan récord de US$ 83,000 millones a septiembre, revela MEF en Inperú",
-    "url": "https://gestion.pe/economia/exportaciones-peruanas-alcanzan-record-de-us-83000-millones-a-septiembre-revela-mef-en-inperu-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-26T20:18:45+00:00",
     "matched_in": "title"
    }
   ]
