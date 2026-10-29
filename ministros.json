@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T11:20:00+00:00",
+ "generated": "2026-10-29T21:35:19+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta: “Todos los ministros estamos abocados a luchar contra la criminalidad y El Niño”",
+    "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-tras-rumores-sobre-su-salida-de-la-pcm-todos-los-ministros-estamos-abocados-a-luchar-contra-la-criminalidad-y-el-nino-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-29T21:00:49+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "José Chlimper niega que vaya a reemplazar a Luis Galarreta y defiende su continuidad en la PCM",
     "url": "https://larepublica.pe/politica/2026/10/28/jose-chlimper-niega-que-vaya-a-reemplazar-a-luis-galarreta-y-defiende-su-continuidad-en-la-pcm-hnews-795676",
@@ -23,26 +30,28 @@
     "source": "El Comercio",
     "published": "2026-10-29T03:58:30+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Keiko Fujimori evalúa sacar a Galarreta de la PCM",
-    "url": "https://larepublica.pe/politica/2026/10/27/keiko-fujimori-evalua-sacar-a-galarreta-de-la-pcm-hnews-1842399",
-    "source": "La República",
-    "published": "2026-10-27T19:12:50+00:00",
+    "title": "José Antonio Chang: retiro de firmas deja sin efecto moción de interpelación al ministro",
+    "url": "https://gestion.pe/peru/jose-antonio-chang-retiro-de-firmas-deja-sin-efecto-mocion-de-interpelacion-al-ministro-de-educacion-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-29T21:08:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Luis Galarreta asumirá el Despacho Presidencial durante viajes de Keiko Fujimori a El Salvador y España",
-    "url": "https://larepublica.pe/politica/2026/10/27/luis-galarreta-asumira-el-despacho-presidencial-durante-viajes-de-keiko-fujimori-a-el-salvador-y-espana-hnews-2097306",
+    "title": "Diputados de Obras, Juntos por el Perú y Ahora Nación retiran sus firmas y se cae interpelación a ministro Chang",
+    "url": "https://larepublica.pe/politica/2026/10/29/diputados-de-obras-juntos-por-el-peru-y-ahora-nacion-retiran-sus-firmas-y-se-cae-interpelacion-a-ministro-chang-hnews-2840956",
     "source": "La República",
-    "published": "2026-10-27T18:34:22+00:00",
+    "published": "2026-10-29T18:53:54+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Encargan despacho presidencial a Luis Galarreta por viaje de Keiko Fujimori a El Salvador y España",
-    "url": "https://elcomercio.pe/politica/gobierno/encargan-despacho-presidencial-a-luis-galarreta-por-viaje-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
+    "title": "José Antonio Chang: Se archiva moción de interpelación contra ministro de Educación por retiro de firmas",
+    "url": "https://elcomercio.pe/politica/congreso/jose-antonio-chang-se-archiva-mocion-de-interpelacion-contra-ministro-de-educacion-por-retiro-de-firmas-de-diputados-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-27T12:56:51+00:00",
+    "published": "2026-10-29T18:13:46+00:00",
     "matched_in": "title"
    }
   ],
@@ -62,16 +71,14 @@
     "matched_in": "title"
    }
   ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Zonas Económicas Especiales Privadas: ¿qué falta para que se implementen en el país?",
-    "url": "https://elcomercio.pe/economia/peru/zonas-economicas-especiales-privadas-que-falta-para-que-se-implementen-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-29T00:46:47+00:00",
-    "matched_in": "summary"
-   }
-  ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Exfuncionarios ligados a Juan José Santiváñez continuan en el Ministerio del Interior bajo conducción de César Astudillo",
+    "url": "https://larepublica.pe/politica/2026/10/29/exfuncionarios-ligados-a-juan-jose-santivanez-continuan-en-el-ministerio-del-interior-bajo-conduccion-de-cesar-astudillo-hnews-776591",
+    "source": "La República",
+    "published": "2026-10-29T19:32:35+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro César Astudillo es denunciado por presuntas irregularidades en contrataciones y designaciones en el Mininter",
     "url": "https://larepublica.pe/politica/2026/10/28/ministro-cesar-astudillo-es-denunciado-por-presuntas-irregularidades-en-contrataciones-y-designaciones-en-el-mininter-hnews-2729300",
@@ -96,15 +103,6 @@
     "source": "La República",
     "published": "2026-10-27T22:01:52+00:00",
     "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Senadora Milagros Jáuregui busca retirar los huacos eróticos de Moche: asegura que 'son dañinos para la infancia'",
-    "url": "https://larepublica.pe/politica/2026/10/27/senadora-milagros-jauregui-busca-retirar-los-huacos-eroticos-de-moche-asegura-que-son-daninos-para-la-infancia-hnews-2034504",
-    "source": "La República",
-    "published": "2026-10-27T14:58:30+00:00",
-    "matched_in": "summary"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
