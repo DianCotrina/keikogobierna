@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T21:31:12+00:00",
+ "generated": "2026-10-29T02:10:38+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "guillermo-shinno-huamani": [
+   {
+    "title": "Proyectos hidroeléctricos vía concesión se retomarán en Perú: este es el plan del Minem",
+    "url": "https://gestion.pe/economia/proyectos-hidroelectricos-via-concesion-se-retomaran-en-peru-el-plan-del-minem-para-avanzar-en-su-promocion-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-29T00:00:50+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Ministro Shinno niega que Ley MAPE sea “un Reinfo amplificado”: lo que dejó su presentación en el Congreso",
     "url": "https://elcomercio.pe/politica/congreso-diputados-guillermo-shinno-del-minem-niega-que-ley-mape-sea-un-reinfo-amplificado-todos-los-detalles-de-lo-que-dejo-su-presentacion-mineria-ilegal-mineria-informal-apuesplan-noticia/",
@@ -38,6 +45,24 @@
     "url": "https://elcomercio.pe/politica/gobierno/encargan-despacho-presidencial-a-luis-galarreta-por-viaje-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
     "source": "El Comercio",
     "published": "2026-10-27T12:56:51+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Zonas Económicas Especiales Privadas: ¿qué falta para que se implementen en el país?",
+    "url": "https://elcomercio.pe/economia/peru/zonas-economicas-especiales-privadas-que-falta-para-que-se-implementen-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-29T00:46:47+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro César Astudillo es denunciado por presuntas irregularidades en contrataciones y designaciones en el Mininter",
+    "url": "https://larepublica.pe/politica/2026/10/28/ministro-cesar-astudillo-es-denunciado-por-presuntas-irregularidades-en-contrataciones-y-designaciones-en-el-mininter-hnews-2729300",
+    "source": "La República",
+    "published": "2026-10-28T23:06:42+00:00",
     "matched_in": "title"
    }
   ],
@@ -77,17 +102,10 @@
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Ministro de Defensa considera \"pertinente\" que Fiscalía integre el Comando Unificado contra la criminalidad",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-considera-pertinente-que-fiscalia-integre-el-comando-unificado-noticia-1714879",
-    "source": "RPP",
-    "published": "2026-10-28T13:38:02-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Gobierno alista norma para declarar a organizaciones criminales como grupos hostiles",
     "url": "https://gestion.pe/peru/gobierno-de-keiko-fujimori-alista-norma-para-declarar-a-organizaciones-criminales-como-grupos-hostiles-noticia/",
     "source": "Gestión",
-    "published": "2026-10-28T17:43:35+00:00",
+    "published": "2026-10-29T00:56:44+00:00",
     "matched_in": "summary"
    }
   ],
@@ -98,13 +116,6 @@
     "source": "Gestión",
     "published": "2026-10-28T14:00:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
-    "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T10:30:00+00:00",
-    "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
@@ -114,13 +125,6 @@
     "source": "Gestión",
     "published": "2026-10-28T13:00:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Editorial de Gestión: IGV a la carta",
-    "url": "https://gestion.pe/opinion/editorial/editorial-de-gestion-igv-a-la-carta-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T10:00:00+00:00",
-    "matched_in": "summary"
    }
   ]
  }
