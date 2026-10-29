@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T02:10:38+00:00",
+ "generated": "2026-10-29T11:20:00+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,23 +9,21 @@
   "Infobae"
  ],
  "ministers": {
-  "guillermo-shinno-huamani": [
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Proyectos hidroeléctricos vía concesión se retomarán en Perú: este es el plan del Minem",
-    "url": "https://gestion.pe/economia/proyectos-hidroelectricos-via-concesion-se-retomaran-en-peru-el-plan-del-minem-para-avanzar-en-su-promocion-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-29T00:00:50+00:00",
+    "title": "José Chlimper niega que vaya a reemplazar a Luis Galarreta y defiende su continuidad en la PCM",
+    "url": "https://larepublica.pe/politica/2026/10/28/jose-chlimper-niega-que-vaya-a-reemplazar-a-luis-galarreta-y-defiende-su-continuidad-en-la-pcm-hnews-795676",
+    "source": "La República",
+    "published": "2026-10-29T04:06:26+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministro Shinno niega que Ley MAPE sea “un Reinfo amplificado”: lo que dejó su presentación en el Congreso",
-    "url": "https://elcomercio.pe/politica/congreso-diputados-guillermo-shinno-del-minem-niega-que-ley-mape-sea-un-reinfo-amplificado-todos-los-detalles-de-lo-que-dejo-su-presentacion-mineria-ilegal-mineria-informal-apuesplan-noticia/",
+    "title": "José Chlimper descarta que vaya a reemplazar a Luis Galarreta en la PCM",
+    "url": "https://elcomercio.pe/politica/gobierno/jose-chlimper-descarta-que-vaya-a-reemplazar-a-luis-galarreta-en-la-presidencia-del-consejo-de-ministros-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-10-28T21:07:00+00:00",
+    "published": "2026-10-29T03:58:30+00:00",
     "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
+   },
    {
     "title": "Keiko Fujimori evalúa sacar a Galarreta de la PCM",
     "url": "https://larepublica.pe/politica/2026/10/27/keiko-fujimori-evalua-sacar-a-galarreta-de-la-pcm-hnews-1842399",
@@ -45,6 +43,22 @@
     "url": "https://elcomercio.pe/politica/gobierno/encargan-despacho-presidencial-a-luis-galarreta-por-viaje-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
     "source": "El Comercio",
     "published": "2026-10-27T12:56:51+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Proyectos hidroeléctricos vía concesión se retomarán en Perú: este es el plan del Minem",
+    "url": "https://gestion.pe/economia/proyectos-hidroelectricos-via-concesion-se-retomaran-en-peru-el-plan-del-minem-para-avanzar-en-su-promocion-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-29T00:00:50+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Shinno niega que Ley MAPE sea “un Reinfo amplificado”: lo que dejó su presentación en el Congreso",
+    "url": "https://elcomercio.pe/politica/congreso-diputados-guillermo-shinno-del-minem-niega-que-ley-mape-sea-un-reinfo-amplificado-todos-los-detalles-de-lo-que-dejo-su-presentacion-mineria-ilegal-mineria-informal-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-28T21:07:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -82,13 +96,6 @@
     "source": "La República",
     "published": "2026-10-27T22:01:52+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Familiares de asesinados en protestas del 2023 condicionan reunión con ministro de Vivienda: \"Que pida disculpas por terruquear a Puno\"",
-    "url": "https://larepublica.pe/politica/2026/10/26/familiares-de-asesinados-en-protestas-del-2023-condicionan-reunion-con-ministro-de-vivienda-que-pida-disculpas-por-terruquear-a-puno-hnews-307398",
-    "source": "La República",
-    "published": "2026-10-27T02:34:44+00:00",
-    "matched_in": "title"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -107,24 +114,6 @@
     "source": "Gestión",
     "published": "2026-10-29T00:56:44+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Agro en Perú “temblaría” más allá del verano 2027 por El Niño: esto alerta el Midagri",
-    "url": "https://gestion.pe/economia/agro-en-peru-temblaria-mas-alla-del-verano-2027-por-el-nino-esto-alerta-el-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T14:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Leyes que elevan gasto del Estado: ¿qué dice el MEF sobre las dos que más preocupan?",
-    "url": "https://gestion.pe/economia/leyes-que-elevan-gasto-del-estado-peruano-que-dice-el-mef-sobre-las-dos-que-mas-preocupan-para-el-bolsillo-del-pais-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-28T13:00:00+00:00",
-    "matched_in": "title"
    }
   ]
  }
