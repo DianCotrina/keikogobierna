@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T21:35:19+00:00",
+ "generated": "2026-10-30T02:25:44+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,27 @@
  ],
  "ministers": {
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta sobre su posible salida de la PCM: \"Yo no comento sobre chismes\"",
+    "url": "https://larepublica.pe/politica/2026/10/29/luis-galarreta-sobre-su-posible-salida-de-la-pcm-yo-no-comento-sobre-chismes-hnews-2138663",
+    "source": "La República",
+    "published": "2026-10-30T02:21:09+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Galarreta respecto a rumores de cambios en la PCM: \"Yo no comento sobre chismes\"",
+    "url": "https://rpp.pe/politica/gobierno/luis-galarreta-descarta-cambios-en-la-pcm-y-prioriza-atencion-por-el-nino-y-seguridad-noticia-1715093",
+    "source": "RPP",
+    "published": "2026-10-29T18:42:29-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Luis Galarreta reitera que Keiko Fujimori traerá de El Salvador el “modelo exitoso” de cárceles de Nayib Bukele",
+    "url": "https://www.infobae.com/peru/2026/10/29/premier-luis-galarreta-reitera-que-keiko-fujimori-traera-de-el-salvador-el-modelo-exitoso-de-carceles-de-nayib-bukele/",
+    "source": "Infobae",
+    "published": "2026-10-29T21:37:32+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Luis Galarreta: “Todos los ministros estamos abocados a luchar contra la criminalidad y El Niño”",
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-tras-rumores-sobre-su-salida-de-la-pcm-todos-los-ministros-estamos-abocados-a-luchar-contra-la-criminalidad-y-el-nino-ultimas-noticia/",
@@ -34,17 +55,17 @@
   ],
   "jose-antonio-chang-escobedo": [
    {
+    "title": "Diputados de Obras, Juntos por el Perú y Ahora Nación retiran sus firmas y se cae interpelación a ministro Chang",
+    "url": "https://larepublica.pe/politica/2026/10/29/diputados-de-obras-juntos-por-el-peru-y-ahora-nacion-retiran-sus-firmas-y-se-cae-interpelacion-a-ministro-chang-hnews-2840956",
+    "source": "La República",
+    "published": "2026-10-29T23:41:21+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "José Antonio Chang: retiro de firmas deja sin efecto moción de interpelación al ministro",
     "url": "https://gestion.pe/peru/jose-antonio-chang-retiro-de-firmas-deja-sin-efecto-mocion-de-interpelacion-al-ministro-de-educacion-noticia/",
     "source": "Gestión",
     "published": "2026-10-29T21:08:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados de Obras, Juntos por el Perú y Ahora Nación retiran sus firmas y se cae interpelación a ministro Chang",
-    "url": "https://larepublica.pe/politica/2026/10/29/diputados-de-obras-juntos-por-el-peru-y-ahora-nacion-retiran-sus-firmas-y-se-cae-interpelacion-a-ministro-chang-hnews-2840956",
-    "source": "La República",
-    "published": "2026-10-29T18:53:54+00:00",
     "matched_in": "title"
    },
    {
@@ -57,13 +78,6 @@
   ],
   "guillermo-shinno-huamani": [
    {
-    "title": "Proyectos hidroeléctricos vía concesión se retomarán en Perú: este es el plan del Minem",
-    "url": "https://gestion.pe/economia/proyectos-hidroelectricos-via-concesion-se-retomaran-en-peru-el-plan-del-minem-para-avanzar-en-su-promocion-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-29T00:00:50+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Shinno niega que Ley MAPE sea “un Reinfo amplificado”: lo que dejó su presentación en el Congreso",
     "url": "https://elcomercio.pe/politica/congreso-diputados-guillermo-shinno-del-minem-niega-que-ley-mape-sea-un-reinfo-amplificado-todos-los-detalles-de-lo-que-dejo-su-presentacion-mineria-ilegal-mineria-informal-apuesplan-noticia/",
     "source": "El Comercio",
@@ -71,7 +85,30 @@
     "matched_in": "title"
    }
   ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Estados Unidos evalúa invertir en cinco proyectos en Perú: ¿qué oportunidades busca impulsar el Gobierno?",
+    "url": "https://elcomercio.pe/economia/peru/estados-unidos-evalua-invertir-en-cinco-proyectos-en-peru-que-oportunidades-busca-impulsar-el-gobierno-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-30T00:36:51+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MEF quiere recurrir al sector privado para terminar proyectos inconclusos: evalúa lanzar “Saldo de Obras por Impuestos”",
+    "url": "https://rpp.pe/economia/economia/mef-quiere-recurrir-al-sector-privado-para-terminar-proyectos-inconclusos-evalua-lanzar-saldo-de-obras-por-impuestos-noticia-1715092",
+    "source": "RPP",
+    "published": "2026-10-29T18:13:47-05:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Comisión de Justicia del Senado reprograma citaciones de ministro César Astudillo y Janet Tello",
+    "url": "https://gestion.pe/peru/politica/comision-de-justicia-del-senado-reprograma-citaciones-de-ministro-cesar-astudillo-y-janet-tello-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-30T01:30:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Exfuncionarios ligados a Juan José Santiváñez continuan en el Ministerio del Interior bajo conducción de César Astudillo",
     "url": "https://larepublica.pe/politica/2026/10/29/exfuncionarios-ligados-a-juan-jose-santivanez-continuan-en-el-ministerio-del-interior-bajo-conduccion-de-cesar-astudillo-hnews-776591",
@@ -94,24 +131,6 @@
     "source": "La República",
     "published": "2026-10-28T14:21:49+00:00",
     "matched_in": "title"
-   }
-  ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Mauricio Arnillas descarta reubicar a familias que viven en quebradas ante la llegada del FEN: “El Estado no puede cubrir todo eso”",
-    "url": "https://larepublica.pe/politica/2026/10/27/mauricio-arnillas-descarta-reubicar-a-familias-que-viven-en-quebradas-ante-la-llegada-del-fen-el-estado-no-puede-cubrir-todo-eso-hnews-1717956",
-    "source": "La República",
-    "published": "2026-10-27T22:01:52+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Gobierno alista norma para declarar a organizaciones criminales como grupos hostiles",
-    "url": "https://gestion.pe/peru/gobierno-de-keiko-fujimori-alista-norma-para-declarar-a-organizaciones-criminales-como-grupos-hostiles-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-29T00:56:44+00:00",
-    "matched_in": "summary"
    }
   ]
  }
