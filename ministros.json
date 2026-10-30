@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T11:12:27+00:00",
+ "generated": "2026-10-30T21:23:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -15,20 +15,6 @@
     "url": "https://larepublica.pe/politica/2026/10/29/luis-galarreta-sobre-su-posible-salida-de-la-pcm-yo-no-comento-sobre-chismes-hnews-2138663",
     "source": "La República",
     "published": "2026-10-30T02:29:20+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta respecto a rumores de cambios en la PCM: \"Yo no comento sobre chismes\"",
-    "url": "https://rpp.pe/politica/gobierno/luis-galarreta-descarta-cambios-en-la-pcm-y-prioriza-atencion-por-el-nino-y-seguridad-noticia-1715093",
-    "source": "RPP",
-    "published": "2026-10-29T18:42:29-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Luis Galarreta reitera que Keiko Fujimori traerá de El Salvador el “modelo exitoso” de cárceles de Nayib Bukele",
-    "url": "https://www.infobae.com/peru/2026/10/29/premier-luis-galarreta-reitera-que-keiko-fujimori-traera-de-el-salvador-el-modelo-exitoso-de-carceles-de-nayib-bukele/",
-    "source": "Infobae",
-    "published": "2026-10-29T21:37:32+00:00",
     "matched_in": "title"
    },
    {
@@ -62,42 +48,10 @@
     "matched_in": "title"
    },
    {
-    "title": "José Antonio Chang: retiro de firmas deja sin efecto moción de interpelación al ministro",
-    "url": "https://gestion.pe/peru/jose-antonio-chang-retiro-de-firmas-deja-sin-efecto-mocion-de-interpelacion-al-ministro-de-educacion-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-29T21:08:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "José Antonio Chang: Se archiva moción de interpelación contra ministro de Educación por retiro de firmas",
     "url": "https://elcomercio.pe/politica/congreso/jose-antonio-chang-se-archiva-mocion-de-interpelacion-contra-ministro-de-educacion-por-retiro-de-firmas-de-diputados-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-29T18:13:46+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Ministro Shinno niega que Ley MAPE sea “un Reinfo amplificado”: lo que dejó su presentación en el Congreso",
-    "url": "https://elcomercio.pe/politica/congreso-diputados-guillermo-shinno-del-minem-niega-que-ley-mape-sea-un-reinfo-amplificado-todos-los-detalles-de-lo-que-dejo-su-presentacion-mineria-ilegal-mineria-informal-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-28T21:07:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Estados Unidos evalúa invertir en cinco proyectos en Perú: ¿qué oportunidades busca impulsar el Gobierno?",
-    "url": "https://elcomercio.pe/economia/peru/estados-unidos-evalua-invertir-en-cinco-proyectos-en-peru-que-oportunidades-busca-impulsar-el-gobierno-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-30T03:09:36+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "MEF quiere recurrir al sector privado para terminar proyectos inconclusos: evalúa lanzar “Saldo de Obras por Impuestos”",
-    "url": "https://rpp.pe/economia/economia/mef-quiere-recurrir-al-sector-privado-para-terminar-proyectos-inconclusos-evalua-lanzar-saldo-de-obras-por-impuestos-noticia-1715092",
-    "source": "RPP",
-    "published": "2026-10-29T18:13:47-05:00",
     "matched_in": "title"
    }
   ],
@@ -124,12 +78,12 @@
     "matched_in": "title"
    }
   ],
-  "vladimiro-huaroc-portocarrero": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Ministro del Ambiente informará este jueves ante el Pleno de la Cámara de Diputados los avances en la mitigación del cambio climático",
-    "url": "https://larepublica.pe/politica/2026/10/28/ministro-del-ambiente-informara-este-jueves-ante-el-pleno-de-la-camara-de-diputados-los-avances-en-la-mitigacion-del-cambio-climatico-hnews-616532",
-    "source": "La República",
-    "published": "2026-10-28T14:21:49+00:00",
+    "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
+    "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-30T17:36:53+00:00",
     "matched_in": "title"
    }
   ]
