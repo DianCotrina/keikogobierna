@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T21:23:21+00:00",
+ "generated": "2026-10-31T02:04:01+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Keiko Fujimori descarta cambios en la PCM y ratifica respaldo a Luis Galarreta",
+    "url": "https://gestion.pe/peru/keiko-fujimori-descarta-cambios-en-la-pcm-y-ratifica-respaldo-a-luis-galarreta-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-31T01:55:40+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori ratificó su respaldo a Luis Galarreta como presidente del Consejo de Ministros: \"Mi confianza es absoluta\"",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-ratifico-su-respaldo-a-luis-galarreta-como-presidente-del-consejo-de-ministros-noticia-1715265",
+    "source": "RPP",
+    "published": "2026-10-30T18:15:13-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Luis Galarreta sobre su posible salida de la PCM: \"Yo no comento sobre chismes\"",
     "url": "https://larepublica.pe/politica/2026/10/29/luis-galarreta-sobre-su-posible-salida-de-la-pcm-yo-no-comento-sobre-chismes-hnews-2138663",
@@ -57,24 +71,19 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Comisión de Justicia del Senado reprograma citaciones de ministro César Astudillo y Janet Tello",
-    "url": "https://gestion.pe/peru/politica/comision-de-justicia-del-senado-reprograma-citaciones-de-ministro-cesar-astudillo-y-janet-tello-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-30T01:30:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Exfuncionarios ligados a Juan José Santiváñez continuan en el Ministerio del Interior bajo conducción de César Astudillo",
     "url": "https://larepublica.pe/politica/2026/10/29/exfuncionarios-ligados-a-juan-jose-santivanez-continuan-en-el-ministerio-del-interior-bajo-conduccion-de-cesar-astudillo-hnews-776591",
     "source": "La República",
     "published": "2026-10-29T19:32:35+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Ministro César Astudillo es denunciado por presuntas irregularidades en contrataciones y designaciones en el Mininter",
-    "url": "https://larepublica.pe/politica/2026/10/28/ministro-cesar-astudillo-es-denunciado-por-presuntas-irregularidades-en-contrataciones-y-designaciones-en-el-mininter-hnews-2729300",
-    "source": "La República",
-    "published": "2026-10-28T23:06:42+00:00",
+    "title": "Ministro Sheput no descartó bono para trabajadores afectados por posible suspensión perfecta de labores ante el fenómeno El Niño",
+    "url": "https://rpp.pe/economia/economia/ministro-sheput-no-descarto-bono-para-trabajadores-afectados-por-posible-suspension-perfecta-de-labores-ante-el-fenomeno-de-el-nino-noticia-1715262",
+    "source": "RPP",
+    "published": "2026-10-30T17:07:06-05:00",
     "matched_in": "title"
    }
   ],
