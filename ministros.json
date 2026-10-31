@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T15:57:33+00:00",
+ "generated": "2026-10-31T20:24:20+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,36 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Ministro Vinelli dice que El Niño actual es \"mucho más peligroso\" que los de 1982 y 1997: ¿qué medidas alista el Gobierno?",
+    "url": "https://rpp.pe/politica/gobierno/marco-vinelli-dice-que-el-nino-actual-es-mucho-mas-peligroso-que-los-de-1982-y-1997-que-medidas-alista-el-gobierno-noticia-1715341",
+    "source": "RPP",
+    "published": "2026-10-31T13:00:51-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Fenómeno El Niño: Marco Vinelli niega desabastecimiento de alimentos y agua en Lima",
+    "url": "https://elcomercio.pe/lima/sucesos/fenomeno-el-nino-marco-vinelli-niega-desabastecimiento-de-alimentos-y-agua-en-lima-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-10-31T16:34:08+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "PJ ordena que ministro Marco Vinelli vaya a juicio por presunta corrupción: Fiscalía pide más de 5 años de prisión",
+    "url": "https://www.infobae.com/peru/2026/10/31/pj-ordena-que-ministro-marco-vinelli-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-mas-de-5-anos-de-prision/",
+    "source": "Infobae",
+    "published": "2026-10-31T14:52:46+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
+    "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-30T17:36:53+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Keiko Fujimori descarta cambios en la PCM y ratifica respaldo a Luis Galarreta",
@@ -45,38 +75,6 @@
     "url": "https://larepublica.pe/politica/2026/10/29/diputados-de-obras-juntos-por-el-peru-y-ahora-nacion-retiran-sus-firmas-y-se-cae-interpelacion-a-ministro-chang-hnews-2840956",
     "source": "La República",
     "published": "2026-10-29T23:41:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "José Antonio Chang: Se archiva moción de interpelación contra ministro de Educación por retiro de firmas",
-    "url": "https://elcomercio.pe/politica/congreso/jose-antonio-chang-se-archiva-mocion-de-interpelacion-contra-ministro-de-educacion-por-retiro-de-firmas-de-diputados-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-29T18:13:46+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Exfuncionarios ligados a Juan José Santiváñez continuan en el Ministerio del Interior bajo conducción de César Astudillo",
-    "url": "https://larepublica.pe/politica/2026/10/29/exfuncionarios-ligados-a-juan-jose-santivanez-continuan-en-el-ministerio-del-interior-bajo-conduccion-de-cesar-astudillo-hnews-776591",
-    "source": "La República",
-    "published": "2026-10-29T19:32:35+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "PJ ordena que ministro Marco Vinelli vaya a juicio por presunta corrupción: Fiscalía pide más de 5 años de prisión",
-    "url": "https://www.infobae.com/peru/2026/10/31/pj-ordena-que-ministro-marco-vinelli-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-mas-de-5-anos-de-prision/",
-    "source": "Infobae",
-    "published": "2026-10-31T14:52:46+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
-    "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-30T17:36:53+00:00",
     "matched_in": "title"
    }
   ]
