@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T10:44:57+00:00",
+ "generated": "2026-10-31T15:57:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,24 +11,17 @@
  "ministers": {
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Keiko Fujimori descarta cambios en la PCM y ratifica respaldo a Luis Galarreta",
+    "url": "https://gestion.pe/peru/keiko-fujimori-descarta-cambios-en-la-pcm-y-ratifica-respaldo-a-luis-galarreta-noticia/",
+    "source": "Gestión",
+    "published": "2026-10-31T13:32:23+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Keiko Fujimori descarta salida de Luis Galarreta de la PCM tras versiones de cambios: \"Es un simple chisme\"",
     "url": "https://www.infobae.com/peru/2026/10/31/keiko-fujimori-descarta-salida-de-luis-galarreta-de-la-pcm-tras-versiones-de-cambios-es-un-simple-chisme/",
     "source": "Infobae",
     "published": "2026-10-31T02:04:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori descarta cambios en la PCM y ratifica respaldo a Luis Galarreta",
-    "url": "https://gestion.pe/peru/keiko-fujimori-descarta-cambios-en-la-pcm-y-ratifica-respaldo-a-luis-galarreta-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-31T01:55:40+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori ratificó su respaldo a Luis Galarreta como presidente del Consejo de Ministros: \"Mi confianza es absoluta\"",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-ratifico-su-respaldo-a-luis-galarreta-como-presidente-del-consejo-de-ministros-noticia-1715265",
-    "source": "RPP",
-    "published": "2026-10-30T18:15:13-05:00",
     "matched_in": "title"
    },
    {
@@ -71,16 +64,14 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Sheput no descartó bono para trabajadores afectados por posible suspensión perfecta de labores ante el fenómeno El Niño",
-    "url": "https://rpp.pe/economia/economia/ministro-sheput-no-descarto-bono-para-trabajadores-afectados-por-posible-suspension-perfecta-de-labores-ante-el-fenomeno-de-el-nino-noticia-1715262",
-    "source": "RPP",
-    "published": "2026-10-30T17:07:06-05:00",
-    "matched_in": "title"
-   }
-  ],
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "PJ ordena que ministro Marco Vinelli vaya a juicio por presunta corrupción: Fiscalía pide más de 5 años de prisión",
+    "url": "https://www.infobae.com/peru/2026/10/31/pj-ordena-que-ministro-marco-vinelli-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-mas-de-5-anos-de-prision/",
+    "source": "Infobae",
+    "published": "2026-10-31T14:52:46+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "El Niño: avances contrarreloj y los riesgos a enfrentar, esto es lo que dice el Midagri",
     "url": "https://gestion.pe/economia/el-nino-avances-contrarreloj-y-los-riesgos-a-enfrentar-en-peru-esto-es-lo-que-dice-marco-vinelli-ministro-del-midagri-noticia/",
