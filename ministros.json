@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T02:04:01+00:00",
+ "generated": "2026-10-31T10:44:57+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Keiko Fujimori descarta salida de Luis Galarreta de la PCM tras versiones de cambios: \"Es un simple chisme\"",
+    "url": "https://www.infobae.com/peru/2026/10/31/keiko-fujimori-descarta-salida-de-luis-galarreta-de-la-pcm-tras-versiones-de-cambios-es-un-simple-chisme/",
+    "source": "Infobae",
+    "published": "2026-10-31T02:04:21+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori descarta cambios en la PCM y ratifica respaldo a Luis Galarreta",
     "url": "https://gestion.pe/peru/keiko-fujimori-descarta-cambios-en-la-pcm-y-ratifica-respaldo-a-luis-galarreta-noticia/",
@@ -36,20 +43,6 @@
     "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-tras-rumores-sobre-su-salida-de-la-pcm-todos-los-ministros-estamos-abocados-a-luchar-contra-la-criminalidad-y-el-nino-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-29T21:00:49+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "José Chlimper niega que vaya a reemplazar a Luis Galarreta y defiende su continuidad en la PCM",
-    "url": "https://larepublica.pe/politica/2026/10/28/jose-chlimper-niega-que-vaya-a-reemplazar-a-luis-galarreta-y-defiende-su-continuidad-en-la-pcm-hnews-795676",
-    "source": "La República",
-    "published": "2026-10-29T04:06:26+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "José Chlimper descarta que vaya a reemplazar a Luis Galarreta en la PCM",
-    "url": "https://elcomercio.pe/politica/gobierno/jose-chlimper-descarta-que-vaya-a-reemplazar-a-luis-galarreta-en-la-presidencia-del-consejo-de-ministros-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-10-29T03:58:30+00:00",
     "matched_in": "title"
    }
   ],
