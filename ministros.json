@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T01:55:45+00:00",
+ "generated": "2026-11-01T11:42:46+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Delegación de facultades: Midagri observa al menos 4 medidas “clave” excluidas, ¿cuáles?",
+    "url": "https://gestion.pe/economia/delegacion-de-facultades-midagri-observa-al-menos-4-medidas-clave-excluidas-cuales-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-01T10:01:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Caso Agro Rural: PJ abre juicio oral contra Marco Vinelli por presunta corrupción y Fiscalía pide más de 5 años de cárcel",
+    "url": "https://larepublica.pe/politica/2026/10/31/caso-agro-rural-pj-abre-juicio-oral-contra-marco-vinelli-por-presunta-corrupcion-y-fiscalia-pide-mas-de-5-anos-de-carcel-hnews-1518163",
+    "source": "La República",
+    "published": "2026-11-01T04:03:03+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "¿Habrá cortes de agua en Lima por El Niño? esto respondió el Gobierno",
     "url": "https://gestion.pe/peru/habra-cortes-de-agua-en-lima-por-el-nino-esto-respondio-el-gobierno-noticia/",
@@ -32,19 +46,21 @@
     "matched_in": "title"
    }
   ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Economías ilegales: políticas desplegadas hasta ahora no han surtido efecto, señala Mindef",
+    "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-01T10:46:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Keiko Fujimori descarta cambios en la PCM y ratifica respaldo a Luis Galarreta",
     "url": "https://gestion.pe/peru/keiko-fujimori-descarta-cambios-en-la-pcm-y-ratifica-respaldo-a-luis-galarreta-noticia/",
     "source": "Gestión",
-    "published": "2026-10-31T13:32:23+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta sobre su posible salida de la PCM: \"Yo no comento sobre chismes\"",
-    "url": "https://larepublica.pe/politica/2026/10/29/luis-galarreta-sobre-su-posible-salida-de-la-pcm-yo-no-comento-sobre-chismes-hnews-2138663",
-    "source": "La República",
-    "published": "2026-10-30T02:29:20+00:00",
+    "published": "2026-11-01T02:33:00+00:00",
     "matched_in": "title"
    }
   ]
