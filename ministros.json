@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T11:42:46+00:00",
+ "generated": "2026-11-01T20:58:02+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,12 +9,42 @@
   "Infobae"
  ],
  "ministers": {
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá viajará a Rusia para obtener información sobre 450 peruanos reclutados para combatir en Ucrania",
+    "url": "https://elcomercio.pe/peru/canciller-carlos-espa-viajara-a-rusia-para-obtener-informacion-sobre-450-peruanos-reclutados-para-combatir-en-ucrania-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-01T20:40:39+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Carlos Espá viaja a Rusia asistir a peruanos reclutados para combatir en la guerra contra Ucrania",
+    "url": "https://www.infobae.com/peru/2026/11/01/carlos-espa-viaja-a-rusia-asistir-a-peruanos-reclutados-para-combatir-en-la-guerra-contra-ucrania/",
+    "source": "Infobae",
+    "published": "2026-11-01T17:23:12+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Espá viajará a Rusia por casos de peruanos involucrados en guerra con Ucrania: “Han sido reclutados con mentiras”",
+    "url": "https://rpp.pe/politica/gobierno/espa-viajara-a-rusia-por-casos-de-peruanos-captados-para-guerra-con-ucrania-han-sido-reclutados-con-mentiras-noticia-1715457",
+    "source": "RPP",
+    "published": "2026-11-01T12:06:26-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller Carlos Espá: “Lamento que haya personas que pretendan dejar de lado las lecciones que hemos compartido con el gobierno de El Salvador”",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-lamento-que-haya-personas-que-pretendan-dejar-de-lado-las-lecciones-que-hemos-compartido-con-el-gobierno-de-el-salvador-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-01T16:21:55+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Delegación de facultades: Midagri observa al menos 4 medidas “clave” excluidas, ¿cuáles?",
     "url": "https://gestion.pe/economia/delegacion-de-facultades-midagri-observa-al-menos-4-medidas-clave-excluidas-cuales-noticia/",
     "source": "Gestión",
-    "published": "2026-11-01T10:01:00+00:00",
+    "published": "2026-11-01T15:39:11+00:00",
     "matched_in": "title"
    },
    {
@@ -37,21 +67,21 @@
     "source": "El Comercio",
     "published": "2026-10-31T16:34:08+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "PJ ordena que ministro Marco Vinelli vaya a juicio por presunta corrupción: Fiscalía pide más de 5 años de prisión",
-    "url": "https://www.infobae.com/peru/2026/10/31/pj-ordena-que-ministro-marco-vinelli-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-mas-de-5-anos-de-prision/",
-    "source": "Infobae",
-    "published": "2026-10-31T14:52:46+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Economías ilegales: políticas desplegadas hasta ahora no han surtido efecto, señala Mindef",
+    "title": "Keiko Fujimori cancela viaje a España por incremento de lluvias en el norte reportado por el Comando FEN para esta noche",
+    "url": "https://www.infobae.com/peru/2026/11/01/keiko-fujimori-cancela-viaje-a-espana-por-incremento-de-lluvias-en-el-norte-reportado-por-el-comando-fen-para-esta-noche/",
+    "source": "Infobae",
+    "published": "2026-11-01T18:41:28+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Mindef: plantas que procesan mineral declaran más del doble de lo que informan las minas",
     "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
     "source": "Gestión",
-    "published": "2026-11-01T10:46:00+00:00",
+    "published": "2026-11-01T16:15:22+00:00",
     "matched_in": "title"
    }
   ],
@@ -61,6 +91,15 @@
     "url": "https://gestion.pe/peru/keiko-fujimori-descarta-cambios-en-la-pcm-y-ratifica-respaldo-a-luis-galarreta-noticia/",
     "source": "Gestión",
     "published": "2026-11-01T02:33:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "vladimiro-huaroc-portocarrero": [
+   {
+    "title": "Reserva de Paracas: Ministerio del Ambiente ratifica protección de áreas naturales protegidas",
+    "url": "https://www.infobae.com/peru/2026/11/01/reserva-de-paracas-ministerio-del-ambiente-ratifica-proteccion-de-areas-naturales-protegidas/",
+    "source": "Infobae",
+    "published": "2026-11-01T17:03:56+00:00",
     "matched_in": "title"
    }
   ]
