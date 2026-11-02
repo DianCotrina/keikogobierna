@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-11-02",
   "items": {
     "t1-1.M01": {
       "status": "no_progress",
@@ -290,7 +290,13 @@
           "date": "2026-08-28",
           "source": "El Peruano — DECRETO SUPREMO N° 121-2026-PCM",
           "url": "https://busquedas.elperuano.pe/dispositivo/NL/2548480-2",
-          "note": "El Decreto Supremo declara por sesenta (60) días calendario el Estado de Emergencia en seis distritos de Madre de Dios — Tambopata, Inambari, Las Piedras, Laberinto, Madre de Dios y Huepetuhe — «para hacer frente a la criminalidad y otras situaciones de violencia», con la Policía Nacional a cargo del orden interno y **acciones de apoyo de las Fuerzas Armadas** (artículo 1). El artículo 5 conforma, dentro de las 24 horas, el **Comando de Coordinación Operativa Unificada (CCO)** junto con los Comités de Coordinación Distrital, de Inteligencia, de Fiscalización y de Comunicación Estratégica, con participación indelegable; el artículo 4 los declara en sesión permanente. Los considerandos precisan el objeto operativo: la Región Policial Madre de Dios ejecuta operaciones «tendientes a combatir y neutralizar la tala y minería ilegal, tráfico ilícito de drogas, delitos conexos y otras situaciones de violencia». Queda en progreso, no cumplida, por dos razones: el compromiso promete comandos mixtos PNP–FF.AA.–**Fiscalía–SUNAT**, y el decreto convoca a la Policía y a las Fuerzas Armadas pero no incorpora al Ministerio Público ni a la SUNAT; y el comando existe mientras dure la emergencia de 60 días, no como órgano permanente de control de la minería ilegal. La zona sí es la comprometida: Madre de Dios es el epicentro de la minería ilegal en el país."
+          "note": "El Decreto Supremo declara por sesenta (60) días calendario el Estado de Emergencia en seis distritos de Madre de Dios — Tambopata, Inambari, Las Piedras, Laberinto, Madre de Dios y Huepetuhe — «para hacer frente a la criminalidad y otras situaciones de violencia», con la Policía Nacional a cargo del orden interno y **acciones de apoyo de las Fuerzas Armadas** (artículo 1). El artículo 5 conforma, dentro de las 24 horas, el **Comando de Coordinación Operativa Unificada (CCO)** junto con los Comités de Coordinación Distrital, de Inteligencia, de Fiscalización y de Comunicación Estratégica, con participación indelegable; el artículo 4 los declara en sesión permanente. Los considerandos precisan el objeto operativo: la Región Policial Madre de Dios ejecuta operaciones «tendientes a combatir y neutralizar la tala y minería ilegal, tráfico ilícito de drogas, delitos conexos y otras situaciones de violencia». Queda en progreso, no cumplida, por dos razones: el compromiso promete comandos mixtos PNP–FF.AA.–**Fiscalía–SUNAT**, y aunque el decreto integra al CCO a un representante de la Presidencia de la Junta de Fiscales Superiores de Madre de Dios (artículo 5.1), la SUNAT no forma parte del comando: participa en los Comités de Inteligencia y de Fiscalización, este último también con el Ministerio Público (artículos 5.1.2 y 5.1.3); y el comando existe mientras dure la emergencia de 60 días, no como órgano permanente de control de la minería ilegal. La zona sí es la comprometida: Madre de Dios es el epicentro de la minería ilegal en el país."
+        },
+        {
+          "date": "2026-10-25",
+          "source": "El Peruano — DECRETO SUPREMO N° 143-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2568124-1",
+          "note": "El Decreto Supremo prorroga por sesenta días, desde el 28 de octubre de 2026, el Estado de Emergencia en seis distritos de Madre de Dios (artículo 1) y, mediante su Disposición Complementaria Modificatoria Única, añade al Decreto Supremo N° 121-2026-PCM el **Comando Unificado PNP-FFAA contra el Crimen Organizado**: una «fuerza de tareas integrada, de carácter temporal, funcional y focalizado», conducida operativamente por la Policía con apoyo de las Fuerzas Armadas, bajo la dirección estratégica del Ministro del Interior, para prevenir, investigar y combatir la criminalidad organizada en esas circunscripciones (artículo 5.2 modificado). Queda en progreso, no cumplida: este comando no integra a la Fiscalía ni a la SUNAT, es temporal y se limita a Madre de Dios."
         }
       ]
     },
@@ -304,9 +310,110 @@
           "note": "El Decreto Supremo crea la Comisión Multisectorial de Alto Nivel para Recuperar la Seguridad y el Orden Público «Perú en Orden», de **naturaleza permanente** y dependiente de la PCM, como «espacio permanente de articulación, coordinación y seguimiento político y estratégico» de las acciones del Ejecutivo contra la criminalidad (artículo 1). La integran el **Presidente del Consejo de Ministros**, quien la preside, y los **ministros del Interior, Defensa y Justicia y Derechos Humanos**, además del de Relaciones Exteriores (artículo 3); supervisa el Eje 1 de la Política General de Gobierno con indicadores y metas, y propone al Consejo de Ministros medidas e iniciativas normativas (artículo 4). Queda en progreso, no cumplida, por dos razones: el compromiso promete un **comando** que integre además al Presidente de la República, al Jefe del INPE, a las FF.AA., a la PNP y a los organismos de inteligencia, y en esta comisión la DINI solo asiste a sesiones ampliadas como invitada (artículo 8), mientras el INPE, las FF.AA. y la PNP no figuran; y la comisión supervisa y coordina, pero no conduce operaciones: el propio decreto menciona un «Comando Unificado contra el Crimen Organizado» ya existente, cuyo seguimiento asume «sin intervenir en su conducción operativa» (artículo 4, literal c)."
         }
       ]
+    },
+    "t2-2.P14": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "source": "El Peruano — DECRETO SUPREMO N° 143-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2568124-1",
+          "note": "El Decreto Supremo prorroga por sesenta días, desde el 28 de octubre de 2026, el Estado de Emergencia en seis distritos de Madre de Dios (artículo 1) y, mediante su Disposición Complementaria Modificatoria Única, añade al Decreto Supremo N° 121-2026-PCM el **Comando Unificado PNP-FFAA contra el Crimen Organizado**: una «fuerza de tareas integrada, de carácter temporal, funcional y focalizado», conducida operativamente por la Policía con apoyo de las Fuerzas Armadas, bajo la dirección estratégica del Ministro del Interior, para prevenir, investigar y combatir la criminalidad organizada en esas circunscripciones (artículo 5.2 modificado). Queda en progreso, no cumplida: este comando no integra a la Fiscalía ni a la SUNAT, es temporal y se limita a Madre de Dios."
+        }
+      ]
+    },
+    "t1-1.P23": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "source": "El Peruano — DECRETO SUPREMO N° 143-2026-PCM",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2568124-1",
+          "note": "El Decreto Supremo prorroga por sesenta días, desde el 28 de octubre de 2026, el Estado de Emergencia en seis distritos de Madre de Dios (artículo 1) y, mediante su Disposición Complementaria Modificatoria Única, añade al Decreto Supremo N° 121-2026-PCM el **Comando Unificado PNP-FFAA contra el Crimen Organizado**: una «fuerza de tareas integrada, de carácter temporal, funcional y focalizado», conducida operativamente por la Policía con apoyo de las Fuerzas Armadas, bajo la dirección estratégica del Ministro del Interior, para prevenir, investigar y combatir la criminalidad organizada en esas circunscripciones (artículo 5.2 modificado). Queda en progreso, no cumplida: este comando no integra a la Fiscalía ni a la SUNAT, es temporal y se limita a Madre de Dios."
+        }
+      ]
+    },
+    "t2-7.C03": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-23",
+          "source": "El Peruano — RESOLUCIÓN MINISTERIAL N° 383-2026-MINCETUR",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2567309-1",
+          "note": "La Resolución Ministerial aprueba el **«Plan Nacional de Orden Turístico 2026-2031»** (artículo 1), que sus considerandos describen como un instrumento de articulación de las intervenciones del Sector Turismo, de alcance nacional y con implementación focalizada en destinos priorizados. Queda en progreso, no cumplida: el compromiso promete la implementación y la norma solo aprueba el plan. El texto de la resolución no menciona a la Policía de Turismo, a Defensa Civil ni a los gobiernos locales, y este registro aún no ha revisado el Anexo que contiene el plan."
+        }
+      ]
+    },
+    "t2-7.P23": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-23",
+          "source": "El Peruano — RESOLUCIÓN MINISTERIAL N° 383-2026-MINCETUR",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2567309-1",
+          "note": "La Resolución Ministerial aprueba el **«Plan Nacional de Orden Turístico 2026-2031»** (artículo 1), que sus considerandos describen como un instrumento de articulación de las intervenciones del Sector Turismo, de alcance nacional y con implementación focalizada en destinos priorizados. Queda en progreso, no cumplida: el compromiso promete la implementación y la norma solo aprueba el plan. El texto de la resolución no menciona a la Policía de Turismo, a Defensa Civil ni a los gobiernos locales, y este registro aún no ha revisado el Anexo que contiene el plan."
+        }
+      ]
+    },
+    "t2-1.C03": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-31",
+          "source": "El Peruano — DECRETO DE URGENCIA N° 015-2026",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2570388-1",
+          "note": "El Decreto de Urgencia autoriza a COFIDE, como fiduciario del Fondo CRECER, a otorgar hasta **S/ 2 000 millones en garantías** para créditos y reprogramaciones a MYPE (artículo 3.1) que desarrollen actividades en departamentos en emergencia por el Fenómeno El Niño (artículo 3.3), y al Banco de la Nación a abrir líneas de crédito a COFIDE para financiar a entidades financieras y cooperativas (Primera Disposición Complementaria Final). Queda en progreso, no cumplida: garantiza y fondea créditos que otorgan esas entidades, con fondos ya existentes y no con un programa nuevo; es temporal, hasta el 30 de abril de 2027; y depende de disposiciones operativas que el MEF debe aprobar en treinta días (artículo 9.1). El decreto no equipara el Fondo CRECER con el «Fondo para el Crecimiento MYPE» del plan: esa lectura es de este registro."
+        }
+      ]
+    },
+    "t2-1.P14": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-31",
+          "source": "El Peruano — DECRETO DE URGENCIA N° 015-2026",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2570388-1",
+          "note": "El Decreto de Urgencia autoriza a COFIDE, como fiduciario del Fondo CRECER, a otorgar hasta **S/ 2 000 millones en garantías** para créditos y reprogramaciones a MYPE (artículo 3.1) que desarrollen actividades en departamentos en emergencia por el Fenómeno El Niño (artículo 3.3), y al Banco de la Nación a abrir líneas de crédito a COFIDE para financiar a entidades financieras y cooperativas (Primera Disposición Complementaria Final). Queda en progreso, no cumplida: garantiza y fondea créditos que otorgan esas entidades, con fondos ya existentes y no con un programa nuevo; es temporal, hasta el 30 de abril de 2027; y depende de disposiciones operativas que el MEF debe aprobar en treinta días (artículo 9.1). El decreto no equipara el Fondo CRECER con el «Fondo para el Crecimiento MYPE» del plan: esa lectura es de este registro."
+        }
+      ]
+    },
+    "t3-1.P18": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-10-31",
+          "source": "El Peruano — DECRETO DE URGENCIA N° 016-2026",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2570388-2",
+          "note": "El Decreto de Urgencia habilita a las entidades del Gobierno Nacional, gobiernos regionales y locales y universidades públicas a ejecutar por **Obras por Impuestos** el mantenimiento correctivo de establecimientos educativos frente al Fenómeno El Niño (artículo 4), incluidas las instalaciones sanitarias y los sistemas de almacenamiento y abastecimiento de agua (artículo 5.3, literal c). Queda en progreso, no cumplida: se limita a ese mantenimiento, no abarca aulas de innovación ni mobiliario, no identifica todavía colegios concretos y vence el 31 de diciembre de 2027 (artículo 12)."
+        }
+      ]
     }
   },
   "log": [
+    {
+      "date": "2026-10-31",
+      "item": "t2-1.C03",
+      "status": "in_progress",
+      "text": "El Gobierno autorizó a COFIDE a otorgar hasta S/ 2 000 millones en garantías del Fondo CRECER para créditos a MYPE en zonas en emergencia por el Fenómeno El Niño, con vigencia hasta abril de 2027."
+    },
+    {
+      "date": "2026-10-31",
+      "item": "t3-1.P18",
+      "status": "in_progress",
+      "text": "El Gobierno habilitó Obras por Impuestos para el mantenimiento correctivo de colegios frente al Fenómeno El Niño, incluidos baños y sistemas de agua."
+    },
+    {
+      "date": "2026-10-25",
+      "item": "t2-2.C03",
+      "status": "in_progress",
+      "text": "Al prorrogar la emergencia en Madre de Dios, el Gobierno añadió un Comando Unificado de la Policía y las Fuerzas Armadas contra el crimen organizado, de carácter temporal."
+    },
+    {
+      "date": "2026-10-23",
+      "item": "t2-7.C03",
+      "status": "in_progress",
+      "text": "MINCETUR aprobó el Plan Nacional de Orden Turístico 2026-2031. Falta su implementación en los destinos."
+    },
     {
       "date": "2026-10-14",
       "item": "t1-1.P19",
