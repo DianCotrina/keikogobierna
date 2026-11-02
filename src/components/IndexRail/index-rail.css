@@ -64,6 +64,33 @@
   flex-shrink: 0;
 }
 
+/* A topic with work under way. Amber and green are the site's status colours;
+   they hold through .is-current so the mark never turns into the scroll cue. */
+.rail-mark {
+  flex-shrink: 0;
+  align-self: center;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.rail-mark--in_progress { color: #A35E00; }
+.rail-mark--fulfilled { color: #1F7A4D; }
+
+.rail-legend {
+  list-style: none;
+  margin: 0.8rem 0 0;
+  padding: 0.65rem 0 0 0.6rem;
+  border-top: 1px dashed rgba(20, 20, 23, 0.2);
+  font-family: Archivo, sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  color: #46464D;
+}
+.rail-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
 /* ---- Desktop margin rail (≥1280px) ---- */
 
 .index-rail {

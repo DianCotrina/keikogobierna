@@ -9,6 +9,7 @@ import {
   loadTracking,
   firstHundredDays,
   firstHundredDaysStats,
+  topicActionMark,
 } from '../lib/plan.mjs';
 
 const plan = loadPlan();
@@ -24,7 +25,11 @@ const indexEntries = groups.map((pillar) => ({
   href: `#pilar-${pillar.index}`,
   label: pillar.name,
   count: pillar.topics.reduce((sum, topic) => sum + topic.actions.length, 0),
-  children: pillar.topics.map((topic) => ({ href: `#dias-${topic.slug}`, label: topic.name })),
+  children: pillar.topics.map((topic) => ({
+    href: `#dias-${topic.slug}`,
+    label: topic.name,
+    mark: topicActionMark(topic.actions),
+  })),
 }));
 
 const title = 'Primeros 100 días — keikogobierna';
