@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T20:58:02+00:00",
+ "generated": "2026-11-02T02:08:42+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,13 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Espá viajará a Rusia para asistir a peruanos reclutados para la guerra con Ucrania",
+    "url": "https://gestion.pe/peru/politica/canciller-espa-viajara-a-rusia-para-asistir-a-peruanos-reclutados-para-la-guerra-con-ucrania-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-02T00:15:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Canciller Carlos Espá viajará a Rusia para obtener información sobre 450 peruanos reclutados para combatir en Ucrania",
     "url": "https://elcomercio.pe/peru/canciller-carlos-espa-viajara-a-rusia-para-obtener-informacion-sobre-450-peruanos-reclutados-para-combatir-en-ucrania-ultimas-noticia/",
@@ -25,13 +32,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Espá viajará a Rusia por casos de peruanos involucrados en guerra con Ucrania: “Han sido reclutados con mentiras”",
-    "url": "https://rpp.pe/politica/gobierno/espa-viajara-a-rusia-por-casos-de-peruanos-captados-para-guerra-con-ucrania-han-sido-reclutados-con-mentiras-noticia-1715457",
-    "source": "RPP",
-    "published": "2026-11-01T12:06:26-05:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Canciller Carlos Espá: “Lamento que haya personas que pretendan dejar de lado las lecciones que hemos compartido con el gobierno de El Salvador”",
     "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-lamento-que-haya-personas-que-pretendan-dejar-de-lado-las-lecciones-que-hemos-compartido-con-el-gobierno-de-el-salvador-ultimas-noticia/",
     "source": "El Comercio",
@@ -44,7 +44,7 @@
     "title": "Delegación de facultades: Midagri observa al menos 4 medidas “clave” excluidas, ¿cuáles?",
     "url": "https://gestion.pe/economia/delegacion-de-facultades-midagri-observa-al-menos-4-medidas-clave-excluidas-cuales-noticia/",
     "source": "Gestión",
-    "published": "2026-11-01T15:39:11+00:00",
+    "published": "2026-11-01T22:45:00+00:00",
     "matched_in": "title"
    },
    {
@@ -69,20 +69,29 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Southern Perú proyecta invertir US$ 10 380 millones en proyectos mineros en cinco regiones, según el Minem",
+    "url": "https://rpp.pe/economia/economia/southern-peru-proyecta-invertir-us-10-380-millones-en-proyectos-mineros-en-cinco-regiones-segun-el-minem-noticia-1715487",
+    "source": "RPP",
+    "published": "2026-11-01T18:47:04-05:00",
+    "matched_in": "title"
+   }
+  ],
   "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Mindef: plantas que procesan mineral declaran más del doble de lo que informan las minas",
+    "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-01T23:32:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Keiko Fujimori cancela viaje a España por incremento de lluvias en el norte reportado por el Comando FEN para esta noche",
     "url": "https://www.infobae.com/peru/2026/11/01/keiko-fujimori-cancela-viaje-a-espana-por-incremento-de-lluvias-en-el-norte-reportado-por-el-comando-fen-para-esta-noche/",
     "source": "Infobae",
     "published": "2026-11-01T18:41:28+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Mindef: plantas que procesan mineral declaran más del doble de lo que informan las minas",
-    "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-01T16:15:22+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -91,6 +100,15 @@
     "url": "https://gestion.pe/peru/keiko-fujimori-descarta-cambios-en-la-pcm-y-ratifica-respaldo-a-luis-galarreta-noticia/",
     "source": "Gestión",
     "published": "2026-11-01T02:33:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput afirma que hay  avances en seguridad y “tranquilidad zonal”, pero no logra identificar dónde",
+    "url": "https://www.infobae.com/peru/2026/11/01/ministro-juan-sheput-afirma-que-hay-avances-en-seguridad-y-tranquilidad-zonal-pero-no-logra-identificar-donde/",
+    "source": "Infobae",
+    "published": "2026-11-01T21:20:45+00:00",
     "matched_in": "title"
    }
   ],
