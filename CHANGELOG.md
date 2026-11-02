@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.16.0](https://github.com/DianCotrina/keikogobierna/compare/v2.15.2...v2.16.0) (2026-11-02)
+
+
+### Features
+
+* mark started topics in the 100-days index ([b7f3b27](https://github.com/DianCotrina/keikogobierna/commit/b7f3b2771df1ee1c10086aa2742c4106c95d2af7))
+* use an hourglass for in-progress topics in the index ([b944f39](https://github.com/DianCotrina/keikogobierna/commit/b944f396c9ca88f4a0c82f812b142e7046f19069))
+
 ## [2.15.2](https://github.com/DianCotrina/keikogobierna/compare/v2.15.1...v2.15.2) (2026-11-02)
 
 
