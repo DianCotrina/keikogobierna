@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T02:08:42+00:00",
+ "generated": "2026-11-02T13:11:14+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -15,13 +15,6 @@
     "url": "https://gestion.pe/peru/politica/canciller-espa-viajara-a-rusia-para-asistir-a-peruanos-reclutados-para-la-guerra-con-ucrania-noticia/",
     "source": "Gestión",
     "published": "2026-11-02T00:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Canciller Carlos Espá viajará a Rusia para obtener información sobre 450 peruanos reclutados para combatir en Ucrania",
-    "url": "https://elcomercio.pe/peru/canciller-carlos-espa-viajara-a-rusia-para-obtener-informacion-sobre-450-peruanos-reclutados-para-combatir-en-ucrania-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-01T20:40:39+00:00",
     "matched_in": "title"
    },
    {
@@ -55,17 +48,19 @@
     "matched_in": "title"
    },
    {
-    "title": "¿Habrá cortes de agua en Lima por El Niño? esto respondió el Gobierno",
-    "url": "https://gestion.pe/peru/habra-cortes-de-agua-en-lima-por-el-nino-esto-respondio-el-gobierno-noticia/",
-    "source": "Gestión",
-    "published": "2026-10-31T22:05:09+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Fenómeno El Niño: Marco Vinelli niega desabastecimiento de alimentos y agua en Lima",
     "url": "https://elcomercio.pe/lima/sucesos/fenomeno-el-nino-marco-vinelli-niega-desabastecimiento-de-alimentos-y-agua-en-lima-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-10-31T16:34:08+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Equipos técnicos buscan una salida para poder edificar un penal de máxima seguridad en un año, dice Ernesto Álvarez",
+    "url": "https://rpp.pe/politica/gobierno/minjus-evalua-construccion-modular-de-penal-de-maxima-seguridad-en-un-ano-noticia-1715507",
+    "source": "RPP",
+    "published": "2026-11-01T23:44:56-05:00",
     "matched_in": "title"
    }
   ],
@@ -83,7 +78,7 @@
     "title": "Mindef: plantas que procesan mineral declaran más del doble de lo que informan las minas",
     "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
     "source": "Gestión",
-    "published": "2026-11-01T23:32:00+00:00",
+    "published": "2026-11-02T11:50:00+00:00",
     "matched_in": "title"
    },
    {
