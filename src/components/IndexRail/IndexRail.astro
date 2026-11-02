@@ -1,9 +1,13 @@
 ---
 import './index-rail.css';
+import RailMark from './RailMark.astro';
+
+type Mark = 'in_progress' | 'fulfilled';
 
 interface IndexChild {
   href: string;
   label: string;
+  mark?: Mark;
 }
 
 interface IndexEntry {
@@ -18,6 +22,12 @@ interface Props {
 }
 
 const { entries } = Astro.props;
+
+// A check alone reads as "done", so the rail spells out what each colour means,
+// but only for the marks actually on the page.
+const marks = entries.flatMap((entry) => entry.children ?? []).map((child) => child.mark);
+const legend = (['in_progress', 'fulfilled'] as const).filter((mark) => marks.includes(mark));
+const legendText: Record<Mark, string> = { in_progress: 'En progreso', fulfilled: 'Cumplido' };
 ---
 
 {/* Desktop margin rail */}
@@ -34,7 +44,7 @@ const { entries } = Astro.props;
           <ul class="rail-children">
             {entry.children.map((child) => (
               <li>
-                <a href={child.href} data-target={child.href.slice(1)} class="rail-link rail-link--child">{child.label}</a>
+                <a href={child.href} data-target={child.href.slice(1)} class="rail-link rail-link--child"><span>{child.label}</span>{child.mark && <RailMark mark={child.mark} />}</a>
               </li>
             ))}
           </ul>
@@ -42,6 +52,11 @@ const { entries } = Astro.props;
       </li>
     ))}
   </ol>
+  {legend.length > 0 && (
+    <ul class="rail-legend">
+      {legend.map((mark) => <li><RailMark mark={mark} decorative /> {legendText[mark]}</li>)}
+    </ul>
+  )}
 </nav>
 
 {/* Mobile floating chip */}
@@ -74,7 +89,7 @@ const { entries } = Astro.props;
             <ul class="rail-children">
               {entry.children.map((child) => (
                 <li>
-                  <a href={child.href} data-target={child.href.slice(1)} class="rail-link rail-link--child">{child.label}</a>
+                  <a href={child.href} data-target={child.href.slice(1)} class="rail-link rail-link--child"><span>{child.label}</span>{child.mark && <RailMark mark={child.mark} />}</a>
                 </li>
               ))}
             </ul>
@@ -82,6 +97,11 @@ const { entries } = Astro.props;
         </li>
       ))}
     </ol>
+    {legend.length > 0 && (
+      <ul class="rail-legend">
+        {legend.map((mark) => <li><RailMark mark={mark} decorative /> {legendText[mark]}</li>)}
+      </ul>
+    )}
   </div>
 </dialog>
 

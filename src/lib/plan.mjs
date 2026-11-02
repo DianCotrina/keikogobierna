@@ -156,6 +156,16 @@ export function firstHundredDaysStats(topics, tracking) {
   return { total, byStatus };
 }
 
+// The mark a topic carries in the 100-days índice. A check means work has
+// started, so an unfulfilled action never earns one, and in-progress wins over
+// fulfilled because the topic still has work open.
+export function topicActionMark(actions) {
+  const statuses = new Set(actions.map((action) => action.status));
+  if (statuses.has('in_progress')) return 'in_progress';
+  if (statuses.has('fulfilled')) return 'fulfilled';
+  return undefined;
+}
+
 // Certified (fulfilled) proposals and 100-days actions with their evidence,
 // in plan order, for the registro de cumplidas. Goals (.M items) never appear
 // here — they are covered by the headline goal stats.

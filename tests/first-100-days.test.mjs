@@ -1,4 +1,4 @@
-import { test } from 'node:test';
+import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   loadPlan,
@@ -6,6 +6,7 @@ import {
   loadTracking,
   firstHundredDays,
   firstHundredDaysStats,
+  topicActionMark,
 } from '../src/lib/plan.mjs';
 import { STATUSES } from '../src/lib/statuses.mjs';
 
@@ -55,4 +56,28 @@ test('every action across the grouping sums to 67', () => {
     0,
   );
   assert.equal(total, 67);
+});
+
+describe('topicActionMark', () => {
+  const actions = (...statuses) => statuses.map((status) => ({ status }));
+
+  test('no mark until something has started', () => {
+    assert.equal(topicActionMark(actions('no_progress', 'no_progress')), undefined);
+  });
+
+  test('an unfulfilled action does not earn a check', () => {
+    assert.equal(topicActionMark(actions('unfulfilled', 'no_progress')), undefined);
+  });
+
+  test('in progress when any action is in progress', () => {
+    assert.equal(topicActionMark(actions('no_progress', 'in_progress')), 'in_progress');
+  });
+
+  test('in progress wins over fulfilled: the topic still has work open', () => {
+    assert.equal(topicActionMark(actions('fulfilled', 'in_progress')), 'in_progress');
+  });
+
+  test('fulfilled when that is the only started status', () => {
+    assert.equal(topicActionMark(actions('fulfilled', 'no_progress')), 'fulfilled');
+  });
 });
