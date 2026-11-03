@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T12:38:57+00:00",
+ "generated": "2026-11-03T22:13:15+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,22 +9,27 @@
   "Infobae"
  ],
  "ministers": {
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Canciller Carlos Espá: “Lamento que haya personas que pretendan dejar de lado las lecciones que hemos compartido con el gobierno de El Salvador”",
-    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-lamento-que-haya-personas-que-pretendan-dejar-de-lado-las-lecciones-que-hemos-compartido-con-el-gobierno-de-el-salvador-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-01T16:21:55+00:00",
+    "title": "Ministro Sheput: “En la Sunafil hay una serie de petitorios de suspensión perfecta”",
+    "url": "https://gestion.pe/economia/management-empleo/ministro-de-trabajo-juan-sheput-en-la-sunafil-hay-una-serie-de-petitorios-de-suspension-perfecta-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-03T21:12:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
+   },
    {
-    "title": "Comisión de Presupuesto aprueba predictamen de la Ley de Endeudamiento y Equilibrio Fiscal, pero reanudará sesión este martes, ¿qué faltó?",
-    "url": "https://elcomercio.pe/economia/peru/comision-de-presupuesto-aprueba-predictamen-de-la-ley-de-presupuesto-pero-reanudara-sesion-este-martes-03-de-noviembre-que-falto-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-02T22:23:02+00:00",
+    "title": "Inician obras en la Torre Trecca de EsSalud: “estará lista en 18 meses”, dice Keiko Fujimori",
+    "url": "https://gestion.pe/peru/politica/inician-obras-y-modernizacion-del-proyecto-en-la-torre-trecca-de-essalud-estara-lista-en-18-meses-dice-keiko-fujimori-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-03T20:32:00+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Ministro Juan Sheput cuestiona a diputados que dicen que el Gobierno no ha hecho nada: “Eso no es política, eso es mala fe”",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-cuestiona-a-diputados-que-dicen-que-el-gobierno-no-ha-hecho-nada-eso-no-es-politica-eso-es-mala-fe-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-03T15:05:38+00:00",
+    "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
@@ -34,24 +39,6 @@
     "source": "La República",
     "published": "2026-11-02T15:46:05+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "\"Cada vez que llueve se inundan las ciudades\": ministro Belaúnde advierte que Tumbes y Piura carecen de sistema de drenaje completo y eficiente",
-    "url": "https://rpp.pe/politica/gobierno/fenomeno-de-el-nino-ministro-belaunde-advierte-que-tumbes-y-piura-carecen-de-un-sistema-de-drenaje-completo-y-eficiente-noticia-1715675",
-    "source": "RPP",
-    "published": "2026-11-02T22:51:05-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "vladimiro-huaroc-portocarrero": [
-   {
-    "title": "Minam afirma que se ha expulsado al 95% de mineros ilegales de áreas protegidas",
-    "url": "https://gestion.pe/peru/politica/minam-afirma-que-se-ha-expulsado-al-95-de-mineros-ilegales-de-areas-protegidas-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-03T00:30:00+00:00",
-    "matched_in": "title"
    }
   ]
  }
