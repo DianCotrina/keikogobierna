@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T23:48:10+00:00",
+ "generated": "2026-11-03T12:38:57+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -34,12 +34,14 @@
     "source": "La República",
     "published": "2026-11-02T15:46:05+00:00",
     "matched_in": "summary"
-   },
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Caso Agro Rural: PJ abre juicio oral contra Marco Vinelli por presunta corrupción y Fiscalía pide más de 5 años de cárcel",
-    "url": "https://larepublica.pe/politica/2026/10/31/caso-agro-rural-pj-abre-juicio-oral-contra-marco-vinelli-por-presunta-corrupcion-y-fiscalia-pide-mas-de-5-anos-de-carcel-hnews-1518163",
-    "source": "La República",
-    "published": "2026-11-01T04:03:03+00:00",
+    "title": "\"Cada vez que llueve se inundan las ciudades\": ministro Belaúnde advierte que Tumbes y Piura carecen de sistema de drenaje completo y eficiente",
+    "url": "https://rpp.pe/politica/gobierno/fenomeno-de-el-nino-ministro-belaunde-advierte-que-tumbes-y-piura-carecen-de-un-sistema-de-drenaje-completo-y-eficiente-noticia-1715675",
+    "source": "RPP",
+    "published": "2026-11-02T22:51:05-05:00",
     "matched_in": "title"
    }
   ],
@@ -48,16 +50,7 @@
     "title": "Minam afirma que se ha expulsado al 95% de mineros ilegales de áreas protegidas",
     "url": "https://gestion.pe/peru/politica/minam-afirma-que-se-ha-expulsado-al-95-de-mineros-ilegales-de-areas-protegidas-noticia/",
     "source": "Gestión",
-    "published": "2026-11-02T21:20:25+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Mindef: plantas que procesan mineral declaran más del doble de lo que informan las minas",
-    "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-02T11:50:00+00:00",
+    "published": "2026-11-03T00:30:00+00:00",
     "matched_in": "title"
    }
   ]
