@@ -1,0 +1,41 @@
+/* Same footprint as the buscador and menu triggers it sits beside. */
+.theme-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.125rem;
+  height: 2.125rem;
+  border: 1px solid rgb(var(--ink) / 0.14);
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, var(--color-hoja) 60%, transparent);
+  color: var(--color-tintasuave);
+  overflow: hidden;
+  transition: transform 0.18s var(--ease-spring), border-color 0.18s, color 0.18s;
+}
+.theme-toggle[hidden] { display: none; }
+.theme-toggle:hover {
+  color: var(--color-tinta);
+  border-color: rgb(var(--ink) / 0.3);
+  transform: translateY(-1px);
+}
+.theme-toggle:focus-visible { outline: 2px solid var(--color-rojo); outline-offset: 2px; }
+.theme-toggle:active { transform: translateY(0) scale(0.96); }
+
+/* The two icons sit on one wheel and turn over, like the hourglass in the índice. */
+.theme-icon {
+  position: absolute;
+  width: 1.125rem;
+  height: 1.125rem;
+  transform-origin: 50% 160%;
+  transition: transform 0.5s var(--ease-spring), opacity 0.2s ease;
+}
+/* The icon shows the theme a click will switch to. */
+.theme-icon--sun { transform: rotate(90deg); opacity: 0; }
+:root[data-theme='dark'] .theme-icon--sun { transform: rotate(0deg); opacity: 1; }
+:root[data-theme='dark'] .theme-icon--moon { transform: rotate(-90deg); opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle,
+  .theme-icon { transition: none; }
+}

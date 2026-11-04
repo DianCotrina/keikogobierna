@@ -25,7 +25,7 @@ function limaToday(): string {
 function card(article: Article): HTMLElement {
   const source = article.source ?? DEFAULT_SOURCE;
   const el = document.createElement('article');
-  el.className = 'ultimitas-card bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7';
+  el.className = 'ultimitas-card bg-hoja rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7';
   el.dataset.source = source;
 
   const head = document.createElement('div');

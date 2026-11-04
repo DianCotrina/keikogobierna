@@ -124,14 +124,14 @@ const description = 'Las fuentes oficiales del seguimiento: el plan de gobierno 
       <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
         Fuentes
         <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
-          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
         </svg>
       </h1>
       <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">Todo lo que este sitio afirma proviene de documentos públicos. Aquí está el plan original, las fuentes que los rastreadores leen a diario y las que una persona consulta antes de certificar.</p>
     </section>
 
     <!-- Sources -->
-    <section class="border-t border-tinta/10 bg-white/40">
+    <section class="border-t border-tinta/10 bg-hoja/40">
       <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
         {sections.map((section, index) => (
           <div class:list={[{ 'mt-12 sm:mt-14': index > 0 }]}>
@@ -141,7 +141,7 @@ const description = 'Las fuentes oficiales del seguimiento: el plan de gobierno 
             </div>
             <ul class="mt-6 space-y-6">
               {section.sources.map((source) => (
-                <li class="reveal bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+                <li class="reveal bg-hoja rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
                   <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">{source.org}</p>
                   <h3 class="font-sans font-bold text-lg mt-1.5">{source.name}</h3>
                   <p class="mt-2 text-sm leading-[1.7] text-tintasuave">{source.verifies}</p>

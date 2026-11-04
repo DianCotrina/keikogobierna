@@ -8,11 +8,11 @@
   background: transparent;
   width: min(92vw, 21rem);
   max-height: 92vh;
-  color: #141417;
+  color: var(--color-tinta);
   overflow: visible;
 }
 .donate-dialog::backdrop {
-  background: rgba(20, 20, 23, 0.55);
+  background: rgb(var(--shade) / 0.55);
 }
 
 /* Outer wrapper carries the drop shadow and rounds the corners. */
@@ -20,8 +20,13 @@
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(20,20,23,0.1), 0 18px 44px rgba(20,20,23,0.2), 0 44px 88px -40px rgba(20,20,23,0.4);
+  box-shadow: 0 2px 4px rgb(var(--shade) / 0.1), 0 18px 44px rgb(var(--shade) / 0.2), 0 44px 88px -40px rgb(var(--shade) / 0.4);
 }
+
+/* PayPal's navy mark has no contrast on the dark pill, so there it sits on the
+   white tile its brand uses. */
+.donate-icon--paypal { background: transparent; }
+:root[data-theme='dark'] .donate-icon--paypal { background: #fff; }
 
 /* The ticket: two panels split by a perforated seam.
  *
@@ -42,7 +47,7 @@
   position: relative;
   box-sizing: border-box;
   height: var(--seam, 150px);
-  background: #F5F3EE;
+  background: var(--color-papel);
   padding: 1.7rem 1.5rem 1rem;
   text-align: center;
 }
@@ -50,7 +55,7 @@
 .ticket-bottom {
   position: relative;
   text-align: center;
-  border-top: 2px dashed rgba(20, 20, 23, 0.18);
+  border-top: 2px dashed rgb(var(--ink) / 0.18);
 }
 .ticket-bottom--paypal {
   background: linear-gradient(158deg, #0079C1 0%, #002E7A 100%);
@@ -77,13 +82,13 @@
   justify-content: center;
   border: 0;
   background: transparent;
-  color: #46464D;
+  color: var(--color-tintasuave);
   border-radius: 9999px;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.2s var(--ease-spring);
   z-index: 2;
 }
-.donate-close:hover { background: rgba(20, 20, 23, 0.06); }
+.donate-close:hover { background: rgb(var(--ink) / 0.06); }
 .donate-close:active { transform: scale(0.94); }
 
 .donate-eyebrow {
@@ -92,7 +97,7 @@
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #46464D;
+  color: var(--color-tintasuave);
 }
 .donate-title {
   font-family: 'Archivo Black', Archivo, sans-serif;
@@ -105,7 +110,7 @@
   font-family: 'Source Serif 4', Georgia, serif;
   font-size: 0.88rem;
   line-height: 1.55;
-  color: #46464D;
+  color: var(--color-tintasuave);
   margin: 0.5rem auto 0;
   max-width: 16rem;
 }

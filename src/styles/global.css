@@ -9,6 +9,7 @@
 @theme {
   --color-papel: #F5F3EE;
   --color-carton: #ECE9E1;
+  --color-hoja: #FFFFFF;
   --color-tinta: #141417;
   --color-tintasuave: #46464D;
   --color-tintafina: #8E8E96;
@@ -16,27 +17,58 @@
   --color-verde: #1F7A4D;
   --color-ambar: #A35E00;
   --color-plomo: #6B6F7B;
+  --color-morado: #742384;
 
   --font-display: "Archivo Black", Archivo, sans-serif;
   --font-sans: Archivo, sans-serif;
   --font-serif: "Source Serif 4", Georgia, serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
-  --shadow-card: 0 1px 2px rgba(20,20,23,0.06), 0 8px 24px rgba(20,20,23,0.10), 0 32px 64px -32px rgba(20,20,23,0.22);
-  --shadow-lift: 0 2px 4px rgba(20,20,23,0.08), 0 16px 40px rgba(20,20,23,0.14), 0 40px 80px -40px rgba(20,20,23,0.28);
-  --shadow-chip: 0 1px 0 rgba(20,20,23,0.10);
+  --shadow-card: 0 1px 2px rgb(var(--shade) / 0.06), 0 8px 24px rgb(var(--shade) / 0.10), 0 32px 64px -32px rgb(var(--shade) / 0.22);
+  --shadow-lift: 0 2px 4px rgb(var(--shade) / 0.08), 0 16px 40px rgb(var(--shade) / 0.14), 0 40px 80px -40px rgb(var(--shade) / 0.28);
+  --shadow-chip: 0 1px 0 rgb(var(--shade) / 0.10);
 }
 
-:root { --ease-spring: cubic-bezier(0.22, 1, 0.36, 1); }
+:root {
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+  /* Channels for alpha tints. --ink follows the text colour, so hairlines and
+     hover washes flip with the theme; --shade is always dark, for shadows and
+     modal backdrops, which must never turn into a glow. */
+  --ink: 20 20 23;
+  --shade: 20 20 23;
+  --grain-opacity: 0.35;
+}
+
+/* Carbon paper: the same two materials with the ink and the page traded. The
+   blue in the black comes from carbon sheets, and the ink is the paper's own
+   tone so the two themes read as one document. Status colours are lifted until
+   they clear 4.5:1 on the raised surface. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-papel: #17181E;
+  --color-carton: #1F2027;
+  --color-hoja: #23252D;
+  --color-tinta: #EEEBE3;
+  --color-tintasuave: #BDBBB5;
+  --color-tintafina: #9C9CA4;
+  --color-rojo: #F2596C;
+  --color-verde: #5CC796;
+  --color-ambar: #E8A64A;
+  --color-plomo: #A0A4B0;
+  --color-morado: #CF8FE0;
+  --ink: 238 235 227;
+  --shade: 0 0 0;
+  --grain-opacity: 0.5;
+}
 
 html { scroll-behavior: smooth; }
 html, body { overflow-x: clip; }
 body {
-  background-color: #F5F3EE;
+  background-color: var(--color-papel);
   background-image:
-    radial-gradient(1200px 600px at 85% -10%, rgba(20,20,23,0.07), transparent 60%),
-    radial-gradient(900px 500px at -10% 30%, rgba(200,16,46,0.045), transparent 55%),
-    radial-gradient(700px 700px at 50% 110%, rgba(20,20,23,0.05), transparent 60%);
+    radial-gradient(1200px 600px at 85% -10%, rgb(var(--ink) / 0.07), transparent 60%),
+    radial-gradient(900px 500px at -10% 30%, color-mix(in srgb, var(--color-rojo) 4.5%, transparent), transparent 55%),
+    radial-gradient(700px 700px at 50% 110%, rgb(var(--ink) / 0.05), transparent 60%);
 }
 
 /* Paper grain */
@@ -46,8 +78,24 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: 50;
-  opacity: 0.35;
+  opacity: var(--grain-opacity);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.08 0 0 0 0 0.09 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Dark specks vanish on the carbon, so the grain turns to pale fibres. */
+:root[data-theme='dark'] .grain::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.93 0 0 0 0 0.92 0 0 0 0 0.89 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* The palace is printed into the page: multiply on paper, and on carbon the
+   same plate has to add light or it disappears into the black. */
+.hero-engraving {
+  mix-blend-mode: multiply;
+  filter: grayscale(1) brightness(1.35) contrast(1.25);
+}
+:root[data-theme='dark'] .hero-engraving {
+  mix-blend-mode: screen;
+  filter: grayscale(1) brightness(0.8) contrast(1.2);
 }
 
 /* Pen-stroke underline draws itself on load */
@@ -97,19 +145,19 @@ body {
 /* Interactive states */
 a, button { transition: transform 0.25s var(--ease-spring), box-shadow 0.25s var(--ease-spring), background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease; }
 a:focus-visible, button:focus-visible, input:focus-visible {
-  outline: 2px solid #141417;
+  outline: 2px solid var(--color-tinta);
   outline-offset: 3px;
   border-radius: 2px;
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 2px 4px rgba(20,20,23,0.15), 0 12px 28px rgba(20,20,23,0.28); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 2px 4px rgb(var(--shade) / 0.15), 0 12px 28px rgb(var(--shade) / 0.28); }
 .btn-primary:active { transform: translateY(0) scale(0.98); }
-.btn-ghost:hover { background-color: rgba(20,20,23,0.06); transform: translateY(-2px); }
+.btn-ghost:hover { background-color: rgb(var(--ink) / 0.06); transform: translateY(-2px); }
 .btn-ghost:active { transform: translateY(0) scale(0.98); }
 /* Boxed geometry for page CTAs; compose with .btn-ghost for hover/active.
    (.btn-ghost alone stays a behavior-only primitive — the Donate share
    button uses it with its own circular geometry.) */
 .btn-outline {
-  border: 1.5px solid rgba(20, 20, 23, 0.25);
+  border: 1.5px solid rgb(var(--ink) / 0.25);
   padding: 0.75rem 1.5rem;
   border-radius: 0.25rem;
   font-family: Archivo, sans-serif;
@@ -121,7 +169,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   position: absolute;
   left: 0; right: 100%; bottom: -3px;
   height: 2px;
-  background: #141417;
+  background: var(--color-tinta);
   transition: right 0.3s var(--ease-spring);
 }
 .nav-link:hover::after { right: 0; }
@@ -130,8 +178,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
    chip treatment: generous hit area, rojo accent, fills solid on hover/focus
    and while on the page (aria-current). */
 .nav-chip {
-  border: 1.5px solid rgba(200, 16, 46, 0.45);
-  color: #C8102E;
+  border: 1.5px solid color-mix(in srgb, var(--color-rojo) 45%, transparent);
+  color: var(--color-rojo);
   font-weight: 600;
   border-radius: 9999px;
   padding: 0.35rem 0.9rem;
@@ -141,13 +189,13 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .nav-chip:hover,
 .nav-chip:focus-visible,
 .nav-chip[aria-current='page'] {
-  background: #C8102E;
-  border-color: #C8102E;
-  color: #F5F3EE;
+  background: var(--color-rojo);
+  border-color: var(--color-rojo);
+  color: var(--color-papel);
 }
 .nav-chip:hover { transform: translateY(-1px); }
 .nav-chip:active { transform: scale(0.97); }
-.card-hover:hover { transform: translateY(-4px); box-shadow: 0 2px 4px rgba(20,20,23,0.08), 0 16px 40px rgba(20,20,23,0.14), 0 40px 80px -40px rgba(20,20,23,0.28); }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 2px 4px rgb(var(--shade) / 0.08), 0 16px 40px rgb(var(--shade) / 0.14), 0 40px 80px -40px rgb(var(--shade) / 0.28); }
 .donate-icon:hover { transform: translateY(-2px) scale(1.06); }
 .donate-icon:active { transform: scale(0.96); }
 
@@ -155,8 +203,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
    is the hit area: the tint fills it edge to edge and the arrow leads the eye
    out to the tema page. The outline is inset because the list is clipped to
    its card — the shared `a:focus-visible` offset would be cut off there. */
-.log-row:hover { background-color: rgba(20, 20, 23, 0.04); }
-.log-row:active { background-color: rgba(20, 20, 23, 0.075); }
+.log-row:hover { background-color: rgb(var(--ink) / 0.04); }
+.log-row:active { background-color: rgb(var(--ink) / 0.075); }
 .log-row:focus-visible { outline-offset: -3px; }
 .log-topic { transition: color 0.2s ease; }
 .log-row:hover .log-topic,
@@ -183,13 +231,13 @@ a:focus-visible, button:focus-visible, input:focus-visible {
    smooth` means the visitor is still travelling down a long tema page while
    this runs, and a mark that has faded before they arrive marks nothing. */
 @keyframes commitment-arrive {
-  0%, 50% { background-color: rgba(163, 94, 0, 0.16); box-shadow: 0 0 0 8px rgba(163, 94, 0, 0.16); }
+  0%, 50% { background-color: color-mix(in srgb, var(--color-ambar) 16%, transparent); box-shadow: 0 0 0 8px color-mix(in srgb, var(--color-ambar) 16%, transparent); }
   100%    { background-color: transparent;            box-shadow: 0 0 0 8px transparent; }
 }
 @media (prefers-reduced-motion: reduce) {
   .commitment:target {
     animation: none;
-    background-color: rgba(163, 94, 0, 0.12);
-    box-shadow: 0 0 0 8px rgba(163, 94, 0, 0.12);
+    background-color: color-mix(in srgb, var(--color-ambar) 12%, transparent);
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--color-ambar) 12%, transparent);
   }
 }

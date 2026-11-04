@@ -81,7 +81,7 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
       <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
         {topic.name}
         <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
-          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
         </svg>
       </h1>
       <div class="mt-9 max-w-md">
@@ -91,11 +91,11 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
     </section>
 
     <!-- Metas al 2031 -->
-    <section id="metas" class="border-t border-tinta/10 bg-white/40 scroll-mt-6">
+    <section id="metas" class="border-t border-tinta/10 bg-hoja/40 scroll-mt-6">
       <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
         <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Expediente</p>
         <h2 class="font-display text-2xl sm:text-3xl mt-3" style="letter-spacing:-0.03em">Metas al 2031</h2>
-        <ul class="mt-8 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card px-6">
+        <ul class="mt-8 divide-y divide-tinta/10 bg-hoja rounded-lg border border-tinta/10 shadow-card px-6">
           {topicGoals.map((goal) => (
             <GoalRow id={goal.id} text={goal.text} indicator={goal.indicator} status={statusOf(goal.id, tracking)} />
           ))}
@@ -130,11 +130,11 @@ const description = `Seguimiento del tema ${topic.name} del plan de gobierno 202
     </section>
 
     <!-- Primeros 100 días -->
-    <section id="cien-dias" class="border-t border-tinta/10 bg-white/40 scroll-mt-6">
+    <section id="cien-dias" class="border-t border-tinta/10 bg-hoja/40 scroll-mt-6">
       <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16">
         <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Plan inmediato</p>
         <h2 class="font-display text-2xl sm:text-3xl mt-3" style="letter-spacing:-0.03em">Primeros 100 días</h2>
-        <ul class="mt-8 bg-white rounded-lg border border-tinta/10 shadow-card divide-y divide-tinta/10">
+        <ul class="mt-8 bg-hoja rounded-lg border border-tinta/10 shadow-card divide-y divide-tinta/10">
           {topicFile.first_100_days.map((item) => (
             <li id={item.id} class="commitment scroll-mt-24 flex items-start gap-3.5 p-5">
               <span aria-hidden="true" class="mt-1 h-4 w-4 rounded-sm border-[1.5px] border-tinta/40 shrink-0"></span>

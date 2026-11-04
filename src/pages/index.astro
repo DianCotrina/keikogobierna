@@ -56,7 +56,7 @@ const updates = updatesLog(tracking).map((entry) => {
           Lo prometido<br>
           <span class="relative inline-block">es deuda.
             <svg class="pen-stroke absolute left-0 -bottom-2 w-full" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
-              <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+              <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
             </svg>
           </span>
         </h1>
@@ -83,14 +83,14 @@ const updates = updatesLog(tracking).map((entry) => {
     </section>
 
     <!-- Actualizaciones -->
-    <section id="actualizaciones" class="border-t border-tinta/10 bg-white/40">
+    <section id="actualizaciones" class="border-t border-tinta/10 bg-hoja/40">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24">
         <div class="reveal">
           <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Registro</p>
           <h2 class="font-display text-3xl sm:text-4xl mt-3" style="letter-spacing:-0.03em">Últimas actualizaciones</h2>
         </div>
 
-        <ul class="mt-10 divide-y divide-tinta/10 bg-white rounded-lg border border-tinta/10 shadow-card overflow-hidden">
+        <ul class="mt-10 divide-y divide-tinta/10 bg-hoja rounded-lg border border-tinta/10 shadow-card overflow-hidden">
           {updates.length === 0 ? (
             <li class="reveal flex items-center gap-6 p-6">
               <p class="flex-1 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas.</p>
@@ -156,7 +156,7 @@ const updates = updatesLog(tracking).map((entry) => {
     </section>
 
     <!-- Primeros 100 días (teaser) -->
-    <section class="border-t border-tinta/10 bg-white/40">
+    <section class="border-t border-tinta/10 bg-hoja/40">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-14 sm:py-20">
         <a href="/primeros-100-dias/" class="reveal card-hover group block bg-tinta text-papel rounded-lg shadow-lift p-8 sm:p-10 relative overflow-hidden">
           <div class="absolute inset-0 opacity-25" style="background: radial-gradient(600px 320px at 88% 10%, rgba(200,16,46,0.55), transparent 60%);" aria-hidden="true"></div>
@@ -187,7 +187,7 @@ const updates = updatesLog(tracking).map((entry) => {
     </section>
 
     <!-- Metodología -->
-    <section id="metodologia" class="border-t border-tinta/10 bg-white/40">
+    <section id="metodologia" class="border-t border-tinta/10 bg-hoja/40">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-24 grid lg:grid-cols-[0.9fr_1.1fr] gap-12">
         <div class="reveal">
           <p class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Metodología</p>
@@ -195,7 +195,7 @@ const updates = updatesLog(tracking).map((entry) => {
           <p class="mt-4 text-lg leading-[1.7] text-tintasuave">Ningún estado se asigna sin una fuente pública enlazada. Si la evidencia cambia, el estado cambia — y queda registrado el historial.</p>
         </div>
         <ol class="space-y-6">
-          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+          <li class="reveal flex gap-5 bg-hoja rounded-lg border border-tinta/10 shadow-card p-6">
             <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">01</span>
             <div>
               <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
@@ -205,7 +205,7 @@ const updates = updatesLog(tracking).map((entry) => {
               <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Del plan inscrito ante el JNE salen 764 compromisos: 632 propuestas, 67 acciones de los primeros 100 días y 65 metas al 2031. Cada uno conserva el texto tal como figura en el documento.</p>
             </div>
           </li>
-          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+          <li class="reveal flex gap-5 bg-hoja rounded-lg border border-tinta/10 shadow-card p-6">
             <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">02</span>
             <div>
               <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
@@ -215,7 +215,7 @@ const updates = updatesLog(tracking).map((entry) => {
               <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">Un programa compara las normas del diario oficial con el texto de cada compromiso y anota las coincidencias para revisión. Sin inteligencia artificial: solo coincidencias de texto que cualquiera puede rehacer.</p>
             </div>
           </li>
-          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+          <li class="reveal flex gap-5 bg-hoja rounded-lg border border-tinta/10 shadow-card p-6">
             <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">03</span>
             <div>
               <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
@@ -226,7 +226,7 @@ const updates = updatesLog(tracking).map((entry) => {
               <p class="mt-2 font-mono text-[0.65rem] leading-[1.7] text-tintafina">En evaluación: un asistente de recuperación (RAG) que acerque al revisor las normas y antecedentes relacionados. La decisión seguirá siendo de una persona.</p>
             </div>
           </li>
-          <li class="reveal flex gap-5 bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+          <li class="reveal flex gap-5 bg-hoja rounded-lg border border-tinta/10 shadow-card p-6">
             <span class="font-mono text-sm font-semibold text-rojo shrink-0 mt-0.5">04</span>
             <div>
               <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
