@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.17.0](https://github.com/DianCotrina/keikogobierna/compare/v2.16.0...v2.17.0) (2026-11-04)
+
+
+### Features
+
+* collapse evidence cards when the mouse leaves ([7c9f68b](https://github.com/DianCotrina/keikogobierna/commit/7c9f68b180c63b9c4f21121ffff5488ffc405ed5))
+* format the evidence trail like the cabinet timeline ([6cd5dc5](https://github.com/DianCotrina/keikogobierna/commit/6cd5dc514a53fa9ca5b227a7b3cbf3bd55d4a84d))
+* show the norm behind in-progress commitments ([64a18dd](https://github.com/DianCotrina/keikogobierna/commit/64a18dd25b41bcc2839b64972208b1ef3b034634))
+
 ## [2.16.0](https://github.com/DianCotrina/keikogobierna/compare/v2.15.2...v2.16.0) (2026-11-02)
 
 
