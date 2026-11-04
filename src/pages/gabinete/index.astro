@@ -1,4 +1,5 @@
 ---
+import { breadcrumbs } from '../../lib/seo.mjs';
 import Base from '../../layouts/Base.astro';
 import MinisterCard from '../../components/MinisterCard.astro';
 import PresuncionNotice from '../../components/PresuncionNotice.astro';
@@ -39,9 +40,10 @@ const figures = [
 const title = `Gabinete de Keiko Fujimori: los ${sworn} ministros`;
 const description =
   'Quién dirige cada ministerio en el gobierno de Keiko Fujimori, cuánto lleva en el cargo y qué registra la información pública sobre su situación judicial.';
+const structuredData = breadcrumbs([['Inicio', '/'], ['Gabinete', '/gabinete/']], Astro.site);
 ---
 
-<Base title={title} description={description}>
+<Base title={title} description={description} structuredData={structuredData}>
   <main>
     <!-- Masthead -->
     <section class="mx-auto max-w-5xl px-5 sm:px-8 pt-10 pb-10 sm:pt-14">
@@ -54,8 +56,8 @@ const description =
         </svg>
       </h1>
       <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">
-        Un plan de gobierno lo ejecutan personas. Aquí está quién dirige cada ministerio,
-        cuánto lleva en el cargo y qué registra la información pública sobre su situación
+        Un plan de gobierno lo ejecutan personas. Aquí está quién dirige cada ministerio
+        en el gobierno de Keiko Fujimori, cuánto lleva en el cargo y qué registra la información pública sobre su situación
         judicial —con la fuente de cada dato a la vista.
       </p>
     </section>

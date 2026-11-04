@@ -93,6 +93,17 @@ export function commitmentStats(topics, tracking, topicId) {
   return { total, byStatus, started: byStatus.in_progress + byStatus.fulfilled };
 }
 
+// Where a topic stands today, computed from tracking alone so it can never say
+// more than the evidence does.
+export function topicStatus(topics, tracking, topicId) {
+  const file = topics.get(topicId);
+  const items = [...file.groups.flatMap((group) => group.proposals), ...file.first_100_days];
+  const latestNorm = items
+    .flatMap((item) => tracking.items?.[item.id]?.evidence ?? [])
+    .sort((a, b) => b.date.localeCompare(a.date))[0] ?? null;
+  return { ...commitmentStats(topics, tracking, topicId), latestNorm };
+}
+
 export function topicSummaries(plan, goals, tracking, topics) {
   return plan.topics.map((topic) => {
     const pillar = plan.pillars.find((p) => p.id === topic.pillar);

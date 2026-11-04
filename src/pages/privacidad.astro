@@ -1,11 +1,13 @@
 ---
+import { breadcrumbs } from '../lib/seo.mjs';
 import Base from '../layouts/Base.astro';
 
 const title = 'Privacidad — keikogobierna';
 const description = 'Política de privacidad: este sitio no usa cookies, rastreadores ni analítica. Qué datos se recogen y para qué.';
+const structuredData = breadcrumbs([['Inicio', '/'], ['Privacidad', '/privacidad/']], Astro.site);
 ---
 
-<Base title={title} description={description}>
+<Base title={title} description={description} structuredData={structuredData}>
   <main>
     <!-- Masthead -->
     <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-10 sm:pt-14">

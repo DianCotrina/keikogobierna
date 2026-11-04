@@ -7,6 +7,7 @@ import HeroBanner from '../components/HeroBanner.astro';
 import Stamp from '../components/Stamp.astro';
 import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, commitmentStats, topicSummaries, statusOf, fulfilledItems, updatesLog } from '../lib/plan.mjs';
 import { formatDateEs } from '../lib/format.mjs';
+import { organization } from '../lib/seo.mjs';
 
 const plan = loadPlan();
 const goals = loadGoals();
@@ -39,11 +40,26 @@ const updates = updatesLog(tracking).map((entry) => {
   const topic = topicById.get(entry.item.split('.')[0]);
   return { ...entry, topicName: topic?.name, topicSlug: topic?.slug };
 });
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      name: 'keikogobierna',
+      url: new URL('/', Astro.site).href,
+      inLanguage: 'es-PE',
+      publisher: { '@id': new URL('/#organizacion', Astro.site).href },
+    },
+    organization(Astro.site),
+  ],
+};
 ---
 
 <Base
   title="Seguimiento del plan de gobierno de Keiko Fujimori | keikogobierna"
   description="Seguimiento ciudadano e independiente del plan de gobierno de Keiko Fujimori (2026–2031): cada compromiso, su avance y sus fuentes, verificado punto por punto."
+  structuredData={structuredData}
 >
   <main>
     <!-- Hero -->
