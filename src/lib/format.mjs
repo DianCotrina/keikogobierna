@@ -25,3 +25,24 @@ export function formatDateEsShort(iso) {
 export function plural(n, one, many) {
   return `${n} ${n === 1 ? one : many}`;
 }
+
+/** Splits a note's **bold** markers into parts a template can render. */
+export function noteSegments(text) {
+  return text
+    .split(/\*\*(.+?)\*\*/)
+    .map((part, index) => ({ text: part, bold: index % 2 === 1 }))
+    .filter((part) => part.text.length > 0);
+}
+
+// Every in-progress note states what is missing after this phrase, which comes
+// as "Queda en progreso:", "…, no cumplida:" or "…, no cumplida, por dos razones:".
+const PENDING_MARKER = /\s*Queda en progreso(?:, no cumplida)?(?:, por [^:]+)?:\s*/;
+
+/** A note as what the norm does and why it isn't enough, each as segments. */
+export function splitEvidenceNote(note = '') {
+  const [does, pending = ''] = note.trim().split(PENDING_MARKER);
+  return {
+    does: noteSegments(does),
+    pending: noteSegments(pending.charAt(0).toUpperCase() + pending.slice(1)),
+  };
+}

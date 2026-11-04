@@ -116,8 +116,24 @@ export function updatesLog(tracking) {
   return [...log].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
+// Every proposal and action certified with each norm, keyed by the norm's URL.
+function commitmentsByNorm(topics, tracking) {
+  const byNorm = new Map();
+  for (const file of topics.values()) {
+    for (const item of [...file.groups.flatMap((group) => group.proposals), ...file.first_100_days]) {
+      for (const entry of tracking.items?.[item.id]?.evidence ?? []) {
+        if (!entry.url) continue;
+        if (!byNorm.has(entry.url)) byNorm.set(entry.url, []);
+        byNorm.get(entry.url).push({ id: item.id, text: item.text, topicName: file.name, topicSlug: file.slug });
+      }
+    }
+  }
+  return byNorm;
+}
+
 // First-100-days actions (the `.C` items) grouped by pillar then topic, in plan order.
 export function firstHundredDays(plan, topics, tracking) {
+  const byNorm = commitmentsByNorm(topics, tracking);
   return plan.pillars.map((pillar, index) => ({
     id: pillar.id,
     name: pillar.name,
@@ -131,11 +147,22 @@ export function firstHundredDays(plan, topics, tracking) {
           slug: topic.slug,
           name: topic.name,
           doc_section: file.doc_section,
-          actions: file.first_100_days.map((action) => ({
-            id: action.id,
-            text: action.text,
-            status: statusOf(action.id, tracking),
-          })),
+          actions: file.first_100_days.map((action) => {
+            const evidence = tracking.items?.[action.id]?.evidence ?? [];
+            const related = new Map(
+              evidence
+                .flatMap((entry) => byNorm.get(entry.url) ?? [])
+                .filter((item) => item.id !== action.id)
+                .map((item) => [item.id, item]),
+            );
+            return {
+              id: action.id,
+              text: action.text,
+              status: statusOf(action.id, tracking),
+              evidence,
+              related: [...related.values()],
+            };
+          }),
         };
       })
       .filter((topic) => topic.actions.length > 0),
