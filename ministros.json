@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T02:55:58+00:00",
+ "generated": "2026-11-04T12:48:46+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -57,12 +57,44 @@
     "matched_in": "summary"
    }
   ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Ejecutivo instala 200 camas en hospitales de campaña en Piura y Tumbes para atender casos de dengue y otras enfermedades",
+    "url": "https://rpp.pe/peru/actualidad/ejecutivo-instala-200-camas-en-hospitales-de-campana-en-piura-y-tumbes-para-atender-casos-de-dengue-y-otras-enfermedades-noticia-1715826",
+    "source": "RPP",
+    "published": "2026-11-03T22:14:50-05:00",
+    "matched_in": "summary"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Perú construirá sus propias megacárceles al “estilo Bukele”: dos penales en Huacho albergarán a 24 mil internos",
+    "url": "https://www.infobae.com/peru/2026/11/04/peru-construira-sus-propias-megacarceles-al-estilo-bukele-dos-penales-en-huacho-albergaran-a-24-mil-internos/",
+    "source": "Infobae",
+    "published": "2026-11-04T12:42:45+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ejecutivo proyecta construir dos megapenales en Huacho para 24,000 internos",
+    "url": "https://gestion.pe/peru/politica/ejecutivo-proyecta-construir-dos-megapenales-en-huacho-para-24000-internos-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-04T04:30:00+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Gobierno prevé la construcción de dos megapenales en Huacho, anuncia Ernesto Álvarez",
     "url": "https://rpp.pe/politica/gobierno/gobierno-preve-la-construccion-de-un-megapenal-en-huacho-con-capacidad-para-10-mil-internos-afirma-ernesto-alvarez-noticia-1715818",
     "source": "RPP",
     "published": "2026-11-03T19:10:26-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
+   {
+    "title": "Mindef: plantas que procesan mineral declaran más del doble de lo que informan las minas",
+    "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-04T09:50:00+00:00",
     "matched_in": "title"
    }
   ],
