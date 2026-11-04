@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T22:13:15+00:00",
+ "generated": "2026-11-04T02:55:58+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,14 @@
     "title": "Ministro Sheput: “En la Sunafil hay una serie de petitorios de suspensión perfecta”",
     "url": "https://gestion.pe/economia/management-empleo/ministro-de-trabajo-juan-sheput-en-la-sunafil-hay-una-serie-de-petitorios-de-suspension-perfecta-noticia/",
     "source": "Gestión",
-    "published": "2026-11-03T21:12:00+00:00",
+    "published": "2026-11-04T02:30:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Juan Sheput responde al Congreso sobre facultades: \"No pasó ni una semana y ya exigen resultados\"",
+    "url": "https://larepublica.pe/politica/2026/11/03/juan-sheput-acusa-de-mala-fe-a-parlamentarios-por-exigir-resultados-antes-de-cumplirse-el-plazo-de-las-facultades-hnews-227526",
+    "source": "La República",
+    "published": "2026-11-04T02:21:24+00:00",
     "matched_in": "title"
    },
    {
@@ -32,6 +39,15 @@
     "matched_in": "title"
    }
   ],
+  "juan-carlos-requejo-aleman": [
+   {
+    "title": "Comité de la Reserva de Paracas rechaza postura del ministro Requejo y exige respetar prohibición de la pesca industrial",
+    "url": "https://larepublica.pe/politica/2026/11/03/comite-de-la-reserva-de-paracas-rechaza-postura-del-ministro-requejo-y-exige-respetar-prohibicion-de-la-pesca-industrial-hnews-40371",
+    "source": "La República",
+    "published": "2026-11-04T01:56:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Zunini cuestiona al Gobierno de Fujimori por inacción ante el FEN e inseguridad: \"Presionó indebidamente al Congreso\"",
@@ -39,6 +55,24 @@
     "source": "La República",
     "published": "2026-11-02T15:46:05+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Gobierno prevé la construcción de dos megapenales en Huacho, anuncia Ernesto Álvarez",
+    "url": "https://rpp.pe/politica/gobierno/gobierno-preve-la-construccion-de-un-megapenal-en-huacho-con-capacidad-para-10-mil-internos-afirma-ernesto-alvarez-noticia-1715818",
+    "source": "RPP",
+    "published": "2026-11-03T19:10:26-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Ministro Alberto Beingolea al banquillo: este miércoles 4 de noviembre inicia el juicio en su contra por corrupción en GORE Callao",
+    "url": "https://www.infobae.com/peru/2026/11/03/ministro-alberto-beingolea-al-banquillo-este-miercoles-4-de-noviembre-inicia-el-juicio-en-su-contra-por-corrupcion-en-gore-callao/",
+    "source": "Infobae",
+    "published": "2026-11-03T23:52:25+00:00",
+    "matched_in": "title"
    }
   ]
  }
