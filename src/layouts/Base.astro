@@ -6,6 +6,7 @@ import SearchOverlay from '../components/Search/SearchOverlay.astro';
 import MobileNav from '../components/MobileNav/MobileNav.astro';
 import ThemeToggle from '../components/ThemeToggle/ThemeToggle.astro';
 import pkg from '../../package.json';
+import { canonicalUrl } from '../lib/seo.mjs';
 
 interface Props {
   title: string;
@@ -14,6 +15,10 @@ interface Props {
 }
 
 const { title, description, activeNav } = Astro.props;
+
+const canonical = canonicalUrl(Astro.url.pathname, Astro.site);
+const socialImage = new URL('/og.png', Astro.site).href;
+const socialImageAlt = 'keikogobierna: lo prometido es deuda. Seguimiento del plan de gobierno de Keiko Fujimori.';
 
 // `group` only matters to the mobile menu, which files the portada anchors
 // apart from the standalone pages; the desktop nav renders one flat row.
@@ -48,10 +53,26 @@ const navLinks = [
     </script>
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_PE" />
+    <meta property="og:site_name" content="keikogobierna" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={socialImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
