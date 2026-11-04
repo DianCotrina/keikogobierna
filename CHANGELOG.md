@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.19.0](https://github.com/DianCotrina/keikogobierna/compare/v2.18.0...v2.19.0) (2026-11-04)
+
+
+### Features
+
+* add search and sharing foundations ([adaa631](https://github.com/DianCotrina/keikogobierna/commit/adaa6310e7f987c459552414e44328392fc6dd46))
+
 ## [2.18.0](https://github.com/DianCotrina/keikogobierna/compare/v2.17.0...v2.18.0) (2026-11-04)
 
 
