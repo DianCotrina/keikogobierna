@@ -4,6 +4,7 @@ import Donate from '../components/Donate/Donate.astro';
 import SearchTrigger from '../components/Search/SearchTrigger.astro';
 import SearchOverlay from '../components/Search/SearchOverlay.astro';
 import MobileNav from '../components/MobileNav/MobileNav.astro';
+import ThemeToggle from '../components/ThemeToggle/ThemeToggle.astro';
 import pkg from '../../package.json';
 
 interface Props {
@@ -31,6 +32,20 @@ const navLinks = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F5F3EE" />
+    <!-- Inline and first so the theme is set before anything paints: as a module
+         it would run after the first frame and flash paper at a dark-mode reader. -->
+    <script is:inline>
+      (function () {
+        var theme;
+        try { theme = localStorage.getItem('kg-theme'); } catch (e) {}
+        if (theme !== 'dark' && theme !== 'light') {
+          theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.dataset.theme = theme;
+        if (theme === 'dark') document.querySelector('meta[name="theme-color"]').content = '#17181E';
+      })();
+    </script>
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta property="og:title" content={title} />
@@ -71,6 +86,7 @@ const navLinks = [
           ))}
         </nav>
         <div class="flex items-center gap-2">
+          <ThemeToggle />
           <SearchTrigger />
           <MobileNav links={navLinks} activeNav={activeNav} />
         </div>

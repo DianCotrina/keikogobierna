@@ -22,7 +22,7 @@ const dayLabel = daysLabel(days);
 {person ? (
   <a
     href={`/gabinete/${person.slug}/`}
-    class="card-hover reveal flex flex-col bg-white rounded-lg border border-tinta/10 shadow-card p-6"
+    class="card-hover reveal flex flex-col bg-hoja rounded-lg border border-tinta/10 shadow-card p-6"
   >
     <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">
       {portfolio.short}
@@ -39,7 +39,7 @@ const dayLabel = daysLabel(days);
 ) : announcement ? (
   <AnnouncedCard portfolio={portfolio} announcement={announcement} />
 ) : (
-  <div class="reveal flex flex-col bg-white/50 rounded-lg border border-dashed border-tinta/20 p-6">
+  <div class="reveal flex flex-col bg-hoja/50 rounded-lg border border-dashed border-tinta/20 p-6">
     <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina">
       {portfolio.short}
     </p>

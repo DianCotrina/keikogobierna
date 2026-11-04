@@ -16,7 +16,7 @@ interface Entry {
 // Third-party text: every node built with textContent, never innerHTML.
 function item(entry: Entry): HTMLElement {
   const li = document.createElement('li');
-  li.className = 'bg-white rounded-lg border border-tinta/10 shadow-card p-5 sm:p-6';
+  li.className = 'bg-hoja rounded-lg border border-tinta/10 shadow-card p-5 sm:p-6';
 
   const meta = document.createElement('p');
   meta.className = 'font-mono text-[0.65rem] uppercase tracking-[0.14em] text-tintafina';

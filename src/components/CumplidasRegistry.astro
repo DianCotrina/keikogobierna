@@ -37,7 +37,7 @@ const latestDate = (evidence: Evidence[]) =>
   evidence.map((entry) => entry.date).sort().at(-1);
 ---
 
-<div class="bg-white rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+<div class="bg-hoja rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
   <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-dashed border-tinta/20 pb-4">
     <p class="font-mono text-[0.65rem] sm:text-xs font-semibold uppercase tracking-[0.14em] text-tintasuave">Registro · Cumplidas</p>
     <p class="font-mono text-[0.65rem] sm:text-xs text-tintafina">{total} {total === 1 ? 'certificada' : 'certificadas'}</p>

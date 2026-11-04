@@ -65,13 +65,13 @@
   transform-origin: bottom;
 }
 .dc-tick[data-major] { height: calc(var(--tick-h) + 0.5rem); }
-.dc-tick[data-state="future"] { background: rgba(20, 20, 23, 0.14); }
+.dc-tick[data-state="future"] { background: rgb(var(--ink) / 0.14); }
 .dc-tick[data-state="today"] {
   height: 100%;
   background: var(--color-rojo);
 }
 /* Day 100 is the deadline: it keeps a red edge even while still ahead. */
-.dc-tick:last-child[data-state="future"] { background: rgba(200, 16, 46, 0.45); }
+.dc-tick:last-child[data-state="future"] { background: color-mix(in srgb, var(--color-rojo) 45%, transparent); }
 
 /* Once the window has closed the ruler is full; the deadline tick stays red. */
 [data-phase="over"] .dc-tick:last-child { background: var(--color-rojo); height: 100%; }

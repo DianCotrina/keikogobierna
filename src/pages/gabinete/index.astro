@@ -50,7 +50,7 @@ const description =
       <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
         Gabinete
         <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
-          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="#141417" stroke-width="5" stroke-linecap="round"/>
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
         </svg>
       </h1>
       <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">
@@ -66,7 +66,7 @@ const description =
     </section>
 
     <!-- Figures -->
-    <section class="border-t border-tinta/10 bg-white/40">
+    <section class="border-t border-tinta/10 bg-hoja/40">
       <div class="mx-auto max-w-5xl px-5 sm:px-8 py-10">
         <dl class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
           {figures.map((figure) => (
@@ -114,7 +114,7 @@ const description =
 
     <!-- Former holders -->
     {past.length > 0 && (
-      <section class="border-t border-tinta/10 bg-white/40">
+      <section class="border-t border-tinta/10 bg-hoja/40">
         <div class="mx-auto max-w-5xl px-5 sm:px-8 py-14 sm:py-16">
           <div class="reveal border-b border-tinta/10 pb-3">
             <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Pasaron por aquí</h2>
@@ -124,7 +124,7 @@ const description =
           </div>
           <ul class="mt-6 space-y-3">
             {past.map(({ person, portfolio, tenure, days }) => (
-              <li class="reveal flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 bg-white rounded-lg border border-tinta/10 shadow-chip px-5 py-4">
+              <li class="reveal flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 bg-hoja rounded-lg border border-tinta/10 shadow-chip px-5 py-4">
                 <div>
                   <a href={`/gabinete/${person?.slug}/`} class="nav-link font-sans font-bold">{person?.name}</a>
                   <span class="ml-2 text-sm text-tintasuave">{portfolio?.short}</span>

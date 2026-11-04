@@ -8,14 +8,14 @@
   justify-content: center;
   width: 2.4rem;
   height: 2.4rem;
-  border: 1px solid rgba(20, 20, 23, 0.14);
+  border: 1px solid rgb(var(--ink) / 0.14);
   border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.6);
+  background: color-mix(in srgb, var(--color-hoja) 60%, transparent);
   color: var(--color-tinta);
   transition: border-color 0.18s, transform 0.18s var(--ease-spring);
 }
 .menu-trigger[hidden] { display: none; }
-.menu-trigger:hover { border-color: rgba(20, 20, 23, 0.3); }
+.menu-trigger:hover { border-color: rgb(var(--ink) / 0.3); }
 .menu-trigger:focus-visible { outline: 2px solid var(--color-rojo); outline-offset: 2px; }
 .menu-trigger:active { transform: scale(0.96); }
 
@@ -59,7 +59,7 @@
   right: 0;
   height: 100dvh;
   z-index: 54;
-  background: rgba(20, 20, 23, 0.35);
+  background: rgb(var(--shade) / 0.35);
 }
 .menu-backdrop[hidden] { display: none; }
 
@@ -74,7 +74,7 @@
   overscroll-behavior: contain;
   padding: 1rem 0 1.5rem;
   background: var(--color-papel);
-  border-bottom: 1px solid rgba(20, 20, 23, 0.12);
+  border-bottom: 1px solid rgb(var(--ink) / 0.12);
   box-shadow: var(--shadow-lift);
   animation: menu-in 0.22s var(--ease-spring);
 }
@@ -106,9 +106,9 @@
   color: var(--color-tinta);
   transition: background-color 0.15s, color 0.2s ease;
 }
-.menu-group li + li .menu-row { border-top: 1px solid rgba(20, 20, 23, 0.09); }
-.menu-row:hover { background: rgba(20, 20, 23, 0.05); }
-.menu-row:active { background: rgba(20, 20, 23, 0.08); }
+.menu-group li + li .menu-row { border-top: 1px solid rgb(var(--ink) / 0.09); }
+.menu-row:hover { background: rgb(var(--ink) / 0.05); }
+.menu-row:active { background: rgb(var(--ink) / 0.08); }
 .menu-row:focus-visible { outline: 2px solid var(--color-rojo); outline-offset: -2px; }
 
 /* The current page is marked out in the margin, the way you'd tick a page in

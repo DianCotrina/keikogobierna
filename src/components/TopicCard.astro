@@ -12,7 +12,7 @@ interface Props {
 const { name, slug, proposals, progressPct, started } = Astro.props;
 ---
 
-<a href={`/temas/${slug}/`} class="card-hover reveal block bg-white rounded-lg border border-tinta/10 shadow-card p-6">
+<a href={`/temas/${slug}/`} class="card-hover reveal block bg-hoja rounded-lg border border-tinta/10 shadow-card p-6">
   <div class="flex items-baseline justify-between gap-3">
     <h3 class="font-sans font-bold text-lg">{name}</h3>
     <span class="font-mono text-xs text-tintafina whitespace-nowrap">{proposals} propuestas</span>
