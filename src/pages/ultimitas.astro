@@ -1,12 +1,14 @@
 ---
+import { breadcrumbs } from '../lib/seo.mjs';
 import Base from '../layouts/Base.astro';
 import Ultimitas from '../components/Ultimitas/Ultimitas.astro';
 
 const title = 'Noticias de Keiko Fujimori hoy: titulares de la prensa';
 const description = 'Lo último que publican El Comercio, La República, RPP, Gestión e Infobae sobre Keiko Fujimori y Fuerza Popular, actualizado varias veces al día, con enlace directo a cada nota.';
+const structuredData = breadcrumbs([['Inicio', '/'], ['Las ultimitas', '/ultimitas/']], Astro.site);
 ---
 
-<Base title={title} description={description} activeNav="ultimitas">
+<Base title={title} description={description} structuredData={structuredData} activeNav="ultimitas">
   <main>
     <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-10 sm:pt-14">
       <a href="/" class="nav-link font-mono text-xs text-tintasuave inline-flex items-center gap-2">← Volver al resumen</a>

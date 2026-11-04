@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import { breadcrumbs } from '../lib/seo.mjs';
+
+const title = 'Quiénes somos — keikogobierna';
+const description = 'keikogobierna es un proyecto ciudadano independiente que sigue el plan de gobierno de Keiko Fujimori. Quién lo mantiene, cómo se financia y cómo corregirlo.';
+const structuredData = breadcrumbs([['Inicio', '/'], ['Quiénes somos', '/quienes-somos/']], Astro.site);
+---
+
+<Base title={title} description={description} structuredData={structuredData}>
+  <main>
+    <!-- Masthead -->
+    <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-10 sm:pt-14">
+      <a href="/" class="nav-link font-mono text-xs text-tintasuave inline-flex items-center gap-2">← Volver al resumen</a>
+      <p class="mt-7 font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Expediente · Quién hace este sitio</p>
+      <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
+        Quiénes somos
+        <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+      </h1>
+      <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">Un proyecto ciudadano independiente que registra cada compromiso del plan de gobierno de Keiko Fujimori y lo contrasta con fuentes públicas.</p>
+    </section>
+
+    <section class="border-t border-tinta/10 bg-hoja/40">
+      <div class="mx-auto max-w-4xl px-5 sm:px-8 py-14 sm:py-16 space-y-6">
+        <div class="reveal bg-hoja rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+          <h2 class="font-sans font-bold text-lg">Quién lo mantiene</h2>
+          <p class="mt-2 text-sm leading-[1.7] text-tintasuave">
+            Lo mantiene <a href="https://www.linkedin.com/in/diancotrina/" target="_blank" rel="noopener noreferrer" class="nav-link font-medium text-tinta">Diego Cotrina ↗</a>.
+            No está afiliado al gobierno ni a ningún partido político.
+          </p>
+        </div>
+
+        <div class="reveal bg-hoja rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+          <h2 class="font-sans font-bold text-lg">Cómo se decide cada estado</h2>
+          <p class="mt-2 text-sm leading-[1.7] text-tintasuave">
+            Un programa compara a diario las normas de El Peruano con el plan, sin inteligencia artificial, y una persona revisa cada coincidencia antes de marcar un avance.
+            La <a href="/#metodologia" class="nav-link font-medium text-tinta">metodología</a> y las <a href="/fuentes/" class="nav-link font-medium text-tinta">fuentes</a> están publicadas.
+          </p>
+        </div>
+
+        <div class="reveal bg-hoja rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+          <h2 class="font-sans font-bold text-lg">Cómo se financia</h2>
+          <p class="mt-2 text-sm leading-[1.7] text-tintasuave">Acepta donaciones voluntarias por Yape y PayPal, desde el botón que aparece en cada página. No usa publicidad, cookies ni rastreadores.</p>
+        </div>
+
+        <div class="reveal bg-hoja rounded-lg border border-tinta/10 shadow-card p-6 sm:p-7">
+          <h2 class="font-sans font-bold text-lg">Cómo revisarlo o corregirlo</h2>
+          <p class="mt-2 text-sm leading-[1.7] text-tintasuave">
+            El <a href="https://github.com/DianCotrina/keikogobierna" target="_blank" rel="noopener noreferrer" class="nav-link font-medium text-tinta">código ↗</a> y los <a href="/fuentes/" class="nav-link font-medium text-tinta">datos</a> son públicos.
+            Si encuentras un error, escribe a <a href="mailto:dian.cs183@gmail.com" class="nav-link font-medium text-tinta">dian.cs183@gmail.com</a> y lo revisamos.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>

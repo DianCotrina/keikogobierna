@@ -1,4 +1,6 @@
 ---
+import { breadcrumbs, organization } from '../lib/seo.mjs';
+import { loadTracking } from '../lib/plan.mjs';
 import Base from '../layouts/Base.astro';
 
 // Grouped by role: what the pipelines read daily vs what a person consults when
@@ -113,9 +115,36 @@ const sections = [
 
 const title = 'Fuentes — keikogobierna';
 const description = 'Las fuentes oficiales del seguimiento: el plan de gobierno inscrito ante el JNE y las fuentes públicas usadas para verificar cada compromiso.';
+const download = (name, path) => ({
+  '@type': 'DataDownload',
+  name,
+  encodingFormat: 'application/json',
+  contentUrl: new URL(path, Astro.site).href,
+});
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    breadcrumbs([['Inicio', '/'], ['Fuentes', '/fuentes/']], Astro.site),
+    {
+      '@type': 'Dataset',
+      name: 'Seguimiento del plan de gobierno de Keiko Fujimori 2026–2031',
+      description: 'Los compromisos del plan de gobierno inscrito ante el JNE, su estado de avance con la evidencia que lo acredita y la composición del gabinete, en formato JSON.',
+      url: new URL('/fuentes/', Astro.site).href,
+      inLanguage: 'es-PE',
+      isAccessibleForFree: true,
+      dateModified: loadTracking().updated,
+      creator: organization(Astro.site),
+      distribution: [
+        download('Plan de gobierno', '/api/plan.json'),
+        download('Seguimiento de compromisos', '/api/tracking.json'),
+        download('Gabinete', '/api/gabinete.json'),
+      ],
+    },
+  ],
+};
 ---
 
-<Base title={title} description={description}>
+<Base title={title} description={description} structuredData={structuredData}>
   <main>
     <!-- Masthead -->
     <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-10 sm:pt-14">

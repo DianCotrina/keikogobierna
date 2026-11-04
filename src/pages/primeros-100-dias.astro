@@ -1,4 +1,5 @@
 ---
+import { breadcrumbs } from '../lib/seo.mjs';
 import Base from '../layouts/Base.astro';
 import IndexRail from '../components/IndexRail/IndexRail.astro';
 import Stamp from '../components/Stamp.astro';
@@ -35,9 +36,10 @@ const indexEntries = groups.map((pillar) => ({
 
 const title = `Primeros 100 días de Keiko Fujimori: ${stats.total} compromisos`;
 const description = `Los ${stats.total} compromisos de los primeros 100 días del plan de gobierno de Keiko Fujimori, uno por uno, con su avance y las normas de El Peruano que lo acreditan.`;
+const structuredData = breadcrumbs([['Inicio', '/'], ['Primeros 100 días', '/primeros-100-dias/']], Astro.site);
 ---
 
-<Base title={title} description={description} activeNav="100dias">
+<Base title={title} description={description} structuredData={structuredData} activeNav="100dias">
   <main>
     <!-- Masthead -->
     <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-12 sm:pt-14 text-center">

@@ -1,4 +1,5 @@
 ---
+import { breadcrumbs } from '../../lib/seo.mjs';
 import Base from '../../layouts/Base.astro';
 import PresuncionNotice from '../../components/PresuncionNotice.astro';
 import RecordBadge from '../../components/RecordBadge.astro';
@@ -85,9 +86,10 @@ const role = openTenure
 
 const title = `${person.name}: ${openTenure?.portfolio?.name ?? 'gabinete de Keiko Fujimori'}`;
 const description = `${person.name}: cargo, temas del plan a su cargo, paso por el gabinete y registro judicial documentado con fuentes públicas.`;
+const structuredData = breadcrumbs([['Inicio', '/'], ['Gabinete', '/gabinete/'], [person.name, `/gabinete/${person.slug}/`]], Astro.site);
 ---
 
-<Base title={title} description={description}>
+<Base title={title} description={description} structuredData={structuredData}>
   <main>
     <!-- Masthead -->
     <section class="mx-auto max-w-4xl px-5 sm:px-8 pt-10 pb-8 sm:pt-14">

@@ -1,0 +1,52 @@
+---
+import { formatDateEs, plural } from '../lib/format.mjs';
+
+// The plan's text is on every other site that copied the PDF. This note is what
+// only this one can say: where the topic stands, from the certified record.
+interface Props {
+  name: string;
+  status: {
+    total: number;
+    started: number;
+    byStatus: { fulfilled: number; in_progress: number };
+    latestNorm: { date: string; source: string; url?: string } | null;
+  };
+  responsible: Array<{
+    portfolio: { name: string };
+    person: { name: string; slug: string };
+  }>;
+}
+
+const { name, status, responsible } = Astro.props;
+const { total, started, byStatus, latestNorm } = status;
+const norma = latestNorm?.source.replace(/^El Peruano — /, '');
+---
+
+<div class="mt-8 max-w-xl border-l-2 border-tinta/15 pl-4 sm:pl-5">
+  <h2 class="font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Estado del tema</h2>
+  <p class="mt-1.5 text-sm leading-[1.7] text-tintasuave">
+    De los {plural(total, 'compromiso', 'compromisos')} sobre {name} en el plan de gobierno de Keiko Fujimori,{' '}
+    {started === 0
+      ? 'ninguno tiene todavía una norma que acredite avance. Eso no significa que no se haya hecho nada: el seguimiento solo registra lo que consta en El Peruano.'
+      : `${byStatus.in_progress} ${byStatus.in_progress === 1 ? 'está' : 'están'} en progreso y ${byStatus.fulfilled} ${byStatus.fulfilled === 1 ? 'está cumplido' : 'están cumplidos'}.`}
+    {latestNorm && (
+      <>
+        {' '}Última norma registrada:{' '}
+        {latestNorm.url
+          ? <a href={latestNorm.url} target="_blank" rel="noopener noreferrer" class="nav-link font-medium text-tinta">{norma} ↗</a>
+          : norma}, del {formatDateEs(latestNorm.date)}.
+      </>
+    )}
+  </p>
+  {responsible.length > 0 && (
+    <p class="mt-2 text-sm leading-[1.7] text-tintasuave">
+      A cargo:{' '}
+      {responsible.map((row, index) => (
+        <>
+          {index > 0 && '; '}
+          <a href={`/gabinete/${row.person.slug}/`} class="nav-link font-medium text-tinta">{row.person.name}</a>, {row.portfolio.name}
+        </>
+      ))}.
+    </p>
+  )}
+</div>
