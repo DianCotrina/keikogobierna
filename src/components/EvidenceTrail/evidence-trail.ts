@@ -1,10 +1,11 @@
 // An open trail stays open while the visitor is inside its card and collapses
-// once they click or tab somewhere else. It deliberately ignores the mouse
-// merely drifting off the card, which happens constantly while reading, and
-// window blur, so following a norm to El Peruano doesn't close it.
+// once they click, tab or move the mouse somewhere else. Leaving the window
+// doesn't count, so following a norm to El Peruano doesn't close it.
 
 const SELECTOR = 'details[data-evidence-trail]';
 const CLOSE_FALLBACK_MS = 240;
+// Long enough that overshooting the edge while reading doesn't close the text.
+const MOUSE_LEAVE_GRACE_MS = 250;
 
 const trails = () => [...document.querySelectorAll<HTMLDetailsElement>(SELECTOR)];
 const cardOf = (trail: HTMLDetailsElement) => trail.closest('[data-evidence-card]') ?? trail;
@@ -15,6 +16,8 @@ const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)'
 function collapse(trail: HTMLDetailsElement, reached?: Element | null) {
   const below = reached && trail.compareDocumentPosition(reached) & Node.DOCUMENT_POSITION_FOLLOWING;
   const before = below ? reached.getBoundingClientRect().top : 0;
+  // Keyboard focus would otherwise vanish along with the content it sat on.
+  if (trail.contains(document.activeElement)) trail.querySelector('summary')?.focus({ preventScroll: true });
   trail.open = false;
   if (below) {
     window.scrollBy({ top: reached.getBoundingClientRect().top - before, behavior: 'instant' });
@@ -65,6 +68,33 @@ document.addEventListener('click', (event) => {
 
 document.addEventListener('focusin', (event) => {
   if (event.target instanceof Element) closeOthers(event.target);
+});
+
+const leaving = new Map<HTMLDetailsElement, number>();
+
+function cancelLeave(trail: HTMLDetailsElement) {
+  window.clearTimeout(leaving.get(trail));
+  leaving.delete(trail);
+}
+
+document.addEventListener('pointerout', (event) => {
+  const { target, relatedTarget: to } = event;
+  if (event.pointerType !== 'mouse' || !(target instanceof Element) || !(to instanceof Element)) return;
+  for (const trail of trails()) {
+    const card = cardOf(trail);
+    if (!trail.open || leaving.has(trail) || !card.contains(target) || card.contains(to)) continue;
+    leaving.set(trail, window.setTimeout(() => {
+      leaving.delete(trail);
+      close(trail, to);
+    }, MOUSE_LEAVE_GRACE_MS));
+  }
+});
+
+document.addEventListener('pointerover', (event) => {
+  if (!(event.target instanceof Element)) return;
+  for (const trail of leaving.keys()) {
+    if (cardOf(trail).contains(event.target)) cancelLeave(trail);
+  }
 });
 
 document.addEventListener('keydown', (event) => {
