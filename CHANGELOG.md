@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.20.0](https://github.com/DianCotrina/keikogobierna/compare/v2.19.0...v2.20.0) (2026-11-04)
+
+
+### Features
+
+* add structured data, topic status and an about page ([402e402](https://github.com/DianCotrina/keikogobierna/commit/402e402306cca2d8e27eab0ec67d0e39af5f4703))
+
 ## [2.19.0](https://github.com/DianCotrina/keikogobierna/compare/v2.18.0...v2.19.0) (2026-11-04)
 
 
