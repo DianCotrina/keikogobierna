@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.18.0](https://github.com/DianCotrina/keikogobierna/compare/v2.17.0...v2.18.0) (2026-11-04)
+
+
+### Features
+
+* add a dark mode ([c4a9869](https://github.com/DianCotrina/keikogobierna/commit/c4a9869fc1d7f4f5ecbb43942aa13cf093fda988))
+
 ## [2.17.0](https://github.com/DianCotrina/keikogobierna/compare/v2.16.0...v2.17.0) (2026-11-04)
 
 
