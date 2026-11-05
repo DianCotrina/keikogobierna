@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T03:15:31+00:00",
+ "generated": "2026-11-05T12:57:08+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,15 @@
   "Infobae"
  ],
  "ministers": {
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministros debatirán los primeros tres decretos legislativos: ¿Cuáles serán los alcances?",
+    "url": "https://elcomercio.pe/politica/ministros-debatiran-los-primeros-tres-decretos-legislativos-cuales-seran-los-alcances-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-05T05:01:00+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "juan-manuel-kosme-sheput-moore": [
    {
     "title": "Ministro Sheput sobre críticas por los primeros 100 días del Gobierno de Keiko Fujimori: “Tenemos una batahola en el Congreso de mala fe”",
@@ -22,13 +31,6 @@
     "url": "https://gestion.pe/peru/politica/ministro-sheput-responde-a-criticas-desde-el-congreso-al-gobierno-de-keiko-fujimori-hablan-por-consignas-y-lemas-noticia/",
     "source": "Gestión",
     "published": "2026-11-04T19:44:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Sheput responde sobre suspensión perfecta y dice que el Gobierno evaluará bonos focalizados para trabajadores afectados por El Niño",
-    "url": "https://elcomercio.pe/economia/peru/suspension-perfecta-de-labores-gobierno-evaluara-bonos-focalizados-para-trabajadores-afectados-por-el-fenomeno-el-nino-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-04T19:24:43+00:00",
     "matched_in": "title"
    },
    {
@@ -60,13 +62,6 @@
     "source": "La República",
     "published": "2026-11-04T23:51:31+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea no acepta cargos y se declara inocente ante el PJ: Fiscalía pide 8 años de prisión",
-    "url": "https://www.infobae.com/peru/2026/11/04/alberto-beingolea-no-acepta-cargos-y-se-declara-inocente-ante-el-pj-fiscalia-pide-8-anos-de-prision/",
-    "source": "Infobae",
-    "published": "2026-11-04T19:20:42+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -94,6 +89,15 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Proyecto 7 regiones de gas natural en recta final: esta es la nueva fecha clave del Minem",
+    "url": "https://gestion.pe/economia/proyecto-7-regiones-de-gas-natural-en-recta-final-esta-es-la-nueva-fecha-clave-del-minem-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-05T09:00:00+00:00",
+    "matched_in": "title"
+   }
+  ],
   "rogers-martin-valencia-espinoza": [
    {
     "title": "Visita del papa León XIV generaría movimiento económico de S/ 300 millones, según Mincetur",
@@ -101,33 +105,6 @@
     "source": "Gestión",
     "published": "2026-11-04T21:16:38+00:00",
     "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Proyecto 7 regiones de gas natural en recta final: esta es la nueva fecha clave del Minem",
-    "url": "https://gestion.pe/economia/proyecto-7-regiones-de-gas-natural-en-recta-final-esta-es-la-nueva-fecha-clave-del-minem-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-04T21:14:31+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Mindef: plantas que procesan mineral declaran más del doble de lo que informan las minas",
-    "url": "https://gestion.pe/economia/economias-ilegales-politicas-desplegadas-hasta-ahora-no-han-surtido-efecto-senala-mindef-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-04T09:50:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Perú podría superar los USD 120 mil millones en exportaciones y dejar atrás a Chile y Argentina",
-    "url": "https://www.infobae.com/peru/2026/11/04/peru-podria-superar-los-usd-120-mil-millones-en-exportaciones-y-dejar-atras-a-chile-y-argentina/",
-    "source": "Infobae",
-    "published": "2026-11-04T21:30:40+00:00",
-    "matched_in": "summary"
    }
   ]
  }
