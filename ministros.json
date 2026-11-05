@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T22:28:02+00:00",
+ "generated": "2026-11-05T03:15:31+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Ministro Sheput sobre críticas por los primeros 100 días del Gobierno de Keiko Fujimori: “Tenemos una batahola en el Congreso de mala fe”",
     "url": "https://elcomercio.pe/politica/ministro-de-trabajo-juan-sheput-sobre-criticas-de-la-oposicion-por-los-100-dias-tenemos-una-batahola-en-el-congreso-de-mala-fe-keiko-fujimori-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-04T21:02:04+00:00",
+    "published": "2026-11-04T23:02:00+00:00",
     "matched_in": "title"
    },
    {
@@ -25,11 +25,11 @@
     "matched_in": "title"
    },
    {
-    "title": "Gobierno evaluará bonos focalizados para trabajadores afectados por el fenómeno de El Niño",
+    "title": "Ministro Sheput responde sobre suspensión perfecta y dice que el Gobierno evaluará bonos focalizados para trabajadores afectados por El Niño",
     "url": "https://elcomercio.pe/economia/peru/suspension-perfecta-de-labores-gobierno-evaluara-bonos-focalizados-para-trabajadores-afectados-por-el-fenomeno-el-nino-noticia/",
     "source": "El Comercio",
     "published": "2026-11-04T19:24:43+00:00",
-    "matched_in": "summary"
+    "matched_in": "title"
    },
    {
     "title": "Inician obras en la Torre Trecca de EsSalud: “estará lista en 18 meses”, dice Keiko Fujimori",
@@ -37,13 +37,6 @@
     "source": "Gestión",
     "published": "2026-11-04T17:28:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ministro Sheput: “En la Sunafil hay una serie de petitorios de suspensión perfecta”",
-    "url": "https://gestion.pe/economia/management-empleo/ministro-de-trabajo-juan-sheput-en-la-sunafil-hay-una-serie-de-petitorios-de-suspension-perfecta-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-04T02:30:00+00:00",
-    "matched_in": "title"
    },
    {
     "title": "Juan Sheput responde al Congreso sobre facultades: \"No pasó ni una semana y ya exigen resultados\"",
@@ -60,35 +53,35 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer sobre emergencia por dengue: “No queremos que los hospitales colapsen por temas menores”",
-    "url": "https://larepublica.pe/politica/2026/11/04/luis-dyer-sobre-emergencia-por-dengue-no-queremos-que-los-hospitales-colapsen-por-temas-menores-hnews-86220",
-    "source": "La República",
-    "published": "2026-11-04T21:57:47+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto Beingolea: juicio oral por presunta colusión agravada contra ministro de Cultura inició este miércoles 4 de noviembre",
+    "url": "https://larepublica.pe/politica/2026/11/04/alberto-beingolea-juicio-oral-por-presunta-colusion-agravada-contra-ministro-de-cultura-inicia-este-4-de-noviembre-hnews-364756",
+    "source": "La República",
+    "published": "2026-11-04T23:51:31+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Alberto Beingolea no acepta cargos y se declara inocente ante el PJ: Fiscalía pide 8 años de prisión",
     "url": "https://www.infobae.com/peru/2026/11/04/alberto-beingolea-no-acepta-cargos-y-se-declara-inocente-ante-el-pj-fiscalia-pide-8-anos-de-prision/",
     "source": "Infobae",
     "published": "2026-11-04T19:20:42+00:00",
     "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Gobierno anuncia S/ 3 millones para combatir la anemia y establece meta de reducción al 50%",
+    "url": "https://gestion.pe/peru/politica/gobierno-anuncia-s-3-millones-para-combatir-la-anemia-y-establece-meta-de-reduccion-al-50-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-05T03:02:00+00:00",
+    "matched_in": "summary"
    },
    {
-    "title": "Alberto Beingolea y el lapsus en el inicio de su juicio: “Soy ministro de Justicia”",
-    "url": "https://www.infobae.com/peru/2026/11/04/alberto-beingolea-y-el-lapsus-en-el-inicio-de-su-juicio-soy-ministro-de-justicia/",
-    "source": "Infobae",
-    "published": "2026-11-04T17:00:46+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Alberto Beingolea: juicio oral por presunta colusión agravada contra ministro de Cultura inició este 4 de noviembre",
-    "url": "https://larepublica.pe/politica/2026/11/04/alberto-beingolea-juicio-oral-por-presunta-colusion-agravada-contra-ministro-de-cultura-inicia-este-4-de-noviembre-hnews-364756",
+    "title": "Luis Dyer sobre emergencia por dengue: “No queremos que los hospitales colapsen por temas menores”",
+    "url": "https://larepublica.pe/politica/2026/11/04/luis-dyer-sobre-emergencia-por-dengue-no-queremos-que-los-hospitales-colapsen-por-temas-menores-hnews-86220",
     "source": "La República",
-    "published": "2026-11-04T15:52:48+00:00",
+    "published": "2026-11-04T21:57:47+00:00",
     "matched_in": "title"
    }
   ],
@@ -126,15 +119,6 @@
     "source": "Gestión",
     "published": "2026-11-04T09:50:00+00:00",
     "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ejecutivo proyecta construir dos megapenales en Huacho para 24,000 internos",
-    "url": "https://gestion.pe/peru/politica/ejecutivo-proyecta-construir-dos-megapenales-en-huacho-para-24000-internos-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-04T04:30:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
