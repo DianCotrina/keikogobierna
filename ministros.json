@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:57:08+00:00",
+ "generated": "2026-11-05T22:34:45+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Ministros debatirán los primeros tres decretos legislativos: ¿Cuáles serán los alcances?",
     "url": "https://elcomercio.pe/politica/ministros-debatiran-los-primeros-tres-decretos-legislativos-cuales-seran-los-alcances-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-05T05:01:00+00:00",
+    "published": "2026-11-05T21:45:28+00:00",
     "matched_in": "summary"
    }
   ],
@@ -27,31 +27,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Ministro Sheput responde a críticas al Gobierno de Fujimori: Hablan por consignas y lemas",
-    "url": "https://gestion.pe/peru/politica/ministro-sheput-responde-a-criticas-desde-el-congreso-al-gobierno-de-keiko-fujimori-hablan-por-consignas-y-lemas-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-04T19:44:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Inician obras en la Torre Trecca de EsSalud: “estará lista en 18 meses”, dice Keiko Fujimori",
-    "url": "https://gestion.pe/peru/politica/inician-obras-y-modernizacion-del-proyecto-en-la-torre-trecca-de-essalud-estara-lista-en-18-meses-dice-keiko-fujimori-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-04T17:28:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Juan Sheput responde al Congreso sobre facultades: \"No pasó ni una semana y ya exigen resultados\"",
     "url": "https://larepublica.pe/politica/2026/11/03/juan-sheput-acusa-de-mala-fe-a-parlamentarios-por-exigir-resultados-antes-de-cumplirse-el-plazo-de-las-facultades-hnews-227526",
     "source": "La República",
     "published": "2026-11-04T02:21:24+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro Juan Sheput cuestiona a diputados que dicen que el Gobierno no ha hecho nada: “Eso no es política, eso es mala fe”",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-juan-sheput-cuestiona-a-diputados-que-dicen-que-el-gobierno-no-ha-hecho-nada-eso-no-es-politica-eso-es-mala-fe-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-03T15:05:38+00:00",
     "matched_in": "title"
    }
   ],
@@ -89,21 +68,21 @@
     "matched_in": "title"
    }
   ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Espá visita Rusia después de 14 años tras denuncias de reclutados irregulares",
+    "url": "https://gestion.pe/peru/politica/canciller-peruano-espa-visita-rusia-despues-de-14-anos-tras-denuncias-de-reclutados-irregulares-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-05T16:45:20+00:00",
+    "matched_in": "title"
+   }
+  ],
   "guillermo-shinno-huamani": [
    {
     "title": "Proyecto 7 regiones de gas natural en recta final: esta es la nueva fecha clave del Minem",
     "url": "https://gestion.pe/economia/proyecto-7-regiones-de-gas-natural-en-recta-final-esta-es-la-nueva-fecha-clave-del-minem-noticia/",
     "source": "Gestión",
     "published": "2026-11-05T09:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Visita del papa León XIV generaría movimiento económico de S/ 300 millones, según Mincetur",
-    "url": "https://gestion.pe/economia/visita-del-papa-leon-xiv-generaria-movimiento-economico-de-us-640-millones-afirma-mincetur-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-04T21:16:38+00:00",
     "matched_in": "title"
    }
   ]
