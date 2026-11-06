@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:34:45+00:00",
+ "generated": "2026-11-06T03:15:34+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Ministros debatirán los primeros tres decretos legislativos: ¿Cuáles serán los alcances?",
     "url": "https://elcomercio.pe/politica/ministros-debatiran-los-primeros-tres-decretos-legislativos-cuales-seran-los-alcances-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-05T21:45:28+00:00",
+    "published": "2026-11-06T01:28:59+00:00",
     "matched_in": "summary"
    }
   ],
@@ -25,12 +25,14 @@
     "source": "El Comercio",
     "published": "2026-11-04T23:02:00+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Juan Sheput responde al Congreso sobre facultades: \"No pasó ni una semana y ya exigen resultados\"",
-    "url": "https://larepublica.pe/politica/2026/11/03/juan-sheput-acusa-de-mala-fe-a-parlamentarios-por-exigir-resultados-antes-de-cumplirse-el-plazo-de-las-facultades-hnews-227526",
+    "title": "Hombre de confianza de Santiváñez es contratado en el Ministerio de Defensa",
+    "url": "https://larepublica.pe/politica/2026/11/05/hombre-de-confianza-de-santivanez-es-contratado-en-el-ministerio-de-defensa-hnews-137645",
     "source": "La República",
-    "published": "2026-11-04T02:21:24+00:00",
+    "published": "2026-11-05T22:52:25+00:00",
     "matched_in": "title"
    }
   ],
@@ -45,13 +47,6 @@
   ],
   "luis-williams-dyer-fernandez": [
    {
-    "title": "Gobierno anuncia S/ 3 millones para combatir la anemia y establece meta de reducción al 50%",
-    "url": "https://gestion.pe/peru/politica/gobierno-anuncia-s-3-millones-para-combatir-la-anemia-y-establece-meta-de-reduccion-al-50-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-05T03:02:00+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Luis Dyer sobre emergencia por dengue: “No queremos que los hospitales colapsen por temas menores”",
     "url": "https://larepublica.pe/politica/2026/11/04/luis-dyer-sobre-emergencia-por-dengue-no-queremos-que-los-hospitales-colapsen-por-temas-menores-hnews-86220",
     "source": "La República",
@@ -59,13 +54,13 @@
     "matched_in": "title"
    }
   ],
-  "juan-carlos-requejo-aleman": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "Comité de la Reserva de Paracas rechaza postura del ministro Requejo y exige respetar prohibición de la pesca industrial",
-    "url": "https://larepublica.pe/politica/2026/11/03/comite-de-la-reserva-de-paracas-rechaza-postura-del-ministro-requejo-y-exige-respetar-prohibicion-de-la-pesca-industrial-hnews-40371",
-    "source": "La República",
-    "published": "2026-11-04T01:56:00+00:00",
-    "matched_in": "title"
+    "title": "Sucamec destruye más de 5 mil armas de fuego incautadas en operativos policiales",
+    "url": "https://rpp.pe/lima/actualidad/sucamec-destruye-mas-de-5-mil-armas-de-fuego-incautadas-en-operativos-policiales-noticia-1716215",
+    "source": "RPP",
+    "published": "2026-11-05T19:54:00-05:00",
+    "matched_in": "summary"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
