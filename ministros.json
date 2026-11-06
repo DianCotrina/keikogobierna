@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T12:44:57+00:00",
+ "generated": "2026-11-06T21:57:11+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -24,6 +24,22 @@
     "url": "https://elcomercio.pe/politica/ministro-de-trabajo-juan-sheput-sobre-criticas-de-la-oposicion-por-los-100-dias-tenemos-una-batahola-en-el-congreso-de-mala-fe-keiko-fujimori-noticia/",
     "source": "El Comercio",
     "published": "2026-11-04T23:02:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Ministro Astudillo: Está pendiente el pago de bonos al personal de la Policía Nacional",
+    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-sobre-pnp-esta-pendiente-el-pago-de-bonos-al-personal-de-la-policia-nacional-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-06T17:42:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Tras anunciado plantón, el Mininter asegura pago de bonos pendientes al personal de la PNP",
+    "url": "https://larepublica.pe/politica/2026/11/06/tras-anunciado-planton-el-mininter-asegura-pago-de-bonos-pendientes-al-personal-de-la-pnp-policia-nacional-hnews-469392",
+    "source": "La República",
+    "published": "2026-11-06T14:46:26+00:00",
     "matched_in": "title"
    }
   ],
@@ -54,21 +70,19 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Sucamec destruye más de 5 mil armas de fuego incautadas en operativos policiales",
-    "url": "https://rpp.pe/lima/actualidad/sucamec-destruye-mas-de-5-mil-armas-de-fuego-incautadas-en-operativos-policiales-noticia-1716215",
-    "source": "RPP",
-    "published": "2026-11-05T19:54:00-05:00",
-    "matched_in": "summary"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
+    "title": "“Es inconstitucional”: Ministro Elmer Cuba ratifica su posición sobre ley de pensión de S/3.500 para maestros",
+    "url": "https://www.infobae.com/peru/2026/11/06/es-inconstitucional-ministro-elmer-cuba-ratifica-su-posicion-sobre-ley-de-pension-de-s3500-para-maestros/",
+    "source": "Infobae",
+    "published": "2026-11-06T17:32:01+00:00",
+    "matched_in": "title"
+   },
    {
-    "title": "Canciller Espá visita Rusia después de 14 años tras denuncias de reclutados irregulares",
-    "url": "https://gestion.pe/peru/politica/canciller-peruano-espa-visita-rusia-despues-de-14-anos-tras-denuncias-de-reclutados-irregulares-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-05T16:45:20+00:00",
+    "title": "MEF reconoce alza de precios de alimentos y revela los dos factores detrás de la subida",
+    "url": "https://www.infobae.com/peru/2026/11/06/mef-reconoce-alza-de-precios-de-alimentos-y-revela-los-dos-factores-detras-de-la-subida/",
+    "source": "Infobae",
+    "published": "2026-11-06T13:46:13+00:00",
     "matched_in": "title"
    }
   ]
