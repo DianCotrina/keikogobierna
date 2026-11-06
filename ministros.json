@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T03:15:34+00:00",
+ "generated": "2026-11-06T12:44:57+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Ministros debatirán los primeros tres decretos legislativos: ¿Cuáles serán los alcances?",
     "url": "https://elcomercio.pe/politica/ministros-debatiran-los-primeros-tres-decretos-legislativos-cuales-seran-los-alcances-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-06T01:28:59+00:00",
+    "published": "2026-11-06T03:29:00+00:00",
     "matched_in": "summary"
    }
   ],
@@ -69,15 +69,6 @@
     "url": "https://gestion.pe/peru/politica/canciller-peruano-espa-visita-rusia-despues-de-14-anos-tras-denuncias-de-reclutados-irregulares-noticia/",
     "source": "Gestión",
     "published": "2026-11-05T16:45:20+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Proyecto 7 regiones de gas natural en recta final: esta es la nueva fecha clave del Minem",
-    "url": "https://gestion.pe/economia/proyecto-7-regiones-de-gas-natural-en-recta-final-esta-es-la-nueva-fecha-clave-del-minem-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-05T09:00:00+00:00",
     "matched_in": "title"
    }
   ]
