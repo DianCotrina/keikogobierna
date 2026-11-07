@@ -18,3 +18,4 @@ jobs:
       - run: python3 -m tools.scrapers.build_commitment_index --check
       - run: python3 -m unittest discover -s tools/tests -t . -p "test_*.py"
       - run: npm run build
+      - run: node tools/ci/check_status_consistency.mjs

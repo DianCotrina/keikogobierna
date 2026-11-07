@@ -19,6 +19,8 @@ test('surfaces and ink come from theme tokens, in every kind of source file', ()
   const literals = [/\bbg-white\b/, /rgba\(\s*20\s*,\s*20\s*,\s*23/, /#141417/i, /#46464D/i, /#8E8E96/i];
   for (const { path, text } of sources) {
     if (path.endsWith('global.css')) continue;
+    // Shareable images are always paper and ink: they travel without the viewer's theme.
+    if (path.endsWith('infographic-render.mjs')) continue;
     for (const literal of literals) {
       assert.ok(!literal.test(text), `${path} hard-codes ${literal}`);
     }

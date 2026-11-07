@@ -28,7 +28,7 @@ const norma = latestNorm?.source.replace(/^El Peruano — /, '');
     De los {plural(total, 'compromiso', 'compromisos')} sobre {name} en el plan de gobierno de Keiko Fujimori,{' '}
     {started === 0
       ? 'ninguno tiene todavía una norma que acredite avance. Eso no significa que no se haya hecho nada: el seguimiento solo registra lo que consta en El Peruano.'
-      : `${byStatus.in_progress} ${byStatus.in_progress === 1 ? 'está' : 'están'} en progreso y ${byStatus.fulfilled} ${byStatus.fulfilled === 1 ? 'está cumplido' : 'están cumplidos'}.`}
+      : `${started} ${started === 1 ? 'se ha iniciado' : 'se han iniciado'}: ${byStatus.in_progress} ${byStatus.in_progress === 1 ? 'está' : 'están'} en progreso y ${byStatus.fulfilled} ${byStatus.fulfilled === 1 ? 'está cumplido' : 'están cumplidos'}.`}
     {latestNorm && (
       <>
         {' '}Última norma registrada:{' '}

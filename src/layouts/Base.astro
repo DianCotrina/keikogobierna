@@ -13,14 +13,16 @@ interface Props {
   description: string;
   activeNav?: string;
   structuredData?: object | object[];
+  /** Site path of a 1200×630 preview for this page, with its alt text. */
+  image?: { path: string; alt: string };
   noindex?: boolean;
 }
 
-const { title, description, activeNav, structuredData, noindex = false } = Astro.props;
+const { title, description, activeNav, structuredData, noindex = false, image } = Astro.props;
 
 const canonical = canonicalUrl(Astro.url.pathname, Astro.site);
-const socialImage = new URL('/og.png', Astro.site).href;
-const socialImageAlt = 'keikogobierna: lo prometido es deuda. Seguimiento del plan de gobierno de Keiko Fujimori.';
+const socialImage = new URL(image?.path ?? '/og.png', Astro.site).href;
+const socialImageAlt = image?.alt ?? 'keikogobierna: lo prometido es deuda. Seguimiento del plan de gobierno de Keiko Fujimori.';
 
 // `group` only matters to the mobile menu, which files the portada anchors
 // apart from the standalone pages; the desktop nav renders one flat row.
