@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T02:34:06+00:00",
+ "generated": "2026-11-07T11:32:49+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,15 @@
   "Infobae"
  ],
  "ministers": {
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Marco Vinelli: “Hoy los indicadores de El Niño son mucho mayores que los anteriores”",
+    "url": "https://elcomercio.pe/politica/fenomeno-el-nino-marco-vinelli-hoy-los-indicadores-de-el-nino-son-mucho-mayores-que-los-anteriores-gobierno-keiko-fujimori-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-07T11:00:01+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Ministros debatirán los primeros tres decretos legislativos: ¿Cuáles serán los alcances?",
@@ -77,6 +86,15 @@
     "url": "https://larepublica.pe/politica/2026/11/05/hombre-de-confianza-de-santivanez-es-contratado-en-el-ministerio-de-defensa-hnews-137645",
     "source": "La República",
     "published": "2026-11-05T22:52:25+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput sobre primeros 100 días de gobierno: \"Las expectativas cuando son altas buscan respuestas rápidas\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-gobierno-keiko-fujimori-las-expectativas-cuando-son-altas-buscan-respuestas-rapidas-noticia-1716452",
+    "source": "RPP",
+    "published": "2026-11-06T21:33:29-05:00",
     "matched_in": "title"
    }
   ]
