@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.22.0](https://github.com/DianCotrina/keikogobierna/compare/v2.21.0...v2.22.0) (2026-11-07)
+
+
+### Features
+
+* mark every download with an icon and its file type ([a7920a8](https://github.com/DianCotrina/keikogobierna/commit/a7920a81950330ff1e29d58891facd0bf8b22f7f))
+
 ## [2.21.0](https://github.com/DianCotrina/keikogobierna/compare/v2.20.1...v2.21.0) (2026-11-07)
 
 
