@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.20.1](https://github.com/DianCotrina/keikogobierna/compare/v2.20.0...v2.20.1) (2026-11-07)
+
+
+### Bug Fixes
+
+* mark 100-day actions on topic pages and add shareable infographics ([0b49d92](https://github.com/DianCotrina/keikogobierna/commit/0b49d92a7e760ae116f7ada41e6ec4b33178509f))
+
 ## [2.20.0](https://github.com/DianCotrina/keikogobierna/compare/v2.19.0...v2.20.0) (2026-11-04)
 
 
