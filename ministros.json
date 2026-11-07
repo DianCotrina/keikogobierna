@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T21:57:11+00:00",
+ "generated": "2026-11-07T02:34:06+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,12 +18,40 @@
     "matched_in": "summary"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro Sheput sobre críticas por los primeros 100 días del Gobierno de Keiko Fujimori: “Tenemos una batahola en el Congreso de mala fe”",
-    "url": "https://elcomercio.pe/politica/ministro-de-trabajo-juan-sheput-sobre-criticas-de-la-oposicion-por-los-100-dias-tenemos-una-batahola-en-el-congreso-de-mala-fe-keiko-fujimori-noticia/",
+    "title": "Elmer Cuba, ministro de Economía: “Este año Petro-Perú va a ganar dinero”",
+    "url": "https://elcomercio.pe/economia/peru/petroperu-keiko-elmer-cuba-este-ano-petroperu-va-a-ganar-dinero-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-04T23:02:00+00:00",
+    "published": "2026-11-07T01:49:16+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
+    "url": "https://gestion.pe/peru/politica/mef-insistira-en-mover-feriados-al-lunes-que-falta-para-concretar-la-medida-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-07T00:34:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno prepara propuesta para mejorar pensiones de profesores",
+    "url": "https://gestion.pe/peru/politica/gobierno-prepara-propuesta-para-mejorar-pensiones-de-profesores-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-07T00:32:17+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "“Es inconstitucional”: Ministro Elmer Cuba ratifica su posición sobre ley de pensión de S/3.500 para maestros",
+    "url": "https://www.infobae.com/peru/2026/11/06/es-inconstitucional-ministro-elmer-cuba-ratifica-su-posicion-sobre-ley-de-pension-de-s3500-para-maestros/",
+    "source": "Infobae",
+    "published": "2026-11-06T17:32:01+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF reconoce alza de precios de alimentos y revela los dos factores detrás de la subida",
+    "url": "https://www.infobae.com/peru/2026/11/06/mef-reconoce-alza-de-precios-de-alimentos-y-revela-los-dos-factores-detras-de-la-subida/",
+    "source": "Infobae",
+    "published": "2026-11-06T13:46:13+00:00",
     "matched_in": "title"
    }
   ],
@@ -49,40 +77,6 @@
     "url": "https://larepublica.pe/politica/2026/11/05/hombre-de-confianza-de-santivanez-es-contratado-en-el-ministerio-de-defensa-hnews-137645",
     "source": "La República",
     "published": "2026-11-05T22:52:25+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alberto-ismael-beingolea-delgado": [
-   {
-    "title": "Alberto Beingolea: juicio oral por presunta colusión agravada contra ministro de Cultura inició este miércoles 4 de noviembre",
-    "url": "https://larepublica.pe/politica/2026/11/04/alberto-beingolea-juicio-oral-por-presunta-colusion-agravada-contra-ministro-de-cultura-inicia-este-4-de-noviembre-hnews-364756",
-    "source": "La República",
-    "published": "2026-11-04T23:51:31+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Dyer sobre emergencia por dengue: “No queremos que los hospitales colapsen por temas menores”",
-    "url": "https://larepublica.pe/politica/2026/11/04/luis-dyer-sobre-emergencia-por-dengue-no-queremos-que-los-hospitales-colapsen-por-temas-menores-hnews-86220",
-    "source": "La República",
-    "published": "2026-11-04T21:57:47+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "“Es inconstitucional”: Ministro Elmer Cuba ratifica su posición sobre ley de pensión de S/3.500 para maestros",
-    "url": "https://www.infobae.com/peru/2026/11/06/es-inconstitucional-ministro-elmer-cuba-ratifica-su-posicion-sobre-ley-de-pension-de-s3500-para-maestros/",
-    "source": "Infobae",
-    "published": "2026-11-06T17:32:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF reconoce alza de precios de alimentos y revela los dos factores detrás de la subida",
-    "url": "https://www.infobae.com/peru/2026/11/06/mef-reconoce-alza-de-precios-de-alimentos-y-revela-los-dos-factores-detras-de-la-subida/",
-    "source": "Infobae",
-    "published": "2026-11-06T13:46:13+00:00",
     "matched_in": "title"
    }
   ]
