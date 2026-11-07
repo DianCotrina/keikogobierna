@@ -5,6 +5,7 @@ import TopicCard from '../components/TopicCard.astro';
 import CumplidasRegistry from '../components/CumplidasRegistry.astro';
 import HeroBanner from '../components/HeroBanner.astro';
 import Stamp from '../components/Stamp.astro';
+import DownloadLink from '../components/DownloadLink/DownloadLink.astro';
 import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, commitmentStats, topicSummaries, statusOf, fulfilledItems, updatesLog } from '../lib/plan.mjs';
 import { formatDateEs } from '../lib/format.mjs';
 import { organization } from '../lib/seo.mjs';
@@ -94,11 +95,13 @@ const structuredData = {
           sourcesLine={sourcesLine}
           updatedText={updatedText}
         />
-        <a
+        <DownloadLink
           href="/infografias/plan-vertical.png"
-          download="keikogobierna-plan.png"
-          class="nav-link mt-4 inline-block font-mono text-xs text-tintafina"
-        >Descargar infografía del plan (PNG) ↓</a>
+          filename="keikogobierna-plan.png"
+          label="Descargar infografía del plan"
+          format="PNG"
+          class="mt-4 text-tintafina hover:text-tinta"
+        />
       </div>
       </div>
     </section>

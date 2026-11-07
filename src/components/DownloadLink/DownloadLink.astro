@@ -1,0 +1,25 @@
+---
+import './download-link.css';
+
+// Every file the site offers (infographics, data) uses this link, so a visitor
+// learns one sign for "this downloads": the tray icon plus the file type.
+interface Props {
+  href: string;
+  /** Saved file name; the browser downloads instead of opening. */
+  filename: string;
+  label: string;
+  format: 'PNG' | 'CSV' | 'JSON';
+  class?: string;
+}
+
+const { href, filename, label, format, class: className } = Astro.props;
+---
+
+<a href={href} download={filename} class:list={['dl', className]}>
+  <svg class="dl-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+    <path class="dl-arrow" d="M8 2v7.5M4.75 6.5 8 9.75l3.25-3.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M2.5 10.5v2a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+  </svg>
+  <span class="dl-label">{label}</span>
+  <span class="dl-format">{format}</span>
+</a>

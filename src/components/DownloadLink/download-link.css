@@ -1,0 +1,43 @@
+.dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: inherit;
+  border-radius: 0.25rem;
+}
+.dl-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  overflow: visible;
+}
+.dl-arrow {
+  transition: transform 0.3s var(--ease-spring);
+}
+.dl-format {
+  border: 1px solid currentColor;
+  border-radius: 0.2rem;
+  padding: 0 0.3rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+}
+.dl:hover .dl-label {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.dl:hover .dl-arrow,
+.dl:focus-visible .dl-arrow {
+  transform: translateY(1.5px);
+}
+.dl:active {
+  transform: scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dl-arrow { transition: none; }
+}

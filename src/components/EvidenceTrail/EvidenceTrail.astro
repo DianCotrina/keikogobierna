@@ -3,6 +3,7 @@ import './evidence-trail.css';
 import { formatDateEsShort, plural, noteSegments, splitEvidenceNote } from '../../lib/format.mjs';
 import { governmentDay } from '../../lib/mandate.mjs';
 import { imageSlug } from '../../lib/started.mjs';
+import DownloadLink from '../DownloadLink/DownloadLink.astro';
 
 interface Evidence {
   date: string;
@@ -108,11 +109,13 @@ const entryLabel = (index: number) => {
     )}
 
     {id && started && (
-      <a
+      <DownloadLink
         href={`/infografias/compromiso-${imageSlug(id)}.png`}
-        download={`keikogobierna-${imageSlug(id)}.png`}
-        class="nav-link inline-block pl-[26px] font-mono text-xs text-tintafina"
-      >Descargar ficha del compromiso (PNG) ↓</a>
+        filename={`keikogobierna-${imageSlug(id)}.png`}
+        label="Descargar ficha"
+        format="PNG"
+        class="ml-[26px] text-tintafina hover:text-tinta"
+      />
     )}
   </div>
 </details>

@@ -1,4 +1,5 @@
 ---
+import DownloadLink from '../components/DownloadLink/DownloadLink.astro';
 import { breadcrumbs, organization } from '../lib/seo.mjs';
 import { loadTracking } from '../lib/plan.mjs';
 import Base from '../layouts/Base.astro';
@@ -188,16 +189,16 @@ const structuredData = {
           <p class="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-papel/60">Datos abiertos</p>
           <h2 class="font-sans font-bold text-lg mt-1.5">Consume nuestros datos</h2>
           <p class="mt-2 text-sm leading-[1.7] text-papel/80">Todo el plan y su seguimiento están disponibles como JSON, regenerados en cada publicación. Úsalos citando la fuente.</p>
-          <p class="mt-3 flex flex-wrap gap-x-6 gap-y-1 font-mono text-sm">
-            <a href="/api/plan.json" class="nav-link">/api/plan.json</a>
-            <a href="/api/tracking.json" class="nav-link">/api/tracking.json</a>
-            <a href="/api/gabinete.json" class="nav-link">/api/gabinete.json</a>
-          </p>
+          <div class="mt-3 flex flex-wrap gap-x-6 gap-y-2">
+            <DownloadLink href="/api/plan.json" filename="keikogobierna-plan.json" label="Plan de gobierno" format="JSON" class="text-papel/85 hover:text-papel" />
+            <DownloadLink href="/api/tracking.json" filename="keikogobierna-seguimiento.json" label="Seguimiento" format="JSON" class="text-papel/85 hover:text-papel" />
+            <DownloadLink href="/api/gabinete.json" filename="keikogobierna-gabinete.json" label="Gabinete" format="JSON" class="text-papel/85 hover:text-papel" />
+          </div>
           <p class="mt-4 text-sm leading-[1.7] text-papel/80">Los compromisos iniciados, uno por fila, con cada norma que los acredita, sus fechas y lo que aún falta. El JSON incluye además métricas del seguimiento por pilar, tema y ministerio.</p>
-          <p class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-mono text-sm">
-            <a href="/api/compromisos-iniciados.csv" download="keikogobierna-compromisos-iniciados.csv" class="nav-link">/api/compromisos-iniciados.csv</a>
-            <a href="/api/compromisos-iniciados.json" class="nav-link">/api/compromisos-iniciados.json</a>
-          </p>
+          <div class="mt-2 flex flex-wrap gap-x-6 gap-y-2">
+            <DownloadLink href="/api/compromisos-iniciados.csv" filename="keikogobierna-compromisos-iniciados.csv" label="Compromisos iniciados" format="CSV" class="text-papel/85 hover:text-papel" />
+            <DownloadLink href="/api/compromisos-iniciados.json" filename="keikogobierna-compromisos-iniciados.json" label="Compromisos iniciados" format="JSON" class="text-papel/85 hover:text-papel" />
+          </div>
         </div>
 
         <p class="mt-10 font-mono text-xs text-tintasuave leading-relaxed max-w-xl">Un estado solo cambia con evidencia de estas fuentes, enlazada en cada certificación. Si encuentras un error o tienes evidencia nueva, escríbenos.</p>
