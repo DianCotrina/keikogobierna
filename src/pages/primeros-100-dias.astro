@@ -132,7 +132,7 @@ const structuredData = breadcrumbs([['Inicio', '/'], ['Primeros 100 días', '/pr
                           <p class="flex-1 text-sm leading-[1.65]">{action.text}</p>
                         </div>
                         {action.evidence.length > 0 && (
-                          <EvidenceTrail evidence={action.evidence} status={action.status} related={action.related} class="mt-3" />
+                          <EvidenceTrail id={action.id} evidence={action.evidence} status={action.status} related={action.related} class="mt-3" />
                         )}
                       </li>
                     ))}
