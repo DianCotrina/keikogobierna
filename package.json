@@ -30,5 +30,13 @@
     "@tailwindcss/vite": "^4.3.2",
     "astro": "^7.0.6",
     "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "@fontsource/archivo": "^5.3.0",
+    "@fontsource/archivo-black": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/source-serif-4": "^5.3.1",
+    "@resvg/resvg-js": "^2.6.2",
+    "satori": "^0.12.2"
   }
 }
