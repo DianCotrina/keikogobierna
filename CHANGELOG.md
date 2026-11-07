@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.21.0](https://github.com/DianCotrina/keikogobierna/compare/v2.20.1...v2.21.0) (2026-11-07)
+
+
+### Features
+
+* publish the started commitments as open data and detail images ([49f6e6f](https://github.com/DianCotrina/keikogobierna/commit/49f6e6fa0a8c6dbb25b5dae6c81ccfabffa5dd79))
+
 ## [2.20.1](https://github.com/DianCotrina/keikogobierna/compare/v2.20.0...v2.20.1) (2026-11-07)
 
 
