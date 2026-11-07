@@ -189,6 +189,61 @@ function landscape(d, asOf) {
       text('keikogobierna.com', { fontFamily: 'Plex Mono', fontWeight: 600, fontSize: 20, color: C.tinta })));
 }
 
+// One started commitment: the promise, the norms that certify it and what is
+// still missing. The note's "falta" text is cut to the lines left after the
+// fixed blocks, so it ends on a whole sentence fragment, never under the footer.
+function commitmentVertical(r, asOf) {
+  const W = 936;
+  const charsPerLine = (size) => Math.floor(W / (size * 0.5));
+  const height = (value, size, lineHeight) => lines(value, size, W) * size * lineHeight;
+  const textSize = r.text.length > 240 ? 32 : 38;
+  const norms = r.norms.slice(-2);
+  // The latest norma is the current state; earlier ones get a line of context.
+  const normSummary = (norm) => truncate(norm.summary ?? norm.does, norm === r.norms.at(-1) ? 230 : 110);
+  const responsibleText = r.responsible.length > 0 ? `A cargo del tema: ${r.responsible.map((x) => `${x.ministry} (${x.minister})`).join('; ')}` : null;
+  // Monospace runs wider than the serif: about 0.6em per character.
+  const responsibleHeight = responsibleText ? 20 + Math.ceil((responsibleText.length * 21 * 0.6) / W) * 28 : 0;
+  let room = FORMATS.vertical.height - (14 + 64 + 52 + 66 + 88 + 22 + 40 + 30 + 40 + 46 + 165 + 60) - responsibleHeight;
+  room -= height(r.text, textSize, 1.3);
+  for (const norm of norms) room -= 28 + 36 + height(normSummary(norm), 27, 1.4) + 24;
+  if (r.norms.length > norms.length) room -= 34;
+  const pending = r.norms.at(-1)?.pending;
+  const pendingLines = Math.max(0, Math.floor(room / (27 * 1.4)));
+  const pendingText = pending && pendingLines > 0 ? truncate(pending, pendingLines * charsPerLine(27) - 4) : null;
+  const kindLabel = r.kind === 'first_100_days' ? 'ACCIÓN DE LOS PRIMEROS 100 DÍAS' : 'PROPUESTA DEL PLAN';
+  const tone = r.status === 'fulfilled' ? C.verde : C.ambar;
+
+  return frame(FORMATS.vertical, '64px 72px 60px',
+    header(asOf, 42, 24),
+    text(`${r.topic.name.toUpperCase()} · ${kindLabel}`, { marginTop: 44, fontFamily: 'Plex Mono', fontSize: 22, letterSpacing: '0.12em', color: C.suave }),
+    h('div', { marginTop: 18, alignItems: 'center' },
+      text(r.code, { fontFamily: 'Archivo Black', fontSize: 64, letterSpacing: '-0.02em', color: C.tinta }),
+      text(r.status_label.toUpperCase(), { marginLeft: 26, padding: '6px 14px', border: `3px solid ${tone}`, borderRadius: 6, fontFamily: 'Plex Mono', fontWeight: 600, fontSize: 24, letterSpacing: '0.08em', color: tone })),
+    text(r.text, { marginTop: 18, fontFamily: 'Source Serif', fontSize: textSize, lineHeight: 1.3, color: C.tinta }),
+    text(
+      `Iniciado el ${formatDateEs(r.started_on)} · día ${r.started_government_day} de gobierno · ${plural(r.norm_count, 'norma', 'normas')}`,
+      { marginTop: 22, fontFamily: 'Plex Mono', fontSize: 22, color: C.suave },
+    ),
+    h('div', { flex: 1, flexDirection: 'column', marginTop: 30, overflow: 'hidden' },
+      text(r.norm_count === 1 ? 'La norma que lo acredita' : 'Las normas que lo acreditan', { flexShrink: 0, fontFamily: 'Archivo', fontWeight: 700, fontSize: 28, color: C.tinta }),
+      norms.map((norm) =>
+        h('div', { flexDirection: 'column', marginTop: 16, flexShrink: 0, paddingLeft: 22, borderLeft: `4px solid ${tone}` },
+          text(`${formatDateEsShort(norm.date)} · día ${norm.government_day}`, { fontFamily: 'Plex Mono', fontSize: 21, color: C.suave }),
+          text(norm.norma, { marginTop: 2, fontFamily: 'Archivo', fontWeight: 700, fontSize: 27, color: C.tinta }),
+          text(normSummary(norm), { marginTop: 4, fontFamily: 'Source Serif', fontSize: 27, lineHeight: 1.4, color: C.tinta }))),
+      r.norms.length > norms.length && text(`y ${plural(r.norms.length - norms.length, 'norma anterior', 'normas anteriores')} en la web`, { marginTop: 10, flexShrink: 0, fontFamily: 'Plex Mono', fontSize: 21, color: C.suave }),
+      pendingText && h('div', { flexDirection: 'column', marginTop: 24, flexShrink: 0 },
+        text(r.status === 'fulfilled' ? 'Nota' : 'Por qué sigue en progreso', { fontFamily: 'Archivo', fontWeight: 700, fontSize: 28, color: C.tinta }),
+        text(pendingText, { marginTop: 6, fontFamily: 'Source Serif', fontSize: 27, lineHeight: 1.4, color: C.suave })),
+      responsibleText && text(responsibleText, { marginTop: 20, flexShrink: 0, fontFamily: 'Plex Mono', fontSize: 21, color: C.suave })),
+    footer(`/temas/${r.topic.slug}/`, 23));
+}
+
+export async function renderCommitment(row, asOf) {
+  const svg = await satori(commitmentVertical(row, asOf), { ...FORMATS.vertical, fonts: loadFonts() });
+  return new Resvg(svg, { fitTo: { mode: 'original' } }).render().asPng();
+}
+
 export async function renderInfographic(data, format, asOf) {
   const tree = format === 'enlace' ? landscape(data, asOf) : data.kind === 'plan' ? planVertical(data, asOf) : topicVertical(data, asOf);
   const svg = await satori(tree, { ...FORMATS[format], fonts: loadFonts() });

@@ -2,6 +2,7 @@
 import './evidence-trail.css';
 import { formatDateEsShort, plural, noteSegments, splitEvidenceNote } from '../../lib/format.mjs';
 import { governmentDay } from '../../lib/mandate.mjs';
+import { imageSlug } from '../../lib/started.mjs';
 
 interface Evidence {
   date: string;
@@ -18,13 +19,16 @@ interface Related {
 }
 
 interface Props {
+  /** Commitment id; when set and the commitment is started, the trail links its image. */
+  id?: string;
   evidence: Evidence[];
   status?: string;
   related?: Related[];
   class?: string;
 }
 
-const { evidence, status, related = [], class: className } = Astro.props;
+const { id, evidence, status, related = [], class: className } = Astro.props;
+const started = status === 'in_progress' || status === 'fulfilled';
 const inProgress = status === 'in_progress';
 const tone = inProgress ? 'text-ambar' : 'text-verde';
 const dot = inProgress ? 'bg-ambar' : 'bg-verde';
@@ -101,6 +105,14 @@ const entryLabel = (index: number) => {
           ))}
         </ul>
       </div>
+    )}
+
+    {id && started && (
+      <a
+        href={`/infografias/compromiso-${imageSlug(id)}.png`}
+        download={`keikogobierna-${imageSlug(id)}.png`}
+        class="nav-link inline-block pl-[26px] font-mono text-xs text-tintafina"
+      >Descargar ficha del compromiso (PNG) ↓</a>
     )}
   </div>
 </details>

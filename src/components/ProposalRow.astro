@@ -39,6 +39,6 @@ const certified = status === 'fulfilled';
   )}
   <div class:list={['col-start-2', status ? 'row-start-2 sm:row-start-1' : 'row-start-1']}>
     <p class="text-sm leading-[1.7]">{text}</p>
-    {evidence.length > 0 && <EvidenceTrail evidence={evidence} status={status} class="mt-2" />}
+    {evidence.length > 0 && <EvidenceTrail id={id} evidence={evidence} status={status} class="mt-2" />}
   </div>
 </li>

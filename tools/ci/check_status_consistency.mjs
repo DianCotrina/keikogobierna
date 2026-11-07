@@ -83,6 +83,13 @@ const tally = (html, label) => Number((html.match(new RegExp(`(\\d+)</p><p[^>]*>
 expect('/primeros-100-dias/ (tally)', 'en progreso', tally(hundred, 'En progreso'), hundredTotal.in_progress);
 expect('/primeros-100-dias/ (tally)', 'cumplidas', tally(hundred, 'Cumplidas'), hundredTotal.fulfilled);
 
+// The open-data file lists every started commitment exactly once, and the CSV matches it.
+const dataset = JSON.parse(read('api/compromisos-iniciados.json'));
+expect('/api/compromisos-iniciados.json', 'commitments', dataset.commitments.length, total.in_progress + total.fulfilled);
+expect('/api/compromisos-iniciados.json', 'summary started', dataset.summary.started, total.in_progress + total.fulfilled);
+const csvRows = read('api/compromisos-iniciados.csv').split('\r\n').filter((line) => /^t\d/.test(line)).length;
+expect('/api/compromisos-iniciados.csv', 'rows', csvRows, total.in_progress + total.fulfilled);
+
 if (failures.length > 0) {
   console.error(`${failures.length} status count(s) disagree with tracking.json:\n- ${failures.join('\n- ')}`);
   process.exit(1);
