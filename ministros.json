@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T11:32:49+00:00",
+ "generated": "2026-11-07T20:41:03+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,16 @@
     "title": "Marco Vinelli: “Hoy los indicadores de El Niño son mucho mayores que los anteriores”",
     "url": "https://elcomercio.pe/politica/fenomeno-el-nino-marco-vinelli-hoy-los-indicadores-de-el-nino-son-mucho-mayores-que-los-anteriores-gobierno-keiko-fujimori-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-07T11:00:01+00:00",
+    "published": "2026-11-07T19:15:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Carlos Espá se reunirá en Moscú con su homólogo Sergei Lavrov",
+    "url": "https://elcomercio.pe/lima/sucesos/canciller-carlos-espa-se-reunira-en-moscu-con-su-homologo-sergei-lavrov-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-07T19:06:56+00:00",
     "matched_in": "title"
    }
   ],
@@ -25,43 +34,6 @@
     "source": "El Comercio",
     "published": "2026-11-06T03:29:00+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Elmer Cuba, ministro de Economía: “Este año Petro-Perú va a ganar dinero”",
-    "url": "https://elcomercio.pe/economia/peru/petroperu-keiko-elmer-cuba-este-ano-petroperu-va-a-ganar-dinero-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-07T01:49:16+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
-    "url": "https://gestion.pe/peru/politica/mef-insistira-en-mover-feriados-al-lunes-que-falta-para-concretar-la-medida-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-07T00:34:59+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Gobierno prepara propuesta para mejorar pensiones de profesores",
-    "url": "https://gestion.pe/peru/politica/gobierno-prepara-propuesta-para-mejorar-pensiones-de-profesores-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-07T00:32:17+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "“Es inconstitucional”: Ministro Elmer Cuba ratifica su posición sobre ley de pensión de S/3.500 para maestros",
-    "url": "https://www.infobae.com/peru/2026/11/06/es-inconstitucional-ministro-elmer-cuba-ratifica-su-posicion-sobre-ley-de-pension-de-s3500-para-maestros/",
-    "source": "Infobae",
-    "published": "2026-11-06T17:32:01+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF reconoce alza de precios de alimentos y revela los dos factores detrás de la subida",
-    "url": "https://www.infobae.com/peru/2026/11/06/mef-reconoce-alza-de-precios-de-alimentos-y-revela-los-dos-factores-detras-de-la-subida/",
-    "source": "Infobae",
-    "published": "2026-11-06T13:46:13+00:00",
-    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -89,13 +61,36 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Juan Sheput sobre primeros 100 días de gobierno: \"Las expectativas cuando son altas buscan respuestas rápidas\"",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-gobierno-keiko-fujimori-las-expectativas-cuando-son-altas-buscan-respuestas-rapidas-noticia-1716452",
+    "title": "Un libro al mes y una hora diaria de lectura: las medidas que se aplicarán en los colegios según las nuevas reglas de disciplina escolar del Gobierno de Keiko Fujimori",
+    "url": "https://www.infobae.com/peru/2026/11/07/un-libro-al-mes-y-una-hora-diaria-de-lectura-las-medidas-que-se-aplicaran-en-los-colegios-segun-las-nuevas-reglas-de-disciplina-escolar/",
+    "source": "Infobae",
+    "published": "2026-11-07T16:26:32+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Keiko Fujimori suscribió Decreto Supremo que aprueba nuevos lineamientos de disciplina escolar",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-suscribio-decreto-supremo-que-aprueba-nuevos-lineamientos-de-disciplina-escolar-noticia-1716518",
     "source": "RPP",
-    "published": "2026-11-06T21:33:29-05:00",
+    "published": "2026-11-07T10:55:12-05:00",
+    "matched_in": "summary"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
+    "url": "https://gestion.pe/peru/politica/mef-insistira-en-mover-feriados-al-lunes-que-falta-para-concretar-la-medida-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-07T15:22:00+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Gobierno prepara propuesta para mejorar pensiones de profesores",
+    "url": "https://gestion.pe/peru/politica/gobierno-prepara-propuesta-para-mejorar-pensiones-de-profesores-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-07T13:23:18+00:00",
+    "matched_in": "summary"
    }
   ]
  }
