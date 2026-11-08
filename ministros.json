@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T02:05:37+00:00",
+ "generated": "2026-11-08T11:45:10+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -25,15 +25,6 @@
     "source": "El Comercio",
     "published": "2026-11-07T19:06:56+00:00",
     "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministros debatirán los primeros tres decretos legislativos: ¿Cuáles serán los alcances?",
-    "url": "https://elcomercio.pe/politica/ministros-debatiran-los-primeros-tres-decretos-legislativos-cuales-seran-los-alcances-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-06T03:29:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "luis-fernando-galarreta-velarde": [
@@ -63,18 +54,18 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
+    "title": "Gobierno prepara propuesta para mejorar pensiones de profesores",
+    "url": "https://gestion.pe/peru/politica/gobierno-prepara-propuesta-para-mejorar-pensiones-de-profesores-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-08T03:33:00+00:00",
+    "matched_in": "summary"
+   },
+   {
     "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
     "url": "https://gestion.pe/peru/politica/mef-insistira-en-mover-feriados-al-lunes-que-falta-para-concretar-la-medida-noticia/",
     "source": "Gestión",
     "published": "2026-11-07T15:22:00+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Gobierno prepara propuesta para mejorar pensiones de profesores",
-    "url": "https://gestion.pe/peru/politica/gobierno-prepara-propuesta-para-mejorar-pensiones-de-profesores-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-07T13:23:18+00:00",
-    "matched_in": "summary"
    }
   ],
   "jose-antonio-chang-escobedo": [
