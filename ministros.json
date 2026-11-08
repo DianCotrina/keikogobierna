@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T20:41:03+00:00",
+ "generated": "2026-11-08T02:05:37+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Marco Vinelli: “Hoy los indicadores de El Niño son mucho mayores que los anteriores”",
     "url": "https://elcomercio.pe/politica/fenomeno-el-nino-marco-vinelli-hoy-los-indicadores-de-el-nino-son-mucho-mayores-que-los-anteriores-gobierno-keiko-fujimori-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-07T19:15:00+00:00",
+    "published": "2026-11-07T23:45:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -36,6 +36,15 @@
     "matched_in": "summary"
    }
   ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Luis Galarreta critica resolución del JNE sobre reelección encubierta: “Eso debieron hacerlo antes del juego”",
+    "url": "https://larepublica.pe/politica/2026/11/07/luis-galarreta-critica-resolucion-del-jne-sobre-reeleccion-encubierta-eso-debieron-hacerlo-antes-del-juego-hnews-94752",
+    "source": "La República",
+    "published": "2026-11-07T23:24:59+00:00",
+    "matched_in": "title"
+   }
+  ],
   "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Ministro Astudillo: Está pendiente el pago de bonos al personal de la Policía Nacional",
@@ -52,31 +61,6 @@
     "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Hombre de confianza de Santiváñez es contratado en el Ministerio de Defensa",
-    "url": "https://larepublica.pe/politica/2026/11/05/hombre-de-confianza-de-santivanez-es-contratado-en-el-ministerio-de-defensa-hnews-137645",
-    "source": "La República",
-    "published": "2026-11-05T22:52:25+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Un libro al mes y una hora diaria de lectura: las medidas que se aplicarán en los colegios según las nuevas reglas de disciplina escolar del Gobierno de Keiko Fujimori",
-    "url": "https://www.infobae.com/peru/2026/11/07/un-libro-al-mes-y-una-hora-diaria-de-lectura-las-medidas-que-se-aplicaran-en-los-colegios-segun-las-nuevas-reglas-de-disciplina-escolar/",
-    "source": "Infobae",
-    "published": "2026-11-07T16:26:32+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Keiko Fujimori suscribió Decreto Supremo que aprueba nuevos lineamientos de disciplina escolar",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-suscribio-decreto-supremo-que-aprueba-nuevos-lineamientos-de-disciplina-escolar-noticia-1716518",
-    "source": "RPP",
-    "published": "2026-11-07T10:55:12-05:00",
-    "matched_in": "summary"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
    {
     "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
@@ -90,6 +74,15 @@
     "url": "https://gestion.pe/peru/politica/gobierno-prepara-propuesta-para-mejorar-pensiones-de-profesores-noticia/",
     "source": "Gestión",
     "published": "2026-11-07T13:23:18+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Un libro al mes y una hora diaria de lectura: las medidas que se aplicarán en los colegios según las nuevas reglas de disciplina escolar del Gobierno de Keiko Fujimori",
+    "url": "https://www.infobae.com/peru/2026/11/07/un-libro-al-mes-y-una-hora-diaria-de-lectura-las-medidas-que-se-aplicaran-en-los-colegios-segun-las-nuevas-reglas-de-disciplina-escolar/",
+    "source": "Infobae",
+    "published": "2026-11-07T16:26:32+00:00",
     "matched_in": "summary"
    }
   ]
