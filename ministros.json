@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T11:45:10+00:00",
+ "generated": "2026-11-08T20:57:59+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Marco Vinelli: “Hoy los indicadores de El Niño son mucho mayores que los anteriores”",
     "url": "https://elcomercio.pe/politica/fenomeno-el-nino-marco-vinelli-hoy-los-indicadores-de-el-nino-son-mucho-mayores-que-los-anteriores-gobierno-keiko-fujimori-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-07T23:45:00+00:00",
+    "published": "2026-11-08T19:05:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -27,6 +27,15 @@
     "matched_in": "title"
    }
   ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Gobierno de Keiko Fujimori nombra a exministro de Pedro Castillo como embajador de Perú en Marruecos",
+    "url": "https://larepublica.pe/politica/2026/11/08/gobierno-de-keiko-fujimori-nombra-a-exministro-de-pedro-castillo-como-embajador-de-peru-en-marruecos-hnews-799768",
+    "source": "La República",
+    "published": "2026-11-08T16:09:29+00:00",
+    "matched_in": "summary"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Luis Galarreta critica resolución del JNE sobre reelección encubierta: “Eso debieron hacerlo antes del juego”",
@@ -36,45 +45,29 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro Astudillo: Está pendiente el pago de bonos al personal de la Policía Nacional",
-    "url": "https://gestion.pe/peru/politica/ministro-cesar-astudillo-sobre-pnp-esta-pendiente-el-pago-de-bonos-al-personal-de-la-policia-nacional-noticia/",
+    "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
+    "url": "https://gestion.pe/peru/politica/mef-insistira-en-mover-feriados-al-lunes-que-falta-para-concretar-la-medida-noticia/",
     "source": "Gestión",
-    "published": "2026-11-06T17:42:00+00:00",
+    "published": "2026-11-08T18:45:00+00:00",
     "matched_in": "title"
    },
-   {
-    "title": "Tras anunciado plantón, el Mininter asegura pago de bonos pendientes al personal de la PNP",
-    "url": "https://larepublica.pe/politica/2026/11/06/tras-anunciado-planton-el-mininter-asegura-pago-de-bonos-pendientes-al-personal-de-la-pnp-policia-nacional-hnews-469392",
-    "source": "La República",
-    "published": "2026-11-06T14:46:26+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
    {
     "title": "Gobierno prepara propuesta para mejorar pensiones de profesores",
     "url": "https://gestion.pe/peru/politica/gobierno-prepara-propuesta-para-mejorar-pensiones-de-profesores-noticia/",
     "source": "Gestión",
     "published": "2026-11-08T03:33:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
-    "url": "https://gestion.pe/peru/politica/mef-insistira-en-mover-feriados-al-lunes-que-falta-para-concretar-la-medida-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-07T15:22:00+00:00",
-    "matched_in": "title"
    }
   ],
-  "jose-antonio-chang-escobedo": [
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Un libro al mes y una hora diaria de lectura: las medidas que se aplicarán en los colegios según las nuevas reglas de disciplina escolar del Gobierno de Keiko Fujimori",
-    "url": "https://www.infobae.com/peru/2026/11/07/un-libro-al-mes-y-una-hora-diaria-de-lectura-las-medidas-que-se-aplicaran-en-los-colegios-segun-las-nuevas-reglas-de-disciplina-escolar/",
+    "title": "López Aliaga despotrica contra el ministro Juan Sheput: “Es indecente (...) me dan asco los políticos como usted”",
+    "url": "https://www.infobae.com/peru/2026/11/08/rafael-lopez-aliaga-despotrica-contra-el-ministro-juan-sheput-es-indecente-me-dan-asco-los-politicos-como-usted/",
     "source": "Infobae",
-    "published": "2026-11-07T16:26:32+00:00",
-    "matched_in": "summary"
+    "published": "2026-11-08T20:45:03+00:00",
+    "matched_in": "title"
    }
   ]
  }
