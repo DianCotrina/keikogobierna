@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T20:57:59+00:00",
+ "generated": "2026-11-09T02:25:27+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,7 +14,7 @@
     "title": "Marco Vinelli: “Hoy los indicadores de El Niño son mucho mayores que los anteriores”",
     "url": "https://elcomercio.pe/politica/fenomeno-el-nino-marco-vinelli-hoy-los-indicadores-de-el-nino-son-mucho-mayores-que-los-anteriores-gobierno-keiko-fujimori-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-08T19:05:00+00:00",
+    "published": "2026-11-08T23:55:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -59,15 +59,6 @@
     "source": "Gestión",
     "published": "2026-11-08T03:33:00+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "López Aliaga despotrica contra el ministro Juan Sheput: “Es indecente (...) me dan asco los políticos como usted”",
-    "url": "https://www.infobae.com/peru/2026/11/08/rafael-lopez-aliaga-despotrica-contra-el-ministro-juan-sheput-es-indecente-me-dan-asco-los-politicos-como-usted/",
-    "source": "Infobae",
-    "published": "2026-11-08T20:45:03+00:00",
-    "matched_in": "title"
    }
   ]
  }
