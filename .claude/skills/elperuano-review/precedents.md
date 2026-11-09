@@ -27,6 +27,17 @@ Decided cases, so the same facts get the same verdict. Newest first within each 
 - **D.S. 017-2026-MINEDU** (#475): discard. PRONABEC regulation finishing a reengineering started by the previous government; no increase in scholarships.
 - **R.M. 321-2026-VIVIENDA** (#352): discard. Monitoring plan for an inherited treatment-plant project; builds nothing.
 
+### Reviewed 2026-11-09
+
+### #686 — D. Leg. 1742: context, below `t1-1.P35` (2026-11-09)
+Lets the Armed Forces guard prison perimeters and install and operate signal inhibitors (art. 5.2 h, Quinta DCF with MTC), only in prisons under a state of emergency, exceptional and temporary, on existing budgets. Enables, installs nothing, covers only emergency prisons. Further than D.S. 128/148-2026-PCM but still below `started` for a permanent system in every prison. Not `t1-1.P32` (new prisons under FFAA administration) nor the mixed commands (no Fiscalía, no SUNAT). Lesson: a law that *permits* the promised thing is context until an act orders, contracts or executes it.
+
+### #687 — R.M. 00396-2026-PRODUCE: discard «no acredita avance» (2026-11-09)
+S/ 345 780 for administrative costs of the NEC Cuero y Calzado (created 2022, convenio 2023) inside Compras a MYPErú. Spending rule; does not touch the S/ 1 000 million floor of `t2-1.P22`.
+
+### #688 — R.M. 508-2026-EF/52: discard «no tiene relación» (2026-11-09)
+Guidelines to apply the new agrarian-bond update method (D.S. 135-2026-EF, 2026-07-14, previous government) to closed cases. No commitment covers the agrarian debt; `t3-2.P03` is the teachers' social debt.
+
 ### Re-reviewed 2026-11-07
 
 ### #678 — R.M. D000473-2026-MIDAGRI-DM: discard (2026-11-07)
