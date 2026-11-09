@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T02:25:27+00:00",
+ "generated": "2026-11-09T13:39:29+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,6 +9,22 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Rafael López Aliaga al ministro Juan Sheput: “Yo no entro en política para estar robando ni soga ni cabra a nadie”",
+    "url": "https://elcomercio.pe/politica/rafael-lopez-aliaga-responde-al-ministro-juan-sheput-yo-no-entro-en-politica-para-estar-robando-ni-soga-ni-cabra-a-nadie-jne-elecciones-regionales-y-municipales-2026-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-09T04:23:13+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "López Aliaga arremete contra Juan Sheput: \"Yo no entro en política para estar robando ni soga ni cabra a nadie\"",
+    "url": "https://rpp.pe/politica/elecciones/rafael-lopez-aliaga-responde-a-juan-sheput-tras-el-fallo-del-jne-sobre-reeleccion-noticia-1716725",
+    "source": "RPP",
+    "published": "2026-11-08T21:18:23-05:00",
+    "matched_in": "title"
+   }
+  ],
   "marco-antonio-vinelli-ruiz": [
    {
     "title": "Marco Vinelli: “Hoy los indicadores de El Niño son mucho mayores que los anteriores”",
@@ -32,7 +48,7 @@
     "title": "Gobierno de Keiko Fujimori nombra a exministro de Pedro Castillo como embajador de Perú en Marruecos",
     "url": "https://larepublica.pe/politica/2026/11/08/gobierno-de-keiko-fujimori-nombra-a-exministro-de-pedro-castillo-como-embajador-de-peru-en-marruecos-hnews-799768",
     "source": "La República",
-    "published": "2026-11-08T16:09:29+00:00",
+    "published": "2026-11-09T13:17:11+00:00",
     "matched_in": "summary"
    }
   ],
@@ -46,6 +62,34 @@
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "El bono para afectados por el fenómeno de El Niño llegaría hasta los S/ 200, estima Elmer Cuba",
+    "url": "https://rpp.pe/politica/gobierno/el-bono-para-afectados-por-el-fenomeno-de-el-nino-llegaria-hasta-los-s-200-estima-elmer-cuba-noticia-1716747",
+    "source": "RPP",
+    "published": "2026-11-09T01:14:17-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF plantea reducir aportes a salud y pensiones para trabajadores de menores ingresos",
+    "url": "https://gestion.pe/economia/mef-plantea-reducir-aportes-de-salud-y-pensiones-para-trabajadores-de-menores-ingresos-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-09T06:00:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Elmer Cuba descarta recortes de beneficios laborales en microempresas y prevé ajustes en aportes al seguro y pensiones",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-descarta-recortes-de-beneficios-laborales-en-microempresas-y-preve-ajustes-en-aportes-al-seguro-y-pensiones-noticia-1716729",
+    "source": "RPP",
+    "published": "2026-11-08T23:04:22-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gobierno confirma entrega de bonos de s/ 200 mensuales por el fenómeno El Niño: ¿A quiénes va dirigido?",
+    "url": "https://www.infobae.com/peru/2026/11/09/gobierno-confirma-entrega-de-bonos-de-s-200-por-el-fenomeno-el-nino-a-quienes-va-dirigido/",
+    "source": "Infobae",
+    "published": "2026-11-09T02:43:06+00:00",
+    "matched_in": "summary"
+   },
    {
     "title": "MEF insistirá en mover feriados al lunes, ¿qué falta para concretar la medida?",
     "url": "https://gestion.pe/peru/politica/mef-insistira-en-mover-feriados-al-lunes-que-falta-para-concretar-la-medida-noticia/",
