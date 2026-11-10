@@ -7,8 +7,9 @@ import GoalRow from '../../components/GoalRow.astro';
 import TopicStatus from '../../components/TopicStatus.astro';
 import DownloadLink from '../../components/DownloadLink/DownloadLink.astro';
 import { currentCabinet } from '../../lib/cabinet.mjs';
-import { plural } from '../../lib/format.mjs';
-import { breadcrumbs } from '../../lib/seo.mjs';
+import { formatDateEs, plural } from '../../lib/format.mjs';
+import { breadcrumbs, graph, webPage } from '../../lib/seo.mjs';
+import { topicLastModified } from '../../lib/freshness.mjs';
 import {
   loadPlan,
   loadTopics,
@@ -78,7 +79,12 @@ const title = `${topic.name}: plan de gobierno de Keiko Fujimori`;
 const status = topicStatus(topics, tracking, topic.id);
 const responsible = currentCabinet().filter((row) => row.person && row.portfolio.topics.includes(topic.id));
 const description = `${topic.name} en el plan de gobierno de Keiko Fujimori: ${plural(topic.proposals, 'propuesta', 'propuestas')} y ${plural(topic.goals, 'meta', 'metas')} al 2031, con ${status.started} de ${status.total} compromisos iniciados y su evidencia.`;
-const structuredData = breadcrumbs([['Inicio', '/'], [topic.name, `/temas/${topic.slug}/`]], Astro.site);
+const lastModified = topicLastModified(tracking, topic.id);
+const path = `/temas/${topic.slug}/`;
+const structuredData = graph(
+  breadcrumbs([['Inicio', '/'], [topic.name, path]], Astro.site),
+  webPage({ path, name: title, description, dateModified: lastModified, about: { '@type': 'Thing', name: topic.name } }, Astro.site),
+);
 ---
 
 <Base
@@ -110,6 +116,11 @@ const structuredData = breadcrumbs([['Inicio', '/'], [topic.name, `/temas/${topi
         format="PNG"
         class="mt-5 text-tintafina hover:text-tinta"
       />
+      <p class="mt-4 font-mono text-xs text-tintafina">
+        {lastModified
+          ? <>Último movimiento registrado: <time datetime={lastModified}>{formatDateEs(lastModified)}</time></>
+          : <>Sin movimientos registrados al <time datetime={tracking.updated}>{formatDateEs(tracking.updated)}</time></>}
+      </p>
     </section>
 
     <!-- Metas al 2031 -->

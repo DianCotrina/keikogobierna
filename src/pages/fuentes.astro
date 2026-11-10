@@ -116,10 +116,10 @@ const sections = [
 
 const title = 'Fuentes — keikogobierna';
 const description = 'Las fuentes oficiales del seguimiento: el plan de gobierno inscrito ante el JNE y las fuentes públicas usadas para verificar cada compromiso.';
-const download = (name, path) => ({
+const download = (name, path, encodingFormat = 'application/json') => ({
   '@type': 'DataDownload',
   name,
-  encodingFormat: 'application/json',
+  encodingFormat,
   contentUrl: new URL(path, Astro.site).href,
 });
 const structuredData = {
@@ -129,7 +129,7 @@ const structuredData = {
     {
       '@type': 'Dataset',
       name: 'Seguimiento del plan de gobierno de Keiko Fujimori 2026–2031',
-      description: 'Los compromisos del plan de gobierno inscrito ante el JNE, su estado de avance con la evidencia que lo acredita y la composición del gabinete, en formato JSON.',
+      description: 'Los compromisos del plan de gobierno inscrito ante el JNE, su estado de avance con la evidencia que lo acredita y la composición del gabinete, en formato JSON y CSV.',
       url: new URL('/fuentes/', Astro.site).href,
       inLanguage: 'es-PE',
       isAccessibleForFree: true,
@@ -139,6 +139,8 @@ const structuredData = {
         download('Plan de gobierno', '/api/plan.json'),
         download('Seguimiento de compromisos', '/api/tracking.json'),
         download('Gabinete', '/api/gabinete.json'),
+        download('Compromisos iniciados', '/api/compromisos-iniciados.json'),
+        download('Compromisos iniciados (CSV)', '/api/compromisos-iniciados.csv', 'text/csv'),
       ],
     },
   ],
