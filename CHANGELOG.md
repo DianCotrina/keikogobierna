@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.23.0](https://github.com/DianCotrina/keikogobierna/compare/v2.22.0...v2.23.0) (2026-11-10)
+
+
+### Features
+
+* add an El Peruano review skill and its raw-source tools ([bd04bf3](https://github.com/DianCotrina/keikogobierna/commit/bd04bf34ec6b51a6c5cae87fe60ef90040c52aa7))
+
 ## [2.22.0](https://github.com/DianCotrina/keikogobierna/compare/v2.21.0...v2.22.0) (2026-11-07)
 
 
