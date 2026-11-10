@@ -25,6 +25,30 @@ export function breadcrumbs(crumbs, site) {
   };
 }
 
+/**
+ * First title that fits the ~60 characters a results page shows before it cuts
+ * the line; the shortest candidate when none fits.
+ * @param {string[]} candidates most informative first
+ */
+export function fitTitle(candidates, max = 60) {
+  return candidates.find((title) => title.length <= max)
+    ?? candidates.reduce((a, b) => (b.length < a.length ? b : a));
+}
+
+/**
+ * A cabinet page title: the name people search for comes first, the cartera
+ * only when it still fits. `short` is the portfolio's short name, absent for
+ * someone out of office.
+ * @param {string} name
+ * @param {string | undefined} short
+ */
+export function ministerTitle(name, short) {
+  return fitTitle([
+    ...(short ? [`${name} · ${short} | Gabinete`, `${name} · ${short}`] : []),
+    `${name} | Gabinete`,
+  ]);
+}
+
 /** Schema.org nodes sharing one `@context`, for pages that describe several things. */
 export function graph(...nodes) {
   return {

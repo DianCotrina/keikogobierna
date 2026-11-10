@@ -1,5 +1,5 @@
 ---
-import { breadcrumbs, graph, minister, webPage } from '../../lib/seo.mjs';
+import { breadcrumbs, graph, minister, ministerTitle, webPage } from '../../lib/seo.mjs';
 import { ministerLastModified } from '../../lib/freshness.mjs';
 import { formatDateEs } from '../../lib/format.mjs';
 import Base from '../../layouts/Base.astro';
@@ -86,7 +86,7 @@ const role = openTenure
     ? `Anunciado · ${announcedPortfolio.name}`
     : 'Ex ministro de Estado';
 
-const title = `${person.name}: ${openTenure?.portfolio?.name ?? 'gabinete de Keiko Fujimori'}`;
+const title = ministerTitle(person.name, currentPortfolio?.short);
 const description = `${person.name}: cargo, temas del plan a su cargo, paso por el gabinete y registro judicial documentado con fuentes públicas.`;
 const path = `/gabinete/${person.slug}/`;
 const lastModified = ministerLastModified(person.slug);
