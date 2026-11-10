@@ -69,10 +69,16 @@ export function pageLastModified({ plan = loadPlan(), tracking = loadTracking(),
   if (tracking.updated) {
     for (const path of ['/', '/primeros-100-dias/', '/fuentes/']) map.set(path, tracking.updated);
   }
+  const topicDates = [];
   for (const topic of plan.topics) {
     const date = topicLastModified(tracking, topic.id);
-    if (date) map.set(`/temas/${topic.slug}/`, date);
+    if (date) {
+      map.set(`/temas/${topic.slug}/`, date);
+      topicDates.push(date);
+    }
   }
+  const topics = latestDate(topicDates);
+  if (topics) map.set('/temas/', topics);
   const cabinetDates = [];
   for (const person of ministers) {
     const date = ministerLastModified(person.slug, { ministers });
