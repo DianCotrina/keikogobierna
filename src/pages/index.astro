@@ -8,7 +8,7 @@ import Stamp from '../components/Stamp.astro';
 import DownloadLink from '../components/DownloadLink/DownloadLink.astro';
 import { loadPlan, loadTopics, loadGoals, loadTracking, goalStats, commitmentStats, topicSummaries, statusOf, fulfilledItems, updatesLog } from '../lib/plan.mjs';
 import { formatDateEs } from '../lib/format.mjs';
-import { organization } from '../lib/seo.mjs';
+import { organization, website } from '../lib/seo.mjs';
 
 const plan = loadPlan();
 const goals = loadGoals();
@@ -45,13 +45,7 @@ const updates = updatesLog(tracking).map((entry) => {
 const structuredData = {
   '@context': 'https://schema.org',
   '@graph': [
-    {
-      '@type': 'WebSite',
-      name: 'keikogobierna',
-      url: new URL('/', Astro.site).href,
-      inLanguage: 'es-PE',
-      publisher: { '@id': new URL('/#organizacion', Astro.site).href },
-    },
+    website(Astro.site),
     organization(Astro.site),
   ],
 };

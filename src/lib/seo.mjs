@@ -25,6 +25,67 @@ export function breadcrumbs(crumbs, site) {
   };
 }
 
+/** Schema.org nodes sharing one `@context`, for pages that describe several things. */
+export function graph(...nodes) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': nodes.map(({ '@context': _context, ...node }) => node),
+  };
+}
+
+export function website(site) {
+  return {
+    '@type': 'WebSite',
+    '@id': new URL('/#sitio', site).href,
+    name: 'keikogobierna',
+    url: new URL('/', site).href,
+    inLanguage: 'es-PE',
+    publisher: { '@id': new URL('/#organizacion', site).href },
+  };
+}
+
+/**
+ * A page of the site. `dateModified` is left out rather than guessed when no
+ * dated record backs it.
+ * @param {{ type?: string, path: string, name: string, description?: string,
+ *   dateModified?: string | null, about?: object, mainEntity?: object }} page
+ * @param {string | URL | undefined} site
+ */
+export function webPage({ type = 'WebPage', path, name, description, dateModified, about, mainEntity }, site) {
+  const url = canonicalUrl(path, site);
+  return {
+    '@type': type,
+    '@id': `${url}#pagina`,
+    url,
+    name,
+    description,
+    inLanguage: 'es-PE',
+    isPartOf: { '@id': new URL('/#sitio', site).href },
+    ...(dateModified && { dateModified }),
+    ...(about && { about }),
+    ...(mainEntity && { mainEntity }),
+  };
+}
+
+/**
+ * A cabinet member. Only a sitting minister gets `jobTitle` and `worksFor`:
+ * for someone announced or out of office the markup would assert a post they
+ * do not hold.
+ * @param {{ name: string, slug: string, portfolioName?: string, serving: boolean }} person
+ * @param {string | URL | undefined} site
+ */
+export function minister({ name, slug, portfolioName, serving }, site) {
+  return {
+    '@type': 'Person',
+    '@id': `${canonicalUrl(`/gabinete/${slug}/`, site)}#persona`,
+    name,
+    ...(serving && portfolioName && {
+      jobTitle: 'Ministro de Estado',
+      worksFor: { '@type': 'GovernmentOrganization', name: portfolioName },
+    }),
+  };
+}
+
 export function organization(site) {
   return {
     '@type': 'Organization',

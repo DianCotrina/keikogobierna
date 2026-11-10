@@ -1,5 +1,7 @@
 ---
-import { breadcrumbs } from '../../lib/seo.mjs';
+import { breadcrumbs, graph, minister, webPage } from '../../lib/seo.mjs';
+import { ministerLastModified } from '../../lib/freshness.mjs';
+import { formatDateEs } from '../../lib/format.mjs';
 import Base from '../../layouts/Base.astro';
 import PresuncionNotice from '../../components/PresuncionNotice.astro';
 import RecordBadge from '../../components/RecordBadge.astro';
@@ -86,7 +88,19 @@ const role = openTenure
 
 const title = `${person.name}: ${openTenure?.portfolio?.name ?? 'gabinete de Keiko Fujimori'}`;
 const description = `${person.name}: cargo, temas del plan a su cargo, paso por el gabinete y registro judicial documentado con fuentes públicas.`;
-const structuredData = breadcrumbs([['Inicio', '/'], ['Gabinete', '/gabinete/'], [person.name, `/gabinete/${person.slug}/`]], Astro.site);
+const path = `/gabinete/${person.slug}/`;
+const lastModified = ministerLastModified(person.slug);
+const structuredData = graph(
+  breadcrumbs([['Inicio', '/'], ['Gabinete', '/gabinete/'], [person.name, path]], Astro.site),
+  webPage({
+    type: 'ProfilePage',
+    path,
+    name: title,
+    description,
+    dateModified: lastModified,
+    mainEntity: minister({ name: person.name, slug: person.slug, portfolioName: openTenure?.portfolio?.name, serving: Boolean(openTenure) }, Astro.site),
+  }, Astro.site),
+);
 ---
 
 <Base title={title} description={description} structuredData={structuredData}>
@@ -122,6 +136,12 @@ const structuredData = breadcrumbs([['Inicio', '/'], ['Gabinete', '/gabinete/'],
           {sources.map((source: Source) => (
             <a href={source.url} target="_blank" rel="noopener noreferrer" class="nav-link">{source.label} ↗</a>
           ))}
+        </p>
+      )}
+
+      {lastModified && (
+        <p class="mt-4 font-mono text-xs text-tintafina">
+          Ficha actualizada al <time datetime={lastModified}>{formatDateEs(lastModified)}</time>
         </p>
       )}
     </section>
