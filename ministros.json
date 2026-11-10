@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T00:34:15+00:00",
+ "generated": "2026-11-10T13:16:54+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,25 +11,39 @@
  "ministers": {
   "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Director del penal de Barbadillo será retirado por contratación de su hija en el Congreso",
-    "url": "https://gestion.pe/peru/politica/director-del-penal-de-barbadillo-sera-retirado-por-contratacion-de-su-hija-en-despacho-de-azucena-isla-de-juntos-por-el-peru-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-10T00:15:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Director de penal de Barbadillo será separado tras contrato de su hija en despacho de diputada de Juntos por el Perú",
-    "url": "https://elcomercio.pe/politica/pedro-castillo-director-de-penal-de-barbadillo-separado-tras-contrato-de-su-hija-con-juntos-por-el-peru-en-el-congreso-anuncia-ministro-de-justicia-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-09T22:19:29+00:00",
-    "matched_in": "summary"
-   },
-   {
     "title": "Pedro Castillo: Director de Barbadillo será removido por contrato de su hija en despacho de Juntos por el Perú",
     "url": "https://larepublica.pe/politica/2026/11/09/pedro-castillo-inpe-separara-al-director-de-barbadillo-por-contrato-de-su-hija-en-despacho-de-juntos-por-el-peru-hnews-490248",
     "source": "La República",
-    "published": "2026-11-09T19:55:14+00:00",
+    "published": "2026-11-10T12:47:31+00:00",
     "matched_in": "summary"
+   },
+   {
+    "title": "Director de penal de Barbadillo es removido del cargo tras contrato de su hija en despacho de diputada de Juntos por el Perú",
+    "url": "https://elcomercio.pe/politica/pedro-castillo-director-de-penal-de-barbadillo-separado-tras-contrato-de-su-hija-con-juntos-por-el-peru-en-el-congreso-anuncia-ministro-de-justicia-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-10T10:59:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Remueven del cargo a director del penal de Barbadillo por contratación de su hija en el Congreso",
+    "url": "https://gestion.pe/peru/politica/director-del-penal-de-barbadillo-sera-retirado-por-contratacion-de-su-hija-en-despacho-de-azucena-isla-de-juntos-por-el-peru-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-10T06:00:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "\"El JNE desde el inicio ha debido zanjar el tema\": Ernesto Álvarez tras fallo que impide a López Aliaga asumir como alcalde",
+    "url": "https://rpp.pe/politica/gobierno/caso-lopez-aliaga-ernesto-alvarez-dice-que-el-jne-debio-zanjar-desde-el-inicio-reglas-para-eleccion-noticia-1716911",
+    "source": "RPP",
+    "published": "2026-11-09T21:00:54-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Álvarez defiende decreto sobre legítima defensa: \"Contra un asaltante no puedo pensar en la proporcionalidad\"",
+    "url": "https://rpp.pe/politica/gobierno/legitima-defensa-en-peru-ernesto-alvarez-detalla-cambios-en-el-codigo-penal-y-decretos-de-seguridad-noticia-1716904",
+    "source": "RPP",
+    "published": "2026-11-09T20:47:51-05:00",
+    "matched_in": "title"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
@@ -43,6 +57,13 @@
   ],
   "juan-manuel-kosme-sheput-moore": [
    {
+    "title": "Ministro Sheput pidió \"paciencia\" a transportistas que marcharán en protesta por atentados",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-pide-paciencia-a-transportistas-ante-marcha-por-atentados-y-respalda-viaje-de-keiko-fujimori-noticia-1716929",
+    "source": "RPP",
+    "published": "2026-11-10T00:38:32-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Rafael López Aliaga al ministro Juan Sheput: “Yo no entro en política para estar robando ni soga ni cabra a nadie”",
     "url": "https://elcomercio.pe/politica/rafael-lopez-aliaga-responde-al-ministro-juan-sheput-yo-no-entro-en-politica-para-estar-robando-ni-soga-ni-cabra-a-nadie-jne-elecciones-regionales-y-municipales-2026-ultimas-noticia/",
     "source": "El Comercio",
@@ -52,10 +73,24 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "MEF promete duplicar presupuesto para bonos de vivienda el próximo año: el detalle de lo que anunció",
-    "url": "https://elcomercio.pe/economia/peru/mef-promete-duplicar-presupuesto-para-bonos-de-vivienda-el-proximo-ano-noticia/",
+    "title": "Cómo va el proyecto del noveno retiro AFP al día de hoy, 10 de noviembre: todo lo que debes saber",
+    "url": "https://www.infobae.com/peru/2026/11/09/como-va-el-proyecto-del-noveno-retiro-afp-al-dia-de-hoy-9-de-noviembre-lo-que-debes-saber/",
+    "source": "Infobae",
+    "published": "2026-11-10T12:03:05+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Al día siguiente",
+    "url": "https://elcomercio.pe/opinion/editorial/el-foro-organizado-por-el-comercio-y-america-multimedia-marca-la-ruta-hacia-la-recuperacion-tras-el-nino-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-09T23:21:47+00:00",
+    "published": "2026-11-10T05:10:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Temu, Aliexpress y más: MEF definirá “pronto” ajustes a importaciones de bajo costo, ¿cuáles?",
+    "url": "https://gestion.pe/economia/temu-aliexpress-y-mas-mef-definira-pronto-ajustes-a-importaciones-de-bajo-que-cambiaria-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-10T04:01:00+00:00",
     "matched_in": "title"
    },
    {
@@ -66,45 +101,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Temu, Aliexpress y más: MEF definirá “pronto” ajustes a importaciones de bajo costo, ¿cuáles?",
-    "url": "https://gestion.pe/economia/temu-aliexpress-y-mas-mef-definira-pronto-ajustes-a-importaciones-de-bajo-que-cambiaria-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-09T23:01:40+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "El Niño: respuesta del MEF será inyectar S/ 18 mil millones a economía, ¿monto podría crecer?",
     "url": "https://gestion.pe/economia/el-nino-respuesta-del-mef-sera-inyectar-s-18-mil-millones-a-la-economia-monto-podria-crecer-noticia/",
     "source": "Gestión",
     "published": "2026-11-09T19:03:24+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF evalúa reducir el monto límite o elevar impuestos a importaciones vía plataformas como Temu, AliExpress, entre otras",
-    "url": "https://elcomercio.pe/economia/peru/compras-por-temu-mef-evalua-reducir-el-limite-de-importacion-o-elevar-impuestos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-09T18:47:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Cómo va el proyecto del noveno retiro AFP al día de hoy, 9 de noviembre: lo que debes saber",
-    "url": "https://www.infobae.com/peru/2026/11/09/como-va-el-proyecto-del-noveno-retiro-afp-al-dia-de-hoy-9-de-noviembre-lo-que-debes-saber/",
-    "source": "Infobae",
-    "published": "2026-11-09T16:37:03+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Gobierno confirma entrega de bonos de S/ 200 mensuales por el fenómeno El Niño: ¿A quiénes va dirigido?",
-    "url": "https://www.infobae.com/peru/2026/11/09/gobierno-confirma-entrega-de-bonos-de-s-200-por-el-fenomeno-el-nino-a-quienes-va-dirigido/",
-    "source": "Infobae",
-    "published": "2026-11-09T14:12:42+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Elmer Cuba, ministro de Economía: “Este año Petro-Perú va a ganar dinero”",
-    "url": "https://elcomercio.pe/economia/peru/petroperu-keiko-elmer-cuba-este-ano-petroperu-va-a-ganar-dinero-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-07T01:49:16+00:00",
     "matched_in": "title"
    }
   ],
@@ -124,12 +124,14 @@
     "source": "Gestión",
     "published": "2026-11-09T20:20:00+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Ministro Carlos Espá solicitó información al gobierno ruso sobre compatriotas reclutados para combatir en la guerra contra Ucrania",
-    "url": "https://www.infobae.com/peru/2026/11/09/ministro-carlos-espa-solicito-informacion-al-gobierno-ruso-sobre-compatriotas-reclutados-para-combatir-en-la-guerra-contra-ucrania/",
+    "title": "Premier Galarreta sobre su permanencia: “No declaro sobre chismes; mañana un ministro puede salir si lo decide la presidenta”",
+    "url": "https://www.infobae.com/peru/2026/11/10/premier-luis-galarreta-sobre-su-permanencia-no-declaro-sobre-chismes-manana-un-ministro-puede-salir-si-lo-decide-la-presidenta/",
     "source": "Infobae",
-    "published": "2026-11-09T16:19:37+00:00",
+    "published": "2026-11-10T00:44:30+00:00",
     "matched_in": "title"
    }
   ]
