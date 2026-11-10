@@ -1,0 +1,63 @@
+---
+import Base from '../../layouts/Base.astro';
+import TopicsByPillar from '../../components/TopicsByPillar.astro';
+import { loadPlan, loadTopics, loadGoals, loadTracking, topicSummaries } from '../../lib/plan.mjs';
+import { latestDate, topicLastModified } from '../../lib/freshness.mjs';
+import { breadcrumbs, canonicalUrl, graph, webPage } from '../../lib/seo.mjs';
+
+const plan = loadPlan();
+const tracking = loadTracking();
+const summaries = topicSummaries(plan, loadGoals(), tracking, loadTopics());
+
+const groups = plan.pillars.map((pillar) => ({
+  pillar,
+  topics: summaries.filter((topic) => topic.pillar === pillar.id),
+}));
+
+const title = 'Temas del plan de gobierno de Keiko Fujimori | keikogobierna';
+const description = `Los ${summaries.length} temas del plan de gobierno de Keiko Fujimori ${plan.plan.period}, por pilar: propuestas, metas al 2031 y compromisos iniciados de cada uno.`;
+const lastModified = latestDate(plan.topics.map((topic) => topicLastModified(tracking, topic.id)));
+
+const structuredData = graph(
+  breadcrumbs([['Inicio', '/'], ['Temas', '/temas/']], Astro.site),
+  webPage({
+    type: 'CollectionPage',
+    path: '/temas/',
+    name: title,
+    description,
+    dateModified: lastModified,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: summaries.length,
+      itemListElement: summaries.map((topic, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: topic.name,
+        url: canonicalUrl(`/temas/${topic.slug}/`, Astro.site),
+      })),
+    },
+  }, Astro.site),
+);
+---
+
+<Base title={title} description={description} structuredData={structuredData} activeNav="temas">
+  <main>
+    <section class="mx-auto max-w-6xl px-5 sm:px-8 pt-10 pb-6 sm:pt-14">
+      <a href="/" class="nav-link font-mono text-xs text-tintasuave inline-flex items-center gap-2">← Volver al resumen</a>
+      <p class="mt-7 font-mono text-xs uppercase tracking-[0.18em] text-tintasuave">Plan de gobierno {plan.plan.period}</p>
+      <h1 class="relative inline-block font-display text-4xl sm:text-5xl mt-4 pb-3" style="letter-spacing:-0.03em">
+        Temas del plan
+        <svg class="pen-stroke absolute left-0 bottom-0 w-full h-3" viewBox="0 0 300 22" fill="none" aria-hidden="true" preserveAspectRatio="none">
+          <path d="M4 14 C 60 8, 120 18, 170 12 S 270 8, 296 13" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+      </h1>
+      <p class="mt-7 text-lg leading-[1.7] text-tintasuave max-w-xl">Los {summaries.length} temas del plan de gobierno de Keiko Fujimori, agrupados en sus {plan.pillars.length} pilares tal como figuran en el documento oficial. Cada uno lleva a sus propuestas, sus metas al 2031 y la evidencia de lo que ya empezó.</p>
+    </section>
+
+    <section class="border-t border-tinta/10">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 pt-4 pb-16 sm:pb-24">
+        <TopicsByPillar groups={groups} pillarAs="h2" />
+      </div>
+    </section>
+  </main>
+</Base>

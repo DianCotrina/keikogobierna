@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
-import { breadcrumbs, canonicalUrl, graph, jsonLd, minister, webPage } from '../src/lib/seo.mjs';
+import { breadcrumbs, canonicalUrl, fitTitle, graph, jsonLd, minister, ministerTitle, webPage } from '../src/lib/seo.mjs';
 import { latestDate, ministerLastModified, pageLastModified, topicLastModified } from '../src/lib/freshness.mjs';
 import { loadTopics, loadTracking, topicStatus } from '../src/lib/plan.mjs';
 
@@ -55,7 +55,23 @@ test('every lastmod date names a page that is built', () => {
   assert.equal(map.get('/'), loadTracking().updated);
   for (const [path, date] of map) {
     assert.match(date, /^\d{4}-\d{2}-\d{2}$/);
-    assert.match(path, /^\/(temas\/[a-z0-9-]+\/|gabinete\/([a-z0-9-]+\/)?|primeros-100-dias\/|fuentes\/)?$/);
+    assert.match(path, /^\/(temas\/([a-z0-9-]+\/)?|gabinete\/([a-z0-9-]+\/)?|primeros-100-dias\/|fuentes\/)?$/);
+  }
+  const topicDates = [...map].filter(([path]) => /^\/temas\/.+\//.test(path)).map(([, date]) => date);
+  assert.equal(map.get('/temas/'), latestDate(topicDates));
+});
+
+test('fitTitle takes the first candidate that fits, else the shortest', () => {
+  assert.equal(fitTitle(['a'.repeat(70), 'b'.repeat(50), 'c'.repeat(10)]), 'b'.repeat(50));
+  assert.equal(fitTitle(['a'.repeat(80), 'b'.repeat(65)]), 'b'.repeat(65));
+});
+
+test('no page title runs past 60 characters', async () => {
+  const { loadMinisters, loadTenures, portfolioById } = await import('../src/lib/cabinet.mjs');
+  for (const person of loadMinisters()) {
+    const open = loadTenures().find((t) => t.person === person.slug && !t.end);
+    const title = ministerTitle(person.name, open ? portfolioById(open.portfolio)?.short : undefined);
+    assert.ok(title.length <= 60 || title === `${person.name} | Gabinete`, `${title} (${title.length})`);
   }
 });
 
