@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.24.0](https://github.com/DianCotrina/keikogobierna/compare/v2.23.0...v2.24.0) (2026-11-11)
+
+
+### Features
+
+* add a /temas/ hub and fit page titles to the results line ([46bda21](https://github.com/DianCotrina/keikogobierna/commit/46bda217ab02a7c3841491bb2dd5456e044d716c))
+* date each page from its records in the sitemap and structured data ([dbcf1f7](https://github.com/DianCotrina/keikogobierna/commit/dbcf1f752d21234524da615605c09466781813d2))
+
 ## [2.23.0](https://github.com/DianCotrina/keikogobierna/compare/v2.22.0...v2.23.0) (2026-11-10)
 
 
