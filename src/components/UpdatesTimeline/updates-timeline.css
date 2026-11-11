@@ -1,0 +1,253 @@
+/* Updates timeline. Layering: the card is the elevated surface; an open row is
+   a tint on it; the rail highlight floats above the rail, under the nodes.
+   Only transform and opacity animate: rows open instantly and their copy
+   fades in, and the rail highlight slides with translate/scale. */
+
+.tl {
+  --rail-x: 2.15rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-hoja);
+  border: 1px solid rgb(var(--ink) / 0.1);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-card);
+}
+
+.tl-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding: 1.25rem 1.5rem 0.75rem;
+}
+
+/* Hover is a desktop affordance; a touch screen gets its own instruction. */
+.tl-hint-touch { display: none; }
+@media (hover: none) {
+  .tl-hint-hover { display: none; }
+  .tl-hint-touch { display: inline; }
+}
+
+.tl-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.5rem;
+  margin: 0 1.5rem 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgb(var(--ink) / 0.1);
+  border-radius: 0.375rem;
+  background: var(--color-papel);
+}
+
+.tl-pulse {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 9999px;
+  background: var(--color-verde);
+  animation: tl-breathe 2.4s ease-in-out infinite;
+}
+
+.tl-viewport {
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.tl-viewport::-webkit-scrollbar { display: none; }
+
+.tl-stage {
+  position: relative;
+  padding: 0 0.75rem 0.75rem;
+}
+
+.tl-rail,
+.tl-rail-hi {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: var(--rail-x);
+}
+
+.tl-rail {
+  width: 2px;
+  margin-left: -1px;
+  background: rgb(var(--ink) / 0.12);
+}
+
+/* A 1px bar scaled to the open row's height; the colour follows its status. */
+.tl-rail-hi {
+  z-index: 1;
+  width: 3px;
+  height: 1px;
+  margin-left: -1.5px;
+  border-radius: 9999px;
+  transform-origin: top;
+  background: var(--tone, var(--color-tinta));
+  opacity: 0;
+  transition: transform 0.45s var(--ease-spring), opacity 0.16s ease-out;
+}
+
+.tl-month {
+  padding: 0.85rem 0 0.35rem calc(var(--rail-x) + 0.5rem);
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-tintafina);
+}
+
+.tl-entry {
+  position: relative;
+  border-radius: 0.375rem;
+}
+.tl-entry[data-open='true'] { background: rgb(var(--ink) / 0.045); }
+
+.tl-trigger {
+  display: grid;
+  grid-template-columns: 2.8rem 2.75rem auto minmax(0, 1fr) 0.85rem;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  border-radius: 0.375rem;
+  text-align: left;
+  cursor: pointer;
+}
+.tl-trigger:hover .tl-title { color: var(--color-tinta); }
+.tl-trigger:active { background: rgb(var(--ink) / 0.06); }
+.tl-trigger:focus-visible { outline: 2px solid var(--color-tinta); outline-offset: -2px; }
+
+.tl-trigger .stamp { justify-self: start; }
+
+.tl-node {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  justify-self: center;
+  color: var(--color-tintafina);
+}
+.tl-entry[data-open='true'] .tl-node { color: var(--tone); }
+
+.tl-core {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: currentColor;
+  box-shadow: 0 0 0 3px var(--color-hoja);
+  opacity: 0.5;
+  transition: transform 0.3s var(--ease-spring), opacity 0.2s ease-out;
+}
+.tl-entry[data-open='true'] .tl-core { transform: scale(1.4); opacity: 1; }
+
+.tl-ripple {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 1px solid currentColor;
+  border-radius: 9999px;
+  opacity: 0;
+}
+.tl-entry[data-open='true'] .tl-ripple { animation: tl-ripple 0.5s ease-out both; }
+
+.tl-title {
+  overflow: hidden;
+  font-family: var(--font-serif);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--color-tintasuave);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* Open, the line reads in full where it stood: no second copy below. */
+.tl-entry[data-open='true'] .tl-title {
+  color: var(--color-tinta);
+  white-space: normal;
+}
+
+.tl-chevron,
+.tl-pin {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: var(--color-tintafina);
+  transition: transform 0.25s var(--ease-spring);
+}
+.tl-pin { display: none; color: var(--color-tinta); }
+.tl-entry[data-open='true'] .tl-chevron { transform: rotate(180deg); }
+.tl-entry[data-pinned='true'] .tl-chevron { display: none; }
+.tl-entry[data-pinned='true'] .tl-pin { display: block; }
+
+.tl-body { display: none; }
+.tl-entry[data-open='true'] .tl-body { display: block; }
+
+.tl-copy {
+  padding: 0 1.5rem 0.75rem calc(2.8rem + 2.75rem + 1.2rem);
+  animation: tl-copy-in 0.35s var(--ease-spring) both;
+}
+
+.tl-link { display: inline-flex; gap: 0.35rem; border-radius: 0.25rem; }
+.tl-link:hover { color: var(--color-tinta); }
+.tl-link:active { opacity: 0.7; }
+.tl-arrow { display: inline-block; transition: transform 0.25s var(--ease-spring); }
+.tl-link:hover .tl-arrow,
+.tl-link:focus-visible .tl-arrow { transform: translateX(4px); }
+
+.tl-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid rgb(var(--ink) / 0.1);
+}
+
+.tl-history { display: inline-flex; align-items: center; gap: 0.4rem; border-radius: 0.25rem; }
+.tl-history svg { width: 0.85rem; height: 0.85rem; }
+.tl-history:hover { color: var(--color-tinta); }
+.tl-history:active { opacity: 0.7; }
+
+/* Below sm the copy drops under the date column instead of the title's. */
+@media (max-width: 639px) {
+  .tl { --rail-x: 1.65rem; }
+  .tl-head, .tl-foot { padding-left: 1rem; padding-right: 1rem; }
+  .tl-status { margin-left: 1rem; margin-right: 1rem; }
+  .tl-stage { padding: 0 0.25rem 0.5rem; }
+  .tl-trigger {
+    grid-template-columns: 2.8rem auto minmax(0, 1fr) 0.85rem;
+    grid-template-areas: 'node date stamp icon' 'node title title title';
+    row-gap: 0.15rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .tl-node { grid-area: node; align-self: start; margin-top: 0.1rem; }
+  .tl-trigger time { grid-area: date; }
+  .tl-trigger .stamp { grid-area: stamp; }
+  .tl-title { grid-area: title; }
+  .tl-chevron, .tl-pin { grid-area: icon; justify-self: end; }
+  .tl-copy { padding-left: 2.8rem; padding-right: 1rem; }
+  .tl-month { padding-left: 2.8rem; }
+}
+
+@keyframes tl-breathe {
+  0%, 100% { transform: scale(1); opacity: 0.55; }
+  50% { transform: scale(1.35); opacity: 1; }
+}
+@keyframes tl-ripple {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  100% { transform: scale(3.2); opacity: 0; }
+}
+@keyframes tl-copy-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tl-pulse, .tl-copy { animation: none; }
+  .tl-entry[data-open='true'] .tl-ripple { animation: none; }
+  .tl-rail-hi, .tl-core, .tl-chevron, .tl-arrow { transition: none; }
+}
