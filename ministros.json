@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T12:28:52+00:00",
+ "generated": "2026-11-11T23:20:25+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,7 +9,30 @@
   "Infobae"
  ],
  "ministers": {
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput: Honrar visita del papa León XIV y representar al Perú en el Foro APEC son compromisos que se complementan",
+    "url": "https://elcomercio.pe/politica/gobierno/papa-leon-xiv-ministro-juan-sheput-afirma-que-honrar-la-visita-del-santo-padre-y-representar-al-peru-en-el-foro-apec-son-compromisos-que-se-complementan-keiko-fujimori-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-11T17:06:23+00:00",
+    "matched_in": "title"
+   }
+  ],
   "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministro de Justicia cuestiona al JNE por decisión que impide a López Aliaga asumir como alcalde: “Debe ser íntegramente reformado”",
+    "url": "https://larepublica.pe/politica/2026/11/11/ministro-de-justicia-cuestiona-al-jne-por-decision-que-impide-a-lopez-aliaga-asumir-como-alcalde-debe-ser-integramente-reformado-384472",
+    "source": "La República",
+    "published": "2026-11-11T22:13:36+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Álvarez sobre ausencia de Keiko Fujimori en despedida del papa León XIV: “Es esencial para el bolsillo de los ciudadanos”",
+    "url": "https://larepublica.pe/politica/2026/11/11/alvarez-sobre-ausencia-de-keiko-fujimori-en-despedida-del-papa-leon-xiv-es-esencial-para-el-bolsillo-de-los-ciudadanos-hnews-961235",
+    "source": "La República",
+    "published": "2026-11-11T18:59:07+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Director de penal de Barbadillo es removido del cargo tras contrato de su hija en despacho de diputada de Juntos por el Perú",
     "url": "https://elcomercio.pe/politica/pedro-castillo-director-de-penal-de-barbadillo-separado-tras-contrato-de-su-hija-con-juntos-por-el-peru-en-el-congreso-anuncia-ministro-de-justicia-noticia/",
@@ -25,53 +48,48 @@
     "matched_in": "summary"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro Vinelli: en diciembre se tendrá lista propuesta final para reorganizar al Midagri",
-    "url": "https://gestion.pe/economia/ministro-vinelli-en-diciembre-se-tendra-lista-propuesta-final-para-reorganizar-al-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-11T00:11:45+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Marco Vinelli: “Hoy los indicadores de El Niño son mucho mayores que los anteriores”| ENTREVISTA",
-    "url": "https://elcomercio.pe/politica/fenomeno-el-nino-marco-vinelli-hoy-los-indicadores-de-el-nino-son-mucho-mayores-que-los-anteriores-gobierno-keiko-fujimori-apuesplan-noticia/",
+    "title": "Inversionistas dan “espaldarazo” a la macroeconomía peruana: ¿qué hay detrás de la colocación de bonos por US$4.500 millones?",
+    "url": "https://elcomercio.pe/economia/peru/mef-inversionistas-dan-espaldarazo-a-la-macroeconomia-peruana-que-hay-detras-de-la-colocacion-de-bonos-por-us4500-millones-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-09T20:28:00+00:00",
-    "matched_in": "title"
+    "published": "2026-11-11T19:43:07+00:00",
+    "matched_in": "summary"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "León XIV: así fue el preciso momento en que el pontífice bajó del avión que lo trajo de regreso al Perú [VIDEO]",
+    "url": "https://rpp.pe/lima/actualidad/leon-xiv-asi-fue-el-preciso-momento-en-que-el-pontifice-bajo-del-avion-que-lo-trajo-de-regreso-al-peru-noticia-1717308",
+    "source": "RPP",
+    "published": "2026-11-11T17:44:32-05:00",
+    "matched_in": "summary"
    }
   ],
   "guillermo-shinno-huamani": [
    {
-    "title": "Gobierno de Keiko Fujimori nombra a exministro de Pedro Castillo como embajador de Perú en Marruecos",
-    "url": "https://larepublica.pe/politica/2026/11/08/gobierno-de-keiko-fujimori-nombra-a-exministro-de-pedro-castillo-como-embajador-de-peru-en-marruecos-hnews-799768",
-    "source": "La República",
-    "published": "2026-11-09T13:17:11+00:00",
-    "matched_in": "summary"
+    "title": "Perú busca desplazar al Congo y volver al segundo lugar en producción mundial de cobre: \"Un millón más de toneladas al 2031\", plantea Shinno",
+    "url": "https://rpp.pe/economia/economia/peru-busca-desplazar-al-congo-y-volver-al-segundo-lugar-en-produccion-mundial-de-cobre-un-millon-mas-de-toneladas-al-2031-plantea-shinno-noticia-1717271",
+    "source": "RPP",
+    "published": "2026-11-11T14:45:59-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "jose-antonio-chang-escobedo": [
+   {
+    "title": "Minedu restablecerá las notas de 0 a 20 en los colegios desde el 2027",
+    "url": "https://gestion.pe/peru/politica/minedu-restablecera-las-notas-de-0-a-20-en-los-colegios-desde-el-proximo-ano-escolar-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-11T21:34:35+00:00",
+    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Ministro César Astudillo anuncia reforma en la Policía Nacional del Perú, ¿qué cambiará?",
-    "url": "https://gestion.pe/peru/ministro-cesar-astudillo-anuncia-reforma-en-la-policia-nacional-del-peru-que-cambiara-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-11T03:52:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro del Interior anuncia reforma policial para fortalecer la disciplina, los ascensos y la formación de efectivos",
     "url": "https://www.infobae.com/peru/2026/11/10/ministro-del-interior-anuncia-reforma-policial-para-fortalecer-la-disciplina-los-ascensos-y-la-formacion-de-efectivos/",
     "source": "Infobae",
     "published": "2026-11-10T23:25:56+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Produce busca incluir a todos los trabajadores de la cadena productiva en la Ley General de Pesca",
-    "url": "https://gestion.pe/economia/produce-presentara-proyecto-para-reconocer-a-todos-los-trabajadores-de-la-actividad-pesquera-artesanal-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-11T02:45:00+00:00",
     "matched_in": "title"
    }
   ]
