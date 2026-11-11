@@ -15,6 +15,18 @@ export function formatDateEs(iso) {
   return `${day} de ${MONTH_NAMES[month - 1]} de ${year}`;
 }
 
+/** Month heading for a dated list: "octubre de 2026". */
+export function formatMonthEs(iso) {
+  const [year, month] = iso.split('-').map(Number);
+  return `${MONTH_NAMES[month - 1]} de ${year}`;
+}
+
+/** Day and month without the year, for rows already under a month heading: "31 oct". */
+export function formatDayMonthEs(iso) {
+  const [, month, day] = iso.split('-').map(Number);
+  return `${day} ${MONTH_ABBR[month - 1]}`;
+}
+
 /** Compact form for dense rows: "28 jul 2026". */
 export function formatDateEsShort(iso) {
   const [year, month, day] = iso.split('-').map(Number);
