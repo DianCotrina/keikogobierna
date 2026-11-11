@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T22:09:57+00:00",
+ "generated": "2026-11-11T02:33:53+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -30,13 +30,6 @@
     "source": "La República",
     "published": "2026-11-10T12:47:31+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Remueven del cargo a director del penal de Barbadillo por contratación de su hija en el Congreso",
-    "url": "https://gestion.pe/peru/politica/director-del-penal-de-barbadillo-sera-retirado-por-contratacion-de-su-hija-en-despacho-de-azucena-isla-de-juntos-por-el-peru-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-10T06:00:00+00:00",
-    "matched_in": "summary"
    }
   ],
   "marco-antonio-vinelli-ruiz": [
@@ -44,7 +37,7 @@
     "title": "Ministro Vinelli: en diciembre se tendrá lista propuesta final para reorganizar al Midagri",
     "url": "https://gestion.pe/economia/ministro-vinelli-en-diciembre-se-tendra-lista-propuesta-final-para-reorganizar-al-midagri-noticia/",
     "source": "Gestión",
-    "published": "2026-11-10T21:47:44+00:00",
+    "published": "2026-11-11T00:11:45+00:00",
     "matched_in": "title"
    },
    {
@@ -69,21 +62,7 @@
     "title": "MEF promete duplicar presupuesto para bonos de vivienda el próximo año: el detalle de lo que anunció",
     "url": "https://elcomercio.pe/economia/peru/mef-promete-duplicar-presupuesto-para-bonos-de-vivienda-el-proximo-ano-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-10T20:21:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "MEF evalúa reducir el monto límite o elevar impuestos a importaciones vía plataformas como Temu, AliExpress, entre otras",
-    "url": "https://elcomercio.pe/economia/peru/compras-por-temu-mef-evalua-reducir-el-limite-de-importacion-o-elevar-impuestos-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-10T17:52:47+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "¿Despidos en 2027? MEF alista plan para flexibilizar salidas laborales: estos serían los trabajadores afectados",
-    "url": "https://www.infobae.com/peru/2026/11/10/despidos-en-2027-mef-alista-plan-para-flexibilizar-salidas-laborales-estos-serian-los-trabajadores-afectados/",
-    "source": "Infobae",
-    "published": "2026-11-10T17:21:56+00:00",
+    "published": "2026-11-10T23:20:05+00:00",
     "matched_in": "title"
    },
    {
@@ -112,10 +91,17 @@
   ],
   "cesar-augusto-astudillo-salcedo": [
    {
+    "title": "Ministro del Interior anuncia reforma policial para fortalecer la disciplina, los ascensos y la formación de efectivos",
+    "url": "https://www.infobae.com/peru/2026/11/10/ministro-del-interior-anuncia-reforma-policial-para-fortalecer-la-disciplina-los-ascensos-y-la-formacion-de-efectivos/",
+    "source": "Infobae",
+    "published": "2026-11-10T23:25:56+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ministro César Astudillo anuncia reforma en la Policía Nacional del Perú, ¿qué cambiará?",
     "url": "https://gestion.pe/peru/ministro-cesar-astudillo-anuncia-reforma-en-la-policia-nacional-del-peru-que-cambiara-noticia/",
     "source": "Gestión",
-    "published": "2026-12-01T20:05:00+00:00",
+    "published": "2026-11-10T22:51:57+00:00",
     "matched_in": "title"
    },
    {
@@ -123,6 +109,15 @@
     "url": "https://www.infobae.com/peru/2026/11/10/mininter-anuncia-apoyo-tecnologico-de-meta-contra-extorsiones-y-promete-que-llegara-en-un-mes/",
     "source": "Infobae",
     "published": "2026-11-10T20:56:42+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
+   {
+    "title": "Produce busca incluir a todos los trabajadores de la cadena productiva en la Ley General de Pesca",
+    "url": "https://gestion.pe/economia/produce-presentara-proyecto-para-reconocer-a-todos-los-trabajadores-de-la-actividad-pesquera-artesanal-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-10T22:50:09+00:00",
     "matched_in": "title"
    }
   ],
