@@ -1,0 +1,126 @@
+---
+// The tracking log as a timeline: one row per logged movement, newest first,
+// grouped by month along a rail. Each row reads as one line until opened.
+//
+// Opening: hovering opens a row without closing the others, so nothing above
+// the pointer ever shrinks and pulls the rows out from under it; leaving the
+// list closes them again. A click pins one row open. Keyboard focus opens the
+// focused row only. Without JavaScript every row renders open.
+import './updates-timeline.css';
+import Stamp from '../Stamp.astro';
+import { statusMeta } from '../../lib/statuses.mjs';
+import { formatDateEs, formatDateEsShort, formatDayMonthEs, formatMonthEs, plural } from '../../lib/format.mjs';
+
+interface Entry {
+  id: string;
+  date: string;
+  month: string;
+  status: string;
+  item: string;
+  text: string;
+  topicName: string | null;
+  href: string | null;
+}
+
+interface Props {
+  entries: Entry[];
+  /** Date of the last review of the record, YYYY-MM-DD. */
+  reviewed: string;
+  historyHref: string;
+  /** Rows shown before the list scrolls; half of the next one stays visible. */
+  visibleEntries?: number;
+}
+
+const { entries, reviewed, historyHref, visibleEntries = 9 } = Astro.props;
+const oldest = entries.at(-1);
+let lastMonth = '';
+---
+
+<div class="tl" data-timeline data-visible={visibleEntries}>
+  <noscript><style>.tl [data-body] { display: block; } .tl .tl-title { white-space: normal; } .tl-hint, .tl-chevron { display: none; }</style></noscript>
+
+  <div class="tl-head">
+    <p class="font-sans text-sm font-semibold">
+      {entries.length > 0
+        ? <>{plural(entries.length, 'actualización', 'actualizaciones')} desde el <time datetime={oldest!.date}>{formatDateEs(oldest!.date)}</time></>
+        : 'Registro de avances'}
+    </p>
+    {entries.length > 0 && (
+      <p class="tl-hint font-mono text-[0.65rem] text-tintafina">
+        <span class="tl-hint-hover">Pasa el cursor para leer · haz clic para fijar</span>
+        <span class="tl-hint-touch">Toca una fila para leerla</span>
+      </p>
+    )}
+  </div>
+
+  <p class="tl-status font-mono text-[0.65rem] text-tintasuave">
+    <span class="tl-pulse" aria-hidden="true"></span>
+    <span class="font-semibold text-tinta">Revisión diaria</span>
+    <span aria-hidden="true">/</span>
+    <span>El Peruano</span>
+    <span aria-hidden="true">·</span>
+    <span>al <time datetime={reviewed}>{formatDateEsShort(reviewed)}</time></span>
+  </p>
+
+  <div class="tl-viewport" data-viewport>
+    <div class="tl-stage" data-stage>
+      <span class="tl-rail" data-rail aria-hidden="true"></span>
+      <span class="tl-rail-hi" data-rail-hi aria-hidden="true"></span>
+      {entries.length === 0 ? (
+        <p class="px-6 py-8 font-mono text-sm text-tintasuave">Aún no hay actualizaciones registradas.</p>
+      ) : (
+        <ol class="tl-list" data-list>
+          {entries.map((entry) => {
+            const showMonth = entry.month !== lastMonth;
+            lastMonth = entry.month;
+            const meta = statusMeta(entry.status);
+            return (
+              <>
+                {showMonth && <li class="tl-month font-mono" aria-hidden="true">{formatMonthEs(entry.date)}</li>}
+                <li class="tl-entry" data-entry data-id={entry.id} data-open="false" style={`--tone: var(--color-${meta.color})`}>
+                  <button
+                    type="button"
+                    class="tl-trigger"
+                    id={`tl-${entry.id}`}
+                    aria-expanded="false"
+                    aria-pressed="false"
+                    aria-controls={`tl-body-${entry.id}`}
+                    data-trigger
+                  >
+                    <span class="tl-node" data-node aria-hidden="true">
+                      <span class="tl-ripple"></span>
+                      <span class="tl-core"></span>
+                    </span>
+                    <time datetime={entry.date} class="font-mono text-[0.65rem] tabular-nums text-tintafina">{formatDayMonthEs(entry.date)}</time>
+                    <Stamp status={entry.status} />
+                    <span class="tl-title">{entry.text}</span>
+                    <svg class="tl-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+                    <svg class="tl-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17v5" /><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z" /></svg>
+                  </button>
+                  <div class="tl-body" id={`tl-body-${entry.id}`} data-body>
+                    <p class="tl-copy font-mono text-[0.65rem] text-tintafina">
+                      {entry.href
+                        ? <a href={entry.href} class="tl-link">{entry.topicName} · {entry.item} <span class="tl-arrow" aria-hidden="true">→</span><span class="sr-only">, {meta.label.toLowerCase()}</span></a>
+                        : <span>{entry.item}</span>}
+                    </p>
+                  </div>
+                </li>
+              </>
+            );
+          })}
+        </ol>
+      )}
+    </div>
+  </div>
+
+  <div class="tl-foot font-mono text-[0.65rem] text-tintafina">
+    <a href={historyHref} target="_blank" rel="noopener noreferrer" class="tl-history">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M12 3v6" /><path d="M12 15v6" /></svg>
+      Historial completo del registro
+    </a>
+    <span class="tl-foot-state" data-foot-state>Ninguna fila fijada</span>
+  </div>
+  <p class="sr-only" role="status" aria-live="polite" data-announce></p>
+</div>
+
+<script src="./updates-timeline.ts"></script>
