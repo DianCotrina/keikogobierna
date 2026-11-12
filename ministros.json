@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T23:20:25+00:00",
+ "generated": "2026-11-12T13:33:39+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -39,22 +39,15 @@
     "source": "El Comercio",
     "published": "2026-11-10T22:04:25+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Pedro Castillo: Director de Barbadillo será removido por contrato de su hija en despacho de Juntos por el Perú",
-    "url": "https://larepublica.pe/politica/2026/11/09/pedro-castillo-inpe-separara-al-director-de-barbadillo-por-contrato-de-su-hija-en-despacho-de-juntos-por-el-peru-hnews-490248",
-    "source": "La República",
-    "published": "2026-11-10T12:47:31+00:00",
-    "matched_in": "summary"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Inversionistas dan “espaldarazo” a la macroeconomía peruana: ¿qué hay detrás de la colocación de bonos por US$4.500 millones?",
-    "url": "https://elcomercio.pe/economia/peru/mef-inversionistas-dan-espaldarazo-a-la-macroeconomia-peruana-que-hay-detras-de-la-colocacion-de-bonos-por-us4500-millones-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-11T19:43:07+00:00",
-    "matched_in": "summary"
+    "title": "Hijo del ministro de Salud visitó MEF, Vivienda y Educación a nombre del Despacho Presidencial",
+    "url": "https://larepublica.pe/politica/2026/11/12/hijo-del-ministro-de-salud-alan-dyer-visito-mef-vivienda-y-educacion-a-nombre-del-despacho-presidencial-hnews-752532",
+    "source": "La República",
+    "published": "2026-11-12T13:24:18+00:00",
+    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
@@ -66,31 +59,22 @@
     "matched_in": "summary"
    }
   ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Perú busca desplazar al Congo y volver al segundo lugar en producción mundial de cobre: \"Un millón más de toneladas al 2031\", plantea Shinno",
-    "url": "https://rpp.pe/economia/economia/peru-busca-desplazar-al-congo-y-volver-al-segundo-lugar-en-produccion-mundial-de-cobre-un-millon-mas-de-toneladas-al-2031-plantea-shinno-noticia-1717271",
-    "source": "RPP",
-    "published": "2026-11-11T14:45:59-05:00",
-    "matched_in": "title"
-   }
-  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "Minedu restablecerá las notas de 0 a 20 en los colegios desde el 2027",
     "url": "https://gestion.pe/peru/politica/minedu-restablecera-las-notas-de-0-a-20-en-los-colegios-desde-el-proximo-ano-escolar-noticia/",
     "source": "Gestión",
-    "published": "2026-11-11T21:34:35+00:00",
+    "published": "2026-11-12T00:15:00+00:00",
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro del Interior anuncia reforma policial para fortalecer la disciplina, los ascensos y la formación de efectivos",
-    "url": "https://www.infobae.com/peru/2026/11/10/ministro-del-interior-anuncia-reforma-policial-para-fortalecer-la-disciplina-los-ascensos-y-la-formacion-de-efectivos/",
+    "title": "Cómo avanza el proyecto del noveno retiro AFP al día de hoy, 12 de noviembre: todo lo que debes saber",
+    "url": "https://www.infobae.com/peru/2026/11/09/como-va-el-proyecto-del-noveno-retiro-afp-al-dia-de-hoy-9-de-noviembre-lo-que-debes-saber/",
     "source": "Infobae",
-    "published": "2026-11-10T23:25:56+00:00",
-    "matched_in": "title"
+    "published": "2026-11-12T13:29:08+00:00",
+    "matched_in": "summary"
    }
   ]
  }
