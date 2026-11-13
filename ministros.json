@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T12:53:23+00:00",
+ "generated": "2026-11-13T22:24:05+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,16 +9,42 @@
   "Infobae"
  ],
  "ministers": {
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro Juan Sheput: Honrar visita del papa León XIV y representar al Perú en el Foro APEC son compromisos que se complementan",
-    "url": "https://elcomercio.pe/politica/gobierno/papa-leon-xiv-ministro-juan-sheput-afirma-que-honrar-la-visita-del-santo-padre-y-representar-al-peru-en-el-foro-apec-son-compromisos-que-se-complementan-keiko-fujimori-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-11T17:06:23+00:00",
-    "matched_in": "title"
-   }
-  ],
   "luis-williams-dyer-fernandez": [
+   {
+    "title": "Keiko Fujimori expresa su solidaridad con el ministro de Salud tras accidente de comitiva en Amazonas",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-expresa-su-solidaridad-con-el-ministro-de-salud-tras-accidente-de-comitiva-en-amazonas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-13T21:45:40+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Comitiva del ministro Luis Dyer sufre accidente de tránsito en Amazonas",
+    "url": "https://larepublica.pe/politica/2026/11/13/comitiva-del-ministro-luis-dyer-sufre-accidente-de-transito-en-amazonas-hnews-638716",
+    "source": "La República",
+    "published": "2026-11-13T21:20:45+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Comitiva del ministro Luis Dyer sufre accidente durante visita de trabajo en Amazonas",
+    "url": "https://gestion.pe/peru/comitiva-del-ministro-luis-dyer-sufre-accidente-durante-visita-de-trabajo-en-amazonas-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-13T19:44:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Dyer: comitiva del ministro de Salud sufre accidente de tránsito en Amazonas",
+    "url": "https://elcomercio.pe/politica/actualidad/luis-dyer-comitiva-del-ministro-de-salud-sufre-accidente-de-transito-en-amazonas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-13T18:49:02+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Comitiva del ministro de Salud Luis Dyer sufre accidente de tránsito durante supervisión en Amazonas",
+    "url": "https://www.infobae.com/peru/2026/11/13/comitiva-del-ministro-de-salud-luis-dyer-sufre-accidente-de-transito-durante-supervision-en-amazonas/",
+    "source": "Infobae",
+    "published": "2026-11-13T16:29:13+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Hijo del ministro del Salud, de 22 años, se reunía con viceministros a nombre del Despacho Presidencial",
     "url": "https://larepublica.pe/politica/2026/11/12/hijo-del-ministro-de-salud-alan-dyer-visito-mef-vivienda-y-educacion-a-nombre-del-despacho-presidencial-hnews-752532",
@@ -27,19 +53,19 @@
     "matched_in": "title"
    }
   ],
-  "ernesto-julio-alvarez-miranda": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Ministro de Justicia cuestiona al JNE por decisión que impide a López Aliaga asumir como alcalde: “Debe ser íntegramente reformado”",
-    "url": "https://larepublica.pe/politica/2026/11/11/ministro-de-justicia-cuestiona-al-jne-por-decision-que-impide-a-lopez-aliaga-asumir-como-alcalde-debe-ser-integramente-reformado-384472",
+    "title": "Espá justifica viaje de Fujimori al extranjero durante visita del papa León XIV: “No hay que ser más papistas que el papa”",
+    "url": "https://larepublica.pe/politica/2026/11/13/espa-justifica-viaje-de-fujimori-al-extranjero-durante-visita-del-papa-leon-xiv-no-hay-que-ser-mas-papistas-que-el-papa-494832",
     "source": "La República",
-    "published": "2026-11-11T22:13:36+00:00",
+    "published": "2026-11-13T15:25:10+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Álvarez sobre ausencia de Keiko Fujimori en despedida del papa León XIV: “Es esencial para el bolsillo de los ciudadanos”",
-    "url": "https://larepublica.pe/politica/2026/11/11/alvarez-sobre-ausencia-de-keiko-fujimori-en-despedida-del-papa-leon-xiv-es-esencial-para-el-bolsillo-de-los-ciudadanos-hnews-961235",
-    "source": "La República",
-    "published": "2026-11-11T18:59:07+00:00",
+    "title": "Carlos Espá defiende ausencia de Keiko Fujimori en despedida de León XIV: “No hay que ser más papistas que el papa”",
+    "url": "https://www.infobae.com/peru/2026/11/13/carlos-espa-defiende-ausencia-de-keiko-fujimori-en-despedida-de-leon-xiv-no-hay-que-ser-mas-papistas-que-el-papa/",
+    "source": "Infobae",
+    "published": "2026-11-13T13:05:47+00:00",
     "matched_in": "title"
    }
   ]
