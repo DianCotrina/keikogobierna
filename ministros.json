@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T11:57:19+00:00",
+ "generated": "2026-11-14T21:08:08+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -52,6 +52,15 @@
     "url": "https://larepublica.pe/politica/2026/11/13/espa-justifica-viaje-de-fujimori-al-extranjero-durante-visita-del-papa-leon-xiv-no-hay-que-ser-mas-papistas-que-el-papa-494832",
     "source": "La República",
     "published": "2026-11-13T15:25:10+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Alberto Beingolea resalta llamado a la unión del papa León XIV: \"No es tarea de un gobierno ni de un gobernante, sino de todos los peruanos\"",
+    "url": "https://rpp.pe/politica/gobierno/alberto-beingolea-resalta-llamado-a-la-union-del-papa-leon-xiv-no-es-tarea-de-un-gobierno-ni-de-un-gobernante-sino-de-todos-los-peruanos-noticia-1717796",
+    "source": "RPP",
+    "published": "2026-11-14T10:40:43-05:00",
     "matched_in": "title"
    }
   ]
