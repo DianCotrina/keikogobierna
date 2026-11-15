@@ -1,28 +1,37 @@
 {
- "generated": "2026-11-14T21:08:08+00:00",
+ "generated": "2026-11-15T12:31:58+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "articles": [
   {
-   "title": "Encargan despacho presidencial a Luis Galarreta por viaje de Keiko Fujimori a China y Japón",
-   "url": "https://elcomercio.pe/politica/actualidad/encargan-despacho-presidencial-a-luis-galarreta-por-viaje-de-keiko-fujimori-a-china-y-japon-ultimas-noticia/",
-   "summary": "El Poder Ejecutivo encarga el despacho de la Presidencia de la República al primer vicepresidente, Luis Galarreta, desde el 15 de noviembre. Esta medida responde a la salida del país de la presidenta Keiko Fujimori para participar en reuniones en China y Japón.",
-   "author": "Redacción EC",
-   "published": "2026-11-14T15:25:11+00:00",
+   "title": "No hay desaire",
+   "url": "https://elcomercio.pe/opinion/columnistas/no-hay-desaire-por-federico-salazar-noticia/",
+   "summary": "La senadora Mirtha Vásquez, de Ahora Nación, ha sostenido que la presidenta Keiko Fujimori ha desairado al papa León XIV. Se refiere a la ausencia de la mandataria durante la despedida al santo padre.",
+   "author": "Federico Salazar",
+   "published": "2026-11-15T11:00:01+00:00",
    "source": "El Comercio",
-   "captured": "2026-11-14T21:08:08+00:00"
+   "captured": "2026-11-15T12:31:58+00:00"
   },
   {
-   "title": "Nostalgia del enemigo autoritario",
-   "url": "https://elcomercio.pe/opinion/columnistas/nostalgia-del-enemigo-autoritario-por-jaime-de-althaus-noticia/",
-   "summary": "Fue notorio el desconcierto de antifujimoristas uno o dos meses atrás, al constatar que Keiko Fujimori, lejos de mostrar mano dura y actitudes dictatoriales, revelaba más bien modales respetuosos y hasta una imagen de debilidad. Se dejaba notar entonces, en las columnas y declaraciones de ese sector, una suerte de nostalgia del enemigo autoritario, del monstruo maligno que arrasaría con todo, algo así como un síndrome de Estocolmo fallido, despojado de su opresor. Y como la habían imaginado todopoderosa, señalaban entonces, con una mezcla de burla y extrañeza, lo que veían como improvisación, demoras y contradicciones internas.",
-   "author": "Jaime de Althaus",
-   "published": "2026-11-14T10:00:00+00:00",
+   "title": "Ahora sí, la China, una crónica de Fernando Vivas sobre el viaje de Keiko Fujimori a China y Japón",
+   "url": "https://elcomercio.pe/politica/ahora-si-la-china-una-cronica-de-fernando-vivas-sobre-el-viaje-de-keiko-fujimori-apuesplan-noticia/",
+   "summary": "Ahora sí, la China, una crónica de Fernando Vivas sobre el viaje de Keiko Fujimori a China y Japón",
+   "author": "Fernando Vivas",
+   "published": "2026-11-15T11:00:00+00:00",
    "source": "El Comercio",
-   "captured": "2026-11-14T11:57:19+00:00"
+   "captured": "2026-11-15T12:31:58+00:00"
+  },
+  {
+   "title": "César Holguín: “Se ha anulado el derecho a referéndum de los peruanos”",
+   "url": "https://larepublica.pe/politica/2026/11/15/cesar-holguin-se-ha-anulado-el-derecho-a-referendum-de-los-peruanos-hnews-510165",
+   "summary": "El diputado César Holguín, exvocero de Ahora Nación en la cámara baja, habla en esta entrevista de los desencuentros en su partido, de sus diferencias con Alfonso López Chau sobre las acciones del fujimorismo en el congreso bicameral y da detalles de su proyecto para devolver a la ciudadanía el derecho al referéndum.",
+   "author": "Emilio Camacho",
+   "published": "2026-11-15T07:01:59+00:00",
+   "source": "La República",
+   "captured": "2026-11-15T12:31:58+00:00"
   }
  ]
 }
