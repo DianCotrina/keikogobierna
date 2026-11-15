@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T12:31:58+00:00",
+ "generated": "2026-11-15T21:29:20+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -16,29 +16,15 @@
     "source": "El Comercio",
     "published": "2026-11-13T21:45:40+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Comitiva del ministro Luis Dyer sufre accidente de tránsito en Amazonas",
-    "url": "https://larepublica.pe/politica/2026/11/13/comitiva-del-ministro-luis-dyer-sufre-accidente-de-transito-en-amazonas-hnews-638716",
-    "source": "La República",
-    "published": "2026-11-13T21:20:45+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Dyer: comitiva del ministro de Salud sufre accidente de tránsito en Amazonas",
-    "url": "https://elcomercio.pe/politica/actualidad/luis-dyer-comitiva-del-ministro-de-salud-sufre-accidente-de-transito-en-amazonas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-13T18:49:02+00:00",
-    "matched_in": "title"
    }
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Espá justifica viaje de Fujimori al extranjero durante visita del papa León XIV: “No hay que ser más papistas que el papa”",
-    "url": "https://larepublica.pe/politica/2026/11/13/espa-justifica-viaje-de-fujimori-al-extranjero-durante-visita-del-papa-leon-xiv-no-hay-que-ser-mas-papistas-que-el-papa-494832",
+    "title": "Keiko Fujimori viaja a China y no despedirá al Papa León XIV en su último día en Perú",
+    "url": "https://larepublica.pe/politica/2026/11/15/keiko-fujimori-viaja-a-china-y-no-despedira-al-papa-leon-xiv-en-su-ultimo-dia-en-peru-hnews-1103400",
     "source": "La República",
-    "published": "2026-11-13T15:25:10+00:00",
-    "matched_in": "title"
+    "published": "2026-11-15T21:12:01+00:00",
+    "matched_in": "summary"
    }
   ]
  }
