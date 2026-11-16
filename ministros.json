@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T21:29:20+00:00",
+ "generated": "2026-11-16T02:35:52+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,15 +9,6 @@
   "Infobae"
  ],
  "ministers": {
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Keiko Fujimori expresa su solidaridad con el ministro de Salud tras accidente de comitiva en Amazonas",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-expresa-su-solidaridad-con-el-ministro-de-salud-tras-accidente-de-comitiva-en-amazonas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-13T21:45:40+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
     "title": "Keiko Fujimori viaja a China y no despedirá al Papa León XIV en su último día en Perú",
@@ -25,6 +16,15 @@
     "source": "La República",
     "published": "2026-11-15T21:12:01+00:00",
     "matched_in": "summary"
+   }
+  ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Ministerio de Justicia será reorganizado durante 120 días: Gobierno plantea reformas y evaluará duplicidad de funciones",
+    "url": "https://www.infobae.com/peru/2026/11/16/ministerio-de-justicia-sera-reorganizado-durante-120-dias-gobierno-plantea-reformas-y-evaluara-duplicidad-de-funciones/",
+    "source": "Infobae",
+    "published": "2026-11-16T01:57:55+00:00",
+    "matched_in": "title"
    }
   ]
  }
