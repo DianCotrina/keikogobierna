@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T14:09:01+00:00",
+ "generated": "2026-11-17T23:46:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Congreso: Piden interpelar al canciller Carlos Espá por fallas en misa del papa León XIV en Las Palmas tras contrato de S/8 millones",
+    "url": "https://www.infobae.com/peru/2026/11/17/congreso-piden-interpelar-al-canciller-carlos-espa-por-fallas-en-misa-del-papa-leon-xiv-en-las-palmas-tras-contrato-de-s8-millones/",
+    "source": "Infobae",
+    "published": "2026-11-17T23:34:39+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Carlos Espá firmó la contratación directa de equipos por S/8 millones para la misa del papa León XIV en Las Palmas",
+    "url": "https://www.infobae.com/peru/2026/11/17/carlos-espa-firmo-la-contratacion-directa-de-equipos-por-s8-millones-para-la-misa-del-papa-leon-xiv-en-las-palmas/",
+    "source": "Infobae",
+    "published": "2026-11-17T18:42:07+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Carlos Espá tras visita del papa León XIV: “Los peruanos hemos dado un ejemplo al mundo”",
     "url": "https://elcomercio.pe/politica/actualidad/carlos-espa-tras-visita-del-papa-leon-xiv-los-peruanos-hemos-dado-un-ejemplo-al-mundo-gira-sudamericana-apuesplan-ultimas-noticia/",
@@ -23,13 +37,22 @@
     "source": "El Comercio",
     "published": "2026-11-16T19:20:54+00:00",
     "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Ministro Juan Sheput respalda reducción del gasto del Congreso y espera que el ahorro pueda aliviar los efectos de El Niño",
+    "url": "https://www.infobae.com/peru/2026/11/17/ministro-juan-sheput-respalda-reduccion-del-gasto-del-congreso-y-espera-que-el-ahorro-pueda-aliviar-los-efectos-de-el-nino/",
+    "source": "Infobae",
+    "published": "2026-11-17T23:05:30+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Keiko Fujimori viaja a China y no despedirá al Papa León XIV en su último día en Perú",
-    "url": "https://larepublica.pe/politica/2026/11/15/keiko-fujimori-viaja-a-china-y-no-despedira-al-papa-leon-xiv-en-su-ultimo-dia-en-peru-hnews-1103400",
-    "source": "La República",
-    "published": "2026-11-15T21:12:01+00:00",
-    "matched_in": "summary"
+    "title": "Ministro Juan Sheput: “Ordenaremos el teletrabajo en el Estado para garantizar la atención al ciudadano”",
+    "url": "https://elcomercio.pe/economia/peru/ministro-juan-sheput-ordenaremos-el-teletrabajo-en-el-estado-para-garantizar-la-atencion-al-ciudadano-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-17T20:01:06+00:00",
+    "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -38,6 +61,15 @@
     "url": "https://larepublica.pe/politica/2026/11/16/astudillo-expone-este-martes-su-plan-de-reforma-de-la-pnp-ante-la-comision-de-defensa-hnews-677792",
     "source": "La República",
     "published": "2026-11-17T02:55:17+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Ministro Luis Dyer, INS y Digemid deberán explicar compra de suero defectuoso chino",
+    "url": "https://gestion.pe/peru/suero-defectuoso-citan-al-ministro-de-salud-luis-dyer-y-titulares-del-ins-y-digemid-a-comision-de-salud-de-diputados-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-17T21:35:33+00:00",
     "matched_in": "title"
    }
   ]
