@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T13:23:54+00:00",
+ "generated": "2026-11-17T00:39:53+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,20 +11,32 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Carlos Espá tras visita del papa León XIV: “Los peruanos hemos dado un ejemplo al mundo”",
+    "url": "https://elcomercio.pe/politica/actualidad/carlos-espa-tras-visita-del-papa-leon-xiv-los-peruanos-hemos-dado-un-ejemplo-al-mundo-gira-sudamericana-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-16T21:18:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Carlos Espá y su balance tras visita del papa León XIV al Perú: \"Ha sido una demostración de fe, de fervor, de devoción\"",
+    "url": "https://rpp.pe/politica/gobierno/carlos-espa-y-su-balance-tras-visita-del-papa-leon-xiv-al-peru-ha-sido-una-demostracion-de-fe-de-fervor-de-devocion-noticia-1718058",
+    "source": "RPP",
+    "published": "2026-11-16T15:17:36-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Papa León XIV es despedido por primer vicepresidente, Luis Galarreta; y el canciller Carlos Espá",
+    "url": "https://elcomercio.pe/politica/actualidad/papa-leon-xiv-es-despedido-por-primer-vicepresidente-luis-galarreta-y-el-canciller-carlos-espa-gira-sudamericana-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-16T19:20:54+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Keiko Fujimori viaja a China y no despedirá al Papa León XIV en su último día en Perú",
     "url": "https://larepublica.pe/politica/2026/11/15/keiko-fujimori-viaja-a-china-y-no-despedira-al-papa-leon-xiv-en-su-ultimo-dia-en-peru-hnews-1103400",
     "source": "La República",
     "published": "2026-11-15T21:12:01+00:00",
     "matched_in": "summary"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministerio de Justicia será reorganizado durante 120 días: Gobierno plantea reformas y evaluará duplicidad de funciones",
-    "url": "https://www.infobae.com/peru/2026/11/16/ministerio-de-justicia-sera-reorganizado-durante-120-dias-gobierno-plantea-reformas-y-evaluara-duplicidad-de-funciones/",
-    "source": "Infobae",
-    "published": "2026-11-16T01:57:55+00:00",
-    "matched_in": "title"
    }
   ]
  }
