@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-17",
   "items": {
     "t1-1.M01": {
       "status": "no_progress",
@@ -387,9 +387,54 @@
           "note": "El Decreto de Urgencia habilita a las entidades del Gobierno Nacional, gobiernos regionales y locales y universidades públicas a ejecutar por **Obras por Impuestos** el mantenimiento correctivo de establecimientos educativos frente al Fenómeno El Niño (artículo 4), incluidas las instalaciones sanitarias y los sistemas de almacenamiento y abastecimiento de agua (artículo 5.3, literal c). Queda en progreso, no cumplida: se limita a ese mantenimiento, no abarca aulas de innovación ni mobiliario, no identifica todavía colegios concretos y vence el 31 de diciembre de 2027 (artículo 12)."
         }
       ]
+    },
+    "t1-1.P28": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-11-15",
+          "source": "El Peruano — DECRETO SUPREMO N° 018-2026-JUS",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2575007-6",
+          "note": "El Decreto Supremo declara en reorganización el Ministerio de Justicia y Derechos Humanos por ciento veinte días calendario, para evaluar su situación administrativa, organizacional y de gestión y proponer medidas de reforma, incluido el ejercicio de su rectoría sobre los organismos adscritos (artículo 1). Encarga a su Oficina General de Planeamiento, Presupuesto y Modernización un diagnóstico que identifique duplicidades, superposiciones o vacíos de competencias y recomiende medidas de reforma, formalizado en un informe técnico (artículo 2). Queda en progreso, no cumplida: la reorganización alcanza solo al ministerio como entidad, no a sus organismos adscritos (artículo 1.2), ni al Poder Judicial, el Ministerio Público, la Junta Nacional de Justicia o el Tribunal Constitucional que el compromiso nombra; ordena un diagnóstico y propuestas, no aprueba todavía ninguna reforma del sistema de justicia."
+        }
+      ]
+    },
+    "t1-4.P10": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-11-15",
+          "source": "El Peruano — DECRETO SUPREMO N° 018-2026-JUS",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2575007-6",
+          "note": "El Decreto Supremo declara en reorganización el Ministerio de Justicia y Derechos Humanos por ciento veinte días calendario, para evaluar su situación administrativa, organizacional y de gestión y proponer medidas de reforma, incluido el ejercicio de su rectoría sobre los organismos adscritos (artículo 1). Encarga a su Oficina General de Planeamiento, Presupuesto y Modernización un diagnóstico que identifique duplicidades, superposiciones o vacíos de competencias y recomiende medidas de reforma, formalizado en un informe técnico (artículo 2). Queda en progreso, no cumplida: la reorganización alcanza solo al ministerio como entidad, no a sus organismos adscritos (artículo 1.2), ni al Poder Judicial, el Ministerio Público, la Junta Nacional de Justicia o el Tribunal Constitucional que el compromiso nombra; ordena un diagnóstico y propuestas, no aprueba todavía ninguna reforma del sistema de justicia."
+        }
+      ]
+    },
+    "t2-4.P04": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-11-14",
+          "source": "El Peruano — RESOLUCIÓN JEFATURAL N° 0273-2026-ANA",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2574990-1",
+          "note": "La Resolución Jefatural modifica la R.J. N° 107-2021-ANA para que, en la acreditación de disponibilidad hídrica y el permiso de uso de agua de la acuicultura de recursos limitados y de la micro y pequeña empresa (AREL y AMYPE), la verificación técnica pueda hacerse de oficio en gabinete con herramientas de información geoespacial y otras herramientas tecnológicas, y no solo en campo, registrada en el aplicativo MIDARH (artículos 4, 7, 8 y 9, y Formato N° 05). Se aplica también a los procedimientos en trámite. Queda en progreso, no cumplida: alcanza solo a dos categorías de usuarios acuícolas y ajusta un procedimiento creado en 2021 (D.S. N° 006-2021-MIDAGRI); el compromiso promete mecanismos ágiles y digitales para formalizar los derechos de uso de agua en general."
+        }
+      ]
     }
   },
   "log": [
+    {
+      "date": "2026-11-15",
+      "item": "t1-1.P28",
+      "status": "in_progress",
+      "text": "El Gobierno declaró en reorganización el Ministerio de Justicia y Derechos Humanos por 120 días y ordenó un diagnóstico con propuestas de reforma; no alcanza todavía al Poder Judicial, la Fiscalía ni los demás actores del sistema."
+    },
+    {
+      "date": "2026-11-14",
+      "item": "t2-4.P04",
+      "status": "in_progress",
+      "text": "La ANA permitió verificar en gabinete, con herramientas geoespaciales, los permisos de uso de agua de la pequeña acuicultura, en lugar de exigir siempre una inspección de campo."
+    },
     {
       "date": "2026-10-31",
       "item": "t2-1.C03",
