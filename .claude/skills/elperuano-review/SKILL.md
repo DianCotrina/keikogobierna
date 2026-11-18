@@ -98,8 +98,11 @@ Confianza: <alta|media|baja>. <What would change the verdict: the act that would
 
 Certification: one evidence entry per commitment id with the same promise (duplicates across topics included), one log line per norma, then `npm run validate` and a PR. The note states what the norma does and, for `in_progress`, "Queda en progreso, no cumplida: …".
 
+**Settled policy** (editor's decision, 2026-11-17):
+- A formal act by the competent ministry that opens the reform of a named body or program (a declaration of reorganization, a working group to diagnose and reform it) *starts* a promise to reform or strengthen that body or program. The note must say that only a diagnosis exists. Precedents: R.M. 00273-2026-PRODUCE (#330), D.S. 018-2026-JUS (#720).
+- A real step in the promised direction that covers only part of the users *starts* a promise worded in general terms ("mecanismos ágiles y digitales"), when the promise sets no coverage. The note names who is left out. Precedent: R.J. 0273-2026-ANA (#713).
+
 **Open policy questions** (ask the user; don't settle them by habit):
-- Does a working group created to diagnose and reform a named program start "promoción y fortalecimiento" of that program? (R.M. 00273-2026-PRODUCE was certified; the blind back-test called it context.)
 - Does a permanent supervisory commission without operational command start a "Comando Unificado Permanente" with named members? (D.S. 141-2026-PCM was certified; the blind back-test called it context.)
 
 After deciding, add a precedent to [precedents.md](precedents.md) when the case was close, new in kind, or overturned an earlier call.
