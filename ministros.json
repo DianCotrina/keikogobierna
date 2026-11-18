@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T23:46:07+00:00",
+ "generated": "2026-11-18T13:41:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -14,14 +14,7 @@
     "title": "Congreso: Piden interpelar al canciller Carlos Espá por fallas en misa del papa León XIV en Las Palmas tras contrato de S/8 millones",
     "url": "https://www.infobae.com/peru/2026/11/17/congreso-piden-interpelar-al-canciller-carlos-espa-por-fallas-en-misa-del-papa-leon-xiv-en-las-palmas-tras-contrato-de-s8-millones/",
     "source": "Infobae",
-    "published": "2026-11-17T23:34:39+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Carlos Espá firmó la contratación directa de equipos por S/8 millones para la misa del papa León XIV en Las Palmas",
-    "url": "https://www.infobae.com/peru/2026/11/17/carlos-espa-firmo-la-contratacion-directa-de-equipos-por-s8-millones-para-la-misa-del-papa-leon-xiv-en-las-palmas/",
-    "source": "Infobae",
-    "published": "2026-11-17T18:42:07+00:00",
+    "published": "2026-11-18T00:46:22+00:00",
     "matched_in": "title"
    },
    {
@@ -39,23 +32,37 @@
     "matched_in": "title"
    }
   ],
-  "juan-manuel-kosme-sheput-moore": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Ministro Juan Sheput respalda reducción del gasto del Congreso y espera que el ahorro pueda aliviar los efectos de El Niño",
-    "url": "https://www.infobae.com/peru/2026/11/17/ministro-juan-sheput-respalda-reduccion-del-gasto-del-congreso-y-espera-que-el-ahorro-pueda-aliviar-los-efectos-de-el-nino/",
-    "source": "Infobae",
-    "published": "2026-11-17T23:05:30+00:00",
+    "title": "Ministro Luis Dyer, INS y Digemid deberán explicar compra de suero defectuoso chino",
+    "url": "https://gestion.pe/peru/suero-defectuoso-citan-al-ministro-de-salud-luis-dyer-y-titulares-del-ins-y-digemid-a-comision-de-salud-de-diputados-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-18T00:30:00+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministro Juan Sheput: “Ordenaremos el teletrabajo en el Estado para garantizar la atención al ciudadano”",
-    "url": "https://elcomercio.pe/economia/peru/ministro-juan-sheput-ordenaremos-el-teletrabajo-en-el-estado-para-garantizar-la-atencion-al-ciudadano-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-17T20:01:06+00:00",
+    "title": "Diputado Víctor Piñan solicita a la PCM información sobre rol de Allan Dyer en el despacho presidencial",
+    "url": "https://larepublica.pe/politica/2026/11/17/diputado-victor-pinan-solicita-a-la-pcm-informacion-sobre-rol-de-allan-dyer-en-el-despacho-presidencial-hnews-1455982",
+    "source": "La República",
+    "published": "2026-11-18T00:10:01+00:00",
     "matched_in": "title"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Mininter reconoce a policías y personal por su labor durante la visita del papa León XIV",
+    "url": "https://rpp.pe/videos/la-rotativa-del-aire/mininter-reconoce-a-policias-y-personal-por-su-labor-durante-la-visita-del-papa-leon-xiv-noticia-1718345",
+    "source": "RPP",
+    "published": "2026-11-18T08:25:02-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "León XIV en Perú: César Astudillo destaca a la Policía tras el despliegue de 37 mil agentes",
+    "url": "https://www.infobae.com/peru/2026/11/18/leon-xiv-en-peru-cesar-astudillo-destaca-a-la-policia-tras-el-despliegue-de-37-mil-agentes/",
+    "source": "Infobae",
+    "published": "2026-11-18T02:45:00+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Astudillo expone este martes su plan de reforma de la PNP ante la Comisión de Defensa",
     "url": "https://larepublica.pe/politica/2026/11/16/astudillo-expone-este-martes-su-plan-de-reforma-de-la-pnp-ante-la-comision-de-defensa-hnews-677792",
@@ -64,12 +71,12 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Ministro Luis Dyer, INS y Digemid deberán explicar compra de suero defectuoso chino",
-    "url": "https://gestion.pe/peru/suero-defectuoso-citan-al-ministro-de-salud-luis-dyer-y-titulares-del-ins-y-digemid-a-comision-de-salud-de-diputados-noticia/",
+    "title": "MEF niega que donación de China para El Niño afecte relación con Estados Unidos",
+    "url": "https://gestion.pe/economia/mef-niega-que-donacion-de-china-para-el-nino-afecte-relacion-con-estados-unidos-noticia/",
     "source": "Gestión",
-    "published": "2026-11-17T21:35:33+00:00",
+    "published": "2026-11-18T02:10:00+00:00",
     "matched_in": "title"
    }
   ]
