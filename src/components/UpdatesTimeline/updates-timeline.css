@@ -4,7 +4,15 @@
    fades in, and the rail highlight slides with translate/scale. */
 
 .tl {
-  --rail-x: 2.15rem;
+  /* One column system for every row, the month labels and the open copy, so
+     they all start on the same verticals. The stamp column is fixed so a
+     shorter status label cannot shift the title. */
+  --stage-pad: 0.75rem;
+  --col-node: 2.8rem;
+  --col-date: 2.75rem;
+  --col-stamp: 6.5rem;
+  --col-gap: 0.6rem;
+  --rail-x: calc(var(--stage-pad) + var(--col-node) / 2);
   display: flex;
   flex-direction: column;
   background: var(--color-hoja);
@@ -58,7 +66,7 @@
 
 .tl-stage {
   position: relative;
-  padding: 0 0.75rem 0.75rem;
+  padding: 0 var(--stage-pad) 0.75rem;
 }
 
 .tl-rail,
@@ -89,7 +97,7 @@
 }
 
 .tl-month {
-  padding: 0.85rem 0 0.35rem calc(var(--rail-x) + 0.5rem);
+  padding: 0.85rem 0 0.35rem calc(var(--col-node) + var(--col-gap));
   font-size: 0.6rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -104,9 +112,9 @@
 
 .tl-trigger {
   display: grid;
-  grid-template-columns: 2.8rem 2.75rem auto minmax(0, 1fr) 0.85rem;
+  grid-template-columns: var(--col-node) var(--col-date) var(--col-stamp) minmax(0, 1fr) 0.85rem;
   align-items: center;
-  gap: 0.6rem;
+  gap: var(--col-gap);
   width: 100%;
   min-height: 2.75rem;
   padding: 0.35rem 0.75rem 0.35rem 0;
@@ -185,7 +193,7 @@
 .tl-entry[data-open='true'] .tl-body { display: block; }
 
 .tl-copy {
-  padding: 0 1.5rem 0.75rem calc(2.8rem + 2.75rem + 1.2rem);
+  padding: 0 1.5rem 0.75rem calc(var(--col-node) + var(--col-date) + var(--col-stamp) + 3 * var(--col-gap));
   animation: tl-copy-in 0.35s var(--ease-spring) both;
 }
 
@@ -213,12 +221,11 @@
 
 /* Below sm the copy drops under the date column instead of the title's. */
 @media (max-width: 639px) {
-  .tl { --rail-x: 1.65rem; }
+  .tl { --stage-pad: 0.25rem; }
   .tl-head, .tl-foot { padding-left: 1rem; padding-right: 1rem; }
   .tl-status { margin-left: 1rem; margin-right: 1rem; }
-  .tl-stage { padding: 0 0.25rem 0.5rem; }
   .tl-trigger {
-    grid-template-columns: 2.8rem auto minmax(0, 1fr) 0.85rem;
+    grid-template-columns: var(--col-node) auto minmax(0, 1fr) 0.85rem;
     grid-template-areas: 'node date stamp icon' 'node title title title';
     row-gap: 0.15rem;
     padding-top: 0.6rem;
@@ -229,8 +236,7 @@
   .tl-trigger .stamp { grid-area: stamp; }
   .tl-title { grid-area: title; }
   .tl-chevron, .tl-pin { grid-area: icon; justify-self: end; }
-  .tl-copy { padding-left: 2.8rem; padding-right: 1rem; }
-  .tl-month { padding-left: 2.8rem; }
+  .tl-copy { padding-left: calc(var(--col-node) + var(--col-gap)); padding-right: 1rem; }
 }
 
 @keyframes tl-breathe {
