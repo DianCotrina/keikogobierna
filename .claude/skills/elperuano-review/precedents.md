@@ -27,6 +27,23 @@ Decided cases, so the same facts get the same verdict. Newest first within each 
 - **D.S. 017-2026-MINEDU** (#475): discard. PRONABEC regulation finishing a reengineering started by the previous government; no increase in scholarships.
 - **R.M. 321-2026-VIVIENDA** (#352): discard. Monitoring plan for an inherited treatment-plant project; builds nothing.
 
+### Reviewed 2026-11-17 (32 candidates, #689–#727)
+
+### #720 — D.S. 018-2026-JUS: in progress for `t1-1.P28`, `t1-4.P10` (2026-11-17, editor's call)
+Declares MINJUSDH in reorganization for 120 days with a diagnosis and reform proposals (arts. 1–2); only the ministry, not its attached bodies (art. 1.2) nor the judiciary, prosecutors, JNJ or TC. Reviewed as context (medium); the editor certified it as the start of the justice reform. Settles the working-group question in SKILL.md: a formal reform-opening act by the competent ministry starts a reform promise.
+
+### #713 — R.J. 0273-2026-ANA: in progress for `t2-4.P04` (2026-11-17, editor's call)
+Desk verification with geospatial tools, in MIDARH, for water-use permits of small aquaculture (AREL, AMYPE), amending a 2021 procedure. Matcher offered `t2-1.P05`. Reviewed as context (partial scope, medium); the editor certified it: the promise ("mecanismos ágiles y digitales") sets no coverage, so a real digital step for some users starts it.
+
+### #710 — R.S. 185-2026-RE: context for `t3-10.P29` (2026-11-17)
+Full powers to sign the Peru–Thailand FTA. Delegating signing powers is routine; the signature (announced 2026-11-19, APEC) and the ratifying D.S. are the acts to judge. Negotiation closed substantially in Dec 2025, so judge the signature on whether it opens markets beyond the 2011 goods-only protocol.
+
+### #723 — R.M. 426-2026-MINCETUR: discard «no acredita avance» (2026-11-17)
+S/ 44 375 850 to ANIN for the existing Choquequirao project (CUI 2538795), under Ley 32732. The right commitment is `t2-7.P05`, which the matcher missed, but a transfer to the right project is still spending. Start of works would be evidence.
+
+### #721 — D.S. 255-2026-EF: discard «no acredita avance» (2026-11-17)
+New ANA pay scale consolidating collective-bargaining income, ordered by the 2026 Budget Law. Pay measures are not the ANA reengineering (`t2-4.P05`).
+
 ### Reviewed 2026-11-09
 
 ### #686 — D. Leg. 1742: context, below `t1-1.P35` (2026-11-09)
