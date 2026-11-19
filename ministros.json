@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T14:09:36+00:00",
+ "generated": "2026-11-19T23:25:43+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,20 +9,64 @@
   "Infobae"
  ],
  "ministers": {
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Diputados: Presentan moción para interpelar a ministro de Energía y Minas",
+    "url": "https://elcomercio.pe/politica/congreso/diputados-presentan-mocion-para-interpelar-a-ministro-de-energia-y-minas-guillermo-shinno-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-19T16:04:29+00:00",
+    "matched_in": "title"
+   }
+  ],
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "La historia detrás de las fallas en la misa del Papa León XIV: S/11 mllns. en contratos bajo cuestionamiento y cientos de fieles afectados",
+    "url": "https://elcomercio.pe/lima/sucesos/multiples-fallos-presupuesto-cuestionado-y-cientos-de-fieles-afectados-que-fallo-en-la-misa-del-papa-en-las-palmas-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-19T23:23:54+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Carlos Espá: posible interpelación al canciller divide al Congreso",
+    "url": "https://gestion.pe/peru/politica/carlos-espa-posible-interpelacion-al-canciller-divide-al-congreso-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-19T23:15:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Lourdes Alcorta critica a Espá frente a ministros de Fujimori: “Se la pasa saltando disfrazado de truquini”",
+    "url": "https://larepublica.pe/politica/2026/11/19/lourdes-alcorta-critica-a-espa-frente-a-ministros-de-fujimori-se-la-pasa-saltando-disfrazado-de-truquini-hnews-368486",
+    "source": "La República",
+    "published": "2026-11-19T22:00:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "“¿Dónde diablos está el canciller?”: Lourdes Alcorta estalla contra Carlos Espá por su “desastre” y lo compara con una caricatura",
+    "url": "https://www.infobae.com/peru/2026/11/19/donde-diablos-esta-el-canciller-lourdes-alcorta-estalla-contra-carlos-espa-por-su-desastre-y-lo-compara-con-una-caricatura/",
+    "source": "Infobae",
+    "published": "2026-11-19T21:46:13+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Familiares de peruanos desaparecidos en Rusia exigen respuestas tras viaje de canciller Espá al país: \"Exigimos verdad y transparencia\"",
+    "url": "https://rpp.pe/peru/actualidad/familiares-de-peruanos-desaparecidos-en-rusia-exigen-respuestas-tras-viaje-de-canciller-espa-al-pais-exigimos-verdad-y-transparencia-noticia-1718620",
+    "source": "RPP",
+    "published": "2026-11-19T14:18:41-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputados piden que el canciller Carlos Espá explique fallas técnicas en la misa de León XIV en la Base Aérea Las Palmas",
+    "url": "https://www.infobae.com/peru/2026/11/19/diputados-piden-que-el-canciller-carlos-espa-explique-fallas-tecnicas-en-la-misa-de-leon-xiv-en-la-base-aerea-las-palmas/",
+    "source": "Infobae",
+    "published": "2026-11-19T17:38:14+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Carlos Espá anuncia investigación por fallas técnicas en la misa del papa León XIV: “Siempre hay responsables”",
     "url": "https://larepublica.pe/politica/2026/11/18/carlos-espa-anuncia-investigacion-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-siempre-hay-responsables-hnews-476388",
     "source": "La República",
     "published": "2026-11-19T12:07:06+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "La historia detrás de las fallas en la misa del Papa León XIV: S/11 mllns. en contratos bajo cuestionamiento y cientos de fieles afectados",
-    "url": "https://elcomercio.pe/lima/sucesos/multiples-fallos-presupuesto-cuestionado-y-cientos-de-fieles-afectados-que-fallo-en-la-misa-del-papa-en-las-palmas-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-19T11:18:25+00:00",
-    "matched_in": "summary"
    },
    {
     "title": "Canciller Carlos Espá asegura que la presidenta Keiko Fujimori se reunió con su homóloga de México, Claudia Sheinbaum",
@@ -39,28 +83,42 @@
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Mininter garantiza pago de bonos al personal policial por más de S/ 450 millones este mes",
-    "url": "https://gestion.pe/peru/mininter-garantiza-pago-de-bonos-al-personal-policial-por-mas-de-s-450-millones-en-noviembre-2026-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-19T04:30:00+00:00",
+    "title": "Premier Luis Galarreta: “El papa León XIV me preguntó cuándo viajó Keiko Fujimori (a China), le deseó suerte al gobierno”",
+    "url": "https://www.infobae.com/peru/2026/11/19/premier-luis-galarreta-el-papa-leon-xiv-me-pregunto-cuando-viajo-keiko-fujimori-a-china-le-deseo-suerte-al-gobierno/",
+    "source": "Infobae",
+    "published": "2026-11-19T22:53:05+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Mininter: “Vamos a consolidar una Policía mejor equipada para frenar al crimen organizado”",
-    "url": "https://larepublica.pe/politica/2026/11/18/mininter-vamos-a-consolidar-una-policia-mejor-equipada-para-frenar-al-crimen-organizado-seguridad-ciudadana-hnews-761058",
+    "title": "Carlos Raffo debilitó figura de Luis Galarreta para buscar la PCM",
+    "url": "https://larepublica.pe/politica/2026/11/18/carlos-raffo-el-personaje-que-aparece-en-el-entorno-de-confianza-de-keiko-fujimori-en-su-viaje-a-china-hnews-993492",
     "source": "La República",
-    "published": "2026-11-18T22:22:34+00:00",
+    "published": "2026-11-19T22:35:36+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Galarreta defiende su gestión en la PCM y descarta responder por cada controversia ministerial: “No es que el premier es el pararrayos”",
+    "url": "https://larepublica.pe/politica/2026/11/19/galarreta-defiende-su-gestion-en-la-pcm-y-descarta-responder-por-cada-controversia-ministerial-no-es-que-el-premier-es-el-pararrayos-hnews-211014",
+    "source": "La República",
+    "published": "2026-11-19T21:24:52+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
+    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
+    "source": "La República",
+    "published": "2026-11-19T20:08:20+00:00",
     "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
    {
-    "title": "Piden información por supuesta presencia del hijo del ministro Dyer en reuniones del Gobierno",
-    "url": "https://gestion.pe/peru/politica/luis-dyer-diputado-de-obras-piden-informacion-sobre-vinculo-del-hijo-del-ministro-de-salud-en-supuestas-reuniones-del-gobierno-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-18T19:32:00+00:00",
+    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
+    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
+    "source": "La República",
+    "published": "2026-11-19T20:08:20+00:00",
     "matched_in": "title"
    },
    {
@@ -71,22 +129,40 @@
     "matched_in": "title"
    }
   ],
-  "elmer-rafael-cuba-bustinza": [
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "AFP: ¿cuánto más tendría un trabajador si su aporte previsional baja del 10% al 5%?",
-    "url": "https://gestion.pe/peru/afp-cuanto-mas-tendria-un-trabajador-si-su-aporte-previsional-baja-del-10-al-5-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-19T01:15:00+00:00",
-    "matched_in": "summary"
+    "title": "Mininter: “Vamos a consolidar una Policía mejor equipada para frenar al crimen organizado”",
+    "url": "https://larepublica.pe/politica/2026/11/18/mininter-vamos-a-consolidar-una-policia-mejor-equipada-para-frenar-al-crimen-organizado-seguridad-ciudadana-hnews-761058",
+    "source": "La República",
+    "published": "2026-11-18T22:22:34+00:00",
+    "matched_in": "title"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "jose-antonio-chang-escobedo": [
    {
-    "title": "Defensa tendrá S/ 12,213 millones en 2027: ¿en qué se concentrará el presupuesto?",
-    "url": "https://gestion.pe/peru/defensa-tendra-s-12213-millones-en-2027-en-que-se-concentrara-el-presupuesto-noticia/",
+    "title": "Ministro Chang anuncia saneamiento físico legal de 21 mil colegios para el 2027",
+    "url": "https://gestion.pe/peru/ministro-chang-anuncia-saneamiento-fisico-legal-de-21-000-colegios-para-2027-noticia/",
     "source": "Gestión",
-    "published": "2026-11-18T22:45:00+00:00",
-    "matched_in": "summary"
+    "published": "2026-11-19T23:21:19+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "rogers-martin-valencia-espinoza": [
+   {
+    "title": "Perú suscribe TLC con Tailandia: el top de productos de exportación que emocionan al Mincetur",
+    "url": "https://gestion.pe/economia/peru-suscribe-tlc-con-tailandia-este-es-el-top-de-productos-de-exportacion-que-emocionan-al-mincetur-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-19T17:29:48+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-carlos-requejo-aleman": [
+   {
+    "title": "Mypes piden interpelar al ministro de Producción Juan Carlos Requejo por retrasos y presuntas irregularidades en programa",
+    "url": "https://www.infobae.com/peru/2026/11/19/mypes-piden-interpelar-al-ministro-de-produccion-juan-carlos-requejo-por-retrasos-y-presuntas-irregularidades-en-programa/",
+    "source": "Infobae",
+    "published": "2026-11-19T22:22:55+00:00",
+    "matched_in": "title"
    }
   ]
  }
