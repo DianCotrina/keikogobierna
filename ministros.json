@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:17:28+00:00",
+ "generated": "2026-11-19T14:09:36+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,49 +9,26 @@
   "Infobae"
  ],
  "ministers": {
-  "cesar-augusto-astudillo-salcedo": [
+  "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Mininter: “Vamos a consolidar una Policía mejor equipada para frenar al crimen organizado”",
-    "url": "https://larepublica.pe/politica/2026/11/18/mininter-vamos-a-consolidar-una-policia-mejor-equipada-para-frenar-al-crimen-organizado-seguridad-ciudadana-hnews-761058",
+    "title": "Carlos Espá anuncia investigación por fallas técnicas en la misa del papa León XIV: “Siempre hay responsables”",
+    "url": "https://larepublica.pe/politica/2026/11/18/carlos-espa-anuncia-investigacion-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-siempre-hay-responsables-hnews-476388",
     "source": "La República",
-    "published": "2026-11-18T22:22:34+00:00",
+    "published": "2026-11-19T12:07:06+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Interior elevará su presupuesto a S/14,270 millones en 2027: el detalle de las inversiones",
-    "url": "https://gestion.pe/peru/sector-interior-elevara-su-presupuesto-a-s14270-millones-en-2027-el-detalle-de-las-inversiones-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-18T19:24:57+00:00",
+    "title": "La historia detrás de las fallas en la misa del Papa León XIV: S/11 mllns. en contratos bajo cuestionamiento y cientos de fieles afectados",
+    "url": "https://elcomercio.pe/lima/sucesos/multiples-fallos-presupuesto-cuestionado-y-cientos-de-fieles-afectados-que-fallo-en-la-misa-del-papa-en-las-palmas-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-19T11:18:25+00:00",
     "matched_in": "summary"
    },
    {
-    "title": "Mininter garantiza pago de bonos al personal policial por más de S/ 450 millones este mes",
-    "url": "https://gestion.pe/peru/mininter-garantiza-pago-de-bonos-al-personal-policial-por-mas-de-s-450-millones-en-noviembre-2026-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-18T15:25:15+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Astudillo expone este martes su plan de reforma de la PNP ante la Comisión de Defensa",
-    "url": "https://larepublica.pe/politica/2026/11/16/astudillo-expone-este-martes-su-plan-de-reforma-de-la-pnp-ante-la-comision-de-defensa-hnews-677792",
-    "source": "La República",
-    "published": "2026-11-17T02:55:17+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Canciller Carlos Espá salió del Perú en medio de las críticas por fallas en misa del papa León XIV en Las Pampas",
-    "url": "https://www.infobae.com/peru/2026/11/18/canciller-carlos-espa-salio-del-peru-en-medio-de-las-criticas-por-fallas-en-misa-del-papa-leon-xiv-en-las-pampas/",
-    "source": "Infobae",
-    "published": "2026-11-18T22:03:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“Dé explicaciones”: Renovación Popular le baja el dedo al canciller Carlos Espá por fallas en la misa de León XIV en Las Palmas",
-    "url": "https://www.infobae.com/peru/2026/11/18/de-explicaciones-renovacion-popular-le-baja-el-dedo-al-canciller-carlos-espa-por-fallas-en-la-misa-de-papa-leon-xiv-en-las-palmas/",
-    "source": "Infobae",
-    "published": "2026-11-18T21:29:39+00:00",
+    "title": "Canciller Carlos Espá asegura que la presidenta Keiko Fujimori se reunió con su homóloga de México, Claudia Sheinbaum",
+    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-asegura-que-la-presidenta-keiko-fujimori-se-reunio-con-su-homologa-de-mexico-claudia-sheinbaum-ultimas-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-19T05:09:30+00:00",
     "matched_in": "title"
    },
    {
@@ -59,6 +36,22 @@
     "url": "https://larepublica.pe/politica/2026/11/18/diputada-marleny-arminta-pide-explicaciones-a-cancilleria-por-contrato-de-s84-millones-para-misa-del-papa-leon-xiv-hnews-989874",
     "source": "La República",
     "published": "2026-11-18T16:06:22+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
+   {
+    "title": "Mininter garantiza pago de bonos al personal policial por más de S/ 450 millones este mes",
+    "url": "https://gestion.pe/peru/mininter-garantiza-pago-de-bonos-al-personal-policial-por-mas-de-s-450-millones-en-noviembre-2026-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-19T04:30:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Mininter: “Vamos a consolidar una Policía mejor equipada para frenar al crimen organizado”",
+    "url": "https://larepublica.pe/politica/2026/11/18/mininter-vamos-a-consolidar-una-policia-mejor-equipada-para-frenar-al-crimen-organizado-seguridad-ciudadana-hnews-761058",
+    "source": "La República",
+    "published": "2026-11-18T22:22:34+00:00",
     "matched_in": "title"
    }
   ],
@@ -83,15 +76,8 @@
     "title": "AFP: ¿cuánto más tendría un trabajador si su aporte previsional baja del 10% al 5%?",
     "url": "https://gestion.pe/peru/afp-cuanto-mas-tendria-un-trabajador-si-su-aporte-previsional-baja-del-10-al-5-noticia/",
     "source": "Gestión",
-    "published": "2026-11-18T23:07:33+00:00",
+    "published": "2026-11-19T01:15:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Techo Propio: MEF anuncia S/150 millones para nuevos bonos, pero todavía dejaría a 6.500 familias sin vivienda",
-    "url": "https://www.infobae.com/peru/2026/11/18/techo-propio-mef-anuncia-s150-millones-para-nuevos-bonos-pero-todavia-dejaria-a-6500-familias-sin-vivienda/",
-    "source": "Infobae",
-    "published": "2026-11-18T17:32:33+00:00",
-    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
@@ -100,15 +86,6 @@
     "url": "https://gestion.pe/peru/defensa-tendra-s-12213-millones-en-2027-en-que-se-concentrara-el-presupuesto-noticia/",
     "source": "Gestión",
     "published": "2026-11-18T22:45:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Sector Justicia requiere S/ 2,517 millones en presupuesto para el 2027",
-    "url": "https://gestion.pe/peru/minjus-sector-justicia-requiere-s-2517-millones-en-presupuesto-para-el-2027-dice-en-el-congreso-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-18T18:30:22+00:00",
     "matched_in": "summary"
    }
   ]
