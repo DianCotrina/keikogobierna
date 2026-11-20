@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T13:51:40+00:00",
+ "generated": "2026-11-20T22:58:30+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,21 +9,33 @@
   "Infobae"
  ],
  "ministers": {
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Diputados: Presentan moción para interpelar a ministro de Energía y Minas",
-    "url": "https://elcomercio.pe/politica/congreso/diputados-presentan-mocion-para-interpelar-a-ministro-de-energia-y-minas-guillermo-shinno-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-19T16:04:29+00:00",
-    "matched_in": "title"
-   }
-  ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Premier Luis Galarreta: “No he tenido comunicación con el canciller Carlos Espá porque está en Asia”",
-    "url": "https://www.infobae.com/peru/2026/11/20/premier-luis-galarreta-no-he-tenido-comunicacion-con-el-canciller-carlos-espa-porque-esta-en-asia/",
-    "source": "Infobae",
-    "published": "2026-11-20T01:02:25+00:00",
+    "title": "Ahora Nación alcanza las firmas para interpelar al canciller Carlos Espá por fallas técnicas en la misa del papa León XIV",
+    "url": "https://larepublica.pe/politica/2026/11/20/ahora-nacion-promueve-mocion-de-interpelacion-contra-carlos-espa-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-hnews-458500",
+    "source": "La República",
+    "published": "2026-11-20T22:57:03+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputados de diversas bancadas respaldan citar al canciller Carlos Espá por fallas técnicas en misa del papa León XIV",
+    "url": "https://elcomercio.pe/politica/congreso/diputados-de-diversas-bancadas-respaldan-citar-al-canciller-carlos-espa-por-fallas-tecnicas-en-misa-del-papa-leon-xiv-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-20T20:15:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller Espá bajo cuestionamientos: Galarreta responde a pedidos de su salida",
+    "url": "https://gestion.pe/peru/canciller-carlos-espa-bajo-cuestionamientos-premier-galarreta-responde-a-pedidos-de-su-salida-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-20T17:39:04+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Carlos Espá: diputados presentan moción para citar al canciller por fallas técnicas en misa del papa León XIV en Base Aérea Las Palmas",
+    "url": "https://elcomercio.pe/politica/congreso/carlos-espa-diputados-presentan-mocion-de-urgencia-para-citar-al-canciller-por-fallas-en-misa-del-papa-leon-xiv-en-base-aerea-las-palmas-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-20T17:28:24+00:00",
     "matched_in": "title"
    },
    {
@@ -34,24 +46,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Carlos Espá: posible interpelación al canciller divide al Congreso",
-    "url": "https://gestion.pe/peru/politica/carlos-espa-posible-interpelacion-al-canciller-divide-al-congreso-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-19T23:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Lourdes Alcorta critica a Espá frente a ministros de Fujimori: “Se la pasa saltando disfrazado de truquini”",
     "url": "https://larepublica.pe/politica/2026/11/19/lourdes-alcorta-critica-a-espa-frente-a-ministros-de-fujimori-se-la-pasa-saltando-disfrazado-de-truquini-hnews-368486",
     "source": "La República",
     "published": "2026-11-19T22:00:43+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "“¿Dónde diablos está el canciller?”: Lourdes Alcorta estalla contra Carlos Espá por su “desastre” y lo compara con una caricatura",
-    "url": "https://www.infobae.com/peru/2026/11/19/donde-diablos-esta-el-canciller-lourdes-alcorta-estalla-contra-carlos-espa-por-su-desastre-y-lo-compara-con-una-caricatura/",
-    "source": "Infobae",
-    "published": "2026-11-19T21:46:13+00:00",
     "matched_in": "title"
    },
    {
@@ -67,12 +65,30 @@
     "source": "El Comercio",
     "published": "2026-11-19T05:09:30+00:00",
     "matched_in": "title"
+   }
+  ],
+  "guillermo-shinno-huamani": [
+   {
+    "title": "Diputados: Presentan moción para interpelar a ministro de Energía y Minas",
+    "url": "https://elcomercio.pe/politica/congreso/diputados-presentan-mocion-para-interpelar-a-ministro-de-energia-y-minas-guillermo-shinno-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-19T16:04:29+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Ministro Dyer evitó responder por su hijo y su equipo de prensa desvió las preguntas de periodistas en Cusco",
+    "url": "https://larepublica.pe/politica/2026/11/20/ministro-dyer-evito-responder-por-su-hijo-y-su-equipo-de-prensa-desvio-las-preguntas-de-periodistas-en-cusco-hnews-445260",
+    "source": "La República",
+    "published": "2026-11-20T19:08:19+00:00",
+    "matched_in": "title"
    },
    {
-    "title": "Diputada Marleny Arminta pide explicaciones a Cancillería por contrato de S/8,4 millones para misa del papa León XIV",
-    "url": "https://larepublica.pe/politica/2026/11/18/diputada-marleny-arminta-pide-explicaciones-a-cancilleria-por-contrato-de-s84-millones-para-misa-del-papa-leon-xiv-hnews-989874",
+    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
+    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
     "source": "La República",
-    "published": "2026-11-18T16:06:22+00:00",
+    "published": "2026-11-20T03:07:02+00:00",
     "matched_in": "title"
    }
   ],
@@ -82,20 +98,6 @@
     "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
     "source": "La República",
     "published": "2026-11-20T03:07:02+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Luis Galarreta: “No he tenido comunicación con el canciller Carlos Espá porque está en Asia”",
-    "url": "https://www.infobae.com/peru/2026/11/20/premier-luis-galarreta-no-he-tenido-comunicacion-con-el-canciller-carlos-espa-porque-esta-en-asia/",
-    "source": "Infobae",
-    "published": "2026-11-20T01:02:25+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Premier Luis Galarreta: “El papa León XIV me preguntó cuándo viajó Keiko Fujimori (a China), le deseó suerte al gobierno”",
-    "url": "https://www.infobae.com/peru/2026/11/19/premier-luis-galarreta-el-papa-leon-xiv-me-pregunto-cuando-viajo-keiko-fujimori-a-china-le-deseo-suerte-al-gobierno/",
-    "source": "Infobae",
-    "published": "2026-11-19T22:53:05+00:00",
     "matched_in": "title"
    },
    {
@@ -113,24 +115,6 @@
     "matched_in": "title"
    }
   ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
-    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
-    "source": "La República",
-    "published": "2026-11-20T03:07:02+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "cesar-augusto-astudillo-salcedo": [
-   {
-    "title": "Mininter: “Vamos a consolidar una Policía mejor equipada para frenar al crimen organizado”",
-    "url": "https://larepublica.pe/politica/2026/11/18/mininter-vamos-a-consolidar-una-policia-mejor-equipada-para-frenar-al-crimen-organizado-seguridad-ciudadana-hnews-761058",
-    "source": "La República",
-    "published": "2026-11-18T22:22:34+00:00",
-    "matched_in": "title"
-   }
-  ],
   "ernesto-julio-alvarez-miranda": [
    {
     "title": "Aprueban crear el Registro de Organizaciones Criminales con Prácticas Terroristas",
@@ -138,20 +122,6 @@
     "source": "Gestión",
     "published": "2026-11-20T11:31:00+00:00",
     "matched_in": "summary"
-   },
-   {
-    "title": "Ejecutivo señala que \"no es necesario\" hacer cárceles al estilo CECOT: \"Ese no es nuestro modelo de cárcel de máxima peligrosidad\"",
-    "url": "https://rpp.pe/politica/gobierno/ejecutivo-senala-que-no-es-necesario-hacer-carceles-al-estilo-cecot-ese-no-es-nuestro-modelo-de-carcel-de-maxima-peligrosidad-noticia-1718690",
-    "source": "RPP",
-    "published": "2026-11-19T20:56:11-05:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Ministerio de Justicia delega a Defensa la construcción de cárceles",
-    "url": "https://gestion.pe/peru/politica/ministerio-de-justicia-delega-a-defensa-la-construccion-de-carceles-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-20T00:13:24+00:00",
-    "matched_in": "title"
    }
   ],
   "jose-antonio-chang-escobedo": [
@@ -169,15 +139,6 @@
     "url": "https://gestion.pe/economia/peru-suscribe-tlc-con-tailandia-este-es-el-top-de-productos-de-exportacion-que-emocionan-al-mincetur-noticia/",
     "source": "Gestión",
     "published": "2026-11-20T10:41:43+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-carlos-requejo-aleman": [
-   {
-    "title": "Mypes piden interpelar al ministro de Producción Juan Carlos Requejo por retrasos y presuntas irregularidades en programa",
-    "url": "https://www.infobae.com/peru/2026/11/19/mypes-piden-interpelar-al-ministro-de-produccion-juan-carlos-requejo-por-retrasos-y-presuntas-irregularidades-en-programa/",
-    "source": "Infobae",
-    "published": "2026-11-19T22:22:55+00:00",
     "matched_in": "title"
    }
   ]
