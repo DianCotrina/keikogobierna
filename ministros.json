@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T23:25:43+00:00",
+ "generated": "2026-11-20T13:51:40+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -20,11 +20,18 @@
   ],
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "La historia detrás de las fallas en la misa del Papa León XIV: S/11 mllns. en contratos bajo cuestionamiento y cientos de fieles afectados",
-    "url": "https://elcomercio.pe/lima/sucesos/multiples-fallos-presupuesto-cuestionado-y-cientos-de-fieles-afectados-que-fallo-en-la-misa-del-papa-en-las-palmas-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-19T23:23:54+00:00",
-    "matched_in": "summary"
+    "title": "Premier Luis Galarreta: “No he tenido comunicación con el canciller Carlos Espá porque está en Asia”",
+    "url": "https://www.infobae.com/peru/2026/11/20/premier-luis-galarreta-no-he-tenido-comunicacion-con-el-canciller-carlos-espa-porque-esta-en-asia/",
+    "source": "Infobae",
+    "published": "2026-11-20T01:02:25+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Galarreta evita responder por críticas de Espá a China: “No voy a opinar lo que dijo un ministro en enero”",
+    "url": "https://larepublica.pe/politica/2026/11/19/galarreta-evita-responder-por-criticas-de-espa-a-china-no-voy-a-opinar-lo-que-dijo-un-ministro-en-enero-hnews-1808211",
+    "source": "La República",
+    "published": "2026-11-20T00:00:11+00:00",
+    "matched_in": "title"
    },
    {
     "title": "Carlos Espá: posible interpelación al canciller divide al Congreso",
@@ -45,20 +52,6 @@
     "url": "https://www.infobae.com/peru/2026/11/19/donde-diablos-esta-el-canciller-lourdes-alcorta-estalla-contra-carlos-espa-por-su-desastre-y-lo-compara-con-una-caricatura/",
     "source": "Infobae",
     "published": "2026-11-19T21:46:13+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Familiares de peruanos desaparecidos en Rusia exigen respuestas tras viaje de canciller Espá al país: \"Exigimos verdad y transparencia\"",
-    "url": "https://rpp.pe/peru/actualidad/familiares-de-peruanos-desaparecidos-en-rusia-exigen-respuestas-tras-viaje-de-canciller-espa-al-pais-exigimos-verdad-y-transparencia-noticia-1718620",
-    "source": "RPP",
-    "published": "2026-11-19T14:18:41-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados piden que el canciller Carlos Espá explique fallas técnicas en la misa de León XIV en la Base Aérea Las Palmas",
-    "url": "https://www.infobae.com/peru/2026/11/19/diputados-piden-que-el-canciller-carlos-espa-explique-fallas-tecnicas-en-la-misa-de-leon-xiv-en-la-base-aerea-las-palmas/",
-    "source": "Infobae",
-    "published": "2026-11-19T17:38:14+00:00",
     "matched_in": "title"
    },
    {
@@ -85,6 +78,20 @@
   ],
   "luis-fernando-galarreta-velarde": [
    {
+    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
+    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
+    "source": "La República",
+    "published": "2026-11-20T03:07:02+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Premier Luis Galarreta: “No he tenido comunicación con el canciller Carlos Espá porque está en Asia”",
+    "url": "https://www.infobae.com/peru/2026/11/20/premier-luis-galarreta-no-he-tenido-comunicacion-con-el-canciller-carlos-espa-porque-esta-en-asia/",
+    "source": "Infobae",
+    "published": "2026-11-20T01:02:25+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Premier Luis Galarreta: “El papa León XIV me preguntó cuándo viajó Keiko Fujimori (a China), le deseó suerte al gobierno”",
     "url": "https://www.infobae.com/peru/2026/11/19/premier-luis-galarreta-el-papa-leon-xiv-me-pregunto-cuando-viajo-keiko-fujimori-a-china-le-deseo-suerte-al-gobierno/",
     "source": "Infobae",
@@ -104,13 +111,6 @@
     "source": "La República",
     "published": "2026-11-19T21:24:52+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
-    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
-    "source": "La República",
-    "published": "2026-11-19T20:08:20+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -118,14 +118,7 @@
     "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
     "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
     "source": "La República",
-    "published": "2026-11-19T20:08:20+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputado Víctor Piñan solicita a la PCM información sobre rol de Allan Dyer en el despacho presidencial",
-    "url": "https://larepublica.pe/politica/2026/11/17/diputado-victor-pinan-solicita-a-la-pcm-informacion-sobre-rol-de-allan-dyer-en-el-despacho-presidencial-hnews-1455982",
-    "source": "La República",
-    "published": "2026-11-18T00:10:01+00:00",
+    "published": "2026-11-20T03:07:02+00:00",
     "matched_in": "title"
    }
   ],
@@ -138,12 +131,35 @@
     "matched_in": "title"
    }
   ],
+  "ernesto-julio-alvarez-miranda": [
+   {
+    "title": "Aprueban crear el Registro de Organizaciones Criminales con Prácticas Terroristas",
+    "url": "https://gestion.pe/peru/politica/aprueba-creacion-del-registro-de-organizaciones-criminales-con-practicas-terroristas-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-20T11:31:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ejecutivo señala que \"no es necesario\" hacer cárceles al estilo CECOT: \"Ese no es nuestro modelo de cárcel de máxima peligrosidad\"",
+    "url": "https://rpp.pe/politica/gobierno/ejecutivo-senala-que-no-es-necesario-hacer-carceles-al-estilo-cecot-ese-no-es-nuestro-modelo-de-carcel-de-maxima-peligrosidad-noticia-1718690",
+    "source": "RPP",
+    "published": "2026-11-19T20:56:11-05:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Ministerio de Justicia delega a Defensa la construcción de cárceles",
+    "url": "https://gestion.pe/peru/politica/ministerio-de-justicia-delega-a-defensa-la-construccion-de-carceles-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-20T00:13:24+00:00",
+    "matched_in": "title"
+   }
+  ],
   "jose-antonio-chang-escobedo": [
    {
     "title": "Ministro Chang anuncia saneamiento físico legal de 21 mil colegios para el 2027",
     "url": "https://gestion.pe/peru/ministro-chang-anuncia-saneamiento-fisico-legal-de-21-000-colegios-para-2027-noticia/",
     "source": "Gestión",
-    "published": "2026-11-19T23:21:19+00:00",
+    "published": "2026-11-20T11:15:00+00:00",
     "matched_in": "title"
    }
   ],
@@ -152,7 +168,7 @@
     "title": "Perú suscribe TLC con Tailandia: el top de productos de exportación que emocionan al Mincetur",
     "url": "https://gestion.pe/economia/peru-suscribe-tlc-con-tailandia-este-es-el-top-de-productos-de-exportacion-que-emocionan-al-mincetur-noticia/",
     "source": "Gestión",
-    "published": "2026-11-19T17:29:48+00:00",
+    "published": "2026-11-20T10:41:43+00:00",
     "matched_in": "title"
    }
   ],
