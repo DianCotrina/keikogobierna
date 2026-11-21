@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T13:15:35+00:00",
+ "generated": "2026-11-21T22:03:16+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,17 +11,17 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Juan Sheput sobre interpelación a Carlos Espá: \"No creo que eso amerite una censura\"",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-sobre-interpelacion-a-carlos-espa-no-creo-que-eso-amerite-una-censura-noticia-1718939",
-    "source": "RPP",
-    "published": "2026-11-20T22:03:51-05:00",
+    "title": "Carlos Espá, el canciller que prioriza su imagen personal en Tiktok antes que su labor diplomática",
+    "url": "https://larepublica.pe/politica/2026/11/19/carlos-espa-prioriza-su-imagen-personal-antes-que-su-labor-diplomatica-hnews-968183",
+    "source": "La República",
+    "published": "2026-11-21T21:54:16+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Diputados presentan moción de interpelación contra canciller Carlos Espá tras los problemas técnicos sucedidos en la misa en Las Palmas",
-    "url": "https://rpp.pe/politica/congreso/carlos-espa-presentan-mocion-de-interpelacion-contra-canciller-tras-las-irregularidades-en-la-misa-de-las-palmas-noticia-1718910",
-    "source": "RPP",
-    "published": "2026-11-20T18:33:27-05:00",
+    "title": "Diputados presentan moción de interpelación contra el canciller Carlos Espá por gestiones para misa en Base Aérea Las Palmas",
+    "url": "https://elcomercio.pe/politica/congreso/diputados-presentan-mocion-de-interpelacion-contra-el-canciller-carlos-espa-por-gestiones-para-misa-en-base-aerea-las-palmas-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-21T15:58:17+00:00",
     "matched_in": "title"
    },
    {
@@ -58,22 +58,6 @@
     "source": "La República",
     "published": "2026-11-20T00:00:11+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Lourdes Alcorta critica a Espá frente a ministros de Fujimori: “Se la pasa saltando disfrazado de truquini”",
-    "url": "https://larepublica.pe/politica/2026/11/19/lourdes-alcorta-critica-a-espa-frente-a-ministros-de-fujimori-se-la-pasa-saltando-disfrazado-de-truquini-hnews-368486",
-    "source": "La República",
-    "published": "2026-11-19T22:00:43+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Diputados: Presentan moción para interpelar a ministro de Energía y Minas",
-    "url": "https://elcomercio.pe/politica/congreso/diputados-presentan-mocion-para-interpelar-a-ministro-de-energia-y-minas-guillermo-shinno-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-19T16:04:29+00:00",
-    "matched_in": "title"
    }
   ],
   "luis-williams-dyer-fernandez": [
@@ -105,22 +89,6 @@
     "url": "https://larepublica.pe/politica/2026/11/18/carlos-raffo-el-personaje-que-aparece-en-el-entorno-de-confianza-de-keiko-fujimori-en-su-viaje-a-china-hnews-993492",
     "source": "La República",
     "published": "2026-11-19T22:35:36+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Galarreta defiende su gestión en la PCM y descarta responder por cada controversia ministerial: “No es que el premier es el pararrayos”",
-    "url": "https://larepublica.pe/politica/2026/11/19/galarreta-defiende-su-gestion-en-la-pcm-y-descarta-responder-por-cada-controversia-ministerial-no-es-que-el-premier-es-el-pararrayos-hnews-211014",
-    "source": "La República",
-    "published": "2026-11-19T21:24:52+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Juan Sheput sobre interpelación a Carlos Espá: \"No creo que eso amerite una censura\"",
-    "url": "https://rpp.pe/politica/gobierno/juan-sheput-sobre-interpelacion-a-carlos-espa-no-creo-que-eso-amerite-una-censura-noticia-1718939",
-    "source": "RPP",
-    "published": "2026-11-20T22:03:51-05:00",
     "matched_in": "title"
    }
   ]
