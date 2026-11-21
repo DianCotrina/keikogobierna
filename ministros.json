@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T22:58:30+00:00",
+ "generated": "2026-11-21T03:52:32+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,10 +11,24 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Juan Sheput sobre interpelación a Carlos Espá: \"No creo que eso amerite una censura\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-sobre-interpelacion-a-carlos-espa-no-creo-que-eso-amerite-una-censura-noticia-1718939",
+    "source": "RPP",
+    "published": "2026-11-20T22:03:51-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Diputados presentan moción de interpelación contra canciller Carlos Espá tras los problemas técnicos sucedidos en la misa en Las Palmas",
+    "url": "https://rpp.pe/politica/congreso/carlos-espa-presentan-mocion-de-interpelacion-contra-canciller-tras-las-irregularidades-en-la-misa-de-las-palmas-noticia-1718910",
+    "source": "RPP",
+    "published": "2026-11-20T18:33:27-05:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Ahora Nación alcanza las firmas para interpelar al canciller Carlos Espá por fallas técnicas en la misa del papa León XIV",
     "url": "https://larepublica.pe/politica/2026/11/20/ahora-nacion-promueve-mocion-de-interpelacion-contra-carlos-espa-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-hnews-458500",
     "source": "La República",
-    "published": "2026-11-20T22:57:03+00:00",
+    "published": "2026-11-20T23:29:11+00:00",
     "matched_in": "title"
    },
    {
@@ -112,6 +126,15 @@
     "url": "https://larepublica.pe/politica/2026/11/19/galarreta-defiende-su-gestion-en-la-pcm-y-descarta-responder-por-cada-controversia-ministerial-no-es-que-el-premier-es-el-pararrayos-hnews-211014",
     "source": "La República",
     "published": "2026-11-19T21:24:52+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput sobre interpelación a Carlos Espá: \"No creo que eso amerite una censura\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-sobre-interpelacion-a-carlos-espa-no-creo-que-eso-amerite-una-censura-noticia-1718939",
+    "source": "RPP",
+    "published": "2026-11-20T22:03:51-05:00",
     "matched_in": "title"
    }
   ],
