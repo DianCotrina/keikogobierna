@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T03:52:32+00:00",
+ "generated": "2026-11-21T13:15:35+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -65,20 +65,6 @@
     "source": "La República",
     "published": "2026-11-19T22:00:43+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Carlos Espá anuncia investigación por fallas técnicas en la misa del papa León XIV: “Siempre hay responsables”",
-    "url": "https://larepublica.pe/politica/2026/11/18/carlos-espa-anuncia-investigacion-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-siempre-hay-responsables-hnews-476388",
-    "source": "La República",
-    "published": "2026-11-19T12:07:06+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Canciller Carlos Espá asegura que la presidenta Keiko Fujimori se reunió con su homóloga de México, Claudia Sheinbaum",
-    "url": "https://elcomercio.pe/politica/gobierno/canciller-carlos-espa-asegura-que-la-presidenta-keiko-fujimori-se-reunio-con-su-homologa-de-mexico-claudia-sheinbaum-ultimas-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-19T05:09:30+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -135,33 +121,6 @@
     "url": "https://rpp.pe/politica/gobierno/juan-sheput-sobre-interpelacion-a-carlos-espa-no-creo-que-eso-amerite-una-censura-noticia-1718939",
     "source": "RPP",
     "published": "2026-11-20T22:03:51-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Aprueban crear el Registro de Organizaciones Criminales con Prácticas Terroristas",
-    "url": "https://gestion.pe/peru/politica/aprueba-creacion-del-registro-de-organizaciones-criminales-con-practicas-terroristas-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-20T11:31:00+00:00",
-    "matched_in": "summary"
-   }
-  ],
-  "jose-antonio-chang-escobedo": [
-   {
-    "title": "Ministro Chang anuncia saneamiento físico legal de 21 mil colegios para el 2027",
-    "url": "https://gestion.pe/peru/ministro-chang-anuncia-saneamiento-fisico-legal-de-21-000-colegios-para-2027-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-20T11:15:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "rogers-martin-valencia-espinoza": [
-   {
-    "title": "Perú suscribe TLC con Tailandia: el top de productos de exportación que emocionan al Mincetur",
-    "url": "https://gestion.pe/economia/peru-suscribe-tlc-con-tailandia-este-es-el-top-de-productos-de-exportacion-que-emocionan-al-mincetur-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-20T10:41:43+00:00",
     "matched_in": "title"
    }
   ]
