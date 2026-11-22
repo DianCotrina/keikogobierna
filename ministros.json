@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T02:51:32+00:00",
+ "generated": "2026-11-22T13:06:34+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -52,22 +52,6 @@
     "url": "https://larepublica.pe/politica/2026/11/20/ministro-dyer-evito-responder-por-su-hijo-y-su-equipo-de-prensa-desvio-las-preguntas-de-periodistas-en-cusco-hnews-445260",
     "source": "La República",
     "published": "2026-11-20T19:08:19+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
-    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
-    "source": "La República",
-    "published": "2026-11-20T03:07:02+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-fernando-galarreta-velarde": [
-   {
-    "title": "Luis Galarreta defiende participación de Allan Dyer en el Ejecutivo: “Fue el arma secreta de la campaña”",
-    "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
-    "source": "La República",
-    "published": "2026-11-20T03:07:02+00:00",
     "matched_in": "title"
    }
   ]
