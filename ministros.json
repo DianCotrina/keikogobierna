@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T22:03:16+00:00",
+ "generated": "2026-11-22T02:51:32+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -39,24 +39,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Canciller Espá bajo cuestionamientos: Galarreta responde a pedidos de su salida",
-    "url": "https://gestion.pe/peru/canciller-carlos-espa-bajo-cuestionamientos-premier-galarreta-responde-a-pedidos-de-su-salida-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-20T17:39:04+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Carlos Espá: diputados presentan moción para citar al canciller por fallas técnicas en misa del papa León XIV en Base Aérea Las Palmas",
     "url": "https://elcomercio.pe/politica/congreso/carlos-espa-diputados-presentan-mocion-de-urgencia-para-citar-al-canciller-por-fallas-en-misa-del-papa-leon-xiv-en-base-aerea-las-palmas-apuesplan-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-11-20T17:28:24+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Galarreta evita responder por críticas de Espá a China: “No voy a opinar lo que dijo un ministro en enero”",
-    "url": "https://larepublica.pe/politica/2026/11/19/galarreta-evita-responder-por-criticas-de-espa-a-china-no-voy-a-opinar-lo-que-dijo-un-ministro-en-enero-hnews-1808211",
-    "source": "La República",
-    "published": "2026-11-20T00:00:11+00:00",
     "matched_in": "title"
    }
   ],
@@ -82,13 +68,6 @@
     "url": "https://larepublica.pe/politica/2026/11/19/luis-galarreta-defiende-participacion-de-allan-dyer-en-el-ejecutivo-fue-el-arma-secreta-de-la-campana-hnews-1366157",
     "source": "La República",
     "published": "2026-11-20T03:07:02+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Carlos Raffo debilitó figura de Luis Galarreta para buscar la PCM",
-    "url": "https://larepublica.pe/politica/2026/11/18/carlos-raffo-el-personaje-que-aparece-en-el-entorno-de-confianza-de-keiko-fujimori-en-su-viaje-a-china-hnews-993492",
-    "source": "La República",
-    "published": "2026-11-19T22:35:36+00:00",
     "matched_in": "title"
    }
   ]
