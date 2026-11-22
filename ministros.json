@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T13:06:34+00:00",
+ "generated": "2026-11-22T22:19:28+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Renovación Popular evalúa apoyar moción de interpelación contra Carlos Espá por su desempeño en la Cancillería",
+    "url": "https://larepublica.pe/politica/2026/11/22/renovacion-popular-evalua-apoyar-mocion-de-interpelacion-contra-carlos-espa-por-su-desempeno-en-la-cancilleria-hnews-2130678",
+    "source": "La República",
+    "published": "2026-11-22T22:11:56+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Renovación Popular evalúa respaldar interpelación al canciller Carlos Espá",
+    "url": "https://gestion.pe/peru/politica/renovacion-popular-evalua-respaldar-interpelacion-al-canciller-carlos-espa-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-22T22:03:56+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Carlos Espá, el canciller que prioriza su imagen personal en Tiktok antes que su labor diplomática",
     "url": "https://larepublica.pe/politica/2026/11/19/carlos-espa-prioriza-su-imagen-personal-antes-que-su-labor-diplomatica-hnews-968183",
@@ -29,29 +43,6 @@
     "url": "https://larepublica.pe/politica/2026/11/20/ahora-nacion-promueve-mocion-de-interpelacion-contra-carlos-espa-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-hnews-458500",
     "source": "La República",
     "published": "2026-11-20T23:29:11+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados de diversas bancadas respaldan citar al canciller Carlos Espá por fallas técnicas en misa del papa León XIV",
-    "url": "https://elcomercio.pe/politica/congreso/diputados-de-diversas-bancadas-respaldan-citar-al-canciller-carlos-espa-por-fallas-tecnicas-en-misa-del-papa-leon-xiv-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-20T20:15:37+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Carlos Espá: diputados presentan moción para citar al canciller por fallas técnicas en misa del papa León XIV en Base Aérea Las Palmas",
-    "url": "https://elcomercio.pe/politica/congreso/carlos-espa-diputados-presentan-mocion-de-urgencia-para-citar-al-canciller-por-fallas-en-misa-del-papa-leon-xiv-en-base-aerea-las-palmas-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-20T17:28:24+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Ministro Dyer evitó responder por su hijo y su equipo de prensa desvió las preguntas de periodistas en Cusco",
-    "url": "https://larepublica.pe/politica/2026/11/20/ministro-dyer-evito-responder-por-su-hijo-y-su-equipo-de-prensa-desvio-las-preguntas-de-periodistas-en-cusco-hnews-445260",
-    "source": "La República",
-    "published": "2026-11-20T19:08:19+00:00",
     "matched_in": "title"
    }
   ]
