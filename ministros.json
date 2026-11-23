@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T03:33:07+00:00",
+ "generated": "2026-11-23T15:43:24+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,41 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Keiko Fujimori sobre los cuestionamientos a Carlos Espá: \"Quiero expresar todo mi respaldo al canciller y al gabinete\"",
+    "url": "https://larepublica.pe/politica/2026/11/23/keiko-fujimori-respalda-a-carlos-espa-pese-a-fallas-en-la-misa-del-papa-leon-xiv-en-las-palmas-hnews-315376",
+    "source": "La República",
+    "published": "2026-11-23T15:35:21+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori pide disculpas por fallas en la misa del papa León XIV y respalda al ministro Carlos Espá",
+    "url": "https://www.infobae.com/peru/2026/11/23/keiko-fujimori-pide-disculpas-por-fallas-en-la-misa-del-papa-leon-xiv-y-respalda-al-ministro-carlos-espa/",
+    "source": "Infobae",
+    "published": "2026-11-23T15:30:43+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori respalda al canciller Espá ante moción de interpelación por misa del papa",
+    "url": "https://gestion.pe/peru/keiko-fujimori-respalda-al-canciller-carlos-espa-ante-mocion-de-interpelacion-por-misa-del-papa-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-23T15:24:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori expresa su respaldo al canciller Carlos Espá ante moción de interpelación por caso misa en Las Palmas",
+    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-quiero-expresar-mi-respaldo-al-canciller-y-a-todo-el-gabinete-carlos-espa-congreso-papa-leon-xiv-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-23T15:07:48+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori respalda al canciller Carlos Espá ante críticas por deficiencias en misa del papa León XIV en Las Palmas",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-respalda-al-canciller-carlos-espa-ante-criticas-por-deficiencias-en-misa-del-papa-leon-xiv-en-las-palmas-noticia-1719263",
+    "source": "RPP",
+    "published": "2026-11-23T09:44:55-05:00",
+    "matched_in": "title"
+   },
    {
     "title": "Renovación Popular evalúa respaldar interpelación al canciller Carlos Espá",
     "url": "https://gestion.pe/peru/politica/renovacion-popular-evalua-respaldar-interpelacion-al-canciller-carlos-espa-noticia/",
