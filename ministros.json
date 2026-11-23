@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:19:28+00:00",
+ "generated": "2026-11-23T03:33:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,17 +11,17 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
+    "title": "Renovación Popular evalúa respaldar interpelación al canciller Carlos Espá",
+    "url": "https://gestion.pe/peru/politica/renovacion-popular-evalua-respaldar-interpelacion-al-canciller-carlos-espa-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-23T02:45:00+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Renovación Popular evalúa apoyar moción de interpelación contra Carlos Espá por su desempeño en la Cancillería",
     "url": "https://larepublica.pe/politica/2026/11/22/renovacion-popular-evalua-apoyar-mocion-de-interpelacion-contra-carlos-espa-por-su-desempeno-en-la-cancilleria-hnews-2130678",
     "source": "La República",
     "published": "2026-11-22T22:11:56+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Renovación Popular evalúa respaldar interpelación al canciller Carlos Espá",
-    "url": "https://gestion.pe/peru/politica/renovacion-popular-evalua-respaldar-interpelacion-al-canciller-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-22T22:03:56+00:00",
     "matched_in": "title"
    },
    {
@@ -37,12 +37,14 @@
     "source": "El Comercio",
     "published": "2026-11-21T15:58:17+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
    {
-    "title": "Ahora Nación alcanza las firmas para interpelar al canciller Carlos Espá por fallas técnicas en la misa del papa León XIV",
-    "url": "https://larepublica.pe/politica/2026/11/20/ahora-nacion-promueve-mocion-de-interpelacion-contra-carlos-espa-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-hnews-458500",
-    "source": "La República",
-    "published": "2026-11-20T23:29:11+00:00",
+    "title": "Ministro de Vivienda advierte que presupuesto asignado para 2027 es insuficiente para cerrar brechas en agua y saneamiento",
+    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-advierte-que-presupuesto-asignado-para-2027-es-insuficiente-para-cerrar-brechas-en-agua-y-saneamiento-noticia-1719186",
+    "source": "RPP",
+    "published": "2026-11-22T18:17:20-05:00",
     "matched_in": "title"
    }
   ]
