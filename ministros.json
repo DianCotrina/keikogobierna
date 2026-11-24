@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T15:43:24+00:00",
+ "generated": "2026-11-24T03:10:10+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -11,24 +11,31 @@
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
    {
-    "title": "Keiko Fujimori sobre los cuestionamientos a Carlos Espá: \"Quiero expresar todo mi respaldo al canciller y al gabinete\"",
-    "url": "https://larepublica.pe/politica/2026/11/23/keiko-fujimori-respalda-a-carlos-espa-pese-a-fallas-en-la-misa-del-papa-leon-xiv-en-las-palmas-hnews-315376",
-    "source": "La República",
-    "published": "2026-11-23T15:35:21+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori pide disculpas por fallas en la misa del papa León XIV y respalda al ministro Carlos Espá",
-    "url": "https://www.infobae.com/peru/2026/11/23/keiko-fujimori-pide-disculpas-por-fallas-en-la-misa-del-papa-leon-xiv-y-respalda-al-ministro-carlos-espa/",
-    "source": "Infobae",
-    "published": "2026-11-23T15:30:43+00:00",
+    "title": "Diputada de Renovación Popular sobre Carlos Espá: \"Hemos visto algunas actitudes que no calzan con un ministro de Cancillería\"",
+    "url": "https://rpp.pe/politica/congreso/carlos-espa-diputada-roxana-rocha-considero-que-el-canciller-tiene-algunas-actitudes-que-no-calzan-con-un-ministro-noticia-1719389",
+    "source": "RPP",
+    "published": "2026-11-23T20:53:10-05:00",
     "matched_in": "title"
    },
    {
     "title": "Keiko Fujimori respalda al canciller Espá ante moción de interpelación por misa del papa",
     "url": "https://gestion.pe/peru/keiko-fujimori-respalda-al-canciller-carlos-espa-ante-mocion-de-interpelacion-por-misa-del-papa-noticia/",
     "source": "Gestión",
-    "published": "2026-11-23T15:24:37+00:00",
+    "published": "2026-11-23T23:09:10+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori sobre los cuestionamientos a Carlos Espá: \"Quiero expresar todo mi respaldo al canciller y al gabinete\"",
+    "url": "https://larepublica.pe/politica/2026/11/23/keiko-fujimori-respalda-a-carlos-espa-pese-a-fallas-en-la-misa-del-papa-leon-xiv-en-las-palmas-hnews-315376",
+    "source": "La República",
+    "published": "2026-11-23T21:24:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Zunini confirma que Juntos por el Perú apoya interpelación contra Carlos Espá: “No está dando la talla en el cargo”",
+    "url": "https://larepublica.pe/politica/2026/11/23/zunini-confirma-que-juntos-por-el-peru-apoya-interpelacion-contra-carlos-espa-no-esta-dando-la-talla-en-el-cargo-hnews-2266121",
+    "source": "La República",
+    "published": "2026-11-23T18:57:53+00:00",
     "matched_in": "title"
    },
    {
@@ -39,48 +46,29 @@
     "matched_in": "title"
    },
    {
-    "title": "Keiko Fujimori respalda al canciller Carlos Espá ante críticas por deficiencias en misa del papa León XIV en Las Palmas",
-    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-respalda-al-canciller-carlos-espa-ante-criticas-por-deficiencias-en-misa-del-papa-leon-xiv-en-las-palmas-noticia-1719263",
-    "source": "RPP",
-    "published": "2026-11-23T09:44:55-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Renovación Popular evalúa respaldar interpelación al canciller Carlos Espá",
-    "url": "https://gestion.pe/peru/politica/renovacion-popular-evalua-respaldar-interpelacion-al-canciller-carlos-espa-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-23T02:45:00+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Renovación Popular evalúa apoyar moción de interpelación contra Carlos Espá por su desempeño en la Cancillería",
     "url": "https://larepublica.pe/politica/2026/11/22/renovacion-popular-evalua-apoyar-mocion-de-interpelacion-contra-carlos-espa-por-su-desempeno-en-la-cancilleria-hnews-2130678",
     "source": "La República",
     "published": "2026-11-22T22:11:56+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Carlos Espá, el canciller que prioriza su imagen personal en Tiktok antes que su labor diplomática",
-    "url": "https://larepublica.pe/politica/2026/11/19/carlos-espa-prioriza-su-imagen-personal-antes-que-su-labor-diplomatica-hnews-968183",
-    "source": "La República",
-    "published": "2026-11-21T21:54:16+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Diputados presentan moción de interpelación contra el canciller Carlos Espá por gestiones para misa en Base Aérea Las Palmas",
-    "url": "https://elcomercio.pe/politica/congreso/diputados-presentan-mocion-de-interpelacion-contra-el-canciller-carlos-espa-por-gestiones-para-misa-en-base-aerea-las-palmas-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-21T15:58:17+00:00",
+    "title": "¿Qué medidas se tomarán ante un posible desborde del río Tumbes? Esto respondió el ministro de Defensa",
+    "url": "https://rpp.pe/peru/actualidad/que-medidas-se-tomaran-ante-un-posible-desborde-del-rio-tumbes-esto-respondio-el-ministro-de-defensa-noticia-1719391",
+    "source": "RPP",
+    "published": "2026-11-23T21:57:17-05:00",
     "matched_in": "title"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
+  "guillermo-shinno-huamani": [
    {
-    "title": "Ministro de Vivienda advierte que presupuesto asignado para 2027 es insuficiente para cerrar brechas en agua y saneamiento",
-    "url": "https://rpp.pe/politica/gobierno/ministro-de-vivienda-advierte-que-presupuesto-asignado-para-2027-es-insuficiente-para-cerrar-brechas-en-agua-y-saneamiento-noticia-1719186",
+    "title": "Gas natural en siete regiones: Gobierno firma resolución que habilita adenda con Cálidda",
+    "url": "https://rpp.pe/economia/economia/gas-natural-en-siete-regiones-gobierno-firma-resolucion-que-habilita-adenda-con-calidda-noticia-1719314",
     "source": "RPP",
-    "published": "2026-11-22T18:17:20-05:00",
-    "matched_in": "title"
+    "published": "2026-11-23T13:15:41-05:00",
+    "matched_in": "summary"
    }
   ]
  }
