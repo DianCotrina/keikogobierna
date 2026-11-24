@@ -1,64 +1,19 @@
 {
- "generated": "2026-11-24T03:10:10+00:00",
+ "generated": "2026-11-24T15:34:33+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "articles": [
   {
-   "title": "RLA dice que el partido Fuerza Popular está \"muerto\" y Héctor Ventura le responde: \"Que se tranquilice\"",
-   "url": "https://larepublica.pe/politica/2026/11/23/rla-dice-que-el-partido-fuerza-popular-esta-muerto-y-hector-ventura-le-responde-que-se-tranquilice-hnews-1825303",
-   "summary": "Ventura resaltó que “un líder político no puede estar adjetivando a partidos políticos que están trabajando por el país”. Esto debido a que las ataques de López Aliaga no solo fueron para Fuerza Popular y Juntos por el Perú, sino también contra Alianza para el Progreso (APP), Podemos Perú y Avanza País, partidos que considera que “ya desaparecieron\".",
-   "author": "Narda Saavedra",
-   "published": "2026-11-24T02:24:52+00:00",
-   "source": "La República",
-   "captured": "2026-11-24T03:10:10+00:00"
-  },
-  {
-   "title": "Keiko Fujimori sobre los cuestionamientos a Carlos Espá: \"Quiero expresar todo mi respaldo al canciller y al gabinete\"",
-   "url": "https://larepublica.pe/politica/2026/11/23/keiko-fujimori-respalda-a-carlos-espa-pese-a-fallas-en-la-misa-del-papa-leon-xiv-en-las-palmas-hnews-315376",
-   "summary": "La presidenta Fujimori aseguró que apoya al canciller luego de que el Congreso presentó una moción de interpelación por las fallas en la organización de la misa papal. Sin embargo, la mandataria lamentó las \"deficiencias\" que se presentaron el pasado 16 de octubre.",
-   "author": "Josué Chávez Cardoza",
-   "published": "2026-11-23T15:35:21+00:00",
-   "source": "La República",
-   "captured": "2026-11-23T15:43:24+00:00"
-  },
-  {
-   "title": "Gobierno peruano recibe 14 máquinas donadas por Japón para reforzar prevención frente a El Niño",
-   "url": "https://elcomercio.pe/lima/transporte/gobierno-peruano-recibe-14-maquinas-donadas-por-japon-para-reforzar-prevencion-frente-al-fenomeno-el-nino-apuesplan-ultimas-noticia/",
-   "summary": "La presidenta de la república, Keiko Fujimori, participó en la entrega de 14 unidades de maquinaria pesada donadas por el Fondo General de Contravalor Perú-Japón, que permitirán fortalecer los trabajos de preparación y prevención frente al Fenómeno El Niño.",
-   "author": "Redacción EC",
-   "published": "2026-11-23T15:17:19+00:00",
+   "title": "Oposición busca interpelar a Carlos Espá: ¿En manos de qué bancadas está el futuro del canciller?",
+   "url": "https://elcomercio.pe/politica/oposicion-busca-interpelar-a-carlos-espa-en-manos-de-que-bancadas-esta-el-futuro-del-canciller-misa-las-palmas-papa-leon-xiv-apuesplan-noticia/",
+   "summary": "A su regreso de China y Japón, en donde participó de la Cumbre APEC y realizó una visita oficial, la presidenta Keiko Fujimori respaldó la continuidad del ministro de Relaciones Exteriores, Carlos Espá, luego de que las bancadas de Ahora Nación, Juntos por el Perú y Obras presentarán una moción de interpelación en su contra.",
+   "author": "Sebastian Ortiz Martínez",
+   "published": "2026-11-24T13:37:58+00:00",
    "source": "El Comercio",
-   "captured": "2026-11-23T15:43:24+00:00"
-  },
-  {
-   "title": "Keiko Fujimori expresa su respaldo al canciller Carlos Espá ante moción de interpelación por caso misa en Las Palmas",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-quiero-expresar-mi-respaldo-al-canciller-y-a-todo-el-gabinete-carlos-espa-congreso-papa-leon-xiv-apuesplan-ultimas-noticia/",
-   "summary": "La presidenta Keiko Fujimori expresó su respaldo al canciller Carlos Espá y a todo su Gabinete Ministerial, ante la posibilidad de que el titular de Torre Tagle sea interpelado en el Congreso por las fallas técnicas durante la misa del papa León XIV en la base aérea Las Palmas de Surco, el pasado 16 de noviembre.",
-   "author": "Redacción EC",
-   "published": "2026-11-23T15:07:48+00:00",
-   "source": "El Comercio",
-   "captured": "2026-11-23T15:43:24+00:00"
-  },
-  {
-   "title": "Keiko Fujimori minimiza el más de 50% de desaprobación a su gestión: \"Las encuestas hay que tomarlas como foto del momento\"",
-   "url": "https://larepublica.pe/politica/2026/11/23/keiko-fujimori-sobre-el-55-de-su-desaprobacion-las-encuestas-hay-que-tomarlas-como-foto-del-momento-hnews-1044062",
-   "summary": "La presidenta de la República, Keiko Fujimori, minimizó la desaprobación del 53% a su gestión, considerada una \"foto del momento\", en una rueda de prensa tras su viaje a Asia.",
-   "author": "Josué Chávez Cardoza",
-   "published": "2026-11-23T14:47:08+00:00",
-   "source": "La República",
-   "captured": "2026-11-23T15:43:24+00:00"
-  },
-  {
-   "title": "Keiko Fujimori participa en entrega de 14 máquinas donadas por Japón para reforzar prevención frente a El Niño",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-participa-en-entrega-de-14-maquinas-donadas-por-japon-para-reforzar-prevencion-frente-al-fenomeno-el-nino-apuesplan-ultimas-noticia/",
-   "summary": "La presidenta de la república, Keiko Fujimori, participa en la entrega de 14 unidades de maquinaria pesada donadas por el Fondo General de Contravalor Perú-Japón, que permitirán fortalecer los trabajos de preparación y prevención frente al Fenómeno El Niño.",
-   "author": "Redacción EC",
-   "published": "2026-11-23T13:05:45+00:00",
-   "source": "El Comercio",
-   "captured": "2026-11-23T15:43:24+00:00"
+   "captured": "2026-11-24T15:34:33+00:00"
   }
  ]
 }

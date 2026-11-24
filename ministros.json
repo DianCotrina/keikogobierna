@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T03:10:10+00:00",
+ "generated": "2026-11-24T15:34:33+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -9,26 +9,56 @@
   "Infobae"
  ],
  "ministers": {
-  "alfonso-carlos-espa-y-garces-alvear": [
+  "guillermo-shinno-huamani": [
    {
-    "title": "Diputada de Renovación Popular sobre Carlos Espá: \"Hemos visto algunas actitudes que no calzan con un ministro de Cancillería\"",
-    "url": "https://rpp.pe/politica/congreso/carlos-espa-diputada-roxana-rocha-considero-que-el-canciller-tiene-algunas-actitudes-que-no-calzan-con-un-ministro-noticia-1719389",
-    "source": "RPP",
-    "published": "2026-11-23T20:53:10-05:00",
+    "title": "Ministro de Energía sobre los efectos del fenómeno de El Niño: “No creo que la afectación en la minera sea mucha”",
+    "url": "https://elcomercio.pe/economia/peru/ministro-de-energia-sobre-los-efectos-del-fenomeno-de-el-nino-no-creo-que-la-afectacion-en-la-minera-sea-mucha-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-24T14:34:05+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Keiko Fujimori respalda al canciller Espá ante moción de interpelación por misa del papa",
-    "url": "https://gestion.pe/peru/keiko-fujimori-respalda-al-canciller-carlos-espa-ante-mocion-de-interpelacion-por-misa-del-papa-noticia/",
+    "title": "Ministro Shinno: “Estamos a menos de un mes del cierre de legislatura y hasta ahora no tienen dictamen sobre nuestra propuesta” de Ley Mape",
+    "url": "https://elcomercio.pe/politica/gobierno/ministro-shinno-estamos-a-menos-de-un-mes-del-cierre-de-legislatura-y-hasta-ahora-no-tienen-dictamen-sobre-nuestra-propuesta-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-24T14:29:38+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Gas natural en siete regiones: Gobierno firma resolución que habilita adenda con Cálidda",
+    "url": "https://rpp.pe/economia/economia/gas-natural-en-siete-regiones-gobierno-firma-resolucion-que-habilita-adenda-con-calidda-noticia-1719314",
+    "source": "RPP",
+    "published": "2026-11-23T13:15:41-05:00",
+    "matched_in": "summary"
+   }
+  ],
+  "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Renovación Popular evaluará este jueves la interpelación al canciller Carlos Espá",
+    "url": "https://gestion.pe/peru/politica/renovacion-popular-evaluara-este-jueves-la-interpelacion-al-canciller-carlos-espa-noticia/",
     "source": "Gestión",
-    "published": "2026-11-23T23:09:10+00:00",
+    "published": "2026-11-24T13:55:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Oposición busca interpelar a Carlos Espá: ¿En manos de qué bancadas está el futuro del canciller?",
+    "url": "https://elcomercio.pe/politica/oposicion-busca-interpelar-a-carlos-espa-en-manos-de-que-bancadas-esta-el-futuro-del-canciller-misa-las-palmas-papa-leon-xiv-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-24T13:37:58+00:00",
     "matched_in": "title"
    },
    {
     "title": "Keiko Fujimori sobre los cuestionamientos a Carlos Espá: \"Quiero expresar todo mi respaldo al canciller y al gabinete\"",
     "url": "https://larepublica.pe/politica/2026/11/23/keiko-fujimori-respalda-a-carlos-espa-pese-a-fallas-en-la-misa-del-papa-leon-xiv-en-las-palmas-hnews-315376",
     "source": "La República",
-    "published": "2026-11-23T21:24:59+00:00",
+    "published": "2026-11-24T11:25:31+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Keiko Fujimori respalda al canciller Espá ante moción de interpelación por misa del papa",
+    "url": "https://gestion.pe/peru/keiko-fujimori-respalda-al-canciller-carlos-espa-ante-mocion-de-interpelacion-por-misa-del-papa-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-24T04:15:00+00:00",
     "matched_in": "title"
    },
    {
@@ -51,23 +81,37 @@
     "source": "La República",
     "published": "2026-11-22T22:11:56+00:00",
     "matched_in": "title"
+   },
+   {
+    "title": "Juan Sheput sobre interpelación a Carlos Espá: \"No creo que eso amerite una censura\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-sobre-interpelacion-a-carlos-espa-no-creo-que-eso-amerite-una-censura-noticia-1718939",
+    "source": "RPP",
+    "published": "2026-11-20T22:03:51-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Luis Galarreta sobre fallas en misa del papa en Las Palmas: \"No es un tema que nos corresponde a nosotros\"",
+    "url": "https://rpp.pe/politica/gobierno/fallas-en-misa-del-papa-en-las-palmas-luis-galarreta-pide-investigar-responsabilidades-noticia-1718671",
+    "source": "RPP",
+    "published": "2026-11-19T18:17:54-05:00",
+    "matched_in": "summary"
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
+   {
+    "title": "Juan Sheput sobre interpelación a Carlos Espá: \"No creo que eso amerite una censura\"",
+    "url": "https://rpp.pe/politica/gobierno/juan-sheput-sobre-interpelacion-a-carlos-espa-no-creo-que-eso-amerite-una-censura-noticia-1718939",
+    "source": "RPP",
+    "published": "2026-11-20T22:03:51-05:00",
+    "matched_in": "title"
    }
   ],
   "rafael-jorge-belaunde-llosa": [
    {
-    "title": "¿Qué medidas se tomarán ante un posible desborde del río Tumbes? Esto respondió el ministro de Defensa",
-    "url": "https://rpp.pe/peru/actualidad/que-medidas-se-tomaran-ante-un-posible-desborde-del-rio-tumbes-esto-respondio-el-ministro-de-defensa-noticia-1719391",
-    "source": "RPP",
-    "published": "2026-11-23T21:57:17-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "guillermo-shinno-huamani": [
-   {
-    "title": "Gas natural en siete regiones: Gobierno firma resolución que habilita adenda con Cálidda",
-    "url": "https://rpp.pe/economia/economia/gas-natural-en-siete-regiones-gobierno-firma-resolucion-que-habilita-adenda-con-calidda-noticia-1719314",
-    "source": "RPP",
-    "published": "2026-11-23T13:15:41-05:00",
+    "title": "Gobierno designa a excongresista José Williams como director del CAEN",
+    "url": "https://www.infobae.com/peru/2026/11/24/gobierno-designa-a-excongresista-jose-williams-como-director-del-caen/",
+    "source": "Infobae",
+    "published": "2026-11-24T13:34:53+00:00",
     "matched_in": "summary"
    }
   ]
