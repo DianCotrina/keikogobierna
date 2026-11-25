@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T01:15:48+00:00",
+ "generated": "2026-11-25T15:20:01+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,20 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Senado: Comisión de Constitución cita al canciller Carlos Espá para este 1 de diciembre",
+    "url": "https://elcomercio.pe/politica/congreso/senado-comision-de-constitucion-cita-al-canciller-carlos-espa-para-este-1-de-diciembre-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-25T13:37:19+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Espá anuncia que Cancillería aún no paga “ni un sol” a empresas cuestionadas por fallas en misa del papa León XIV",
+    "url": "https://larepublica.pe/politica/2026/11/25/carlos-espa-anuncia-que-cancilleria-aun-no-paga-ni-un-sol-a-empresas-cuestionadas-por-fallas-en-misa-del-papa-leon-xiv-hnews-2025300",
+    "source": "La República",
+    "published": "2026-11-25T13:20:54+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Visita papa León XIV: Comisión de Constitución del Senado cita a Carlos Espá",
     "url": "https://gestion.pe/peru/politica/carlos-espa-fue-citado-a-la-comision-de-constitucion-del-senado-noticia/",
@@ -76,56 +90,92 @@
     "matched_in": "title"
    },
    {
-    "title": "Gobierno avanza con Cálidda, pero Gasoducto sur sin hoja de ruta concreta: \"No hay plazos; es lo que ProInversión tiene que hacer\", afirma Shinno",
-    "url": "https://rpp.pe/economia/economia/gobierno-avanza-con-calidda-pero-gasoducto-sur-sin-hoja-de-ruta-concreta-no-hay-plazos-es-lo-que-proinversion-tiene-que-hacer-afirma-shinno-noticia-1719578",
-    "source": "RPP",
-    "published": "2026-11-24T18:45:58-05:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Ministro de Energía sobre los efectos del fenómeno de El Niño: “No creo que la afectación en la minera sea mucha”",
-    "url": "https://elcomercio.pe/economia/peru/ministro-de-energia-sobre-los-efectos-del-fenomeno-de-el-nino-no-creo-que-la-afectacion-en-la-minera-sea-mucha-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-24T20:01:58+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Ministro Shinno: “Estamos a menos de un mes del cierre de legislatura y hasta ahora no tienen dictamen sobre nuestra propuesta” de Ley Mape",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-shinno-estamos-a-menos-de-un-mes-del-cierre-de-legislatura-y-hasta-ahora-no-tienen-dictamen-sobre-nuestra-propuesta-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-11-24T14:29:38+00:00",
     "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Lluvias intensas en Tumbes, Piura y Lambayeque seguirán hasta el domingo 29 de noviembre",
+    "url": "https://elcomercio.pe/lima/sucesos/lluvias-intensas-en-tumbes-piura-y-lambayeque-seguiran-hasta-el-domingo-29-de-noviembre-fenomeno-el-nino-apuesplan-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-25T15:15:44+00:00",
+    "matched_in": "summary"
    },
    {
-    "title": "Gas natural en siete regiones: Gobierno firma resolución que habilita adenda con Cálidda",
-    "url": "https://rpp.pe/economia/economia/gas-natural-en-siete-regiones-gobierno-firma-resolucion-que-habilita-adenda-con-calidda-noticia-1719314",
+    "title": "Gobierno ratifica que Fenómeno El Niño será más intenso que los de 1982 y 1997: \"Se ha adelantado\"",
+    "url": "https://rpp.pe/peru/actualidad/gobierno-ratifica-que-fenomeno-el-nino-sera-mas-intenso-que-los-de-1982-y-1997-se-ha-adelantado-noticia-1719697",
     "source": "RPP",
-    "published": "2026-11-23T13:15:41-05:00",
+    "published": "2026-11-25T10:10:13-05:00",
     "matched_in": "summary"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Mininter propone cadena perpetua para policías y militares que integren organizaciones criminales",
-    "url": "https://elcomercio.pe/lima/policiales/mininter-propone-cadena-perpetua-para-policias-y-militares-que-integren-organizaciones-criminales-cesar-astudillo-ultimas-noticia/",
+    "title": "Cade Ejecutivos 2026: Conoce la agenda del evento para este miércoles 25",
+    "url": "https://elcomercio.pe/economia/cade-ejecutivos-2026-conoce-la-agenda-del-evento-para-este-miercoles-cade-ejecutivos-cade-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-25T00:11:00+00:00",
+    "published": "2026-11-25T14:51:41+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "MEF sugiere que afiliados que retirarían AFP con un nuevo acceso no lo necesitan realmente",
+    "url": "https://www.infobae.com/peru/2026/11/25/mef-sugiere-que-afiliados-que-retirarian-afp-con-un-nuevo-acceso-no-lo-necesitan-realmente/",
+    "source": "Infobae",
+    "published": "2026-11-25T14:23:28+00:00",
     "matched_in": "title"
    },
+   {
+    "title": "Bono por El Niño: Elmer Cuba sitúa en S/240 el subsidio para familias afectadas",
+    "url": "https://rpp.pe/economia/economia/bono-por-el-nino-elmer-cuba-situa-en-s-240-el-subsidio-para-familias-afectadas-noticia-1719680",
+    "source": "RPP",
+    "published": "2026-11-25T09:15:38-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "alberto-ismael-beingolea-delgado": [
+   {
+    "title": "Reestructuración en el Ministerio de Cultura genera controversia con la exposición fotográfica Yuyanapaq",
+    "url": "https://larepublica.pe/politica/2026/11/24/reestructuracion-en-el-ministerio-de-cultura-genera-controversia-con-la-exposicion-fotografica-yuyanapaq-1872504",
+    "source": "La República",
+    "published": "2026-11-25T04:15:53+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "mauricio-fernando-arnillas-gonzalez": [
+   {
+    "title": "Gobierno ratifica que Fenómeno El Niño será más intenso que los de 1982 y 1997: \"Se ha adelantado\"",
+    "url": "https://rpp.pe/peru/actualidad/gobierno-ratifica-que-fenomeno-el-nino-sera-mas-intenso-que-los-de-1982-y-1997-se-ha-adelantado-noticia-1719697",
+    "source": "RPP",
+    "published": "2026-11-25T10:10:13-05:00",
+    "matched_in": "summary"
+   }
+  ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Ocupación de camas UCI llega al 86 % en el país: Minsa busca ampliar disponibilidad ante riesgo de colapso",
+    "url": "https://rpp.pe/peru/actualidad/ocupacion-de-camas-uci-llega-al-86-en-el-pais-minsa-busca-ampliar-disponibilidad-ante-riesgo-de-colapso-noticia-1719688",
+    "source": "RPP",
+    "published": "2026-11-25T09:35:09-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Ministro Luis Dyer, INS y Digemid deberán explicar compra de suero defectuoso chino",
+    "url": "https://gestion.pe/peru/suero-defectuoso-citan-al-ministro-de-salud-luis-dyer-y-titulares-del-ins-y-digemid-a-comision-de-salud-de-diputados-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-25T02:00:00+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
    {
     "title": "Mininter propondrá cadena perpetua para policías y militares coludidos con organizaciones criminales",
     "url": "https://gestion.pe/peru/politica/mininter-propondra-cadena-perpetua-para-policias-y-militares-coludidos-con-organizaciones-criminales-noticia/",
     "source": "Gestión",
     "published": "2026-11-24T23:45:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Ministro Luis Dyer, INS y Digemid deberán explicar compra de suero defectuoso chino",
-    "url": "https://gestion.pe/peru/suero-defectuoso-citan-al-ministro-de-salud-luis-dyer-y-titulares-del-ins-y-digemid-a-comision-de-salud-de-diputados-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-24T23:57:48+00:00",
     "matched_in": "title"
    }
   ]

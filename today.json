@@ -1,64 +1,37 @@
 {
- "generated": "2026-11-25T01:15:48+00:00",
+ "generated": "2026-11-25T15:20:01+00:00",
  "sources": [
   "El Comercio",
   "La República"
  ],
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "articles": [
   {
-   "title": "Keiko Fujimori solicita permiso al Senado para viajar a Colombia y participar en el Encuentro Presidencial y VII Gabinete Binacional",
-   "url": "https://larepublica.pe/politica/2026/11/24/keiko-fujimori-solicita-permiso-al-senado-para-viajar-a-colombia-y-participar-en-el-encuentro-presidencial-y-vii-gabinete-binacional-hnews-739296",
-   "summary": "La mandataria participará en Barranquilla en el VII Gabinete Binacional y sostendrá una reunión privada con el presidente Abelardo de la Espriella. Durante su ausencia, Luis Galarreta quedará a cargo del despacho presidencial.",
-   "author": "Jazmín Bianchi",
-   "published": "2026-11-24T21:20:33+00:00",
-   "source": "La República",
-   "captured": "2026-11-25T01:15:48+00:00"
+   "title": "Yenifer Paredes anuncia a mineros informales que Ley Mape se discutirá el próximo martes: “Gracias a ustedes estamos acá en el Congreso”",
+   "url": "https://elcomercio.pe/politica/gracias-a-ustedes-estamos-aca-en-el-congreso-yenifer-paredes-anuncia-a-mineros-informales-que-ley-mape-se-discutira-el-proximo-martes-noticia/",
+   "summary": "Yenifer Paredes anunció que la Comisión de Energía y Minas debatirá la Ley MAPE el 1 de diciembre, en medio de las presiones de la Confemin por ampliar el Reinfo. Roberto Sánchez cuestionó al Gobierno de Keiko Fujimori y pidió al Congreso extender el proceso de formalización minera.",
+   "author": "Alexander Villarroel Zurita",
+   "published": "2026-11-25T15:06:55+00:00",
+   "source": "El Comercio",
+   "captured": "2026-11-25T15:20:01+00:00"
   },
   {
-   "title": "Diputado Jaime Abensur pide dictamen de la Ley MAPE y advierte posible denuncia constitucional",
-   "url": "https://elcomercio.pe/politica/congreso/diputado-jaime-abensur-pide-dictamen-de-la-ley-mape-y-advierte-posible-denuncia-constitucional-ultimas-noticia/",
-   "summary": "El diputado Jaime Abensur (Fuerza Popular) solicitó al presidente de la Cámara de Diputados, Óscar Reto Otero, que adopte medidas para que la Comisión de Energía y Minas emita, a la brevedad, el dictamen del proyecto de Ley de la Pequeña Minería y Minería Artesanal (MAPE), presentado por el Poder Ejecutivo con carácter de urgencia.",
+   "title": "Fernando Zavala, CEO de Intercorp: “Creemos que el Perú va a entrar en una etapa de crecimiento de 5%”",
+   "url": "https://elcomercio.pe/economia/fernando-zavala-creemos-que-el-peru-va-a-entrar-en-una-etapa-de-crecimiento-de-5-cade-ejecutivos-2026-cade-ejecutivos-cade-apuesplan-noticia/",
+   "summary": "El CEO de Intercorp indicó en Cade Ejecutivos que esta expectativa se sustenta en una estabilidad económica, el contexto de altos precios internacionales y la permanencia de la presidenta Keiko Fujimori en el gobierno por 5 años.",
+   "author": "María Rosa Villalobos, Christian Silva",
+   "published": "2026-11-25T14:19:52+00:00",
+   "source": "El Comercio",
+   "captured": "2026-11-25T15:20:01+00:00"
+  },
+  {
+   "title": "Senado: Comisión de Constitución cita al canciller Carlos Espá para este 1 de diciembre",
+   "url": "https://elcomercio.pe/politica/congreso/senado-comision-de-constitucion-cita-al-canciller-carlos-espa-para-este-1-de-diciembre-ultimas-noticia/",
+   "summary": "La Comisión de Constitución, Reglamento y Relaciones Exteriores del Senado, que preside Carlos Mesía (Fuerza Popular), acordó invitar al canciller Carlos Espá a la sesión del próximo 1 de diciembre.",
    "author": "Redacción EC",
-   "published": "2026-11-24T21:03:44+00:00",
+   "published": "2026-11-25T13:37:19+00:00",
    "source": "El Comercio",
-   "captured": "2026-11-25T01:15:48+00:00"
-  },
-  {
-   "title": "Hildebrandt sobre Carlos Espá: \"Es un fantoche, es la sombra de su juventud. Me da pena\"",
-   "url": "https://larepublica.pe/politica/2026/11/24/hildebrandt-sobre-carlos-espa-es-un-fantoche-es-la-sombra-de-su-juventud-me-da-pena-hnews-1544520",
-   "summary": "El periodista contó que a Espá lo recomendó Álvaro Vargas Llosa. Afirma que la presidenta Keiko Fujimori, \"la señora que no entiende nada\", lo aceptó.",
-   "author": "Redacción LR",
-   "published": "2026-11-24T20:07:11+00:00",
-   "source": "La República",
-   "captured": "2026-11-25T01:15:48+00:00"
-  },
-  {
-   "title": "Keiko Fujimori asistió a homenaje póstumo a su madre, Susana Higuchi, en la Facultad de Ingeniería Civil de la UNI",
-   "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-asistio-a-homenaje-postumo-a-su-madre-susana-higuchi-en-la-facultad-de-ingenieria-civil-de-la-uni-ultimas-noticia/",
-   "summary": "La presidenta de la República, Keiko Fujimori, participó en la ceremonia de reconocimiento póstumo que la Universidad Nacional de Ingeniería (UNI) realizó en homenaje a su madre, Susana Higuchi, quien fue egresada de la Facultad de Ingeniería Civil de dicha casa de estudios.",
-   "author": "Redacción EC",
-   "published": "2026-11-24T19:32:01+00:00",
-   "source": "El Comercio",
-   "captured": "2026-11-25T01:15:48+00:00"
-  },
-  {
-   "title": "Keiko Fujimori solicita permiso al Senado para viajar a Colombia el 3 de diciembre",
-   "url": "https://elcomercio.pe/politica/internacional/keiko-fujimori-solicita-permiso-al-senado-para-viajar-a-colombia-el-3-de-diciembre-ultimas-noticia/",
-   "summary": "",
-   "author": "Redacción EC",
-   "published": "2026-11-24T18:38:35+00:00",
-   "source": "El Comercio",
-   "captured": "2026-11-25T01:15:48+00:00"
-  },
-  {
-   "title": "Oposición busca interpelar a Carlos Espá: ¿En manos de qué bancadas está el futuro del canciller?",
-   "url": "https://elcomercio.pe/politica/oposicion-busca-interpelar-a-carlos-espa-en-manos-de-que-bancadas-esta-el-futuro-del-canciller-misa-las-palmas-papa-leon-xiv-apuesplan-noticia/",
-   "summary": "A su regreso de China y Japón, en donde participó de la Cumbre APEC y realizó una visita oficial, la presidenta Keiko Fujimori respaldó la continuidad del ministro de Relaciones Exteriores, Carlos Espá, luego de que las bancadas de Ahora Nación, Juntos por el Perú y Obras presentarán una moción de interpelación en su contra.",
-   "author": "Sebastian Ortiz Martínez",
-   "published": "2026-11-24T13:37:58+00:00",
-   "source": "El Comercio",
-   "captured": "2026-11-24T15:34:33+00:00"
+   "captured": "2026-11-25T15:20:01+00:00"
   }
  ]
 }
