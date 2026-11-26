@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T00:50:39+00:00",
+ "generated": "2026-11-26T14:46:38+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -71,31 +71,31 @@
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Elmer Cuba, ministro de Economía: “En el segundo semestre del próximo año podríamos crecer encima del 4%”",
-    "url": "https://elcomercio.pe/economia/elmer-cuba-ministro-de-economia-en-el-segundo-semestre-del-proximo-ano-podriamos-estar-encima-del-4-cade-ejecutivos-2026-cade-ejecutivos-cade-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-25T23:50:36+00:00",
+    "title": "Elmer Cuba advierte que el principal riesgo para la economía peruana es la educación: “Estamos fabricando pobres”",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-advierte-que-la-educacion-es-el-mayor-riesgo-para-la-economia-peruana-estamos-fabricando-pobres-noticia-1719857",
+    "source": "RPP",
+    "published": "2026-11-26T08:01:50-05:00",
     "matched_in": "title"
    },
    {
-    "title": "Cade Ejecutivos 2026: Conoce la agenda del evento para este miércoles 25",
-    "url": "https://elcomercio.pe/economia/cade-ejecutivos-2026-conoce-la-agenda-del-evento-para-este-miercoles-cade-ejecutivos-cade-apuesplan-noticia/",
+    "title": "MEF presentará nuevo crédito suplementario en enero de 2027 para financiar colegios y programas sociales",
+    "url": "https://elcomercio.pe/economia/peru/mef-nuevo-credito-suplementario-en-enero-de-2027-para-financiar-colegios-y-programas-sociales-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-25T23:48:24+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Elmer Cuba sobre nuevo retiro de AFP: “Un noveno retiro destrozaría las pensiones de un pequeño grupo que todavía tiene ahorros”",
-    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-nuevo-retiro-de-afp-un-noveno-retiro-destrozaria-las-pensiones-de-un-pequeno-grupo-que-todavia-tiene-ahorros-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-25T21:47:44+00:00",
+    "published": "2026-11-26T11:23:58+00:00",
     "matched_in": "title"
    },
    {
     "title": "Gobierno alista un nuevo crédito suplementario: lo que incorporará según el MEF",
     "url": "https://gestion.pe/economia/gobierno-de-peru-alista-un-nuevo-credito-suplementario-lo-que-incorporara-segun-el-mef-noticia/",
     "source": "Gestión",
-    "published": "2026-11-25T18:33:19+00:00",
+    "published": "2026-11-26T04:49:59+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "MEF anuncia nueva ley de inversión pública: “hay que ponerle fin a esta fiestita”, dice Elmer Cuba ante el alto número de obras paralizadas",
+    "url": "https://rpp.pe/economia/economia/mef-anuncia-una-nueva-ley-de-inversion-publica-ante-el-alto-numero-de-obras-paralizadas-se-nos-fue-la-mano-alerta-elmer-cuba-noticia-1719854",
+    "source": "RPP",
+    "published": "2026-11-25T20:00:33-05:00",
     "matched_in": "title"
    }
   ],
@@ -110,40 +110,17 @@
   ],
   "luis-williams-dyer-fernandez": [
    {
+    "title": "Minsa reporta que el 86% de camas UCI están ocupadas y buscan ampliar disponibilidad",
+    "url": "https://gestion.pe/peru/minsa-reporta-que-el-86-de-camas-uci-estan-ocupadas-y-buscan-ampliar-disponibilidad-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-26T05:23:04+00:00",
+    "matched_in": "title"
+   },
+   {
     "title": "Comisión de Salud convoca al ministro Luis Dyer para que explique la falta de camas UCI en hospitales de varias regiones",
     "url": "https://www.infobae.com/peru/2026/11/25/comision-de-salud-convoca-al-ministro-luis-dyer-para-que-explique-la-falta-de-camas-uci-en-hospitales-de-varias-regiones/",
     "source": "Infobae",
     "published": "2026-11-25T23:34:49+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Minsa declara en emergencia las camas UCI ante una ocupación nacional de 86%",
-    "url": "https://www.infobae.com/peru/2026/11/25/minsa-declara-en-emergencia-las-camas-uci-ante-una-ocupacion-nacional-de-86/",
-    "source": "Infobae",
-    "published": "2026-11-25T23:16:44+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Minsa reporta que el 86% de camas UCI están ocupadas y buscan ampliar disponibilidad",
-    "url": "https://gestion.pe/peru/minsa-reporta-que-el-86-de-camas-uci-estan-ocupadas-y-buscan-ampliar-disponibilidad-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-25T23:15:00+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Salud invita al ministro Luis Dyer para que informe sobre el dengue, camas UCI y lotes de suero observados",
-    "url": "https://rpp.pe/politica/congreso/comision-de-salud-invita-al-ministro-luis-dyer-para-que-informe-sobre-el-dengue-camas-uci-y-lotes-de-suero-observados-noticia-1719820",
-    "source": "RPP",
-    "published": "2026-11-25T16:34:04-05:00",
-    "matched_in": "title"
-   }
-  ],
-  "rafael-jorge-belaunde-llosa": [
-   {
-    "title": "Lluvias por El Niño: ministro de Defensa pide a pobladores acudir a albergues",
-    "url": "https://gestion.pe/peru/lluvias-por-el-nino-ministro-de-defensa-pide-a-pobladores-acudir-a-albergues-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-25T18:09:45+00:00",
     "matched_in": "title"
    }
   ],
@@ -152,16 +129,16 @@
     "title": "Alza del petróleo impacta en precios de algunos alimentos, advierte titular del Midagri",
     "url": "https://gestion.pe/economia/alza-del-petroleo-impacta-en-precios-de-algunos-alimentos-advierte-titular-del-midagri-noticia/",
     "source": "Gestión",
-    "published": "2026-11-25T16:03:36+00:00",
+    "published": "2026-11-26T03:00:00+00:00",
     "matched_in": "title"
    }
   ],
-  "luis-fernando-galarreta-velarde": [
+  "ernesto-julio-alvarez-miranda": [
    {
-    "title": "Premier Galarreta responsabiliza a Juntos por el Perú por demora en nueva ley MAPE",
-    "url": "https://gestion.pe/peru/premier-galarreta-responsabiliza-a-juntos-por-el-peru-por-demora-en-nueva-ley-mape-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-25T15:31:12+00:00",
+    "title": "Ministro de Justicia apunta contra ‘La Jauría’ tras captura de ‘Jolín’ y habla del “inicio del declive” de las bandas criminales",
+    "url": "https://www.infobae.com/peru/2026/11/26/ministro-de-justicia-apunta-contra-la-jauria-tras-captura-de-jolin-y-habla-del-inicio-del-declive-de-las-bandas-criminales/",
+    "source": "Infobae",
+    "published": "2026-11-26T02:54:30+00:00",
     "matched_in": "title"
    }
   ]
