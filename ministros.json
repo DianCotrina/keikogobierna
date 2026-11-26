@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T15:20:01+00:00",
+ "generated": "2026-11-26T00:50:39+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -22,13 +22,6 @@
     "url": "https://larepublica.pe/politica/2026/11/25/carlos-espa-anuncia-que-cancilleria-aun-no-paga-ni-un-sol-a-empresas-cuestionadas-por-fallas-en-misa-del-papa-leon-xiv-hnews-2025300",
     "source": "La República",
     "published": "2026-11-25T13:20:54+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Visita papa León XIV: Comisión de Constitución del Senado cita a Carlos Espá",
-    "url": "https://gestion.pe/peru/politica/carlos-espa-fue-citado-a-la-comision-de-constitucion-del-senado-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-25T00:30:00+00:00",
     "matched_in": "title"
    },
    {
@@ -65,30 +58,9 @@
     "source": "La República",
     "published": "2026-11-24T16:48:48+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Zunini confirma que Juntos por el Perú apoya interpelación contra Carlos Espá: “No está dando la talla en el cargo”",
-    "url": "https://larepublica.pe/politica/2026/11/23/zunini-confirma-que-juntos-por-el-peru-apoya-interpelacion-contra-carlos-espa-no-esta-dando-la-talla-en-el-cargo-hnews-2266121",
-    "source": "La República",
-    "published": "2026-11-23T18:57:53+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori expresa su respaldo al canciller Carlos Espá ante moción de interpelación por caso misa en Las Palmas",
-    "url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-quiero-expresar-mi-respaldo-al-canciller-y-a-todo-el-gabinete-carlos-espa-congreso-papa-leon-xiv-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-23T15:07:48+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
-   {
-    "title": "Ley MAPE: Shinno advierte que mineros informales quedarían en condición de ilegales si no se aprueba",
-    "url": "https://gestion.pe/economia/ley-mape-shinno-advierte-que-mineros-informales-quedarian-en-condicion-de-ilegales-si-no-se-aprueba-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-25T01:00:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Ministro Shinno: “Estamos a menos de un mes del cierre de legislatura y hasta ahora no tienen dictamen sobre nuestra propuesta” de Ley Mape",
     "url": "https://elcomercio.pe/politica/gobierno/ministro-shinno-estamos-a-menos-de-un-mes-del-cierre-de-legislatura-y-hasta-ahora-no-tienen-dictamen-sobre-nuestra-propuesta-ultimas-noticia/",
@@ -97,42 +69,33 @@
     "matched_in": "title"
    }
   ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Lluvias intensas en Tumbes, Piura y Lambayeque seguirán hasta el domingo 29 de noviembre",
-    "url": "https://elcomercio.pe/lima/sucesos/lluvias-intensas-en-tumbes-piura-y-lambayeque-seguiran-hasta-el-domingo-29-de-noviembre-fenomeno-el-nino-apuesplan-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-25T15:15:44+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Gobierno ratifica que Fenómeno El Niño será más intenso que los de 1982 y 1997: \"Se ha adelantado\"",
-    "url": "https://rpp.pe/peru/actualidad/gobierno-ratifica-que-fenomeno-el-nino-sera-mas-intenso-que-los-de-1982-y-1997-se-ha-adelantado-noticia-1719697",
-    "source": "RPP",
-    "published": "2026-11-25T10:10:13-05:00",
-    "matched_in": "summary"
-   }
-  ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Elmer Cuba, ministro de Economía: “En el segundo semestre del próximo año podríamos crecer encima del 4%”",
+    "url": "https://elcomercio.pe/economia/elmer-cuba-ministro-de-economia-en-el-segundo-semestre-del-proximo-ano-podriamos-estar-encima-del-4-cade-ejecutivos-2026-cade-ejecutivos-cade-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-25T23:50:36+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Cade Ejecutivos 2026: Conoce la agenda del evento para este miércoles 25",
     "url": "https://elcomercio.pe/economia/cade-ejecutivos-2026-conoce-la-agenda-del-evento-para-este-miercoles-cade-ejecutivos-cade-apuesplan-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-25T14:51:41+00:00",
+    "published": "2026-11-25T23:48:24+00:00",
     "matched_in": "summary"
    },
    {
-    "title": "MEF sugiere que afiliados que retirarían AFP con un nuevo acceso no lo necesitan realmente",
-    "url": "https://www.infobae.com/peru/2026/11/25/mef-sugiere-que-afiliados-que-retirarian-afp-con-un-nuevo-acceso-no-lo-necesitan-realmente/",
-    "source": "Infobae",
-    "published": "2026-11-25T14:23:28+00:00",
+    "title": "Elmer Cuba sobre nuevo retiro de AFP: “Un noveno retiro destrozaría las pensiones de un pequeño grupo que todavía tiene ahorros”",
+    "url": "https://elcomercio.pe/economia/peru/elmer-cuba-sobre-nuevo-retiro-de-afp-un-noveno-retiro-destrozaria-las-pensiones-de-un-pequeno-grupo-que-todavia-tiene-ahorros-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-25T21:47:44+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Bono por El Niño: Elmer Cuba sitúa en S/240 el subsidio para familias afectadas",
-    "url": "https://rpp.pe/economia/economia/bono-por-el-nino-elmer-cuba-situa-en-s-240-el-subsidio-para-familias-afectadas-noticia-1719680",
-    "source": "RPP",
-    "published": "2026-11-25T09:15:38-05:00",
+    "title": "Gobierno alista un nuevo crédito suplementario: lo que incorporará según el MEF",
+    "url": "https://gestion.pe/economia/gobierno-de-peru-alista-un-nuevo-credito-suplementario-lo-que-incorporara-segun-el-mef-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-25T18:33:19+00:00",
     "matched_in": "title"
    }
   ],
@@ -145,37 +108,60 @@
     "matched_in": "title"
    }
   ],
-  "mauricio-fernando-arnillas-gonzalez": [
-   {
-    "title": "Gobierno ratifica que Fenómeno El Niño será más intenso que los de 1982 y 1997: \"Se ha adelantado\"",
-    "url": "https://rpp.pe/peru/actualidad/gobierno-ratifica-que-fenomeno-el-nino-sera-mas-intenso-que-los-de-1982-y-1997-se-ha-adelantado-noticia-1719697",
-    "source": "RPP",
-    "published": "2026-11-25T10:10:13-05:00",
-    "matched_in": "summary"
-   }
-  ],
   "luis-williams-dyer-fernandez": [
    {
-    "title": "Ocupación de camas UCI llega al 86 % en el país: Minsa busca ampliar disponibilidad ante riesgo de colapso",
-    "url": "https://rpp.pe/peru/actualidad/ocupacion-de-camas-uci-llega-al-86-en-el-pais-minsa-busca-ampliar-disponibilidad-ante-riesgo-de-colapso-noticia-1719688",
-    "source": "RPP",
-    "published": "2026-11-25T09:35:09-05:00",
+    "title": "Comisión de Salud convoca al ministro Luis Dyer para que explique la falta de camas UCI en hospitales de varias regiones",
+    "url": "https://www.infobae.com/peru/2026/11/25/comision-de-salud-convoca-al-ministro-luis-dyer-para-que-explique-la-falta-de-camas-uci-en-hospitales-de-varias-regiones/",
+    "source": "Infobae",
+    "published": "2026-11-25T23:34:49+00:00",
     "matched_in": "title"
    },
    {
-    "title": "Ministro Luis Dyer, INS y Digemid deberán explicar compra de suero defectuoso chino",
-    "url": "https://gestion.pe/peru/suero-defectuoso-citan-al-ministro-de-salud-luis-dyer-y-titulares-del-ins-y-digemid-a-comision-de-salud-de-diputados-noticia/",
+    "title": "Minsa declara en emergencia las camas UCI ante una ocupación nacional de 86%",
+    "url": "https://www.infobae.com/peru/2026/11/25/minsa-declara-en-emergencia-las-camas-uci-ante-una-ocupacion-nacional-de-86/",
+    "source": "Infobae",
+    "published": "2026-11-25T23:16:44+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Minsa reporta que el 86% de camas UCI están ocupadas y buscan ampliar disponibilidad",
+    "url": "https://gestion.pe/peru/minsa-reporta-que-el-86-de-camas-uci-estan-ocupadas-y-buscan-ampliar-disponibilidad-noticia/",
     "source": "Gestión",
-    "published": "2026-11-25T02:00:00+00:00",
+    "published": "2026-11-25T23:15:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Comisión de Salud invita al ministro Luis Dyer para que informe sobre el dengue, camas UCI y lotes de suero observados",
+    "url": "https://rpp.pe/politica/congreso/comision-de-salud-invita-al-ministro-luis-dyer-para-que-informe-sobre-el-dengue-camas-uci-y-lotes-de-suero-observados-noticia-1719820",
+    "source": "RPP",
+    "published": "2026-11-25T16:34:04-05:00",
     "matched_in": "title"
    }
   ],
-  "cesar-augusto-astudillo-salcedo": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Mininter propondrá cadena perpetua para policías y militares coludidos con organizaciones criminales",
-    "url": "https://gestion.pe/peru/politica/mininter-propondra-cadena-perpetua-para-policias-y-militares-coludidos-con-organizaciones-criminales-noticia/",
+    "title": "Lluvias por El Niño: ministro de Defensa pide a pobladores acudir a albergues",
+    "url": "https://gestion.pe/peru/lluvias-por-el-nino-ministro-de-defensa-pide-a-pobladores-acudir-a-albergues-noticia/",
     "source": "Gestión",
-    "published": "2026-11-24T23:45:00+00:00",
+    "published": "2026-11-25T18:09:45+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "marco-antonio-vinelli-ruiz": [
+   {
+    "title": "Alza del petróleo impacta en precios de algunos alimentos, advierte titular del Midagri",
+    "url": "https://gestion.pe/economia/alza-del-petroleo-impacta-en-precios-de-algunos-alimentos-advierte-titular-del-midagri-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-25T16:03:36+00:00",
+    "matched_in": "title"
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
+   {
+    "title": "Premier Galarreta responsabiliza a Juntos por el Perú por demora en nueva ley MAPE",
+    "url": "https://gestion.pe/peru/premier-galarreta-responsabiliza-a-juntos-por-el-peru-por-demora-en-nueva-ley-mape-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-25T15:31:12+00:00",
     "matched_in": "title"
    }
   ]
