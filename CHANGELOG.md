@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.25.0](https://github.com/DianCotrina/keikogobierna/compare/v2.24.0...v2.25.0) (2026-11-27)
+
+
+### Features
+
+* show the latest updates as a timeline along a status rail ([ed0143f](https://github.com/DianCotrina/keikogobierna/commit/ed0143f8d4ee9ff8ccdce15bdcb98600725c9f7a))
+
+
+### Bug Fixes
+
+* certify the justice-ministry reorganization and ANA desk verification as started ([1d8267e](https://github.com/DianCotrina/keikogobierna/commit/1d8267ec3febe23bcbadb8ef141cb30add395595))
+* certify the security emergency plan through delegated powers as started ([036d32a](https://github.com/DianCotrina/keikogobierna/commit/036d32abc5944cdbbeea8393798795d949428203))
+* give the updates timeline the section's full width and one column grid ([887094c](https://github.com/DianCotrina/keikogobierna/commit/887094c66c795d220d5340d6f393e21941963c44))
+
 ## [2.24.0](https://github.com/DianCotrina/keikogobierna/compare/v2.23.0...v2.24.0) (2026-11-11)
 
 
