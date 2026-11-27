@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-27",
   "items": {
     "t1-1.M01": {
       "status": "no_progress",
@@ -420,9 +420,26 @@
           "note": "La Resolución Jefatural modifica la R.J. N° 107-2021-ANA para que, en la acreditación de disponibilidad hídrica y el permiso de uso de agua de la acuicultura de recursos limitados y de la micro y pequeña empresa (AREL y AMYPE), la verificación técnica pueda hacerse de oficio en gabinete con herramientas de información geoespacial y otras herramientas tecnológicas, y no solo en campo, registrada en el aplicativo MIDARH (artículos 4, 7, 8 y 9, y Formato N° 05). Se aplica también a los procedimientos en trámite. Queda en progreso, no cumplida: alcanza solo a dos categorías de usuarios acuícolas y ajusta un procedimiento creado en 2021 (D.S. N° 006-2021-MIDAGRI); el compromiso promete mecanismos ágiles y digitales para formalizar los derechos de uso de agua en general."
         }
       ]
+    },
+    "t1-1.P18": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "date": "2026-11-25",
+          "source": "El Peruano — DECRETO LEGISLATIVO N° 1748",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2578190-1",
+          "note": "El Poder Ejecutivo obtuvo del Congreso la delegación de facultades para legislar en seguridad ciudadana y Fenómeno El Niño por 90 días (Ley 32743, publicada el 22 de octubre de 2026) y la viene ejerciendo: el D. Leg. 1742 (8 de noviembre) regula la participación de las Fuerzas Armadas en la seguridad externa de los penales; los D. Leg. 1745, 1746 y 1747 (21 de noviembre) encargan al Ministerio de Defensa las inversiones en infraestructura penitenciaria, crean el Registro Nacional de Organizaciones Criminales con Prácticas Terroristas y modernizan el INPE; y este D. Leg. 1748 reordena el Sistema Penitenciario Nacional bajo la rectoría del Ministerio de Justicia. Queda en progreso, no cumplida: la delegación es de 90 días y no de 60, comparte el plazo con El Niño, no se ha publicado un Plan de Emergencia como documento propio y aún no hay decretos de urgencia económicos o financieros dirigidos a la seguridad ciudadana."
+        }
+      ]
     }
   },
   "log": [
+    {
+      "date": "2026-11-25",
+      "item": "t1-1.P18",
+      "status": "in_progress",
+      "text": "El Gobierno obtuvo facultades legislativas en seguridad ciudadana por 90 días (Ley 32743) y ya dictó cinco decretos legislativos con ellas; falta un Plan de Emergencia propio y decretos de urgencia en la materia."
+    },
     {
       "date": "2026-11-15",
       "item": "t1-1.P28",
