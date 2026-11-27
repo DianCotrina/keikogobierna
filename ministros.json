@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T00:57:07+00:00",
+ "generated": "2026-11-27T14:44:58+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,27 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Canciller Espá deberá explicar ante el Congreso fallas en la misa del Papa León XIV en Las Palmas",
+    "url": "https://gestion.pe/peru/politica/canciller-espa-debera-explicar-adhesion-al-escudo-de-las-americas-y-gastos-por-visita-del-papa-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-27T12:15:00+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Bolivia busca usar puertos peruanos para sus exportaciones: la agenda del Gabinete Binacional",
+    "url": "https://gestion.pe/economia/bolivia-busca-usar-puertos-peruanos-para-sus-exportaciones-la-agenda-del-gabinete-binacional-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-27T02:30:00+00:00",
+    "matched_in": "summary"
+   },
+   {
+    "title": "Carlos Espá confirma asistencia a la Cámara de Diputados ante fallas en la misa del papa León XIV en Lima",
+    "url": "https://www.infobae.com/peru/2026/11/27/carlos-espa-confirma-asistencia-a-la-camara-de-diputados-ante-fallas-en-la-misa-del-papa-leon-xiv-en-lima/",
+    "source": "Infobae",
+    "published": "2026-11-27T01:55:38+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Carlos Espá presentará informe técnico ante el Senado y Diputados por fallas en misa del papa",
     "url": "https://larepublica.pe/politica/2026/11/26/carlos-espa-presentara-informe-tecnico-ante-el-senado-y-diputados-por-fallas-en-misa-del-papa-hnews-2522546",
@@ -25,17 +46,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Canciller Espá deberá explicar ante el Congreso fallas en la misa del Papa León XIV en Las Palmas",
-    "url": "https://gestion.pe/peru/politica/canciller-espa-debera-explicar-adhesion-al-escudo-de-las-americas-y-gastos-por-visita-del-papa-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-26T23:20:25+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Carlos Espá acudirá al Pleno de la Cámara de Diputados para responder por fallas en misa del papa en Las Palmas",
-    "url": "https://rpp.pe/politica/congreso/carlos-espa-acudira-al-pleno-de-la-camara-de-diputados-para-responder-por-fallas-en-misa-del-papa-en-las-palmas-noticia-1720004",
-    "source": "RPP",
-    "published": "2026-11-26T16:04:04-05:00",
+    "title": "Canciller Carlos Espá responderá el martes 1 de diciembre ante diputados por fallas en la misa del papa León XIV",
+    "url": "https://www.infobae.com/peru/2026/11/26/canciller-carlos-espa-respondera-el-martes-1-de-diciembre-ante-diputados-por-fallas-en-la-misa-del-papa-leon-xiv/",
+    "source": "Infobae",
+    "published": "2026-11-26T22:13:44+00:00",
     "matched_in": "title"
    },
    {
@@ -51,13 +65,6 @@
     "source": "El Comercio",
     "published": "2026-11-25T13:37:19+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Espá anuncia que Cancillería aún no paga “ni un sol” a empresas cuestionadas por fallas en misa del papa León XIV",
-    "url": "https://larepublica.pe/politica/2026/11/25/carlos-espa-anuncia-que-cancilleria-aun-no-paga-ni-un-sol-a-empresas-cuestionadas-por-fallas-en-misa-del-papa-leon-xiv-hnews-2025300",
-    "source": "La República",
-    "published": "2026-11-25T13:20:54+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
@@ -67,30 +74,12 @@
     "source": "El Comercio",
     "published": "2026-11-26T16:28:43+00:00",
     "matched_in": "title"
-   }
-  ],
-  "elmer-rafael-cuba-bustinza": [
-   {
-    "title": "Elmer Cuba, ministro de Economía: “En el segundo semestre del próximo año podríamos crecer encima del 4%”",
-    "url": "https://elcomercio.pe/economia/elmer-cuba-ministro-de-economia-en-el-segundo-semestre-del-proximo-ano-podriamos-estar-encima-del-4-cade-ejecutivos-2026-cade-ejecutivos-cade-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-27T00:08:12+00:00",
-    "matched_in": "title"
    },
    {
-    "title": "MEF presentará nuevo crédito suplementario en enero de 2027 para financiar colegios y programas sociales",
-    "url": "https://elcomercio.pe/economia/peru/mef-nuevo-credito-suplementario-en-enero-de-2027-para-financiar-colegios-y-programas-sociales-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-26T22:27:36+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "juan-manuel-kosme-sheput-moore": [
-   {
-    "title": "Ministro de Trabajo anuncia decreto para proteger empleos durante el Fenómeno de El Niño",
-    "url": "https://elcomercio.pe/economia/peru/ministro-de-trabajo-anuncia-decreto-para-proteger-empleos-durante-el-fenomeno-de-el-nino-l-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-26T14:52:08+00:00",
+    "title": "Gobierno avanza con Cálidda, pero Gasoducto sur sin hoja de ruta concreta: \"No hay plazos; es lo que ProInversión tiene que hacer\", afirma Shinno",
+    "url": "https://rpp.pe/economia/economia/gobierno-avanza-con-calidda-pero-gasoducto-sur-sin-hoja-de-ruta-concreta-no-hay-plazos-es-lo-que-proinversion-tiene-que-hacer-afirma-shinno-noticia-1719578",
+    "source": "RPP",
+    "published": "2026-11-24T18:45:58-05:00",
     "matched_in": "title"
    }
   ],
@@ -103,12 +92,12 @@
     "matched_in": "summary"
    }
   ],
-  "alberto-ismael-beingolea-delgado": [
+  "rafael-jorge-belaunde-llosa": [
    {
-    "title": "Reestructuración en el Ministerio de Cultura genera controversia con la exposición fotográfica Yuyanapaq",
-    "url": "https://larepublica.pe/politica/2026/11/24/reestructuracion-en-el-ministerio-de-cultura-genera-controversia-con-la-exposicion-fotografica-yuyanapaq-1872504",
-    "source": "La República",
-    "published": "2026-11-25T04:15:53+00:00",
+    "title": "Ministro de Defensa pide a autoridades de Piura ceder motobombas al Ejército: “Contamos con capacidad logística mayor”",
+    "url": "https://rpp.pe/peru/actualidad/ministro-de-defensa-pide-a-autoridades-locales-ceder-motobombas-al-ejercito-contamos-con-capacidad-logistica-mayor-noticia-1720069",
+    "source": "RPP",
+    "published": "2026-11-27T01:24:49-05:00",
     "matched_in": "title"
    }
   ]
