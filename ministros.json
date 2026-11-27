@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T14:46:38+00:00",
+ "generated": "2026-11-27T00:57:07+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,6 +10,41 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
+   {
+    "title": "Carlos Espá presentará informe técnico ante el Senado y Diputados por fallas en misa del papa",
+    "url": "https://larepublica.pe/politica/2026/11/26/carlos-espa-presentara-informe-tecnico-ante-el-senado-y-diputados-por-fallas-en-misa-del-papa-hnews-2522546",
+    "source": "La República",
+    "published": "2026-11-27T00:03:37+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Congreso aprueba invitar al canciller Carlos Espá para que explique fallas durante la visita del papa León XIV",
+    "url": "https://larepublica.pe/politica/2026/11/26/congreso-aprueba-invitar-a-canciller-carlos-espa-para-que-explique-problemas-sucedidos-por-la-visita-del-papa-leon-xiv-hnews-1339442",
+    "source": "La República",
+    "published": "2026-11-26T23:28:23+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller Espá deberá explicar ante el Congreso fallas en la misa del Papa León XIV en Las Palmas",
+    "url": "https://gestion.pe/peru/politica/canciller-espa-debera-explicar-adhesion-al-escudo-de-las-americas-y-gastos-por-visita-del-papa-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-26T23:20:25+00:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Carlos Espá acudirá al Pleno de la Cámara de Diputados para responder por fallas en misa del papa en Las Palmas",
+    "url": "https://rpp.pe/politica/congreso/carlos-espa-acudira-al-pleno-de-la-camara-de-diputados-para-responder-por-fallas-en-misa-del-papa-en-las-palmas-noticia-1720004",
+    "source": "RPP",
+    "published": "2026-11-26T16:04:04-05:00",
+    "matched_in": "title"
+   },
+   {
+    "title": "Canciller deberá acudir al Pleno de la Cámara de Diputados el próximo martes para explicar fallas técnicas en misa en Las Palmas",
+    "url": "https://elcomercio.pe/politica/congreso/camara-de-diputados-aprueba-invitar-a-canciller-carlos-espa-para-que-informe-ante-el-pleno-sobre-fallas-en-misa-de-las-palmas-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-26T20:58:41+00:00",
+    "matched_in": "title"
+   },
    {
     "title": "Senado: Comisión de Constitución cita al canciller Carlos Espá para este 1 de diciembre",
     "url": "https://elcomercio.pe/politica/congreso/senado-comision-de-constitucion-cita-al-canciller-carlos-espa-para-este-1-de-diciembre-ultimas-noticia/",
@@ -23,80 +58,49 @@
     "source": "La República",
     "published": "2026-11-25T13:20:54+00:00",
     "matched_in": "title"
-   },
-   {
-    "title": "Nueve senadores de cuatro bancadas piden acelerar la ratificación del Tratado de Altamar",
-    "url": "https://elcomercio.pe/politica/congreso/congreso-nueve-senadores-de-cuatro-bancadas-piden-acelerar-la-ratificacion-del-tratado-de-altamar-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-24T23:29:15+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Oposición busca interpelar a Carlos Espá: ¿En manos de qué bancadas está el futuro del canciller?",
-    "url": "https://elcomercio.pe/politica/oposicion-busca-interpelar-a-carlos-espa-en-manos-de-que-bancadas-esta-el-futuro-del-canciller-misa-las-palmas-papa-leon-xiv-apuesplan-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-24T20:41:58+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Keiko Fujimori sobre los cuestionamientos a Carlos Espá: \"Quiero expresar todo mi respaldo al canciller y al gabinete\"",
-    "url": "https://larepublica.pe/politica/2026/11/23/keiko-fujimori-respalda-a-carlos-espa-pese-a-fallas-en-la-misa-del-papa-leon-xiv-en-las-palmas-hnews-315376",
-    "source": "La República",
-    "published": "2026-11-24T20:23:12+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Luis Galarreta ratifica respaldo a canciller Carlos Espá y pide individualizar responsabilidades por fallas en Las Palmas",
-    "url": "https://elcomercio.pe/politica/gobierno/luis-galarreta-respalda-a-canciller-carlos-espa-y-pide-individualizar-responsabilidades-por-fallas-en-las-palmas-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-24T19:08:10+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Rossana Alayza sobre canciller Carlos Espá tras fallas en misa papal: “Merece la censura”",
-    "url": "https://larepublica.pe/politica/2026/11/24/rossana-alayza-sobre-canciller-carlos-espa-tras-fallas-en-misa-papal-merece-la-censura-2303616",
-    "source": "La República",
-    "published": "2026-11-24T16:48:48+00:00",
-    "matched_in": "title"
    }
   ],
   "guillermo-shinno-huamani": [
    {
-    "title": "Ministro Shinno: “Estamos a menos de un mes del cierre de legislatura y hasta ahora no tienen dictamen sobre nuestra propuesta” de Ley Mape",
-    "url": "https://elcomercio.pe/politica/gobierno/ministro-shinno-estamos-a-menos-de-un-mes-del-cierre-de-legislatura-y-hasta-ahora-no-tienen-dictamen-sobre-nuestra-propuesta-ultimas-noticia/",
+    "title": "Ministro Shinno reitera pedido a la Cámara de Diputados para que se pronuncien “con urgencia” sobre proyecto de Ley MAPE",
+    "url": "https://elcomercio.pe/politica/ministro-shinno-reitera-pedido-a-la-camara-de-diputados-para-que-se-pronuncien-con-urgencia-sobre-proyecto-de-ley-mape-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-24T14:29:38+00:00",
+    "published": "2026-11-26T16:28:43+00:00",
     "matched_in": "title"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
    {
-    "title": "Elmer Cuba advierte que el principal riesgo para la economía peruana es la educación: “Estamos fabricando pobres”",
-    "url": "https://rpp.pe/economia/economia/elmer-cuba-advierte-que-la-educacion-es-el-mayor-riesgo-para-la-economia-peruana-estamos-fabricando-pobres-noticia-1719857",
-    "source": "RPP",
-    "published": "2026-11-26T08:01:50-05:00",
+    "title": "Elmer Cuba, ministro de Economía: “En el segundo semestre del próximo año podríamos crecer encima del 4%”",
+    "url": "https://elcomercio.pe/economia/elmer-cuba-ministro-de-economia-en-el-segundo-semestre-del-proximo-ano-podriamos-estar-encima-del-4-cade-ejecutivos-2026-cade-ejecutivos-cade-apuesplan-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-27T00:08:12+00:00",
     "matched_in": "title"
    },
    {
     "title": "MEF presentará nuevo crédito suplementario en enero de 2027 para financiar colegios y programas sociales",
     "url": "https://elcomercio.pe/economia/peru/mef-nuevo-credito-suplementario-en-enero-de-2027-para-financiar-colegios-y-programas-sociales-ultimas-noticia/",
     "source": "El Comercio",
-    "published": "2026-11-26T11:23:58+00:00",
+    "published": "2026-11-26T22:27:36+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "juan-manuel-kosme-sheput-moore": [
    {
-    "title": "Gobierno alista un nuevo crédito suplementario: lo que incorporará según el MEF",
-    "url": "https://gestion.pe/economia/gobierno-de-peru-alista-un-nuevo-credito-suplementario-lo-que-incorporara-segun-el-mef-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-26T04:49:59+00:00",
+    "title": "Ministro de Trabajo anuncia decreto para proteger empleos durante el Fenómeno de El Niño",
+    "url": "https://elcomercio.pe/economia/peru/ministro-de-trabajo-anuncia-decreto-para-proteger-empleos-durante-el-fenomeno-de-el-nino-l-ultimas-noticia/",
+    "source": "El Comercio",
+    "published": "2026-11-26T14:52:08+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "cesar-augusto-astudillo-salcedo": [
    {
-    "title": "MEF anuncia nueva ley de inversión pública: “hay que ponerle fin a esta fiestita”, dice Elmer Cuba ante el alto número de obras paralizadas",
-    "url": "https://rpp.pe/economia/economia/mef-anuncia-una-nueva-ley-de-inversion-publica-ante-el-alto-numero-de-obras-paralizadas-se-nos-fue-la-mano-alerta-elmer-cuba-noticia-1719854",
-    "source": "RPP",
-    "published": "2026-11-25T20:00:33-05:00",
-    "matched_in": "title"
+    "title": "Gobierno destruye 64 toneladas de drogas en 2026, pero Perú produce 772 t de cocaína anual",
+    "url": "https://larepublica.pe/politica/2026/11/26/gobierno-destruye-64-toneladas-de-drogas-en-2026-pero-peru-produce-772-t-de-cocaina-anual-narcotrafico-hnews-2139722",
+    "source": "La República",
+    "published": "2026-11-26T17:20:47+00:00",
+    "matched_in": "summary"
    }
   ],
   "alberto-ismael-beingolea-delgado": [
@@ -105,40 +109,6 @@
     "url": "https://larepublica.pe/politica/2026/11/24/reestructuracion-en-el-ministerio-de-cultura-genera-controversia-con-la-exposicion-fotografica-yuyanapaq-1872504",
     "source": "La República",
     "published": "2026-11-25T04:15:53+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "luis-williams-dyer-fernandez": [
-   {
-    "title": "Minsa reporta que el 86% de camas UCI están ocupadas y buscan ampliar disponibilidad",
-    "url": "https://gestion.pe/peru/minsa-reporta-que-el-86-de-camas-uci-estan-ocupadas-y-buscan-ampliar-disponibilidad-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-26T05:23:04+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Comisión de Salud convoca al ministro Luis Dyer para que explique la falta de camas UCI en hospitales de varias regiones",
-    "url": "https://www.infobae.com/peru/2026/11/25/comision-de-salud-convoca-al-ministro-luis-dyer-para-que-explique-la-falta-de-camas-uci-en-hospitales-de-varias-regiones/",
-    "source": "Infobae",
-    "published": "2026-11-25T23:34:49+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "marco-antonio-vinelli-ruiz": [
-   {
-    "title": "Alza del petróleo impacta en precios de algunos alimentos, advierte titular del Midagri",
-    "url": "https://gestion.pe/economia/alza-del-petroleo-impacta-en-precios-de-algunos-alimentos-advierte-titular-del-midagri-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-26T03:00:00+00:00",
-    "matched_in": "title"
-   }
-  ],
-  "ernesto-julio-alvarez-miranda": [
-   {
-    "title": "Ministro de Justicia apunta contra ‘La Jauría’ tras captura de ‘Jolín’ y habla del “inicio del declive” de las bandas criminales",
-    "url": "https://www.infobae.com/peru/2026/11/26/ministro-de-justicia-apunta-contra-la-jauria-tras-captura-de-jolin-y-habla-del-inicio-del-declive-de-las-bandas-criminales/",
-    "source": "Infobae",
-    "published": "2026-11-26T02:54:30+00:00",
     "matched_in": "title"
    }
   ]
