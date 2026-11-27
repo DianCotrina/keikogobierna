@@ -27,6 +27,29 @@ Decided cases, so the same facts get the same verdict. Newest first within each 
 - **D.S. 017-2026-MINEDU** (#475): discard. PRONABEC regulation finishing a reengineering started by the previous government; no increase in scholarships.
 - **R.M. 321-2026-VIVIENDA** (#352): discard. Monitoring plan for an inherited treatment-plant project; builds nothing.
 
+### Reviewed 2026-11-27 (45 candidates, #729–#773)
+
+### `t1-1.P18` — Ley 32743 and its decretos legislativos: in progress (2026-11-27, editor's call)
+No single issue carried it; it surfaced while tracing #744/#745/#762. The Executive obtained 90 days of delegated powers on security and El Niño (Ley 32743, 2026-10-22) and has used them in D. Leg. 1742, 1745, 1746, 1747 and 1748. Each decree alone is context or discard against its own topic; together they meet `started` for "Plan de Emergencia… a través de la delegación de facultades legislativas". Evidence cites D. Leg. 1748. Misses: 90 not 60 days, shared with El Niño, no Plan de Emergencia document, no security D.U. yet. Lesson: judge a package of acts against the promise about the package, not only each act against its topic. The Congress law alone would be wrong actor; the Executive's decrees under it are not.
+
+### #762 — D. Leg. 1748: context for the prison commitments (2026-11-27)
+Makes the Sistema Penitenciario Nacional a functional system led by MINJUSDH, assigns sector roles, orders a reglamento in 60 days; reverses the SUNIR design (D. Leg. 1710). Governance only: no APP prisons (`t1-1.P34`), signal blocking (`t1-1.P35`), "Manos que Reparan" (`t1-1.P37`), work regime (`t1-1.P38`) or workshops for public purchases (`t1-1.P42`).
+
+### #745 — D. Leg. 1745: context, below `t1-1.P32` (2026-11-27)
+MINDEF formulates and executes prison-infrastructure investment nationwide; art. 3-A.4 keeps administration and custody with Justice. No project approved, and the plan wants Armed Forces administration. Same lesson as #686.
+
+### #763 — D.S. 006-2026-MIDIS: context, below `t3-3.P04` (2026-11-27)
+National territorial nominal tracking from gestation, on the existing Padrón Nominal (<6) and RIS, run by local governments, progressive. Adds pregnant women, but no new padrón, no real time, no RENIEC/SIS link. Medium; the editor kept it as context (the #713 partial-coverage policy was not applied because the promise names specific features).
+
+### #747 — D.U. 019-2026: context, below `t2-5.P18` and `t2-5.P21` (2026-11-27)
+One-off S/ 1 500 El Niño bonus for artisanal fishermen via FONDEPES, plus FONDEMI credit cover. Crisis support is the fund's object, but the promise is a permanent fund with mixed financing; a single public subsidy is below `started`.
+
+### #754 — D.S. 027-2026-EM: context for `t2-3.P07` (2026-11-27)
+Border-zone necessity declaration unblocking the Puerto Maldonado–Iberia 138 kV line (awarded April 2021, contract July 2021). Real unblocking of one inherited project in the oriente, no works, against a USD 3 000 million portfolio. Medium.
+
+### #730 — D.S. 006-2026-MIMP: discard «no tiene relación» (2026-11-27)
+Reorganization of MIMP and its programs for 60 days. The 2026-11-17 reform-opening policy needs a promise to reform *that* body; the plan has none for MIMP.
+
 ### Reviewed 2026-11-17 (32 candidates, #689–#727)
 
 ### #720 — D.S. 018-2026-JUS: in progress for `t1-1.P28`, `t1-4.P10` (2026-11-17, editor's call)
