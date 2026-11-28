@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:22:21+00:00",
+ "generated": "2026-11-28T13:56:22+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -10,13 +10,6 @@
  ],
  "ministers": {
   "alfonso-carlos-espa-y-garces-alvear": [
-   {
-    "title": "Canciller Espá deberá explicar ante el Congreso fallas en la misa del Papa León XIV en Las Palmas",
-    "url": "https://gestion.pe/peru/politica/canciller-espa-debera-explicar-adhesion-al-escudo-de-las-americas-y-gastos-por-visita-del-papa-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-27T12:15:00+00:00",
-    "matched_in": "title"
-   },
    {
     "title": "Carlos Espá presentará informe técnico ante el Senado y Diputados por fallas en misa del papa",
     "url": "https://larepublica.pe/politica/2026/11/26/carlos-espa-presentara-informe-tecnico-ante-el-senado-y-diputados-por-fallas-en-misa-del-papa-hnews-2522546",
@@ -48,6 +41,15 @@
     "matched_in": "title"
    }
   ],
+  "luis-williams-dyer-fernandez": [
+   {
+    "title": "Ministro de Salud ofrece teleconsulta las 24 horas en Piura pese a que región tiene cortes de luz por las lluvias",
+    "url": "https://larepublica.pe/politica/2026/11/28/ministro-de-salud-ofrece-teleconsulta-las-24-horas-en-piura-pese-a-que-region-tiene-cortes-de-luz-por-las-lluvias-hnews-1153089",
+    "source": "La República",
+    "published": "2026-11-28T13:28:57+00:00",
+    "matched_in": "title"
+   }
+  ],
   "luis-fernando-galarreta-velarde": [
    {
     "title": "Keiko Fujimori ya no viajará a Colombia: mandataria posterga viaje ante emergencia por FEN",
@@ -66,16 +68,23 @@
     "matched_in": "summary"
    }
   ],
-  "luis-williams-dyer-fernandez": [
+  "marco-antonio-vinelli-ruiz": [
    {
-    "title": "Ministerio de Salud: Pacientes graves con dengue serán derivados a Lima por falta de camas UCI en Lambayeque",
-    "url": "https://rpp.pe/peru/actualidad/ministerio-de-salud-pacientes-graves-con-dengue-seran-derivados-a-lima-por-falta-de-camas-uci-en-lambayeque-noticia-1720190",
+    "title": "Keiko Fujimori llegó a Piura para supervisar las labores de emergencia por las fuertes luvias en la región [VIDEO]",
+    "url": "https://rpp.pe/peru/piura/keiko-fujimori-llego-a-piura-para-supervisar-las-labores-de-emergencia-por-las-fuertes-luvias-en-la-region-video-noticia-1720213",
     "source": "RPP",
-    "published": "2026-11-27T17:18:46-05:00",
-    "matched_in": "title"
+    "published": "2026-11-27T21:30:13-05:00",
+    "matched_in": "summary"
    }
   ],
   "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Keiko Fujimori anuncia bonos para familias damnificadas por lluvias en Piura: \"Espero que sea lo más pronto posible\"",
+    "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-anuncia-bonos-para-familias-damnificadas-por-lluvias-en-piura-noticia-1720216",
+    "source": "RPP",
+    "published": "2026-11-27T21:50:24-05:00",
+    "matched_in": "summary"
+   },
    {
     "title": "Sunat, Sunafil e Indecopi: los siguientes pasos, según el MEF",
     "url": "https://gestion.pe/economia/sunat-sunafil-e-indecopi-los-siguientes-pasos-segun-el-mef-noticia/",
