@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T14:44:58+00:00",
+ "generated": "2026-11-28T00:22:21+00:00",
  "window_days": 7,
  "sources": [
   "El Comercio",
@@ -18,20 +18,6 @@
     "matched_in": "title"
    },
    {
-    "title": "Bolivia busca usar puertos peruanos para sus exportaciones: la agenda del Gabinete Binacional",
-    "url": "https://gestion.pe/economia/bolivia-busca-usar-puertos-peruanos-para-sus-exportaciones-la-agenda-del-gabinete-binacional-noticia/",
-    "source": "Gestión",
-    "published": "2026-11-27T02:30:00+00:00",
-    "matched_in": "summary"
-   },
-   {
-    "title": "Carlos Espá confirma asistencia a la Cámara de Diputados ante fallas en la misa del papa León XIV en Lima",
-    "url": "https://www.infobae.com/peru/2026/11/27/carlos-espa-confirma-asistencia-a-la-camara-de-diputados-ante-fallas-en-la-misa-del-papa-leon-xiv-en-lima/",
-    "source": "Infobae",
-    "published": "2026-11-27T01:55:38+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Carlos Espá presentará informe técnico ante el Senado y Diputados por fallas en misa del papa",
     "url": "https://larepublica.pe/politica/2026/11/26/carlos-espa-presentara-informe-tecnico-ante-el-senado-y-diputados-por-fallas-en-misa-del-papa-hnews-2522546",
     "source": "La República",
@@ -46,24 +32,10 @@
     "matched_in": "title"
    },
    {
-    "title": "Canciller Carlos Espá responderá el martes 1 de diciembre ante diputados por fallas en la misa del papa León XIV",
-    "url": "https://www.infobae.com/peru/2026/11/26/canciller-carlos-espa-respondera-el-martes-1-de-diciembre-ante-diputados-por-fallas-en-la-misa-del-papa-leon-xiv/",
-    "source": "Infobae",
-    "published": "2026-11-26T22:13:44+00:00",
-    "matched_in": "title"
-   },
-   {
     "title": "Canciller deberá acudir al Pleno de la Cámara de Diputados el próximo martes para explicar fallas técnicas en misa en Las Palmas",
     "url": "https://elcomercio.pe/politica/congreso/camara-de-diputados-aprueba-invitar-a-canciller-carlos-espa-para-que-informe-ante-el-pleno-sobre-fallas-en-misa-de-las-palmas-ultimas-noticia/",
     "source": "El Comercio",
     "published": "2026-11-26T20:58:41+00:00",
-    "matched_in": "title"
-   },
-   {
-    "title": "Senado: Comisión de Constitución cita al canciller Carlos Espá para este 1 de diciembre",
-    "url": "https://elcomercio.pe/politica/congreso/senado-comision-de-constitucion-cita-al-canciller-carlos-espa-para-este-1-de-diciembre-ultimas-noticia/",
-    "source": "El Comercio",
-    "published": "2026-11-25T13:37:19+00:00",
     "matched_in": "title"
    }
   ],
@@ -74,13 +46,15 @@
     "source": "El Comercio",
     "published": "2026-11-26T16:28:43+00:00",
     "matched_in": "title"
-   },
+   }
+  ],
+  "luis-fernando-galarreta-velarde": [
    {
-    "title": "Gobierno avanza con Cálidda, pero Gasoducto sur sin hoja de ruta concreta: \"No hay plazos; es lo que ProInversión tiene que hacer\", afirma Shinno",
-    "url": "https://rpp.pe/economia/economia/gobierno-avanza-con-calidda-pero-gasoducto-sur-sin-hoja-de-ruta-concreta-no-hay-plazos-es-lo-que-proinversion-tiene-que-hacer-afirma-shinno-noticia-1719578",
-    "source": "RPP",
-    "published": "2026-11-24T18:45:58-05:00",
-    "matched_in": "title"
+    "title": "Keiko Fujimori ya no viajará a Colombia: mandataria posterga viaje ante emergencia por FEN",
+    "url": "https://larepublica.pe/politica/2026/11/27/keiko-fujimori-ya-no-viajara-a-colombia-mandataria-posterga-viaje-ante-emergencia-por-fen-hnews-371709",
+    "source": "La República",
+    "published": "2026-11-27T20:45:38+00:00",
+    "matched_in": "summary"
    }
   ],
   "cesar-augusto-astudillo-salcedo": [
@@ -92,12 +66,21 @@
     "matched_in": "summary"
    }
   ],
-  "rafael-jorge-belaunde-llosa": [
+  "luis-williams-dyer-fernandez": [
    {
-    "title": "Ministro de Defensa pide a autoridades de Piura ceder motobombas al Ejército: “Contamos con capacidad logística mayor”",
-    "url": "https://rpp.pe/peru/actualidad/ministro-de-defensa-pide-a-autoridades-locales-ceder-motobombas-al-ejercito-contamos-con-capacidad-logistica-mayor-noticia-1720069",
+    "title": "Ministerio de Salud: Pacientes graves con dengue serán derivados a Lima por falta de camas UCI en Lambayeque",
+    "url": "https://rpp.pe/peru/actualidad/ministerio-de-salud-pacientes-graves-con-dengue-seran-derivados-a-lima-por-falta-de-camas-uci-en-lambayeque-noticia-1720190",
     "source": "RPP",
-    "published": "2026-11-27T01:24:49-05:00",
+    "published": "2026-11-27T17:18:46-05:00",
+    "matched_in": "title"
+   }
+  ],
+  "elmer-rafael-cuba-bustinza": [
+   {
+    "title": "Sunat, Sunafil e Indecopi: los siguientes pasos, según el MEF",
+    "url": "https://gestion.pe/economia/sunat-sunafil-e-indecopi-los-siguientes-pasos-segun-el-mef-noticia/",
+    "source": "Gestión",
+    "published": "2026-11-27T23:05:35+00:00",
     "matched_in": "title"
    }
   ]
